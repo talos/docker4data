@@ -1,0 +1,21 @@
+/*LOAD CSV FROM stdin
+    INTO postgresql:///acris?acris_real_master
+    WITH skip header = 1,
+         fields terminated by ',';*/
+
+LOAD CSV FROM stdin
+    INTO postgresql:///acris?acris_real_parties
+    WITH skip header = 1,
+         fields terminated by ',';
+
+/*
+LOAD CSV FROM '/raw/legals.csv'
+    INTO postgresql://docker4data:password@localhost:5432/postgres?acris_real_legals
+    WITH skip header = 1,
+         fields terminated by ',';
+
+LOAD CSV FROM '/raw/references.csv'
+    INTO postgresql://docker4data:password@localhost:5432/postgres?acris_real_references
+    WITH skip header = 1,
+         fields terminated by ',';
+*/

@@ -1,0 +1,84 @@
+#
+# Experimental NYC ACRIS datafile for docker4data
+#
+# https://github.com/talos/docker4data
+#
+
+FROM debian:wheezy
+MAINTAINER John Krauss <irving.krauss@gmail.com>
+
+RUN apt-get update --fix-missing && apt-get -y dist-upgrade
+RUN apt-get install -yqq freetds-dev wget openssl ca-certificates apt-transport-https
+
+ENV LANG en_US.UTF8
+ENV LC_ALL en_US.UTF8
+ENV LANGUAGE en_US.UTF8
+
+RUN echo "===> add user and group to make sure their IDs get assigned consistently" && \
+  groupadd -r postgres && useradd -r -g postgres postgres && \
+  \
+  \
+  echo "===> grab gosu for easy step-down from root" && \
+  wget -O /usr/local/bin/gosu \
+      https://github.com/tianon/gosu/releases/download/1.1/gosu  && \
+  chmod +x /usr/local/bin/gosu && \
+  \
+  \
+  echo "make en_US.UTF-8 locale so postgres will be utf-8 enabled by default" && \
+  apt-get install -y locales && \
+  localedef -i en_US -c -f UTF-8 -A /usr/share/locale/locale.alias en_US.UTF-8
+
+RUN echo "===> install postgres" && \
+  echo "deb http://apt.postgresql.org/pub/repos/apt/ wheezy-pgdg main" | tee \
+    /etc/apt/sources.list.d/wheezy-pgdg.list  && \
+  wget -q -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | \
+    apt-key add - && \
+  apt-get update && \
+  apt-get install -y postgresql-common && \
+  sed -ri 's/#(create_main_cluster) .*$/\1 = false/' /etc/postgresql-common/createcluster.conf && \
+  apt-get install -y postgresql-9.3-postgis-2.1 postgresql-contrib pgtune && \
+  \
+  \
+  echo "===> clean up" && \
+  apt-get clean && \
+  rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* && \
+  \
+  \
+  echo "===> setup"
+
+RUN echo "===> install pgloader" && \
+  echo "deb http://ftp.debian.org/debian sid main" | tee \
+    /etc/apt/sources.list.d/sid.list && \
+  apt-get update && \
+  apt-get install -y libc6 && \
+  wget -q "http://pgloader.io/files/pgloader_3.2.0+dfsg-1_amd64.deb" && \
+  dpkg -i "pgloader_3.2.0+dfsg-1_amd64.deb"
+
+RUN localedef -i en_US -c -f UTF-8 -A /usr/share/locale/locale.alias en_US.UTF-8
+
+RUN mkdir -p /var/run/postgresql && chown -R postgres /var/run/postgresql
+
+ENV PATH /usr/lib/postgresql/9.3/bin:$PATH
+
+RUN mkdir /data
+RUN mkdir /raw
+
+COPY docker-entrypoint.sh /
+COPY start.sh /
+COPY schema.sql /
+COPY pgloader.load /
+COPY createdb.sh /
+COPY populatedb.sh /
+
+ADD data/* /csv/
+
+RUN /createdb.sh
+RUN /populatedb.sh
+
+CMD "/docker-entrypoint.sh"
+
+#ADD data/legals.csv.gz /raw/
+#ADD data/master.csv.gz /raw/
+#ADD data/parties.csv.gz /raw/
+#ADD data/references.csv.gz /raw/
+#ADD data/remarks.csv.gz /raw/
