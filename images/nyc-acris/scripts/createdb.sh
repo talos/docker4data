@@ -16,6 +16,9 @@ if [ -z "$(ls -A "$PGDATA")" ]; then
   pgtune -T Web -i "$PGDATA"/postgresql.conf > "$PGDATA"/local.conf
   { echo; echo "include = 'local.conf'"; } >> "$PGDATA"/postgresql.conf
 
+  echo "checkpoint_segments = 64" >> "$PGDATA"/postgresql.conf
+  echo "checkpoint_completion_target = 0.9" >> "$PGDATA"/postgresql.conf
+
   gosu postgres pg_ctl -w start 
 
   if [ -n "$POSTGRES_DB" ]; then 

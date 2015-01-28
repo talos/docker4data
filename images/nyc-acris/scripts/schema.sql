@@ -2,7 +2,7 @@
 /* To run: psql acris < schema.sql */
 
 BEGIN TRANSACTION;
-CREATE TABLE "master" (
+CREATE TABLE "acris_master" (
 	"Document ID"	TEXT,
 	"Record_type"	TEXT,
 	"CRFN"	BIGINT,
@@ -16,13 +16,13 @@ CREATE TABLE "master" (
 	"Reel_nbr"	INTEGER,
 	"Reel_pg"	INTEGER,
 	"Percent_trans"	REAL,
-	"Good_through date"	TEXT,
-	PRIMARY KEY ("Document ID", "Good_through date")
+	"Good_through date"	TEXT
+	--, PRIMARY KEY ("Document ID", "Good_through date")
 );
 END TRANSACTION;
 
 BEGIN TRANSACTION;
-CREATE TABLE "references" (
+CREATE TABLE "acris_references" (
 	"Document ID"	TEXT,
 	"Record_type"	TEXT,
 	"CRFN"	TEXT,
@@ -31,16 +31,16 @@ CREATE TABLE "references" (
 	"Reel_borough"	INTEGER,
 	"Reel_nbr"	INTEGER,
 	"Reel_pg"	INTEGER,
-	"Good_through date"	TEXT,
-	FOREIGN KEY ("Document ID", "Good_through date")
-		REFERENCES "master" ("Document ID", "Good_through date"),
-	FOREIGN KEY ("Doc_id_ref", "Good_through date")
-		REFERENCES "master" ("Document ID", "Good_through date")
+	"Good_through date"	TEXT
+	-- , FOREIGN KEY ("Document ID", "Good_through date")
+	-- 	REFERENCES "acris_master" ("Document ID", "Good_through date"),
+	-- FOREIGN KEY ("Doc_id_ref", "Good_through date")
+	-- 	REFERENCES "acris_master" ("Document ID", "Good_through date")
 );
 END TRANSACTION;
 
 BEGIN TRANSACTION;
-CREATE TABLE "parties" (
+CREATE TABLE "acris_parties" (
 	"Document ID"	TEXT,
 	"Record_type"	TEXT,
 	"Party_type"	SMALLINT,
@@ -51,14 +51,14 @@ CREATE TABLE "parties" (
 	"City"	TEXT,
 	"State"	TEXT,
 	"Zip"	TEXT,
-	"Good_through date"	TEXT,
-	FOREIGN KEY ("Document ID", "Good_through date")
-		REFERENCES "master" ("Document ID", "Good_through date")
+	"Good_through date"	TEXT
+	--, FOREIGN KEY ("Document ID", "Good_through date")
+	--	REFERENCES "acris_master" ("Document ID", "Good_through date")
 );
 END TRANSACTION;
 
 BEGIN TRANSACTION;
-CREATE TABLE "legals" (
+CREATE TABLE "acris_legals" (
 	"Document ID"	TEXT,
 	"Record_type"	TEXT,
 	"Borough"	SMALLINT,
@@ -72,19 +72,14 @@ CREATE TABLE "legals" (
 	"Street_number"	TEXT,
 	"Street_Name"	TEXT,
 	"Addr_unit"	TEXT,
-	"Good_through date"	TEXT,
-	FOREIGN KEY ("Document ID", "Good_through date")
-		REFERENCES "master" ("Document ID", "Good_through date")
+	"Good_through date"	TEXT
+	--, FOREIGN KEY ("Document ID", "Good_through date")
+	--	REFERENCES "acris_master" ("Document ID", "Good_through date")
 );
 END TRANSACTION;
 
 BEGIN TRANSACTION;
-CREATE INDEX BBLE ON "legals"
-    ("Borough", "Block", "Lot", "Easement");
-END TRANSACTION;
-
-BEGIN TRANSACTION;
-CREATE TABLE "remarks" (
+CREATE TABLE "acris_remarks" (
 	"Document ID"	TEXT,
 	"Record_type"	TEXT,
 	"Reference by CRFN"	TEXT,
@@ -93,13 +88,8 @@ CREATE TABLE "remarks" (
 	"Reference by Reel Borough"	TEXT,
 	"Reference by Reel Nbr"	TEXT,
 	"Reference by Reel Page"	TEXT,
-	"Good_through date"	TEXT,
-	FOREIGN KEY ("Document ID", "Good_through date")
-		REFERENCES "master" ("Document ID", "Good_through date")
+	"Good_through date"	TEXT
+	--, FOREIGN KEY ("Document ID", "Good_through date")
+	--	REFERENCES "acris_master" ("Document ID", "Good_through date")
 );
-END TRANSACTION;
-
-BEGIN TRANSACTION;
-CREATE INDEX BBLE ON "legals"
-    ("Borough", "Block", "Lot", "Easement");
 END TRANSACTION;

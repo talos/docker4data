@@ -61,21 +61,19 @@ RUN mkdir -p /var/run/postgresql && chown -R postgres /var/run/postgresql
 ENV PATH /usr/lib/postgresql/9.3/bin:$PATH
 
 RUN mkdir /data
-RUN mkdir /raw
+RUN mkdir /csv
+RUN mkdir /scripts
 
-COPY docker-entrypoint.sh /
-COPY start.sh /
-COPY schema.sql /
-COPY pgloader.load /
-COPY createdb.sh /
-COPY populatedb.sh /
+COPY scripts /scripts
+RUN /scripts/createdb.sh
 
-ADD data/* /csv/
+VOLUME ["/csv"]
 
-RUN /createdb.sh
-RUN /populatedb.sh
+#ADD data/* /csv/
 
-CMD "/docker-entrypoint.sh"
+#RUN /populatedb.sh
+
+ENTRYPOINT "/scripts/docker-entrypoint.sh"
 
 #ADD data/legals.csv.gz /raw/
 #ADD data/master.csv.gz /raw/
