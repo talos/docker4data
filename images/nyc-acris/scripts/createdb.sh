@@ -13,11 +13,8 @@ if [ -z "$(ls -A "$PGDATA")" ]; then
   sed -ri "s/^#(listen_addresses\s*=\s*)\S+/\1'*'/" "$PGDATA"/postgresql.conf
   { echo; echo 'host all all 0.0.0.0/0 md5'; } >> "$PGDATA"/pg_hba.conf
 
-  pgtune -T Web -i "$PGDATA"/postgresql.conf > "$PGDATA"/local.conf
-  { echo; echo "include = 'local.conf'"; } >> "$PGDATA"/postgresql.conf
-
-  echo "checkpoint_segments = 64" >> "$PGDATA"/postgresql.conf
-  echo "checkpoint_completion_target = 0.9" >> "$PGDATA"/postgresql.conf
+  #pgtune -T Web -i "$PGDATA"/postgresql.conf > "$PGDATA"/local.conf
+  #{ echo; echo "include = 'local.conf'"; } >> "$PGDATA"/postgresql.conf
 
   gosu postgres pg_ctl -w start 
 

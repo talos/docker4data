@@ -4,38 +4,29 @@ ALTER TABLE acris_master
 END TRANSACTION;
 
 BEGIN TRANSACTION;
-ALTER TABLE acris_references
-      ADD CONSTRAINT "acris_references_master_id"
-          FOREIGN KEY ("Document ID", "Good_through date");
-          REFERENCES "acris_master" ("Document ID", "Good_through date"),
-      ADD CONSTRAINT "acris_references_master_ref"
-          FOREIGN KEY ("Doc_id_ref", "Good_through date");
-          REFERENCES "acris_master" ("Document ID", "Good_through date");
+CREATE INDEX ON acris_references ("Document ID", "Good_through date");
+--ALTER TABLE acris_references
+--      ADD CONSTRAINT "acris_references_master_id"
+--          FOREIGN KEY ("Document ID", "Good_through date")
+--          REFERENCES "acris_master" ("Document ID", "Good_through date"),
+--      ADD CONSTRAINT "acris_references_master_ref"
+--          FOREIGN KEY ("Doc_id_ref", "Good_through date")
+--          REFERENCES "acris_master" ("Document ID", "Good_through date");
 END TRANSACTION;
 
 BEGIN TRANSACTION;
-ALTER TABLE acris_parties
-      ADD CONSTRAINT "acris_parties_master"
-          FOREIGN KEY ("Document ID", "Good_through date");
-          REFERENCES "acris_master" ("Document ID", "Good_through date");
+CREATE INDEX ON acris_parties ("Document ID", "Good_through date");
+      --ADD CONSTRAINT "acris_parties_master"
+      --    FOREIGN KEY ("Document ID", "Good_through date")
+      --    REFERENCES "acris_master" ("Document ID", "Good_through date");
 END TRANSACTION;
 
 BEGIN TRANSACTION;
-ALTER TABLE acris_legals
-      ADD CONSTRAINT "acris_legals_master"
-          FOREIGN KEY ("Document ID", "Good_through date")
-          REFERENCES "acris_master" ("Document ID", "Good_through date")
-      ADD PRIMARY KEY ("Document ID", "Good_through date"),
-      ADD INDEX BBLE ("Borough", "Block", "Lot", "Easement");
-END TRANSACTION;
-
-BEGIN TRANSACTION;
-ALTER TABLE acris_legals
-      ADD CONSTRAINT "acris_legals_master"
-          FOREIGN KEY ("Document ID", "Good_through date")
-          REFERENCES "acris_master" ("Document ID", "Good_through date")
-      ADD PRIMARY KEY ("Document ID", "Good_through date"),
-      ADD INDEX BBLE ("Borough", "Block", "Lot", "Easement");
+CREATE INDEX ON acris_legals ("Document ID", "Good_through date");
+CREATE INDEX ON acris_legals ("Borough", "Block", "Lot", "Easement");
+      --ADD CONSTRAINT "acris_legals_master"
+      --    FOREIGN KEY ("Document ID", "Good_through date")
+      --    REFERENCES "acris_master" ("Document ID", "Good_through date"),
 END TRANSACTION;
 
 VACUUM acris_master;

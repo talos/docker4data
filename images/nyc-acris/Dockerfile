@@ -54,6 +54,8 @@ RUN echo "===> install pgloader" && \
   wget -q "http://pgloader.io/files/pgloader_3.2.0+dfsg-1_amd64.deb" && \
   dpkg -i "pgloader_3.2.0+dfsg-1_amd64.deb"
 
+RUN rm /pgloader_3.2.0+dfsg-1_amd64.deb
+
 RUN localedef -i en_US -c -f UTF-8 -A /usr/share/locale/locale.alias en_US.UTF-8
 
 RUN mkdir -p /var/run/postgresql && chown -R postgres /var/run/postgresql
@@ -66,6 +68,8 @@ RUN mkdir /scripts
 
 COPY scripts /scripts
 RUN /scripts/createdb.sh
+
+RUN chown -R postgres /scripts
 
 VOLUME ["/csv"]
 
