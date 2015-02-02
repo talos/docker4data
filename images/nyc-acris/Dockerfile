@@ -25,9 +25,7 @@ RUN echo "===> add user and group to make sure their IDs get assigned consistent
   \
   \
   echo "make en_US.UTF-8 locale so postgres will be utf-8 enabled by default" && \
-  apt-get install -y locales && \
-  localedef -i en_US -c -f UTF-8 -A /usr/share/locale/locale.alias en_US.UTF-8
-
+  apt-get install -y locales && \ localedef -i en_US -c -f UTF-8 -A /usr/share/locale/locale.alias en_US.UTF-8 
 RUN echo "===> install postgres" && \
   echo "deb http://apt.postgresql.org/pub/repos/apt/ wheezy-pgdg main" | tee \
     /etc/apt/sources.list.d/wheezy-pgdg.list  && \
