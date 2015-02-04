@@ -4,10 +4,10 @@ set -e
 export PGDATA=/data
 export POSTGRES_USER=root
 
+mkdir "$PGDATA"
 chown -R postgres "$PGDATA"
 
-if [ -z "$(ls -A "$PGDATA")" ]; then
-  echo 'init db'
+if [ -z "$(ls -A "$PGDATA")" ]; then echo 'init db'
   gosu postgres initdb
 
   sed -ri "s/^#(listen_addresses\s*=\s*)\S+/\1'*'/" "$PGDATA"/postgresql.conf
@@ -30,4 +30,3 @@ if [ -d /docker-entrypoint-initdb.d ]; then
     [ -f "$f" ] && . "$f"
   done
 fi
-

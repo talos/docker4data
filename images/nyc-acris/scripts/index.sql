@@ -1,13 +1,13 @@
 BEGIN TRANSACTION;
-ALTER TABLE acris_master ADD PRIMARY KEY ("document_id", "good_through date");
-CREATE INDEX ON acris_master ("doc_type");
+ALTER TABLE acris_master ADD PRIMARY KEY ("document_id", "good_through_date");
+--CREATE INDEX ON acris_master ("doc_type");
 END TRANSACTION;
 
 BEGIN TRANSACTION;
 CREATE INDEX ON acris_references ("document_id", "good_through_date");
 --ALTER TABLE acris_references
 --      ADD CONSTRAINT "acris_references_master_id"
---          FOREIGN KEY ("Document ID", "Good_through date") --          REFERENCES "acris_master" ("Document ID", "Good_through date"),
+--          FOREIGN KEY ("Document ID", "Good_through_date") --          REFERENCES "acris_master" ("Document ID", "Good_through date"),
 --      ADD CONSTRAINT "acris_references_master_ref"
 --          FOREIGN KEY ("Doc_id_ref", "Good_through date")
 --          REFERENCES "acris_master" ("Document ID", "Good_through date");
@@ -38,7 +38,7 @@ END TRANSACTION;
 BEGIN TRANSACTION;
 --INDEX ON pluto ("BoroCode", "Block", "Lot");
 ALTER TABLE pluto ADD PRIMARY KEY ("borocode", "block", "lot");
-CREATE INDEX pluto_geom ON pluto USING GIST ("lonlat");
+--CREATE INDEX pluto_geom ON pluto USING GIST ("lonlat");
 --CREATE INDEX ON pluto (
       --ADD CONSTRAINT "acris_legals_master"
       --    FOREIGN KEY ("Document ID", "Good_through date")
@@ -51,7 +51,7 @@ END TRANSACTION;
 --VACUUM acris_remarks;
 --VACUUM acris_legals;
 
-select "ZipCode", COUNT(*)
+/*select "ZipCode", COUNT(*)
     FROM pluto p
     JOIN acris_legals l ON
         p."BoroCode" = l."Borough" AND
@@ -62,7 +62,7 @@ select "ZipCode", COUNT(*)
 WHERE "Doc_type" IN ('DEED', 'DEEDO')
 GROUP BY "ZipCode"
 ORDER BY "ZipCode";
-WHERE "CD" = 302 AN;
+WHERE "CD" = 302;*/
 --WHERE p."BoroCode" = 3 and p."Block" = 1772 and p."Lot" = 74;
 
 
