@@ -13,6 +13,7 @@ ENV LANGUAGE en_US.UTF8
 ENV PATH /usr/lib/postgresql/9.3/bin:$PATH
 
 COPY scripts /scripts
+COPY conf /conf
 
 RUN scripts/prereqs.sh
 #VOLUME ["/csv"]
