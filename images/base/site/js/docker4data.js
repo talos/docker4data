@@ -1,5 +1,40 @@
 /* jshint browser: true */
-/* globals $, require */
+/* globals $, L, d4d: true */
+
+var d4d = d4d || {};
+d4d.markers = [];
+
+$(document).ready(function () {
+  var map = L.map('map').setView([40.78, -73.97], 11);
+  var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+  var osmAttrib='Map data (c) <a href="http://openstreetmap.org">' +
+                'OpenStreetMap</a> contributors';
+  L.Icon.Default.imagePath = '/images';
+
+  L.tileLayer(osmUrl, {
+    attribution: osmAttrib,
+    maxZoom: 18
+  }).addTo(map);
+
+  d4d.map = map;
+});
+
+/* jshint browser: true */
+/* globals L, $, require, d4d: true */
+
+var d4d = d4d || {};
+
+function showMarkers(data) {
+  var map = d4d.map;
+  for (var i = 0; i < d4d.markers.length; i += 1) {
+    map.removeLayer(d4d.markers[i]);
+  }
+  d4d.markers = [];
+  for (i = 0; i < data.length; i += 1) {
+    var lonlat = data[i].lonlat;
+    map.addLayer(L.marker([lonlat.y, lonlat.x]));
+  }
+}
 
 function wkb2geom(wkbLonlat) {
   var wkx = require('wkx');
@@ -8,7 +43,7 @@ function wkb2geom(wkbLonlat) {
   // Split WKB into array of integers (necessary to turn it into buffer)
   var hexAry = wkbLonlat.match(/.{2}/g);
   var intAry = [];
-  for (var i in hexAry) {
+  for (var i = 0; i < hexAry.length; i += 1) {
     intAry.push(parseInt(hexAry[i], 16));
   }
 
@@ -39,16 +74,19 @@ $(document).ready(function () {
 
       for (var i = 0; i < resp.length; i += 1) {
         if (resp[i].lonlat) {
-          resp[i].lonlat = JSON.stringify(wkb2geom(resp[i].lonlat));
+          resp[i].lonlat = wkb2geom(resp[i].lonlat);
         }
       }
-      $('#response').empty();
-      $('#response').append(newTable(resp[0]));
-      $('#response table').bootstrapTable({
+
+      showMarkers(resp);
+
+      $('#table').empty();
+      $('#table').append(newTable(resp[0]));
+      $('#table table').bootstrapTable({
         data: resp
       });
     }).fail(function (/*jqXHR*/) {
-      $('#response').text('error');
+      //$('#response').text('error');
     });
   });
 });

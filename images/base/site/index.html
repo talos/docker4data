@@ -9,13 +9,25 @@
     <div class="container">
       <form id="form">
         <div class="form-group">
-          <textarea id="query" class="form-control">Query here.</textarea>
+          <textarea id="query" class="form-control" placeholder="Query here"></textarea>
           <button id="submit" class="btn btn-default" type="submit">Submit</button>
-          <button id="download" class="btn btn-blue" type="button">Download</button>
-        </div>
-        <div id="response">
+          <!--<button id="download" class="btn btn-blue" type="button">Download</button>-->
         </div>
       </form>
+      <div id="response" role="tabpanel">
+        <ul class="nav nav-tabs" role="tablist">
+          <li role="presentation" class="active">
+            <a href="#table" aria-controls="table" role="tab" data-toggle="tab">Table</a>
+          </li>
+          <li role="presentation">
+            <a href="#map" aria-controls="map" role="tab" data-toggle="tab">Map</a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane active" id="table">table</div>
+          <div role="tabpanel" class="tab-pane" id="map" style="height: 400px"></div>
+        </div>
+      </div>
     </div>
   </body>
 </html>

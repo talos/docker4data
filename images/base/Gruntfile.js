@@ -20,6 +20,11 @@ module.exports = function(grunt) {
           src: ['bower_components/bootstrap/dist/fonts/*'],
           dest: 'site/fonts/',
           flatten: true
+        }, {
+          expand: true,
+          src: ['bower_components/leaflet/dist/images/*'],
+          dest: 'site/images/',
+          flatten: true
         }]
       }
     },

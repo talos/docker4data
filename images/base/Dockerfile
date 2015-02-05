@@ -14,6 +14,7 @@ ENV PATH /usr/lib/postgresql/9.3/bin:$PATH
 
 COPY scripts /scripts
 COPY conf /conf
+COPY site /site
 
 RUN scripts/prereqs.sh
 #VOLUME ["/csv"]
