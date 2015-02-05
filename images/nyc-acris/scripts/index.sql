@@ -37,7 +37,7 @@ END TRANSACTION;
 
 BEGIN TRANSACTION;
 --INDEX ON pluto ("BoroCode", "Block", "Lot");
-ALTER TABLE pluto ADD PRIMARY KEY ("borocode", "block", "lot");
+ALTER TABLE pluto ADD PRIMARY KEY ("borough", "block", "lot");
 --CREATE INDEX pluto_geom ON pluto USING GIST ("lonlat");
 --CREATE INDEX ON pluto (
       --ADD CONSTRAINT "acris_legals_master"

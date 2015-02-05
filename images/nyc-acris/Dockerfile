@@ -4,7 +4,7 @@
 # https://github.com/talos/docker4data
 #
 
-FROM thegovlab/docker4data-base
+FROM thegovlab/docker4data-base:latest
 MAINTAINER John Krauss <irving.krauss@gmail.com>
 
 RUN chown -R postgres /scripts/

@@ -91,7 +91,7 @@ CREATE TABLE "acris_remarks" (
 END TRANSACTION;
 
 BEGIN TRANSACTION;
-create table "pluto" ( "lonlat" geometry, "borough" text, "block"
+create table "pluto" ( "lonlat" geometry, "boroughtext" text, "block"
   integer, "lot" integer, "cd" integer, "ct2010" text,
   "cb2010" integer, "schooldist" integer, "council" integer,
   "zipcode" integer, "firecomp" text, "policeprct" integer,
@@ -112,7 +112,7 @@ create table "pluto" ( "lonlat" geometry, "borough" text, "block"
   "exempttot" bigint, "yearbuilt" integer, "builtcode" text,
   "yearalter1" integer, "yearalter2" integer, "histdist" text,
   "landmark" text, "builtfar" real, "residfar" real, "commfar"
-  real, "facilfar" real, "borocode" integer, "bbl" text, "condono"
+  real, "facilfar" real, "borough" integer, "bbl" text, "condono"
   integer, "tract2010" integer, "xcoord" integer, "ycoord"
   integer, "zonemap" text, "zmcode" text, "sanborn" text, "taxmap"
   integer, "edesignum" text, "appbbl" text, "appdate" text, "plutomapid"
