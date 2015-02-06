@@ -45,6 +45,14 @@ ALTER TABLE pluto ADD PRIMARY KEY ("borough", "block", "lot");
       --    REFERENCES "acris_master" ("Document ID", "Good_through date"),
 END TRANSACTION;
 
+BEGIN TRANSACTION;
+CREATE VIEW acris AS
+SELECT
+  m."document_id", m."crfn", m."recorded_borough", m."doc_type", m."document_date", m."document_amt", m."recorded_datetime", m."modified_date", m."reel_yr", m."reel_nbr", m."reel_pg", m."percent_trans", p."party_type", p."name", p."addr1", p."addr2", p."country", p."city", p."state", p."zip", l."borough", l."block", l."lot", l."easement", l."partial_lot", l."air_rights", l."subterranean_rights", l."property_type", l."street_number", l."street_name", l."addr_unit", pl."lonlat", pl."boroughtext", pl."cd", pl."ct2010", pl."cb2010", pl."schooldist", pl."council", pl."zipcode", pl."firecomp", pl."policeprct", pl."address", pl."zonedist1", pl."zonedist2", pl."zonedist3", pl."zonedist4", pl."overlay1", pl."overlay2", pl."spdist1", pl."spdist2", pl."ltdheight", pl."allzoning1", pl."allzoning2", pl."splitzone", pl."bldgclass", pl."landuse", pl."easements", pl."ownertype", pl."ownername", pl."lotarea", pl."bldgarea", pl."comarea", pl."resarea", pl."officearea", pl."retailarea", pl."garagearea", pl."strgearea", pl."factryarea", pl."otherarea", pl."areasource", pl."numbldgs", pl."numfloors", pl."unitsres", pl."unitstotal", pl."lotfront", pl."lotdepth", pl."bldgfront", pl."bldgdepth", pl."ext", pl."proxcode", pl."irrlotcode", pl."lottype", pl."bsmtcode", pl."assessland", pl."assesstot", pl."exemptland", pl."exempttot", pl."yearbuilt", pl."builtcode", pl."yearalter1", pl."yearalter2", pl."histdist", pl."landmark", pl."builtfar", pl."residfar", pl."commfar", pl."facilfar", pl."bbl", pl."condono", pl."tract2010", pl."xcoord", pl."ycoord", pl."zonemap", pl."zmcode", pl."sanborn", pl."taxmap", pl."edesignum", pl."appbbl", pl."appdate", pl."plutomapid", pl."version"
+FROM
+acris_master m, acris_parties p, acris_legals l, pluto pl;
+END TRANSACTION;
+
 --VACUUM acris_master;
 --VACUUM acris_parties;
 --VACUUM acris_references;

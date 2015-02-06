@@ -36,6 +36,9 @@ time docker commit -m 'adding pluto' acris-build
 echo "Adding indexes"
 time docker exec acris-build gosu postgres psql -f /scripts/index.sql
 echo "Committing indexes"
-time docker commit -m 'adding indexes' acris-build
+time docker commit -m 'adding indexes' acris-build thegovlab/docker4data-acris:latest
 
 docker stop acris-build
+docker rm acris-build
+
+docker push thegovlab/docker4data-acris:latest
