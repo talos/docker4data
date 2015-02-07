@@ -8,9 +8,9 @@
 
 SELECT
   --COUNT(DISTINCT cast(borough as bigint) * 1000000000 + block * 10000 + lot) AS cnt,
-  COUNT(DISTINCT document_id),
+  COUNT(DISTINCT m.document_id) cnt,
   addr1, addr2, STRING_AGG(name, ',')
-FROM acris_master, acris_parties --, acris_legals
+FROM acris_master m, acris_parties --, acris_legals
 WHERE doc_type IN ('DEED', 'DEEDO')
 GROUP BY addr1, addr2
 ORDER BY cnt DESC
