@@ -5,15 +5,17 @@
  * address.  Which filing address was used to purchase the most properties last
  * year?
  */
+  --COUNT(DISTINCT cast(borough as bigint) * 1000000000 + block * 10000 + lot) AS cnt,
 
 SELECT
-  --COUNT(DISTINCT cast(borough as bigint) * 1000000000 + block * 10000 + lot) AS cnt,
   COUNT(DISTINCT m.document_id) cnt,
-  addr1, addr2, STRING_AGG(name, ',')
-  FROM acris_master m, acris_parties --, acris_legals
+  addr1, addr2, STRING_AGG(DISTINCT name, '; ')
+  FROM acris_master m, acris_parties p
   WHERE doc_type IN ('DEED', 'DEEDO')
     AND DATE_PART('year', document_date) = 2014
     AND party_type = 2
+    AND m.document_id = p.document_id
   GROUP BY addr1, addr2
   ORDER BY cnt DESC
   LIMIT 20;
+
