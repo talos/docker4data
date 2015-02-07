@@ -11,7 +11,9 @@ function showMarkers(data) {
   d4d.markers = [];
   for (i = 0; i < data.length; i += 1) {
     var lonlat = data[i].lonlat;
-    map.addLayer(L.marker([lonlat.y, lonlat.x]));
+    if (lonlat) {
+      map.addLayer(L.marker([lonlat.y, lonlat.x]));
+    }
   }
 }
 
