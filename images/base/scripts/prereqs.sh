@@ -59,7 +59,7 @@ echo "===> install openresty" && \
   make && \
   make install && \
   echo "===> clean up" && \
-  rm -rf ngx_openresty*
+  rm -rf ngx_openresty-1.7.7.1.tar.gz ngx_openresty-1.7.7.1
   #apt-get remove -y libreadline-dev libncurses5-dev libpcre3-dev libssl-dev \
   #    perl make build-essential && \
   #apt-get clean
