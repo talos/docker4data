@@ -59,12 +59,19 @@ echo "===> install openresty" && \
   make && \
   make install && \
   echo "===> clean up" && \
-  rm -rf ngx_openresty* && \
+  rm -rf ngx_openresty*
   #apt-get remove -y libreadline-dev libncurses5-dev libpcre3-dev libssl-dev \
   #    perl make build-essential && \
   #apt-get clean
 
 mkdir -p /var/run/postgresql && chown -R postgres /var/run/postgresql
+
+echo "===> install postgis" && \
+    gosu postgres pg_ctl -D /data -w start && \
+    gosu postgres psql < /usr/share/postgresql/9.3/contrib/postgis-2.1/postgis.sql && \
+    gosu postgres psql < /usr/share/postgresql/9.3/contrib/postgis-2.1/spatial_ref_sys.sql && \
+    gosu postgres psql < /scripts/schema.sql && \
+    gosu postgres pg_ctl -D /data stop
 
 #apt-get remove -y freetds-dev wget openssl ca-certificates \
 #  apt-transport-https

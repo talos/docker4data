@@ -17,20 +17,5 @@ COPY conf /conf
 COPY site /site
 
 RUN scripts/prereqs.sh
-#VOLUME ["/csv"]
-
-#RUN /scripts/createdb.sh
-#
-#RUN chown -R postgres /scripts
-
-#ADD data/* /csv/
-
-#RUN /populatedb.sh
 
 ENTRYPOINT "/scripts/docker-entrypoint.sh"
-
-#ADD data/legals.csv.gz /raw/
-#ADD data/master.csv.gz /raw/
-#ADD data/parties.csv.gz /raw/
-#ADD data/references.csv.gz /raw/
-#ADD data/remarks.csv.gz /raw/
