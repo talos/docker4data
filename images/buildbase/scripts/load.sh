@@ -9,9 +9,9 @@ while getopts "us:" opt; do
   esac
 done
 
-psql < /csv/${TABLE}.schema
+gosu postgres psql < /csv/${TABLE}.schema
 
-echo "
+gosu postgres echo "
 LOAD CSV FROM stdin
   INTO postgresql://postgres@localhost/postgres?$TABLE
   WITH skip header = 1,
@@ -19,9 +19,9 @@ LOAD CSV FROM stdin
 " | tee /scripts/pgloader.load
 
 if [ $UNIQUE ]; then
-  tail -n +2 $INFILE | sort | uniq | pgloader /scripts/pgloader.load
+  gosu postgres tail -n +2 $INFILE | sort | uniq | pgloader /scripts/pgloader.load
 else
-  tail -n +2 $INFILE | pgloader /scripts/pgloader.load
+  gosu postgres tail -n +2 $INFILE | pgloader /scripts/pgloader.load
 fi
 
 exit 0

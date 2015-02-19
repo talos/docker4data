@@ -1,9 +1,21 @@
-#!/bin/bash
+#
+# Docker4Data build image -- use this as a build tool
+#
+# https://github.com/talos/docker4data
+#
 
-apt-get update --fix-missing
-apt-get install -y freetds-dev wget openssl ca-certificates apt-transport-https
+FROM debian:wheezy
+MAINTAINER John Krauss <irving.krauss@gmail.com>
 
-echo "===> add user and group to make sure their IDs get assigned consistently" && \
+ENV LANG en_US.UTF8
+ENV LC_ALL en_US.UTF8
+ENV LANGUAGE en_US.UTF8
+ENV PATH /usr/lib/postgresql/9.3/bin:$PATH
+
+RUN apt-get update --fix-missing
+RUN apt-get install -y freetds-dev wget openssl ca-certificates apt-transport-https
+
+RUN echo "===> add user and group to make sure their IDs get assigned consistently" && \
   groupadd -r postgres && useradd -r -g postgres postgres && \
   \
   \
@@ -17,7 +29,7 @@ echo "===> add user and group to make sure their IDs get assigned consistently" 
   apt-get install -y locales && \
   localedef -i en_US -c -f UTF-8 -A /usr/share/locale/locale.alias en_US.UTF-8
 
-echo "===> install postgres" && \
+RUN echo "===> install postgres" && \
   echo "deb http://apt.postgresql.org/pub/repos/apt/ wheezy-pgdg main" | tee \
     /etc/apt/sources.list.d/wheezy-pgdg.list  && \
   wget -q -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | \
@@ -32,7 +44,7 @@ echo "===> install postgres" && \
   apt-get clean && \
   rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-echo "===> install pgloader" && \
+RUN echo "===> install pgloader" && \
   echo "deb http://ftp.debian.org/debian sid main" | tee \
     /etc/apt/sources.list.d/sid.list && \
   apt-get update && \
@@ -48,35 +60,19 @@ echo "===> install pgloader" && \
   apt-get clean && \
   rm -f /pgloader_3.2.0+dfsg-1_amd64.deb
 
-echo "===> install openresty" && \
-  apt-get install -y libreadline-dev libncurses5-dev libpcre3-dev libssl-dev \
-                     perl make build-essential postgresql-server-dev-9.3 && \
-  wget -q http://openresty.org/download/ngx_openresty-1.7.7.1.tar.gz && \
-  tar xzvf ngx_openresty-1.7.7.1.tar.gz && \
-  cd ngx_openresty-1.7.7.1/ && \
-  ./configure --with-http_postgres_module --with-pcre-jit && \
-  make && \
-  make install && \
-  echo "===> clean up" && \
-  rm -rf ngx_openresty-1.7.7.1.tar.gz ngx_openresty-1.7.7.1
-  #apt-get remove -y libreadline-dev libncurses5-dev libpcre3-dev libssl-dev \
-  #    perl make build-essential && \
-  #apt-get clean
+RUN mkdir -p /var/run/postgresql && chown -R postgres /var/run/postgresql
 
-mkdir -p /var/run/postgresql && chown -R postgres /var/run/postgresql
+COPY scripts /scripts
+RUN /scripts/createdb.sh
 
-echo "===> install postgis" && \
+RUN echo "===> install postgis" && \
     gosu postgres pg_ctl -D /data -w start && \
     gosu postgres psql < /usr/share/postgresql/9.3/contrib/postgis-2.1/postgis.sql && \
     gosu postgres psql < /usr/share/postgresql/9.3/contrib/postgis-2.1/spatial_ref_sys.sql && \
     gosu postgres pg_ctl -D /data stop
 
-#apt-get remove -y freetds-dev wget openssl ca-certificates \
-#  apt-transport-https
 
-/scripts/createdb.sh
+RUN localedef -i en_US -c -f UTF-8 -A /usr/share/locale/locale.alias en_US.UTF-8
 
-mkdir /csv
-mkdir /logs
-
-localedef -i en_US -c -f UTF-8 -A /usr/share/locale/locale.alias en_US.UTF-8
+ENTRYPOINT ["/bin/bash", "-c"]
+CMD /scripts/postgres.sh
