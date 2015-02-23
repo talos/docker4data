@@ -2,8 +2,8 @@
 
 PWD=$(pwd)
 
-# First, load up a psql ready docker4data-buildbase to import data
-BUILD_CONTAINER=$(docker run -d -v ${PWD}:/share thegovlab/docker4data-buildbase /scripts/postgres.sh)
+# First, load up a psql ready docker4data-build to download and import data
+BUILD_CONTAINER=$(docker run -d -v ${PWD}:/share thegovlab/docker4data-build /scripts/postgres.sh)
 
 #sleep 1
 
