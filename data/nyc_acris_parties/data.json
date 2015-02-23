@@ -1,0 +1,17 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nyc_acris_parties/data.json",
+  "name": "nyc_acris_parties",
+  "format": "csv",
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/8h5j-fqxa"
+  },
+  "after": [{
+    "type": "postgres",
+    "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nyc_acris_parties/index.sql"
+  }],
+  "schema": {
+    "postgres": {
+      "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nyc_acris_parties/schema.sql"
+    }
+  }
+}
