@@ -14,7 +14,9 @@ TABLE_URL="${@: -1}"
 #  esac
 #done
 
-UNIQUE=$(if [ -e /unique ]; then echo -u; fi)
+if [ -e /unique ]; then
+  UNIQUE=1
+fi
 NAME=$(cat /name)
 SEPARATOR=$(cat /separator)
 
