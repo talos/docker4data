@@ -21,6 +21,7 @@ NAME=$(cat /name)
 SEPARATOR=$(cat /separator)
 TABLE_URL=$(cat /data.url)
 
+echo "wget -q -O /${NAME}.csv ${TABLE_URL}"
 wget -q -O /${NAME}.csv ${TABLE_URL}
 INFILE=/${NAME}.csv
 #INFILE=/csv/${NAME}.csv
