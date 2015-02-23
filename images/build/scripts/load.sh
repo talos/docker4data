@@ -14,7 +14,7 @@ TABLE_URL="${@: -1}"
 #  esac
 #done
 
-if [ -e /unique ]; then
+if [ -e /is_unique ]; then
   UNIQUE=1
 fi
 NAME=$(cat /name)
