@@ -13,7 +13,7 @@ ENV LANGUAGE en_US.UTF8
 ENV PATH /usr/lib/postgresql/9.3/bin:$PATH
 
 RUN apt-get update --fix-missing
-RUN apt-get install -y freetds-dev wget openssl ca-certificates apt-transport-https
+RUN apt-get install -y freetds-dev wget openssl ca-certificates apt-transport-https python-pip
 
 RUN echo "===> add user and group to make sure their IDs get assigned consistently" && \
   groupadd -r postgres && useradd -r -g postgres postgres && \
@@ -63,6 +63,8 @@ RUN echo "===> install pgloader" && \
 RUN mkdir -p /var/run/postgresql && chown -R postgres /var/run/postgresql
 
 COPY scripts /scripts
+
+RUN pip install -r /scripts/requirements.txt
 RUN /scripts/createdb.sh
 
 RUN echo "===> install postgis" && \
@@ -70,9 +72,6 @@ RUN echo "===> install postgis" && \
     gosu postgres psql < /usr/share/postgresql/9.3/contrib/postgis-2.1/postgis.sql && \
     gosu postgres psql < /usr/share/postgresql/9.3/contrib/postgis-2.1/spatial_ref_sys.sql && \
     gosu postgres pg_ctl -D /data stop
-
-RUN apt-get install -yqq python-pip
-RUN pip install -r /scripts/requirements.txt
 
 RUN localedef -i en_US -c -f UTF-8 -A /usr/share/locale/locale.alias en_US.UTF-8
 
