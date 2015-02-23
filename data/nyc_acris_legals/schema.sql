@@ -1,4 +1,4 @@
-CREATE TABLE "acris_legals" (
+CREATE TABLE "nyc_acris_legals" (
 	"document_id"	text,
 	"record_type"	text,
 	"borough"	smallint,

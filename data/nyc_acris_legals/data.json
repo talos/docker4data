@@ -1,16 +1,17 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nyc-acris-legals/data.json",
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nyc_acris_legals/data.json",
+  "name": "nyc_acris_legals",
   "format": "csv",
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/8h5j-fqxa"
   },
   "after": [{
     "type": "postgres",
-    "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nyc-acris-legals/index.sql"
+    "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nyc_acris_legals/index.sql"
   }],
   "schema": {
     "postgres": {
-      "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nyc-acris-legals/schema.sql"
+      "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nyc_acris_legals/schema.sql"
     },
     "columns": [{
       "name": "document_id",
@@ -55,25 +56,25 @@
     "relations": [{
       "from": "document_id",
       "to": {
-        "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nyc-acris-master/data.json",
+        "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nyc_acris_master/data.json",
         "column": "document_id"
       }
     }, {
       "from": "document_id",
       "to": {
-        "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nyc-acris-parties/data.json",
+        "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nyc_acris_parties/data.json",
         "column": "document_id"
       }
     }, {
       "from": "document_id",
       "to": {
-        "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nyc-acris-references/data.json",
+        "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nyc_acris_references/data.json",
         "column": "document_id"
       }
     }, {
       "from": "document_id",
       "to": {
-        "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nyc-acris-remarks/data.json",
+        "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nyc_acris_remarks/data.json",
         "column": "document_id"
       }
     }]
