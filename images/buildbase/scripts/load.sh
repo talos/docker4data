@@ -1,7 +1,7 @@
 UNIQUE=0
 SEPARATOR=','
 TABLE="${@: -1}"
-INFILE=/csv/${TABLE}.csv
+INFILE=/share/${TABLE}.csv
 while getopts "us:" opt; do
   case $opt in
     u) UNIQUE=1 ;;
@@ -9,7 +9,7 @@ while getopts "us:" opt; do
   esac
 done
 
-gosu postgres psql < /csv/${TABLE}.schema
+gosu postgres psql < /share/${TABLE}.schema
 
 gosu postgres echo "
 LOAD CSV FROM stdin
