@@ -1,4 +1,4 @@
-CREATE TABLE "acris_master" (
+CREATE TABLE "nyc_acris_master" (
 	"document_id"	text,
 	"record_type"	text,
 	"crfn"	bigint,
