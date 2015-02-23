@@ -30,6 +30,7 @@ docker exec ${BUILD_CONTAINER} /bin/bash /scripts/load.sh
 # Dump it to the dietfs export image, and save that as a data image
 docker exec ${BUILD_CONTAINER} chown postgres:postgres /share
 docker exec ${BUILD_CONTAINER} /bin/bash /scripts/dump.sh
+NAME=$(docker exec ${BUILD_CONTAINER} cat /name)
 
 docker build -t thegovlab/docker4data-$NAME -f Dockerfile-export .
 

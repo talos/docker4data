@@ -2,7 +2,7 @@
 
 UNIQUE=0
 SEPARATOR=','
-TABLE_URL="${@: -1}"
+#TABLE_URL="${@: -1}"
 
 #INFILE=/share/${TABLE}.csv
 
@@ -19,6 +19,7 @@ if [ -e /is_unique ]; then
 fi
 NAME=$(cat /name)
 SEPARATOR=$(cat /separator)
+TABLE_URL=$(cat /data.url)
 
 wget -q -O /${NAME}.csv ${TABLE_URL}
 INFILE=/${NAME}.csv
