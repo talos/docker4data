@@ -1,16 +1,16 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nyc-acris-master/data.json",
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nyc-acris-legals/data.json",
   "format": "csv",
   "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/bnx9-e6tj"
+    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/8h5j-fqxa"
   },
   "after": [{
     "type": "postgres",
-    "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nyc-acris-master/index.sql"
+    "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nyc-acris-legals/index.sql"
   }],
   "schema": {
     "postgres": {
-      "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nyc-acris-master/schema.sql"
+      "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nyc-acris-legals/schema.sql"
     },
     "columns": [{
       "name": "document_id",
@@ -19,38 +19,35 @@
       "name": "record_type",
       "type": "text"
     }, {
-      "name": "crfn",
-      "type": "bigint"
-    }, {
-      "name": "recorded_borough",
+      "name": "borough",
       "type": "smallint"
     }, {
-      "name": "doc_type",
+      "name": "block",
+      "type": "integer"
+    }, {
+      "name": "lot",
+      "type": "integer"
+    }, {
+      "name": "easement",
       "type": "text"
     }, {
-      "name": "document_date",
-      "type": "date"
+      "name": "partial_lot",
+      "type": "text"
     }, {
-      "name": "document_amt",
-      "type": "real"
+      "name": "air_rights",
+      "type": "text"
     }, {
-      "name": "recorded_datetime",
-      "type": "date"
+      "name": "subterranean_rights",
+      "type": "text"
     }, {
-      "name": "modified_date",
-      "type": "date"
+      "name": "property_type",
+      "type": "text"
     }, {
-      "name": "reel_yr",
-      "type": "integer"
+      "name": "street_number",
+      "type": "text"
     }, {
-      "name": "reel_nbr",
-      "type": "integer"
-    }, {
-      "name": "reel_pg",
-      "type": "integer"
-    }, {
-      "name": "percent_trans",
-      "type": "real"
+      "name": "street_name",
+      "type": "text"
     }, {
       "name": "good_through_date",
       "type": "text"
@@ -58,7 +55,7 @@
     "relations": [{
       "from": "document_id",
       "to": {
-        "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nyc-acris-legals/data.json",
+        "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nyc-acris-master/data.json",
         "column": "document_id"
       }
     }, {
