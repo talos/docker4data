@@ -18,20 +18,9 @@ UNIQUE=$(if [ -e /unique ]; then echo -u; fi)
 NAME=$(cat /name)
 SEPARATOR=$(cat /separator)
 
-echo $UNIQUE
-echo $SEPARATOR
-echo $TABLE_URL
-echo $NAME
-
-if [ ! $NAME ]; then
-  echo 'Name must be specified'
-  exit 1
-else
-  echo 'name specified'
-  echo $NAME
-fi
-
-#wget -q -O ${NAME}.csv ${TABLE_URL}
+wget -q -O /${NAME}.csv ${TABLE_URL}
+INFILE=/${NAME}.csv
+#INFILE=/csv/${NAME}.csv
 
 gosu postgres psql < /schema.sql
 
