@@ -2,4 +2,4 @@
 
 NAME=$(cat /name)
 
-gosu postgres pg_dump -F c -Z 9 -t $NAME -f /share/dump postgres
+gosu postgres pg_dump -F c -Z 9 -t ${NAME} -f /share/${NAME} postgres
