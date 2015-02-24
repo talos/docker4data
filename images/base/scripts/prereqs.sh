@@ -48,20 +48,20 @@ echo "===> install pgloader" && \
   apt-get clean && \
   rm -f /pgloader_3.2.0+dfsg-1_amd64.deb
 
-echo "===> install openresty" && \
-  apt-get install -y libreadline-dev libncurses5-dev libpcre3-dev libssl-dev \
-                     perl make build-essential postgresql-server-dev-9.3 && \
-  wget -q http://openresty.org/download/ngx_openresty-1.7.7.1.tar.gz && \
-  tar xzvf ngx_openresty-1.7.7.1.tar.gz && \
-  cd ngx_openresty-1.7.7.1/ && \
-  ./configure --with-http_postgres_module --with-pcre-jit && \
-  make && \
-  make install && \
-  echo "===> clean up" && \
-  rm -rf ngx_openresty-1.7.7.1.tar.gz ngx_openresty-1.7.7.1
-  #apt-get remove -y libreadline-dev libncurses5-dev libpcre3-dev libssl-dev \
-  #    perl make build-essential && \
-  #apt-get clean
+# echo "===> install openresty" && \
+#   apt-get install -y libreadline-dev libncurses5-dev libpcre3-dev libssl-dev \
+#                      perl make build-essential postgresql-server-dev-9.3 && \
+#   wget -q http://openresty.org/download/ngx_openresty-1.7.7.1.tar.gz && \
+#   tar xzvf ngx_openresty-1.7.7.1.tar.gz && \
+#   cd ngx_openresty-1.7.7.1/ && \
+#   ./configure --with-http_postgres_module --with-pcre-jit && \
+#   make && \
+#   make install && \
+#   echo "===> clean up" && \
+#   rm -rf ngx_openresty-1.7.7.1.tar.gz ngx_openresty-1.7.7.1
+#   #apt-get remove -y libreadline-dev libncurses5-dev libpcre3-dev libssl-dev \
+#   #    perl make build-essential && \
+#   #apt-get clean
 
 mkdir -p /var/run/postgresql && chown -R postgres /var/run/postgresql
 

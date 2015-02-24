@@ -2,7 +2,7 @@
 set -e
 
 export PGDATA=/data
-export POSTGRES_USER=root
+export POSTGRES_USER=postgres
 
 mkdir "$PGDATA"
 chown -R postgres "$PGDATA"
@@ -21,6 +21,7 @@ if [ -z "$(ls -A "$PGDATA")" ]; then echo 'init db'
   if [ -n "$POSTGRES_DB" ]; then 
     gosu postgres createdb -O $POSTGRES_USER $POSTGRES_DB
   fi
+  gosu postgres psql -c "ALTER USER $POSTGRES_USER WITH PASSWORD '$PASSWORD';"
 
   gosu postgres pg_ctl stop 
 fi
