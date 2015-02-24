@@ -33,6 +33,7 @@ docker exec ${BUILD_CONTAINER} /bin/bash /scripts/dump.sh
 NAME=$(docker exec ${BUILD_CONTAINER} cat /name)
 
 docker build -t thegovlab/docker4data-$NAME -f Dockerfile-export .
+docker push thegovlab/docker4data-$NAME
 
 
 # to be used down the line...
