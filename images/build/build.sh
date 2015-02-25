@@ -9,7 +9,7 @@ if [ ! $1 ]; then
   exit 1
 fi
 
-docker build -t thegovlab/docker4data-build .
+#docker build -t thegovlab/docker4data-build .
 
 PWD=$(pwd)
 mkdir -p share
@@ -30,7 +30,7 @@ NAME=$(docker exec ${BUILD_CONTAINER} cat /name)
 mkdir -p tmp
 TMP_DOCKERFILE=tmp/Dockerfile-${NAME}
 cat "Dockerfile-export" | sed "s/dataset/${NAME}/g" > ${TMP_DOCKERFILE}
-docker build -t thegovlab/docker4data-${NAME} -f Dockerfile-export .
+docker build -t thegovlab/docker4data-${NAME} -f ${TMP_DOCKERFILE} .
 docker push thegovlab/docker4data-${NAME}
 
 
