@@ -1,4 +1,4 @@
-CREATE TABLE UNLOGGED "nyc_acris_legals" (
+CREATE UNLOGGED TABLE "nyc_acris_legals" (
 	"document_id"	text,
 	"record_type"	text,
 	"borough"	smallint,

@@ -1,4 +1,4 @@
-CREATE TABLE UNLOGGED "nyc_acris_parties" (
+CREATE UNLOGGED TABLE "nyc_acris_parties" (
 	"document_id"	text,
 	"record_type"	text,
 	"party_type"	smallint,

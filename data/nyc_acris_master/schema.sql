@@ -1,4 +1,4 @@
-CREATE TABLE UNLOGGED "nyc_acris_master" (
+CREATE UNLOGGED TABLE "nyc_acris_master" (
 	"document_id"	text,
 	"record_type"	text,
 	"crfn"	bigint,

@@ -1,4 +1,4 @@
-CREATE TABLE UNLOGGED "nyc_multiple_dwelling_registrations" (
+CREATE UNLOGGED TABLE "nyc_multiple_dwelling_registrations" (
 	`RegistrationID`	INTEGER,
 	`BuildingID`	INTEGER,
 	`BoroID`	INTEGER,
