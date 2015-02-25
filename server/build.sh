@@ -29,7 +29,7 @@ NAME=$(docker exec ${BUILD_CONTAINER} cat /name)
 
 mkdir -p tmp
 TMP_DOCKERFILE=tmp/Dockerfile-${NAME}
-cat "Dockerfile-export" | sed "s/dataset/${NAME}/g" > ${TMP_DOCKERFILE}
+cat "Dockerfile" | sed "s/dataset/${NAME}/g" > ${TMP_DOCKERFILE}
 docker build -t thegovlab/docker4data-${NAME} -f ${TMP_DOCKERFILE} .
 docker push thegovlab/docker4data-${NAME}
 

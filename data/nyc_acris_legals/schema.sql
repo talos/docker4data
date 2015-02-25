@@ -1,4 +1,4 @@
-CREATE TABLE "nyc_acris_legals" (
+CREATE TABLE UNLOGGED "nyc_acris_legals" (
 	"document_id"	text,
 	"record_type"	text,
 	"borough"	smallint,
@@ -12,7 +12,7 @@ CREATE TABLE "nyc_acris_legals" (
 	"street_number"	text,
 	"street_name"	text,
 	"addr_unit"	text,
-	"good_through_date"	text
+	"good_through_date"	date
 	--, FOREIGN KEY ("Document ID", "Good_through date")
 	--	REFERENCES "acris_master" ("Document ID", "Good_through date")
 );
