@@ -3,25 +3,24 @@
 docker rm -f docker4data || :
 
 DATASETS=$@
-for DATASET in $DATASETS; do
-  docker rm -f $DATASET || :
-  IMAGE=thegovlab/docker4data-$DATASET
-  docker pull $IMAGE &
+for DATASET in ${DATASETS}; do
+  docker rm -f ${DATASET} || :
+  IMAGE=thegovlab/docker4data-${DATASET}
+  docker pull ${IMAGE} &
 done
 
 echo 'Waiting for data to pull.'
 wait
 
 VOLUMES_FROM=''
-for DATASET in $DATASETS; do
-  IMAGE=thegovlab/docker4data-$DATASET
-  DATA_CONTAINER=$(docker run --name $DATASET -d -v /$DATASET $IMAGE sh)
-  VOLUMES_FROM="$VOLUMES_FROM --volumes-from $DATASET"
+for DATASET in ${DATASETS}; do
+  IMAGE=thegovlab/docker4data-${DATASET}
+  DATA_CONTAINER=$(docker run --name ${DATASET} -d -v /${DATASET} ${IMAGE} sh)
+  VOLUMES_FROM="${VOLUMES_FROM} --volumes-from ${DATASET}"
 done
 
-#echo "docker run -p 54321:5432 -d --name docker4data $VOLUMES_FROM thegovlab/docker4data"
 echo "Running docker4data container to import data"
-docker run -p 54321:5432 -d --name docker4data $VOLUMES_FROM thegovlab/docker4data
+docker run -p 54321:5432 -d --name docker4data ${VOLUMES_FROM} thegovlab/docker4data
 
 
 while : ; do
