@@ -1,5 +1,7 @@
 #!/bin/bash -e
 
+docker rm -f docker4data || :
+
 for DATASET in $@; do
   docker rm $DATASET || :
   #   IMAGE=thegovlab/docker4data-$DATASET
@@ -19,13 +21,15 @@ done
 echo "docker run -d --name docker4data --volumes-from $@"
 docker run -d --name docker4data $VOLUMES_FROM thegovlab/docker4data
 
+echo "waiting for postgres to start up"
+sleep 3
+
 for DATASET in $@; do
   docker exec docker4data ls /$DATASET/dump
-  cmd="gosu postgres pg_restore -v -d postgres /$DATASET/dump"
-  echo $cmd
-  #docker exec -d docker4data $cmd
+  echo "restoring $DATASET"
+  docker exec -d docker4data /bin/bash -c "/usr/bin/time -o /${DATASET}.time gosu postgres pg_restore -v -d postgres /$DATASET/dump > /${DATASET}.log 2>&1 &"
 done
 
 docker exec -i docker4data /bin/bash
 
-docker rm -f docker4data
+#docker rm -f docker4data
