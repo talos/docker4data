@@ -1,20 +1,21 @@
 #!/bin/bash -e
 
-docker pull thegovlab/docker4data
+docker pull thegovlab/docker4data:latest
 docker rm -f docker4data || :
 
 DATASETS=$@
 for DATASET in ${DATASETS}; do
   docker rm -f ${DATASET} || :
-  IMAGE=thegovlab/docker4data-${DATASET}
-  docker pull ${IMAGE} &
+  IMAGE=thegovlab/d4d-$(echo ${DATASET} | cut -c 1-26)
+  docker pull ${IMAGE}:latest &
 done
 
 echo 'Waiting for data to pull.'
 wait
 
 VOLUMES_FROM=''
-for DATASET in ${DATASETS}; do IMAGE=thegovlab/docker4data-${DATASET}
+for DATASET in ${DATASETS}; do
+  IMAGE=thegovlab/d4d-$(echo ${DATASET} | cut -c 1-26)
   DATA_CONTAINER=$(docker run --name ${DATASET} -d -v /${DATASET} ${IMAGE} sh)
   VOLUMES_FROM="${VOLUMES_FROM} --volumes-from ${DATASET}"
 done
@@ -53,15 +54,15 @@ done
 
 if [ $(which psql) ]; then
   echo "to drop in, enter
-  
+
      PGPASSWORD=docker4data psql -h localhost -p 54321 -U postgres postgres
-  
+
   "
 else
   echo "to drop in, enter
-  
+
      docker exec -i docker4data gosu postgres psql
-  
+
   "
 fi
 
