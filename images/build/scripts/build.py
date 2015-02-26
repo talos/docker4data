@@ -6,6 +6,7 @@ Build a docker4data container.
 
 import requests
 import sys
+import os
 import subprocess
 
 
@@ -13,14 +14,14 @@ def shell(cmd):
     """
     Run a shell command convenience function.
     """
-    return subprocess.call(cmd, shell=True)
+    return subprocess.check_call(cmd, shell=True)
 
 
 def run_postgres_script(script_path):
     """
     Run some psql code.
     """
-    return shell(['gosu', 'postgres', 'psql', '<', script_path])
+    return shell('gosu postgres psql < {}'.format(script_path))
 
 
 def run_remote_script(desc):
@@ -37,7 +38,7 @@ def run_remote_script(desc):
     if script_type == 'postgres':
         run_postgres_script(script_path)
     elif script_type in ('bash', ):
-        shell([script_type, script_path])
+        shell('{} {}'.format(script_type, script_path))
     else:
         raise Exception("Script type '{}' not supported".format(script_type))
 
@@ -46,8 +47,8 @@ def wget_download(url, name):
     """
     Download a URL and save it in file called 'name'.
     """
-    outfile_path = "/{}".format(name)
-    shell(["wget", "-q", "-O", outfile_path, url])
+    outfile_path = "tmp/{}".format(name)
+    shell("wget -q -O {} {}".format(outfile_path, url))
     return outfile_path
 
 
@@ -55,7 +56,7 @@ def pgload_import(dataset_name, data_path, load_format):
     """
     Import a dataset via pgload.
     """
-    pgload_path = '/scripts/pgloader.load'
+    pgload_path = 'tmp/pgloader.load'
     format_type = load_format.get('type', 'csv')
     default_sep = '\t' if format_type == 'tsv' else ','
     separator = load_format.get('separator', default_sep)
@@ -67,10 +68,10 @@ LOAD CSV FROM stdin
        fields terminated by '{}';
 '''.format(dataset_name, separator))
 
-    script = ['gosu', 'postgres', 'tail', '-n', '+2', data_path, '|']
+    script = 'gosu postgres tail -n +2 {} | '.format(data_path)
     if bool(load_format.get('unique', False)):
-        script += ['sort', '|', 'uniq', '|']
-    script += ['pgloader', pgload_path]
+        script += 'sort | uniq | '
+    script += 'pgloader {}'.format(pgload_path)
     shell(script)
 
 
@@ -78,6 +79,9 @@ def build(url):
     """
     Main function.  Takes the URL of the data.json spec.
     """
+    if not os.path.exists('tmp'):
+        os.mkdir('tmp')
+
     resp = requests.get(url).json()
     dataset_name = resp[u'name']
 
