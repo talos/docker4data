@@ -20,7 +20,7 @@ BUILD_CONTAINER=$(docker run -d -v ${PWD}/share:/share thegovlab/docker4data-bui
 # Import the csv using the supplied schema
 echo $1
 docker exec ${BUILD_CONTAINER} python /scripts/build.py $1
-docker exec ${BUILD_CONTAINER} /bin/bash /scripts/load.sh
+#docker exec ${BUILD_CONTAINER} /bin/bash /scripts/load.sh
 
 # Dump it to the dietfs export image, and save that as a data image
 docker exec ${BUILD_CONTAINER} chown postgres:postgres /share
