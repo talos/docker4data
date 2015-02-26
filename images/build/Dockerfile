@@ -73,7 +73,7 @@ RUN echo "===> install postgis" && \
     gosu postgres psql < /usr/share/postgresql/9.3/contrib/postgis-2.1/spatial_ref_sys.sql && \
     gosu postgres pg_ctl -D /data stop
 
-RUN apt-get install time
+RUN apt-get install time unzip
 RUN localedef -i en_US -c -f UTF-8 -A /usr/share/locale/locale.alias en_US.UTF-8
 
 ENTRYPOINT ["/bin/bash", "-c"]
