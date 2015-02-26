@@ -1,7 +1,6 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nyc_acris_parties/data.json",
   "name": "nyc_acris_parties",
-  "format": "csv",
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/636b-3b5g/rows.csv"
   },
@@ -12,6 +11,31 @@
   "schema": {
     "postgres": {
       "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nyc_acris_parties/schema.sql"
-    }
+    },
+    "relations": [{
+      "from": "document_id",
+      "to": {
+        "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nyc_acris_master/data.json",
+        "column": "document_id"
+      }
+    }, {
+      "from": "document_id",
+      "to": {
+        "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nyc_acris_legals/data.json",
+        "column": "document_id"
+      }
+    }, {
+      "from": "document_id",
+      "to": {
+        "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nyc_acris_references/data.json",
+        "column": "document_id"
+      }
+    }, {
+      "from": "document_id",
+      "to": {
+        "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nyc_acris_remarks/data.json",
+        "column": "document_id"
+      }
+    }]
   }
 }
