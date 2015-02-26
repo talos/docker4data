@@ -1,5 +1,6 @@
 #!/bin/bash -e
 
+docker pull thegovlab/docker4data
 docker rm -f docker4data || :
 
 DATASETS=$@
