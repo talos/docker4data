@@ -94,15 +94,16 @@ def build(url):
     schema_path = wget_download(resp[u'schema'][u'postgres'][u'@id'], 'schema.sql')
     run_postgres_script(schema_path)
 
-    data_path = wget_download(resp[u'data'][u'@id'], dataset_name + '.data')
+    data_filename = dataset_name + '.data'
+    data_path = wget_download(resp[u'data'][u'@id'], data_filename)
 
     for before in resp.get(u'before', []):
-        run_remote_script(before, tmp_path, {'DATASET': data_path})
+        run_remote_script(before, tmp_path, {'DATASET': data_filename})
 
     pgload_import(dataset_name, data_path, resp.get(u'load_format', {}))
 
     for after in resp.get(u'after', []):
-        run_remote_script(after, tmp_path, {'DATASET': data_path})
+        run_remote_script(after, tmp_path, {'DATASET': data_filename})
 
     with open('/name', 'w') as name_file:
         name_file.write(dataset_name)
