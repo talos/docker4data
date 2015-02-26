@@ -1,5 +1,4 @@
 CREATE UNLOGGED TABLE "nyc_pluto" (
-  "lonlat" geometry,
   "boroughtext" text,
   "block" integer,
   "lot" integer,
