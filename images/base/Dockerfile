@@ -18,6 +18,7 @@ COPY conf /conf
 COPY site /site
 
 RUN scripts/prereqs.sh
+RUN apt-get install time
 EXPOSE 5432
 
 ENTRYPOINT "/scripts/docker-entrypoint.sh"
