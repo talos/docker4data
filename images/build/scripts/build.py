@@ -14,6 +14,7 @@ def shell(cmd):
     """
     Run a shell command convenience function.
     """
+    sys.stdout.write(cmd + '\n')
     return subprocess.check_call(cmd, shell=True)
 
 
@@ -24,21 +25,23 @@ def run_postgres_script(script_path):
     return shell('gosu postgres psql < {}'.format(script_path))
 
 
-def run_remote_script(desc):
+def run_remote_script(desc, tmp_dir, env_vars=None):
     """
     Run some remote code -- downloads and executes.  Supported are postgres
     and bash.
     """
     script_type = desc[u'type']
     url = desc[u'@id']
-    script_path = 'tmp.before'
+    script_name = 'script'
+    script_path = os.path.join(tmp_dir, script_name)
     with open(script_path, 'w') as script:
         script.write(requests.get(url).content)
 
     if script_type == 'postgres':
         run_postgres_script(script_path)
     elif script_type in ('bash', ):
-        shell('{} {}'.format(script_type, script_path))
+        env_vars = ' '.join([k + '=' + v for k, v in (env_vars or {}).items()])
+        shell('{} && cd {} && {} {}'.format(env_vars, tmp_dir, script_type, script_name))
     else:
         raise Exception("Script type '{}' not supported".format(script_type))
 
@@ -78,29 +81,34 @@ LOAD CSV FROM stdin
 def build(url):
     """
     Main function.  Takes the URL of the data.json spec.
+
+    Writes the name of the dataset to file at `/name` when done.
     """
-    if not os.path.exists('tmp'):
-        os.mkdir('tmp')
+    tmp_path = 'tmp'
+    if not os.path.exists(tmp_path):
+        os.mkdir(tmp_path)
 
     resp = requests.get(url).json()
     dataset_name = resp[u'name']
-
-    for before in resp.get(u'before', []):
-        run_remote_script(before)
 
     schema_path = wget_download(resp[u'schema'][u'postgres'][u'@id'], 'schema.sql')
     run_postgres_script(schema_path)
 
     data_path = wget_download(resp[u'data'][u'@id'], dataset_name + '.data')
+
+    for before in resp.get(u'before', []):
+        run_remote_script(before, tmp_path, {'DATASET': data_path})
+
     pgload_import(dataset_name, data_path, resp.get(u'load_format', {}))
 
     for after in resp.get(u'after', []):
-        run_remote_script(after)
+        run_remote_script(after, tmp_path, {'DATASET': data_path})
+
+    with open('/name', 'w') as name_file:
+        name_file.write(dataset_name)
 
     #is_unique = resp[u'data'].get(u'unique', False)
     #separator = resp[u'data'].get(u'separator', ',')
-    #with open('/name', 'w') as name_file:
-    #    name_file.write(name)
     #if is_unique:
     #    with open('/is_unique', 'w') as unique_file:
     #        unique_file.write('unique')
