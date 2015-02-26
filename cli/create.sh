@@ -14,8 +14,7 @@ echo 'Waiting for data to pull.'
 wait
 
 VOLUMES_FROM=''
-for DATASET in ${DATASETS}; do
-  IMAGE=thegovlab/docker4data-${DATASET}
+for DATASET in ${DATASETS}; do IMAGE=thegovlab/docker4data-${DATASET}
   DATA_CONTAINER=$(docker run --name ${DATASET} -d -v /${DATASET} ${IMAGE} sh)
   VOLUMES_FROM="${VOLUMES_FROM} --volumes-from ${DATASET}"
 done
@@ -52,11 +51,19 @@ while : ; do
   fi
 done
 
-echo "to drop in, enter
-
-   PGPASSWORD=docker4data psql -h localhost -p 54321 -U postgres postgres
-
-"
+if [ $(which psql) ]; then
+  echo "to drop in, enter
+  
+     PGPASSWORD=docker4data psql -h localhost -p 54321 -U postgres postgres
+  
+  "
+else
+  echo "to drop in, enter
+  
+     docker exec -i docker4data gosu postgres psql
+  
+  "
+fi
 
 #
 #docker exec -i docker4data /bin/bash
