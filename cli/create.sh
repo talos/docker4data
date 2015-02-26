@@ -2,34 +2,63 @@
 
 docker rm -f docker4data || :
 
-for DATASET in $@; do
-  docker rm $DATASET || :
-  #   IMAGE=thegovlab/docker4data-$DATASET
-  #   docker pull $IMAGE &
+DATASETS=$@
+for DATASET in $DATASETS; do
+  docker rm -f $DATASET || :
+  IMAGE=thegovlab/docker4data-$DATASET
+  docker pull $IMAGE &
 done
 
 echo 'Waiting for data to pull.'
 wait
 
 VOLUMES_FROM=''
-for DATASET in $@; do
+for DATASET in $DATASETS; do
   IMAGE=thegovlab/docker4data-$DATASET
   DATA_CONTAINER=$(docker run --name $DATASET -d -v /$DATASET $IMAGE sh)
   VOLUMES_FROM="$VOLUMES_FROM --volumes-from $DATASET"
 done
 
-echo "docker run -d --name docker4data --volumes-from $@"
-docker run -d --name docker4data $VOLUMES_FROM thegovlab/docker4data
+#echo "docker run -p 54321:5432 -d --name docker4data $VOLUMES_FROM thegovlab/docker4data"
+echo "Running docker4data container to import data"
+docker run -p 54321:5432 -d --name docker4data $VOLUMES_FROM thegovlab/docker4data
 
-echo "waiting for postgres to start up"
-sleep 3
 
-for DATASET in $@; do
-  docker exec docker4data ls /$DATASET/dump
-  echo "restoring $DATASET"
-  docker exec -d docker4data /bin/bash -c "/usr/bin/time -o /${DATASET}.time gosu postgres pg_restore -v -d postgres /$DATASET/dump > /${DATASET}.log 2>&1 &"
+while : ; do
+  docker exec docker4data gosu postgres psql -c '\q' > /dev/null 2>&1 && break || echo "Waiting for postgres to start up"
+  sleep 0.5
 done
 
-docker exec -i docker4data /bin/bash
+for DATASET in $DATASETS; do
+  echo "Restoring $DATASET"
+  docker exec docker4data /bin/bash -c "/usr/bin/time -o /${DATASET}.time gosu postgres pg_restore -v -d postgres /$DATASET/dump > /${DATASET}.log 2>&1 &" &
+done
+
+echo "Waiting for dataset imports"
+while : ; do
+  sleep 2
+  FINISHED=''
+  for DATASET in $DATASETS; do
+    TIME=$(docker exec docker4data cat /${DATASET}.time) || continue
+    if [ "$TIME" ] ; then
+      FINISHED="$FINISHED $DATASET"
+    fi
+  done
+  if [ " ${DATASETS}" == "${FINISHED}" ] ; then
+    echo "Finished importing '${FINISHED}' datasets"
+    break
+  else
+    echo "Imported '${FINISHED}' datasets, waiting for more"
+  fi
+done
+
+echo "to drop in, enter
+
+   PGPASSWORD=docker4data psql -h localhost -p 54321 -U postgres postgres
+
+"
+
+#
+#docker exec -i docker4data /bin/bash
 
 #docker rm -f docker4data
