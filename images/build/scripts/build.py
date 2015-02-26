@@ -41,7 +41,7 @@ def run_remote_script(desc, tmp_dir, env_vars=None):
         run_postgres_script(script_path)
     elif script_type in ('bash', ):
         env_vars = ' '.join([k + '=' + v for k, v in (env_vars or {}).items()])
-        shell('{} && cd {} && {} {}'.format(env_vars, tmp_dir, script_type, script_name))
+        shell('cd {} && {} {} {}'.format(tmp_dir, env_vars, script_type, script_name))
     else:
         raise Exception("Script type '{}' not supported".format(script_type))
 
