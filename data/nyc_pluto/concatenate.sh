@@ -1,6 +1,6 @@
 #!/bin/bash
 
-gunzip ${DATASET}
+unzip ${DATASET}
 
 ls *.csv | \
   tail -n 1 | \
