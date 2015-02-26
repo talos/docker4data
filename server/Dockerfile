@@ -1,4 +1,4 @@
 FROM greglearns/dietfs
 
 RUN mkdir /dataset
-COPY share/dataset /dataset/dump
+COPY share_path/dataset /dataset/dump
