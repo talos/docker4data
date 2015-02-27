@@ -12,7 +12,8 @@ CREATE UNLOGGED TABLE "nyc_acris_legals" (
 	"street_number"	text,
 	"street_name"	text,
 	"addr_unit"	text,
-	"good_through_date"	date
+	"good_through_date"	date,
+	"bbl"	bigint
 	--, FOREIGN KEY ("Document ID", "Good_through date")
 	--	REFERENCES "acris_master" ("Document ID", "Good_through date")
 );

@@ -67,7 +67,7 @@ CREATE UNLOGGED TABLE "nyc_pluto" (
   "commfar" real,
   "facilfar" real,
   "borough" integer,
-  "bbl" text,
+  "bbl" bigint,
   "condono" integer,
   "tract2010" integer,
   "xcoord" integer,
@@ -77,9 +77,10 @@ CREATE UNLOGGED TABLE "nyc_pluto" (
   "sanborn" text,
   "taxmap" integer,
   "edesignum" text,
-  "appbbl" text,
-  "appdate" text,
+  "appbbl" bigint,
+  "appdate" date,
   "plutomapid" integer,
-  "version" text
+  "version" text,
+  "geom" geometry
 );
 
