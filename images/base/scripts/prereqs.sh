@@ -65,6 +65,8 @@ echo "===> install pgloader" && \
 
 mkdir -p /var/run/postgresql && chown -R postgres /var/run/postgresql
 
+/scripts/createdb.sh
+
 echo "===> install postgis" && \
     gosu postgres pg_ctl -D /data -w start && \
     gosu postgres psql < /usr/share/postgresql/9.3/contrib/postgis-2.1/postgis.sql && \
@@ -74,7 +76,6 @@ echo "===> install postgis" && \
 #apt-get remove -y freetds-dev wget openssl ca-certificates \
 #  apt-transport-https
 
-/scripts/createdb.sh
 
 mkdir /csv
 mkdir /logs
