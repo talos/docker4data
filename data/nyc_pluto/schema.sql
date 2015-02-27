@@ -80,7 +80,6 @@ CREATE UNLOGGED TABLE "nyc_pluto" (
   "appbbl" bigint,
   "appdate" date,
   "plutomapid" integer,
-  "version" text,
-  "geom" geometry
+  "version" text
 );
 
