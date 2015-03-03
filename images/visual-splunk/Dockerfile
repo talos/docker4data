@@ -41,7 +41,7 @@ EXPOSE 8000
 EXPOSE 8089
 EXPOSE 9997
 
-COPY configure.sh /configure.sh
-COPY run.sh /run.sh
+COPY configure.sh /
+COPY run.sh /
 
 ENTRYPOINT /configure.sh && echo y | /opt/splunk/bin/splunk start && /bin/bash /run.sh
