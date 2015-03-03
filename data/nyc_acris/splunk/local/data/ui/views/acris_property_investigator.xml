@@ -1,0 +1,89 @@
+<form>
+  <label>ACRIS Property Investigator</label>
+  <fieldset submitButton="false" autoRun="true"></fieldset>
+  <row>
+    <panel>
+      <html>
+        <p>Use Case: Investigating properties owned by an individual/company or related entities in the city.</p>
+<ul>
+  <li>I have the name of the individual and companies owned by Mr A, and I want to know the properties owned by that Mr A or companies related to him.</li>
+  <li>When I query Mr A name, of course the system will show me properties directly under his names, but it should also show me properties related to him - properties that share the same filing address (or other variables) with the properties under his name. Those properties may be owned by some special-purpose corporation set up by him.</li>
+  <li>(Possible in Splunk but not implemented) In visualization mode, apart from map, it can show me a network visualization of properties connected to Mr A. Something <a href="http://offshoreleaks.icij.org/nodes/295070">like this</a> (tick the agreement box and proceed, and you will see the network visualization)</li>
+        </ul>
+      </html>
+    </panel>
+    <panel>
+      <table>
+        <title>List of Property Owners for Properties Bought in 2014 (click for drilldown)</title>
+        <search id="toptable">
+          <query>| dbquery docker4data limit=100 "SELECT   COUNT(DISTINCT m.document_id) cnt,   addr1, addr2, STRING_AGG(DISTINCT name, '; ')   FROM nyc_acris_master m, nyc_acris_parties p   WHERE doc_type IN ('DEED', 'DEEDO')     AND DATE_PART('year', document_date) = 2014     AND party_type = 2     AND m.document_id = p.document_id   GROUP BY addr1, addr2   ORDER BY cnt DESC   LIMIT 20; " | rename cnt as Num_Properties, addr1 as Mailing_Add1, addr2 as Mailing_Add2, string_agg as Owner_Names</query>
+          <earliest>0</earliest>
+          <latest></latest>
+        </search>
+        <option name="list.drilldown">full</option>
+        <option name="list.wrap">1</option>
+        <option name="maxLines">5</option>
+        <option name="raw.drilldown">full</option>
+        <option name="rowNumbers">false</option>
+        <option name="table.drilldown">all</option>
+        <option name="table.wrap">1</option>
+        <option name="type">list</option>
+        <option name="wrap">false</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="drilldown">row</option>
+        <option name="count">10</option>
+        <drilldown>
+          <set token="addr1">$row.Mailing_Add1$</set>
+          <set token="form.addr1">$addr1$</set>
+        </drilldown>
+      </table>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <input type="dropdown" token="addr1" searchWhenChanged="true">
+        <label>Mailing Address</label>
+        <search base="toptable">
+          <query>| fields Mailing_Add1 | sort Mailing_Add1 | dedup Mailing_Add1</query>
+        </search>
+        <fieldForLabel>Mailing_Add1</fieldForLabel>
+        <fieldForValue>Mailing_Add1</fieldForValue>
+      </input>
+      <table>
+        <title>Property Breakdown for Owner</title>
+        <search id="breakdown">
+          <query>| dbquery docker4data limit=100 "SELECT ST_X(geom) as lon, ST_Y(geom) as lat, * from nyc_pluto pl, nyc_acris_legals l where pl.borough = l.borough and pl.block = l.block and pl.lot = l.lot and document_id in (select document_id from nyc_acris_parties where addr1 like '$addr1$')" | fields address *</query>
+          <earliest>0</earliest>
+          <latest></latest>
+        </search>
+        <option name="wrap">true</option>
+        <option name="rowNumbers">false</option>
+        <option name="drilldown">row</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="count">5</option>
+      </table>
+    </panel>
+    <panel>
+      <map>
+        <title>Map of Properties for Owner</title>
+        <search base="breakdown">
+          <query>| geostats count latfield=lat longfield=lon</query>
+        </search>
+        <option name="wrap">true</option>
+        <option name="rowNumbers">false</option>
+        <option name="drilldown">all</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="count">5</option>
+        <option name="mapping.data.maxClusters">100</option>
+        <option name="mapping.map.center">(40.71,-73.88)</option>
+        <option name="mapping.map.zoom">11</option>
+        <option name="mapping.markerLayer.markerMaxSize">50</option>
+        <option name="mapping.markerLayer.markerMinSize">10</option>
+        <option name="mapping.markerLayer.markerOpacity">0.8</option>
+        <option name="mapping.tileLayer.maxZoom">19</option>
+        <option name="mapping.tileLayer.minZoom">0</option>
+        <option name="mapping.tileLayer.url">http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png</option>
+      </map>
+    </panel>
+  </row>
+</form>

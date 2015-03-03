@@ -1,0 +1,128 @@
+<form>
+  <label>Readme: Set Up DB Connect with ACRIS Data</label>
+  <fieldset submitButton="false" autoRun="true"></fieldset>
+  <row>
+    <panel>
+      <html>
+        For more details on this project, go to <a href="http://www.docker4data.com/">Docker4Data</a>.
+      </html>
+    </panel>
+    <panel>
+      <map>
+        <title>Sample Query 1: Mortgages from Bank of America since 2000</title>
+        <search>
+          <query>| dbquery docker4data limit=1000 "SELECT *, ST_X(lonlat) as lon, ST_Y(lonlat) as lat FROM nyc_acris_legals l JOIN nyc_pluto p ON l.borough = p.borough AND l.block = p.block AND     l.lot = p.lot WHERE document_id IN  ( SELECT document_id FROM nyc_acris_parties WHERE document_id IN  (SELECT document_id FROM nyc_acris_master  WHERE doc_type = 'MTGE'  AND DATE_PART('year', document_date) &gt; 2000) AND party_type = 2  AND name LIKE 'BANK OF AMERICA');" | geostats count latfield=lat longfield=lon</query>
+          <earliest>0</earliest>
+          <latest></latest>
+        </search>
+        <option name="charting.chart">area</option>
+        <option name="charting.axisY2.enabled">false</option>
+        <option name="charting.axisLabelsX.majorLabelStyle.overflowMode">ellipsisNone</option>
+        <option name="charting.axisLabelsX.majorLabelStyle.rotation">0</option>
+        <option name="charting.axisTitleX.visibility">visible</option>
+        <option name="charting.axisTitleY.visibility">visible</option>
+        <option name="charting.axisTitleY2.visibility">visible</option>
+        <option name="charting.axisX.scale">linear</option>
+        <option name="charting.axisY.scale">linear</option>
+        <option name="charting.axisY2.scale">inherit</option>
+        <option name="charting.chart.bubbleMaximumSize">50</option>
+        <option name="charting.chart.bubbleMinimumSize">10</option>
+        <option name="charting.chart.bubbleSizeBy">area</option>
+        <option name="charting.chart.nullValueMode">gaps</option>
+        <option name="charting.chart.sliceCollapsingThreshold">0.01</option>
+        <option name="charting.chart.stackMode">default</option>
+        <option name="charting.chart.style">shiny</option>
+        <option name="charting.drilldown">all</option>
+        <option name="charting.layout.splitSeries">0</option>
+        <option name="charting.legend.labelStyle.overflowMode">ellipsisMiddle</option>
+        <option name="charting.legend.placement">right</option>
+        <option name="wrap">true</option>
+        <option name="rowNumbers">false</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="drilldown">all</option>
+        <option name="count">3</option>
+        <option name="mapping.data.maxClusters">100</option>
+        <option name="mapping.map.center">(40.72,-73.81)</option>
+        <option name="mapping.map.zoom">10</option>
+        <option name="mapping.markerLayer.markerMaxSize">50</option>
+        <option name="mapping.markerLayer.markerMinSize">10</option>
+        <option name="mapping.markerLayer.markerOpacity">0.8</option>
+        <option name="mapping.tileLayer.maxZoom">19</option>
+        <option name="mapping.tileLayer.minZoom">0</option>
+        <option name="mapping.tileLayer.url">http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png</option>
+      </map>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <input type="text" token="year" searchWhenChanged="true">
+        <label>Year</label>
+        <default>2014</default>
+      </input>
+      <chart>
+        <title>Sample Query 2: Top Lenders in Selected Year</title>
+        <search>
+          <query>| dbquery docker4data limit=10 "SELECT  COUNT(DISTINCT m.document_id) count,  name  FROM nyc_acris_master m, nyc_acris_parties p  WHERE doc_type IN ('MTGE')   AND DATE_PART('year', document_date) = $year$   AND party_type = 2   AND m.document_id = p.document_id  GROUP BY name ORDER BY count DESC; " | fields name count | rename name as lender_name</query>
+          <earliest>0</earliest>
+          <latest></latest>
+        </search>
+        <option name="charting.chart">bar</option>
+        <option name="charting.axisY2.enabled">false</option>
+        <option name="charting.axisLabelsX.majorLabelStyle.overflowMode">ellipsisNone</option>
+        <option name="charting.axisLabelsX.majorLabelStyle.rotation">0</option>
+        <option name="charting.axisTitleX.visibility">visible</option>
+        <option name="charting.axisTitleY.visibility">visible</option>
+        <option name="charting.axisTitleY2.visibility">visible</option>
+        <option name="charting.axisX.scale">linear</option>
+        <option name="charting.axisY.scale">linear</option>
+        <option name="charting.axisY2.scale">inherit</option>
+        <option name="charting.chart.bubbleMaximumSize">50</option>
+        <option name="charting.chart.bubbleMinimumSize">10</option>
+        <option name="charting.chart.bubbleSizeBy">area</option>
+        <option name="charting.chart.nullValueMode">gaps</option>
+        <option name="charting.chart.sliceCollapsingThreshold">0.01</option>
+        <option name="charting.chart.stackMode">default</option>
+        <option name="charting.chart.style">shiny</option>
+        <option name="charting.drilldown">all</option>
+        <option name="charting.layout.splitSeries">0</option>
+        <option name="charting.legend.labelStyle.overflowMode">ellipsisEnd</option>
+        <option name="charting.legend.placement">right</option>
+        <option name="wrap">true</option>
+        <option name="rowNumbers">false</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="count">10</option>
+      </chart>
+    </panel>
+    <panel>
+      <chart>
+        <title>Sample Query 3: Count of Documents by Year</title>
+        <search>
+          <query>| dbquery docker4data limit=1000 "SELECT COUNT(DISTINCT document_id) AS cnt, DATE_PART('year', recorded_datetime) AS year FROM nyc_acris_master WHERE doc_type = 'MTGE' AND recorded_datetime &gt; '1700-01-01' GROUP BY year ORDER BY year;" | where year&gt;=1966 | chart first(cnt) as count by year</query>
+          <earliest>0</earliest>
+          <latest></latest>
+        </search>
+        <option name="charting.chart">area</option>
+        <option name="charting.axisY2.enabled">undefined</option>
+        <option name="charting.axisLabelsX.majorLabelStyle.overflowMode">ellipsisNone</option>
+        <option name="charting.axisLabelsX.majorLabelStyle.rotation">0</option>
+        <option name="charting.axisTitleX.visibility">visible</option>
+        <option name="charting.axisTitleY.visibility">visible</option>
+        <option name="charting.axisTitleY2.visibility">visible</option>
+        <option name="charting.axisX.scale">linear</option>
+        <option name="charting.axisY.scale">linear</option>
+        <option name="charting.axisY2.scale">inherit</option>
+        <option name="charting.chart.bubbleMaximumSize">50</option>
+        <option name="charting.chart.bubbleMinimumSize">10</option>
+        <option name="charting.chart.bubbleSizeBy">area</option>
+        <option name="charting.chart.nullValueMode">gaps</option>
+        <option name="charting.chart.sliceCollapsingThreshold">0.01</option>
+        <option name="charting.chart.stackMode">default</option>
+        <option name="charting.chart.style">shiny</option>
+        <option name="charting.drilldown">all</option>
+        <option name="charting.layout.splitSeries">0</option>
+        <option name="charting.legend.labelStyle.overflowMode">ellipsisMiddle</option>
+        <option name="charting.legend.placement">right</option>
+      </chart>
+    </panel>
+  </row>
+</form>

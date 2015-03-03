@@ -2,6 +2,10 @@
 
 touch /opt/splunk/etc/.ui_login
 
+# enable insecure login
+sed -i '/^enable_insecure_login/c \
+enable_insecure_login = True' /opt/splunk/etc/system/default/web.conf
+
 #cat app.conf
 echo '[install]
 is_configured = 1' > /opt/splunk/etc/apps/dbx/local/app.conf
