@@ -11,7 +11,7 @@
       <map>
         <title>Sample Query 1: Mortgages from Bank of America since 2000</title>
         <search>
-          <query>| dbquery docker4data limit=1000 "SELECT *, ST_X(lonlat) as lon, ST_Y(lonlat) as lat FROM nyc_acris_legals l JOIN nyc_pluto p ON l.borough = p.borough AND l.block = p.block AND     l.lot = p.lot WHERE document_id IN  ( SELECT document_id FROM nyc_acris_parties WHERE document_id IN  (SELECT document_id FROM nyc_acris_master  WHERE doc_type = 'MTGE'  AND DATE_PART('year', document_date) &gt; 2000) AND party_type = 2  AND name LIKE 'BANK OF AMERICA');" | geostats count latfield=lat longfield=lon</query>
+          <query>| dbquery docker4data limit=1000 "SELECT *, ST_X(geom) as lon, ST_Y(geom) as lat FROM nyc_acris_legals l JOIN nyc_pluto p ON l.borough = p.borough AND l.block = p.block AND     l.lot = p.lot WHERE document_id IN  ( SELECT document_id FROM nyc_acris_parties WHERE document_id IN  (SELECT document_id FROM nyc_acris_master  WHERE doc_type = 'MTGE'  AND DATE_PART('year', document_date) &gt; 2000) AND party_type = 2  AND name LIKE 'BANK OF AMERICA');" | geostats count latfield=lat longfield=lon</query>
           <earliest>0</earliest>
           <latest></latest>
         </search>
