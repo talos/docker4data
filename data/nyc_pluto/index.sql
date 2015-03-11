@@ -1,7 +1,6 @@
-BEGIN TRANSACTION;
 ALTER TABLE nyc_pluto ADD COLUMN geom GEOMETRY;
 UPDATE nyc_pluto
   SET geom = ST_Transform(
     ST_SetSRID(ST_MakePoint(xcoord,ycoord), 2263) , 4326);
 ALTER TABLE nyc_pluto ADD PRIMARY KEY ("bbl");
-END TRANSACTION;
+VACUUM ANALYZE nyc_pluto;
