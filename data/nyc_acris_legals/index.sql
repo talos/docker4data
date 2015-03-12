@@ -1,3 +1,5 @@
+ALTER TABLE nyc_acris_legals ADD COLUMN bbl BIGINT;
+
 /* Delete rows missing good_through_date */
 DELETE FROM nyc_acris_legals WHERE "good_through_date" IS NULL;
 
