@@ -9,6 +9,7 @@ import json
 import urllib2
 import logging
 import sys
+import subprocess
 
 
 RECIPE_BASE = u'https://raw.githubusercontent.com/talos/docker4data/master/recipes/'
@@ -21,10 +22,12 @@ def main(recipe_name):
     '''
     Main method for the script.
     '''
-    url = urllib2.urlparse.urljoin(RECIPE_BASE, recipe_name)
+    url = urllib2.urlparse.urljoin(RECIPE_BASE, recipe_name + '/data.json')
     LOGGER.info(u'Pulling recipe "%s" from "%s"', recipe_name, url)
     try:
         recipe = json.loads(urllib2.urlopen(url).read())
+        includes = recipe.includes.keys()
+
     except urllib2.HTTPError:
         LOGGER.error(u'Could not find recipe "%s"', recipe_name)
         sys.exit(1)
