@@ -1,12 +1,12 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/recipes/nyc_acris/data.json",
   "name": "nyc_acris",
-  "include": [{
+  "include": {
     "nyc_acris_parties": "*",
     "nyc_acris_master": "*",
     "nyc_acris_legals": "*",
     "nyc_pluto": "*"
-  }],
+  },
   "after": [{
     "type": "postgres",
     "@id": "https://raw.githubusercontent.com/talos/docker4data/master/recipes/nyc_acris/view.sql"
