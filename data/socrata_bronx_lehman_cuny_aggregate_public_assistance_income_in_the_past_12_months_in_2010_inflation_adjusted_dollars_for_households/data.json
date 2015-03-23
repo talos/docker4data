@@ -2,20 +2,22 @@
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
-  "schema": [
-    {
-      "type": "smallint", 
-      "name": "censustract"
-    }, 
-    {
-      "type": "integer", 
-      "name": "estimate_aggregate_public_assistance_income_in_the_past_12_months_in_2010_inflation_adjusted_dollars"
-    }, 
-    {
-      "type": "integer", 
-      "name": "margin_of_error_aggregate_public_assistance_income_in_the_past_12_months_in_2010_inflation_adjusted_dollars"
-    }
-  ], 
+  "schema": {
+    "columns": [
+      {
+        "type": "smallint", 
+        "name": "censustract"
+      }, 
+      {
+        "type": "integer", 
+        "name": "estimate_aggregate_public_assistance_income_in_the_past_12_months_in_2010_inflation_adjusted_dollars"
+      }, 
+      {
+        "type": "integer", 
+        "name": "margin_of_error_aggregate_public_assistance_income_in_the_past_12_months_in_2010_inflation_adjusted_dollars"
+      }
+    ]
+  }, 
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_bronx_lehman_cuny_aggregate_public_assistance_income_in_the_past_12_months_in_2010_inflation_adjusted_dollars_for_households/data.json", 
   "name": "socrata_bronx_lehman_cuny_aggregate_public_assistance_income_in_the_past_12_months_in_2010_inflation_adjusted_dollars_for_households", 
   "data": {

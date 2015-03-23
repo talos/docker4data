@@ -2,20 +2,22 @@
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
-  "schema": [
-    {
-      "type": "tinyint", 
-      "name": "number_of_sites"
-    }, 
-    {
-      "type": "text", 
-      "name": "academic_program"
-    }, 
-    {
-      "type": "text", 
-      "name": "zip"
-    }
-  ], 
+  "schema": {
+    "columns": [
+      {
+        "type": "tinyint", 
+        "name": "number_of_sites"
+      }, 
+      {
+        "type": "text", 
+        "name": "academic_program"
+      }, 
+      {
+        "type": "text", 
+        "name": "zip"
+      }
+    ]
+  }, 
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_bronx_lehman_cuny_socrata_lc_nursing_2012_site_counts_only/data.json", 
   "name": "socrata_bronx_lehman_cuny_socrata_lc_nursing_2012_site_counts_only", 
   "data": {

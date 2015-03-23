@@ -2,380 +2,382 @@
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
-  "schema": [
-    {
-      "type": "smallint", 
-      "name": "year"
-    }, 
-    {
-      "type": "text", 
-      "name": "tri_facility_id"
-    }, 
-    {
-      "type": "text", 
-      "name": "facility_name"
-    }, 
-    {
-      "type": "smallint", 
-      "name": "primary_sic"
-    }, 
-    {
-      "type": "smallint", 
-      "name": "sic_2"
-    }, 
-    {
-      "type": "smallint", 
-      "name": "sic_3"
-    }, 
-    {
-      "type": "text", 
-      "name": "sic_4"
-    }, 
-    {
-      "type": "text", 
-      "name": "sic_5"
-    }, 
-    {
-      "type": "text", 
-      "name": "sic_6"
-    }, 
-    {
-      "type": "integer", 
-      "name": "primary_naics"
-    }, 
-    {
-      "type": "text", 
-      "name": "naics_2"
-    }, 
-    {
-      "type": "text", 
-      "name": "naics_3"
-    }, 
-    {
-      "type": "text", 
-      "name": "naics_4"
-    }, 
-    {
-      "type": "text", 
-      "name": "naics_5"
-    }, 
-    {
-      "type": "text", 
-      "name": "naics_6"
-    }, 
-    {
-      "type": "bigint", 
-      "name": "doc_ctrl_num"
-    }, 
-    {
-      "type": "text", 
-      "name": "chemical"
-    }, 
-    {
-      "type": "integer", 
-      "name": "cas_compound_id"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "clean_air_act_chemical"
-    }, 
-    {
-      "type": "text", 
-      "name": "classification"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "metal"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "metal_category"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "carcinogen"
-    }, 
-    {
-      "type": "text", 
-      "name": "form_type"
-    }, 
-    {
-      "type": "text", 
-      "name": "unit_of_measure"
-    }, 
-    {
-      "type": "integer", 
-      "name": "_5_1_fugitive_air"
-    }, 
-    {
-      "type": "integer", 
-      "name": "_5_2_stack_air"
-    }, 
-    {
-      "type": "smallint", 
-      "name": "_5_3_water"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "_5_4_1_underground_class_i"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "_5_4_2_underground_class_ii_v"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "_5_5_1a_rcra_c_landfills"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "_5_5_1b_other_landfills"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "_5_5_2_land_treatment"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "_5_5_3_surface_impoundment"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "_5_5_3a_rcra_c_surface_impoundment"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "_5_5_3b_other_surface_impoundment"
-    }, 
-    {
-      "type": "smallint", 
-      "name": "_5_5_4_other_disposal"
-    }, 
-    {
-      "type": "integer", 
-      "name": "on_site_release_total"
-    }, 
-    {
-      "type": "smallint", 
-      "name": "_6_1_potw_metals_and_metal_compounds"
-    }, 
-    {
-      "type": "smallint", 
-      "name": "_6_1_potw_non_metals"
-    }, 
-    {
-      "type": "smallint", 
-      "name": "_6_1_potw_total_transfers"
-    }, 
-    {
-      "type": "smallint", 
-      "name": "_6_2_m10"
-    }, 
-    {
-      "type": "real", 
-      "name": "_6_2_m41"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "_6_2_m62"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "_6_2_m71"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "_6_2_m81"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "_6_2_m82"
-    }, 
-    {
-      "type": "smallint", 
-      "name": "_6_2_m72"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "_6_2_m63"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "_6_2_m66"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "_6_2_m67"
-    }, 
-    {
-      "type": "real", 
-      "name": "_6_2_m64"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "_6_2_m65"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "_6_2_m73"
-    }, 
-    {
-      "type": "smallint", 
-      "name": "_6_2_m79"
-    }, 
-    {
-      "type": "smallint", 
-      "name": "_6_2_m90"
-    }, 
-    {
-      "type": "smallint", 
-      "name": "_6_2_m94"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "_6_2_m99"
-    }, 
-    {
-      "type": "smallint", 
-      "name": "off_site_release_total"
-    }, 
-    {
-      "type": "integer", 
-      "name": "_6_2_m20"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "_6_2_m24"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "_6_2_m26"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "_6_2_m28"
-    }, 
-    {
-      "type": "smallint", 
-      "name": "_6_2_m93"
-    }, 
-    {
-      "type": "integer", 
-      "name": "off_site_recycled_total"
-    }, 
-    {
-      "type": "smallint", 
-      "name": "_6_2_m56"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "_6_2_m92"
-    }, 
-    {
-      "type": "smallint", 
-      "name": "off_site_recovery_total"
-    }, 
-    {
-      "type": "real", 
-      "name": "_6_2_m40"
-    }, 
-    {
-      "type": "integer", 
-      "name": "_6_2_m50"
-    }, 
-    {
-      "type": "smallint", 
-      "name": "_6_2_m54"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "_6_2_m61"
-    }, 
-    {
-      "type": "smallint", 
-      "name": "_6_2_m69"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "_6_2_m95"
-    }, 
-    {
-      "type": "integer", 
-      "name": "off_site_treated_total"
-    }, 
-    {
-      "type": "integer", 
-      "name": "total_releases"
-    }, 
-    {
-      "type": "integer", 
-      "name": "_8_1_releases"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "_8_1a_on_site_contained_releases"
-    }, 
-    {
-      "type": "smallint", 
-      "name": "_8_1b_on_site_other_releases"
-    }, 
-    {
-      "type": "real", 
-      "name": "_8_1c_off_site_contained_releases"
-    }, 
-    {
-      "type": "real", 
-      "name": "_8_1d_off_site_other_releases"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "_8_2_energy_recovery_on_site"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "_8_3_energy_recovery_off_site"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "_8_4_recycling_on_site"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "_8_5_recycling_off_site"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "_8_6_treatment_on_site"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "_8_7_treatement_off_site"
-    }, 
-    {
-      "type": "integer", 
-      "name": "production_waste_8_1_thru_8_7"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "_8_8_one_time_release"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "_8_9_production_ratio"
-    }, 
-    {
-      "type": "text", 
-      "name": "parent_company_name"
-    }, 
-    {
-      "type": "text", 
-      "name": "parent_company_db_number"
-    }, 
-    {
-      "type": "text", 
-      "name": "location_1"
-    }
-  ], 
+  "schema": {
+    "columns": [
+      {
+        "type": "smallint", 
+        "name": "year"
+      }, 
+      {
+        "type": "text", 
+        "name": "tri_facility_id"
+      }, 
+      {
+        "type": "text", 
+        "name": "facility_name"
+      }, 
+      {
+        "type": "smallint", 
+        "name": "primary_sic"
+      }, 
+      {
+        "type": "smallint", 
+        "name": "sic_2"
+      }, 
+      {
+        "type": "smallint", 
+        "name": "sic_3"
+      }, 
+      {
+        "type": "text", 
+        "name": "sic_4"
+      }, 
+      {
+        "type": "text", 
+        "name": "sic_5"
+      }, 
+      {
+        "type": "text", 
+        "name": "sic_6"
+      }, 
+      {
+        "type": "integer", 
+        "name": "primary_naics"
+      }, 
+      {
+        "type": "text", 
+        "name": "naics_2"
+      }, 
+      {
+        "type": "text", 
+        "name": "naics_3"
+      }, 
+      {
+        "type": "text", 
+        "name": "naics_4"
+      }, 
+      {
+        "type": "text", 
+        "name": "naics_5"
+      }, 
+      {
+        "type": "text", 
+        "name": "naics_6"
+      }, 
+      {
+        "type": "bigint", 
+        "name": "doc_ctrl_num"
+      }, 
+      {
+        "type": "text", 
+        "name": "chemical"
+      }, 
+      {
+        "type": "integer", 
+        "name": "cas_compound_id"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "clean_air_act_chemical"
+      }, 
+      {
+        "type": "text", 
+        "name": "classification"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "metal"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "metal_category"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "carcinogen"
+      }, 
+      {
+        "type": "text", 
+        "name": "form_type"
+      }, 
+      {
+        "type": "text", 
+        "name": "unit_of_measure"
+      }, 
+      {
+        "type": "integer", 
+        "name": "_5_1_fugitive_air"
+      }, 
+      {
+        "type": "integer", 
+        "name": "_5_2_stack_air"
+      }, 
+      {
+        "type": "smallint", 
+        "name": "_5_3_water"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "_5_4_1_underground_class_i"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "_5_4_2_underground_class_ii_v"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "_5_5_1a_rcra_c_landfills"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "_5_5_1b_other_landfills"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "_5_5_2_land_treatment"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "_5_5_3_surface_impoundment"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "_5_5_3a_rcra_c_surface_impoundment"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "_5_5_3b_other_surface_impoundment"
+      }, 
+      {
+        "type": "smallint", 
+        "name": "_5_5_4_other_disposal"
+      }, 
+      {
+        "type": "integer", 
+        "name": "on_site_release_total"
+      }, 
+      {
+        "type": "smallint", 
+        "name": "_6_1_potw_metals_and_metal_compounds"
+      }, 
+      {
+        "type": "smallint", 
+        "name": "_6_1_potw_non_metals"
+      }, 
+      {
+        "type": "smallint", 
+        "name": "_6_1_potw_total_transfers"
+      }, 
+      {
+        "type": "smallint", 
+        "name": "_6_2_m10"
+      }, 
+      {
+        "type": "real", 
+        "name": "_6_2_m41"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "_6_2_m62"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "_6_2_m71"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "_6_2_m81"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "_6_2_m82"
+      }, 
+      {
+        "type": "smallint", 
+        "name": "_6_2_m72"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "_6_2_m63"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "_6_2_m66"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "_6_2_m67"
+      }, 
+      {
+        "type": "real", 
+        "name": "_6_2_m64"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "_6_2_m65"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "_6_2_m73"
+      }, 
+      {
+        "type": "smallint", 
+        "name": "_6_2_m79"
+      }, 
+      {
+        "type": "smallint", 
+        "name": "_6_2_m90"
+      }, 
+      {
+        "type": "smallint", 
+        "name": "_6_2_m94"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "_6_2_m99"
+      }, 
+      {
+        "type": "smallint", 
+        "name": "off_site_release_total"
+      }, 
+      {
+        "type": "integer", 
+        "name": "_6_2_m20"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "_6_2_m24"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "_6_2_m26"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "_6_2_m28"
+      }, 
+      {
+        "type": "smallint", 
+        "name": "_6_2_m93"
+      }, 
+      {
+        "type": "integer", 
+        "name": "off_site_recycled_total"
+      }, 
+      {
+        "type": "smallint", 
+        "name": "_6_2_m56"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "_6_2_m92"
+      }, 
+      {
+        "type": "smallint", 
+        "name": "off_site_recovery_total"
+      }, 
+      {
+        "type": "real", 
+        "name": "_6_2_m40"
+      }, 
+      {
+        "type": "integer", 
+        "name": "_6_2_m50"
+      }, 
+      {
+        "type": "smallint", 
+        "name": "_6_2_m54"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "_6_2_m61"
+      }, 
+      {
+        "type": "smallint", 
+        "name": "_6_2_m69"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "_6_2_m95"
+      }, 
+      {
+        "type": "integer", 
+        "name": "off_site_treated_total"
+      }, 
+      {
+        "type": "integer", 
+        "name": "total_releases"
+      }, 
+      {
+        "type": "integer", 
+        "name": "_8_1_releases"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "_8_1a_on_site_contained_releases"
+      }, 
+      {
+        "type": "smallint", 
+        "name": "_8_1b_on_site_other_releases"
+      }, 
+      {
+        "type": "real", 
+        "name": "_8_1c_off_site_contained_releases"
+      }, 
+      {
+        "type": "real", 
+        "name": "_8_1d_off_site_other_releases"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "_8_2_energy_recovery_on_site"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "_8_3_energy_recovery_off_site"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "_8_4_recycling_on_site"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "_8_5_recycling_off_site"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "_8_6_treatment_on_site"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "_8_7_treatement_off_site"
+      }, 
+      {
+        "type": "integer", 
+        "name": "production_waste_8_1_thru_8_7"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "_8_8_one_time_release"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "_8_9_production_ratio"
+      }, 
+      {
+        "type": "text", 
+        "name": "parent_company_name"
+      }, 
+      {
+        "type": "text", 
+        "name": "parent_company_db_number"
+      }, 
+      {
+        "type": "text", 
+        "name": "location_1"
+      }
+    ]
+  }, 
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_bronx_lehman_cuny_epa_toxic_release_inventory_1987_2008/data.json", 
   "name": "socrata_bronx_lehman_cuny_epa_toxic_release_inventory_1987_2008", 
   "data": {

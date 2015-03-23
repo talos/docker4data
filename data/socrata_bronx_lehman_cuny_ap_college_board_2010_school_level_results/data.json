@@ -2,28 +2,30 @@
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
-  "schema": [
-    {
-      "type": "text", 
-      "name": "dbn"
-    }, 
-    {
-      "type": "text", 
-      "name": "school_name"
-    }, 
-    {
-      "type": "smallint", 
-      "name": "ap_test_takers"
-    }, 
-    {
-      "type": "smallint", 
-      "name": "total_exams_taken"
-    }, 
-    {
-      "type": "text", 
-      "name": "exams_with_scores_3_4_or_5"
-    }
-  ], 
+  "schema": {
+    "columns": [
+      {
+        "type": "text", 
+        "name": "dbn"
+      }, 
+      {
+        "type": "text", 
+        "name": "school_name"
+      }, 
+      {
+        "type": "smallint", 
+        "name": "ap_test_takers"
+      }, 
+      {
+        "type": "smallint", 
+        "name": "total_exams_taken"
+      }, 
+      {
+        "type": "text", 
+        "name": "exams_with_scores_3_4_or_5"
+      }
+    ]
+  }, 
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_bronx_lehman_cuny_ap_college_board_2010_school_level_results/data.json", 
   "name": "socrata_bronx_lehman_cuny_ap_college_board_2010_school_level_results", 
   "data": {

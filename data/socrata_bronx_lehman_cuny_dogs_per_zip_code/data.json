@@ -2,24 +2,26 @@
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
-  "schema": [
-    {
-      "type": "text", 
-      "name": "zipcode"
-    }, 
-    {
-      "type": "text", 
-      "name": "point_x"
-    }, 
-    {
-      "type": "real", 
-      "name": "point_y"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "number_of_dogs"
-    }
-  ], 
+  "schema": {
+    "columns": [
+      {
+        "type": "text", 
+        "name": "zipcode"
+      }, 
+      {
+        "type": "text", 
+        "name": "point_x"
+      }, 
+      {
+        "type": "real", 
+        "name": "point_y"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "number_of_dogs"
+      }
+    ]
+  }, 
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_bronx_lehman_cuny_dogs_per_zip_code/data.json", 
   "name": "socrata_bronx_lehman_cuny_dogs_per_zip_code", 
   "data": {

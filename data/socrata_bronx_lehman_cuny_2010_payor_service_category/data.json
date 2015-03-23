@@ -2,40 +2,42 @@
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
-  "schema": [
-    {
-      "type": "text", 
-      "name": "payor"
-    }, 
-    {
-      "type": "smallint", 
-      "name": "medical"
-    }, 
-    {
-      "type": "smallint", 
-      "name": "surgical"
-    }, 
-    {
-      "type": "smallint", 
-      "name": "pediatric"
-    }, 
-    {
-      "type": "smallint", 
-      "name": "obstetrical"
-    }, 
-    {
-      "type": "smallint", 
-      "name": "nursery_newborn"
-    }, 
-    {
-      "type": "smallint", 
-      "name": "psychiatric"
-    }, 
-    {
-      "type": "integer", 
-      "name": "total"
-    }
-  ], 
+  "schema": {
+    "columns": [
+      {
+        "type": "text", 
+        "name": "payor"
+      }, 
+      {
+        "type": "smallint", 
+        "name": "medical"
+      }, 
+      {
+        "type": "smallint", 
+        "name": "surgical"
+      }, 
+      {
+        "type": "smallint", 
+        "name": "pediatric"
+      }, 
+      {
+        "type": "smallint", 
+        "name": "obstetrical"
+      }, 
+      {
+        "type": "smallint", 
+        "name": "nursery_newborn"
+      }, 
+      {
+        "type": "smallint", 
+        "name": "psychiatric"
+      }, 
+      {
+        "type": "integer", 
+        "name": "total"
+      }
+    ]
+  }, 
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_bronx_lehman_cuny_2010_payor_service_category/data.json", 
   "name": "socrata_bronx_lehman_cuny_2010_payor_service_category", 
   "data": {

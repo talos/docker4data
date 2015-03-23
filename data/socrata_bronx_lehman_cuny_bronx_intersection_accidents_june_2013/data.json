@@ -2,132 +2,134 @@
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
-  "schema": [
-    {
-      "type": "text", 
-      "name": "intersection_address"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "number_of_collisions"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "persons_involved"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "collisions_with_injuries"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "injured_motorist"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "injured_passenger"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "injured_cyclist"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "injured_pedestrian"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "injured_total"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "killed_morotist"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "killed_passenger"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "killed_cyclist"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "killed_pedestrian"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "total_killed"
-    }, 
-    {
-      "type": "text", 
-      "name": "vehicle_types"
-    }, 
-    {
-      "type": "text", 
-      "name": "contributing_factors"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "bicycle"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "bus"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "fire_truck"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "large_com_vehicle_6_or_more_tires"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "livery_vehicle"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "motorcycle"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "other"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "passenger_vehicle"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "pick_up_truck"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "small_com_vehicle_4_tires"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "suv_station_wagon"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "taxi_vehicle"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "unknown"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "van"
-    }, 
-    {
-      "type": "text", 
-      "name": "location_1"
-    }
-  ], 
+  "schema": {
+    "columns": [
+      {
+        "type": "text", 
+        "name": "intersection_address"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "number_of_collisions"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "persons_involved"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "collisions_with_injuries"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "injured_motorist"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "injured_passenger"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "injured_cyclist"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "injured_pedestrian"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "injured_total"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "killed_morotist"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "killed_passenger"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "killed_cyclist"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "killed_pedestrian"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "total_killed"
+      }, 
+      {
+        "type": "text", 
+        "name": "vehicle_types"
+      }, 
+      {
+        "type": "text", 
+        "name": "contributing_factors"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "bicycle"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "bus"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "fire_truck"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "large_com_vehicle_6_or_more_tires"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "livery_vehicle"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "motorcycle"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "other"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "passenger_vehicle"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "pick_up_truck"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "small_com_vehicle_4_tires"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "suv_station_wagon"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "taxi_vehicle"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "unknown"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "van"
+      }, 
+      {
+        "type": "text", 
+        "name": "location_1"
+      }
+    ]
+  }, 
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_bronx_lehman_cuny_bronx_intersection_accidents_june_2013/data.json", 
   "name": "socrata_bronx_lehman_cuny_bronx_intersection_accidents_june_2013", 
   "data": {
