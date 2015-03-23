@@ -46,6 +46,17 @@ def run_remote_script(desc, tmp_dir, env_vars=None):
         raise Exception("Script type '{}' not supported".format(script_type))
 
 
+def generate_schema(table_name, schema):
+    """
+    Generate a schema dynamically in cases where it's not previously supplied.
+    """
+    columns = [u'\t"{}"\t{}'.format(c['name'], c['type']) for c in schema['columns']]
+    return u'CREATE UNLOGGED TABLE {} ({})'.format(
+        table_name,
+        ',\n'.join(columns)
+    )
+
+
 def wget_download(url, name):
     """
     Download a URL and save it in file called 'name'.
@@ -91,7 +102,13 @@ def build(url):
     resp = requests.get(url).json()
     dataset_name = resp[u'name']
 
-    schema_path = wget_download(resp[u'schema'][u'postgres'][u'@id'], 'schema.sql')
+    schema = resp[u'schema'][u'postgres']
+    if '@id' in schema:
+        schema_path = wget_download([u'@id'], 'schema.sql')
+    else:
+        schema_path = 'tmp/schema.sql'
+        with open(schema_path, 'w') as schema_file:
+            schema_file.write(generate_schema(dataset_name, schema))
     run_postgres_script(schema_path)
 
     data_filename = dataset_name + '.data'

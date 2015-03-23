@@ -99,7 +99,9 @@ def infer(metadata_url, output_root_dir):
         "data": {
             "@id": data_url
         },
-        "schema": generate_schema(socrata_metadata[u'columns'])
+        "schema": {
+            "columns": generate_schema(socrata_metadata[u'columns'])
+        }
     }
     output_dir = os.path.join(output_root_dir, name)
     try:
