@@ -102,9 +102,9 @@ def build(url):
     resp = requests.get(url).json()
     dataset_name = resp[u'name']
 
-    schema = resp[u'schema'][u'postgres']
-    if '@id' in schema:
-        schema_path = wget_download([u'@id'], 'schema.sql')
+    schema = resp[u'schema']
+    if 'postgres' in schema:
+        schema_path = wget_download(schema[u'postgres'][u'@id'], 'schema.sql')
     else:
         schema_path = 'tmp/schema.sql'
         with open(schema_path, 'w') as schema_file:
