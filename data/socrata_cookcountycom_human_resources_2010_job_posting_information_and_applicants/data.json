@@ -2,36 +2,38 @@
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
-  "schema": [
-    {
-      "type": "tinyint", 
-      "name": "month_number"
-    }, 
-    {
-      "type": "text", 
-      "name": "month"
-    }, 
-    {
-      "type": "text", 
-      "name": "closing_date"
-    }, 
-    {
-      "type": "text", 
-      "name": "posting_number"
-    }, 
-    {
-      "type": "text", 
-      "name": "job_code"
-    }, 
-    {
-      "type": "text", 
-      "name": "job_title"
-    }, 
-    {
-      "type": "tinyint", 
-      "name": "number_of_applicants"
-    }
-  ], 
+  "schema": {
+    "columns": [
+      {
+        "type": "tinyint", 
+        "name": "month_number"
+      }, 
+      {
+        "type": "text", 
+        "name": "month"
+      }, 
+      {
+        "type": "text", 
+        "name": "closing_date"
+      }, 
+      {
+        "type": "text", 
+        "name": "posting_number"
+      }, 
+      {
+        "type": "text", 
+        "name": "job_code"
+      }, 
+      {
+        "type": "text", 
+        "name": "job_title"
+      }, 
+      {
+        "type": "tinyint", 
+        "name": "number_of_applicants"
+      }
+    ]
+  }, 
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cookcountycom_human_resources_2010_job_posting_information_and_applicants/data.json", 
   "name": "socrata_cookcountycom_human_resources_2010_job_posting_information_and_applicants", 
   "data": {

@@ -2,24 +2,26 @@
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
-  "schema": [
-    {
-      "type": "text", 
-      "name": "sex_"
-    }, 
-    {
-      "type": "text", 
-      "name": "age_"
-    }, 
-    {
-      "type": "text", 
-      "name": "race_"
-    }, 
-    {
-      "type": "smallint", 
-      "name": "count"
-    }
-  ], 
+  "schema": {
+    "columns": [
+      {
+        "type": "text", 
+        "name": "sex_"
+      }, 
+      {
+        "type": "text", 
+        "name": "age_"
+      }, 
+      {
+        "type": "text", 
+        "name": "race_"
+      }, 
+      {
+        "type": "smallint", 
+        "name": "count"
+      }
+    ]
+  }, 
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cookcountycom_medical_examiner_2009_deaths_by_gender_age_and_race/data.json", 
   "name": "socrata_cookcountycom_medical_examiner_2009_deaths_by_gender_age_and_race", 
   "data": {

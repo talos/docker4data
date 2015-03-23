@@ -2,20 +2,22 @@
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
-  "schema": [
-    {
-      "type": "text", 
-      "name": "dept"
-    }, 
-    {
-      "type": "smallint", 
-      "name": "number_of_employees"
-    }, 
-    {
-      "type": "real", 
-      "name": "health_costs_for_department"
-    }
-  ], 
+  "schema": {
+    "columns": [
+      {
+        "type": "text", 
+        "name": "dept"
+      }, 
+      {
+        "type": "smallint", 
+        "name": "number_of_employees"
+      }, 
+      {
+        "type": "real", 
+        "name": "health_costs_for_department"
+      }
+    ]
+  }, 
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cookcountycom_risk_management_employee_healthcare_costs_by_department_july_2012/data.json", 
   "name": "socrata_cookcountycom_risk_management_employee_healthcare_costs_by_department_july_2012", 
   "data": {

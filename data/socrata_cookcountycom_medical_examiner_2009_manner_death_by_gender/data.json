@@ -2,20 +2,22 @@
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
-  "schema": [
-    {
-      "type": "text", 
-      "name": "manner_of_death"
-    }, 
-    {
-      "type": "text", 
-      "name": "sex_"
-    }, 
-    {
-      "type": "smallint", 
-      "name": "count"
-    }
-  ], 
+  "schema": {
+    "columns": [
+      {
+        "type": "text", 
+        "name": "manner_of_death"
+      }, 
+      {
+        "type": "text", 
+        "name": "sex_"
+      }, 
+      {
+        "type": "smallint", 
+        "name": "count"
+      }
+    ]
+  }, 
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cookcountycom_medical_examiner_2009_manner_death_by_gender/data.json", 
   "name": "socrata_cookcountycom_medical_examiner_2009_manner_death_by_gender", 
   "data": {
