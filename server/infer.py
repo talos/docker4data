@@ -10,6 +10,7 @@ import sys
 import urlparse
 import re
 import json
+import os
 
 
 def shell(cmd):
@@ -49,21 +50,26 @@ def generate_schema(columns):
     for column in columns:
         _type = column[u'dataTypeName'].lower()
         if _type == 'number':
-            _type = 'integer'
-            if 'cachedContents' in column:
-                largest = int(column['cachedContents']['largest'])
-                if largest >= pow(2, 32):
-                    _type = 'bigint'
-                elif largest >= pow(2, 16):
-                    _type = 'integer'
-                elif largest >= pow(2, 8):
-                    _type = 'smallint'
-                else:
-                    _type = 'tinyint'
-        if _type == 'calendar_date':
-            _type = 'datetime'
-        if _type == 'money':
             _type = 'real'
+            if 'cachedContents' in column and 'largest' in column['cachedContents']:
+                try:
+                    largest = int(column['cachedContents']['largest'])
+                    if largest >= pow(2, 32):
+                        _type = 'bigint'
+                    elif largest >= pow(2, 16):
+                        _type = 'integer'
+                    elif largest >= pow(2, 8):
+                        _type = 'smallint'
+                    else:
+                        _type = 'tinyint'
+                except ValueError:
+                    pass
+        elif _type == 'calendar_date':
+            _type = 'datetime'
+        elif _type == 'money':
+            _type = 'real'
+        else:
+            _type = 'text'
         result.append({
             "name": column[u'fieldName'].lower(),
             "type": _type
@@ -71,7 +77,7 @@ def generate_schema(columns):
     return result
 
 
-def infer(metadata_url):
+def infer(metadata_url, output_root_dir):
     '''
     Main function.  Takes the URL of some Socrata metadata.
 
@@ -95,8 +101,17 @@ def infer(metadata_url):
         },
         "schema": generate_schema(socrata_metadata[u'columns'])
     }
-    sys.stdout.write(json.dumps(d4d_metadata, indent=2))
+    output_dir = os.path.join(output_root_dir, name)
+    try:
+        os.makedirs(output_dir)
+    except OSError:
+        pass
+    output_path = os.path.join(output_dir, 'data.json')
+    with open(output_path, 'w') as output_file:
+        json.dump(d4d_metadata, output_file, indent=2)
+
+    #sys.stdout.write(json.dumps(d4d_metadata, indent=2))
 
 
 if __name__ == "__main__":
-    infer(sys.argv[1])
+    infer(sys.argv[1], sys.argv[2])

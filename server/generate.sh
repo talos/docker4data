@@ -9,8 +9,7 @@ for portal in $(curl -k -s -S ${PORTALS_URL}); do
       continue
     fi
     dataset_url=http://www.opendatacache.com/${portal}/api/views/${id}.json
+    echo $dataset_url
     python infer.py $dataset_url ../data
-    break
   done
-  #echo $portal
 done
