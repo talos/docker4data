@@ -1,0 +1,540 @@
+{
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "schema": [
+    {
+      "type": "smallint", 
+      "name": "censustract"
+    }, 
+    {
+      "type": "smallint", 
+      "name": "fid"
+    }, 
+    {
+      "type": "smallint", 
+      "name": "puma"
+    }, 
+    {
+      "type": "text", 
+      "name": "ntacode"
+    }, 
+    {
+      "type": "text", 
+      "name": "point_x"
+    }, 
+    {
+      "type": "real", 
+      "name": "point_y"
+    }, 
+    {
+      "type": "smallint", 
+      "name": "total_estimate_households"
+    }, 
+    {
+      "type": "smallint", 
+      "name": "total_margin_of_error_households"
+    }, 
+    {
+      "type": "smallint", 
+      "name": "households_receiving_food_stamps_estimate_households"
+    }, 
+    {
+      "type": "smallint", 
+      "name": "households_receiving_food_stamps_margin_of_error_households"
+    }, 
+    {
+      "type": "smallint", 
+      "name": "households_not_receiving_food_stamps_estimate_households"
+    }, 
+    {
+      "type": "smallint", 
+      "name": "households_not_receiving_food_stamps_margin_of_error_households"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "total_estimate_with_one_or_more_people_60_years_and_over"
+    }, 
+    {
+      "type": "real", 
+      "name": "total_margin_of_error_with_one_or_more_people_60_years_and_over"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_receiving_food_stamps_estimate_with_one_or_more_people_60_years_and_over"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_receiving_food_stamps_margin_of_error_with_one_or_more_people_60_years_and_over"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_not_receiving_food_stamps_estimate_with_one_or_more_people_60_years_and_over"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_not_receiving_food_stamps_margin_of_error_with_one_or_more_people_60_years_and_over"
+    }, 
+    {
+      "type": "real", 
+      "name": "total_estimate_with_children_under_18_years"
+    }, 
+    {
+      "type": "real", 
+      "name": "total_margin_of_error_with_children_under_18_years"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_receiving_food_stamps_estimate_with_children_under_18_years"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_receiving_food_stamps_margin_of_error_with_children_under_18_years"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_not_receiving_food_stamps_estimate_with_children_under_18_years"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_not_receiving_food_stamps_margin_of_error_with_children_under_18_years"
+    }, 
+    {
+      "type": "real", 
+      "name": "total_estimate_poverty_status_in_the_past_12_months_below_poverty_level"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "total_margin_of_error_poverty_status_in_the_past_12_months_below_poverty_level"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_receiving_food_stamps_estimate_poverty_status_in_the_past_12_months_below_poverty_level"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_receiving_food_stamps_margin_of_error_poverty_status_in_the_past_12_months_below_poverty_level"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_not_receiving_food_stamps_estimate_poverty_status_in_the_past_12_months_below_poverty_level"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_not_receiving_food_stamps_margin_of_error_poverty_status_in_the_past_12_months_below_poverty_level"
+    }, 
+    {
+      "type": "text", 
+      "name": "total_estimate_disability_status_with_one_or_more_people_with_a_disability"
+    }, 
+    {
+      "type": "text", 
+      "name": "total_margin_of_error_disability_status_with_one_or_more_people_with_a_disability"
+    }, 
+    {
+      "type": "text", 
+      "name": "households_receiving_food_stamps_estimate_disability_status_with_one_or_more_people_with_a_disability"
+    }, 
+    {
+      "type": "text", 
+      "name": "households_receiving_food_stamps_margin_of_error_disability_status_with_one_or_more_people_with_a_disability"
+    }, 
+    {
+      "type": "text", 
+      "name": "households_not_receiving_food_stamps_estimate_disability_status_with_one_or_more_people_with_a_disability"
+    }, 
+    {
+      "type": "text", 
+      "name": "households_not_receiving_food_stamps_margin_of_error_disability_status_with_one_or_more_people_with_a_disability"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "total_estimate_race_and_hispanic_or_latino_origin_of_householder_one_race"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "total_margin_of_error_race_and_hispanic_or_latino_origin_of_householder_one_race"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_receiving_food_stamps_estimate_race_and_hispanic_or_latino_origin_of_householder_one_race"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_receiving_food_stamps_margin_of_error_race_and_hispanic_or_latino_origin_of_householder_one_race"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_not_receiving_food_stamps_estimate_race_and_hispanic_or_latino_origin_of_householder_one_race"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_not_receiving_food_stamps_margin_of_error_race_and_hispanic_or_latino_origin_of_householder_one_race"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "total_estimate_race_and_hispanic_or_latino_origin_of_householder_one_race_white"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "total_margin_of_error_race_and_hispanic_or_latino_origin_of_householder_one_race_white"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_receiving_food_stamps_estimate_race_and_hispanic_or_latino_origin_of_householder_one_race_white"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_receiving_food_stamps_margin_of_error_race_and_hispanic_or_latino_origin_of_householder_one_race_white"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_not_receiving_food_stamps_estimate_race_and_hispanic_or_latino_origin_of_householder_one_race_white"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_not_receiving_food_stamps_margin_of_error_race_and_hispanic_or_latino_origin_of_householder_one_race_white"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "total_estimate_race_and_hispanic_or_latino_origin_of_householder_one_race_black_or_african_american"
+    }, 
+    {
+      "type": "real", 
+      "name": "total_margin_of_error_race_and_hispanic_or_latino_origin_of_householder_one_race_black_or_african_american"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_receiving_food_stamps_estimate_race_and_hispanic_or_latino_origin_of_householder_one_race_black_or_african_american"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_receiving_food_stamps_margin_of_error_race_and_hispanic_or_latino_origin_of_householder_one_race_black_or_african_american"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_not_receiving_food_stamps_estimate_race_and_hispanic_or_latino_origin_of_householder_one_race_black_or_african_american"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_not_receiving_food_stamps_margin_of_error_race_and_hispanic_or_latino_origin_of_householder_one_race_black_or_african_american"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "total_estimate_race_and_hispanic_or_latino_origin_of_householder_one_race_american_indian_and_alaska_native"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "total_margin_of_error_race_and_hispanic_or_latino_origin_of_householder_one_race_american_indian_and_alaska_native"
+    }, 
+    {
+      "type": "real", 
+      "name": "households_receiving_food_stamps_estimate_race_and_hispanic_or_latino_origin_of_householder_one_race_american_indian_and_alaska_native"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_receiving_food_stamps_margin_of_error_race_and_hispanic_or_latino_origin_of_householder_one_race_american_indian_and_alaska_native"
+    }, 
+    {
+      "type": "real", 
+      "name": "households_not_receiving_food_stamps_estimate_race_and_hispanic_or_latino_origin_of_householder_one_race_american_indian_and_alaska_native"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_not_receiving_food_stamps_margin_of_error_race_and_hispanic_or_latino_origin_of_householder_one_race_american_indian_and_alaska_native"
+    }, 
+    {
+      "type": "real", 
+      "name": "total_estimate_race_and_hispanic_or_latino_origin_of_householder_one_race_asian"
+    }, 
+    {
+      "type": "real", 
+      "name": "total_margin_of_error_race_and_hispanic_or_latino_origin_of_householder_one_race_asian"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_receiving_food_stamps_estimate_race_and_hispanic_or_latino_origin_of_householder_one_race_asian"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_receiving_food_stamps_margin_of_error_race_and_hispanic_or_latino_origin_of_householder_one_race_asian"
+    }, 
+    {
+      "type": "real", 
+      "name": "households_not_receiving_food_stamps_estimate_race_and_hispanic_or_latino_origin_of_householder_one_race_asian"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_not_receiving_food_stamps_margin_of_error_race_and_hispanic_or_latino_origin_of_householder_one_race_asian"
+    }, 
+    {
+      "type": "real", 
+      "name": "total_estimate_race_and_hispanic_or_latino_origin_of_householder_one_race_native_hawaiian_and_other_pacific_islander"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "total_margin_of_error_race_and_hispanic_or_latino_origin_of_householder_one_race_native_hawaiian_and_other_pacific_islander"
+    }, 
+    {
+      "type": "real", 
+      "name": "households_receiving_food_stamps_estimate_race_and_hispanic_or_latino_origin_of_householder_one_race_native_hawaiian_and_other_pacific_islander"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_receiving_food_stamps_margin_of_error_race_and_hispanic_or_latino_origin_of_householder_one_race_native_hawaiian_and_other_pacific_islander"
+    }, 
+    {
+      "type": "real", 
+      "name": "households_not_receiving_food_stamps_estimate_race_and_hispanic_or_latino_origin_of_householder_one_race_native_hawaiian_and_other_pacific_islander"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_not_receiving_food_stamps_margin_of_error_race_and_hispanic_or_latino_origin_of_householder_one_race_native_hawaiian_and_other_pacific_islander"
+    }, 
+    {
+      "type": "real", 
+      "name": "total_estimate_race_and_hispanic_or_latino_origin_of_householder_one_race_some_other_race"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "total_margin_of_error_race_and_hispanic_or_latino_origin_of_householder_one_race_some_other_race"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_receiving_food_stamps_estimate_race_and_hispanic_or_latino_origin_of_householder_one_race_some_other_race"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_receiving_food_stamps_margin_of_error_race_and_hispanic_or_latino_origin_of_householder_one_race_some_other_race"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_not_receiving_food_stamps_estimate_race_and_hispanic_or_latino_origin_of_householder_one_race_some_other_race"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_not_receiving_food_stamps_margin_of_error_race_and_hispanic_or_latino_origin_of_householder_one_race_some_other_race"
+    }, 
+    {
+      "type": "real", 
+      "name": "total_estimate_race_and_hispanic_or_latino_origin_of_householder_two_or_more_races"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "total_margin_of_error_race_and_hispanic_or_latino_origin_of_householder_two_or_more_races"
+    }, 
+    {
+      "type": "real", 
+      "name": "households_receiving_food_stamps_estimate_race_and_hispanic_or_latino_origin_of_householder_two_or_more_races"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_receiving_food_stamps_margin_of_error_race_and_hispanic_or_latino_origin_of_householder_two_or_more_races"
+    }, 
+    {
+      "type": "real", 
+      "name": "households_not_receiving_food_stamps_estimate_race_and_hispanic_or_latino_origin_of_householder_two_or_more_races"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_not_receiving_food_stamps_margin_of_error_race_and_hispanic_or_latino_origin_of_householder_two_or_more_races"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "total_estimate_hispanic_or_latino_origin_of_any_race"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "total_margin_of_error_hispanic_or_latino_origin_of_any_race"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_receiving_food_stamps_estimate_hispanic_or_latino_origin_of_any_race"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_receiving_food_stamps_margin_of_error_hispanic_or_latino_origin_of_any_race"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_not_receiving_food_stamps_estimate_hispanic_or_latino_origin_of_any_race"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_not_receiving_food_stamps_margin_of_error_hispanic_or_latino_origin_of_any_race"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "total_estimate_white_alone_not_hispanic_or_latino"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "total_margin_of_error_white_alone_not_hispanic_or_latino"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_receiving_food_stamps_estimate_white_alone_not_hispanic_or_latino"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_receiving_food_stamps_margin_of_error_white_alone_not_hispanic_or_latino"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_not_receiving_food_stamps_estimate_white_alone_not_hispanic_or_latino"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_not_receiving_food_stamps_margin_of_error_white_alone_not_hispanic_or_latino"
+    }, 
+    {
+      "type": "integer", 
+      "name": "total_estimate_household_income_in_the_past_12_months_in_2011_inflation_adjusted_dollars_median_income_dollars"
+    }, 
+    {
+      "type": "integer", 
+      "name": "total_margin_of_error_household_income_in_the_past_12_months_in_2011_inflation_adjusted_dollars_median_income_dollars"
+    }, 
+    {
+      "type": "integer", 
+      "name": "households_receiving_food_stamps_estimate_household_income_in_the_past_12_months_in_2011_inflation_adjusted_dollars_median_income_dollars"
+    }, 
+    {
+      "type": "integer", 
+      "name": "households_receiving_food_stamps_margin_of_error_household_income_in_the_past_12_months_in_2011_inflation_adjusted_dollars_median_income_dollars"
+    }, 
+    {
+      "type": "integer", 
+      "name": "households_not_receiving_food_stamps_estimate_household_income_in_the_past_12_months_in_2011_inflation_adjusted_dollars_median_income_dollars"
+    }, 
+    {
+      "type": "smallint", 
+      "name": "households_not_receiving_food_stamps_margin_of_error_household_income_in_the_past_12_months_in_2011_inflation_adjusted_dollars_median_income_dollars"
+    }, 
+    {
+      "type": "smallint", 
+      "name": "total_estimate_work_status_families"
+    }, 
+    {
+      "type": "smallint", 
+      "name": "total_margin_of_error_work_status_families"
+    }, 
+    {
+      "type": "smallint", 
+      "name": "households_receiving_food_stamps_estimate_work_status_families"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_receiving_food_stamps_margin_of_error_work_status_families"
+    }, 
+    {
+      "type": "smallint", 
+      "name": "households_not_receiving_food_stamps_estimate_work_status_families"
+    }, 
+    {
+      "type": "smallint", 
+      "name": "households_not_receiving_food_stamps_margin_of_error_work_status_families"
+    }, 
+    {
+      "type": "real", 
+      "name": "total_estimate_work_status_no_workers_in_past_12_months"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "total_margin_of_error_work_status_no_workers_in_past_12_months"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_receiving_food_stamps_estimate_work_status_no_workers_in_past_12_months"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_receiving_food_stamps_margin_of_error_work_status_no_workers_in_past_12_months"
+    }, 
+    {
+      "type": "real", 
+      "name": "households_not_receiving_food_stamps_estimate_work_status_no_workers_in_past_12_months"
+    }, 
+    {
+      "type": "real", 
+      "name": "households_not_receiving_food_stamps_margin_of_error_work_status_no_workers_in_past_12_months"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "total_estimate_work_status_1_worker_in_past_12_months"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "total_margin_of_error_work_status_1_worker_in_past_12_months"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_receiving_food_stamps_estimate_work_status_1_worker_in_past_12_months"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_receiving_food_stamps_margin_of_error_work_status_1_worker_in_past_12_months"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_not_receiving_food_stamps_estimate_work_status_1_worker_in_past_12_months"
+    }, 
+    {
+      "type": "real", 
+      "name": "households_not_receiving_food_stamps_margin_of_error_work_status_1_worker_in_past_12_months"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "total_estimate_work_status_2_or_more_workers_in_past_12_months"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "total_margin_of_error_work_status_2_or_more_workers_in_past_12_months"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_receiving_food_stamps_estimate_work_status_2_or_more_workers_in_past_12_months"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_receiving_food_stamps_margin_of_error_work_status_2_or_more_workers_in_past_12_months"
+    }, 
+    {
+      "type": "tinyint", 
+      "name": "households_not_receiving_food_stamps_estimate_work_status_2_or_more_workers_in_past_12_months"
+    }, 
+    {
+      "type": "real", 
+      "name": "households_not_receiving_food_stamps_margin_of_error_work_status_2_or_more_workers_in_past_12_months"
+    }, 
+    {
+      "type": "real", 
+      "name": "total_estimate_percent_imputed_food_stamp_snap_recipiency"
+    }, 
+    {
+      "type": "text", 
+      "name": "total_margin_of_error_percent_imputed_food_stamp_snap_recipiency"
+    }, 
+    {
+      "type": "text", 
+      "name": "households_receiving_food_stamps_estimate_percent_imputed_food_stamp_snap_recipiency"
+    }, 
+    {
+      "type": "text", 
+      "name": "households_receiving_food_stamps_margin_of_error_percent_imputed_food_stamp_snap_recipiency"
+    }, 
+    {
+      "type": "text", 
+      "name": "households_not_receiving_food_stamps_estimate_percent_imputed_food_stamp_snap_recipiency"
+    }, 
+    {
+      "type": "text", 
+      "name": "households_not_receiving_food_stamps_margin_of_error_percent_imputed_food_stamp_snap_recipiency"
+    }
+  ], 
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_bronx_lehman_cuny_food_stamps_snap_2007_2011_american_community_survey_5_year_estimates/data.json", 
+  "name": "socrata_bronx_lehman_cuny_food_stamps_snap_2007_2011_american_community_survey_5_year_estimates", 
+  "data": {
+    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/cs2g-kmnz/rows.csv"
+  }
+}
