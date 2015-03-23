@@ -61,7 +61,7 @@ def generate_schema(columns):
                     elif largest >= pow(2, 8):
                         _type = 'smallint'
                     else:
-                        _type = 'tinyint'
+                        _type = 'integer'
                 except ValueError:
                     pass
         elif _type == 'calendar_date':
