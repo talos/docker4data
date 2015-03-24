@@ -65,7 +65,7 @@ def generate_schema(columns):
             #    except ValueError:
             #        pass
         elif _type == 'calendar_date':
-            _type = 'datetime'
+            _type = 'timestamp'
         elif _type == 'money':
             _type = 'real'
         else:
