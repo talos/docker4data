@@ -1,0 +1,38 @@
+{
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "schema": {
+    "columns": [
+      {
+        "type": "real", 
+        "name": "npi"
+      }, 
+      {
+        "type": "text", 
+        "name": "first_name"
+      }, 
+      {
+        "type": "text", 
+        "name": "last_name"
+      }, 
+      {
+        "type": "datetime", 
+        "name": "effective_date"
+      }, 
+      {
+        "type": "datetime", 
+        "name": "end_date"
+      }, 
+      {
+        "type": "text", 
+        "name": "opt_out_flag"
+      }
+    ]
+  }, 
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cms_medicare_individual_provider_list/data.json", 
+  "name": "socrata_cms_medicare_individual_provider_list", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cms.gov/api/views/u8u9-2upx/rows.csv"
+  }
+}

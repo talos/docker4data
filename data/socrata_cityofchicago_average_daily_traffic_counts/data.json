@@ -1,0 +1,50 @@
+{
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "schema": {
+    "columns": [
+      {
+        "type": "real", 
+        "name": "id"
+      }, 
+      {
+        "type": "text", 
+        "name": "traffic_volume_count_location_address"
+      }, 
+      {
+        "type": "text", 
+        "name": "street"
+      }, 
+      {
+        "type": "text", 
+        "name": "date_of_count"
+      }, 
+      {
+        "type": "real", 
+        "name": "total_passing_vehicle_volume"
+      }, 
+      {
+        "type": "text", 
+        "name": "vehicle_volume_by_each_direction_of_traffic"
+      }, 
+      {
+        "type": "real", 
+        "name": "latitude"
+      }, 
+      {
+        "type": "real", 
+        "name": "longitude"
+      }, 
+      {
+        "type": "text", 
+        "name": "location"
+      }
+    ]
+  }, 
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_average_daily_traffic_counts/data.json", 
+  "name": "socrata_cityofchicago_average_daily_traffic_counts", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/pfsx-4n4m/rows.csv"
+  }
+}

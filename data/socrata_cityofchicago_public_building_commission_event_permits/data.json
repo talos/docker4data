@@ -1,0 +1,42 @@
+{
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "schema": {
+    "columns": [
+      {
+        "type": "datetime", 
+        "name": "date_received"
+      }, 
+      {
+        "type": "text", 
+        "name": "requestor"
+      }, 
+      {
+        "type": "text", 
+        "name": "event_location"
+      }, 
+      {
+        "type": "datetime", 
+        "name": "event_date"
+      }, 
+      {
+        "type": "datetime", 
+        "name": "event_end_date"
+      }, 
+      {
+        "type": "text", 
+        "name": "permit_status"
+      }, 
+      {
+        "type": "text", 
+        "name": "approved_or_denied"
+      }
+    ]
+  }, 
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_public_building_commission_event_permits/data.json", 
+  "name": "socrata_cityofchicago_public_building_commission_event_permits", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/knv6-r5ad/rows.csv"
+  }
+}

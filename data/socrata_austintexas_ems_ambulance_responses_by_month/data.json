@@ -1,0 +1,58 @@
+{
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "schema": {
+    "columns": [
+      {
+        "type": "real", 
+        "name": "month_key"
+      }, 
+      {
+        "type": "datetime", 
+        "name": "month_start_date"
+      }, 
+      {
+        "type": "real", 
+        "name": "count_responses_all"
+      }, 
+      {
+        "type": "real", 
+        "name": "count_responses_into_coa"
+      }, 
+      {
+        "type": "real", 
+        "name": "count_responses_into_tc"
+      }, 
+      {
+        "type": "real", 
+        "name": "count_responses_into_other"
+      }, 
+      {
+        "type": "real", 
+        "name": "count_responses_into_coa_or_tc"
+      }, 
+      {
+        "type": "real", 
+        "name": "count_responses_into_tc_by_coa"
+      }, 
+      {
+        "type": "real", 
+        "name": "count_responses_into_coa_by_tc"
+      }, 
+      {
+        "type": "text", 
+        "name": "percent_responses_into_coa_by_tc"
+      }, 
+      {
+        "type": "text", 
+        "name": "percent_responses_into_tc_by_coa"
+      }
+    ]
+  }, 
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_ems_ambulance_responses_by_month/data.json", 
+  "name": "socrata_austintexas_ems_ambulance_responses_by_month", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/bptg-ndvw/rows.csv"
+  }
+}

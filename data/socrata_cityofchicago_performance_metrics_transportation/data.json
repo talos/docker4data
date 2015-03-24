@@ -1,0 +1,42 @@
+{
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "schema": {
+    "columns": [
+      {
+        "type": "text", 
+        "name": "activity"
+      }, 
+      {
+        "type": "datetime", 
+        "name": "period_start"
+      }, 
+      {
+        "type": "text", 
+        "name": "period_length"
+      }, 
+      {
+        "type": "real", 
+        "name": "target_response_days"
+      }, 
+      {
+        "type": "real", 
+        "name": "average_days_to_complete_activity"
+      }, 
+      {
+        "type": "real", 
+        "name": "total_completed_requests"
+      }, 
+      {
+        "type": "text", 
+        "name": "period"
+      }
+    ]
+  }, 
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_performance_metrics_transportation/data.json", 
+  "name": "socrata_cityofchicago_performance_metrics_transportation", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/eaff-5ff2/rows.csv"
+  }
+}

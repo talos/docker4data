@@ -1,0 +1,50 @@
+{
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "schema": {
+    "columns": [
+      {
+        "type": "text", 
+        "name": "moratorium_type"
+      }, 
+      {
+        "type": "real", 
+        "name": "street_address_begin"
+      }, 
+      {
+        "type": "real", 
+        "name": "street_address_end"
+      }, 
+      {
+        "type": "text", 
+        "name": "street_address_prefix"
+      }, 
+      {
+        "type": "text", 
+        "name": "street_name"
+      }, 
+      {
+        "type": "text", 
+        "name": "street_name_suffix"
+      }, 
+      {
+        "type": "datetime", 
+        "name": "expiration_date"
+      }, 
+      {
+        "type": "real", 
+        "name": "ward_odd"
+      }, 
+      {
+        "type": "real", 
+        "name": "ward_even"
+      }
+    ]
+  }, 
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_roadway_construction_moratoriums/data.json", 
+  "name": "socrata_cityofchicago_roadway_construction_moratoriums", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/ndbz-vy4e/rows.csv"
+  }
+}

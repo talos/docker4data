@@ -1,0 +1,42 @@
+{
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "schema": {
+    "columns": [
+      {
+        "type": "real", 
+        "name": "fips"
+      }, 
+      {
+        "type": "text", 
+        "name": "state"
+      }, 
+      {
+        "type": "text", 
+        "name": "county"
+      }, 
+      {
+        "type": "real", 
+        "name": "health_outcomes_z_score"
+      }, 
+      {
+        "type": "real", 
+        "name": "health_outcomes_rank"
+      }, 
+      {
+        "type": "real", 
+        "name": "health_factors_z_score"
+      }, 
+      {
+        "type": "real", 
+        "name": "health_factors_rank"
+      }
+    ]
+  }, 
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_2012_health_outcomes_and_factors_rankings/data.json", 
+  "name": "socrata_colorado_2012_health_outcomes_and_factors_rankings", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/rhr5-4mx3/rows.csv"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "schema": {
+    "columns": [
+      {
+        "type": "real", 
+        "name": "month_key"
+      }, 
+      {
+        "type": "datetime", 
+        "name": "month_start_date"
+      }, 
+      {
+        "type": "real", 
+        "name": "count_patient_contacts_all"
+      }, 
+      {
+        "type": "real", 
+        "name": "count_patient_contacts_coa"
+      }, 
+      {
+        "type": "real", 
+        "name": "count_patient_contacts_tc"
+      }, 
+      {
+        "type": "real", 
+        "name": "count_patient_contacts_other"
+      }, 
+      {
+        "type": "real", 
+        "name": "count_patient_contacts_coa_and_tc"
+      }, 
+      {
+        "type": "real", 
+        "name": "count_patient_transports_all"
+      }, 
+      {
+        "type": "real", 
+        "name": "count_patient_transports_coa"
+      }, 
+      {
+        "type": "real", 
+        "name": "count_patient_transports_tc"
+      }, 
+      {
+        "type": "real", 
+        "name": "count_patient_transports_other"
+      }, 
+      {
+        "type": "real", 
+        "name": "count_patient_transports_coa_and_tc"
+      }, 
+      {
+        "type": "text", 
+        "name": "percent_patient_transports_all"
+      }, 
+      {
+        "type": "text", 
+        "name": "percent_patient_transports_coa"
+      }, 
+      {
+        "type": "text", 
+        "name": "percent_patient_transports_tc"
+      }, 
+      {
+        "type": "text", 
+        "name": "percent_patient_transports_other"
+      }, 
+      {
+        "type": "text", 
+        "name": "percent_patient_transports_coa_and_tc"
+      }, 
+      {
+        "type": "text", 
+        "name": "percent_patient_transports_target"
+      }
+    ]
+  }, 
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_ems_patient_contacts_by_month/data.json", 
+  "name": "socrata_austintexas_ems_patient_contacts_by_month", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/cibe-gpzy/rows.csv"
+  }
+}

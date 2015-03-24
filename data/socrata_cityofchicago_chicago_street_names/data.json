@@ -1,0 +1,42 @@
+{
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "schema": {
+    "columns": [
+      {
+        "type": "text", 
+        "name": "full_street_name"
+      }, 
+      {
+        "type": "text", 
+        "name": "direction"
+      }, 
+      {
+        "type": "text", 
+        "name": "street"
+      }, 
+      {
+        "type": "text", 
+        "name": "suffix"
+      }, 
+      {
+        "type": "text", 
+        "name": "suffix_direction"
+      }, 
+      {
+        "type": "real", 
+        "name": "min_address"
+      }, 
+      {
+        "type": "real", 
+        "name": "max_address"
+      }
+    ]
+  }, 
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_chicago_street_names/data.json", 
+  "name": "socrata_cityofchicago_chicago_street_names", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/i6bp-fvbx/rows.csv"
+  }
+}
