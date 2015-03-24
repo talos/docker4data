@@ -51,19 +51,19 @@ def generate_schema(columns):
         _type = column[u'dataTypeName'].lower()
         if _type == 'number':
             _type = 'real'
-            if 'cachedContents' in column and 'largest' in column['cachedContents']:
-                try:
-                    largest = int(column['cachedContents']['largest'])
-                    if largest >= pow(2, 32):
-                        _type = 'bigint'
-                    elif largest >= pow(2, 16):
-                        _type = 'integer'
-                    elif largest >= pow(2, 8):
-                        _type = 'smallint'
-                    else:
-                        _type = 'integer'
-                except ValueError:
-                    pass
+            #if 'cachedContents' in column and 'largest' in column['cachedContents']:
+            #    try:
+            #        largest = int(column['cachedContents']['largest'])
+            #        if largest >= pow(2, 32):
+            #            _type = 'bigint'
+            #        elif largest >= pow(2, 16):
+            #            _type = 'integer'
+            #        elif largest >= pow(2, 8):
+            #            _type = 'smallint'
+            #        else:
+            #            _type = 'integer'
+            #    except ValueError:
+            #        pass
         elif _type == 'calendar_date':
             _type = 'datetime'
         elif _type == 'money':
@@ -88,7 +88,7 @@ def infer(metadata_url, output_root_dir):
     namespace = extract_namespace(metadata_url)
     name = u'socrata_{}_{}'.format(namespace,
                                    socrata_metadata['name'].lower().replace(' ', '_'))
-    name = re.sub(r'[^0-9a-z]+', '_', name)
+    name = re.sub(r'[^0-9a-z]+', '_', name)[0:62]
     d4d_metadata = {
         "@id": u"https://raw.githubusercontent.com/talos/docker4data/"
                u"master/data/{}/data.json".format(name),
