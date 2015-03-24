@@ -18,6 +18,14 @@ LOGGER.addHandler(logging.StreamHandler(sys.stderr))
 LOGGER.setLevel(logging.INFO)
 
 
+def shell(cmd):
+    """
+    Run a shell command convenience function.
+    """
+    sys.stdout.write(cmd + '\n')
+    return subprocess.check_call(cmd, shell=True)
+
+
 def main(recipe_name):
     '''
     Main method for the script.
@@ -26,7 +34,10 @@ def main(recipe_name):
     LOGGER.info(u'Pulling recipe "%s" from "%s"', recipe_name, url)
     try:
         recipe = json.loads(urllib2.urlopen(url).read())
-        includes = recipe.includes.keys()
+        includes = recipe['include'].keys()
+        LOGGER.info(' '.join(includes))
+        #print u'docker create {}'.format(includes.join(' '))
+        shell(u'util/create_container.sh {}'.format(' '.join(includes)))
 
     except urllib2.HTTPError:
         LOGGER.error(u'Could not find recipe "%s"', recipe_name)
