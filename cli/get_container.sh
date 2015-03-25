@@ -27,7 +27,7 @@ docker run -p 54321:5432 -d --name docker4data thegovlab/docker4data
 
 for DATASET in ${DATASETS}; do
   docker exec docker4data mkdir -p /$DATASET/
-  docker exec docker4data wget -O /$DATASET/dump $DUMPS/$DATASET &
+  docker exec docker4data wget -q -O /$DATASET/dump $DUMPS/$DATASET &
 done
 
 echo 'Waiting for data to download.'
