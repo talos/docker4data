@@ -1,34 +1,37 @@
 {
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_odra_home_care_trends/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/xjur-zbxw/rows.csv"
+  }, 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/xjur-zbxw.json"
+  }, 
+  "name": "socrata_cityofnewyork_odra_home_care_trends", 
   "schema": {
     "columns": [
       {
-        "type": "real", 
-        "name": "year"
+        "name": "year", 
+        "type": "real"
       }, 
       {
-        "type": "real", 
-        "name": "month"
+        "name": "month", 
+        "type": "real"
       }, 
       {
-        "type": "real", 
-        "name": "cases"
+        "name": "cases", 
+        "type": "real"
       }, 
       {
-        "type": "text", 
-        "name": "monthly_percent_change"
+        "name": "monthly_percent_change", 
+        "type": "text"
       }, 
       {
-        "type": "text", 
-        "name": "yearly_percent_change"
+        "name": "yearly_percent_change", 
+        "type": "text"
       }
     ]
-  }, 
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_odra_home_care_trends/data.json", 
-  "name": "socrata_cityofnewyork_odra_home_care_trends", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/xjur-zbxw/rows.csv"
   }
 }

@@ -1,34 +1,37 @@
 {
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_nyc_social_media_usage/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/5b3a-rs48/rows.csv"
+  }, 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/5b3a-rs48.json"
+  }, 
+  "name": "socrata_cityofnewyork_nyc_social_media_usage", 
   "schema": {
     "columns": [
       {
-        "type": "text", 
-        "name": "agency"
+        "name": "agency", 
+        "type": "text"
       }, 
       {
-        "type": "text", 
-        "name": "platform"
+        "name": "platform", 
+        "type": "text"
       }, 
       {
-        "type": "text", 
-        "name": "url"
+        "name": "url", 
+        "type": "text"
       }, 
       {
-        "type": "timestamp", 
-        "name": "date_sampled"
+        "name": "date_sampled", 
+        "type": "timestamp"
       }, 
       {
-        "type": "real", 
-        "name": "metric"
+        "name": "metric", 
+        "type": "real"
       }
     ]
-  }, 
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_nyc_social_media_usage/data.json", 
-  "name": "socrata_cityofnewyork_nyc_social_media_usage", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/5b3a-rs48/rows.csv"
   }
 }

@@ -1,30 +1,33 @@
 {
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofboston_waze_point_data/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/b38s-xmkq/rows.csv"
+  }, 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.cityofboston.gov/api/views/b38s-xmkq.json"
+  }, 
+  "name": "socrata_cityofboston_waze_point_data", 
   "schema": {
     "columns": [
       {
-        "type": "timestamp", 
-        "name": "inject_date"
+        "name": "inject_date", 
+        "type": "timestamp"
       }, 
       {
-        "type": "text", 
-        "name": "uuid"
+        "name": "uuid", 
+        "type": "text"
       }, 
       {
-        "type": "real", 
-        "name": "y"
+        "name": "y", 
+        "type": "real"
       }, 
       {
-        "type": "real", 
-        "name": "x"
+        "name": "x", 
+        "type": "real"
       }
     ]
-  }, 
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofboston_waze_point_data/data.json", 
-  "name": "socrata_cityofboston_waze_point_data", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/b38s-xmkq/rows.csv"
   }
 }

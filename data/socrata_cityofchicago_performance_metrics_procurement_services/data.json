@@ -1,50 +1,37 @@
 {
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_performance_metrics_procurement_services/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/nfhf-cbk5/rows.csv"
+  }, 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/s9wg-6is6.json"
+  }, 
+  "name": "socrata_cityofchicago_performance_metrics_procurement_services", 
   "schema": {
     "columns": [
       {
-        "type": "text", 
-        "name": "week"
+        "name": "week", 
+        "type": "text"
       }, 
       {
-        "type": "text", 
-        "name": "year"
+        "name": "year", 
+        "type": "text"
       }, 
       {
-        "type": "real", 
-        "name": "average_of_amount_of_task_order"
+        "name": "revenue_from_city_auctions_year_to_date_", 
+        "type": "real"
       }, 
       {
-        "type": "real", 
-        "name": "total_dollar_amount_of_task_order_requests"
+        "name": "percent_toward_yearly_goal_2_2_million_", 
+        "type": "text"
       }, 
       {
-        "type": "real", 
-        "name": "median_cost_of_task_order_requests"
-      }, 
-      {
-        "type": "real", 
-        "name": "average_number_of_days_to_approve_task_order_request_tor_"
-      }, 
-      {
-        "type": "real", 
-        "name": "median_number_of_days_receipt_to_approval"
-      }, 
-      {
-        "type": "real", 
-        "name": "total_tasks_order_request"
-      }, 
-      {
-        "type": "real", 
-        "name": "target_response_time_days_"
+        "name": "yearly_goal_", 
+        "type": "real"
       }
     ]
-  }, 
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_performance_metrics_procurement_services/data.json", 
-  "name": "socrata_cityofchicago_performance_metrics_procurement_services", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/nfhf-cbk5/rows.csv"
   }
 }

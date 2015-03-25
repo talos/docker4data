@@ -1,34 +1,37 @@
 {
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_ems_system_response_time/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/ig6i-wwx7/rows.csv"
+  }, 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.austintexas.gov/api/views/ig6i-wwx7.json"
+  }, 
+  "name": "socrata_austintexas_ems_system_response_time", 
   "schema": {
     "columns": [
       {
-        "type": "timestamp", 
-        "name": "month_key"
+        "name": "month_key", 
+        "type": "timestamp"
       }, 
       {
-        "type": "real", 
-        "name": "incident_count"
+        "name": "incident_count", 
+        "type": "real"
       }, 
       {
-        "type": "real", 
-        "name": "goal_met_count"
+        "name": "goal_met_count", 
+        "type": "real"
       }, 
       {
-        "type": "text", 
-        "name": "goal_met_percentage"
+        "name": "goal_met_percentage", 
+        "type": "text"
       }, 
       {
-        "type": "text", 
-        "name": "target_percentage"
+        "name": "target_percentage", 
+        "type": "text"
       }
     ]
-  }, 
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_ems_system_response_time/data.json", 
-  "name": "socrata_austintexas_ems_system_response_time", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/ig6i-wwx7/rows.csv"
   }
 }

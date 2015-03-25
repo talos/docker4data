@@ -1,38 +1,41 @@
 {
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_payments/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/s4vu-giwb/rows.csv"
+  }, 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/s4vu-giwb.json"
+  }, 
+  "name": "socrata_cityofchicago_payments", 
   "schema": {
     "columns": [
       {
-        "type": "text", 
-        "name": "voucher_number"
+        "name": "voucher_number", 
+        "type": "text"
       }, 
       {
-        "type": "real", 
-        "name": "amount"
+        "name": "amount", 
+        "type": "real"
       }, 
       {
-        "type": "text", 
-        "name": "check_date"
+        "name": "check_date", 
+        "type": "text"
       }, 
       {
-        "type": "text", 
-        "name": "department_name"
+        "name": "department_name", 
+        "type": "text"
       }, 
       {
-        "type": "text", 
-        "name": "contract_number"
+        "name": "contract_number", 
+        "type": "text"
       }, 
       {
-        "type": "text", 
-        "name": "vendor_name"
+        "name": "vendor_name", 
+        "type": "text"
       }
     ]
-  }, 
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_payments/data.json", 
-  "name": "socrata_cityofchicago_payments", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/s4vu-giwb/rows.csv"
   }
 }

@@ -1,22 +1,25 @@
 {
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofboston_parking_tickets_portal_web_statistics/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/8v6g-kcn8/rows.csv"
+  }, 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.cityofboston.gov/api/views/8v6g-kcn8.json"
+  }, 
+  "name": "socrata_cityofboston_parking_tickets_portal_web_statistics", 
   "schema": {
     "columns": [
       {
-        "type": "timestamp", 
-        "name": "day_index"
+        "name": "day_index", 
+        "type": "timestamp"
       }, 
       {
-        "type": "real", 
-        "name": "pageviews"
+        "name": "pageviews", 
+        "type": "real"
       }
     ]
-  }, 
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofboston_parking_tickets_portal_web_statistics/data.json", 
-  "name": "socrata_cityofboston_parking_tickets_portal_web_statistics", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/8v6g-kcn8/rows.csv"
   }
 }

@@ -1,26 +1,29 @@
 {
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_residential_consumption_by_zip_code/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/iuw2-kwij/rows.csv"
+  }, 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.austintexas.gov/api/views/iuw2-kwij.json"
+  }, 
+  "name": "socrata_austintexas_residential_consumption_by_zip_code", 
   "schema": {
     "columns": [
       {
-        "type": "real", 
-        "name": "zipcode"
+        "name": "zipcode", 
+        "type": "real"
       }, 
       {
-        "type": "real", 
-        "name": "yearmonth"
+        "name": "yearmonth", 
+        "type": "real"
       }, 
       {
-        "type": "real", 
-        "name": "totalwaterusage"
+        "name": "totalwaterusage", 
+        "type": "real"
       }
     ]
-  }, 
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_residential_consumption_by_zip_code/data.json", 
-  "name": "socrata_austintexas_residential_consumption_by_zip_code", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/iuw2-kwij/rows.csv"
   }
 }

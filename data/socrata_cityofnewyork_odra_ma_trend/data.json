@@ -1,34 +1,37 @@
 {
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_odra_ma_trend/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/qj9s-yv6v/rows.csv"
+  }, 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/qj9s-yv6v.json"
+  }, 
+  "name": "socrata_cityofnewyork_odra_ma_trend", 
   "schema": {
     "columns": [
       {
-        "type": "real", 
-        "name": "year"
+        "name": "year", 
+        "type": "real"
       }, 
       {
-        "type": "real", 
-        "name": "month"
+        "name": "month", 
+        "type": "real"
       }, 
       {
-        "type": "real", 
-        "name": "medicaid_enrollees"
+        "name": "medicaid_enrollees", 
+        "type": "real"
       }, 
       {
-        "type": "text", 
-        "name": "monthly_percent_change"
+        "name": "monthly_percent_change", 
+        "type": "text"
       }, 
       {
-        "type": "text", 
-        "name": "yearly_percent_change"
+        "name": "yearly_percent_change", 
+        "type": "text"
       }
     ]
-  }, 
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_odra_ma_trend/data.json", 
-  "name": "socrata_cityofnewyork_odra_ma_trend", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/qj9s-yv6v/rows.csv"
   }
 }

@@ -1,30 +1,33 @@
 {
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_cta_ridership_bus_routes_daily_totals_by/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/jyb9-n7fm/rows.csv"
+  }, 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/jyb9-n7fm.json"
+  }, 
+  "name": "socrata_cityofchicago_cta_ridership_bus_routes_daily_totals_by", 
   "schema": {
     "columns": [
       {
-        "type": "text", 
-        "name": "route"
+        "name": "route", 
+        "type": "text"
       }, 
       {
-        "type": "timestamp", 
-        "name": "date"
+        "name": "date", 
+        "type": "timestamp"
       }, 
       {
-        "type": "text", 
-        "name": "daytype"
+        "name": "daytype", 
+        "type": "text"
       }, 
       {
-        "type": "real", 
-        "name": "rides"
+        "name": "rides", 
+        "type": "real"
       }
     ]
-  }, 
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_cta_ridership_bus_routes_daily_totals_by/data.json", 
-  "name": "socrata_cityofchicago_cta_ridership_bus_routes_daily_totals_by", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/jyb9-n7fm/rows.csv"
   }
 }

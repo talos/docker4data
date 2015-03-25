@@ -1,34 +1,37 @@
 {
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_oem_emergency_notifications/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/8vv7-7wx3/rows.csv"
+  }, 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/8vv7-7wx3.json"
+  }, 
+  "name": "socrata_cityofnewyork_oem_emergency_notifications", 
   "schema": {
     "columns": [
       {
-        "type": "real", 
-        "name": "record_id"
+        "name": "record_id", 
+        "type": "real"
       }, 
       {
-        "type": "timestamp", 
-        "name": "date_and_time"
+        "name": "date_and_time", 
+        "type": "timestamp"
       }, 
       {
-        "type": "text", 
-        "name": "notificationtype"
+        "name": "notificationtype", 
+        "type": "text"
       }, 
       {
-        "type": "text", 
-        "name": "notification_title"
+        "name": "notification_title", 
+        "type": "text"
       }, 
       {
-        "type": "text", 
-        "name": "email_body"
+        "name": "email_body", 
+        "type": "text"
       }
     ]
-  }, 
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_oem_emergency_notifications/data.json", 
-  "name": "socrata_cityofnewyork_oem_emergency_notifications", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/8vv7-7wx3/rows.csv"
   }
 }

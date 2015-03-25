@@ -1,42 +1,45 @@
 {
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_employee_indebtedness_to_the_city_of_chi/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/pasx-mnuv/rows.csv"
+  }, 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/pasx-mnuv.json"
+  }, 
+  "name": "socrata_cityofchicago_employee_indebtedness_to_the_city_of_chi", 
   "schema": {
     "columns": [
       {
-        "type": "timestamp", 
-        "name": "date"
+        "name": "date", 
+        "type": "timestamp"
       }, 
       {
-        "type": "text", 
-        "name": "department"
+        "name": "department", 
+        "type": "text"
       }, 
       {
-        "type": "text", 
-        "name": "arms_department_id"
+        "name": "arms_department_id", 
+        "type": "text"
       }, 
       {
-        "type": "real", 
-        "name": "dept_size"
+        "name": "dept_size", 
+        "type": "real"
       }, 
       {
-        "type": "real", 
-        "name": "employees"
+        "name": "employees", 
+        "type": "real"
       }, 
       {
-        "type": "text", 
-        "name": "_employees_w_debt"
+        "name": "_employees_w_debt", 
+        "type": "text"
       }, 
       {
-        "type": "real", 
-        "name": "due"
+        "name": "due", 
+        "type": "real"
       }
     ]
-  }, 
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_employee_indebtedness_to_the_city_of_chi/data.json", 
-  "name": "socrata_cityofchicago_employee_indebtedness_to_the_city_of_chi", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/pasx-mnuv/rows.csv"
   }
 }

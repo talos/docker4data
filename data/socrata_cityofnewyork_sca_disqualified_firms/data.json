@@ -1,30 +1,33 @@
 {
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_sca_disqualified_firms/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/krwf-eng6/rows.csv"
+  }, 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/krwf-eng6.json"
+  }, 
+  "name": "socrata_cityofnewyork_sca_disqualified_firms", 
   "schema": {
     "columns": [
       {
-        "type": "text", 
-        "name": "vendor_status"
+        "name": "vendor_status", 
+        "type": "text"
       }, 
       {
-        "type": "text", 
-        "name": "vendor_name"
+        "name": "vendor_name", 
+        "type": "text"
       }, 
       {
-        "type": "timestamp", 
-        "name": "disqualified_from_date"
+        "name": "disqualified_from_date", 
+        "type": "timestamp"
       }, 
       {
-        "type": "timestamp", 
-        "name": "disqualified_to_date"
+        "name": "disqualified_to_date", 
+        "type": "timestamp"
       }
     ]
-  }, 
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_sca_disqualified_firms/data.json", 
-  "name": "socrata_cityofnewyork_sca_disqualified_firms", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/krwf-eng6/rows.csv"
   }
 }

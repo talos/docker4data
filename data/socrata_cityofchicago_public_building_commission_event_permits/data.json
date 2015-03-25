@@ -1,42 +1,45 @@
 {
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_public_building_commission_event_permits/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/knv6-r5ad/rows.csv"
+  }, 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/knv6-r5ad.json"
+  }, 
+  "name": "socrata_cityofchicago_public_building_commission_event_permits", 
   "schema": {
     "columns": [
       {
-        "type": "timestamp", 
-        "name": "date_received"
+        "name": "date_received", 
+        "type": "timestamp"
       }, 
       {
-        "type": "text", 
-        "name": "requestor"
+        "name": "requestor", 
+        "type": "text"
       }, 
       {
-        "type": "text", 
-        "name": "event_location"
+        "name": "event_location", 
+        "type": "text"
       }, 
       {
-        "type": "timestamp", 
-        "name": "event_date"
+        "name": "event_date", 
+        "type": "timestamp"
       }, 
       {
-        "type": "timestamp", 
-        "name": "event_end_date"
+        "name": "event_end_date", 
+        "type": "timestamp"
       }, 
       {
-        "type": "text", 
-        "name": "permit_status"
+        "name": "permit_status", 
+        "type": "text"
       }, 
       {
-        "type": "text", 
-        "name": "approved_or_denied"
+        "name": "approved_or_denied", 
+        "type": "text"
       }
     ]
-  }, 
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_public_building_commission_event_permits/data.json", 
-  "name": "socrata_cityofchicago_public_building_commission_event_permits", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/knv6-r5ad/rows.csv"
   }
 }

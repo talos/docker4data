@@ -1,26 +1,29 @@
 {
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_tax_credits_by_agi_range/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/nwet-nc6h/rows.csv"
+  }, 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/nwet-nc6h.json"
+  }, 
+  "name": "socrata_cityofnewyork_tax_credits_by_agi_range", 
   "schema": {
     "columns": [
       {
-        "type": "text", 
-        "name": "income_group"
+        "name": "income_group", 
+        "type": "text"
       }, 
       {
-        "type": "real", 
-        "name": "total_eitc_dollars_in_millions"
+        "name": "total_eitc_dollars_in_millions", 
+        "type": "real"
       }, 
       {
-        "type": "real", 
-        "name": "number_of_eitc_recipients"
+        "name": "number_of_eitc_recipients", 
+        "type": "real"
       }
     ]
-  }, 
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_tax_credits_by_agi_range/data.json", 
-  "name": "socrata_cityofnewyork_tax_credits_by_agi_range", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/nwet-nc6h/rows.csv"
   }
 }

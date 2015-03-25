@@ -1,26 +1,29 @@
 {
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_bureau_of_sanitation_unscheduled_absence/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/zfrs-dbnr/rows.csv"
+  }, 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/zfrs-dbnr.json"
+  }, 
+  "name": "socrata_cityofchicago_bureau_of_sanitation_unscheduled_absence", 
   "schema": {
     "columns": [
       {
-        "type": "text", 
-        "name": "day_of_the_week"
+        "name": "day_of_the_week", 
+        "type": "text"
       }, 
       {
-        "type": "real", 
-        "name": "average_unscheduled_absences_by_day_of_week_for_refuse_collectors"
+        "name": "average_unscheduled_absences_by_day_of_week_for_refuse_collectors", 
+        "type": "real"
       }, 
       {
-        "type": "real", 
-        "name": "unscheduled_absence"
+        "name": "unscheduled_absence", 
+        "type": "real"
       }
     ]
-  }, 
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_bureau_of_sanitation_unscheduled_absence/data.json", 
-  "name": "socrata_cityofchicago_bureau_of_sanitation_unscheduled_absence", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/zfrs-dbnr/rows.csv"
   }
 }

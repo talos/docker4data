@@ -1,30 +1,33 @@
 {
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_performance_metrics_transportation_stree/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/phrs-x2nm/rows.csv"
+  }, 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/phrs-x2nm.json"
+  }, 
+  "name": "socrata_cityofchicago_performance_metrics_transportation_stree", 
   "schema": {
     "columns": [
       {
-        "type": "text", 
-        "name": "week"
+        "name": "week", 
+        "type": "text"
       }, 
       {
-        "type": "real", 
-        "name": "average_days_to_complete_street_lights_all_out_requests"
+        "name": "average_days_to_complete_street_lights_all_out_requests", 
+        "type": "real"
       }, 
       {
-        "type": "real", 
-        "name": "total_completed_requests"
+        "name": "total_completed_requests", 
+        "type": "real"
       }, 
       {
-        "type": "real", 
-        "name": "target_response_time_days_"
+        "name": "target_response_time_days_", 
+        "type": "real"
       }
     ]
-  }, 
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_performance_metrics_transportation_stree/data.json", 
-  "name": "socrata_cityofchicago_performance_metrics_transportation_stree", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/phrs-x2nm/rows.csv"
   }
 }

@@ -1,46 +1,49 @@
 {
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_foia_request_log_police/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/wjkc-agnm/rows.csv"
+  }, 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/wjkc-agnm.json"
+  }, 
+  "name": "socrata_cityofchicago_foia_request_log_police", 
   "schema": {
     "columns": [
       {
-        "type": "timestamp", 
-        "name": "date_recieved"
+        "name": "date_recieved", 
+        "type": "timestamp"
       }, 
       {
-        "type": "text", 
-        "name": "request_number"
+        "name": "request_number", 
+        "type": "text"
       }, 
       {
-        "type": "text", 
-        "name": "requestor_last_name"
+        "name": "requestor_last_name", 
+        "type": "text"
       }, 
       {
-        "type": "text", 
-        "name": "requestor_first_name"
+        "name": "requestor_first_name", 
+        "type": "text"
       }, 
       {
-        "type": "text", 
-        "name": "requestor_middle_initial"
+        "name": "requestor_middle_initial", 
+        "type": "text"
       }, 
       {
-        "type": "text", 
-        "name": "institution"
+        "name": "institution", 
+        "type": "text"
       }, 
       {
-        "type": "text", 
-        "name": "brief_description_of_records_sought"
+        "name": "brief_description_of_records_sought", 
+        "type": "text"
       }, 
       {
-        "type": "timestamp", 
-        "name": "date_due"
+        "name": "date_due", 
+        "type": "timestamp"
       }
     ]
-  }, 
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_foia_request_log_police/data.json", 
-  "name": "socrata_cityofchicago_foia_request_log_police", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/wjkc-agnm/rows.csv"
   }
 }

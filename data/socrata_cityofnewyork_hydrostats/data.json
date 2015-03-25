@@ -1,42 +1,45 @@
 {
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_hydrostats/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/9vgt-yx2p/rows.csv"
+  }, 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/9vgt-yx2p.json"
+  }, 
+  "name": "socrata_cityofnewyork_hydrostats", 
   "schema": {
     "columns": [
       {
-        "type": "text", 
-        "name": "basin"
+        "name": "basin", 
+        "type": "text"
       }, 
       {
-        "type": "real", 
-        "name": "reservoir_acres"
+        "name": "reservoir_acres", 
+        "type": "real"
       }, 
       {
-        "type": "real", 
-        "name": "basin_acres_land_only"
+        "name": "basin_acres_land_only", 
+        "type": "real"
       }, 
       {
-        "type": "real", 
-        "name": "total_acres"
+        "name": "total_acres", 
+        "type": "real"
       }, 
       {
-        "type": "real", 
-        "name": "reservoir_shoreline_miles"
+        "name": "reservoir_shoreline_miles", 
+        "type": "real"
       }, 
       {
-        "type": "real", 
-        "name": "stream_miles"
+        "name": "stream_miles", 
+        "type": "real"
       }, 
       {
-        "type": "real", 
-        "name": "_100_ft_riparian_buffer_acres"
+        "name": "_100_ft_riparian_buffer_acres", 
+        "type": "real"
       }
     ]
-  }, 
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_hydrostats/data.json", 
-  "name": "socrata_cityofnewyork_hydrostats", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/9vgt-yx2p/rows.csv"
   }
 }

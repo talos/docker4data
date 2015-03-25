@@ -1,34 +1,37 @@
 {
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_resolutions_summary/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/paa2-kvza/rows.csv"
+  }, 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.austintexas.gov/api/views/paa2-kvza.json"
+  }, 
+  "name": "socrata_austintexas_resolutions_summary", 
   "schema": {
     "columns": [
       {
-        "type": "timestamp", 
-        "name": "meeting_date"
+        "name": "meeting_date", 
+        "type": "timestamp"
       }, 
       {
-        "type": "text", 
-        "name": "topic"
+        "name": "topic", 
+        "type": "text"
       }, 
       {
-        "type": "real", 
-        "name": "ordinance_resolution"
+        "name": "ordinance_resolution", 
+        "type": "real"
       }, 
       {
-        "type": "text", 
-        "name": "agenda_posting_language"
+        "name": "agenda_posting_language", 
+        "type": "text"
       }, 
       {
-        "type": "text", 
-        "name": "summary"
+        "name": "summary", 
+        "type": "text"
       }
     ]
-  }, 
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_resolutions_summary/data.json", 
-  "name": "socrata_austintexas_resolutions_summary", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/paa2-kvza/rows.csv"
   }
 }

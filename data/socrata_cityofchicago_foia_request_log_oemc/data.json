@@ -1,30 +1,33 @@
 {
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_foia_request_log_oemc/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/8pxc-mzcv/rows.csv"
+  }, 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/8pxc-mzcv.json"
+  }, 
+  "name": "socrata_cityofchicago_foia_request_log_oemc", 
   "schema": {
     "columns": [
       {
-        "type": "text", 
-        "name": "requestor_name"
+        "name": "requestor_name", 
+        "type": "text"
       }, 
       {
-        "type": "text", 
-        "name": "request_type"
+        "name": "request_type", 
+        "type": "text"
       }, 
       {
-        "type": "timestamp", 
-        "name": "received_date"
+        "name": "received_date", 
+        "type": "timestamp"
       }, 
       {
-        "type": "timestamp", 
-        "name": "due_date"
+        "name": "due_date", 
+        "type": "timestamp"
       }
     ]
-  }, 
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_foia_request_log_oemc/data.json", 
-  "name": "socrata_cityofchicago_foia_request_log_oemc", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/8pxc-mzcv/rows.csv"
   }
 }

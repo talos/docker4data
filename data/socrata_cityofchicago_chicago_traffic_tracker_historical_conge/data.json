@@ -1,38 +1,41 @@
 {
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_chicago_traffic_tracker_historical_conge/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/emtn-qqdi/rows.csv"
+  }, 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/emtn-qqdi.json"
+  }, 
+  "name": "socrata_cityofchicago_chicago_traffic_tracker_historical_conge", 
   "schema": {
     "columns": [
       {
-        "type": "timestamp", 
-        "name": "time"
+        "name": "time", 
+        "type": "timestamp"
       }, 
       {
-        "type": "real", 
-        "name": "region_id"
+        "name": "region_id", 
+        "type": "real"
       }, 
       {
-        "type": "real", 
-        "name": "bus_count"
+        "name": "bus_count", 
+        "type": "real"
       }, 
       {
-        "type": "real", 
-        "name": "number_of_reads"
+        "name": "number_of_reads", 
+        "type": "real"
       }, 
       {
-        "type": "real", 
-        "name": "speed"
+        "name": "speed", 
+        "type": "real"
       }, 
       {
-        "type": "text", 
-        "name": "id"
+        "name": "id", 
+        "type": "text"
       }
     ]
-  }, 
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_chicago_traffic_tracker_historical_conge/data.json", 
-  "name": "socrata_cityofchicago_chicago_traffic_tracker_historical_conge", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/emtn-qqdi/rows.csv"
   }
 }

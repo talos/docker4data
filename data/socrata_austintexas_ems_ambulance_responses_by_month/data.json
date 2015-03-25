@@ -1,58 +1,61 @@
 {
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_ems_ambulance_responses_by_month/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/bptg-ndvw/rows.csv"
+  }, 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.austintexas.gov/api/views/bptg-ndvw.json"
+  }, 
+  "name": "socrata_austintexas_ems_ambulance_responses_by_month", 
   "schema": {
     "columns": [
       {
-        "type": "real", 
-        "name": "month_key"
+        "name": "month_key", 
+        "type": "real"
       }, 
       {
-        "type": "timestamp", 
-        "name": "month_start_date"
+        "name": "month_start_date", 
+        "type": "timestamp"
       }, 
       {
-        "type": "real", 
-        "name": "count_responses_all"
+        "name": "count_responses_all", 
+        "type": "real"
       }, 
       {
-        "type": "real", 
-        "name": "count_responses_into_coa"
+        "name": "count_responses_into_coa", 
+        "type": "real"
       }, 
       {
-        "type": "real", 
-        "name": "count_responses_into_tc"
+        "name": "count_responses_into_tc", 
+        "type": "real"
       }, 
       {
-        "type": "real", 
-        "name": "count_responses_into_other"
+        "name": "count_responses_into_other", 
+        "type": "real"
       }, 
       {
-        "type": "real", 
-        "name": "count_responses_into_coa_or_tc"
+        "name": "count_responses_into_coa_or_tc", 
+        "type": "real"
       }, 
       {
-        "type": "real", 
-        "name": "count_responses_into_tc_by_coa"
+        "name": "count_responses_into_tc_by_coa", 
+        "type": "real"
       }, 
       {
-        "type": "real", 
-        "name": "count_responses_into_coa_by_tc"
+        "name": "count_responses_into_coa_by_tc", 
+        "type": "real"
       }, 
       {
-        "type": "text", 
-        "name": "percent_responses_into_coa_by_tc"
+        "name": "percent_responses_into_coa_by_tc", 
+        "type": "text"
       }, 
       {
-        "type": "text", 
-        "name": "percent_responses_into_tc_by_coa"
+        "name": "percent_responses_into_tc_by_coa", 
+        "type": "text"
       }
     ]
-  }, 
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_ems_ambulance_responses_by_month/data.json", 
-  "name": "socrata_austintexas_ems_ambulance_responses_by_month", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/bptg-ndvw/rows.csv"
   }
 }

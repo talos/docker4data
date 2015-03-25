@@ -1,22 +1,25 @@
 {
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_snow_alerts/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/jpfu-k3rv/rows.csv"
+  }, 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/jpfu-k3rv.json"
+  }, 
+  "name": "socrata_cityofchicago_snow_alerts", 
   "schema": {
     "columns": [
       {
-        "type": "timestamp", 
-        "name": "date"
+        "name": "date", 
+        "type": "timestamp"
       }, 
       {
-        "type": "text", 
-        "name": "message"
+        "name": "message", 
+        "type": "text"
       }
     ]
-  }, 
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_snow_alerts/data.json", 
-  "name": "socrata_cityofchicago_snow_alerts", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/jpfu-k3rv/rows.csv"
   }
 }

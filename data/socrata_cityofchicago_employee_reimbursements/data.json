@@ -1,38 +1,41 @@
 {
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_employee_reimbursements/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/g5h3-jkgt/rows.csv"
+  }, 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/g5h3-jkgt.json"
+  }, 
+  "name": "socrata_cityofchicago_employee_reimbursements", 
   "schema": {
     "columns": [
       {
-        "type": "text", 
-        "name": "voucher_number"
+        "name": "voucher_number", 
+        "type": "text"
       }, 
       {
-        "type": "real", 
-        "name": "amount"
+        "name": "amount", 
+        "type": "real"
       }, 
       {
-        "type": "timestamp", 
-        "name": "payment_date"
+        "name": "payment_date", 
+        "type": "timestamp"
       }, 
       {
-        "type": "text", 
-        "name": "vendor_name"
+        "name": "vendor_name", 
+        "type": "text"
       }, 
       {
-        "type": "text", 
-        "name": "description"
+        "name": "description", 
+        "type": "text"
       }, 
       {
-        "type": "text", 
-        "name": "department"
+        "name": "department", 
+        "type": "text"
       }
     ]
-  }, 
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_employee_reimbursements/data.json", 
-  "name": "socrata_cityofchicago_employee_reimbursements", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/g5h3-jkgt/rows.csv"
   }
 }

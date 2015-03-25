@@ -1,54 +1,57 @@
 {
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_beach_water_quality_automated_sensors/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/qmqz-2xku/rows.csv"
+  }, 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/qmqz-2xku.json"
+  }, 
+  "name": "socrata_cityofchicago_beach_water_quality_automated_sensors", 
   "schema": {
     "columns": [
       {
-        "type": "text", 
-        "name": "beach_name"
+        "name": "beach_name", 
+        "type": "text"
       }, 
       {
-        "type": "timestamp", 
-        "name": "measurement_timestamp"
+        "name": "measurement_timestamp", 
+        "type": "timestamp"
       }, 
       {
-        "type": "real", 
-        "name": "water_temperature"
+        "name": "water_temperature", 
+        "type": "real"
       }, 
       {
-        "type": "real", 
-        "name": "turbidity"
+        "name": "turbidity", 
+        "type": "real"
       }, 
       {
-        "type": "real", 
-        "name": "transducer_depth"
+        "name": "transducer_depth", 
+        "type": "real"
       }, 
       {
-        "type": "real", 
-        "name": "wave_height"
+        "name": "wave_height", 
+        "type": "real"
       }, 
       {
-        "type": "real", 
-        "name": "wave_period"
+        "name": "wave_period", 
+        "type": "real"
       }, 
       {
-        "type": "real", 
-        "name": "battery_life"
+        "name": "battery_life", 
+        "type": "real"
       }, 
       {
-        "type": "text", 
-        "name": "measurement_timestamp_label"
+        "name": "measurement_timestamp_label", 
+        "type": "text"
       }, 
       {
-        "type": "text", 
-        "name": "measurement_id"
+        "name": "measurement_id", 
+        "type": "text"
       }
     ]
-  }, 
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_beach_water_quality_automated_sensors/data.json", 
-  "name": "socrata_cityofchicago_beach_water_quality_automated_sensors", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/qmqz-2xku/rows.csv"
   }
 }

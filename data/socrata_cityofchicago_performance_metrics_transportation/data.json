@@ -1,42 +1,45 @@
 {
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_performance_metrics_transportation/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/eaff-5ff2/rows.csv"
+  }, 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/eaff-5ff2.json"
+  }, 
+  "name": "socrata_cityofchicago_performance_metrics_transportation", 
   "schema": {
     "columns": [
       {
-        "type": "text", 
-        "name": "activity"
+        "name": "activity", 
+        "type": "text"
       }, 
       {
-        "type": "timestamp", 
-        "name": "period_start"
+        "name": "period_start", 
+        "type": "timestamp"
       }, 
       {
-        "type": "text", 
-        "name": "period_length"
+        "name": "period_length", 
+        "type": "text"
       }, 
       {
-        "type": "real", 
-        "name": "target_response_days"
+        "name": "target_response_days", 
+        "type": "real"
       }, 
       {
-        "type": "real", 
-        "name": "average_days_to_complete_activity"
+        "name": "average_days_to_complete_activity", 
+        "type": "real"
       }, 
       {
-        "type": "real", 
-        "name": "total_completed_requests"
+        "name": "total_completed_requests", 
+        "type": "real"
       }, 
       {
-        "type": "text", 
-        "name": "period"
+        "name": "period", 
+        "type": "text"
       }
     ]
-  }, 
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_performance_metrics_transportation/data.json", 
-  "name": "socrata_cityofchicago_performance_metrics_transportation", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/eaff-5ff2/rows.csv"
   }
 }

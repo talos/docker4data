@@ -1,50 +1,53 @@
 {
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_building_permits_waived_fees/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/rfav-vmja/rows.csv"
+  }, 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/rfav-vmja.json"
+  }, 
+  "name": "socrata_cityofchicago_building_permits_waived_fees", 
   "schema": {
     "columns": [
       {
-        "type": "real", 
-        "name": "permit_no"
+        "name": "permit_no", 
+        "type": "real"
       }, 
       {
-        "type": "text", 
-        "name": "permit_type"
+        "name": "permit_type", 
+        "type": "text"
       }, 
       {
-        "type": "timestamp", 
-        "name": "issued_date"
+        "name": "issued_date", 
+        "type": "timestamp"
       }, 
       {
-        "type": "text", 
-        "name": "address"
+        "name": "address", 
+        "type": "text"
       }, 
       {
-        "type": "text", 
-        "name": "work_description"
+        "name": "work_description", 
+        "type": "text"
       }, 
       {
-        "type": "real", 
-        "name": "amount_waived"
+        "name": "amount_waived", 
+        "type": "real"
       }, 
       {
-        "type": "real", 
-        "name": "amount_paid"
+        "name": "amount_paid", 
+        "type": "real"
       }, 
       {
-        "type": "text", 
-        "name": "contact_name"
+        "name": "contact_name", 
+        "type": "text"
       }, 
       {
-        "type": "text", 
-        "name": "contact_organization"
+        "name": "contact_organization", 
+        "type": "text"
       }
     ]
-  }, 
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_building_permits_waived_fees/data.json", 
-  "name": "socrata_cityofchicago_building_permits_waived_fees", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/rfav-vmja/rows.csv"
   }
 }

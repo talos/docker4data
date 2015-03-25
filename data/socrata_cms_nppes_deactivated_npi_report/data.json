@@ -1,22 +1,25 @@
 {
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cms_nppes_deactivated_npi_report/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cms.gov/api/views/qbms-kuqs/rows.csv"
+  }, 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.cms.gov/api/views/qbms-kuqs.json"
+  }, 
+  "name": "socrata_cms_nppes_deactivated_npi_report", 
   "schema": {
     "columns": [
       {
-        "type": "real", 
-        "name": "npi"
+        "name": "npi", 
+        "type": "real"
       }, 
       {
-        "type": "timestamp", 
-        "name": "nppes_deactivation_date"
+        "name": "nppes_deactivation_date", 
+        "type": "timestamp"
       }
     ]
-  }, 
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cms_nppes_deactivated_npi_report/data.json", 
-  "name": "socrata_cms_nppes_deactivated_npi_report", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cms.gov/api/views/qbms-kuqs/rows.csv"
   }
 }

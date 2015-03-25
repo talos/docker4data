@@ -1,26 +1,29 @@
 {
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_water_usage_by_customer_class/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/ahj3-w5hk/rows.csv"
+  }, 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.austintexas.gov/api/views/ahj3-w5hk.json"
+  }, 
+  "name": "socrata_austintexas_water_usage_by_customer_class", 
   "schema": {
     "columns": [
       {
-        "type": "real", 
-        "name": "fiscalyear"
+        "name": "fiscalyear", 
+        "type": "real"
       }, 
       {
-        "type": "text", 
-        "name": "customer_class"
+        "name": "customer_class", 
+        "type": "text"
       }, 
       {
-        "type": "real", 
-        "name": "consumption"
+        "name": "consumption", 
+        "type": "real"
       }
     ]
-  }, 
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_water_usage_by_customer_class/data.json", 
-  "name": "socrata_austintexas_water_usage_by_customer_class", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/ahj3-w5hk/rows.csv"
   }
 }

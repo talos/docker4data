@@ -1,22 +1,25 @@
 {
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofboston_cityofboston_gov_page_views/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/pitb-tufr/rows.csv"
+  }, 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.cityofboston.gov/api/views/pitb-tufr.json"
+  }, 
+  "name": "socrata_cityofboston_cityofboston_gov_page_views", 
   "schema": {
     "columns": [
       {
-        "type": "timestamp", 
-        "name": "day_index"
+        "name": "day_index", 
+        "type": "timestamp"
       }, 
       {
-        "type": "real", 
-        "name": "pageviews"
+        "name": "pageviews", 
+        "type": "real"
       }
     ]
-  }, 
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofboston_cityofboston_gov_page_views/data.json", 
-  "name": "socrata_cityofboston_cityofboston_gov_page_views", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/pitb-tufr/rows.csv"
   }
 }
