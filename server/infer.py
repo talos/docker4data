@@ -11,6 +11,11 @@ import urlparse
 import re
 import json
 import os
+import logging
+
+LOGGER = logging.getLogger(__name__)
+LOGGER.setLevel(logging.INFO)
+LOGGER.addHandler(logging.StreamHandler(sys.stderr))
 
 
 def shell(cmd):
@@ -85,30 +90,45 @@ def infer(metadata_url, output_root_dir):
     '''
     socrata_metadata = requests.get(metadata_url).json()
     data_url = metadata_url.replace('.json', '/rows.csv')
+
+    if 'name' not in socrata_metadata:
+        LOGGER.warn(u'Cannot infer table from %s, no `name`', socrata_metadata['name'])
+        return
+
     namespace = extract_namespace(metadata_url)
     name = u'socrata_{}_{}'.format(namespace,
                                    socrata_metadata['name'].lower().replace(' ', '_'))
     name = re.sub(r'[^0-9a-z]+', '_', name)[0:62]
-    d4d_metadata = {
-        "@id": u"https://raw.githubusercontent.com/talos/docker4data/"
-               u"master/data/{}/data.json".format(name),
-        "name": name,
-        "maintainer": {
-            "@id": "https://github.com/talos/docker4data"
-        },
-        "data": {
-            "@id": data_url
-        },
-        "schema": {
-            "columns": generate_schema(socrata_metadata[u'columns'])
-        }
-    }
+
     output_dir = os.path.join(output_root_dir, name)
-    try:
-        os.makedirs(output_dir)
-    except OSError:
-        pass
     output_path = os.path.join(output_dir, 'data.json')
+
+    if os.path.exists(output_path):
+        d4d_metadata = json.load(open(output_path, 'r'))
+    else:
+        d4d_metadata = {
+            "@id": u"https://raw.githubusercontent.com/talos/docker4data/"
+                   u"master/data/{}/data.json".format(name),
+            "name": name,
+            "maintainer": {
+                "@id": "https://github.com/talos/docker4data"
+            },
+            "data": {
+                "@id": data_url
+            },
+            "schema": {},
+            "metadata": {}
+        }
+        try:
+            os.makedirs(output_dir)
+        except OSError:
+            pass
+
+    d4d_metadata[u"schema"][u"columns"] = generate_schema(socrata_metadata[u'columns'])
+    if u'metadata' not in d4d_metadata:
+        d4d_metadata[u"metadata"] = {}
+    d4d_metadata[u"metadata"][u"socrata"] = metadata_url
+
     with open(output_path, 'w') as output_file:
         json.dump(d4d_metadata, output_file, indent=2)
 

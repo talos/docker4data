@@ -10,6 +10,13 @@ as first argument.
   exit 1
 fi
 
+S3_BUCKET=s3://data.docker4data.com/sqldump
+
+if [[ -n $(aws s3 ls $S3_BUCKET/$1) ]]; then
+  echo "Already built $1"
+  exit 0
+fi
+
 PWD=$(pwd)
 TMPDIR=$(mktemp -d /tmp/docker4data-build.XXXX)
 
@@ -35,7 +42,7 @@ docker exec ${BUILD_CONTAINER} chown postgres:postgres /share
 docker exec ${BUILD_CONTAINER} chmod a+rwx /share
 docker exec ${BUILD_CONTAINER} /bin/bash /scripts/dump.sh $NAME
 
-aws s3 cp --acl public-read $TMPDIR/$NAME s3://data.docker4data.com/sqldump/$NAME
+aws s3 cp --acl public-read $TMPDIR/$NAME $S3_BUCKET/$NAME
 
 docker stop ${BUILD_CONTAINER}
 docker rm -f ${BUILD_CONTAINER}
