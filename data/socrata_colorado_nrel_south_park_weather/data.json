@@ -1,0 +1,37 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_nrel_south_park_weather/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/yree-6k9x/rows.csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.colorado.gov/api/views/yree-6k9x.json"
+  }, 
+  "name": "socrata_colorado_nrel_south_park_weather", 
+  "schema": {
+    "columns": [
+      {
+        "name": "date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "globalhorizontal", 
+        "type": "real"
+      }, 
+      {
+        "name": "airtemperature", 
+        "type": "real"
+      }, 
+      {
+        "name": "windspeed", 
+        "type": "real"
+      }, 
+      {
+        "name": "relhumidity", 
+        "type": "text"
+      }
+    ]
+  }
+}

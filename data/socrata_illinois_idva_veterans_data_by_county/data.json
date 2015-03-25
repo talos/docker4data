@@ -1,0 +1,41 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_idva_veterans_data_by_county/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/szpd-xiya/rows.csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/szpd-xiya.json"
+  }, 
+  "name": "socrata_illinois_idva_veterans_data_by_county", 
+  "schema": {
+    "columns": [
+      {
+        "name": "county", 
+        "type": "text"
+      }, 
+      {
+        "name": "veterans_per_county", 
+        "type": "real"
+      }, 
+      {
+        "name": "males", 
+        "type": "real"
+      }, 
+      {
+        "name": "females", 
+        "type": "real"
+      }, 
+      {
+        "name": "without_dependents", 
+        "type": "real"
+      }, 
+      {
+        "name": "with_dependents", 
+        "type": "real"
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_aaa_fuel_prices/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/dqp6-3idi/rows.csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.hawaii.gov/api/views/dqp6-3idi.json"
+  }, 
+  "name": "socrata_hawaii_aaa_fuel_prices", 
+  "schema": {
+    "columns": [
+      {
+        "name": "month_of_price", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "county", 
+        "type": "text"
+      }, 
+      {
+        "name": "fuel", 
+        "type": "text"
+      }, 
+      {
+        "name": "price", 
+        "type": "real"
+      }, 
+      {
+        "name": "physicalunit", 
+        "type": "text"
+      }
+    ]
+  }
+}

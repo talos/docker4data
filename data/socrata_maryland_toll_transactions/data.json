@@ -1,0 +1,45 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_toll_transactions/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/hrir-ejvj/rows.csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/hrir-ejvj.json"
+  }, 
+  "name": "socrata_maryland_toll_transactions", 
+  "schema": {
+    "columns": [
+      {
+        "name": "date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "facility", 
+        "type": "text"
+      }, 
+      {
+        "name": "total_transactions", 
+        "type": "real"
+      }, 
+      {
+        "name": "electronic_transactions", 
+        "type": "real"
+      }, 
+      {
+        "name": "percentage_of_electronic_transactions", 
+        "type": "text"
+      }, 
+      {
+        "name": "comments", 
+        "type": "text"
+      }, 
+      {
+        "name": "location", 
+        "type": "text"
+      }
+    ]
+  }
+}

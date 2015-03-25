@@ -1,0 +1,41 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_greenhouse_gas_emissions_estimates/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/8cmy-9rim/rows.csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/8cmy-9rim.json"
+  }, 
+  "name": "socrata_maryland_greenhouse_gas_emissions_estimates", 
+  "schema": {
+    "columns": [
+      {
+        "name": "year", 
+        "type": "text"
+      }, 
+      {
+        "name": "estimated_actual_emissions", 
+        "type": "real"
+      }, 
+      {
+        "name": "projected_emissions_business_as_usual", 
+        "type": "real"
+      }, 
+      {
+        "name": "goal", 
+        "type": "real"
+      }, 
+      {
+        "name": "projected_progress_under_current_programs", 
+        "type": "real"
+      }, 
+      {
+        "name": "projected_progress_under_enhanced_programs", 
+        "type": "real"
+      }
+    ]
+  }
+}

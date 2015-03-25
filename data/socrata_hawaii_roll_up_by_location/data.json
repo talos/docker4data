@@ -1,0 +1,41 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_roll_up_by_location/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/tdns-ndbu/rows.csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.hawaii.gov/api/views/tdns-ndbu.json"
+  }, 
+  "name": "socrata_hawaii_roll_up_by_location", 
+  "schema": {
+    "columns": [
+      {
+        "name": "date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "location", 
+        "type": "text"
+      }, 
+      {
+        "name": "count", 
+        "type": "text"
+      }, 
+      {
+        "name": "total_count", 
+        "type": "real"
+      }, 
+      {
+        "name": "total_count_male", 
+        "type": "real"
+      }, 
+      {
+        "name": "total_count_female", 
+        "type": "real"
+      }
+    ]
+  }
+}
