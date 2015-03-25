@@ -92,7 +92,7 @@ def infer(metadata_url, output_root_dir):
     data_url = metadata_url.replace('.json', '/rows.csv')
 
     if 'name' not in socrata_metadata:
-        LOGGER.warn(u'Cannot infer table from %s, no `name`', socrata_metadata['name'])
+        LOGGER.warn(u'Cannot infer table from %s, no `name`', socrata_metadata)
         return
 
     namespace = extract_namespace(metadata_url)
