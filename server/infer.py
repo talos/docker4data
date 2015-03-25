@@ -130,9 +130,7 @@ def infer(metadata_url, output_root_dir):
     d4d_metadata[u"metadata"][u"socrata"] = metadata_url
 
     with open(output_path, 'w') as output_file:
-        json.dump(d4d_metadata, output_file, indent=2)
-
-    #sys.stdout.write(json.dumps(d4d_metadata, indent=2))
+        json.dump(d4d_metadata, output_file, indent=2, sort_keys=True)
 
 
 if __name__ == "__main__":
