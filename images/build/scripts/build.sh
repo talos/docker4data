@@ -10,9 +10,10 @@ as first argument.
   exit 1
 fi
 
-S3_BUCKET=s3://data.docker4data.com/sqldump
+S3_BUCKET=data.docker4data.com
+SQLDUMP=sqldump
 
-if [[ -n $(aws s3 ls $S3_BUCKET/$1) ]]; then
+if [[ -n $(aws s3 ls $S3_BUCKET/$SQLDUMP/$1) ]]; then
   echo "Already built $1"
   exit 0
 fi
@@ -21,31 +22,35 @@ PWD=$(pwd)
 TMPDIR=$(mktemp -d /tmp/docker4data-build.XXXX)
 
 # First, load up a psql ready docker4data-build to download and import data
-BUILD_CONTAINER=$(docker run -d -v $TMPDIR:/share thegovlab/docker4data-build /scripts/postgres.sh)
+#BUILD_CONTAINER=$(docker run -d -v $TMPDIR:/share thegovlab/docker4data-build /scripts/postgres.sh)
 
 # Make sure postgres is running before continuing
-while : ; do
-  docker exec ${BUILD_CONTAINER} gosu postgres psql -c '\q' > /dev/null 2>&1 && break || echo "Waiting for postgres to start up"
-  sleep 0.2
-done
+#while : ; do
+#  docker exec ${BUILD_CONTAINER} gosu postgres psql -c '\q' > /dev/null 2>&1 && break || echo "Waiting for postgres to start up"
+#  sleep 0.2
+#done
 
 # Import the csv using the supplied schema
 data_json=https://raw.githubusercontent.com/talos/docker4data/master/data/$1/data.json
 echo $data_json
-docker exec ${BUILD_CONTAINER} python /scripts/build.py $data_json
+python /scripts/build.py $data_json
 
-NAME=$(docker exec ${BUILD_CONTAINER} cat /name)
+NAME=$(cat /name)
 echo $NAME
 
 # Dump it to the dietfs export image, and save that as a data image
-docker exec ${BUILD_CONTAINER} chown postgres:postgres /share
-docker exec ${BUILD_CONTAINER} chmod a+rwx /share
-docker exec ${BUILD_CONTAINER} /bin/bash /scripts/dump.sh $NAME
+chown postgres:postgres /share
+chmod a+rwx /share
+/bin/bash /scripts/dump.sh $NAME
 
-aws s3 cp --acl public-read $TMPDIR/$NAME $S3_BUCKET/$NAME
+aws s3 cp --acl public-read $TMPDIR/$NAME $S3_BUCKET_SQLDUMP/$NAME
+aws s3api put-object --acl public-read --bucket data.docker4data.com \
+  --key metatest --metadata foo=bar --body generate.sh
 
-docker stop ${BUILD_CONTAINER}
-docker rm -f ${BUILD_CONTAINER}
+rm /share/${NAME}
+
+#docker stop ${BUILD_CONTAINER}
+#docker rm -f ${BUILD_CONTAINER}
 #rm -rf $TMPDIR/*
 
 #  mkdir -p tmp  # because tmp dockerfile must be in build context

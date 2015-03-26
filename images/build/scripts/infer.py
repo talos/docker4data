@@ -56,19 +56,6 @@ def generate_schema(columns):
         _type = column[u'dataTypeName'].lower()
         if _type == 'number':
             _type = 'real'
-            #if 'cachedContents' in column and 'largest' in column['cachedContents']:
-            #    try:
-            #        largest = int(column['cachedContents']['largest'])
-            #        if largest >= pow(2, 32):
-            #            _type = 'bigint'
-            #        elif largest >= pow(2, 16):
-            #            _type = 'integer'
-            #        elif largest >= pow(2, 8):
-            #            _type = 'smallint'
-            #        else:
-            #            _type = 'integer'
-            #    except ValueError:
-            #        pass
         elif _type == 'calendar_date':
             _type = 'timestamp'
         elif _type == 'money':

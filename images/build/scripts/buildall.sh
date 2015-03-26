@@ -1,4 +1,4 @@
-#!/bin/bash -e
+#!/bin/bash
 
 # Build every dataset we've got!
 

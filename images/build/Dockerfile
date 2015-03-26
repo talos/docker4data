@@ -1,12 +1,9 @@
 #
 # Docker4Data build image -- use this as a build tool
-#
-# https://github.com/talos/docker4data
-#
+# # https://github.com/talos/docker4data #
 
 FROM debian:wheezy
-MAINTAINER John Krauss <irving.krauss@gmail.com>
-
+MAINTAINER John Krauss <irving.krauss@gmail.com> 
 ENV LANG en_US.UTF8
 ENV LC_ALL en_US.UTF8
 ENV LANGUAGE en_US.UTF8
@@ -73,8 +70,12 @@ RUN echo "===> install postgis" && \
     gosu postgres psql < /usr/share/postgresql/9.3/contrib/postgis-2.1/spatial_ref_sys.sql && \
     gosu postgres pg_ctl -D /data stop
 
-RUN apt-get install time unzip
+RUN apt-get update --fix-missing
+RUN apt-get install -yqq time unzip git-core
 RUN localedef -i en_US -c -f UTF-8 -A /usr/share/locale/locale.alias en_US.UTF-8
+
+VOLUME /root/.ssh
+VOLUME /root/.aws
 
 ENTRYPOINT ["/bin/bash", "-c"]
 CMD /scripts/postgres.sh
