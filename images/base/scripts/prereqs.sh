@@ -73,7 +73,7 @@ echo "===> install postgis" && \
     gosu postgres psql < /usr/share/postgresql/9.3/contrib/postgis-2.1/spatial_ref_sys.sql && \
     gosu postgres pg_ctl -D /data stop
 
-#apt-get remove -y freetds-dev wget openssl ca-certificates \
+#apt-get remove -y freetds-dev openssl ca-certificates \
 #  apt-transport-https
 
 
