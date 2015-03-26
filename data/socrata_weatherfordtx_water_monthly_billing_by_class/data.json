@@ -1,0 +1,37 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_weatherfordtx_water_monthly_billing_by_class/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/ysfs-8f2v/rows.csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/ysfs-8f2v.json"
+  }, 
+  "name": "socrata_weatherfordtx_water_monthly_billing_by_class", 
+  "schema": {
+    "columns": [
+      {
+        "name": "billing_month", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "class", 
+        "type": "text"
+      }, 
+      {
+        "name": "number_billed", 
+        "type": "real"
+      }, 
+      {
+        "name": "billed_consumption", 
+        "type": "real"
+      }, 
+      {
+        "name": "bill_amount", 
+        "type": "real"
+      }
+    ]
+  }
+}

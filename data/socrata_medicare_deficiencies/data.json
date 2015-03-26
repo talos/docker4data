@@ -1,0 +1,93 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_medicare_deficiencies/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/r5ix-sfxw/rows.csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.medicare.gov/api/views/r5ix-sfxw.json"
+  }, 
+  "name": "socrata_medicare_deficiencies", 
+  "schema": {
+    "columns": [
+      {
+        "name": "federal_provider_number", 
+        "type": "text"
+      }, 
+      {
+        "name": "provider_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "provider_address", 
+        "type": "text"
+      }, 
+      {
+        "name": "provider_city", 
+        "type": "text"
+      }, 
+      {
+        "name": "provider_state", 
+        "type": "text"
+      }, 
+      {
+        "name": "provider_zip_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "survey_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "survey_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "deficiency_prefix", 
+        "type": "text"
+      }, 
+      {
+        "name": "deficiency_tag_number", 
+        "type": "text"
+      }, 
+      {
+        "name": "deficiency_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "scope_severity_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "deficiency_corrected", 
+        "type": "text"
+      }, 
+      {
+        "name": "correction_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "inspection_cycle", 
+        "type": "real"
+      }, 
+      {
+        "name": "standard_deficiency", 
+        "type": "text"
+      }, 
+      {
+        "name": "complaint_deficiency", 
+        "type": "text"
+      }, 
+      {
+        "name": "location", 
+        "type": "text"
+      }, 
+      {
+        "name": "processing_date", 
+        "type": "timestamp"
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_weatherfordtx_utility_consumption/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/kwwr-agj9/rows.csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/kwwr-agj9.json"
+  }, 
+  "name": "socrata_weatherfordtx_utility_consumption", 
+  "schema": {
+    "columns": [
+      {
+        "name": "fiscal_year", 
+        "type": "real"
+      }, 
+      {
+        "name": "period", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "utility", 
+        "type": "text"
+      }, 
+      {
+        "name": "unit_of_measurement", 
+        "type": "text"
+      }, 
+      {
+        "name": "billed_consumption", 
+        "type": "real"
+      }
+    ]
+  }
+}

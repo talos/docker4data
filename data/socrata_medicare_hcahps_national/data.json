@@ -1,0 +1,45 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_medicare_hcahps_national/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/99ue-w85f/rows.csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.medicare.gov/api/views/99ue-w85f.json"
+  }, 
+  "name": "socrata_medicare_hcahps_national", 
+  "schema": {
+    "columns": [
+      {
+        "name": "hcahps_measure_id", 
+        "type": "text"
+      }, 
+      {
+        "name": "hcahps_question", 
+        "type": "text"
+      }, 
+      {
+        "name": "hcahps_answer_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "hcahps_answer_percent", 
+        "type": "text"
+      }, 
+      {
+        "name": "footnote", 
+        "type": "text"
+      }, 
+      {
+        "name": "measure_start_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "measure_end_date", 
+        "type": "timestamp"
+      }
+    ]
+  }
+}

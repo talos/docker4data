@@ -1,0 +1,49 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_seattle_crime_stats_by_police_precinct_2008_pr/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/3xqu-vnum/rows.csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/3xqu-vnum.json"
+  }, 
+  "name": "socrata_seattle_seattle_crime_stats_by_police_precinct_2008_pr", 
+  "schema": {
+    "columns": [
+      {
+        "name": "police_beat", 
+        "type": "text"
+      }, 
+      {
+        "name": "crime_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "crime_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "stat_value", 
+        "type": "real"
+      }, 
+      {
+        "name": "report_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "sector", 
+        "type": "text"
+      }, 
+      {
+        "name": "precinct", 
+        "type": "text"
+      }, 
+      {
+        "name": "row_value_id", 
+        "type": "real"
+      }
+    ]
+  }
+}

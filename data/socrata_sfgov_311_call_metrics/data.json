@@ -1,0 +1,37 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_311_call_metrics/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/mwjb-biik/rows.csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.sfgov.org/api/views/mwjb-biik.json"
+  }, 
+  "name": "socrata_sfgov_311_call_metrics", 
+  "schema": {
+    "columns": [
+      {
+        "name": "month", 
+        "type": "text"
+      }, 
+      {
+        "name": "calls_answered", 
+        "type": "real"
+      }, 
+      {
+        "name": "percentage_of_calls_answered_within_60_seconds_service_level", 
+        "type": "text"
+      }, 
+      {
+        "name": "average_speed_of_answer", 
+        "type": "real"
+      }, 
+      {
+        "name": "transferred_calls_percentage", 
+        "type": "text"
+      }
+    ]
+  }
+}

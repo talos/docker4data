@@ -1,0 +1,45 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_campaign_consultants_political_contributions/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/tv94-tvke/rows.csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.sfgov.org/api/views/tv94-tvke.json"
+  }, 
+  "name": "socrata_sfgov_campaign_consultants_political_contributions", 
+  "schema": {
+    "columns": [
+      {
+        "name": "committee_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "consultant_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "amount", 
+        "type": "real"
+      }, 
+      {
+        "name": "quarter_start_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "quarter_end_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "quarter", 
+        "type": "text"
+      }, 
+      {
+        "name": "year", 
+        "type": "text"
+      }
+    ]
+  }
+}

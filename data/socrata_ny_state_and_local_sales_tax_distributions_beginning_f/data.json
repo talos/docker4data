@@ -1,0 +1,33 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_state_and_local_sales_tax_distributions_beginning_f/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/5g2s-tnb7/rows.csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/5g2s-tnb7.json"
+  }, 
+  "name": "socrata_ny_state_and_local_sales_tax_distributions_beginning_f", 
+  "schema": {
+    "columns": [
+      {
+        "name": "fiscal_year_ended", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "taxing_jurisdiction", 
+        "type": "text"
+      }, 
+      {
+        "name": "amount_distributed", 
+        "type": "real"
+      }, 
+      {
+        "name": "jurisdiction_code", 
+        "type": "real"
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_weatherfordtx_monthly_sales_tax_collections/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/c4zr-3y7x/rows.csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/c4zr-3y7x.json"
+  }, 
+  "name": "socrata_weatherfordtx_monthly_sales_tax_collections", 
+  "schema": {
+    "columns": [
+      {
+        "name": "month_remitted", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "month_collected", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "state_allocation", 
+        "type": "real"
+      }, 
+      {
+        "name": "city_allocation", 
+        "type": "real"
+      }
+    ]
+  }
+}

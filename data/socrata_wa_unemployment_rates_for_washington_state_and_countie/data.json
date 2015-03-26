@@ -1,0 +1,37 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wa_unemployment_rates_for_washington_state_and_countie/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/hvq3-y2jb/rows.csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.wa.gov/api/views/hvq3-y2jb.json"
+  }, 
+  "name": "socrata_wa_unemployment_rates_for_washington_state_and_countie", 
+  "schema": {
+    "columns": [
+      {
+        "name": "year_month", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "county", 
+        "type": "text"
+      }, 
+      {
+        "name": "unemployment_rate", 
+        "type": "text"
+      }, 
+      {
+        "name": "national_unemployment", 
+        "type": "text"
+      }, 
+      {
+        "name": "state_unemployment", 
+        "type": "text"
+      }
+    ]
+  }
+}

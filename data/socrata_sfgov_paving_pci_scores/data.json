@@ -1,0 +1,49 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_paving_pci_scores/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/5aye-4rtt/rows.csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.sfgov.org/api/views/5aye-4rtt.json"
+  }, 
+  "name": "socrata_sfgov_paving_pci_scores", 
+  "schema": {
+    "columns": [
+      {
+        "name": "cnn", 
+        "type": "real"
+      }, 
+      {
+        "name": "street_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "pci_score", 
+        "type": "real"
+      }, 
+      {
+        "name": "from_street", 
+        "type": "text"
+      }, 
+      {
+        "name": "to_street", 
+        "type": "text"
+      }, 
+      {
+        "name": "pci_change_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "treatment_or_survey", 
+        "type": "text"
+      }, 
+      {
+        "name": "street_accepted_for_maintenance", 
+        "type": "text"
+      }
+    ]
+  }
+}

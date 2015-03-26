@@ -1,0 +1,41 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_road_weather_information_stations/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/egc4-d24i/rows.csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/egc4-d24i.json"
+  }, 
+  "name": "socrata_seattle_road_weather_information_stations", 
+  "schema": {
+    "columns": [
+      {
+        "name": "stationname", 
+        "type": "text"
+      }, 
+      {
+        "name": "stationlocation", 
+        "type": "text"
+      }, 
+      {
+        "name": "datetime", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "recordid", 
+        "type": "real"
+      }, 
+      {
+        "name": "roadsurfacetemperature", 
+        "type": "real"
+      }, 
+      {
+        "name": "airtemperature", 
+        "type": "real"
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_weatherfordtx_code_enforcement_closed_cases/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/cfuq-zji7/rows.csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/cfuq-zji7.json"
+  }, 
+  "name": "socrata_weatherfordtx_code_enforcement_closed_cases", 
+  "schema": {
+    "columns": [
+      {
+        "name": "case_number", 
+        "type": "text"
+      }, 
+      {
+        "name": "opened", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "closed", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "days_open", 
+        "type": "real"
+      }, 
+      {
+        "name": "type", 
+        "type": "text"
+      }, 
+      {
+        "name": "assigned_to", 
+        "type": "text"
+      }
+    ]
+  }
+}

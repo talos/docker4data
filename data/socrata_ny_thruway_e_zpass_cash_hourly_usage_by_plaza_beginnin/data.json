@@ -1,0 +1,41 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_thruway_e_zpass_cash_hourly_usage_by_plaza_beginnin/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/2hz2-2s5g/rows.csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/2hz2-2s5g.json"
+  }, 
+  "name": "socrata_ny_thruway_e_zpass_cash_hourly_usage_by_plaza_beginnin", 
+  "schema": {
+    "columns": [
+      {
+        "name": "start_time", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "end_time", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "plaza", 
+        "type": "text"
+      }, 
+      {
+        "name": "direction", 
+        "type": "text"
+      }, 
+      {
+        "name": "e_zpass_total_vehicle_count", 
+        "type": "real"
+      }, 
+      {
+        "name": "cash_total_vehicle_count", 
+        "type": "real"
+      }
+    ]
+  }
+}

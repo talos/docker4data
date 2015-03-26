@@ -1,0 +1,37 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_state_taxes_and_fees_collected_beginning_fiscal_yea/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/cpjr-ezcj/rows.csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/cpjr-ezcj.json"
+  }, 
+  "name": "socrata_ny_state_taxes_and_fees_collected_beginning_fiscal_yea", 
+  "schema": {
+    "columns": [
+      {
+        "name": "fiscal_year", 
+        "type": "real"
+      }, 
+      {
+        "name": "tax_category", 
+        "type": "text"
+      }, 
+      {
+        "name": "tax_or_fee", 
+        "type": "text"
+      }, 
+      {
+        "name": "amount_collected", 
+        "type": "real"
+      }, 
+      {
+        "name": "tax_or_fee_sort_order", 
+        "type": "real"
+      }
+    ]
+  }
+}

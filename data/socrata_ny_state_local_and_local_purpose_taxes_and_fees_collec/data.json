@@ -1,0 +1,53 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_state_local_and_local_purpose_taxes_and_fees_collec/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/2vni-8tmb/rows.csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/2vni-8tmb.json"
+  }, 
+  "name": "socrata_ny_state_local_and_local_purpose_taxes_and_fees_collec", 
+  "schema": {
+    "columns": [
+      {
+        "name": "fiscal_year_ending", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "month_of_collections", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "tax_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "tax_or_fee", 
+        "type": "text"
+      }, 
+      {
+        "name": "amount_collected_in_thousands", 
+        "type": "real"
+      }, 
+      {
+        "name": "fiscal_year_ending_sort_order", 
+        "type": "real"
+      }, 
+      {
+        "name": "month_of_collections_sort_order", 
+        "type": "real"
+      }, 
+      {
+        "name": "tax_type_sort_order", 
+        "type": "real"
+      }, 
+      {
+        "name": "tax_or_fee_sort_order", 
+        "type": "real"
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_finances_worldbank_degr_d_exposition_au_risque_de_cr_d/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/u539-jabh/rows.csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/finances.worldbank.org/api/views/u539-jabh.json"
+  }, 
+  "name": "socrata_finances_worldbank_degr_d_exposition_au_risque_de_cr_d", 
+  "schema": {
+    "columns": [
+      {
+        "name": "organization", 
+        "type": "text"
+      }, 
+      {
+        "name": "period_end_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "category", 
+        "type": "text"
+      }, 
+      {
+        "name": "counterparty_rating", 
+        "type": "text"
+      }, 
+      {
+        "name": "amount_us_millions", 
+        "type": "real"
+      }
+    ]
+  }
+}

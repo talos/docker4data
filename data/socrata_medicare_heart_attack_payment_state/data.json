@@ -1,0 +1,57 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_medicare_heart_attack_payment_state/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/98ix-2iqy/rows.csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.medicare.gov/api/views/98ix-2iqy.json"
+  }, 
+  "name": "socrata_medicare_heart_attack_payment_state", 
+  "schema": {
+    "columns": [
+      {
+        "name": "state", 
+        "type": "text"
+      }, 
+      {
+        "name": "measure_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "measure_id", 
+        "type": "text"
+      }, 
+      {
+        "name": "number_of_hospitals_less_than", 
+        "type": "real"
+      }, 
+      {
+        "name": "number_of_hospitals_same", 
+        "type": "real"
+      }, 
+      {
+        "name": "number_of_hospitals_greater_than", 
+        "type": "real"
+      }, 
+      {
+        "name": "number_of_hospitals_too_few", 
+        "type": "real"
+      }, 
+      {
+        "name": "footnote", 
+        "type": "text"
+      }, 
+      {
+        "name": "measure_start_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "measure_end_date", 
+        "type": "timestamp"
+      }
+    ]
+  }
+}

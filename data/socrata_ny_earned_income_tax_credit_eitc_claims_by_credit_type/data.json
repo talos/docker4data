@@ -1,0 +1,49 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_earned_income_tax_credit_eitc_claims_by_credit_type/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/v4us-962v/rows.csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/v4us-962v.json"
+  }, 
+  "name": "socrata_ny_earned_income_tax_credit_eitc_claims_by_credit_type", 
+  "schema": {
+    "columns": [
+      {
+        "name": "year", 
+        "type": "real"
+      }, 
+      {
+        "name": "credit_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "county", 
+        "type": "text"
+      }, 
+      {
+        "name": "number_of_claims", 
+        "type": "real"
+      }, 
+      {
+        "name": "number_of_claims_indicator", 
+        "type": "text"
+      }, 
+      {
+        "name": "amount_claimed_in_thousands", 
+        "type": "real"
+      }, 
+      {
+        "name": "amount_claimed_indicator", 
+        "type": "text"
+      }, 
+      {
+        "name": "average_credit", 
+        "type": "real"
+      }
+    ]
+  }
+}

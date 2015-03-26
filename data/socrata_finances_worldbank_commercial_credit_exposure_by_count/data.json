@@ -1,0 +1,37 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_finances_worldbank_commercial_credit_exposure_by_count/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/p65j-3upu/rows.csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/finances.worldbank.org/api/views/p65j-3upu.json"
+  }, 
+  "name": "socrata_finances_worldbank_commercial_credit_exposure_by_count", 
+  "schema": {
+    "columns": [
+      {
+        "name": "organization", 
+        "type": "text"
+      }, 
+      {
+        "name": "period_end_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "category", 
+        "type": "text"
+      }, 
+      {
+        "name": "counterparty_rating", 
+        "type": "text"
+      }, 
+      {
+        "name": "amount_us_millions", 
+        "type": "real"
+      }
+    ]
+  }
+}

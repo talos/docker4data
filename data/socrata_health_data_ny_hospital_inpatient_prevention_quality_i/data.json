@@ -1,0 +1,49 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_health_data_ny_hospital_inpatient_prevention_quality_i/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/2xc5-n3zd/rows.csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/health.data.ny.gov/api/views/vh2s-8wb2.json"
+  }, 
+  "name": "socrata_health_data_ny_hospital_inpatient_prevention_quality_i", 
+  "schema": {
+    "columns": [
+      {
+        "name": "discharge_year", 
+        "type": "real"
+      }, 
+      {
+        "name": "patient_county", 
+        "type": "text"
+      }, 
+      {
+        "name": "pdi_number", 
+        "type": "text"
+      }, 
+      {
+        "name": "pdi_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "observed_rate_per_100_000_people", 
+        "type": "real"
+      }, 
+      {
+        "name": "expected_rate_per_100_000_people", 
+        "type": "real"
+      }, 
+      {
+        "name": "risk_adjusted_rate_per_100_000_people", 
+        "type": "real"
+      }, 
+      {
+        "name": "difference_in_rates", 
+        "type": "real"
+      }
+    ]
+  }
+}

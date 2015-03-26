@@ -1,0 +1,49 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wellingtonfl_purchase_order_listing/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.wellingtonfl.gov/api/views/wkzt-vhm6/rows.csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.wellingtonfl.gov/api/views/wkzt-vhm6.json"
+  }, 
+  "name": "socrata_wellingtonfl_purchase_order_listing", 
+  "schema": {
+    "columns": [
+      {
+        "name": "purchase_order_number", 
+        "type": "real"
+      }, 
+      {
+        "name": "p_o_date_calc", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "vendor_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "requisition_item_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "requisition_quantity", 
+        "type": "real"
+      }, 
+      {
+        "name": "requisition_unit_cost", 
+        "type": "real"
+      }, 
+      {
+        "name": "ext_cost", 
+        "type": "real"
+      }, 
+      {
+        "name": "po_total", 
+        "type": "real"
+      }
+    ]
+  }
+}

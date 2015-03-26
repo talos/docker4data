@@ -1,0 +1,33 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_healthmeasures_aspe_hhs_10_urbanization/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/6fgw-uk2k/rows.csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/6fgw-uk2k.json"
+  }, 
+  "name": "socrata_healthmeasures_aspe_hhs_10_urbanization", 
+  "schema": {
+    "columns": [
+      {
+        "name": "measure_value", 
+        "type": "real"
+      }, 
+      {
+        "name": "year", 
+        "type": "real"
+      }, 
+      {
+        "name": "level_of_coverage", 
+        "type": "text"
+      }, 
+      {
+        "name": "metropolitan_status", 
+        "type": "text"
+      }
+    ]
+  }
+}

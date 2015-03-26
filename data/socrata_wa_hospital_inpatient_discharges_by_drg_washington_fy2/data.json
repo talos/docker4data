@@ -1,0 +1,53 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wa_hospital_inpatient_discharges_by_drg_washington_fy2/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/p2c3-pm28/rows.csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.wa.gov/api/views/p2c3-pm28.json"
+  }, 
+  "name": "socrata_wa_hospital_inpatient_discharges_by_drg_washington_fy2", 
+  "schema": {
+    "columns": [
+      {
+        "name": "referenced_drg", 
+        "type": "text"
+      }, 
+      {
+        "name": "drg_definition", 
+        "type": "text"
+      }, 
+      {
+        "name": "region", 
+        "type": "text"
+      }, 
+      {
+        "name": "number_of_hospitals", 
+        "type": "real"
+      }, 
+      {
+        "name": "total_discharges", 
+        "type": "real"
+      }, 
+      {
+        "name": "referenced_drg_discharges", 
+        "type": "real"
+      }, 
+      {
+        "name": "lowest_of_referenced_drg_discharges", 
+        "type": "text"
+      }, 
+      {
+        "name": "highest_percent_of_referenced_drg_discharges", 
+        "type": "text"
+      }, 
+      {
+        "name": "average_percent_of_referenced_drg_discharges", 
+        "type": "text"
+      }
+    ]
+  }
+}

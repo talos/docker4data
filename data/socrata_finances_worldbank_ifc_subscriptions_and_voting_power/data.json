@@ -1,0 +1,41 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_finances_worldbank_ifc_subscriptions_and_voting_power/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/gsdw-avpz/rows.csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/finances.worldbank.org/api/views/gsdw-avpz.json"
+  }, 
+  "name": "socrata_finances_worldbank_ifc_subscriptions_and_voting_power", 
+  "schema": {
+    "columns": [
+      {
+        "name": "member", 
+        "type": "text"
+      }, 
+      {
+        "name": "amount_thousands_of_usd", 
+        "type": "real"
+      }, 
+      {
+        "name": "percent_of_total_amount", 
+        "type": "real"
+      }, 
+      {
+        "name": "number_of_votes", 
+        "type": "real"
+      }, 
+      {
+        "name": "percent_of_total_votes", 
+        "type": "real"
+      }, 
+      {
+        "name": "as_of_date", 
+        "type": "timestamp"
+      }
+    ]
+  }
+}

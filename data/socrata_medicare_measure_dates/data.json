@@ -1,0 +1,41 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_medicare_measure_dates/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/4j6d-yzce/rows.csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.medicare.gov/api/views/4j6d-yzce.json"
+  }, 
+  "name": "socrata_medicare_measure_dates", 
+  "schema": {
+    "columns": [
+      {
+        "name": "measure_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "measure_id", 
+        "type": "text"
+      }, 
+      {
+        "name": "measure_start_quarter", 
+        "type": "text"
+      }, 
+      {
+        "name": "measure_start_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "measure_end_quarter", 
+        "type": "text"
+      }, 
+      {
+        "name": "measure_end_date", 
+        "type": "timestamp"
+      }
+    ]
+  }
+}

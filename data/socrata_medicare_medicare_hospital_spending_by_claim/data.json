@@ -1,0 +1,69 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_medicare_medicare_hospital_spending_by_claim/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/nrth-mfg3/rows.csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.medicare.gov/api/views/nrth-mfg3.json"
+  }, 
+  "name": "socrata_medicare_medicare_hospital_spending_by_claim", 
+  "schema": {
+    "columns": [
+      {
+        "name": "hospital_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "provider_number", 
+        "type": "text"
+      }, 
+      {
+        "name": "state", 
+        "type": "text"
+      }, 
+      {
+        "name": "period", 
+        "type": "text"
+      }, 
+      {
+        "name": "claim_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "avg_spending_per_episode_hospital", 
+        "type": "real"
+      }, 
+      {
+        "name": "avg_spending_per_episode_state", 
+        "type": "real"
+      }, 
+      {
+        "name": "avg_spending_per_episode_nation", 
+        "type": "real"
+      }, 
+      {
+        "name": "percent_of_spending_hospital", 
+        "type": "text"
+      }, 
+      {
+        "name": "percent_of_spending_state", 
+        "type": "text"
+      }, 
+      {
+        "name": "percent_of_spending_nation", 
+        "type": "text"
+      }, 
+      {
+        "name": "measure_start_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "measure_end_date", 
+        "type": "timestamp"
+      }
+    ]
+  }
+}

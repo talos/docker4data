@@ -1,0 +1,49 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_health_data_ny_medicaid_hospital_inpatient_potentially/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/ckvf-rbyn/rows.csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/health.data.ny.gov/api/views/ckvf-rbyn.json"
+  }, 
+  "name": "socrata_health_data_ny_medicaid_hospital_inpatient_potentially", 
+  "schema": {
+    "columns": [
+      {
+        "name": "discharge_year", 
+        "type": "real"
+      }, 
+      {
+        "name": "facility_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "at_risk_admissions", 
+        "type": "real"
+      }, 
+      {
+        "name": "observed_ppr_chains", 
+        "type": "real"
+      }, 
+      {
+        "name": "observed_ppr_rate", 
+        "type": "real"
+      }, 
+      {
+        "name": "expected_ppr_rate", 
+        "type": "real"
+      }, 
+      {
+        "name": "risk_adjusted_ppr_rate", 
+        "type": "real"
+      }, 
+      {
+        "name": "dual_status", 
+        "type": "text"
+      }
+    ]
+  }
+}

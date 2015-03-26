@@ -1,0 +1,37 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_health_data_ny_vital_statistics_live_birth_data_by_ges/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/aeev-8svr/rows.csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/health.data.ny.gov/api/views/aeev-8svr.json"
+  }, 
+  "name": "socrata_health_data_ny_vital_statistics_live_birth_data_by_ges", 
+  "schema": {
+    "columns": [
+      {
+        "name": "year", 
+        "type": "real"
+      }, 
+      {
+        "name": "table", 
+        "type": "text"
+      }, 
+      {
+        "name": "county", 
+        "type": "text"
+      }, 
+      {
+        "name": "gestation_in_weeks", 
+        "type": "text"
+      }, 
+      {
+        "name": "number_of_births", 
+        "type": "real"
+      }
+    ]
+  }
+}

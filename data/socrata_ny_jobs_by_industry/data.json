@@ -1,0 +1,37 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_jobs_by_industry/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/pxa9-czw8/rows.csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/pxa9-czw8.json"
+  }, 
+  "name": "socrata_ny_jobs_by_industry", 
+  "schema": {
+    "columns": [
+      {
+        "name": "year", 
+        "type": "real"
+      }, 
+      {
+        "name": "region", 
+        "type": "text"
+      }, 
+      {
+        "name": "naics_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "industry", 
+        "type": "text"
+      }, 
+      {
+        "name": "jobs", 
+        "type": "real"
+      }
+    ]
+  }
+}

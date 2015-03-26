@@ -1,0 +1,85 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wa_agency_contract_reporting/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/hfxj-vx93/rows.csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.wa.gov/api/views/hfxj-vx93.json"
+  }, 
+  "name": "socrata_wa_agency_contract_reporting", 
+  "schema": {
+    "columns": [
+      {
+        "name": "agency_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "agency_contract_no", 
+        "type": "text"
+      }, 
+      {
+        "name": "contractor_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "contractor_name_d_b_a_optional", 
+        "type": "text"
+      }, 
+      {
+        "name": "purpose_of_the_contract", 
+        "type": "text"
+      }, 
+      {
+        "name": "purpose_of_the_contract_description_optional", 
+        "type": "text"
+      }, 
+      {
+        "name": "contract_effective_start_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "contract_effective_end_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "period_of_performance_start_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "period_of_performance_end_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "federal_amount", 
+        "type": "real"
+      }, 
+      {
+        "name": "state_amount", 
+        "type": "real"
+      }, 
+      {
+        "name": "other_amount", 
+        "type": "real"
+      }, 
+      {
+        "name": "cost_of_contract", 
+        "type": "real"
+      }, 
+      {
+        "name": "explanation_of_costs_optional", 
+        "type": "text"
+      }, 
+      {
+        "name": "procurement_type_competitive_or_non_competitive", 
+        "type": "text"
+      }, 
+      {
+        "name": "small_business_status_optional", 
+        "type": "text"
+      }
+    ]
+  }
+}

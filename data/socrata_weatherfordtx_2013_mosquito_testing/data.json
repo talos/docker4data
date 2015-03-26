@@ -1,0 +1,37 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_weatherfordtx_2013_mosquito_testing/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/rmvj-bpp5/rows.csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/rmvj-bpp5.json"
+  }, 
+  "name": "socrata_weatherfordtx_2013_mosquito_testing", 
+  "schema": {
+    "columns": [
+      {
+        "name": "date_placed", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "date_collected", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "location", 
+        "type": "text"
+      }, 
+      {
+        "name": "test_results", 
+        "type": "text"
+      }, 
+      {
+        "name": "geolocation", 
+        "type": "text"
+      }
+    ]
+  }
+}

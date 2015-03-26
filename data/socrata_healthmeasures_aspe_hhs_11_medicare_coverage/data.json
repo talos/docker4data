@@ -1,0 +1,33 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_healthmeasures_aspe_hhs_11_medicare_coverage/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/e4pj-fnyu/rows.csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/e4pj-fnyu.json"
+  }, 
+  "name": "socrata_healthmeasures_aspe_hhs_11_medicare_coverage", 
+  "schema": {
+    "columns": [
+      {
+        "name": "measure_value", 
+        "type": "real"
+      }, 
+      {
+        "name": "year", 
+        "type": "real"
+      }, 
+      {
+        "name": "coverage_subtype", 
+        "type": "text"
+      }, 
+      {
+        "name": "condition", 
+        "type": "text"
+      }
+    ]
+  }
+}

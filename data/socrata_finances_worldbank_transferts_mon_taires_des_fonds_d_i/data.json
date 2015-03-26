@@ -1,0 +1,45 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_finances_worldbank_transferts_mon_taires_des_fonds_d_i/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/iwmk-5bij/rows.csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/finances.worldbank.org/api/views/iwmk-5bij.json"
+  }, 
+  "name": "socrata_finances_worldbank_transferts_mon_taires_des_fonds_d_i", 
+  "schema": {
+    "columns": [
+      {
+        "name": "as_of_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "fund_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "principal_recipient", 
+        "type": "text"
+      }, 
+      {
+        "name": "transfer_quarter", 
+        "type": "text"
+      }, 
+      {
+        "name": "calendar_year", 
+        "type": "real"
+      }, 
+      {
+        "name": "amount_in_usd", 
+        "type": "real"
+      }, 
+      {
+        "name": "sector_theme", 
+        "type": "text"
+      }
+    ]
+  }
+}

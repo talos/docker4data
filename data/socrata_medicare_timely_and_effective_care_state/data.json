@@ -1,0 +1,49 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_medicare_timely_and_effective_care_state/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/apyc-v239/rows.csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.medicare.gov/api/views/apyc-v239.json"
+  }, 
+  "name": "socrata_medicare_timely_and_effective_care_state", 
+  "schema": {
+    "columns": [
+      {
+        "name": "state", 
+        "type": "text"
+      }, 
+      {
+        "name": "condition", 
+        "type": "text"
+      }, 
+      {
+        "name": "measure_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "measure_id", 
+        "type": "text"
+      }, 
+      {
+        "name": "score", 
+        "type": "real"
+      }, 
+      {
+        "name": "footnote", 
+        "type": "text"
+      }, 
+      {
+        "name": "measure_start_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "measure_end_date", 
+        "type": "timestamp"
+      }
+    ]
+  }
+}

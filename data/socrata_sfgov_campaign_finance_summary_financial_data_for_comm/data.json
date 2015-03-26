@@ -1,0 +1,61 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_campaign_finance_summary_financial_data_for_comm/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/csud-q746/rows.csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "socrata": "http://www.opendatacache.com/data.sfgov.org/api/views/csud-q746.json"
+  }, 
+  "name": "socrata_sfgov_campaign_finance_summary_financial_data_for_comm", 
+  "schema": {
+    "columns": [
+      {
+        "name": "fppc_filer_id", 
+        "type": "real"
+      }, 
+      {
+        "name": "committee_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "candidate_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "report_version_number", 
+        "type": "real"
+      }, 
+      {
+        "name": "report_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "period_start_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "period_end_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "schedule", 
+        "type": "text"
+      }, 
+      {
+        "name": "line_item", 
+        "type": "text"
+      }, 
+      {
+        "name": "total_this_period", 
+        "type": "real"
+      }, 
+      {
+        "name": "calendar_year_total_to_date", 
+        "type": "real"
+      }
+    ]
+  }
+}
