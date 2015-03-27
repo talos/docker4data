@@ -8,14 +8,20 @@ import requests
 import sys
 import os
 import subprocess
+import hashlib
+import json
+import logging
+
+LOGGER = logging.getLogger(__name__)
+LOGGER.setLevel(logging.INFO)
+LOGGER.addHandler(logging.StreamHandler(sys.stderr))
 
 
 def shell(cmd):
     """
     Run a shell command convenience function.
     """
-    sys.stdout.write(cmd + '\n')
-    return subprocess.check_call(cmd, shell=True)
+    return subprocess.check_output(cmd, stderr=subprocess.STDOUT, shell=True)
 
 
 def run_postgres_script(script_path):
@@ -66,6 +72,42 @@ def wget_download(url, name):
     return outfile_path
 
 
+def get_current_digest(metadata):
+    """
+    Calculate a digest from existing metadata.
+    """
+    # No way to tell if no original metadata embedded
+    if 'metadata' not in metadata:
+        return ''
+
+    # Can only tell for Socrata right now
+    if 'socrata' not in metadata['metadata']:
+        return ''
+
+    return hashlib.sha1(requests.get(metadata['metadata']['socrata']).content).hexdigest()
+
+
+def get_old_digest(s3_bucket, name):
+    """
+    Determine the prior digest, if any, from previous builds.
+    """
+    try:
+        resp = shell(
+            'aws s3api head-object --bucket {} --key {}'.format(s3_bucket, name))
+        LOGGER.info(resp)
+        old_headers = json.loads(resp)
+    except subprocess.CalledProcessError:
+        return None
+
+    if 'Metadata' not in old_headers:
+        return None
+
+    if 'metadata-sha1-hexdigest' not in old_headers['Metadata']:
+        return None
+
+    return old_headers['Metadata']['metadata-sha1-hexdigest']
+
+
 def pgload_import(dataset_name, data_path, load_format):
     """
     Import a dataset via pgload.
@@ -89,7 +131,7 @@ LOAD CSV FROM stdin
     shell(script)
 
 
-def build(url):
+def build(url, s3_bucket):
     """
     Main function.  Takes the URL of the data.json spec.
 
@@ -100,7 +142,16 @@ def build(url):
         os.mkdir(tmp_path)
 
     resp = requests.get(url).json()
+
     dataset_name = resp[u'name']
+    current_digest = get_current_digest(resp)
+    old_digest = get_old_digest(s3_bucket, dataset_name)
+
+    # Able to verify nothing has changed, abort.
+    if current_digest and old_digest and current_digest == old_digest:
+        LOGGER.info('Current digest %s and old digest %s match, skipping %s',
+                    current_digest, old_digest, dataset_name)
+        sys.exit(100)
 
     schema = resp[u'schema']
     if 'postgres' in schema:
@@ -122,23 +173,8 @@ def build(url):
     for after in resp.get(u'after', []):
         run_remote_script(after, tmp_path, {'DATASET': data_filename})
 
-    with open('/name', 'w') as name_file:
-        name_file.write(dataset_name)
-
-    #is_unique = resp[u'data'].get(u'unique', False)
-    #separator = resp[u'data'].get(u'separator', ',')
-    #if is_unique:
-    #    with open('/is_unique', 'w') as unique_file:
-    #        unique_file.write('unique')
-    #with open('/separator', 'w') as sep_file:
-    #    sep_file.write(separator)
-    #with open('/data.url', 'w') as url_file:
-    #    url_file.write(data_url)
-    #with open('/index.sql', 'w') as index_file:
-    #    index_file.write(requests.get(index_url).content)
-    #with open('/schema.sql', 'w') as schema_file:
-    #    schema_file.write(requests.get(schema_url).content)
+    sys.stdout.write(current_digest)
 
 
 if __name__ == "__main__":
-    build(sys.argv[1])
+    build(sys.argv[1], sys.argv[2])

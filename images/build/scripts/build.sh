@@ -12,63 +12,24 @@ fi
 
 S3_BUCKET=data.docker4data.com
 SQLDUMP=sqldump
-
-if [[ -n $(aws s3 ls $S3_BUCKET/$SQLDUMP/$1) ]]; then
-  echo "Already built $1"
-  exit 0
-fi
+NAME=$1
 
 PWD=$(pwd)
 TMPDIR=$(mktemp -d /tmp/docker4data-build.XXXX)
 
-# First, load up a psql ready docker4data-build to download and import data
-#BUILD_CONTAINER=$(docker run -d -v $TMPDIR:/share thegovlab/docker4data-build /scripts/postgres.sh)
-
-# Make sure postgres is running before continuing
-#while : ; do
-#  docker exec ${BUILD_CONTAINER} gosu postgres psql -c '\q' > /dev/null 2>&1 && break || echo "Waiting for postgres to start up"
-#  sleep 0.2
-#done
-
 # Import the csv using the supplied schema
-data_json=https://raw.githubusercontent.com/talos/docker4data/master/data/$1/data.json
+data_json=https://raw.githubusercontent.com/talos/docker4data/master/data/$NAME/data.json
 echo $data_json
-python /scripts/build.py $data_json
 
-NAME=$(cat /name)
-echo $NAME
+DIGEST=$(python /scripts/build.py $data_json $S3_BUCKET/$SQLDUMP)
+echo $DIGEST
 
-# Dump it to the dietfs export image, and save that as a data image
-chown postgres:postgres /share
-chmod a+rwx /share
-/bin/bash /scripts/dump.sh $NAME
+mkdir -p raw
+chown -R postgres:postgres $TMPDIR
+/scripts/dump.sh $NAME $TMPDIR/$NAME
 
-aws s3 cp --acl public-read $TMPDIR/$NAME $S3_BUCKET_SQLDUMP/$NAME
-aws s3api put-object --acl public-read --bucket data.docker4data.com \
-  --key metatest --metadata foo=bar --body generate.sh
+#aws s3 cp --acl public-read $TMPDIR/$NAME $S3_BUCKET/$SQLDUMP/$NAME
+aws s3api put-object --acl public-read --bucket $S3_BUCKET \
+  --key $SQLDUMP/$NAME --metadata metadata-sha1-hexdigest=$DIGEST --body $TMPDIR/$NAME
 
-rm /share/${NAME}
-
-#docker stop ${BUILD_CONTAINER}
-#docker rm -f ${BUILD_CONTAINER}
-#rm -rf $TMPDIR/*
-
-#  mkdir -p tmp  # because tmp dockerfile must be in build context
-#  TMP_DOCKERFILE=tmp/Dockerfile-${NAME}
-#  cat "Dockerfile" | \
-#    sed "s!dataset!${NAME}!g" | \
-#    sed "s!share_path!${TMPDIR}!g" \
-#    > ${TMP_DOCKERFILE}
-#
-#  # Ensure name is not too long for docker hub
-#  TAG=thegovlab/d4d-$(echo ${NAME} | cut -c 1-26)
-#
-#  docker build -t ${TAG} -f ${TMP_DOCKERFILE} .
-#  rm -rf $TMPDIR
-#
-#  docker push ${TAG}
-
-
-# to be used down the line...
-#DATA_CONTAINER=$(docker run -v /share ${DATA_IMAGE})
-#time gosu postgres pg_restore -d postgres /share/dump > log 2>error
+rm $TMPDIR/${NAME}
