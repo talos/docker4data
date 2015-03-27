@@ -70,7 +70,7 @@ if [ $(which psql) ]; then
 else
   echo "to drop in, enter
 
-     docker exec -i docker4data gosu postgres psql
+     docker exec -it docker4data gosu postgres psql
 
   "
 fi
