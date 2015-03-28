@@ -2,6 +2,8 @@
 
 '''
 Build a docker4data container.
+
+    scripts/build.py <url> <s3bucket> <tmp path>
 '''
 
 import requests
@@ -21,6 +23,7 @@ def shell(cmd):
     """
     Run a shell command convenience function.
     """
+    LOGGER.info(cmd)
     return subprocess.check_output(cmd, stderr=subprocess.STDOUT, shell=True)
 
 
@@ -63,11 +66,11 @@ def generate_schema(table_name, schema):
     )
 
 
-def wget_download(url, name):
+def wget_download(url, name, tmp_dir):
     """
     Download a URL and save it in file called 'name'.
     """
-    outfile_path = "tmp/{}".format(name)
+    outfile_path = os.path.join(tmp_dir, name)
     shell("wget -q -O {} {}".format(outfile_path, url))
     return outfile_path
 
@@ -108,11 +111,11 @@ def get_old_digest(s3_bucket, name):
     return old_headers['Metadata']['metadata-sha1-hexdigest']
 
 
-def pgload_import(dataset_name, data_path, load_format):
+def pgload_import(dataset_name, data_path, load_format, tmp_dir):
     """
     Import a dataset via pgload.
     """
-    pgload_path = 'tmp/pgloader.load'
+    pgload_path = os.path.join(tmp_dir, 'pgloader.load')
     format_type = load_format.get('type', 'csv')
     default_sep = '\t' if format_type == 'tsv' else ','
     separator = load_format.get('separator', default_sep)
@@ -131,13 +134,12 @@ LOAD CSV FROM stdin
     shell(script)
 
 
-def build(url, s3_bucket):
+def build(url, s3_bucket, tmp_path):
     """
     Main function.  Takes the URL of the data.json spec.
 
     Writes the name of the dataset to file at `/name` when done.
     """
-    tmp_path = 'tmp'
     if not os.path.exists(tmp_path):
         os.mkdir(tmp_path)
 
@@ -155,20 +157,20 @@ def build(url, s3_bucket):
 
     schema = resp[u'schema']
     if 'postgres' in schema:
-        schema_path = wget_download(schema[u'postgres'][u'@id'], 'schema.sql')
+        schema_path = wget_download(schema[u'postgres'][u'@id'], 'schema.sql', tmp_path)
     else:
-        schema_path = 'tmp/schema.sql'
+        schema_path = os.path.join(tmp_path, 'schema.sql')
         with open(schema_path, 'w') as schema_file:
             schema_file.write(generate_schema(dataset_name, schema))
     run_postgres_script(schema_path)
 
     data_filename = dataset_name + '.data'
-    data_path = wget_download(resp[u'data'][u'@id'], data_filename)
+    data_path = wget_download(resp[u'data'][u'@id'], data_filename, tmp_path)
 
     for before in resp.get(u'before', []):
         run_remote_script(before, tmp_path, {'DATASET': data_filename})
 
-    pgload_import(dataset_name, data_path, resp.get(u'load_format', {}))
+    pgload_import(dataset_name, data_path, resp.get(u'load_format', {}), tmp_path)
 
     for after in resp.get(u'after', []):
         run_remote_script(after, tmp_path, {'DATASET': data_filename})
@@ -177,4 +179,4 @@ def build(url, s3_bucket):
 
 
 if __name__ == "__main__":
-    build(sys.argv[1], sys.argv[2])
+    build(sys.argv[1], sys.argv[2], sys.argv[3])

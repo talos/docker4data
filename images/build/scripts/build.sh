@@ -21,7 +21,7 @@ TMPDIR=$(mktemp -d /tmp/docker4data-build.XXXX)
 data_json=https://raw.githubusercontent.com/talos/docker4data/master/data/$NAME/data.json
 echo $data_json
 
-DIGEST=$(python /scripts/build.py $data_json $S3_BUCKET/$SQLDUMP)
+DIGEST=$(python /scripts/build.py $data_json $S3_BUCKET/$SQLDUMP $TMPDIR)
 echo $DIGEST
 
 mkdir -p raw
@@ -32,4 +32,4 @@ chown -R postgres:postgres $TMPDIR
 aws s3api put-object --acl public-read --bucket $S3_BUCKET \
   --key $SQLDUMP/$NAME --metadata metadata-sha1-hexdigest=$DIGEST --body $TMPDIR/$NAME
 
-rm $TMPDIR/${NAME}
+rm -r $TMPDIR
