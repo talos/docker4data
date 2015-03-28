@@ -21,11 +21,10 @@ TMPDIR=$(mktemp -d /tmp/docker4data-build.XXXX)
 data_json=https://raw.githubusercontent.com/talos/docker4data/master/data/$NAME/data.json
 echo $data_json
 
+chown -R postgres:postgres $TMPDIR
 DIGEST=$(python /scripts/build.py $data_json $S3_BUCKET/$SQLDUMP $TMPDIR)
 echo $DIGEST
 
-mkdir -p raw
-chown -R postgres:postgres $TMPDIR
 /scripts/dump.sh $NAME $TMPDIR/$NAME
 
 #aws s3 cp --acl public-read $TMPDIR/$NAME $S3_BUCKET/$SQLDUMP/$NAME

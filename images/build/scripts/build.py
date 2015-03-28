@@ -162,6 +162,7 @@ def build(url, s3_bucket, tmp_path):
         schema_path = os.path.join(tmp_path, 'schema.sql')
         with open(schema_path, 'w') as schema_file:
             schema_file.write(generate_schema(dataset_name, schema))
+    shell("gosu postgres psql -c 'DROP TABLE IF EXISTS {}'".format(dataset_name))
     run_postgres_script(schema_path)
 
     data_filename = dataset_name + '.data'
