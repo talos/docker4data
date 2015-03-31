@@ -146,7 +146,7 @@ def build(url, s3_bucket, tmp_path):
 
     resp = requests.get(url).json()
 
-    dataset_name = resp[u'name']
+    dataset_name = resp[u'tableName']
     current_digest = get_current_digest(resp)
     old_digest = get_old_digest(s3_bucket, dataset_name)
 

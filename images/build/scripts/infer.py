@@ -43,7 +43,8 @@ def extract_namespace(metadata_url, is_proxy=True):
         netloc = urlparse.urlsplit(metadata_url).path.split('/')[1]
     else:
         netloc = urlparse.urlsplit(metadata_url).netloc
-    netloc = re.sub(r'(^data\.|\.gov$|\.edu$|\.com$|\.org$|\.?socrata\.?|^www\.|\.us$)', '', netloc)
+    netloc = re.sub(r'((^|\.)data\.|\.gov($|\.)|\.edu$|\.com$|\.org$|\.?socrata\.?|^www\.|\.us$)',
+                    '', netloc)
     return netloc.replace('.', '_').lower()
 
 
@@ -83,11 +84,11 @@ def infer(metadata_url, output_root_dir):
         return
 
     namespace = extract_namespace(metadata_url)
-    name = u'socrata_{}_{}'.format(namespace,
-                                   socrata_metadata['name'].lower().replace(' ', '_'))
-    name = re.sub(r'[^0-9a-z]+', '_', name)[0:62]
+    tablename = u'socrata_{}_{}'.format(namespace,
+                                        socrata_metadata['name'].lower().replace(' ', '_'))
+    tablename = re.sub(r'[^0-9a-z]+', '_', tablename)[0:62]
 
-    output_dir = os.path.join(output_root_dir, name)
+    output_dir = os.path.join(output_root_dir, tablename)
     output_path = os.path.join(output_dir, 'data.json')
 
     if os.path.exists(output_path):
@@ -95,8 +96,7 @@ def infer(metadata_url, output_root_dir):
     else:
         d4d_metadata = {
             "@id": u"https://raw.githubusercontent.com/talos/docker4data/"
-                   u"master/data/{}/data.json".format(name),
-            "name": name,
+                   u"master/data/{}/data.json".format(tablename),
             "maintainer": {
                 "@id": "https://github.com/talos/docker4data"
             },
@@ -111,10 +111,24 @@ def infer(metadata_url, output_root_dir):
         except OSError:
             pass
 
+    d4d_metadata[u"name"] = socrata_metadata[u'name']
+    d4d_metadata[u"tableName"] = tablename
+
+    if u'description' not in d4d_metadata and u'description' in socrata_metadata:
+        d4d_metadata[u'description'] = socrata_metadata[u'description']
+
     d4d_metadata[u"schema"][u"columns"] = generate_schema(socrata_metadata[u'columns'])
     if u'metadata' not in d4d_metadata:
         d4d_metadata[u"metadata"] = {}
-    d4d_metadata[u"metadata"][u"socrata"] = metadata_url
+    d4d_metadata[u"metadata"][u"socrata"] = {
+        "@id": metadata_url
+    }
+    if u'attribution' in socrata_metadata:
+        d4d_metadata[u"metadata"][u"attribution"] = socrata_metadata[u"attribution"]
+    if u"category" in socrata_metadata:
+        d4d_metadata[u"metadata"][u"category"] = socrata_metadata[u"category"]
+    if u"description" in socrata_metadata:
+        d4d_metadata[u"metadata"][u"description"] = socrata_metadata[u"description"]
 
     with open(output_path, 'w') as output_file:
         json.dump(d4d_metadata, output_file, indent=2, sort_keys=True)
