@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/bsjf-2tcx/rows.csv"
   }, 
+  "description": "Zip code data on transportation to work. Figures given in census count, not percentages. To get percentages, the population estimate is given in column D", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/bsjf-2tcx.json"
+    "attribution": "US Census Bureau", 
+    "category": "Population", 
+    "description": "Zip code data on transportation to work. Figures given in census count, not percentages. To get percentages, the population estimate is given in column D", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/bsjf-2tcx.json"
+    }
   }, 
-  "name": "socrata_bronx_lehman_cuny_acs_11_5_yr_b08130_means_of_transpor", 
+  "name": "ACS 11 5 YR B08130: MEANS OF TRANSPORTATION TO WORK BY PLACE OF WORK", 
   "schema": {
     "columns": [
       {
@@ -273,5 +279,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_bronx_lehman_cuny_acs_11_5_yr_b08130_means_of_transpor"
 }

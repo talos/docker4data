@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/siyu-szxn/rows.csv"
   }, 
+  "description": "Inventory of affordable housing.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.austintexas.gov/api/views/siyu-szxn.json"
+    "attribution": "City of Austin", 
+    "category": "Neighborhood", 
+    "description": "Inventory of affordable housing.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/siyu-szxn.json"
+    }
   }, 
-  "name": "socrata_austintexas_affordable_housing_inventory", 
+  "name": "Affordable Housing Inventory", 
   "schema": {
     "columns": [
       {
@@ -33,5 +39,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_austintexas_affordable_housing_inventory"
 }

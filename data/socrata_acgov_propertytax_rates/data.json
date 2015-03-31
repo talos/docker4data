@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.acgov.org/api/views/q8tt-ukmk/rows.csv"
   }, 
+  "description": "Property Tax Rates by Tax Year, TaxRateArea. Loaded with current year data about October 15th.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.acgov.org/api/views/q8tt-ukmk.json"
+    "category": "County Government", 
+    "description": "Property Tax Rates by Tax Year, TaxRateArea. Loaded with current year data about October 15th.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.acgov.org/api/views/q8tt-ukmk.json"
+    }
   }, 
-  "name": "socrata_acgov_propertytax_rates", 
+  "name": "PropertyTax Rates", 
   "schema": {
     "columns": [
       {
@@ -41,5 +46,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_acgov_propertytax_rates"
 }

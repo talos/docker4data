@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/xwtw-sbuz/rows.csv"
   }, 
+  "description": "American Community Survey statistics on income and poverty, as well as a number of other factors. There are about 200 fields so please refer to the attached ACS_Field_Description_Dictionary.xlsx for field definitions.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/xwtw-sbuz.json"
+    "attribution": "American Fact Finder", 
+    "category": "Population", 
+    "description": "American Community Survey statistics on income and poverty, as well as a number of other factors. There are about 200 fields so please refer to the attached ACS_Field_Description_Dictionary.xlsx for field definitions.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/xwtw-sbuz.json"
+    }
   }, 
-  "name": "socrata_bronx_lehman_cuny_bronx_american_community_5_year_surv", 
+  "name": "Bronx American Community 5-year Survey", 
   "schema": {
     "columns": [
       {
@@ -1497,5 +1503,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_bronx_lehman_cuny_bronx_american_community_5_year_surv"
 }

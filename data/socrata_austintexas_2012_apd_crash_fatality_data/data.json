@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/ergh-7g8p/rows.csv"
   }, 
+  "description": "1. The data provided is for informational use only and is not considered official APD crime data as in official Texas DPS or FBI crime reports.\n2. APD\u2019s crime database is continuously updated, so reports run at different times may produce different results.  Care should be taken when comparing against other reports as different data collection methods and different data sources may have been used.\n3. The Austin Police Department does not assume any liability for any decision made or action taken or not taken by the recipient in reliance upon any information or data provided.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.austintexas.gov/api/views/ergh-7g8p.json"
+    "attribution": "City of Austin", 
+    "category": "Public Safety", 
+    "description": "1. The data provided is for informational use only and is not considered official APD crime data as in official Texas DPS or FBI crime reports.\n2. APD\u2019s crime database is continuously updated, so reports run at different times may produce different results.  Care should be taken when comparing against other reports as different data collection methods and different data sources may have been used.\n3. The Austin Police Department does not assume any liability for any decision made or action taken or not taken by the recipient in reliance upon any information or data provided.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/ergh-7g8p.json"
+    }
   }, 
-  "name": "socrata_austintexas_2012_apd_crash_fatality_data", 
+  "name": "2012 APD Crash Fatality Data", 
   "schema": {
     "columns": [
       {
@@ -41,5 +47,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_austintexas_2012_apd_crash_fatality_data"
 }

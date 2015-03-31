@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/y8rb-p3xk/rows.csv"
   }, 
+  "description": "Dataset shows the number of MetroCard swipes made each week by customers entering each station of the New York City Subway, PATH, AirTrain JFK and the Roosevelt Island Tram, broken out to show the relative popularity of the various types of MetroCards. MTA New York City Transit posts the latest data every Saturday by 1 a.m., and the dates listed in the links reference the date the data is posted. The data in the files covers seven-day periods beginning on the Saturday two weeks prior to the posting date and ending on the following Friday", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/y8rb-p3xk.json"
+    "attribution": "MTA.info", 
+    "category": "My Neighborhood", 
+    "description": "Dataset shows the number of MetroCard swipes made each week by customers entering each station of the New York City Subway, PATH, AirTrain JFK and the Roosevelt Island Tram, broken out to show the relative popularity of the various types of MetroCards. MTA New York City Transit posts the latest data every Saturday by 1 a.m., and the dates listed in the links reference the date the data is posted. The data in the files covers seven-day periods beginning on the Saturday two weeks prior to the posting date and ending on the following Friday", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/y8rb-p3xk.json"
+    }
   }, 
-  "name": "socrata_bronx_lehman_cuny_mta_weekly_fare_data", 
+  "name": "MTA Weekly Fare Data", 
   "schema": {
     "columns": [
       {
@@ -101,5 +107,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_bronx_lehman_cuny_mta_weekly_fare_data"
 }

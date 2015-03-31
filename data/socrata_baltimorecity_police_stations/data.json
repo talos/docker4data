@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/6kkw-bck6/rows.csv"
   }, 
+  "description": "The location of the 9 police district stations plus Police Headquarters.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/6kkw-bck6.json"
+    "attribution": "Baltimore Police Department", 
+    "category": "Public Safety", 
+    "description": "The location of the 9 police district stations plus Police Headquarters.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/6kkw-bck6.json"
+    }
   }, 
-  "name": "socrata_baltimorecity_police_stations", 
+  "name": "Police Stations", 
   "schema": {
     "columns": [
       {
@@ -41,5 +47,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_baltimorecity_police_stations"
 }

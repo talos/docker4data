@@ -7,9 +7,13 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/xv8d-bwgi.json"
+    "attribution": "Baltimore City Liquor License Board", 
+    "category": "City Services", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/xv8d-bwgi.json"
+    }
   }, 
-  "name": "socrata_baltimorecity_liquor_licenses", 
+  "name": "Liquor Licenses", 
   "schema": {
     "columns": [
       {
@@ -89,5 +93,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_baltimorecity_liquor_licenses"
 }

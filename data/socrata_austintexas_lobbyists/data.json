@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/bqav-9x6a/rows.csv"
   }, 
+  "description": "City Code Chapter 4-8 requires that persons who are hired by individuals, corporations or groups to influence public officials or specific boards and commissions must:\n\n    - Register as lobbyists\n    - File quarterly activity reports\n    - File amendment forms as needed\n    - Pay appropriate fees \n    - File a termination notice upon ceasing lobbyist activities.\n\nClick here to view current registered lobbyists and their clients.\nIf you have questions, contact the Lobbyist Coordinator, 974-2210.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.austintexas.gov/api/views/bqav-9x6a.json"
+    "attribution": "City of Austin", 
+    "description": "City Code Chapter 4-8 requires that persons who are hired by individuals, corporations or groups to influence public officials or specific boards and commissions must:\n\n    - Register as lobbyists\n    - File quarterly activity reports\n    - File amendment forms as needed\n    - Pay appropriate fees \n    - File a termination notice upon ceasing lobbyist activities.\n\nClick here to view current registered lobbyists and their clients.\nIf you have questions, contact the Lobbyist Coordinator, 974-2210.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/bqav-9x6a.json"
+    }
   }, 
-  "name": "socrata_austintexas_lobbyists", 
+  "name": "Lobbyists", 
   "schema": {
     "columns": [
       {
@@ -41,5 +46,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_austintexas_lobbyists"
 }

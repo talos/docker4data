@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/6d4u-qybd/rows.csv"
   }, 
+  "description": "all facilities and locations administered by the NYC Department of Parks and Recreation. This includes parks, baseball and other playing fields, gardens, beaches, and others. Please refer to SelFac_datainfo.pdf for facility type definition. Refer to types: 1511, 1512, 1513, 1514, 1515", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/6d4u-qybd.json"
+    "attribution": "NYC.gov", 
+    "category": "Environment", 
+    "description": "all facilities and locations administered by the NYC Department of Parks and Recreation. This includes parks, baseball and other playing fields, gardens, beaches, and others. Please refer to SelFac_datainfo.pdf for facility type definition. Refer to types: 1511, 1512, 1513, 1514, 1515", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/6d4u-qybd.json"
+    }
   }, 
-  "name": "socrata_bronx_lehman_cuny_bronx_parks_and_recreation", 
+  "name": "Bronx Parks And Recreation", 
   "schema": {
     "columns": [
       {
@@ -29,5 +35,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_bronx_lehman_cuny_bronx_parks_and_recreation"
 }

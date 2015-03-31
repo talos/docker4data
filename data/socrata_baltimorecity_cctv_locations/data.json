@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/hdyb-27ak/rows.csv"
   }, 
+  "description": "Closed circuit camera locations capturing activity within 256ft (~2 blocks).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/hdyb-27ak.json"
+    "attribution": "Baltimore Police Department", 
+    "category": "Public Safety", 
+    "description": "Closed circuit camera locations capturing activity within 256ft (~2 blocks).", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/hdyb-27ak.json"
+    }
   }, 
-  "name": "socrata_baltimorecity_cctv_locations", 
+  "name": "CCTV Locations", 
   "schema": {
     "columns": [
       {
@@ -29,5 +35,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_baltimorecity_cctv_locations"
 }

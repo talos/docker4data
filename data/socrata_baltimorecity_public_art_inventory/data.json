@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/5xsg-uc29/rows.csv"
   }, 
+  "description": "Public Art Installations in the City of Baltimore", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/5xsg-uc29.json"
+    "attribution": "Baltimore Office of Promotion & The Arts", 
+    "category": "Culture & Arts", 
+    "description": "Public Art Installations in the City of Baltimore", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/5xsg-uc29.json"
+    }
   }, 
-  "name": "socrata_baltimorecity_public_art_inventory", 
+  "name": "Public Art Inventory", 
   "schema": {
     "columns": [
       {
@@ -77,5 +83,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_baltimorecity_public_art_inventory"
 }

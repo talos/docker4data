@@ -7,9 +7,11 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/fnhj-dssh.json"
+    "socrata": {
+      "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/fnhj-dssh.json"
+    }
   }, 
-  "name": "socrata_bronx_lehman_cuny_catalog", 
+  "name": "Catalog", 
   "schema": {
     "columns": [
       {
@@ -109,5 +111,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_bronx_lehman_cuny_catalog"
 }

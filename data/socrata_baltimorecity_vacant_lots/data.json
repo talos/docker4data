@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/gf6h-35ki/rows.csv"
   }, 
+  "description": "Vacant lots located throughout the City of Baltimore. To be updated twice a month.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/gf6h-35ki.json"
+    "attribution": "Housing Authority of Baltimore City", 
+    "category": "Housing & Development", 
+    "description": "Vacant lots located throughout the City of Baltimore. To be updated twice a month.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/gf6h-35ki.json"
+    }
   }, 
-  "name": "socrata_baltimorecity_vacant_lots", 
+  "name": "Vacant Lots", 
   "schema": {
     "columns": [
       {
@@ -37,5 +43,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_baltimorecity_vacant_lots"
 }

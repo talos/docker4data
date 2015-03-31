@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/e29s-jddm/rows.csv"
   }, 
+  "description": "Parking Facilities throughout the City of Baltimore.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/e29s-jddm.json"
+    "attribution": "Parking Authority of Baltimore City", 
+    "category": "Transportation", 
+    "description": "Parking Facilities throughout the City of Baltimore.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/e29s-jddm.json"
+    }
   }, 
-  "name": "socrata_baltimorecity_parking_facilities", 
+  "name": "Parking Facilities", 
   "schema": {
     "columns": [
       {
@@ -53,5 +59,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_baltimorecity_parking_facilities"
 }

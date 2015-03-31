@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/f2du-824e/rows.csv"
   }, 
+  "description": "American Fact Finder data on the use of vehicles to commute per census tract. Also included are population and Margin Of Error estimates.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/f2du-824e.json"
+    "attribution": "US Census Bureau", 
+    "category": "Population", 
+    "description": "American Fact Finder data on the use of vehicles to commute per census tract. Also included are population and Margin Of Error estimates.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/f2du-824e.json"
+    }
   }, 
-  "name": "socrata_bronx_lehman_cuny_bronx_2010_commuting_vehicles", 
+  "name": "Bronx 2010 Commuting Vehicles", 
   "schema": {
     "columns": [
       {
@@ -65,5 +71,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_bronx_lehman_cuny_bronx_2010_commuting_vehicles"
 }

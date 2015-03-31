@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/ig6i-wwx7/rows.csv"
   }, 
+  "description": "Shows the percentage of response time goals met by month for both City and County areas.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.austintexas.gov/api/views/ig6i-wwx7.json"
+    "attribution": "Austin-Travis County EMS", 
+    "category": "Public Safety", 
+    "description": "Shows the percentage of response time goals met by month for both City and County areas.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/ig6i-wwx7.json"
+    }
   }, 
-  "name": "socrata_austintexas_ems_system_response_time", 
+  "name": "EMS - System Response Time", 
   "schema": {
     "columns": [
       {
@@ -33,5 +39,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_austintexas_ems_system_response_time"
 }

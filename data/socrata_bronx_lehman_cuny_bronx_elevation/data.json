@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/j3ck-8dma/rows.csv"
   }, 
+  "description": "Point data on the elevation of the Bronx. There are over 140,000 points in this dataset.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/j3ck-8dma.json"
+    "category": "Environment", 
+    "description": "Point data on the elevation of the Bronx. There are over 140,000 points in this dataset.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/j3ck-8dma.json"
+    }
   }, 
-  "name": "socrata_bronx_lehman_cuny_bronx_elevation", 
+  "name": "Bronx Elevation", 
   "schema": {
     "columns": [
       {
@@ -33,5 +38,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_bronx_lehman_cuny_bronx_elevation"
 }

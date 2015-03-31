@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/c9cp-9hd8/rows.csv"
   }, 
+  "description": "Census 2010 data by zip code provided by William Bosworth - all variables. Extended labels not available.  See attachment for details.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/c9cp-9hd8.json"
+    "category": "Population", 
+    "description": "Census 2010 data by zip code provided by William Bosworth - all variables. Extended labels not available.  See attachment for details.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/c9cp-9hd8.json"
+    }
   }, 
-  "name": "socrata_bronx_lehman_cuny_socr_bronx_zip_complete", 
+  "name": "Socr Bronx Zip Complete", 
   "schema": {
     "columns": [
       {
@@ -385,5 +390,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_bronx_lehman_cuny_socr_bronx_zip_complete"
 }

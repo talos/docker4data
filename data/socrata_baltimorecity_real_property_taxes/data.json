@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/27w9-urtv/rows.csv"
   }, 
+  "description": "Current Real Property Tax in Baltimore. For more detailed information, visit SDAT at http://sdat.resiusa.org/RealProperty/Pages/default.aspx", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/27w9-urtv.json"
+    "attribution": "Department of Finance", 
+    "category": "Financial", 
+    "description": "Current Real Property Tax in Baltimore. For more detailed information, visit SDAT at http://sdat.resiusa.org/RealProperty/Pages/default.aspx", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/27w9-urtv.json"
+    }
   }, 
-  "name": "socrata_baltimorecity_real_property_taxes", 
+  "name": "Real Property Taxes", 
   "schema": {
     "columns": [
       {
@@ -57,5 +63,6 @@
         "type": "timestamp"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_baltimorecity_real_property_taxes"
 }

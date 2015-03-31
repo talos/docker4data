@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/bb8s-w66d/rows.csv"
   }, 
+  "description": "Clean heat statistics for properties throughout the Bronx. This takes the place of a previous dataset that was incorrectly formatted. This one is formatted so that the locations can be mapped.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/bb8s-w66d.json"
+    "attribution": "Mayor's Office of Long Term Planning and Sustainability", 
+    "category": "Environment", 
+    "description": "Clean heat statistics for properties throughout the Bronx. This takes the place of a previous dataset that was incorrectly formatted. This one is formatted so that the locations can be mapped.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/bb8s-w66d.json"
+    }
   }, 
-  "name": "socrata_bronx_lehman_cuny_bronx_clean_heat_data", 
+  "name": "Bronx Clean Heat Data", 
   "schema": {
     "columns": [
       {
@@ -153,5 +159,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_bronx_lehman_cuny_bronx_clean_heat_data"
 }

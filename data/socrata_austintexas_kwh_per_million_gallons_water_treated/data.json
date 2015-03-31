@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/k8rc-mjrt/rows.csv"
   }, 
+  "description": "The amount of electricity used, in kWh, to the amount of water and wastewater treated, in millions of gallons (MG). This does no include package plant wastewater flows, and it also does not include non-AE electricity", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.austintexas.gov/api/views/k8rc-mjrt.json"
+    "attribution": "City of Austin", 
+    "description": "The amount of electricity used, in kWh, to the amount of water and wastewater treated, in millions of gallons (MG). This does no include package plant wastewater flows, and it also does not include non-AE electricity", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/k8rc-mjrt.json"
+    }
   }, 
-  "name": "socrata_austintexas_kwh_per_million_gallons_water_treated", 
+  "name": "kWh per million gallons water treated", 
   "schema": {
     "columns": [
       {
@@ -29,5 +34,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_austintexas_kwh_per_million_gallons_water_treated"
 }

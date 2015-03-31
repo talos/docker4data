@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/ckct-rnit/rows.csv"
   }, 
+  "description": "2010-current. Water quality complaints from NYC 311 data. Updated daily.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/ckct-rnit.json"
+    "attribution": "NYC Open Data", 
+    "category": "Environment", 
+    "description": "2010-current. Water quality complaints from NYC 311 data. Updated daily.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/ckct-rnit.json"
+    }
   }, 
-  "name": "socrata_bronx_lehman_cuny_bronx_311_water_quality", 
+  "name": "Bronx 311 Water Quality", 
   "schema": {
     "columns": [
       {
@@ -109,5 +115,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_bronx_lehman_cuny_bronx_311_water_quality"
 }

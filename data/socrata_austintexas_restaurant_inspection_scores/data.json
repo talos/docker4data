@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/ecmv-9xxi/rows.csv"
   }, 
+  "description": "Provides restaurant scores for inspections performed within the last three years. Online search of this data set also available at: http://www.ci.austin.tx.us/health/restaurant/search.cfm", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.austintexas.gov/api/views/ecmv-9xxi.json"
+    "attribution": "City of Austin", 
+    "description": "Provides restaurant scores for inspections performed within the last three years. Online search of this data set also available at: http://www.ci.austin.tx.us/health/restaurant/search.cfm", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/ecmv-9xxi.json"
+    }
   }, 
-  "name": "socrata_austintexas_restaurant_inspection_scores", 
+  "name": "Restaurant Inspection Scores", 
   "schema": {
     "columns": [
       {
@@ -41,5 +46,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_austintexas_restaurant_inspection_scores"
 }

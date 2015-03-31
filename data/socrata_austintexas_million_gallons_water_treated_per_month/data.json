@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/uvma-gv9c/rows.csv"
   }, 
+  "description": "Volume of water treated by all water treatment facilities by month", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.austintexas.gov/api/views/uvma-gv9c.json"
+    "attribution": "City of Austin", 
+    "category": "Utility", 
+    "description": "Volume of water treated by all water treatment facilities by month", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/uvma-gv9c.json"
+    }
   }, 
-  "name": "socrata_austintexas_million_gallons_water_treated_per_month", 
+  "name": "Million gallons water treated per month", 
   "schema": {
     "columns": [
       {
@@ -29,5 +35,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_austintexas_million_gallons_water_treated_per_month"
 }

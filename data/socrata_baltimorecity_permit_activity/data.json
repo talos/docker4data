@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/k6m8-62kn/rows.csv"
   }, 
+  "description": "Properties for which permits have been obtained for work exceeding $50,000.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/k6m8-62kn.json"
+    "attribution": "Baltimore City Planning Department", 
+    "category": "Housing & Development", 
+    "description": "Properties for which permits have been obtained for work exceeding $50,000.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/k6m8-62kn.json"
+    }
   }, 
-  "name": "socrata_baltimorecity_permit_activity", 
+  "name": "Permit Activity", 
   "schema": {
     "columns": [
       {
@@ -41,5 +47,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_baltimorecity_permit_activity"
 }

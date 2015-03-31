@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/2hre-tvqe/rows.csv"
   }, 
+  "description": "Permits issued by Public Works, Transportation, Inspectional Services, and the Fire Department", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofboston.gov/api/views/2hre-tvqe.json"
+    "attribution": "Multiple Agencies", 
+    "category": "Permitting", 
+    "description": "Permits issued by Public Works, Transportation, Inspectional Services, and the Fire Department", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/2hre-tvqe.json"
+    }
   }, 
-  "name": "socrata_cityofboston_issued_permits_all_types_", 
+  "name": "Issued Permits(ALL TYPES)", 
   "schema": {
     "columns": [
       {
@@ -117,5 +123,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofboston_issued_permits_all_types_"
 }

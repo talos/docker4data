@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/3e38-4hji/rows.csv"
   }, 
+  "description": "This represents the top 10 searches that visitors have conducted on www.austintexas.gov. The Number of Queries is calculated by Unique Pageviews per month. The data represents a one month period. LAST UPDATE 4/24/2014", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.austintexas.gov/api/views/3e38-4hji.json"
+    "attribution": "City of Austin, Texas", 
+    "category": "Government", 
+    "description": "This represents the top 10 searches that visitors have conducted on www.austintexas.gov. The Number of Queries is calculated by Unique Pageviews per month. The data represents a one month period. LAST UPDATE 4/24/2014", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/3e38-4hji.json"
+    }
   }, 
-  "name": "socrata_austintexas_top_10_searches_on_austintexas_gov", 
+  "name": "Top 10 Searches on Austintexas.gov", 
   "schema": {
     "columns": [
       {
@@ -25,5 +31,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_austintexas_top_10_searches_on_austintexas_gov"
 }

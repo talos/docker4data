@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/gxwy-g5wa/rows.csv"
   }, 
+  "description": "Volume of water treated by all water treatment facilities by month.  This does not include package plant wastewater flows.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.austintexas.gov/api/views/gxwy-g5wa.json"
+    "attribution": "City of Austin", 
+    "category": "Utility", 
+    "description": "Volume of water treated by all water treatment facilities by month.  This does not include package plant wastewater flows.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/gxwy-g5wa.json"
+    }
   }, 
-  "name": "socrata_austintexas_million_gallons_of_wastewater_treated", 
+  "name": "Million gallons of wastewater treated", 
   "schema": {
     "columns": [
       {
@@ -29,5 +35,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_austintexas_million_gallons_of_wastewater_treated"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/tdr9-zd8k/rows.csv"
   }, 
+  "description": "Coordinate data for central points to Bronx PUMA districts", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/tdr9-zd8k.json"
+    "attribution": "Census.gov", 
+    "category": "My Neighborhood", 
+    "description": "Coordinate data for central points to Bronx PUMA districts", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/tdr9-zd8k.json"
+    }
   }, 
-  "name": "socrata_bronx_lehman_cuny_bronx_puma_points", 
+  "name": "Bronx PUMA Points", 
   "schema": {
     "columns": [
       {
@@ -53,5 +59,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_bronx_lehman_cuny_bronx_puma_points"
 }

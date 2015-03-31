@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/rfif-mmvg/rows.csv"
   }, 
+  "description": "Listing of all recycling schedules city wide.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.austintexas.gov/api/views/rfif-mmvg.json"
+    "attribution": "City of Austin", 
+    "category": "Government", 
+    "description": "Listing of all recycling schedules city wide.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/rfif-mmvg.json"
+    }
   }, 
-  "name": "socrata_austintexas_recycling_schedules", 
+  "name": "Recycling Schedules", 
   "schema": {
     "columns": [
       {
@@ -61,5 +67,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_austintexas_recycling_schedules"
 }

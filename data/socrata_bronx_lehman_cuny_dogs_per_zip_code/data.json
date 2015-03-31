@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/jvnw-g2wu/rows.csv"
   }, 
+  "description": "Population data gathered from a WNYC table of the most popular dog names", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/jvnw-g2wu.json"
+    "attribution": "WNYC", 
+    "category": "My Neighborhood", 
+    "description": "Population data gathered from a WNYC table of the most popular dog names", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/jvnw-g2wu.json"
+    }
   }, 
-  "name": "socrata_bronx_lehman_cuny_dogs_per_zip_code", 
+  "name": "Dogs Per Zip Code", 
   "schema": {
     "columns": [
       {
@@ -29,5 +35,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_bronx_lehman_cuny_dogs_per_zip_code"
 }

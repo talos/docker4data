@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/aivj-4x23/rows.csv"
   }, 
+  "description": "Persons convicted of at least one gun-related offense that are required to register their name and address with police; also required to checkin with police every 6 months for three years.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/aivj-4x23.json"
+    "attribution": "Baltimore Police Department", 
+    "category": "Public Safety", 
+    "description": "Persons convicted of at least one gun-related offense that are required to register their name and address with police; also required to checkin with police every 6 months for three years.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/aivj-4x23.json"
+    }
   }, 
-  "name": "socrata_baltimorecity_gun_offenders", 
+  "name": "Gun Offenders", 
   "schema": {
     "columns": [
       {
@@ -69,5 +75,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_baltimorecity_gun_offenders"
 }

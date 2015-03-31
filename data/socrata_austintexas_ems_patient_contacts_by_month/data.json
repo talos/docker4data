@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/cibe-gpzy/rows.csv"
   }, 
+  "description": "This table contains data that describes monthly patient contacts.  It includes all incidents with a response priority between 1 and 5, inclusive.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.austintexas.gov/api/views/cibe-gpzy.json"
+    "attribution": "Austin-Travis County EMS", 
+    "category": "Public Safety", 
+    "description": "This table contains data that describes monthly patient contacts.  It includes all incidents with a response priority between 1 and 5, inclusive.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/cibe-gpzy.json"
+    }
   }, 
-  "name": "socrata_austintexas_ems_patient_contacts_by_month", 
+  "name": "EMS - Patient Contacts by Month", 
   "schema": {
     "columns": [
       {
@@ -85,5 +91,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_austintexas_ems_patient_contacts_by_month"
 }

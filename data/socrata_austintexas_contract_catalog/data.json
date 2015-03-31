@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/84ih-p28j/rows.csv"
   }, 
+  "description": "Information about City's authorized spending limit, contract lifetime (called inception-to-date) ordering and spending.  Contracts are visible only while active.  For the purposes of the Online Contract Catalog Flat File, a contract is a long-term (multi-year) contract for goods and services, and contracts for Construction activity. Within the City, these are referred to as Master Agreements and Central Purchase Contracts.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.austintexas.gov/api/views/84ih-p28j.json"
+    "attribution": "City of Austin", 
+    "category": "Financial", 
+    "description": "Information about City's authorized spending limit, contract lifetime (called inception-to-date) ordering and spending.  Contracts are visible only while active.  For the purposes of the Online Contract Catalog Flat File, a contract is a long-term (multi-year) contract for goods and services, and contracts for Construction activity. Within the City, these are referred to as Master Agreements and Central Purchase Contracts.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/84ih-p28j.json"
+    }
   }, 
-  "name": "socrata_austintexas_contract_catalog", 
+  "name": "Contract Catalog", 
   "schema": {
     "columns": [
       {
@@ -125,5 +131,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_austintexas_contract_catalog"
 }

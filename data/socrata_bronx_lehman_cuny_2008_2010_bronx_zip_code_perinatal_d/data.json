@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/9zgq-ja76/rows.csv"
   }, 
+  "description": "pregnancy information based on 2008-2010 data from the NY State department of health. The last column (teenage pregnancy rate), although appears should be a percentage, was kept numerical due to the reported rate being over 100%. I find this questionable.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/9zgq-ja76.json"
+    "attribution": "NY State Dept of Health", 
+    "category": "Health", 
+    "description": "pregnancy information based on 2008-2010 data from the NY State department of health. The last column (teenage pregnancy rate), although appears should be a percentage, was kept numerical due to the reported rate being over 100%. I find this questionable.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/9zgq-ja76.json"
+    }
   }, 
-  "name": "socrata_bronx_lehman_cuny_2008_2010_bronx_zip_code_perinatal_d", 
+  "name": "2008-2010 Bronx ZIP Code Perinatal Data Profile", 
   "schema": {
     "columns": [
       {
@@ -81,5 +87,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_bronx_lehman_cuny_2008_2010_bronx_zip_code_perinatal_d"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/kxut-bwne/rows.csv"
   }, 
+  "description": "2010 Census data on poverty and recipients of Supplemental Nutrition Assistance Program benefits based on 2010 Census tract centroids", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/kxut-bwne.json"
+    "attribution": "US Census Bureau", 
+    "category": "Population", 
+    "description": "2010 Census data on poverty and recipients of Supplemental Nutrition Assistance Program benefits based on 2010 Census tract centroids", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/kxut-bwne.json"
+    }
   }, 
-  "name": "socrata_bronx_lehman_cuny_bronx_census_points_poverty", 
+  "name": "Bronx Census Points Poverty", 
   "schema": {
     "columns": [
       {
@@ -161,5 +167,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_bronx_lehman_cuny_bronx_census_points_poverty"
 }

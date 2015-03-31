@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/fr2x-kbjs/rows.csv"
   }, 
+  "description": "All rental properties that have received numerous health and safety complaints within 12 consecutive months are required to register with the City of Austin Repeat Offender Program.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.austintexas.gov/api/views/fr2x-kbjs.json"
+    "attribution": "Austin Code Department", 
+    "description": "All rental properties that have received numerous health and safety complaints within 12 consecutive months are required to register with the City of Austin Repeat Offender Program.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/fr2x-kbjs.json"
+    }
   }, 
-  "name": "socrata_austintexas_repeat_offender_list", 
+  "name": "Repeat Offender List", 
   "schema": {
     "columns": [
       {
@@ -49,5 +54,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_austintexas_repeat_offender_list"
 }

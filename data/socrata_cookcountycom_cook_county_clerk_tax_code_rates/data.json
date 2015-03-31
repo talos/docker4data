@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/cookcounty.socrata.com/api/views/8vrk-e2ck/rows.csv"
   }, 
+  "description": "Tax code rates for Tax Years 2006 through 2013. Data is updated yearly. For more information on Tax codes visit the Cook County Clerk's website at: http://www.cookcountyclerk.com/tsd/Pages/default.aspx", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/cookcounty.socrata.com/api/views/8vrk-e2ck.json"
+    "attribution": "Cook County Clerk", 
+    "category": "Property & Taxation", 
+    "description": "Tax code rates for Tax Years 2006 through 2013. Data is updated yearly. For more information on Tax codes visit the Cook County Clerk's website at: http://www.cookcountyclerk.com/tsd/Pages/default.aspx", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/cookcounty.socrata.com/api/views/8vrk-e2ck.json"
+    }
   }, 
-  "name": "socrata_cookcountycom_cook_county_clerk_tax_code_rates", 
+  "name": "Cook County Clerk - Tax code Rates", 
   "schema": {
     "columns": [
       {
@@ -49,5 +55,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cookcountycom_cook_county_clerk_tax_code_rates"
 }

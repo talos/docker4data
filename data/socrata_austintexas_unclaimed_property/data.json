@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/h3i4-5e5v/rows.csv"
   }, 
+  "description": "Visit: https://www.ci.austin.tx.us/financeonline/finance/financial_docs.cfm?ws=3&pg=1 for information if you find your name on the list. Every year, various departments of the City of Austin report unclaimed cash and valuables, from uncashed checks, deposits, refunds, overpayments or any other transactions creating a credit balance valued at $100 or less.\r\n\r\nContact: 512-974-7890", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.austintexas.gov/api/views/h3i4-5e5v.json"
+    "attribution": "City of Austin", 
+    "category": "Financial", 
+    "description": "Visit: https://www.ci.austin.tx.us/financeonline/finance/financial_docs.cfm?ws=3&pg=1 for information if you find your name on the list. Every year, various departments of the City of Austin report unclaimed cash and valuables, from uncashed checks, deposits, refunds, overpayments or any other transactions creating a credit balance valued at $100 or less.\r\n\r\nContact: 512-974-7890", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/h3i4-5e5v.json"
+    }
   }, 
-  "name": "socrata_austintexas_unclaimed_property", 
+  "name": "Unclaimed Property", 
   "schema": {
     "columns": [
       {
@@ -25,5 +31,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_austintexas_unclaimed_property"
 }

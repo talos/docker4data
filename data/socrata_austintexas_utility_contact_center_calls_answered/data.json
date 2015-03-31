@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/vwcu-h3qu/rows.csv"
   }, 
+  "description": "The City of Austin Utility Contact Center is managed by Austin Energy. This is the place customers call to start, stop, or transfer utility services. The center receives about 6,000 calls per day on average and Online Customer Care handles about 12,000 requests per month.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.austintexas.gov/api/views/vwcu-h3qu.json"
+    "attribution": "City of Austin", 
+    "description": "The City of Austin Utility Contact Center is managed by Austin Energy. This is the place customers call to start, stop, or transfer utility services. The center receives about 6,000 calls per day on average and Online Customer Care handles about 12,000 requests per month.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/vwcu-h3qu.json"
+    }
   }, 
-  "name": "socrata_austintexas_utility_contact_center_calls_answered", 
+  "name": "Utility Contact Center Calls Answered", 
   "schema": {
     "columns": [
       {
@@ -21,5 +26,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_austintexas_utility_contact_center_calls_answered"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/ahj3-w5hk/rows.csv"
   }, 
+  "description": "Monthly customer water usage in million gallons by customer class.  Derived from city's utility billing system.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.austintexas.gov/api/views/ahj3-w5hk.json"
+    "attribution": "City of Austin", 
+    "category": "Utility", 
+    "description": "Monthly customer water usage in million gallons by customer class.  Derived from city's utility billing system.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/ahj3-w5hk.json"
+    }
   }, 
-  "name": "socrata_austintexas_water_usage_by_customer_class", 
+  "name": "Water usage by customer class", 
   "schema": {
     "columns": [
       {
@@ -25,5 +31,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_austintexas_water_usage_by_customer_class"
 }

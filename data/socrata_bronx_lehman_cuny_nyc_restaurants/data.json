@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/sm3f-gmes/rows.csv"
   }, 
+  "description": "A hexagonal representation of restaurant density in New York City. Address acquired by NYC 311 DOHMH inspection CAMIS number locations", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/sm3f-gmes.json"
+    "attribution": "NYC 311", 
+    "category": "My Neighborhood", 
+    "description": "A hexagonal representation of restaurant density in New York City. Address acquired by NYC 311 DOHMH inspection CAMIS number locations", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/sm3f-gmes.json"
+    }
   }, 
-  "name": "socrata_bronx_lehman_cuny_nyc_restaurants", 
+  "name": "NYC Restaurants", 
   "schema": {
     "columns": [
       {
@@ -37,5 +43,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_bronx_lehman_cuny_nyc_restaurants"
 }

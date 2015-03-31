@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/cookcounty.socrata.com/api/views/hc2f-evny/rows.csv"
   }, 
+  "description": "The following page lists the final disposition sites of the indigents buried by the Cook County Medical Examiner\u2019s Office. Homewood Memorial Gardens Cemetery provides Latitude and Longitude coordinates. Mount Olivet provides Grave, Lot, and Block locations.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/cookcounty.socrata.com/api/views/hc2f-evny.json"
+    "attribution": "Cook County Medical Examiner", 
+    "category": "Healthcare", 
+    "description": "The following page lists the final disposition sites of the indigents buried by the Cook County Medical Examiner\u2019s Office. Homewood Memorial Gardens Cemetery provides Latitude and Longitude coordinates. Mount Olivet provides Grave, Lot, and Block locations.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/cookcounty.socrata.com/api/views/hc2f-evny.json"
+    }
   }, 
-  "name": "socrata_cookcountycom_medical_examiner_burial_locations", 
+  "name": "Medical Examiner - Burial Locations", 
   "schema": {
     "columns": [
       {
@@ -69,5 +75,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cookcountycom_medical_examiner_burial_locations"
 }

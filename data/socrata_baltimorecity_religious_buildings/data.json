@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/kbdc-bpw3/rows.csv"
   }, 
+  "description": "This dataset represents the location of religious buildings within the City of Baltimore. Personnel in the Mayor's Office track the coming and goings of religious organizations. The listing is currently limited to Christian and Jewish faiths.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/kbdc-bpw3.json"
+    "attribution": "City of Baltimore", 
+    "category": "Culture & Arts", 
+    "description": "This dataset represents the location of religious buildings within the City of Baltimore. Personnel in the Mayor's Office track the coming and goings of religious organizations. The listing is currently limited to Christian and Jewish faiths.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/kbdc-bpw3.json"
+    }
   }, 
-  "name": "socrata_baltimorecity_religious_buildings", 
+  "name": "Religious Buildings", 
   "schema": {
     "columns": [
       {
@@ -41,5 +47,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_baltimorecity_religious_buildings"
 }

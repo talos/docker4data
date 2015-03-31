@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/uuwk-975y/rows.csv"
   }, 
+  "description": "This data lists the locations of grocery stores in the City. This may not be a complete list.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/uuwk-975y.json"
+    "attribution": "Baltimore City Planning Department", 
+    "category": "Health", 
+    "description": "This data lists the locations of grocery stores in the City. This may not be a complete list.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/uuwk-975y.json"
+    }
   }, 
-  "name": "socrata_baltimorecity_grocery_stores", 
+  "name": "Grocery Stores", 
   "schema": {
     "columns": [
       {
@@ -41,5 +47,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_baltimorecity_grocery_stores"
 }

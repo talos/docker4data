@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/9sys-fkjt/rows.csv"
   }, 
+  "description": "From the NYC.gov New York Facilities list. These are the private and Parochial schools in the Bronx. Refer to types: 1102, 1103, 1104, 1105, 1106, 1107, 1199", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/9sys-fkjt.json"
+    "attribution": "NYC.gov", 
+    "category": "Education", 
+    "description": "From the NYC.gov New York Facilities list. These are the private and Parochial schools in the Bronx. Refer to types: 1102, 1103, 1104, 1105, 1106, 1107, 1199", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/9sys-fkjt.json"
+    }
   }, 
-  "name": "socrata_bronx_lehman_cuny_bronx_private_or_parochial_schools", 
+  "name": "Bronx Private Or Parochial Schools", 
   "schema": {
     "columns": [
       {
@@ -121,5 +127,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_bronx_lehman_cuny_bronx_private_or_parochial_schools"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/cfgj-w8ix/rows.csv"
   }, 
+  "description": "Population per hexagon, using 5-year American Community Survey data from 2011. Since each hexagon is equivalent in area, this also serves as a population density map. The data was received as population per census tract. Then a ratio was created: Tract Population/Tract Area = Hexagon Population/Hexagon Area.  This was rearranged so that: Hexagon population = HexArea(TractPop/TractArea).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/cfgj-w8ix.json"
+    "attribution": "American Community Survey", 
+    "category": "Population", 
+    "description": "Population per hexagon, using 5-year American Community Survey data from 2011. Since each hexagon is equivalent in area, this also serves as a population density map. The data was received as population per census tract. Then a ratio was created: Tract Population/Tract Area = Hexagon Population/Hexagon Area.  This was rearranged so that: Hexagon population = HexArea(TractPop/TractArea).", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/cfgj-w8ix.json"
+    }
   }, 
-  "name": "socrata_bronx_lehman_cuny_bronx_hexagon_population_acs2011", 
+  "name": "Bronx Hexagon Population ACS2011", 
   "schema": {
     "columns": [
       {
@@ -45,5 +51,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_bronx_lehman_cuny_bronx_hexagon_population_acs2011"
 }

@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/hut9-4n8t/rows.csv"
   }, 
+  "description": "Data came from Austin 3-1-1 and is used for planning, tracking, and budgeting. The information is frequently requested by the public.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.austintexas.gov/api/views/hut9-4n8t.json"
+    "attribution": "City of Austin", 
+    "description": "Data came from Austin 3-1-1 and is used for planning, tracking, and budgeting. The information is frequently requested by the public.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/hut9-4n8t.json"
+    }
   }, 
-  "name": "socrata_austintexas_3_1_1_calls_and_service_requests", 
+  "name": "3-1-1 Calls And Service Requests", 
   "schema": {
     "columns": [
       {
@@ -25,5 +30,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_austintexas_3_1_1_calls_and_service_requests"
 }

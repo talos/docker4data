@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.acgov.org/api/views/nv5d-gdfn/rows.csv"
   }, 
+  "description": "The dataset contains Alameda County Medi-Cal Beneficiaries. See the supporting document AidCodeMasterChart_4_10_14.pdf for explanation of AidCode column.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.acgov.org/api/views/nv5d-gdfn.json"
+    "category": "Health", 
+    "description": "The dataset contains Alameda County Medi-Cal Beneficiaries. See the supporting document AidCodeMasterChart_4_10_14.pdf for explanation of AidCode column.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.acgov.org/api/views/nv5d-gdfn.json"
+    }
   }, 
-  "name": "socrata_acgov_medical_beneficiaries_may_2014", 
+  "name": "Medical Beneficiaries May 2014", 
   "schema": {
     "columns": [
       {
@@ -41,5 +46,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_acgov_medical_beneficiaries_may_2014"
 }

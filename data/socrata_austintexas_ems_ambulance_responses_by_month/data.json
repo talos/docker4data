@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/bptg-ndvw/rows.csv"
   }, 
+  "description": "This table contains data related to responses by regularly scheduled ambulances.  Units that are not ambulances or are deployed on an irregular basis are excluded from this table.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.austintexas.gov/api/views/bptg-ndvw.json"
+    "attribution": "Austin-Travis County EMS", 
+    "category": "Public Safety", 
+    "description": "This table contains data related to responses by regularly scheduled ambulances.  Units that are not ambulances or are deployed on an irregular basis are excluded from this table.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/bptg-ndvw.json"
+    }
   }, 
-  "name": "socrata_austintexas_ems_ambulance_responses_by_month", 
+  "name": "EMS - Ambulance Responses by Month", 
   "schema": {
     "columns": [
       {
@@ -57,5 +63,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_austintexas_ems_ambulance_responses_by_month"
 }

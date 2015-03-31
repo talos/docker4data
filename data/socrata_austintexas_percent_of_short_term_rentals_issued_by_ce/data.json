@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/hek3-kuva/rows.csv"
   }, 
+  "description": "This data demonstrates the number of short term rental licenses that have been issued in each census tract in Austin. There is a 3 percent cap on the number of short-term rentals permitted. The Licenses Remaining column shows how many licenses are available in that census tract.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.austintexas.gov/api/views/hek3-kuva.json"
+    "attribution": "City of Austin", 
+    "category": "Permitting", 
+    "description": "This data demonstrates the number of short term rental licenses that have been issued in each census tract in Austin. There is a 3 percent cap on the number of short-term rentals permitted. The Licenses Remaining column shows how many licenses are available in that census tract.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/hek3-kuva.json"
+    }
   }, 
-  "name": "socrata_austintexas_percent_of_short_term_rentals_issued_by_ce", 
+  "name": "Percent of Short-term Rentals Issued by Census Tract", 
   "schema": {
     "columns": [
       {
@@ -33,5 +39,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_austintexas_percent_of_short_term_rentals_issued_by_ce"
 }

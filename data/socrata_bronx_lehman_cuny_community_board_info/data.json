@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/2fak-2ndv/rows.csv"
   }, 
+  "description": "Community board information including website, email, chairperson and district manager", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/2fak-2ndv.json"
+    "attribution": "NYC.gov", 
+    "category": "My Neighborhood", 
+    "description": "Community board information including website, email, chairperson and district manager", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/2fak-2ndv.json"
+    }
   }, 
-  "name": "socrata_bronx_lehman_cuny_community_board_info", 
+  "name": "Community Board Info", 
   "schema": {
     "columns": [
       {
@@ -45,5 +51,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_bronx_lehman_cuny_community_board_info"
 }

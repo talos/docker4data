@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/u7bw-gha5/rows.csv"
   }, 
+  "description": "City of Baltimore polling locations", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/u7bw-gha5.json"
+    "attribution": "Baltimore City Elections Board", 
+    "category": "City Government", 
+    "description": "City of Baltimore polling locations", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/u7bw-gha5.json"
+    }
   }, 
-  "name": "socrata_baltimorecity_polling_locations", 
+  "name": "Polling Locations", 
   "schema": {
     "columns": [
       {
@@ -61,5 +67,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_baltimorecity_polling_locations"
 }

@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/u3yy-shmz/rows.csv"
   }, 
+  "description": "This is a monthly upload of the Community Registry. Neighborhood groups register with the City of Austin to receive notices of developments within their specified boundaries. LAST UPDATE: 03/04/15", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.austintexas.gov/api/views/u3yy-shmz.json"
+    "attribution": "City of Austin, Texas", 
+    "description": "This is a monthly upload of the Community Registry. Neighborhood groups register with the City of Austin to receive notices of developments within their specified boundaries. LAST UPDATE: 03/04/15", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/u3yy-shmz.json"
+    }
   }, 
-  "name": "socrata_austintexas_austintexas_gov_community_registry_updated", 
+  "name": "Austintexas.gov Community Registry - Updated once a Month", 
   "schema": {
     "columns": [
       {
@@ -81,5 +86,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_austintexas_austintexas_gov_community_registry_updated"
 }

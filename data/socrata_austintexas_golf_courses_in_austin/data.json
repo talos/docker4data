@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/dtkn-v97q/rows.csv"
   }, 
+  "description": "A list of golf courses in Austin, their phone numbers, tee times and scorecards.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.austintexas.gov/api/views/dtkn-v97q.json"
+    "attribution": "Parks and Recreation Department", 
+    "category": "Fun", 
+    "description": "A list of golf courses in Austin, their phone numbers, tee times and scorecards.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/dtkn-v97q.json"
+    }
   }, 
-  "name": "socrata_austintexas_golf_courses_in_austin", 
+  "name": "Golf Courses in Austin", 
   "schema": {
     "columns": [
       {
@@ -37,5 +43,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_austintexas_golf_courses_in_austin"
 }

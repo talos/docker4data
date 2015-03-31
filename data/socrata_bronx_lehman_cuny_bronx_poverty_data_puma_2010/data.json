@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/qy7i-3keq/rows.csv"
   }, 
+  "description": "Economic and poverty data as recorded during the 2010 Census and defined by PUMA (public use microdata area). More information on PUMAs can be found here: https://www.census.gov/geo/reference/puma.html \n\nData was acquired from Lehman College Geography Department faculty", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/qy7i-3keq.json"
+    "attribution": "Lehman College Geography Department", 
+    "category": "Population", 
+    "description": "Economic and poverty data as recorded during the 2010 Census and defined by PUMA (public use microdata area). More information on PUMAs can be found here: https://www.census.gov/geo/reference/puma.html \n\nData was acquired from Lehman College Geography Department faculty", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/qy7i-3keq.json"
+    }
   }, 
-  "name": "socrata_bronx_lehman_cuny_bronx_poverty_data_puma_2010", 
+  "name": "Bronx Poverty Data PUMA 2010", 
   "schema": {
     "columns": [
       {
@@ -205,5 +211,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_bronx_lehman_cuny_bronx_poverty_data_puma_2010"
 }

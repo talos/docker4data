@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/h2ns-nnc3/rows.csv"
   }, 
+  "description": "Annual EMS incidens for calendar 2012.  An incident is generated when a request for assistance is recieved, generally through 911.  An incident may generate multiple responses.\n\nNote: Due to the methodological differences in data collection, different data sources may produce different results.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.austintexas.gov/api/views/h2ns-nnc3.json"
+    "category": "Public Safety", 
+    "description": "Annual EMS incidens for calendar 2012.  An incident is generated when a request for assistance is recieved, generally through 911.  An incident may generate multiple responses.\n\nNote: Due to the methodological differences in data collection, different data sources may produce different results.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/h2ns-nnc3.json"
+    }
   }, 
-  "name": "socrata_austintexas_ems_annual_incidents_2012", 
+  "name": "EMS - Annual Incidents - 2012", 
   "schema": {
     "columns": [
       {
@@ -25,5 +30,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_austintexas_ems_annual_incidents_2012"
 }

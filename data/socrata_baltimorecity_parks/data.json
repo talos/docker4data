@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/3r8a-uawz/rows.csv"
   }, 
+  "description": "This inventory was set up to fulfill the request of the City auditors for a description of all city property. It has been modified to include information useful to the Department of Recreation and Parks.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/3r8a-uawz.json"
+    "attribution": "Baltimore City Department of Recreation and Parks", 
+    "category": "Culture & Arts", 
+    "description": "This inventory was set up to fulfill the request of the City auditors for a description of all city property. It has been modified to include information useful to the Department of Recreation and Parks.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/3r8a-uawz.json"
+    }
   }, 
-  "name": "socrata_baltimorecity_parks", 
+  "name": "Parks", 
   "schema": {
     "columns": [
       {
@@ -29,5 +35,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_baltimorecity_parks"
 }

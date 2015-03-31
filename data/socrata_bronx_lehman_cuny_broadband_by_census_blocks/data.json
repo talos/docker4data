@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/57ar-siya/rows.csv"
   }, 
+  "description": "Datasets collected and created as part of the NYS Broadband Mapping Program. Data includes high speed Internet service availability by provider company (census block level), internet technology service areas (DSL, Cable Modem, Fiber to the Home) and statistical calculations of households served by technology (2000 US Census household units). Cable and internet providers are listed, and mapped by numerical code.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/57ar-siya.json"
+    "attribution": "NYS GIS Clearinghouse", 
+    "category": "My Neighborhood", 
+    "description": "Datasets collected and created as part of the NYS Broadband Mapping Program. Data includes high speed Internet service availability by provider company (census block level), internet technology service areas (DSL, Cable Modem, Fiber to the Home) and statistical calculations of households served by technology (2000 US Census household units). Cable and internet providers are listed, and mapped by numerical code.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/57ar-siya.json"
+    }
   }, 
-  "name": "socrata_bronx_lehman_cuny_broadband_by_census_blocks", 
+  "name": "Broadband by Census Blocks", 
   "schema": {
     "columns": [
       {
@@ -85,5 +91,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_bronx_lehman_cuny_broadband_by_census_blocks"
 }

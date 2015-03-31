@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/tgtv-wr5u/rows.csv"
   }, 
+  "description": "This data set shows the location of Baltimore City public libraries listed on the Enoch Pratt Library website.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/tgtv-wr5u.json"
+    "attribution": "Enoch Pratt Free Library", 
+    "category": "Culture & Arts", 
+    "description": "This data set shows the location of Baltimore City public libraries listed on the Enoch Pratt Library website.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/tgtv-wr5u.json"
+    }
   }, 
-  "name": "socrata_baltimorecity_libraries", 
+  "name": "Libraries", 
   "schema": {
     "columns": [
       {
@@ -37,5 +43,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_baltimorecity_libraries"
 }

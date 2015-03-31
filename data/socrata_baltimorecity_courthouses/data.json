@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/z5tu-c7qn/rows.csv"
   }, 
+  "description": "This data set shows the location of court houses within the City of Baltimore. This list does not include Federal Courthouses.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/z5tu-c7qn.json"
+    "attribution": "City Of Baltimore", 
+    "category": "City Government", 
+    "description": "This data set shows the location of court houses within the City of Baltimore. This list does not include Federal Courthouses.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/z5tu-c7qn.json"
+    }
   }, 
-  "name": "socrata_baltimorecity_courthouses", 
+  "name": "Courthouses", 
   "schema": {
     "columns": [
       {
@@ -41,5 +47,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_baltimorecity_courthouses"
 }

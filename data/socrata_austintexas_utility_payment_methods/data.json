@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/cusd-m48y/rows.csv"
   }, 
+  "description": "Since March of 2008, 100% of all City of Austin utility payments have been posted the same day received -- far exceeding the industry average of up to three days. This requires the daily posting of about 24,000 checks and payment stubs. In addition, the number of payments received electronically is exceptionally high and continues to increase. Part of that success is due to a Western Union wire program set up by Austin Energy to transfer customer payments to the utility. Utility bill payments can be made via Western Union at some 50 retail locations.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.austintexas.gov/api/views/cusd-m48y.json"
+    "attribution": "City of Austin", 
+    "category": "Financial", 
+    "description": "Since March of 2008, 100% of all City of Austin utility payments have been posted the same day received -- far exceeding the industry average of up to three days. This requires the daily posting of about 24,000 checks and payment stubs. In addition, the number of payments received electronically is exceptionally high and continues to increase. Part of that success is due to a Western Union wire program set up by Austin Energy to transfer customer payments to the utility. Utility bill payments can be made via Western Union at some 50 retail locations.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/cusd-m48y.json"
+    }
   }, 
-  "name": "socrata_austintexas_utility_payment_methods", 
+  "name": "Utility Payment Methods", 
   "schema": {
     "columns": [
       {
@@ -57,5 +63,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_austintexas_utility_payment_methods"
 }

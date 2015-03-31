@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/8vvj-phre/rows.csv"
   }, 
+  "description": "household demographics as collected in the 2010 census displayed by PUMA (public use microdatal area). More information about the PUMA definition can be found here: https://www.census.gov/geo/reference/puma.html \nData acquired from Lehman College Geography Department faculty", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/8vvj-phre.json"
+    "attribution": "Lehman College Geography Department", 
+    "category": "Population", 
+    "description": "household demographics as collected in the 2010 census displayed by PUMA (public use microdatal area). More information about the PUMA definition can be found here: https://www.census.gov/geo/reference/puma.html \nData acquired from Lehman College Geography Department faculty", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/8vvj-phre.json"
+    }
   }, 
-  "name": "socrata_bronx_lehman_cuny_bronx_2010_census_houshold_demograph", 
+  "name": "Bronx 2010 Census Houshold Demographics by PUMA", 
   "schema": {
     "columns": [
       {
@@ -117,5 +123,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_bronx_lehman_cuny_bronx_2010_census_houshold_demograph"
 }

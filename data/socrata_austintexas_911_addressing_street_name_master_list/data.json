@@ -7,9 +7,12 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.austintexas.gov/api/views/kumu-nbtd.json"
+    "category": "Public Safety", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/kumu-nbtd.json"
+    }
   }, 
-  "name": "socrata_austintexas_911_addressing_street_name_master_list", 
+  "name": "911 Addressing - Street Name Master List", 
   "schema": {
     "columns": [
       {
@@ -33,5 +36,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_austintexas_911_addressing_street_name_master_list"
 }

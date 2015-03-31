@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/n4ma-fj3m/rows.csv"
   }, 
+  "description": "Information on parking citations issued within the City of Baltimore. Data represents 2 rolling years of citations and any older citations with outstanding balances", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/n4ma-fj3m.json"
+    "attribution": "Department of Finance", 
+    "category": "Transportation", 
+    "description": "Information on parking citations issued within the City of Baltimore. Data represents 2 rolling years of citations and any older citations with outstanding balances", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/n4ma-fj3m.json"
+    }
   }, 
-  "name": "socrata_baltimorecity_parking_citations", 
+  "name": "Parking Citations", 
   "schema": {
     "columns": [
       {
@@ -81,5 +87,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_baltimorecity_parking_citations"
 }

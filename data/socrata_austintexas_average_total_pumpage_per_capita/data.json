@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/hh3n-3s7c/rows.csv"
   }, 
+  "description": "Per capita water use based on total water pumped from treatment plants.  This indicator includes water sold to all user classes (including industrial and wholesale) as well as unaccounted for water.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.austintexas.gov/api/views/hh3n-3s7c.json"
+    "attribution": "City of Austin", 
+    "category": "Utility", 
+    "description": "Per capita water use based on total water pumped from treatment plants.  This indicator includes water sold to all user classes (including industrial and wholesale) as well as unaccounted for water.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/hh3n-3s7c.json"
+    }
   }, 
-  "name": "socrata_austintexas_average_total_pumpage_per_capita", 
+  "name": "Average total pumpage per capita", 
   "schema": {
     "columns": [
       {
@@ -29,5 +35,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_austintexas_average_total_pumpage_per_capita"
 }

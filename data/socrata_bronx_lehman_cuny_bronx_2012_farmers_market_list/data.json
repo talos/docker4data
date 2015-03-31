@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/3x33-ia77/rows.csv"
   }, 
+  "description": "A table that lists many farmer's markets in the Bronx. Location is approximate because addresses were not available in most cases. Location was calculated by inputting the intersection data into GoogleEarth and recording the lat/lon coordinates.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/3x33-ia77.json"
+    "attribution": "Department of Health and Mental Hygiene (DOHMH)", 
+    "category": "My Neighborhood", 
+    "description": "A table that lists many farmer's markets in the Bronx. Location is approximate because addresses were not available in most cases. Location was calculated by inputting the intersection data into GoogleEarth and recording the lat/lon coordinates.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/3x33-ia77.json"
+    }
   }, 
-  "name": "socrata_bronx_lehman_cuny_bronx_2012_farmers_market_list", 
+  "name": "Bronx 2012 Farmers Market List", 
   "schema": {
     "columns": [
       {
@@ -53,5 +59,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_bronx_lehman_cuny_bronx_2012_farmers_market_list"
 }

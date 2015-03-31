@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/42qi-w8d7/rows.csv"
   }, 
+  "description": "Locations of all Big Belly trash receptacles in the city", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofboston.gov/api/views/42qi-w8d7.json"
+    "attribution": "Department of Public Works", 
+    "category": "City Services", 
+    "description": "Locations of all Big Belly trash receptacles in the city", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/42qi-w8d7.json"
+    }
   }, 
-  "name": "socrata_cityofboston_big_belly_locations", 
+  "name": "Big Belly Locations", 
   "schema": {
     "columns": [
       {
@@ -21,5 +27,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofboston_big_belly_locations"
 }

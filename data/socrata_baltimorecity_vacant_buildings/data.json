@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/qqcv-ihn5/rows.csv"
   }, 
+  "description": "Vacant Buildings located throughout the City of Baltimore. To be updated twice a month, or as needed.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/qqcv-ihn5.json"
+    "attribution": "Housing Authority of Baltimore City", 
+    "category": "Housing & Development", 
+    "description": "Vacant Buildings located throughout the City of Baltimore. To be updated twice a month, or as needed.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/qqcv-ihn5.json"
+    }
   }, 
-  "name": "socrata_baltimorecity_vacant_buildings", 
+  "name": "Vacant Buildings", 
   "schema": {
     "columns": [
       {
@@ -41,5 +47,6 @@
         "type": "timestamp"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_baltimorecity_vacant_buildings"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/2bxu-nweh/rows.csv"
   }, 
+  "description": "2010 Census Data on population, pop density, age and ethnicity per zip code", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/2bxu-nweh.json"
+    "attribution": "US Census Bureau", 
+    "category": "Population", 
+    "description": "2010 Census Data on population, pop density, age and ethnicity per zip code", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/2bxu-nweh.json"
+    }
   }, 
-  "name": "socrata_bronx_lehman_cuny_bronx_zip_population_and_density", 
+  "name": "Bronx Zip Population and  Density", 
   "schema": {
     "columns": [
       {
@@ -213,5 +219,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_bronx_lehman_cuny_bronx_zip_population_and_density"
 }

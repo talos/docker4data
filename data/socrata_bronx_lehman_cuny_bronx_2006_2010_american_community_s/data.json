@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/rx7d-cqgz/rows.csv"
   }, 
+  "description": "A table of Census data on poverty in the Bronx. This table can by joined with the Bronx Census Tract shapefile, using the census tract field as the common factor. Field definitions are in attached metadata file.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/rx7d-cqgz.json"
+    "attribution": "http://factfinder2.census.gov", 
+    "category": "Population", 
+    "description": "A table of Census data on poverty in the Bronx. This table can by joined with the Bronx Census Tract shapefile, using the census tract field as the common factor. Field definitions are in attached metadata file.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/rx7d-cqgz.json"
+    }
   }, 
-  "name": "socrata_bronx_lehman_cuny_bronx_2006_2010_american_community_s", 
+  "name": "Bronx 2006-2010 American Community Survey 5-Year Estimates- Poverty", 
   "schema": {
     "columns": [
       {
@@ -1493,5 +1499,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_bronx_lehman_cuny_bronx_2006_2010_american_community_s"
 }

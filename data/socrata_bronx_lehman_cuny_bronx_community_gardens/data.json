@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/3u4c-yhu5/rows.csv"
   }, 
+  "description": "Locations of the community gardens in the Bronx. Includes address, area, community board, Council district, other info: http://www.nyrp.org/Parks_and_Gardens/Community_Gardens", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/3u4c-yhu5.json"
+    "attribution": "NYC Open Data", 
+    "category": "Environment", 
+    "description": "Locations of the community gardens in the Bronx. Includes address, area, community board, Council district, other info: http://www.nyrp.org/Parks_and_Gardens/Community_Gardens", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/3u4c-yhu5.json"
+    }
   }, 
-  "name": "socrata_bronx_lehman_cuny_bronx_community_gardens", 
+  "name": "Bronx Community Gardens", 
   "schema": {
     "columns": [
       {
@@ -53,5 +59,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_bronx_lehman_cuny_bronx_community_gardens"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/camc-vngn/rows.csv"
   }, 
+  "description": "2010 census data on the number of establishments per zip code grouped by sector and payrolled employees/establishment size. To create a pointmap of this dataset you must filter for \"Meaning of 2007 North American Industry Classification System (NAICS)\" AND \"Number of Employees\".", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/camc-vngn.json"
+    "attribution": "US Census", 
+    "category": "My Neighborhood", 
+    "description": "2010 census data on the number of establishments per zip code grouped by sector and payrolled employees/establishment size. To create a pointmap of this dataset you must filter for \"Meaning of 2007 North American Industry Classification System (NAICS)\" AND \"Number of Employees\".", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/camc-vngn.json"
+    }
   }, 
-  "name": "socrata_bronx_lehman_cuny_bp_2010_00_cz2_business_trends_zip_c", 
+  "name": "BP 2010 00 CZ2 Business Trends Zip Code by Occupation, Sector, and Establishment Size", 
   "schema": {
     "columns": [
       {
@@ -49,5 +55,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_bronx_lehman_cuny_bp_2010_00_cz2_business_trends_zip_c"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/eeyd-a5c6/rows.csv"
   }, 
+  "description": "Permits issued by the Department of Buildings. This data is replaced on a daily basis. Historical data is not retained here and should be downloaded by the user on a daily basis for recording purposes.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/eeyd-a5c6.json"
+    "attribution": "NYC Open Data", 
+    "category": "My Neighborhood", 
+    "description": "Permits issued by the Department of Buildings. This data is replaced on a daily basis. Historical data is not retained here and should be downloaded by the user on a daily basis for recording purposes.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/eeyd-a5c6.json"
+    }
   }, 
-  "name": "socrata_bronx_lehman_cuny_bronx_building_permits", 
+  "name": "Bronx Building Permits", 
   "schema": {
     "columns": [
       {
@@ -185,5 +191,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_bronx_lehman_cuny_bronx_building_permits"
 }

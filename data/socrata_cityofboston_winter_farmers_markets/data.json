@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/2tib-uhic/rows.csv"
   }, 
+  "description": "Winter farmers' market in Boston and surrounding areas. Subject to change in future seasons; times listed were accurate as of December 2012.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofboston.gov/api/views/2tib-uhic.json"
+    "attribution": "Mayor's Office of Food Initiatives", 
+    "category": "Health", 
+    "description": "Winter farmers' market in Boston and surrounding areas. Subject to change in future seasons; times listed were accurate as of December 2012.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/2tib-uhic.json"
+    }
   }, 
-  "name": "socrata_cityofboston_winter_farmers_markets", 
+  "name": "Winter Farmers Markets", 
   "schema": {
     "columns": [
       {
@@ -41,5 +47,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofboston_winter_farmers_markets"
 }

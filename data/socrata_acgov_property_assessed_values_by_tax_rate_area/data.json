@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.acgov.org/api/views/rccp-umip/rows.csv"
   }, 
+  "description": "Summarizes the Secured, Unsecured and State Utilities values by Tax Rate Area (TRA) broken out by Land, Improvements, Fixtures, Business Personal Property, Household Personal Property, Home Owner Exemption, Other Exemptions and Net Assessed Values.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.acgov.org/api/views/rccp-umip.json"
+    "attribution": "County of Alameda Auditor", 
+    "category": "Housing and Development", 
+    "description": "Summarizes the Secured, Unsecured and State Utilities values by Tax Rate Area (TRA) broken out by Land, Improvements, Fixtures, Business Personal Property, Household Personal Property, Home Owner Exemption, Other Exemptions and Net Assessed Values.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.acgov.org/api/views/rccp-umip.json"
+    }
   }, 
-  "name": "socrata_acgov_property_assessed_values_by_tax_rate_area", 
+  "name": "Property Assessed Values by Tax Rate Area", 
   "schema": {
     "columns": [
       {
@@ -61,5 +67,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_acgov_property_assessed_values_by_tax_rate_area"
 }

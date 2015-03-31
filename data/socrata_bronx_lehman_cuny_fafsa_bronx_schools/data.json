@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/vssm-mnsi/rows.csv"
   }, 
+  "description": "Schools with active FAFSA data", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/vssm-mnsi.json"
+    "category": "Education", 
+    "description": "Schools with active FAFSA data", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/vssm-mnsi.json"
+    }
   }, 
-  "name": "socrata_bronx_lehman_cuny_fafsa_bronx_schools", 
+  "name": "FAFSA Bronx Schools", 
   "schema": {
     "columns": [
       {
@@ -129,5 +134,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_bronx_lehman_cuny_fafsa_bronx_schools"
 }

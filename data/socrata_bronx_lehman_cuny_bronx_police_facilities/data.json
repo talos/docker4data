@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/2nwv-apzc/rows.csv"
   }, 
+  "description": "All police stations, police service areas, and other facilities in the Bronx. Refer to types :2001, 2002, 2011 in attached SelFac_datainfo.pdf", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/2nwv-apzc.json"
+    "attribution": "NYC.gov", 
+    "category": "My Neighborhood", 
+    "description": "All police stations, police service areas, and other facilities in the Bronx. Refer to types :2001, 2002, 2011 in attached SelFac_datainfo.pdf", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/2nwv-apzc.json"
+    }
   }, 
-  "name": "socrata_bronx_lehman_cuny_bronx_police_facilities", 
+  "name": "Bronx Police Facilities", 
   "schema": {
     "columns": [
       {
@@ -101,5 +107,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_bronx_lehman_cuny_bronx_police_facilities"
 }

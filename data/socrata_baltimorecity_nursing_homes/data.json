@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/53js-3bkd/rows.csv"
   }, 
+  "description": "This data set shows the point location of nursing homes within the City of Baltimore. These data were geocoded from a list provided by the Maryland State Office of Health Care Quality. The list was provided to EGIS via CARE on the 6th of March, 2008.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/53js-3bkd.json"
+    "attribution": "Baltimore City Commission on Aging and Retirement", 
+    "category": "Health", 
+    "description": "This data set shows the point location of nursing homes within the City of Baltimore. These data were geocoded from a list provided by the Maryland State Office of Health Care Quality. The list was provided to EGIS via CARE on the 6th of March, 2008.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/53js-3bkd.json"
+    }
   }, 
-  "name": "socrata_baltimorecity_nursing_homes", 
+  "name": "Nursing Homes", 
   "schema": {
     "columns": [
       {
@@ -37,5 +43,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_baltimorecity_nursing_homes"
 }

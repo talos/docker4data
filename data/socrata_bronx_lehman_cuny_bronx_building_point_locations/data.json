@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/park-z7m7/rows.csv"
   }, 
+  "description": "point locations of all buildings in the Bronx. Data was processed through ArcGIS from a polygon feature layer to a point feature layer in order to use with the Socrata engine.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/park-z7m7.json"
+    "attribution": "data.cityofnewyork.us", 
+    "category": "My Neighborhood", 
+    "description": "point locations of all buildings in the Bronx. Data was processed through ArcGIS from a polygon feature layer to a point feature layer in order to use with the Socrata engine.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/park-z7m7.json"
+    }
   }, 
-  "name": "socrata_bronx_lehman_cuny_bronx_building_point_locations", 
+  "name": "Bronx Building Point Locations", 
   "schema": {
     "columns": [
       {
@@ -37,5 +43,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_bronx_lehman_cuny_bronx_building_point_locations"
 }

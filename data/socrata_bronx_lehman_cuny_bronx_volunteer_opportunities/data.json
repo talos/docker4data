@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/pj9s-b2ar/rows.csv"
   }, 
+  "description": "A list of volunteer opportunities, organized by event, category of event type, organization and location. Update Frequency: As needed", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/pj9s-b2ar.json"
+    "attribution": "NYC Open Data", 
+    "category": "My Neighborhood", 
+    "description": "A list of volunteer opportunities, organized by event, category of event type, organization and location. Update Frequency: As needed", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/pj9s-b2ar.json"
+    }
   }, 
-  "name": "socrata_bronx_lehman_cuny_bronx_volunteer_opportunities", 
+  "name": "Bronx Volunteer Opportunities", 
   "schema": {
     "columns": [
       {
@@ -121,5 +127,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_bronx_lehman_cuny_bronx_volunteer_opportunities"
 }

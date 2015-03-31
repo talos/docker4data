@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/k5ry-ef3g/rows.csv"
   }, 
+  "description": "This dataset contains a list of restaurants within Baltimore City. The accuracy and completeness of this list is unknown.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/k5ry-ef3g.json"
+    "attribution": "City of Baltimore", 
+    "category": "Culture & Arts", 
+    "description": "This dataset contains a list of restaurants within Baltimore City. The accuracy and completeness of this list is unknown.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/k5ry-ef3g.json"
+    }
   }, 
-  "name": "socrata_baltimorecity_restaurants", 
+  "name": "Restaurants", 
   "schema": {
     "columns": [
       {
@@ -37,5 +43,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_baltimorecity_restaurants"
 }
