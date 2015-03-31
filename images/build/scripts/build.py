@@ -124,6 +124,7 @@ def pgload_import(dataset_name, data_path, load_format, tmp_dir):
 LOAD CSV FROM stdin
   INTO postgresql://postgres@localhost/postgres?{}
   WITH skip header = 1,
+       batch rows = 10000,
        fields terminated by '{}';
 '''.format(dataset_name, separator))
 
