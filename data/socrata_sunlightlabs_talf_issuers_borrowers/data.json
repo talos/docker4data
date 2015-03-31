@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.sunlightlabs.com/api/views/78wa-m7aq/rows.csv"
   }, 
+  "description": "A list of all companies buying assets with TALF loans and the companies selling those loans. The buyers are TALF borrowers and the sellers are issuers. The outstanding loan amount is included as well as the asset classification.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.sunlightlabs.com/api/views/78wa-m7aq.json"
+    "attribution": "The Federal Reserve", 
+    "category": "Government", 
+    "description": "A list of all companies buying assets with TALF loans and the companies selling those loans. The buyers are TALF borrowers and the sellers are issuers. The outstanding loan amount is included as well as the asset classification.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.sunlightlabs.com/api/views/78wa-m7aq.json"
+    }
   }, 
-  "name": "socrata_sunlightlabs_talf_issuers_borrowers", 
+  "name": "Talf Issuers Borrowers", 
   "schema": {
     "columns": [
       {
@@ -33,5 +39,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_sunlightlabs_talf_issuers_borrowers"
 }

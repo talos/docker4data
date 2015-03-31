@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.raleighnc.gov/api/views/hk3n-ieai/rows.csv"
   }, 
+  "description": "Master data set for city permits. COR Permit data from 2000 to the current date. Data set is updated daily.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.raleighnc.gov/api/views/hk3n-ieai.json"
+    "attribution": "City of Raleigh Inspections", 
+    "category": "Permits", 
+    "description": "Master data set for city permits. COR Permit data from 2000 to the current date. Data set is updated daily.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.raleighnc.gov/api/views/hk3n-ieai.json"
+    }
   }, 
-  "name": "socrata_raleighnc_city_of_raleigh_building_permits", 
+  "name": "City of Raleigh Building Permits", 
   "schema": {
     "columns": [
       {
@@ -125,5 +131,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_raleighnc_city_of_raleigh_building_permits"
 }

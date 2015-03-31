@@ -7,17 +7,17 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/hkhn-a2ua.json"
+    "attribution": "Cook County Department of Industrial Engineers", 
+    "category": "Finance & Administration", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/8xzh-zvsn.json"
+    }
   }, 
-  "name": "socrata_datacatalog_cookcountyil_industrial_engineers_natural_", 
+  "name": "Industrial Engineers--Natural Gas Usage by Facility, by Month", 
   "schema": {
     "columns": [
       {
-        "name": "service_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "service_town", 
+        "name": "facility_address", 
         "type": "text"
       }, 
       {
@@ -29,17 +29,14 @@
         "type": "text"
       }, 
       {
-        "name": "usage_therms_", 
+        "name": "gas_cost", 
         "type": "real"
       }, 
       {
-        "name": "total_cost", 
+        "name": "usage", 
         "type": "real"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_datacatalog_cookcountyil_industrial_engineers_natural_"
 }

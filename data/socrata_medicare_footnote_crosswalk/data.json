@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/y9us-9xdf/rows.csv"
   }, 
+  "description": "The footnote crosswalk displays a list of footnotes and their summary.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.medicare.gov/api/views/y9us-9xdf.json"
+    "category": "Hospital Compare", 
+    "description": "The footnote crosswalk displays a list of footnotes and their summary.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/y9us-9xdf.json"
+    }
   }, 
-  "name": "socrata_medicare_footnote_crosswalk", 
+  "name": "Footnote Crosswalk", 
   "schema": {
     "columns": [
       {
@@ -21,5 +26,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_medicare_footnote_crosswalk"
 }

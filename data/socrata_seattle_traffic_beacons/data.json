@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/iwrq-qjta/rows.csv"
   }, 
+  "description": "To display the locations of traffic beacons for fire, regulation, school zones, warnings and crosswalks in the City of Seattle", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/iwrq-qjta.json"
+    "attribution": "Seattle Department of Transportation", 
+    "category": "Transportation", 
+    "description": "To display the locations of traffic beacons for fire, regulation, school zones, warnings and crosswalks in the City of Seattle", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/iwrq-qjta.json"
+    }
   }, 
-  "name": "socrata_seattle_traffic_beacons", 
+  "name": "Traffic Beacons", 
   "schema": {
     "columns": [
       {
@@ -165,5 +171,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_traffic_beacons"
 }

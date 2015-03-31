@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/da9x-i7q7/rows.csv"
   }, 
+  "description": "https://gisrevprxy.seattle.gov/ArcGIS/rest/services/ext/WM_CityGISLayers/MapServer/72", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/da9x-i7q7.json"
+    "attribution": "Seattle Public Utilities", 
+    "category": "Land Base", 
+    "description": "https://gisrevprxy.seattle.gov/ArcGIS/rest/services/ext/WM_CityGISLayers/MapServer/72", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/da9x-i7q7.json"
+    }
   }, 
-  "name": "socrata_seattle_dww_repairs", 
+  "name": "DWW Repairs", 
   "schema": {
     "columns": [
       {
@@ -97,5 +103,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_dww_repairs"
 }

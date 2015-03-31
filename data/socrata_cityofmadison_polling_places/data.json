@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofmadison.com/api/views/rtyh-6ucr/rows.csv"
   }, 
+  "description": "Ward; Aldermanic District; Polling Place; Polling Place Address; Handicap Accessible; Comments about location of polling place in building.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofmadison.com/api/views/rtyh-6ucr.json"
+    "attribution": "City of Madison Clerk's Office", 
+    "category": "Polling Places", 
+    "description": "Ward; Aldermanic District; Polling Place; Polling Place Address; Handicap Accessible; Comments about location of polling place in building.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofmadison.com/api/views/rtyh-6ucr.json"
+    }
   }, 
-  "name": "socrata_cityofmadison_polling_places", 
+  "name": "Polling Places", 
   "schema": {
     "columns": [
       {
@@ -37,5 +43,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofmadison_polling_places"
 }

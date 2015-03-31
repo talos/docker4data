@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/2qmq-fcpi/rows.csv"
   }, 
+  "description": "Incremental changes", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/2qmq-fcpi.json"
+    "category": "Finance", 
+    "description": "Incremental changes", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/2qmq-fcpi.json"
+    }
   }, 
-  "name": "socrata_seattle_incrementalchanges", 
+  "name": "Incrementalchanges", 
   "schema": {
     "columns": [
       {
@@ -41,5 +46,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_incrementalchanges"
 }

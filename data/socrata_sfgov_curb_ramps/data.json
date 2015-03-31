@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/ch9w-7kih/rows.csv"
   }, 
+  "description": "Curb ramp locations and attribute data", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.sfgov.org/api/views/ch9w-7kih.json"
+    "attribution": "San Francisco Department of Public Works", 
+    "category": "City Infrastructure", 
+    "description": "Curb ramp locations and attribute data", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/ch9w-7kih.json"
+    }
   }, 
-  "name": "socrata_sfgov_curb_ramps", 
+  "name": "Curb Ramps", 
   "schema": {
     "columns": [
       {
@@ -153,5 +159,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_sfgov_curb_ramps"
 }

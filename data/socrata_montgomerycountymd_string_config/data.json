@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/aqjk-fedc/rows.csv"
   }, 
+  "description": "Dataset created for budgetMontgomery purposes", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/w7si-gcgk.json"
+    "category": "Financial", 
+    "description": "Supporting dataset necessary to launch spendingMontgomery", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/w7si-gcgk.json"
+    }
   }, 
-  "name": "socrata_montgomerycountymd_string_config", 
+  "name": "String Config", 
   "schema": {
     "columns": [
       {
@@ -25,5 +30,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_montgomerycountymd_string_config"
 }

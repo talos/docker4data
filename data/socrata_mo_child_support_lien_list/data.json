@@ -7,9 +7,13 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.mo.gov/api/views/7t5a-79ri.json"
+    "attribution": "Missouri Department of Revenue", 
+    "category": "Revenue", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.mo.gov/api/views/7t5a-79ri.json"
+    }
   }, 
-  "name": "socrata_mo_child_support_lien_list", 
+  "name": "Child Support Lien List", 
   "schema": {
     "columns": [
       {
@@ -33,5 +37,6 @@
         "type": "timestamp"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_mo_child_support_lien_list"
 }

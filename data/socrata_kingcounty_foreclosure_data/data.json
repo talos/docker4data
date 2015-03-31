@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/fsze-bwc2/rows.csv"
   }, 
+  "description": "Dataset for foreclosure data from mainframe", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.kingcounty.gov/api/views/fsze-bwc2.json"
+    "attribution": "King County Finance and Business Operations", 
+    "category": "Operations", 
+    "description": "Dataset for foreclosure data from mainframe", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/fsze-bwc2.json"
+    }
   }, 
-  "name": "socrata_kingcounty_foreclosure_data", 
+  "name": "Foreclosure data", 
   "schema": {
     "columns": [
       {
@@ -41,5 +47,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_kingcounty_foreclosure_data"
 }

@@ -3,13 +3,17 @@
   "data": {
     "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/7s6g-hygh/rows.csv"
   }, 
+  "description": "For more information on how ethnicity was defined, please see the <a href=\"/help/glossary/#E\" rel=\"external\">Glossary</a> under Help.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/yt2d-tbg6.json"
+    "description": "Disability was defined according to the standard questions used in the American Community Survey.  An individual was identified as having a disability if any of the following conditions existed: is deaf or has serious difficulty hearing; is blind or has serious difficulty seeing even when wearing glasses; has difficulty dressing or bathing; has serious difficulty concentrating, remembering, or making decisions; has serious difficulty walking or climbing stairs; has difficulty doing errands alone such as visiting a doctor's office or shopping.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/bih8-ac4a.json"
+    }
   }, 
-  "name": "socrata_healthmeasures_aspe_hhs_measure_35_percentage_of_peopl", 
+  "name": "Measure 35 : Percentage of People with at least One Activities of Daily Living Limitation | Disability Status", 
   "schema": {
     "columns": [
       {
@@ -21,9 +25,10 @@
         "type": "real"
       }, 
       {
-        "name": "chronic_condition", 
+        "name": "disability_status", 
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_healthmeasures_aspe_hhs_measure_35_percentage_of_peopl"
 }

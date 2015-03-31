@@ -3,21 +3,26 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/54us-trtn/rows.csv"
   }, 
+  "description": "FY2010 Governor's Report - Closing.Neighborhood Stabilization Program", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/ygnu-47c6.json"
+    "category": "Housing", 
+    "description": "FY2010 Governor's Report - Closing.Neighborhood Stabilization Program", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/54us-trtn.json"
+    }
   }, 
-  "name": "socrata_illinois_ihda_illinois_housing_dev_auth_fy2010_governo", 
+  "name": "IHDA - Illinois Housing Dev Auth - FY2010 Governor's Report - Closings.Neighborhood Stabilization Program", 
   "schema": {
     "columns": [
       {
-        "name": "fiscal_year", 
+        "name": "fiscal_year_", 
         "type": "text"
       }, 
       {
-        "name": "project_name", 
+        "name": "project_sponsor", 
         "type": "text"
       }, 
       {
@@ -25,15 +30,7 @@
         "type": "text"
       }, 
       {
-        "name": "project_city", 
-        "type": "text"
-      }, 
-      {
-        "name": "owner", 
-        "type": "text"
-      }, 
-      {
-        "name": "loan_grant", 
+        "name": "type", 
         "type": "text"
       }, 
       {
@@ -41,13 +38,18 @@
         "type": "timestamp"
       }, 
       {
-        "name": "amount", 
+        "name": "grant_total", 
         "type": "real"
       }, 
       {
         "name": "units", 
         "type": "real"
+      }, 
+      {
+        "name": "pid_", 
+        "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_ihda_illinois_housing_dev_auth_fy2010_governo"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/5yjb-v3mj/rows.csv"
   }, 
+  "description": "Population estimates by the U.S. Census Bureau by U.S. Census Block.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/5yjb-v3mj.json"
+    "attribution": "City of Chicago", 
+    "category": "Facilities & Geographic Boundaries", 
+    "description": "Population estimates by the U.S. Census Bureau by U.S. Census Block.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/5yjb-v3mj.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_population_by_2010_census_block", 
+  "name": "Population by 2010 Census Block", 
   "schema": {
     "columns": [
       {
@@ -21,5 +27,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_population_by_2010_census_block"
 }

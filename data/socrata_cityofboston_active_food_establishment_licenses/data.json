@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/gb6y-34cq/rows.csv"
   }, 
+  "description": "Listing of food establishments with active licenses", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofboston.gov/api/views/gb6y-34cq.json"
+    "attribution": "Inspectional Services Dept.", 
+    "category": "Permitting", 
+    "description": "Listing of food establishments with active licenses", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/gb6y-34cq.json"
+    }
   }, 
-  "name": "socrata_cityofboston_active_food_establishment_licenses", 
+  "name": "Active Food Establishment Licenses", 
   "schema": {
     "columns": [
       {
@@ -65,5 +71,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofboston_active_food_establishment_licenses"
 }

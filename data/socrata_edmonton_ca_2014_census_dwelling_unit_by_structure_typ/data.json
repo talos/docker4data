@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/4wcw-95uk/rows.csv"
   }, 
+  "description": "All Census information is as of April 1, 2014. No data on any individual residence will be released.  To protect the privacy of individuals, data is compiled and presented at the city, ward and neighbourhood level only.  Neighbourhood results with a population under 49 are not posted to protect the information collected.  The designation of \u201cNo Response\u201d includes households from which no census data could be collected or only partial data was available.  \u201cOther Residential\u201d includes dwelling units not covered by the other categories, such as a unit attached to a non-residential structure (e.g. an apartment in a store or church) or a movable structure (e.g. recreational vehicle, tent, etc.).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.edmonton.ca/api/views/udd2-pxre.json"
+    "attribution": "City of Edmonton - Office of the City Clerk", 
+    "category": "Census", 
+    "description": "All Census information is as of April 1, 2014. No data on any individual residence will be released. To protect the privacy of individuals, data is compiled and presented at the city, ward and neighbourhood level only. Neighbourhood results with a population under 49 are not posted to protect the information collected. The designation of \u201cNo Response\u201d includes households from which no census data could be collected or only partial data was available. \u201cOther Residential\u201d includes dwelling units not covered by the other categories, such as a unit attached to a non-residential structure (e.g. an apartment in a store or church) or a movable structure (e.g. recreational vehicle, tent, etc.).", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/bjgi-976r.json"
+    }
   }, 
-  "name": "socrata_edmonton_ca_2014_census_dwelling_unit_by_structure_typ", 
+  "name": "2014 Census - Dwelling Unit By Structure Type (Neighbourhood)", 
   "schema": {
     "columns": [
       {
@@ -17,13 +23,54 @@
         "type": "text"
       }, 
       {
-        "name": "structure_type", 
+        "name": "neighbourhood_number", 
+        "type": "real"
+      }, 
+      {
+        "name": "neighbourhood_name", 
         "type": "text"
       }, 
       {
-        "name": "dwellings", 
+        "name": "single_detached_house", 
+        "type": "real"
+      }, 
+      {
+        "name": "duplex_fourplex", 
+        "type": "real"
+      }, 
+      {
+        "name": "row_house", 
+        "type": "real"
+      }, 
+      {
+        "name": "apartment_5_stories", 
+        "type": "real"
+      }, 
+      {
+        "name": "apartment_1_4_stories", 
+        "type": "real"
+      }, 
+      {
+        "name": "manufactured_mobile_home", 
+        "type": "real"
+      }, 
+      {
+        "name": "institution_collective_residence", 
+        "type": "real"
+      }, 
+      {
+        "name": "hotel_motel", 
+        "type": "real"
+      }, 
+      {
+        "name": "rv_tent_other", 
+        "type": "real"
+      }, 
+      {
+        "name": "no_response", 
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_edmonton_ca_2014_census_dwelling_unit_by_structure_typ"
 }

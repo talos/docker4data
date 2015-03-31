@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/xtyh-brr2/rows.csv"
   }, 
+  "description": "Information on all MC311 Service Requests received (via email or phone) since July 1, 2012.  This data is updated daily.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/xtyh-brr2.json"
+    "attribution": "Montgomery County, MD Government", 
+    "category": "Government", 
+    "description": "Information on all MC311 Service Requests received (via email or phone) since July 1, 2012.  This data is updated daily.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/xtyh-brr2.json"
+    }
   }, 
-  "name": "socrata_montgomerycountymd_mc311_service_requests", 
+  "name": "MC311 Service Requests", 
   "schema": {
     "columns": [
       {
@@ -97,5 +103,6 @@
         "type": "timestamp"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_montgomerycountymd_mc311_service_requests"
 }

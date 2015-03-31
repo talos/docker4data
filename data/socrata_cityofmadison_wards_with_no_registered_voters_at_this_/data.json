@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofmadison.com/api/views/m8qu-5gbp/rows.csv"
   }, 
+  "description": "These wards consist of recently annexed land, and currently do not have any registered voters.  This data will be updated two weeks before each election to provide clarification for anyone waiting for election returns.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofmadison.com/api/views/m8qu-5gbp.json"
+    "category": "Elections", 
+    "description": "These wards consist of recently annexed land, and currently do not have any registered voters.  This data will be updated two weeks before each election to provide clarification for anyone waiting for election returns.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofmadison.com/api/views/m8qu-5gbp.json"
+    }
   }, 
-  "name": "socrata_cityofmadison_wards_with_no_registered_voters_at_this_", 
+  "name": "Wards With No Registered Voters At This Time", 
   "schema": {
     "columns": [
       {
@@ -17,5 +22,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofmadison_wards_with_no_registered_voters_at_this_"
 }

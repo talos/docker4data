@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/jz25-nkm4/rows.csv"
   }, 
+  "description": "These are the service requests created by 311, categorized by the channel on which they were submitted", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.sfgov.org/api/views/jz25-nkm4.json"
+    "category": "City Infrastructure", 
+    "description": "These are the service requests created by 311, categorized by the channel on which they were submitted", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/jz25-nkm4.json"
+    }
   }, 
-  "name": "socrata_sfgov_311_cases_by_channel", 
+  "name": "311 Cases by Channel", 
   "schema": {
     "columns": [
       {
@@ -33,5 +38,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_sfgov_311_cases_by_channel"
 }

@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/p7z5-tjrz/rows.csv"
   }, 
+  "description": "This dataset includes a list of classes approved and paid through the County tuition assistance program, including the title and description of the course, the school the course will be taken at, the degree this class curriculum is a part of, the Department and title of the requester, the dollar amount reimbursed to the employee.  Update Frequency:  Twice a Year", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/p7z5-tjrz.json"
+    "category": "Government", 
+    "description": "This dataset includes a list of classes approved and paid through the County tuition assistance program, including the title and description of the course, the school the course will be taken at, the degree this class curriculum is a part of, the Department and title of the requester, the dollar amount reimbursed to the employee.  Update Frequency:  Twice a Year", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/p7z5-tjrz.json"
+    }
   }, 
-  "name": "socrata_montgomerycountymd_tuition_assistance", 
+  "name": "Tuition Assistance", 
   "schema": {
     "columns": [
       {
@@ -41,5 +46,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_montgomerycountymd_tuition_assistance"
 }

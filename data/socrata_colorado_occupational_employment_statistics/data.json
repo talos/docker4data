@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/busm-qa5b/rows.csv"
   }, 
+  "description": "This table contains data about each entity of an occupation for a given region as derived from the Occupational Employment Statistics Survey. There are 876 unique occupation types identified, and 12 established regions for data aggregation.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.colorado.gov/api/views/busm-qa5b.json"
+    "attribution": "CDLE - Colorado Department of Labor & Employmen", 
+    "category": "Labor & Employment", 
+    "description": "This table contains data about each entity of an occupation for a given region as derived from the Occupational Employment Statistics Survey. There are 876 unique occupation types identified, and 12 established regions for data aggregation.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/busm-qa5b.json"
+    }
   }, 
-  "name": "socrata_colorado_occupational_employment_statistics", 
+  "name": "Occupational Employment Statistics", 
   "schema": {
     "columns": [
       {
@@ -169,5 +175,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_colorado_occupational_employment_statistics"
 }

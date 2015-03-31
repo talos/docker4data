@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.raleighnc.gov/api/views/b9nv-68kk/rows.csv"
   }, 
+  "description": "Permit data with parcel ID for 2012 and up to 02/08/2013", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.raleighnc.gov/api/views/b9nv-68kk.json"
+    "attribution": "City of Raleigh Department of Urban Planning", 
+    "category": "Permits", 
+    "description": "Permit data with parcel ID for 2012 and up to 02/08/2013", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.raleighnc.gov/api/views/b9nv-68kk.json"
+    }
   }, 
-  "name": "socrata_raleighnc_building_permits_with_parcel_id", 
+  "name": "Building Permits with Parcel ID", 
   "schema": {
     "columns": [
       {
@@ -109,5 +115,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_raleighnc_building_permits_with_parcel_id"
 }

@@ -3,21 +3,27 @@
   "data": {
     "@id": "http://www.opendatacache.com/opendata.go.ke/api/views/9pi5-3qjm/rows.csv"
   }, 
+  "description": "Kenya National Bureau of Statistics                                                                                                                           Statistical Abstract 2001-2009                                                                                                                                         Gross Domestic Product (Value in Kenya Schilling in Millions)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/opendata.go.ke/api/views/rk4j-bcji.json"
+    "attribution": "Kenya National Bureau of Statistics", 
+    "category": "Poverty", 
+    "description": "Kenya National Bureau of Statistics                                                                                                                           Statistical Abstract 2001-2009                                                                                                                                         Gross Domestic Product (Value in Kenya Schilling in Millions)", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/opendata.go.ke/api/views/9pi5-3qjm.json"
+    }
   }, 
-  "name": "socrata_opendata_go_ke_gross_domestic_product_at_current_price", 
+  "name": "Gross Domestic Product At Current Prices By Activity 2001-2009", 
   "schema": {
     "columns": [
       {
-        "name": "institution", 
+        "name": "industry", 
         "type": "text"
       }, 
       {
-        "name": "industry", 
+        "name": "activity", 
         "type": "text"
       }, 
       {
@@ -57,5 +63,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_opendata_go_ke_gross_domestic_product_at_current_price"
 }

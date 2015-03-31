@@ -7,9 +7,11 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/www.opendatanyc.com/api/views/iqnt-uph2.json"
+    "socrata": {
+      "@id": "http://www.opendatacache.com/www.opendatanyc.com/api/views/iqnt-uph2.json"
+    }
   }, 
-  "name": "socrata_opendatanyc_crime_since_2010", 
+  "name": "Crime Since 2010", 
   "schema": {
     "columns": [
       {
@@ -21,5 +23,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_opendatanyc_crime_since_2010"
 }

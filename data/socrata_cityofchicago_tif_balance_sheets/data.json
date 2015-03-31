@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/hezc-e4be/rows.csv"
   }, 
+  "description": "Combined statements of revenues, expenditures, and changes in fund balances for the year ending December 31, 2009.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/hezc-e4be.json"
+    "attribution": "City of Chicago", 
+    "category": "Community & Economic Development", 
+    "description": "Combined statements of revenues, expenditures, and changes in fund balances for the year ending December 31, 2009.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/hezc-e4be.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_tif_balance_sheets", 
+  "name": "TIF Balance Sheets", 
   "schema": {
     "columns": [
       {
@@ -33,5 +39,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_tif_balance_sheets"
 }

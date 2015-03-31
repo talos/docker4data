@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/q39e-7gbs/rows.csv"
   }, 
+  "description": "On September 25, 2013, New York City released the 2012 energy and water use data for all properties required to annually benchmark under Local Law 84. New York City is the first in the nation to publicly disclose data for large multifamily buildings. Approximately a million New Yorkers can now see how much energy and water their apartment buildings consumed in 2012.\r\n\r\nThe new data set includes more than 9,000 self-reported multifamily properties, effectively more than tripling the size of the first year's list. The data also represents the first year's results of both manual and automatic water benchmarking, with more than 6,800 properties reporting water data.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/q39e-7gbs.json"
+    "attribution": "Mayor's Office of Long Term Planning and Sustainability (OLTPS)", 
+    "category": "Environment", 
+    "description": "On September 25, 2013, New York City released the 2012 energy and water use data for all properties required to annually benchmark under Local Law 84. New York City is the first in the nation to publicly disclose data for large multifamily buildings. Approximately a million New Yorkers can now see how much energy and water their apartment buildings consumed in 2012.\r\n\r\nThe new data set includes more than 9,000 self-reported multifamily properties, effectively more than tripling the size of the first year's list. The data also represents the first year's results of both manual and automatic water benchmarking, with more than 6,800 properties reporting water data.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/5gde-fmj3.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_energy_and_water_data_disclosure_for_loc", 
+  "name": "Energy and Water Data Disclosure for Local Law 84 (2012)", 
   "schema": {
     "columns": [
       {
@@ -41,31 +47,35 @@
         "type": "real"
       }, 
       {
-        "name": "site_eui", 
+        "name": "site_eui_kbtu_ft2", 
         "type": "real"
       }, 
       {
-        "name": "weather_normalized_source_eui", 
+        "name": "weather_normalized_source_eui_kbtu_ft2", 
         "type": "real"
       }, 
       {
-        "name": "water_per_square_foot", 
+        "name": "indoor_water_intensity_all_water_sources_gal_ft2", 
         "type": "real"
+      }, 
+      {
+        "name": "reported_water_method", 
+        "type": "text"
       }, 
       {
         "name": "energy_star_score", 
         "type": "text"
       }, 
       {
-        "name": "ghg", 
+        "name": "total_ghg_emissions_mtco2e", 
         "type": "real"
       }, 
       {
-        "name": "reported_building_square_footage", 
+        "name": "property_floor_area_buildngs_and_parking_ft2", 
         "type": "real"
       }, 
       {
-        "name": "reported_facility_type", 
+        "name": "primary_property_type_self_selected", 
         "type": "text"
       }, 
       {
@@ -77,5 +87,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_energy_and_water_data_disclosure_for_loc"
 }

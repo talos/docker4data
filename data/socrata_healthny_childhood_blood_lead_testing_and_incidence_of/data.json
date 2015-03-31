@@ -1,0 +1,68 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_healthny_childhood_blood_lead_testing_and_incidence_of/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/d54z-enu8/rows.csv"
+  }, 
+  "description": "This dataset contains the number and rate of children that reside in each New York State zip code, excluding New York City, who were tested for lead and identified for the first time within the specified time period to have elevated concentrations of lead in their blood. An elevated blood lead concentration of \u2265 10 mcg/dL is defined by the federal Centers for Disease Control and Prevention as the level requiring public health intervention. Under current NYS Public Health Law and implementing regulations, health care providers are required to test all children for lead at or around age one year and again at or around age two years. Health care providers are also required to assess all children age six months to 72 months of age at least once annually for lead exposure, with blood lead testing for all children found to be at risk, based on those assessments. For more information, check out: http://www.health.ny.gov/environmental/lead/, or go to the \u201cAbout\u201d tab.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New York State Department of Health", 
+    "category": "Health", 
+    "description": "This dataset contains the number and rate of children that reside in each New York State zip code, excluding New York City, who were tested for lead and identified for the first time within the specified time period to have elevated concentrations of lead in their blood. An elevated blood lead concentration of \u2265 10 mcg/dL is defined by the federal Centers for Disease Control and Prevention as the level requiring public health intervention. Under current NYS Public Health Law and implementing regulations, health care providers are required to test all children for lead at or around age one year and again at or around age two years. Health care providers are also required to assess all children age six months to 72 months of age at least once annually for lead exposure, with blood lead testing for all children found to be at risk, based on those assessments. For more information, check out: http://www.health.ny.gov/environmental/lead/, or go to the \u201cAbout\u201d tab.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/d54z-enu8.json"
+    }
+  }, 
+  "name": "Childhood Blood Lead Testing and Incidence of Blood Lead Levels of 10 mcg/dL or Greater by Zip Code: Beginning 2003", 
+  "schema": {
+    "columns": [
+      {
+        "name": "fips", 
+        "type": "real"
+      }, 
+      {
+        "name": "county", 
+        "type": "text"
+      }, 
+      {
+        "name": "zip", 
+        "type": "text"
+      }, 
+      {
+        "name": "year", 
+        "type": "real"
+      }, 
+      {
+        "name": "tests", 
+        "type": "real"
+      }, 
+      {
+        "name": "_10to15", 
+        "type": "real"
+      }, 
+      {
+        "name": "_15", 
+        "type": "real"
+      }, 
+      {
+        "name": "total_eblls", 
+        "type": "real"
+      }, 
+      {
+        "name": "rate_per_1_000", 
+        "type": "real"
+      }, 
+      {
+        "name": "percent", 
+        "type": "real"
+      }, 
+      {
+        "name": "county_location", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "socrata_healthny_childhood_blood_lead_testing_and_incidence_of"
+}

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.nola.gov/api/views/aan2-bb5y/rows.csv"
   }, 
+  "description": "Lien foreclosures, current as of 9/22/2014. 'Status Key' is available as attachment.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.nola.gov/api/views/aan2-bb5y.json"
+    "attribution": "City of New Orleans \u2013 Office of Information Technology & Innovation, Enterprise Information Team", 
+    "category": "Housing, Land Use, and Blight", 
+    "description": "Lien foreclosures, current as of 9/22/2014. 'Status Key' is available as attachment.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.nola.gov/api/views/aan2-bb5y.json"
+    }
   }, 
-  "name": "socrata_nola_blightstatus_lien_foreclosures", 
+  "name": "BlightStatus Lien Foreclosures", 
   "schema": {
     "columns": [
       {
@@ -29,5 +35,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_nola_blightstatus_lien_foreclosures"
 }

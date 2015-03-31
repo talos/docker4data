@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/e68q-zdjm/rows.csv"
   }, 
+  "description": "A history of Lake Weatherford's water level (in feet) from the USGS. Data are from an instantaneous service and therefore should not be considered final.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/e68q-zdjm.json"
+    "attribution": "USGS", 
+    "category": "Community Services", 
+    "description": "A history of Lake Weatherford's water level (in feet) from the USGS. Data are from an instantaneous service and therefore should not be considered final.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/e68q-zdjm.json"
+    }
   }, 
-  "name": "socrata_weatherfordtx_lake_levels", 
+  "name": "Lake Levels", 
   "schema": {
     "columns": [
       {
@@ -29,5 +35,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_weatherfordtx_lake_levels"
 }

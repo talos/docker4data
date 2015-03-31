@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/cqn5-muyy/rows.csv"
   }, 
+  "description": "Temporary tow away zones in San Francisco granted by permit from the SFMTA or Department of Public Works.  These zones have signs posted minimum of 72 hours prior to enforcement.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.sfgov.org/api/views/cqn5-muyy.json"
+    "attribution": "San Francisco Metropolitan Transportation Agency", 
+    "category": "Transportation", 
+    "description": "Temporary tow away zones in San Francisco granted by permit from the SFMTA or Department of Public Works.  These zones have signs posted minimum of 72 hours prior to enforcement.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/cqn5-muyy.json"
+    }
   }, 
-  "name": "socrata_sfgov_sfmta_enforced_temporary_tow_zones", 
+  "name": "SFMTA-Enforced Temporary Tow Zones", 
   "schema": {
     "columns": [
       {
@@ -137,5 +143,6 @@
         "type": "timestamp"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_sfgov_sfmta_enforced_temporary_tow_zones"
 }

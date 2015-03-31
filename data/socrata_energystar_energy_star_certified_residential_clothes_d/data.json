@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.energystar.gov/api/views/t9u7-4d2j/rows.csv"
   }, 
+  "description": "Certified models meet all ENERGY STAR requirements as listed in the Version 1.0 ENERGY STAR Program Requirements for Clothes Dryers that are effective as of January 1, 2015. A detailed listing of key efficiency criteria are available at: https://www.energystar.gov/index.cfm?c=clothesdry.pr_crit_clothes_dryers", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.energystar.gov/api/views/t9u7-4d2j.json"
+    "category": "Active Specifications", 
+    "description": "Certified models meet all ENERGY STAR requirements as listed in the Version 1.0 ENERGY STAR Program Requirements for Clothes Dryers that are effective as of January 1, 2015. A detailed listing of key efficiency criteria are available at: https://www.energystar.gov/index.cfm?c=clothesdry.pr_crit_clothes_dryers", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.energystar.gov/api/views/t9u7-4d2j.json"
+    }
   }, 
-  "name": "socrata_energystar_energy_star_certified_residential_clothes_d", 
+  "name": "ENERGY STAR Certified Residential Clothes Dryers", 
   "schema": {
     "columns": [
       {
@@ -85,10 +90,6 @@
         "type": "text"
       }, 
       {
-        "name": "connected_demand_response_functionality_tested", 
-        "type": "text"
-      }, 
-      {
         "name": "paired_energy_star_clothes_washer_available", 
         "type": "text"
       }, 
@@ -113,5 +114,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_energystar_energy_star_certified_residential_clothes_d"
 }

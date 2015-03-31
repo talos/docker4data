@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/6d9h-4u5v/rows.csv"
   }, 
+  "description": "A list of officially valid street names contained in the City's GIS Basemap", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.sfgov.org/api/views/6d9h-4u5v.json"
+    "attribution": "San Francisco Department of Public Works", 
+    "category": "Geographic Locations and Boundaries", 
+    "description": "A list of officially valid street names contained in the City's GIS Basemap", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/6d9h-4u5v.json"
+    }
   }, 
-  "name": "socrata_sfgov_street_names", 
+  "name": "Street Names", 
   "schema": {
     "columns": [
       {
@@ -25,5 +31,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_sfgov_street_names"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/ewyx-t6wy/rows.csv"
   }, 
+  "description": "Traffic Detector Locations", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/ewyx-t6wy.json"
+    "attribution": "Seattle Department of Transportation", 
+    "category": "Transportation", 
+    "description": "Traffic Detector Locations", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/ewyx-t6wy.json"
+    }
   }, 
-  "name": "socrata_seattle_traffic_detectors", 
+  "name": "Traffic Detectors", 
   "schema": {
     "columns": [
       {
@@ -41,5 +47,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_traffic_detectors"
 }

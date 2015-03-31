@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/cr3i-jj7v/rows.csv"
   }, 
+  "description": "Community garden sites throughout Boston. Access may be restricted to community members. Inaccurate information? Contact us with corrections.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofboston.gov/api/views/cr3i-jj7v.json"
+    "attribution": "Mayor's Office of Food Initiatives", 
+    "category": "Health", 
+    "description": "Community garden sites throughout Boston. Access may be restricted to community members. Inaccurate information? Contact us with corrections.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/cr3i-jj7v.json"
+    }
   }, 
-  "name": "socrata_cityofboston_community_gardens", 
+  "name": "Community Gardens", 
   "schema": {
     "columns": [
       {
@@ -41,5 +47,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofboston_community_gardens"
 }

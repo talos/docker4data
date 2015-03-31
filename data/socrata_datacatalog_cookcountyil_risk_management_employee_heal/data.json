@@ -3,17 +3,23 @@
   "data": {
     "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/2xsc-h9y7/rows.csv"
   }, 
+  "description": "Data last updated September 7, 2011", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/itxz-7spz.json"
+    "attribution": "Cook County Department of Risk Management", 
+    "category": "Finance & Administration", 
+    "description": "Data last updated September 7, 2011", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/6ghm-dfk7.json"
+    }
   }, 
-  "name": "socrata_datacatalog_cookcountyil_risk_management_employee_heal", 
+  "name": "Risk Management - Employee Health Costs, by Department - Fiscal Year 2011 Incomplete", 
   "schema": {
     "columns": [
       {
-        "name": "dept", 
+        "name": "dept_number", 
         "type": "text"
       }, 
       {
@@ -21,9 +27,10 @@
         "type": "real"
       }, 
       {
-        "name": "total_cost", 
+        "name": "health_costs_for_department", 
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_datacatalog_cookcountyil_risk_management_employee_heal"
 }

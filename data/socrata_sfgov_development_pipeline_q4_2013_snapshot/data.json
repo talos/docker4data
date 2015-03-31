@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/ep85-j8df/rows.csv"
   }, 
+  "description": "Snapshot of San Francisco Development Pipeline. Tracking of construction and entitlement activity based on data from Dept of Building Inspection's Permit Tracking and the Planning Department's Case Tracking enterprise databases, processed quarterly.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.sfgov.org/api/views/ep85-j8df.json"
+    "attribution": "San Francisco Planning Department", 
+    "category": "Housing and Buildings", 
+    "description": "Snapshot of San Francisco Development Pipeline. Tracking of construction and entitlement activity based on data from Dept of Building Inspection's Permit Tracking and the Planning Department's Case Tracking enterprise databases, processed quarterly.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/ep85-j8df.json"
+    }
   }, 
-  "name": "socrata_sfgov_development_pipeline_q4_2013_snapshot", 
+  "name": "Development Pipeline Q4 2013 Snapshot", 
   "schema": {
     "columns": [
       {
@@ -209,5 +215,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_sfgov_development_pipeline_q4_2013_snapshot"
 }

@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/tinc-envn/rows.csv"
   }, 
+  "description": "A database of agencies listed by state and topic to provide you with contact information for specific organizations or help you get answers to your Medicare related questions.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.medicare.gov/api/views/tinc-envn.json"
+    "category": "Medicare's Helpful Contacts", 
+    "description": "A database of agencies listed by state and topic to provide you with contact information for specific organizations or help you get answers to your Medicare related questions.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/tinc-envn.json"
+    }
   }, 
-  "name": "socrata_medicare_helpful_contacts_agency_list_by_topic", 
+  "name": "Helpful Contacts - Agency List By Topic", 
   "schema": {
     "columns": [
       {
@@ -97,5 +102,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_medicare_helpful_contacts_agency_list_by_topic"
 }

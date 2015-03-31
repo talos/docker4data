@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/ysfs-8f2v/rows.csv"
   }, 
+  "description": "Water Department billing data by class, including number of customers, consumption, and amount billed.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/ysfs-8f2v.json"
+    "attribution": "City of Weatherford, Texas - Water Department", 
+    "category": "Finance & Budget", 
+    "description": "Water Department billing data by class, including number of customers, consumption, and amount billed.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/ysfs-8f2v.json"
+    }
   }, 
-  "name": "socrata_weatherfordtx_water_monthly_billing_by_class", 
+  "name": "Water Monthly Billing By Class", 
   "schema": {
     "columns": [
       {
@@ -33,5 +39,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_weatherfordtx_water_monthly_billing_by_class"
 }

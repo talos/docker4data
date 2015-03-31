@@ -3,13 +3,17 @@
   "data": {
     "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/6gq5-ga5s/rows.csv"
   }, 
+  "description": "For more information on how regions are defined, please see the <a href=\"/help/glossary#R\" rel=\"external\">Glossary</a> under Help.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/pq46-6w22.json"
+    "description": "For more information on how regions are defined, please see the <a href=\"/help/glossary#R\" rel=\"external\">Glossary</a> under Help.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/6gq5-ga5s.json"
+    }
   }, 
-  "name": "socrata_healthmeasures_aspe_hhs_measure_50_percentage_of_hospi", 
+  "name": "Measure 50 : Percentage of Hospitals That Have Adopted Electronic Health Records At The Basic Level | Region | Percentage of Hospitals That Have Adopted Electronic Health Records At The Basic Level by Region", 
   "schema": {
     "columns": [
       {
@@ -17,13 +21,14 @@
         "type": "text"
       }, 
       {
-        "name": "year", 
-        "type": "real"
+        "name": "region", 
+        "type": "text"
       }, 
       {
-        "name": "hospital_bed_size", 
-        "type": "text"
+        "name": "year", 
+        "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_healthmeasures_aspe_hhs_measure_50_percentage_of_hospi"
 }

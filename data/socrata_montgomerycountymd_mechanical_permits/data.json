@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/ih88-a6aa/rows.csv"
   }, 
+  "description": "Data for all Mechanical Permit applications, including status and work performed.  Update Frequency:  Daily", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/ih88-a6aa.json"
+    "category": "Licenses/Permits", 
+    "description": "Data for all Mechanical Permit applications, including status and work performed.  Update Frequency:  Daily", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/ih88-a6aa.json"
+    }
   }, 
-  "name": "socrata_montgomerycountymd_mechanical_permits", 
+  "name": "Mechanical Permits", 
   "schema": {
     "columns": [
       {
@@ -85,5 +90,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_montgomerycountymd_mechanical_permits"
 }

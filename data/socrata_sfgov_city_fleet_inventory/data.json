@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/di45-g5x5/rows.csv"
   }, 
+  "description": "The Fleet Management Division of the General Services Agency tracks some of the City's fleet and fuel purchases. Table 1 shows the City's fleet inventory separating the information by departments and the type of vehicles. Table 2 shows the fuel dispensed by Fleet Management in the past 3 fiscal years by gallon by fuel type.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.sfgov.org/api/views/di45-g5x5.json"
+    "attribution": "GSA Fleet Management Division", 
+    "category": "City Management and Ethics", 
+    "description": "The Fleet Management Division of the General Services Agency tracks some of the City's fleet and fuel purchases. Table 1 shows the City's fleet inventory separating the information by departments and the type of vehicles. Table 2 shows the fuel dispensed by Fleet Management in the past 3 fiscal years by gallon by fuel type.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/di45-g5x5.json"
+    }
   }, 
-  "name": "socrata_sfgov_city_fleet_inventory", 
+  "name": "City Fleet Inventory", 
   "schema": {
     "columns": [
       {
@@ -77,5 +83,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_sfgov_city_fleet_inventory"
 }

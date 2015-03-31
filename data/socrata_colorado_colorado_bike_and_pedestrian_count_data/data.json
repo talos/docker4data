@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/55wz-dapi/rows.csv"
   }, 
+  "description": "Contains location and counts for number of pedestrians and bikers to pass by a specific spot, for a selected number of locations in Colorado. Counts for each hour are reported in a 24 hour period, with stations collecting bicyclist counts, pedestrian counts and sometimes both using pneumatic hose tubes, in road loops and infrared devices. Number of Unique Locations, defined by relative description and by lat/long, for stations within each of 17 counties in Colorado: Adams(8), Arapahoe(7), Boulder(9), Denver(26), Douglas(11), Eagle(4), El Paso(7), Garfield(2), Jefferson(17), La Plata(3), Larimer(3), Mesa(2), Pueblo(4), Routt(3), Summit(1), Weld(8). This dataset is reported annually.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.colorado.gov/api/views/55wz-dapi.json"
+    "attribution": "CDOT - Colorado Department of Transportation", 
+    "category": "Transportation", 
+    "description": "Contains location and counts for number of pedestrians and bikers to pass by a specific spot, for a selected number of locations in Colorado. Counts for each hour are reported in a 24 hour period, with stations collecting bicyclist counts, pedestrian counts and sometimes both using pneumatic hose tubes, in road loops and infrared devices. Number of Unique Locations, defined by relative description and by lat/long, for stations within each of 17 counties in Colorado: Adams(8), Arapahoe(7), Boulder(9), Denver(26), Douglas(11), Eagle(4), El Paso(7), Garfield(2), Jefferson(17), La Plata(3), Larimer(3), Mesa(2), Pueblo(4), Routt(3), Summit(1), Weld(8). This dataset is reported annually.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/q2qp-xhnj.json"
+    }
   }, 
-  "name": "socrata_colorado_colorado_bike_and_pedestrian_count_data", 
+  "name": "Colorado Bike and Pedestrian Count Data", 
   "schema": {
     "columns": [
       {
@@ -27,6 +33,14 @@
       {
         "name": "location", 
         "type": "text"
+      }, 
+      {
+        "name": "lat", 
+        "type": "real"
+      }, 
+      {
+        "name": "long", 
+        "type": "real"
       }, 
       {
         "name": "direction", 
@@ -149,5 +163,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_colorado_colorado_bike_and_pedestrian_count_data"
 }

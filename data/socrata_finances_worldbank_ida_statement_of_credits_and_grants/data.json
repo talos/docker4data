@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/ebmi-69yj/rows.csv"
   }, 
+  "description": "The International Development Association (IDA) credits are public and publicly guaranteed debt extended by the World Bank Group. IDA provides development credits, grants and guarantees to its recipient member countries to help meet their development needs. Credits from IDA are at concessional rates. Data are in U.S. dollars calculated using historical rates. This dataset contains the latest available snapshot of the IDA Statement of Credits and Grants. The World Bank complies with all sanctions applicable to World Bank \r\ntransactions.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/finances.worldbank.org/api/views/tdwh-3krx.json"
+    "attribution": "World Bank", 
+    "category": "Loan and Credit Administration", 
+    "description": "The International Development Association (IDA) credits are public and publicly guaranteed debt extended by the World Bank Group. IDA provides development credits, grants and guarantees to its recipient member countries to help meet their development needs. Credits from IDA are at concessional rates. Data are in U.S. dollars calculated using historical rates. This dataset contains the latest available snapshot of the IDA Statement of Credits and Grants. The World Bank complies with all sanctions applicable to World Bank \r\ntransactions.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/ebmi-69yj.json"
+    }
   }, 
-  "name": "socrata_finances_worldbank_ida_statement_of_credits_and_grants", 
+  "name": "IDA Statement of Credits and Grants  - Latest Available Snapshot", 
   "schema": {
     "columns": [
       {
@@ -82,7 +88,7 @@
       }, 
       {
         "name": "exchange_adjustment", 
-        "type": "text"
+        "type": "real"
       }, 
       {
         "name": "borrower_s_obligation", 
@@ -133,5 +139,6 @@
         "type": "timestamp"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_finances_worldbank_ida_statement_of_credits_and_grants"
 }

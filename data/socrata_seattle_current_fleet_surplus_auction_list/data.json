@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/6gnm-7jex/rows.csv"
   }, 
+  "description": "Most recent list of fleet equipment sent to auction", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/6gnm-7jex.json"
+    "attribution": "Fleet Management Division", 
+    "description": "Most recent list of fleet equipment sent to auction", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/6gnm-7jex.json"
+    }
   }, 
-  "name": "socrata_seattle_current_fleet_surplus_auction_list", 
+  "name": "Current Fleet Surplus/Auction List", 
   "schema": {
     "columns": [
       {
@@ -45,5 +50,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_current_fleet_surplus_auction_list"
 }

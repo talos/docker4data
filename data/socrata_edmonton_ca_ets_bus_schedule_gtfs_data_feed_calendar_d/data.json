@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/f2sy-bth7/rows.csv"
   }, 
+  "description": "To provide a list a dates when there will be changes to regular service in Edmonton.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.edmonton.ca/api/views/f2sy-bth7.json"
+    "attribution": "Edmonton Transit", 
+    "category": "Transit", 
+    "description": "To provide a list a dates when there will be changes to regular service in Edmonton.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/f2sy-bth7.json"
+    }
   }, 
-  "name": "socrata_edmonton_ca_ets_bus_schedule_gtfs_data_feed_calendar_d", 
+  "name": "ETS Bus Schedule GTFS Data Feed - Calendar Dates", 
   "schema": {
     "columns": [
       {
@@ -25,5 +31,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_edmonton_ca_ets_bus_schedule_gtfs_data_feed_calendar_d"
 }

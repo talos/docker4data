@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/88pd-2kqk/rows.csv"
   }, 
+  "description": "A history of General Fund budget and expenditures.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/88pd-2kqk.json"
+    "category": "Finance & Budget", 
+    "description": "A history of General Fund budget and expenditures.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/88pd-2kqk.json"
+    }
   }, 
-  "name": "socrata_weatherfordtx_general_fund_history", 
+  "name": "General Fund History", 
   "schema": {
     "columns": [
       {
@@ -81,5 +86,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_weatherfordtx_general_fund_history"
 }

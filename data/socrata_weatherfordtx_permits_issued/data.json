@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/fq45-73gh/rows.csv"
   }, 
+  "description": "All historical permits issued, including issue date, type, subtype, etc.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/fq45-73gh.json"
+    "attribution": "City of Weatherford, Texas - Planning & Development", 
+    "category": "Development", 
+    "description": "All historical permits issued, including issue date, type, subtype, etc.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/fq45-73gh.json"
+    }
   }, 
-  "name": "socrata_weatherfordtx_permits_issued", 
+  "name": "Permits Issued", 
   "schema": {
     "columns": [
       {
@@ -49,5 +55,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_weatherfordtx_permits_issued"
 }

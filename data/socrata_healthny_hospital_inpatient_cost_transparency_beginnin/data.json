@@ -1,0 +1,80 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_healthny_hospital_inpatient_cost_transparency_beginnin/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/7dtz-qxmr/rows.csv"
+  }, 
+  "description": "This dataset contains information submitted by New York State Article 28 Hospitals as part of the New York Statewide Planning and Research Cooperative (SPARCS) and Institutional Cost Report (ICR) data submissions.  The dataset contains information on the volume of discharges, All Payer Refined Diagnosis Related Group (APR-DRG), the severity of illness level (SOI), medical or surgical classification the median charge, median cost, average charge and average cost per discharge. When interpreting New York\u2019s data, it is important to keep in mind that variations in cost may be attributed to many factors.  Some of these include overall volume, teaching hospital status, facility specific attributes, geographic region and quality of care provided. For more information, check out: http://www.health.ny.gov/statistics/sparcs/ or go to the \"About\" tab.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New York State Department of Health", 
+    "category": "Health", 
+    "description": "This dataset contains information submitted by New York State Article 28 Hospitals as part of the New York Statewide Planning and Research Cooperative (SPARCS) and Institutional Cost Report (ICR) data submissions.  The dataset contains information on the volume of discharges, All Payer Refined Diagnosis Related Group (APR-DRG), the severity of illness level (SOI), medical or surgical classification the median charge, median cost, average charge and average cost per discharge. When interpreting New York\u2019s data, it is important to keep in mind that variations in cost may be attributed to many factors.  Some of these include overall volume, teaching hospital status, facility specific attributes, geographic region and quality of care provided. For more information, check out: http://www.health.ny.gov/statistics/sparcs/ or go to the \"About\" tab.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/7dtz-qxmr.json"
+    }
+  }, 
+  "name": "Hospital Inpatient Cost Transparency: Beginning 2009", 
+  "schema": {
+    "columns": [
+      {
+        "name": "year", 
+        "type": "real"
+      }, 
+      {
+        "name": "pfi", 
+        "type": "real"
+      }, 
+      {
+        "name": "facility_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "apr_drg_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "apr_severity_of_illness_code", 
+        "type": "real"
+      }, 
+      {
+        "name": "apr_drg_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "apr_severity_of_illness_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "apr_medical_surgical_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "apr_medical_surgical_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "discharges", 
+        "type": "real"
+      }, 
+      {
+        "name": "mean_charge", 
+        "type": "real"
+      }, 
+      {
+        "name": "median_charge", 
+        "type": "real"
+      }, 
+      {
+        "name": "mean_cost", 
+        "type": "real"
+      }, 
+      {
+        "name": "median_cost", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "tableName": "socrata_healthny_hospital_inpatient_cost_transparency_beginnin"
+}

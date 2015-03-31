@@ -7,9 +7,11 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.hawaii.gov/api/views/28ua-rsdv.json"
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/28ua-rsdv.json"
+    }
   }, 
-  "name": "socrata_hawaii_hawaii_energy_efficiency_portfolio_standards_ee", 
+  "name": "Hawaii Energy Efficiency Portfolio Standards (EEPS)  (Source: Hawaii Public Utilities Commission)", 
   "schema": {
     "columns": [
       {
@@ -41,5 +43,6 @@
         "type": "timestamp"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_hawaii_hawaii_energy_efficiency_portfolio_standards_ee"
 }

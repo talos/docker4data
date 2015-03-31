@@ -3,17 +3,23 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/zwt9-6u9n/rows.csv"
   }, 
+  "description": "Civilian Complaint Review Board (CCRB) complaint activity data, 2005-2009.\r\nUpdate Frequency: Annually", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/zwt9-6u9n.json"
+    "attribution": "Civilian Complaint Review Board (CCRB)", 
+    "category": "Public Safety", 
+    "description": "Civilian Complaint Review Board (CCRB) complaint activity data, 2005-2009.\r\nUpdate Frequency: Annually", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/4px5-vncp.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_ccrb_attribution_of_complaints_to_patrol", 
+  "name": "CCRB: Attribution of Complaints to Patrol Borough Manhattan South 2005 - 2009", 
   "schema": {
     "columns": [
       {
-        "name": "patrol_borough_brooklyn_north", 
+        "name": "manhattan_south", 
         "type": "text"
       }, 
       {
@@ -41,5 +47,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_ccrb_attribution_of_complaints_to_patrol"
 }

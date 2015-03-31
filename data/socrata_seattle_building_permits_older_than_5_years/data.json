@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/47eb-r92t/rows.csv"
   }, 
+  "description": "Building Permits issued more than 5 years ago.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/47eb-r92t.json"
+    "attribution": "City of Seattle, Department of Planning and Development", 
+    "category": "Permitting", 
+    "description": "Building Permits issued more than 5 years ago.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/47eb-r92t.json"
+    }
   }, 
-  "name": "socrata_seattle_building_permits_older_than_5_years", 
+  "name": "Building Permits : Older than 5 years", 
   "schema": {
     "columns": [
       {
@@ -93,5 +99,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_building_permits_older_than_5_years"
 }

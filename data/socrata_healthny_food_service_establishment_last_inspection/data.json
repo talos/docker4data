@@ -1,0 +1,128 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_healthny_food_service_establishment_last_inspection/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/cnih-y5dw/rows.csv"
+  }, 
+  "description": "This data includes the name and location of food service establishments and the violations that were found at the time of their last inspection. This dataset excludes inspections conducted in New York City (see: https://nycopendata.socrata.com/), Suffolk County (http://apps.suffolkcountyny.gov/health/Restaurant/intro.html) and Erie County (http://www.healthspace.com/erieny). Inspections are a \u201csnapshot\u201d in time and are not always reflective of the day-to-day operations and overall condition of an establishment. Occasionally, remediation may not appear until the following month due to the timing of the updates. Some counties provide this information on their own websites and information found there may be updated more frequently. This dataset is refreshed on a monthly basis. The inspection data contained in this dataset was not collected in a manner intended for use as a restaurant grading system, and should not be construed or interpreted as such. Any use of this data to develop a restaurant grading system is not supported or endorsed by the New York State Department of Health. \r\n\r\nLast inspection data is the most recently submitted and available data. Historical inspection data through 2005 is also available. Active establishments can be found at: https://health.data.ny.gov/Health/Food-Service-Establishment-Inspections-Beginning-2/2hcc-shji. Inactive (closed) establishments can be found at: https://health.data.ny.gov/Health/Food-Service-Establishment-Inspections-Beginning-2/aaxz-j6pj\r\n\r\nFor more information, check out http://www.health.ny.gov/regulations/nycrr/title_10/part_14/subpart_14-1.htm, or go to the \"About\" tab.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New York State Department of Health", 
+    "category": "Health", 
+    "description": "This data includes the name and location of food service establishments and the violations that were found at the time of their last inspection. This dataset excludes inspections conducted in New York City (see: https://nycopendata.socrata.com/), Suffolk County (http://apps.suffolkcountyny.gov/health/Restaurant/intro.html) and Erie County (http://www.healthspace.com/erieny). Inspections are a \u201csnapshot\u201d in time and are not always reflective of the day-to-day operations and overall condition of an establishment. Occasionally, remediation may not appear until the following month due to the timing of the updates. Some counties provide this information on their own websites and information found there may be updated more frequently. This dataset is refreshed on a monthly basis. The inspection data contained in this dataset was not collected in a manner intended for use as a restaurant grading system, and should not be construed or interpreted as such. Any use of this data to develop a restaurant grading system is not supported or endorsed by the New York State Department of Health. \r\n\r\nLast inspection data is the most recently submitted and available data. Historical inspection data through 2005 is also available. Active establishments can be found at: https://health.data.ny.gov/Health/Food-Service-Establishment-Inspections-Beginning-2/2hcc-shji. Inactive (closed) establishments can be found at: https://health.data.ny.gov/Health/Food-Service-Establishment-Inspections-Beginning-2/aaxz-j6pj\r\n\r\nFor more information, check out http://www.health.ny.gov/regulations/nycrr/title_10/part_14/subpart_14-1.htm, or go to the \"About\" tab.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/cnih-y5dw.json"
+    }
+  }, 
+  "name": "Food Service Establishment: Last Inspection", 
+  "schema": {
+    "columns": [
+      {
+        "name": "facility", 
+        "type": "text"
+      }, 
+      {
+        "name": "address", 
+        "type": "text"
+      }, 
+      {
+        "name": "date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "violations", 
+        "type": "text"
+      }, 
+      {
+        "name": "total_critical_violations", 
+        "type": "real"
+      }, 
+      {
+        "name": "total_crit_not_corrected", 
+        "type": "real"
+      }, 
+      {
+        "name": "total_noncritical_violations", 
+        "type": "real"
+      }, 
+      {
+        "name": "description", 
+        "type": "text"
+      }, 
+      {
+        "name": "local_health_department", 
+        "type": "text"
+      }, 
+      {
+        "name": "county", 
+        "type": "text"
+      }, 
+      {
+        "name": "facility_address", 
+        "type": "text"
+      }, 
+      {
+        "name": "city", 
+        "type": "text"
+      }, 
+      {
+        "name": "zip_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "nysdoh_gazetteer_1980", 
+        "type": "text"
+      }, 
+      {
+        "name": "municipality", 
+        "type": "text"
+      }, 
+      {
+        "name": "operation_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "permit_expiration_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "permitted_d_b_a", 
+        "type": "text"
+      }, 
+      {
+        "name": "permitted_corp_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "perm_operator_last_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "perm_operator_first_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "nys_health_operation_id", 
+        "type": "text"
+      }, 
+      {
+        "name": "inspection_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "inspection_comments", 
+        "type": "text"
+      }, 
+      {
+        "name": "food_service_facility_state", 
+        "type": "text"
+      }, 
+      {
+        "name": "location1", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "socrata_healthny_food_service_establishment_last_inspection"
+}

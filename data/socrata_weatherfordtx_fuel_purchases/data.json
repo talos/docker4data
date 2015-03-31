@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/ny9a-t4pz/rows.csv"
   }, 
+  "description": "All fuel purchases by city employees. This dataset is updated monthly.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/ny9a-t4pz.json"
+    "attribution": "City of Weatherford, Texas - Fleet Management", 
+    "category": "Finance & Budget", 
+    "description": "All fuel purchases by city employees. This dataset is updated monthly.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/ny9a-t4pz.json"
+    }
   }, 
-  "name": "socrata_weatherfordtx_fuel_purchases", 
+  "name": "Fuel Purchases", 
   "schema": {
     "columns": [
       {
@@ -97,5 +103,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_weatherfordtx_fuel_purchases"
 }

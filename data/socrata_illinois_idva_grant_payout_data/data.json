@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/64bi-nkf6/rows.csv"
   }, 
+  "description": "This is data that shows where the grants have been paid out to. These funds are appropriations collected through the Veterans Cash lottery program sponsored by the Illinois Department of Veterans Affairs.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/64bi-nkf6.json"
+    "attribution": "Illinois Department of Veterans Affairs", 
+    "category": "Reference", 
+    "description": "This is data that shows where the grants have been paid out to. These funds are appropriations collected through the Veterans Cash lottery program sponsored by the Illinois Department of Veterans Affairs.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/64bi-nkf6.json"
+    }
   }, 
-  "name": "socrata_illinois_idva_grant_payout_data", 
+  "name": "IDVA - Grant Payout Data", 
   "schema": {
     "columns": [
       {
@@ -25,5 +31,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_idva_grant_payout_data"
 }

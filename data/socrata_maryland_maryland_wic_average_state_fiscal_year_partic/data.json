@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/bctc-ddvx/rows.csv"
   }, 
+  "description": "Data is by state fiscal year (SFY) which runs from July 1 - June 30.  Baltimore City includes Baltimore City Health Department, Johns Hopkins, and University WIC participation numbers for 2007-2009.  2009-2012 Includes BCHD and JH participation.  Montgomery is run by Community Clinic Inc, and includes participants from CCI's Greenbelt clinic.  Prince George's includes Prince George's Health Department and Greater Baden participation numbers.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/bctc-ddvx.json"
+    "attribution": "Maryland WIC Program, Maternal and Child Health Bureau, Prevention and Health Promotion Administration.", 
+    "category": "Health and Human Services", 
+    "description": "Data is by state fiscal year (SFY) which runs from July 1 - June 30.  Baltimore City includes Baltimore City Health Department, Johns Hopkins, and University WIC participation numbers for 2007-2009.  2009-2012 Includes BCHD and JH participation.  Montgomery is run by Community Clinic Inc, and includes participants from CCI's Greenbelt clinic.  Prince George's includes Prince George's Health Department and Greater Baden participation numbers.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/bctc-ddvx.json"
+    }
   }, 
-  "name": "socrata_maryland_maryland_wic_average_state_fiscal_year_partic", 
+  "name": "Maryland WIC Average State Fiscal Year Participation, 2007-2012", 
   "schema": {
     "columns": [
       {
@@ -41,5 +47,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_maryland_maryland_wic_average_state_fiscal_year_partic"
 }

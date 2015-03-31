@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/c3dr-fnib/rows.csv"
   }, 
+  "description": "This dataset includes an inventory of Montgomery County datasets and the current schedule for when each dataset is scheduled to be reviewed and published.  This information is a section in the Open Data Implementation Plan, which can be found in its entirety at:  http://montgomerycountymd.gov/open/.\r\n\r\nUpdate frequency:  Annual (with updates to dataset status when published)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/c3dr-fnib.json"
+    "category": "Government", 
+    "description": "This dataset includes an inventory of Montgomery County datasets and the current schedule for when each dataset is scheduled to be reviewed and published.  This information is a section in the Open Data Implementation Plan, which can be found in its entirety at:  http://montgomerycountymd.gov/open/.\r\n\r\nUpdate frequency:  Annual (with updates to dataset status when published)", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/c3dr-fnib.json"
+    }
   }, 
-  "name": "socrata_montgomerycountymd_datamontgomery_dataset_publishing_p", 
+  "name": "dataMontgomery Dataset Publishing Plan", 
   "schema": {
     "columns": [
       {
@@ -37,5 +42,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_montgomerycountymd_datamontgomery_dataset_publishing_p"
 }

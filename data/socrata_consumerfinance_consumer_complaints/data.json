@@ -7,9 +7,11 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.consumerfinance.gov/api/views/x94z-ydhh.json"
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.consumerfinance.gov/api/views/x94z-ydhh.json"
+    }
   }, 
-  "name": "socrata_consumerfinance_consumer_complaints", 
+  "name": "Consumer Complaints", 
   "schema": {
     "columns": [
       {
@@ -69,5 +71,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_consumerfinance_consumer_complaints"
 }

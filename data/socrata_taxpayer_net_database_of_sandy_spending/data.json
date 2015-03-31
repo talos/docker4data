@@ -7,9 +7,11 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.taxpayer.net/api/views/2ndc-wviz.json"
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.taxpayer.net/api/views/2ndc-wviz.json"
+    }
   }, 
-  "name": "socrata_taxpayer_net_database_of_sandy_spending", 
+  "name": "Database Of Sandy Spending", 
   "schema": {
     "columns": [
       {
@@ -61,5 +63,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_taxpayer_net_database_of_sandy_spending"
 }

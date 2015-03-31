@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/3x6e-7i3k/rows.csv"
   }, 
+  "description": "Monthly metrics on unemployment insurance from the Department of Labor, Licensing and Regulation.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/3x6e-7i3k.json"
+    "attribution": "Maryland Department of Labor, Licensing and Regulation (DLLR)", 
+    "category": "Business and Economy", 
+    "description": "Monthly metrics on unemployment insurance from the Department of Labor, Licensing and Regulation.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/3x6e-7i3k.json"
+    }
   }, 
-  "name": "socrata_maryland_unemployment_insurance_data", 
+  "name": "Unemployment Insurance Data", 
   "schema": {
     "columns": [
       {
@@ -97,5 +103,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_maryland_unemployment_insurance_data"
 }

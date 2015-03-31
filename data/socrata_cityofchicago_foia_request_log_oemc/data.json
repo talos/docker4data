@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/8pxc-mzcv/rows.csv"
   }, 
+  "description": "FOIA requests received by the Office of Emergency Management and Communications as of May 1, 2010", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/8pxc-mzcv.json"
+    "attribution": "City of Chicago", 
+    "category": "FOIA", 
+    "description": "FOIA requests received by the Office of Emergency Management and Communications as of May 1, 2010", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/8pxc-mzcv.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_foia_request_log_oemc", 
+  "name": "FOIA Request Log - OEMC", 
   "schema": {
     "columns": [
       {
@@ -29,5 +35,6 @@
         "type": "timestamp"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_foia_request_log_oemc"
 }

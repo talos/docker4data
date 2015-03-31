@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/5iir-m2en/rows.csv"
   }, 
+  "description": "USPS Zip Codes in the City of Seattle", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/5iir-m2en.json"
+    "attribution": "Seattle City GIS Program", 
+    "category": "Community", 
+    "description": "USPS Zip Codes in the City of Seattle", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/5iir-m2en.json"
+    }
   }, 
-  "name": "socrata_seattle_seattle_zip_codes", 
+  "name": "Seattle Zip Codes", 
   "schema": {
     "columns": [
       {
@@ -57,5 +63,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_seattle_zip_codes"
 }

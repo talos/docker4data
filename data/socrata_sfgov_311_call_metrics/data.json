@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/mwjb-biik/rows.csv"
   }, 
+  "description": "Monthly metrics from the SF311 Call Center including Calls Answered, Percentage of Calls Ansewered within 60 Seconds, Average Speed of Answer (seconds) and Transferred Calls Percentage.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.sfgov.org/api/views/mwjb-biik.json"
+    "category": "City Infrastructure", 
+    "description": "Monthly metrics from the SF311 Call Center including Calls Answered, Percentage of Calls Ansewered within 60 Seconds, Average Speed of Answer (seconds) and Transferred Calls Percentage.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/mwjb-biik.json"
+    }
   }, 
-  "name": "socrata_sfgov_311_call_metrics", 
+  "name": "311 Call Metrics", 
   "schema": {
     "columns": [
       {
@@ -33,5 +38,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_sfgov_311_call_metrics"
 }

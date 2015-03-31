@@ -3,22 +3,36 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/uxj2-up34/rows.csv"
   }, 
+  "description": "Limited Business Licenses (LBLs) are required for all Chicago businesses not specifically exempt from licensing requirements. This includes all business that provide services, or engage in office operations or general sales. Currently the performance target for processing Limited Business Licenses is 3 days.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/uxj2-up34.json"
+    "attribution": "City of Chicago", 
+    "category": "Administration & Finance", 
+    "description": "Business licenses and building permits are required to operate a business in Chicago or to ensure that a building construction project conforms to the minimum standards of the Chicago Building Code. Currently the performance target for processing most business license types is approximately 15 days.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/emvs-38e6.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_performance_metrics_business_affairs_con", 
+  "name": "Performance Metrics - Business Affairs & Consumer Protection - Business Licenses", 
   "schema": {
     "columns": [
       {
-        "name": "week", 
+        "name": "licence_code", 
+        "type": "real"
+      }, 
+      {
+        "name": "license_description", 
         "type": "text"
       }, 
       {
-        "name": "total_licenses_issued", 
+        "name": "year", 
         "type": "real"
+      }, 
+      {
+        "name": "week", 
+        "type": "text"
       }, 
       {
         "name": "average_days_to_issue_license", 
@@ -29,21 +43,10 @@
         "type": "real"
       }, 
       {
-        "name": "target_days_to_issue_license", 
-        "type": "real"
-      }, 
-      {
-        "name": "quarter", 
-        "type": "text"
-      }, 
-      {
-        "name": "weeks_target_was_achieved", 
-        "type": "real"
-      }, 
-      {
-        "name": "weeks_target_was_not_achieved", 
+        "name": "total_licenses_issued", 
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_performance_metrics_business_affairs_con"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/5zeu-wkpv/rows.csv"
   }, 
+  "description": "Capture results of mosquitoes from various locations in Edmonton.  These collections are from standard New Jersey light traps that are commonly used to record changes in abundance of mosquitoes before and after control campaigns and to compare seasonal and annual fluctuations in population.  Since not all mosquito species are attracted equally to light traps, the City uses a variety of other trapping and survey methods (with their own limitations) to monitor mosquitoes. Not all trap collection sites are factored into the historical averages. Some data can be incomplete due to trap failure. Some trap locations change over time. Trap collections reflect, not absolute population levels, but mosquito activity, which is influenced by changing environmental conditions (temperature, humidity, wind, etc.). The weekly averages do not include any male mosquitoes or any females of species that do not typically bite people. Each data set reflects the mosquito activity of the week previous to the collection date. To complement this dataset, there is the Rainfall Guage data which measures rainfall data in the Greater Edmonton area - https://data.edmonton.ca/Environmental-Services/Rainfall-Gauge-Results/7fus-qa4r/edit_metadata", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.edmonton.ca/api/views/5zeu-wkpv.json"
+    "attribution": "Community Services - River Valley, Forestry and Environmental Services", 
+    "category": "Environmental Services", 
+    "description": "Capture results of mosquitoes from various locations in Edmonton.  These collections are from standard New Jersey light traps that are commonly used to record changes in abundance of mosquitoes before and after control campaigns and to compare seasonal and annual fluctuations in population.  Since not all mosquito species are attracted equally to light traps, the City uses a variety of other trapping and survey methods (with their own limitations) to monitor mosquitoes. Not all trap collection sites are factored into the historical averages. Some data can be incomplete due to trap failure. Some trap locations change over time. Trap collections reflect, not absolute population levels, but mosquito activity, which is influenced by changing environmental conditions (temperature, humidity, wind, etc.). The weekly averages do not include any male mosquitoes or any females of species that do not typically bite people. Each data set reflects the mosquito activity of the week previous to the collection date. To complement this dataset, there is the Rainfall Guage data which measures rainfall data in the Greater Edmonton area - https://data.edmonton.ca/Environmental-Services/Rainfall-Gauge-Results/7fus-qa4r/edit_metadata", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/5zeu-wkpv.json"
+    }
   }, 
-  "name": "socrata_edmonton_ca_mosquitoes_trap_data", 
+  "name": "Mosquitoes Trap Data", 
   "schema": {
     "columns": [
       {
@@ -77,5 +83,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_edmonton_ca_mosquitoes_trap_data"
 }

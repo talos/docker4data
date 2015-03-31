@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cms.gov/api/views/3xc2-zz9k/rows.csv"
   }, 
+  "description": "This is a Public Use File of Inpatient Claims drawn from the 2008 Beneficiary Summary File of Medicare beneficiaries enrolled during the calendar year 2008, and their associated Medicare claims. The most important aspects of this file are as follow: 1. It contains claims for a simple random sample of 5% of the 2008 beneficiary population. Out of approximately 2.4 million beneficiaries in the 5% sample, about 350,000 had claims (after excluding a relatively small fraction of ineligible claims), resulting in a Public Use File of just under 590,000 claims. 2. It contains six (6) analytic variables (in addition to an encrypted claim key): Age, gender, base DRG code, ICD-9 code, claim cost, and length of inpatient stay. All of these variables, except gender, have been suitably aggregated or averaged in order to protect individuals from identification, while retaining the analytic value of the data. 3. A claim for a sampled beneficiary is only included in the PUF if the combination of all six (6) variables is shared by at least eleven (11) claims pertaining to at least eleven (11) distinct beneficiaries in the population (but not necessarily the sample). 4. Claims cannot be linked by beneficiary, and cannot be linked to any external data source by means of the claim ID. The claim ID is a cryptographic key specific to this Inpatient Claims PUF and not available elsewhere. The inpatient Claims PUF is sorted by this claim ID to ensure that the relative position of claims in the PUF and the original source data are totally uncorrelated.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cms.gov/api/views/3xc2-zz9k.json"
+    "attribution": "CMS", 
+    "category": "Public Use Files", 
+    "description": "This is a Public Use File of Inpatient Claims drawn from the 2008 Beneficiary Summary File of Medicare beneficiaries enrolled during the calendar year 2008, and their associated Medicare claims. The most important aspects of this file are as follow: 1. It contains claims for a simple random sample of 5% of the 2008 beneficiary population. Out of approximately 2.4 million beneficiaries in the 5% sample, about 350,000 had claims (after excluding a relatively small fraction of ineligible claims), resulting in a Public Use File of just under 590,000 claims. 2. It contains six (6) analytic variables (in addition to an encrypted claim key): Age, gender, base DRG code, ICD-9 code, claim cost, and length of inpatient stay. All of these variables, except gender, have been suitably aggregated or averaged in order to protect individuals from identification, while retaining the analytic value of the data. 3. A claim for a sampled beneficiary is only included in the PUF if the combination of all six (6) variables is shared by at least eleven (11) claims pertaining to at least eleven (11) distinct beneficiaries in the population (but not necessarily the sample). 4. Claims cannot be linked by beneficiary, and cannot be linked to any external data source by means of the claim ID. The claim ID is a cryptographic key specific to this Inpatient Claims PUF and not available elsewhere. The inpatient Claims PUF is sorted by this claim ID to ensure that the relative position of claims in the PUF and the original source data are totally uncorrelated.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cms.gov/api/views/3xc2-zz9k.json"
+    }
   }, 
-  "name": "socrata_cms_2008_basic_stand_alone_inpatient_claims_puf", 
+  "name": "2008 Basic Stand Alone Inpatient Claims PUF", 
   "schema": {
     "columns": [
       {
@@ -45,5 +51,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cms_2008_basic_stand_alone_inpatient_claims_puf"
 }

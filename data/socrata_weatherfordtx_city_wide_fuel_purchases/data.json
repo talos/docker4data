@@ -7,9 +7,13 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/v6eu-rt9x.json"
+    "attribution": "Mansfield Oil", 
+    "category": "Finance & Budget", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/v6eu-rt9x.json"
+    }
   }, 
-  "name": "socrata_weatherfordtx_city_wide_fuel_purchases", 
+  "name": "City Wide Fuel Purchases", 
   "schema": {
     "columns": [
       {
@@ -97,5 +101,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_weatherfordtx_city_wide_fuel_purchases"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.mo.gov/api/views/hbmv-rqk9/rows.csv"
   }, 
+  "description": "Alcohol Licensing information by County compiled weekly storing 3 weeks at a time", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.mo.gov/api/views/hbmv-rqk9.json"
+    "attribution": "Missouri Division of Alcohol and Tobacco Control", 
+    "category": "Regulatory", 
+    "description": "Alcohol Licensing information by County compiled weekly storing 3 weeks at a time", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.mo.gov/api/views/hbmv-rqk9.json"
+    }
   }, 
-  "name": "socrata_mo_county_clerk_license_information", 
+  "name": "County Clerk License Information", 
   "schema": {
     "columns": [
       {
@@ -153,5 +159,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_mo_county_clerk_license_information"
 }

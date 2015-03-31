@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.undp.org/api/views/n9tv-twcn/rows.csv"
   }, 
+  "description": "List of top donors is based on total income received for regular and other resources in 2013 (as of September 30, 2013) -excluding contribution to local resources", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.undp.org/api/views/n9tv-twcn.json"
+    "attribution": "UNDP Transparency", 
+    "description": "List of top donors is based on total income received for regular and other resources in 2013 (as of September 30, 2013) -excluding contribution to local resources", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.undp.org/api/views/n9tv-twcn.json"
+    }
   }, 
-  "name": "socrata_undp_top_contributing_donors", 
+  "name": "Top Contributing Donors", 
   "schema": {
     "columns": [
       {
@@ -33,5 +38,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_undp_top_contributing_donors"
 }

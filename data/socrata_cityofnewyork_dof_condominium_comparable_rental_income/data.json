@@ -3,61 +3,67 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/wv4q-e75v/rows.csv"
   }, 
+  "description": "Condominiums and cooperatives are valued as if they were residential rental apartments. Income information from similar rental properties is applied to determine value.\r\nThe Department of Finance (DOF) chooses similar properties to value condos and coops. Properties are selected based on a combination of factors such as: land location, income levels, building age and construction and exemptions and subsidies.\r\nUpdate Schedule: Annually", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/wv4q-e75v.json"
+    "attribution": "Department of Finance (DOF)", 
+    "category": "Housing & Development", 
+    "description": "The Department of Finance (DOF) is required by NY State law to value condominiums or cooperatives as if they were residential rental apartment buildings.   DOF uses income information from rental properties similar in physical features and location to the condominiums or cooperatives. DOF applies this income data to the condominium or cooperative and determine its value in the same way DOF values rental apartment buildings.\r\nUpdate Frequency: Annually", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/5mw2-hzqx.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_dof_condominium_comparable_rental_income", 
+  "name": "DOF: Condominium comparable rental income \u2013 Brooklyn - FY 2010/2011", 
   "schema": {
     "columns": [
       {
-        "name": "staten_island_condominium_property_boro_block_lot", 
+        "name": "brooklyn_condominium_property_boro_block_lot", 
         "type": "text"
       }, 
       {
-        "name": "staten_island_condominium_property_condo_section", 
+        "name": "brooklyn_condominium_property_condo_section", 
         "type": "text"
       }, 
       {
-        "name": "staten_island_condominium_property_address", 
+        "name": "brooklyn_condominium_property_address", 
         "type": "text"
       }, 
       {
-        "name": "staten_island_condominium_property_neighborhood", 
+        "name": "brooklyn_condominium_property_neighborhood", 
         "type": "text"
       }, 
       {
-        "name": "staten_island_condominium_property_building_classification", 
+        "name": "brooklyn_condominium_property_building_classification", 
         "type": "text"
       }, 
       {
-        "name": "staten_island_condominium_property_total_units", 
+        "name": "brooklyn_condominium_property_total_units", 
         "type": "real"
       }, 
       {
-        "name": "staten_island_condominium_property_year_built", 
+        "name": "brooklyn_condominium_property_year_built", 
         "type": "real"
       }, 
       {
-        "name": "staten_island_condominium_property_gross_sqft", 
+        "name": "brooklyn_condominium_property_gross_sqft", 
         "type": "real"
       }, 
       {
-        "name": "staten_island_condominium_property_est_gross_income", 
+        "name": "brooklyn_condominium_property_est_gross_income", 
         "type": "real"
       }, 
       {
-        "name": "staten_island_condominium_property_gross_income_per_sqft", 
+        "name": "brooklyn_condominium_property_gross_income_per_sqft", 
         "type": "real"
       }, 
       {
-        "name": "staten_island_condominium_property_full_market_value", 
+        "name": "brooklyn_condominium_property_full_market_value", 
         "type": "real"
       }, 
       {
-        "name": "staten_island_condominium_property_market_value_per_sqft", 
+        "name": "brooklyn_condominium_property_market_value_per_sqft", 
         "type": "real"
       }, 
       {
@@ -157,5 +163,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_dof_condominium_comparable_rental_income"
 }

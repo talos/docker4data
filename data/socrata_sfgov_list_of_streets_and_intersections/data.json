@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/pu5n-qu5c/rows.csv"
   }, 
+  "description": "A list of street segments and intersections sorted by street name and ascending address number.  This data set is based on the City's GIS basemap and contains CNN id numbers for each record.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.sfgov.org/api/views/pu5n-qu5c.json"
+    "attribution": "San Francisco Department of Public Works", 
+    "category": "Geographic Locations and Boundaries", 
+    "description": "A list of street segments and intersections sorted by street name and ascending address number.  This data set is based on the City's GIS basemap and contains CNN id numbers for each record.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/pu5n-qu5c.json"
+    }
   }, 
-  "name": "socrata_sfgov_list_of_streets_and_intersections", 
+  "name": "List of Streets and Intersections", 
   "schema": {
     "columns": [
       {
@@ -73,5 +79,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_sfgov_list_of_streets_and_intersections"
 }

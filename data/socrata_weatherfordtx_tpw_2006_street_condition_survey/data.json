@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/idj9-c9dm/rows.csv"
   }, 
+  "description": "Original 2006 street condition survey conducted by IMS.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/idj9-c9dm.json"
+    "attribution": "City of Weatherford, Texas - Transportation & Public Works", 
+    "category": "Infrastructure", 
+    "description": "Original 2006 street condition survey conducted by IMS.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/idj9-c9dm.json"
+    }
   }, 
-  "name": "socrata_weatherfordtx_tpw_2006_street_condition_survey", 
+  "name": "TPW - 2006 Street Condition Survey", 
   "schema": {
     "columns": [
       {
@@ -101,5 +107,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_weatherfordtx_tpw_2006_street_condition_survey"
 }

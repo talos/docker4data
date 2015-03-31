@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/zfg3-p7xv/rows.csv"
   }, 
+  "description": "The Map Chicago Website allows users to view neighborhoods, communities, political boundaries and points of interest throughout the city of Chicago. The percentage of the Map Chicago website uptime, the amount of time the site was available, and the target uptime for each week are available by mousing over columns. The target availability for this site is 99.5%.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/zfg3-p7xv.json"
+    "attribution": "City of Chicago", 
+    "category": "Administration & Finance", 
+    "description": "The City's Internet site allows residents to access City services online, learn more about the City of Chicago, and find other pertinent information. The percentage of the City\u2019s Internet website uptime, the amount of time the site was available, and the target uptime for each week are available by mousing over columns. The target availability for this site is 99.5%.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/icwn-eia9.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_performance_metrics_innovation_technolog", 
+  "name": "Performance Metrics - Innovation & Technology - City Website Availability", 
   "schema": {
     "columns": [
       {
@@ -17,17 +23,26 @@
         "type": "text"
       }, 
       {
-        "name": "site_name", 
-        "type": "text"
-      }, 
-      {
         "name": "total_downtime_minutes_", 
         "type": "real"
       }, 
       {
-        "name": "site_uptime_", 
+        "name": "city_website_uptime_", 
         "type": "text"
+      }, 
+      {
+        "name": "target_uptime_", 
+        "type": "text"
+      }, 
+      {
+        "name": "weeks_target_was_achieved", 
+        "type": "real"
+      }, 
+      {
+        "name": "weeks_target_was_not_achieved", 
+        "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_performance_metrics_innovation_technolog"
 }

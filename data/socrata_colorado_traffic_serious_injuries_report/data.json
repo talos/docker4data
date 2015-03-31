@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/evhh-29di/rows.csv"
   }, 
+  "description": "Number of people involved in traffic incidents on Colorado roads that resulted in evident injuries, whether incapacitating or not.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.colorado.gov/api/views/evhh-29di.json"
+    "attribution": "colorado department of transportation, cdot", 
+    "category": "Transportation", 
+    "description": "Number of people involved in traffic incidents on Colorado roads that resulted in evident injuries, whether incapacitating or not.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/evhh-29di.json"
+    }
   }, 
-  "name": "socrata_colorado_traffic_serious_injuries_report", 
+  "name": "Traffic Serious Injuries Report", 
   "schema": {
     "columns": [
       {
@@ -25,5 +31,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_colorado_traffic_serious_injuries_report"
 }

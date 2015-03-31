@@ -3,17 +3,23 @@
   "data": {
     "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/cztm-9h6n/rows.csv"
   }, 
+  "description": "Updated 10/24/2011.  From the 2009 Medical Examiner's Annual Report.  Race of autopsied people.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/nnih-e5uj.json"
+    "attribution": "Cook County Medical Examiner", 
+    "category": "Healthcare", 
+    "description": "Updated 10/24/2011.  From the 2009 Medical Examiner's Annual Report.  Race of autopsied people.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/ez5k-rxii.json"
+    }
   }, 
-  "name": "socrata_datacatalog_cookcountyil_medical_examiner_2009_deceden", 
+  "name": "Medical Examiner--2009 Decedents, by Cause Of Death", 
   "schema": {
     "columns": [
       {
-        "name": "race_", 
+        "name": "cause_of_death_", 
         "type": "text"
       }, 
       {
@@ -21,9 +27,10 @@
         "type": "real"
       }, 
       {
-        "name": "percent_", 
+        "name": "_percent", 
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_datacatalog_cookcountyil_medical_examiner_2009_deceden"
 }

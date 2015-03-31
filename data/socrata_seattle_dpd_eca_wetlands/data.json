@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/bfub-vv9y/rows.csv"
   }, 
+  "description": "Critical area designation: wetland areas", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/bfub-vv9y.json"
+    "attribution": "Seattle GIS Program", 
+    "category": "Land Base", 
+    "description": "Critical area designation: wetland areas", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/bfub-vv9y.json"
+    }
   }, 
-  "name": "socrata_seattle_dpd_eca_wetlands", 
+  "name": "DPD.ECA_WETLANDS", 
   "schema": {
     "columns": [
       {
@@ -57,5 +63,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_dpd_eca_wetlands"
 }

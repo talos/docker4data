@@ -7,9 +7,13 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofboston.gov/api/views/6yws-tqu3.json"
+    "attribution": "Administration & Finance", 
+    "category": "Finance", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/6yws-tqu3.json"
+    }
   }, 
-  "name": "socrata_cityofboston_current_active_contracts", 
+  "name": "Current Active Contracts", 
   "schema": {
     "columns": [
       {
@@ -65,5 +69,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofboston_current_active_contracts"
 }

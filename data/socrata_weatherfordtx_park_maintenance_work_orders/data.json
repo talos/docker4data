@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/pi2r-w2wn/rows.csv"
   }, 
+  "description": "Contains work order details for certain facilities, automatically published upon completion in the ParkMan application.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/pi2r-w2wn.json"
+    "attribution": "City of Weatherford, Texas - Parks & Recreation", 
+    "category": "Community Services", 
+    "description": "Contains work order details for certain facilities, automatically published upon completion in the ParkMan application.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/pi2r-w2wn.json"
+    }
   }, 
-  "name": "socrata_weatherfordtx_park_maintenance_work_orders", 
+  "name": "Park Maintenance Work Orders", 
   "schema": {
     "columns": [
       {
@@ -57,5 +63,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_weatherfordtx_park_maintenance_work_orders"
 }

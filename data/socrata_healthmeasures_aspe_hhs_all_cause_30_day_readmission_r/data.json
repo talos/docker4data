@@ -7,9 +7,11 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/jzkk-cgw6.json"
+    "socrata": {
+      "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/8utb-5mjn.json"
+    }
   }, 
-  "name": "socrata_healthmeasures_aspe_hhs_all_cause_30_day_readmission_r", 
+  "name": "All-cause 30 day readmission rate after hospitalization for CHF by Income Level", 
   "schema": {
     "columns": [
       {
@@ -17,13 +19,14 @@
         "type": "text"
       }, 
       {
-        "name": "calendar_year", 
+        "name": "year", 
         "type": "real"
       }, 
       {
-        "name": "race", 
+        "name": "income_level", 
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_healthmeasures_aspe_hhs_all_cause_30_day_readmission_r"
 }

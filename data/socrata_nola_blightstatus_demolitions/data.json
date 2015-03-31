@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.nola.gov/api/views/e3wd-h7q2/rows.csv"
   }, 
+  "description": "Blighted structures that have been demolished since the inception of BlightStat on October 1, 2010.  BlightStat is a public meeting that tracks the City's progress in meeting Mayor Landrieu's stated goal of eliminating 10,000 blighted New Orleans properties in three years.  Scheduled update: Monthly\r\n\r\nIn February 2014, the City made several changes to the dataset involving data cleaning and de-duplication. This process entailed adding demolition start and completion dates to demolitions, cleaning and verifying the addresses of demolitions, and removing duplicate cases based on their GeoPIN. The data set still includes several cases with duplicated GeoPINs, where multiple units were demolished on the same parcel.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.nola.gov/api/views/e3wd-h7q2.json"
+    "attribution": "Office of Performance and Accountability", 
+    "category": "Housing, Land Use, and Blight", 
+    "description": "Blighted structures that have been demolished since the inception of BlightStat on October 1, 2010.  BlightStat is a public meeting that tracks the City's progress in meeting Mayor Landrieu's stated goal of eliminating 10,000 blighted New Orleans properties in three years.  Scheduled update: Monthly\r\n\r\nIn February 2014, the City made several changes to the dataset involving data cleaning and de-duplication. This process entailed adding demolition start and completion dates to demolitions, cleaning and verifying the addresses of demolitions, and removing duplicate cases based on their GeoPIN. The data set still includes several cases with duplicated GeoPINs, where multiple units were demolished on the same parcel.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.nola.gov/api/views/e3wd-h7q2.json"
+    }
   }, 
-  "name": "socrata_nola_blightstatus_demolitions", 
+  "name": "BlightStatus Demolitions", 
   "schema": {
     "columns": [
       {
@@ -57,5 +63,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_nola_blightstatus_demolitions"
 }

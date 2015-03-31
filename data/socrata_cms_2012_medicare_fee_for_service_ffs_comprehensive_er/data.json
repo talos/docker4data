@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cms.gov/api/views/gcyy-rrmq/rows.csv"
   }, 
+  "description": "The dataset comprises information on Medicare FFS claims that underwent CERT medical review for the 2012 Medicare Fee-for-service Improper Payment Report period of July 1, 2010 through June 30, 2011.  These claims were used to calculate the Fiscal Year (FY) 2012 Medicare FFS improper payment rate.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cms.gov/api/views/gcyy-rrmq.json"
+    "attribution": "Centers for Medicare and Medicaid Services", 
+    "description": "The dataset comprises information on Medicare FFS claims that underwent CERT medical review for the 2012 Medicare Fee-for-service Improper Payment Report period of July 1, 2010 through June 30, 2011.  These claims were used to calculate the Fiscal Year (FY) 2012 Medicare FFS improper payment rate.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cms.gov/api/views/gcyy-rrmq.json"
+    }
   }, 
-  "name": "socrata_cms_2012_medicare_fee_for_service_ffs_comprehensive_er", 
+  "name": "2012 Medicare fee-for-service (FFS) Comprehensive Error Rate Testing (CERT) improper payment data", 
   "schema": {
     "columns": [
       {
@@ -69,5 +74,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cms_2012_medicare_fee_for_service_ffs_comprehensive_er"
 }

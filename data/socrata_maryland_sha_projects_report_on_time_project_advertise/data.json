@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/37fj-h8hp/rows.csv"
   }, 
+  "description": "An asterisk (*) indicates a month when a camera was not in use. All data are provided by the Maryland State Highway Administration (SHA) each month to StateStat.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/37fj-h8hp.json"
+    "attribution": "State Highway Administration (SHA)", 
+    "category": "Transportation", 
+    "description": "An asterisk (*) indicates a month when a camera was not in use. All data are provided by the Maryland State Highway Administration (SHA) each month to StateStat.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/37fj-h8hp.json"
+    }
   }, 
-  "name": "socrata_maryland_sha_projects_report_on_time_project_advertise", 
+  "name": "SHA Projects Report: On-Time Project Advertisement, Bid Openings, & Change Orders", 
   "schema": {
     "columns": [
       {
@@ -57,5 +63,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_maryland_sha_projects_report_on_time_project_advertise"
 }

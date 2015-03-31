@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/qbxx-ev3s/rows.csv"
   }, 
+  "description": "Parking tickets issued 2/23/2015 - 3/1/2015", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofboston.gov/api/views/qbxx-ev3s.json"
+    "attribution": "Boston Transportation Department", 
+    "description": "Parking tickets issued 2/23/2015 - 3/1/2015", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/qbxx-ev3s.json"
+    }
   }, 
-  "name": "socrata_cityofboston_parking_tickets", 
+  "name": "Parking Tickets", 
   "schema": {
     "columns": [
       {
@@ -89,5 +94,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofboston_parking_tickets"
 }

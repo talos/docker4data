@@ -7,9 +7,11 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofboston.gov/api/views/gb2s-qbsg.json"
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/gb2s-qbsg.json"
+    }
   }, 
-  "name": "socrata_cityofboston_boston_open_budget_capital_budget", 
+  "name": "Boston Open Budget - Capital Budget", 
   "schema": {
     "columns": [
       {
@@ -49,5 +51,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofboston_boston_open_budget_capital_budget"
 }

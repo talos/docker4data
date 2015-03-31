@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/rd7s-ntxu/rows.csv"
   }, 
+  "description": "This dataset includes parking space inventory information for Montgomery County Public Parking Facilities.\r\n\r\nUpdate Frequency:  Monthly", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/rd7s-ntxu.json"
+    "category": "Transportation", 
+    "description": "This dataset includes parking space inventory information for Montgomery County Public Parking Facilities.\r\n\r\nUpdate Frequency:  Monthly", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/rd7s-ntxu.json"
+    }
   }, 
-  "name": "socrata_montgomerycountymd_parking_garage_and_lot_inventory", 
+  "name": "Parking Garage and Lot Inventory", 
   "schema": {
     "columns": [
       {
@@ -153,5 +158,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_montgomerycountymd_parking_garage_and_lot_inventory"
 }

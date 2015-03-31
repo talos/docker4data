@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/fcy7-ecid/rows.csv"
   }, 
+  "description": "Census Tracts for 2010 US Census for City of Seattle", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/fcy7-ecid.json"
+    "attribution": "Seattle GIS Program", 
+    "category": "Community", 
+    "description": "Census Tracts for 2010 US Census for City of Seattle", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/fcy7-ecid.json"
+    }
   }, 
-  "name": "socrata_seattle_census_tract10", 
+  "name": "CENSUS_TRACT10", 
   "schema": {
     "columns": [
       {
@@ -81,5 +87,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_census_tract10"
 }

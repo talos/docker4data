@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/n4m9-h86u/rows.csv"
   }, 
+  "description": "Weatherford Electric billing data by class, including number of customers, consumption, and amount billed.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/n4m9-h86u.json"
+    "attribution": "City of Weatherford, Texas - Weatherford Electric", 
+    "category": "Finance & Budget", 
+    "description": "Weatherford Electric billing data by class, including number of customers, consumption, and amount billed.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/n4m9-h86u.json"
+    }
   }, 
-  "name": "socrata_weatherfordtx_electric_monthly_billing_by_class", 
+  "name": "Electric Monthly Billing By Class", 
   "schema": {
     "columns": [
       {
@@ -37,5 +43,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_weatherfordtx_electric_monthly_billing_by_class"
 }

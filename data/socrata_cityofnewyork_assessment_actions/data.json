@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/4nft-bihw/rows.csv"
   }, 
+  "description": "Actions on Applications in 2014 Reducing Assessments or Reclassifying Property.  Listed here are Tax Commission actions during 2014 reducing assessments or reclassifying property.  KEY:  YR=Assessment year (13=2013/14; 14=2014/15); R=Reduction implemented by remission of taxes; B=Borough (1=Manhattan, 2=Bronx, 3=Brooklyn, 4=Queens, 5=Staten Island); TC=Tax Class or subclass. Classification claims.  Reductions are expressed in total actual assessed value.  For condominiums, actions shown are for representative lots only.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/4nft-bihw.json"
+    "attribution": "New York City Tax Commission (TAXCOMM)", 
+    "category": "City Government", 
+    "description": "Actions on Applications in 2014 Reducing Assessments or Reclassifying Property.  Listed here are Tax Commission actions during 2014 reducing assessments or reclassifying property.  KEY:  YR=Assessment year (13=2013/14; 14=2014/15); R=Reduction implemented by remission of taxes; B=Borough (1=Manhattan, 2=Bronx, 3=Brooklyn, 4=Queens, 5=Staten Island); TC=Tax Class or subclass. Classification claims.  Reductions are expressed in total actual assessed value.  For condominiums, actions shown are for representative lots only.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/4nft-bihw.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_assessment_actions", 
+  "name": "Assessment Actions", 
   "schema": {
     "columns": [
       {
@@ -49,5 +55,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_assessment_actions"
 }

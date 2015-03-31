@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/6xhk-ifjg/rows.csv"
   }, 
+  "description": "Zoning rules for districts. A= Allowed  C=Conditional F = Forbidden\r\nPlease use attached document for sub district ID locations and to join to shape file located here: http://boston.maps.arcgis.com/home/item.html?id=58348dd9d09442ee91ca9d2dcb527ba4", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofboston.gov/api/views/6xhk-ifjg.json"
+    "attribution": "Boston Redevelopment Authority", 
+    "category": "Permitting", 
+    "description": "Zoning rules for districts. A= Allowed  C=Conditional F = Forbidden\r\nPlease use attached document for sub district ID locations and to join to shape file located here: http://boston.maps.arcgis.com/home/item.html?id=58348dd9d09442ee91ca9d2dcb527ba4", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/6xhk-ifjg.json"
+    }
   }, 
-  "name": "socrata_cityofboston_zoning_clearances", 
+  "name": "Zoning Clearances", 
   "schema": {
     "columns": [
       {
@@ -781,5 +787,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofboston_zoning_clearances"
 }

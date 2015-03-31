@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/h8aq-6mw7/rows.csv"
   }, 
+  "description": "Waze Alerts 2/23/2015 - 3/1/2015. Join with Jam Data and Point data by UUID.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofboston.gov/api/views/h8aq-6mw7.json"
+    "attribution": "Waze", 
+    "category": "Transportation", 
+    "description": "Waze Alerts 2/23/2015 - 3/1/2015. Join with Jam Data and Point data by UUID.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/h8aq-6mw7.json"
+    }
   }, 
-  "name": "socrata_cityofboston_waze_alert_data", 
+  "name": "Waze Alert Data", 
   "schema": {
     "columns": [
       {
@@ -85,5 +91,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofboston_waze_alert_data"
 }

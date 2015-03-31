@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/avwc-kf7i/rows.csv"
   }, 
+  "description": "Current permitted street closures in Chicago by location, date and type. Closures due to construction or other work being performed in the thoroughfare are indicated by the \u201cStreet Full Closure\u201d permit type. Street closure permits are also granted for festivals, athletic events, block parties, parades, and movie or other filming. \r\nData Owner: Transportation.\r\nTime Period: All closure permits for current day.\r\nFrequency: Data is updated daily.\r\nRelated Applications: Today\u2019s Street Closures (http://webapps.cityofchicago.org/StreetClosure/org/cityofchicago/streetclosure/cdot/getreport.do).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/avwc-kf7i.json"
+    "attribution": "City of Chicago", 
+    "category": "Transportation", 
+    "description": "Current permitted street closures in Chicago by location, date and type. Closures due to construction or other work being performed in the thoroughfare are indicated by the \u201cStreet Full Closure\u201d permit type. Street closure permits are also granted for festivals, athletic events, block parties, parades, and movie or other filming. \r\nData Owner: Transportation.\r\nTime Period: All closure permits for current day.\r\nFrequency: Data is updated daily.\r\nRelated Applications: Today\u2019s Street Closures (http://webapps.cityofchicago.org/StreetClosure/org/cityofchicago/streetclosure/cdot/getreport.do).", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/avwc-kf7i.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_street_closure_permits_current", 
+  "name": "Street Closure Permits - Current", 
   "schema": {
     "columns": [
       {
@@ -49,5 +55,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_street_closure_permits_current"
 }

@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/2kf7-i54h/rows.csv"
   }, 
+  "description": "List of All Active Filings and their associated Secured Parties. \r\nThis Dataset will be updated monthly by the 9th of each month.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.oregon.gov/api/views/2kf7-i54h.json"
+    "category": "Business", 
+    "description": "List of All Active Filings and their associated Secured Parties. \r\nThis Dataset will be updated monthly by the 9th of each month.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/2kf7-i54h.json"
+    }
   }, 
-  "name": "socrata_oregon_ucc_secured_parties_list", 
+  "name": "UCC Secured Parties List", 
   "schema": {
     "columns": [
       {
@@ -61,5 +66,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_oregon_ucc_secured_parties_list"
 }

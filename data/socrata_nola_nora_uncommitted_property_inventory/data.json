@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.nola.gov/api/views/5ktx-e9wc/rows.csv"
   }, 
+  "description": "This is a listing of all properties in NORA's inventory that are not under contract.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.nola.gov/api/views/5ktx-e9wc.json"
+    "category": "Housing, Land Use, and Blight", 
+    "description": "This is a listing of all properties in NORA's inventory that are not under contract.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.nola.gov/api/views/5ktx-e9wc.json"
+    }
   }, 
-  "name": "socrata_nola_nora_uncommitted_property_inventory", 
+  "name": "NORA Uncommitted Property Inventory", 
   "schema": {
     "columns": [
       {
@@ -33,5 +38,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_nola_nora_uncommitted_property_inventory"
 }

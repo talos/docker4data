@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/qheq-qctz/rows.csv"
   }, 
+  "description": "Lists the performance and baseline periods for Hospital Value-Based Purchasing", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.medicare.gov/api/views/qheq-qctz.json"
+    "category": "Hospital Compare", 
+    "description": "Lists the performance and baseline periods for Hospital Value-Based Purchasing", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/qheq-qctz.json"
+    }
   }, 
-  "name": "socrata_medicare_hospital_value_based_purchasing_hvbp_quarters", 
+  "name": "Hospital Value-Based Purchasing (HVBP) \u2013 Quarters file", 
   "schema": {
     "columns": [
       {
@@ -29,5 +34,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_medicare_hospital_value_based_purchasing_hvbp_quarters"
 }

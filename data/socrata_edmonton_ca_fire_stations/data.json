@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/b4y7-zhnz/rows.csv"
   }, 
+  "description": "Location of fire stations throughout Edmonton. Also, data set identifies whether there is an emergency medical response unit associated with the fire station.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.edmonton.ca/api/views/b4y7-zhnz.json"
+    "attribution": "Community Services - Facilities and Programs", 
+    "category": "Emergency Services", 
+    "description": "Location of fire stations throughout Edmonton. Also, data set identifies whether there is an emergency medical response unit associated with the fire station.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/b4y7-zhnz.json"
+    }
   }, 
-  "name": "socrata_edmonton_ca_fire_stations", 
+  "name": "Fire Stations", 
   "schema": {
     "columns": [
       {
@@ -41,5 +47,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_edmonton_ca_fire_stations"
 }

@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.raleighnc.gov/api/views/3kx9-sjzn/rows.csv"
   }, 
+  "description": "This map summarizes racial and ethnic diversity in the United States in 2012. The Diversity Index shows the likelihood that two persons chosen at random from the same area, belong to different race or ethnic groups. The index ranges from 0 (no diversity) to 100 (complete diversity).  \n\nDiversity in the U.S. population is increasing.  The diversity score for the entire United States in 2012 is 61.\n\nThe geography depicts States at greater than 50m scale, Counties at 7.5m to 50m scale, Census Tracts at 200k to 7.5m scale, and Census Block Groups at less than 200k scale.\n\nScale Range: 1:591,657,528 down to 1:72,224\n\nFor more information on this map, including our terms of use, visit us online at http://goto.arcgisonline.com/maps/Demographics/USA_Diversity_Index", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.raleighnc.gov/api/views/rrjf-qzk2.json"
+    "attribution": "\u00a92013 Esri", 
+    "description": "This map shows the median household income in the United States in 2012. Information for the 2012 Median Household Income is an estimate of income for calendar year 2012.   Income amounts are expressed in current dollars, including an adjustment for inflation or cost-of-living increases. The median is the value that divides the distribution of household income into two equal parts. The median household income in the United States overall was $50,157 in 2012.  This map shows Esri's 2012 estimates using Census 2010 geographies. \n\nThe geography depicts States at greater than 50m scale, Counties at 7.5m to 50m scale, Census Tracts at 200k to 7.5m scale, and Census Block Groups at less than 200k scale.\n\nScale Range: 1:591,657,528 down to 1:72,224\n\nFor more information on this map, including our terms of use, visit us online at http://goto.arcgisonline.com/maps/Demographics/USA_Median_Household_Income", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.raleighnc.gov/api/views/d3gm-88ts.json"
+    }
   }, 
-  "name": "socrata_raleighnc_block_groups_arcgis_rest_services_demographi", 
+  "name": "Block Groups [arcgis_rest_services_Demographics_USA_Median_Household_Income_MapServer_1]", 
   "schema": {
     "columns": [
       {
@@ -41,17 +46,46 @@
         "type": "real"
       }, 
       {
-        "name": "popgrw0010", 
+        "name": "medhinc_cy", 
         "type": "real"
       }, 
       {
-        "name": "popgrw10cy", 
+        "name": "hincbasecy", 
         "type": "real"
       }, 
       {
-        "name": "popgrwcyfy", 
+        "name": "hinc0_25", 
         "type": "real"
+      }, 
+      {
+        "name": "hinc25_50", 
+        "type": "real"
+      }, 
+      {
+        "name": "hinc50_cy", 
+        "type": "real"
+      }, 
+      {
+        "name": "hinc75_cy", 
+        "type": "real"
+      }, 
+      {
+        "name": "hinc100_cy", 
+        "type": "real"
+      }, 
+      {
+        "name": "hinc150_cy", 
+        "type": "real"
+      }, 
+      {
+        "name": "hinc200_cy", 
+        "type": "real"
+      }, 
+      {
+        "name": "medhhinc_pct_usavg", 
+        "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_raleighnc_block_groups_arcgis_rest_services_demographi"
 }

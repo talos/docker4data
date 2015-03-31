@@ -3,21 +3,31 @@
   "data": {
     "@id": "http://www.opendatacache.com/opendata.go.ke/api/views/bhuz-kifn/rows.csv"
   }, 
+  "description": "2009 Census: Households by main type of roofing material for the main dwelling unit, Swahili Version by District", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/opendata.go.ke/api/views/kxxz-fgiv.json"
+    "attribution": "KNBS", 
+    "category": "    Environment And Natural Resources", 
+    "description": "2009 Census: Households by main type of roofing material for the main dwelling unit, Swahili Version by District", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/opendata.go.ke/api/views/bhuz-kifn.json"
+    }
   }, 
-  "name": "socrata_opendata_go_ke_vol_ii_jedwali_5_kaya_kulingana_na_aina", 
+  "name": "Vol II Jedwali 5:Kaya kulingana na aina ya paa la makazi makuu na Wilaya - 2009", 
   "schema": {
     "columns": [
       {
-        "name": "kaunti", 
+        "name": "wilaya", 
         "type": "text"
       }, 
       {
-        "name": "asilimia_ya_kaya_zenye_paa_za_mabati", 
+        "name": "kijijini_mjini", 
+        "type": "text"
+      }, 
+      {
+        "name": "asilimia_ya_kaya_zenye_paa_za_bati_corrugated", 
         "type": "text"
       }, 
       {
@@ -33,7 +43,7 @@
         "type": "text"
       }, 
       {
-        "name": "asilimia_ya_kaya_zenye_paa_za_nyasi", 
+        "name": "asilimia_ya_kaya_zenya_paa_za_nyasi", 
         "type": "text"
       }, 
       {
@@ -45,7 +55,7 @@
         "type": "text"
       }, 
       {
-        "name": "asilimia_ya_kaya_zenyae_paa_za_tope_udongo_samadi", 
+        "name": "asilimia_ya_kaya_zenye_paa_za_tope_udongo_samadi", 
         "type": "text"
       }, 
       {
@@ -57,7 +67,7 @@
         "type": "real"
       }, 
       {
-        "name": "idadi_ya_kaya_zenye_paa_za_mabati", 
+        "name": "idadi_ya_kaya_zenye_paa_za_mabati_corrugated", 
         "type": "real"
       }, 
       {
@@ -73,7 +83,7 @@
         "type": "real"
       }, 
       {
-        "name": "idadi_ya_kaya_zenye_paa_za_nyasi", 
+        "name": "idadi_ya_kaya_zenya_paa_za_nyasi", 
         "type": "real"
       }, 
       {
@@ -85,7 +95,7 @@
         "type": "real"
       }, 
       {
-        "name": "idadi_ya_kaya_zenyae_paa_za_tope_udongo_samadi", 
+        "name": "idadi_ya_kaya_zenye_paa_za_tope_udongo_samadi", 
         "type": "real"
       }, 
       {
@@ -93,9 +103,30 @@
         "type": "real"
       }, 
       {
+        "name": "mkoa", 
+        "type": "text"
+      }, 
+      {
+        "name": "kaunti", 
+        "type": "text"
+      }, 
+      {
+        "name": "swali_la_sensa", 
+        "type": "text"
+      }, 
+      {
+        "name": "mtef", 
+        "type": "text"
+      }, 
+      {
+        "name": "mtp", 
+        "type": "text"
+      }, 
+      {
         "name": "location_1", 
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_opendata_go_ke_vol_ii_jedwali_5_kaya_kulingana_na_aina"
 }

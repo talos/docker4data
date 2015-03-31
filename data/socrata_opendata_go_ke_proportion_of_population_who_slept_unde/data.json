@@ -3,17 +3,23 @@
   "data": {
     "@id": "http://www.opendatacache.com/opendata.go.ke/api/views/afsc-e325/rows.csv"
   }, 
+  "description": "KIHBS Table 5.5 Proportion of Population who Slept under a bed net by District", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/opendata.go.ke/api/views/pu3d-uk32.json"
+    "attribution": "KNBS", 
+    "category": "Health Sector", 
+    "description": "KIHBS Table 5.5 Proportion of Population who Slept under a bed net by District", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/opendata.go.ke/api/views/afsc-e325.json"
+    }
   }, 
-  "name": "socrata_opendata_go_ke_proportion_of_population_who_slept_unde", 
+  "name": "Proportion of Population who Slept under a bed net by District -2005/6", 
   "schema": {
     "columns": [
       {
-        "name": "county", 
+        "name": "district", 
         "type": "text"
       }, 
       {
@@ -25,9 +31,10 @@
         "type": "real"
       }, 
       {
-        "name": "location_1", 
+        "name": "province", 
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_opendata_go_ke_proportion_of_population_who_slept_unde"
 }

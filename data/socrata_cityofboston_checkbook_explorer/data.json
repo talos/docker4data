@@ -7,9 +7,13 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofboston.gov/api/views/gqai-h7bg.json"
+    "attribution": "Administration & Finance", 
+    "category": "Finance", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/gqai-h7bg.json"
+    }
   }, 
-  "name": "socrata_cityofboston_checkbook_explorer", 
+  "name": "Checkbook Explorer", 
   "schema": {
     "columns": [
       {
@@ -77,5 +81,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofboston_checkbook_explorer"
 }

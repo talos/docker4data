@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.taxpayer.net/api/views/teva-n8sd/rows.csv"
   }, 
+  "description": "A breakdown of the number of earmarks in each of the individual appropations bills", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.taxpayer.net/api/views/teva-n8sd.json"
+    "category": "Earmark + Appropriations", 
+    "description": "A breakdown of the number of earmarks in each of the individual appropations bills", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.taxpayer.net/api/views/teva-n8sd.json"
+    }
   }, 
-  "name": "socrata_taxpayer_net_2010_number_earmarks_by_bill", 
+  "name": "2010 Number Earmarks By Bill", 
   "schema": {
     "columns": [
       {
@@ -49,5 +54,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_taxpayer_net_2010_number_earmarks_by_bill"
 }

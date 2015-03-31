@@ -7,19 +7,15 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/z8wm-7fjb.json"
+    "attribution": "Cook County Department of Facilities Management", 
+    "category": "Finance & Administration", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/avst-7ttu.json"
+    }
   }, 
-  "name": "socrata_datacatalog_cookcountyil_facilities_management_electri", 
+  "name": "Facilities Management - Electricity Usage, 2121 Euclid Av Facility, by Month - Fiscal Year 2008 through February 2012", 
   "schema": {
     "columns": [
-      {
-        "name": "service_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "service_town", 
-        "type": "text"
-      }, 
       {
         "name": "month", 
         "type": "text"
@@ -29,11 +25,11 @@
         "type": "text"
       }, 
       {
-        "name": "usage_therms_", 
+        "name": "usage_kwh", 
         "type": "text"
       }, 
       {
-        "name": "total_cost", 
+        "name": "cost", 
         "type": "real"
       }, 
       {
@@ -41,5 +37,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_datacatalog_cookcountyil_facilities_management_electri"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/cich-iivi/rows.csv"
   }, 
+  "description": "trash/recycling schedules by address", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofboston.gov/api/views/cich-iivi.json"
+    "attribution": "Public Works - Sanitation Department", 
+    "category": "City Services", 
+    "description": "trash/recycling schedules by address", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/cich-iivi.json"
+    }
   }, 
-  "name": "socrata_cityofboston_trash_schedules_by_address", 
+  "name": "Trash Schedules by Address", 
   "schema": {
     "columns": [
       {
@@ -33,5 +39,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofboston_trash_schedules_by_address"
 }

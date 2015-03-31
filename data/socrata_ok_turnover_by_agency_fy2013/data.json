@@ -7,17 +7,15 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ok.gov/api/views/bhxi-f9mi.json"
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ok.gov/api/views/adu9-qd75.json"
+    }
   }, 
-  "name": "socrata_ok_turnover_by_agency_fy2013", 
+  "name": "Turnover By Agency FY2013", 
   "schema": {
     "columns": [
       {
-        "name": "co", 
-        "type": "real"
-      }, 
-      {
-        "name": "agency", 
+        "name": "agency_name", 
         "type": "text"
       }, 
       {
@@ -41,9 +39,42 @@
         "type": "real"
       }, 
       {
-        "name": "turnover_rate", 
+        "name": "reduction_in_force", 
+        "type": "real"
+      }, 
+      {
+        "name": "voluntary_buyout", 
+        "type": "real"
+      }, 
+      {
+        "name": "voluntary_buyout_retirement", 
+        "type": "real"
+      }, 
+      {
+        "name": "total_1", 
+        "type": "real"
+      }, 
+      {
+        "name": "total_2", 
+        "type": "text"
+      }, 
+      {
+        "name": "voluntary_total", 
+        "type": "real"
+      }, 
+      {
+        "name": "voluntary", 
+        "type": "text"
+      }, 
+      {
+        "name": "involuntary_total", 
+        "type": "real"
+      }, 
+      {
+        "name": "involuntary", 
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ok_turnover_by_agency_fy2013"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/d665-vvmd/rows.csv"
   }, 
+  "description": "King County Assessor's data is at http://info.kingcounty.gov/assessor/DataDownload/", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.kingcounty.gov/api/views/d665-vvmd.json"
+    "attribution": "King County", 
+    "category": "Property", 
+    "description": "King County Assessor's data is at http://info.kingcounty.gov/assessor/DataDownload/", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/d665-vvmd.json"
+    }
   }, 
-  "name": "socrata_kingcounty_assessor", 
+  "name": "Assessor", 
   "schema": {
     "columns": [
       {
@@ -21,5 +27,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_kingcounty_assessor"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/ivds-g5t4/rows.csv"
   }, 
+  "description": "Information from Department of Revenue, Division of Motor Vehicles", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.colorado.gov/api/views/ivds-g5t4.json"
+    "attribution": "Department of Revenue, Division of Motor Vehicles", 
+    "category": "State", 
+    "description": "Information from Department of Revenue, Division of Motor Vehicles", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/ivds-g5t4.json"
+    }
   }, 
-  "name": "socrata_colorado_driver_s_license_locations", 
+  "name": "Driver's License Locations", 
   "schema": {
     "columns": [
       {
@@ -45,5 +51,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_colorado_driver_s_license_locations"
 }

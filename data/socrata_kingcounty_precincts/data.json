@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/cidw-fyff/rows.csv"
   }, 
+  "description": "Precincts for King County Elections", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.kingcounty.gov/api/views/cidw-fyff.json"
+    "category": "Election operations", 
+    "description": "Precincts for King County Elections", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/cidw-fyff.json"
+    }
   }, 
-  "name": "socrata_kingcounty_precincts", 
+  "name": "Precincts", 
   "schema": {
     "columns": [
       {
@@ -137,5 +142,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_kingcounty_precincts"
 }

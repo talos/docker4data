@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/v2ei-xfce/rows.csv"
   }, 
+  "description": "All cable complaints filed with the Montgomery County Cable Office since January 2010.  This data will be updated on a quarterly basis.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/v2ei-xfce.json"
+    "attribution": "Montgomery County, MD", 
+    "category": "Government", 
+    "description": "All cable complaints filed with the Montgomery County Cable Office since January 2010.  This data will be updated on a quarterly basis.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/v2ei-xfce.json"
+    }
   }, 
-  "name": "socrata_montgomerycountymd_cable_complaints", 
+  "name": "Cable Complaints", 
   "schema": {
     "columns": [
       {
@@ -97,5 +103,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_montgomerycountymd_cable_complaints"
 }

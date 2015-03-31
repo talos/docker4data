@@ -3,13 +3,17 @@
   "data": {
     "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/28v6-g4kr/rows.csv"
   }, 
+  "description": "Poverty is defined by Census Bureau poverty thresholds.  For more information on the definition of poverty, please see the <a href=\"/help/glossary#P\" rel=\"external\">Glossary</a> under Help.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/zygm-bw73.json"
+    "description": "Poverty is defined by Census Bureau poverty thresholds.  For more information on the definition of poverty, please see the <a href=\"/help/glossary#P\" rel=\"external\">Glossary</a> under Help.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/72ha-95jg.json"
+    }
   }, 
-  "name": "socrata_healthmeasures_aspe_hhs_measure_24_percentage_of_peopl", 
+  "name": "Measure 24 : Percentage of People Receiving Seasonal Influenza Vaccine | Income Level", 
   "schema": {
     "columns": [
       {
@@ -21,9 +25,10 @@
         "type": "real"
       }, 
       {
-        "name": "condition", 
+        "name": "income_level", 
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_healthmeasures_aspe_hhs_measure_24_percentage_of_peopl"
 }

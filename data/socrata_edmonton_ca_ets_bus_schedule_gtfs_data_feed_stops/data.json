@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/4vt2-8zrq/rows.csv"
   }, 
+  "description": "List of all transit bus stops in Edmonton", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.edmonton.ca/api/views/4vt2-8zrq.json"
+    "attribution": "Edmonton Transit", 
+    "category": "Transit", 
+    "description": "List of all transit bus stops in Edmonton", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/4vt2-8zrq.json"
+    }
   }, 
-  "name": "socrata_edmonton_ca_ets_bus_schedule_gtfs_data_feed_stops", 
+  "name": "ETS Bus Schedule GTFS Data Feed - Stops", 
   "schema": {
     "columns": [
       {
@@ -53,5 +59,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_edmonton_ca_ets_bus_schedule_gtfs_data_feed_stops"
 }

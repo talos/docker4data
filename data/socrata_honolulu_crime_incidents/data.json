@@ -7,9 +7,12 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.honolulu.gov/api/views/a96q-gyhq.json"
+    "category": "Public Safety", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.honolulu.gov/api/views/a96q-gyhq.json"
+    }
   }, 
-  "name": "socrata_honolulu_crime_incidents", 
+  "name": "Crime Incidents", 
   "schema": {
     "columns": [
       {
@@ -53,5 +56,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_honolulu_crime_incidents"
 }

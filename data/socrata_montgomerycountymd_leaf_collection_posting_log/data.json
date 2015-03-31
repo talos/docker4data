@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/r53e-rcct/rows.csv"
   }, 
+  "description": "This dataset contains leaf collection dates for area and subarea where leaf collection service is provided by Montgomery County Department of Transportation. Update Frequency - Daily (September through December).  Monthly update (January through August) on the first day of each month.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/r53e-rcct.json"
+    "category": "Community", 
+    "description": "This dataset contains leaf collection dates for area and subarea where leaf collection service is provided by Montgomery County Department of Transportation. Update Frequency - Daily (September through December).  Monthly update (January through August) on the first day of each month.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/r53e-rcct.json"
+    }
   }, 
-  "name": "socrata_montgomerycountymd_leaf_collection_posting_log", 
+  "name": "Leaf Collection Posting Log", 
   "schema": {
     "columns": [
       {
@@ -57,5 +62,6 @@
         "type": "timestamp"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_montgomerycountymd_leaf_collection_posting_log"
 }

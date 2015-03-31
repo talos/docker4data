@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ny.gov/api/views/9fnj-sukk/rows.csv"
   }, 
+  "description": "This data file provides data showing the number of vehicles (including cars, buses, trucks and motorcycles) that pass through each of the nine bridges and tunnels operated by the MTA each day.  The data is updated weekly.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/9fnj-sukk.json"
+    "attribution": "MTA Bridges and Tunnels", 
+    "category": "Transportation", 
+    "description": "This data file provides data showing the number of vehicles (including cars, buses, trucks and motorcycles) that pass through each of the nine bridges and tunnels operated by the MTA each day.  The data is updated weekly.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/9fnj-sukk.json"
+    }
   }, 
-  "name": "socrata_ny_daily_traffic_on_metropolitan_transportation_author", 
+  "name": "Daily Traffic on Metropolitan Transportation Authority (MTA) Bridges and Tunnels: Beginning 2010", 
   "schema": {
     "columns": [
       {
@@ -29,5 +35,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ny_daily_traffic_on_metropolitan_transportation_author"
 }

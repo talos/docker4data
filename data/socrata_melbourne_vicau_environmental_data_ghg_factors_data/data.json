@@ -1,0 +1,60 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_melbourne_vicau_environmental_data_ghg_factors_data/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/views/k64i-2xff/rows.csv"
+  }, 
+  "description": "The Environmental data includes energy consumed and generated as well as greenhouse gas emissions from Council's assets and a portion of its supply chain.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "City of Melbourne", 
+    "category": "Environment", 
+    "description": "The Environmental data includes energy consumed and generated as well as greenhouse gas emissions from Council's assets and a portion of its supply chain.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/views/k64i-2xff.json"
+    }
+  }, 
+  "name": "Environmental Data - GHG Factors data", 
+  "schema": {
+    "columns": [
+      {
+        "name": "resource_category", 
+        "type": "text"
+      }, 
+      {
+        "name": "energy_content", 
+        "type": "real"
+      }, 
+      {
+        "name": "unit", 
+        "type": "text"
+      }, 
+      {
+        "name": "scope1", 
+        "type": "real"
+      }, 
+      {
+        "name": "scope2", 
+        "type": "real"
+      }, 
+      {
+        "name": "scope3", 
+        "type": "real"
+      }, 
+      {
+        "name": "source", 
+        "type": "text"
+      }, 
+      {
+        "name": "website_link", 
+        "type": "text"
+      }, 
+      {
+        "name": "notes", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "socrata_melbourne_vicau_environmental_data_ghg_factors_data"
+}

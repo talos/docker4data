@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/dk8m-pdjf/rows.csv"
   }, 
+  "description": "Current and historical information about complaints received that have become cases for further investigation.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/dk8m-pdjf.json"
+    "attribution": "Seattle Department of Planning and Development", 
+    "category": "Community", 
+    "description": "Current and historical information about complaints received that have become cases for further investigation.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/dk8m-pdjf.json"
+    }
   }, 
-  "name": "socrata_seattle_code_violation_cases", 
+  "name": "Code Violation Cases", 
   "schema": {
     "columns": [
       {
@@ -65,5 +71,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_code_violation_cases"
 }

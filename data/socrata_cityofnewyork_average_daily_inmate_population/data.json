@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/26ze-s5bx/rows.csv"
   }, 
+  "description": "Average daily inmate population by fiscal year\n\nNote: The data for each of these indicators is based upon year of report, not year of occurrence.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/26ze-s5bx.json"
+    "attribution": "Department of Correction (DOC)", 
+    "category": "Public Safety", 
+    "description": "Average daily inmate population by fiscal year\n\nNote: The data for each of these indicators is based upon year of report, not year of occurrence.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/26ze-s5bx.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_average_daily_inmate_population", 
+  "name": "Average Daily Inmate Population", 
   "schema": {
     "columns": [
       {
@@ -21,5 +27,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_average_daily_inmate_population"
 }

@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/qxie-8qnp/rows.csv"
   }, 
+  "description": "Data for all Electrical Permit applications, including status and work performed.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/qxie-8qnp.json"
+    "category": "Licenses/Permits", 
+    "description": "Data for all Electrical Permit applications, including status and work performed.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/qxie-8qnp.json"
+    }
   }, 
-  "name": "socrata_montgomerycountymd_electrical_building_permits", 
+  "name": "Electrical Building Permits", 
   "schema": {
     "columns": [
       {
@@ -85,5 +90,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_montgomerycountymd_electrical_building_permits"
 }

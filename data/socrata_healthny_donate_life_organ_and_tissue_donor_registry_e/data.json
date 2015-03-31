@@ -1,0 +1,64 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_healthny_donate_life_organ_and_tissue_donor_registry_e/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/e4fz-kg9u/rows.csv"
+  }, 
+  "description": "This dataset contains information regarding the number of enrollments by population in the New York State Donate Life Registry for the latest month. The registry is a confidential database that records a person\u2019s consent to organ/tissue donation upon death. The database is used by donation professionals to determine a person donation status at the time of their death.  For more information, check out: www.health.ny.gov/donatelife or go to the \u201cAbout\u201d tab.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New York State Department of Health", 
+    "category": "Health", 
+    "description": "This dataset contains monthly snapshots of the number of enrollments by population in the New York State Donate Life Registry beginning from 2008. The registry is a confidential database that records a person\u2019s consent to organ/tissue donation upon death. The database is used by donation professionals to determine a person's donation status at the time of their death.  For more information, check out: www.health.ny.gov/donatelife or go to the \u201cAbout\u201d tab.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/sqk8-8a2h.json"
+    }
+  }, 
+  "name": "Donate Life Organ and Tissue Donor Registry Enrollment by County: Beginning September 2008", 
+  "schema": {
+    "columns": [
+      {
+        "name": "year", 
+        "type": "real"
+      }, 
+      {
+        "name": "month", 
+        "type": "real"
+      }, 
+      {
+        "name": "county", 
+        "type": "text"
+      }, 
+      {
+        "name": "_2012_census_population", 
+        "type": "real"
+      }, 
+      {
+        "name": "population_18_estimate", 
+        "type": "real"
+      }, 
+      {
+        "name": "registry_enrollments", 
+        "type": "real"
+      }, 
+      {
+        "name": "eligible_population_enrolled", 
+        "type": "text"
+      }, 
+      {
+        "name": "opo", 
+        "type": "text"
+      }, 
+      {
+        "name": "location", 
+        "type": "text"
+      }, 
+      {
+        "name": "chart_month", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "socrata_healthny_donate_life_organ_and_tissue_donor_registry_e"
+}

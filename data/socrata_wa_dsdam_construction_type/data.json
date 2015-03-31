@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.wa.gov/api/views/4z9g-5gai/rows.csv"
   }, 
+  "description": "Testing file for the upload of data form an SSIS package in MS SQL Server through datasync", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.wa.gov/api/views/4z9g-5gai.json"
+    "category": "Natural Resources & Environment", 
+    "description": "Testing file for the upload of data form an SSIS package in MS SQL Server through datasync", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.wa.gov/api/views/4z9g-5gai.json"
+    }
   }, 
-  "name": "socrata_wa_dsdam_construction_type", 
+  "name": "DSDam Construction Type", 
   "schema": {
     "columns": [
       {
@@ -21,5 +26,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_wa_dsdam_construction_type"
 }

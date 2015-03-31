@@ -7,9 +7,12 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/electionsdata.kingcounty.gov/api/views/k59d-q4u8.json"
+    "attribution": "King County Elections", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/electionsdata.kingcounty.gov/api/views/k59d-q4u8.json"
+    }
   }, 
-  "name": "socrata_electionsdata_kingcounty_master_kc_ballot_drop_box_dat", 
+  "name": "Master KC Ballot Drop Box Dataset", 
   "schema": {
     "columns": [
       {
@@ -93,5 +96,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_electionsdata_kingcounty_master_kc_ballot_drop_box_dat"
 }

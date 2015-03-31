@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/f3na-xjup/rows.csv"
   }, 
+  "description": "A comprehensive list of all bills signed by Governor Hickenlooper from the 2012 Legislative Session.  Note that this list does not include some bills which the Governor has not yet signed, nor those bills passed during the special legislative session.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.colorado.gov/api/views/f3na-xjup.json"
+    "category": "Legislative", 
+    "description": "A comprehensive list of all bills signed by Governor Hickenlooper from the 2012 Legislative Session.  Note that this list does not include some bills which the Governor has not yet signed, nor those bills passed during the special legislative session.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/f3na-xjup.json"
+    }
   }, 
-  "name": "socrata_colorado_2012_signed_bills", 
+  "name": "2012 Signed Bills", 
   "schema": {
     "columns": [
       {
@@ -29,5 +34,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_colorado_2012_signed_bills"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/97t6-zrhs/rows.csv"
   }, 
+  "description": "All open rodent baiting requests and rat complaints made to 311 and all requests completed since January 1, 2011. The Department of Streets & Sanitation investigates reported rat sightings. Alley conditions are examined. If any damaged carts are identified, Sanitation Ward Offices, which distribute the carts are notified. Rodenticide is placed in rat burrows to eradicate nests. 311 sometimes receives duplicate rat complaints and requests for rodent baiting. Requests that have been labeled as Duplicates are in the same geographic area and have been entered into 311\u2019s Customer Service Requests (CSR) system at around the same time as a previous request. Duplicate reports/requests are labeled as such in the Status field, as either \"Open - Dup\" or \"Completed - Dup.\" Data is updated daily.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/97t6-zrhs.json"
+    "attribution": "City of Chicago", 
+    "category": "Service Requests", 
+    "description": "All open rodent baiting requests and rat complaints made to 311 and all requests completed since January 1, 2011. The Department of Streets & Sanitation investigates reported rat sightings. Alley conditions are examined. If any damaged carts are identified, Sanitation Ward Offices, which distribute the carts are notified. Rodenticide is placed in rat burrows to eradicate nests. 311 sometimes receives duplicate rat complaints and requests for rodent baiting. Requests that have been labeled as Duplicates are in the same geographic area and have been entered into 311\u2019s Customer Service Requests (CSR) system at around the same time as a previous request. Duplicate reports/requests are labeled as such in the Status field, as either \"Open - Dup\" or \"Completed - Dup.\" Data is updated daily.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/97t6-zrhs.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_311_service_requests_rodent_baiting", 
+  "name": "311 Service Requests - Rodent Baiting", 
   "schema": {
     "columns": [
       {
@@ -93,5 +99,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_311_service_requests_rodent_baiting"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/3gg2-z57m/rows.csv"
   }, 
+  "description": "The On-street Parking Census is an inventory of public, on-street parking spaces in San Francisco. This is the first release of the data and it is considered a beta release. The data collection effort has been ongoing since 2008; streetscape and supply has changed on some streets during this period. Links to the shapefile (compressed zip), Overview map (PDF) and complete data guide are provided. Also, see the map vIew here: https://data.sfgov.org/Transportation/On-Street-Parking-Census/ah24-k65z\r\n\r\nPlease direct any data inquiries to info@sfpark.org", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.sfgov.org/api/views/3gg2-z57m.json"
+    "attribution": "SFpark (info@sfpark.org)", 
+    "category": "Transportation", 
+    "description": "The On-street Parking Census is an inventory of public, on-street parking spaces in San Francisco. This is the first release of the data and it is considered a beta release. The data collection effort has been ongoing since 2008; streetscape and supply has changed on some streets during this period. Links to the shapefile (compressed zip), Overview map (PDF) and complete data guide are provided. Also, see the map vIew here: https://data.sfgov.org/Transportation/On-Street-Parking-Census/ah24-k65z\r\n\r\nPlease direct any data inquiries to info@sfpark.org", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/3gg2-z57m.json"
+    }
   }, 
-  "name": "socrata_sfgov_on_street_parking_census", 
+  "name": "On-street Parking Census", 
   "schema": {
     "columns": [
       {
@@ -33,5 +39,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_sfgov_on_street_parking_census"
 }

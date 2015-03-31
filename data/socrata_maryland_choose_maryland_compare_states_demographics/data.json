@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/8mc4-hxm7/rows.csv"
   }, 
+  "description": "Population profile - total, rate of change, age, and density.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/8mc4-hxm7.json"
+    "attribution": "Maryland Department of Business and Economic Development", 
+    "category": "Demographic", 
+    "description": "Population profile - total, rate of change, age, and density.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/8mc4-hxm7.json"
+    }
   }, 
-  "name": "socrata_maryland_choose_maryland_compare_states_demographics", 
+  "name": "Choose Maryland:  Compare States - Demographics", 
   "schema": {
     "columns": [
       {
@@ -53,5 +59,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_maryland_choose_maryland_compare_states_demographics"
 }

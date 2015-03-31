@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/fy3x-rf3i/rows.csv"
   }, 
+  "description": "SDOT maintained traffic signals in Seattle", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/fy3x-rf3i.json"
+    "attribution": "Seattle City GIS Program", 
+    "category": "Transportation", 
+    "description": "SDOT maintained traffic signals in Seattle", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/fy3x-rf3i.json"
+    }
   }, 
-  "name": "socrata_seattle_sdot_signals", 
+  "name": "SDOT_SIGNALS", 
   "schema": {
     "columns": [
       {
@@ -101,5 +107,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_sdot_signals"
 }

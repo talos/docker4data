@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/42vt-uxpy/rows.csv"
   }, 
+  "description": "Public Land Survey System for Seattle", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/42vt-uxpy.json"
+    "attribution": "Seattle City GIS Program", 
+    "category": "Land Base", 
+    "description": "Public Land Survey System for Seattle", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/42vt-uxpy.json"
+    }
   }, 
-  "name": "socrata_seattle_cadastral_plss", 
+  "name": "CADASTRAL_PLSS", 
   "schema": {
     "columns": [
       {
@@ -73,5 +79,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_cadastral_plss"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/2vfn-s87v/rows.csv"
   }, 
+  "description": "OIP Master UIPA Record Request Year-End Log For FY 2014 (record requests received July 1, 2013, through June 30, 2014", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.hawaii.gov/api/views/jzmq-cssv.json"
+    "attribution": "Office of Information Practices, State of Hawaii", 
+    "category": "Government-Wide Support", 
+    "description": "OIP Master UIPA Record Request Year-End Log For FY 2013 (record requests received July 1, 2012, through June 30, 2013)", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/7dxn-jvme.json"
+    }
   }, 
-  "name": "socrata_hawaii_oip_master_uipa_record_request_year_end_log_for", 
+  "name": "OIP Master UIPA Record Request Year-End Log For FY 2013", 
   "schema": {
     "columns": [
       {
@@ -29,23 +35,19 @@
         "type": "real"
       }, 
       {
-        "name": "of_notices_sent", 
+        "name": "of_agency_notices_sent", 
         "type": "real"
       }, 
       {
-        "name": "of_initial_responses_sent_within_10_work_days", 
+        "name": "of_notices_or_acknowledgments_sent_within_10_work_days", 
         "type": "real"
       }, 
       {
-        "name": "of_requests_needing_initial_clarification", 
+        "name": "of_complex_cases_that_agency_acknowledged", 
         "type": "real"
       }, 
       {
-        "name": "of_complex_requests", 
-        "type": "real"
-      }, 
-      {
-        "name": "of_requests_with_incremental_responses", 
+        "name": "of_complex_cases_with_incremental_responses", 
         "type": "real"
       }, 
       {
@@ -53,55 +55,55 @@
         "type": "real"
       }, 
       {
-        "name": "of_workdays_to_complete", 
+        "name": "median_of_weekdays_to_complete", 
         "type": "real"
       }, 
       {
-        "name": "request_granted_in_full", 
+        "name": "of_requests_granted_in_full", 
         "type": "real"
       }, 
       {
-        "name": "request_denied_in_full", 
+        "name": "of_requests_denied_in_full", 
         "type": "real"
       }, 
       {
-        "name": "request_denied_in_part", 
+        "name": "of_requests_denied_in_part", 
         "type": "real"
       }, 
       {
-        "name": "agency_ultimately_unable_to_respond", 
+        "name": "of_requests_agency_unable_to_respond", 
         "type": "real"
       }, 
       {
-        "name": "requester_withdrew", 
+        "name": "of_requests_withdrawn_by_requester", 
         "type": "real"
       }, 
       {
-        "name": "requester_abandoned_or_failed_to_pay", 
+        "name": "of_requests_abandoned_or_requester_failed_to_pay", 
         "type": "real"
       }, 
       {
-        "name": "uipa_lawsuit_filed_against_agency", 
+        "name": "of_uipa_lawsuits_filed_against_agency", 
         "type": "real"
       }, 
       {
-        "name": "actual_search_hours", 
+        "name": "of_actual_search_hours", 
         "type": "real"
       }, 
       {
-        "name": "actual_review_segregation_hours", 
+        "name": "of_actual_review_segregation_hours", 
         "type": "real"
       }, 
       {
-        "name": "actual_legal_review_hours", 
+        "name": "of_actual_legal_review_hours", 
         "type": "real"
       }, 
       {
-        "name": "total_actual_srs_legal_review_hours", 
+        "name": "total_of_actual_srs_legal_review_hours", 
         "type": "real"
       }, 
       {
-        "name": "total_gross_srs_fees_incurred", 
+        "name": "total_of_srs_fees_incurred", 
         "type": "real"
       }, 
       {
@@ -109,15 +111,15 @@
         "type": "real"
       }, 
       {
-        "name": "minus_30_fee_waiver", 
+        "name": "of_30_fee_waivers", 
         "type": "real"
       }, 
       {
-        "name": "minus_60_fee_waiver", 
+        "name": "of_60_fee_waivers", 
         "type": "real"
       }, 
       {
-        "name": "fees_for_personal_records", 
+        "name": "total_of_personal_records_fees_not_chargeable", 
         "type": "real"
       }, 
       {
@@ -125,91 +127,27 @@
         "type": "real"
       }, 
       {
-        "name": "gross_copy_delivery_costs_that_agency_incurred", 
+        "name": "total_gross_copy_delivery_costs_that_agency_incurred", 
         "type": "real"
       }, 
       {
-        "name": "net_copy_delivery_costs_chargeable_to_requester", 
+        "name": "total_net_copy_delivery_costs_chargeable_to_requester", 
         "type": "real"
       }, 
       {
-        "name": "total_fees_costs_actually_paid_by_requesters_for_all_requests", 
+        "name": "total_fees_costs_actually_paid_by_requester", 
         "type": "real"
       }, 
       {
-        "name": "total_net_fees_costs_chargeable_for_all_requests", 
+        "name": "total_net_fees_costs_chargeable", 
         "type": "real"
       }, 
       {
-        "name": "total_gross_fees_costs_agency_incurred_for_all_requests", 
+        "name": "total_gross_fees_costs_agency_incurred", 
         "type": "real"
       }, 
       {
-        "name": "total_gross_fees_costs_incurred_but_not_charged_for_all_requests", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_net_fees_costs_actually_paid_for_complex_requests", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_net_fees_costs_chargeable_for_complex_requests", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_gross_fees_costs_incurred_for_complex_requests", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_gross_fees_costs_incurred_but_not_charged_for_complex_requests", 
-        "type": "real"
-      }, 
-      {
-        "name": "of_workdays_to_complete_all_requests", 
-        "type": "real"
-      }, 
-      {
-        "name": "of_workdays_to_complete_complex_requests", 
-        "type": "real"
-      }, 
-      {
-        "name": "of_workdays_to_complete_noncomplex_nonpersonal_record_requests", 
-        "type": "real"
-      }, 
-      {
-        "name": "of_workdays_to_complete_personal_record_requests", 
-        "type": "real"
-      }, 
-      {
-        "name": "of_search_hours_incurred_for_all_requests", 
-        "type": "real"
-      }, 
-      {
-        "name": "of_search_hours_incurred_for_complex_requests", 
-        "type": "real"
-      }, 
-      {
-        "name": "of_search_hours_incurred_for_noncomplex_nonpersonal_record_requests", 
-        "type": "real"
-      }, 
-      {
-        "name": "of_search_hours_incurred_for_personal_record_requests", 
-        "type": "real"
-      }, 
-      {
-        "name": "of_review_segregation_hours_incurred_for_all_requests", 
-        "type": "real"
-      }, 
-      {
-        "name": "of_review_segregation_hours_incurred_for_complex_requests", 
-        "type": "real"
-      }, 
-      {
-        "name": "of_review_segregation_hours_incurred_for_noncomplex_nonpersonal_record_requests", 
-        "type": "real"
-      }, 
-      {
-        "name": "of_review_segregation_hours_incurred_for_personal_record_requests", 
+        "name": "total_gross_fees_costs_incurred_but_not_charged_unrecoverable", 
         "type": "real"
       }, 
       {
@@ -217,5 +155,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_hawaii_oip_master_uipa_record_request_year_end_log_for"
 }

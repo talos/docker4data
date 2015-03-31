@@ -7,9 +7,12 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.medicare.gov/api/views/vtqa-m4zn.json"
+    "category": "Hospital Compare", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/vtqa-m4zn.json"
+    }
   }, 
-  "name": "socrata_medicare_table_4_fy2013_value_based_incentive_payment_", 
+  "name": "Table 4: FY2013 Value-Based Incentive Payment Amount", 
   "schema": {
     "columns": [
       {
@@ -21,5 +24,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_medicare_table_4_fy2013_value_based_incentive_payment_"
 }

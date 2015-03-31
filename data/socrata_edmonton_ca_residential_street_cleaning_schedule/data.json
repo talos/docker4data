@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/h9sn-ds8j/rows.csv"
   }, 
+  "description": "A list of all City of Edmonton transportation maintenance areas and the date on which each is scheduled for residential street cleaning. Does NOT include arterials or major routes.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.edmonton.ca/api/views/h9sn-ds8j.json"
+    "attribution": "Transportation Services - Transportation Operations", 
+    "category": "Transportation", 
+    "description": "A list of all City of Edmonton transportation maintenance areas and the date on which each is scheduled for residential street cleaning. Does NOT include arterials or major routes.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/h9sn-ds8j.json"
+    }
   }, 
-  "name": "socrata_edmonton_ca_residential_street_cleaning_schedule", 
+  "name": "Residential Street Cleaning Schedule", 
   "schema": {
     "columns": [
       {
@@ -29,5 +35,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_edmonton_ca_residential_street_cleaning_schedule"
 }

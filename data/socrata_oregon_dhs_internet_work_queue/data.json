@@ -7,9 +7,12 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.oregon.gov/api/views/4sw5-sp5e.json"
+    "category": "Health & Human Services", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/4sw5-sp5e.json"
+    }
   }, 
-  "name": "socrata_oregon_dhs_internet_work_queue", 
+  "name": "DHS-Internet Work Queue", 
   "schema": {
     "columns": [
       {
@@ -41,5 +44,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_oregon_dhs_internet_work_queue"
 }

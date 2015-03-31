@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/qahs-fevu/rows.csv"
   }, 
+  "description": "This dataset includes parking spaces availability for Montgomery County Public Parking Facilities. This dataset only includes facilities that are equipped with vehicle counting systems.\r\n\r\nUpdate frequency:  Every few minutes", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/qahs-fevu.json"
+    "category": "Transportation", 
+    "description": "This dataset includes parking spaces availability for Montgomery County Public Parking Facilities. This dataset only includes facilities that are equipped with vehicle counting systems.\r\n\r\nUpdate frequency:  Every few minutes", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/qahs-fevu.json"
+    }
   }, 
-  "name": "socrata_montgomerycountymd_parking_garage_space_availability", 
+  "name": "Parking Garage Space Availability", 
   "schema": {
     "columns": [
       {
@@ -29,5 +34,6 @@
         "type": "timestamp"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_montgomerycountymd_parking_garage_space_availability"
 }

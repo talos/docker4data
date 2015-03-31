@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/vcdt-av5j/rows.csv"
   }, 
+  "description": "Lists mineral metabolism data used by ESRD QIP to assess dialysis facility performance.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.medicare.gov/api/views/vcdt-av5j.json"
+    "category": "Dialysis Facility Compare", 
+    "description": "Lists mineral metabolism data used by ESRD QIP to assess dialysis facility performance.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/vcdt-av5j.json"
+    }
   }, 
-  "name": "socrata_medicare_esrd_qip_mineral_metabolism_reporting_payment", 
+  "name": "ESRD QIP - Mineral Metabolism Reporting - Payment Year 2015", 
   "schema": {
     "columns": [
       {
@@ -65,5 +70,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_medicare_esrd_qip_mineral_metabolism_reporting_payment"
 }

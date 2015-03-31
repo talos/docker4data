@@ -3,13 +3,17 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofmadison.com/api/views/gckg-gifw/rows.csv"
   }, 
+  "description": "https://maps.cityofmadison.com/arcgis/rest/services/Water_Utility/Water_Utility/MapServer/1", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofmadison.com/api/views/gckg-gifw.json"
+    "description": "https://maps.cityofmadison.com/arcgis/rest/services/Water_Utility/Water_Utility/MapServer/1", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofmadison.com/api/views/gckg-gifw.json"
+    }
   }, 
-  "name": "socrata_cityofmadison_fire_hydrant", 
+  "name": "Fire Hydrant", 
   "schema": {
     "columns": [
       {
@@ -33,5 +37,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofmadison_fire_hydrant"
 }

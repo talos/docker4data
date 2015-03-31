@@ -7,14 +7,16 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/yiyt-3nf4.json"
+    "socrata": {
+      "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/3gmp-z5nc.json"
+    }
   }, 
-  "name": "socrata_healthmeasures_aspe_hhs_coverage_overview", 
+  "name": "( Coverage Overview", 
   "schema": {
     "columns": [
       {
         "name": "measure_value", 
-        "type": "text"
+        "type": "real"
       }, 
       {
         "name": "year", 
@@ -25,5 +27,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_healthmeasures_aspe_hhs_coverage_overview"
 }

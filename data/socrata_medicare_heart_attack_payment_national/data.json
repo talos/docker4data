@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/ygty-mm5a/rows.csv"
   }, 
+  "description": "Payment for heart attack patients measure \u2013 national data. This data set includes national-level data for payments associated with a 30-day episode of care for heart attack patients.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.medicare.gov/api/views/ygty-mm5a.json"
+    "category": "Hospital Compare", 
+    "description": "Payment for heart attack patients measure \u2013 national data. This data set includes national-level data for payments associated with a 30-day episode of care for heart attack patients.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/ygty-mm5a.json"
+    }
   }, 
-  "name": "socrata_medicare_heart_attack_payment_national", 
+  "name": "Heart Attack Payment - National", 
   "schema": {
     "columns": [
       {
@@ -53,5 +58,6 @@
         "type": "timestamp"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_medicare_heart_attack_payment_national"
 }

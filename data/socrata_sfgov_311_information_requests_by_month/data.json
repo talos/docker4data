@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/hrr4-hjc6/rows.csv"
   }, 
+  "description": "SF311 launched its current knowledge base in July 2012. This dataset shows the title of the articles in our knowledge base that are used to answer information requests, and the number of times they were accessed by our Customer Service Representatives on a call.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.sfgov.org/api/views/hrr4-hjc6.json"
+    "category": "City Infrastructure", 
+    "description": "SF311 launched its current knowledge base in July 2012. This dataset shows the title of the articles in our knowledge base that are used to answer information requests, and the number of times they were accessed by our Customer Service Representatives on a call.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/hrr4-hjc6.json"
+    }
   }, 
-  "name": "socrata_sfgov_311_information_requests_by_month", 
+  "name": "311 Information Requests by Month", 
   "schema": {
     "columns": [
       {
@@ -145,5 +150,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_sfgov_311_information_requests_by_month"
 }

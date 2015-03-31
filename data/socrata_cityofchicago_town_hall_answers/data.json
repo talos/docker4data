@@ -7,9 +7,13 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/8piv-mrrj.json"
+    "attribution": "City of Chicago", 
+    "category": "Administration & Finance", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/8piv-mrrj.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_town_hall_answers", 
+  "name": "Town Hall Answers", 
   "schema": {
     "columns": [
       {
@@ -33,5 +37,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_town_hall_answers"
 }

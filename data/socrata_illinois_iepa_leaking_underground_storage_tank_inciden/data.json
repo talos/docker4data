@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/2kz4-t22j/rows.csv"
   }, 
+  "description": "Data extracted from the Bureau of Land's Leaking Underground Storage Tank Incident (LIT) Database. The (LIT) database identifies the status of all Illinois Leaking Underground Storage Tank incidents reported to the Illinois Emergency Management Agency and to the Illinois Environmental Protection Agency.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/2kz4-t22j.json"
+    "attribution": "Illinois Environmental Protection Agency", 
+    "category": "Environment", 
+    "description": "Data extracted from the Bureau of Land's Leaking Underground Storage Tank Incident (LIT) Database. The (LIT) database identifies the status of all Illinois Leaking Underground Storage Tank incidents reported to the Illinois Emergency Management Agency and to the Illinois Environmental Protection Agency.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/2kz4-t22j.json"
+    }
   }, 
-  "name": "socrata_illinois_iepa_leaking_underground_storage_tank_inciden", 
+  "name": "IEPA Leaking Underground Storage Tank Incident", 
   "schema": {
     "columns": [
       {
@@ -165,5 +171,6 @@
         "type": "timestamp"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_iepa_leaking_underground_storage_tank_inciden"
 }

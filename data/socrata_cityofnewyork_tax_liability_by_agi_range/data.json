@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/3vvi-fwjs/rows.csv"
   }, 
+  "description": "Number of tax filers/payers and total city tax liability by income ranges", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/3vvi-fwjs.json"
+    "attribution": "NYC Independent Budget Office (IBO)", 
+    "description": "Number of tax filers/payers and total city tax liability by income ranges", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/3vvi-fwjs.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_tax_liability_by_agi_range", 
+  "name": "Tax Liability By AGI Range", 
   "schema": {
     "columns": [
       {
@@ -29,5 +34,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_tax_liability_by_agi_range"
 }

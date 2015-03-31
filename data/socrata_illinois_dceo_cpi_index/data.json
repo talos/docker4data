@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/6uaz-c8vs/rows.csv"
   }, 
+  "description": "Consumer Price Index - All Urban Consumers", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/6uaz-c8vs.json"
+    "category": "Economics", 
+    "description": "Consumer Price Index - All Urban Consumers", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/6uaz-c8vs.json"
+    }
   }, 
-  "name": "socrata_illinois_dceo_cpi_index", 
+  "name": "DCEO CPI Index", 
   "schema": {
     "columns": [
       {
@@ -77,5 +82,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_dceo_cpi_index"
 }

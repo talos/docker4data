@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/3ec3-rdmn/rows.csv"
   }, 
+  "description": "Contracts for Northwest Regional ESD for Fiscal Yeear 2013", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.oregon.gov/api/views/ysrr-kecp.json"
+    "category": "Revenue & Expense", 
+    "description": "Contracts for Northwest Regional ESD for Fiscal Yeear 2013", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/4x3z-i2bx.json"
+    }
   }, 
-  "name": "socrata_oregon_contracts_esd_northwest_regional_fiscal_year_20", 
+  "name": "Contracts: ESD: Northwest Regional: Fiscal Year 2013", 
   "schema": {
     "columns": [
       {
@@ -22,7 +27,7 @@
       }, 
       {
         "name": "award_number_w_amendments", 
-        "type": "text"
+        "type": "real"
       }, 
       {
         "name": "award_title", 
@@ -33,7 +38,7 @@
         "type": "text"
       }, 
       {
-        "name": "type_of_contract_sub_contract", 
+        "name": "type_of_contract_subcontract", 
         "type": "text"
       }, 
       {
@@ -62,16 +67,17 @@
       }, 
       {
         "name": "original_award_value", 
-        "type": "real"
+        "type": "text"
       }, 
       {
         "name": "amendment_value", 
-        "type": "real"
+        "type": "text"
       }, 
       {
         "name": "total_award_value_w_amendments", 
-        "type": "real"
+        "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_oregon_contracts_esd_northwest_regional_fiscal_year_20"
 }

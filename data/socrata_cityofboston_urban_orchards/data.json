@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/c7cz-29ak/rows.csv"
   }, 
+  "description": "Urban orchards and fruit trees in and around the city of Boston. Please note: locations have not been verified, and may be on private property, inaccessible, not bearing fruit, or no longer there. Always confirm permission to enter and forage with any property owners. Use utmost caution in identifying and consuming any fruit. Feel free to contact us with any information pertaining to current conditions, and we will update the data.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofboston.gov/api/views/c7cz-29ak.json"
+    "attribution": "Mayor's Office of Food Initiatives", 
+    "category": "Health", 
+    "description": "Urban orchards and fruit trees in and around the city of Boston. Please note: locations have not been verified, and may be on private property, inaccessible, not bearing fruit, or no longer there. Always confirm permission to enter and forage with any property owners. Use utmost caution in identifying and consuming any fruit. Feel free to contact us with any information pertaining to current conditions, and we will update the data.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/c7cz-29ak.json"
+    }
   }, 
-  "name": "socrata_cityofboston_urban_orchards", 
+  "name": "Urban Orchards", 
   "schema": {
     "columns": [
       {
@@ -57,5 +63,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofboston_urban_orchards"
 }

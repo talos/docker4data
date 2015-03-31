@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/7nqc-eijt/rows.csv"
   }, 
+  "description": "Seattle designated individual sites, buildings, vehicles, vessels, and street clocks as landmarks subject to protection by city ordinance.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/7nqc-eijt.json"
+    "attribution": "Seattle Department of Neighborhoods", 
+    "category": "Community", 
+    "description": "Seattle designated individual sites, buildings, vehicles, vessels, and street clocks as landmarks subject to protection by city ordinance.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/7nqc-eijt.json"
+    }
   }, 
-  "name": "socrata_seattle_landmarks", 
+  "name": "Landmarks", 
   "schema": {
     "columns": [
       {
@@ -53,5 +59,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_landmarks"
 }

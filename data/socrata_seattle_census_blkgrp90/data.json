@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/cwgv-i9v6/rows.csv"
   }, 
+  "description": "US Census Block Groups for 1990 US Census", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/cwgv-i9v6.json"
+    "attribution": "Seattle GIS Program", 
+    "category": "Community", 
+    "description": "US Census Block Groups for 1990 US Census", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/cwgv-i9v6.json"
+    }
   }, 
-  "name": "socrata_seattle_census_blkgrp90", 
+  "name": "CENSUS_BLKGRP90", 
   "schema": {
     "columns": [
       {
@@ -73,5 +79,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_census_blkgrp90"
 }

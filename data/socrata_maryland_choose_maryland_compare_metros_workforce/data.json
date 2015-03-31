@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/6s7m-7deg/rows.csv"
   }, 
+  "description": "Workforce summary - employed, unemployed, and average wages.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/6s7m-7deg.json"
+    "attribution": "Maryland Department of Business and Economic Development", 
+    "category": "Business and Economy", 
+    "description": "Workforce summary - employed, unemployed, and average wages.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/6s7m-7deg.json"
+    }
   }, 
-  "name": "socrata_maryland_choose_maryland_compare_metros_workforce", 
+  "name": "Choose Maryland:  Compare Metros - Workforce", 
   "schema": {
     "columns": [
       {
@@ -49,5 +55,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_maryland_choose_maryland_compare_metros_workforce"
 }

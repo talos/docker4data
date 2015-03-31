@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/hda6-fnsh/rows.csv"
   }, 
+  "description": "All approved liquor licenses", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofboston.gov/api/views/hda6-fnsh.json"
+    "attribution": "Licensing Board", 
+    "description": "All approved liquor licenses", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/hda6-fnsh.json"
+    }
   }, 
-  "name": "socrata_cityofboston_liquor_licenses", 
+  "name": "Liquor Licenses", 
   "schema": {
     "columns": [
       {
@@ -105,5 +110,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofboston_liquor_licenses"
 }

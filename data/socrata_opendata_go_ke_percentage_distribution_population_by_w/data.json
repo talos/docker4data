@@ -3,17 +3,23 @@
   "data": {
     "@id": "http://www.opendatacache.com/opendata.go.ke/api/views/e22y-4vrk/rows.csv"
   }, 
+  "description": "2005/6 KIHBS Table 5.3: Percentage distribution Population by who Diagnosed the Illness County Estimates", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/opendata.go.ke/api/views/tfam-4f43.json"
+    "attribution": "KNBS", 
+    "category": "Counties", 
+    "description": "2005/6 KIHBS Table 5.3: Percentage distribution Population by who Diagnosed the Illness County Estimates", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/opendata.go.ke/api/views/e22y-4vrk.json"
+    }
   }, 
-  "name": "socrata_opendata_go_ke_percentage_distribution_population_by_w", 
+  "name": "Percentage distribution Population by who Diagnosed the Illness County Estimates 2005/6", 
   "schema": {
     "columns": [
       {
-        "name": "district", 
+        "name": "county", 
         "type": "text"
       }, 
       {
@@ -55,7 +61,12 @@
       {
         "name": "total_count", 
         "type": "real"
+      }, 
+      {
+        "name": "location_1", 
+        "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_opendata_go_ke_percentage_distribution_population_by_w"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/2fpu-cgbb/rows.csv"
   }, 
+  "description": "State averages of common dialysis quality measures.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.medicare.gov/api/views/2fpu-cgbb.json"
+    "attribution": "Medicare.gov", 
+    "category": "Dialysis Facility Compare", 
+    "description": "State averages of common dialysis quality measures.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/2fpu-cgbb.json"
+    }
   }, 
-  "name": "socrata_medicare_dialysis_facility_compare_state_averages", 
+  "name": "Dialysis Facility Compare - State Averages", 
   "schema": {
     "columns": [
       {
@@ -105,5 +111,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_medicare_dialysis_facility_compare_state_averages"
 }

@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/8st2-g2tf/rows.csv"
   }, 
+  "description": "U.S. states ranked by cases of Chlamydia, gonorrhea, and primary and secondary syphilis reported.  Data Source: Centers for Disease Control and Prevention Surveillance Reports 2000-2013 (http://www.cdc.gov/std/stats11/default.htm)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/8st2-g2tf.json"
+    "attribution": "Centers for Disease Control and Prevention", 
+    "description": "U.S. states ranked by cases of Chlamydia, gonorrhea, and primary and secondary syphilis reported.  Data Source: Centers for Disease Control and Prevention Surveillance Reports 2000-2013 (http://www.cdc.gov/std/stats11/default.htm)", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/8st2-g2tf.json"
+    }
   }, 
-  "name": "socrata_illinois_idph_stds_nationally_ranked_by_state_2000_201", 
+  "name": "IDPH: STDs Nationally Ranked By State 2000-2013", 
   "schema": {
     "columns": [
       {
@@ -73,5 +78,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_idph_stds_nationally_ranked_by_state_2000_201"
 }

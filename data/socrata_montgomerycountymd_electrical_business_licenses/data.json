@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/ydri-y5u9/rows.csv"
   }, 
+  "description": "Data for all Electrical Business License Permit applications.  Update Frequency:  Daily", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/ydri-y5u9.json"
+    "category": "Licenses/Permits", 
+    "description": "Data for all Electrical Business License Permit applications.  Update Frequency:  Daily", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/ydri-y5u9.json"
+    }
   }, 
-  "name": "socrata_montgomerycountymd_electrical_business_licenses", 
+  "name": "Electrical Business Licenses", 
   "schema": {
     "columns": [
       {
@@ -61,5 +66,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_montgomerycountymd_electrical_business_licenses"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/e498-ae22/rows.csv"
   }, 
+  "description": "Landslide event inventory. SPU study conducted by Shannon and Wilson in 2000", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/e498-ae22.json"
+    "attribution": "Seattle GIS Program", 
+    "category": "Land Base", 
+    "description": "Landslide event inventory. SPU study conducted by Shannon and Wilson in 2000", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/e498-ae22.json"
+    }
   }, 
-  "name": "socrata_seattle_dpd_eca_kslidesw", 
+  "name": "DPD.ECA_KSLIDESW", 
   "schema": {
     "columns": [
       {
@@ -233,5 +239,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_dpd_eca_kslidesw"
 }

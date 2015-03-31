@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/fwj5-uxek/rows.csv"
   }, 
+  "description": "The number of Medicare patients treated for each medical condition or surgical procedure by state.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.medicare.gov/api/views/fwj5-uxek.json"
+    "category": "Hospital Compare", 
+    "description": "The number of Medicare patients treated for each medical condition or surgical procedure by state.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/fwj5-uxek.json"
+    }
   }, 
-  "name": "socrata_medicare_medicare_volume_state", 
+  "name": "Medicare Volume - State", 
   "schema": {
     "columns": [
       {
@@ -37,5 +42,6 @@
         "type": "timestamp"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_medicare_medicare_volume_state"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/28km-gtjn/rows.csv"
   }, 
+  "description": "Fire station locations", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/28km-gtjn.json"
+    "attribution": "City of Chicago", 
+    "category": "Public Safety", 
+    "description": "Fire station locations", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/28km-gtjn.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_fire_stations", 
+  "name": "Fire Stations", 
   "schema": {
     "columns": [
       {
@@ -41,5 +47,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_fire_stations"
 }

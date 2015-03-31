@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/qndu-wx8w/rows.csv"
   }, 
+  "description": "Health inspections of licensed food establishments", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofboston.gov/api/views/qndu-wx8w.json"
+    "attribution": "Inspectional Services Dept. - Health Division", 
+    "category": "Health", 
+    "description": "Health inspections of licensed food establishments", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/qndu-wx8w.json"
+    }
   }, 
-  "name": "socrata_cityofboston_food_establishment_inspections", 
+  "name": "Food Establishment Inspections", 
   "schema": {
     "columns": [
       {
@@ -59,6 +65,10 @@
       {
         "name": "result", 
         "type": "text"
+      }, 
+      {
+        "name": "resultdttm", 
+        "type": "timestamp"
       }, 
       {
         "name": "violation", 
@@ -113,5 +123,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofboston_food_establishment_inspections"
 }

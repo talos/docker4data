@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/z2qz-687z/rows.csv"
   }, 
+  "description": "The Department of Building (DOB) issues building permits to give individuals, insurance companies, neighbors and the City assurance that specific minimum standards are met in constructing, repairing or altering buildings by complying with the Chicago Building Code.  This metric tracks the average number of days DOB takes to process Standard Plan Review Program building permits, grouped by the week the permit was processed. The target process time is within 53 days. The Standard Plan Review Program is designed for small to mid-sized construction or renovation projects requiring drawings. Eligible projects include buildings up to 80 feet high, institutional or mercantile properties under 100,000 square feet, residential properties of up to 12 units, and foundations no deeper than 12 feet. For more information, go to http://www.cityofchicago.org/city/en/depts/bldgs/supp_info/overview_of_the_standardplanreviewpermitprogram.html.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/z2qz-687z.json"
+    "attribution": "City of Chicago", 
+    "category": "Administration & Finance", 
+    "description": "The Developer Services Review Program is designed to meet the special needs of owners, developers, architects and contractors working on moderately- to highly-complex construction or renovation projects. Eligible projects include high-rise buildings, mercantile buildings with more than 150,000 square feet, other occupancies with more than 80,000 square feet, buildings with foundations deeper than 12 feet, and residential projects that contain more than 25 units. This metric tracks the average number of days DOB takes to process individual Developer Services Permits, grouped by the week the permit was processed. The target average process time is within 89 days. Click here for more information about DOB\u2019s Developer Services Program.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/ijdy-a94t.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_performance_metrics_buildings_time_to_is", 
+  "name": "Performance Metrics - Buildings - Time to Issue Developer Services Permits", 
   "schema": {
     "columns": [
       {
@@ -29,5 +35,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_performance_metrics_buildings_time_to_is"
 }

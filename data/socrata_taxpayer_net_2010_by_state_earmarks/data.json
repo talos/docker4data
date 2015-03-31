@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.taxpayer.net/api/views/cthc-xd9g/rows.csv"
   }, 
+  "description": "Value and number of earmarks by state, but the only earmarks included in these totals are those with only one state as recipient (note that there are large amounts of unknown earmarks (UNK) where the recipient state is unknown and for earmarks that go to multiple states (Multi)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.taxpayer.net/api/views/cthc-xd9g.json"
+    "category": "Earmark + Appropriations", 
+    "description": "Value and number of earmarks by state, but the only earmarks included in these totals are those with only one state as recipient (note that there are large amounts of unknown earmarks (UNK) where the recipient state is unknown and for earmarks that go to multiple states (Multi)", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.taxpayer.net/api/views/cthc-xd9g.json"
+    }
   }, 
-  "name": "socrata_taxpayer_net_2010_by_state_earmarks", 
+  "name": "2010 By State Earmarks", 
   "schema": {
     "columns": [
       {
@@ -33,5 +38,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_taxpayer_net_2010_by_state_earmarks"
 }

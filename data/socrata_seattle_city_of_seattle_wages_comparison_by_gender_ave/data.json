@@ -3,13 +3,17 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/24tp-6m99/rows.csv"
   }, 
+  "description": "Average hourly wages for women and men sorted by age range", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/j379-aghh.json"
+    "description": "Average hourly wages for women and men sorted by City department and age range", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/j379-aghh.json"
+    }
   }, 
-  "name": "socrata_seattle_city_of_seattle_wages_comparison_by_gender_ave", 
+  "name": "City of Seattle Wages: Comparison by Gender - Average Hourly Wage by Department", 
   "schema": {
     "columns": [
       {
@@ -57,5 +61,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_city_of_seattle_wages_comparison_by_gender_ave"
 }

@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/qmeg-skqq/rows.csv"
   }, 
+  "description": "A list of hospitals participating in the Hospital VBP Program and their performance rates and scores for the Clinical Process of Care HAI measures.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.medicare.gov/api/views/qmeg-skqq.json"
+    "category": "Hospital Compare", 
+    "description": "A list of hospitals participating in the Hospital VBP Program and their performance rates and scores for the Clinical Process of Care HAI measures.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/qmeg-skqq.json"
+    }
   }, 
-  "name": "socrata_medicare_hospital_value_based_purchasing_hvbp_healthca", 
+  "name": "Hospital Value-Based Purchasing (HVBP) \u2013 Healthcare-Associated Infection Scores", 
   "schema": {
     "columns": [
       {
@@ -129,5 +134,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_medicare_hospital_value_based_purchasing_hvbp_healthca"
 }

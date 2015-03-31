@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/4arr-givg/rows.csv"
   }, 
+  "description": "This dataset contains the annual number of births and crude birth rate (births per 1,000 residents) with corresponding 95% confidence intervals, by Chicago community area, for the years 1999 \u2013 2009.  See the full dataset description for more information: https://data.cityofchicago.org/api/assets/8C4E8E51-6162-4DF3-9C29-D3F205FA2FB4", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/4arr-givg.json"
+    "attribution": "Illinois Department of Public Health (IDPH)", 
+    "category": "Health & Human Services", 
+    "description": "This dataset contains the annual number of births and crude birth rate (births per 1,000 residents) with corresponding 95% confidence intervals, by Chicago community area, for the years 1999 \u2013 2009.  See the full dataset description for more information: https://data.cityofchicago.org/api/assets/8C4E8E51-6162-4DF3-9C29-D3F205FA2FB4", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/4arr-givg.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_public_health_statistics_births_and_birt", 
+  "name": "Public Health Statistics - Births and birth rates in Chicago, by year, 1999 \u2013 2009", 
   "schema": {
     "columns": [
       {
@@ -197,5 +203,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_public_health_statistics_births_and_birt"
 }

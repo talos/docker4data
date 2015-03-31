@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/haa3-t6c2/rows.csv"
   }, 
+  "description": "Permits for electrical work that were issued more than 6 years ago.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/haa3-t6c2.json"
+    "attribution": "City of Seattle, Department of Planning and Development", 
+    "category": "Permitting", 
+    "description": "Permits for electrical work that were issued more than 6 years ago.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/haa3-t6c2.json"
+    }
   }, 
-  "name": "socrata_seattle_electrical_permits_older_than_6_years", 
+  "name": "Electrical Permits: Older than 6 years", 
   "schema": {
     "columns": [
       {
@@ -89,5 +95,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_electrical_permits_older_than_6_years"
 }

@@ -1,0 +1,92 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_healthny_community_health_obesity_and_diabetes_related/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/tchg-ruva/rows.csv"
+  }, 
+  "description": "This subset of the community health indicator report data will not be updated. A dataset containing all of the community health indicators is now available. To view the latest community health obesity and diabetes related indicators, go to:  https://health.data.ny.gov/Health/Community-Health-Indicator-Reports-CHIRS-Latest-Da/54ci-sdfi. This Obesity and Diabetes Related Indicators dataset provides a subset of data (40 indicators) for the two topics: Obesity and Diabetes. The dataset includes percentage or rate for Cirrhosis/Diabetes and Obesity and Related Indicators, where available, for all counties, regions and state.   \r\nNew York State Community Health Indicator Reports (CHIRS) were developed in 2012, and annually updated to provide data for over 300 health indicators, organized by 15 health topic and data for all counties, regions and state are presented in table format with links to trend graphs and maps (http://www.health.ny.gov/statistics/chac/indicators/). \r\nMost recent county and state level data are provided. Multiple year combined data offers stable estimates for the burden and risk factors for these two health topics. For more information, check out: http://www.health.ny.gov/statistics/chac/indicators/ or go to the \u201cAbout\u201d tab.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New York State Department of Health", 
+    "category": "Health", 
+    "description": "This subset of the community health indicator report data will not be updated. A dataset containing all of the community health indicators is now available. To view the latest community health obesity and diabetes related indicators, go to:  https://health.data.ny.gov/Health/Community-Health-Indicator-Reports-CHIRS-Latest-Da/54ci-sdfi. This Obesity and Diabetes Related Indicators dataset provides a subset of data (40 indicators) for the two topics: Obesity and Diabetes. The dataset includes percentage or rate for Cirrhosis/Diabetes and Obesity and Related Indicators, where available, for all counties, regions and state.   \r\nNew York State Community Health Indicator Reports (CHIRS) were developed in 2012, and annually updated to provide data for over 300 health indicators, organized by 15 health topic and data for all counties, regions and state are presented in table format with links to trend graphs and maps (http://www.health.ny.gov/statistics/chac/indicators/). \r\nMost recent county and state level data are provided. Multiple year combined data offers stable estimates for the burden and risk factors for these two health topics. For more information, check out: http://www.health.ny.gov/statistics/chac/indicators/ or go to the \u201cAbout\u201d tab.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/tchg-ruva.json"
+    }
+  }, 
+  "name": "Community Health Obesity and Diabetes Related Indicators: 2008 - 2012", 
+  "schema": {
+    "columns": [
+      {
+        "name": "county_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "county_code", 
+        "type": "real"
+      }, 
+      {
+        "name": "region_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "indicator_number", 
+        "type": "text"
+      }, 
+      {
+        "name": "indicator", 
+        "type": "text"
+      }, 
+      {
+        "name": "total_event_counts", 
+        "type": "real"
+      }, 
+      {
+        "name": "denominator", 
+        "type": "real"
+      }, 
+      {
+        "name": "denominator_note", 
+        "type": "text"
+      }, 
+      {
+        "name": "measure_unit", 
+        "type": "text"
+      }, 
+      {
+        "name": "percentage_rate", 
+        "type": "real"
+      }, 
+      {
+        "name": "_95_ci", 
+        "type": "text"
+      }, 
+      {
+        "name": "data_comments", 
+        "type": "text"
+      }, 
+      {
+        "name": "data_years", 
+        "type": "text"
+      }, 
+      {
+        "name": "data_sources", 
+        "type": "text"
+      }, 
+      {
+        "name": "quartile", 
+        "type": "text"
+      }, 
+      {
+        "name": "mapping_distribution", 
+        "type": "real"
+      }, 
+      {
+        "name": "location", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "socrata_healthny_community_health_obesity_and_diabetes_related"
+}

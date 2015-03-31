@@ -3,13 +3,17 @@
   "data": {
     "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/4ndu-ku74/rows.csv"
   }, 
+  "description": "For more information on how metropolitan status was defined, please see the <a href=\"/help/glossary#M\" rel=\"external\">Glossary</a> under Help.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/whru-4623.json"
+    "description": "For more information on how race was defined, please see the <a href=\"/help/glossary#R\" rel=\"external\">Glossary</a> under Help.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/829k-umg9.json"
+    }
   }, 
-  "name": "socrata_healthmeasures_aspe_hhs_measure_14_percentage_of_nonel", 
+  "name": "] Measure 14 : Percentage of Nonelderly Population with Gaps in Health Insurance Coverage | Race", 
   "schema": {
     "columns": [
       {
@@ -21,9 +25,10 @@
         "type": "real"
       }, 
       {
-        "name": "chronic_condition", 
+        "name": "race", 
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_healthmeasures_aspe_hhs_measure_14_percentage_of_nonel"
 }

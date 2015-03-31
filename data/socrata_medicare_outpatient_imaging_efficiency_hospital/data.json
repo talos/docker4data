@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/wkfw-kthe/rows.csv"
   }, 
+  "description": "Use of medical imaging - provider data. These measures give you information about hospitals' use of medical imaging tests for outpatients. Examples of medical imaging tests include CT Scans, MRIs, and mammograms.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.medicare.gov/api/views/wkfw-kthe.json"
+    "category": "Hospital Compare", 
+    "description": "Use of medical imaging - provider data. These measures give you information about hospitals' use of medical imaging tests for outpatients. Examples of medical imaging tests include CT Scans, MRIs, and mammograms.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/wkfw-kthe.json"
+    }
   }, 
-  "name": "socrata_medicare_outpatient_imaging_efficiency_hospital", 
+  "name": "Outpatient Imaging Efficiency - Hospital", 
   "schema": {
     "columns": [
       {
@@ -73,5 +78,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_medicare_outpatient_imaging_efficiency_hospital"
 }

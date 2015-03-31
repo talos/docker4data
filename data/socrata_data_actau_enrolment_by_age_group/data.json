@@ -1,0 +1,40 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_data_actau_enrolment_by_age_group/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/www.data.act.gov.au/api/views/af9i-gyct/rows.csv"
+  }, 
+  "description": "Enrolments for ACT Legislative Assembly Elections by Age Group", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Elections ACT", 
+    "category": "People and Society", 
+    "description": "Enrolments for ACT Legislative Assembly Elections by Age Group", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/www.data.act.gov.au/api/views/af9i-gyct.json"
+    }
+  }, 
+  "name": "Enrolment by Age Group", 
+  "schema": {
+    "columns": [
+      {
+        "name": "date", 
+        "type": "text"
+      }, 
+      {
+        "name": "age_group", 
+        "type": "text"
+      }, 
+      {
+        "name": "number_enrolled", 
+        "type": "real"
+      }, 
+      {
+        "name": "of_estimated_entitled_to_enrol", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "socrata_data_actau_enrolment_by_age_group"
+}

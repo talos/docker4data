@@ -3,59 +3,30 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/78ux-3dz7/rows.csv"
   }, 
+  "description": "All Census information is as of April 1, 2014. No data on any individual residence will be released.  To protect the privacy of individuals, data is compiled and presented at the city, ward and neighbourhood level only.  Neighbourhood results with a population under 49 are not posted to protect the information collected.  The designation of \u201cNo Response\u201d includes households from which no census data could be collected or only partial data was available.  \u201cOther Residential\u201d includes dwelling units not covered by the other categories, such as a unit attached to a non-residential structure (e.g. an apartment in a store or church) or a movable structure (e.g. recreational vehicle, tent, etc.).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.edmonton.ca/api/views/i8na-b4eb.json"
+    "attribution": "City of Edmonton - Office of the City Clerk", 
+    "category": "Census", 
+    "description": "All Census information is as of April 1, 2014. No data on any individual residence will be released.  To protect the privacy of individuals, data is compiled and presented at the city, ward and neighbourhood level only.  Neighbourhood results with a population under 49 are not posted to protect the information collected.  The designation of \u201cNo Response\u201d includes households from which no census data could be collected or only partial data was available.  \u201cOther Residential\u201d includes dwelling units not covered by the other categories, such as a unit attached to a non-residential structure (e.g. an apartment in a store or church) or a movable structure (e.g. recreational vehicle, tent, etc.).", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/9yfd-ugpc.json"
+    }
   }, 
-  "name": "socrata_edmonton_ca_2014_census_previous_residence_if_less_tha", 
+  "name": "2014 Census - Previous Residence If Less Than One Year (Citywide)", 
   "schema": {
     "columns": [
       {
-        "name": "ward", 
+        "name": "previous_residence_if_living_in_dwelling_for_less_than_1_year", 
         "type": "text"
       }, 
       {
-        "name": "neighbourhood_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "neighbourhood_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "elsewhere_in_edmonton", 
-        "type": "real"
-      }, 
-      {
-        "name": "elsewhere_in_alberta", 
-        "type": "real"
-      }, 
-      {
-        "name": "atlantic_canada", 
-        "type": "real"
-      }, 
-      {
-        "name": "ontario_quebec", 
-        "type": "real"
-      }, 
-      {
-        "name": "territories_manitoba_saskatchewan", 
-        "type": "real"
-      }, 
-      {
-        "name": "british_columbia", 
-        "type": "real"
-      }, 
-      {
-        "name": "outside_canada", 
-        "type": "real"
-      }, 
-      {
-        "name": "no_response", 
+        "name": "population", 
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_edmonton_ca_2014_census_previous_residence_if_less_tha"
 }

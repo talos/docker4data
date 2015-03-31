@@ -7,9 +7,11 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/electionsdata.kingcounty.gov/api/views/y6bd-fzn2.json"
+    "socrata": {
+      "@id": "http://www.opendatacache.com/electionsdata.kingcounty.gov/api/views/y6bd-fzn2.json"
+    }
   }, 
-  "name": "socrata_electionsdata_kingcounty_results_lookup_table", 
+  "name": "Results lookup table", 
   "schema": {
     "columns": [
       {
@@ -25,5 +27,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_electionsdata_kingcounty_results_lookup_table"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/hr5m-xnxc/rows.csv"
   }, 
+  "description": "The name of each officer of the City and County of San Francisco with whom a lobbyist made a contact.  \r\n\r\nContacts of public officials are disclosed by lobbyists registered with the Ethics Commission on a monthly basis.  This dataset updates automatically every night.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.sfgov.org/api/views/hr5m-xnxc.json"
+    "attribution": "San Francisco Ethics Commission", 
+    "category": "City Management and Ethics", 
+    "description": "The name of each officer of the City and County of San Francisco with whom a lobbyist made a contact.  \r\n\r\nContacts of public officials are disclosed by lobbyists registered with the Ethics Commission on a monthly basis.  This dataset updates automatically every night.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/hr5m-xnxc.json"
+    }
   }, 
-  "name": "socrata_sfgov_lobbyist_activity_contacts_of_public_officials", 
+  "name": "Lobbyist Activity - Contacts of Public Officials", 
   "schema": {
     "columns": [
       {
@@ -53,5 +59,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_sfgov_lobbyist_activity_contacts_of_public_officials"
 }

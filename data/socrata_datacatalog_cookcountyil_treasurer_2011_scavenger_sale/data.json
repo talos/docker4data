@@ -3,31 +3,30 @@
   "data": {
     "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/dren-9pwe/rows.csv"
   }, 
+  "description": "2011 Scavenger Sale Registered Buyers. They are registered to purchase taxes on property that have not been paid for 2 years", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/z5gk-rh7u.json"
+    "attribution": "Cook County Treasurer's Office", 
+    "category": "Property & Taxation", 
+    "description": "2011 Scavenger Sale Registered Buyers. They are registered to purchase taxes on property that have not been paid for 2 years", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/dren-9pwe.json"
+    }
   }, 
-  "name": "socrata_datacatalog_cookcountyil_treasurer_2011_scavenger_sale", 
+  "name": "Treasurer - 2011 Scavenger Sale Registered Buyers", 
   "schema": {
     "columns": [
       {
-        "name": "pin", 
+        "name": "buyer_id", 
         "type": "text"
       }, 
       {
-        "name": "tax_type", 
-        "type": "real"
-      }, 
-      {
-        "name": "tax_year", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
+        "name": "buyer_name", 
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_datacatalog_cookcountyil_treasurer_2011_scavenger_sale"
 }

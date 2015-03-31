@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/8pix-ypme/rows.csv"
   }, 
+  "description": "This list of 'L' stops provides location and basic service availability information for each place on the CTA system where a train stops, along with formal station names and stop descriptions.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/8pix-ypme.json"
+    "attribution": "Chicago Transit Authority", 
+    "category": "Transportation", 
+    "description": "This list of 'L' stops provides location and basic service availability information for each place on the CTA system where a train stops, along with formal station names and stop descriptions.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/8pix-ypme.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_cta_system_information_list_of_l_stops", 
+  "name": "CTA - System Information - List of 'L' Stops", 
   "schema": {
     "columns": [
       {
@@ -81,5 +87,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_cta_system_information_list_of_l_stops"
 }

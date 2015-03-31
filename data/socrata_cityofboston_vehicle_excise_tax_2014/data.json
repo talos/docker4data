@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/ytub-etic/rows.csv"
   }, 
+  "description": "vehicle tax bills for Boston residents for 2014", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofboston.gov/api/views/ytub-etic.json"
+    "attribution": "Collectors Office", 
+    "category": "Permitting", 
+    "description": "vehicle tax bills for Boston residents for 2014", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/ytub-etic.json"
+    }
   }, 
-  "name": "socrata_cityofboston_vehicle_excise_tax_2014", 
+  "name": "Vehicle Excise Tax 2014", 
   "schema": {
     "columns": [
       {
@@ -45,5 +51,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofboston_vehicle_excise_tax_2014"
 }

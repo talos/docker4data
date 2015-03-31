@@ -1,0 +1,56 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_healthny_medicaid_hospital_inpatient_potentially_preve/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/ckvf-rbyn/rows.csv"
+  }, 
+  "description": "The dataset contains Potentially Preventable Readmission observed, expected, and risk adjusted rates by hospital for Medicaid enrollees beginning in 2011.\r\nThe Potentially Preventable Readmission (PPR) software created by 3M Health Information Systems, identifies hospital admissions clinically related to an initial admission within a specified time period. For this dataset, readmissions were evaluated within a 30-day time period from the discharge date of the initial hospital admission. A PPR may have resulted from a deficiency in the process of care and treatment at the initial hospitalization or lack of post discharge follow up. PPRs are not defined by unrelated events that occur post-discharge, such as admissions for trauma.\r\nFor each hospital, the total number of at risk admissions, the total number of observed PPR chains, the observed PPR rate, the expected PPR rate, and risk adjusted PPR rate are presented by year. For more information, check out http://www.health.ny.gov/health_care/medicaid/, or go to the \"About\" tab.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New York State Department of Health", 
+    "category": "Health", 
+    "description": "The dataset contains Potentially Preventable Readmission observed, expected, and risk adjusted rates by hospital for Medicaid enrollees beginning in 2011.\r\nThe Potentially Preventable Readmission (PPR) software created by 3M Health Information Systems, identifies hospital admissions clinically related to an initial admission within a specified time period. For this dataset, readmissions were evaluated within a 30-day time period from the discharge date of the initial hospital admission. A PPR may have resulted from a deficiency in the process of care and treatment at the initial hospitalization or lack of post discharge follow up. PPRs are not defined by unrelated events that occur post-discharge, such as admissions for trauma.\r\nFor each hospital, the total number of at risk admissions, the total number of observed PPR chains, the observed PPR rate, the expected PPR rate, and risk adjusted PPR rate are presented by year. For more information, check out http://www.health.ny.gov/health_care/medicaid/, or go to the \"About\" tab.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/ckvf-rbyn.json"
+    }
+  }, 
+  "name": "Medicaid Hospital Inpatient Potentially Preventable Readmission (PPR) Rates by Hospital: Beginning 2011", 
+  "schema": {
+    "columns": [
+      {
+        "name": "discharge_year", 
+        "type": "real"
+      }, 
+      {
+        "name": "facility_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "at_risk_admissions", 
+        "type": "real"
+      }, 
+      {
+        "name": "observed_ppr_chains", 
+        "type": "real"
+      }, 
+      {
+        "name": "observed_ppr_rate", 
+        "type": "real"
+      }, 
+      {
+        "name": "expected_ppr_rate", 
+        "type": "real"
+      }, 
+      {
+        "name": "risk_adjusted_ppr_rate", 
+        "type": "real"
+      }, 
+      {
+        "name": "dual_status", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "socrata_healthny_medicaid_hospital_inpatient_potentially_preve"
+}

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/b6tj-gt35/rows.csv"
   }, 
+  "description": "Active Street use permits issued by DPW", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.sfgov.org/api/views/b6tj-gt35.json"
+    "attribution": "San Francisco Department of Public Works", 
+    "category": "City Infrastructure", 
+    "description": "Active Street use permits issued by DPW", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/b6tj-gt35.json"
+    }
   }, 
-  "name": "socrata_sfgov_street_use_permits", 
+  "name": "Street-Use Permits", 
   "schema": {
     "columns": [
       {
@@ -105,5 +111,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_sfgov_street_use_permits"
 }

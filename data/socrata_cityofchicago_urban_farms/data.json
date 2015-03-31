@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/2a55-dhk8/rows.csv"
   }, 
+  "description": "The location of select urban farms throughout Chicago.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/2a55-dhk8.json"
+    "attribution": "City of Chicago", 
+    "category": "Environment & Sustainable Development", 
+    "description": "The location of select urban farms throughout Chicago.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/2a55-dhk8.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_urban_farms", 
+  "name": "Urban Farms", 
   "schema": {
     "columns": [
       {
@@ -29,5 +35,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_urban_farms"
 }

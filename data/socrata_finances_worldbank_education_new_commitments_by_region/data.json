@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/64f3-59mr/rows.csv"
   }, 
+  "description": "This dataset provides the new commitments for education from FY1990 going forward. Data is available at sub-sector and regional level.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/finances.worldbank.org/api/views/64f3-59mr.json"
+    "attribution": "World Bank Group", 
+    "category": "Education", 
+    "description": "This dataset provides the new commitments for education from FY1990 going forward. Data is available at sub-sector and regional level.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/64f3-59mr.json"
+    }
   }, 
-  "name": "socrata_finances_worldbank_education_new_commitments_by_region", 
+  "name": "Education - New Commitments by Region and Sub-sector", 
   "schema": {
     "columns": [
       {
@@ -41,5 +47,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_finances_worldbank_education_new_commitments_by_region"
 }

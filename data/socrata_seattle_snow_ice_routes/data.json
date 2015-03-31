@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/65qz-efrq/rows.csv"
   }, 
+  "description": "City of Seattle streets covered under SDOT\u2019s Winter Storm Response Plan, showing snow and ice removal routes categorized by targeted level of service.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/65qz-efrq.json"
+    "attribution": "Seattle Department of Transportation", 
+    "category": "Transportation", 
+    "description": "City of Seattle streets covered under SDOT\u2019s Winter Storm Response Plan, showing snow and ice removal routes categorized by targeted level of service.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/65qz-efrq.json"
+    }
   }, 
-  "name": "socrata_seattle_snow_ice_routes", 
+  "name": "Snow Ice Routes", 
   "schema": {
     "columns": [
       {
@@ -37,5 +43,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_snow_ice_routes"
 }

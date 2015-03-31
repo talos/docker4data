@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/9rag-2mng/rows.csv"
   }, 
+  "description": "represents the non-administrative dispatches for public safety agencies", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofboston.gov/api/views/9rag-2mng.json"
+    "attribution": "Department of Innovation and Technology", 
+    "category": "Public Safety", 
+    "description": "represents the non-administrative dispatches for public safety agencies", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/9rag-2mng.json"
+    }
   }, 
-  "name": "socrata_cityofboston_911_daily_dispatch_count_by_agency", 
+  "name": "911 Daily Dispatch Count By Agency", 
   "schema": {
     "columns": [
       {
@@ -45,5 +51,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofboston_911_daily_dispatch_count_by_agency"
 }

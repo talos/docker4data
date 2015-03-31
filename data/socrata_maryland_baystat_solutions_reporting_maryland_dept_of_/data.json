@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/4zqs-i2t2/rows.csv"
   }, 
+  "description": "Chesapeake Bay restoration solutions, Best Management Practices (BMPs), progress reporting by tributary basin.  See the BayStat Solutions Reference table for further definition.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/tsya-25ee.json"
+    "attribution": "Maryland Department of the Environment", 
+    "category": "Energy and Environment", 
+    "description": "Chesapeake Bay restoration solutions, Best Management Practices (BMPs), progress reporting by tributary basin.  See the BayStat Solutions Reference table for further definition.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/ab68-n7ja.json"
+    }
   }, 
-  "name": "socrata_maryland_baystat_solutions_reporting_maryland_dept_of_", 
+  "name": "BayStat Solutions Reporting - Maryland Dept. of the Environment", 
   "schema": {
     "columns": [
       {
@@ -22,15 +28,15 @@
       }, 
       {
         "name": "_2000", 
-        "type": "real"
+        "type": "text"
       }, 
       {
         "name": "_2001", 
-        "type": "real"
+        "type": "text"
       }, 
       {
         "name": "_2002", 
-        "type": "real"
+        "type": "text"
       }, 
       {
         "name": "_2003", 
@@ -109,5 +115,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_maryland_baystat_solutions_reporting_maryland_dept_of_"
 }

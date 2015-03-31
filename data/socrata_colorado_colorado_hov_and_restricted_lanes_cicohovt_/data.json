@@ -1,0 +1,80 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_colorado_hov_and_restricted_lanes_cicohovt_/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/7sv7-7d5a/rows.csv"
+  }, 
+  "description": "The table contains road segments that have high-occupancy lanes, restricted lanes, reversible lanes, express, or toll lanes.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "CDOT - Colorado Department of Transportation", 
+    "category": "Transportation", 
+    "description": "The table contains road segments that have high-occupancy lanes, restricted lanes, reversible lanes, express, or toll lanes.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/7sv7-7d5a.json"
+    }
+  }, 
+  "name": "Colorado HOV and Restricted Lanes (CICOHOVT)", 
+  "schema": {
+    "columns": [
+      {
+        "name": "fips", 
+        "type": "real"
+      }, 
+      {
+        "name": "route", 
+        "type": "text"
+      }, 
+      {
+        "name": "segmid", 
+        "type": "real"
+      }, 
+      {
+        "name": "length_", 
+        "type": "real"
+      }, 
+      {
+        "name": "updateyr", 
+        "type": "real"
+      }, 
+      {
+        "name": "fipscounty", 
+        "type": "real"
+      }, 
+      {
+        "name": "hovtype", 
+        "type": "real"
+      }, 
+      {
+        "name": "hovlnqty", 
+        "type": "real"
+      }, 
+      {
+        "name": "tollid", 
+        "type": "real"
+      }, 
+      {
+        "name": "tolltype", 
+        "type": "real"
+      }, 
+      {
+        "name": "tollcharged", 
+        "type": "real"
+      }, 
+      {
+        "name": "lrsroute", 
+        "type": "text"
+      }, 
+      {
+        "name": "frommeas", 
+        "type": "real"
+      }, 
+      {
+        "name": "tomeas", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "tableName": "socrata_colorado_colorado_hov_and_restricted_lanes_cicohovt_"
+}

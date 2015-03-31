@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/mp5y-4efk/rows.csv"
   }, 
+  "description": "The CORI Vendor Report is a report of Vendors that have Contracts for $5,000 or greater.\n\nVendors are listed more than once where the vendor has more than one contact.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofboston.gov/api/views/mp5y-4efk.json"
+    "attribution": "Administration & Finance", 
+    "category": "Finance", 
+    "description": "The CORI Vendor Report is a report of Vendors that have Contracts for $5,000 or greater.\n\nVendors are listed more than once where the vendor has more than one contact.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/mp5y-4efk.json"
+    }
   }, 
-  "name": "socrata_cityofboston_cori_vendor_report", 
+  "name": "CORI Vendor Report", 
   "schema": {
     "columns": [
       {
@@ -85,5 +91,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofboston_cori_vendor_report"
 }

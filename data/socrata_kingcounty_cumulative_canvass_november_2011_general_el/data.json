@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/hgu2-qaye/rows.csv"
   }, 
+  "description": "Detailed cumulative results for the November 2011 General Election. Tutorial available here http://www.kingcounty.gov/elections/results/opendatatutorial.aspx", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.kingcounty.gov/api/views/hgu2-qaye.json"
+    "attribution": "King County Elections", 
+    "category": "Election results", 
+    "description": "Detailed cumulative results for the November 2011 General Election. Tutorial available here http://www.kingcounty.gov/elections/results/opendatatutorial.aspx", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/hgu2-qaye.json"
+    }
   }, 
-  "name": "socrata_kingcounty_cumulative_canvass_november_2011_general_el", 
+  "name": "Cumulative Canvass November 2011 General Election", 
   "schema": {
     "columns": [
       {
@@ -49,5 +55,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_kingcounty_cumulative_canvass_november_2011_general_el"
 }

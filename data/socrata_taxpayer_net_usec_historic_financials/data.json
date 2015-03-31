@@ -3,13 +3,17 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.taxpayer.net/api/views/ccb6-4cw2/rows.csv"
   }, 
+  "description": "Source: New York Stock Exchange", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.taxpayer.net/api/views/ccb6-4cw2.json"
+    "description": "Source: New York Stock Exchange", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.taxpayer.net/api/views/ccb6-4cw2.json"
+    }
   }, 
-  "name": "socrata_taxpayer_net_usec_historic_financials", 
+  "name": "USEC Historic Financials", 
   "schema": {
     "columns": [
       {
@@ -25,5 +29,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_taxpayer_net_usec_historic_financials"
 }

@@ -3,61 +3,31 @@
   "data": {
     "@id": "http://www.opendatacache.com/opendata.go.ke/api/views/ab79-kwvp/rows.csv"
   }, 
+  "description": "KIHBS Table 4.12: Percentage distribution of Children (6 - 17 years) who have ever attended school by District", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/opendata.go.ke/api/views/xnci-w3ad.json"
+    "attribution": "KNBS", 
+    "category": "Education", 
+    "description": "KIHBS Table 4.12: Percentage distribution of Children (6 - 17 years) who have ever attended school by District", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/opendata.go.ke/api/views/ab79-kwvp.json"
+    }
   }, 
-  "name": "socrata_opendata_go_ke_percentage_distribution_of_children_6_1", 
+  "name": "Percentage distribution of Children (6 - 17 years) who have ever attended school by District - 2005/6", 
   "schema": {
     "columns": [
       {
-        "name": "county", 
+        "name": "district", 
         "type": "text"
       }, 
       {
-        "name": "too_young_to_attend", 
+        "name": "currently_in_school", 
         "type": "text"
       }, 
       {
-        "name": "no_money_for_school_costs", 
-        "type": "text"
-      }, 
-      {
-        "name": "poor_quality_of_schools", 
-        "type": "text"
-      }, 
-      {
-        "name": "own_illness_disability", 
-        "type": "text"
-      }, 
-      {
-        "name": "family_illness_disability", 
-        "type": "text"
-      }, 
-      {
-        "name": "not_interested_lazy", 
-        "type": "text"
-      }, 
-      {
-        "name": "parents_did_not_let_me", 
-        "type": "text"
-      }, 
-      {
-        "name": "had_to_work_or_help_at_home", 
-        "type": "text"
-      }, 
-      {
-        "name": "school_too_far", 
-        "type": "text"
-      }, 
-      {
-        "name": "school_conflict_with_beliefs", 
-        "type": "text"
-      }, 
-      {
-        "name": "completed_school", 
+        "name": "not_currently_in_school", 
         "type": "text"
       }, 
       {
@@ -65,9 +35,10 @@
         "type": "real"
       }, 
       {
-        "name": "geolocation", 
+        "name": "not_stated", 
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_opendata_go_ke_percentage_distribution_of_children_6_1"
 }

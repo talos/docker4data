@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/4wxy-htkj/rows.csv"
   }, 
+  "description": "List of nonprofits in the King County Employee Giving Program Annual Drive", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.kingcounty.gov/api/views/4wxy-htkj.json"
+    "attribution": "King County Employee Giving Program", 
+    "category": "Employees", 
+    "description": "List of nonprofits in the King County Employee Giving Program Annual Drive", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/4wxy-htkj.json"
+    }
   }, 
-  "name": "socrata_kingcounty_egp_nonprofits", 
+  "name": "EGP Nonprofits", 
   "schema": {
     "columns": [
       {
@@ -73,5 +79,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_kingcounty_egp_nonprofits"
 }

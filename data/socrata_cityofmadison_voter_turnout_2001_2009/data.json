@@ -7,9 +7,13 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofmadison.com/api/views/3syz-mw6z.json"
+    "attribution": "City Clerk's Office", 
+    "category": "Elections", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofmadison.com/api/views/3syz-mw6z.json"
+    }
   }, 
-  "name": "socrata_cityofmadison_voter_turnout_2001_2009", 
+  "name": "Voter Turnout 2001-2009", 
   "schema": {
     "columns": [
       {
@@ -137,5 +141,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofmadison_voter_turnout_2001_2009"
 }

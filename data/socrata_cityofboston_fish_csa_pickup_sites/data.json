@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/742w-2qkx/rows.csv"
   }, 
+  "description": "Delivery locations for fish CSA programs near Boston. Accurate as of August 2012.  Inaccurate or incomplete information? Let us know!", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofboston.gov/api/views/742w-2qkx.json"
+    "attribution": "Mayor's Office of Food Initiatives", 
+    "category": "Health", 
+    "description": "Delivery locations for fish CSA programs near Boston. Accurate as of August 2012.  Inaccurate or incomplete information? Let us know!", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/742w-2qkx.json"
+    }
   }, 
-  "name": "socrata_cityofboston_fish_csa_pickup_sites", 
+  "name": "Fish CSA Pickup Sites", 
   "schema": {
     "columns": [
       {
@@ -37,5 +43,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofboston_fish_csa_pickup_sites"
 }

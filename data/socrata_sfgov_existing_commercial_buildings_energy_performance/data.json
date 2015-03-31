@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/j2j3-acqj/rows.csv"
   }, 
+  "description": "Data as of 3/12/2015.\r\nThe Existing Commercial Buildings Energy Performance Ordinance (Environment Code Chapter 20) requires that each non-residential building with at least 10,000 square feet of conditioned (heated or cooled) space must be benchmarked using Energy Star Portfolio Manager annually, and undergo an energy audit or retrocommissioning at least once every 5 years. More information: www.sfenvironment.org/ecb This dataset lists compliance status for private-sector (non-municipal) properties where the owner has been notified a building is subject to the ordinance. Fields reported will expand in subsequent releases, and will include energy use intensity, the 1-100 Portfolio Manager rating, and estimated greenhouse gas emissions from annual energy consumption.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.sfgov.org/api/views/j2j3-acqj.json"
+    "attribution": "SF Environment", 
+    "category": "Energy and Environment", 
+    "description": "Data as of 3/12/2015.\r\nThe Existing Commercial Buildings Energy Performance Ordinance (Environment Code Chapter 20) requires that each non-residential building with at least 10,000 square feet of conditioned (heated or cooled) space must be benchmarked using Energy Star Portfolio Manager annually, and undergo an energy audit or retrocommissioning at least once every 5 years. More information: www.sfenvironment.org/ecb This dataset lists compliance status for private-sector (non-municipal) properties where the owner has been notified a building is subject to the ordinance. Fields reported will expand in subsequent releases, and will include energy use intensity, the 1-100 Portfolio Manager rating, and estimated greenhouse gas emissions from annual energy consumption.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/j2j3-acqj.json"
+    }
   }, 
-  "name": "socrata_sfgov_existing_commercial_buildings_energy_performance", 
+  "name": "Existing Commercial Buildings Energy Performance Ordinance Report", 
   "schema": {
     "columns": [
       {
@@ -81,5 +87,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_sfgov_existing_commercial_buildings_energy_performance"
 }

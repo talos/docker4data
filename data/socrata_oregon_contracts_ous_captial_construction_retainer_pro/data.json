@@ -7,51 +7,23 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.oregon.gov/api/views/u329-8csu.json"
+    "category": "Revenue & Expense", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/77c2-shz8.json"
+    }
   }, 
-  "name": "socrata_oregon_contracts_ous_captial_construction_retainer_pro", 
+  "name": "Contracts: OUS: Captial Construction Retainer Programs: Totals: FY2013", 
   "schema": {
     "columns": [
       {
-        "name": "supplement_number", 
+        "name": "oregon_university_system", 
         "type": "text"
       }, 
       {
-        "name": "project", 
-        "type": "text"
-      }, 
-      {
-        "name": "organization", 
-        "type": "text"
-      }, 
-      {
-        "name": "contractor", 
-        "type": "text"
-      }, 
-      {
-        "name": "mwesb", 
-        "type": "text"
-      }, 
-      {
-        "name": "retainer_period", 
-        "type": "text"
-      }, 
-      {
-        "name": "issue_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "price", 
+        "name": "totals", 
         "type": "real"
-      }, 
-      {
-        "name": "compensation_method", 
-        "type": "text"
-      }, 
-      {
-        "name": "amendments", 
-        "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_oregon_contracts_ous_captial_construction_retainer_pro"
 }

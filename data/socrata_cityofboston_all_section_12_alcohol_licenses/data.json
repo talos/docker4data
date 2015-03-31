@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/qr2t-2k7s/rows.csv"
   }, 
+  "description": "Establishments licensed by the Boston Licensing Board", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofboston.gov/api/views/qr2t-2k7s.json"
+    "attribution": "Boston Licensing Board", 
+    "category": "Permitting", 
+    "description": "Establishments licensed by the Boston Licensing Board", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/qr2t-2k7s.json"
+    }
   }, 
-  "name": "socrata_cityofboston_all_section_12_alcohol_licenses", 
+  "name": "All Section 12 Alcohol Licenses", 
   "schema": {
     "columns": [
       {
@@ -77,5 +83,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofboston_all_section_12_alcohol_licenses"
 }

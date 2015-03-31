@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/g4pc-28b5/rows.csv"
   }, 
+  "description": "Membership counts by zip for Zipcar", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofboston.gov/api/views/g4pc-28b5.json"
+    "attribution": "Zipcar", 
+    "category": "Transportation", 
+    "description": "Membership counts by zip for Zipcar", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/g4pc-28b5.json"
+    }
   }, 
-  "name": "socrata_cityofboston_zipcar_boston_membership_by_zipcode", 
+  "name": "Zipcar - Boston Membership by zipcode", 
   "schema": {
     "columns": [
       {
@@ -21,5 +27,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofboston_zipcar_boston_membership_by_zipcode"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/xczi-kmtf/rows.csv"
   }, 
+  "description": "This metric tracks the number of domestic violence service calls received by the Domestic Violence Help Line per month. The city has developed a multi-layered response to the domestic violence crisis, including the Help Line, services provided by delegate agencies and services provided by advocates at our Community Service Centers. DFSS funds approximately 30 community based delegate agencies under the Family Violence Prevention Initiative to serve domestic violence victims and their children at programs located throughout Chicago.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/xczi-kmtf.json"
+    "attribution": "City of Chicago", 
+    "category": "Administration & Finance", 
+    "description": "This metric tracks the number of domestic violence service calls received by the Domestic Violence Help Line per month. The city has developed a multi-layered response to the domestic violence crisis, including the Help Line, services provided by delegate agencies and services provided by advocates at our Community Service Centers. DFSS funds approximately 30 community based delegate agencies under the Family Violence Prevention Initiative to serve domestic violence victims and their children at programs located throughout Chicago.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/hbuv-eka5.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_performance_metrics_family_support_servi", 
+  "name": "Performance Metrics - Family & Support Services - Domestic Violence Service Help Line Monthly Utilization", 
   "schema": {
     "columns": [
       {
@@ -21,29 +27,10 @@
         "type": "text"
       }, 
       {
-        "name": "academic_vocational_support_and_enrichment", 
-        "type": "real"
-      }, 
-      {
-        "name": "arts_and_culture", 
-        "type": "real"
-      }, 
-      {
-        "name": "health_and_nutrition", 
-        "type": "real"
-      }, 
-      {
-        "name": "innovative", 
-        "type": "real"
-      }, 
-      {
-        "name": "science_computer_and_technology", 
-        "type": "real"
-      }, 
-      {
-        "name": "sports_recreation_and_fitness", 
+        "name": "number_of_calls", 
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_performance_metrics_family_support_servi"
 }

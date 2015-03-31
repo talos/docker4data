@@ -1,0 +1,167 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_healthny_health_facility_general_information/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/vn5v-hh5r/rows.csv"
+  }, 
+  "description": "This dataset contains the locations of Article 28, Article 36 and Article 40 health care facilities and programs from the Health Facilities Information System (HFIS). Article 28 facilities are hospitals, nursing homes, and diagnostic treatment centers. Article 36 facilities are certified home health care agencies and long term home health care programs. Article 40 facilities are hospices. The dataset currently only contains the locations of hospitals and hospital extension clinics. The data for the remaining facility types will be added in the future.  While the NYS Department of Health makes every effort to post accurate and reliable information, it does not guarantee or warrant that the information in this dataset is complete, accurate or up-to-date.  If you have more reliable data than what is presented here, please send an update request to hfismb@health.state.ny.us .  Please include facility name and FAC ID in the subject of correspondence.  For more information, go to the \"About\" tab.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New York State Department of Health", 
+    "description": "This dataset contains the locations of Article 28, Article 36 and Article 40 health care facilities and programs from the Health Facilities Information System (HFIS). Article 28 facilities are hospitals, nursing homes, and diagnostic treatment centers. Article 36 facilities are certified home health care agencies and long term home health care programs. Article 40 facilities are hospices. The dataset currently only contains the locations of hospitals and hospital extension clinics. The data for the remaining facility types will be added in the future.  While the NYS Department of Health makes every effort to post accurate and reliable information, it does not guarantee or warrant that the information in this dataset is complete, accurate or up-to-date.  If you have more reliable data than what is presented here, please send an update request to hfismb@health.state.ny.us .  Please include facility name and FAC ID in the subject of correspondence.  For more information, go to the \"About\" tab.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/vn5v-hh5r.json"
+    }
+  }, 
+  "name": "Health Facility General Information", 
+  "schema": {
+    "columns": [
+      {
+        "name": "fac_id", 
+        "type": "real"
+      }, 
+      {
+        "name": "facility_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "fac_desc_short", 
+        "type": "text"
+      }, 
+      {
+        "name": "description", 
+        "type": "text"
+      }, 
+      {
+        "name": "fac_opn_dat", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "address1", 
+        "type": "text"
+      }, 
+      {
+        "name": "address2", 
+        "type": "text"
+      }, 
+      {
+        "name": "city", 
+        "type": "text"
+      }, 
+      {
+        "name": "state", 
+        "type": "text"
+      }, 
+      {
+        "name": "fac_zip", 
+        "type": "text"
+      }, 
+      {
+        "name": "fac_phone", 
+        "type": "text"
+      }, 
+      {
+        "name": "fac_fax", 
+        "type": "text"
+      }, 
+      {
+        "name": "web_site", 
+        "type": "text"
+      }, 
+      {
+        "name": "cnty_cd", 
+        "type": "real"
+      }, 
+      {
+        "name": "county", 
+        "type": "text"
+      }, 
+      {
+        "name": "ro_id", 
+        "type": "real"
+      }, 
+      {
+        "name": "region_office", 
+        "type": "text"
+      }, 
+      {
+        "name": "main_site_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "main_site_facid", 
+        "type": "real"
+      }, 
+      {
+        "name": "opcert_num", 
+        "type": "text"
+      }, 
+      {
+        "name": "operator_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "operator_address1", 
+        "type": "text"
+      }, 
+      {
+        "name": "operator_address2", 
+        "type": "text"
+      }, 
+      {
+        "name": "operator_city", 
+        "type": "text"
+      }, 
+      {
+        "name": "operator_state", 
+        "type": "text"
+      }, 
+      {
+        "name": "operator_zip", 
+        "type": "text"
+      }, 
+      {
+        "name": "cooperator_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "cooperator_address1", 
+        "type": "text"
+      }, 
+      {
+        "name": "cooperator_address2", 
+        "type": "text"
+      }, 
+      {
+        "name": "cooperator_city", 
+        "type": "text"
+      }, 
+      {
+        "name": "cooperator_state", 
+        "type": "text"
+      }, 
+      {
+        "name": "cooperator_zip", 
+        "type": "text"
+      }, 
+      {
+        "name": "ownership_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "latitude", 
+        "type": "real"
+      }, 
+      {
+        "name": "longitude", 
+        "type": "real"
+      }, 
+      {
+        "name": "facility_location", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "socrata_healthny_health_facility_general_information"
+}

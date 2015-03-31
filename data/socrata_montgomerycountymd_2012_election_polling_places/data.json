@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/3b5m-syzr/rows.csv"
   }, 
+  "description": "Location of all 2012 Election Polling Places, including the Early Voting Centers.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/3b5m-syzr.json"
+    "attribution": "Montgomery County, MD", 
+    "category": "Elections", 
+    "description": "Location of all 2012 Election Polling Places, including the Early Voting Centers.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/3b5m-syzr.json"
+    }
   }, 
-  "name": "socrata_montgomerycountymd_2012_election_polling_places", 
+  "name": "2012 Election Polling Places", 
   "schema": {
     "columns": [
       {
@@ -25,5 +31,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_montgomerycountymd_2012_election_polling_places"
 }

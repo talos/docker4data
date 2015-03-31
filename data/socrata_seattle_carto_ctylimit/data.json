@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/eykv-q5y9/rows.csv"
   }, 
+  "description": "Delineates north and south boundaries of City of Seattle", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/eykv-q5y9.json"
+    "attribution": "Seattle GIS Program", 
+    "category": "Land Base", 
+    "description": "Delineates north and south boundaries of City of Seattle", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/eykv-q5y9.json"
+    }
   }, 
-  "name": "socrata_seattle_carto_ctylimit", 
+  "name": "CARTO.CTYLIMIT", 
   "schema": {
     "columns": [
       {
@@ -29,5 +35,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_carto_ctylimit"
 }

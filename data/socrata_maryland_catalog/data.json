@@ -7,9 +7,11 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/5ihe-9wz2.json"
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/5ihe-9wz2.json"
+    }
   }, 
-  "name": "socrata_maryland_catalog", 
+  "name": "Catalog", 
   "schema": {
     "columns": [
       {
@@ -125,5 +127,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_maryland_catalog"
 }

@@ -3,27 +3,34 @@
   "data": {
     "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/5px6-amgc/rows.csv"
   }, 
+  "description": "Updated 10/24/2011.  From the Medical Examiner's 2009 Annual Report, deaths of autopsied people by gender, age range and race.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/xbrr-cj6t.json"
+    "attribution": "Cook County Medical Examiner", 
+    "category": "Healthcare", 
+    "description": "From the 2009 Medical Examiner's Annual Report, deaths by month they occurred", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/gjq9-ajxp.json"
+    }
   }, 
-  "name": "socrata_datacatalog_cookcountyil_medical_examiner_2009_deaths_", 
+  "name": "Medical Examiner--2009 Deaths, by Month", 
   "schema": {
     "columns": [
       {
-        "name": "sex_", 
+        "name": "month", 
         "type": "text"
       }, 
       {
-        "name": "count_", 
+        "name": "number_of_deaths", 
         "type": "real"
       }, 
       {
-        "name": "percent_", 
+        "name": "percent", 
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_datacatalog_cookcountyil_medical_examiner_2009_deaths_"
 }

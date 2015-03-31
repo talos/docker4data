@@ -3,13 +3,17 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.somervillema.gov/api/views/dtkn-fv7f/rows.csv"
   }, 
+  "description": "This dataset powers the 311 Explorer", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.somervillema.gov/api/views/dtkn-fv7f.json"
+    "description": "This dataset powers the 311 Explorer", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.somervillema.gov/api/views/dtkn-fv7f.json"
+    }
   }, 
-  "name": "socrata_somervillema_311_call_center_raw_data", 
+  "name": "311 Call Center Raw Data", 
   "schema": {
     "columns": [
       {
@@ -61,5 +65,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_somervillema_311_call_center_raw_data"
 }

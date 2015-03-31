@@ -1,0 +1,96 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_healthny_managed_care_plan_utilization_data_beginning_/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/h8yk-ufg9/rows.csv"
+  }, 
+  "description": "The New York State Department of Health (NYSDOH) collects annual data on children\u2019s and adults\u2019 use of health services. This information complements the quality of care and member satisfaction information collected through an annual public reporting system called the Quality Assurance Reporting Requirements (QARR).  Utilization measures are designed to capture the frequency of certain services provided by health plans. NCQA does not view higher or lower services counts as better or worse performance. Plans with fewer than 30 eligible events are excluded from the statistical calculations of the percentiles.  For more information please visit, http://www.health.ny.gov/health_care/managed_care/reports/quality_performance_improvement.htm#link5 or go to the \"About\" tab.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New York State Department of Health", 
+    "category": "Health", 
+    "description": "The New York State Department of Health (NYSDOH) collects annual data on children\u2019s and adults\u2019 use of health services. This information complements the quality of care and member satisfaction information collected through an annual public reporting system called the Quality Assurance Reporting Requirements (QARR).  Utilization measures are designed to capture the frequency of certain services provided by health plans. NCQA does not view higher or lower services counts as better or worse performance. Plans with fewer than 30 eligible events are excluded from the statistical calculations of the percentiles.  For more information please visit, http://www.health.ny.gov/health_care/managed_care/reports/quality_performance_improvement.htm#link5 or go to the \"About\" tab.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/h8yk-ufg9.json"
+    }
+  }, 
+  "name": "Managed Care Plan Utilization Data: Beginning 2009", 
+  "schema": {
+    "columns": [
+      {
+        "name": "measurement_year", 
+        "type": "text"
+      }, 
+      {
+        "name": "payer", 
+        "type": "text"
+      }, 
+      {
+        "name": "plan_id", 
+        "type": "text"
+      }, 
+      {
+        "name": "plan_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "measure", 
+        "type": "text"
+      }, 
+      {
+        "name": "measure_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "age_category", 
+        "type": "text"
+      }, 
+      {
+        "name": "gender", 
+        "type": "text"
+      }, 
+      {
+        "name": "rate", 
+        "type": "real"
+      }, 
+      {
+        "name": "percentile_10th", 
+        "type": "real"
+      }, 
+      {
+        "name": "percentile_25th", 
+        "type": "real"
+      }, 
+      {
+        "name": "percentile_50th", 
+        "type": "real"
+      }, 
+      {
+        "name": "percentile_75th", 
+        "type": "real"
+      }, 
+      {
+        "name": "percentile_90th", 
+        "type": "real"
+      }, 
+      {
+        "name": "level_of_significance", 
+        "type": "text"
+      }, 
+      {
+        "name": "membermonths", 
+        "type": "real"
+      }, 
+      {
+        "name": "events", 
+        "type": "real"
+      }, 
+      {
+        "name": "days", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "tableName": "socrata_healthny_managed_care_plan_utilization_data_beginning_"
+}

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/dep6-aymg/rows.csv"
   }, 
+  "description": "Results given to Edmonton by the Communities in Bloom national program.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.edmonton.ca/api/views/dep6-aymg.json"
+    "attribution": "City of Edmonton, Edmonton Horticultural Society", 
+    "category": "Environmental Services", 
+    "description": "Results given to Edmonton by the Communities in Bloom national program.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/dep6-aymg.json"
+    }
   }, 
-  "name": "socrata_edmonton_ca_community_in_bloom_past_results", 
+  "name": "Community in Bloom - Past Results", 
   "schema": {
     "columns": [
       {
@@ -53,5 +59,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_edmonton_ca_community_in_bloom_past_results"
 }

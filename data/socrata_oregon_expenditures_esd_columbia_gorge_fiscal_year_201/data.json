@@ -3,18 +3,23 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/5qsu-6n7j/rows.csv"
   }, 
+  "description": "ESD Expenditures for FY 2013", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.oregon.gov/api/views/hiza-mgew.json"
+    "category": "Revenue & Expense", 
+    "description": "ESD Expenditures for FY 2013", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/5qsu-6n7j.json"
+    }
   }, 
-  "name": "socrata_oregon_expenditures_esd_columbia_gorge_fiscal_year_201", 
+  "name": "Expenditures: ESD: Columbia Gorge: Fiscal Year 2013", 
   "schema": {
     "columns": [
       {
         "name": "esd", 
-        "type": "text"
+        "type": "real"
       }, 
       {
         "name": "esd_name", 
@@ -26,14 +31,10 @@
       }, 
       {
         "name": "compt_obj", 
-        "type": "text"
+        "type": "real"
       }, 
       {
         "name": "compt_obj_title", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendor_state", 
         "type": "text"
       }, 
       {
@@ -41,9 +42,26 @@
         "type": "text"
       }, 
       {
+        "name": "vendor_address", 
+        "type": "text"
+      }, 
+      {
+        "name": "vendor_city", 
+        "type": "text"
+      }, 
+      {
+        "name": "vendor_state", 
+        "type": "text"
+      }, 
+      {
+        "name": "vendor_zip_code", 
+        "type": "real"
+      }, 
+      {
         "name": "cash_expense", 
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_oregon_expenditures_esd_columbia_gorge_fiscal_year_201"
 }

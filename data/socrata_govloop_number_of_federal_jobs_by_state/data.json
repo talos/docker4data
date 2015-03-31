@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.govloop.com/api/views/cufv-bice/rows.csv"
   }, 
+  "description": "The number and percentage of federal jobs by state", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.govloop.com/api/views/cufv-bice.json"
+    "category": "Government", 
+    "description": "The number and percentage of federal jobs by state", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.govloop.com/api/views/cufv-bice.json"
+    }
   }, 
-  "name": "socrata_govloop_number_of_federal_jobs_by_state", 
+  "name": "Number of Federal Jobs by State", 
   "schema": {
     "columns": [
       {
@@ -41,5 +46,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_govloop_number_of_federal_jobs_by_state"
 }

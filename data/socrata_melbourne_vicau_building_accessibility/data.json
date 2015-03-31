@@ -1,0 +1,76 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_melbourne_vicau_building_accessibility/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/views/pmhb-s6pn/rows.csv"
+  }, 
+  "description": "Building accessibility types collected by the City of Melbourne's Census of Land Use and Employment 2012. Data is collected to track building accessibility for internal City of Melbourne purposes. This data is provided as a community service by the City of Melbourne. It is not and does not purport to be a complete guide. There may be errors or omissions. Data is liable to change. The City of Melbourne accepts no responsibility in respect of any claim arising from use or reliance upon this data.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "City of Melbourne", 
+    "category": "Property and Planning", 
+    "description": "Building accessibility types collected by the City of Melbourne's Census of Land Use and Employment 2012. Data is collected to track building accessibility for internal City of Melbourne purposes. This data is provided as a community service by the City of Melbourne. It is not and does not purport to be a complete guide. There may be errors or omissions. Data is liable to change. The City of Melbourne accepts no responsibility in respect of any claim arising from use or reliance upon this data.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/views/pmhb-s6pn.json"
+    }
+  }, 
+  "name": "Building Accessibility", 
+  "schema": {
+    "columns": [
+      {
+        "name": "building_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "street_address", 
+        "type": "text"
+      }, 
+      {
+        "name": "suburb", 
+        "type": "text"
+      }, 
+      {
+        "name": "postcode", 
+        "type": "real"
+      }, 
+      {
+        "name": "accessibility_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "accessibility_type_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "accessibility_rating", 
+        "type": "real"
+      }, 
+      {
+        "name": "building_height_highest_floor", 
+        "type": "real"
+      }, 
+      {
+        "name": "construction_year", 
+        "type": "real"
+      }, 
+      {
+        "name": "refurbished_year", 
+        "type": "real"
+      }, 
+      {
+        "name": "latitude", 
+        "type": "real"
+      }, 
+      {
+        "name": "longitude", 
+        "type": "real"
+      }, 
+      {
+        "name": "location", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "socrata_melbourne_vicau_building_accessibility"
+}

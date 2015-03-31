@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/8yq3-m6wp/rows.csv"
   }, 
+  "description": "Displays several units of energy consumption for households, businesses, and industries in the City of Chicago during 2010. Electric  The data was aggregated from ComEd and Peoples Natural Gas by Accenture. Electrical and gas usage data comprises 88 percent of Chicago's buildings in 2010. The electricity data comprises 68 percent of overall electrical usage in the city while gas data comprises 81 percent of all gas consumption in Chicago for 2010.\r\n\r\nCensus blocks with less than 4 accounts is displayed at the Community Area without further geographic identifiers. This dataset also contains selected variables describing selected characteristics of the Census block population, physical housing, and occupancy.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/8yq3-m6wp.json"
+    "attribution": "City of Chicago", 
+    "category": "Environment & Sustainable Development", 
+    "description": "Displays several units of energy consumption for households, businesses, and industries in the City of Chicago during 2010. Electric  The data was aggregated from ComEd and Peoples Natural Gas by Accenture. Electrical and gas usage data comprises 88 percent of Chicago's buildings in 2010. The electricity data comprises 68 percent of overall electrical usage in the city while gas data comprises 81 percent of all gas consumption in Chicago for 2010.\r\n\r\nCensus blocks with less than 4 accounts is displayed at the Community Area without further geographic identifiers. This dataset also contains selected variables describing selected characteristics of the Census block population, physical housing, and occupancy.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/8yq3-m6wp.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_energy_usage_2010", 
+  "name": "Energy Usage 2010", 
   "schema": {
     "columns": [
       {
@@ -305,5 +311,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_energy_usage_2010"
 }

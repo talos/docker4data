@@ -3,17 +3,23 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/7v47-92fa/rows.csv"
   }, 
+  "description": "Historical and Projected Population 16+ in Maryland and its Jurisdictions 1970-2040, Prepared by the Maryland Department of Planning, July 2014.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/nnwx-dpqi.json"
+    "attribution": "Maryland Department of Planning", 
+    "category": "Planning", 
+    "description": "Historical and Projected Population 16+ in Maryland and its Jurisdictions 1970-2040, Prepared by the Maryland Department of Planning, July 2014.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/7v47-92fa.json"
+    }
   }, 
-  "name": "socrata_maryland_maryland_historical_and_projected_population_", 
+  "name": "Maryland Historical and Projected Population Age 16+ 1970 to 2040", 
   "schema": {
     "columns": [
       {
-        "name": "year", 
+        "name": "jurisdiction", 
         "type": "text"
       }, 
       {
@@ -34,6 +40,10 @@
       }, 
       {
         "name": "census_2010", 
+        "type": "real"
+      }, 
+      {
+        "name": "acs_2008_12", 
         "type": "real"
       }, 
       {
@@ -61,5 +71,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_maryland_maryland_historical_and_projected_population_"
 }

@@ -7,9 +7,12 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.oregon.gov/api/views/uyku-r7g5.json"
+    "category": "Revenue & Expense", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/2wti-a459.json"
+    }
   }, 
-  "name": "socrata_oregon_contracts_ous_capital_construction_retainer_pro", 
+  "name": "Contracts: OUS: Capital Construction Retainer Program: PC Supplements: Fiscal Year 2012", 
   "schema": {
     "columns": [
       {
@@ -25,7 +28,7 @@
         "type": "text"
       }, 
       {
-        "name": "contractor", 
+        "name": "consultant", 
         "type": "text"
       }, 
       {
@@ -43,11 +46,8 @@
       {
         "name": "price", 
         "type": "real"
-      }, 
-      {
-        "name": "compensation_method", 
-        "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_oregon_contracts_ous_capital_construction_retainer_pro"
 }

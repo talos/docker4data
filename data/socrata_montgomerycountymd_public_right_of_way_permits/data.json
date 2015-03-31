@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/2b9e-mbxk/rows.csv"
   }, 
+  "description": "Data for all Public Right of Way Permit applications, including status and work performed.  Update Frequency:  Daily", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/2b9e-mbxk.json"
+    "category": "Licenses/Permits", 
+    "description": "Data for all Public Right of Way Permit applications, including status and work performed.  Update Frequency:  Daily", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/2b9e-mbxk.json"
+    }
   }, 
-  "name": "socrata_montgomerycountymd_public_right_of_way_permits", 
+  "name": "Public Right Of Way Permits", 
   "schema": {
     "columns": [
       {
@@ -121,5 +126,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_montgomerycountymd_public_right_of_way_permits"
 }

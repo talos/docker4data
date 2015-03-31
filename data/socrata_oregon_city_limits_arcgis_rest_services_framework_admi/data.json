@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/4id3-9aph/rows.csv"
   }, 
+  "description": "City limits and city annexations for the State of Oregon. Source: ODOT, 1:24,000. Last updated: 2011.\n\nFull metadata record can be found here: http://gis.oregon.gov/DAS/EISPD/GEO/docs/metadata/citylim_2011.xml", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.oregon.gov/api/views/4id3-9aph.json"
+    "attribution": "Oregon Dept. of Transportation", 
+    "description": "City limits and city annexations for the State of Oregon. Source: ODOT, 1:24,000. Last updated: 2011.\n\nFull metadata record can be found here: http://gis.oregon.gov/DAS/EISPD/GEO/docs/metadata/citylim_2011.xml", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/4id3-9aph.json"
+    }
   }, 
-  "name": "socrata_oregon_city_limits_arcgis_rest_services_framework_admi", 
+  "name": "City Limits [arcgis_rest_services_Framework_Admin_Bounds_WM_MapServer_0]", 
   "schema": {
     "columns": [
       {
@@ -49,5 +54,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_oregon_city_limits_arcgis_rest_services_framework_admi"
 }

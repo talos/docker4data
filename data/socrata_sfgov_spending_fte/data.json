@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/43jt-u7yn/rows.csv"
   }, 
+  "description": "The San Francisco Controller's Office maintains a database of actual citywide staffing data from fiscal year 2003 forward. This data is presented on the Spending and Revenue report hosted at http://openbook.sfgov.org, and is also available in this dataset in CSV format. New data is added on a weekly basis.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.sfgov.org/api/views/43jt-u7yn.json"
+    "attribution": "SF Controller's Office", 
+    "category": "City Management and Ethics", 
+    "description": "The San Francisco Controller's Office maintains a database of actual citywide staffing data from fiscal year 2003 forward. This data is presented on the Spending and Revenue report hosted at http://openbook.sfgov.org, and is also available in this dataset in CSV format. New data is added on a weekly basis.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/43jt-u7yn.json"
+    }
   }, 
-  "name": "socrata_sfgov_spending_fte", 
+  "name": "Spending - FTE", 
   "schema": {
     "columns": [
       {
@@ -105,5 +111,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_sfgov_spending_fte"
 }

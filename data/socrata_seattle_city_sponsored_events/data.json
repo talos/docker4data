@@ -7,9 +7,12 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/7m6y-k25v.json"
+    "category": "Community", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/7m6y-k25v.json"
+    }
   }, 
-  "name": "socrata_seattle_city_sponsored_events", 
+  "name": "City Sponsored Events", 
   "schema": {
     "columns": [
       {
@@ -73,5 +76,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_city_sponsored_events"
 }

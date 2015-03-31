@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ny.gov/api/views/7bg2-3faq/rows.csv"
   }, 
+  "description": "Bicycle routes and recreational activities allowed on the route within New York State - https://www.dot.ny.gov/display/programs/bicycle. This list includes both on- and off-road bicycle routes and even includes information on surface type as well as other types of recreational activities allowed on the route.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/7bg2-3faq.json"
+    "attribution": "NYSDOT Bicycle Routes", 
+    "category": "Transportation", 
+    "description": "Bicycle routes and recreational activities allowed on the route within New York State - https://www.dot.ny.gov/display/programs/bicycle. This list includes both on- and off-road bicycle routes and even includes information on surface type as well as other types of recreational activities allowed on the route.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/7bg2-3faq.json"
+    }
   }, 
-  "name": "socrata_ny_bicycle_routes_across_new_york_state", 
+  "name": "Bicycle Routes Across New York State", 
   "schema": {
     "columns": [
       {
@@ -85,5 +91,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ny_bicycle_routes_across_new_york_state"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/ajpg-dges/rows.csv"
   }, 
+  "description": "Health reporting area (HRA) and zip code-level indicators for monitoring the impact of the Affordable Care Act in King County, WA. Topic areas range from access to care to population health. Imported to Socrata to allow data to be pulled as JSON from SODA to feed into Leaflet.js-based maps on an external site.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.kingcounty.gov/api/views/ajpg-dges.json"
+    "attribution": "Public Health - Seattle & King County", 
+    "category": "Health", 
+    "description": "Health reporting area (HRA) and zip code-level indicators for monitoring the impact of the Affordable Care Act in King County, WA. Topic areas range from access to care to population health. Imported to Socrata to allow data to be pulled as JSON from SODA to feed into Leaflet.js-based maps on an external site.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/ajpg-dges.json"
+    }
   }, 
-  "name": "socrata_kingcounty_king_county_health_reform_indicators", 
+  "name": "King County Health Reform Indicators", 
   "schema": {
     "columns": [
       {
@@ -77,5 +83,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_kingcounty_king_county_health_reform_indicators"
 }

@@ -1,0 +1,56 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_healthny_influenza_laboratory_confirmed_cases_reported/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/pv2d-3398/rows.csv"
+  }, 
+  "description": "This dataset includes clinical laboratory confirmed cases of influenza that meet the New York State Department of Health\u2019s (NYS DOH) case definition of a positive result on any of the following influenza laboratory tests: Rapid antigen detection test (RAT), Viral culture, Reverse transcriptase polymerase chain reaction (RT-PCR) test, Direct immunofluorescence antibody staining (DFA) test, and Indirect immunofluorescence antibody staining (IFA) test. \r\n Please see the overview document in the \u201cAbout\u201d section for more details about NYS DOH\u2019s influenza case definition.  The cases are reported weekly during  the influenza season, which runs from October through May. For more information check out: http://www.health.ny.gov/diseases/communicable/influenza/surveillance/, or go to the \u201cAbout\u201d tab.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New York State Department of Health", 
+    "category": "Health", 
+    "description": "This dataset includes clinical laboratory confirmed cases of influenza that meet the New York State Department of Health\u2019s (NYS DOH) case definition of a positive result on any of the following influenza laboratory tests: Rapid antigen detection test (RAT), Viral culture, Reverse transcriptase polymerase chain reaction (RT-PCR) test, Direct immunofluorescence antibody staining (DFA) test, and Indirect immunofluorescence antibody staining (IFA) test. \r\n Please see the overview document in the \u201cAbout\u201d section for more details about NYS DOH\u2019s influenza case definition.  The cases are reported weekly during  the influenza season, which runs from October through May. For more information check out: http://www.health.ny.gov/diseases/communicable/influenza/surveillance/, or go to the \u201cAbout\u201d tab.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/pv2d-3398.json"
+    }
+  }, 
+  "name": "Influenza  Laboratory Confirmed Cases Reported to NYSDOH: Beginning 2009-10 Season", 
+  "schema": {
+    "columns": [
+      {
+        "name": "cdc_week", 
+        "type": "real"
+      }, 
+      {
+        "name": "week_ending_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "season", 
+        "type": "text"
+      }, 
+      {
+        "name": "total_influenza_reported", 
+        "type": "real"
+      }, 
+      {
+        "name": "influenza_a", 
+        "type": "real"
+      }, 
+      {
+        "name": "influenza_b", 
+        "type": "real"
+      }, 
+      {
+        "name": "influenza_type_not_specified", 
+        "type": "real"
+      }, 
+      {
+        "name": "row_id", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "socrata_healthny_influenza_laboratory_confirmed_cases_reported"
+}

@@ -3,13 +3,17 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/iaff-ea7q/rows.csv"
   }, 
+  "description": "This data is extracted from SDOT\u2019s work management system (Hansen) and displays work that impacts the right-of-way (ROW).  The records are for those work items associated to intersections or assets associated to intersections.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/iaff-ea7q.json"
+    "description": "This data is extracted from SDOT\u2019s work management system (Hansen) and displays work that impacts the right-of-way (ROW).  The records are for those work items associated to intersections or assets associated to intersections.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/iaff-ea7q.json"
+    }
   }, 
-  "name": "socrata_seattle_sdot_work_impacting_the_right_of_way_points_", 
+  "name": "SDOT - Work Impacting the Right-of-Way (points)", 
   "schema": {
     "columns": [
       {
@@ -85,5 +89,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_sdot_work_impacting_the_right_of_way_points_"
 }

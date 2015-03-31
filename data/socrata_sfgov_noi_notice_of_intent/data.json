@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/85pj-nxpf/rows.csv"
   }, 
+  "description": "Notification list for projects in the Public Right of Way which require a \u2018Notice of Intent\u2019 (NOI)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.sfgov.org/api/views/85pj-nxpf.json"
+    "attribution": "San Francisco Department of Public Works", 
+    "category": "City Infrastructure", 
+    "description": "Notification list for projects in the Public Right of Way which require a \u2018Notice of Intent\u2019 (NOI)", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/85pj-nxpf.json"
+    }
   }, 
-  "name": "socrata_sfgov_noi_notice_of_intent", 
+  "name": "NOI - Notice of Intent", 
   "schema": {
     "columns": [
       {
@@ -37,5 +43,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_sfgov_noi_notice_of_intent"
 }

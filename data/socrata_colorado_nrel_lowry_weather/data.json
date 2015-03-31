@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/5s6g-ze7t/rows.csv"
   }, 
+  "description": "Weather data for the Lowry station, from May 30, 2008 to January 30, 2014. Contains data on temperature, humidity, wind, precipitation, and irradiance. Recorded and provided by NREL.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.colorado.gov/api/views/5s6g-ze7t.json"
+    "attribution": "NREL - National Renewable Energy Laboratory", 
+    "category": "Environment", 
+    "description": "Weather data for the Lowry station, from May 30, 2008 to January 30, 2014. Contains data on temperature, humidity, wind, precipitation, and irradiance. Recorded and provided by NREL.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/5s6g-ze7t.json"
+    }
   }, 
-  "name": "socrata_colorado_nrel_lowry_weather", 
+  "name": "NREL Lowry Weather", 
   "schema": {
     "columns": [
       {
@@ -73,5 +79,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_colorado_nrel_lowry_weather"
 }

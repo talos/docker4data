@@ -8,195 +8,599 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "attribution": "American Fact Finder", 
+    "attribution": "American Facrt Finder", 
     "category": "Population", 
-    "description": "American Community Survey statistics on income and poverty, and how many households experienced poverty in the past 12 months as of 2010. THis is an update from a previously uploaded dataset that required a data dictionary to decipher the cryptic field names. Descriptive names are included in this dataset.", 
+    "description": "American Community 5-year Survey statistics on income and poverty. There are about 200 fields so please refer to the attached ACS_Field_Description_Dictionary.xlsx for field definitions.", 
     "socrata": {
-      "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/vawf-53b4.json"
+      "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/ac82-va47.json"
     }
   }, 
-  "name": "Bronx American Community Survey 2006-2010 - Poverty-WITH FIELD NAMES", 
+  "name": "Bronx American Community Survey 2006-2010 Income & Benefits", 
   "schema": {
     "columns": [
       {
-        "name": "oid_", 
+        "name": "censustrac", 
         "type": "real"
       }, 
       {
-        "name": "puma", 
+        "name": "point_y", 
+        "type": "text"
+      }, 
+      {
+        "name": "point_x", 
         "type": "real"
       }, 
       {
-        "name": "census_tract", 
-        "type": "text"
-      }, 
-      {
-        "name": "ntaname", 
-        "type": "text"
-      }, 
-      {
-        "name": "ntacode", 
-        "type": "text"
-      }, 
-      {
-        "name": "populationest", 
+        "name": "hc01_vc74", 
         "type": "real"
       }, 
       {
-        "name": "_1_percent_all_families", 
-        "type": "text"
-      }, 
-      {
-        "name": "_2_percent_margin_of_error_all_families", 
+        "name": "hc02_vc74", 
         "type": "real"
       }, 
       {
-        "name": "_3_percent_all_families_with_related_children_under_18_years", 
-        "type": "text"
-      }, 
-      {
-        "name": "_4_percent_margin_of_error_all_families_with_related_children_under_18_years", 
+        "name": "hc03_vc74", 
         "type": "real"
       }, 
       {
-        "name": "_5_percent_all_families_with_related_children_under_18_years", 
-        "type": "text"
-      }, 
-      {
-        "name": "_6_percent_margin_of_error_all_families_with_related_children_under_18_years", 
+        "name": "hc01_vc75", 
         "type": "real"
       }, 
       {
-        "name": "_7_percent_married_couple_families", 
-        "type": "text"
-      }, 
-      {
-        "name": "_8_percent_margin_of_error_married_couple_families", 
+        "name": "hc02_vc75", 
         "type": "real"
       }, 
       {
-        "name": "_9_percent_married_couple_families_with_related_children_under_18_years", 
-        "type": "text"
-      }, 
-      {
-        "name": "_10_percent_margin_of_error_married_couple_families_with_related_children_under_18_years", 
+        "name": "hc03_vc75", 
         "type": "real"
       }, 
       {
-        "name": "_11_percent_married_couple_families_with_related_children_under_18_years", 
-        "type": "text"
-      }, 
-      {
-        "name": "_12_percent_margin_of_error_married_couple_families_with_related_children_under_18_years", 
+        "name": "hc04_vc75", 
         "type": "real"
       }, 
       {
-        "name": "_13_percent_families_with_female_householder_no_husband_present", 
-        "type": "text"
-      }, 
-      {
-        "name": "_14_percent_margin_of_error_families_with_female_householder_no_husband_present", 
+        "name": "hc01_vc76", 
         "type": "real"
       }, 
       {
-        "name": "_15_percent_families_with_female_householder_no_husband_present_with_related_children_under_18_years", 
-        "type": "text"
-      }, 
-      {
-        "name": "_16_percent_margin_of_error_families_with_female_householder_no_husband_present_with_related_children_under_18_years", 
+        "name": "hc02_vc76", 
         "type": "real"
       }, 
       {
-        "name": "_17_percent_families_with_female_householder_no_husband_present_with_related_children_under_18_years", 
-        "type": "text"
-      }, 
-      {
-        "name": "_18_percent_margin_of_error_families_with_female_householder_no_husband_present_with_related_children_under_18_years", 
+        "name": "hc03_vc76", 
         "type": "real"
       }, 
       {
-        "name": "_19_percent_all_people", 
-        "type": "text"
-      }, 
-      {
-        "name": "_20_percent_margin_of_error_all_people", 
+        "name": "hc04_vc76", 
         "type": "real"
       }, 
       {
-        "name": "_21_percent_under_18_years", 
-        "type": "text"
-      }, 
-      {
-        "name": "_22_percent_margin_of_error_under_18_years", 
+        "name": "hc01_vc77", 
         "type": "real"
       }, 
       {
-        "name": "_23_percent_under_18_years_related_children_under_18_years", 
-        "type": "text"
-      }, 
-      {
-        "name": "_24_percent_margin_of_error_under_18_years_related_children_under_18_years", 
+        "name": "hc02_vc77", 
         "type": "real"
       }, 
       {
-        "name": "_25_percent_under_18_years_related_children_under_18_years", 
-        "type": "text"
-      }, 
-      {
-        "name": "_26_percent_margin_of_error_under_18_years_related_children_under_18_years", 
+        "name": "hc03_vc77", 
         "type": "real"
       }, 
       {
-        "name": "_27_percent_under_18_years_related_children_under_18_years", 
-        "type": "text"
-      }, 
-      {
-        "name": "_28_percent_margin_of_error_under_18_years_related_children_under_18_years", 
+        "name": "hc04_vc77", 
         "type": "real"
       }, 
       {
-        "name": "_29_percent_18_years_and_over", 
-        "type": "text"
-      }, 
-      {
-        "name": "_30_percent_margin_of_error_18_years_and_over", 
+        "name": "hc01_vc78", 
         "type": "real"
       }, 
       {
-        "name": "_31_percent_18_years_and_over_18_to_64_years", 
-        "type": "text"
-      }, 
-      {
-        "name": "_32_percent_margin_of_error_18_years_and_over_18_to_64_years", 
+        "name": "hc02_vc78", 
         "type": "real"
       }, 
       {
-        "name": "_33_percent_18_years_and_over_65_years_and_over", 
-        "type": "text"
-      }, 
-      {
-        "name": "_34_percent_margin_of_error_18_years_and_over_65_years_and_over", 
+        "name": "hc03_vc78", 
         "type": "real"
       }, 
       {
-        "name": "_35_percent_people_in_families", 
-        "type": "text"
-      }, 
-      {
-        "name": "_36_percent_margin_of_error_people_in_families", 
+        "name": "hc04_vc78", 
         "type": "real"
       }, 
       {
-        "name": "_37_percent_unrelated_individuals_15_years_and_over", 
-        "type": "text"
-      }, 
-      {
-        "name": "_38_percent_margin_of_error_unrelated_individuals_15_years_and_over", 
+        "name": "hc01_vc79", 
         "type": "real"
       }, 
       {
-        "name": "location_1", 
-        "type": "text"
+        "name": "hc02_vc79", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc03_vc79", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc04_vc79", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc01_vc80", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc02_vc80", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc03_vc80", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc04_vc80", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc01_vc81", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc02_vc81", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc03_vc81", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc04_vc81", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc01_vc82", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc02_vc82", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc03_vc82", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc04_vc82", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc01_vc83", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc02_vc83", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc03_vc83", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc04_vc83", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc01_vc84", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc02_vc84", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc03_vc84", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc04_vc84", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc01_vc85", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc02_vc85", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc01_vc86", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc02_vc86", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc01_vc88", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc02_vc88", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc03_vc88", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc04_vc88", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc01_vc89", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc02_vc89", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc01_vc90", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc02_vc90", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc03_vc90", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc04_vc90", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc01_vc91", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc02_vc91", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc01_vc92", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc02_vc92", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc03_vc92", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc04_vc92", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc01_vc93", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc02_vc93", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc01_vc95", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc02_vc95", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc03_vc95", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc04_vc95", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc01_vc96", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc02_vc96", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc01_vc97", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc02_vc97", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc03_vc97", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc04_vc97", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc01_vc98", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc02_vc98", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc01_vc99", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc02_vc99", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc03_vc99", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc04_vc99", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc01_vc101", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc02_vc101", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc03_vc101", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc01_vc102", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc02_vc102", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc03_vc102", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc04_vc102", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc01_vc103", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc02_vc103", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc03_vc103", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc04_vc103", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc01_vc104", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc02_vc104", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc03_vc104", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc04_vc104", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc01_vc105", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc02_vc105", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc03_vc105", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc04_vc105", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc01_vc106", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc02_vc106", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc03_vc106", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc04_vc106", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc01_vc107", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc02_vc107", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc03_vc107", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc04_vc107", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc01_vc108", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc02_vc108", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc03_vc108", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc04_vc108", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc01_vc109", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc02_vc109", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc03_vc109", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc04_vc109", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc01_vc110", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc02_vc110", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc03_vc110", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc04_vc110", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc01_vc111", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc02_vc111", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc03_vc111", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc04_vc111", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc01_vc112", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc02_vc112", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc01_vc113", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc02_vc113", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc01_vc115", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc02_vc115", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc01_vc117", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc02_vc117", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc03_vc117", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc01_vc118", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc02_vc118", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc01_vc119", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc02_vc119", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc01_vc121", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc02_vc121", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc01_vc122", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc02_vc122", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc01_vc123", 
+        "type": "real"
+      }, 
+      {
+        "name": "hc02_vc123", 
+        "type": "real"
       }
     ]
   }, 

@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/6jpm-sxkc/rows.csv"
   }, 
+  "description": "A list of all Home Health Agencies that have been registered with Medicare. The list includes addresses, phone numbers, and quality measure ratings for each agency.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.medicare.gov/api/views/6jpm-sxkc.json"
+    "category": "Home Health Compare", 
+    "description": "A list of all Home Health Agencies that have been registered with Medicare. The list includes addresses, phone numbers, and quality measure ratings for each agency.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/6jpm-sxkc.json"
+    }
   }, 
-  "name": "socrata_medicare_home_health_care_agencies", 
+  "name": "Home Health Care Agencies", 
   "schema": {
     "columns": [
       {
@@ -253,5 +258,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_medicare_home_health_care_agencies"
 }

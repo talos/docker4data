@@ -7,9 +7,12 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.medicare.gov/api/views/c886-nwpj.json"
+    "category": "Home Health Compare", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/c886-nwpj.json"
+    }
   }, 
-  "name": "socrata_medicare_home_health_care_measure_date_range", 
+  "name": "Home Health Care - Measure Date Range", 
   "schema": {
     "columns": [
       {
@@ -21,5 +24,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_medicare_home_health_care_measure_date_range"
 }

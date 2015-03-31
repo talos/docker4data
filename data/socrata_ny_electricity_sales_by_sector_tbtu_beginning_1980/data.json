@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ny.gov/api/views/8m9z-nvih/rows.csv"
   }, 
+  "description": "New York Electricity Sales dataset provides data on total electricity requirements for New York State.  Electricity sales to ultimate consumers are provided and are broken down by sector (Residential/Commercial/Industrial/Transportation) in TBtu.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/8m9z-nvih.json"
+    "attribution": "New York State Energy Research and Development Authority", 
+    "category": "Energy & Environment", 
+    "description": "New York Electricity Sales dataset provides data on total electricity requirements for New York State.  Electricity sales to ultimate consumers are provided and are broken down by sector (Residential/Commercial/Industrial/Transportation) in TBtu.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/8m9z-nvih.json"
+    }
   }, 
-  "name": "socrata_ny_electricity_sales_by_sector_tbtu_beginning_1980", 
+  "name": "Electricity Sales By Sector, TBtu: Beginning 1980", 
   "schema": {
     "columns": [
       {
@@ -37,5 +43,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ny_electricity_sales_by_sector_tbtu_beginning_1980"
 }

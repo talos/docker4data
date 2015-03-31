@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/rm5p-8gae/rows.csv"
   }, 
+  "description": "A list of hospitals participating in the Hospital VBP Program and their performance rates and scores for the Clinical Process of Care AMI measures.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.medicare.gov/api/views/rm5p-8gae.json"
+    "category": "Hospital Compare", 
+    "description": "A list of hospitals participating in the Hospital VBP Program and their performance rates and scores for the Clinical Process of Care AMI measures.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/rm5p-8gae.json"
+    }
   }, 
-  "name": "socrata_medicare_hospital_value_based_purchasing_hvbp_acute_my", 
+  "name": "Hospital Value-Based Purchasing (HVBP) \u2013 Acute Myocardial Infarction Scores", 
   "schema": {
     "columns": [
       {
@@ -81,5 +86,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_medicare_hospital_value_based_purchasing_hvbp_acute_my"
 }

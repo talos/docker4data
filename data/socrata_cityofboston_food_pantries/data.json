@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/vjvb-2kg6/rows.csv"
   }, 
+  "description": "Food banks and food pantries in the city of Boston and surrounding areas that are partially supplied with local produce. Accurate as of August 2012. Inaccurate information? Let us know!", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofboston.gov/api/views/vjvb-2kg6.json"
+    "attribution": "Mayor's Office of Food Initiatives", 
+    "category": "Health", 
+    "description": "Food banks and food pantries in the city of Boston and surrounding areas that are partially supplied with local produce. Accurate as of August 2012. Inaccurate information? Let us know!", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/vjvb-2kg6.json"
+    }
   }, 
-  "name": "socrata_cityofboston_food_pantries", 
+  "name": "Food Pantries", 
   "schema": {
     "columns": [
       {
@@ -45,5 +51,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofboston_food_pantries"
 }

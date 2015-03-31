@@ -3,53 +3,47 @@
   "data": {
     "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/6biq-7ju6/rows.csv"
   }, 
+  "description": "Address and fee information for Asbestos Removal Permits in 2010", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/wsbi-a8u3.json"
+    "attribution": "Cook County Bureau of Environmental Control", 
+    "category": "Finance & Administration", 
+    "description": "From the Department of Environmental Control, a list of Asbestos Abatement Permits for 3Q 2012.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/erxw-ipht.json"
+    }
   }, 
-  "name": "socrata_datacatalog_cookcountyil_environmental_control_asbesto", 
+  "name": "Environmental Control - Asbestos Abatement Permits - 2012 Q3", 
   "schema": {
     "columns": [
       {
-        "name": "permit_number", 
+        "name": "asbestos_abatement_permit_number", 
         "type": "text"
       }, 
       {
-        "name": "issue_date", 
+        "name": "permit_issue_date", 
         "type": "text"
       }, 
       {
-        "name": "permit_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "permit_fee", 
+        "name": "inspection_fees", 
         "type": "real"
       }, 
       {
-        "name": "start_date", 
+        "name": "filing_fees", 
+        "type": "real"
+      }, 
+      {
+        "name": "abatement_start_date", 
         "type": "timestamp"
       }, 
       {
-        "name": "end_date", 
+        "name": "abatement_end_date", 
         "type": "timestamp"
       }, 
       {
-        "name": "property_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "property_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "city_municipality", 
-        "type": "text"
-      }, 
-      {
-        "name": "demolition_contractor", 
+        "name": "abatement_contractor", 
         "type": "text"
       }, 
       {
@@ -57,5 +51,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_datacatalog_cookcountyil_environmental_control_asbesto"
 }

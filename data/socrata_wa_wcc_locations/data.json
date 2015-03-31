@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.wa.gov/api/views/7rtx-ccbx/rows.csv"
   }, 
+  "description": "Table of WCC locations statewide. Filtered based on those positions that are currently recruiting and those that are not.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.wa.gov/api/views/7rtx-ccbx.json"
+    "attribution": "WA State Department of Ecology, Washington Conservation Corps", 
+    "category": "Natural Resources & Environment", 
+    "description": "Table of WCC locations statewide. Filtered based on those positions that are currently recruiting and those that are not.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.wa.gov/api/views/7rtx-ccbx.json"
+    }
   }, 
-  "name": "socrata_wa_wcc_locations", 
+  "name": "WCC Locations", 
   "schema": {
     "columns": [
       {
@@ -69,5 +75,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_wa_wcc_locations"
 }

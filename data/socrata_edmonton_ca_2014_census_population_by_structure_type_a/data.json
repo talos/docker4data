@@ -3,17 +3,31 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/9fnm-ns4z/rows.csv"
   }, 
+  "description": "All Census information is as of April 1, 2014.  Ages of residents are effective April 1, 2014.  No data on any individual residence will be released.  To protect the privacy of individuals, data is compiled and presented at the city, ward and neighbourhood level only.  Neighbourhood results with a population under 49 are not posted to protect the information collected.  The designation of \u201cNo Response\u201d includes households from which no census data could be collected or only partial data was available.  Bulk-count data from multiple-resident facilities (such as group homes, transient drop-in centres, residential hotels or criminal detention centres) may be limited when personal information cannot be obtained (i.e. information is not available or cannot be released by the facility administration).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.edmonton.ca/api/views/x7rf-b3eh.json"
+    "attribution": "City of Edmonton - Office of the City Clerk", 
+    "category": "Census", 
+    "description": "All Census information is as of April 1, 2014.  Ages of residents are effective April 1, 2014.  No data on any individual residence will be released.  To protect the privacy of individuals, data is compiled and presented at the city, ward and neighbourhood level only.  Neighbourhood results with a population under 49 are not posted to protect the information collected.  The designation of \u201cNo Response\u201d includes households from which no census data could be collected or only partial data was available.  Bulk-count data from multiple-resident facilities (such as group homes, transient drop-in centres, residential hotels or criminal detention centres) may be limited when personal information cannot be obtained (i.e. information is not available or cannot be released by the facility administration).", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/h8fx-xnfi.json"
+    }
   }, 
-  "name": "socrata_edmonton_ca_2014_census_population_by_structure_type_a", 
+  "name": "2014 Census - Population By Structure Type And Length Of Residence (Neighbourhood)", 
   "schema": {
     "columns": [
       {
         "name": "ward", 
+        "type": "text"
+      }, 
+      {
+        "name": "neighbourhood_number", 
+        "type": "real"
+      }, 
+      {
+        "name": "neighbourhood_name", 
         "type": "text"
       }, 
       {
@@ -45,5 +59,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_edmonton_ca_2014_census_population_by_structure_type_a"
 }

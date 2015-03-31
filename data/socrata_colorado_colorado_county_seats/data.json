@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/gqse-2qk8/rows.csv"
   }, 
+  "description": "Colorado's counties and their county seat along with EPA FIPS codes.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.colorado.gov/api/views/gqse-2qk8.json"
+    "attribution": "Wikipedia", 
+    "category": "County", 
+    "description": "Colorado's counties and their county seat along with EPA FIPS codes.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/gqse-2qk8.json"
+    }
   }, 
-  "name": "socrata_colorado_colorado_county_seats", 
+  "name": "Colorado County Seats", 
   "schema": {
     "columns": [
       {
@@ -37,5 +43,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_colorado_colorado_county_seats"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.wa.gov/api/views/e6ip-wkqq/rows.csv"
   }, 
+  "description": "Washington state population density by county by decade 1900 to 2010.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.wa.gov/api/views/e6ip-wkqq.json"
+    "attribution": "Washington State Office of Financial Management, Forecasting Division", 
+    "category": "Demographics", 
+    "description": "Washington state population density by county by decade 1900 to 2010.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.wa.gov/api/views/e6ip-wkqq.json"
+    }
   }, 
-  "name": "socrata_wa_waofm_census_population_density_by_county_by_decade", 
+  "name": "WAOFM - Census - Population Density by County by Decade, 1900 to 2010", 
   "schema": {
     "columns": [
       {
@@ -65,5 +71,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_wa_waofm_census_population_density_by_county_by_decade"
 }

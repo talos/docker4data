@@ -3,17 +3,23 @@
   "data": {
     "@id": "http://www.opendatacache.com/opendata.go.ke/api/views/98pi-n8t4/rows.csv"
   }, 
+  "description": "KIHBS  Table 5.9:  Immunisation rates of children (12-23 months) by district", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/opendata.go.ke/api/views/vtyz-8jfw.json"
+    "attribution": "KNBS", 
+    "category": "Health Sector", 
+    "description": "KIHBS  Table 5.9:  Immunisation rates of children (12-23 months) by district", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/opendata.go.ke/api/views/98pi-n8t4.json"
+    }
   }, 
-  "name": "socrata_opendata_go_ke_immunisation_rates_of_children_12_23_mo", 
+  "name": "Immunisation rates of children (12-23 months) by district - 2005/6", 
   "schema": {
     "columns": [
       {
-        "name": "county", 
+        "name": "district", 
         "type": "text"
       }, 
       {
@@ -29,30 +35,6 @@
         "type": "text"
       }, 
       {
-        "name": "polio_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "polio_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "polio_3", 
-        "type": "text"
-      }, 
-      {
-        "name": "dpt_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "dpt_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "dpt_3", 
-        "type": "text"
-      }, 
-      {
         "name": "measles", 
         "type": "text"
       }, 
@@ -65,9 +47,10 @@
         "type": "real"
       }, 
       {
-        "name": "location_1", 
+        "name": "province", 
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_opendata_go_ke_immunisation_rates_of_children_12_23_mo"
 }

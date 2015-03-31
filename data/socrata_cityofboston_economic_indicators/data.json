@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/snhc-w7k7/rows.csv"
   }, 
+  "description": "Economic indicators collected by the Boston Redevelopment Authority. Figures subject to update.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofboston.gov/api/views/snhc-w7k7.json"
+    "attribution": "Boston Redevelopment Authority", 
+    "category": "Finance", 
+    "description": "Economic indicators collected by the Boston Redevelopment Authority. Figures subject to update.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/snhc-w7k7.json"
+    }
   }, 
-  "name": "socrata_cityofboston_economic_indicators", 
+  "name": "Economic Indicators", 
   "schema": {
     "columns": [
       {
@@ -89,5 +95,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofboston_economic_indicators"
 }

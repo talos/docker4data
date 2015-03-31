@@ -3,13 +3,17 @@
   "data": {
     "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/53mq-5jsp/rows.csv"
   }, 
+  "description": "For more information on how chronic conditions were defined, please see the <a href=\"/help/glossary/#C\" rel=\"external\">Glossary</a> under Help.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/yhye-2x43.json"
+    "description": "For more information on how chronic conditions were defined, please see the <a href=\"/help/glossary/#C\" rel=\"external\">Glossary</a> under Help.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/5g9r-uceq.json"
+    }
   }, 
-  "name": "socrata_healthmeasures_aspe_hhs_measure_17_percentage_of_famil", 
+  "name": "Measure 17 : Percentage of Families with High Out-of-Pocket Medical Expenses | Chronic Condition", 
   "schema": {
     "columns": [
       {
@@ -21,7 +25,7 @@
         "type": "real"
       }, 
       {
-        "name": "ethnicity", 
+        "name": "chronic_condition", 
         "type": "text"
       }, 
       {
@@ -29,5 +33,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_healthmeasures_aspe_hhs_measure_17_percentage_of_famil"
 }

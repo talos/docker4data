@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/it8u-sznv/rows.csv"
   }, 
+  "description": "Includes signs installed and maintained by the Seattle Department of Transportation within the public right of way. The inventory is maintained in SDOT\u2019s Infor/Hansen Asset Management System, and displayed in GIS as point events along a block face.\r\n\r\nTo download the shapefile set or the kmz (compressed kml) right click on the file in the Attachment section and select Save As and select where you want it saved.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/it8u-sznv.json"
+    "attribution": "City of Seattle, Department of Transportation", 
+    "category": "Transportation", 
+    "description": "Includes signs installed and maintained by the Seattle Department of Transportation within the public right of way. The inventory is maintained in SDOT\u2019s Infor/Hansen Asset Management System, and displayed in GIS as point events along a block face.\r\n\r\nTo download the shapefile set or the kmz (compressed kml) right click on the file in the Attachment section and select Save As and select where you want it saved.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/it8u-sznv.json"
+    }
   }, 
-  "name": "socrata_seattle_street_parking_signs", 
+  "name": "Street Parking Signs", 
   "schema": {
     "columns": [
       {
@@ -129,5 +135,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_street_parking_signs"
 }

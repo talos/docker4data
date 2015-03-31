@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/amgn-fptx/rows.csv"
   }, 
+  "description": "This dataset shows the boundaries of the State Highway Administration's (SHA's) seven regions.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/amgn-fptx.json"
+    "attribution": "State Highway Administration", 
+    "category": "Transportation", 
+    "description": "This dataset shows the boundaries of the State Highway Administration's (SHA's) seven regions.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/amgn-fptx.json"
+    }
   }, 
-  "name": "socrata_maryland_sha_districts_by_county", 
+  "name": "SHA Districts by County", 
   "schema": {
     "columns": [
       {
@@ -33,5 +39,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_maryland_sha_districts_by_county"
 }

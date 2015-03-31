@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/xcdc-v8bm/rows.csv"
   }, 
+  "description": "A list of a variety of averages for each state or territory as well as the national average, including each quality measure, staffing, fine amount and number of deficiencies. Each row displays a specific state or territory, the associated measure and average.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.medicare.gov/api/views/xcdc-v8bm.json"
+    "category": "Nursing Home Compare", 
+    "description": "A list of a variety of averages for each state or territory as well as the national average, including each quality measure, staffing, fine amount and number of deficiencies. Each row displays a specific state or territory, the associated measure and average.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/xcdc-v8bm.json"
+    }
   }, 
-  "name": "socrata_medicare_state_averages", 
+  "name": "State Averages", 
   "schema": {
     "columns": [
       {
@@ -149,5 +154,6 @@
         "type": "timestamp"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_medicare_state_averages"
 }

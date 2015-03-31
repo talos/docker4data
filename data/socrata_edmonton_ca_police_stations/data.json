@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/e7aq-scxv/rows.csv"
   }, 
+  "description": "List of all police stations in Edmonton", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.edmonton.ca/api/views/e7aq-scxv.json"
+    "attribution": "City of Edmonton - Information Technology", 
+    "category": "Facilities and Structures", 
+    "description": "List of all police stations in Edmonton", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/e7aq-scxv.json"
+    }
   }, 
-  "name": "socrata_edmonton_ca_police_stations", 
+  "name": "Police Stations", 
   "schema": {
     "columns": [
       {
@@ -33,5 +39,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_edmonton_ca_police_stations"
 }

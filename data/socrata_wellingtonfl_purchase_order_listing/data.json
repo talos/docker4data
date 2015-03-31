@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.wellingtonfl.gov/api/views/wkzt-vhm6/rows.csv"
   }, 
+  "description": "Listing of all purchase orders issued in Wellington as of July 31, 2012", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.wellingtonfl.gov/api/views/wkzt-vhm6.json"
+    "attribution": "Wellington, Florida", 
+    "category": "Government", 
+    "description": "Listing of all purchase orders issued in Wellington as of July 31, 2012", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.wellingtonfl.gov/api/views/wkzt-vhm6.json"
+    }
   }, 
-  "name": "socrata_wellingtonfl_purchase_order_listing", 
+  "name": "Purchase Order Listing", 
   "schema": {
     "columns": [
       {
@@ -45,5 +51,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_wellingtonfl_purchase_order_listing"
 }

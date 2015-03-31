@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ny.gov/api/views/6nvr-tbv8/rows.csv"
   }, 
+  "description": "Includes programs that are licensed by the Office of Mental Health (OMH) and programs that are funded by OMH but do not need a license to operate.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/6nvr-tbv8.json"
+    "attribution": "New York State Office of Mental Health", 
+    "category": "Human Services", 
+    "description": "Includes programs that are licensed by the Office of Mental Health (OMH) and programs that are funded by OMH but do not need a license to operate.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/6nvr-tbv8.json"
+    }
   }, 
-  "name": "socrata_ny_local_mental_health_programs", 
+  "name": "Local Mental Health Programs", 
   "schema": {
     "columns": [
       {
@@ -117,5 +123,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ny_local_mental_health_programs"
 }

@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/bpma-ut4v/rows.csv"
   }, 
+  "description": "A monthly summary of some economic local and national indicators.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/bpma-ut4v.json"
+    "category": "Business", 
+    "description": "A monthly summary of some economic local and national indicators.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/bpma-ut4v.json"
+    }
   }, 
-  "name": "socrata_weatherfordtx_local_economic_indicators", 
+  "name": "Local Economic Indicators", 
   "schema": {
     "columns": [
       {
@@ -53,5 +58,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_weatherfordtx_local_economic_indicators"
 }

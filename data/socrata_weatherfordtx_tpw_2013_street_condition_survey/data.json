@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/k7b9-7zjb/rows.csv"
   }, 
+  "description": "2013 pavement condition survey conducted by IMS.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/k7b9-7zjb.json"
+    "attribution": "City of Weatherford, Texas - Transportation & Public Works", 
+    "category": "Infrastructure", 
+    "description": "2013 pavement condition survey conducted by IMS.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/k7b9-7zjb.json"
+    }
   }, 
-  "name": "socrata_weatherfordtx_tpw_2013_street_condition_survey", 
+  "name": "TPW - 2013 Street Condition Survey", 
   "schema": {
     "columns": [
       {
@@ -97,5 +103,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_weatherfordtx_tpw_2013_street_condition_survey"
 }

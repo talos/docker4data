@@ -3,13 +3,17 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.redmond.gov/api/views/pe7m-mv2k/rows.csv"
   }, 
+  "description": "A set of basic demographic and economic data such as population, jobs, business licenses, income and poverty rate.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.redmond.gov/api/views/pe7m-mv2k.json"
+    "description": "A set of basic demographic and economic data such as population, jobs, business licenses, income and poverty rate.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.redmond.gov/api/views/pe7m-mv2k.json"
+    }
   }, 
-  "name": "socrata_redmond_population_and_economic_indicators", 
+  "name": "Population and Economic Indicators", 
   "schema": {
     "columns": [
       {
@@ -77,5 +81,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_redmond_population_and_economic_indicators"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ny.gov/api/views/4fyc-bf8i/rows.csv"
   }, 
+  "description": "Number of home institution students attending a SUNY campus by level (Undergraduate/Graduate) and load status (full-time, part-time) by institution based on Fall term enrollment.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/ben2-nyur.json"
+    "attribution": "SUNY System Administration, Office of Institutional Research", 
+    "category": "Education", 
+    "description": "Number of home institution students attending a SUNY campus by level (Undergraduate/Graduate) and load status (full-time, part-time).  SUNY System combined annual enrollment since 1948.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/ben2-nyur.json"
+    }
   }, 
-  "name": "socrata_ny_headcount_enrollment_by_student_level_and_student_l", 
+  "name": "Headcount Enrollment by Student Level and Student Load, State University of New York: Beginning 1948", 
   "schema": {
     "columns": [
       {
@@ -53,5 +59,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ny_headcount_enrollment_by_student_level_and_student_l"
 }

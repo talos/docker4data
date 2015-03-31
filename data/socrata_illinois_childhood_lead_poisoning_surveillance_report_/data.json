@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/263f-wyus/rows.csv"
   }, 
+  "description": "In 1993, state-mandated screening for childhood lead poisoning in children 6 years of age and younger began. Physicians and other health care providers have conducted 2.4 million lead tests and reported about 270,000 children with elevated lead levels. The numbers of elevated and normal test results are used to identify areas where effort is needed to combat lead poisoning.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/y6me-irr4.json"
+    "attribution": "Illinois Department of Public Health, Office of Health Protection, Division of Environmental Health", 
+    "category": "Health", 
+    "description": "In 1993, state-mandated screening for childhood lead poisoning in children 6 years of age and younger began. Physicians and other health care providers have conducted 2.4 million lead tests and reported about 270,000 children with elevated lead levels. The numbers of elevated and normal test results are used to identify areas where effort is needed to combat lead poisoning.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/8mga-d5re.json"
+    }
   }, 
-  "name": "socrata_illinois_childhood_lead_poisoning_surveillance_report_", 
+  "name": "Childhood Lead Poisoning Surveillance Report By County, 1994", 
   "schema": {
     "columns": [
       {
@@ -17,7 +23,7 @@
         "type": "text"
       }, 
       {
-        "name": "_2000population_of_children_6_and_under", 
+        "name": "base_population_of_children_6_and_under", 
         "type": "real"
       }, 
       {
@@ -25,19 +31,11 @@
         "type": "real"
       }, 
       {
-        "name": "_10_14_mcg_dl", 
-        "type": "real"
-      }, 
-      {
         "name": "_15_19_mcg_dl", 
         "type": "real"
       }, 
       {
-        "name": "_20_24_mcg_dl", 
-        "type": "real"
-      }, 
-      {
-        "name": "_25_44_mcg_dl", 
+        "name": "_20_44_mcg_dl", 
         "type": "real"
       }, 
       {
@@ -45,5 +43,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_childhood_lead_poisoning_surveillance_report_"
 }

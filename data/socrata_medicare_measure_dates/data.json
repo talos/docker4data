@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/4j6d-yzce/rows.csv"
   }, 
+  "description": "Data Collection Periods for all measures on Hospital Compare.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.medicare.gov/api/views/4j6d-yzce.json"
+    "category": "Hospital Compare", 
+    "description": "Data Collection Periods for all measures on Hospital Compare.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/4j6d-yzce.json"
+    }
   }, 
-  "name": "socrata_medicare_measure_dates", 
+  "name": "Measure Dates", 
   "schema": {
     "columns": [
       {
@@ -37,5 +42,6 @@
         "type": "timestamp"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_medicare_measure_dates"
 }

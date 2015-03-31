@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.wellingtonfl.gov/api/views/6aei-bxzm/rows.csv"
   }, 
+  "description": "This dataset list all of the Code Enforcement Cases in Wellington since 2000.  This list only includes publically available cases.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.wellingtonfl.gov/api/views/6aei-bxzm.json"
+    "attribution": "Village of Wellington", 
+    "category": "Government", 
+    "description": "This dataset list all of the Code Enforcement Cases in Wellington since 2000.  This list only includes publically available cases.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.wellingtonfl.gov/api/views/6aei-bxzm.json"
+    }
   }, 
-  "name": "socrata_wellingtonfl_code_enforcement_cases", 
+  "name": "Code Enforcement Cases", 
   "schema": {
     "columns": [
       {
@@ -61,5 +67,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_wellingtonfl_code_enforcement_cases"
 }

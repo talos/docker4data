@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/43v9-izbq/rows.csv"
   }, 
+  "description": "This coverage contains a highway Annual Average Daily Traffic (AADT) subset of the information included in the IDOT Illinois Highway Information System (IHIS) -- Illinois Roadway Information System (IRIS). Information is collected for all public highways as defined in Illinois Compiled Statutes (605 ILCS 5/2-202).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/43v9-izbq.json"
+    "attribution": "Illinois Department of Transportation", 
+    "category": "Transportation", 
+    "description": "This coverage contains a highway Annual Average Daily Traffic (AADT) subset of the information included in the IDOT Illinois Highway Information System (IHIS) -- Illinois Roadway Information System (IRIS). Information is collected for all public highways as defined in Illinois Compiled Statutes (605 ILCS 5/2-202).", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/43v9-izbq.json"
+    }
   }, 
-  "name": "socrata_illinois_idot_average_annual_daily_traffic_2009", 
+  "name": "IDOT Average Annual Daily Traffic 2009", 
   "schema": {
     "columns": [
       {
@@ -73,5 +79,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_idot_average_annual_daily_traffic_2009"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/cqsd-e672/rows.csv"
   }, 
+  "description": "Trees within public right of way with a diameter of 40\" or greater.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/cqsd-e672.json"
+    "attribution": "Seattle GIS Program", 
+    "category": "Transportation", 
+    "description": "Trees within public right of way with a diameter of 40\" or greater.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/cqsd-e672.json"
+    }
   }, 
-  "name": "socrata_seattle_trees_in_the_public_right_of_way_diameter_40_", 
+  "name": "Trees in the Public Right of Way  Diameter >= 40\"", 
   "schema": {
     "columns": [
       {
@@ -117,5 +123,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_trees_in_the_public_right_of_way_diameter_40_"
 }

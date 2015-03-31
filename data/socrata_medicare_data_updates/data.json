@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/bzsr-4my4/rows.csv"
   }, 
+  "description": "Lists the data updates for a scheduled quarterly refresh and as well those that are updated in between refreshes.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.medicare.gov/api/views/bzsr-4my4.json"
+    "category": "Hospital Compare", 
+    "description": "Lists the data updates for a scheduled quarterly refresh and as well those that are updated in between refreshes.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/bzsr-4my4.json"
+    }
   }, 
-  "name": "socrata_medicare_data_updates", 
+  "name": "Data Updates", 
   "schema": {
     "columns": [
       {
@@ -33,5 +38,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_medicare_data_updates"
 }

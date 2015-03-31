@@ -1,0 +1,45 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_raleighnc_police_incident_data_2014_with_location/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.raleighnc.gov/api/views/dkmt-3ger/rows.csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "category": "Public Safety", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.raleighnc.gov/api/views/dkmt-3ger.json"
+    }
+  }, 
+  "name": "Police Incident Data 2014 with Location", 
+  "schema": {
+    "columns": [
+      {
+        "name": "lcr", 
+        "type": "text"
+      }, 
+      {
+        "name": "lcr_desc", 
+        "type": "text"
+      }, 
+      {
+        "name": "inc_datetime", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "beat", 
+        "type": "real"
+      }, 
+      {
+        "name": "inc_no", 
+        "type": "text"
+      }, 
+      {
+        "name": "location", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "socrata_raleighnc_police_incident_data_2014_with_location"
+}

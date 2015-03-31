@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/aksk-kvfp/rows.csv"
   }, 
+  "description": "Vacant property owned and managed by the City of Chicago Department of Planning and Development. Information provided in the database, or on the City\u2019s website generally, should not be used as a substitute for title research, title evidence, title insurance, real estate tax exemption or payment status, environmental or geotechnical due diligence, or as a substitute for legal, accounting, real estate, business, tax or other professional advice. The City assumes no liability for any damages or loss of any kind that might arise from the reliance upon, use of, misuse of, or the inability to use the LIS database or the City\u2019s web site and the materials contained on the website. The City also assumes no liability for improper or incorrect use of materials or information contained on its website. All materials that appear in the LIS database or on the City\u2019s web site are distributed and transmitted \"as is,\" without warranties of any kind, either express or implied as to the accuracy, reliability or completeness of any information, and subject to the terms and conditions stated in this disclaimer.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/aksk-kvfp.json"
+    "attribution": "Chicago Department of Planning and Development", 
+    "category": "Community & Economic Development", 
+    "description": "Vacant property owned and managed by the City of Chicago Department of Planning and Development. Information provided in the database, or on the City\u2019s website generally, should not be used as a substitute for title research, title evidence, title insurance, real estate tax exemption or payment status, environmental or geotechnical due diligence, or as a substitute for legal, accounting, real estate, business, tax or other professional advice. The City assumes no liability for any damages or loss of any kind that might arise from the reliance upon, use of, misuse of, or the inability to use the LIS database or the City\u2019s web site and the materials contained on the website. The City also assumes no liability for improper or incorrect use of materials or information contained on its website. All materials that appear in the LIS database or on the City\u2019s web site are distributed and transmitted \"as is,\" without warranties of any kind, either express or implied as to the accuracy, reliability or completeness of any information, and subject to the terms and conditions stated in this disclaimer.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/aksk-kvfp.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_city_owned_land_inventory", 
+  "name": "City-Owned Land Inventory", 
   "schema": {
     "columns": [
       {
@@ -57,5 +63,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_city_owned_land_inventory"
 }

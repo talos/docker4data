@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/msk6-43c6/rows.csv"
   }, 
+  "description": "Data of approved building/construction permits", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofboston.gov/api/views/msk6-43c6.json"
+    "attribution": "Inspectional Services Division", 
+    "category": "Permitting", 
+    "description": "Data of approved building/construction permits", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/msk6-43c6.json"
+    }
   }, 
-  "name": "socrata_cityofboston_approved_building_permits", 
+  "name": "Approved Building Permits", 
   "schema": {
     "columns": [
       {
@@ -97,5 +103,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofboston_approved_building_permits"
 }

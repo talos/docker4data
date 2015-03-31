@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.govloop.com/api/views/9tsu-xipw/rows.csv"
   }, 
+  "description": "OPM personnel data", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.govloop.com/api/views/9tsu-xipw.json"
+    "category": "Government", 
+    "description": "OPM personnel data", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.govloop.com/api/views/9tsu-xipw.json"
+    }
   }, 
-  "name": "socrata_govloop_personnel_data", 
+  "name": "Personnel Data", 
   "schema": {
     "columns": [
       {
@@ -65,5 +70,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_govloop_personnel_data"
 }

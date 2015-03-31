@@ -1,0 +1,64 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_healthny_environmental_radiation_surveillance_indian_p/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/ms7x-sfpf/rows.csv"
+  }, 
+  "description": "This dataset measures the air and water near Indian Point and other locations(background) around NYS to determine the normal levels of radioactivity and monitors the influence of human activities on these levels.  The site numbers represent the location from which samples are collected.  \r\n\r\nThis dataset is not designed, or intended to monitor releases from discharge points at a specific facility (e.g., a stack). The facility operator performs this type of monitoring to meet the requirements of its licensing agency (e.g., a federal agency or the New York State Department of Environmental Conservation).   A column has been added for values which can be graphed.  Readings where a less than value is displayed show a value that is less than the detection limit of the measurement method and are essentially equivalent to 0.  Variations in detection limit are due to variations in sample collection and measurement instrument performance.  For more information please visit, http://www.nyhealth.gov/radiation or go to the \"About\" tab.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New York State Department of Health", 
+    "category": "Health", 
+    "description": "This dataset measures the air and water near Indian Point and other locations(background) around NYS to determine the normal levels of radioactivity and monitors the influence of human activities on these levels.  The site numbers represent the location from which samples are collected.  \r\n\r\nThis dataset is not designed, or intended to monitor releases from discharge points at a specific facility (e.g., a stack). The facility operator performs this type of monitoring to meet the requirements of its licensing agency (e.g., a federal agency or the New York State Department of Environmental Conservation).   A column has been added for values which can be graphed.  Readings where a less than value is displayed show a value that is less than the detection limit of the measurement method and are essentially equivalent to 0.  Variations in detection limit are due to variations in sample collection and measurement instrument performance.  For more information please visit, http://www.nyhealth.gov/radiation or go to the \"About\" tab.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/ms7x-sfpf.json"
+    }
+  }, 
+  "name": "Environmental Radiation Surveillance Indian Point Readings: Beginning 2009", 
+  "schema": {
+    "columns": [
+      {
+        "name": "source_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "sample_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "location", 
+        "type": "text"
+      }, 
+      {
+        "name": "frequency", 
+        "type": "text"
+      }, 
+      {
+        "name": "date", 
+        "type": "text"
+      }, 
+      {
+        "name": "parameter_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "value", 
+        "type": "text"
+      }, 
+      {
+        "name": "units", 
+        "type": "text"
+      }, 
+      {
+        "name": "graph_value", 
+        "type": "real"
+      }, 
+      {
+        "name": "comment", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "socrata_healthny_environmental_radiation_surveillance_indian_p"
+}

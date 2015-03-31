@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/2mup-97dm/rows.csv"
   }, 
+  "description": "Monthly reporting of calls to DAAS intake call center. Calls are categorized by services requested and by language of caller.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.sfgov.org/api/views/2mup-97dm.json"
+    "attribution": "Human Services Agency", 
+    "category": "Health and Social Services", 
+    "description": "Monthly reporting of calls to DAAS intake call center. Calls are categorized by services requested and by language of caller.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/2mup-97dm.json"
+    }
   }, 
-  "name": "socrata_sfgov_daas_intake_monthly", 
+  "name": "DAAS Intake Monthly", 
   "schema": {
     "columns": [
       {
@@ -53,5 +59,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_sfgov_daas_intake_monthly"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/t85d-b449/rows.csv"
   }, 
+  "description": "The list of all property addresses in the city", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofboston.gov/api/views/t85d-b449.json"
+    "attribution": "Department of Innovation and Technology", 
+    "category": "City Services", 
+    "description": "The list of all property addresses in the city", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/t85d-b449.json"
+    }
   }, 
-  "name": "socrata_cityofboston_master_address_list", 
+  "name": "Master Address List", 
   "schema": {
     "columns": [
       {
@@ -101,5 +107,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofboston_master_address_list"
 }

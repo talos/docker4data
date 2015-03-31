@@ -7,9 +7,12 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.medicare.gov/api/views/42wc-33ci.json"
+    "category": "Hospital Compare", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/42wc-33ci.json"
+    }
   }, 
-  "name": "socrata_medicare_pch_quarterly_quality_measure_data", 
+  "name": "PCH Quarterly Quality Measure Data", 
   "schema": {
     "columns": [
       {
@@ -77,5 +80,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_medicare_pch_quarterly_quality_measure_data"
 }

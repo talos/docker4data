@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/4i42-qv3h/rows.csv"
   }, 
+  "description": "This dataset shows the location, first operational date, and approaches of the speed cameras in the City of Chicago. The approach describes the originating direction of travel which is monitored by a speed camera.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/4i42-qv3h.json"
+    "attribution": "City of Chicago", 
+    "category": "Transportation", 
+    "description": "This dataset shows the location, first operational date, and approaches of the speed cameras in the City of Chicago. The approach describes the originating direction of travel which is monitored by a speed camera.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/4i42-qv3h.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_speed_camera_locations", 
+  "name": "Speed Camera Locations", 
   "schema": {
     "columns": [
       {
@@ -41,5 +47,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_speed_camera_locations"
 }

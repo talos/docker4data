@@ -1,0 +1,40 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_streetcar_stations/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/4pcz-6jpg/rows.csv"
+  }, 
+  "description": "Show the location and names of the street car stations", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Seattle Department of Transportation", 
+    "category": "Transportation", 
+    "description": "Show the location and names of the street car stations", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/4pcz-6jpg.json"
+    }
+  }, 
+  "name": "Streetcar Stations", 
+  "schema": {
+    "columns": [
+      {
+        "name": "objectid", 
+        "type": "real"
+      }, 
+      {
+        "name": "shape", 
+        "type": "text"
+      }, 
+      {
+        "name": "station", 
+        "type": "text"
+      }, 
+      {
+        "name": "stop", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "socrata_seattle_streetcar_stations"
+}

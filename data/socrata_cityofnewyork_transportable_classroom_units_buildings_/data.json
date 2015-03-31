@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/gshi-yqza/rows.csv"
   }, 
+  "description": "Transportable Classroom Units- Buildings Only", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/gshi-yqza.json"
+    "attribution": "School Construction Authority (SCA)", 
+    "category": "Education", 
+    "description": "Transportable Classroom Units- Buildings Only", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/3spy-rjpw.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_transportable_classroom_units_buildings_", 
+  "name": "Transportable Classroom Units- Buildings Only", 
   "schema": {
     "columns": [
       {
@@ -17,33 +23,30 @@
         "type": "real"
       }, 
       {
-        "name": "council_dist", 
+        "name": "bldg_id", 
+        "type": "text"
+      }, 
+      {
+        "name": "building_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "building_address", 
+        "type": "text"
+      }, 
+      {
+        "name": "no_of_tcus", 
         "type": "real"
       }, 
       {
-        "name": "bldg", 
-        "type": "text"
+        "name": "enrollment", 
+        "type": "real"
       }, 
       {
-        "name": "org", 
-        "type": "text"
-      }, 
-      {
-        "name": "organization_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "room_no", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "function", 
-        "type": "text"
-      }, 
-      {
-        "name": "capacity", 
+        "name": "council_dist", 
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_transportable_classroom_units_buildings_"
 }

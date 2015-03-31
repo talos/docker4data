@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/772q-4wm8/rows.csv"
   }, 
+  "description": "Address and Locations of all Public Schools in Montgomery County, MD.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/772q-4wm8.json"
+    "attribution": "Montgomery County, MD", 
+    "category": "Education", 
+    "description": "Address and Locations of all Public Schools in Montgomery County, MD.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/772q-4wm8.json"
+    }
   }, 
-  "name": "socrata_montgomerycountymd_public_schools", 
+  "name": "Public Schools", 
   "schema": {
     "columns": [
       {
@@ -53,5 +59,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_montgomerycountymd_public_schools"
 }

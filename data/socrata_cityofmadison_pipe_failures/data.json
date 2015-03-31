@@ -3,13 +3,17 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofmadison.com/api/views/fhzu-ew6h/rows.csv"
   }, 
+  "description": "Water main and service breaks. Visit the MWU Website (http://www.cityofmadison.com/water/programs/infrastructure/) to learn how we are investing in your infrastructure.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofmadison.com/api/views/fhzu-ew6h.json"
+    "description": "Water main and service breaks. Visit the MWU Website (http://www.cityofmadison.com/water/programs/infrastructure/) to learn how we are investing in your infrastructure.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofmadison.com/api/views/fhzu-ew6h.json"
+    }
   }, 
-  "name": "socrata_cityofmadison_pipe_failures", 
+  "name": "Pipe Failures", 
   "schema": {
     "columns": [
       {
@@ -37,5 +41,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofmadison_pipe_failures"
 }

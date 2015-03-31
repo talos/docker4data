@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ok.gov/api/views/3jxv-7cxt/rows.csv"
   }, 
+  "description": "Decrease the number of road lanes miles in critical or inadequate condition from 3,862 in 2013 to 3,841 by 2017.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ok.gov/api/views/3jxv-7cxt.json"
+    "attribution": "Oklahoma Department of Transportation", 
+    "category": "Transportation", 
+    "description": "Decrease the number of road lanes miles in critical or inadequate condition from 3,862 in 2013 to 3,841 by 2017.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ok.gov/api/views/3jxv-7cxt.json"
+    }
   }, 
-  "name": "socrata_ok_lane_mile_road_conditions", 
+  "name": "Lane-Mile Road Conditions", 
   "schema": {
     "columns": [
       {
@@ -25,5 +31,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ok_lane_mile_road_conditions"
 }

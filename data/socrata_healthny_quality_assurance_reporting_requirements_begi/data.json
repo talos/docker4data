@@ -1,0 +1,100 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_healthny_quality_assurance_reporting_requirements_begi/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/vbkk-tipq/rows.csv"
+  }, 
+  "description": "As a way of monitoring managed care plan performance and improving the quality of care provided to New York State residents, the New York State Department of Health (NYSDOH) collects data for four types of managed care insurance (commercial HMO, commercial Preferred Provider Organization, Medicaid managed care, and Child Health Plus) on an annual basis. Not all measures are collected each year. Some services require more resource intensive methods of collection, and these measures are collected every other year to reduce the burden associated with reviewing patient records. Refer to the Health Measures Descriptions document to learn about the specific measures included in this dataset. Measure specification changes and health plan mergers and closures preclude the ability to trend this data over time. Please use caution when attempting to compare measures and/or health plans over time. For more information, check out http://www.health.ny.gov/health_care/managed_care/reports/quality_performance_improvement.htm, or go to the \"About\" tab.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New York State Department of Health", 
+    "category": "Health", 
+    "description": "As a way of monitoring managed care plan performance and improving the quality of care provided to New York State residents, the New York State Department of Health (NYSDOH) collects data for four types of managed care insurance (commercial HMO, commercial Preferred Provider Organization, Medicaid managed care, and Child Health Plus) on an annual basis. Not all measures are collected each year. Some services require more resource intensive methods of collection, and these measures are collected every other year to reduce the burden associated with reviewing patient records. Refer to the Health Measures Descriptions document to learn about the specific measures included in this dataset. Measure specification changes and health plan mergers and closures preclude the ability to trend this data over time. Please use caution when attempting to compare measures and/or health plans over time. For more information, check out http://www.health.ny.gov/health_care/managed_care/reports/quality_performance_improvement.htm, or go to the \"About\" tab.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/vbkk-tipq.json"
+    }
+  }, 
+  "name": "Quality Assurance Reporting Requirements: Beginning 2008", 
+  "schema": {
+    "columns": [
+      {
+        "name": "measurement_year", 
+        "type": "real"
+      }, 
+      {
+        "name": "payer", 
+        "type": "text"
+      }, 
+      {
+        "name": "plan_id", 
+        "type": "text"
+      }, 
+      {
+        "name": "plan_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "domain", 
+        "type": "text"
+      }, 
+      {
+        "name": "sub_domain", 
+        "type": "text"
+      }, 
+      {
+        "name": "measure_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "measure", 
+        "type": "text"
+      }, 
+      {
+        "name": "method_of_data_collection", 
+        "type": "text"
+      }, 
+      {
+        "name": "eligible_population", 
+        "type": "real"
+      }, 
+      {
+        "name": "denominator", 
+        "type": "real"
+      }, 
+      {
+        "name": "numerator", 
+        "type": "real"
+      }, 
+      {
+        "name": "rate", 
+        "type": "real"
+      }, 
+      {
+        "name": "level_of_significance", 
+        "type": "text"
+      }, 
+      {
+        "name": "percentile_90th", 
+        "type": "real"
+      }, 
+      {
+        "name": "percentile_75th", 
+        "type": "real"
+      }, 
+      {
+        "name": "percentile_50th", 
+        "type": "real"
+      }, 
+      {
+        "name": "percentile_25th", 
+        "type": "real"
+      }, 
+      {
+        "name": "percentile_10th", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "tableName": "socrata_healthny_quality_assurance_reporting_requirements_begi"
+}

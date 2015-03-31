@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/6r8r-c474/rows.csv"
   }, 
+  "description": "The sum of: the number of cases on the first day of the reporting period, and all cases added during the reporting period", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/6r8r-c474.json"
+    "attribution": "Department of Probation (DOP)", 
+    "category": "City Government", 
+    "description": "The sum of: the number of cases on the first day of the reporting period, and all cases added during the reporting period", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/3f5y-5web.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_dop_juvenile_supervision_passthrough_by_", 
+  "name": "DOP Juvenile Supervision Passthrough by Fiscal Year", 
   "schema": {
     "columns": [
       {
@@ -17,7 +23,7 @@
         "type": "text"
       }, 
       {
-        "name": "calendar_year", 
+        "name": "fiscal_year_ending_in_june_", 
         "type": "real"
       }, 
       {
@@ -25,5 +31,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_dop_juvenile_supervision_passthrough_by_"
 }

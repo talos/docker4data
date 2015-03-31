@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.raleighnc.gov/api/views/7bji-iffi/rows.csv"
   }, 
+  "description": "A filtered list from HealthData.gov on heart related mortality rates among patients in North Carolina Hospitals. HHS has begun \"liberating\" health data through the Health Data Initiative -- making more and more data from HHS' vaults (from CMS, CDC, FDA and NIH, to name a few sources) easily available and accessible to the public and to innovators across the country.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.raleighnc.gov/api/views/7bji-iffi.json"
+    "attribution": "Federal Health and Human Services Agency", 
+    "category": "Public Safety", 
+    "description": "A filtered list from HealthData.gov on heart related mortality rates among patients in North Carolina Hospitals. HHS has begun \"liberating\" health data through the Health Data Initiative -- making more and more data from HHS' vaults (from CMS, CDC, FDA and NIH, to name a few sources) easily available and accessible to the public and to innovators across the country.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.raleighnc.gov/api/views/7bji-iffi.json"
+    }
   }, 
-  "name": "socrata_raleighnc_north_carolina_hospital_mortality_rates", 
+  "name": "North Carolina Hospital Mortality Rates", 
   "schema": {
     "columns": [
       {
@@ -69,5 +75,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_raleighnc_north_carolina_hospital_mortality_rates"
 }

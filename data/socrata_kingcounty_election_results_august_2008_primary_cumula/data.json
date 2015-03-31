@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/9ycg-yemn/rows.csv"
   }, 
+  "description": "Detailed cumulative results for the August 2008 Primary Election.  Tutorial available here http://www.kingcounty.gov/elections/results/opendatatutorial.aspx", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.kingcounty.gov/api/views/9ycg-yemn.json"
+    "attribution": "King County Elections", 
+    "category": "Election results", 
+    "description": "Detailed cumulative results for the August 2008 Primary Election.  Tutorial available here http://www.kingcounty.gov/elections/results/opendatatutorial.aspx", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/9ycg-yemn.json"
+    }
   }, 
-  "name": "socrata_kingcounty_election_results_august_2008_primary_cumula", 
+  "name": "Election Results - August 2008 - Primary - Cumulative", 
   "schema": {
     "columns": [
       {
@@ -41,5 +47,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_kingcounty_election_results_august_2008_primary_cumula"
 }

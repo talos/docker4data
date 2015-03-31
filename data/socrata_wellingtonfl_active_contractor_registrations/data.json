@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.wellingtonfl.gov/api/views/hcqt-5rjv/rows.csv"
   }, 
+  "description": "Listing of all active contractor registrations - meaning these contractors have registered to do business in Wellington.  NOTE: Wellington does not warrant or recommend any of these contractors.  This list simple shows those contractors that have completed the registration process", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.wellingtonfl.gov/api/views/hcqt-5rjv.json"
+    "attribution": "Wellington, Florida", 
+    "category": "Government", 
+    "description": "Listing of all active contractor registrations - meaning these contractors have registered to do business in Wellington.  NOTE: Wellington does not warrant or recommend any of these contractors.  This list simple shows those contractors that have completed the registration process", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.wellingtonfl.gov/api/views/hcqt-5rjv.json"
+    }
   }, 
-  "name": "socrata_wellingtonfl_active_contractor_registrations", 
+  "name": "Active Contractor Registrations", 
   "schema": {
     "columns": [
       {
@@ -81,5 +87,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_wellingtonfl_active_contractor_registrations"
 }

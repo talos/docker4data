@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/9j6k-uzig/rows.csv"
   }, 
+  "description": "List of  Edmonton Transit bus stop id numbers clustered around prominent City of Edmonton landmarks, as used in the ETS Trip Planner.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.edmonton.ca/api/views/9j6k-uzig.json"
+    "attribution": "ETS Transit Information Application Team", 
+    "category": "Transit", 
+    "description": "List of  Edmonton Transit bus stop id numbers clustered around prominent City of Edmonton landmarks, as used in the ETS Trip Planner.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/9j6k-uzig.json"
+    }
   }, 
-  "name": "socrata_edmonton_ca_ets_bus_stops_by_landmarks", 
+  "name": "ETS - Bus Stops by Landmarks", 
   "schema": {
     "columns": [
       {
@@ -37,5 +43,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_edmonton_ca_ets_bus_stops_by_landmarks"
 }

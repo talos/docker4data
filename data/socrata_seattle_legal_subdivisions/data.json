@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/a4nk-hb9h/rows.csv"
   }, 
+  "description": "Legal divisions of land: lots, blocks", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/a4nk-hb9h.json"
+    "attribution": "Seattle GIS Program", 
+    "category": "Land Base", 
+    "description": "Legal divisions of land: lots, blocks", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/a4nk-hb9h.json"
+    }
   }, 
-  "name": "socrata_seattle_legal_subdivisions", 
+  "name": "Legal Subdivisions", 
   "schema": {
     "columns": [
       {
@@ -161,5 +167,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_legal_subdivisions"
 }

@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/bcnb-bux2/rows.csv"
   }, 
+  "description": "This data set contains electricity, natural gas, and heating oil usage for all City buildings above 25,000 square feet. This data set is exclusive to the April 5/7 Clean Web Challenge.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofboston.gov/api/views/bcnb-bux2.json"
+    "attribution": "City of Boston: Greenovate Boston and Department of Energy and Environmental Services", 
+    "description": "This data set contains electricity, natural gas, and heating oil usage for all City buildings above 25,000 square feet. This data set is exclusive to the April 5/7 Clean Web Challenge.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/bcnb-bux2.json"
+    }
   }, 
-  "name": "socrata_cityofboston_municipal_energy_data", 
+  "name": "Municipal Energy Data", 
   "schema": {
     "columns": [
       {
@@ -233,5 +238,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofboston_municipal_energy_data"
 }

@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/avtz-f2ge/rows.csv"
   }, 
+  "description": "A list of hospitals participating in the Hospital VBP Program and their scores for the Patient Experience of Care HCAHPS dimensions.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.medicare.gov/api/views/avtz-f2ge.json"
+    "category": "Hospital Compare", 
+    "description": "A list of hospitals participating in the Hospital VBP Program and their scores for the Patient Experience of Care HCAHPS dimensions.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/avtz-f2ge.json"
+    }
   }, 
-  "name": "socrata_medicare_hospital_value_based_purchasing_hvbp_patient_", 
+  "name": "Hospital Value-Based Purchasing (HVBP) \u2013 Patient Experience of Care Domain Scores (HCAHPS)", 
   "schema": {
     "columns": [
       {
@@ -149,5 +154,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_medicare_hospital_value_based_purchasing_hvbp_patient_"
 }

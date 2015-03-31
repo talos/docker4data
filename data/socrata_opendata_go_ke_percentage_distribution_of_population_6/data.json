@@ -3,17 +3,23 @@
   "data": {
     "@id": "http://www.opendatacache.com/opendata.go.ke/api/views/8w6k-5da5/rows.csv"
   }, 
+  "description": "KIHBS Table 4.2: Percentage distribution of Population (6-17 years) who never attended school by Reason and District", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/opendata.go.ke/api/views/x3zh-ks6t.json"
+    "attribution": "KNBS", 
+    "category": "Education", 
+    "description": "Asilimia distribution of Population (6-17 years) by School Attendance and District. KIHBS Table 4.1", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/opendata.go.ke/api/views/bwjh-ur76.json"
+    }
   }, 
-  "name": "socrata_opendata_go_ke_percentage_distribution_of_population_6", 
+  "name": "Percentage distribution of Population (6-17 years) by School Attendance and District - 2005/6", 
   "schema": {
     "columns": [
       {
-        "name": "age_group", 
+        "name": "district", 
         "type": "text"
       }, 
       {
@@ -25,13 +31,14 @@
         "type": "text"
       }, 
       {
-        "name": "not_specified", 
-        "type": "text"
-      }, 
-      {
         "name": "total_count", 
         "type": "real"
+      }, 
+      {
+        "name": "province", 
+        "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_opendata_go_ke_percentage_distribution_of_population_6"
 }

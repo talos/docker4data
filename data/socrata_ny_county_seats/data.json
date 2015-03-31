@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ny.gov/api/views/4xc7-bukh/rows.csv"
   }, 
+  "description": "Listing of the official county seat for each county in New York.  The locations are the street address of the primary county office building.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/4xc7-bukh.json"
+    "attribution": "Office of Information Technology Services", 
+    "category": "Government & Finance", 
+    "description": "Listing of the official county seat for each county in New York.  The locations are the street address of the primary county office building.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/4xc7-bukh.json"
+    }
   }, 
-  "name": "socrata_ny_county_seats", 
+  "name": "County Seats", 
   "schema": {
     "columns": [
       {
@@ -57,5 +63,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ny_county_seats"
 }

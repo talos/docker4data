@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/3n3b-fm9a/rows.csv"
   }, 
+  "description": "Public records requests made to the Oregon Department of Energy", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.oregon.gov/api/views/3n3b-fm9a.json"
+    "category": "Natural Resources", 
+    "description": "Public records requests made to the Oregon Department of Energy", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/3n3b-fm9a.json"
+    }
   }, 
-  "name": "socrata_oregon_odoepublicrecordsrequests", 
+  "name": "ODOEPublicRecordsRequests", 
   "schema": {
     "columns": [
       {
@@ -61,5 +66,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_oregon_odoepublicrecordsrequests"
 }

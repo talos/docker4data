@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/bynd-i2hj/rows.csv"
   }, 
+  "description": "The Consumer Price Indexes (CPI) program produces monthly data on changes in the prices paid by urban consumers for a representative basket of goods and services.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.colorado.gov/api/views/bynd-i2hj.json"
+    "attribution": "Bureau of Labor Statistics (BLS) via Colorado Department of Labor & Employment (CDLE)", 
+    "category": "Business", 
+    "description": "The Consumer Price Indexes (CPI) program produces monthly data on changes in the prices paid by urban consumers for a representative basket of goods and services.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/bynd-i2hj.json"
+    }
   }, 
-  "name": "socrata_colorado_consumer_price_index", 
+  "name": "Consumer Price Index", 
   "schema": {
     "columns": [
       {
@@ -81,5 +87,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_colorado_consumer_price_index"
 }

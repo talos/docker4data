@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/5r5y-pvs3/rows.csv"
   }, 
+  "description": "It contains resident demographic data at a summary level", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/5r5y-pvs3.json"
+    "attribution": "New York City Housing Authority (NYCHA)", 
+    "category": "City Government", 
+    "description": "It contains resident demographic data at a summary level", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/5r5y-pvs3.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_nycha_resident_data_book_summary", 
+  "name": "NYCHA Resident Data Book Summary", 
   "schema": {
     "columns": [
       {
@@ -777,5 +783,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_nycha_resident_data_book_summary"
 }

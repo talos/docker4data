@@ -7,9 +7,13 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofboston.gov/api/views/4xn9-dedu.json"
+    "attribution": "Public Works Department", 
+    "category": "Permitting", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/4xn9-dedu.json"
+    }
   }, 
-  "name": "socrata_cityofboston_public_works_active_work_zones", 
+  "name": "Public Works Active Work Zones", 
   "schema": {
     "columns": [
       {
@@ -113,5 +117,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofboston_public_works_active_work_zones"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/3xqu-vnum/rows.csv"
   }, 
+  "description": "Seattle Part 1 Crime stats by precinct\r\nThe precinct and beat data can be found at\r\nhttp://data.seattle.gov/Government/Seattle-Police-Department-Beats/nnxn-434b", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/3xqu-vnum.json"
+    "attribution": "City of Seattle, Department of Information Technology", 
+    "category": "Public Safety", 
+    "description": "Seattle Part 1 Crime stats by precinct\r\nThe precinct and beat data can be found at\r\nhttp://data.seattle.gov/Government/Seattle-Police-Department-Beats/nnxn-434b", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/3xqu-vnum.json"
+    }
   }, 
-  "name": "socrata_seattle_seattle_crime_stats_by_police_precinct_2008_pr", 
+  "name": "Seattle Crime Stats by Police Precinct 2008-Present", 
   "schema": {
     "columns": [
       {
@@ -45,5 +51,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_seattle_crime_stats_by_police_precinct_2008_pr"
 }

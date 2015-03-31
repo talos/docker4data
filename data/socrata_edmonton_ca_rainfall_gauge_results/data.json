@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/7fus-qa4r/rows.csv"
   }, 
+  "description": "The collection of significant rainfall measurements in the greater Edmonton area during the summer period.  This data is used to assist in the mosquito control program. Mosquito Trap Data can be found at  - https://data.edmonton.ca/Environmental-Services/Mosquitoes-Trap-Data/5zeu-wkpv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.edmonton.ca/api/views/7fus-qa4r.json"
+    "attribution": "Community Services - River Valley, Forestry and Environmental Services", 
+    "category": "Environmental Services", 
+    "description": "The collection of significant rainfall measurements in the greater Edmonton area during the summer period.  This data is used to assist in the mosquito control program. Mosquito Trap Data can be found at  - https://data.edmonton.ca/Environmental-Services/Mosquitoes-Trap-Data/5zeu-wkpv", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/7fus-qa4r.json"
+    }
   }, 
-  "name": "socrata_edmonton_ca_rainfall_gauge_results", 
+  "name": "Rainfall Gauge Results", 
   "schema": {
     "columns": [
       {
@@ -53,5 +59,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_edmonton_ca_rainfall_gauge_results"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/czy3-hkh9/rows.csv"
   }, 
+  "description": "Permit use, start and end dates mapped to the permit address.  This dataset does not include utility permits.  The dataset also includes mobility impacts and flags for \u2018rolling 30\u2019 which is a 45 day window consisting of the last 15 days and/or the next 30 days.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/czy3-hkh9.json"
+    "attribution": "SDOT GIS TEAM", 
+    "category": "Transportation", 
+    "description": "Permit use, start and end dates mapped to the permit address.  This dataset does not include utility permits.  The dataset also includes mobility impacts and flags for \u2018rolling 30\u2019 which is a 45 day window consisting of the last 15 days and/or the next 30 days.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/czy3-hkh9.json"
+    }
   }, 
-  "name": "socrata_seattle_sdot_street_use_permit_by_address_includes_imp", 
+  "name": "SDOT - Street Use Permit - by Address includes Impacts to the Right-of-Way", 
   "schema": {
     "columns": [
       {
@@ -265,5 +271,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_sdot_street_use_permit_by_address_includes_imp"
 }

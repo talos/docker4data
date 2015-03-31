@@ -1,0 +1,52 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_data_actau_act_gazetted_features/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/www.data.act.gov.au/api/views/93da-yhcs/rows.csv"
+  }, 
+  "description": "The feature names layer holds a wide range of names including names that are official, commercial or colloquial. .  Each instance in the FEATURE_NAMES table represents a single use of a name, and has a number of attached attributes that provide additional information about the name.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Environment and Planning Directorate", 
+    "category": "Imagery / Maps", 
+    "description": "The feature names layer holds a wide range of names including names that are official, commercial or colloquial. .  Each instance in the FEATURE_NAMES table represents a single use of a name, and has a number of attached attributes that provide additional information about the name.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/www.data.act.gov.au/api/views/93da-yhcs.json"
+    }
+  }, 
+  "name": "ACT GAZETTED FEATURES", 
+  "schema": {
+    "columns": [
+      {
+        "name": "feature_id", 
+        "type": "real"
+      }, 
+      {
+        "name": "type", 
+        "type": "text"
+      }, 
+      {
+        "name": "name", 
+        "type": "text"
+      }, 
+      {
+        "name": "division", 
+        "type": "text"
+      }, 
+      {
+        "name": "district", 
+        "type": "text"
+      }, 
+      {
+        "name": "extracted", 
+        "type": "real"
+      }, 
+      {
+        "name": "location_1", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "socrata_data_actau_act_gazetted_features"
+}

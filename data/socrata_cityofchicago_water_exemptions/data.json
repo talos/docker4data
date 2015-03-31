@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/8k9i-ia3x/rows.csv"
   }, 
+  "description": "List of organizations currently receiving reduced water rates by premise. Data Owner: Water Management. Time Period: Data current as of May 2012. Update Frequency: Data is updated as needed.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/8k9i-ia3x.json"
+    "attribution": "City of Chicago", 
+    "category": "Administration & Finance", 
+    "description": "List of organizations currently receiving reduced water rates by premise. Data Owner: Water Management. Time Period: Data current as of May 2012. Update Frequency: Data is updated as needed.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/8k9i-ia3x.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_water_exemptions", 
+  "name": "Water Exemptions", 
   "schema": {
     "columns": [
       {
@@ -45,5 +51,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_water_exemptions"
 }

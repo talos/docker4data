@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/65fr-66s6/rows.csv"
   }, 
+  "description": "List of current neighbourhoods and their unique identifier number.  Included are both residential and industrial neighbourhoods.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.edmonton.ca/api/views/65fr-66s6.json"
+    "attribution": "Sustainable Development  - Urban Planning and Environment", 
+    "category": "City Administration", 
+    "description": "List of current neighbourhoods and their unique identifier number.  Included are both residential and industrial neighbourhoods.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/65fr-66s6.json"
+    }
   }, 
-  "name": "socrata_edmonton_ca_city_of_edmonton_neighbourhoods", 
+  "name": "City of Edmonton - Neighbourhoods", 
   "schema": {
     "columns": [
       {
@@ -21,5 +27,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_edmonton_ca_city_of_edmonton_neighbourhoods"
 }

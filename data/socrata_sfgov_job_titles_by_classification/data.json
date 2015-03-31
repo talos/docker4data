@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/58un-vqfs/rows.csv"
   }, 
+  "description": "Shows the job titles associated with job classifications. \r\nUsed with the Salary Ranges by Classification and Employees by Classification", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.sfgov.org/api/views/58un-vqfs.json"
+    "attribution": "San Francisco Department of Human Resources", 
+    "category": "City Management and Ethics", 
+    "description": "Shows the job titles associated with job classifications. \r\nUsed with the Salary Ranges by Classification and Employees by Classification", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/58un-vqfs.json"
+    }
   }, 
-  "name": "socrata_sfgov_job_titles_by_classification", 
+  "name": "Job Titles by Classification", 
   "schema": {
     "columns": [
       {
@@ -21,5 +27,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_sfgov_job_titles_by_classification"
 }

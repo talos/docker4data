@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/waqh-8uyi/rows.csv"
   }, 
+  "description": "A list of hospitals participating in the Hospital VBP Program and their performance rates and scores for the Clinical Process of Care Heart Failure measures.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.medicare.gov/api/views/waqh-8uyi.json"
+    "category": "Hospital Compare", 
+    "description": "A list of hospitals participating in the Hospital VBP Program and their performance rates and scores for the Clinical Process of Care Heart Failure measures.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/waqh-8uyi.json"
+    }
   }, 
-  "name": "socrata_medicare_hospital_value_based_purchasing_hvbp_heart_fa", 
+  "name": "Hospital Value-Based Purchasing (HVBP) \u2013 Heart Failure Scores", 
   "schema": {
     "columns": [
       {
@@ -65,5 +70,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_medicare_hospital_value_based_purchasing_hvbp_heart_fa"
 }

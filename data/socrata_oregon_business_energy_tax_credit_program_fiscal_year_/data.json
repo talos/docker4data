@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/5p6n-mph6/rows.csv"
   }, 
+  "description": "Certificates\u00b7Issued\u00b7from\u00b7July\u00b71,\u00b72012\u00b7through\u00b7June\u00b730,\u00b72013. Withdrawn, Denied, and Incomplete applications are excluded. Every effort has been made to ensure the data are complete, but these records reflect information reported to this agency by others. The Oregon Department of Energy is not responsible for data that is misinterpreted or altered in any way.\u00a0If errors are discovered after publication of the records, the data are corrected in the electronic files.\u00a0 It is estimated that there is a margin of error of less than one percent. NOTE: This data reports tax credits issued and may differ slightly from the tax credits allowed due to rounding. The tax-credit rate depends on the biomass material type. The energy value of the biomass materials in Million Btu (MMBtu) are estimates.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.oregon.gov/api/views/rzct-chc3.json"
+    "category": "Revenue & Expense", 
+    "description": "Certificates\u00b7Issued\u00b7from\u00b7July\u00b71,\u00b72012\u00b7through\u00b7June\u00b730,\u00b72013. Withdrawn, Denied, and Incomplete applications are excluded. Every effort has been made to ensure the data are complete, but these records reflect information reported to this agency by others. The Oregon Department of Energy is not responsible for data that is misinterpreted or altered in any way.\u00a0If errors are discovered after publication of the records, the data are corrected in the electronic files.\u00a0 It is estimated that there is a margin of error of less than one percent. NOTE: This data reports tax credits issued and may differ slightly from the tax credits allowed due to rounding. The tax-credit rate depends on the biomass material type. The energy value of the biomass materials in Million Btu (MMBtu) are estimates.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/5p6n-mph6.json"
+    }
   }, 
-  "name": "socrata_oregon_business_energy_tax_credit_program_fiscal_year_", 
+  "name": "Business Energy Tax Credit Program: Fiscal Year 2013", 
   "schema": {
     "columns": [
       {
@@ -26,6 +31,10 @@
       }, 
       {
         "name": "applicant_business_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "location_1", 
         "type": "text"
       }, 
       {
@@ -61,21 +70,18 @@
         "type": "real"
       }, 
       {
-        "name": "total_energy_million_btu", 
+        "name": "total_energy_mmbtu", 
         "type": "real"
       }, 
       {
-        "name": "tax_credit_ratepercentage", 
-        "type": "real"
+        "name": "tax_credit_rate", 
+        "type": "text"
       }, 
       {
         "name": "application", 
         "type": "real"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_oregon_business_energy_tax_credit_program_fiscal_year_"
 }

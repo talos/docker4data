@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/6vqr-kbji/rows.csv"
   }, 
+  "description": "Number of WiFi sessions per month provided at Chicago Public Library locations.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/6vqr-kbji.json"
+    "attribution": "Chicago Public Library", 
+    "category": "Education", 
+    "description": "Number of WiFi sessions per month provided at Chicago Public Library locations.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/6vqr-kbji.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_libraries_wi_fi_usage_2014", 
+  "name": "Libraries Wi Fi Usage 2014", 
   "schema": {
     "columns": [
       {
@@ -29,5 +35,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_libraries_wi_fi_usage_2014"
 }

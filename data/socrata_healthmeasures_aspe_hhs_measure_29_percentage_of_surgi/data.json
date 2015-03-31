@@ -3,13 +3,17 @@
   "data": {
     "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/3i2m-ef6u/rows.csv"
   }, 
+  "description": "For more information on how regions are defined, please see the <a href=\"/help/glossary/#R\" rel=\"external\">Glossary</a> under Help.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/znmc-qncp.json"
+    "description": "Click on a state to see data from that state, a time trend graph for the selected state will appear below the map.\r\n<br/>\r\n<br>\r\nWhite coloring indicates that no data are available for that state.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/9bfa-nvfm.json"
+    }
   }, 
-  "name": "socrata_healthmeasures_aspe_hhs_measure_29_percentage_of_surgi", 
+  "name": "Measure 29 : Percentage of Surgical Patients Receiving Recommended Care | State", 
   "schema": {
     "columns": [
       {
@@ -17,9 +21,18 @@
         "type": "text"
       }, 
       {
+        "name": "state", 
+        "type": "text"
+      }, 
+      {
         "name": "year", 
         "type": "real"
+      }, 
+      {
+        "name": "national_data", 
+        "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_healthmeasures_aspe_hhs_measure_29_percentage_of_surgi"
 }

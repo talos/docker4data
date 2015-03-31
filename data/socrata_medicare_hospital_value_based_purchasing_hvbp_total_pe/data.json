@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/ypbt-wvdk/rows.csv"
   }, 
+  "description": "A list of hospitals participating in the Hospital VBP Program and their Clinical Process of Care domain scores, Patient Experience of Care dimension scores, and Total Performance Scores.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.medicare.gov/api/views/ypbt-wvdk.json"
+    "category": "Hospital Compare", 
+    "description": "A list of hospitals participating in the Hospital VBP Program and their Clinical Process of Care domain scores, Patient Experience of Care dimension scores, and Total Performance Scores.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/ypbt-wvdk.json"
+    }
   }, 
-  "name": "socrata_medicare_hospital_value_based_purchasing_hvbp_total_pe", 
+  "name": "Hospital Value-Based Purchasing (HVBP) \u2013 Total Performance Score", 
   "schema": {
     "columns": [
       {
@@ -81,5 +86,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_medicare_hospital_value_based_purchasing_hvbp_total_pe"
 }

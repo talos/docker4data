@@ -1,0 +1,40 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_data_actau_library_locations/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/www.data.act.gov.au/api/views/hssi-h7fk/rows.csv"
+  }, 
+  "description": "Location of public library branches in Libraries ACT", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Libraries ACT", 
+    "category": "Places and Address", 
+    "description": "Location of public library branches in Libraries ACT", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/www.data.act.gov.au/api/views/hssi-h7fk.json"
+    }
+  }, 
+  "name": "Library Locations", 
+  "schema": {
+    "columns": [
+      {
+        "name": "library_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "street_address", 
+        "type": "text"
+      }, 
+      {
+        "name": "suburb", 
+        "type": "text"
+      }, 
+      {
+        "name": "location_1", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "socrata_data_actau_library_locations"
+}

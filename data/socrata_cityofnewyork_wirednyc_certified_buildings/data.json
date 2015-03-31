@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/37it-gmcp/rows.csv"
   }, 
+  "description": "This dataset contains information for buildings that have completed the certification process. These buildings are all publicly viewable on the WiredNYC website (www.wiredscore.com)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/37it-gmcp.json"
+    "attribution": "NYC EDC", 
+    "category": "NYC BigApps", 
+    "description": "This dataset contains information for buildings that have completed the certification process. These buildings are all publicly viewable on the WiredNYC website (www.wiredscore.com)", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/37it-gmcp.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_wirednyc_certified_buildings", 
+  "name": "WiredNYC \u2013 Certified Buildings", 
   "schema": {
     "columns": [
       {
@@ -101,5 +107,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_wirednyc_certified_buildings"
 }

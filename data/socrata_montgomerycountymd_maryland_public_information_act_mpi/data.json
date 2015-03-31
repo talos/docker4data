@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/99ya-kjjr/rows.csv"
   }, 
+  "description": "The MPIA dataset will contain a list of MPIA requests that contain information about the MPIA request as well as a web link to the MPIA response packet created by the owning departments.  Each request will contain the following information:\r\n\r\nRequestor First Name\r\nRequestor Last Name\r\nRequestor Organization\r\nDescription\r\nIntake (ie email)\r\nLead Department\r\nData Owning Departments\r\nDate Response Posted\r\nWho Published the Response\r\nLink to the Response Document(s) on a public Web Site\r\n\r\nUpdate Frequency:  Daily", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/99ya-kjjr.json"
+    "category": "Government", 
+    "description": "The MPIA dataset will contain a list of MPIA requests that contain information about the MPIA request as well as a web link to the MPIA response packet created by the owning departments.  Each request will contain the following information:\r\n\r\nRequestor First Name\r\nRequestor Last Name\r\nRequestor Organization\r\nDescription\r\nIntake (ie email)\r\nLead Department\r\nData Owning Departments\r\nDate Response Posted\r\nWho Published the Response\r\nLink to the Response Document(s) on a public Web Site\r\n\r\nUpdate Frequency:  Daily", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/99ya-kjjr.json"
+    }
   }, 
-  "name": "socrata_montgomerycountymd_maryland_public_information_act_mpi", 
+  "name": "Maryland Public Information Act  (MPIA)  Request Responses", 
   "schema": {
     "columns": [
       {
@@ -57,5 +62,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_montgomerycountymd_maryland_public_information_act_mpi"
 }

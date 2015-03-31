@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/azpf-uc4s/rows.csv"
   }, 
+  "description": "The Chicago Department of Public Health is distributing condoms at several locations across the City.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/azpf-uc4s.json"
+    "attribution": "City of Chicago", 
+    "category": "Health & Human Services", 
+    "description": "The Chicago Department of Public Health is distributing condoms at several locations across the City.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/azpf-uc4s.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_condom_distribution_sites", 
+  "name": "Condom Distribution Sites", 
   "schema": {
     "columns": [
       {
@@ -41,5 +47,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_condom_distribution_sites"
 }

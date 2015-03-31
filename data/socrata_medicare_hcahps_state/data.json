@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/84jm-wiui/rows.csv"
   }, 
+  "description": "A list of the state averages for the HCAHPS survey responses. HCAHPS is a national, standardized survey of hospital patients about their experiences during a recent inpatient hospital stay.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.medicare.gov/api/views/84jm-wiui.json"
+    "category": "Hospital Compare", 
+    "description": "A list of the state averages for the HCAHPS survey responses. HCAHPS is a national, standardized survey of hospital patients about their experiences during a recent inpatient hospital stay.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/84jm-wiui.json"
+    }
   }, 
-  "name": "socrata_medicare_hcahps_state", 
+  "name": "HCAHPS - State", 
   "schema": {
     "columns": [
       {
@@ -45,5 +50,6 @@
         "type": "timestamp"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_medicare_hcahps_state"
 }

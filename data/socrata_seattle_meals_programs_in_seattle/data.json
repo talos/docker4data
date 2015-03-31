@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/hmzu-x5ed/rows.csv"
   }, 
+  "description": "This data set provides the names, locations, and service days of meal programs that serve free meals to low-income and homeless people in Seattle. It also provides the kinds of meals served.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/hmzu-x5ed.json"
+    "attribution": "Department of Human Services", 
+    "description": "This data set provides the names, locations, and service days of meal programs that serve free meals to low-income and homeless people in Seattle. It also provides the kinds of meals served.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/hmzu-x5ed.json"
+    }
   }, 
-  "name": "socrata_seattle_meals_programs_in_seattle", 
+  "name": "Meals Programs in Seattle", 
   "schema": {
     "columns": [
       {
@@ -33,5 +38,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_meals_programs_in_seattle"
 }

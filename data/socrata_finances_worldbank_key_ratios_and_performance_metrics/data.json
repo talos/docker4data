@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/56hn-zupx/rows.csv"
   }, 
+  "description": "Provides key ratios and select metrics from quarterly financial statements.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/finances.worldbank.org/api/views/56hn-zupx.json"
+    "attribution": "World Bank Group", 
+    "category": "Accounting and Control", 
+    "description": "Provides key ratios and select metrics from quarterly financial statements.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/56hn-zupx.json"
+    }
   }, 
-  "name": "socrata_finances_worldbank_key_ratios_and_performance_metrics", 
+  "name": "Key Ratios and Performance Metrics", 
   "schema": {
     "columns": [
       {
@@ -29,7 +35,7 @@
         "type": "text"
       }, 
       {
-        "name": "cash_and_liquid_investments_as_of_next_3_years_estimated_net_cash_requirements", 
+        "name": "cash_and_liquid_investments_as_of_next_3_years_estimated", 
         "type": "text"
       }, 
       {
@@ -73,5 +79,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_finances_worldbank_key_ratios_and_performance_metrics"
 }

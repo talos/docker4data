@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/kwd6-ji9j/rows.csv"
   }, 
+  "description": "The number of Medicare patients treated for each medical condition or surgical procedure - nationally.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.medicare.gov/api/views/kwd6-ji9j.json"
+    "category": "Hospital Compare", 
+    "description": "The number of Medicare patients treated for each medical condition or surgical procedure - nationally.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/kwd6-ji9j.json"
+    }
   }, 
-  "name": "socrata_medicare_medicare_volume_national", 
+  "name": "Medicare Volume - National", 
   "schema": {
     "columns": [
       {
@@ -33,5 +38,6 @@
         "type": "timestamp"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_medicare_medicare_volume_national"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.mo.gov/api/views/dymb-xy5c/rows.csv"
   }, 
+  "description": "Weekly listing of new Liquor Licenses for the past 3 weeks", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.mo.gov/api/views/dymb-xy5c.json"
+    "attribution": "Missouri Division of Alcohol and Tobacco Control", 
+    "category": "Regulatory", 
+    "description": "Weekly listing of new Liquor Licenses for the past 3 weeks", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.mo.gov/api/views/dymb-xy5c.json"
+    }
   }, 
-  "name": "socrata_mo_new_liquor_licenses", 
+  "name": "New Liquor Licenses", 
   "schema": {
     "columns": [
       {
@@ -77,5 +83,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_mo_new_liquor_licenses"
 }

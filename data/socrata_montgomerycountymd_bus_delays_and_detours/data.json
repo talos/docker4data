@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/rdz7-f9v4/rows.csv"
   }, 
+  "description": "Publish Transit Bus Delays and Detour information on dataMontgomery. Update Frequency: 5 minutes", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/rdz7-f9v4.json"
+    "category": "Transportation", 
+    "description": "Publish Transit Bus Delays and Detour information on dataMontgomery. Update Frequency: 5 minutes", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/rdz7-f9v4.json"
+    }
   }, 
-  "name": "socrata_montgomerycountymd_bus_delays_and_detours", 
+  "name": "Bus Delays and Detours", 
   "schema": {
     "columns": [
       {
@@ -25,5 +30,6 @@
         "type": "timestamp"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_montgomerycountymd_bus_delays_and_detours"
 }

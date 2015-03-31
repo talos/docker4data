@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/ceb5-u3hr/rows.csv"
   }, 
+  "description": "Division of Water Resources (DWR) Surface Water Stations. This is a list of all stream, diversion, and reservoir gages within the state of Colorado along with their period of record.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.colorado.gov/api/views/ceb5-u3hr.json"
+    "attribution": "Division of Water Resources", 
+    "category": "Water", 
+    "description": "Division of Water Resources (DWR) Surface Water Stations. This is a list of all stream, diversion, and reservoir gages within the state of Colorado along with their period of record.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/ceb5-u3hr.json"
+    }
   }, 
-  "name": "socrata_colorado_dwr_surface_water_stations", 
+  "name": "DWR Surface Water Stations", 
   "schema": {
     "columns": [
       {
@@ -77,5 +83,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_colorado_dwr_surface_water_stations"
 }

@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/6r5m-ppsj/rows.csv"
   }, 
+  "description": "Data about all public schools in Hawaii", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.hawaii.gov/api/views/6r5m-ppsj.json"
+    "attribution": "State of Hawaii Department of Education", 
+    "description": "Data about all public schools in Hawaii", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/6r5m-ppsj.json"
+    }
   }, 
-  "name": "socrata_hawaii_hawaii_public_schools", 
+  "name": "Hawaii Public Schools", 
   "schema": {
     "columns": [
       {
@@ -77,5 +82,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_hawaii_hawaii_public_schools"
 }

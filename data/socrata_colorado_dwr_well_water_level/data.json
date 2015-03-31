@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/hfwh-wsgi/rows.csv"
   }, 
+  "description": "Water Level wells with the State of Colorado along with their last known water level.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.colorado.gov/api/views/hfwh-wsgi.json"
+    "category": "Water", 
+    "description": "Water Level wells with the State of Colorado along with their last known water level.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/hfwh-wsgi.json"
+    }
   }, 
-  "name": "socrata_colorado_dwr_well_water_level", 
+  "name": "DWR Well Water Level", 
   "schema": {
     "columns": [
       {
@@ -169,5 +174,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_colorado_dwr_well_water_level"
 }

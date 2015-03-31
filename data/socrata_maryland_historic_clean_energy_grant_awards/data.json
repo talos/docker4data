@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/4jem-ugpy/rows.csv"
   }, 
+  "description": "The goal of the Clean Energy Grant Program is to increase the amount of renewable energy generated in the Maryland. Grants are available for solar photovoltaic, solar water heating, geothermal heating & cooling, and wind technologies. For more information, see http://energy.maryland.gov/Residential/cleanenergygrants/index.html.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/4jem-ugpy.json"
+    "attribution": "Maryland Energy Administration", 
+    "category": "Energy and Environment", 
+    "description": "The goal of the Clean Energy Grant Program is to increase the amount of renewable energy generated in the Maryland. Grants are available for solar photovoltaic, solar water heating, geothermal heating & cooling, and wind technologies. For more information, see http://energy.maryland.gov/Residential/cleanenergygrants/index.html.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/4jem-ugpy.json"
+    }
   }, 
-  "name": "socrata_maryland_historic_clean_energy_grant_awards", 
+  "name": "Historic Clean Energy Grant Awards", 
   "schema": {
     "columns": [
       {
@@ -85,5 +91,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_maryland_historic_clean_energy_grant_awards"
 }

@@ -3,13 +3,17 @@
   "data": {
     "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/63f4-e6dd/rows.csv"
   }, 
+  "description": "For more information on how race and ethnicity was defined, please see the <a href=\"/help/glossary#R\" rel=\"external\">Glossary</a> under Help.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/zstc-cif7.json"
+    "description": "For more information on how race and ethnicity was defined, please see the <a href=\"/help/glossary#R\" rel=\"external\">Glossary</a> under Help.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/748v-fbnu.json"
+    }
   }, 
-  "name": "socrata_healthmeasures_aspe_hhs_measure_36a_percentage_of_chil", 
+  "name": "Measure 36a : Percentage of Children with a Healthy Weight | Race and Ethnicity", 
   "schema": {
     "columns": [
       {
@@ -21,7 +25,7 @@
         "type": "text"
       }, 
       {
-        "name": "age_group", 
+        "name": "race", 
         "type": "text"
       }, 
       {
@@ -33,5 +37,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_healthmeasures_aspe_hhs_measure_36a_percentage_of_chil"
 }

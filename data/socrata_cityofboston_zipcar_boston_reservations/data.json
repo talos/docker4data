@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/863f-ps42/rows.csv"
   }, 
+  "description": "reservations by hour", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofboston.gov/api/views/863f-ps42.json"
+    "attribution": "Zipcar", 
+    "category": "Transportation", 
+    "description": "reservations by hour", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/863f-ps42.json"
+    }
   }, 
-  "name": "socrata_cityofboston_zipcar_boston_reservations", 
+  "name": "Zipcar - Boston Reservations", 
   "schema": {
     "columns": [
       {
@@ -233,5 +239,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofboston_zipcar_boston_reservations"
 }

@@ -3,13 +3,17 @@
   "data": {
     "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/5wpe-8iqw/rows.csv"
   }, 
+  "description": "Race and Hispanic origin are reported separately on birth certificates. Race categories are consistent with the 1977 Office of Management and Budget (OMB) standards. Persons of Hispanic origin may be of any race. For 2003-2009, varying numbers of states reported multiple-race data. The multiple race data for these states are bridged to the single-race category of the 1977 OMB standards.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/vaix-3gbw.json"
+    "description": "Race and Hispanic origin are reported separately on birth certificates. Race categories are consistent with the 1977 Office of Management and Budget (OMB) standards. Persons of Hispanic origin may be of any race. For 2003-2009, varying numbers of states reported multiple-race data. The multiple race data for these states are bridged to the single-race category of the 1977 OMB standards.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/83fy-y29x.json"
+    }
   }, 
-  "name": "socrata_healthmeasures_aspe_hhs_measure_19_percentage_of_infan", 
+  "name": "[ Measure 19 : Percentage of Infants Born at a Low Birth Weight | Ethnicity", 
   "schema": {
     "columns": [
       {
@@ -17,17 +21,14 @@
         "type": "text"
       }, 
       {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
         "name": "year", 
         "type": "real"
       }, 
       {
-        "name": "national_data", 
+        "name": "ethnicity", 
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_healthmeasures_aspe_hhs_measure_19_percentage_of_infan"
 }

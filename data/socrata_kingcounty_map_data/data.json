@@ -7,9 +7,11 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.kingcounty.gov/api/views/3xee-dwpd.json"
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/3xee-dwpd.json"
+    }
   }, 
-  "name": "socrata_kingcounty_map_data", 
+  "name": "Map Data", 
   "schema": {
     "columns": [
       {
@@ -45,5 +47,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_kingcounty_map_data"
 }

@@ -7,9 +7,13 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.oaklandnet.com/api/views/wm75-yhqe.json"
+    "attribution": "City of Oakland Public Works Agency", 
+    "category": "Infrastructure", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.oaklandnet.com/api/views/wm75-yhqe.json"
+    }
   }, 
-  "name": "socrata_oaklandnet_traffic_signals", 
+  "name": "Traffic Signals", 
   "schema": {
     "columns": [
       {
@@ -25,5 +29,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_oaklandnet_traffic_signals"
 }

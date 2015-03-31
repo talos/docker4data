@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/m88u-pqki/rows.csv"
   }, 
+  "description": "Data for all Residential Building Permits issued since 2000, including status and work performed.\r\n\r\nUpdate Frequency:  Daily", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/m88u-pqki.json"
+    "category": "Licenses/Permits", 
+    "description": "Data for all Residential Building Permits issued since 2000, including status and work performed.\r\n\r\nUpdate Frequency:  Daily", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/m88u-pqki.json"
+    }
   }, 
-  "name": "socrata_montgomerycountymd_residential_permit", 
+  "name": "Residential Permit", 
   "schema": {
     "columns": [
       {
@@ -93,5 +98,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_montgomerycountymd_residential_permit"
 }

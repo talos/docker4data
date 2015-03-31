@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/gnse-cass/rows.csv"
   }, 
+  "description": "An annual report of all Outline Agreements for hired equipment that were open and valid in 2012.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.edmonton.ca/api/views/gnse-cass.json"
+    "attribution": "Corporate Services - Materials Management", 
+    "category": "Purchasing", 
+    "description": "An annual report of all Outline Agreements for hired equipment that were open and valid in 2012.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/gnse-cass.json"
+    }
   }, 
-  "name": "socrata_edmonton_ca_hired_equipment_contracts_over_10_000_2012", 
+  "name": "Hired Equipment Contracts over $10,000 - 2012", 
   "schema": {
     "columns": [
       {
@@ -33,5 +39,6 @@
         "type": "timestamp"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_edmonton_ca_hired_equipment_contracts_over_10_000_2012"
 }

@@ -7,9 +7,12 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.sfgov.org/api/views/8mm5-z8i7.json"
+    "category": "Geographic Locations and Boundaries", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/8mm5-z8i7.json"
+    }
   }, 
-  "name": "socrata_sfgov_census_tracts_odata2", 
+  "name": "census_tracts_odata2", 
   "schema": {
     "columns": [
       {
@@ -41,5 +44,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_sfgov_census_tracts_odata2"
 }

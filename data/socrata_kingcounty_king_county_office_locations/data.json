@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/heqd-ysmv/rows.csv"
   }, 
+  "description": "Locations of all official King County government workplaces", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.kingcounty.gov/api/views/heqd-ysmv.json"
+    "attribution": "King County Facilities Management", 
+    "category": "Operations", 
+    "description": "Locations of all official King County government workplaces", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/heqd-ysmv.json"
+    }
   }, 
-  "name": "socrata_kingcounty_king_county_office_locations", 
+  "name": "King County office locations", 
   "schema": {
     "columns": [
       {
@@ -81,5 +87,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_kingcounty_king_county_office_locations"
 }

@@ -1,0 +1,44 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_healthny_medicaid_inpatient_prevention_quality_indicat/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/64yg-akce/rows.csv"
+  }, 
+  "description": "The datasets contain number of Medicaid PDI hospitalizations (numerator), county or zip Medicaid population (denominator), observed rate, expected number of hospitalizations and rate, and risk-adjusted rate for Agency for Healthcare Research and Quality Pediatric Quality Indicators \u2013 Pediatric (AHRQ PDI) for Medicaid enrollees beginning in 2011.\r\n\r\nThe Agency for Healthcare Research and Quality (AHRQ) Pediatric Quality Indicators (PDIs) are a set of population based measures that can be used with hospital inpatient discharge data to identify ambulatory care sensitive conditions. These are conditions where 1) the need for hospitalization is potentially preventable with appropriate outpatient care, or 2) conditions that could be less severe if treated early and appropriately. Both the Urinary Tract Infection and Gastroenteritis PDIs include admissions for patients aged 3 months through 17 years.  The asthma PDI includes admissions for patients aged 2 through 17 years.  Eligible admissions for the Diabetes Short-term Complications PDI includes admissions for patients aged 6 through 17 years.\r\n\r\nThe rates were calculated using Medicaid inpatient hospital data for the numerator and Medicaid enrollment in the county or zip code for the denominator.  \r\n\r\nThe observed counts and rates, expected counts and rates, risk-adjusted rates and the difference between the number of observed and expected PDI hospitalizations for each AHRQ PDI are presented by either resident county (including a statewide total) or resident zip code (including a statewide total).  For more information, check out: http://www.health.ny.gov/health_care/medicaid/  or go to the \u201cAbout\u201d tab.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New York State Department of Health", 
+    "category": "Health", 
+    "description": "The dataset contains the number of Medicaid Low Birth Weight newborns (numerator), the number of zip code Medicaid newborns (denominator), and observed rate for Agency for Healthcare Research and Quality Prevention Quality Indicator 9 (PQI 9) \u2013 Newborn Low Birth Weight Rate for Medicaid enrollees beginning in 2012. \r\nThe Agency for Healthcare Research and Quality (AHRQ) Prevention Quality Indicators (PQIs) are a set of population based measures that can be used with hospital inpatient discharge data to identify ambulatory care sensitive conditions. These are conditions where 1) the need for hospitalization is potentially preventable with appropriate outpatient care, or 2) conditions that could be less severe if treated early and appropriately. \r\nThe observed rate for Low Birth Weight is presented by resident zip code (including a statewide \r\ntotal). The observed rate for low birth weight  by resident county: code (including a statewide total) can be found here: https://health.data.ny.gov/Health/Medicaid-Inpatient-Prevention-Quality-Indicators-P/aapx-etcg. For more information, check out: http://www.health.ny.gov/health_care/medicaid/ or go to the \u201cAbout\u201d tab.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/vk5f-rgqm.json"
+    }
+  }, 
+  "name": "Medicaid Inpatient Prevention Quality Indicator (PQI) Newborn Low Birth Weight Rate by Patient Zip Code: Beginning 2012", 
+  "schema": {
+    "columns": [
+      {
+        "name": "discharge_year", 
+        "type": "real"
+      }, 
+      {
+        "name": "zip_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "medicaid_low_birth_weight_newborns", 
+        "type": "real"
+      }, 
+      {
+        "name": "zip_code_medicaid_newborn_population", 
+        "type": "real"
+      }, 
+      {
+        "name": "rate_per_1_000_births", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "tableName": "socrata_healthny_medicaid_inpatient_prevention_quality_indicat"
+}

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/6jt3-ntuh/rows.csv"
   }, 
+  "description": "Includes all potential mass layoff events, regardless of the reason for the layoffs or their duration (i.e.temporary, extended; seasonal and economic related layoffs)\r\nThe number of weeks included in each month can vary each year, thereby limiting comparability across years.\r\nPreliminary data.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/6jt3-ntuh.json"
+    "attribution": "IDES - Economic Information and Analysis Division", 
+    "category": "Economics", 
+    "description": "Includes all potential mass layoff events, regardless of the reason for the layoffs or their duration (i.e.temporary, extended; seasonal and economic related layoffs)\r\nThe number of weeks included in each month can vary each year, thereby limiting comparability across years.\r\nPreliminary data.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/6jt3-ntuh.json"
+    }
   }, 
-  "name": "socrata_illinois_ides_mass_layoffs_in_illinois_monthly_and_ann", 
+  "name": "IDES - Mass Layoffs in Illinois, monthly and annual", 
   "schema": {
     "columns": [
       {
@@ -41,5 +47,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_ides_mass_layoffs_in_illinois_monthly_and_ann"
 }

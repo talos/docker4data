@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/exin-fncj/rows.csv"
   }, 
+  "description": "Master schedule for King County Elections calendar", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.kingcounty.gov/api/views/exin-fncj.json"
+    "attribution": "King County Elections", 
+    "category": "Election operations", 
+    "description": "Master schedule for King County Elections calendar", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/exin-fncj.json"
+    }
   }, 
-  "name": "socrata_kingcounty_elections_master_schedule", 
+  "name": "Elections master schedule", 
   "schema": {
     "columns": [
       {
@@ -61,5 +67,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_kingcounty_elections_master_schedule"
 }

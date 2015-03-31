@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/c3ri-wwcn/rows.csv"
   }, 
+  "description": "Dataset contains active business license data for the City of Seattle for 2011.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/c3ri-wwcn.json"
+    "attribution": "City of Seattle - Dept of Finance and Administrative Services", 
+    "category": "Finance", 
+    "description": "Dataset contains active business license data for the City of Seattle for 2011.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/c3ri-wwcn.json"
+    }
   }, 
-  "name": "socrata_seattle_2011_active_business_license_data", 
+  "name": "2011 Active Business License Data", 
   "schema": {
     "columns": [
       {
@@ -49,5 +55,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_2011_active_business_license_data"
 }

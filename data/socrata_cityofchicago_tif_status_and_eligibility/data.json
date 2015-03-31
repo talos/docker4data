@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/3qsz-jemf/rows.csv"
   }, 
+  "description": "Total number of TIF districts with creation and end dates, and summary of eligibility factors.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/3qsz-jemf.json"
+    "attribution": "City of Chicago - Office of Budget and Management", 
+    "category": "Community & Economic Development", 
+    "description": "Total number of TIF districts with creation and end dates, and summary of eligibility factors.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/3qsz-jemf.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_tif_status_and_eligibility", 
+  "name": "TIF Status and Eligibility", 
   "schema": {
     "columns": [
       {
@@ -53,5 +59,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_tif_status_and_eligibility"
 }

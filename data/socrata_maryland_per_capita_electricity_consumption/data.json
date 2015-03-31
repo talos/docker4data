@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/64jf-g2fe/rows.csv"
   }, 
+  "description": "Data are provided by the Maryland Energy Administration (MEA). Data show per capita electricity usage overall and usage demand during times of peak electricity use (peak demand).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/64jf-g2fe.json"
+    "attribution": "MEA", 
+    "category": "Energy and Environment", 
+    "description": "Data are provided by the Maryland Energy Administration (MEA). Data show per capita electricity usage overall and usage demand during times of peak electricity use (peak demand).", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/64jf-g2fe.json"
+    }
   }, 
-  "name": "socrata_maryland_per_capita_electricity_consumption", 
+  "name": "Per Capita Electricity Consumption", 
   "schema": {
     "columns": [
       {
@@ -81,5 +87,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_maryland_per_capita_electricity_consumption"
 }

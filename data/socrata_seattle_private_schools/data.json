@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/gza6-uqxz/rows.csv"
   }, 
+  "description": "Private schools in Seattle", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/gza6-uqxz.json"
+    "category": "Education", 
+    "description": "Private schools in Seattle", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/gza6-uqxz.json"
+    }
   }, 
-  "name": "socrata_seattle_private_schools", 
+  "name": "Private Schools", 
   "schema": {
     "columns": [
       {
@@ -49,5 +54,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_private_schools"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/7ais-f98f/rows.csv"
   }, 
+  "description": "These incidents are based on initial police reports taken by officers when responding to incidents around the city. The information enters our Records Management System (RMS) and is then transmitted out to data.seattle.gov. This information is published within 6 to 12 hours after the report is filed into the system.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/7ais-f98f.json"
+    "attribution": "City of Seattle, Department of Information Technology, Seattle Police Department", 
+    "category": "Public Safety", 
+    "description": "These incidents are based on initial police reports taken by officers when responding to incidents around the city. The information enters our Records Management System (RMS) and is then transmitted out to data.seattle.gov. This information is published within 6 to 12 hours after the report is filed into the system.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/7ais-f98f.json"
+    }
   }, 
-  "name": "socrata_seattle_seattle_police_department_police_report_incide", 
+  "name": "Seattle Police Department Police Report Incident", 
   "schema": {
     "columns": [
       {
@@ -89,5 +95,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_seattle_police_department_police_report_incide"
 }

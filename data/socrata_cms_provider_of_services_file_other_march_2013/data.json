@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cms.gov/api/views/kt9c-mpfw/rows.csv"
   }, 
+  "description": "The POS file consists of two data files, one for CLIA labs and one for 18 other provider types.  The file names are CLIA and OTHER. If downloading the file, note it is fairly large (125MB in CSV).\r\nThe POS Extract is created from the QIES (Quality Improvement Evaluation System) database. These data include provider number, name, and address and characterize the participating institutional providers. The data are collected through the Centers for Medicare & Medicaid Services (CMS) Regional Offices. The file contains an individual record for each Medicare-approved provider and is updated quarterly. For a list of provider types, layout files, and how to order previous annual files, please see the Source Link in the About tab.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cms.gov/api/views/kt9c-mpfw.json"
+    "attribution": "CMS", 
+    "category": "Medicare", 
+    "description": "The POS file consists of two data files, one for CLIA labs and one for 18 other provider types.  The file names are CLIA and OTHER. If downloading the file, note it is fairly large (125MB in CSV).\r\nThe POS Extract is created from the QIES (Quality Improvement Evaluation System) database. These data include provider number, name, and address and characterize the participating institutional providers. The data are collected through the Centers for Medicare & Medicaid Services (CMS) Regional Offices. The file contains an individual record for each Medicare-approved provider and is updated quarterly. For a list of provider types, layout files, and how to order previous annual files, please see the Source Link in the About tab.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cms.gov/api/views/kt9c-mpfw.json"
+    }
   }, 
-  "name": "socrata_cms_provider_of_services_file_other_march_2013", 
+  "name": "Provider of Services File - OTHER - March 2013", 
   "schema": {
     "columns": [
       {
@@ -2009,5 +2015,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cms_provider_of_services_file_other_march_2013"
 }

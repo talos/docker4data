@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/ak6k-a5up/rows.csv"
   }, 
+  "description": "911 dispatch for 2/23/2015-3/1/2015", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofboston.gov/api/views/ak6k-a5up.json"
+    "attribution": "Boston Emergency Medical Services", 
+    "category": "Public Safety", 
+    "description": "911 dispatch for 2/23/2015-3/1/2015", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/ak6k-a5up.json"
+    }
   }, 
-  "name": "socrata_cityofboston_ems_911_dispatch", 
+  "name": "EMS 911 Dispatch", 
   "schema": {
     "columns": [
       {
@@ -37,5 +43,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofboston_ems_911_dispatch"
 }

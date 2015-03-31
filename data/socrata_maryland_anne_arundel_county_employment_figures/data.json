@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/8du4-um8y/rows.csv"
   }, 
+  "description": "Employment figures and unemployment rate, 2009 - present.  (Non-seasonally adjusted.)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/8du4-um8y.json"
+    "attribution": "DLLR, BLS", 
+    "category": "Business and Economy", 
+    "description": "Employment figures and unemployment rate, 2009 - present.  (Non-seasonally adjusted.)", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/8du4-um8y.json"
+    }
   }, 
-  "name": "socrata_maryland_anne_arundel_county_employment_figures", 
+  "name": "Anne Arundel County Employment Figures", 
   "schema": {
     "columns": [
       {
@@ -57,5 +63,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_maryland_anne_arundel_county_employment_figures"
 }

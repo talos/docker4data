@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/2ek5-qq7s/rows.csv"
   }, 
+  "description": "All animal cases since April 2007, including arrival and disposition date, status, type, breed, and other information.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/2ek5-qq7s.json"
+    "attribution": "City of Weatherford, Texas - Animal Services", 
+    "category": "Community Services", 
+    "description": "All animal cases since April 2007, including arrival and disposition date, status, type, breed, and other information.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/2ek5-qq7s.json"
+    }
   }, 
-  "name": "socrata_weatherfordtx_animal_shelter_all_animal_cases", 
+  "name": "Animal Shelter - All Animal Cases", 
   "schema": {
     "columns": [
       {
@@ -105,5 +111,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_weatherfordtx_animal_shelter_all_animal_cases"
 }

@@ -1,0 +1,68 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_healthny_health_facility_certification_information/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/2g9y-7kqm/rows.csv"
+  }, 
+  "description": "This dataset contains information on certifications for services and beds for Article 28, Article 36 and Article 40 health care facilities and programs  from the Health Facilities Information System (HFIS).  Article 28 facilities are hospitals, nursing homes, and diagnostic treatment centers. Article 36 facilities are certified home health care agencies and long term home health care programs. Article 40 facilities are hospices.  For more information, go to the \"About\" tab.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New York State Department of Health", 
+    "category": "Health", 
+    "description": "This dataset contains information on certifications for services and beds for Article 28, Article 36 and Article 40 health care facilities and programs  from the Health Facilities Information System (HFIS).  Article 28 facilities are hospitals, nursing homes, and diagnostic treatment centers. Article 36 facilities are certified home health care agencies and long term home health care programs. Article 40 facilities are hospices.  For more information, go to the \"About\" tab.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/2g9y-7kqm.json"
+    }
+  }, 
+  "name": "Health Facility Certification Information", 
+  "schema": {
+    "columns": [
+      {
+        "name": "fac_id", 
+        "type": "real"
+      }, 
+      {
+        "name": "primary_nam", 
+        "type": "text"
+      }, 
+      {
+        "name": "description", 
+        "type": "text"
+      }, 
+      {
+        "name": "fac_desc_short", 
+        "type": "text"
+      }, 
+      {
+        "name": "attribute_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "attribute_value", 
+        "type": "text"
+      }, 
+      {
+        "name": "measure_value", 
+        "type": "real"
+      }, 
+      {
+        "name": "sub_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "county", 
+        "type": "text"
+      }, 
+      {
+        "name": "regional_office", 
+        "type": "text"
+      }, 
+      {
+        "name": "effective_date", 
+        "type": "timestamp"
+      }
+    ]
+  }, 
+  "tableName": "socrata_healthny_health_facility_certification_information"
+}

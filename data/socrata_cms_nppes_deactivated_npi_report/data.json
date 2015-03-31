@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cms.gov/api/views/qbms-kuqs/rows.csv"
   }, 
+  "description": "The Deactivated NPI report contains NPPES data (NPI and Deactivation date) on all current deactivated NPIs in NPPES since May 23, 2005.   Each monthly report will contain the cumulative list of NPIs that have a current status of \u2018Deactivated\u2019 in NPPES.   (Reactivated NPIs will be removed from the NPPES Monthly Deactivated NPI Reports.)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cms.gov/api/views/qbms-kuqs.json"
+    "attribution": "CMS", 
+    "category": "Medicare", 
+    "description": "The Deactivated NPI report contains NPPES data (NPI and Deactivation date) on all current deactivated NPIs in NPPES since May 23, 2005.   Each monthly report will contain the cumulative list of NPIs that have a current status of \u2018Deactivated\u2019 in NPPES.   (Reactivated NPIs will be removed from the NPPES Monthly Deactivated NPI Reports.)", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cms.gov/api/views/qbms-kuqs.json"
+    }
   }, 
-  "name": "socrata_cms_nppes_deactivated_npi_report", 
+  "name": "NPPES Deactivated NPI Report", 
   "schema": {
     "columns": [
       {
@@ -21,5 +27,6 @@
         "type": "timestamp"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cms_nppes_deactivated_npi_report"
 }

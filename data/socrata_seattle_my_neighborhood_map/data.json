@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/82su-5fxf/rows.csv"
   }, 
+  "description": "Data set from My Neighborhood Map program.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/82su-5fxf.json"
+    "attribution": "City of Seattle, My Neighborhood Map program", 
+    "category": "Community", 
+    "description": "Data set from My Neighborhood Map program.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/82su-5fxf.json"
+    }
   }, 
-  "name": "socrata_seattle_my_neighborhood_map", 
+  "name": "My Neighborhood Map", 
   "schema": {
     "columns": [
       {
@@ -41,5 +47,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_my_neighborhood_map"
 }

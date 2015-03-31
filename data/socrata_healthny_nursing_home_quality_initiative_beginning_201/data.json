@@ -1,0 +1,120 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_healthny_nursing_home_quality_initiative_beginning_201/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/aruj-fgbm/rows.csv"
+  }, 
+  "description": "The New York State Nursing Home Quality Initiative (NHQI) is an annual evaluation and ranking of eligible Medicaid-certified nursing homes in New York State. Nursing homes are evaluated on their performance in three components: Quality, Compliance, and Efficiency. Nursing homes are awarded points for their performance in each measure and ranked into overall quintiles, the first quintile containing the best performing homes. Refer to the Measures document to learn more about the specific measures in the NHQI, and the data sources and time frames used. Changes in measure specifications and the deletion or addition of measures will limit the ability to trend this data over time. The quality measures are based on past data and may not accurately reflect a nursing home\u2019s most current quality performance. Refer to the Overview document for more information on the limitations of this dataset. The information in this dataset is intended to be used in conjunction with other sources for assessing quality of care in nursing homes, including in-person visits to a nursing home. For more information, go to the \"About\" tab.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New York State Department of Health", 
+    "category": "Health", 
+    "description": "The New York State Nursing Home Quality Initiative (NHQI) is an annual evaluation and ranking of eligible Medicaid-certified nursing homes in New York State. Nursing homes are evaluated on their performance in three components: Quality, Compliance, and Efficiency. Nursing homes are awarded points for their performance in each measure and ranked into overall quintiles, the first quintile containing the best performing homes. Refer to the Measures document to learn more about the specific measures in the NHQI, and the data sources and time frames used. Changes in measure specifications and the deletion or addition of measures will limit the ability to trend this data over time. The quality measures are based on past data and may not accurately reflect a nursing home\u2019s most current quality performance. Refer to the Overview document for more information on the limitations of this dataset. The information in this dataset is intended to be used in conjunction with other sources for assessing quality of care in nursing homes, including in-person visits to a nursing home. For more information, go to the \"About\" tab.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/aruj-fgbm.json"
+    }
+  }, 
+  "name": "Nursing Home Quality Initiative: Beginning 2012", 
+  "schema": {
+    "columns": [
+      {
+        "name": "year", 
+        "type": "real"
+      }, 
+      {
+        "name": "facility_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "facility_id", 
+        "type": "real"
+      }, 
+      {
+        "name": "facility_opcert", 
+        "type": "text"
+      }, 
+      {
+        "name": "facility_medicare_number", 
+        "type": "text"
+      }, 
+      {
+        "name": "measure_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "measure_full", 
+        "type": "text"
+      }, 
+      {
+        "name": "meas_id", 
+        "type": "real"
+      }, 
+      {
+        "name": "quintile1", 
+        "type": "real"
+      }, 
+      {
+        "name": "quintile2", 
+        "type": "real"
+      }, 
+      {
+        "name": "quintile3", 
+        "type": "real"
+      }, 
+      {
+        "name": "quintile4", 
+        "type": "real"
+      }, 
+      {
+        "name": "quintile5", 
+        "type": "real"
+      }, 
+      {
+        "name": "value_numeric", 
+        "type": "real"
+      }, 
+      {
+        "name": "value_character", 
+        "type": "text"
+      }, 
+      {
+        "name": "quintile", 
+        "type": "text"
+      }, 
+      {
+        "name": "points", 
+        "type": "real"
+      }, 
+      {
+        "name": "comments", 
+        "type": "text"
+      }, 
+      {
+        "name": "city", 
+        "type": "text"
+      }, 
+      {
+        "name": "county", 
+        "type": "text"
+      }, 
+      {
+        "name": "region", 
+        "type": "text"
+      }, 
+      {
+        "name": "latitude", 
+        "type": "real"
+      }, 
+      {
+        "name": "longitude", 
+        "type": "real"
+      }, 
+      {
+        "name": "location", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "socrata_healthny_nursing_home_quality_initiative_beginning_201"
+}

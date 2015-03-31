@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/54jz-7gsk/rows.csv"
   }, 
+  "description": "US Census Tracts for 2000 US Census", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/54jz-7gsk.json"
+    "attribution": "Seattle GIS Program", 
+    "category": "Community", 
+    "description": "US Census Tracts for 2000 US Census", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/54jz-7gsk.json"
+    }
   }, 
-  "name": "socrata_seattle_census_tract00", 
+  "name": "CENSUS_TRACT00", 
   "schema": {
     "columns": [
       {
@@ -73,5 +79,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_census_tract00"
 }

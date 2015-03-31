@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.wa.gov/api/views/79vd-sdqn/rows.csv"
   }, 
+  "description": "Jobs sustained from the expendatures or loans from the Public Works Board from 2000 to present, just using the main three programs", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.wa.gov/api/views/79vd-sdqn.json"
+    "attribution": "Public Works Board", 
+    "category": "Economics", 
+    "description": "Jobs sustained from the expendatures or loans from the Public Works Board from 2000 to present, just using the main three programs", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.wa.gov/api/views/79vd-sdqn.json"
+    }
   }, 
-  "name": "socrata_wa_job_sustainment", 
+  "name": "Job Sustainment", 
   "schema": {
     "columns": [
       {
@@ -29,5 +35,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_wa_job_sustainment"
 }

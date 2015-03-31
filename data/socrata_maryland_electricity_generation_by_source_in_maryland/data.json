@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/9x8y-nux4/rows.csv"
   }, 
+  "description": "The energy source for all electricity generated in Maryland from 1990 through 2012. Numbers are in megawatt-hours (MWh). Note that Maryland imports a certain percentage of its electricity from out-of-state generators (around 45 percent in 2012). Data comes from the U.S. Energy Information Administration.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/9x8y-nux4.json"
+    "category": "Energy and Environment", 
+    "description": "The energy source for all electricity generated in Maryland from 1990 through 2012. Numbers are in megawatt-hours (MWh). Note that Maryland imports a certain percentage of its electricity from out-of-state generators (around 45 percent in 2012). Data comes from the U.S. Energy Information Administration.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/9x8y-nux4.json"
+    }
   }, 
-  "name": "socrata_maryland_electricity_generation_by_source_in_maryland", 
+  "name": "Electricity Generation By Source In Maryland", 
   "schema": {
     "columns": [
       {
@@ -209,5 +214,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_maryland_electricity_generation_by_source_in_maryland"
 }

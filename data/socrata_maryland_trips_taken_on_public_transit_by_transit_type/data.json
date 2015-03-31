@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/5ymg-2p8u/rows.csv"
   }, 
+  "description": "Data are provided by the Maryland Transit Administration (MTA). This data set includes total trips taken by bus, metro, rail, and mobility/paratransit services. \r\n\r\nBeginning in FY2014, the Maryland Transit Administration (MTA) began counting Core Bus ridership using an Automated Passenger Count (APC) system to better track the number of people boarding and leaving the buses. In order to maintain the integrity of historical comparisons for the Transit Ridership Goal, the MTA used ridership estimate differences between the new APC system and previous counting estimates for its Bus Service to allow for apples-to-apples comparisons between fiscal years.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/5ymg-2p8u.json"
+    "attribution": "Maryland Transit Authority", 
+    "category": "Transportation", 
+    "description": "Data are provided by the Maryland Transit Administration (MTA). This data set includes total trips taken by bus, metro, rail, and mobility/paratransit services. \r\n\r\nBeginning in FY2014, the Maryland Transit Administration (MTA) began counting Core Bus ridership using an Automated Passenger Count (APC) system to better track the number of people boarding and leaving the buses. In order to maintain the integrity of historical comparisons for the Transit Ridership Goal, the MTA used ridership estimate differences between the new APC system and previous counting estimates for its Bus Service to allow for apples-to-apples comparisons between fiscal years.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/5ymg-2p8u.json"
+    }
   }, 
-  "name": "socrata_maryland_trips_taken_on_public_transit_by_transit_type", 
+  "name": "Trips Taken on Public Transit by Transit Type - Monthly Total Trips", 
   "schema": {
     "columns": [
       {
@@ -65,5 +71,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_maryland_trips_taken_on_public_transit_by_transit_type"
 }

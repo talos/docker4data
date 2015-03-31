@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/pqp8-xrjv/rows.csv"
   }, 
+  "description": "A list of Suppliers that indicates the supplies carried at that location and the supplier's Medicare participation status.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.medicare.gov/api/views/pqp8-xrjv.json"
+    "category": "Supplier Directory", 
+    "description": "A list of Suppliers that indicates the supplies carried at that location and the supplier's Medicare participation status.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/pqp8-xrjv.json"
+    }
   }, 
-  "name": "socrata_medicare_supplier_directory_data", 
+  "name": "Supplier Directory Data", 
   "schema": {
     "columns": [
       {
@@ -429,5 +434,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_medicare_supplier_directory_data"
 }

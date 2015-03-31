@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.sunlightlabs.com/api/views/6brm-4efm/rows.csv"
   }, 
+  "description": "This is a mashup of what's in the White House Visitor Logs and the Ceneter for Responsive Politics Lobbyist data. This is a list of the overlapping names and relevant White House Visitor Log and Lobbyist information. It should be noted that this is only a tentative list. Because the White House only releases names and no other personally identifiable information, people with common (or sometimes uncommon) names from one dataset may not match what's in another dataset. James Adams, registered lobbyist may be a different James Adams that visited the White House. It isn't an indication that a particular person has been to the White House, but rather, should serve as a starting point for journalists and citizen investigators to see if there is a link.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.sunlightlabs.com/api/views/6brm-4efm.json"
+    "category": "Government", 
+    "description": "This is a mashup of what's in the White House Visitor Logs and the Ceneter for Responsive Politics Lobbyist data. This is a list of the overlapping names and relevant White House Visitor Log and Lobbyist information. It should be noted that this is only a tentative list. Because the White House only releases names and no other personally identifiable information, people with common (or sometimes uncommon) names from one dataset may not match what's in another dataset. James Adams, registered lobbyist may be a different James Adams that visited the White House. It isn't an indication that a particular person has been to the White House, but rather, should serve as a starting point for journalists and citizen investigators to see if there is a link.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.sunlightlabs.com/api/views/6brm-4efm.json"
+    }
   }, 
-  "name": "socrata_sunlightlabs_white_house_visitor_logs_lobbyists", 
+  "name": "White House Visitor Logs & Lobbyists", 
   "schema": {
     "columns": [
       {
@@ -85,5 +90,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_sunlightlabs_white_house_visitor_logs_lobbyists"
 }

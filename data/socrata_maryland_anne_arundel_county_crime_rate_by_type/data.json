@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/3fys-ggpk/rows.csv"
   }, 
+  "description": "Historical crime rates per 100,000 people, 1975 - present.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/3fys-ggpk.json"
+    "attribution": "MSAC", 
+    "category": "Public Safety", 
+    "description": "Historical crime rates per 100,000 people, 1975 - present.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/3fys-ggpk.json"
+    }
   }, 
-  "name": "socrata_maryland_anne_arundel_county_crime_rate_by_type", 
+  "name": "Anne Arundel County Crime Rate By Type", 
   "schema": {
     "columns": [
       {
@@ -73,5 +79,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_maryland_anne_arundel_county_crime_rate_by_type"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/3hk9-b4rq/rows.csv"
   }, 
+  "description": "Permit use, start and end dates mapped to the permit address.  This dataset does not include utility permits.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/3hk9-b4rq.json"
+    "attribution": "SDOT GIS TEAM", 
+    "category": "Transportation", 
+    "description": "Permit use, start and end dates mapped to the permit address.  This dataset does not include utility permits.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/3hk9-b4rq.json"
+    }
   }, 
-  "name": "socrata_seattle_sdot_street_use_non_utility_permit_by_address", 
+  "name": "SDOT - Street Use Non-Utility Permit - by Address", 
   "schema": {
     "columns": [
       {
@@ -73,5 +79,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_sdot_street_use_non_utility_permit_by_address"
 }

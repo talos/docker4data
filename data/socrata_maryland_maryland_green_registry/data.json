@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/7dpk-qv7c/rows.csv"
   }, 
+  "description": "Locations of Maryland Green Registry member organizations. See http://www.mde.state.md.us/marylandgreen/Pages/Home.aspx.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/7dpk-qv7c.json"
+    "attribution": "Maryland Dept. of the Environment", 
+    "category": "Energy and Environment", 
+    "description": "Locations of Maryland Green Registry member organizations. See http://www.mde.state.md.us/marylandgreen/Pages/Home.aspx.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/7dpk-qv7c.json"
+    }
   }, 
-  "name": "socrata_maryland_maryland_green_registry", 
+  "name": "Maryland Green Registry", 
   "schema": {
     "columns": [
       {
@@ -37,5 +43,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_maryland_maryland_green_registry"
 }

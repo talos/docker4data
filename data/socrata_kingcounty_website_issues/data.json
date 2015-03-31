@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/er52-nehu/rows.csv"
   }, 
+  "description": "Report a Website problem", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.kingcounty.gov/api/views/er52-nehu.json"
+    "attribution": "King County IT", 
+    "category": "Website content", 
+    "description": "Report a Website problem", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/er52-nehu.json"
+    }
   }, 
-  "name": "socrata_kingcounty_website_issues", 
+  "name": "Website issues", 
   "schema": {
     "columns": [
       {
@@ -69,5 +75,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_kingcounty_website_issues"
 }

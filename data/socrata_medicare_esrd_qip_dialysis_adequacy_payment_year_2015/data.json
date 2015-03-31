@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/85f7-fdqf/rows.csv"
   }, 
+  "description": "ESRD QIP data by facility: % of hemodialysis patient-months with spKt/V >= 1.2; % of peritoneal patient-months with Kt/V >= 1.7 Kt/V (dialytic + residual) during the four-month study period; % of pediatric in-center hemodialysis patient-months with spKt/V >= 1.2", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.medicare.gov/api/views/85f7-fdqf.json"
+    "category": "Dialysis Facility Compare", 
+    "description": "ESRD QIP data by facility: % of hemodialysis patient-months with spKt/V >= 1.2; % of peritoneal patient-months with Kt/V >= 1.7 Kt/V (dialytic + residual) during the four-month study period; % of pediatric in-center hemodialysis patient-months with spKt/V >= 1.2", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/85f7-fdqf.json"
+    }
   }, 
-  "name": "socrata_medicare_esrd_qip_dialysis_adequacy_payment_year_2015", 
+  "name": "ESRD QIP - Dialysis Adequacy - Payment Year 2015", 
   "schema": {
     "columns": [
       {
@@ -101,5 +106,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_medicare_esrd_qip_dialysis_adequacy_payment_year_2015"
 }

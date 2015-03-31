@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/5b3a-rs48/rows.csv"
   }, 
+  "description": "Twitter and Facebook statistics from various NYC agencies and organizations.\r\n\r\nUpdate Frequency: As required", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/5b3a-rs48.json"
+    "attribution": "Mayor's Office of Media And Entertainment (MOME)", 
+    "category": "Recreation", 
+    "description": "Twitter and Facebook statistics from various NYC agencies and organizations.\r\n\r\nUpdate Frequency: As required", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/5b3a-rs48.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_nyc_social_media_usage", 
+  "name": "NYC Social Media Usage", 
   "schema": {
     "columns": [
       {
@@ -33,5 +39,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_nyc_social_media_usage"
 }

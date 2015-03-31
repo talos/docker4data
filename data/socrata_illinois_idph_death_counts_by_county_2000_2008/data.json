@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/2wqh-ig4h/rows.csv"
   }, 
+  "description": "* City of Chicago totals may include births occurring to residents of the city of Chicago in DuPage County and appear also in the DuPage County death numbers.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/2wqh-ig4h.json"
+    "attribution": "Illinois Center for Health Statistics", 
+    "category": "Public Health", 
+    "description": "* City of Chicago totals may include births occurring to residents of the city of Chicago in DuPage County and appear also in the DuPage County death numbers.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/2wqh-ig4h.json"
+    }
   }, 
-  "name": "socrata_illinois_idph_death_counts_by_county_2000_2008", 
+  "name": "IDPH Death Counts, by County, 2000-2008", 
   "schema": {
     "columns": [
       {
@@ -53,5 +59,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_idph_death_counts_by_county_2000_2008"
 }

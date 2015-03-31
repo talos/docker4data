@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/2u2y-n6dm/rows.csv"
   }, 
+  "description": "Buildings located in Chicago Park District Parks.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/2u2y-n6dm.json"
+    "attribution": "Chicago Park District", 
+    "category": "Parks & Recreation", 
+    "description": "Buildings located in Chicago Park District Parks.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/2u2y-n6dm.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_parks_buildings", 
+  "name": "Parks - Buildings", 
   "schema": {
     "columns": [
       {
@@ -69,5 +75,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_parks_buildings"
 }

@@ -7,9 +7,11 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/siz5-q64t.json"
+    "socrata": {
+      "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/9b5n-yr4i.json"
+    }
   }, 
-  "name": "socrata_healthmeasures_aspe_hhs_personal_health_expenditures_p", 
+  "name": "Personal health expenditures per capita / Medicare and Medicaid per beneficiary", 
   "schema": {
     "columns": [
       {
@@ -21,13 +23,10 @@
         "type": "real"
       }, 
       {
-        "name": "type_of_service", 
-        "type": "text"
-      }, 
-      {
         "name": "dollars", 
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_healthmeasures_aspe_hhs_personal_health_expenditures_p"
 }

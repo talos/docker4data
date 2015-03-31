@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/eecg-fc54/rows.csv"
   }, 
+  "description": "List of all trees owned and maintained by the City of Edmonton. Note - There are about 320,000 records. It may take some time to load everything.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.edmonton.ca/api/views/eecg-fc54.json"
+    "attribution": "City of Edmonton / Urban Forestry", 
+    "category": "Environmental Services", 
+    "description": "List of all trees owned and maintained by the City of Edmonton. Note - There are about 320,000 records. It may take some time to load everything.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/eecg-fc54.json"
+    }
   }, 
-  "name": "socrata_edmonton_ca_trees", 
+  "name": "Trees", 
   "schema": {
     "columns": [
       {
@@ -77,5 +83,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_edmonton_ca_trees"
 }

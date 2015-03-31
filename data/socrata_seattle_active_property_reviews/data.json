@@ -7,9 +7,11 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/ihj6-wg8s.json"
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/ihj6-wg8s.json"
+    }
   }, 
-  "name": "socrata_seattle_active_property_reviews", 
+  "name": "Active Property Reviews", 
   "schema": {
     "columns": [
       {
@@ -37,5 +39,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_active_property_reviews"
 }

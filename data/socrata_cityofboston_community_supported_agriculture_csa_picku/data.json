@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/rvw3-dget/rows.csv"
   }, 
+  "description": "Dropoff points for community supported agriculture (CSA) programs in and near the city of Boston. Information subject to change; please contact with updates.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofboston.gov/api/views/rvw3-dget.json"
+    "attribution": "Mayor's Office of Food Initiatives", 
+    "description": "Dropoff points for community supported agriculture (CSA) programs in and near the city of Boston. Information subject to change; please contact with updates.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/rvw3-dget.json"
+    }
   }, 
-  "name": "socrata_cityofboston_community_supported_agriculture_csa_picku", 
+  "name": "Community Supported Agriculture (CSA) Pickups", 
   "schema": {
     "columns": [
       {
@@ -41,5 +46,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofboston_community_supported_agriculture_csa_picku"
 }

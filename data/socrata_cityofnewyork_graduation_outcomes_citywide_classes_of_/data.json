@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/ubv8-6n5w/rows.csv"
   }, 
+  "description": "Latest available data and trends in graduation and dropout outcomes disaggregated by English Language Learner status.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/ubv8-6n5w.json"
+    "attribution": "Department of Education (DOE)", 
+    "category": "Education", 
+    "description": "Latest available data and trends in graduation and dropout outcomes disaggregated by English Language Learner status.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/38ib-pjw5.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_graduation_outcomes_citywide_classes_of_", 
+  "name": "Graduation Outcomes - Citywide - Classes of 2005-2011 - ELL", 
   "schema": {
     "columns": [
       {
@@ -18,6 +24,10 @@
       }, 
       {
         "name": "cohort_category", 
+        "type": "text"
+      }, 
+      {
+        "name": "demographic", 
         "type": "text"
       }, 
       {
@@ -97,5 +107,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_graduation_outcomes_citywide_classes_of_"
 }

@@ -7,9 +7,12 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.medicare.gov/api/views/vxub-6swi.json"
+    "category": "Home Health Compare", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/vxub-6swi.json"
+    }
   }, 
-  "name": "socrata_medicare_home_health_care_hhcahps_national_data", 
+  "name": "Home Health Care - HHCAHPS National Data", 
   "schema": {
     "columns": [
       {
@@ -45,5 +48,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_medicare_home_health_care_hhcahps_national_data"
 }

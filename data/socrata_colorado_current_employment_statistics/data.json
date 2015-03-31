@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/pt2g-89wc/rows.csv"
   }, 
+  "description": "Employment estimates as reported by the Current Employment Statistics program for state and nine (9) Metropolitan Statistical Areas in Colorado. Data is aggregated to 82 series title code for industry of employment. For each industry category, hours and earnings are reported annually or monthly for actual counts of employees.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.colorado.gov/api/views/pt2g-89wc.json"
+    "attribution": "CDLE - Colorado Department of Labor & Employment", 
+    "category": "Labor & Employment", 
+    "description": "Employment estimates as reported by the Current Employment Statistics program for state and nine (9) Metropolitan Statistical Areas in Colorado. Data is aggregated to 82 series title code for industry of employment. For each industry category, hours and earnings are reported annually or monthly for actual counts of employees.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/pt2g-89wc.json"
+    }
   }, 
-  "name": "socrata_colorado_current_employment_statistics", 
+  "name": "Current Employment Statistics", 
   "schema": {
     "columns": [
       {
@@ -129,5 +135,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_colorado_current_employment_statistics"
 }

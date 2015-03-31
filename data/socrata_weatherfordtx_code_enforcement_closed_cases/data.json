@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/cfuq-zji7/rows.csv"
   }, 
+  "description": "A summary of all closed code enforcement cases since January 2007. Includes dates opened and closed, type, officer, and description.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/cfuq-zji7.json"
+    "attribution": "City of Weatherford - Municipal & Community Services", 
+    "category": "Community Services", 
+    "description": "A summary of all closed code enforcement cases since January 2007. Includes dates opened and closed, type, officer, and description.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/cfuq-zji7.json"
+    }
   }, 
-  "name": "socrata_weatherfordtx_code_enforcement_closed_cases", 
+  "name": "Code Enforcement - Closed Cases", 
   "schema": {
     "columns": [
       {
@@ -37,5 +43,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_weatherfordtx_code_enforcement_closed_cases"
 }

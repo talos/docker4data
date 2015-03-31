@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/2htr-e3df/rows.csv"
   }, 
+  "description": "This dataset details bank-owned homes that are on the market. This is an aggregate of public listings from banks.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/2rzk-jtei.json"
+    "attribution": "South Suburban Mayors and Managers Association", 
+    "category": "Municipality", 
+    "description": "This dataset is available bank-owned residential across the Chicago Southland. This is an aggregation of publicly available available reo lists from banks such as Wells Fargo, Bank of America, and Chase.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/2rzk-jtei.json"
+    }
   }, 
-  "name": "socrata_illinois_ssmma_available_bank_owned_residential", 
+  "name": "SSMMA Available Bank- Owned Residential", 
   "schema": {
     "columns": [
       {
@@ -81,5 +87,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_ssmma_available_bank_owned_residential"
 }

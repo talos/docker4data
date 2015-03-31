@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ny.gov/api/views/a3pi-nqef/rows.csv"
   }, 
+  "description": "This data set includes 2013-14 Executive Budget capital project appropriations and reappropriations for the budget year.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/p3bu-bme6.json"
+    "attribution": "Division of the Budget", 
+    "category": "Government & Finance", 
+    "description": "This data set includes 2013-14 Executive Budget capital project appropriations and reappropriations for the budget year.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/a3pi-nqef.json"
+    }
   }, 
-  "name": "socrata_ny_new_york_state_executive_budget_capital_appropriati", 
+  "name": "New York State Executive Budget Capital Appropriations: 2013-14", 
   "schema": {
     "columns": [
       {
@@ -45,17 +51,18 @@
         "type": "text"
       }, 
       {
-        "name": "reappropriations_recommended_2014_15", 
+        "name": "reappropriations_recommended_2013_14", 
         "type": "real"
       }, 
       {
-        "name": "encumbrance_as_of_01_16_2014", 
+        "name": "encumbrance_as_of_01_18_2013", 
         "type": "real"
       }, 
       {
-        "name": "appropriations_recommended_2014_15", 
+        "name": "appropriations_recommended_2013_14", 
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ny_new_york_state_executive_budget_capital_appropriati"
 }

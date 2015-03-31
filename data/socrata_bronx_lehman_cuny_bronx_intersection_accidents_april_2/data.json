@@ -8,14 +8,14 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "attribution": "NYC.gov", 
+    "attribution": "http://www.nyc.gov/html/nypd/html/traffic_reports/traffic_report_archive_2013.shtml", 
     "category": "My Neighborhood", 
-    "description": "Reported intersection accidents by the NYPD in the Bronx for the month of April, 2012", 
+    "description": "Reported intersection accidents in the Bronx for the month of April, 2013", 
     "socrata": {
-      "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/qmg2-gyvr.json"
+      "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/8ksr-ysxt.json"
     }
   }, 
-  "name": "Bronx Intersection Accidents April 2012", 
+  "name": "Bronx Intersection Accidents April, 2013", 
   "schema": {
     "columns": [
       {
@@ -39,15 +39,15 @@
         "type": "real"
       }, 
       {
-        "name": "imjured_passenger", 
+        "name": "injured_passengers", 
         "type": "real"
       }, 
       {
-        "name": "injured_cyclist", 
+        "name": "injured_cyclists", 
         "type": "real"
       }, 
       {
-        "name": "injured_pedestrian", 
+        "name": "injured_pedestrians", 
         "type": "real"
       }, 
       {
@@ -55,19 +55,19 @@
         "type": "real"
       }, 
       {
-        "name": "killed_motorist", 
+        "name": "killed_motorists", 
         "type": "real"
       }, 
       {
-        "name": "killed_passenger", 
+        "name": "killed_passengers", 
         "type": "real"
       }, 
       {
-        "name": "killed_cyclist", 
+        "name": "killed_cyclists", 
         "type": "real"
       }, 
       {
-        "name": "killed_pedestrian", 
+        "name": "killed_pedestrians", 
         "type": "real"
       }, 
       {
@@ -131,7 +131,15 @@
         "type": "real"
       }, 
       {
+        "name": "ambulance", 
+        "type": "real"
+      }, 
+      {
         "name": "contributing_factors", 
+        "type": "text"
+      }, 
+      {
+        "name": "bronx_april_2013", 
         "type": "text"
       }, 
       {

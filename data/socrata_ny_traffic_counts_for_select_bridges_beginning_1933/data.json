@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ny.gov/api/views/5qpa-id23/rows.csv"
   }, 
+  "description": "Traffic counts by bridge for 1933 forward for each bridge in the New York State Bridge Authority system.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/5qpa-id23.json"
+    "attribution": "New York State Bridge Authority", 
+    "category": "Transportation", 
+    "description": "Traffic counts by bridge for 1933 forward for each bridge in the New York State Bridge Authority system.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/5qpa-id23.json"
+    }
   }, 
-  "name": "socrata_ny_traffic_counts_for_select_bridges_beginning_1933", 
+  "name": "Traffic Counts for Select Bridges: Beginning 1933", 
   "schema": {
     "columns": [
       {
@@ -49,5 +55,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ny_traffic_counts_for_select_bridges_beginning_1933"
 }

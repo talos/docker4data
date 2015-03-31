@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/9ksk-na4q/rows.csv"
   }, 
+  "description": "All open garbage cart requests made to 311 and all requests completed since January 1, 2011. The City of Chicago provides heavy-duty plastic 96-gallon garbage carts to single-family residences and apartment buildings of four units or less. Residents may request new carts when none are present, or replacement carts for ones which have gone missing or been damaged.     \r\n311 sometimes receives duplicate requests for garbage carts. Requests that have been labeled as Duplicates are in the same geographic area and have been entered into 311\u2019s Customer Service Requests (CSR) system at around the same time as a previous request. Duplicate reports/requests are labeled as such in the Status field, as either \"Open - Dup\" or \"Completed - Dup.\" Data is updated daily.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/9ksk-na4q.json"
+    "attribution": "City of Chicago", 
+    "category": "Service Requests", 
+    "description": "All open garbage cart requests made to 311 and all requests completed since January 1, 2011. The City of Chicago provides heavy-duty plastic 96-gallon garbage carts to single-family residences and apartment buildings of four units or less. Residents may request new carts when none are present, or replacement carts for ones which have gone missing or been damaged.     \r\n311 sometimes receives duplicate requests for garbage carts. Requests that have been labeled as Duplicates are in the same geographic area and have been entered into 311\u2019s Customer Service Requests (CSR) system at around the same time as a previous request. Duplicate reports/requests are labeled as such in the Status field, as either \"Open - Dup\" or \"Completed - Dup.\" Data is updated daily.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/9ksk-na4q.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_311_service_requests_garbage_carts", 
+  "name": "311 Service Requests - Garbage Carts", 
   "schema": {
     "columns": [
       {
@@ -89,5 +95,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_311_service_requests_garbage_carts"
 }

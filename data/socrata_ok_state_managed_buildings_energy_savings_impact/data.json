@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ok.gov/api/views/2ffz-i3xx/rows.csv"
   }, 
+  "description": "Data reflecting the total energy saved in all state-managed buildings.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ok.gov/api/views/2ffz-i3xx.json"
+    "attribution": "Office of Management and Enterprise Services (OMES) Division of Capital Assets Management (DCAM)", 
+    "category": "Finance and Administration", 
+    "description": "Data reflecting the total energy saved in all state-managed buildings.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ok.gov/api/views/2ffz-i3xx.json"
+    }
   }, 
-  "name": "socrata_ok_state_managed_buildings_energy_savings_impact", 
+  "name": "State-Managed Buildings Energy Savings Impact", 
   "schema": {
     "columns": [
       {
@@ -21,5 +27,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ok_state_managed_buildings_energy_savings_impact"
 }

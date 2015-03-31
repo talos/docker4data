@@ -7,9 +7,13 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofboston.gov/api/views/ciur-a7cc.json"
+    "attribution": "Mayor's Office - 24 Hour Hotline", 
+    "category": "City Services", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/ciur-a7cc.json"
+    }
   }, 
-  "name": "socrata_cityofboston_mayors_24_hour_hotline_cases_created_last", 
+  "name": "Mayors 24 Hour Hotline (Cases created last 90 days)", 
   "schema": {
     "columns": [
       {
@@ -113,5 +117,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofboston_mayors_24_hour_hotline_cases_created_last"
 }

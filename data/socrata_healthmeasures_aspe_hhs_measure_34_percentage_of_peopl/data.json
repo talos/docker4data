@@ -3,27 +3,32 @@
   "data": {
     "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/2m63-6w87/rows.csv"
   }, 
+  "description": "For more information on how regions are defined, please see the <a href=\"/help/glossary#R\" rel=\"external\">Glossary</a> under Help.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/wwaf-s29k.json"
+    "description": "In order to define coverage types, disability is defined as follows: Individuals were identified as having a disability if any of the following conditions existed:  One or more Activities of Daily Living impairments, blindness, or deafness.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/b7jj-5j8x.json"
+    }
   }, 
-  "name": "socrata_healthmeasures_aspe_hhs_measure_34_percentage_of_peopl", 
+  "name": "- Measure 34 : Percentage of People Who Received Preventive Dental Services | Medicaid Coverage", 
   "schema": {
     "columns": [
       {
         "name": "measure_value", 
-        "type": "text"
+        "type": "real"
       }, 
       {
         "name": "year", 
         "type": "real"
       }, 
       {
-        "name": "race", 
+        "name": "coverage_sub_type", 
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_healthmeasures_aspe_hhs_measure_34_percentage_of_peopl"
 }

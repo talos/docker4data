@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/6wa6-8527/rows.csv"
   }, 
+  "description": "a child table for --Street-Use Permits-- and --Right of Way Exception Data--.  contains a translation of permit type abbreviations", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.sfgov.org/api/views/6wa6-8527.json"
+    "attribution": "San Francisco Department of Public Works", 
+    "category": "City Infrastructure", 
+    "description": "a child table for --Street-Use Permits-- and --Right of Way Exception Data--.  contains a translation of permit type abbreviations", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/6wa6-8527.json"
+    }
   }, 
-  "name": "socrata_sfgov_permit_types", 
+  "name": "Permit Types", 
   "schema": {
     "columns": [
       {
@@ -21,5 +27,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_sfgov_permit_types"
 }

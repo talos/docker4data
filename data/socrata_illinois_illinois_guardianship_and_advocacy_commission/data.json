@@ -3,17 +3,22 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/837x-6er7/rows.csv"
   }, 
+  "description": "Annual public accounting report for Illinois Guardianship and Advocacy Commission.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/pefi-sz2t.json"
+    "category": "Social/Healthcare", 
+    "description": "Break down of the number of wards served by Illinois Guardianship and Advocacy Commission by regional offices.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/8kur-y9ks.json"
+    }
   }, 
-  "name": "socrata_illinois_illinois_guardianship_and_advocacy_commission", 
+  "name": "Illinois Guardianship and Advocacy Commission Number Of Wards by Region", 
   "schema": {
     "columns": [
       {
-        "name": "misc_data", 
+        "name": "region", 
         "type": "text"
       }, 
       {
@@ -37,5 +42,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_illinois_guardianship_and_advocacy_commission"
 }

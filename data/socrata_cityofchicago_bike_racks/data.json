@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/cbyb-69xx/rows.csv"
   }, 
+  "description": "Bike racks in Chicago. To view or use the attachment files, compression software and special GIS software, such as ESRI ArcGIS, is required.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/cbyb-69xx.json"
+    "attribution": "City of Chicago", 
+    "category": "Transportation", 
+    "description": "Bike racks in Chicago. To view or use the attachment files, compression software and special GIS software, such as ESRI ArcGIS, is required.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/cbyb-69xx.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_bike_racks", 
+  "name": "Bike Racks", 
   "schema": {
     "columns": [
       {
@@ -61,5 +67,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_bike_racks"
 }

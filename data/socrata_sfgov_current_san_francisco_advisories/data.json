@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/qn4d-bra2/rows.csv"
   }, 
+  "description": "Current events that impact visitors to San Francisco - Available on our mobile app at sf311.org/mobile", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.sfgov.org/api/views/qn4d-bra2.json"
+    "category": "Culture and Recreation", 
+    "description": "Current events that impact visitors to San Francisco - Available on our mobile app at sf311.org/mobile", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/qn4d-bra2.json"
+    }
   }, 
-  "name": "socrata_sfgov_current_san_francisco_advisories", 
+  "name": "Current San Francisco Advisories", 
   "schema": {
     "columns": [
       {
@@ -33,5 +38,6 @@
         "type": "timestamp"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_sfgov_current_san_francisco_advisories"
 }

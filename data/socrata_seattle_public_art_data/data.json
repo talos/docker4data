@@ -7,9 +7,11 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/j7sn-tdzk.json"
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/j7sn-tdzk.json"
+    }
   }, 
-  "name": "socrata_seattle_public_art_data", 
+  "name": "Public Art Data", 
   "schema": {
     "columns": [
       {
@@ -73,5 +75,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_public_art_data"
 }

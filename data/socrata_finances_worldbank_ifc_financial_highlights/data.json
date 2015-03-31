@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/he3k-et8a/rows.csv"
   }, 
+  "description": "Provides select metrics from IFC annual reports. You can access Annual Reports at http://www1.ifc.org/wps/wcm/connect/CORP_EXT_Content/IFC_External_Corporate_Site/Annual+Report/ .", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/finances.worldbank.org/api/views/he3k-et8a.json"
+    "attribution": "World Bank Group", 
+    "description": "Provides select metrics from IFC annual reports. You can access Annual Reports at http://www1.ifc.org/wps/wcm/connect/CORP_EXT_Content/IFC_External_Corporate_Site/Annual+Report/ .", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/he3k-et8a.json"
+    }
   }, 
-  "name": "socrata_finances_worldbank_ifc_financial_highlights", 
+  "name": "IFC Financial Highlights", 
   "schema": {
     "columns": [
       {
@@ -69,5 +74,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_finances_worldbank_ifc_financial_highlights"
 }

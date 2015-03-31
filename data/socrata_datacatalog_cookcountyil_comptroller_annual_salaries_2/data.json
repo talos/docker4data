@@ -3,22 +3,36 @@
   "data": {
     "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/fxa5-tdd8/rows.csv"
   }, 
+  "description": "Annual salaries paid to employees by the Cook County Comptroller as of March 5, 2013. Does not include deduction for furlough or closure days for employees subject to furloughs and closures. Does not include amounts paid by other governmental entities. For 2014 salaries see https://datacatalog.cookcountyil.gov/resource/hdna-35se", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/wb2w-sasu.json"
+    "attribution": "Cook County Office of the Comptroller", 
+    "category": "Finance & Administration", 
+    "description": "Annual salaries paid to employees by the Cook County Comptroller as of August 28, 2014.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/hdna-35se.json"
+    }
   }, 
-  "name": "socrata_datacatalog_cookcountyil_comptroller_annual_salaries_2", 
+  "name": "Comptroller - Annual Salaries - 2014 - August 28", 
   "schema": {
     "columns": [
       {
+        "name": "bureau", 
+        "type": "text"
+      }, 
+      {
         "name": "department_number", 
-        "type": "real"
+        "type": "text"
       }, 
       {
         "name": "department_name", 
         "type": "text"
+      }, 
+      {
+        "name": "employee_number", 
+        "type": "real"
       }, 
       {
         "name": "name", 
@@ -42,10 +56,14 @@
       }, 
       {
         "name": "original_hire_date", 
-        "type": "text"
+        "type": "timestamp"
       }, 
       {
         "name": "start_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "employee_status", 
         "type": "text"
       }, 
       {
@@ -53,5 +71,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_datacatalog_cookcountyil_comptroller_annual_salaries_2"
 }

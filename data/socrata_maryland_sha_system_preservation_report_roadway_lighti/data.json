@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/bc83-769b/rows.csv"
   }, 
+  "description": "An asterisk (*) indicates a month when a camera was not in use. All data are provided by the Maryland State Highway Administration (SHA) each month to StateStat.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/bc83-769b.json"
+    "attribution": "State Highway Administration (SHA)", 
+    "category": "Transportation", 
+    "description": "An asterisk (*) indicates a month when a camera was not in use. All data are provided by the Maryland State Highway Administration (SHA) each month to StateStat.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/bc83-769b.json"
+    }
   }, 
-  "name": "socrata_maryland_sha_system_preservation_report_roadway_lighti", 
+  "name": "SHA System Preservation Report: Roadway Lighting, Corporate Sponsorship, & Snipe Signs", 
   "schema": {
     "columns": [
       {
@@ -249,5 +255,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_maryland_sha_system_preservation_report_roadway_lighti"
 }

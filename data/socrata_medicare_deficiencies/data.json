@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/r5ix-sfxw/rows.csv"
   }, 
+  "description": "A list of all deficiencies currently listed on Nursing Home Compare, including the nursing home that received the deficiency, the associated inspection date, deficiency tag number, scope and severity, the current status of the deficiency and the correction date.  Data are presented as one deficiency per row.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.medicare.gov/api/views/r5ix-sfxw.json"
+    "category": "Nursing Home Compare", 
+    "description": "A list of all deficiencies currently listed on Nursing Home Compare, including the nursing home that received the deficiency, the associated inspection date, deficiency tag number, scope and severity, the current status of the deficiency and the correction date.  Data are presented as one deficiency per row.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/r5ix-sfxw.json"
+    }
   }, 
-  "name": "socrata_medicare_deficiencies", 
+  "name": "Deficiencies", 
   "schema": {
     "columns": [
       {
@@ -89,5 +94,6 @@
         "type": "timestamp"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_medicare_deficiencies"
 }

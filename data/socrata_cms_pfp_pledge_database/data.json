@@ -7,9 +7,11 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cms.gov/api/views/txhd-mb2v.json"
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cms.gov/api/views/txhd-mb2v.json"
+    }
   }, 
-  "name": "socrata_cms_pfp_pledge_database", 
+  "name": "PfP Pledge Database", 
   "schema": {
     "columns": [
       {
@@ -69,5 +71,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cms_pfp_pledge_database"
 }

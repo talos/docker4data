@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/bspy-6mw8/rows.csv"
   }, 
+  "description": "Community Service Center locations, hours of operation and contact information.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/bspy-6mw8.json"
+    "attribution": "City of Chicago", 
+    "category": "Health & Human Services", 
+    "description": "Community Service Center locations, hours of operation and contact information.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/bspy-6mw8.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_community_service_centers", 
+  "name": "Community Service Centers", 
   "schema": {
     "columns": [
       {
@@ -45,5 +51,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_community_service_centers"
 }

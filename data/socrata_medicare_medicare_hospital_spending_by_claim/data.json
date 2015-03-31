@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/nrth-mfg3/rows.csv"
   }, 
+  "description": "Also known as Medicare Spending per Beneficiary (MSPB) Spending Breakdowns by Claim Type file. The data displayed here show average spending levels during hospitals\u2019 Medicare Spending per Beneficiary (MSPB) episodes. An MSPB episode includes all Medicare Part A and Part B claims paid during the period from 3 days prior to a hospital admission through 30 days after discharge.  These average Medicare payment amounts have been price-standardized to remove the effect of geographic payment differences and add-on payments for indirect medical education (IME) and disproportionate share hospitals (DSH). CMS uses the information on this webpage to calculate a hospital\u2019s MSPB Measure value, which is reported on Hospital Compare. Specifically, the MSPB Measure methodology risk-adjusts the values on this webpage to account for beneficiary age and severity of illness. This webpage provides the pre-risk-adjusted values to help the public understand the MSPB Measure and its composition.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.medicare.gov/api/views/nrth-mfg3.json"
+    "category": "Hospital Compare", 
+    "description": "Also known as Medicare Spending per Beneficiary (MSPB) Spending Breakdowns by Claim Type file. The data displayed here show average spending levels during hospitals\u2019 Medicare Spending per Beneficiary (MSPB) episodes. An MSPB episode includes all Medicare Part A and Part B claims paid during the period from 3 days prior to a hospital admission through 30 days after discharge.  These average Medicare payment amounts have been price-standardized to remove the effect of geographic payment differences and add-on payments for indirect medical education (IME) and disproportionate share hospitals (DSH). CMS uses the information on this webpage to calculate a hospital\u2019s MSPB Measure value, which is reported on Hospital Compare. Specifically, the MSPB Measure methodology risk-adjusts the values on this webpage to account for beneficiary age and severity of illness. This webpage provides the pre-risk-adjusted values to help the public understand the MSPB Measure and its composition.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/nrth-mfg3.json"
+    }
   }, 
-  "name": "socrata_medicare_medicare_hospital_spending_by_claim", 
+  "name": "Medicare Hospital Spending by Claim", 
   "schema": {
     "columns": [
       {
@@ -65,5 +70,6 @@
         "type": "timestamp"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_medicare_medicare_hospital_spending_by_claim"
 }

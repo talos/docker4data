@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/fypr-ksnz/rows.csv"
   }, 
+  "description": "Environmental complaints received by the Department of Environment (DOE) from January 1993 to December 31, 2011 and by the Department of Public Health (CDPH) since January 1, 2012. On January 1, 2012, the DOE was disbanded and all its inspection, permitting, and enforcement authorities were transferred to the CDPH.   \r\nData fields requiring description are detailed below. \r\nCOMPLAINT ID:  This is the unique identifier of the complaint incident. \r\nCOMPLAINT TYPE: Specifies the type of complaint. CDPH complaint types are  \u201cAbandoned Site\u201d, \u201cAir Pollution Work Order\u201d, \u201cAsbestos Work Order\u201d, \u201cConstruction and Demolition\u201d, \u201cToxics Hazardous Materials Work Order\u201d, \u201dIllegal Dumping Work Order\u201d, \u201cNoise Complaint\u201d, \u201cPermits Issued by DOE Work Order\u201d, \u201cRecycling Work Order\u201d, \u201cService Stations/Storage Tanks Work Order\u201d, \u201cVehicle Idling Work Order\u201d, and \u201cWater Pollution.\u201d For consistency, historic DOE complaint types were renamed to match the most appropriate CDPH complaint type. DOE complaint types that had no matches are designated as \u201cOther.\u201d  \r\nMAPPED LOCATION: Contains latitude/longitude coordinates of the site as determined through the Chicago Open Data Portal\u2019s geocoding engine. In instances where the facility address is a range, the lower number (the value in the \u201cStreet Number From\u201d column) is used for geocoding. For example, for the range address 1000-1005 S Wabash Ave, the Mapped Location would be the coordinates for 1000 S Wabash Ave. \r\n INSPECTOR: Contains the badge or ID number of the inspector or engineer who conducted the compliant inspection. \r\nCOMPLAINT DATE: Date complaint was received by the department. \r\nCOMPLAINT DETAIL: Brief description of the nature of the complaint.  \r\nINSPECTION LOG: This is the inspector\u2019s narrative log of the complaint inspection.\r\nDATA SOURCE: The city department that collected the data.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/fypr-ksnz.json"
+    "attribution": "Chicago Department of Public Health", 
+    "category": "Environment & Sustainable Development", 
+    "description": "Environmental complaints received by the Department of Environment (DOE) from January 1993 to December 31, 2011 and by the Department of Public Health (CDPH) since January 1, 2012. On January 1, 2012, the DOE was disbanded and all its inspection, permitting, and enforcement authorities were transferred to the CDPH.   \r\nData fields requiring description are detailed below. \r\nCOMPLAINT ID:  This is the unique identifier of the complaint incident. \r\nCOMPLAINT TYPE: Specifies the type of complaint. CDPH complaint types are  \u201cAbandoned Site\u201d, \u201cAir Pollution Work Order\u201d, \u201cAsbestos Work Order\u201d, \u201cConstruction and Demolition\u201d, \u201cToxics Hazardous Materials Work Order\u201d, \u201dIllegal Dumping Work Order\u201d, \u201cNoise Complaint\u201d, \u201cPermits Issued by DOE Work Order\u201d, \u201cRecycling Work Order\u201d, \u201cService Stations/Storage Tanks Work Order\u201d, \u201cVehicle Idling Work Order\u201d, and \u201cWater Pollution.\u201d For consistency, historic DOE complaint types were renamed to match the most appropriate CDPH complaint type. DOE complaint types that had no matches are designated as \u201cOther.\u201d  \r\nMAPPED LOCATION: Contains latitude/longitude coordinates of the site as determined through the Chicago Open Data Portal\u2019s geocoding engine. In instances where the facility address is a range, the lower number (the value in the \u201cStreet Number From\u201d column) is used for geocoding. For example, for the range address 1000-1005 S Wabash Ave, the Mapped Location would be the coordinates for 1000 S Wabash Ave. \r\n INSPECTOR: Contains the badge or ID number of the inspector or engineer who conducted the compliant inspection. \r\nCOMPLAINT DATE: Date complaint was received by the department. \r\nCOMPLAINT DETAIL: Brief description of the nature of the complaint.  \r\nINSPECTION LOG: This is the inspector\u2019s narrative log of the complaint inspection.\r\nDATA SOURCE: The city department that collected the data.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/fypr-ksnz.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_cdph_environmental_complaints", 
+  "name": "CDPH Environmental Complaints", 
   "schema": {
     "columns": [
       {
@@ -69,5 +75,6 @@
         "type": "timestamp"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_cdph_environmental_complaints"
 }

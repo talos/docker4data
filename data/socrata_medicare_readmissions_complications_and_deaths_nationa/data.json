@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/seeb-g2s2/rows.csv"
   }, 
+  "description": "Readmissions Complications and Deaths measures - national data. This data set includes national-level data for 30-day death and readmission measures, the hip/knee complication measure, and the Agency for Healthcare Research and Quality (AHRQ) measures of serious complications.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.medicare.gov/api/views/seeb-g2s2.json"
+    "category": "Hospital Compare", 
+    "description": "Readmissions Complications and Deaths measures - national data. This data set includes national-level data for 30-day death and readmission measures, the hip/knee complication measure, and the Agency for Healthcare Research and Quality (AHRQ) measures of serious complications.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/seeb-g2s2.json"
+    }
   }, 
-  "name": "socrata_medicare_readmissions_complications_and_deaths_nationa", 
+  "name": "Readmissions Complications and Deaths - National", 
   "schema": {
     "columns": [
       {
@@ -53,5 +58,6 @@
         "type": "timestamp"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_medicare_readmissions_complications_and_deaths_nationa"
 }

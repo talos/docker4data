@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofmadison.com/api/views/7dbz-yi8h/rows.csv"
   }, 
+  "description": "Improved Commercial Sales Determined to be Arms-Length and Verified by Assessor's Office Staff; Information is subject to change upon further review by appraisal staff; Area; Parcel Number; Situs; Grantor; Sale Date; Sale Price; Description of Sale", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofmadison.com/api/views/7dbz-yi8h.json"
+    "attribution": "City of Madison Assessor's Office", 
+    "category": "Property", 
+    "description": "Improved Commercial Sales Determined to be Arms-Length and Verified by Assessor's Office Staff; Information is subject to change upon further review by appraisal staff; Area; Parcel Number; Situs; Grantor; Sale Date; Sale Price; Description of Sale", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofmadison.com/api/views/7dbz-yi8h.json"
+    }
   }, 
-  "name": "socrata_cityofmadison_commercial_land_sales", 
+  "name": "Commercial Land Sales", 
   "schema": {
     "columns": [
       {
@@ -121,5 +127,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofmadison_commercial_land_sales"
 }

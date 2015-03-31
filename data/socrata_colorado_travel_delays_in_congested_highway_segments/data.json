@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/7vr4-tk3z/rows.csv"
   }, 
+  "description": "Congestion measurements are defined by travel-time delay, which is the difference between the travel time on highways at the free flow speed and the time spent in current traffic. In 2012, the average travel-time delay on all congested corridors was 17.2 minutes per traveler, per day. A highway is considered congested when the peak traffic volume is 85 percent or greater than what the highway was designed to sustain.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.colorado.gov/api/views/7vr4-tk3z.json"
+    "attribution": "colorado department of transportation, cdot", 
+    "category": "Transportation", 
+    "description": "Congestion measurements are defined by travel-time delay, which is the difference between the travel time on highways at the free flow speed and the time spent in current traffic. In 2012, the average travel-time delay on all congested corridors was 17.2 minutes per traveler, per day. A highway is considered congested when the peak traffic volume is 85 percent or greater than what the highway was designed to sustain.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/7vr4-tk3z.json"
+    }
   }, 
-  "name": "socrata_colorado_travel_delays_in_congested_highway_segments", 
+  "name": "Travel Delays In Congested Highway Segments", 
   "schema": {
     "columns": [
       {
@@ -25,5 +31,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_colorado_travel_delays_in_congested_highway_segments"
 }

@@ -3,13 +3,17 @@
   "data": {
     "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/662r-vd8e/rows.csv"
   }, 
+  "description": "Data are not available for 19-25 year-old Medicare beneficiaries because of sample size limitations.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/z884-83xe.json"
+    "description": "For more information on how race was defined, please see the <a href=\"/help/glossary#R\" rel=\"external\">Glossary</a> under Help.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/8pdu-8f8n.json"
+    }
   }, 
-  "name": "socrata_healthmeasures_aspe_hhs_measure_18_percentage_of_medic", 
+  "name": "] Measure 18 : Percentage of Medicare Beneficiaries with High Out-of-Pocket Prescription Expenses | Race", 
   "schema": {
     "columns": [
       {
@@ -17,17 +21,18 @@
         "type": "text"
       }, 
       {
-        "name": "region", 
-        "type": "text"
-      }, 
-      {
         "name": "year", 
         "type": "real"
+      }, 
+      {
+        "name": "race", 
+        "type": "text"
       }, 
       {
         "name": "income_threshold", 
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_healthmeasures_aspe_hhs_measure_18_percentage_of_medic"
 }

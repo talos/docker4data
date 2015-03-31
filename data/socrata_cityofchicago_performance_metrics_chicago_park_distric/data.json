@@ -3,23 +3,46 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/wrvx-zpw5/rows.csv"
   }, 
+  "description": "The Department of Natural Resources (CDNR) was created in 2001 and is responsible for ensuring the quality of the district's 7,300 acres of land. Through enhanced landscape management, staff training and constant high quality maintenance, the department is quickly becoming the benchmark by which many municipal organizations measure the quality of their landscape and gardening. The data below represents the number of trees that were removed District-wide as well as the number of shrubs and trees that were pruned.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/wrvx-zpw5.json"
+    "attribution": "Chicago Park District", 
+    "category": "Administration & Finance", 
+    "description": "The Department of Natural Resources (CDNR) was created in 2001 and is responsible for ensuring the quality of the district's 7,300 acres of land. Through enhanced landscape management, staff training and constant high quality maintenance, the department is quickly becoming the benchmark by which many municipal organizations measure the quality of their landscape and gardening. The data below represents the number of trees that were removed District-wide as well as the number of shrubs and trees that were pruned.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/cnj6-r3qn.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_performance_metrics_chicago_park_distric", 
+  "name": "Performance Metrics - Chicago Park District - Natural Resources Trees and Shrubs", 
   "schema": {
     "columns": [
       {
-        "name": "week", 
+        "name": "date", 
         "type": "text"
       }, 
       {
-        "name": "park_checks", 
+        "name": "removal_stumping", 
+        "type": "real"
+      }, 
+      {
+        "name": "_tree_s_removed", 
+        "type": "real"
+      }, 
+      {
+        "name": "_tree_s_pruned", 
+        "type": "real"
+      }, 
+      {
+        "name": "shrub_pruning", 
+        "type": "real"
+      }, 
+      {
+        "name": "_tree_s_and_shrubs_pruned", 
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_performance_metrics_chicago_park_distric"
 }

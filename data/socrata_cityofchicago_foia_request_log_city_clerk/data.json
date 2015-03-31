@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/72qm-3bwf/rows.csv"
   }, 
+  "description": "FOIA requests received by the Office of the Chicago City Clerk as of May 1, 2010", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/72qm-3bwf.json"
+    "attribution": "Office of the Chicago City Clerk", 
+    "category": "FOIA", 
+    "description": "FOIA requests received by the Office of the Chicago City Clerk as of May 1, 2010", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/72qm-3bwf.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_foia_request_log_city_clerk", 
+  "name": "FOIA Request Log - City Clerk", 
   "schema": {
     "columns": [
       {
@@ -33,5 +39,6 @@
         "type": "timestamp"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_foia_request_log_city_clerk"
 }

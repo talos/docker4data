@@ -3,17 +3,23 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/ddy3-mkxu/rows.csv"
   }, 
+  "description": "Did not seek medical care because of the cost, demographic differences, five year averages, 2006-2010", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.kingcounty.gov/api/views/py8s-azgh.json"
+    "attribution": "Seattle-King County Public Health", 
+    "category": "Health", 
+    "description": "Did not seek medical care because of the cost, demographic differences, five year averages, 2006-2010", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/k6xi-7wup.json"
+    }
   }, 
-  "name": "socrata_kingcounty_percent_with_unmet_medical_need_5_year_diff", 
+  "name": "Percent with unmet medical need, 5-year differences by region", 
   "schema": {
     "columns": [
       {
-        "name": "gender", 
+        "name": "region", 
         "type": "text"
       }, 
       {
@@ -21,13 +27,14 @@
         "type": "text"
       }, 
       {
-        "name": "lower_ci", 
+        "name": "lower_confidence_interval", 
         "type": "real"
       }, 
       {
-        "name": "upper_ci", 
+        "name": "upper_confidence_interval", 
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_kingcounty_percent_with_unmet_medical_need_5_year_diff"
 }

@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/eqv3-mu5g/rows.csv"
   }, 
+  "description": "Course listed are intended for King County employees and may not be available to the general public.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.kingcounty.gov/api/views/eqv3-mu5g.json"
+    "category": "Employees", 
+    "description": "Course listed are intended for King County employees and may not be available to the general public.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/eqv3-mu5g.json"
+    }
   }, 
-  "name": "socrata_kingcounty_it_end_user_training", 
+  "name": "IT End-User Training", 
   "schema": {
     "columns": [
       {
@@ -49,5 +54,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_kingcounty_it_end_user_training"
 }

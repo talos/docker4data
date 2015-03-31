@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofmadison.com/api/views/svr6-6gvb/rows.csv"
   }, 
+  "description": "Park name, address, acreage, type and the facilities available at each park.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofmadison.com/api/views/svr6-6gvb.json"
+    "attribution": "City of Madison Parks", 
+    "category": "Parks & Recreation", 
+    "description": "Park name, address, acreage, type and the facilities available at each park.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofmadison.com/api/views/svr6-6gvb.json"
+    }
   }, 
-  "name": "socrata_cityofmadison_parks_and_facilities", 
+  "name": "Parks and Facilities", 
   "schema": {
     "columns": [
       {
@@ -213,5 +219,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofmadison_parks_and_facilities"
 }

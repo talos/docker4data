@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/2pmt-skyq/rows.csv"
   }, 
+  "description": "2010 steam consumption in mlbs and Mg, by ZIP code and building type.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/2pmt-skyq.json"
+    "attribution": "Mayor's Office of Long-Term Planning and Sustainability (OLTPS)", 
+    "category": "Environment", 
+    "description": "2010 steam consumption in mlbs and Mg, by ZIP code and building type.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/2pmt-skyq.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_steam_consumption_by_zip_code_2010", 
+  "name": "Steam Consumption by ZIP Code - 2010", 
   "schema": {
     "columns": [
       {
@@ -33,5 +39,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_steam_consumption_by_zip_code_2010"
 }

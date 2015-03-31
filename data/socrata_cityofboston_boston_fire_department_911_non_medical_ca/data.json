@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/x67n-nzcu/rows.csv"
   }, 
+  "description": "extract for 2/21/2015-3/1/2015 for fire department, non-medical calls only", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofboston.gov/api/views/x67n-nzcu.json"
+    "attribution": "Boston Fire Department", 
+    "description": "extract for 2/21/2015-3/1/2015 for fire department, non-medical calls only", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/x67n-nzcu.json"
+    }
   }, 
-  "name": "socrata_cityofboston_boston_fire_department_911_non_medical_ca", 
+  "name": "Boston Fire Department 911 (Non-Medical Calls)", 
   "schema": {
     "columns": [
       {
@@ -49,5 +54,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofboston_boston_fire_department_911_non_medical_ca"
 }

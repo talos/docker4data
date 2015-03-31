@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/57p3-3mwi/rows.csv"
   }, 
+  "description": "This dataset shows all licensed veterinarians in Maryland for FY 2014. Data are provided by MDA.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/57p3-3mwi.json"
+    "attribution": "MD Department of Agriculture", 
+    "category": "Agriculture", 
+    "description": "This dataset shows all licensed veterinarians in Maryland for FY 2014. Data are provided by MDA.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/57p3-3mwi.json"
+    }
   }, 
-  "name": "socrata_maryland_licensed_veterinarians_statewide", 
+  "name": "Licensed Veterinarians Statewide", 
   "schema": {
     "columns": [
       {
@@ -37,5 +43,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_maryland_licensed_veterinarians_statewide"
 }

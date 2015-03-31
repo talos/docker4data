@@ -3,17 +3,27 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/asqc-nq6a/rows.csv"
   }, 
+  "description": "Updated for August 2013 data.  \r\n\r\nBed Capacity Dataset: https://data.hawaii.gov/Public-Safety/Department-of-Public-Safety-Bed-Capacity-2013/qv4n-m8rb", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.hawaii.gov/api/views/q8ke-n6gw.json"
+    "attribution": "PSD", 
+    "category": "Public Safety", 
+    "description": "Updated for August 2013 data.  \r\n\r\nBed Capacity Dataset: https://data.hawaii.gov/Public-Safety/Department-of-Public-Safety-Bed-Capacity-2013/qv4n-m8rb", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/asqc-nq6a.json"
+    }
   }, 
-  "name": "socrata_hawaii_department_of_public_safety_weekly_population_r", 
+  "name": "Department Of  Public Safety Weekly Population Reports", 
   "schema": {
     "columns": [
       {
         "name": "date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "count", 
         "type": "text"
       }, 
       {
@@ -25,17 +35,210 @@
         "type": "text"
       }, 
       {
-        "name": "description", 
+        "name": "head_count_ending_sent_fel_male", 
+        "type": "real"
+      }, 
+      {
+        "name": "head_count_ending_sent_fel_female", 
+        "type": "real"
+      }, 
+      {
+        "name": "head_count_ending_sent_fel_prob_male", 
+        "type": "real"
+      }, 
+      {
+        "name": "head_count_ending_sent_fel_prob_female", 
+        "type": "real"
+      }, 
+      {
+        "name": "head_count_ending_sent_misd_male", 
+        "type": "real"
+      }, 
+      {
+        "name": "head_count_ending_sent_misd_female", 
+        "type": "real"
+      }, 
+      {
+        "name": "head_count_ending_pretrial_fel_male", 
+        "type": "real"
+      }, 
+      {
+        "name": "head_count_ending_pretrial_fel_female", 
+        "type": "real"
+      }, 
+      {
+        "name": "head_count_ending_pretrial_misd_male", 
+        "type": "real"
+      }, 
+      {
+        "name": "head_count_ending_pretrial_misd_female", 
+        "type": "real"
+      }, 
+      {
+        "name": "head_count_ending_other_juris_male", 
+        "type": "real"
+      }, 
+      {
+        "name": "head_count_ending_other_juris_female", 
+        "type": "real"
+      }, 
+      {
+        "name": "head_count_ending_par_viol_male", 
+        "type": "real"
+      }, 
+      {
+        "name": "head_count_ending_par_viol_female", 
+        "type": "real"
+      }, 
+      {
+        "name": "head_count_ending_prb_viol_male", 
+        "type": "real"
+      }, 
+      {
+        "name": "head_count_ending_prb_viol_female", 
+        "type": "real"
+      }, 
+      {
+        "name": "total_head_count", 
+        "type": "real"
+      }, 
+      {
+        "name": "contracted_facilities_ending_sent_fel_male", 
+        "type": "real"
+      }, 
+      {
+        "name": "contracted_facilities_ending_sent_fel_female", 
+        "type": "real"
+      }, 
+      {
+        "name": "contracted_facilities_ending_sent_fel_prob_male", 
+        "type": "real"
+      }, 
+      {
+        "name": "contracted_facilities_ending_sent_fel_prob_female", 
+        "type": "real"
+      }, 
+      {
+        "name": "contracted_facilities_ending_sent_misd_male", 
+        "type": "real"
+      }, 
+      {
+        "name": "contracted_facilities_ending_sent_misd_female", 
+        "type": "real"
+      }, 
+      {
+        "name": "contracted_facilities_ending_pretrial_fel_male", 
+        "type": "real"
+      }, 
+      {
+        "name": "contracted_facilities_ending_pretrial_fel_female", 
+        "type": "real"
+      }, 
+      {
+        "name": "contracted_facilities_ending_pretrial_misd_male", 
+        "type": "real"
+      }, 
+      {
+        "name": "contracted_facilities_ending_pretrial_misd_female", 
+        "type": "real"
+      }, 
+      {
+        "name": "contracted_facilities_ending_other_juris_male", 
+        "type": "real"
+      }, 
+      {
+        "name": "contracted_facilities_ending_other_juris_female", 
         "type": "text"
       }, 
       {
-        "name": "male", 
+        "name": "contracted_facilities_ending_par_viol_male", 
         "type": "real"
       }, 
       {
-        "name": "female", 
+        "name": "contracted_facilities_ending_par_viol_female", 
+        "type": "real"
+      }, 
+      {
+        "name": "contracted_facilities_ending_prb_viol_male", 
+        "type": "real"
+      }, 
+      {
+        "name": "contracted_facilities_ending_prb_viol_female", 
+        "type": "real"
+      }, 
+      {
+        "name": "total_contracted_facilities", 
+        "type": "real"
+      }, 
+      {
+        "name": "assigned_count_ending_sent_fel_male", 
+        "type": "real"
+      }, 
+      {
+        "name": "assigned_count_ending_sent_fel_female", 
+        "type": "real"
+      }, 
+      {
+        "name": "assigned_count_ending_sent_fel_prob_male", 
+        "type": "real"
+      }, 
+      {
+        "name": "assigned_count_ending_sent_fel_prob_female", 
+        "type": "real"
+      }, 
+      {
+        "name": "assigned_count_ending_sent_misd_male", 
+        "type": "real"
+      }, 
+      {
+        "name": "assigned_count_ending_sent_misd_female", 
+        "type": "real"
+      }, 
+      {
+        "name": "assigned_count_ending_pretrial_fel_male", 
+        "type": "real"
+      }, 
+      {
+        "name": "assigned_count_ending_pretrial_fel_female", 
+        "type": "real"
+      }, 
+      {
+        "name": "assigned_count_ending_pretrial_misd_male", 
+        "type": "real"
+      }, 
+      {
+        "name": "assigned_count_ending_pretrial_misd_female", 
+        "type": "real"
+      }, 
+      {
+        "name": "assigned_count_ending_other_juris_male", 
+        "type": "real"
+      }, 
+      {
+        "name": "assigned_count_ending_other_juris_female", 
+        "type": "real"
+      }, 
+      {
+        "name": "assigned_count_ending_par_viol_male", 
+        "type": "real"
+      }, 
+      {
+        "name": "assigned_count_ending_par_viol_female", 
+        "type": "real"
+      }, 
+      {
+        "name": "assigned_count_ending_prb_viol_male", 
+        "type": "real"
+      }, 
+      {
+        "name": "assigned_count_ending_prb_viol_female", 
+        "type": "real"
+      }, 
+      {
+        "name": "total_assigned_count", 
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_hawaii_department_of_public_safety_weekly_population_r"
 }

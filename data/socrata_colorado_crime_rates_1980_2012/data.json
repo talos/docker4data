@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/mb89-xnkg/rows.csv"
   }, 
+  "description": "National or state offense totals are based on data from all reporting agencies and estimates for unreported areas.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tRates are the number of reported offenses per 100,000 population.\r\nOffense Crimes Include: Violent crime (Murder and non-negligent manslaughter, forcible rape, robbery, and aggravated assault) & Property crime (Burglary, larceny-theft, and motor vehicle theft).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.colorado.gov/api/views/mb89-xnkg.json"
+    "attribution": "Colorado Department of Public Safety", 
+    "category": "Public Safety", 
+    "description": "National or state offense totals are based on data from all reporting agencies and estimates for unreported areas.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tRates are the number of reported offenses per 100,000 population.\r\nOffense Crimes Include: Violent crime (Murder and non-negligent manslaughter, forcible rape, robbery, and aggravated assault) & Property crime (Burglary, larceny-theft, and motor vehicle theft).", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/mb89-xnkg.json"
+    }
   }, 
-  "name": "socrata_colorado_crime_rates_1980_2012", 
+  "name": "Crime Rates 1980-2012", 
   "schema": {
     "columns": [
       {
@@ -93,5 +99,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_colorado_crime_rates_1980_2012"
 }

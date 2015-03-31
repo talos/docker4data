@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/2eq2-trdu/rows.csv"
   }, 
+  "description": "This table displays currently advertised projects (type of work), estimated range ($) for project completion, bid date, time and projects description along with Project ID. It also provides link to plan holders information.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/2eq2-trdu.json"
+    "attribution": "Department of Design and Construction (DDC)", 
+    "category": "Housing & Development", 
+    "description": "This table displays currently advertised projects (type of work), estimated range ($) for project completion, bid date, time and projects description along with Project ID. It also provides link to plan holders information.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/2eq2-trdu.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_directory_of_competitive_bid", 
+  "name": "Directory Of Competitive Bid", 
   "schema": {
     "columns": [
       {
@@ -45,5 +51,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_directory_of_competitive_bid"
 }

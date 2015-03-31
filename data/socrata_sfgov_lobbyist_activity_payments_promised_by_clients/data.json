@@ -1,0 +1,44 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_lobbyist_activity_payments_promised_by_clients/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/s2fy-y3my/rows.csv"
+  }, 
+  "description": "The amount of economic consideration received or expected by the lobbyist or the lobbyist's employer from each client during the reporting period.\r\n\r\nPromised payments are disclosed by lobbyists registered with the Ethics Commission on a monthly basis.  This dataset updates automatically every night.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "San Francisco Ethics Commission", 
+    "category": "City Management and Ethics", 
+    "description": "The amount of economic consideration received or expected by the lobbyist or the lobbyist's employer from each client during the reporting period.\r\n\r\nPromised payments are disclosed by lobbyists registered with the Ethics Commission on a monthly basis.  This dataset updates automatically every night.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/s2fy-y3my.json"
+    }
+  }, 
+  "name": "Lobbyist Activity - Payments Promised By Clients", 
+  "schema": {
+    "columns": [
+      {
+        "name": "date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "lobbyist", 
+        "type": "text"
+      }, 
+      {
+        "name": "lobbyist_firm", 
+        "type": "text"
+      }, 
+      {
+        "name": "amount", 
+        "type": "real"
+      }, 
+      {
+        "name": "lobbyist_client", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "socrata_sfgov_lobbyist_activity_payments_promised_by_clients"
+}

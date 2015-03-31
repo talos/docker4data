@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ny.gov/api/views/cwrk-j5nn/rows.csv"
   }, 
+  "description": "Estimated gasoline sales data is derived from New York State\r\nDepartment of Taxation and Finance data on gasoline sales and\r\ngasoline sales tax collections. Gasoline sales data is estimated for each\r\ncounty with the exception that individual county data for New York\r\nCity is not available. Data is weighted for regional price differences\r\nand differing county tax rates.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/cwrk-j5nn.json"
+    "attribution": "New York State Energy Research and Development Authority", 
+    "category": "Energy & Environment", 
+    "description": "Estimated gasoline sales data is derived from New York State\r\nDepartment of Taxation and Finance data on gasoline sales and\r\ngasoline sales tax collections. Gasoline sales data is estimated for each\r\ncounty with the exception that individual county data for New York\r\nCity is not available. Data is weighted for regional price differences\r\nand differing county tax rates.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/cwrk-j5nn.json"
+    }
   }, 
-  "name": "socrata_ny_estimated_gasoline_sales_thousands_of_gallons_begin", 
+  "name": "Estimated Gasoline Sales, Thousands of Gallons: Beginning 1995", 
   "schema": {
     "columns": [
       {
@@ -253,5 +259,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ny_estimated_gasoline_sales_thousands_of_gallons_begin"
 }

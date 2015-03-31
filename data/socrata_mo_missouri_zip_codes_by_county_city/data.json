@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.mo.gov/api/views/im7g-fucq/rows.csv"
   }, 
+  "description": "List of cities, zip codes and counties in Missouri", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.mo.gov/api/views/im7g-fucq.json"
+    "category": "Geography", 
+    "description": "List of cities, zip codes and counties in Missouri", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.mo.gov/api/views/im7g-fucq.json"
+    }
   }, 
-  "name": "socrata_mo_missouri_zip_codes_by_county_city", 
+  "name": "Missouri Zip Codes by County/City", 
   "schema": {
     "columns": [
       {
@@ -25,5 +30,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_mo_missouri_zip_codes_by_county_city"
 }

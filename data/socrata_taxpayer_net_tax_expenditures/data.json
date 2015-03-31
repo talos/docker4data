@@ -7,9 +7,11 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.taxpayer.net/api/views/t62c-2cke.json"
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.taxpayer.net/api/views/t62c-2cke.json"
+    }
   }, 
-  "name": "socrata_taxpayer_net_tax_expenditures", 
+  "name": "Tax Expenditures", 
   "schema": {
     "columns": [
       {
@@ -81,5 +83,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_taxpayer_net_tax_expenditures"
 }

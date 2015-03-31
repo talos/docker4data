@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.redmond.gov/api/views/7v22-4z3a/rows.csv"
   }, 
+  "description": "Checks written to pay for products and services received by the City.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.redmond.gov/api/views/7v22-4z3a.json"
+    "attribution": "Finance Department", 
+    "description": "Checks written to pay for products and services received by the City.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.redmond.gov/api/views/7v22-4z3a.json"
+    }
   }, 
-  "name": "socrata_redmond_check_register", 
+  "name": "Check Register", 
   "schema": {
     "columns": [
       {
@@ -41,5 +46,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_redmond_check_register"
 }

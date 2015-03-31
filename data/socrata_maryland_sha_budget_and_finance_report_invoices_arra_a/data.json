@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/3zjd-9suf/rows.csv"
   }, 
+  "description": "An asterisk (*) indicates data which were not yet tracked. All data are provided by the Maryland State Highway Administration (SHA) each month to StateStat.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/3zjd-9suf.json"
+    "attribution": "State Highway Administration (SHA)", 
+    "category": "Transportation", 
+    "description": "An asterisk (*) indicates data which were not yet tracked. All data are provided by the Maryland State Highway Administration (SHA) each month to StateStat.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/3zjd-9suf.json"
+    }
   }, 
-  "name": "socrata_maryland_sha_budget_and_finance_report_invoices_arra_a", 
+  "name": "SHA Budget and Finance Report: Invoices, ARRA, and Materials & Supplies", 
   "schema": {
     "columns": [
       {
@@ -61,5 +67,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_maryland_sha_budget_and_finance_report_invoices_arra_a"
 }

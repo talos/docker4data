@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/eswg-wnti/rows.csv"
   }, 
+  "description": "Cases created since 7/1/2008 with location information", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.sfgov.org/api/views/eswg-wnti.json"
+    "attribution": "San Francisco 311", 
+    "category": "City Management and Ethics", 
+    "description": "Cases created since 7/1/2008 with location information", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/eswg-wnti.json"
+    }
   }, 
-  "name": "socrata_sfgov_duplicate_human_waste_", 
+  "name": "[Duplicate: Human Waste]", 
   "schema": {
     "columns": [
       {
@@ -69,5 +75,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_sfgov_duplicate_human_waste_"
 }

@@ -7,9 +7,13 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/3wcd-jp6t.json"
+    "attribution": "Maryland Community Services Locator", 
+    "category": "Health and Human Services", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/3wcd-jp6t.json"
+    }
   }, 
-  "name": "socrata_maryland_doctors_currently_prescribing_buprenorphine", 
+  "name": "Doctors Currently Prescribing Buprenorphine", 
   "schema": {
     "columns": [
       {
@@ -37,5 +41,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_maryland_doctors_currently_prescribing_buprenorphine"
 }

@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/2vu9-bjjt/rows.csv"
   }, 
+  "description": "A list of non-dental facilities (equipment is not included in this data set) in Illinois that currently possess radiation producing equipment.  There is a separate data set that includes the dental facilities with radiation producing equipment.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/vfvj-cm2g.json"
+    "category": "Public Health", 
+    "description": "A list of non-dental facilities (equipment is not included in this data set) in Illinois that currently possess radiation producing equipment.  There is a separate data set that includes the dental facilities with radiation producing equipment.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/2vu9-bjjt.json"
+    }
   }, 
-  "name": "socrata_illinois_iema_non_dental_facilities_in_illinois_with_r", 
+  "name": "IEMA Non-Dental Facilities in Illinois with Radiation Producing Equipment", 
   "schema": {
     "columns": [
       {
@@ -37,33 +42,10 @@
         "type": "text"
       }, 
       {
-        "name": "eqptregisterdate", 
-        "type": "text"
-      }, 
-      {
-        "name": "eqptapplicationclass", 
-        "type": "text"
-      }, 
-      {
-        "name": "eqptmanufacturer", 
-        "type": "text"
-      }, 
-      {
-        "name": "eqptmodelnumber", 
-        "type": "text"
-      }, 
-      {
-        "name": "eqptserialnumber", 
-        "type": "text"
-      }, 
-      {
         "name": "lsoname", 
-        "type": "text"
-      }, 
-      {
-        "name": "eqptaquiredate", 
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_iema_non_dental_facilities_in_illinois_with_r"
 }

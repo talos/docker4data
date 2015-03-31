@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/evxh-x3jp/rows.csv"
   }, 
+  "description": "Dataset contains active business license data for the City of Seattle for 2010", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/evxh-x3jp.json"
+    "attribution": "City of Seattle Department of Finance and Administrative Services", 
+    "category": "Finance", 
+    "description": "Dataset contains active business license data for the City of Seattle for 2010", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/evxh-x3jp.json"
+    }
   }, 
-  "name": "socrata_seattle_2010_active_business_license_data", 
+  "name": "2010 Active Business License Data", 
   "schema": {
     "columns": [
       {
@@ -49,5 +55,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_2010_active_business_license_data"
 }

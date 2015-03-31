@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.taxpayer.net/api/views/m4ce-4enn/rows.csv"
   }, 
+  "description": "All earmarks for fiscal years 2008 - 2010.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.taxpayer.net/api/views/m4ce-4enn.json"
+    "category": "Earmark + Appropriations", 
+    "description": "All earmarks for fiscal years 2008 - 2010.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.taxpayer.net/api/views/m4ce-4enn.json"
+    }
   }, 
-  "name": "socrata_taxpayer_net_fy08_fy10_earmarks", 
+  "name": "FY08-FY10 Earmarks", 
   "schema": {
     "columns": [
       {
@@ -109,5 +114,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_taxpayer_net_fy08_fy10_earmarks"
 }

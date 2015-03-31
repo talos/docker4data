@@ -3,21 +3,27 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/qjr3-bm53/rows.csv"
   }, 
+  "description": "This dataset gives the average life expectancy and corresponding confidence intervals for sex and racial-ethnic groups in Chicago for the years 1990, 2000 and 2010.  See the full description at: \r\nhttps://data.cityofchicago.org/api/views/3qdj-cqb8/files/pJ3PVVyubnsS2SpGO5P5IOPtNgCJZTE3LNOeLagC3mw?download=true&filename=P:\\EPI\\OEPHI\\MATERIALS\\REFERENCES\\Life Expectancy\\Dataset description_LE_ Sex_Race_Ethnicity.pdf", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/qjr3-bm53.json"
+    "attribution": "Vital statistics files produced by the Illinois Department of Public Health (IDPH)", 
+    "category": "Health & Human Services", 
+    "description": "This dataset gives the average life expectancy and corresponding confidence intervals for sex and racial-ethnic groups in Chicago for the years 1990, 2000 and 2010.  See the full description at: \r\nhttps://data.cityofchicago.org/api/views/3qdj-cqb8/files/pJ3PVVyubnsS2SpGO5P5IOPtNgCJZTE3LNOeLagC3mw?download=true&filename=P:\\EPI\\OEPHI\\MATERIALS\\REFERENCES\\Life Expectancy\\Dataset description_LE_ Sex_Race_Ethnicity.pdf", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/3qdj-cqb8.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_public_health_statistics_life_expectancy", 
+  "name": "Public Health Statistics- Life Expectancy By Race Ethnicity", 
   "schema": {
     "columns": [
       {
-        "name": "ca", 
-        "type": "real"
+        "name": "race_ethnicity", 
+        "type": "text"
       }, 
       {
-        "name": "community_area", 
+        "name": "sex", 
         "type": "text"
       }, 
       {
@@ -57,5 +63,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_public_health_statistics_life_expectancy"
 }

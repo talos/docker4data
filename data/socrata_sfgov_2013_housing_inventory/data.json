@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/e7d3-dxh5/rows.csv"
   }, 
+  "description": "Excel workbook of all housing construction from the 2013 Housing Inventory.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.sfgov.org/api/views/e7d3-dxh5.json"
+    "attribution": "San Francisco Planning Department", 
+    "category": "Housing and Buildings", 
+    "description": "Excel workbook of all housing construction from the 2013 Housing Inventory.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/e7d3-dxh5.json"
+    }
   }, 
-  "name": "socrata_sfgov_2013_housing_inventory", 
+  "name": "2013 Housing Inventory", 
   "schema": {
     "columns": [
       {
@@ -77,5 +83,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_sfgov_2013_housing_inventory"
 }

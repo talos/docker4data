@@ -3,13 +3,17 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cms.gov/api/views/b5av-3pcr/rows.csv"
   }, 
+  "description": "Hospital Level calculations for 8 Hospital Acquired Conditions (data period: July 1, 2010 through June 30, 2012)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cms.gov/api/views/b5av-3pcr.json"
+    "description": "Hospital Level calculations for 8 Hospital Acquired Conditions (data period: July 1, 2010 through June 30, 2012)", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cms.gov/api/views/b5av-3pcr.json"
+    }
   }, 
-  "name": "socrata_cms_selected_hospital_level_hac_rates", 
+  "name": "Selected Hospital Level HAC Rates", 
   "schema": {
     "columns": [
       {
@@ -33,5 +37,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cms_selected_hospital_level_hac_rates"
 }

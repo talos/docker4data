@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/ctwr-tvrd/rows.csv"
   }, 
+  "description": "This dataset lists all trips and their routes in Edmonton. A trip is a sequence of two or more stops that occurs at specific time.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.edmonton.ca/api/views/ctwr-tvrd.json"
+    "attribution": "Edmonton Transit", 
+    "category": "Transit", 
+    "description": "This dataset lists all trips and their routes in Edmonton. A trip is a sequence of two or more stops that occurs at specific time.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/ctwr-tvrd.json"
+    }
   }, 
-  "name": "socrata_edmonton_ca_ets_bus_schedule_gtfs_data_feed_trips", 
+  "name": "ETS Bus Schedule GTFS Data Feed - Trips", 
   "schema": {
     "columns": [
       {
@@ -37,5 +43,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_edmonton_ca_ets_bus_schedule_gtfs_data_feed_trips"
 }

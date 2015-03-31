@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/i6bp-fvbx/rows.csv"
   }, 
+  "description": "List of all Chicago streets with suffixes and minimum and maximum address numbers.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/i6bp-fvbx.json"
+    "attribution": "City of Chicago", 
+    "category": "Transportation", 
+    "description": "List of all Chicago streets with suffixes and minimum and maximum address numbers.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/i6bp-fvbx.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_chicago_street_names", 
+  "name": "Chicago Street Names", 
   "schema": {
     "columns": [
       {
@@ -41,5 +47,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_chicago_street_names"
 }

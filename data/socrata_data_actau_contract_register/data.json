@@ -1,0 +1,64 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_data_actau_contract_register/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/www.data.act.gov.au/api/views/3nhn-m5zu/rows.csv"
+  }, 
+  "description": "Contract Register, Updated Monthly in this Dataset\n\nWhich contracts are registered in the Government Contracts Register?     \n\nIn accordance with the Government Procurement Act 2001, from 1 July 2012 (R17) ACT Government contracts with a value of $25,000 or above are publicly viewable on the Government Contracts Register. \n\nHow do I view contracts within the Government Contracts Register?\n\nUsing the 'Previous  ACT Government Contracts Register (July 2003 - July 2009)' link, contracts which were loaded onto the previous contract register may be viewed and searched. \n\nUsing the 'New  ACT Government Contracts Register' link, contracts loaded from the 1 August 2009 can be viewed and searched.\n\nWho do I contact regarding specific contracts within the Government Contracts Register?\n\nDetails of specific contracts can be obtained through the relevant department/agency.  For system related enquiries, please contact SharedServicesProcurement@act.gov.au.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Commerce and Works, Shared Services Procurement", 
+    "category": "Accountability", 
+    "description": "Contract Register, Updated Monthly in this Dataset\n\nWhich contracts are registered in the Government Contracts Register?     \n\nIn accordance with the Government Procurement Act 2001, from 1 July 2012 (R17) ACT Government contracts with a value of $25,000 or above are publicly viewable on the Government Contracts Register. \n\nHow do I view contracts within the Government Contracts Register?\n\nUsing the 'Previous  ACT Government Contracts Register (July 2003 - July 2009)' link, contracts which were loaded onto the previous contract register may be viewed and searched. \n\nUsing the 'New  ACT Government Contracts Register' link, contracts loaded from the 1 August 2009 can be viewed and searched.\n\nWho do I contact regarding specific contracts within the Government Contracts Register?\n\nDetails of specific contracts can be obtained through the relevant department/agency.  For system related enquiries, please contact SharedServicesProcurement@act.gov.au.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/www.data.act.gov.au/api/views/3nhn-m5zu.json"
+    }
+  }, 
+  "name": "Contract Register", 
+  "schema": {
+    "columns": [
+      {
+        "name": "contract_number", 
+        "type": "text"
+      }, 
+      {
+        "name": "contract_title", 
+        "type": "text"
+      }, 
+      {
+        "name": "contractor_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "contract_amount", 
+        "type": "real"
+      }, 
+      {
+        "name": "execution_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "expiry_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "directorate_public_authority_territory_owned_corporation", 
+        "type": "text"
+      }, 
+      {
+        "name": "confidential_text", 
+        "type": "text"
+      }, 
+      {
+        "name": "dept_agency_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "id_number", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "tableName": "socrata_data_actau_contract_register"
+}

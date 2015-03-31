@@ -7,9 +7,12 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.medicare.gov/api/views/m5eg-upu5.json"
+    "category": "Home Health Compare", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/m5eg-upu5.json"
+    }
   }, 
-  "name": "socrata_medicare_home_health_care_zip_codes", 
+  "name": "Home Health Care - Zip Codes", 
   "schema": {
     "columns": [
       {
@@ -25,5 +28,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_medicare_home_health_care_zip_codes"
 }

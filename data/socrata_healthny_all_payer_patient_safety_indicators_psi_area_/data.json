@@ -1,0 +1,52 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_healthny_all_payer_patient_safety_indicators_psi_area_/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/9vwi-29ya/rows.csv"
+  }, 
+  "description": "The datasets contain hospital discharges counts (nominators, denominators, volume counts), observed, expected and risk-adjusted rates with corresponding 95% confidence intervals for Patient Safety Indicators generated using methodology developed by Agency for Healthcare Research and Quality (AHRQ).\r\n\r\nThe PSIs are a set of indicators providing information on potential in hospital complications and adverse events following surgeries, procedures, and childbirth. The PSIs were developed by AHRQ after a comprehensive literature review, analysis of ICD-9-CM codes, review by a clinician panel, implementation of risk adjustment, and empirical analyses.\r\n\r\nAll PSI measures were calculated using Statewide Planning and Research Cooperative System (SPARCS) inpatient data beginning 2009.  US Census data files provided by AHRQ were used to derive denominators for county level (area level) PSI measures.\r\n\r\nThe mortality, volume and utilization measures PSIs are presented by hospital as rates or counts. Area-level measures are presented by county as rates. For more information, check out: http://www.health.ny.gov/statistics/sparcs/, or go to the \"About\" tab.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New York State Department of Health", 
+    "category": "Health", 
+    "description": "The datasets contain hospital discharges counts (nominators, denominators, volume counts), observed, expected and risk-adjusted rates with corresponding 95% confidence intervals for Patient Safety Indicators generated using methodology developed by Agency for Healthcare Research and Quality (AHRQ).\r\n\r\nThe PSIs are a set of indicators providing information on potential in hospital complications and adverse events following surgeries, procedures, and childbirth. The PSIs were developed by AHRQ after a comprehensive literature review, analysis of ICD-9-CM codes, review by a clinician panel, implementation of risk adjustment, and empirical analyses.\r\n\r\nAll PSI measures were calculated using Statewide Planning and Research Cooperative System (SPARCS) inpatient data beginning 2009.  US Census data files provided by AHRQ were used to derive denominators for county level (area level) PSI measures.\r\n\r\nThe mortality, volume and utilization measures PSIs are presented by hospital as rates or counts. Area-level measures are presented by county as rates. For more information, check out: http://www.health.ny.gov/statistics/sparcs/, or go to the \"About\" tab.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/9vwi-29ya.json"
+    }
+  }, 
+  "name": "All Payer Patient Safety Indicators (PSI) Area Measures by Patient County: Beginning 2009", 
+  "schema": {
+    "columns": [
+      {
+        "name": "year", 
+        "type": "real"
+      }, 
+      {
+        "name": "county", 
+        "type": "text"
+      }, 
+      {
+        "name": "psi_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "psi_value", 
+        "type": "text"
+      }, 
+      {
+        "name": "denominator", 
+        "type": "real"
+      }, 
+      {
+        "name": "numerator", 
+        "type": "real"
+      }, 
+      {
+        "name": "observed_rate", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "tableName": "socrata_healthny_all_payer_patient_safety_indicators_psi_area_"
+}

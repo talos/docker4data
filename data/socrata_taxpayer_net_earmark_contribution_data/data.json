@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.taxpayer.net/api/views/a856-7kwd/rows.csv"
   }, 
+  "description": "Taxpayers for Common Sense and the Center for Responsive Politics (www.opensecrets.org) joined to release a comprehensive database that links campaign contributions with earmarked spending by lawmakers.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.taxpayer.net/api/views/a856-7kwd.json"
+    "category": "Earmark + Appropriations", 
+    "description": "Taxpayers for Common Sense and the Center for Responsive Politics (www.opensecrets.org) joined to release a comprehensive database that links campaign contributions with earmarked spending by lawmakers.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.taxpayer.net/api/views/a856-7kwd.json"
+    }
   }, 
-  "name": "socrata_taxpayer_net_earmark_contribution_data", 
+  "name": "Earmark-Contribution Data", 
   "schema": {
     "columns": [
       {
@@ -61,5 +66,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_taxpayer_net_earmark_contribution_data"
 }

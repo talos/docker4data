@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.wa.gov/api/views/9ubz-5r4b/rows.csv"
   }, 
+  "description": "Pending Water Right Applications in Washington State. Includes both applications for new water rights and to change existing water rights. Updated weekly.    Live data available at: https://fortress.wa.gov/ecy/waterresources/map/QuantityReport.aspx and https://fortress.wa.gov/ecy/waterresources/map/WaterResourcesExplorer.aspx.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.wa.gov/api/views/9ubz-5r4b.json"
+    "attribution": "Washington Department of Ecology", 
+    "category": "Natural Resources & Environment", 
+    "description": "Pending Water Right Applications in Washington State. Includes both applications for new water rights and to change existing water rights. Updated weekly.    Live data available at: https://fortress.wa.gov/ecy/waterresources/map/QuantityReport.aspx and https://fortress.wa.gov/ecy/waterresources/map/WaterResourcesExplorer.aspx.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.wa.gov/api/views/9ubz-5r4b.json"
+    }
   }, 
-  "name": "socrata_wa_water_right_applications", 
+  "name": "Water Right Applications", 
   "schema": {
     "columns": [
       {
@@ -113,5 +119,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_wa_water_right_applications"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/2ir4-626w/rows.csv"
   }, 
+  "description": "Maryland Port Administration General Cargo Monthly Data for the MPA's public terminals (Souce: Internal MPA data)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/2ir4-626w.json"
+    "attribution": "Maryland Port Administration", 
+    "category": "Transportation", 
+    "description": "Maryland Port Administration General Cargo Monthly Data for the MPA's public terminals (Souce: Internal MPA data)", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/2ir4-626w.json"
+    }
   }, 
-  "name": "socrata_maryland_maryland_port_administration_general_cargo", 
+  "name": "Maryland Port Administration General Cargo", 
   "schema": {
     "columns": [
       {
@@ -105,5 +111,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_maryland_maryland_port_administration_general_cargo"
 }

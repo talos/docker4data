@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/sqip-urmr/rows.csv"
   }, 
+  "description": "Address and Locations for Post Offices in Montgomery County, MD.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/sqip-urmr.json"
+    "attribution": "Montgomery County, MD", 
+    "category": "Community/Recreation", 
+    "description": "Address and Locations for Post Offices in Montgomery County, MD.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/sqip-urmr.json"
+    }
   }, 
-  "name": "socrata_montgomerycountymd_post_offices", 
+  "name": "Post Offices", 
   "schema": {
     "columns": [
       {
@@ -49,5 +55,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_montgomerycountymd_post_offices"
 }

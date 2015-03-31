@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.wa.gov/api/views/3erz-uxjj/rows.csv"
   }, 
+  "description": "The dataset contains all OCIO policies and standards, plus a few other types of documents, and dates of revision, creation, adoption, drafting etc.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.wa.gov/api/views/3erz-uxjj.json"
+    "attribution": "Mary Groebner, OCIO", 
+    "description": "The dataset contains all OCIO policies and standards, plus a few other types of documents, and dates of revision, creation, adoption, drafting etc.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.wa.gov/api/views/3erz-uxjj.json"
+    }
   }, 
-  "name": "socrata_wa_ocio_policy_revision_history", 
+  "name": "OCIO Policy Revision History", 
   "schema": {
     "columns": [
       {
@@ -33,5 +38,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_wa_ocio_policy_revision_history"
 }

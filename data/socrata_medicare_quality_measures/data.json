@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/djen-97ju/rows.csv"
   }, 
+  "description": "A list of the quality measure scores currently displayed on Nursing Home Compare for each nursing home. Each row contains a specific quality measure for a specific nursing home and includes the three-quarter score average and the score for each individual quarter.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.medicare.gov/api/views/djen-97ju.json"
+    "category": "Nursing Home Compare", 
+    "description": "A list of the quality measure scores currently displayed on Nursing Home Compare for each nursing home. Each row contains a specific quality measure for a specific nursing home and includes the three-quarter score average and the score for each individual quarter.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/djen-97ju.json"
+    }
   }, 
-  "name": "socrata_medicare_quality_measures", 
+  "name": "Quality Measures", 
   "schema": {
     "columns": [
       {
@@ -105,5 +110,6 @@
         "type": "timestamp"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_medicare_quality_measures"
 }

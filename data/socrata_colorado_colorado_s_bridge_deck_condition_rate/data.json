@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/7am5-s63e/rows.csv"
   }, 
+  "description": "Bridges in good condition typically have a rating from 80 to 100 and generally meet all safety and geometry standards. Good structures typically only require preservation-focused maintenance. Bridges in fair condition have a sufficiency rating from 50 to 80 and are qualified as structurally deficient or functionally obsolete. They marginally satisfy safety and geometry standards and require preservation-focused maintenance or occasional corrective rehabilitation work. Any bridge with a sufficiency rating of less than 50 and a status of structurally deficient or functionally obsolete is considered to be in poor condition. Bridges rated poor have exceeded their viable service life and require replacement or major rehabilitation.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.colorado.gov/api/views/7am5-s63e.json"
+    "attribution": "colorado department of transportation, cdot", 
+    "category": "Transportation", 
+    "description": "Bridges in good condition typically have a rating from 80 to 100 and generally meet all safety and geometry standards. Good structures typically only require preservation-focused maintenance. Bridges in fair condition have a sufficiency rating from 50 to 80 and are qualified as structurally deficient or functionally obsolete. They marginally satisfy safety and geometry standards and require preservation-focused maintenance or occasional corrective rehabilitation work. Any bridge with a sufficiency rating of less than 50 and a status of structurally deficient or functionally obsolete is considered to be in poor condition. Bridges rated poor have exceeded their viable service life and require replacement or major rehabilitation.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/7am5-s63e.json"
+    }
   }, 
-  "name": "socrata_colorado_colorado_s_bridge_deck_condition_rate", 
+  "name": "Colorado's Bridge Deck Condition Rate", 
   "schema": {
     "columns": [
       {
@@ -33,5 +39,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_colorado_colorado_s_bridge_deck_condition_rate"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/s9zb-nuc6/rows.csv"
   }, 
+  "description": "Employee overtime and supplemental earnings by month and year-to-date.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/s9zb-nuc6.json"
+    "attribution": "City of Chicago", 
+    "category": "Administration & Finance", 
+    "description": "Employee overtime and supplemental earnings by month and year-to-date.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/9xua-tabs.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_employee_overtime_and_supplemental_earni", 
+  "name": "Employee Overtime and Supplemental Earnings 2014", 
   "schema": {
     "columns": [
       {
@@ -25,57 +31,58 @@
         "type": "text"
       }, 
       {
-        "name": "jan_2013", 
+        "name": "january", 
         "type": "real"
       }, 
       {
-        "name": "feb_2013", 
+        "name": "febrary", 
         "type": "real"
       }, 
       {
-        "name": "mar_2013", 
+        "name": "march", 
         "type": "real"
       }, 
       {
-        "name": "apr_2013", 
+        "name": "april", 
         "type": "real"
       }, 
       {
-        "name": "may_2013", 
+        "name": "may", 
         "type": "real"
       }, 
       {
-        "name": "jun_2013", 
+        "name": "june", 
         "type": "real"
       }, 
       {
-        "name": "jul_2013", 
+        "name": "july", 
         "type": "real"
       }, 
       {
-        "name": "aug_2013", 
+        "name": "august", 
         "type": "real"
       }, 
       {
-        "name": "sep_2013", 
+        "name": "september", 
         "type": "real"
       }, 
       {
-        "name": "oct_2013", 
+        "name": "october", 
         "type": "real"
       }, 
       {
-        "name": "nov_2013", 
+        "name": "november", 
         "type": "real"
       }, 
       {
-        "name": "dec_2013", 
+        "name": "december", 
         "type": "real"
       }, 
       {
-        "name": "grand_total", 
+        "name": "total", 
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_employee_overtime_and_supplemental_earni"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/7zkx-3pp7/rows.csv"
   }, 
+  "description": "FOIA requests received by Human Resources as of May 1, 2010", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/7zkx-3pp7.json"
+    "attribution": "City of Chicago", 
+    "category": "FOIA", 
+    "description": "FOIA requests received by Human Resources as of May 1, 2010", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/7zkx-3pp7.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_foia_request_log_human_resources", 
+  "name": "FOIA Request Log - Human Resources", 
   "schema": {
     "columns": [
       {
@@ -33,5 +39,6 @@
         "type": "timestamp"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_foia_request_log_human_resources"
 }

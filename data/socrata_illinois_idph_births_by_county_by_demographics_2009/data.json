@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/22fv-nt24/rows.csv"
   }, 
+  "description": "Note:  The sum of certain variables may not equal the total due to unknown geography and/or demographics.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/22fv-nt24.json"
+    "attribution": "Illinois Center for Health Statistics", 
+    "category": "Public Health", 
+    "description": "Note:  The sum of certain variables may not equal the total due to unknown geography and/or demographics.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/22fv-nt24.json"
+    }
   }, 
-  "name": "socrata_illinois_idph_births_by_county_by_demographics_2009", 
+  "name": "IDPH Births, by County, by Demographics, 2009", 
   "schema": {
     "columns": [
       {
@@ -69,5 +75,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_idph_births_by_county_by_demographics_2009"
 }

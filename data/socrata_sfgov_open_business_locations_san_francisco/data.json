@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/g8m3-pdis/rows.csv"
   }, 
+  "description": "Active registered business locations in San Francisco maintained by the Office of Treasurer-Tax Collector.\r\nNote: a new business tax system has been put in place as of July 1, 2014; the Class and PBC Codes have been retained from previous system, and new additions to the system will not have business codes until March 2015.  At that time,  all codes will be replaced with the proper NAICS code for each business location.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.sfgov.org/api/views/g8m3-pdis.json"
+    "attribution": "City and County of San Francisco", 
+    "category": "Economy and Community", 
+    "description": "Active registered business locations in San Francisco maintained by the Office of Treasurer-Tax Collector.\r\nNote: a new business tax system has been put in place as of July 1, 2014; the Class and PBC Codes have been retained from previous system, and new additions to the system will not have business codes until March 2015.  At that time,  all codes will be replaced with the proper NAICS code for each business location.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/g8m3-pdis.json"
+    }
   }, 
-  "name": "socrata_sfgov_open_business_locations_san_francisco", 
+  "name": "Open Business Locations - San Francisco", 
   "schema": {
     "columns": [
       {
@@ -73,5 +79,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_sfgov_open_business_locations_san_francisco"
 }

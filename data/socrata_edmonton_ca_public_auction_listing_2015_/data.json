@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/bwpb-bppt/rows.csv"
   }, 
+  "description": "Properties currently available for Tax Sale. Data will be displayed from March 18th, 2015 up until the auction date on April 16, 2015.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.edmonton.ca/api/views/bwpb-bppt.json"
+    "attribution": "Assessment and Taxation, Collection Unit", 
+    "category": "City Administration", 
+    "description": "Properties currently available for Tax Sale. Data will be displayed from March 18th, 2015 up until the auction date on April 16, 2015.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/bwpb-bppt.json"
+    }
   }, 
-  "name": "socrata_edmonton_ca_public_auction_listing_2015_", 
+  "name": "Public Auction Listing (2015)", 
   "schema": {
     "columns": [
       {
@@ -25,5 +31,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_edmonton_ca_public_auction_listing_2015_"
 }

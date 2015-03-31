@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/opendata.go.ke/api/views/2vm4-y5tp/rows.csv"
   }, 
+  "description": "KIHBS Table 5.1: Percentage Distribution of Population by Incidence of Sickness in the last four weeks county estimates", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/opendata.go.ke/api/views/tdcq-2wvp.json"
+    "attribution": "KNBS", 
+    "category": "Counties", 
+    "description": "2005/6 KIHBS Table 5.1: Percentage Distribution of Population by Incidence of Sickness in the last four weeks, County Estimates", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/opendata.go.ke/api/views/acez-zrfy.json"
+    }
   }, 
-  "name": "socrata_opendata_go_ke_percentage_distribution_of_population_b", 
+  "name": "Percentage Distribution of Population by Incidence of Sickness in the last four weeks by County - 2005/6", 
   "schema": {
     "columns": [
       {
@@ -17,39 +23,15 @@
         "type": "text"
       }, 
       {
-        "name": "missing_hand", 
+        "name": "morbidity_all", 
         "type": "text"
       }, 
       {
-        "name": "missing_foot", 
+        "name": "morbidity_male", 
         "type": "text"
       }, 
       {
-        "name": "lame", 
-        "type": "text"
-      }, 
-      {
-        "name": "blind", 
-        "type": "text"
-      }, 
-      {
-        "name": "deaf", 
-        "type": "text"
-      }, 
-      {
-        "name": "dumb", 
-        "type": "text"
-      }, 
-      {
-        "name": "mental", 
-        "type": "text"
-      }, 
-      {
-        "name": "paralyzed", 
-        "type": "text"
-      }, 
-      {
-        "name": "other", 
+        "name": "morbidity_female", 
         "type": "text"
       }, 
       {
@@ -61,5 +43,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_opendata_go_ke_percentage_distribution_of_population_b"
 }

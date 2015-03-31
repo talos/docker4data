@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/7cdf-6fgx/rows.csv"
   }, 
+  "description": "Crime Incident Reports provided by Boston Police Department", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofboston.gov/api/views/7cdf-6fgx.json"
+    "attribution": "Boston Police Department", 
+    "category": "Public Safety", 
+    "description": "Crime Incident Reports provided by Boston Police Department", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/7cdf-6fgx.json"
+    }
   }, 
-  "name": "socrata_cityofboston_crime_incident_reports", 
+  "name": "Crime Incident Reports", 
   "schema": {
     "columns": [
       {
@@ -93,5 +99,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofboston_crime_incident_reports"
 }

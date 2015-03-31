@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/8sq6-p7et/rows.csv"
   }, 
+  "description": "Inspectional Services violations found by Code Enforcement with citations issued", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofboston.gov/api/views/8sq6-p7et.json"
+    "attribution": "Inspectional Services Division", 
+    "category": "Permitting", 
+    "description": "Inspectional Services violations found by Code Enforcement with citations issued", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/8sq6-p7et.json"
+    }
   }, 
-  "name": "socrata_cityofboston_code_enforcement_building_and_property_vi", 
+  "name": "Code Enforcement - Building and Property Violations", 
   "schema": {
     "columns": [
       {
@@ -81,5 +87,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofboston_code_enforcement_building_and_property_vi"
 }

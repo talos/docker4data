@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/electionsdata.kingcounty.gov/api/views/83t2-qwek/rows.csv"
   }, 
+  "description": "This dataset contains the fields that you will need to include to edit for a new election. These values appear throughout the site on different pages. See the description column for the page the text appears.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/electionsdata.kingcounty.gov/api/views/83t2-qwek.json"
+    "category": "Government", 
+    "description": "This dataset contains the fields that you will need to include to edit for a new election. These values appear throughout the site on different pages. See the description column for the page the text appears.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/electionsdata.kingcounty.gov/api/views/83t2-qwek.json"
+    }
   }, 
-  "name": "socrata_electionsdata_kingcounty_election_website_text", 
+  "name": "Election Website Text", 
   "schema": {
     "columns": [
       {
@@ -37,5 +42,6 @@
         "type": "timestamp"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_electionsdata_kingcounty_election_website_text"
 }

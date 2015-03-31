@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/3ytq-9ntv/rows.csv"
   }, 
+  "description": "Display the types of  traffic lane segments of streets in the City of Seattle.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/3ytq-9ntv.json"
+    "attribution": "Seattle Department of Transporation", 
+    "category": "Transportation", 
+    "description": "Display the types of  traffic lane segments of streets in the City of Seattle.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/3ytq-9ntv.json"
+    }
   }, 
-  "name": "socrata_seattle_sdot_traffic_lanes", 
+  "name": "SDOT - Traffic Lanes", 
   "schema": {
     "columns": [
       {
@@ -113,5 +119,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_sdot_traffic_lanes"
 }

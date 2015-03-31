@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/dknb-ctqa/rows.csv"
   }, 
+  "description": "Annual total transit system ridership based on last 12 months. Estimated from fare revenue.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.edmonton.ca/api/views/dknb-ctqa.json"
+    "category": "Transportation", 
+    "description": "Annual total transit system ridership based on last 12 months. Estimated from fare revenue.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/dknb-ctqa.json"
+    }
   }, 
-  "name": "socrata_edmonton_ca_transit_ridership", 
+  "name": "Transit Ridership", 
   "schema": {
     "columns": [
       {
@@ -41,5 +46,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_edmonton_ca_transit_ridership"
 }

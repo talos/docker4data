@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.taxpayer.net/api/views/etmm-rpre/rows.csv"
   }, 
+  "description": "A breakdown of the value of earmarks in each of the individual approprations bills", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.taxpayer.net/api/views/etmm-rpre.json"
+    "category": "Earmark + Appropriations", 
+    "description": "A breakdown of the value of earmarks in each of the individual approprations bills", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.taxpayer.net/api/views/etmm-rpre.json"
+    }
   }, 
-  "name": "socrata_taxpayer_net_2009_earmarks_by_bill", 
+  "name": "2009 Earmarks By Bill", 
   "schema": {
     "columns": [
       {
@@ -41,5 +46,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_taxpayer_net_2009_earmarks_by_bill"
 }

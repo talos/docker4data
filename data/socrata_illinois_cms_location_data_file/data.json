@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/6pug-rk3y/rows.csv"
   }, 
+  "description": "This file contains information to allow developers to correlate data from other extracts and determine location information.  This file does not contain GIS coordinates.  Please contact cms.data@illinois.gov for questions or to report problems with this dataset.  Please see the data definition file located in the Files and Documents section for additional details.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/6pug-rk3y.json"
+    "attribution": "cms.data@illinois.gov", 
+    "description": "This file contains information to allow developers to correlate data from other extracts and determine location information.  This file does not contain GIS coordinates.  Please contact cms.data@illinois.gov for questions or to report problems with this dataset.  Please see the data definition file located in the Files and Documents section for additional details.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/6pug-rk3y.json"
+    }
   }, 
-  "name": "socrata_illinois_cms_location_data_file", 
+  "name": "CMS Location Data File", 
   "schema": {
     "columns": [
       {
@@ -33,5 +38,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_cms_location_data_file"
 }

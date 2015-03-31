@@ -7,9 +7,12 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/4khs-fz35.json"
+    "category": "Land Base", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/4khs-fz35.json"
+    }
   }, 
-  "name": "socrata_seattle_police_beat_and_precinct_centerpoints", 
+  "name": "Police Beat and Precinct Centerpoints", 
   "schema": {
     "columns": [
       {
@@ -29,5 +32,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_police_beat_and_precinct_centerpoints"
 }

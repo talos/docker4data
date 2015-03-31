@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/f7f2-ggz5/rows.csv"
   }, 
+  "description": "List of locations in Chicago where alternative vehicle fuels are available.  For more detailed descriptions of fields, see http://developer.nrel.gov/doc/api/alt-fuel-stations/v1 or https://data.cityofchicago.org/developers/docs/alternative-fuel-locations.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/f7f2-ggz5.json"
+    "attribution": "U.S. Department of Energy", 
+    "category": "Environment & Sustainable Development", 
+    "description": "List of locations in Chicago where alternative vehicle fuels are available.  For more detailed descriptions of fields, see http://developer.nrel.gov/doc/api/alt-fuel-stations/v1 or https://data.cityofchicago.org/developers/docs/alternative-fuel-locations.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/f7f2-ggz5.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_alternative_fuel_locations", 
+  "name": "Alternative Fuel Locations", 
   "schema": {
     "columns": [
       {
@@ -165,5 +171,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_alternative_fuel_locations"
 }

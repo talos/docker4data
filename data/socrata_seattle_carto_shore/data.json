@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/fmyu-wqt3/rows.csv"
   }, 
+  "description": "Shoreline gis layer for Seattle", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/fmyu-wqt3.json"
+    "attribution": "Seattle GIS Program", 
+    "category": "Land Base", 
+    "description": "Shoreline gis layer for Seattle", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/fmyu-wqt3.json"
+    }
   }, 
-  "name": "socrata_seattle_carto_shore", 
+  "name": "CARTO.SHORE", 
   "schema": {
     "columns": [
       {
@@ -45,5 +51,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_carto_shore"
 }

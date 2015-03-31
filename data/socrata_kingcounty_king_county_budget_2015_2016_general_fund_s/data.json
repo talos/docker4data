@@ -3,17 +3,27 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/jfgc-f4de/rows.csv"
   }, 
+  "description": "King County biennial budget, 2015-2016, general fund by service", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.kingcounty.gov/api/views/yhrs-45ik.json"
+    "attribution": "King County Performance, Strategy and Budget", 
+    "category": "Budget", 
+    "description": "King County biennial budget, 2015-2016, general fund by service", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/jfgc-f4de.json"
+    }
   }, 
-  "name": "socrata_kingcounty_king_county_budget_2015_2016_general_fund_s", 
+  "name": "King County budget, 2015-2016, General Fund Services", 
   "schema": {
     "columns": [
       {
-        "name": "sources", 
+        "name": "service", 
+        "type": "text"
+      }, 
+      {
+        "name": "appropriation", 
         "type": "text"
       }, 
       {
@@ -21,5 +31,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_kingcounty_king_county_budget_2015_2016_general_fund_s"
 }

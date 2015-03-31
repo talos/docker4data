@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/p8m4-v33g/rows.csv"
   }, 
+  "description": "Current Enrollment refers to all students currently enrolled in courses awarding credit toward a degree or other formal award. The file is collected every semester from each public post\u00adsecondary education institution participating in SURDS.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.colorado.gov/api/views/p8m4-v33g.json"
+    "attribution": "Colorado Department of Higher Education", 
+    "category": "Higher Education", 
+    "description": "Current Enrollment refers to all students currently enrolled in courses awarding credit toward a degree or other formal award. The file is collected every semester from each public post\u00adsecondary education institution participating in SURDS.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/p8m4-v33g.json"
+    }
   }, 
-  "name": "socrata_colorado_cdhe_enrollment", 
+  "name": "CDHE - Enrollment", 
   "schema": {
     "columns": [
       {
@@ -89,5 +95,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_colorado_cdhe_enrollment"
 }

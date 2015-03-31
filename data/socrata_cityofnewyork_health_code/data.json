@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/3v48-95hb/rows.csv"
   }, 
+  "description": "Health Codes as per the Department of Health and Mental Hygiene. The material included on is intended for informational purposes only and is not the official version of the New York City Administrative Code and Rules of the City of New York.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/3v48-95hb.json"
+    "attribution": "Department of Health and Mental Hygiene (DOHMH)", 
+    "category": "Health", 
+    "description": "Health Codes as per the Department of Health and Mental Hygiene. The material included on is intended for informational purposes only and is not the official version of the New York City Administrative Code and Rules of the City of New York.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/3v48-95hb.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_health_code", 
+  "name": "Health Code", 
   "schema": {
     "columns": [
       {
@@ -25,5 +31,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_health_code"
 }

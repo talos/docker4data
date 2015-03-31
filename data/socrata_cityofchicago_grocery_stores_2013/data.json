@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/53t8-wyrc/rows.csv"
   }, 
+  "description": "Contains a list of grocery stores which was used by the city to calculate the estimates of Chicagoans living in food deserts in 2011. Data in this file can be cross-referenced with the city's business license data (http://bit.ly/sMFZdN).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/53t8-wyrc.json"
+    "attribution": "City of Chicago", 
+    "category": "Community & Economic Development", 
+    "description": "Contains a list of grocery stores which was used by the city to calculate the estimates of Chicagoans living in food deserts in 2011. Data in this file can be cross-referenced with the city's business license data (http://bit.ly/sMFZdN).", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/53t8-wyrc.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_grocery_stores_2013", 
+  "name": "Grocery Stores - 2013", 
   "schema": {
     "columns": [
       {
@@ -81,5 +87,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_grocery_stores_2013"
 }

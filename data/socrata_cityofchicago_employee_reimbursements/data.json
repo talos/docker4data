@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/g5h3-jkgt/rows.csv"
   }, 
+  "description": "This information is derived from payments made to City of Chicago employees from January 1, 2011 to the present.  Payments are initiated by City Departments and issued by the Department of Finance. Descriptions of each attribute follow:\r\n\r\n-\tVoucher Number:  This is a unique number assigned to each payment and is used for identifying that particular payment.\r\n\r\n-\tAmount:  This is the dollar amount of the payment made.\r\n\r\n-\tPayment Date:  This is the date payment was issued.\r\n\r\n-\tVendor Name:  This is the name of the person or entity to which payment was made.  \r\n\r\n-\tDescription:  This is an optional field that indicates the reason payment was made.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/g5h3-jkgt.json"
+    "attribution": "City of Chicago", 
+    "category": "Administration & Finance", 
+    "description": "This information is derived from payments made to City of Chicago employees from January 1, 2011 to the present.  Payments are initiated by City Departments and issued by the Department of Finance. Descriptions of each attribute follow:\r\n\r\n-\tVoucher Number:  This is a unique number assigned to each payment and is used for identifying that particular payment.\r\n\r\n-\tAmount:  This is the dollar amount of the payment made.\r\n\r\n-\tPayment Date:  This is the date payment was issued.\r\n\r\n-\tVendor Name:  This is the name of the person or entity to which payment was made.  \r\n\r\n-\tDescription:  This is an optional field that indicates the reason payment was made.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/g5h3-jkgt.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_employee_reimbursements", 
+  "name": "Employee Reimbursements", 
   "schema": {
     "columns": [
       {
@@ -37,5 +43,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_employee_reimbursements"
 }

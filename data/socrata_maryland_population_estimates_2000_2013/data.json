@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/7dvm-92bt/rows.csv"
   }, 
+  "description": "Maryland Total Resident Population from 2000 to 2013 based on US Census data.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/7dvm-92bt.json"
+    "attribution": "Maryland Department of Planning", 
+    "category": "Planning", 
+    "description": "Maryland Total Resident Population from 2000 to 2013 based on US Census data.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/7dvm-92bt.json"
+    }
   }, 
-  "name": "socrata_maryland_population_estimates_2000_2013", 
+  "name": "Population Estimates 2000-2013", 
   "schema": {
     "columns": [
       {
@@ -73,5 +79,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_maryland_population_estimates_2000_2013"
 }

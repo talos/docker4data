@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/8d75-q6az/rows.csv"
   }, 
+  "description": "This dataset shows the number of vehicles that have passed under a gantry on that particular day. This dataset does not show trips, it only shows segments. Segments are compiled to make trips. There are 10 gantries on the InterCounty Connector (ICC) and 5 interchanges. \r\n\r\nThe eastbound gantries are 101, 105, 107, 109, 113, and the\r\nwestbound gantries are 102, 106, 108, 110, 114. \r\n\r\nThe dataset has a column for each gantry going east and west, then a total for each gantry. \r\n\r\nThe ICC is an all electronic tolling road which opened February 2011. The first opening was a partial opening, with only the first interchange being available for use.There was a free period from February 23, 2011 through March 6, 2011. The rest of the ICC opened in November 2011, and there was another free period from November 22, 2011 through December 4, 2011.\r\n\r\nThere are a few days where a low number of traffic passed under gantries (rows 196,198, 269,271...), these were either testing periods or construction vehicles.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/8d75-q6az.json"
+    "category": "Transportation", 
+    "description": "This dataset shows the number of vehicles that have passed under a gantry on that particular day. This dataset does not show trips, it only shows segments. Segments are compiled to make trips. There are 10 gantries on the InterCounty Connector (ICC) and 5 interchanges. \r\n\r\nThe eastbound gantries are 101, 105, 107, 109, 113, and the\r\nwestbound gantries are 102, 106, 108, 110, 114. \r\n\r\nThe dataset has a column for each gantry going east and west, then a total for each gantry. \r\n\r\nThe ICC is an all electronic tolling road which opened February 2011. The first opening was a partial opening, with only the first interchange being available for use.There was a free period from February 23, 2011 through March 6, 2011. The rest of the ICC opened in November 2011, and there was another free period from November 22, 2011 through December 4, 2011.\r\n\r\nThere are a few days where a low number of traffic passed under gantries (rows 196,198, 269,271...), these were either testing periods or construction vehicles.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/8d75-q6az.json"
+    }
   }, 
-  "name": "socrata_maryland_icc_vehicle_volume_data", 
+  "name": "ICC Vehicle Volume Data", 
   "schema": {
     "columns": [
       {
@@ -89,5 +94,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_maryland_icc_vehicle_volume_data"
 }

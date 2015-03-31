@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.taxpayer.net/api/views/5vfu-2qxu/rows.csv"
   }, 
+  "description": "Earmarks determined by TCS to be national in scope, and therefore not inclued in member earmark totals or in overall earmark computations", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.taxpayer.net/api/views/5vfu-2qxu.json"
+    "category": "Earmark + Appropriations", 
+    "description": "Earmarks determined by TCS to be national in scope, and therefore not inclued in member earmark totals or in overall earmark computations", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.taxpayer.net/api/views/5vfu-2qxu.json"
+    }
   }, 
-  "name": "socrata_taxpayer_net_2010_national_earmarks", 
+  "name": "2010 National Earmarks", 
   "schema": {
     "columns": [
       {
@@ -53,5 +58,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_taxpayer_net_2010_national_earmarks"
 }

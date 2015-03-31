@@ -3,19 +3,21 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/fwjv-32uk/rows.csv"
   }, 
+  "description": "Meter rate schedules for all meters owned by SFMTA and the Port of SF as of March 7, 2014. Base rates describe the standard rate for parking at the meter. Overrides to the Base Rate apply on the given days at the given times. Rates are subject to operating schedules, available here: https://data.sfgov.org/Transportation/Meter-Operating-Schedules/6cqg-dxku. When the time limit of a meter is 0 minutes, such as during Tow or Alternate Schedule - Passenger Loading, parking is not available and therefore meter rates do not apply. Please direct any data inquiries to info@sfpark.org", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.sfgov.org/api/views/untr-ik2h.json"
+    "attribution": "SFpark (info@sfpark.org)", 
+    "category": "Transportation", 
+    "description": "Meter rate schedules for all meters owned by SFMTA and the Port of SF as of March 7, 2014. Base rates describe the standard rate for parking at the meter. Overrides to the Base Rate apply on the given days at the given times. Rates are subject to operating schedules, available here: https://data.sfgov.org/Transportation/Meter-Operating-Schedules/6cqg-dxku. When the time limit of a meter is 0 minutes, such as during Tow or Alternate Schedule - Passenger Loading, parking is not available and therefore meter rates do not apply. Please direct any data inquiries to info@sfpark.org", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/fwjv-32uk.json"
+    }
   }, 
-  "name": "socrata_sfgov_meter_rate_schedules", 
+  "name": "Meter Rate Schedules", 
   "schema": {
     "columns": [
-      {
-        "name": "rowindex", 
-        "type": "real"
-      }, 
       {
         "name": "post_id", 
         "type": "text"
@@ -45,5 +47,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_sfgov_meter_rate_schedules"
 }

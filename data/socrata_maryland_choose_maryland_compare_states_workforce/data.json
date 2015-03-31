@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/5esm-neyf/rows.csv"
   }, 
+  "description": "Workforce summary - employed, unemployed, and participation rates.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/5esm-neyf.json"
+    "attribution": "Maryland Department of Business and Economic Development", 
+    "category": "Business and Economy", 
+    "description": "Workforce summary - employed, unemployed, and participation rates.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/5esm-neyf.json"
+    }
   }, 
-  "name": "socrata_maryland_choose_maryland_compare_states_workforce", 
+  "name": "Choose Maryland:  Compare States - Workforce", 
   "schema": {
     "columns": [
       {
@@ -53,5 +59,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_maryland_choose_maryland_compare_states_workforce"
 }

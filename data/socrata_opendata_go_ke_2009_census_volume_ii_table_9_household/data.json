@@ -3,45 +3,47 @@
   "data": {
     "@id": "http://www.opendatacache.com/opendata.go.ke/api/views/4763-45tg/rows.csv"
   }, 
+  "description": "2009 Census Volume II Table 9: Households by main mode of Human Waste Disposal\r\nCounty Estimates", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/opendata.go.ke/api/views/mb7b-n9sd.json"
+    "attribution": "KNBS", 
+    "category": "Counties", 
+    "description": "2009 Census Volume II Table 9: Households by main mode of Human Waste Disposal\r\nCounty Estimates", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/opendata.go.ke/api/views/4763-45tg.json"
+    }
   }, 
-  "name": "socrata_opendata_go_ke_2009_census_volume_ii_table_9_household", 
+  "name": "2009 Census Volume II Table 9: Households by main mode of Human Waste Disposal County Estimates", 
   "schema": {
     "columns": [
       {
-        "name": "district", 
+        "name": "county", 
         "type": "text"
       }, 
       {
-        "name": "rural_urban", 
+        "name": "main_sewer", 
         "type": "text"
       }, 
       {
-        "name": "of_households_with_main_sewer", 
+        "name": "septic_tank", 
         "type": "text"
       }, 
       {
-        "name": "of_households_with_septic_tank", 
+        "name": "cess_pool", 
         "type": "text"
       }, 
       {
-        "name": "of_households_with_cess_pool", 
+        "name": "bucket", 
         "type": "text"
       }, 
       {
-        "name": "of_households_with_bucket", 
+        "name": "bush", 
         "type": "text"
       }, 
       {
-        "name": "of_households_with_bush", 
-        "type": "text"
-      }, 
-      {
-        "name": "of_households_with_other", 
+        "name": "other_waste_disposal", 
         "type": "text"
       }, 
       {
@@ -73,23 +75,11 @@
         "type": "real"
       }, 
       {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "mtef", 
-        "type": "text"
-      }, 
-      {
         "name": "location_1", 
         "type": "text"
       }, 
       {
-        "name": "of_households_with_vip_pit_latrine", 
-        "type": "text"
-      }, 
-      {
-        "name": "of_households_with_pit_latrine_covered_uncovered", 
+        "name": "pit_latrine_covered_uncovered", 
         "type": "text"
       }, 
       {
@@ -99,7 +89,12 @@
       {
         "name": "no_of_households_with_pit_latrine_covered_uncovered", 
         "type": "real"
+      }, 
+      {
+        "name": "vip_pit_latrine", 
+        "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_opendata_go_ke_2009_census_volume_ii_table_9_household"
 }

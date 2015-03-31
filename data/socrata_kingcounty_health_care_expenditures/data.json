@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/impj-6vgn/rows.csv"
   }, 
+  "description": "King County budget healthcare expenditures since 2000.  See http://www.kingcounty.gov/budget for more.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.kingcounty.gov/api/views/impj-6vgn.json"
+    "attribution": "King County Executive", 
+    "category": "Budget", 
+    "description": "King County budget healthcare expenditures since 2000.  See http://www.kingcounty.gov/budget for more.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/impj-6vgn.json"
+    }
   }, 
-  "name": "socrata_kingcounty_health_care_expenditures", 
+  "name": "Health Care Expenditures", 
   "schema": {
     "columns": [
       {
@@ -21,5 +27,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_kingcounty_health_care_expenditures"
 }
