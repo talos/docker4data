@@ -1,5 +1,6 @@
 #!/bin/bash
 
+docker rm -f docker4data-build || :
 docker run -d --name docker4data-build \
   -v $(pwd)/keys/.ssh:/root/.ssh \
   -v $(pwd)/keys/.aws:/root/.aws \

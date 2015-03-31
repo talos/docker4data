@@ -22,13 +22,31 @@ data_json=https://raw.githubusercontent.com/talos/docker4data/master/data/$NAME/
 echo $data_json
 
 chown -R postgres:postgres $TMPDIR
-DIGEST=$(python /scripts/build.py $data_json $S3_BUCKET/$SQLDUMP $TMPDIR)
-echo $DIGEST
+METADATA_DIGEST=$(python /scripts/build.py $data_json $S3_BUCKET/$SQLDUMP $TMPDIR)
+echo metadata digest: $METADATA_DIGEST
 
 /scripts/dump.sh $NAME $TMPDIR/$NAME
+DATA_DIGEST=$(sha1sum $TMPDIR/$NAME | cut -f 1 -d ' ')
+echo data digest: $DATA_DIGEST
 
-#aws s3 cp --acl public-read $TMPDIR/$NAME $S3_BUCKET/$SQLDUMP/$NAME
-aws s3api put-object --acl public-read --bucket $S3_BUCKET \
-  --key $SQLDUMP/$NAME --metadata metadata-sha1-hexdigest=$DIGEST --body $TMPDIR/$NAME
+OLD_DATA_DIGEST=$(aws s3api head-object \
+                  --bucket $S3_BUCKET \
+                  --key $SQLDUMP/$NAME \
+                  | grep data-sha1-hexdigest | cut -d '"' -f 4)
+echo old data digest: $OLD_DATA_DIGEST
 
-rm -r $TMPDIR
+if [ "$OLD_DATA_DIGEST" == "$DATA_DIGEST" ]; then
+  echo 'not uploading, nothing has changed'
+else
+  echo 'uploading new data'
+  aws s3api put-object \
+    --acl public-read \
+    --bucket $S3_BUCKET \
+    --key $SQLDUMP/$NAME \
+    --metadata metadata-sha1-hexdigest=$METADATA_DIGEST \
+    --metadata data-sha1-hexdigest=$DATA_DIGEST \
+    --body $TMPDIR/$NAME
+fi
+
+echo removing data from $TMPDIR
+rm -rf $TMPDIR
