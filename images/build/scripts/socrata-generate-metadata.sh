@@ -27,5 +27,5 @@ function generate_portal {
 }
 
 for portal in $(wget -O - -q ${PORTALS_URL} | cut -f 1); do
-  generate_portal http://www.opendatacache.com/logs/$portal/summary.log &
+  generate_portal http://www.opendatacache.com/logs/$portal/summary.log
 done
