@@ -1,5 +1,7 @@
 #!/bin/bash -e
 
+### Regenerate JSON in git repo from socrata data portals
+
 PORTALS_URL=http://www.opendatacache.com/logs/status.log
 
 mkdir -p /git
