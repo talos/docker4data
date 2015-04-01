@@ -44,7 +44,8 @@
 mkdir /git
 cd /git && git clone https://github.com/talos/docker4data.git
 
-service elasticsearch start
+#service elasticsearch start
+/docker-entrypoint.sh elasticsearch &
 
 echo Waiting for elasticsearch to start...
 while : ; do
@@ -54,4 +55,4 @@ done
 
 curl -XPUT http://127.0.0.1:9200/docker4data
 python /scripts/index.py /git/docker4data/data/
-service elasticsearch stop
+#service elasticsearch stop
