@@ -87,7 +87,7 @@ def get_current_digest(metadata):
     if 'socrata' not in metadata['metadata']:
         return ''
 
-    return hashlib.sha1(requests.get(metadata['metadata']['socrata']).content).hexdigest()
+    return hashlib.sha1(requests.get(metadata['metadata']['socrata']['@id']).content).hexdigest()
 
 
 def get_old_digest(s3_bucket, name):

@@ -1,5 +1,5 @@
 #
-# Docker4Data cli image -- this is used to download Docker4Data imags locally
+# Docker4Data cli image -- this is used to download Docker4Data images locally
 #
 # https://github.com/talos/docker4data
 #
