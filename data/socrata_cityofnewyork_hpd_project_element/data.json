@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/wig2-3fvs/rows.csv"
   }, 
+  "description": "Information on a Housing Development Project about which HPD is required to report. This includes general project information such as start and completion dates, units, Borrower Legal Entity, general contractor (GC), and prevailing wage information.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/wig2-3fvs.json"
+    "attribution": "Department of Housing Preservation and Development (HPD)", 
+    "category": "Housing & Development", 
+    "description": "Information on a Housing Development Project about which HPD is required to report. This includes general project information such as start and completion dates, units, Borrower Legal Entity, general contractor (GC), and prevailing wage information.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/wig2-3fvs.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_hpd_project_element", 
+  "name": "HPD Project Element", 
   "schema": {
     "columns": [
       {
@@ -69,5 +75,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_hpd_project_element"
 }

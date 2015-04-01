@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/tkwq-e4vi/rows.csv"
   }, 
+  "description": "Number of desktop coputers and laptops available in Hawaii Libraries", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.hawaii.gov/api/views/tkwq-e4vi.json"
+    "attribution": "Hawaii State Public Library System", 
+    "category": "Social Services", 
+    "description": "Number of desktop coputers and laptops available in Hawaii Libraries", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/tkwq-e4vi.json"
+    }
   }, 
-  "name": "socrata_hawaii_libraries_computers_available", 
+  "name": "Libraries Computers Available", 
   "schema": {
     "columns": [
       {
@@ -49,5 +55,6 @@
         "type": "timestamp"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_hawaii_libraries_computers_available"
 }

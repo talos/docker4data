@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/8hkx-uppz/rows.csv"
   }, 
+  "description": "Statistics on NYC quality of life", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/8hkx-uppz.json"
+    "attribution": "Downtown Alliance", 
+    "category": "City Government", 
+    "description": "Statistics on NYC quality of life", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/8hkx-uppz.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_quality_of_life_indicators", 
+  "name": "Quality Of Life Indicators", 
   "schema": {
     "columns": [
       {
@@ -33,5 +39,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_quality_of_life_indicators"
 }

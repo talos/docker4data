@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/u3p3-prfd/rows.csv"
   }, 
+  "description": "City of Rockford Vendor Payments 2013", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/u3p3-prfd.json"
+    "category": "Municipality", 
+    "description": "City of Rockford Vendor Payments 2013", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/u3p3-prfd.json"
+    }
   }, 
-  "name": "socrata_illinois_vendor_payments", 
+  "name": "Vendor Payments", 
   "schema": {
     "columns": [
       {
@@ -65,5 +70,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_vendor_payments"
 }

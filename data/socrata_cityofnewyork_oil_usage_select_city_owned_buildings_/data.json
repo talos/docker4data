@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/whux-iuiu/rows.csv"
   }, 
+  "description": "Oil usage statistics for a select portfolio of City-owned buildings", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/whux-iuiu.json"
+    "attribution": "Department of Citywide Administrative Services (DCAS)", 
+    "category": "Environment", 
+    "description": "Oil usage statistics for a select portfolio of City-owned buildings", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/whux-iuiu.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_oil_usage_select_city_owned_buildings_", 
+  "name": "Oil Usage ( Select City Owned Buildings)", 
   "schema": {
     "columns": [
       {
@@ -81,5 +87,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_oil_usage_select_city_owned_buildings_"
 }

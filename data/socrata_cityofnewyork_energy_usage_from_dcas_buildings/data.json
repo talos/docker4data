@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/pwva-zn2w/rows.csv"
   }, 
+  "description": "Energy data from a select portfolio of City-owned buildings (DCAS)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/pwva-zn2w.json"
+    "attribution": "Department of Citywide Administrative Services (DCAS)", 
+    "category": "Environment", 
+    "description": "Energy data from a select portfolio of City-owned buildings (DCAS)", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/pwva-zn2w.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_energy_usage_from_dcas_buildings", 
+  "name": "Energy Usage From DCAS Buildings", 
   "schema": {
     "columns": [
       {
@@ -221,5 +227,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_energy_usage_from_dcas_buildings"
 }

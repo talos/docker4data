@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/8586-3zfm/rows.csv"
   }, 
+  "description": "New school projects (Capacity) and Capital Improvement Projects (CIP) currently under Construction.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/8586-3zfm.json"
+    "attribution": "School Construction Authority (SCA)", 
+    "category": "Housing & Development", 
+    "description": "New school projects (Capacity) and Capital Improvement Projects (CIP) currently under Construction.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/8586-3zfm.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_projects_in_construction", 
+  "name": "Projects in construction", 
   "schema": {
     "columns": [
       {
@@ -45,5 +51,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_projects_in_construction"
 }

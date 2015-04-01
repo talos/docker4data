@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/qer4-iwzq/rows.csv"
   }, 
+  "description": "This dataset outlines the sales tax rates for Chicago Southland communities in 2012.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/qer4-iwzq.json"
+    "attribution": "South Suburban Mayors and Managers Association", 
+    "category": "Municipality", 
+    "description": "This dataset outlines the sales tax rates for Chicago Southland communities in 2012.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/qer4-iwzq.json"
+    }
   }, 
-  "name": "socrata_illinois_ssmma_sales_tax", 
+  "name": "SSMMA Sales Tax", 
   "schema": {
     "columns": [
       {
@@ -29,5 +35,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_ssmma_sales_tax"
 }

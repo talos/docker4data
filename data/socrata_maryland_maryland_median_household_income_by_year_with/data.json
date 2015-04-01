@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/bvk4-qsxs/rows.csv"
   }, 
+  "description": "The data consist of the median household income by the year in Maryland and the margin of error of the median income from 2005 to 2011. MOE= Margin of Error for the 90% confidence interval. Source from the U.S. Census Bureau, Small Area Income and Poverty Estimates, May 2012.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/bvk4-qsxs.json"
+    "attribution": "Maryland Department of Planning", 
+    "category": "Demographic", 
+    "description": "The data consist of the median household income by the year in Maryland and the margin of error of the median income from 2005 to 2011. MOE= Margin of Error for the 90% confidence interval. Source from the U.S. Census Bureau, Small Area Income and Poverty Estimates, May 2012.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/bvk4-qsxs.json"
+    }
   }, 
-  "name": "socrata_maryland_maryland_median_household_income_by_year_with", 
+  "name": "Maryland Median Household Income By Year With Margin Of Error: 2005-2011", 
   "schema": {
     "columns": [
       {
@@ -121,5 +127,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_maryland_maryland_median_household_income_by_year_with"
 }

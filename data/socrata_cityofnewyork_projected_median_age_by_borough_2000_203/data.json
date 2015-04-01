@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/miqs-rvtb/rows.csv"
   }, 
+  "description": "Median Age of the population of New York City in total and by Borough: unadjusted decennial census data from 1950-2000 and projected figures from 2010-2030.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/miqs-rvtb.json"
+    "attribution": "Department of City Planning (DCP)", 
+    "category": "City Government", 
+    "description": "Median Age of the population of New York City in total and by Borough: unadjusted decennial census data from 1950-2000 and projected figures from 2010-2030.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/miqs-rvtb.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_projected_median_age_by_borough_2000_203", 
+  "name": "Projected Median Age By Borough 2000-2030", 
   "schema": {
     "columns": [
       {
@@ -53,5 +59,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_projected_median_age_by_borough_2000_203"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/j34j-vqvt/rows.csv"
   }, 
+  "description": "Average response times to incidents by Year, Month, Incident classification and borough.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/j34j-vqvt.json"
+    "attribution": "Fire Department of New York City (FDNY)", 
+    "category": "Social Services", 
+    "description": "Average response times to incidents by Year, Month, Incident classification and borough.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/j34j-vqvt.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_fdny_monthly_response_times", 
+  "name": "FDNY Monthly Response Times", 
   "schema": {
     "columns": [
       {
@@ -33,5 +39,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_fdny_monthly_response_times"
 }

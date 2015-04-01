@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/ipps-gptw/rows.csv"
   }, 
+  "description": "An asterisk (*) indicates data were not tracked. All data are provided by the Maryland State Highway Administration (SHA) each month to StateStat. CHART (http://www.chart.state.md.us/) provides real time traffic information to traffic and law enforcement agencies.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/ipps-gptw.json"
+    "attribution": "State Highway Administration (SHA)", 
+    "category": "Transportation", 
+    "description": "An asterisk (*) indicates data were not tracked. All data are provided by the Maryland State Highway Administration (SHA) each month to StateStat. CHART (http://www.chart.state.md.us/) provides real time traffic information to traffic and law enforcement agencies.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/ipps-gptw.json"
+    }
   }, 
-  "name": "socrata_maryland_sha_mobility_report_chart_coordinated_highway", 
+  "name": "SHA Mobility Report: CHART (Coordinated Highways Action Response Team)", 
   "schema": {
     "columns": [
       {
@@ -97,5 +103,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_maryland_sha_mobility_report_chart_coordinated_highway"
 }

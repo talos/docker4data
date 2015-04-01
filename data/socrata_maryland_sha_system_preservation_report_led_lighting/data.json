@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/w2d7-mwg6/rows.csv"
   }, 
+  "description": "An asterisk (*) indicates a month when a camera was not in use. All data are provided by the Maryland State Highway Administration (SHA) each month to StateStat.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/w2d7-mwg6.json"
+    "attribution": "State Highway Administration (SHA)", 
+    "description": "An asterisk (*) indicates a month when a camera was not in use. All data are provided by the Maryland State Highway Administration (SHA) each month to StateStat.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/w2d7-mwg6.json"
+    }
   }, 
-  "name": "socrata_maryland_sha_system_preservation_report_led_lighting", 
+  "name": "SHA System Preservation Report: LED Lighting", 
   "schema": {
     "columns": [
       {
@@ -29,5 +34,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_maryland_sha_system_preservation_report_led_lighting"
 }

@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/deug-fjb5/rows.csv"
   }, 
+  "description": "Note:  The sum of certain variables may not equal the total due to unknown geography and/or demographics.\r\n\r\n *   Rate or percentage does not meet standards of reliability (numerator <10 or denominator <100)\r\n-0-  Percentage zero corresponding to '0' in frequency column\r\n**   Uknowns excluded from denominator when calculating percentage", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/deug-fjb5.json"
+    "attribution": "Illinois Center for Health Statistics", 
+    "description": "Note:  The sum of certain variables may not equal the total due to unknown geography and/or demographics.\r\n\r\n *   Rate or percentage does not meet standards of reliability (numerator <10 or denominator <100)\r\n-0-  Percentage zero corresponding to '0' in frequency column\r\n**   Uknowns excluded from denominator when calculating percentage", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/deug-fjb5.json"
+    }
   }, 
-  "name": "socrata_illinois_idph_births_by_county_by_characteristics_2009", 
+  "name": "IDPH Births, by County, by Characteristics,  2009", 
   "schema": {
     "columns": [
       {
@@ -77,5 +82,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_idph_births_by_county_by_characteristics_2009"
 }

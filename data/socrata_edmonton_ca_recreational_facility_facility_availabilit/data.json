@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/mgii-4cth/rows.csv"
   }, 
+  "description": "Information when various areas of a particular recreational facility are available for public use or rental. Data is extracted from CLASS.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.edmonton.ca/api/views/mgii-4cth.json"
+    "category": "Facilities and Structures", 
+    "description": "Information when various areas of a particular recreational facility are available for public use or rental. Data is extracted from CLASS.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/mgii-4cth.json"
+    }
   }, 
-  "name": "socrata_edmonton_ca_recreational_facility_facility_availabilit", 
+  "name": "Recreational Facility - Facility Availability", 
   "schema": {
     "columns": [
       {
@@ -37,5 +42,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_edmonton_ca_recreational_facility_facility_availabilit"
 }

@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/yunb-tdph/rows.csv"
   }, 
+  "description": "A dataset of road projects in the design, current or completed stages of the project.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.edmonton.ca/api/views/yunb-tdph.json"
+    "category": "Transportation", 
+    "description": "A dataset of road projects in the design, current or completed stages of the project.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/yunb-tdph.json"
+    }
   }, 
-  "name": "socrata_edmonton_ca_edmonton_road_projects_planned_current_com", 
+  "name": "Edmonton Road Projects (Planned, Current & Complete)", 
   "schema": {
     "columns": [
       {
@@ -49,5 +54,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_edmonton_ca_edmonton_road_projects_planned_current_com"
 }

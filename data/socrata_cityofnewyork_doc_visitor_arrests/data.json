@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/hm7r-w4y9/rows.csv"
   }, 
+  "description": "Visitor arrests by fiscal year", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/hm7r-w4y9.json"
+    "attribution": "Department of Correction (DOC)", 
+    "category": "Public Safety", 
+    "description": "Visitor arrests by fiscal year", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/hm7r-w4y9.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_doc_visitor_arrests", 
+  "name": "DOC Visitor Arrests", 
   "schema": {
     "columns": [
       {
@@ -21,5 +27,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_doc_visitor_arrests"
 }

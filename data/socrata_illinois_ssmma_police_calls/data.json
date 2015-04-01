@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/9rx9-mrti/rows.csv"
   }, 
+  "description": "This dataset aggregates Police Calls for Service from communities who wish to make the data publicly accessible", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/fdhy-vi9z.json"
+    "attribution": "South Suburban Mayors and Managers Association", 
+    "category": "Municipality", 
+    "description": "This dataset aggregates Police Calls for Service from communities who wish to make the data publicly accessible", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/fdhy-vi9z.json"
+    }
   }, 
-  "name": "socrata_illinois_ssmma_police_calls", 
+  "name": "SSMMA Police Calls", 
   "schema": {
     "columns": [
       {
@@ -65,5 +71,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_ssmma_police_calls"
 }

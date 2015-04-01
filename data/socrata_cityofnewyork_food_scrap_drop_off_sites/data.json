@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/rmmq-46n5/rows.csv"
   }, 
+  "description": "Locations and operators of food scrap drop-off sites. Please note that these sites are not necessarily operated solely by the City of New York.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/rmmq-46n5.json"
+    "attribution": "Department of Sanitation (DSNY)", 
+    "category": "Environment", 
+    "description": "Locations and operators of food scrap drop-off sites. Please note that these sites are not necessarily operated solely by the City of New York.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/rmmq-46n5.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_food_scrap_drop_off_sites", 
+  "name": "Food Scrap Drop Off Sites", 
   "schema": {
     "columns": [
       {
@@ -61,5 +67,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_food_scrap_drop_off_sites"
 }

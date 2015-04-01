@@ -10,12 +10,12 @@
   "metadata": {
     "attribution": "City of Chicago", 
     "category": "Administration & Finance", 
-    "description": "The City's Internet site allows residents to access City services online, learn more about the City of Chicago, and find other pertinent information. The percentage of the City\u2019s Internet website uptime, the amount of time the site was available, and the target uptime for each week are available by mousing over columns. The target availability for this site is 99.5%.", 
+    "description": "The website availability metrics below are derived from an automated monitor that sends a request every two minutes to each website. The website is considered unavailable if the response to any request takes longer than a pre-defined wait time. The monitors run continuously and are not normally disabled during scheduled maintenance or downtime, so the reported metrics incorporate both planned and unplanned downtime.", 
     "socrata": {
-      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/icwn-eia9.json"
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/zfg3-p7xv.json"
     }
   }, 
-  "name": "Performance Metrics - Innovation & Technology - City Website Availability", 
+  "name": "Performance Metrics - Innovation & Technology - Site Availability", 
   "schema": {
     "columns": [
       {
@@ -23,24 +23,16 @@
         "type": "text"
       }, 
       {
+        "name": "site_name", 
+        "type": "text"
+      }, 
+      {
         "name": "total_downtime_minutes_", 
         "type": "real"
       }, 
       {
-        "name": "city_website_uptime_", 
+        "name": "site_uptime_", 
         "type": "text"
-      }, 
-      {
-        "name": "target_uptime_", 
-        "type": "text"
-      }, 
-      {
-        "name": "weeks_target_was_achieved", 
-        "type": "real"
-      }, 
-      {
-        "name": "weeks_target_was_not_achieved", 
-        "type": "real"
       }
     ]
   }, 

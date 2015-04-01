@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/9ct9-prf9/rows.csv"
   }, 
+  "description": "The most recent school level results for New York City on AP exams. Results are available at the school level for the 2012 school year. Records contain AP Test Taking and Passing Rates.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/9ct9-prf9.json"
+    "attribution": "Department of Education (DOE)", 
+    "category": "Education", 
+    "description": "The most recent school level results for New York City on AP exams. Results are available at the school level for the 2012 school year. Records contain AP Test Taking and Passing Rates.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/9ct9-prf9.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_ap_results", 
+  "name": "AP Results", 
   "schema": {
     "columns": [
       {
@@ -33,5 +39,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_ap_results"
 }

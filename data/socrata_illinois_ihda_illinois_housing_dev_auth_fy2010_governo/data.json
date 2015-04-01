@@ -9,20 +9,20 @@
   }, 
   "metadata": {
     "category": "Housing", 
-    "description": "FY2010 Governor's Report - Closing.Neighborhood Stabilization Program", 
+    "description": "FY2010 Governor's Report - Closings.Trust Fund", 
     "socrata": {
-      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/54us-trtn.json"
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/ygnu-47c6.json"
     }
   }, 
-  "name": "IHDA - Illinois Housing Dev Auth - FY2010 Governor's Report - Closings.Neighborhood Stabilization Program", 
+  "name": "IHDA - Illinois Housing Dev Auth  - FY2010 Governor's Report - Closings.Trust Fund", 
   "schema": {
     "columns": [
       {
-        "name": "fiscal_year_", 
+        "name": "fiscal_year", 
         "type": "text"
       }, 
       {
-        "name": "project_sponsor", 
+        "name": "project_name", 
         "type": "text"
       }, 
       {
@@ -30,7 +30,15 @@
         "type": "text"
       }, 
       {
-        "name": "type", 
+        "name": "project_city", 
+        "type": "text"
+      }, 
+      {
+        "name": "owner", 
+        "type": "text"
+      }, 
+      {
+        "name": "loan_grant", 
         "type": "text"
       }, 
       {
@@ -38,16 +46,12 @@
         "type": "timestamp"
       }, 
       {
-        "name": "grant_total", 
+        "name": "amount", 
         "type": "real"
       }, 
       {
         "name": "units", 
         "type": "real"
-      }, 
-      {
-        "name": "pid_", 
-        "type": "text"
       }
     ]
   }, 

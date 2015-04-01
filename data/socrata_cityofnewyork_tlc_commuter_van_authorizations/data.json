@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/yksz-5xaj/rows.csv"
   }, 
+  "description": "Spreadsheet of all TLC commuter van authorizations", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/yksz-5xaj.json"
+    "attribution": "Taxi and Limousine Commission (TLC)", 
+    "category": "Transportation", 
+    "description": "Spreadsheet of all TLC commuter van authorizations", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/yksz-5xaj.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_tlc_commuter_van_authorizations", 
+  "name": "TLC Commuter Van Authorizations", 
   "schema": {
     "columns": [
       {
@@ -45,5 +51,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_tlc_commuter_van_authorizations"
 }

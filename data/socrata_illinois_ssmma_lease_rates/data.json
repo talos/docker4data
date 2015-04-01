@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/b88b-5aax/rows.csv"
   }, 
+  "description": "This dataset outlines the median lease rates across Chicago Southland communities. The rates were averaged from loopnet.com, simborg, lee & associates, and cbre pricing.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/b88b-5aax.json"
+    "attribution": "South Suburban Mayors and Managers Association", 
+    "category": "Municipality", 
+    "description": "This dataset outlines the median lease rates across Chicago Southland communities. The rates were averaged from loopnet.com, simborg, lee & associates, and cbre pricing.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/b88b-5aax.json"
+    }
   }, 
-  "name": "socrata_illinois_ssmma_lease_rates", 
+  "name": "SSMMA Lease Rates", 
   "schema": {
     "columns": [
       {
@@ -89,5 +95,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_ssmma_lease_rates"
 }

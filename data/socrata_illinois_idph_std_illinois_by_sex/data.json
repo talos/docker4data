@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/cb2a-8e6s/rows.csv"
   }, 
+  "description": "Illinois 2000-2013 STD counts and rates (per 100,000 population) by sex. See attachment for metadata and censoring details under the \"About\" link.  Null values in dataset reflect censored data.  Data Source: Illinois Department of Public Health STD Program.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/cb2a-8e6s.json"
+    "attribution": "Illinois Department of Public Health STD Program", 
+    "category": "Public Health", 
+    "description": "Illinois 2000-2013 STD counts and rates (per 100,000 population) by sex. See attachment for metadata and censoring details under the \"About\" link.  Null values in dataset reflect censored data.  Data Source: Illinois Department of Public Health STD Program.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/cb2a-8e6s.json"
+    }
   }, 
-  "name": "socrata_illinois_idph_std_illinois_by_sex", 
+  "name": "IDPH STD Illinois By Sex", 
   "schema": {
     "columns": [
       {
@@ -49,5 +55,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_idph_std_illinois_by_sex"
 }

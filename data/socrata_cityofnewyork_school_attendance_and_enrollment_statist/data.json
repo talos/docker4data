@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/7z8d-msnt/rows.csv"
   }, 
+  "description": "DOE attendance and enrollment statistics broken down by school district", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/7z8d-msnt.json"
+    "attribution": "Department of Education (DOE)", 
+    "category": "Education", 
+    "description": "DOE attendance and enrollment statistics broken down by school district", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/7z8d-msnt.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_school_attendance_and_enrollment_statist", 
+  "name": "School Attendance and Enrollment Statistics by District (2010-11)", 
   "schema": {
     "columns": [
       {
@@ -25,5 +31,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_school_attendance_and_enrollment_statist"
 }

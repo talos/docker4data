@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/nfhf-cbk5/rows.csv"
   }, 
+  "description": "The Department of Procurement (DPS) approves Task Order Requests (TOR), contracts for specific tasks or services to be provided to the City. The below graph displays the average time it takes the Department of Procurement to approve a TOR. The current target for approval time is within 7 days.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/s9wg-6is6.json"
+    "attribution": "City of Chicago", 
+    "category": "Administration & Finance", 
+    "description": "The City of Chicago auctions surplus equipment, vehicles, furniture, office equipment, and other goods and materials online in order to raise funds. The below graph provides weekly updates on progress toward the fundraising target of $4.6 million.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/s9wg-6is6.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_performance_metrics_procurement_services", 
+  "name": "Performance Metrics - Procurement Services - City Auctions", 
   "schema": {
     "columns": [
       {
@@ -33,5 +39,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_performance_metrics_procurement_services"
 }

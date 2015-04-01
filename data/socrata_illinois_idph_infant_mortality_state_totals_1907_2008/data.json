@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/ruic-mhpt/rows.csv"
   }, 
+  "description": "* 1950 - 2007: Resident data from tabulations in Illinois Department of Public Health.\r\n(1953 - 1954 Maternal deaths from Vital Statistics of the United States)\r\n** 1940 - 1949: Resident data from Vital Statistics of the United States for each year.\r\n*** 1918 - 1939: Occurrence data from United States Bureau of the Census publications.\r\nNA (not available)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/ruic-mhpt.json"
+    "attribution": "Illinois Center for Health Statistics", 
+    "category": "Public Health", 
+    "description": "* 1950 - 2007: Resident data from tabulations in Illinois Department of Public Health.\r\n(1953 - 1954 Maternal deaths from Vital Statistics of the United States)\r\n** 1940 - 1949: Resident data from Vital Statistics of the United States for each year.\r\n*** 1918 - 1939: Occurrence data from United States Bureau of the Census publications.\r\nNA (not available)", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/ruic-mhpt.json"
+    }
   }, 
-  "name": "socrata_illinois_idph_infant_mortality_state_totals_1907_2008", 
+  "name": "IDPH Infant Mortality, State Totals, 1907-2008", 
   "schema": {
     "columns": [
       {
@@ -25,5 +31,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_idph_infant_mortality_state_totals_1907_2008"
 }

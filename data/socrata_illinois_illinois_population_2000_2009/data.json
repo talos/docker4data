@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/qcyd-8efc/rows.csv"
   }, 
+  "description": "Data provided by the IL Center for Health Statistics.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/qcyd-8efc.json"
+    "attribution": "Illinois Department of Public Health, Office of Policy, Planning, and Statistics, Illinois Center for Health Statistics", 
+    "category": "Health", 
+    "description": "Data provided by the IL Center for Health Statistics.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/qcyd-8efc.json"
+    }
   }, 
-  "name": "socrata_illinois_illinois_population_2000_2009", 
+  "name": "Illinois Population, 2000-2009", 
   "schema": {
     "columns": [
       {
@@ -57,5 +63,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_illinois_population_2000_2009"
 }

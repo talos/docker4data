@@ -7,9 +7,13 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/pner-h2in.json"
+    "attribution": "City of Chicago - Office of Budget and Management", 
+    "category": "Community & Economic Development", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/pner-h2in.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_tif_funding_sources_and_uses_by_tif_fisc", 
+  "name": "TIF Funding Sources and Uses by TIF, Fiscal Year, and Type", 
   "schema": {
     "columns": [
       {
@@ -37,5 +41,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_tif_funding_sources_and_uses_by_tif_fisc"
 }

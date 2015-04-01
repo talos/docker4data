@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/qdgm-hex6/rows.csv"
   }, 
+  "description": "A snapshot of the top ten books with the highest number of holds at Edmonton Public Library, each week from 9 AM Monday to 9 AM Monday, organized by customer home library branch. See Public Libraries dataset for branch data - https://data.edmonton.ca/Community-Centres/Public-Libraries/jn25-zspi)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.edmonton.ca/api/views/qdgm-hex6.json"
+    "attribution": "Edmonton Public Library", 
+    "category": "Community Centres", 
+    "description": "A snapshot of the top ten books with the highest number of holds at Edmonton Public Library, each week from 9 AM Monday to 9 AM Monday, organized by customer home library branch. See Public Libraries dataset for branch data - https://data.edmonton.ca/Community-Centres/Public-Libraries/jn25-zspi)", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/qdgm-hex6.json"
+    }
   }, 
-  "name": "socrata_edmonton_ca_most_popular_books_by_branch_edmonton_publ", 
+  "name": "Most Popular Books by Branch \u2013 Edmonton Public Library", 
   "schema": {
     "columns": [
       {
@@ -41,5 +47,6 @@
         "type": "timestamp"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_edmonton_ca_most_popular_books_by_branch_edmonton_publ"
 }

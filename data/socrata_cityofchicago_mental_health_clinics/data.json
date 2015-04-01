@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/v56e-cy8y/rows.csv"
   }, 
+  "description": "City of Chicago Mental Health Clinic locations, hours of operation and contact information.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/v56e-cy8y.json"
+    "attribution": "City of Chicago", 
+    "category": "Health & Human Services", 
+    "description": "City of Chicago Mental Health Clinic locations, hours of operation and contact information.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/v56e-cy8y.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_mental_health_clinics", 
+  "name": "Mental Health Clinics", 
   "schema": {
     "columns": [
       {
@@ -45,5 +51,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_mental_health_clinics"
 }

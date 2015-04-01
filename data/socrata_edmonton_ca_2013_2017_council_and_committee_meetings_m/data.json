@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/mner-asqn/rows.csv"
   }, 
+  "description": "List of Council-approved meetings of Edmonton City Council and related Committees of Council.  The list includes the date, time and location of each meeting.  (Information Subject to Change. While every effort is taken to ensure its accuracy, the data presented here is for informational purposes only.  The official record of the Council and Committee meetings shall be the Agendas, Minutes and supporting documents approved by and filed with the City Clerk.)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.edmonton.ca/api/views/smk2-dtnx.json"
+    "attribution": "Office of the City Clerk", 
+    "category": "City Administration", 
+    "description": "Lists any Motions (also known as \u2018Resolutions\u2019) or Councillor Inquiries made during the meeting. \r\nMotions of Council require a mover and seconder; Motions of Committee only require a mover.\r\nCouncillor Inquiries do not require a Mover nor is a vote taken.\r\n(Information Subject to Change. While every effort is taken to ensure its accuracy, the data presented here is for informational purposes only.  The official record of the Council and Committee meetings shall be the Agendas, Minutes and supporting documents approved by and filed with the City Clerk.)", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/smk2-dtnx.json"
+    }
   }, 
-  "name": "socrata_edmonton_ca_2013_2017_council_and_committee_meetings_m", 
+  "name": "2013-2017 Council And Committee Meetings - Motions", 
   "schema": {
     "columns": [
       {
@@ -41,5 +47,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_edmonton_ca_2013_2017_council_and_committee_meetings_m"
 }

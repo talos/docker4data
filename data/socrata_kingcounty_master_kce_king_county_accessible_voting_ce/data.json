@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/nv8f-b8na/rows.csv"
   }, 
+  "description": "Master dataset for accessible voting centers (AVC) in King County. All AVC locations are not open for every election.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.kingcounty.gov/api/views/nv8f-b8na.json"
+    "attribution": "King County Elections", 
+    "category": "Election operations", 
+    "description": "Master dataset for accessible voting centers (AVC) in King County. All AVC locations are not open for every election.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/nv8f-b8na.json"
+    }
   }, 
-  "name": "socrata_kingcounty_master_kce_king_county_accessible_voting_ce", 
+  "name": "MASTER KCE: King County Accessible Voting Centers", 
   "schema": {
     "columns": [
       {
@@ -73,5 +79,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_kingcounty_master_kce_king_county_accessible_voting_ce"
 }

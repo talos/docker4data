@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/vpma-swyi/rows.csv"
   }, 
+  "description": "Materials pulled to fulfill patron holds. The Chicago Public Library consists of the Harold Washington Library Center, Sulzer and Woodson regional libraries and over 75 neighborhood branches. Albany Park Branch closed 9/22/2012 for construction of a new branch expected to open in Fall 2014. Interim services had been provided in the Albany Park community. Many locations experience sporadic emergency closures due to heating or air conditioning issues, or area power outages.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/vpma-swyi.json"
+    "attribution": "Chicago Public Library", 
+    "category": "Education", 
+    "description": "Materials pulled to fulfill patron holds. The Chicago Public Library consists of the Harold Washington Library Center, Sulzer and Woodson regional libraries and over 75 neighborhood branches. Albany Park Branch closed 9/22/2012 for construction of a new branch expected to open in Fall 2014. Interim services had been provided in the Albany Park community. Many locations experience sporadic emergency closures due to heating or air conditioning issues, or area power outages.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/vpma-swyi.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_libraries_2014_holds_filled_by_location", 
+  "name": "Libraries - 2014 Holds Filled by Location", 
   "schema": {
     "columns": [
       {
@@ -81,5 +87,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_libraries_2014_holds_filled_by_location"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/knv6-r5ad/rows.csv"
   }, 
+  "description": "This dataset includes applications for use of Daley Center Plaza, starting in 2012. The data includes the name of the requesting organization, the date each permit was requested and its status.  A copy of the Regulations and Procedures for the Daley Plaza can be downloaded at: http://www.pbcchicago.com/content/contact/location_map.asp.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/knv6-r5ad.json"
+    "attribution": "Public Building Commission", 
+    "category": "Events", 
+    "description": "This dataset includes applications for use of Daley Center Plaza, starting in 2012. The data includes the name of the requesting organization, the date each permit was requested and its status.  A copy of the Regulations and Procedures for the Daley Plaza can be downloaded at: http://www.pbcchicago.com/content/contact/location_map.asp.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/knv6-r5ad.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_public_building_commission_event_permits", 
+  "name": "Public Building Commission - Event Permits", 
   "schema": {
     "columns": [
       {
@@ -41,5 +47,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_public_building_commission_event_permits"
 }

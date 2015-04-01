@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/prfy-5m97/rows.csv"
   }, 
+  "description": "List of all historical buildings in Edmonton", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.edmonton.ca/api/views/prfy-5m97.json"
+    "attribution": "City of Edmonton - Information Technology", 
+    "category": "Facilities and Structures", 
+    "description": "List of all historical buildings in Edmonton", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/prfy-5m97.json"
+    }
   }, 
-  "name": "socrata_edmonton_ca_historical_buildings", 
+  "name": "Historical Buildings", 
   "schema": {
     "columns": [
       {
@@ -45,5 +51,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_edmonton_ca_historical_buildings"
 }

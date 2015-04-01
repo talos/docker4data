@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/z5nu-zs2r/rows.csv"
   }, 
+  "description": "King County GIS data is at http://www5.kingcounty.gov/gisdataportal/", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.kingcounty.gov/api/views/z5nu-zs2r.json"
+    "attribution": "King County", 
+    "category": "Places & Boundaries", 
+    "description": "King County GIS data is at http://www5.kingcounty.gov/gisdataportal/", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/z5nu-zs2r.json"
+    }
   }, 
-  "name": "socrata_kingcounty_gis", 
+  "name": "GIS", 
   "schema": {
     "columns": [
       {
@@ -21,5 +27,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_kingcounty_gis"
 }

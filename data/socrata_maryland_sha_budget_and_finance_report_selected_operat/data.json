@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/d2e2-ib69/rows.csv"
   }, 
+  "description": "SHA's Office of Finance does not budget for each line item separately. Rather, a total Operating Program budget is drawn up, which contains all of these line items together. Negative numbers are the result of fiscal year adjustments.\r\n\r\nData are provided by the Maryland State Highway Administration (SHA) each month to StateStat.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/d2e2-ib69.json"
+    "attribution": "State Highway Administration (SHA)", 
+    "category": "Transportation", 
+    "description": "SHA's Office of Finance does not budget for each line item separately. Rather, a total Operating Program budget is drawn up, which contains all of these line items together. Negative numbers are the result of fiscal year adjustments.\r\n\r\nData are provided by the Maryland State Highway Administration (SHA) each month to StateStat.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/d2e2-ib69.json"
+    }
   }, 
-  "name": "socrata_maryland_sha_budget_and_finance_report_selected_operat", 
+  "name": "SHA Budget and Finance Report: Selected Operating Program Expenditures", 
   "schema": {
     "columns": [
       {
@@ -69,5 +75,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_maryland_sha_budget_and_finance_report_selected_operat"
 }

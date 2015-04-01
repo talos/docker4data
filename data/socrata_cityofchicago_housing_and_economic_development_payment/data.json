@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/w7c3-qjgj/rows.csv"
   }, 
+  "description": "Pro forma invoices with required receipt numbers for submission to Department of Housing and Economic Development.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/w7c3-qjgj.json"
+    "attribution": "City of Chicago", 
+    "category": "Administration & Finance", 
+    "description": "Pro forma invoices with required receipt numbers for submission to Department of Housing and Economic Development.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/w7c3-qjgj.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_housing_and_economic_development_payment", 
+  "name": "Housing and Economic Development Payment Receipts", 
   "schema": {
     "columns": [
       {
@@ -45,5 +51,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_housing_and_economic_development_payment"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/9e74-xdvk/rows.csv"
   }, 
+  "description": "Data provided by IL Center for Health Statistics.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/9e74-xdvk.json"
+    "attribution": "Illinois Department of Public Health, Office of Policy, Planning, and Statistics, Illinois Center for Health Statistics", 
+    "category": "Health", 
+    "description": "Data provided by IL Center for Health Statistics.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/9e74-xdvk.json"
+    }
   }, 
-  "name": "socrata_illinois_all_live_births_in_illinois_1989_2009", 
+  "name": "All Live Births In Illinois, 1989-2009", 
   "schema": {
     "columns": [
       {
@@ -101,5 +107,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_all_live_births_in_illinois_1989_2009"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/v39y-4v3t/rows.csv"
   }, 
+  "description": "Lists all TLC paratransit vehicles", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/v39y-4v3t.json"
+    "attribution": "Taxi and Limousine Commission (TLC)", 
+    "category": "Transportation", 
+    "description": "Lists all TLC paratransit vehicles", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/v39y-4v3t.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_paratransit_vehicles", 
+  "name": "Paratransit Vehicles", 
   "schema": {
     "columns": [
       {
@@ -45,5 +51,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_paratransit_vehicles"
 }

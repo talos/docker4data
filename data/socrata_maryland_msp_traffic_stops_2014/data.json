@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/nq4v-y7m5/rows.csv"
   }, 
+  "description": "This dataset shows the total number of MSP traffic stops for CY 2014.  Also included is the total number of citations and warnings issued by MSP for CY 2014.  The values are provided in monthly increments.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/nq4v-y7m5.json"
+    "attribution": "Maryland State Police", 
+    "category": "Public Safety", 
+    "description": "This dataset shows the total number of MSP traffic stops for CY 2014.  Also included is the total number of citations and warnings issued by MSP for CY 2014.  The values are provided in monthly increments.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/nq4v-y7m5.json"
+    }
   }, 
-  "name": "socrata_maryland_msp_traffic_stops_2014", 
+  "name": "MSP Traffic Stops 2014", 
   "schema": {
     "columns": [
       {
@@ -29,5 +35,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_maryland_msp_traffic_stops_2014"
 }

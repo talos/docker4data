@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/xexz-77j3/rows.csv"
   }, 
+  "description": "Data are provided by the Maryland State Highway Administration (SHA) each month to StateStat. IWIF link: https://www.ceiwc.com/iwif-state-of-maryland/", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/xexz-77j3.json"
+    "attribution": "State Highway Administration (SHA)", 
+    "category": "Transportation", 
+    "description": "Data are provided by the Maryland State Highway Administration (SHA) each month to StateStat. IWIF link: https://www.ceiwc.com/iwif-state-of-maryland/", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/xexz-77j3.json"
+    }
   }, 
-  "name": "socrata_maryland_sha_personnel_report_training_and_iwif", 
+  "name": "SHA Personnel Report: Training and IWIF", 
   "schema": {
     "columns": [
       {
@@ -101,5 +107,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_maryland_sha_personnel_report_training_and_iwif"
 }

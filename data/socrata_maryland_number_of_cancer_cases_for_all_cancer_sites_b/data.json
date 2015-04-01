@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/sx7q-snbm/rows.csv"
   }, 
+  "description": "Definition of \"All Cancer Sites\": ICD-O-3 Topography (Site) Codes  C00.0 \u2013 C80.9  with histology codes including all invasive cancers of all sites except basal and squamous cell skin cancers, and in situ cancer cases of the urinary bladder.  Total includes cases reported as transexual, hermaphrodite, and unknown gender.  Some cells are missing data due to suppression of low cell counts.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/sx7q-snbm.json"
+    "attribution": "Maryland Cancer Registry", 
+    "category": "Health and Human Services", 
+    "description": "Definition of \"All Cancer Sites\": ICD-O-3 Topography (Site) Codes  C00.0 \u2013 C80.9  with histology codes including all invasive cancers of all sites except basal and squamous cell skin cancers, and in situ cancer cases of the urinary bladder.  Total includes cases reported as transexual, hermaphrodite, and unknown gender.  Some cells are missing data due to suppression of low cell counts.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/sx7q-snbm.json"
+    }
   }, 
-  "name": "socrata_maryland_number_of_cancer_cases_for_all_cancer_sites_b", 
+  "name": "Number of Cancer Cases for All Cancer Sites by Jurisdiction, Gender, and Race, Maryland 2009", 
   "schema": {
     "columns": [
       {
@@ -45,5 +51,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_maryland_number_of_cancer_cases_for_all_cancer_sites_b"
 }

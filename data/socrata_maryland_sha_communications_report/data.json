@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/nty8-a5p3/rows.csv"
   }, 
+  "description": "An asterisk (*) indicates data were not tracked. All data are provided by the Maryland State Highway Administration (SHA) each month to StateStat.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/nty8-a5p3.json"
+    "attribution": "State Highway Administration (SHA)", 
+    "category": "Transportation", 
+    "description": "An asterisk (*) indicates data were not tracked. All data are provided by the Maryland State Highway Administration (SHA) each month to StateStat.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/nty8-a5p3.json"
+    }
   }, 
-  "name": "socrata_maryland_sha_communications_report", 
+  "name": "SHA Communications Report", 
   "schema": {
     "columns": [
       {
@@ -117,5 +123,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_maryland_sha_communications_report"
 }

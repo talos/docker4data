@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/s6ha-ppgi/rows.csv"
   }, 
+  "description": "The affordable rental housing developments listed below are supported by the City of Chicago to maintain affordability standards. For information on rents, income requirements and availability, contact each property directly. For information on other affordable rental properties in Chicago and Illinois, call (877) 428-8844, or visit www.ILHousingSearch.org.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/s6ha-ppgi.json"
+    "attribution": "City of Chicago", 
+    "category": "Community & Economic Development", 
+    "description": "The affordable rental housing developments listed below are supported by the City of Chicago to maintain affordability standards. For information on rents, income requirements and availability, contact each property directly. For information on other affordable rental properties in Chicago and Illinois, call (877) 428-8844, or visit www.ILHousingSearch.org.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/s6ha-ppgi.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_affordable_rental_housing_developments", 
+  "name": "Affordable Rental Housing Developments", 
   "schema": {
     "columns": [
       {
@@ -69,5 +75,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_affordable_rental_housing_developments"
 }

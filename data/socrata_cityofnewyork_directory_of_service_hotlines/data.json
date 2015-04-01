@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/vp38-q6cf/rows.csv"
   }, 
+  "description": "List of various important services  and the corresponding phone numbers", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/vp38-q6cf.json"
+    "attribution": "Mayor's Office to Combat Domestic Violence (OCDV)", 
+    "category": "Social Services", 
+    "description": "List of various important services  and the corresponding phone numbers", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/vp38-q6cf.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_directory_of_service_hotlines", 
+  "name": "Directory of Service Hotlines", 
   "schema": {
     "columns": [
       {
@@ -25,5 +31,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_directory_of_service_hotlines"
 }

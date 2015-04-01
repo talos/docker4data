@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/tdab-kixi/rows.csv"
   }, 
+  "description": "This dataset is a list of individual Chicago Landmarks designated by City Council upon recommendation of the Commission on Chicago Landmarks. It contains the name of each landmark property along with the date of its construction (if known), the name of its architect/designer (if known), and the date of Chicago Landmark designation. Additional information about each individual Chicago Landmark can be found on the Chicago Landmarks home page at http://j.mp/lRJVnh. Properties which have been proposed for landmark designation by the Commission on Chicago Landmarks and remain under consideration are not included. This information is for illustrative purposes only; the legal descriptions are as identified by the respective landmark designation ordinances. A dataset containing Chicago Landmark Districts is available separately. Data updated quarterly.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/tdab-kixi.json"
+    "attribution": "City of Chicago", 
+    "category": "Historic Preservation", 
+    "description": "This dataset is a list of individual Chicago Landmarks designated by City Council upon recommendation of the Commission on Chicago Landmarks. It contains the name of each landmark property along with the date of its construction (if known), the name of its architect/designer (if known), and the date of Chicago Landmark designation. Additional information about each individual Chicago Landmark can be found on the Chicago Landmarks home page at http://j.mp/lRJVnh. Properties which have been proposed for landmark designation by the Commission on Chicago Landmarks and remain under consideration are not included. This information is for illustrative purposes only; the legal descriptions are as identified by the respective landmark designation ordinances. A dataset containing Chicago Landmark Districts is available separately. Data updated quarterly.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/tdab-kixi.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_individual_landmarks", 
+  "name": "Individual Landmarks", 
   "schema": {
     "columns": [
       {
@@ -49,5 +55,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_individual_landmarks"
 }

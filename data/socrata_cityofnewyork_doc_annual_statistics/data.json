@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/wkaa-8g8b/rows.csv"
   }, 
+  "description": "This table contains the statistical record of the Inmate Population. This record is updated annually", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/wkaa-8g8b.json"
+    "attribution": "Department of Correction (DOC)", 
+    "category": "City Government", 
+    "description": "This table contains the statistical record of the Inmate Population. This record is updated annually", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/wkaa-8g8b.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_doc_annual_statistics", 
+  "name": "DOC Annual Statistics", 
   "schema": {
     "columns": [
       {
@@ -25,5 +31,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_doc_annual_statistics"
 }

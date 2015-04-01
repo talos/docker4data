@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/8vv7-7wx3/rows.csv"
   }, 
+  "description": "Messages sent with information about emergency events and important City services", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/8vv7-7wx3.json"
+    "attribution": "Office of Emergency Management (OEM)", 
+    "category": "Public Safety", 
+    "description": "Messages sent with information about emergency events and important City services", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/8vv7-7wx3.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_oem_emergency_notifications", 
+  "name": "OEM Emergency Notifications", 
   "schema": {
     "columns": [
       {
@@ -33,5 +39,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_oem_emergency_notifications"
 }

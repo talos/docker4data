@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/fdkv-4t4z/rows.csv"
   }, 
+  "description": "The Zoning Tax Lot Database is a comma\u2013separated values (CSV) file format that contains up-to-date zoning by parcel. The Database includes the zoning designations and zoning map associated with a specific tax block and lot. The Database is updated on a monthly basis to reflect rezoning and corrections to the file.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/fdkv-4t4z.json"
+    "attribution": "Department of City Planning (DCP)", 
+    "category": "City Government", 
+    "description": "The Zoning Tax Lot Database is a comma\u2013separated values (CSV) file format that contains up-to-date zoning by parcel. The Database includes the zoning designations and zoning map associated with a specific tax block and lot. The Database is updated on a monthly basis to reflect rezoning and corrections to the file.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/fdkv-4t4z.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_nyc_zoning_tax_lot_database", 
+  "name": "NYC Zoning Tax Lot Database", 
   "schema": {
     "columns": [
       {
@@ -69,5 +75,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_nyc_zoning_tax_lot_database"
 }

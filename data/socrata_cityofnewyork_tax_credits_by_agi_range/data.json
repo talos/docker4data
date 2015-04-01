@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/nwet-nc6h/rows.csv"
   }, 
+  "description": "Number of tax filers/payers using various tax credits and amount of credit, by income ranges", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/nwet-nc6h.json"
+    "attribution": "NYC Independent Budget Office (IBO)", 
+    "description": "Number of tax filers/payers using various tax credits and amount of credit, by income ranges", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/nwet-nc6h.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_tax_credits_by_agi_range", 
+  "name": "Tax Credits By Agi Range", 
   "schema": {
     "columns": [
       {
@@ -25,5 +30,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_tax_credits_by_agi_range"
 }

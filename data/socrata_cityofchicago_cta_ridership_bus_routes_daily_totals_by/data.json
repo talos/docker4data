@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/jyb9-n7fm/rows.csv"
   }, 
+  "description": "This dataset shows total daily ridership on a per-route basis dating back to 2001. Daytypes are as follows: W=Weekday, A=Saturday, U=Sunday/Holiday. See attached readme file for more detailed information.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/jyb9-n7fm.json"
+    "attribution": "Chicago Transit Authority", 
+    "category": "Transportation", 
+    "description": "This dataset shows total daily ridership on a per-route basis dating back to 2001. Daytypes are as follows: W=Weekday, A=Saturday, U=Sunday/Holiday. See attached readme file for more detailed information.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/jyb9-n7fm.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_cta_ridership_bus_routes_daily_totals_by", 
+  "name": "CTA - Ridership - Bus Routes - Daily Totals by Route", 
   "schema": {
     "columns": [
       {
@@ -29,5 +35,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_cta_ridership_bus_routes_daily_totals_by"
 }

@@ -7,9 +7,12 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/nfi2-2aih.json"
+    "category": "Health-Medicaid", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/nfi2-2aih.json"
+    }
   }, 
-  "name": "socrata_illinois_2010_provider_level_data", 
+  "name": "2010 Provider- Level Data", 
   "schema": {
     "columns": [
       {
@@ -381,5 +384,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_2010_provider_level_data"
 }

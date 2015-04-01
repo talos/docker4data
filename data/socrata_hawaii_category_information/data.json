@@ -3,13 +3,17 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/yv27-ghxi/rows.csv"
   }, 
+  "description": "Dataset to configure categories on the Home page", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.hawaii.gov/api/views/yv27-ghxi.json"
+    "description": "Dataset to configure categories on the Home page", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/yv27-ghxi.json"
+    }
   }, 
-  "name": "socrata_hawaii_category_information", 
+  "name": "Category Information", 
   "schema": {
     "columns": [
       {
@@ -37,5 +41,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_hawaii_category_information"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/a2nx-4u46/rows.csv"
   }, 
+  "description": "Contains information about problems associated with complaints.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/a2nx-4u46.json"
+    "attribution": "Department of Housing Preservation and Development (HPD)", 
+    "category": "Housing & Development", 
+    "description": "Contains information about problems associated with complaints.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/a2nx-4u46.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_complaint_problems", 
+  "name": "Complaint Problems", 
   "schema": {
     "columns": [
       {
@@ -85,5 +91,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_complaint_problems"
 }

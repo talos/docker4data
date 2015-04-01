@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/tp88-ynix/rows.csv"
   }, 
+  "description": "2000 - 2012 calls for service for Rockford Fire Departmetn", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/tp88-ynix.json"
+    "attribution": "City of Rockford", 
+    "category": "Public Safety", 
+    "description": "2000 - 2012 calls for service for Rockford Fire Departmetn", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/tp88-ynix.json"
+    }
   }, 
-  "name": "socrata_illinois_fire_calls_for_service", 
+  "name": "Fire Calls for Service", 
   "schema": {
     "columns": [
       {
@@ -45,5 +51,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_fire_calls_for_service"
 }

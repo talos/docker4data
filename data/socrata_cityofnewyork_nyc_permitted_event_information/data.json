@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/tvpp-9vvx/rows.csv"
   }, 
+  "description": "This list contains information on approved event applications that will occur within the next month. Please note that Permitted Film Events only reflect those permits which will impact one or more streets for at least five days.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/tvpp-9vvx.json"
+    "attribution": "Office of the Mayor (OTM)", 
+    "category": "City Government", 
+    "description": "This list contains information on approved event applications that will occur within the next month. Please note that Permitted Film Events only reflect those permits which will impact one or more streets for at least five days.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/tvpp-9vvx.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_nyc_permitted_event_information", 
+  "name": "NYC Permitted Event Information", 
   "schema": {
     "columns": [
       {
@@ -61,5 +67,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_nyc_permitted_event_information"
 }

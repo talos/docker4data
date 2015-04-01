@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/iz2q-9x8d/rows.csv"
   }, 
+  "description": "A list of cellular antenna filings and associated data. Prior weekly reports are archived at DOB and are not available on NYC Open Data.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/iz2q-9x8d.json"
+    "attribution": "Department of Buildings (DOB)", 
+    "category": "Housing & Development", 
+    "description": "A list of cellular antenna filings and associated data. Prior weekly reports are archived at DOB and are not available on NYC Open Data.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/iz2q-9x8d.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_dob_cellular_antenna_filings", 
+  "name": "DOB Cellular Antenna Filings", 
   "schema": {
     "columns": [
       {
@@ -233,5 +239,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_dob_cellular_antenna_filings"
 }

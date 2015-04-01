@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/x5pe-335m/rows.csv"
   }, 
+  "description": "Sediment pollution from contributing sources in Bay watershed, tons per year. 1985, 2007, and 2009 - 2012 progress; 2017 and 2025 target loads. Target loads for sediment were not broken out to a scale finer than major basin.  Data source: EPA Phase 5.3.2 Watershed Model.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/x5pe-335m.json"
+    "attribution": "MD Dept. of Environment", 
+    "category": "Energy and Environment", 
+    "description": "Sediment pollution from contributing sources in Bay watershed, tons per year. 1985, 2007, and 2009 - 2012 progress; 2017 and 2025 target loads. Target loads for sediment were not broken out to a scale finer than major basin.  Data source: EPA Phase 5.3.2 Watershed Model.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/x5pe-335m.json"
+    }
   }, 
-  "name": "socrata_maryland_chesapeake_bay_pollution_loads_sediment", 
+  "name": "Chesapeake Bay Pollution Loads - Sediment", 
   "schema": {
     "columns": [
       {
@@ -73,5 +79,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_maryland_chesapeake_bay_pollution_loads_sediment"
 }

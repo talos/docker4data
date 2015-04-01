@@ -7,9 +7,11 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.hawaii.gov/api/views/gb78-jhh6.json"
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/gb78-jhh6.json"
+    }
   }, 
-  "name": "socrata_hawaii_messages", 
+  "name": "Messages", 
   "schema": {
     "columns": [
       {
@@ -21,5 +23,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_hawaii_messages"
 }

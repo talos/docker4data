@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/szpd-xiya/rows.csv"
   }, 
+  "description": "This data contains the number of veterans per county who have an Illinois address recorded in the IDVA Veteran Database(not all Illinois veterans).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/szpd-xiya.json"
+    "attribution": "Illinois Department of Veterans Affairs", 
+    "category": "Reference", 
+    "description": "This data contains the number of veterans per county who have an Illinois address recorded in the IDVA Veteran Database(not all Illinois veterans).", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/szpd-xiya.json"
+    }
   }, 
-  "name": "socrata_illinois_idva_veterans_data_by_county", 
+  "name": "IDVA -  Veterans Data by County", 
   "schema": {
     "columns": [
       {
@@ -37,5 +43,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_idva_veterans_data_by_county"
 }

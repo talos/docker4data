@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/ujwc-724r/rows.csv"
   }, 
+  "description": "The City of Chicago launched the Micro-Market Recovery Program (MMRP), a coordinated effort among the City, not-for-profit intermediaries, and non-profit and for-profit capital sources to improve conditions, strengthen property values, and create environments supportive of private investment in targeted markets throughout the city. The goal of MMRP is to improve conditions, strengthen property values, and create environments supportive of private investment in targeted areas by strategically deploying public and private capital and other tools and resources in well-defined micro-markets.  This MMRP Violations and Inspections dataset contains Department of Buildings (DOB) Violations and associated Inspections that have occured at properties falling within an MMRP Zone.  Permits, Cases and Violations can be linked to the MMRP Geographies dataset using ADDRKEY or ADDRGRPKEY.  To link Violations and Inspections to their Permits and Cases use Violation PERMITORCASEKEY and link to Permits APKEY_PERMIT and Cases APKEY_CASE.  *Note: Inspections are included only when at least one violation was written.  Inspections without violations are not included in this dataset.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/ujwc-724r.json"
+    "attribution": "City of Chicago", 
+    "category": "Community & Economic Development", 
+    "description": "The City of Chicago launched the Micro-Market Recovery Program (MMRP), a coordinated effort among the City, not-for-profit intermediaries, and non-profit and for-profit capital sources to improve conditions, strengthen property values, and create environments supportive of private investment in targeted markets throughout the city. The goal of MMRP is to improve conditions, strengthen property values, and create environments supportive of private investment in targeted areas by strategically deploying public and private capital and other tools and resources in well-defined micro-markets.  This MMRP Violations and Inspections dataset contains Department of Buildings (DOB) Violations and associated Inspections that have occured at properties falling within an MMRP Zone.  Permits, Cases and Violations can be linked to the MMRP Geographies dataset using ADDRKEY or ADDRGRPKEY.  To link Violations and Inspections to their Permits and Cases use Violation PERMITORCASEKEY and link to Permits APKEY_PERMIT and Cases APKEY_CASE.  *Note: Inspections are included only when at least one violation was written.  Inspections without violations are not included in this dataset.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/ujwc-724r.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_micro_market_recovery_program_violations", 
+  "name": "Micro-Market Recovery Program - Violations and Inspections", 
   "schema": {
     "columns": [
       {
@@ -185,5 +191,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_micro_market_recovery_program_violations"
 }

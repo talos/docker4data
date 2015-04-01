@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/jir4-uuhx/rows.csv"
   }, 
+  "description": "The areas that transportation crews use to clean the streets. Please note, some neighbourhoods have more than one maintenance area.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.edmonton.ca/api/views/jir4-uuhx.json"
+    "attribution": "City of Edmonton", 
+    "category": "Transportation", 
+    "description": "The areas that transportation crews use to clean the streets. Please note, some neighbourhoods have more than one maintenance area.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/jir4-uuhx.json"
+    }
   }, 
-  "name": "socrata_edmonton_ca_roadway_maintenance_areas", 
+  "name": "Roadway Maintenance Areas", 
   "schema": {
     "columns": [
       {
@@ -29,5 +35,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_edmonton_ca_roadway_maintenance_areas"
 }

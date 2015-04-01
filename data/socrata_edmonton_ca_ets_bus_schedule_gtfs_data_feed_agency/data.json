@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/isug-45sj/rows.csv"
   }, 
+  "description": "This dataset lists the GTFS agency information of Edmonton Transit System (ETS).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.edmonton.ca/api/views/isug-45sj.json"
+    "attribution": "Edmonton Transit", 
+    "category": "Transit", 
+    "description": "This dataset lists the GTFS agency information of Edmonton Transit System (ETS).", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/isug-45sj.json"
+    }
   }, 
-  "name": "socrata_edmonton_ca_ets_bus_schedule_gtfs_data_feed_agency", 
+  "name": "ETS Bus Schedule GTFS Data Feed - Agency", 
   "schema": {
     "columns": [
       {
@@ -29,5 +35,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_edmonton_ca_ets_bus_schedule_gtfs_data_feed_agency"
 }

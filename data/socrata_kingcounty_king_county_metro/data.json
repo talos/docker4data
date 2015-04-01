@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/pd2q-kmme/rows.csv"
   }, 
+  "description": "King County Metro's data is at http://www.kingcounty.gov/transportation/kcdot/MetroTransit/Developers.aspx", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.kingcounty.gov/api/views/pd2q-kmme.json"
+    "attribution": "King County", 
+    "category": "Transportation", 
+    "description": "King County Metro's data is at http://www.kingcounty.gov/transportation/kcdot/MetroTransit/Developers.aspx", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/pd2q-kmme.json"
+    }
   }, 
-  "name": "socrata_kingcounty_king_county_metro", 
+  "name": "King County Metro", 
   "schema": {
     "columns": [
       {
@@ -21,5 +27,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_kingcounty_king_county_metro"
 }

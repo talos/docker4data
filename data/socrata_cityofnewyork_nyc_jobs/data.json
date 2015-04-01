@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/kpav-sd4t/rows.csv"
   }, 
+  "description": "This dataset contains current job postings available on the  City of New York\u2019s official jobs site (http://www.nyc.gov/html/careers/html/search/search.shtml).  Internal postings available to city employees and external postings available to the general public are included.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/kpav-sd4t.json"
+    "attribution": "Department of Citywide Administrative Services (DCAS)", 
+    "category": "Business", 
+    "description": "This dataset contains current job postings available on the  City of New York\u2019s official jobs site (http://www.nyc.gov/html/careers/html/search/search.shtml).  Internal postings available to city employees and external postings available to the general public are included.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/kpav-sd4t.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_nyc_jobs", 
+  "name": "NYC Jobs", 
   "schema": {
     "columns": [
       {
@@ -117,5 +123,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_nyc_jobs"
 }

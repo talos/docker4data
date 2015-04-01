@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/wwy2-k7b3/rows.csv"
   }, 
+  "description": "Parks managed by the Chicago Park District. Dataset includes park facilities and features information. For Shapefiles, go to https://data.cityofchicago.org/Parks-Recreation/Parks-Shapefiles/5msb-wbxn. For KML files, go to https://data.cityofchicago.org/Parks-Recreation/Parks-KML/hmfy-xsta.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/wwy2-k7b3.json"
+    "attribution": "Chicago Park District", 
+    "category": "Parks & Recreation", 
+    "description": "Parks managed by the Chicago Park District. Dataset includes park facilities and features information. For Shapefiles, go to https://data.cityofchicago.org/Parks-Recreation/Parks-Shapefiles/5msb-wbxn. For KML files, go to https://data.cityofchicago.org/Parks-Recreation/Parks-KML/hmfy-xsta.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/wwy2-k7b3.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_parks_locations", 
+  "name": "Parks - Locations", 
   "schema": {
     "columns": [
       {
@@ -313,5 +319,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_parks_locations"
 }

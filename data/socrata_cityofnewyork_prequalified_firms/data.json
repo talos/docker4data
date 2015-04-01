@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/szkz-syh6/rows.csv"
   }, 
+  "description": "List of firms qualified to perform work for the School Construction Authority, their trades, and the end date of their qualification.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/szkz-syh6.json"
+    "attribution": "School Construction Authority (SCA)", 
+    "category": "Housing & Development", 
+    "description": "List of firms qualified to perform work for the School Construction Authority, their trades, and the end date of their qualification.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/szkz-syh6.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_prequalified_firms", 
+  "name": "Prequalified Firms", 
   "schema": {
     "columns": [
       {
@@ -73,5 +79,6 @@
         "type": "timestamp"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_prequalified_firms"
 }

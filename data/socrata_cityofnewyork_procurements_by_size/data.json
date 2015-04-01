@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/ewmy-2fww/rows.csv"
   }, 
+  "description": "Summary table of procurements in the fiscal year grouped by agency and size", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/ewmy-2fww.json"
+    "attribution": "Office of the Mayor (OTM)", 
+    "category": "City Government", 
+    "description": "Summary table of procurements in the fiscal year grouped by agency and size", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/ewmy-2fww.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_procurements_by_size", 
+  "name": "Procurements by Size", 
   "schema": {
     "columns": [
       {
@@ -53,5 +59,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_procurements_by_size"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/hrir-ejvj/rows.csv"
   }, 
+  "description": "Dataset contains counts of toll transactions collected by the MD Transportation Authority at its eight toll facilities.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/hrir-ejvj.json"
+    "attribution": "Maryland Transportation Authority", 
+    "category": "Transportation", 
+    "description": "Dataset contains counts of toll transactions collected by the MD Transportation Authority at its eight toll facilities.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/hrir-ejvj.json"
+    }
   }, 
-  "name": "socrata_maryland_toll_transactions", 
+  "name": "Toll Transactions", 
   "schema": {
     "columns": [
       {
@@ -41,5 +47,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_maryland_toll_transactions"
 }

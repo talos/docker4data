@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/s296-ttzm/rows.csv"
   }, 
+  "description": "A list of reports taken by IEMA of Hazardous Material spills in Illinois", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/s296-ttzm.json"
+    "category": "Environment", 
+    "description": "A list of reports taken by IEMA of Hazardous Material spills in Illinois", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/s296-ttzm.json"
+    }
   }, 
-  "name": "socrata_illinois_iema_hazardous_material_spills", 
+  "name": "IEMA Hazardous Material Spills", 
   "schema": {
     "columns": [
       {
@@ -305,5 +310,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_iema_hazardous_material_spills"
 }

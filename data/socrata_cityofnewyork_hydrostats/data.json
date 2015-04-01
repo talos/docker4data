@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/9vgt-yx2p/rows.csv"
   }, 
+  "description": "Reservoir areas and stream lengths", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/9vgt-yx2p.json"
+    "attribution": "Department of Environmental Protection (DEP)", 
+    "category": "Environment", 
+    "description": "Reservoir areas and stream lengths", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/9vgt-yx2p.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_hydrostats", 
+  "name": "Hydrostats", 
   "schema": {
     "columns": [
       {
@@ -41,5 +47,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_hydrostats"
 }

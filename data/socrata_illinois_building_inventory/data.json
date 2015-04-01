@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/utd5-tdr2/rows.csv"
   }, 
+  "description": "List of all in-use building in our Inventory database", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/utd5-tdr2.json"
+    "attribution": "Capital Development Board", 
+    "category": "Housing", 
+    "description": "List of all in-use building in our Inventory database", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/utd5-tdr2.json"
+    }
   }, 
-  "name": "socrata_illinois_building_inventory", 
+  "name": "Building Inventory", 
   "schema": {
     "columns": [
       {
@@ -101,5 +107,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_building_inventory"
 }

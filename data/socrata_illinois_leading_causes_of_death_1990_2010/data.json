@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/t224-vrp2/rows.csv"
   }, 
+  "description": "Leading causes of death for Illinois residents was compiled by the IL Center for Health Statistics.\r\nNote: \"All Causes\" refers to the total number of deaths for the given year.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/t224-vrp2.json"
+    "attribution": "Office of Policy, Planning, and Statistics, Illinois Center for Health Statistics", 
+    "category": "Health", 
+    "description": "Leading causes of death for Illinois residents was compiled by the IL Center for Health Statistics.\r\nNote: \"All Causes\" refers to the total number of deaths for the given year.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/t224-vrp2.json"
+    }
   }, 
-  "name": "socrata_illinois_leading_causes_of_death_1990_2010", 
+  "name": "Leading Causes of Death, 1990-2010", 
   "schema": {
     "columns": [
       {
@@ -29,5 +35,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_leading_causes_of_death_1990_2010"
 }

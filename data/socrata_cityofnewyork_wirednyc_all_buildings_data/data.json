@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/a6nj-cfbz/rows.csv"
   }, 
+  "description": "This dataset contains building information for all buildings that have completed a WiredNYC survey.  This includes buildings that have opted-out from displaying their profiles publicly.  Therefore, the building-specific data (e.g. building address) provided is anonymous and only linked to the borough the building is located in.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/a6nj-cfbz.json"
+    "attribution": "NYC EDC", 
+    "category": "NYC BigApps", 
+    "description": "This dataset contains building information for all buildings that have completed a WiredNYC survey.  This includes buildings that have opted-out from displaying their profiles publicly.  Therefore, the building-specific data (e.g. building address) provided is anonymous and only linked to the borough the building is located in.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/a6nj-cfbz.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_wirednyc_all_buildings_data", 
+  "name": "WiredNYC \u2013 All Buildings Data", 
   "schema": {
     "columns": [
       {
@@ -89,5 +95,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_wirednyc_all_buildings_data"
 }

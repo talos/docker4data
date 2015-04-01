@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/urme-f6t9/rows.csv"
   }, 
+  "description": "Rates are per 1,000 live births\r\n** Rate does not meet standards of reliability or precision.\r\n-0- Rate zero corresponding to \"--\" in frequency counts", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/urme-f6t9.json"
+    "attribution": "Illinois Center for Health Statistics", 
+    "category": "Public Health", 
+    "description": "Rates are per 1,000 live births\r\n** Rate does not meet standards of reliability or precision.\r\n-0- Rate zero corresponding to \"--\" in frequency counts", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/urme-f6t9.json"
+    }
   }, 
-  "name": "socrata_illinois_idph_infant_mortality_by_county_2006_2008", 
+  "name": "IDPH Infant Mortality, by County, 2006-2008", 
   "schema": {
     "columns": [
       {
@@ -53,5 +59,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_idph_infant_mortality_by_county_2006_2008"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/vcg3-dux6/rows.csv"
   }, 
+  "description": "Illinois Chlamydia case counts and rates (per 100,000 population) by county by year (2000 to 2013).  See attachment for metadata and censoring details under the \"About\" link.  Null values in dataset reflect censored data.  Data Source: Illinois Department of Public Health STD Program.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/vcg3-dux6.json"
+    "attribution": "Illinois Department of Public Health STD Program", 
+    "category": "Public Health", 
+    "description": "Illinois Chlamydia case counts and rates (per 100,000 population) by county by year (2000 to 2013).  See attachment for metadata and censoring details under the \"About\" link.  Null values in dataset reflect censored data.  Data Source: Illinois Department of Public Health STD Program.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/vcg3-dux6.json"
+    }
   }, 
-  "name": "socrata_illinois_idph_2000_2013_std_illinois_by_county_chlamyd", 
+  "name": "IDPH 2000-2013 STD Illinois By County Chlamydia", 
   "schema": {
     "columns": [
       {
@@ -37,5 +43,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_idph_2000_2013_std_illinois_by_county_chlamyd"
 }

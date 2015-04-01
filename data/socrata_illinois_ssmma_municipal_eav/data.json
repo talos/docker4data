@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/a8zr-68i9/rows.csv"
   }, 
+  "description": "This dataset represents municipal equalized assessed value. SSMMA queried multiple reports from the Illinois Department of Revenue database. This dataset shows 2005-2009", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/a8zr-68i9.json"
+    "attribution": "South Suburban Mayors and Managers Association", 
+    "category": "Municipality", 
+    "description": "This dataset represents municipal equalized assessed value. SSMMA queried multiple reports from the Illinois Department of Revenue database. This dataset shows 2005-2009", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/a8zr-68i9.json"
+    }
   }, 
-  "name": "socrata_illinois_ssmma_municipal_eav", 
+  "name": "SSMMA Municipal EAV", 
   "schema": {
     "columns": [
       {
@@ -57,5 +63,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_ssmma_municipal_eav"
 }

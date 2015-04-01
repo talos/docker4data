@@ -10,12 +10,12 @@
   "metadata": {
     "attribution": "City of Chicago", 
     "category": "Administration & Finance", 
-    "description": "Customers applying for a Building permit will create a web-based on-line Building permit application.  As part of an initial review within the Building permit process, the zoning plan examination will be conducted to ensure compliance with the City of Chicago\u2019s Zoning Ordinance which regulates land use.  The applicant is able to schedule and be seen by a zoning plan examiner on average within two (2) business days from the date of the on-line application.  An applicant may receive zoning approval within the first scheduled appointment if they have followed the instructions and do not require administrative relief for their project.  If administrative relief or corrections are required, the applicant can re-submit the application for immediate review and approval upon completion of the corrections or administrative process.  An applicant typically requires two plan review visits before the Department of Housing and Economic Development is able to approve the zoning part of the building permit.", 
+    "description": "Single family programs that support repairs or improvements to existing affordable single family units.  Units are counted when projects are approved for payment by HED.  Unit totals are adjusted to account for units receiving benefits from multiple HED programs.", 
     "socrata": {
-      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/icic-3jsa.json"
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/mvrj-qzai.json"
     }
   }, 
-  "name": "Performance Metrics - Housing & Economic Development - Zoning Permit Scheduling And Review", 
+  "name": "Performance Metrics - Housing & Economic Development - Single Family Homes", 
   "schema": {
     "columns": [
       {
@@ -27,23 +27,23 @@
         "type": "text"
       }, 
       {
-        "name": "permit_plan_review", 
+        "name": "single_family_home_repairs_units_improved_total_number", 
         "type": "real"
       }, 
       {
-        "name": "approvals", 
-        "type": "text"
-      }, 
-      {
-        "name": "corrections_denials", 
-        "type": "text"
-      }, 
-      {
-        "name": "average_number_of_days_to_schedule_appointment", 
+        "name": "total_spending", 
         "type": "real"
       }, 
       {
-        "name": "average_number_of_plan_reviews_to_approval", 
+        "name": "target_homes", 
+        "type": "real"
+      }, 
+      {
+        "name": "progress_to_target_homes", 
+        "type": "text"
+      }, 
+      {
+        "name": "spending_target", 
         "type": "real"
       }
     ]

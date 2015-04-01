@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/atbf-3t6d/rows.csv"
   }, 
+  "description": "This dataset contains the Fiscal Year 2015 operations budget with historical and proposed appropriations for state budgeted entities by line item. The file is provided by the Governor\u2019s Office of Management and Budget and is available at the following websites: Budget.Illinois.gov or http://www.state.il.us/budget/).\n\nThe first twelve (12) columns contain the appropriation code, the agency number designator, the agency name, the agency division name, the appropriation name, the appropriation number, the fund from which the appropriation is made, the fund number, the fund category, the appropriation type, and whether or not the appropriation is capital expenditure.\n\nThe remaining columns contain the appropriation amounts ($ thousands) for fiscal years 2013 and 2014, and recommended and not recommended appropriations for fiscal year 2015.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/atbf-3t6d.json"
+    "attribution": "Governor's Office of Management and Budget", 
+    "category": "Reference", 
+    "description": "This dataset contains the Fiscal Year 2015 operations budget with historical and proposed appropriations for state budgeted entities by line item. The file is provided by the Governor\u2019s Office of Management and Budget and is available at the following websites: Budget.Illinois.gov or http://www.state.il.us/budget/).\n\nThe first twelve (12) columns contain the appropriation code, the agency number designator, the agency name, the agency division name, the appropriation name, the appropriation number, the fund from which the appropriation is made, the fund number, the fund category, the appropriation type, and whether or not the appropriation is capital expenditure.\n\nThe remaining columns contain the appropriation amounts ($ thousands) for fiscal years 2013 and 2014, and recommended and not recommended appropriations for fiscal year 2015.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/atbf-3t6d.json"
+    }
   }, 
-  "name": "socrata_illinois_fy2015_budget_by_line_item", 
+  "name": "FY2015 Budget By Line Item", 
   "schema": {
     "columns": [
       {
@@ -85,5 +91,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_fy2015_budget_by_line_item"
 }

@@ -8,18 +8,18 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "attribution": "Seattle-King County Public Health", 
+    "attribution": "King County", 
     "category": "Health", 
     "description": "Did not seek medical care because of the cost, demographic differences, five year averages, 2006-2010", 
     "socrata": {
-      "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/k6xi-7wup.json"
+      "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/py8s-azgh.json"
     }
   }, 
-  "name": "Percent with unmet medical need, 5-year differences by region", 
+  "name": "Percent with unmet medical need, 5-year differences by gender", 
   "schema": {
     "columns": [
       {
-        "name": "region", 
+        "name": "gender", 
         "type": "text"
       }, 
       {
@@ -27,11 +27,11 @@
         "type": "text"
       }, 
       {
-        "name": "lower_confidence_interval", 
+        "name": "lower_ci", 
         "type": "real"
       }, 
       {
-        "name": "upper_confidence_interval", 
+        "name": "upper_ci", 
         "type": "real"
       }
     ]

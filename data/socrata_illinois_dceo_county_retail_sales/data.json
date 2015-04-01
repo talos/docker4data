@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/q9xi-hgtu/rows.csv"
   }, 
+  "description": "Historical data of Illinois County Retail Sales", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/q9xi-hgtu.json"
+    "attribution": "Illinois Department of Commerce and Economic Opportunity", 
+    "category": "Economics", 
+    "description": "Historical data of Illinois County Retail Sales", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/q9xi-hgtu.json"
+    }
   }, 
-  "name": "socrata_illinois_dceo_county_retail_sales", 
+  "name": "DCEO County Retail Sales", 
   "schema": {
     "columns": [
       {
@@ -29,5 +35,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_dceo_county_retail_sales"
 }

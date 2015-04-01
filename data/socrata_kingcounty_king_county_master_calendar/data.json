@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/rnmi-uwsb/rows.csv"
   }, 
+  "description": "Master calendar for King County events", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.kingcounty.gov/api/views/rnmi-uwsb.json"
+    "attribution": "King County", 
+    "category": "Operations", 
+    "description": "Master calendar for King County events", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/rnmi-uwsb.json"
+    }
   }, 
-  "name": "socrata_kingcounty_king_county_master_calendar", 
+  "name": "King County master calendar", 
   "schema": {
     "columns": [
       {
@@ -193,5 +199,6 @@
         "type": "timestamp"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_kingcounty_king_county_master_calendar"
 }

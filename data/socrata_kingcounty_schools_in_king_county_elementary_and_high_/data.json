@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/ziw9-dzdq/rows.csv"
   }, 
+  "description": "King County School Sites and School Related Facilities. Parcel-based centroid for school facility. No footprint or infrastructure extent provided. Attributes assign parcel and street identifiers for location information. This is a subset selections - includes only Elementary Schools (660) and High Schools (662).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.kingcounty.gov/api/views/ziw9-dzdq.json"
+    "attribution": "KC GIS Center", 
+    "category": "Places & Boundaries", 
+    "description": "King County School Sites and School Related Facilities. Parcel-based centroid for school facility. No footprint or infrastructure extent provided. Attributes assign parcel and street identifiers for location information. This is a subset selections - includes only Elementary Schools (660) and High Schools (662).", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/ziw9-dzdq.json"
+    }
   }, 
-  "name": "socrata_kingcounty_schools_in_king_county_elementary_and_high_", 
+  "name": "Schools in King County - Elementary and High School only", 
   "schema": {
     "columns": [
       {
@@ -77,5 +83,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_kingcounty_schools_in_king_county_elementary_and_high_"
 }

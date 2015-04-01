@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/dfad-fpwf/rows.csv"
   }, 
+  "description": "Listing of special services offered by HRA along with their descriptions.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/dfad-fpwf.json"
+    "attribution": "Human Resources Administration (HRA)", 
+    "category": "Social Services", 
+    "description": "Listing of special services offered by HRA along with their descriptions.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/dfad-fpwf.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_hra_special_services", 
+  "name": "HRA Special Services", 
   "schema": {
     "columns": [
       {
@@ -21,5 +27,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_hra_special_services"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/qqqh-hgyw/rows.csv"
   }, 
+  "description": "This dataset is a listing of the report status of all residential buildings required to submit a Life Safety Evaluation under city ordinance. Because the Chicago building code has since 1975 required new high-rise residential buildings to be constructed with sprinkler systems, the Life Safety Ordinance mostly impacted high-rise residential buildings constructed prior to 1975.  This dataset does not describe the overall safety of a building, only whether or not the life safety evaluation was submitted and approved by the City of Chicago. Please note that the majority of reports \u201cfailed\u201d initially as a result of a new reporting process and changes to building standards. For more information on the City\u2019s life safety ordinance, visit http://bit.ly/ygORcq. Data Owner: Buildings. Frequency: Data is updated monthly.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/qqqh-hgyw.json"
+    "attribution": "City of Chicago", 
+    "category": "Buildings", 
+    "description": "This dataset is a listing of the report status of all residential buildings required to submit a Life Safety Evaluation under city ordinance. Because the Chicago building code has since 1975 required new high-rise residential buildings to be constructed with sprinkler systems, the Life Safety Ordinance mostly impacted high-rise residential buildings constructed prior to 1975.  This dataset does not describe the overall safety of a building, only whether or not the life safety evaluation was submitted and approved by the City of Chicago. Please note that the majority of reports \u201cfailed\u201d initially as a result of a new reporting process and changes to building standards. For more information on the City\u2019s life safety ordinance, visit http://bit.ly/ygORcq. Data Owner: Buildings. Frequency: Data is updated monthly.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/qqqh-hgyw.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_life_safety_evaluations", 
+  "name": "Life Safety Evaluations", 
   "schema": {
     "columns": [
       {
@@ -65,5 +71,6 @@
         "type": "timestamp"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_life_safety_evaluations"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/iux8-53rc/rows.csv"
   }, 
+  "description": "List of all TLC medallion drivers", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/iux8-53rc.json"
+    "attribution": "Taxi and Limousine Commission (TLC)", 
+    "category": "Transportation", 
+    "description": "List of all TLC medallion drivers", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/iux8-53rc.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_medallion_drivers", 
+  "name": "Medallion Drivers", 
   "schema": {
     "columns": [
       {
@@ -29,5 +35,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_medallion_drivers"
 }

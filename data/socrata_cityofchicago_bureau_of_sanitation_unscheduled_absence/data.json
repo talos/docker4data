@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/zfrs-dbnr/rows.csv"
   }, 
+  "description": "Number of call outs by day of the week from August 2010 - August 2011 for truck drivers in Streets & Sanitation Department", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/zfrs-dbnr.json"
+    "category": "Sanitation", 
+    "description": "Number of call outs by day of the week from August 2010 - August 2011 for Refuse Laborers in Streets & Sanitation Department", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/zfrs-dbnr.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_bureau_of_sanitation_unscheduled_absence", 
+  "name": "Bureau of Sanitation - Unscheduled Absences by Day of Week for Refuse Collectors", 
   "schema": {
     "columns": [
       {
@@ -25,5 +30,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_bureau_of_sanitation_unscheduled_absence"
 }

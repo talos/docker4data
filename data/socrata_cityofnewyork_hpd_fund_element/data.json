@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/hc6m-qm6w/rows.csv"
   }, 
+  "description": "Information on funding amounts, name and type for those funds that meet the definition of City Financial Assistance for each project.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/hc6m-qm6w.json"
+    "attribution": "Department of Housing Preservation and Development (HPD)", 
+    "category": "Housing & Development", 
+    "description": "Information on funding amounts, name and type for those funds that meet the definition of City Financial Assistance for each project.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/hc6m-qm6w.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_hpd_fund_element", 
+  "name": "HPD Fund Element", 
   "schema": {
     "columns": [
       {
@@ -33,5 +39,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_hpd_fund_element"
 }

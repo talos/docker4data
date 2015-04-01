@@ -7,9 +7,13 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/gpwd-npar.json"
+    "attribution": "Department of Sanitation (DSNY)", 
+    "category": "City Government", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/gpwd-npar.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_dsny_graffiti_information", 
+  "name": "DSNY Graffiti Information", 
   "schema": {
     "columns": [
       {
@@ -61,5 +65,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_dsny_graffiti_information"
 }

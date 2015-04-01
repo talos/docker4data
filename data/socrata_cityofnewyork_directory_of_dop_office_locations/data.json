@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/tfbb-gszk/rows.csv"
   }, 
+  "description": "List of DOP Office locations by Borough", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/tfbb-gszk.json"
+    "attribution": "Department of Probation (DOP)", 
+    "category": "City Government", 
+    "description": "List of DOP Office locations by Borough", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/tfbb-gszk.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_directory_of_dop_office_locations", 
+  "name": "Directory Of DOP Office Locations", 
   "schema": {
     "columns": [
       {
@@ -25,5 +31,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_directory_of_dop_office_locations"
 }

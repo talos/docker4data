@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/q44u-339y/rows.csv"
   }, 
+  "description": "All TLC commuter vans", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/q44u-339y.json"
+    "attribution": "Taxi and Limousine Commission (TLC)", 
+    "category": "Transportation", 
+    "description": "All TLC commuter vans", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/q44u-339y.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_commuter_van_vehicles", 
+  "name": "Commuter Van Vehicles", 
   "schema": {
     "columns": [
       {
@@ -49,5 +55,6 @@
         "type": "timestamp"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_commuter_van_vehicles"
 }

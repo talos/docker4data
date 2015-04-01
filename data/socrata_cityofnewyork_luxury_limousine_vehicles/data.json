@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/jdb4-d3j9/rows.csv"
   }, 
+  "description": "All TLC luxury limousine vehicles", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/jdb4-d3j9.json"
+    "attribution": "Taxi and Limousine Commission (TLC)", 
+    "category": "Transportation", 
+    "description": "All TLC luxury limousine vehicles", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/jdb4-d3j9.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_luxury_limousine_vehicles", 
+  "name": "Luxury Limousine Vehicles", 
   "schema": {
     "columns": [
       {
@@ -53,5 +59,6 @@
         "type": "timestamp"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_luxury_limousine_vehicles"
 }

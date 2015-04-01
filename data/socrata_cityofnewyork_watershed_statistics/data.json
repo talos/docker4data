@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/z4kf-gt4n/rows.csv"
   }, 
+  "description": "NYC West-of-Hudson Watershed Impervious Surface Percentages by Basin", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/z4kf-gt4n.json"
+    "attribution": "Department of Environmental Protection (DEP)", 
+    "category": "City Government", 
+    "description": "County and Town Area Statistics for the NYC East-of-Hudson Watershed (including towns within a watershed county that are completely outside watershed)", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/z4kf-gt4n.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_watershed_statistics", 
+  "name": "Watershed statistics", 
   "schema": {
     "columns": [
       {
@@ -93,5 +99,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_watershed_statistics"
 }

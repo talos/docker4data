@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/rsxa-ify5/rows.csv"
   }, 
+  "description": "Contracts and modifications awarded by the City of Chicago since 1993. This data is currently maintained in the City\u2019s Financial Management and Purchasing System (FMPS), which is used throughout the City for contract management and payment. \r\nLegacy System Records: Purchase Order/Contract Numbers that begin with alpha characters identify records imported from legacy systems. Records with a null value in the Contract Type field were imported from legacy systems. \r\n\"Comptroller-Other\" Contract Type: Some records where the Contract Type is \"COMPTROLLER-OTHER\" are ordinance-based agreements and may have start dates earlier than 1993. \r\nDepends Upon Requirements Contracts: If the contract Award Amount is $0, the contract is not cancelled, and the contract is a blanket contract, then the contract award total Depends Upon Requirements. A Depends Upon Requirements contract is an indefinite quantities contract in which the City places orders as needed and the vendor is not guaranteed any particular contract award amount. \r\n\r\nBlanket vs. Standard Contracts: Only blanket contracts (contracts for repeated purchases) have FMPS end dates. Standard contracts (for example, construction contracts) terminate upon completion and acceptance of all deliverables. These dates are tracked outside of FMPS. \r\n\r\nNegative Modifications: Some contracts are modified to delete scope and money from a contract. These reductions are indicated by negative numbers in the Award Amount field of this dataset. \r\n\r\nData Owner: Procurement Services. \r\nTime Period: 1993 to present. \r\nFrequency: Data is updated daily.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/rsxa-ify5.json"
+    "attribution": "City of Chicago", 
+    "category": "Administration & Finance", 
+    "description": "Contracts and modifications awarded by the City of Chicago since 1993. This data is currently maintained in the City\u2019s Financial Management and Purchasing System (FMPS), which is used throughout the City for contract management and payment. \r\nLegacy System Records: Purchase Order/Contract Numbers that begin with alpha characters identify records imported from legacy systems. Records with a null value in the Contract Type field were imported from legacy systems. \r\n\"Comptroller-Other\" Contract Type: Some records where the Contract Type is \"COMPTROLLER-OTHER\" are ordinance-based agreements and may have start dates earlier than 1993. \r\nDepends Upon Requirements Contracts: If the contract Award Amount is $0, the contract is not cancelled, and the contract is a blanket contract, then the contract award total Depends Upon Requirements. A Depends Upon Requirements contract is an indefinite quantities contract in which the City places orders as needed and the vendor is not guaranteed any particular contract award amount. \r\n\r\nBlanket vs. Standard Contracts: Only blanket contracts (contracts for repeated purchases) have FMPS end dates. Standard contracts (for example, construction contracts) terminate upon completion and acceptance of all deliverables. These dates are tracked outside of FMPS. \r\n\r\nNegative Modifications: Some contracts are modified to delete scope and money from a contract. These reductions are indicated by negative numbers in the Award Amount field of this dataset. \r\n\r\nData Owner: Procurement Services. \r\nTime Period: 1993 to present. \r\nFrequency: Data is updated daily.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/rsxa-ify5.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_contracts", 
+  "name": "Contracts", 
   "schema": {
     "columns": [
       {
@@ -85,5 +91,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_contracts"
 }

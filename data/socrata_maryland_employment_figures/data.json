@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/je5z-53wn/rows.csv"
   }, 
+  "description": "Figures come from the Bureau of Labor Statistics, and are subject to revision.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/je5z-53wn.json"
+    "attribution": "Bureau of Labor Statistics", 
+    "category": "Business and Economy", 
+    "description": "Figures come from the Bureau of Labor Statistics, and are subject to revision.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/je5z-53wn.json"
+    }
   }, 
-  "name": "socrata_maryland_employment_figures", 
+  "name": "Employment Figures", 
   "schema": {
     "columns": [
       {
@@ -69,5 +75,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_maryland_employment_figures"
 }

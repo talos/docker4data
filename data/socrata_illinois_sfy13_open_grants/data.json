@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/scd6-haif/rows.csv"
   }, 
+  "description": "This is a list of all grants administered by the ICJIA that were open at any time during State Fiscal Year 2013.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/scd6-haif.json"
+    "attribution": "Illinois Criminal Justice Information Authority", 
+    "category": "Public Safety", 
+    "description": "This is a list of all grants administered by the ICJIA that were open at any time during State Fiscal Year 2013.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/scd6-haif.json"
+    }
   }, 
-  "name": "socrata_illinois_sfy13_open_grants", 
+  "name": "SFY13 Open Grants", 
   "schema": {
     "columns": [
       {
@@ -45,5 +51,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_sfy13_open_grants"
 }

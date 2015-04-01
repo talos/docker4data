@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/mreg-rk5p/rows.csv"
   }, 
+  "description": "Data on programs in NYC High Schools", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/mreg-rk5p.json"
+    "attribution": "Department of Education (DOE)", 
+    "category": "Education", 
+    "description": "Data on programs in NYC High Schools", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/mreg-rk5p.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_nyc_public_high_school_program_data", 
+  "name": "NYC Public High School Program Data", 
   "schema": {
     "columns": [
       {
@@ -53,5 +59,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_nyc_public_high_school_program_data"
 }

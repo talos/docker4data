@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/a9f5-j694/rows.csv"
   }, 
+  "description": "Provides a listing of DFTA's core services by provider type", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/a9f5-j694.json"
+    "attribution": "Department for the Aging (DFTA)", 
+    "category": "Social Services", 
+    "description": "Provides a listing of DFTA's core services by provider type", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/a9f5-j694.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_aging_services", 
+  "name": "Aging Services", 
   "schema": {
     "columns": [
       {
@@ -21,5 +27,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_aging_services"
 }

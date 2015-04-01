@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/sk8g-4e43/rows.csv"
   }, 
+  "description": "Number of persons residing in Maryland by year.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/sk8g-4e43.json"
+    "attribution": "Vital Statistics Administration", 
+    "category": "Health and Human Services", 
+    "description": "Number of persons residing in Maryland by year.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/sk8g-4e43.json"
+    }
   }, 
-  "name": "socrata_maryland_maryland_population_by_year_1970_2011", 
+  "name": "Maryland Population by Year, 1970-2011", 
   "schema": {
     "columns": [
       {
@@ -21,5 +27,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_maryland_maryland_population_by_year_1970_2011"
 }

@@ -10,29 +10,69 @@
   "metadata": {
     "attribution": "City of Chicago", 
     "category": "Community & Economic Development", 
-    "description": "To improve access to capital, the City of Chicago seeded a $2MM revolving loan fund and partnered with Accion to create the Chicago Microlending Institute (CMI). There is a full list of loans in the https://data.cityofchicago.org/id/dpkg-upyz dataset.  Certain data elements could not be included for privacy reasons but are summarized in this dataset.", 
+    "description": "To improve access to capital, the City of Chicago seeded a $2MM revolving loan fund and partnered with Accion to create the Chicago Microlending Institute (CMI).  CMI helped train two new local microlenders, Chicago Neighborhood Initiatives (CNI) and Women\u2019s Business Development Corporation (WBDC), to help connect small businesses around the city to affordable access to capital.  These microloans vary in size from $500 to $25,000 and the average loan size is around $10,000.  This dataset reflects the lender, location, business industry, and borrower demographics for small businesses supported by the City\u2019s revolving loan fund. Certain data elements could not be included on a per-loan basis for privacy reasons but are summarized in the https://data.cityofchicago.org/id/4s8s-adbr dataset.", 
     "socrata": {
-      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/4s8s-adbr.json"
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/dpkg-upyz.json"
     }
   }, 
-  "name": "Chicago Microlending Institute (CMI) Microloans - Summary by Ethnicity and Gender", 
+  "name": "Chicago Microlending Institute (CMI) Microloans", 
   "schema": {
     "columns": [
       {
-        "name": "loan_year", 
-        "type": "real"
+        "name": "loan_date", 
+        "type": "timestamp"
       }, 
       {
-        "name": "borrower_ethnicity", 
+        "name": "lender", 
         "type": "text"
       }, 
       {
-        "name": "borrower_gender", 
+        "name": "block", 
         "type": "text"
       }, 
       {
-        "name": "number_of_loans", 
+        "name": "street_direction", 
+        "type": "text"
+      }, 
+      {
+        "name": "street_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "street_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "city", 
+        "type": "text"
+      }, 
+      {
+        "name": "state", 
+        "type": "text"
+      }, 
+      {
+        "name": "zip", 
+        "type": "text"
+      }, 
+      {
+        "name": "ward", 
         "type": "real"
+      }, 
+      {
+        "name": "industry", 
+        "type": "text"
+      }, 
+      {
+        "name": "latitude", 
+        "type": "real"
+      }, 
+      {
+        "name": "longitude", 
+        "type": "real"
+      }, 
+      {
+        "name": "location", 
+        "type": "text"
       }
     ]
   }, 

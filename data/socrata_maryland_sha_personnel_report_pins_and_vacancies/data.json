@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/yvsy-qun8/rows.csv"
   }, 
+  "description": "Data are provided by the Maryland State Highway Administration (SHA) each month to StateStat.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/yvsy-qun8.json"
+    "attribution": "State Highway Administration (SHA)", 
+    "category": "Transportation", 
+    "description": "Data are provided by the Maryland State Highway Administration (SHA) each month to StateStat.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/yvsy-qun8.json"
+    }
   }, 
-  "name": "socrata_maryland_sha_personnel_report_pins_and_vacancies", 
+  "name": "SHA Personnel Report: PINs and Vacancies", 
   "schema": {
     "columns": [
       {
@@ -221,5 +227,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_maryland_sha_personnel_report_pins_and_vacancies"
 }

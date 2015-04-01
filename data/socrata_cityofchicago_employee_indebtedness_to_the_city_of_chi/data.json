@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/pasx-mnuv/rows.csv"
   }, 
+  "description": "Number of employees in each department or sister agency who owe funds to the City. For each department, the dataset provides the following as of the date noted: total number of individuals employed by the department or agency, number of individuals that owe funds to the City in the department; and the total amount of debt owed by those employees. Data Owner: Revenue. Time Period: mid-October 2011 to present. Frequency: Data is updated weekly.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/pasx-mnuv.json"
+    "attribution": "City of Chicago", 
+    "category": "Administration & Finance", 
+    "description": "Number of employees in each department or sister agency who owe funds to the City. For each department, the dataset provides the following as of the date noted: total number of individuals employed by the department or agency, number of individuals that owe funds to the City in the department; and the total amount of debt owed by those employees. Data Owner: Revenue. Time Period: mid-October 2011 to present. Frequency: Data is updated weekly.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/pasx-mnuv.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_employee_indebtedness_to_the_city_of_chi", 
+  "name": "Employee Indebtedness to the City of Chicago", 
   "schema": {
     "columns": [
       {
@@ -41,5 +47,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_employee_indebtedness_to_the_city_of_chi"
 }

@@ -10,24 +10,28 @@
   "metadata": {
     "attribution": "Health and Hospitals Corporation (HHC)", 
     "category": "Health", 
-    "description": "Through HHC Options, low and moderate-income HHC patients can get affordable healthcare.  Based on the Level determined by family size and income, this table shows some of the most common fees paid for healthcare services through HHC options.\r\nUpdate Frequency: As needed", 
+    "description": "Patient satisfaction at HHC hospitals is measured by a standardized survey known as the Hospital Consumer Assessment of Healthcare Providers & Systems (HCAHPS). The survey has been validated by the federal Centers for Medicare and Medicaid Services (CMS) as a standard assessment tool for all hospitals throughout the nation. This data shows patient satisfaction scores in HHC hospitals.\r\nUpdate Frequency: Annually", 
     "socrata": {
-      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/3955-c36a.json"
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/hi3x-y76v.json"
     }
   }, 
-  "name": "New York City Health and Hospitals Corporation (HHC): HHC Options (common fees)", 
+  "name": "New York City Health and Hospitals Corporation (HHC) Patient Satisfaction - 2009", 
   "schema": {
     "columns": [
       {
-        "name": "service", 
+        "name": "hospital_name", 
         "type": "text"
       }, 
       {
-        "name": "hhc_options_reduced_fee_level", 
-        "type": "real"
+        "name": "hcahps_question", 
+        "type": "text"
       }, 
       {
-        "name": "fee", 
+        "name": "hcahps_answer_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "hcahps_answer_percent", 
         "type": "real"
       }
     ]

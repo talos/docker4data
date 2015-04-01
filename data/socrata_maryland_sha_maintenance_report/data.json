@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/ttsq-kwcj/rows.csv"
   }, 
+  "description": "All data are provided by the Maryland State Highway Administration (SHA) each month to StateStat.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/ttsq-kwcj.json"
+    "attribution": "State Highway Administration (SHA)", 
+    "category": "Transportation", 
+    "description": "All data are provided by the Maryland State Highway Administration (SHA) each month to StateStat.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/ttsq-kwcj.json"
+    }
   }, 
-  "name": "socrata_maryland_sha_maintenance_report", 
+  "name": "SHA Maintenance Report", 
   "schema": {
     "columns": [
       {
@@ -1633,5 +1639,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_maryland_sha_maintenance_report"
 }

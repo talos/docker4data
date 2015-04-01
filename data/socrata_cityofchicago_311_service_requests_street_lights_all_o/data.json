@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/zuxi-7xem/rows.csv"
   }, 
+  "description": "All open reports of \"Street Lights - All Out\" (an outage of 3 or more lights) made to 311 and all requests completed since January 1, 2011.The Chicago Department of Transportation (CDOT) oversees approximately 250,000 street lights that illuminate arterial and residential streets in Chicago. CDOT performs repairs and bulb replacements in response to residents\u2019 reports of street light outages. \r\n \r\nWhenever CDOT receives a report of an \u201cAll Out\u201d the electrician assigned to make the repair looks at all the lights in that circuit (each circuit has 8-16 lights) to make sure that they are all working properly. If a second request of lights out in the same circuit is made within four calendar days of the original request, the newest request is automatically given the status of \u201cDuplicate (Open).\u201d Since CDOT's electrician will be looking at all the lights in a circuit to verify that they are all working, any \u201cDuplicate (Open)\u201d address will automatically be observed and repaired. \r\n \r\nOnce the street lights are repaired, the status in CSR will read \u201cCompleted\u201d for the original request and \u201cDuplicate (Closed)\u201d for any duplicate requests.  A service request also receives the status of \u201cCompleted\u201d when the reported lights are inspected but found to be in good repair and functioning; when the service request is for a non-existent address; or when the lights are maintained by a contractor. Data is updated daily.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/zuxi-7xem.json"
+    "attribution": "City of Chicago", 
+    "category": "Service Requests", 
+    "description": "All open reports of \"Street Lights - All Out\" (an outage of 3 or more lights) made to 311 and all requests completed since January 1, 2011.The Chicago Department of Transportation (CDOT) oversees approximately 250,000 street lights that illuminate arterial and residential streets in Chicago. CDOT performs repairs and bulb replacements in response to residents\u2019 reports of street light outages. \r\n \r\nWhenever CDOT receives a report of an \u201cAll Out\u201d the electrician assigned to make the repair looks at all the lights in that circuit (each circuit has 8-16 lights) to make sure that they are all working properly. If a second request of lights out in the same circuit is made within four calendar days of the original request, the newest request is automatically given the status of \u201cDuplicate (Open).\u201d Since CDOT's electrician will be looking at all the lights in a circuit to verify that they are all working, any \u201cDuplicate (Open)\u201d address will automatically be observed and repaired. \r\n \r\nOnce the street lights are repaired, the status in CSR will read \u201cCompleted\u201d for the original request and \u201cDuplicate (Closed)\u201d for any duplicate requests.  A service request also receives the status of \u201cCompleted\u201d when the reported lights are inspected but found to be in good repair and functioning; when the service request is for a non-existent address; or when the lights are maintained by a contractor. Data is updated daily.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/zuxi-7xem.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_311_service_requests_street_lights_all_o", 
+  "name": "311 Service Requests - Street Lights - All Out", 
   "schema": {
     "columns": [
       {
@@ -73,5 +79,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_311_service_requests_street_lights_all_o"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/bquu-z2ht/rows.csv"
   }, 
+  "description": "A list of volunteer opportunities, organized by event, category of event type, organization and location.\r\nUpdate Frequency: As needed", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/bquu-z2ht.json"
+    "attribution": "NYC Service (NYCSERVICE)", 
+    "category": "Social Services", 
+    "description": "A list of volunteer opportunities, organized by event, category of event type, organization and location.\r\nUpdate Frequency: As needed", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/bquu-z2ht.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_nyc_service_volunteer_opportunities", 
+  "name": "NYC Service: Volunteer Opportunities", 
   "schema": {
     "columns": [
       {
@@ -121,5 +127,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_nyc_service_volunteer_opportunities"
 }

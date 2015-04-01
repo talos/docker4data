@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/9umc-3b2y/rows.csv"
   }, 
+  "description": "This list contains information on capital grants", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/9umc-3b2y.json"
+    "attribution": "Manhattan Borough President (MBP)", 
+    "category": "City Government", 
+    "description": "This list contains information on capital grants", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/9umc-3b2y.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_capital_grants", 
+  "name": "Capital Grants", 
   "schema": {
     "columns": [
       {
@@ -69,5 +75,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_capital_grants"
 }

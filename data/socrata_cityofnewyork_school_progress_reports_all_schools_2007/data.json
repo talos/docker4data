@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/dj4e-3xrn/rows.csv"
   }, 
+  "description": "2007/08 Progress Report results for all schools (data as of 1/13/09)\r\n\r\nPeer indices are calculated differently depending on School Level.  Schools are only compared to other schools in the same School Level (e.g., Elementary, K-8, Middle, High)\r\n\r\n1) Elementary & K-8 - peer index is a value from 0-100.  We use a composite demographic statistic based on % ELL, % SpEd, % Title I free lunch, and % Black/Hispanic.  Higher values indicate student populations with higher need.\r\n\r\n2) Middle & High - peer index is a value from 1.00-4.50.  For middle schools, we use the average 4th grade proficiency ratings in ELA and Math for all their students that have 4th grade test scores.  For high schools, we use the average 8th grade proficiency ratings in ELA and Math for all their students that have 8th grade test scores, % SpEd, and % Overage.  Lower values indicate student populations with higher need.\r\n\r\n3) Schools for Transfer Students - peer index is a value from 1.00-4.50.  We use the average 8th grade proficiency ratings in ELA and Math for all their students that have 8th grade test scores and the % Overage/Under credited.  Lower values indicate student populations with higher need.  Unlike Elementary, Middle, and High School Progress Reports, the Environment Category is only composed of Survey Results.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/dj4e-3xrn.json"
+    "attribution": "Department of Education (DOE)", 
+    "category": "Education", 
+    "description": "2007/08 Progress Report results for all schools (data as of 1/13/09)\r\n\r\nPeer indices are calculated differently depending on School Level.  Schools are only compared to other schools in the same School Level (e.g., Elementary, K-8, Middle, High)\r\n\r\n1) Elementary & K-8 - peer index is a value from 0-100.  We use a composite demographic statistic based on % ELL, % SpEd, % Title I free lunch, and % Black/Hispanic.  Higher values indicate student populations with higher need.\r\n\r\n2) Middle & High - peer index is a value from 1.00-4.50.  For middle schools, we use the average 4th grade proficiency ratings in ELA and Math for all their students that have 4th grade test scores.  For high schools, we use the average 8th grade proficiency ratings in ELA and Math for all their students that have 8th grade test scores, % SpEd, and % Overage.  Lower values indicate student populations with higher need.\r\n\r\n3) Schools for Transfer Students - peer index is a value from 1.00-4.50.  We use the average 8th grade proficiency ratings in ELA and Math for all their students that have 8th grade test scores and the % Overage/Under credited.  Lower values indicate student populations with higher need.  Unlike Elementary, Middle, and High School Progress Reports, the Environment Category is only composed of Survey Results.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/dj4e-3xrn.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_school_progress_reports_all_schools_2007", 
+  "name": "School Progress Reports - All Schools - 2007-08", 
   "schema": {
     "columns": [
       {
@@ -93,5 +99,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_school_progress_reports_all_schools_2007"
 }

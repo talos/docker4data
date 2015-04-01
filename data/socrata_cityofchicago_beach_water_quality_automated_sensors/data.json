@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/qmqz-2xku/rows.csv"
   }, 
+  "description": "The Chicago Park District maintains sensors at beaches along Chicago's Lake Michigan lakefront. These sensors generally capture the indicated measurements hourly while the sensors are in operation during the summer.  During other seasons and at some other times, information from the sensors may not be available.  See https://data.cityofchicago.org/id/tz6n-cnmj for a filtered view of this dataset that hides some off-season and other records without generally useful data.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/qmqz-2xku.json"
+    "attribution": "Chicago Park District", 
+    "category": "Parks & Recreation", 
+    "description": "The Chicago Park District maintains sensors at beaches along Chicago's Lake Michigan lakefront. These sensors generally capture the indicated measurements hourly while the sensors are in operation during the summer.  During other seasons and at some other times, information from the sensors may not be available.  See https://data.cityofchicago.org/id/tz6n-cnmj for a filtered view of this dataset that hides some off-season and other records without generally useful data.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/qmqz-2xku.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_beach_water_quality_automated_sensors", 
+  "name": "Beach Water Quality - Automated Sensors", 
   "schema": {
     "columns": [
       {
@@ -53,5 +59,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_beach_water_quality_automated_sensors"
 }

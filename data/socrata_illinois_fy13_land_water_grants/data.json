@@ -7,9 +7,12 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/ahhs-g66b.json"
+    "attribution": "IL Department of Agriculture", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/ahhs-g66b.json"
+    }
   }, 
-  "name": "socrata_illinois_fy13_land_water_grants", 
+  "name": "FY13 Land Water Grants", 
   "schema": {
     "columns": [
       {
@@ -45,5 +48,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_fy13_land_water_grants"
 }

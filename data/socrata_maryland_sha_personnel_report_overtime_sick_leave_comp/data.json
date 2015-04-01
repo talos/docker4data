@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/y7y7-f565/rows.csv"
   }, 
+  "description": "Data are provided by the Maryland State Highway Administration (SHA) each month to StateStat.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/y7y7-f565.json"
+    "attribution": "State Highway Administration (SHA)", 
+    "category": "Transportation", 
+    "description": "Data are provided by the Maryland State Highway Administration (SHA) each month to StateStat.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/y7y7-f565.json"
+    }
   }, 
-  "name": "socrata_maryland_sha_personnel_report_overtime_sick_leave_comp", 
+  "name": "SHA Personnel Report: Overtime, Sick Leave, Comp Time, & Accident Leave", 
   "schema": {
     "columns": [
       {
@@ -357,5 +363,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_maryland_sha_personnel_report_overtime_sick_leave_comp"
 }

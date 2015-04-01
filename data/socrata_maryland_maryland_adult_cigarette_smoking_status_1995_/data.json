@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/ycny-6riz/rows.csv"
   }, 
+  "description": "Adults are defined as 18 years of age and older. The CDC defines a \"Current Smoker\" as an adult who has smoked at least 100 cigarettes (5 packs) in their lifetime and currently smokes either \"Every Day\" or \"Some Days.\" BRFSS data methodology changed in 2011; therefore, 2011 and after is not comparable to 2010 data and before.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/ycny-6riz.json"
+    "attribution": "Behavioral Risk Factor Surveillance System (BRFSS)", 
+    "category": "Health and Human Services", 
+    "description": "Adults are defined as 18 years of age and older. The CDC defines a \"Current Smoker\" as an adult who has smoked at least 100 cigarettes (5 packs) in their lifetime and currently smokes either \"Every Day\" or \"Some Days.\" BRFSS data methodology changed in 2011; therefore, 2011 and after is not comparable to 2010 data and before.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/ycny-6riz.json"
+    }
   }, 
-  "name": "socrata_maryland_maryland_adult_cigarette_smoking_status_1995_", 
+  "name": "Maryland Adult Cigarette Smoking Status, 1995-2010", 
   "schema": {
     "columns": [
       {
@@ -37,5 +43,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_maryland_maryland_adult_cigarette_smoking_status_1995_"
 }

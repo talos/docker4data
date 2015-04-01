@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/cfzn-4iza/rows.csv"
   }, 
+  "description": "This dataset contains information for certified and non-certified buildings that are participating in the WiredNYC program.  These buildings are all publicly viewable on the WiredNYC website.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/cfzn-4iza.json"
+    "attribution": "NYC EDC", 
+    "category": "NYC BigApps", 
+    "description": "This dataset contains information for certified and non-certified buildings that are participating in the WiredNYC program.  These buildings are all publicly viewable on the WiredNYC website.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/cfzn-4iza.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_wirednyc_participating_buildings", 
+  "name": "WiredNYC \u2013 Participating Buildings", 
   "schema": {
     "columns": [
       {
@@ -101,5 +107,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_wirednyc_participating_buildings"
 }

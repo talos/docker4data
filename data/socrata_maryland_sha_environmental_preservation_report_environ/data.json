@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/yuna-npwk/rows.csv"
   }, 
+  "description": "An asterisk (*) indicates a month when a camera was not in use. All data are provided by the Maryland State Highway Administration (SHA) each month to StateStat.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/yuna-npwk.json"
+    "attribution": "State Highway Administration (SHA)", 
+    "category": "Transportation", 
+    "description": "An asterisk (*) indicates a month when a camera was not in use. All data are provided by the Maryland State Highway Administration (SHA) each month to StateStat.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/yuna-npwk.json"
+    }
   }, 
-  "name": "socrata_maryland_sha_environmental_preservation_report_environ", 
+  "name": "SHA Environmental Preservation Report: Environmental Compliance & Critical Area (CA) Compliance", 
   "schema": {
     "columns": [
       {
@@ -181,5 +187,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_maryland_sha_environmental_preservation_report_environ"
 }

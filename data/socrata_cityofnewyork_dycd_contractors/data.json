@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/75e9-fg2t/rows.csv"
   }, 
+  "description": "A list of all contractors providing service/s to New York City youth and the amount of their contract", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/75e9-fg2t.json"
+    "attribution": "Department of Youth and Community Development (DYCD)", 
+    "category": "Social Services", 
+    "description": "A list of all contractors providing service/s to New York City youth and the amount of their contract", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/75e9-fg2t.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_dycd_contractors", 
+  "name": "DYCD Contractors", 
   "schema": {
     "columns": [
       {
@@ -33,5 +39,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_dycd_contractors"
 }

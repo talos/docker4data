@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/i8zb-z82e/rows.csv"
   }, 
+  "description": "This is a listing of wineries in Illinois", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/i8zb-z82e.json"
+    "category": "Recreation", 
+    "description": "This is a listing of wineries in Illinois", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/i8zb-z82e.json"
+    }
   }, 
-  "name": "socrata_illinois_agr_wineries", 
+  "name": "AGR-Wineries", 
   "schema": {
     "columns": [
       {
@@ -49,5 +54,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_agr_wineries"
 }

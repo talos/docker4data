@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/evzh-8p3x/rows.csv"
   }, 
+  "description": "This dataset outlines public park properties. This data is an aggregation of SSMMA, municipal, and forest preserve data.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/evzh-8p3x.json"
+    "attribution": "South Suburban Mayors and Managers Association", 
+    "category": "Municipality", 
+    "description": "This dataset outlines public park properties. This data is an aggregation of SSMMA, municipal, and forest preserve data.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/evzh-8p3x.json"
+    }
   }, 
-  "name": "socrata_illinois_ssmma_public_park_properties", 
+  "name": "SSMMA Public Park Properties", 
   "schema": {
     "columns": [
       {
@@ -57,5 +63,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_ssmma_public_park_properties"
 }

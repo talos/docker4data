@@ -10,12 +10,12 @@
   "metadata": {
     "attribution": "Chicago Public Schools", 
     "category": "Education", 
-    "description": "This dataset shows the 2013 School Progress Report Card data elements for each CPS high school. The report card is an annual summary of how the school is doing. For more information on the School Progress Report Cards, please see http://www.cps.edu/SCHOOLDATA/Pages/SchoolProgressReports.aspx", 
+    "description": "This dataset shows the 2012 School Progress Report Card data elements for each CPS high school.  The report card is an annual summary of how the school is doing.  For more information on the School Progress Report Cards, please see http://cps.edu/Schools/Pages/SchoolProgressReportCards.aspx.", 
     "socrata": {
-      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/2m8w-izji.json"
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/qemx-3d9f.json"
     }
   }, 
-  "name": "Chicago Public Schools - High School Progress Report (2013-2014)", 
+  "name": "Chicago Public Schools \u2013 High School Progress Report Card (2012-2013)", 
   "schema": {
     "columns": [
       {
@@ -23,7 +23,11 @@
         "type": "text"
       }, 
       {
-        "name": "name_of_school", 
+        "name": "school_short_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "school_name", 
         "type": "text"
       }, 
       {
@@ -43,43 +47,135 @@
         "type": "text"
       }, 
       {
-        "name": "phone_number", 
-        "type": "text"
-      }, 
-      {
         "name": "website", 
         "type": "text"
       }, 
       {
-        "name": "blue_ribbon_award", 
+        "name": "managed_by_network", 
+        "type": "text"
+      }, 
+      {
+        "name": "geographic_network", 
+        "type": "text"
+      }, 
+      {
+        "name": "school_track", 
+        "type": "text"
+      }, 
+      {
+        "name": "overall_rating", 
+        "type": "text"
+      }, 
+      {
+        "name": "on_probation", 
+        "type": "text"
+      }, 
+      {
+        "name": "years_on_probation", 
         "type": "real"
       }, 
       {
-        "name": "cps_performance_policy_level", 
+        "name": "growth_overall_level", 
         "type": "text"
       }, 
       {
-        "name": "cps_performance_policy_status", 
+        "name": "growth_explore", 
         "type": "text"
       }, 
       {
-        "name": "probation_length", 
+        "name": "growth_plan", 
+        "type": "text"
+      }, 
+      {
+        "name": "growth_act", 
+        "type": "text"
+      }, 
+      {
+        "name": "growth_all_grades", 
+        "type": "text"
+      }, 
+      {
+        "name": "student_performance_level", 
+        "type": "text"
+      }, 
+      {
+        "name": "over_time_explore_2010", 
         "type": "real"
       }, 
       {
-        "name": "my_voice_my_school_overall_rating", 
+        "name": "over_time_plan_2011", 
+        "type": "real"
+      }, 
+      {
+        "name": "over_time_act_2012", 
+        "type": "real"
+      }, 
+      {
+        "name": "average_score_explore_2012", 
+        "type": "real"
+      }, 
+      {
+        "name": "average_score_plan_2012", 
+        "type": "real"
+      }, 
+      {
+        "name": "average_score_act_2012", 
+        "type": "real"
+      }, 
+      {
+        "name": "_5_year_cohort_graduation_rate_2011_percent", 
         "type": "text"
       }, 
       {
-        "name": "student_response_rate", 
+        "name": "_5_year_cohort_graduation_rate_2012_percent", 
         "type": "text"
       }, 
       {
-        "name": "teacher_response_rate", 
+        "name": "one_year_dropout_rate_2011_percent", 
         "type": "text"
       }, 
       {
-        "name": "involved_family", 
+        "name": "one_year_dropout_rate_2012_percent", 
+        "type": "text"
+      }, 
+      {
+        "name": "freshman_on_track_to_graduate_2011_percent", 
+        "type": "text"
+      }, 
+      {
+        "name": "freshman_on_track_to_graduate_2012_percent", 
+        "type": "text"
+      }, 
+      {
+        "name": "college_eligibility_2011_percent", 
+        "type": "text"
+      }, 
+      {
+        "name": "college_eligibility_2012_percent", 
+        "type": "text"
+      }, 
+      {
+        "name": "college_enrollment_2011_percent", 
+        "type": "text"
+      }, 
+      {
+        "name": "college_enrollment_2012_percent", 
+        "type": "text"
+      }, 
+      {
+        "name": "college_retention_2009_percent", 
+        "type": "text"
+      }, 
+      {
+        "name": "college_retention_2010_percent", 
+        "type": "text"
+      }, 
+      {
+        "name": "overall_foundation", 
+        "type": "text"
+      }, 
+      {
+        "name": "involved_families", 
         "type": "text"
       }, 
       {
@@ -99,292 +195,52 @@
         "type": "text"
       }, 
       {
-        "name": "safe", 
+        "name": "safety", 
         "type": "text"
       }, 
       {
-        "name": "school_community", 
+        "name": "misconducts_resulting_in_suspensions_2011_percent", 
         "type": "text"
       }, 
       {
-        "name": "parent_teacher_partnership", 
+        "name": "misconducts_resulting_in_suspensions_2012_percent", 
         "type": "text"
       }, 
       {
-        "name": "quality_of_facilities", 
+        "name": "average_days_of_suspension_2011", 
+        "type": "real"
+      }, 
+      {
+        "name": "average_days_of_suspension_2012", 
+        "type": "real"
+      }, 
+      {
+        "name": "student_attendance_2011_percent", 
         "type": "text"
       }, 
       {
-        "name": "healthy_schools_certification", 
+        "name": "student_attendance_2012_percent", 
         "type": "text"
       }, 
       {
-        "name": "creative_schools_certification", 
+        "name": "teacher_attendance_2011_percent", 
         "type": "text"
       }, 
       {
-        "name": "nwea_reading_growth_percentile_all_grades", 
-        "type": "real"
-      }, 
-      {
-        "name": "nwea_reading_growth_percentile_grade_3", 
-        "type": "real"
-      }, 
-      {
-        "name": "nwea_reading_growth_percentile_grade_4", 
-        "type": "real"
-      }, 
-      {
-        "name": "nwea_reading_growth_percentile_grade_5", 
-        "type": "real"
-      }, 
-      {
-        "name": "nwea_reading_growth_percentile_grade_6", 
-        "type": "real"
-      }, 
-      {
-        "name": "nwea_reading_growth_percentile_grade_7", 
-        "type": "real"
-      }, 
-      {
-        "name": "nwea_reading_growth_percentile_grade_8", 
-        "type": "real"
-      }, 
-      {
-        "name": "nwea_math_growth_all_grades", 
-        "type": "real"
-      }, 
-      {
-        "name": "nwea_math_growth_grade_3", 
-        "type": "real"
-      }, 
-      {
-        "name": "nwea_math_growth_grade_4", 
-        "type": "real"
-      }, 
-      {
-        "name": "nwea_math_growth_grade_5", 
-        "type": "real"
-      }, 
-      {
-        "name": "nwea_math_growth_grade_6", 
-        "type": "real"
-      }, 
-      {
-        "name": "nwea_math_growth_grade_7", 
-        "type": "real"
-      }, 
-      {
-        "name": "nwea_math_growth_grade_8", 
-        "type": "real"
-      }, 
-      {
-        "name": "nwea_reading_attainment_percentile_all_grades", 
-        "type": "real"
-      }, 
-      {
-        "name": "nwea_reading_attainment_percentile_grade_2", 
-        "type": "real"
-      }, 
-      {
-        "name": "nwea_reading_attainment_percentile_grade_3", 
-        "type": "real"
-      }, 
-      {
-        "name": "nwea_reading_attainment_percentile_grade_4", 
-        "type": "real"
-      }, 
-      {
-        "name": "nwea_reading_attainment_percentile_grade_5", 
-        "type": "real"
-      }, 
-      {
-        "name": "nwea_reading_attainment_percentile_grade_6", 
-        "type": "real"
-      }, 
-      {
-        "name": "nwea_reading_attainment_percentile_grade_7", 
-        "type": "real"
-      }, 
-      {
-        "name": "nwea_reading_attainment_percentile_grade_8", 
-        "type": "real"
-      }, 
-      {
-        "name": "nwea_math_attainment_percentile_all_grades", 
-        "type": "real"
-      }, 
-      {
-        "name": "nwea_math_attainment_percentile_grade_2", 
-        "type": "real"
-      }, 
-      {
-        "name": "nwea_math_attainment_percentile_grade_3", 
-        "type": "real"
-      }, 
-      {
-        "name": "nwea_math_attainment_percentile_grade_4", 
-        "type": "real"
-      }, 
-      {
-        "name": "nwea_math_attainment_percentile_grade_5", 
-        "type": "real"
-      }, 
-      {
-        "name": "nwea_math_attainment_percentile_grade_6", 
-        "type": "real"
-      }, 
-      {
-        "name": "nwea_math_attainment_percentile_grade_7", 
-        "type": "real"
-      }, 
-      {
-        "name": "nwea_math_attainment_percentile_grade_8", 
-        "type": "real"
-      }, 
-      {
-        "name": "epas_growth_percentile", 
-        "type": "real"
-      }, 
-      {
-        "name": "explore_growth_percentile_grade_9", 
-        "type": "real"
-      }, 
-      {
-        "name": "plan_growth_percentile_grade_10", 
-        "type": "real"
-      }, 
-      {
-        "name": "act_growth_percentile_grade_11", 
-        "type": "real"
-      }, 
-      {
-        "name": "epas_attainment_percentile", 
-        "type": "real"
-      }, 
-      {
-        "name": "explore_attainment_percentile_grade_9", 
-        "type": "real"
-      }, 
-      {
-        "name": "plan_attainment_percentile_grade_10", 
-        "type": "real"
-      }, 
-      {
-        "name": "grade_act_attainment_percentile_grade_11", 
-        "type": "real"
-      }, 
-      {
-        "name": "explore_spring_2013_average_grade_9", 
-        "type": "real"
-      }, 
-      {
-        "name": "explore_spring_2013_average_grade_10", 
-        "type": "real"
-      }, 
-      {
-        "name": "explore_fall_2011_average_grade_9", 
-        "type": "real"
-      }, 
-      {
-        "name": "plan_fall_2012_average_grade_10", 
-        "type": "real"
-      }, 
-      {
-        "name": "act_spring_2013_average_grade_11", 
-        "type": "real"
-      }, 
-      {
-        "name": "freshmen_on_track_rate_percentage_2013", 
+        "name": "teacher_attendance_2012_percent", 
         "type": "text"
       }, 
       {
-        "name": "freshmen_on_track_rate_percentage_2012", 
+        "name": "healthy_school_certified", 
         "type": "text"
       }, 
       {
-        "name": "_4_year_graduation_rate_percentage_2013", 
+        "name": "blue_ribbon_award", 
         "type": "text"
       }, 
       {
-        "name": "_4_year_graduation_rate_percentage_2012", 
-        "type": "text"
-      }, 
-      {
-        "name": "_5_year_graduation_rate_percentage_2013", 
-        "type": "text"
-      }, 
-      {
-        "name": "_5_year_graduation_rate_percentage_2012", 
-        "type": "text"
-      }, 
-      {
-        "name": "college_enrollment_rate_percentage_2013", 
-        "type": "text"
-      }, 
-      {
-        "name": "college_enrollment_rate_percentage_2012", 
-        "type": "text"
-      }, 
-      {
-        "name": "college_persistence_rate_percentage_2013", 
-        "type": "text"
-      }, 
-      {
-        "name": "college_persistence_rate_percentage_2012", 
-        "type": "text"
-      }, 
-      {
-        "name": "suspensions_per_100_2013", 
+        "name": "blue_ribbon_award_year", 
         "type": "real"
-      }, 
-      {
-        "name": "suspensions_per_100_2012", 
-        "type": "real"
-      }, 
-      {
-        "name": "percentage_of_misconducts_resulting_in_suspension_2013", 
-        "type": "text"
-      }, 
-      {
-        "name": "percentage_of_misconducts_resulting_in_suspension_2012", 
-        "type": "text"
-      }, 
-      {
-        "name": "average_length_of_suspensions_2013", 
-        "type": "real"
-      }, 
-      {
-        "name": "average_length_of_suspensions_2012", 
-        "type": "real"
-      }, 
-      {
-        "name": "student_attendance_percentage_2013", 
-        "type": "text"
-      }, 
-      {
-        "name": "student_attendance_percentage_2012", 
-        "type": "text"
-      }, 
-      {
-        "name": "teacher_attendance_percentage_2013", 
-        "type": "text"
-      }, 
-      {
-        "name": "teacher_attendance_percentage_2012", 
-        "type": "text"
-      }, 
-      {
-        "name": "gr3_8_on_track_percentage_2013", 
-        "type": "text"
-      }, 
-      {
-        "name": "one_year_dropout_rate_percentage_2013", 
-        "type": "text"
-      }, 
-      {
-        "name": "one_year_dropout_rate_percentage_2012", 
-        "type": "text"
       }, 
       {
         "name": "x_coordinate", 

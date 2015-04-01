@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/gaq9-z3hz/rows.csv"
   }, 
+  "description": "For each Community District, its Recycling Diversion rate (percentage of total municipal solid waste collected by the Department of Sanitation (DSNY that is disposed of by recycling) and Capture Rate (% of total Paper or Metal/Glass/Plastic in the waste stream that is disposed of by recycling).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/gaq9-z3hz.json"
+    "attribution": "Department of Sanitation (DSNY)", 
+    "category": "Environment", 
+    "description": "For each Community District, its Recycling Diversion rate (percentage of total municipal solid waste collected by the Department of Sanitation (DSNY that is disposed of by recycling) and Capture Rate (% of total Paper or Metal/Glass/Plastic in the waste stream that is disposed of by recycling).", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/gaq9-z3hz.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_recycling_diversion_and_capture_rates", 
+  "name": "Recycling Diversion and Capture Rates", 
   "schema": {
     "columns": [
       {
@@ -53,5 +59,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_recycling_diversion_and_capture_rates"
 }

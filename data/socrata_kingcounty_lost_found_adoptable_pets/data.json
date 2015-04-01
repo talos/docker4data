@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/yaai-7frk/rows.csv"
   }, 
+  "description": "Animal shelter data", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.kingcounty.gov/api/views/yaai-7frk.json"
+    "attribution": "Regional Animal Services of King County", 
+    "category": "Pets", 
+    "description": "Animal shelter data", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/yaai-7frk.json"
+    }
   }, 
-  "name": "socrata_kingcounty_lost_found_adoptable_pets", 
+  "name": "Lost, found, adoptable pets", 
   "schema": {
     "columns": [
       {
@@ -113,5 +119,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_kingcounty_lost_found_adoptable_pets"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/w449-f4d7/rows.csv"
   }, 
+  "description": "List of DCP offices in New York City by Borough", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/w449-f4d7.json"
+    "attribution": "Department of City Planning (DCP)", 
+    "category": "Housing & Development", 
+    "description": "List of DCP offices in New York City by Borough", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/w449-f4d7.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_directory_of_dcp_offices", 
+  "name": "Directory Of DCP Offices", 
   "schema": {
     "columns": [
       {
@@ -33,5 +39,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_directory_of_dcp_offices"
 }

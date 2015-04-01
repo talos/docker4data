@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/spg7-snr5/rows.csv"
   }, 
+  "description": "Data reported is for projects that have been Board approved, not closed or placed in service", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/spg7-snr5.json"
+    "category": "Housing", 
+    "description": "Data reported is for projects that have been Board approved, not closed or placed in service", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/spg7-snr5.json"
+    }
   }, 
-  "name": "socrata_illinois_hda_illinois_housing_dev_auth_homeownership_f", 
+  "name": "HDA - Illinois Housing Dev Auth - HomeOwnership - FY2012", 
   "schema": {
     "columns": [
       {
@@ -53,5 +58,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_hda_illinois_housing_dev_auth_homeownership_f"
 }

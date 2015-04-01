@@ -10,14 +10,18 @@
   "metadata": {
     "attribution": "City of Chicago", 
     "category": "Ethics", 
-    "description": "All lobbyist termination fillings submitted to the Board of Ethics and electronically transcribed by Board of Ethics employees during the 2010 reporting period. / \r\nWhen a lobbyist terminates all activity that requires registration, the lobbyist must file a termination notice and a final activity report that covers the period between the most recently filed activity report and the date of termination.\r\nData for the 2010 reporting period is limited because previous policy did not require the Board of Ethics to prioritize the reporting of all data available from paper filings. /  \r\nData Owner:  Board of Ethics \r\n[http://j.mp/mbH9BN] /\r\nTime Period: January 1, 2010 to December 31, 2010 /\r\nRelated Applications:  Registered Lobbyist List [http://j.mp/l8LwAq], \r\n2011 Lobbyist Termination Report\r\n[http://j.mp/kT56zH]", 
+    "description": "All lobbyist termination fillings submitted to the Board of Ethics beginning with the 2011 reporting period. / \r\nWhen a lobbyist terminates all activity that requires registration, the lobbyist must file a termination notice and a final activity report that covers the period between the most recently filed activity report and the date of termination.\r\nLobbyist termination information is submitted to the Board of Ethics in paper form and is available in its entirety in the Board's offices. The Board has, since 2000, compiled and posted static lists of all lobbyists and their clients online. Previous policy did not require the Board of Ethics to prioritize the reporting of all data available from paper filings.\r\nFrom this point forward, the Board of Ethics will electronically compile more data about lobbyists and their activities and automatically report this information online. / \r\nData Owner:  Board of Ethics \r\n[http://j.mp/kAx6q3] /\r\n\r\nTime Period: January 1, 2011 to present /\r\nFrequency:  Data is updated daily /\r\nRelated Applications:  Registered Lobbyist List [http://bit.ly/FOctNY], \r\n2010 Lobbyist Termination Report\r\n[http://j.mp/k3DCxW ]", 
     "socrata": {
-      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/2mtu-ysnw.json"
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/ru3t-7gty.json"
     }
   }, 
-  "name": "Lobbyist Data - Lobbyist Termination Report - 2010", 
+  "name": "Lobbyist Data - Lobbyist Termination Report", 
   "schema": {
     "columns": [
+      {
+        "name": "filing_year", 
+        "type": "real"
+      }, 
       {
         "name": "lobbyist_last_name", 
         "type": "text"
@@ -27,8 +31,8 @@
         "type": "text"
       }, 
       {
-        "name": "termination_date", 
-        "type": "timestamp"
+        "name": "lobbyist_middle_initial", 
+        "type": "text"
       }
     ]
   }, 

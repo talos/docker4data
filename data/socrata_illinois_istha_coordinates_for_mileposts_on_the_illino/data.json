@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/dtb9-cpub/rows.csv"
   }, 
+  "description": "This dataset has a record for every milepost on I-355 of the Illinois Tollway that includes the route number, the milepost and the latitude and longitude. It lists a milepost every tenth of mile, and every quarter of a mile, but there is actually only a physical milepost every quarter of a mile.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/rnc7-v59c.json"
+    "category": "Transportation", 
+    "description": "This dataset has a record for every milepost on I-294 of the Illinois Tollway that includes the route number, the milepost and the latitude and longitude. It lists a milepost every tenth of mile, and every quarter of a mile, but there is actually only a physical milepost every quarter of a mile.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/rnc7-v59c.json"
+    }
   }, 
-  "name": "socrata_illinois_istha_coordinates_for_mileposts_on_the_illino", 
+  "name": "ISTHA Coordinates for Mileposts on the Illinois Tollway, I-294 Tri-State", 
   "schema": {
     "columns": [
       {
@@ -25,5 +30,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_istha_coordinates_for_mileposts_on_the_illino"
 }

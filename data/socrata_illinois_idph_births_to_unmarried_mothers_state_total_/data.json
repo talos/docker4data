@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/cq3r-xen6/rows.csv"
   }, 
+  "description": "Per 1,000 live births", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/cq3r-xen6.json"
+    "attribution": "Illinois Center for Health Statistics", 
+    "category": "Public Health", 
+    "description": "Per 1,000 live births", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/cq3r-xen6.json"
+    }
   }, 
-  "name": "socrata_illinois_idph_births_to_unmarried_mothers_state_total_", 
+  "name": "IDPH Births to Unmarried Mothers, State Total, 1950-2009", 
   "schema": {
     "columns": [
       {
@@ -29,5 +35,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_idph_births_to_unmarried_mothers_state_total_"
 }

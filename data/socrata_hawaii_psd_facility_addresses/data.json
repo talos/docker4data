@@ -7,9 +7,11 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.hawaii.gov/api/views/i6md-8nrq.json"
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/i6md-8nrq.json"
+    }
   }, 
-  "name": "socrata_hawaii_psd_facility_addresses", 
+  "name": "PSD Facility Addresses", 
   "schema": {
     "columns": [
       {
@@ -53,5 +55,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_hawaii_psd_facility_addresses"
 }

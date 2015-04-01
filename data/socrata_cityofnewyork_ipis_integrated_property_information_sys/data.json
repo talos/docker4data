@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/n5mv-nfpy/rows.csv"
   }, 
+  "description": "Database of City-owned properties and private properties that the City leases for City agency use.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/n5mv-nfpy.json"
+    "attribution": "Department of Citywide Administrative Services (DCAS)", 
+    "category": "Housing & Development", 
+    "description": "Database of City-owned properties and private properties that the City leases for City agency use.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/n5mv-nfpy.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_ipis_integrated_property_information_sys", 
+  "name": "IPIS (Integrated Property Information System)", 
   "schema": {
     "columns": [
       {
@@ -141,5 +147,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_ipis_integrated_property_information_sys"
 }

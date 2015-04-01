@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/etc5-t8zj/rows.csv"
   }, 
+  "description": "Data are provided by the Department of General Services (DGS). This report, updated monthly, shows DGS-wide vacancies for every biweekly pay period.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/etc5-t8zj.json"
+    "attribution": "Department of General Services (DGS)", 
+    "category": "Budget", 
+    "description": "Data are provided by the Department of General Services (DGS). This report, updated monthly, shows DGS-wide vacancies for every biweekly pay period.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/etc5-t8zj.json"
+    }
   }, 
-  "name": "socrata_maryland_dgs_vacancies_report", 
+  "name": "DGS Vacancies Report", 
   "schema": {
     "columns": [
       {
@@ -185,5 +191,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_maryland_dgs_vacancies_report"
 }

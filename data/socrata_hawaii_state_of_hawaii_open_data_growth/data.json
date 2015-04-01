@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/berr-farz/rows.csv"
   }, 
+  "description": "Quarter by quarter updates of the number of maps, charts and datasets made available to the public", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.hawaii.gov/api/views/berr-farz.json"
+    "attribution": "Office of Information Management and Technology", 
+    "category": "Government-Wide Support", 
+    "description": "Quarter by quarter updates of the number of maps, charts and datasets made available to the public", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/berr-farz.json"
+    }
   }, 
-  "name": "socrata_hawaii_state_of_hawaii_open_data_growth", 
+  "name": "State of Hawaii Open Data growth", 
   "schema": {
     "columns": [
       {
@@ -49,5 +55,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_hawaii_state_of_hawaii_open_data_growth"
 }

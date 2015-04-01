@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/sxx4-xhzg/rows.csv"
   }, 
+  "description": "Locations of public recycling bins throughout NYC", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/sxx4-xhzg.json"
+    "attribution": "Department of Sanitation (DSNY)", 
+    "category": "Environment", 
+    "description": "Locations of public recycling bins throughout NYC", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/sxx4-xhzg.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_public_recycling_bins", 
+  "name": "Public Recycling Bins", 
   "schema": {
     "columns": [
       {
@@ -37,5 +43,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_public_recycling_bins"
 }

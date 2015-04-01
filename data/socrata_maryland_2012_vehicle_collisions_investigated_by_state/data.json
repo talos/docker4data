@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/pdvh-tf2u/rows.csv"
   }, 
+  "description": "Collisions investigated by the Maryland State Police in 2012 (does not include collisions investigated by local jurisdictions).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/pdvh-tf2u.json"
+    "attribution": "Maryland State Police", 
+    "category": "Public Safety", 
+    "description": "Collisions investigated by the Maryland State Police in 2012 (does not include collisions investigated by local jurisdictions).", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/pdvh-tf2u.json"
+    }
   }, 
-  "name": "socrata_maryland_2012_vehicle_collisions_investigated_by_state", 
+  "name": "2012 Vehicle Collisions Investigated by State Police", 
   "schema": {
     "columns": [
       {
@@ -85,5 +91,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_maryland_2012_vehicle_collisions_investigated_by_state"
 }

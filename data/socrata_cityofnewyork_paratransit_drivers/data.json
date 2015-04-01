@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/8bqd-u9ta/rows.csv"
   }, 
+  "description": "Lists all TLC paratransit drivers", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/8bqd-u9ta.json"
+    "attribution": "Taxi and Limousine Commission (TLC)", 
+    "category": "Transportation", 
+    "description": "Lists all TLC paratransit drivers", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/8bqd-u9ta.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_paratransit_drivers", 
+  "name": "Paratransit Drivers", 
   "schema": {
     "columns": [
       {
@@ -29,5 +35,6 @@
         "type": "timestamp"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_paratransit_drivers"
 }

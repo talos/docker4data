@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/scwj-eyn6/rows.csv"
   }, 
+  "description": "All TLC community car service vehicles", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/scwj-eyn6.json"
+    "attribution": "Taxi and Limousine Commission (TLC)", 
+    "category": "Transportation", 
+    "description": "All TLC community car service vehicles", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/scwj-eyn6.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_community_car_service_vehicles", 
+  "name": "Community Car Service Vehicles", 
   "schema": {
     "columns": [
       {
@@ -53,5 +59,6 @@
         "type": "timestamp"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_community_car_service_vehicles"
 }

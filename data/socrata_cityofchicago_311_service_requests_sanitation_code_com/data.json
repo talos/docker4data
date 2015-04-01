@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/me59-5fac/rows.csv"
   }, 
+  "description": "All open sanitation code complaints made to 311 and all requests completed since January 1, 2011. The Department of Streets and Sanitation investigates and remedies reported violations of Chicago\u2019s sanitation code. Residents may request service for violations such as overflowing dumpsters and garbage in the alley.\r\n311 sometimes receives duplicate sanitation code complaints. Requests that have been labeled as duplicates are in the same geographic area as a previous request and have been entered into 311\u2019s Customer Service Request (CSR) system at around the same time. Duplicate complaints are labeled as such in the status field, as either \"Open - Dup\" or \"Completed - Dup.\"\r\nData Owner: Streets and Sanitation (http://www.cityofchicago.org/content/city/en/depts/streets.html).\r\nTime Period: January 1, 2011 to present.\r\nFrequency: Data is updated daily.\r\nRelated Applications: 311 Service Request Status Inquiry (https://servicerequest.cityofchicago.org/web_intake_chic/Controller?op=createsrquery2) and Report Sanitation Code Complaint (https://servicerequest.cityofchicago.org/web_intake_chic/Controller?op=locform&invSRType=SCB&invSRDesc=Sanitation%20Code%20Violation&locreq=Y&stnumreqd=Y).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/me59-5fac.json"
+    "attribution": "City of Chicago", 
+    "category": "Service Requests", 
+    "description": "All open sanitation code complaints made to 311 and all requests completed since January 1, 2011. The Department of Streets and Sanitation investigates and remedies reported violations of Chicago\u2019s sanitation code. Residents may request service for violations such as overflowing dumpsters and garbage in the alley.\r\n311 sometimes receives duplicate sanitation code complaints. Requests that have been labeled as duplicates are in the same geographic area as a previous request and have been entered into 311\u2019s Customer Service Request (CSR) system at around the same time. Duplicate complaints are labeled as such in the status field, as either \"Open - Dup\" or \"Completed - Dup.\"\r\nData Owner: Streets and Sanitation (http://www.cityofchicago.org/content/city/en/depts/streets.html).\r\nTime Period: January 1, 2011 to present.\r\nFrequency: Data is updated daily.\r\nRelated Applications: 311 Service Request Status Inquiry (https://servicerequest.cityofchicago.org/web_intake_chic/Controller?op=createsrquery2) and Report Sanitation Code Complaint (https://servicerequest.cityofchicago.org/web_intake_chic/Controller?op=locform&invSRType=SCB&invSRDesc=Sanitation%20Code%20Violation&locreq=Y&stnumreqd=Y).", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/me59-5fac.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_311_service_requests_sanitation_code_com", 
+  "name": "311 Service Requests - Sanitation Code Complaints", 
   "schema": {
     "columns": [
       {
@@ -77,5 +83,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_311_service_requests_sanitation_code_com"
 }

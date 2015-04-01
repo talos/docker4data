@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/rwns-g4bn/rows.csv"
   }, 
+  "description": "Department of Health Hospitals listing", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.hawaii.gov/api/views/rwns-g4bn.json"
+    "attribution": "Department of Health", 
+    "category": "Health", 
+    "description": "Department of Health Hospitals listing", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/rwns-g4bn.json"
+    }
   }, 
-  "name": "socrata_hawaii_hospitals_in_hawaii", 
+  "name": "Hospitals in Hawaii", 
   "schema": {
     "columns": [
       {
@@ -45,5 +51,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_hawaii_hospitals_in_hawaii"
 }

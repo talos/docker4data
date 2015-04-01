@@ -7,9 +7,11 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.hawaii.gov/api/views/kpyw-kpxf.json"
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/kpyw-kpxf.json"
+    }
   }, 
-  "name": "socrata_hawaii_data_hawaii_gov_dataset_catalog", 
+  "name": "data.hawaii.gov Dataset Catalog", 
   "schema": {
     "columns": [
       {
@@ -125,5 +127,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_hawaii_data_hawaii_gov_dataset_catalog"
 }

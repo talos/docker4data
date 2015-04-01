@@ -7,9 +7,11 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.colorado.gov/api/views/vjty-5nvr.json"
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/vjty-5nvr.json"
+    }
   }, 
-  "name": "socrata_colorado_catalog", 
+  "name": "Catalog", 
   "schema": {
     "columns": [
       {
@@ -125,5 +127,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_colorado_catalog"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/nre2-6m2s/rows.csv"
   }, 
+  "description": "Consumer complaints against businesses that were mediated by the Department of Consumer Affairs. List excludes cases that may have ongoing legal investigations. Business address information is not included for businesses if that address is likely to be a personal address.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/nre2-6m2s.json"
+    "attribution": "Department of Consumer Affairs (DCA)", 
+    "category": "Business", 
+    "description": "Consumer complaints against businesses that were mediated by the Department of Consumer Affairs. List excludes cases that may have ongoing legal investigations. Business address information is not included for businesses if that address is likely to be a personal address.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/nre2-6m2s.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_consumer_services_complaint_mediation", 
+  "name": "Consumer Services Complaint Mediation", 
   "schema": {
     "columns": [
       {
@@ -69,5 +75,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_consumer_services_complaint_mediation"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/p2cv-hhz2/rows.csv"
   }, 
+  "description": "An asterisk (*) indicates a month when a camera was not in use. All data are provided by the Maryland State Highway Administration (SHA) each month to StateStat.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/p2cv-hhz2.json"
+    "attribution": "State Highway Administration (SHA)", 
+    "category": "Transportation", 
+    "description": "An asterisk (*) indicates a month when a camera was not in use. All data are provided by the Maryland State Highway Administration (SHA) each month to StateStat.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/p2cv-hhz2.json"
+    }
   }, 
-  "name": "socrata_maryland_sha_environmental_preservation_report_fuel_us", 
+  "name": "SHA Environmental Preservation Report: Fuel Usage & Environmental Inspections", 
   "schema": {
     "columns": [
       {
@@ -93,5 +99,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_maryland_sha_environmental_preservation_report_fuel_us"
 }

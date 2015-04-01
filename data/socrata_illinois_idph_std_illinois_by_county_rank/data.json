@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/jj3q-32um/rows.csv"
   }, 
+  "description": "Illinois 2000-2013 STD counts and rates (per 100,000 population) ranked by county. See attachment for metadata and censoring details under the \"About\" link.  Null values in dataset reflect censored data.  Data Source: Illinois Department of Public Health STD Program.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/jj3q-32um.json"
+    "attribution": "Illinois Department of Public Health STD Program", 
+    "category": "Public Health", 
+    "description": "Illinois 2000-2013 STD counts and rates (per 100,000 population) ranked by county. See attachment for metadata and censoring details under the \"About\" link.  Null values in dataset reflect censored data.  Data Source: Illinois Department of Public Health STD Program.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/jj3q-32um.json"
+    }
   }, 
-  "name": "socrata_illinois_idph_std_illinois_by_county_rank", 
+  "name": "IDPH STD Illinois By County Rank", 
   "schema": {
     "columns": [
       {
@@ -77,5 +83,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_idph_std_illinois_by_county_rank"
 }

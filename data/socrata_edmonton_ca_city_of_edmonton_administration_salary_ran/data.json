@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/ijxg-n4re/rows.csv"
   }, 
+  "description": "This data-set is a listing of all active City of Edmonton Administration job titles, complete with salary range and number of positions. Data Owner: Human Resources. Frequency: Data is updated semi-annually. Note - More than one (1) employee can be in a position.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.edmonton.ca/api/views/ijxg-n4re.json"
+    "attribution": "City of Edmonton - Human Resources", 
+    "category": "City Administration", 
+    "description": "This data-set is a listing of all active City of Edmonton Administration job titles, complete with salary range and number of positions. Data Owner: Human Resources. Frequency: Data is updated semi-annually. Note - More than one (1) employee can be in a position.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/ijxg-n4re.json"
+    }
   }, 
-  "name": "socrata_edmonton_ca_city_of_edmonton_administration_salary_ran", 
+  "name": "City of Edmonton Administration - Salary Ranges by Job Title", 
   "schema": {
     "columns": [
       {
@@ -33,5 +39,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_edmonton_ca_city_of_edmonton_administration_salary_ran"
 }

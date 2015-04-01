@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/r4pa-sjau/rows.csv"
   }, 
+  "description": "Detailed absentee canvass results for November 4, 2008 general election. Tutorial available here: http://www.kingcounty.gov/elections/results/opendatatutorial.aspx", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.kingcounty.gov/api/views/r4pa-sjau.json"
+    "attribution": "King County Elections", 
+    "category": "Election results", 
+    "description": "Detailed absentee canvass results for November 4, 2008 general election. Tutorial available here: http://www.kingcounty.gov/elections/results/opendatatutorial.aspx", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/r4pa-sjau.json"
+    }
   }, 
-  "name": "socrata_kingcounty_election_results_november_4_2008_general_ab", 
+  "name": "Election results - November 4, 2008 General - Absentee", 
   "schema": {
     "columns": [
       {
@@ -49,5 +55,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_kingcounty_election_results_november_4_2008_general_ab"
 }

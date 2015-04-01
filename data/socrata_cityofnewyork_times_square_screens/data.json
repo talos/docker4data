@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/n246-cev5/rows.csv"
   }, 
+  "description": "List of screens in the Times Square area with an address and description of their locations", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/n246-cev5.json"
+    "attribution": "Times Square Alliance (TSA)", 
+    "category": "Housing & Development", 
+    "description": "List of screens in the Times Square area with an address and description of their locations", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/n246-cev5.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_times_square_screens", 
+  "name": "Times Square Screens", 
   "schema": {
     "columns": [
       {
@@ -29,5 +35,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_times_square_screens"
 }

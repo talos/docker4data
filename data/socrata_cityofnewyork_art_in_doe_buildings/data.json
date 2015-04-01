@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/8a4n-zmpj/rows.csv"
   }, 
+  "description": "List of art, artist, medium and DOE\nbuilding that the art is located in\nschools.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/8a4n-zmpj.json"
+    "attribution": "School Construction Authority (SCA)", 
+    "category": "Education", 
+    "description": "List of art, artist, medium and DOE\nbuilding that the art is located in\nschools.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/8a4n-zmpj.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_art_in_doe_buildings", 
+  "name": "Art in DOE buildings", 
   "schema": {
     "columns": [
       {
@@ -53,5 +59,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_art_in_doe_buildings"
 }

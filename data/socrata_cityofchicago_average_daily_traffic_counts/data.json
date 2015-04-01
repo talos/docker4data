@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/pfsx-4n4m/rows.csv"
   }, 
+  "description": "Average Daily Traffic (ADT) counts are analogous to a census count of vehicles on city streets. These counts provide a close approximation to the actual number of vehicles passing through a given location on an average weekday. Since it is not possible to count every vehicle on every city street, sample counts are taken along larger streets to get an estimate of traffic on half-mile or one-mile street segments. ADT counts are used by city planners, transportation engineers, real-estate developers, marketers and many others for myriad planning and operational purposes.\r\nData Owner: Transportation.\r\nTime Period: 2006.\r\nFrequency: A citywide count is taken approximately every 10 years. A limited number of traffic counts will be taken and added to the list periodically.\r\nRelated Applications: Traffic Information Interactive Map (http://webapps.cityofchicago.org/traffic/).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/pfsx-4n4m.json"
+    "attribution": "City of Chicago", 
+    "category": "Transportation", 
+    "description": "Average Daily Traffic (ADT) counts are analogous to a census count of vehicles on city streets. These counts provide a close approximation to the actual number of vehicles passing through a given location on an average weekday. Since it is not possible to count every vehicle on every city street, sample counts are taken along larger streets to get an estimate of traffic on half-mile or one-mile street segments. ADT counts are used by city planners, transportation engineers, real-estate developers, marketers and many others for myriad planning and operational purposes.\r\nData Owner: Transportation.\r\nTime Period: 2006.\r\nFrequency: A citywide count is taken approximately every 10 years. A limited number of traffic counts will be taken and added to the list periodically.\r\nRelated Applications: Traffic Information Interactive Map (http://webapps.cityofchicago.org/traffic/).", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/pfsx-4n4m.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_average_daily_traffic_counts", 
+  "name": "Average Daily Traffic Counts", 
   "schema": {
     "columns": [
       {
@@ -49,5 +55,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_average_daily_traffic_counts"
 }

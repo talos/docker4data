@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/x4sc-qhui/rows.csv"
   }, 
+  "description": "Number of traffic fatalities each year on Colorado roads", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.colorado.gov/api/views/x4sc-qhui.json"
+    "attribution": "colorado department of transportation, cdot", 
+    "category": "Transportation", 
+    "description": "Number of traffic fatalities each year on Colorado roads", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/x4sc-qhui.json"
+    }
   }, 
-  "name": "socrata_colorado_traffic_fatalities_reports", 
+  "name": "Traffic Fatalities Reports", 
   "schema": {
     "columns": [
       {
@@ -29,5 +35,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_colorado_traffic_fatalities_reports"
 }

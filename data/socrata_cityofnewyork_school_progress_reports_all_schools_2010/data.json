@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/yig9-9zum/rows.csv"
   }, 
+  "description": "2010/11 Progress Report results for all schools (As of 9/23/2011)\r\n\r\nPeer indexes are calculated differently depending on School Level.  Schools are only compared to other schools in the same School Level (e.g., Elementary, K-8, Middle, High, Transfer)\r\n\r\n1) Elementary, K-8, Early Childhood - peer index is a value from 0-100.  A composite demographic statistic based on % ELL, % Students with Disabilities, % Title I free lunch, and % Black/Hispanic is used.  Higher values indicate student populations with higher need.\r\n\r\n2) Middle - peer index is a value from 1.00-4.50.  For middle schools, the average 4th grade proficiency ratings in ELA and Math and the % Students with Disabilities is used. Lower values indicate student populations with higher need.\r\n\r\n3) High School - peer index is a value from 1.00-4.50. For high schools, the average 8th grade proficiency, the % Students with Disabilities, the % Self-contained, and the % overage is used. Lower values indicate student populations with higher need.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/yig9-9zum.json"
+    "attribution": "Department of Education (DOE)", 
+    "category": "Education", 
+    "description": "2010/11 Progress Report results for all schools (As of 9/23/2011)\r\n\r\nPeer indexes are calculated differently depending on School Level.  Schools are only compared to other schools in the same School Level (e.g., Elementary, K-8, Middle, High, Transfer)\r\n\r\n1) Elementary, K-8, Early Childhood - peer index is a value from 0-100.  A composite demographic statistic based on % ELL, % Students with Disabilities, % Title I free lunch, and % Black/Hispanic is used.  Higher values indicate student populations with higher need.\r\n\r\n2) Middle - peer index is a value from 1.00-4.50.  For middle schools, the average 4th grade proficiency ratings in ELA and Math and the % Students with Disabilities is used. Lower values indicate student populations with higher need.\r\n\r\n3) High School - peer index is a value from 1.00-4.50. For high schools, the average 8th grade proficiency, the % Students with Disabilities, the % Self-contained, and the % overage is used. Lower values indicate student populations with higher need.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/yig9-9zum.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_school_progress_reports_all_schools_2010", 
+  "name": "School Progress Reports - All Schools - 2010-11", 
   "schema": {
     "columns": [
       {
@@ -81,5 +87,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_school_progress_reports_all_schools_2010"
 }

@@ -7,9 +7,11 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.hawaii.gov/api/views/u7nx-vred.json"
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/u7nx-vred.json"
+    }
   }, 
-  "name": "socrata_hawaii_rps_copy_on_data_hawaii_gov", 
+  "name": "RPS copy on data.hawaii.gov", 
   "schema": {
     "columns": [
       {
@@ -41,5 +43,6 @@
         "type": "timestamp"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_hawaii_rps_copy_on_data_hawaii_gov"
 }

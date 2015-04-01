@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/n379-5uzu/rows.csv"
   }, 
+  "description": "FOIA requests received by the Chicago Public Library as of May 1, 2010", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/n379-5uzu.json"
+    "attribution": "Chicago Public Library", 
+    "category": "FOIA", 
+    "description": "FOIA requests received by the Chicago Public Library as of May 1, 2010", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/n379-5uzu.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_foia_request_log_chicago_public_library", 
+  "name": "FOIA Request Log - Chicago Public Library", 
   "schema": {
     "columns": [
       {
@@ -33,5 +39,6 @@
         "type": "timestamp"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_foia_request_log_chicago_public_library"
 }

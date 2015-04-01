@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/g63j-swsd/rows.csv"
   }, 
+  "description": "Monthly results from the distribution sites for orthophosphate, pH, temperature, conductivity and monthly alkalinity, calcium, lead and copper - Bi annually updated", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/g63j-swsd.json"
+    "attribution": "Department of Environmental Protection (DEP)", 
+    "category": "Environment", 
+    "description": "Monthly results from the distribution sites for orthophosphate, pH, temperature, conductivity and monthly alkalinity, calcium, lead and copper - Bi annually updated", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/g63j-swsd.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_distribution_sites_lcr_monitoring_result", 
+  "name": "Distribution Sites LCR Monitoring Results", 
   "schema": {
     "columns": [
       {
@@ -53,5 +59,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_distribution_sites_lcr_monitoring_result"
 }

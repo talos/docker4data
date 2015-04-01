@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/hukm-snmq/rows.csv"
   }, 
+  "description": "Annual capital expenditures, by capital budget area and agency, from FY 1985 - 2013. Source: Comprehensive Annual Financial Reports of the Comptroller", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/hukm-snmq.json"
+    "attribution": "NYC Independent Budget Office (IBO)", 
+    "category": "City Government", 
+    "description": "Annual capital expenditures, by capital budget area and agency, from FY 1985 - 2013. Source: Comprehensive Annual Financial Reports of the Comptroller", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/hukm-snmq.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_nyc_independent_budget_office_ibo_capita", 
+  "name": "NYC Independent Budget Office (IBO) Capital Expenditures Since 1985", 
   "schema": {
     "columns": [
       {
@@ -137,5 +143,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_nyc_independent_budget_office_ibo_capita"
 }

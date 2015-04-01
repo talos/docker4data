@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/easq-ubfe/rows.csv"
   }, 
+  "description": "A listing of campaign expendiures for candidates for City office during the 2005 election cycle", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/easq-ubfe.json"
+    "attribution": "Campaign Finance Board (CFB)", 
+    "category": "City Government", 
+    "description": "A listing of campaign expendiures for candidates for City office during the 2005 election cycle", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/easq-ubfe.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_2005_campaign_expenditures", 
+  "name": "2005 Campaign Expenditures", 
   "schema": {
     "columns": [
       {
@@ -133,5 +139,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_2005_campaign_expenditures"
 }

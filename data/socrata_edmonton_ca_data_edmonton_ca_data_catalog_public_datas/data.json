@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/v6pz-ntae/rows.csv"
   }, 
+  "description": "List of all data sets publicly being shown on Socrata", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.edmonton.ca/api/views/v6pz-ntae.json"
+    "attribution": "Socrata Data Catalogue", 
+    "category": "City Administration", 
+    "description": "List of all data sets publicly being shown on Socrata", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/v6pz-ntae.json"
+    }
   }, 
-  "name": "socrata_edmonton_ca_data_edmonton_ca_data_catalog_public_datas", 
+  "name": "Data.Edmonton.ca Data Catalog (Public Datasets)", 
   "schema": {
     "columns": [
       {
@@ -101,5 +107,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_edmonton_ca_data_edmonton_ca_data_catalog_public_datas"
 }

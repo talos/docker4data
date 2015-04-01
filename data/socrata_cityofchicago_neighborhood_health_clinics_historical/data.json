@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/mw69-m6xi/rows.csv"
   }, 
+  "description": "Former neighborhood health clinic locations, hours of operation and contact information. These clinics were closed or transferred to private management in July 2012.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/mw69-m6xi.json"
+    "attribution": "City of Chicago", 
+    "category": "Health & Human Services", 
+    "description": "Former neighborhood health clinic locations, hours of operation and contact information. These clinics were closed or transferred to private management in July 2012.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/mw69-m6xi.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_neighborhood_health_clinics_historical", 
+  "name": "Neighborhood Health Clinics - Historical", 
   "schema": {
     "columns": [
       {
@@ -53,5 +59,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_neighborhood_health_clinics_historical"
 }

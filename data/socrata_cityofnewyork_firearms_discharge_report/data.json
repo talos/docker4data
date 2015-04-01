@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/7r8u-zrb7/rows.csv"
   }, 
+  "description": "Report detailing NYPD occurrence of firearm discharge", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/7r8u-zrb7.json"
+    "attribution": "Police Department (NYPD)", 
+    "category": "Public Safety", 
+    "description": "Report detailing NYPD occurrence of firearm discharge", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/7r8u-zrb7.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_firearms_discharge_report", 
+  "name": "Firearms Discharge Report", 
   "schema": {
     "columns": [
       {
@@ -61,5 +67,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_firearms_discharge_report"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/kqmn-byj8/rows.csv"
   }, 
+  "description": "List of schools by name, address, type and grades. Note some facilities house multiple schools.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/kqmn-byj8.json"
+    "attribution": "Chicago Public Schools", 
+    "category": "Education", 
+    "description": "List of schools by name, address, type and grades. Note some facilities house multiple schools.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/kqmn-byj8.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_schools", 
+  "name": "Schools", 
   "schema": {
     "columns": [
       {
@@ -93,5 +99,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_schools"
 }

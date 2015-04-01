@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/stav-rdug/rows.csv"
   }, 
+  "description": "List of all building permits issued since 2009", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/stav-rdug.json"
+    "attribution": "City of Rockford", 
+    "category": "Municipality", 
+    "description": "List of all building permits issued since 2009", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/stav-rdug.json"
+    }
   }, 
-  "name": "socrata_illinois_building_permits_since_2009", 
+  "name": "Building Permits Since 2009", 
   "schema": {
     "columns": [
       {
@@ -49,5 +55,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_building_permits_since_2009"
 }

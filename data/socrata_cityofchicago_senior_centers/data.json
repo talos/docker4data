@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/qhfc-4cw2/rows.csv"
   }, 
+  "description": "Senior Center locations, hours of operation and contact information.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/qhfc-4cw2.json"
+    "attribution": "City of Chicago", 
+    "category": "Health & Human Services", 
+    "description": "Senior Center locations, hours of operation and contact information.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/qhfc-4cw2.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_senior_centers", 
+  "name": "Senior Centers", 
   "schema": {
     "columns": [
       {
@@ -49,5 +55,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_senior_centers"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/pnau-cf66/rows.csv"
   }, 
+  "description": "This lists datasets published by CTA in the City of Chicago Data Portal.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/pnau-cf66.json"
+    "attribution": "Chicago Transit Authority", 
+    "category": "Transportation", 
+    "description": "This lists datasets published by CTA in the City of Chicago Data Portal.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/pnau-cf66.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_cta_list_of_cta_datasets", 
+  "name": "CTA - List of CTA Datasets", 
   "schema": {
     "columns": [
       {
@@ -21,5 +27,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_cta_list_of_cta_datasets"
 }

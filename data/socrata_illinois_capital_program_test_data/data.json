@@ -3,13 +3,17 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/ta5w-2j59/rows.csv"
   }, 
+  "description": "Socrata dataset", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/ta5w-2j59.json"
+    "description": "Socrata dataset", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/ta5w-2j59.json"
+    }
   }, 
-  "name": "socrata_illinois_capital_program_test_data", 
+  "name": "Capital Program Test Data", 
   "schema": {
     "columns": [
       {
@@ -33,5 +37,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_capital_program_test_data"
 }

@@ -7,9 +7,11 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.hawaii.gov/api/views/ym3h-nmfi.json"
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/ym3h-nmfi.json"
+    }
   }, 
-  "name": "socrata_hawaii_view_bid_results", 
+  "name": "View Bid Results", 
   "schema": {
     "columns": [
       {
@@ -33,5 +35,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_hawaii_view_bid_results"
 }

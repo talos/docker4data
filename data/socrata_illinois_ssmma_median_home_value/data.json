@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/miqf-743d/rows.csv"
   }, 
+  "description": "This dataset details the median home value in Chicago Southland municipalities. Numerical data reflects an average of sales in zillow. com and trulia.com.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/miqf-743d.json"
+    "attribution": "South Suburban Mayors and Managers Association", 
+    "category": "Municipality", 
+    "description": "This dataset details the median home value in Chicago Southland municipalities. Numerical data reflects an average of sales in zillow. com and trulia.com.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/miqf-743d.json"
+    }
   }, 
-  "name": "socrata_illinois_ssmma_median_home_value", 
+  "name": "SSMMA Median Home Value", 
   "schema": {
     "columns": [
       {
@@ -49,5 +55,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_ssmma_median_home_value"
 }

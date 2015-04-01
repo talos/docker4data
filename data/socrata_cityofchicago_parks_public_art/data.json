@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/sj6t-9cju/rows.csv"
   }, 
+  "description": "Public art located in Chicago parks. To download KML, go to https://data.cityofchicago.org/Parks-Recreation/Parks-Public-Art-KML/pmh6-gzg6. To download Shapefiles, go to https://data.cityofchicago.org/Parks-Recreation/Parks-Public-Art-Shapefiles/gfnu-w3q6.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/sj6t-9cju.json"
+    "attribution": "Chicago Park District", 
+    "category": "Parks & Recreation", 
+    "description": "Public art located in Chicago parks. To download KML, go to https://data.cityofchicago.org/Parks-Recreation/Parks-Public-Art-KML/pmh6-gzg6. To download Shapefiles, go to https://data.cityofchicago.org/Parks-Recreation/Parks-Public-Art-Shapefiles/gfnu-w3q6.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/sj6t-9cju.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_parks_public_art", 
+  "name": "Parks - Public Art", 
   "schema": {
     "columns": [
       {
@@ -53,5 +59,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_parks_public_art"
 }

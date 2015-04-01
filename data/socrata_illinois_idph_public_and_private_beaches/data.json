@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/vybw-d586/rows.csv"
   }, 
+  "description": "Data extracted from IDPH Beach Monitoring site", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/vybw-d586.json"
+    "attribution": "Illinois Department of Public Health", 
+    "category": "Environment", 
+    "description": "Data extracted from IDPH Beach Monitoring site", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/vybw-d586.json"
+    }
   }, 
-  "name": "socrata_illinois_idph_public_and_private_beaches", 
+  "name": "IDPH Public and Private Beaches", 
   "schema": {
     "columns": [
       {
@@ -53,5 +59,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_idph_public_and_private_beaches"
 }

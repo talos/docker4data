@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/eabe-havv/rows.csv"
   }, 
+  "description": "A list of complaints received and associated data. Prior monthly reports are archived at DOB and are not available on NYC Open Data.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/eabe-havv.json"
+    "attribution": "Department of Buildings (DOB)", 
+    "category": "Housing & Development", 
+    "description": "A list of complaints received and associated data. Prior monthly reports are archived at DOB and are not available on NYC Open Data.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/eabe-havv.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_dob_complaints_received", 
+  "name": "DOB Complaints Received", 
   "schema": {
     "columns": [
       {
@@ -69,5 +75,6 @@
         "type": "timestamp"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_dob_complaints_received"
 }

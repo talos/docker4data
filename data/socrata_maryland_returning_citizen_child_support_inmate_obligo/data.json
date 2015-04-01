@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/hy2h-k5f2/rows.csv"
   }, 
+  "description": "Data are provided by the Department of Human Resources (DHR) and University of Maryland. This dataset shows how many formerly incarcerated individuals in Maryland with child support payments are paying any portion on time. The dataset also shows how many incoming inmates to DPSCS have inmate obligors modified upon intake, as well as how many returning citizens have inmate obligors modified soon after release.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/hy2h-k5f2.json"
+    "attribution": "Department of Human Resources (DHR)", 
+    "category": "Health and Human Services", 
+    "description": "Data are provided by the Department of Human Resources (DHR) and University of Maryland. This dataset shows how many formerly incarcerated individuals in Maryland with child support payments are paying any portion on time. The dataset also shows how many incoming inmates to DPSCS have inmate obligors modified upon intake, as well as how many returning citizens have inmate obligors modified soon after release.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/hy2h-k5f2.json"
+    }
   }, 
-  "name": "socrata_maryland_returning_citizen_child_support_inmate_obligo", 
+  "name": "Returning Citizen Child Support & Inmate Obligors", 
   "schema": {
     "columns": [
       {
@@ -41,5 +47,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_maryland_returning_citizen_child_support_inmate_obligo"
 }

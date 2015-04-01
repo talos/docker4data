@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/tgvi-w9ww/rows.csv"
   }, 
+  "description": "Details about damage by Storm Sandy to various types of buildings", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/tgvi-w9ww.json"
+    "attribution": "Department of City Planning (DCP)", 
+    "category": "Housing & Development", 
+    "description": "Details about damage by Storm Sandy to various types of buildings", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/tgvi-w9ww.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_damage_by_sandy_by_land_use", 
+  "name": "Damage By Sandy By Land Use", 
   "schema": {
     "columns": [
       {
@@ -25,5 +31,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_damage_by_sandy_by_land_use"
 }

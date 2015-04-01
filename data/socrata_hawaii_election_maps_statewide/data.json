@@ -7,9 +7,11 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.hawaii.gov/api/views/qjpr-gyut.json"
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/qjpr-gyut.json"
+    }
   }, 
-  "name": "socrata_hawaii_election_maps_statewide", 
+  "name": "Election Maps - Statewide", 
   "schema": {
     "columns": [
       {
@@ -25,5 +27,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_hawaii_election_maps_statewide"
 }

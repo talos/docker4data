@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/xx2p-4jnq/rows.csv"
   }, 
+  "description": "This is the list (directory) of Department of Citywide Administrative Services (DCAS) managed public buildings along with the information that the building is DCAS secured or not.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/xx2p-4jnq.json"
+    "attribution": "Department of Citywide Administrative Services (DCAS)", 
+    "category": "City Government", 
+    "description": "This is the list (directory) of Department of Citywide Administrative Services (DCAS) managed public buildings along with the information that the building is DCAS secured or not.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/xx2p-4jnq.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_dcas_managed_public_buildings", 
+  "name": "DCAS Managed Public Buildings", 
   "schema": {
     "columns": [
       {
@@ -49,5 +55,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_dcas_managed_public_buildings"
 }

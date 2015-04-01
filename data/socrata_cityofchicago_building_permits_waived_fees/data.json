@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/rfav-vmja/rows.csv"
   }, 
+  "description": "Fees waived since January 1, 2012 by building permit.  If you believe that any information in the published public data sets concerning your organization or business contains confidential information or has been published in error, please contact dataportal@cityofchicago.org so that we may address your concerns. Data Owner: Buildings. Time Period: January 1, 2012 to present. Update Frequency: Data is updated as needed.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/rfav-vmja.json"
+    "attribution": "City of Chicago", 
+    "category": "Buildings", 
+    "description": "Fees waived since January 1, 2012 by building permit.  If you believe that any information in the published public data sets concerning your organization or business contains confidential information or has been published in error, please contact dataportal@cityofchicago.org so that we may address your concerns. Data Owner: Buildings. Time Period: January 1, 2012 to present. Update Frequency: Data is updated as needed.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/rfav-vmja.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_building_permits_waived_fees", 
+  "name": "Building Permits - Waived Fees", 
   "schema": {
     "columns": [
       {
@@ -49,5 +55,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_building_permits_waived_fees"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/wjkc-agnm/rows.csv"
   }, 
+  "description": "FOIA requests received by the Chicago Police Department as of May 1, 2010", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/wjkc-agnm.json"
+    "attribution": "Chicago Police Department", 
+    "category": "FOIA", 
+    "description": "FOIA requests received by the Chicago Police Department as of May 1, 2010", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/wjkc-agnm.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_foia_request_log_police", 
+  "name": "FOIA Request Log - Police", 
   "schema": {
     "columns": [
       {
@@ -45,5 +51,6 @@
         "type": "timestamp"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_foia_request_log_police"
 }

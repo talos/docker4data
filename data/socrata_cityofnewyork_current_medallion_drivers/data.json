@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/s22f-jsd4/rows.csv"
   }, 
+  "description": "This dataset is no longer being updated by the New York City Taxi and Limousine Commission. Please update your links to the links listed below. Thank you.\r\n\r\nMedallion Drivers - Active:\r\nhttps://data.cityofnewyork.us/Transportation/Medallion-Drivers-Active/n776-dsqy", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/s22f-jsd4.json"
+    "attribution": "Taxi and Limousine Commission (TLC)", 
+    "category": "Transportation", 
+    "description": "This dataset is no longer being updated by the New York City Taxi and Limousine Commission. Please update your links to the links listed below. Thank you.\r\n\r\nMedallion Drivers - Active:\r\nhttps://data.cityofnewyork.us/Transportation/Medallion-Drivers-Active/n776-dsqy", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/s22f-jsd4.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_current_medallion_drivers", 
+  "name": "Current Medallion Drivers", 
   "schema": {
     "columns": [
       {
@@ -33,5 +39,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_current_medallion_drivers"
 }

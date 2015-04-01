@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/kjxa-7ccf/rows.csv"
   }, 
+  "description": "Quality of life conditions reported by city inspectors.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/kjxa-7ccf.json"
+    "attribution": "Office of the Mayor (OTM)", 
+    "category": "City Government", 
+    "description": "Quality of life conditions reported by city inspectors.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/kjxa-7ccf.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_scout_conditions", 
+  "name": "SCOUT Conditions", 
   "schema": {
     "columns": [
       {
@@ -41,5 +47,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_scout_conditions"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/kpt7-myy2/rows.csv"
   }, 
+  "description": "Directory of Senior Centers", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/kpt7-myy2.json"
+    "attribution": "Department for the Aging (DFTA)", 
+    "category": "Social Services", 
+    "description": "Directory of Senior Centers", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/kpt7-myy2.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_senior_center_directory", 
+  "name": "Senior Center Directory", 
   "schema": {
     "columns": [
       {
@@ -37,5 +43,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_senior_center_directory"
 }

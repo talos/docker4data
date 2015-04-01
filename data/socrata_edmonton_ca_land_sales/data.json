@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/qh6u-3haa/rows.csv"
   }, 
+  "description": "City of Edmonton's properties for sale, ranging from single family lots and houses to multi-use commercial and industrial sites.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.edmonton.ca/api/views/qh6u-3haa.json"
+    "attribution": "Sustainable Development - Corporate Properties", 
+    "category": "City Administration", 
+    "description": "City of Edmonton's properties for sale, ranging from single family lots and houses to multi-use commercial and industrial sites.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/qh6u-3haa.json"
+    }
   }, 
-  "name": "socrata_edmonton_ca_land_sales", 
+  "name": "Land Sales", 
   "schema": {
     "columns": [
       {
@@ -65,5 +71,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_edmonton_ca_land_sales"
 }

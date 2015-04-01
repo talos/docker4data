@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/jn25-zspi/rows.csv"
   }, 
+  "description": "List of public libraries in Edmonton", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.edmonton.ca/api/views/jn25-zspi.json"
+    "attribution": "Edmonton Public Library", 
+    "category": "Community Centres", 
+    "description": "List of public libraries in Edmonton", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/jn25-zspi.json"
+    }
   }, 
-  "name": "socrata_edmonton_ca_public_libraries", 
+  "name": "Public Libraries", 
   "schema": {
     "columns": [
       {
@@ -105,5 +111,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_edmonton_ca_public_libraries"
 }

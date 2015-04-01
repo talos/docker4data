@@ -12,12 +12,16 @@
     "category": "Census", 
     "description": "All Census information is as of April 1, 2012.  Ages of residents are effective April 1, 2012.  No data on any individual residence will be released.  To protect the privacy of individuals, data is compiled and presented at the city, ward and neighbourhood level only.  Neighbourhood results with a population under 49 are not posted to protect the information collected.  The designation of \u201cNo Response\u201d includes households from which no census data could be collected or only partial data was available.  Bulk-count data from multiple-resident facilities (such as group homes, transient drop-in centres, residential hotels or criminal detention centres) may be limited when personal information cannot be obtained (i.e. information is not available or cannot be released by the facility administration).", 
     "socrata": {
-      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/d8qh-bhiz.json"
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/s993-cqfv.json"
     }
   }, 
-  "name": "2012 Census - Population By Ownership And Length Of Residence (Citywide)", 
+  "name": "2012 Census - Population By Ownership And Length Of Residence (Ward)", 
   "schema": {
     "columns": [
+      {
+        "name": "ward", 
+        "type": "text"
+      }, 
       {
         "name": "length_of_residence", 
         "type": "text"

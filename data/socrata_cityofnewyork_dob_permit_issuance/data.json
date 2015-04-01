@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/ipu4-2q9a/rows.csv"
   }, 
+  "description": "A list of permits issued for a particular day and associated data. Prior weekly and monthly reports are archived at DOB and are not available on NYC Open Data.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/ipu4-2q9a.json"
+    "attribution": "Department of Buildings (DOB)", 
+    "category": "Housing & Development", 
+    "description": "A list of permits issued for a particular day and associated data. Prior weekly and monthly reports are archived at DOB and are not available on NYC Open Data.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/ipu4-2q9a.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_dob_permit_issuance", 
+  "name": "DOB Permit Issuance", 
   "schema": {
     "columns": [
       {
@@ -229,5 +235,6 @@
         "type": "timestamp"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_dob_permit_issuance"
 }

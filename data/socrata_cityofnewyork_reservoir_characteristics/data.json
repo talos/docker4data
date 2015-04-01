@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/nckr-g5w7/rows.csv"
   }, 
+  "description": "The data tables provides current reservoir storage levels along with release, diversion, and spill rates", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/nckr-g5w7.json"
+    "attribution": "Department of Environmental Protection (DEP)", 
+    "category": "Environment", 
+    "description": "The data tables provides current reservoir storage levels along with release, diversion, and spill rates", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/nckr-g5w7.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_reservoir_characteristics", 
+  "name": "Reservoir Characteristics", 
   "schema": {
     "columns": [
       {
@@ -49,5 +55,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_reservoir_characteristics"
 }

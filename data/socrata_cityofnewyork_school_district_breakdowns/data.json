@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/g3vh-kbnw/rows.csv"
   }, 
+  "description": "Demographic statistics broken down by school districts", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/g3vh-kbnw.json"
+    "attribution": "Department of Youth and Community Development (DYCD)", 
+    "category": "Education", 
+    "description": "Demographic statistics broken down by school districts", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/g3vh-kbnw.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_school_district_breakdowns", 
+  "name": "School District Breakdowns", 
   "schema": {
     "columns": [
       {
@@ -193,5 +199,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_school_district_breakdowns"
 }

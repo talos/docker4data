@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/azxq-2skx/rows.csv"
   }, 
+  "description": "Information on units disaggregated by rent affordability for each building in a project.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/azxq-2skx.json"
+    "attribution": "Department of Housing Preservation and Development (HPD)", 
+    "category": "Housing & Development", 
+    "description": "Information on units disaggregated by rent affordability for each building in a project.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/azxq-2skx.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_hpd_rent_affordability_element", 
+  "name": "HPD Rent Affordability Element", 
   "schema": {
     "columns": [
       {
@@ -33,5 +39,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_hpd_rent_affordability_element"
 }

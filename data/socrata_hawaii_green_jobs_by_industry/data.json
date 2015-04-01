@@ -7,9 +7,11 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.hawaii.gov/api/views/grte-hrwt.json"
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/grte-hrwt.json"
+    }
   }, 
-  "name": "socrata_hawaii_green_jobs_by_industry", 
+  "name": "Green Jobs By Industry", 
   "schema": {
     "columns": [
       {
@@ -37,5 +39,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_hawaii_green_jobs_by_industry"
 }

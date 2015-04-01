@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/ceei-9xui/rows.csv"
   }, 
+  "description": "Illinois 2000-2013 STD gonorrhea counts by county by sex (where sex is known) by five year age groups. See attachment for metadata and censoring details under the \"About\" link.  Null values in dataset reflect censored data. Cases reported with unknown sex have been excluded.  Data Source: Illinois Department of Public Health STD Program.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/uvc2-c2wn.json"
+    "attribution": "Illinois Department of Public Health STD Program", 
+    "category": "Public Health", 
+    "description": "Illinois 2000-2013 STD early syphilis counts by county by sex (where sex is known) by five year age groups. See attachment for metadata and censoring details under the \"About\" link.  Null values in dataset reflect censored data. Cases reported with unknown sex have been excluded.  Data Source: Illinois Department of Public Health STD Program.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/uvc2-c2wn.json"
+    }
   }, 
-  "name": "socrata_illinois_idph_std_illinois_by_county_by_sex_by_age_gro", 
+  "name": "IDPH STD Illinois By County By Sex By Age Group Early Syphilis", 
   "schema": {
     "columns": [
       {
@@ -149,5 +155,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_idph_std_illinois_by_county_by_sex_by_age_gro"
 }

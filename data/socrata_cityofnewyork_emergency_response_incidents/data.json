@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/pasr-j7fb/rows.csv"
   }, 
+  "description": "Type and address of emergency incident to which OEM responded", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/pasr-j7fb.json"
+    "attribution": "Office of Emergency Management (OEM)", 
+    "category": "Public Safety", 
+    "description": "Type and address of emergency incident to which OEM responded", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/pasr-j7fb.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_emergency_response_incidents", 
+  "name": "Emergency Response Incidents", 
   "schema": {
     "columns": [
       {
@@ -33,5 +39,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_emergency_response_incidents"
 }

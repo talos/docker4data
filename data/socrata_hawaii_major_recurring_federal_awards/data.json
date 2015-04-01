@@ -7,9 +7,11 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.hawaii.gov/api/views/wncs-jpqq.json"
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/wncs-jpqq.json"
+    }
   }, 
-  "name": "socrata_hawaii_major_recurring_federal_awards", 
+  "name": "Major Recurring Federal Awards", 
   "schema": {
     "columns": [
       {
@@ -37,5 +39,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_hawaii_major_recurring_federal_awards"
 }

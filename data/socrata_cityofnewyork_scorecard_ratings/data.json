@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/rqhp-hivt/rows.csv"
   }, 
+  "description": "Street and sidewalk cleanliness ratings.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/rqhp-hivt.json"
+    "attribution": "Office of the Mayor (OTM)", 
+    "category": "City Government", 
+    "description": "Street and sidewalk cleanliness ratings.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/rqhp-hivt.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_scorecard_ratings", 
+  "name": "Scorecard Ratings", 
   "schema": {
     "columns": [
       {
@@ -65,5 +71,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_scorecard_ratings"
 }

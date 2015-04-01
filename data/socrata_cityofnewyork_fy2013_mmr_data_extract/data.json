@@ -7,9 +7,11 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/6xp4-c9qp.json"
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/6xp4-c9qp.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_fy2013_mmr_data_extract", 
+  "name": "FY2013 MMR Data Extract", 
   "schema": {
     "columns": [
       {
@@ -93,5 +95,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_fy2013_mmr_data_extract"
 }

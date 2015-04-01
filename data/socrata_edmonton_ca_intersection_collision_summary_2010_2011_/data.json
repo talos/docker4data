@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/j7nr-ekvn/rows.csv"
   }, 
+  "description": "This file contains information about all intersections in Edmonton with 25 or more collisions in from 2010 to 2011, including:\r\n- The collision rate, where available;\r\n- A summary of the number of minor and major injuries as well as fatalities;\r\n- A breakdown of collisions by the standard list of causes used in reporting.\r\n\r\nCollision information is provided by the Motor Vehicle Collision Information System (MVCIS), maintained by the City of Edmonton Office of Traffic Safety. This system tracks police-reported collisions involving at least one motor vehicle that occur on public roadways and which result in property damage of $1,000 or more, as well as any collisions resulting in injury or fatality. \r\n\r\nThis file is meant as a companion piece to the Annual Collision Report, produced by the City of Edmonton Office of Traffic Safety. Please refer to the full report for more information on collisions in Edmonton, and definitions of the collision causes and injury types used in this file.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.edmonton.ca/api/views/j7nr-ekvn.json"
+    "category": "Transportation", 
+    "description": "This file contains information about all intersections in Edmonton with 25 or more collisions in from 2010 to 2011, including:\r\n- The collision rate, where available;\r\n- A summary of the number of minor and major injuries as well as fatalities;\r\n- A breakdown of collisions by the standard list of causes used in reporting.\r\n\r\nCollision information is provided by the Motor Vehicle Collision Information System (MVCIS), maintained by the City of Edmonton Office of Traffic Safety. This system tracks police-reported collisions involving at least one motor vehicle that occur on public roadways and which result in property damage of $1,000 or more, as well as any collisions resulting in injury or fatality. \r\n\r\nThis file is meant as a companion piece to the Annual Collision Report, produced by the City of Edmonton Office of Traffic Safety. Please refer to the full report for more information on collisions in Edmonton, and definitions of the collision causes and injury types used in this file.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/j7nr-ekvn.json"
+    }
   }, 
-  "name": "socrata_edmonton_ca_intersection_collision_summary_2010_2011_", 
+  "name": "Intersection Collision Summary (2010 - 2011)", 
   "schema": {
     "columns": [
       {
@@ -157,5 +162,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_edmonton_ca_intersection_collision_summary_2010_2011_"
 }

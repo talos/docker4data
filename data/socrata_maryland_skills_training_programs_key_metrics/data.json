@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/de45-whk3/rows.csv"
   }, 
+  "description": "These data are aggregated by DLLR, but the lead agency for each individual metric is listed in this dataset.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/de45-whk3.json"
+    "attribution": "DLLR", 
+    "category": "Education", 
+    "description": "These data are aggregated by DLLR, but the lead agency for each individual metric is listed in this dataset.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/de45-whk3.json"
+    }
   }, 
-  "name": "socrata_maryland_skills_training_programs_key_metrics", 
+  "name": "Skills Training Programs: Key Metrics", 
   "schema": {
     "columns": [
       {
@@ -113,5 +119,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_maryland_skills_training_programs_key_metrics"
 }

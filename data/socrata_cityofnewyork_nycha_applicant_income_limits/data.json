@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/yizy-365y/rows.csv"
   }, 
+  "description": "Income limits by household size for public housing", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/yizy-365y.json"
+    "attribution": "New York City Housing Authority (NYCHA)", 
+    "category": "Social Services", 
+    "description": "Income limits by household size for public housing", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/yizy-365y.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_nycha_applicant_income_limits", 
+  "name": "NYCHA Applicant Income Limits", 
   "schema": {
     "columns": [
       {
@@ -25,5 +31,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_nycha_applicant_income_limits"
 }

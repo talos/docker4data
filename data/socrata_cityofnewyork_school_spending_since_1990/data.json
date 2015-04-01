@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/p26e-k6k9/rows.csv"
   }, 
+  "description": "Annual spending by and behalf of the Department of Education since 1990, adjusted for inflation", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/p26e-k6k9.json"
+    "attribution": "NYC Independent Budget Office (IBO)", 
+    "description": "Annual spending by and behalf of the Department of Education since 1990, adjusted for inflation", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/p26e-k6k9.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_school_spending_since_1990", 
+  "name": "School Spending Since 1990", 
   "schema": {
     "columns": [
       {
@@ -109,5 +114,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_school_spending_since_1990"
 }

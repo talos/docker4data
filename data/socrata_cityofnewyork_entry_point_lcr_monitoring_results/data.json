@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/aa5e-digs/rows.csv"
   }, 
+  "description": "Daily results from the entry points for orthophosphate, pH, temperature, conductivity and monthly alkalinity, calcium, lead and copper - Bi annually updated", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/aa5e-digs.json"
+    "attribution": "Department of Environmental Protection (DEP)", 
+    "category": "Environment", 
+    "description": "Daily results from the entry points for orthophosphate, pH, temperature, conductivity and monthly alkalinity, calcium, lead and copper - Bi annually updated", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/aa5e-digs.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_entry_point_lcr_monitoring_results", 
+  "name": "Entry Point LCR Monitoring Results", 
   "schema": {
     "columns": [
       {
@@ -53,5 +59,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_entry_point_lcr_monitoring_results"
 }

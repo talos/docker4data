@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/ydr8-5enu/rows.csv"
   }, 
+  "description": "Permits issued by the Department of Buildings in the City of Chicago from 2006 to the present. The dataset for each year contains more than 65,000 records/rows of data and cannot be viewed in full in Microsoft Excel. Therefore, when downloading the file, select CSV from the Export menu. Open the file in an ASCII text editor, such as Wordpad, to view and search. Data fields requiring description are detailed below. \r\nPERMIT TYPE: \"New Construction and Renovation\" includes new projects or rehabilitations of existing buildings; \"Other Construction\" includes items that require plans such as cell towers and cranes; \"Easy Permit\" includes minor repairs that require no plans; \"Wrecking/Demolition\" includes private demolition of buildings and other structures; \"Electrical Wiring\" includes major and minor electrical work both permanent and temporary; \"Sign Permit\" includes signs, canopies and awnings both on private property and over the public way; \"Porch Permit\" includes new porch construction and renovation (defunct permit type porches are now issued under \"New Construction and Renovation\" directly); \"Reinstate Permit\" includes original permit reinstatements; \"Extension Permits\" includes extension of original permit when construction has not started within six months of original permit issuance. WORK DESCRIPTION: The description of work being done on the issued permit, which is printed on the permit. PIN1 \u2013 PIN10: A maximum of ten assessor parcel index numbers belonging to the permitted property. PINs are provided by the customer seeking the permit since mid-2008 where required by the Cook County Assessor\u2019s Office. CONTRACTOR INFORMATION: The contractor type, name, and contact information. Data includes up to 15 different contractors per permit if applicable.\r\n\r\nData Owner: Buildings.\r\n\r\nTime Period: January 1, 2006 to present.\r\n\r\nFrequency: Data is updated daily.\r\n\r\nRelated Applications: Building Data Warehouse (https://webapps.cityofchicago.org/buildingviolations/violations/searchaddresspage.html).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/ydr8-5enu.json"
+    "attribution": "City of Chicago", 
+    "category": "Buildings", 
+    "description": "Permits issued by the Department of Buildings in the City of Chicago from 2006 to the present. The dataset for each year contains more than 65,000 records/rows of data and cannot be viewed in full in Microsoft Excel. Therefore, when downloading the file, select CSV from the Export menu. Open the file in an ASCII text editor, such as Wordpad, to view and search. Data fields requiring description are detailed below. \r\nPERMIT TYPE: \"New Construction and Renovation\" includes new projects or rehabilitations of existing buildings; \"Other Construction\" includes items that require plans such as cell towers and cranes; \"Easy Permit\" includes minor repairs that require no plans; \"Wrecking/Demolition\" includes private demolition of buildings and other structures; \"Electrical Wiring\" includes major and minor electrical work both permanent and temporary; \"Sign Permit\" includes signs, canopies and awnings both on private property and over the public way; \"Porch Permit\" includes new porch construction and renovation (defunct permit type porches are now issued under \"New Construction and Renovation\" directly); \"Reinstate Permit\" includes original permit reinstatements; \"Extension Permits\" includes extension of original permit when construction has not started within six months of original permit issuance. WORK DESCRIPTION: The description of work being done on the issued permit, which is printed on the permit. PIN1 \u2013 PIN10: A maximum of ten assessor parcel index numbers belonging to the permitted property. PINs are provided by the customer seeking the permit since mid-2008 where required by the Cook County Assessor\u2019s Office. CONTRACTOR INFORMATION: The contractor type, name, and contact information. Data includes up to 15 different contractors per permit if applicable.\r\n\r\nData Owner: Buildings.\r\n\r\nTime Period: January 1, 2006 to present.\r\n\r\nFrequency: Data is updated daily.\r\n\r\nRelated Applications: Building Data Warehouse (https://webapps.cityofchicago.org/buildingviolations/violations/searchaddresspage.html).", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/ydr8-5enu.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_building_permits", 
+  "name": "Building Permits", 
   "schema": {
     "columns": [
       {
@@ -537,5 +543,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_building_permits"
 }

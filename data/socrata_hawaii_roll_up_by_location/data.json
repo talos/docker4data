@@ -3,13 +3,17 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/tdns-ndbu/rows.csv"
   }, 
+  "description": "Source data: https://data.hawaii.gov/Public-Safety/Roll-up-by-Location/v3gj-97wt", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.hawaii.gov/api/views/tdns-ndbu.json"
+    "description": "Source data: https://data.hawaii.gov/Public-Safety/Roll-up-by-Location/v3gj-97wt", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/tdns-ndbu.json"
+    }
   }, 
-  "name": "socrata_hawaii_roll_up_by_location", 
+  "name": "Roll-up By Location", 
   "schema": {
     "columns": [
       {
@@ -37,5 +41,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_hawaii_roll_up_by_location"
 }

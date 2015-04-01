@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/bqxt-e8u4/rows.csv"
   }, 
+  "description": "This dataset contains the Fiscal Year 2015 operations budget with historical and proposed appropriations for state budgeted entities. The data is sortable by Budgeting for Results categories \u201cStatewide Result Area,\u201d and \u201cStatewide Outcome Name.\u201d The file is provided by the Governor\u2019s Office of Management and Budget (website: Budget.Illinois.gov or http://www.state.il.us/budget/).\n\nThe first eight (8) Columns contain the statewide result area name, the statewide outcome area name, the agency name, the agency division name, the fund from which the appropriation is made, the appropriation name, the appropriation code associated with the appropriation, and the agency program name.\n\nThe remaining columns contain the appropriation amounts ($ thousands) for fiscal years 2013 and 2014, and recommended and not recommended appropriations for fiscal year 2015. Appropriations amounts for each fiscal year are broken out into General Funds (GF), Other State Funds (OF), and Federal Funds (FF).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/bqxt-e8u4.json"
+    "attribution": "Governor's Office of Management and Budget", 
+    "category": "Reference", 
+    "description": "This dataset contains the Fiscal Year 2015 operations budget with historical and proposed appropriations for state budgeted entities. The data is sortable by Budgeting for Results categories \u201cStatewide Result Area,\u201d and \u201cStatewide Outcome Name.\u201d The file is provided by the Governor\u2019s Office of Management and Budget (website: Budget.Illinois.gov or http://www.state.il.us/budget/).\n\nThe first eight (8) Columns contain the statewide result area name, the statewide outcome area name, the agency name, the agency division name, the fund from which the appropriation is made, the appropriation name, the appropriation code associated with the appropriation, and the agency program name.\n\nThe remaining columns contain the appropriation amounts ($ thousands) for fiscal years 2013 and 2014, and recommended and not recommended appropriations for fiscal year 2015. Appropriations amounts for each fiscal year are broken out into General Funds (GF), Other State Funds (OF), and Federal Funds (FF).", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/bqxt-e8u4.json"
+    }
   }, 
-  "name": "socrata_illinois_fy2015_operating_budget_by_budgeting_for_resu", 
+  "name": "FY2015 Operating Budget by Budgeting For Results Category", 
   "schema": {
     "columns": [
       {
@@ -141,5 +147,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_fy2015_operating_budget_by_budgeting_for_resu"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/qwub-fkfe/rows.csv"
   }, 
+  "description": "Click this link for use instructions : http://www.nyc.gov/html/tlc/downloads/pdf/open_data_instructions_base_finder.pdf", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/qwub-fkfe.json"
+    "attribution": "Taxi and Limousine Commission (TLC)", 
+    "category": "Transportation", 
+    "description": "Click this link for use instructions : http://www.nyc.gov/html/tlc/downloads/pdf/open_data_instructions_base_finder.pdf", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/qwub-fkfe.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_fhv_bases", 
+  "name": "FHV Bases", 
   "schema": {
     "columns": [
       {
@@ -69,5 +75,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_fhv_bases"
 }

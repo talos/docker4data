@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/cip4-gcsk/rows.csv"
   }, 
+  "description": "Inventory of materials and their value for all libraries statewide", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.hawaii.gov/api/views/cip4-gcsk.json"
+    "attribution": "Hawaii State Public Library System", 
+    "category": "Formal Education", 
+    "description": "Inventory of materials and their value for all libraries statewide", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/cip4-gcsk.json"
+    }
   }, 
-  "name": "socrata_hawaii_libraries_material_inventory_2005_2012", 
+  "name": "Libraries Material Inventory 2005 - 2012", 
   "schema": {
     "columns": [
       {
@@ -37,5 +43,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_hawaii_libraries_material_inventory_2005_2012"
 }

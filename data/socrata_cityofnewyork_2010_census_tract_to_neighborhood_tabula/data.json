@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/8ius-dhrr/rows.csv"
   }, 
+  "description": "Excel table of census data created to project populations at the Neighborhood Tabulation Area, a small area level, from 2000 to 2030 for PlaNYC, the long-term sustainability plan for New York City", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/8ius-dhrr.json"
+    "category": "City Government", 
+    "description": "Excel table of census data created to project populations at the Neighborhood Tabulation Area, a small area level, from 2000 to 2030 for PlaNYC, the long-term sustainability plan for New York City", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/8ius-dhrr.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_2010_census_tract_to_neighborhood_tabula", 
+  "name": "2010 Census Tract to Neighborhood Tabulation Area Equivalency table", 
   "schema": {
     "columns": [
       {
@@ -41,5 +46,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_2010_census_tract_to_neighborhood_tabula"
 }

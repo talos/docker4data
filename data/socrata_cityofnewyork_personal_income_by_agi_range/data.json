@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/ipc3-2nbm/rows.csv"
   }, 
+  "description": "Number of tax filers/payers and total income by income ranges", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/ipc3-2nbm.json"
+    "attribution": "Independent Budget Office (IFO)", 
+    "category": "City Government", 
+    "description": "Number of tax filers/payers and total income by income ranges", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/ipc3-2nbm.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_personal_income_by_agi_range", 
+  "name": "Personal Income By AGI Range", 
   "schema": {
     "columns": [
       {
@@ -41,5 +47,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_personal_income_by_agi_range"
 }

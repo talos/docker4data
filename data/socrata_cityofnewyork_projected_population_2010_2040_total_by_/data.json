@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/97pn-acdf/rows.csv"
   }, 
+  "description": "Projected total New York City population for five intervals from 2010 through 2040 by Borough, broken down by 18 age cohorts. (Age groups may not add up to the total due to rounding.)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/97pn-acdf.json"
+    "attribution": "Department of City Planning (DCP)", 
+    "category": "City Government", 
+    "description": "Projected total New York City population for five intervals from 2010 through 2040 by Borough, broken down by 18 age cohorts. (Age groups may not add up to the total due to rounding.)", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/97pn-acdf.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_projected_population_2010_2040_total_by_", 
+  "name": "Projected Population 2010-2040 - Total By Age Groups", 
   "schema": {
     "columns": [
       {
@@ -49,5 +55,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_projected_population_2010_2040_total_by_"
 }

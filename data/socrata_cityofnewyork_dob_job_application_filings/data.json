@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/ic3t-wcy2/rows.csv"
   }, 
+  "description": "A list of job applications filed for a particular day and associated data. Prior weekly and monthly reports are archived at DOB and are not available on NYC Open Data.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/ic3t-wcy2.json"
+    "attribution": "Department of Buildings (DOB)", 
+    "category": "Housing & Development", 
+    "description": "A list of job applications filed for a particular day and associated data. Prior weekly and monthly reports are archived at DOB and are not available on NYC Open Data.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/ic3t-wcy2.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_dob_job_application_filings", 
+  "name": "DOB Job Application Filings", 
   "schema": {
     "columns": [
       {
@@ -341,5 +347,6 @@
         "type": "timestamp"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_dob_job_application_filings"
 }

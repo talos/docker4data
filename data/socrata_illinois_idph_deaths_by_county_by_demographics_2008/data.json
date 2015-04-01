@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/rn7k-zv4s/rows.csv"
   }, 
+  "description": "Illinois Demographics of Deaths, 2008\r\nNote:  The sum of certain variables may not equal the total due to unknown geography and/or demographics.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/rn7k-zv4s.json"
+    "attribution": "Illinois Center for Health Statistics", 
+    "category": "Public Health", 
+    "description": "Illinois Demographics of Deaths, 2008\r\nNote:  The sum of certain variables may not equal the total due to unknown geography and/or demographics.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/rn7k-zv4s.json"
+    }
   }, 
-  "name": "socrata_illinois_idph_deaths_by_county_by_demographics_2008", 
+  "name": "IDPH Deaths, by County, by Demographics, 2008", 
   "schema": {
     "columns": [
       {
@@ -73,5 +79,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_idph_deaths_by_county_by_demographics_2008"
 }

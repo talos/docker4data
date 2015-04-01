@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/wumm-7awb/rows.csv"
   }, 
+  "description": "All well applications and permits issued.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.colorado.gov/api/views/wumm-7awb.json"
+    "category": "Water", 
+    "description": "All well applications and permits issued.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/wumm-7awb.json"
+    }
   }, 
-  "name": "socrata_colorado_dwr_well_application_permit", 
+  "name": "DWR Well Application Permit", 
   "schema": {
     "columns": [
       {
@@ -237,5 +242,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_colorado_dwr_well_application_permit"
 }

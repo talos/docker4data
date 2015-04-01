@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/khqd-s7en/rows.csv"
   }, 
+  "description": "This dataset shows how many medical centers statewide are connected to CRISP, our health information exchange. Data are reported by DHMH.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/khqd-s7en.json"
+    "attribution": "DHMH", 
+    "category": "Health and Human Services", 
+    "description": "This dataset shows how many medical centers statewide are connected to CRISP, our health information exchange. Data are reported by DHMH.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/khqd-s7en.json"
+    }
   }, 
-  "name": "socrata_maryland_medical_centers_with_lab_results_connected_to", 
+  "name": "Medical Centers with Lab Results Connected to CRISP", 
   "schema": {
     "columns": [
       {
@@ -21,5 +27,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_maryland_medical_centers_with_lab_results_connected_to"
 }

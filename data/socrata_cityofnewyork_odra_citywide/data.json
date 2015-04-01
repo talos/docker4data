@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/hb7y-b986/rows.csv"
   }, 
+  "description": "Citywide statistics from the HRA Office of Data Reporting and Analysis.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/hb7y-b986.json"
+    "attribution": "Human Resources Administration (HRA)", 
+    "category": "Social Services", 
+    "description": "Citywide statistics from the HRA Office of Data Reporting and Analysis.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/hb7y-b986.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_odra_citywide", 
+  "name": "ODRA Citywide", 
   "schema": {
     "columns": [
       {
@@ -277,5 +283,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_odra_citywide"
 }

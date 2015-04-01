@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/c5hy-nv8z/rows.csv"
   }, 
+  "description": "Data on compliance with the Americans with Disabilities Act (ADA) and bicycle access. An asterisk (*) indicates data were not tracked. All data are provided by the Maryland State Highway Administration (SHA) each month to StateStat.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/c5hy-nv8z.json"
+    "attribution": "State Highway Administration (SHA)", 
+    "category": "Transportation", 
+    "description": "Data on compliance with the Americans with Disabilities Act (ADA) and bicycle access. An asterisk (*) indicates data were not tracked. All data are provided by the Maryland State Highway Administration (SHA) each month to StateStat.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/c5hy-nv8z.json"
+    }
   }, 
-  "name": "socrata_maryland_sha_mobility_report_quarterly_statistics", 
+  "name": "SHA Mobility Report: Quarterly Statistics", 
   "schema": {
     "columns": [
       {
@@ -29,5 +35,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_maryland_sha_mobility_report_quarterly_statistics"
 }

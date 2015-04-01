@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/thqd-deec/rows.csv"
   }, 
+  "description": "Office of Data Reporting and Analysis (ODRA) data dating back to 1955.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/thqd-deec.json"
+    "attribution": "Human Resources Administration (HRA)", 
+    "category": "Social Services", 
+    "description": "Office of Data Reporting and Analysis (ODRA) data dating back to 1955.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/thqd-deec.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_odra_total_pann", 
+  "name": "ODRA Total Pann", 
   "schema": {
     "columns": [
       {
@@ -61,5 +67,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_odra_total_pann"
 }

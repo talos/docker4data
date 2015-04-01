@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/x8fc-8rcq/rows.csv"
   }, 
+  "description": "Chicago Public Library locations, contact information, and hours of operation.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/x8fc-8rcq.json"
+    "attribution": "Chicago Public Library", 
+    "category": "Education", 
+    "description": "Chicago Public Library locations, contact information, and hours of operation.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/x8fc-8rcq.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_libraries_locations_hours_and_contact_in", 
+  "name": "Libraries - Locations, Hours and Contact Information", 
   "schema": {
     "columns": [
       {
@@ -57,5 +63,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_libraries_locations_hours_and_contact_in"
 }

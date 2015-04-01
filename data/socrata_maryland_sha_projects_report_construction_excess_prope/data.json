@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/tvzc-74yf/rows.csv"
   }, 
+  "description": "An asterisk (*) indicates a month when a camera was not in use. All data are provided by the Maryland State Highway Administration (SHA) each month to StateStat. Access permit and project submittal data are tracked especially closely by SHA and StateStat, and are discussed in each monthly SHA stat meeting. The metrics and data here are updated each month, in an iterative process in response to StateStat discussions.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.maryland.gov/api/views/tvzc-74yf.json"
+    "attribution": "State Highway Administration (SHA)", 
+    "category": "Transportation", 
+    "description": "An asterisk (*) indicates a month when a camera was not in use. All data are provided by the Maryland State Highway Administration (SHA) each month to StateStat. Access permit and project submittal data are tracked especially closely by SHA and StateStat, and are discussed in each monthly SHA stat meeting. The metrics and data here are updated each month, in an iterative process in response to StateStat discussions.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/tvzc-74yf.json"
+    }
   }, 
-  "name": "socrata_maryland_sha_projects_report_construction_excess_prope", 
+  "name": "SHA Projects Report: Construction, Excess Properties, Access Permits, & Project Submittals", 
   "schema": {
     "columns": [
       {
@@ -145,5 +151,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_maryland_sha_projects_report_construction_excess_prope"
 }

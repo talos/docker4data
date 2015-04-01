@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/kc9i-wq85/rows.csv"
   }, 
+  "description": "Vacant and abandoned building violations issued on properties owned by financial institutions since January 1, 2011. Each violation is tied to a Docket Number. A Docket may have more than one violation associated with it. Fees are assessed based on all violations associated with a particular Docket. This dataset displays the most recent action (disposition description) for each violation, the fees and fines associated with the docket and the amount paid or outstanding for the docket. If the docket is a City Non-Suit or the owner is found to be Not Liable, then no payment is required. Note that multiple addresses may be associated with a violation; in these cases, multiple records will be included in this dataset for a single violation. / Data Owners: Administrative Hearings / Finance / Time Period: January 1, 2011 to present  / Update Frequency: Data is updated daily", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofchicago.org/api/views/kc9i-wq85.json"
+    "attribution": "City of Chicago", 
+    "category": "Buildings", 
+    "description": "Vacant and abandoned building violations issued on properties owned by financial institutions since January 1, 2011. Each violation is tied to a Docket Number. A Docket may have more than one violation associated with it. Fees are assessed based on all violations associated with a particular Docket. This dataset displays the most recent action (disposition description) for each violation, the fees and fines associated with the docket and the amount paid or outstanding for the docket. If the docket is a City Non-Suit or the owner is found to be Not Liable, then no payment is required. Note that multiple addresses may be associated with a violation; in these cases, multiple records will be included in this dataset for a single violation. / Data Owners: Administrative Hearings / Finance / Time Period: January 1, 2011 to present  / Update Frequency: Data is updated daily", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/kc9i-wq85.json"
+    }
   }, 
-  "name": "socrata_cityofchicago_vacant_and_abandoned_buildings_violation", 
+  "name": "Vacant and Abandoned Buildings - Violations", 
   "schema": {
     "columns": [
       {
@@ -81,5 +87,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofchicago_vacant_and_abandoned_buildings_violation"
 }

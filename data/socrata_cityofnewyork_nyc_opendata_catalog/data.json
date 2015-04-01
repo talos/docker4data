@@ -7,9 +7,12 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/tdsx-cvye.json"
+    "attribution": "Department of Information Technology & Telecommunications (DoITT)", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/tdsx-cvye.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_nyc_opendata_catalog", 
+  "name": "NYC OpenData Catalog", 
   "schema": {
     "columns": [
       {
@@ -125,5 +128,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_nyc_opendata_catalog"
 }

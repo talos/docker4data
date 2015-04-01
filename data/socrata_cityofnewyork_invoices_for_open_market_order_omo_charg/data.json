@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/emrz-5p35/rows.csv"
   }, 
+  "description": "Contains information about invoices submitted to HPD by private contractors under an OMO.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/emrz-5p35.json"
+    "attribution": "Department of Housing Preservation and Development (HPD)", 
+    "category": "Housing & Development", 
+    "description": "Contains information about invoices submitted to HPD by private contractors under an OMO.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/emrz-5p35.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_invoices_for_open_market_order_omo_charg", 
+  "name": "Invoices for Open Market Order (OMO) Charges", 
   "schema": {
     "columns": [
       {
@@ -61,5 +67,6 @@
         "type": "timestamp"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_invoices_for_open_market_order_omo_charg"
 }

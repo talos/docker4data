@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/ie6w-7vym/rows.csv"
   }, 
+  "description": "Fishing License sales from Illinois Department of Natural Resources by County", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.illinois.gov/api/views/ie6w-7vym.json"
+    "attribution": "IDNR", 
+    "category": "Recreation", 
+    "description": "Fishing License sales from Illinois Department of Natural Resources by County", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/ie6w-7vym.json"
+    }
   }, 
-  "name": "socrata_illinois_dnr_fishing_license_sales", 
+  "name": "DNR Fishing License Sales", 
   "schema": {
     "columns": [
       {
@@ -29,5 +35,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_illinois_dnr_fishing_license_sales"
 }

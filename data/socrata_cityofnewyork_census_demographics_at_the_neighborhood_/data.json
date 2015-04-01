@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/rnsn-acs2/rows.csv"
   }, 
+  "description": "Table of Census Demographics\nrepresented at the NTA level. NTAs\nare aggregations of census tracts that\nare subsets of New York City's 55\nPublic Use Micro data Areas (PUMAs)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/rnsn-acs2.json"
+    "attribution": "Department of City Planning (DCP)", 
+    "category": "City Government", 
+    "description": "Table of Census Demographics\nrepresented at the NTA level. NTAs\nare aggregations of census tracts that\nare subsets of New York City's 55\nPublic Use Micro data Areas (PUMAs)", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/rnsn-acs2.json"
+    }
   }, 
-  "name": "socrata_cityofnewyork_census_demographics_at_the_neighborhood_", 
+  "name": "Census Demographics at the Neighborhood Tabulation Area (NTA) level", 
   "schema": {
     "columns": [
       {
@@ -45,5 +51,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofnewyork_census_demographics_at_the_neighborhood_"
 }
