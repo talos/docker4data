@@ -87,7 +87,19 @@ def get_current_digest(metadata):
     if 'socrata' not in metadata['metadata']:
         return ''
 
-    return hashlib.sha1(requests.get(metadata['metadata']['socrata']['@id']).content).hexdigest()
+    try:
+        socrata_metadata = requests.get(metadata['metadata']['socrata']['@id']).json()
+    except ValueError:
+        LOGGER.warn('bad socrata metadata for %s', metadata)
+
+    # Can't hash the entire thing because downloadCount changes!  For now
+    # just use rowsUpdatedAt
+    if 'rowsUpdatedAt' not in socrata_metadata:
+        return ''
+
+    #LOGGER.info(metadata_content)
+    #LOGGER.info('metadata hexdigest: %s', hashlib.sha1(metadata_content).hexdigest())
+    return hashlib.sha1(unicode(socrata_metadata['rowsUpdatedAt'])).hexdigest()
 
 
 def get_old_digest(s3_bucket, name):
@@ -97,7 +109,6 @@ def get_old_digest(s3_bucket, name):
     try:
         resp = shell(
             'aws s3api head-object --bucket {} --key {}'.format(s3_bucket, name))
-        LOGGER.info(resp)
         old_headers = json.loads(resp)
     except subprocess.CalledProcessError:
         return None
@@ -105,10 +116,10 @@ def get_old_digest(s3_bucket, name):
     if 'Metadata' not in old_headers:
         return None
 
-    if 'metadata-sha1-hexdigest' not in old_headers['Metadata']:
+    if 'metadata_sha1_hexdigest' not in old_headers['Metadata']:
         return None
 
-    return old_headers['Metadata']['metadata-sha1-hexdigest']
+    return old_headers['Metadata']['metadata_sha1_hexdigest']
 
 
 def pgload_import(dataset_name, data_path, load_format, tmp_dir):
@@ -154,7 +165,7 @@ def build(url, s3_bucket, tmp_path):
     if current_digest and old_digest and current_digest == old_digest:
         LOGGER.info('Current digest %s and old digest %s match, skipping %s',
                     current_digest, old_digest, dataset_name)
-        sys.exit(100)
+        sys.exit(100)  # Error exit code to stop build.sh
 
     schema = resp[u'schema']
     if 'postgres' in schema:

@@ -34,19 +34,23 @@ echo data digest: $DATA_DIGEST
 OLD_DATA_DIGEST=$(aws s3api head-object \
                   --bucket $S3_BUCKET \
                   --key $SQLDUMP/$NAME \
-                  | grep data-sha1-hexdigest | cut -d '"' -f 4)
+                  | grep \"data_sha1_hexdigest | cut -d '"' -f 4)
 echo old data digest: $OLD_DATA_DIGEST
 
 if [ "$OLD_DATA_DIGEST" == "$DATA_DIGEST" ]; then
-  echo 'not uploading, nothing has changed'
+  echo 'updating metadata but not data, as it has not changed'
+  aws s3api put-object \
+    --acl public-read \
+    --bucket $S3_BUCKET \
+    --key $SQLDUMP/$NAME \
+    --metadata "metadata_sha1_hexdigest=$METADATA_DIGEST,data_sha1_hexdigest=$DATA_DIGEST"
 else
   echo 'uploading new data'
   aws s3api put-object \
     --acl public-read \
     --bucket $S3_BUCKET \
     --key $SQLDUMP/$NAME \
-    --metadata metadata-sha1-hexdigest=$METADATA_DIGEST \
-    --metadata data-sha1-hexdigest=$DATA_DIGEST \
+    --metadata "metadata_sha1_hexdigest=$METADATA_DIGEST,data_sha1_hexdigest=$DATA_DIGEST" \
     --body $TMPDIR/$NAME
 fi
 
