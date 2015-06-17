@@ -3,7 +3,8 @@
 # # https://github.com/talos/docker4data #
 
 FROM debian:wheezy
-MAINTAINER John Krauss <irving.krauss@gmail.com> 
+MAINTAINER John Krauss <irving.krauss@gmail.com>
+
 ENV LANG en_US.UTF8
 ENV LC_ALL en_US.UTF8
 ENV LANGUAGE en_US.UTF8
@@ -73,6 +74,7 @@ RUN echo "===> install postgis" && \
 RUN apt-get update --fix-missing
 RUN apt-get install -yqq time unzip git-core
 RUN localedef -i en_US -c -f UTF-8 -A /usr/share/locale/locale.alias en_US.UTF-8
+RUN git clone https://github.com/talos/docker4data.git
 
 VOLUME /root/.ssh
 VOLUME /root/.aws
