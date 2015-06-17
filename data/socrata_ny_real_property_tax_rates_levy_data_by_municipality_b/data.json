@@ -3,21 +3,23 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ny.gov/api/views/iq85-sdzs/rows.csv"
   }, 
+  "description": "The Department of Taxation and Finance annually produces a data file providing property tax rates and levies for the taxing jurisdictions in New York State.  The data are culled from files on the State Comptroller\u2019s website.  The dataset takes each school district segment and provides the levy for county, municipal and school tax purposes, as well as the tax rates that apply in those taxing jurisdictions.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/iq85-sdzs.json"
+    "attribution": "New York State Department of Taxation and Finance", 
+    "category": "Government & Finance", 
+    "description": "The Department of Taxation and Finance annually produces a data file providing property tax rates and levies for the taxing jurisdictions in New York State.  The data are culled from files on the State Comptroller\u2019s website.  The dataset takes each school district segment and provides the levy for county, municipal and school tax purposes, as well as the tax rates that apply in those taxing jurisdictions.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/iq85-sdzs.json"
+    }
   }, 
-  "name": "socrata_ny_real_property_tax_rates_levy_data_by_municipality_b", 
+  "name": "Real Property Tax Rates Levy Data By Municipality: Beginning 2004", 
   "schema": {
     "columns": [
       {
         "name": "fiscal_year_ending", 
-        "type": "real"
-      }, 
-      {
-        "name": "levy_year", 
         "type": "real"
       }, 
       {
@@ -42,6 +44,10 @@
       }, 
       {
         "name": "school_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "type_of_value_on_whichtax_rates_are_applied", 
         "type": "text"
       }, 
       {
@@ -77,5 +83,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ny_real_property_tax_rates_levy_data_by_municipality_b"
 }

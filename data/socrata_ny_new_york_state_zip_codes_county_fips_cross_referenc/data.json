@@ -1,0 +1,48 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_new_york_state_zip_codes_county_fips_cross_referenc/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/juva-r6g2/rows.csv"
+  }, 
+  "description": "A listing of NYS counties with accompanying Federal Information Processing System (FIPS) and US Postal Service ZIP codes sourced from the NYS GIS Clearinghouse.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New York State Office of Information Technology Services", 
+    "category": "Government & Finance", 
+    "description": "A listing of NYS counties with accompanying Federal Information Processing System (FIPS) and US Postal Service ZIP codes sourced from the NYS GIS Clearinghouse.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/juva-r6g2.json"
+    }
+  }, 
+  "name": "New York State ZIP Codes-County FIPS Cross-Reference", 
+  "schema": {
+    "columns": [
+      {
+        "name": "county", 
+        "type": "text"
+      }, 
+      {
+        "name": "state_fips", 
+        "type": "text"
+      }, 
+      {
+        "name": "county_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "county_fips", 
+        "type": "text"
+      }, 
+      {
+        "name": "zip_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "file_date", 
+        "type": "timestamp"
+      }
+    ]
+  }, 
+  "tableName": "socrata_ny_new_york_state_zip_codes_county_fips_cross_referenc"
+}

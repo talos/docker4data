@@ -1,0 +1,48 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_master_contract_value_added_resellers_var_report/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/cjqa-a3p4/rows.csv"
+  }, 
+  "description": "A listing of New York State Master contracts by vendors and associated resellers, provided by NYS Office of General Services (OGS).  The information in the dataset represents the Master contracts used by State agencies and other authorized users, and the value-added resellers associated with the Master Contract.  The information allows State agencies to see the Master Contracts and the associated resellers for payment and informational purposes.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New York State Office of General Services (OGS)", 
+    "category": "Government & Finance", 
+    "description": "A listing of New York State Master contracts by vendors and associated resellers, provided by NYS Office of General Services (OGS).  The information in the dataset represents the Master contracts used by State agencies and other authorized users, and the value-added resellers associated with the Master Contract.  The information allows State agencies to see the Master Contracts and the associated resellers for payment and informational purposes.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/cjqa-a3p4.json"
+    }
+  }, 
+  "name": "Master Contract Value Added Resellers (VAR) Report", 
+  "schema": {
+    "columns": [
+      {
+        "name": "master_contract_vendor_id", 
+        "type": "text"
+      }, 
+      {
+        "name": "master_contract_vendor_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "master_contract_id", 
+        "type": "text"
+      }, 
+      {
+        "name": "contract_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "value_added_re_seller_var_id", 
+        "type": "text"
+      }, 
+      {
+        "name": "value_added_re_seller_var_vendor_name", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "socrata_ny_master_contract_value_added_resellers_var_report"
+}

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ny.gov/api/views/jwkb-x5v6/rows.csv"
   }, 
+  "description": "This dataset lists the County, Emergency Manager Name, Address and Office Phone Number for all Emergency Management Offices within NYS.  The New York State Office of Emergency Management (OEM) and its predecessor agencies have been responsible for coordinating the activities of all State agencies to protect New York's communities, the State's economic well-being, and the environment from natural and man-made disasters and emergencies.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/jwkb-x5v6.json"
+    "attribution": "New York State Division of Homeland Security and Emergency Services (DHSES)", 
+    "category": "Public Safety", 
+    "description": "This dataset lists the County, Emergency Manager Name, Address and Office Phone Number for all Emergency Management Offices within NYS.  The New York State Office of Emergency Management (OEM) and its predecessor agencies have been responsible for coordinating the activities of all State agencies to protect New York's communities, the State's economic well-being, and the environment from natural and man-made disasters and emergencies.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/jwkb-x5v6.json"
+    }
   }, 
-  "name": "socrata_ny_county_emergency_management_offices", 
+  "name": "County Emergency Management Offices", 
   "schema": {
     "columns": [
       {
@@ -53,5 +59,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ny_county_emergency_management_offices"
 }

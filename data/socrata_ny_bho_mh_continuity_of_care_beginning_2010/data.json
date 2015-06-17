@@ -3,15 +3,25 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ny.gov/api/views/jzue-ib4p/rows.csv"
   }, 
+  "description": "The Behavioral Health Organization (BHO) initiative oversees the transition to managed care for Medicaid recipients who receive mental health (MH) and substance use disorder (SUD) services in New York State. The metrics emphasize improving rates of timely follow-up treatment post discharge, timely filling of appropriate medication prescriptions post discharge, and reducing rates of readmission.\r\nThe BHO Continuity of Care dataset is designed to assess the frequency with which individuals receive outpatient mental health treatment for a mental health or substance use disorder within 7 or 30 days of discharge from a mental health inpatient hospitalization.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/jzue-ib4p.json"
+    "attribution": "The New York State Office Of Mental Health", 
+    "category": "Human Services", 
+    "description": "The Behavioral Health Organization (BHO) initiative oversees the transition to managed care for Medicaid recipients who receive mental health (MH) and substance use disorder (SUD) services in New York State. The metrics emphasize improving rates of timely follow-up treatment post discharge, timely filling of appropriate medication prescriptions post discharge, and reducing rates of readmission.\r\nThe BHO Continuity of Care dataset is designed to assess the frequency with which individuals receive outpatient mental health treatment for a mental health or substance use disorder within 7 or 30 days of discharge from a mental health inpatient hospitalization.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/jzue-ib4p.json"
+    }
   }, 
-  "name": "socrata_ny_bho_mh_continuity_of_care_beginning_2010", 
+  "name": "BHO MH Continuity of Care: Beginning 2010", 
   "schema": {
     "columns": [
+      {
+        "name": "row_created_date_time", 
+        "type": "timestamp"
+      }, 
       {
         "name": "metric_id", 
         "type": "real"
@@ -65,5 +75,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ny_bho_mh_continuity_of_care_beginning_2010"
 }

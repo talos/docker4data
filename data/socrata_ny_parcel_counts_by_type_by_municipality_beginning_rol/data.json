@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ny.gov/api/views/tnwc-mx3q/rows.csv"
   }, 
+  "description": "The Department of Taxation and Finance annually produces a report pertaining to the distribution of parcels by property class.  The data analysis involves a breakdown of property classes to nine segments of broad use, namely Agricultural, Residential, Vacant Land/Farm, Commercial, Recreation, Community Service, Industrial, Public Service, and Forest/Conservation. For more information please go to:  http://www.tax.ny.gov/research/property/default.htm", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/tnwc-mx3q.json"
+    "attribution": "Office of Tax Policy Analysis", 
+    "category": "Government & Finance", 
+    "description": "The Department of Taxation and Finance annually produces a report pertaining to the distribution of parcels by property class.  The data analysis involves a breakdown of property classes to nine segments of broad use, namely Agricultural, Residential, Vacant Land/Farm, Commercial, Recreation, Community Service, Industrial, Public Service, and Forest/Conservation. For more information please go to:  http://www.tax.ny.gov/research/property/default.htm", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/tnwc-mx3q.json"
+    }
   }, 
-  "name": "socrata_ny_parcel_counts_by_type_by_municipality_beginning_rol", 
+  "name": "Parcel Counts By Type By Municipality: Beginning Roll Year 2000", 
   "schema": {
     "columns": [
       {
@@ -69,5 +75,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ny_parcel_counts_by_type_by_municipality_beginning_rol"
 }

@@ -1,0 +1,116 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_procurement_report_for_state_authorities/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/ehig-g5x3/rows.csv"
+  }, 
+  "description": "Public authorities are required by Section 2800 of Public Authorities Law to submit annual reports to the Authorities Budget Office that include procurement contracts data.  The dataset consists of the most recent 3 years of procurement contracts data reported by Industrial Development Agencies. Authorities are required to report procurement transactions that have an actual or estimated value of $5,000 or more.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New York State Authorities Budget Office", 
+    "category": "Transparency", 
+    "description": "Public authorities are required by Section 2800 of Public Authorities Law to submit annual reports to the Authorities Budget Office that include procurement contracts data.  The dataset consists of the most recent 3 years of procurement contracts data reported by Industrial Development Agencies. Authorities are required to report procurement transactions that have an actual or estimated value of $5,000 or more.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/ehig-g5x3.json"
+    }
+  }, 
+  "name": "Procurement Report for State Authorities", 
+  "schema": {
+    "columns": [
+      {
+        "name": "authority_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "fiscal_year_end_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "procurements", 
+        "type": "text"
+      }, 
+      {
+        "name": "vendor_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "vendor_city", 
+        "type": "text"
+      }, 
+      {
+        "name": "vendor_state", 
+        "type": "text"
+      }, 
+      {
+        "name": "vendor_postal_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "vendor_province_region", 
+        "type": "text"
+      }, 
+      {
+        "name": "vendor_country", 
+        "type": "text"
+      }, 
+      {
+        "name": "procurement_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "type_of_procurement", 
+        "type": "text"
+      }, 
+      {
+        "name": "award_process", 
+        "type": "text"
+      }, 
+      {
+        "name": "number_of_bids_or_proposals_received", 
+        "type": "real"
+      }, 
+      {
+        "name": "vendor_is_a_mwbe", 
+        "type": "text"
+      }, 
+      {
+        "name": "solicited_mwbe", 
+        "type": "text"
+      }, 
+      {
+        "name": "number_of_mwbe_proposals", 
+        "type": "real"
+      }, 
+      {
+        "name": "award_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "begin_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "end_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "contract_amount", 
+        "type": "real"
+      }, 
+      {
+        "name": "amount_expended_for_fiscal_year", 
+        "type": "real"
+      }, 
+      {
+        "name": "amount_expended_to_date", 
+        "type": "real"
+      }, 
+      {
+        "name": "current_or_outstanding_balance", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "tableName": "socrata_ny_procurement_report_for_state_authorities"
+}

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ny.gov/api/views/nhjr-rpi2/rows.csv"
   }, 
+  "description": "Data set containing information on the facilities licensed by DMV in accordance with Vehicle and Traffic Law.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/nhjr-rpi2.json"
+    "attribution": "NYS DMV", 
+    "category": "Transportation", 
+    "description": "Data set containing information on the facilities licensed by DMV in accordance with Vehicle and Traffic Law.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/nhjr-rpi2.json"
+    }
   }, 
-  "name": "socrata_ny_facilities_licensed_by_the_department_of_motor_vehi", 
+  "name": "Facilities Licensed by the Department of Motor Vehicles (DMV)", 
   "schema": {
     "columns": [
       {
@@ -69,9 +75,10 @@
         "type": "text"
       }, 
       {
-        "name": "location", 
+        "name": "location_1", 
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ny_facilities_licensed_by_the_department_of_motor_vehi"
 }

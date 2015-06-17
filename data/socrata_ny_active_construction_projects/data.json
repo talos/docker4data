@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ny.gov/api/views/ekci-x6aq/rows.csv"
   }, 
+  "description": "Report includes a snapshot of active projects where DASNY\r\ndelivers some level of project management oversight.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/ekci-x6aq.json"
+    "attribution": "DASNY (Dormitory Authority State of New York)", 
+    "category": "Economic Development", 
+    "description": "Report includes a snapshot of active projects where DASNY\r\ndelivers some level of project management oversight.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/ekci-x6aq.json"
+    }
   }, 
-  "name": "socrata_ny_active_construction_projects", 
+  "name": "Active Construction Projects", 
   "schema": {
     "columns": [
       {
@@ -53,5 +59,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ny_active_construction_projects"
 }

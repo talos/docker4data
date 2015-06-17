@@ -3,18 +3,24 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ny.gov/api/views/n9v6-gdp6/rows.csv"
   }, 
+  "description": "The Department of State keeps a record of every filing for every incorporated business in the state of New York. This dataset contains information on all active corporations as of the last business day of the specified month and year.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/n9v6-gdp6.json"
+    "attribution": "New York State Department of State", 
+    "category": "Economic Development", 
+    "description": "The Department of State keeps a record of every filing for every incorporated business in the state of New York. This dataset contains information on all active corporations as of the last business day of the specified month and year.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/n9v6-gdp6.json"
+    }
   }, 
-  "name": "socrata_ny_active_corporations_beginning_1800", 
+  "name": "Active Corporations:  Beginning 1800", 
   "schema": {
     "columns": [
       {
         "name": "dos_id", 
-        "type": "real"
+        "type": "text"
       }, 
       {
         "name": "current_entity_name", 
@@ -133,5 +139,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ny_active_corporations_beginning_1800"
 }

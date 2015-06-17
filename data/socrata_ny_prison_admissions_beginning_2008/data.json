@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ny.gov/api/views/m2rg-xjan/rows.csv"
   }, 
+  "description": "Represents inmate admissions to the NYS Department of Corrections and Community Supervision for a new offense or for a parole violation by month of admission.  Includes data about admission type, county, gender, age, and crime.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/m2rg-xjan.json"
+    "attribution": "NYS Department of Corrections and Community Supervision", 
+    "category": "Public Safety", 
+    "description": "Represents inmate admissions to the NYS Department of Corrections and Community Supervision for a new offense or for a parole violation by month of admission.  Includes data about admission type, county, gender, age, and crime.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/m2rg-xjan.json"
+    }
   }, 
-  "name": "socrata_ny_prison_admissions_beginning_2008", 
+  "name": "Prison Admissions: Beginning 2008", 
   "schema": {
     "columns": [
       {
@@ -49,5 +55,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ny_prison_admissions_beginning_2008"
 }

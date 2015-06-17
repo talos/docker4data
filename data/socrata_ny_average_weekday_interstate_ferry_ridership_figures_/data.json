@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ny.gov/api/views/rcgp-qd58/rows.csv"
   }, 
+  "description": "This dataset provides average weekday ridership trends on New York/New Jersey interstate ferry routes.   It counts ridership as unlinked trips, covering both directions of travel between the two states.  It includes only scheduled interstate ferry services, and excludes tour and charter trips.  The dataset provides separate totals columns for ferry terminals serving Midtown (W 39th St/Pier 79) and Downtown (Pier 11 and the World Financial Center).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/rcgp-qd58.json"
+    "attribution": "Port Authority of NY & NJ", 
+    "category": "Transportation", 
+    "description": "This dataset provides average weekday ridership trends on New York/New Jersey interstate ferry routes.   It counts ridership as unlinked trips, covering both directions of travel between the two states.  It includes only scheduled interstate ferry services, and excludes tour and charter trips.  The dataset provides separate totals columns for ferry terminals serving Midtown (W 39th St/Pier 79) and Downtown (Pier 11 and the World Financial Center).", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/rcgp-qd58.json"
+    }
   }, 
-  "name": "socrata_ny_average_weekday_interstate_ferry_ridership_figures_", 
+  "name": "Average Weekday Interstate Ferry Ridership Figures for Port Authority:  Beginning 1998", 
   "schema": {
     "columns": [
       {
@@ -29,5 +35,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ny_average_weekday_interstate_ferry_ridership_figures_"
 }

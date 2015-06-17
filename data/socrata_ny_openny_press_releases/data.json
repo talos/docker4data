@@ -7,9 +7,11 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/n2k2-wzfz.json"
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/n2k2-wzfz.json"
+    }
   }, 
-  "name": "socrata_ny_openny_press_releases", 
+  "name": "OpenNY Press Releases", 
   "schema": {
     "columns": [
       {
@@ -25,5 +27,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ny_openny_press_releases"
 }

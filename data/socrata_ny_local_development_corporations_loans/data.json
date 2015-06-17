@@ -1,0 +1,96 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_local_development_corporations_loans/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/vp83-gfyz/rows.csv"
+  }, 
+  "description": "The dataset consists of 3 years of loans data reported by Local Development Corporations and includes loan information such as recipients, amounts, purpose and other information.  Public authorities are required by Section 2800 of Public Authorities Law to submit annual reports to the Authorities Budget Office that include loans data. Local development corporations are required to report information on the projects they support and how those approved projects are financed (either through grants, loans, or bonds).", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Authorities Budget Office", 
+    "category": "Transparency", 
+    "description": "The dataset consists of 3 years of loans data reported by Local Development Corporations and includes loan information such as recipients, amounts, purpose and other information.  Public authorities are required by Section 2800 of Public Authorities Law to submit annual reports to the Authorities Budget Office that include loans data. Local development corporations are required to report information on the projects they support and how those approved projects are financed (either through grants, loans, or bonds).", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/vp83-gfyz.json"
+    }
+  }, 
+  "name": "Local Development Corporations Loans", 
+  "schema": {
+    "columns": [
+      {
+        "name": "authority_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "fiscal_year_end_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "loans", 
+        "type": "text"
+      }, 
+      {
+        "name": "loan_fund_sources", 
+        "type": "text"
+      }, 
+      {
+        "name": "recipient_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "recipient_city", 
+        "type": "text"
+      }, 
+      {
+        "name": "recipient_state", 
+        "type": "text"
+      }, 
+      {
+        "name": "recipient_postal_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "date_loan_awarded", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "original_loan_amount", 
+        "type": "real"
+      }, 
+      {
+        "name": "interest_rate", 
+        "type": "real"
+      }, 
+      {
+        "name": "loan_length", 
+        "type": "real"
+      }, 
+      {
+        "name": "amount_repaid", 
+        "type": "real"
+      }, 
+      {
+        "name": "loan_purpose", 
+        "type": "text"
+      }, 
+      {
+        "name": "new_jobs", 
+        "type": "text"
+      }, 
+      {
+        "name": "jobs_planned", 
+        "type": "real"
+      }, 
+      {
+        "name": "jobs_created", 
+        "type": "real"
+      }, 
+      {
+        "name": "loan_terms_completed", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "socrata_ny_local_development_corporations_loans"
+}

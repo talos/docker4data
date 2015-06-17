@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ny.gov/api/views/v7qc-gwpn/rows.csv"
   }, 
+  "description": "These files show the number of MetroCard swipes made each week by customers entering each station of the New York City Subway, PATH, AirTrain JFK and the Roosevelt Island Tram, broken out to show the relative popularity of the various types of MetroCards. MTA New York City Transit posts the latest data every Saturday by 1 a.m., and the dates listed in the links reference the date the data is posted. The data in the files covers seven-day periods beginning on the Saturday two weeks prior to the posting date and ending on the following Friday.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/v7qc-gwpn.json"
+    "attribution": "MTA Headquarters, New York City Transit", 
+    "category": "Transportation", 
+    "description": "These files show the number of MetroCard swipes made each week by customers entering each station of the New York City Subway, PATH, AirTrain JFK and the Roosevelt Island Tram, broken out to show the relative popularity of the various types of MetroCards. MTA New York City Transit posts the latest data every Saturday by 1 a.m., and the dates listed in the links reference the date the data is posted. The data in the files covers seven-day periods beginning on the Saturday two weeks prior to the posting date and ending on the following Friday.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/v7qc-gwpn.json"
+    }
   }, 
-  "name": "socrata_ny_fare_card_history_for_metropolitan_transportation_a", 
+  "name": "Fare Card History for Metropolitan Transportation Authority (MTA): Beginning 2010", 
   "schema": {
     "columns": [
       {
@@ -117,5 +123,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ny_fare_card_history_for_metropolitan_transportation_a"
 }

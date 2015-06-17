@@ -1,0 +1,80 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_local_development_corporations_grants_dataset/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/j5ab-5nj2/rows.csv"
+  }, 
+  "description": "The dataset consists of 3 years of grants data reported by Local Development Corporations and includes information on recipients, amounts and purpose of the grants.  Public authorities are required by Section 2800 of Public Authorities Law to submit annual reports to the Authorities Budget Office that include grants data. Local development corporations are required to report information on the projects they support and how those approved projects are financed (either through grants, loans, or bonds).", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Authorities Budget Office", 
+    "category": "Transparency", 
+    "description": "The dataset consists of 3 years of grants data reported by Local Development Corporations and includes information on recipients, amounts and purpose of the grants.  Public authorities are required by Section 2800 of Public Authorities Law to submit annual reports to the Authorities Budget Office that include grants data. Local development corporations are required to report information on the projects they support and how those approved projects are financed (either through grants, loans, or bonds).", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/j5ab-5nj2.json"
+    }
+  }, 
+  "name": "Local Development Corporations Grants Dataset", 
+  "schema": {
+    "columns": [
+      {
+        "name": "authority_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "fiscal_year_end_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "awarded_grants", 
+        "type": "text"
+      }, 
+      {
+        "name": "grant_fund_sources", 
+        "type": "text"
+      }, 
+      {
+        "name": "recipient_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "recipient_city", 
+        "type": "text"
+      }, 
+      {
+        "name": "recipient_state", 
+        "type": "text"
+      }, 
+      {
+        "name": "recipient_postal_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "grant_amount", 
+        "type": "real"
+      }, 
+      {
+        "name": "date_grant_awarded", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "grant_purpose", 
+        "type": "text"
+      }, 
+      {
+        "name": "new_jobs", 
+        "type": "text"
+      }, 
+      {
+        "name": "jobs_planned", 
+        "type": "real"
+      }, 
+      {
+        "name": "jobs_created", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "tableName": "socrata_ny_local_development_corporations_grants_dataset"
+}

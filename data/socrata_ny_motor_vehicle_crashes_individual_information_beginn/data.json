@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ny.gov/api/views/ir4y-sesj/rows.csv"
   }, 
+  "description": "Attributes about each individual involved in a crash as reported to NYS DMV", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/ir4y-sesj.json"
+    "attribution": "NYS Department of Motor Vehicles", 
+    "category": "Transportation", 
+    "description": "Attributes about each individual involved in a crash as reported to NYS DMV", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/ir4y-sesj.json"
+    }
   }, 
-  "name": "socrata_ny_motor_vehicle_crashes_individual_information_beginn", 
+  "name": "Motor Vehicle Crashes - Individual Information: Beginning 2009", 
   "schema": {
     "columns": [
       {
@@ -73,5 +79,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ny_motor_vehicle_crashes_individual_information_beginn"
 }

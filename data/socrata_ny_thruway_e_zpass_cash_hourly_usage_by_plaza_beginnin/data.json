@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ny.gov/api/views/2hz2-2s5g/rows.csv"
   }, 
+  "description": "This dataset contains E-ZPass and Cash vehicle count data by hour by toll plaza, beginning with 2006 data.  For each toll plaza, a row of data exists for each hour of each day and for each direction of travel, depending on the type of toll barrier.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/2hz2-2s5g.json"
+    "attribution": "New York State Thruway Authority", 
+    "category": "Transportation", 
+    "description": "This dataset contains E-ZPass and Cash vehicle count data by hour by toll plaza, beginning with 2006 data.  For each toll plaza, a row of data exists for each hour of each day and for each direction of travel, depending on the type of toll barrier.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/2hz2-2s5g.json"
+    }
   }, 
-  "name": "socrata_ny_thruway_e_zpass_cash_hourly_usage_by_plaza_beginnin", 
+  "name": "Thruway E-ZPass/Cash Hourly Usage by Plaza: Beginning 2006", 
   "schema": {
     "columns": [
       {
@@ -37,5 +43,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ny_thruway_e_zpass_cash_hourly_usage_by_plaza_beginnin"
 }

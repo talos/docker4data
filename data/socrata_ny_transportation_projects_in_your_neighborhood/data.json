@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ny.gov/api/views/rz8t-4kmq/rows.csv"
   }, 
+  "description": "This data set contains DOT construction project information. The data is refreshed nightly from multiple data sources, therefore the data becomes stale rather quickly.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/rz8t-4kmq.json"
+    "attribution": "New York State Department of Transportation", 
+    "category": "Transportation", 
+    "description": "This data set contains DOT construction project information. The data is refreshed nightly from multiple data sources, therefore the data becomes stale rather quickly.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/rz8t-4kmq.json"
+    }
   }, 
-  "name": "socrata_ny_transportation_projects_in_your_neighborhood", 
+  "name": "Transportation Projects in Your Neighborhood", 
   "schema": {
     "columns": [
       {
@@ -105,5 +111,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ny_transportation_projects_in_your_neighborhood"
 }

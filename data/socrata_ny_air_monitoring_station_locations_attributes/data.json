@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ny.gov/api/views/qcpj-zdb6/rows.csv"
   }, 
+  "description": "Location maps of  monitoring sites and measured parameters in the NY State Ambient Air Monitoring Network", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/qcpj-zdb6.json"
+    "attribution": "Department of Environmental Conservation", 
+    "category": "Energy & Environment", 
+    "description": "Location maps of  monitoring sites and measured parameters in the NY State Ambient Air Monitoring Network", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/qcpj-zdb6.json"
+    }
   }, 
-  "name": "socrata_ny_air_monitoring_station_locations_attributes", 
+  "name": "Air Monitoring Station Locations & Attributes", 
   "schema": {
     "columns": [
       {
@@ -117,5 +123,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ny_air_monitoring_station_locations_attributes"
 }

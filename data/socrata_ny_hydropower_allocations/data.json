@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ny.gov/api/views/fu56-qujc/rows.csv"
   }, 
+  "description": "This dataset contains the New York Power Authority\u2019s hydropower customers having an allocation of Expansion Power, Replacement Power, and/or Preservation Power, including their location, amount of allocation, and amount of jobs committed.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/fu56-qujc.json"
+    "attribution": "New York Power Authority", 
+    "category": "Energy & Environment", 
+    "description": "This dataset contains the New York Power Authority\u2019s hydropower customers having an allocation of Expansion Power, Replacement Power, and/or Preservation Power, including their location, amount of allocation, and amount of jobs committed.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/fu56-qujc.json"
+    }
   }, 
-  "name": "socrata_ny_hydropower_allocations", 
+  "name": "Hydropower Allocations", 
   "schema": {
     "columns": [
       {
@@ -45,5 +51,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ny_hydropower_allocations"
 }

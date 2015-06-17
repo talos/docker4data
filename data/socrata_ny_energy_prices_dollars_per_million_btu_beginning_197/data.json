@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ny.gov/api/views/pzgr-wqm5/rows.csv"
   }, 
+  "description": "New York Energy Prices presents retail energy price data.  Energy prices are provided by fuel type in nominal dollars per million Btu for the residential, commercial, industrial, and transportation sectors.  This section includes a column in the price table displaying gross domestic product (GDP) price deflators for converting nominal (current year) dollars to constant (real) dollars.  To convert nominal to constant dollars, divide the nominal energy price by the GDP price deflator for that particular year.  Historical petroleum, electricity, coal, and natural gas prices were compiled primarily from the Energy Information Administration.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/pzgr-wqm5.json"
+    "attribution": "New York State Energy Research and Development Authority", 
+    "category": "Energy & Environment", 
+    "description": "New York Energy Prices presents retail energy price data.  Energy prices are provided by fuel type in nominal dollars per million Btu for the residential, commercial, industrial, and transportation sectors.  This section includes a column in the price table displaying gross domestic product (GDP) price deflators for converting nominal (current year) dollars to constant (real) dollars.  To convert nominal to constant dollars, divide the nominal energy price by the GDP price deflator for that particular year.  Historical petroleum, electricity, coal, and natural gas prices were compiled primarily from the Energy Information Administration.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/pzgr-wqm5.json"
+    }
   }, 
-  "name": "socrata_ny_energy_prices_dollars_per_million_btu_beginning_197", 
+  "name": "Energy Prices, Dollars per Million Btu: Beginning 1970", 
   "schema": {
     "columns": [
       {
@@ -65,5 +71,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ny_energy_prices_dollars_per_million_btu_beginning_197"
 }

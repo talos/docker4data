@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ny.gov/api/views/6amx-2pbv/rows.csv"
   }, 
+  "description": "Annual Average Daily Traffic (AADT) is an estimate of the average daily traffic along a defined segment of roadway. This value is calculated from short term counts taken along the same section which are then factored to produce the estimate of AADT. Because of this process, the most recent AADT for any given roadway will always be for the previous year. Data is available for all New York State Routes and roads that are part of the Federal Aid System.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/6amx-2pbv.json"
+    "attribution": "New York State Department of Transportation", 
+    "category": "Transportation", 
+    "description": "Annual Average Daily Traffic (AADT) is an estimate of the average daily traffic along a defined segment of roadway. This value is calculated from short term counts taken along the same section which are then factored to produce the estimate of AADT. Because of this process, the most recent AADT for any given roadway will always be for the previous year. Data is available for all New York State Routes and roads that are part of the Federal Aid System.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/6amx-2pbv.json"
+    }
   }, 
-  "name": "socrata_ny_annual_average_daily_traffic_aadt_beginning_1977", 
+  "name": "Annual Average Daily Traffic (AADT): Beginning 1977", 
   "schema": {
     "columns": [
       {
@@ -57,5 +63,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ny_annual_average_daily_traffic_aadt_beginning_1977"
 }

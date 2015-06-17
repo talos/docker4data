@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ny.gov/api/views/mmmf-xgpx/rows.csv"
   }, 
+  "description": "This dataset contains a list of all active permits issued by the State Liquor Authority.  Permits in this dataset are issued for 1-3 year terms.  This dataset does not include temporary or single event.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/mmmf-xgpx.json"
+    "attribution": "New York State Liquor Authority", 
+    "category": "Economic Development", 
+    "description": "This dataset contains a list of all active permits issued by the State Liquor Authority.  Permits in this dataset are issued for 1-3 year terms.  This dataset does not include temporary or single event.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/mmmf-xgpx.json"
+    }
   }, 
-  "name": "socrata_ny_liquor_authority_quarterly_list_of_active_permits", 
+  "name": "Liquor Authority Quarterly List of Active Permits", 
   "schema": {
     "columns": [
       {
@@ -89,5 +95,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ny_liquor_authority_quarterly_list_of_active_permits"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ny.gov/api/views/eqw2-r5nb/rows.csv"
   }, 
+  "description": "The data included here is the information in the NYS Attorney Registration Database that is deemed public information pursuant to 22 NYCRR 118.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/eqw2-r5nb.json"
+    "attribution": "NYS Unified Court System", 
+    "category": "Transparency", 
+    "description": "The data included here is the information in the NYS Attorney Registration Database that is deemed public information pursuant to 22 NYCRR 118.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/eqw2-r5nb.json"
+    }
   }, 
-  "name": "socrata_ny_nys_attorney_registrations", 
+  "name": "NYS Attorney Registrations", 
   "schema": {
     "columns": [
       {
@@ -97,5 +103,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ny_nys_attorney_registrations"
 }

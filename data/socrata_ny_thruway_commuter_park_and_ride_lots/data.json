@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ny.gov/api/views/nvxe-b625/rows.csv"
   }, 
+  "description": "The Commuter Park and Ride Lots Listing provides travelers along the Thruway System with a listing of available locations in which to park their vehicle and commute from. The csv file contains the latitude and longitude, title of lot, location, lot owner, available parking, lighting and pavement conditions.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/nvxe-b625.json"
+    "attribution": "New York State Thruway Authority", 
+    "category": "Transportation", 
+    "description": "The Commuter Park and Ride Lots Listing provides travelers along the Thruway System with a listing of available locations in which to park their vehicle and commute from. The csv file contains the latitude and longitude, title of lot, location, lot owner, available parking, lighting and pavement conditions.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/nvxe-b625.json"
+    }
   }, 
-  "name": "socrata_ny_thruway_commuter_park_and_ride_lots", 
+  "name": "Thruway Commuter Park and Ride Lots", 
   "schema": {
     "columns": [
       {
@@ -53,5 +59,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ny_thruway_commuter_park_and_ride_lots"
 }

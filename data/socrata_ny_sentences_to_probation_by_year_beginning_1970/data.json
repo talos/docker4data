@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ny.gov/api/views/ejfc-rxyg/rows.csv"
   }, 
+  "description": "The Division of Criminal Justice Services (DCJS) collects information on sentences to probation from the Office of Court Administration.  DCJS publishes annual data on the DCJS public website.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/ejfc-rxyg.json"
+    "attribution": "Division of Criminal Justice Services", 
+    "category": "Public Safety", 
+    "description": "The Division of Criminal Justice Services (DCJS) collects information on sentences to probation from the Office of Court Administration.  DCJS publishes annual data on the DCJS public website.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/ejfc-rxyg.json"
+    }
   }, 
-  "name": "socrata_ny_sentences_to_probation_by_year_beginning_1970", 
+  "name": "Sentences to Probation by Year: Beginning 1970", 
   "schema": {
     "columns": [
       {
@@ -49,5 +55,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ny_sentences_to_probation_by_year_beginning_1970"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ny.gov/api/views/dp6s-fups/rows.csv"
   }, 
+  "description": "The Port Authority of New York & New Jersey quarterly produces a data file and provides information on monthly  passengers Taxi Dispatch counts at John F. Kennedy International Airport, LaGuardia Airport, and Newark Liberty International Airport beginning in 2002. Taxi dispatch counts include only medallion taxis  that transport passengers from these airports to a destination.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/dp6s-fups.json"
+    "attribution": "The Port Authority of New York & New Jersey", 
+    "category": "Transportation", 
+    "description": "The Port Authority of New York & New Jersey quarterly produces a data file and provides information on monthly  passengers Taxi Dispatch counts at John F. Kennedy International Airport, LaGuardia Airport, and Newark Liberty International Airport beginning in 2002. Taxi dispatch counts include only medallion taxis  that transport passengers from these airports to a destination.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/dp6s-fups.json"
+    }
   }, 
-  "name": "socrata_ny_taxis_dispatched_at_port_authority_of_ny_nj_airport", 
+  "name": "Taxis Dispatched at Port Authority of NY NJ Airports: Beginning 2002", 
   "schema": {
     "columns": [
       {
@@ -29,5 +35,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ny_taxis_dispatched_at_port_authority_of_ny_nj_airport"
 }

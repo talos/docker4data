@@ -1,0 +1,68 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_water_withdrawals_by_facility_beginning_2009/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/94ue-tysy/rows.csv"
+  }, 
+  "description": "Data regarding water withdrawals is collected by New York State Department of Environmental Conservation (DEC).  The reporting requirements have expanded since collection began in 1990. Data is currently collected in accordance with the requirements of ECL 15-1501. ECL 15-1501 requires a DEC permit and annual usage reporting for all facilities using water for any purpose and having the capacity to withdraw 100,000 gallons or more per day of surface or groundwater. These facilities may or may not be permitted with other agencies that regulate water supplies in New York State.  This dataset begins with 2009 data and includes facility name, town, county and withdrawal information.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New York State Department of Environmental Conservationn(DEC)", 
+    "category": "Energy & Environment", 
+    "description": "Data regarding water withdrawals is collected by New York State Department of Environmental Conservation (DEC).  The reporting requirements have expanded since collection began in 1990. Data is currently collected in accordance with the requirements of ECL 15-1501. ECL 15-1501 requires a DEC permit and annual usage reporting for all facilities using water for any purpose and having the capacity to withdraw 100,000 gallons or more per day of surface or groundwater. These facilities may or may not be permitted with other agencies that regulate water supplies in New York State.  This dataset begins with 2009 data and includes facility name, town, county and withdrawal information.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/94ue-tysy.json"
+    }
+  }, 
+  "name": "Water Withdrawals by Facility:  Beginning 2009", 
+  "schema": {
+    "columns": [
+      {
+        "name": "program_id", 
+        "type": "text"
+      }, 
+      {
+        "name": "facility_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "town", 
+        "type": "text"
+      }, 
+      {
+        "name": "county", 
+        "type": "text"
+      }, 
+      {
+        "name": "withdrawal_category", 
+        "type": "text"
+      }, 
+      {
+        "name": "withdrawal_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "reporting_year", 
+        "type": "real"
+      }, 
+      {
+        "name": "average_day_withdrawal_mgd", 
+        "type": "real"
+      }, 
+      {
+        "name": "maximum_day_withdrawal_mgd", 
+        "type": "real"
+      }, 
+      {
+        "name": "easting", 
+        "type": "real"
+      }, 
+      {
+        "name": "northing", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "tableName": "socrata_ny_water_withdrawals_by_facility_beginning_2009"
+}

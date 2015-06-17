@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ny.gov/api/views/pxa9-czw8/rows.csv"
   }, 
+  "description": "This data shows jobs by industry in 2012, created from a dataset of economic profiles of the 10 Empire State Development (ESD) economic development regions. Refer to the About section for the data dictionary and other information.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/pxa9-czw8.json"
+    "attribution": "Empire State Development", 
+    "category": "Economic Development", 
+    "description": "This data shows jobs by industry in 2012, created from a dataset of economic profiles of the 10 Empire State Development (ESD) economic development regions. Refer to the About section for the data dictionary and other information.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/pxa9-czw8.json"
+    }
   }, 
-  "name": "socrata_ny_jobs_by_industry", 
+  "name": "Jobs By Industry", 
   "schema": {
     "columns": [
       {
@@ -33,5 +39,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ny_jobs_by_industry"
 }

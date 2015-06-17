@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ny.gov/api/views/ah74-pg4w/rows.csv"
   }, 
+  "description": "The 511NY dataset contain historical traffic and transit event information provided by the New York State Department of Transportation (NYSDOT), the New York City Department of Transportation, the New York State Thruway Authority and the Niagara International Transportation Technology Coalition (Buffalo-Niagara Region). The file includes all incidents/accidents, construction projects and special events in New York State that were available on the 511NY traffic and transit map for the time period noted.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/ah74-pg4w.json"
+    "attribution": "New York State Department of Transportation", 
+    "category": "Transportation", 
+    "description": "The 511NY dataset contain historical traffic and transit event information provided by the New York State Department of Transportation (NYSDOT), the New York City Department of Transportation, the New York State Thruway Authority and the Niagara International Transportation Technology Coalition (Buffalo-Niagara Region). The file includes all incidents/accidents, construction projects and special events in New York State that were available on the 511NY traffic and transit map for the time period noted.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/ah74-pg4w.json"
+    }
   }, 
-  "name": "socrata_ny_511_ny_events_beginning_2010", 
+  "name": "511 NY Events: Beginning 2010", 
   "schema": {
     "columns": [
       {
@@ -65,5 +71,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ny_511_ny_events_beginning_2010"
 }

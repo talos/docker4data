@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ny.gov/api/views/8fht-3ajj/rows.csv"
   }, 
+  "description": "The New York State Department of Transportation (NYSDOT) traffic control devices data set is a list of all of the traffic devices that are either owned or maintained by NYSDOT. The devices included are of various types such as traffic signals, street lights, beacons, flashers, navigational lights, Intelligent Transportation Systems (ITS), etc.  Devices in the 5 boroughs of New York City are not owned or maintained by NYSDOT and therefore not represented in this dataset", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/8fht-3ajj.json"
+    "attribution": "New York State Department of Transportation", 
+    "category": "Transportation", 
+    "description": "The New York State Department of Transportation (NYSDOT) traffic control devices data set is a list of all of the traffic devices that are either owned or maintained by NYSDOT. The devices included are of various types such as traffic signals, street lights, beacons, flashers, navigational lights, Intelligent Transportation Systems (ITS), etc.  Devices in the 5 boroughs of New York City are not owned or maintained by NYSDOT and therefore not represented in this dataset", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/8fht-3ajj.json"
+    }
   }, 
-  "name": "socrata_ny_traffic_control_device_inventory", 
+  "name": "Traffic Control Device Inventory", 
   "schema": {
     "columns": [
       {
@@ -69,5 +75,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ny_traffic_control_device_inventory"
 }

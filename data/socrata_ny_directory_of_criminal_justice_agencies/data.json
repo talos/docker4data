@@ -3,15 +3,25 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ny.gov/api/views/gugp-n5ip/rows.csv"
   }, 
+  "description": "A directory of the Criminal Justice Agencies located in New York State.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/gugp-n5ip.json"
+    "attribution": "Division of Criminal Justice Services", 
+    "category": "Public Safety", 
+    "description": "A directory of the Criminal Justice Agencies located in New York State.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/gugp-n5ip.json"
+    }
   }, 
-  "name": "socrata_ny_directory_of_criminal_justice_agencies", 
+  "name": "Directory of Criminal Justice Agencies", 
   "schema": {
     "columns": [
+      {
+        "name": "case_id", 
+        "type": "real"
+      }, 
       {
         "name": "agency", 
         "type": "text"
@@ -57,9 +67,18 @@
         "type": "text"
       }, 
       {
+        "name": "latitude", 
+        "type": "real"
+      }, 
+      {
+        "name": "longitude", 
+        "type": "real"
+      }, 
+      {
         "name": "location", 
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ny_directory_of_criminal_justice_agencies"
 }

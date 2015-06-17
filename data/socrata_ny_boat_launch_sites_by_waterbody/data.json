@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ny.gov/api/views/icvg-v8xr/rows.csv"
   }, 
+  "description": "This dataset contains boat launch sites owned or operated by the Department of Environmental Conservation, which offer public facilities for launching boats onto New York State waters.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/icvg-v8xr.json"
+    "attribution": "New York State Department of Environmental Conservation", 
+    "category": "Recreation", 
+    "description": "This dataset contains boat launch sites owned or operated by the Department of Environmental Conservation, which offer public facilities for launching boats onto New York State waters.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/icvg-v8xr.json"
+    }
   }, 
-  "name": "socrata_ny_boat_launch_sites_by_waterbody", 
+  "name": "Boat Launch Sites by Waterbody", 
   "schema": {
     "columns": [
       {
@@ -49,5 +55,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ny_boat_launch_sites_by_waterbody"
 }

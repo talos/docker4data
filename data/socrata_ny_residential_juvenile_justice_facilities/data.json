@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ny.gov/api/views/jn2j-7x6a/rows.csv"
   }, 
+  "description": "This provides information on the location, phone and fax numbers, security level and video conference capacity of each of the Juvenile Justice facilities operated by Office for Children and Family Services (OCFS).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/jn2j-7x6a.json"
+    "attribution": "Office of Children and Family Services", 
+    "category": "Human Services", 
+    "description": "This provides information on the location, phone and fax numbers, security level and video conference capacity of each of the Juvenile Justice facilities operated by Office for Children and Family Services (OCFS).", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/jn2j-7x6a.json"
+    }
   }, 
-  "name": "socrata_ny_residential_juvenile_justice_facilities", 
+  "name": "Residential Juvenile Justice Facilities", 
   "schema": {
     "columns": [
       {
@@ -57,5 +63,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ny_residential_juvenile_justice_facilities"
 }

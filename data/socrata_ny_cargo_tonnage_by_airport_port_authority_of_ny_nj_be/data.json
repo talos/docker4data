@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ny.gov/api/views/nthh-fhwt/rows.csv"
   }, 
+  "description": "The dataset presented in this forum is monthly data. The Port Authority collects monthly data for domestic and international cargo, flight, passengers and aircraft equipment type from each carrier at JFK, EWR, LGA and SWF. The data is aggregated into quarterly and annual in an Oracle database and it forms the basis for estimating flight fees, parking, concession and PFC revenues at the Port Authority Airports", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/nthh-fhwt.json"
+    "attribution": "The Port Authority of New York and New Jersey", 
+    "category": "Transportation", 
+    "description": "The dataset presented in this forum is monthly data. The Port Authority collects monthly data for domestic and international cargo, flight, passengers and aircraft equipment type from each carrier at JFK, EWR, LGA and SWF. The data is aggregated into quarterly and annual in an Oracle database and it forms the basis for estimating flight fees, parking, concession and PFC revenues at the Port Authority Airports", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/nthh-fhwt.json"
+    }
   }, 
-  "name": "socrata_ny_cargo_tonnage_by_airport_port_authority_of_ny_nj_be", 
+  "name": "Cargo Tonnage by Airport, Port Authority of NY NJ: Beginning 1977", 
   "schema": {
     "columns": [
       {
@@ -37,5 +43,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ny_cargo_tonnage_by_airport_port_authority_of_ny_nj_be"
 }

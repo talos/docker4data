@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ny.gov/api/views/7jkf-259w/rows.csv"
   }, 
+  "description": "The Interchanges and Exit Listings is a tool for travelers along the Thruway System that provides patrons with a directory of exit numbers, road signage descriptions and mileposts. The csv file contains the latitude and longitude of the location of the interchange and the route name where the interchange is on. Along with interchanges, toll barriers are included as well.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/7jkf-259w.json"
+    "attribution": "New York State Thruway Authority", 
+    "category": "Transportation", 
+    "description": "The Interchanges and Exit Listings is a tool for travelers along the Thruway System that provides patrons with a directory of exit numbers, road signage descriptions and mileposts. The csv file contains the latitude and longitude of the location of the interchange and the route name where the interchange is on. Along with interchanges, toll barriers are included as well.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/7jkf-259w.json"
+    }
   }, 
-  "name": "socrata_ny_thruway_interchanges_and_exits", 
+  "name": "Thruway Interchanges and Exits", 
   "schema": {
     "columns": [
       {
@@ -49,5 +55,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ny_thruway_interchanges_and_exits"
 }

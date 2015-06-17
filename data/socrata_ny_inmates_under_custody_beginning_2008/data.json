@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ny.gov/api/views/55zc-sp6m/rows.csv"
   }, 
+  "description": "Represents inmates under custody in NYS Department of Corrections and Community Supervision as of March 31 of the snapshot year.  Includes data about admission type, county, gender, age, crime, and facility.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/55zc-sp6m.json"
+    "attribution": "NYS Department of Corrections and Community Supervision", 
+    "category": "Public Safety", 
+    "description": "Represents inmates under custody in NYS Department of Corrections and Community Supervision as of March 31 of the snapshot year.  Includes data about admission type, county, gender, age, crime, and facility.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/55zc-sp6m.json"
+    }
   }, 
-  "name": "socrata_ny_inmates_under_custody_beginning_2008", 
+  "name": "Inmates Under Custody: Beginning 2008", 
   "schema": {
     "columns": [
       {
@@ -45,5 +51,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ny_inmates_under_custody_beginning_2008"
 }

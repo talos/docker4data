@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ny.gov/api/views/hg7a-5ssi/rows.csv"
   }, 
+  "description": "This data set contains point locations of wildlife viewing sites as shown in The New York Wildlife Viewing Guide. These sites are also known as Watchable Wildlife Sites.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/hg7a-5ssi.json"
+    "attribution": "New York State Department of Environmental Conservation", 
+    "category": "Recreation", 
+    "description": "This data set contains point locations of wildlife viewing sites as shown in The New York Wildlife Viewing Guide. These sites are also known as Watchable Wildlife Sites.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/hg7a-5ssi.json"
+    }
   }, 
-  "name": "socrata_ny_watchable_wildlife_sites", 
+  "name": "Watchable Wildlife Sites", 
   "schema": {
     "columns": [
       {
@@ -53,5 +59,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ny_watchable_wildlife_sites"
 }

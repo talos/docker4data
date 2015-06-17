@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ny.gov/api/views/nvxm-nnvd/rows.csv"
   }, 
+  "description": "This data set includes Places to Stay in New York State.  These places are currently part of the ILoveNY.com website.  Currently, they are grouped by region.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/nvxm-nnvd.json"
+    "attribution": "I Love NY", 
+    "description": "This data set includes Places to Stay in New York State.  These places are currently part of the ILoveNY.com website.  Currently, they are grouped by region.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/nvxm-nnvd.json"
+    }
   }, 
-  "name": "socrata_ny_i_love_ny_places_to_stay", 
+  "name": "I Love NY \u2013 Places to Stay", 
   "schema": {
     "columns": [
       {
@@ -61,5 +66,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ny_i_love_ny_places_to_stay"
 }

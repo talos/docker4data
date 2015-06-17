@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ny.gov/api/views/d6dy-3h7r/rows.csv"
   }, 
+  "description": "Dataset includes most recent inspections of retail food stores where critical deficiencies were found during the inspection.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/d6dy-3h7r.json"
+    "attribution": "Department of Agriculture and Markets", 
+    "category": "Economic Development", 
+    "description": "Dataset includes most recent inspections of retail food stores where critical deficiencies were found during the inspection.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/d6dy-3h7r.json"
+    }
   }, 
-  "name": "socrata_ny_retail_food_store_inspections_current_critical_viol", 
+  "name": "Retail Food Store Inspections \u2013 Current Critical Violations", 
   "schema": {
     "columns": [
       {
@@ -37,11 +43,11 @@
         "type": "text"
       }, 
       {
-        "name": "state_code", 
+        "name": "statecode", 
         "type": "text"
       }, 
       {
-        "name": "zip_code", 
+        "name": "zipcode", 
         "type": "text"
       }, 
       {
@@ -53,9 +59,10 @@
         "type": "text"
       }, 
       {
-        "name": "location", 
+        "name": "location_1", 
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ny_retail_food_store_inspections_current_critical_viol"
 }

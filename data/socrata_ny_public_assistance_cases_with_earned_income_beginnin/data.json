@@ -1,0 +1,80 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_public_assistance_cases_with_earned_income_beginnin/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/5mdi-3rq9/rows.csv"
+  }, 
+  "description": "The data in this dataset are monthly listings of the number of Temporary Assistance for Needy Families (TANF), Safety Net Assistance-Maintenance of Effort (SNA-MOE), and Safety Net Assistance Non-Maintenance of Effort (SNA Non-MOE) cash assistance cases with earned monthly income, and the average gross earned monthly income and average net earned monthly income (after applying earned income disregards) for these cases.  Data is presented by case type for each local social services district.  The dataset is from the NYS Office of Temporary and Disability Assistance (OTDA) and is updated monthly.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New York State Office of Temporary and Disability Assistance (OTDA)", 
+    "category": "Human Services", 
+    "description": "The data in this dataset are monthly listings of the number of Temporary Assistance for Needy Families (TANF), Safety Net Assistance-Maintenance of Effort (SNA-MOE), and Safety Net Assistance Non-Maintenance of Effort (SNA Non-MOE) cash assistance cases with earned monthly income, and the average gross earned monthly income and average net earned monthly income (after applying earned income disregards) for these cases.  Data is presented by case type for each local social services district.  The dataset is from the NYS Office of Temporary and Disability Assistance (OTDA) and is updated monthly.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/5mdi-3rq9.json"
+    }
+  }, 
+  "name": "Public Assistance Cases with Earned Income:  Beginning April 2006", 
+  "schema": {
+    "columns": [
+      {
+        "name": "year", 
+        "type": "real"
+      }, 
+      {
+        "name": "month", 
+        "type": "text"
+      }, 
+      {
+        "name": "month_code", 
+        "type": "real"
+      }, 
+      {
+        "name": "district_code", 
+        "type": "real"
+      }, 
+      {
+        "name": "district", 
+        "type": "text"
+      }, 
+      {
+        "name": "tanf_cases_with_earned_income", 
+        "type": "real"
+      }, 
+      {
+        "name": "tanf_average_gross_earned_income", 
+        "type": "real"
+      }, 
+      {
+        "name": "tanf_average_net_earned_income", 
+        "type": "real"
+      }, 
+      {
+        "name": "sna_moe_cases_with_earned_income", 
+        "type": "real"
+      }, 
+      {
+        "name": "sna_moe_average_gross_earned_income", 
+        "type": "real"
+      }, 
+      {
+        "name": "sna_moe_average_net_earned_income", 
+        "type": "real"
+      }, 
+      {
+        "name": "sna_non_moe_cases_with_earned_income", 
+        "type": "real"
+      }, 
+      {
+        "name": "sna_non_moe_average_gross_earned_income", 
+        "type": "real"
+      }, 
+      {
+        "name": "sna_non_moe_average_net_earned_income", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "tableName": "socrata_ny_public_assistance_cases_with_earned_income_beginnin"
+}

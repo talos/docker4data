@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ny.gov/api/views/wcwd-s5vt/rows.csv"
   }, 
+  "description": "Directory of New York State county fairs for the current year, provided by the NYS Department of Agriculture and Markets.  The dataset includes the address and county of the fair, the fair\u2019s begin and end dates and the website address for each fair.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ny.gov/api/views/wcwd-s5vt.json"
+    "attribution": "New York State Department of Agriculture and Markets", 
+    "category": "Recreation", 
+    "description": "Directory of New York State county fairs for the current year, provided by the NYS Department of Agriculture and Markets.  The dataset includes the address and county of the fair, the fair\u2019s begin and end dates and the website address for each fair.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/wcwd-s5vt.json"
+    }
   }, 
-  "name": "socrata_ny_county_fairs_in_new_york_state", 
+  "name": "County Fairs in New York State", 
   "schema": {
     "columns": [
       {
@@ -57,5 +63,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ny_county_fairs_in_new_york_state"
 }
