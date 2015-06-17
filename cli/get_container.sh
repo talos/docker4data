@@ -3,7 +3,7 @@
 DUMPS=http://data.docker4data.com.s3-website-us-east-1.amazonaws.com/sqldump
 
 #docker pull thegovlab/docker4data:latest
-docker rm -f docker4data || :
+#docker rm -f docker4data || :
 
 DATASETS=$@
 #for DATASET in ${DATASETS}; do
