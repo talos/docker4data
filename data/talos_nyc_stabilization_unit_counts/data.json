@@ -1,9 +1,9 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/talos_nyc_stabilization_unit_counts/data.json",
-  "name": "talos_nyc_stabilization_unit_counts",
   "data": {
     "@id": "http://taxbills.nyc/joined.csv"
   },
+  "description": "Rent stabilized unit counts by BBL, self-reported on tax filings.", 
   "load": {
     "type": "csv"
   },
@@ -11,6 +11,7 @@
     "postgres": {
       "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/talos_nyc_stabilization_unit_counts/schema.sql"
     }
-  }
+  },
+  "tableName": "talos_nyc_stabilization_unit_counts"
 }
 
