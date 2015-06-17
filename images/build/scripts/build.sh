@@ -26,7 +26,9 @@ METADATA_DIGEST=$(python /scripts/build.py $data_json $S3_BUCKET/$SQLDUMP $TMPDI
 echo metadata digest: $METADATA_DIGEST
 
 /scripts/dump.sh $NAME $TMPDIR/$NAME
-DATA_DIGEST=$(sha1sum $TMPDIR/$NAME | cut -f 1 -d ' ')
+
+# Calculate data digest from raw data, as SQL dumps change.
+DATA_DIGEST=$(sha1sum $TMPDIR/${NAME}.data | cut -f 1 -d ' ')
 echo data digest: $DATA_DIGEST
 
 OLD_DATA_DIGEST=$(aws s3api head-object \
