@@ -23,7 +23,7 @@ DATASETS=$@
 #done
 
 echo "Running docker4data container to import data"
-docker run -p 54321:5432 -d --name docker4data thegovlab/docker4data
+docker run -p 54321:5432 -d --name docker4data thegovlab/docker4data >/dev/null 2>&1 || echo "Container already running"
 
 for DATASET in ${DATASETS}; do
   docker exec docker4data mkdir -p /$DATASET/
