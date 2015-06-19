@@ -2,25 +2,7 @@
 
 DUMPS=http://data.docker4data.com.s3-website-us-east-1.amazonaws.com/sqldump
 
-#docker pull thegovlab/docker4data:latest
-#docker rm -f docker4data || :
-
 DATASETS=$@
-#for DATASET in ${DATASETS}; do
-#  docker rm -f ${DATASET} || :
-#  IMAGE=thegovlab/d4d-$(echo ${DATASET} | cut -c 1-26)
-#  docker pull ${IMAGE}:latest &
-#done
-#
-#echo 'Waiting for data to pull.'
-#wait
-
-#VOLUMES_FROM=''
-#for DATASET in ${DATASETS}; do
-#  IMAGE=thegovlab/d4d-$(echo ${DATASET} | cut -c 1-26)
-#  DATA_CONTAINER=$(docker run --name ${DATASET} -d -v /${DATASET} ${IMAGE} sh)
-#  VOLUMES_FROM="${VOLUMES_FROM} --volumes-from ${DATASET}"
-#done
 
 echo "Running docker4data container to import data"
 docker run -p 54321:5432 -d --name docker4data thegovlab/docker4data >/dev/null 2>&1 || echo "Container already running"
