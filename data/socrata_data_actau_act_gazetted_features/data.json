@@ -8,11 +8,11 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "attribution": "Environment and Planning Directorate", 
-    "category": "Imagery / Maps", 
-    "description": "The feature names layer holds a wide range of names including names that are official, commercial or colloquial. .  Each instance in the FEATURE_NAMES table represents a single use of a name, and has a number of attached attributes that provide additional information about the name.", 
+    "attribution": "ACT Goverment", 
+    "category": "People and Society", 
+    "description": "Feature names are captured though various means. Each instance of the name represents a single use of a name and that name can be applied across various locations. Some of these feature names are gazetted, such as streets, divisions, locations etc but not all including but not limited to commercial buildings etc. Feature names are stored in SDMS and maintained in two ways. Names may be maintained though geomedia custom commands. Or they may be maintained though the nomenclature oracle forms as they were prior to SDMS implementation. Feature names are constantly maintained in a effort to have a high data integrity.", 
     "socrata": {
-      "@id": "http://www.opendatacache.com/www.data.act.gov.au/api/views/93da-yhcs.json"
+      "@id": "http://www.opendatacache.com/www.data.act.gov.au/api/views/wyif-uh5r.json"
     }
   }, 
   "name": "ACT GAZETTED FEATURES", 
@@ -43,8 +43,12 @@
         "type": "real"
       }, 
       {
-        "name": "location_1", 
-        "type": "text"
+        "name": "latitude", 
+        "type": "real"
+      }, 
+      {
+        "name": "longitude", 
+        "type": "real"
       }
     ]
   }, 

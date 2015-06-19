@@ -1,0 +1,44 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_prevalence_and_mean_of_dental_caries_cavities/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/c59t-7iqd/rows.csv"
+  }, 
+  "description": "This is the weighted prevalence of 1,276 schoolchildren.  1,276 out of 1,280 cases examined had prevalence available. One out of 1,276 cases had grade information missed, 564 were in Kindergarten and 711 in 3rd grade.  Prevalence is defined as occurrence of any caries among all selected population.  Mean is the average number of teeth with caries among students with caries in the selected population.  Region Identifiers and Constituent Counties:\t\r\nWestern (Allegany, Frederick, Garrett, Washington); Central D.C. (Howard, Montgomery, Prince George\u2019s); Southern (Calvert, Charles, St. Mary\u2019s); Central Baltimore (Anne Arundel, Baltimore City, Baltimore County, Carroll, Harford); Eastern Shore (Caroline, Cecil, Dorchester, Kent, Queen Anne\u2019s, Somerset, Talbot, Wicomico, Worcester).", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Survey of the Oral Health Status of Maryland School Children, 2005-2006. Office of Oral Health", 
+    "category": "Health and Human Services", 
+    "description": "This is the weighted prevalence of 1,276 schoolchildren.  1,276 out of 1,280 cases examined had prevalence available. One out of 1,276 cases had grade information missed, 564 were in Kindergarten and 711 in 3rd grade.  Prevalence is defined as occurrence of any caries among all selected population.  Mean is the average number of teeth with caries among students with caries in the selected population.  Region Identifiers and Constituent Counties:\t\r\nWestern (Allegany, Frederick, Garrett, Washington); Central D.C. (Howard, Montgomery, Prince George\u2019s); Southern (Calvert, Charles, St. Mary\u2019s); Central Baltimore (Anne Arundel, Baltimore City, Baltimore County, Carroll, Harford); Eastern Shore (Caroline, Cecil, Dorchester, Kent, Queen Anne\u2019s, Somerset, Talbot, Wicomico, Worcester).", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/c59t-7iqd.json"
+    }
+  }, 
+  "name": "Prevalence and Mean of Dental Caries (Cavities) among Maryland School Children, 2005-2006", 
+  "schema": {
+    "columns": [
+      {
+        "name": "characteristic", 
+        "type": "text"
+      }, 
+      {
+        "name": "prevalence", 
+        "type": "real"
+      }, 
+      {
+        "name": "prevalence_standard_error_se", 
+        "type": "real"
+      }, 
+      {
+        "name": "mean", 
+        "type": "real"
+      }, 
+      {
+        "name": "mean_standard_error_se", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "tableName": "socrata_maryland_prevalence_and_mean_of_dental_caries_cavities"
+}

@@ -7,9 +7,11 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/w3wk-69m7.json"
+    "socrata": {
+      "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/w3wk-69m7.json"
+    }
   }, 
-  "name": "socrata_healthmeasures_aspe_hhs_site_updates", 
+  "name": "Site Updates", 
   "schema": {
     "columns": [
       {
@@ -25,5 +27,6 @@
         "type": "timestamp"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_healthmeasures_aspe_hhs_site_updates"
 }

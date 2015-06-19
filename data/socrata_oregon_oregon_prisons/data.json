@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/dsje-kuhw/rows.csv"
   }, 
+  "description": "Names and addresses of Oregon State Prisons", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.oregon.gov/api/views/dsje-kuhw.json"
+    "attribution": "Oregon Department of Corrections", 
+    "category": "Public Safety", 
+    "description": "Names and addresses of Oregon State Prisons", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/dsje-kuhw.json"
+    }
   }, 
-  "name": "socrata_oregon_oregon_prisons", 
+  "name": "Oregon Prisons", 
   "schema": {
     "columns": [
       {
@@ -49,5 +55,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_oregon_oregon_prisons"
 }

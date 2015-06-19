@@ -7,9 +7,11 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.oregon.gov/api/views/kafc-72dh.json"
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/kafc-72dh.json"
+    }
   }, 
-  "name": "socrata_oregon_sample_health_file", 
+  "name": "Sample Health File", 
   "schema": {
     "columns": [
       {
@@ -53,5 +55,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_oregon_sample_health_file"
 }

@@ -1,0 +1,68 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_baltimorecity_housing_permits/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/fesm-tgxf/rows.csv"
+  }, 
+  "description": "Baltimore Housing's Office of Permits & Building Inspections enforces the Baltimore City Building Code, as well as state laws pertaining to construction and occupancy. This office issues building permits and provides subsequent inspections for; construction, alteration, electrical, mechanical and plumbing work in both commercial and residential structures. File your completed application in person at: The One- Stop Shop, 417 E. Fayette St., Room 100. Not sure if your project requires a permit? Call us at 410-396-3360", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Baltimore Housing's Office of Permits & Building Inspections", 
+    "category": "Housing & Development", 
+    "description": "Baltimore Housing's Office of Permits & Building Inspections enforces the Baltimore City Building Code, as well as state laws pertaining to construction and occupancy. This office issues building permits and provides subsequent inspections for; construction, alteration, electrical, mechanical and plumbing work in both commercial and residential structures. File your completed application in person at: The One- Stop Shop, 417 E. Fayette St., Room 100. Not sure if your project requires a permit? Call us at 410-396-3360", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/fesm-tgxf.json"
+    }
+  }, 
+  "name": "Housing Permits", 
+  "schema": {
+    "columns": [
+      {
+        "name": "block", 
+        "type": "text"
+      }, 
+      {
+        "name": "lot", 
+        "type": "text"
+      }, 
+      {
+        "name": "propertyaddress", 
+        "type": "text"
+      }, 
+      {
+        "name": "permitnum", 
+        "type": "text"
+      }, 
+      {
+        "name": "dateissue", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "permitdescription", 
+        "type": "text"
+      }, 
+      {
+        "name": "cost_est", 
+        "type": "real"
+      }, 
+      {
+        "name": "fee_permit", 
+        "type": "real"
+      }, 
+      {
+        "name": "dateexpire", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "prop_use", 
+        "type": "text"
+      }, 
+      {
+        "name": "existing_use", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "socrata_baltimorecity_housing_permits"
+}

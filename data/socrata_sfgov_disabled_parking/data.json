@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/wc6f-brai/rows.csv"
   }, 
+  "description": "All disabled parking spaces as of September 2011. Find attached a data dictionary, a version of the map as a PDF, and a shapefile of the data. Data includes locations and site details; space characteristics, such as space length, side of street the space is located on, curb quality; post ID equivalent, if located in a metered area; date of site visit for available data.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.sfgov.org/api/views/wc6f-brai.json"
+    "attribution": "SFMTA, SFpark", 
+    "category": "Transportation", 
+    "description": "All disabled parking spaces as of September 2011. Find attached a data dictionary, a version of the map as a PDF, and a shapefile of the data. Data includes locations and site details; space characteristics, such as space length, side of street the space is located on, curb quality; post ID equivalent, if located in a metered area; date of site visit for available data.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/wc6f-brai.json"
+    }
   }, 
-  "name": "socrata_sfgov_disabled_parking", 
+  "name": "Disabled Parking", 
   "schema": {
     "columns": [
       {
@@ -49,5 +55,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_sfgov_disabled_parking"
 }

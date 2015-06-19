@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/kppy-esfu/rows.csv"
   }, 
+  "description": "Data on  the uses categories of City owned property", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/kppy-esfu.json"
+    "attribution": "City of Seattle", 
+    "category": "Land Base", 
+    "description": "Data on  the uses categories of City owned property", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/kppy-esfu.json"
+    }
   }, 
-  "name": "socrata_seattle_property_management_area_uses", 
+  "name": "Property Management Area Uses", 
   "schema": {
     "columns": [
       {
@@ -57,5 +63,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_property_management_area_uses"
 }

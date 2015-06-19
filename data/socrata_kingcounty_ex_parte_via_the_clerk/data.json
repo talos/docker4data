@@ -1,0 +1,40 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_kingcounty_ex_parte_via_the_clerk/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/sem2-idbn/rows.csv"
+  }, 
+  "description": "An ex parte decision is one decided by a judge without requiring all of the parties to the controversy to be present. Those matters required to be noted for hearing on a specific Ex Parte calendar are to be presented by the parties directly, in person, regardless of the stated presentation method on this Master List", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "King County Superior Court Clerk", 
+    "category": "Legal", 
+    "description": "An ex parte decision is one decided by a judge without requiring all of the parties to the controversy to be present. Those matters required to be noted for hearing on a specific Ex Parte calendar are to be presented by the parties directly, in person, regardless of the stated presentation method on this Master List", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/sem2-idbn.json"
+    }
+  }, 
+  "name": "Ex-Parte via the Clerk", 
+  "schema": {
+    "columns": [
+      {
+        "name": "case_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "case_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "document_title", 
+        "type": "text"
+      }, 
+      {
+        "name": "presentation_method", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "socrata_kingcounty_ex_parte_via_the_clerk"
+}

@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/rq9d-pctf/rows.csv"
   }, 
+  "description": "This dataset contains all World Bank project assessments carried out by the Independent Evaluation Group (IEG) since the unit was created back in the 70s. Spanning over 30 years, the collection has more than 10,900 project assessments, covering more than 9,200 completed projects; it is perhaps the longest-running and most comprehensive project performance data collection of its kind. The dataset also includes references to over 5,200 source evaluation documents.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/finances.worldbank.org/api/views/rq9d-pctf.json"
+    "attribution": "World Bank Group", 
+    "description": "This dataset contains all World Bank project assessments carried out by the Independent Evaluation Group (IEG) since the unit was created back in the 70s. Spanning over 30 years, the collection has more than 10,900 project assessments, covering more than 9,200 completed projects; it is perhaps the longest-running and most comprehensive project performance data collection of its kind. The dataset also includes references to over 5,200 source evaluation documents.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/rq9d-pctf.json"
+    }
   }, 
-  "name": "socrata_finances_worldbank_ieg_world_bank_project_performance_", 
+  "name": "IEG World Bank Project Performance Ratings", 
   "schema": {
     "columns": [
       {
@@ -34,7 +39,7 @@
       }, 
       {
         "name": "approval_date", 
-        "type": "text"
+        "type": "timestamp"
       }, 
       {
         "name": "approval_fy", 
@@ -53,8 +58,12 @@
         "type": "real"
       }, 
       {
+        "name": "net_commitment", 
+        "type": "real"
+      }, 
+      {
         "name": "deactivation_date", 
-        "type": "text"
+        "type": "timestamp"
       }, 
       {
         "name": "exit_fy", 
@@ -78,7 +87,7 @@
       }, 
       {
         "name": "ieg_evaldate", 
-        "type": "text"
+        "type": "timestamp"
       }, 
       {
         "name": "ieg_evalfy", 
@@ -145,5 +154,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_finances_worldbank_ieg_world_bank_project_performance_"
 }

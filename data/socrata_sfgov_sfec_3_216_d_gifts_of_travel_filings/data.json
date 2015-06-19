@@ -1,0 +1,72 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_sfec_3_216_d_gifts_of_travel_filings/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/uqhk-vesf/rows.csv"
+  }, 
+  "description": "Under section 3.216(d) of the San Francisco Campaign and Governmental Conduct Code, form SFEC-3.216(d) must be filed by an elected officer who either:\n\n(a) accepts a gift of transportation, lodging, or subsistence for any out-of-state travel that is paid for in part by an entity other than the City and County of San Francisco, another governmental body, or a bona-fide educational institution as defined in section 203 of the Revenue and Taxation Code, or that is paid for by the City in whole or in part with funds donated from any entity other than another governmental body or bona fide educational institution as defined in Section 203 of the Revenue and Taxation Code; or\n(b) reimburses the entity for the gift of transportation, lodging or subsistence in order to avoid receiving a gift.\n\nThis table includes filings from April 2015 to the present.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "San Francisco Ethics Commission", 
+    "category": "City Management and Ethics", 
+    "description": "Under section 3.216(d) of the San Francisco Campaign and Governmental Conduct Code, form SFEC-3.216(d) must be filed by an elected officer who either:\n\n(a) accepts a gift of transportation, lodging, or subsistence for any out-of-state travel that is paid for in part by an entity other than the City and County of San Francisco, another governmental body, or a bona-fide educational institution as defined in section 203 of the Revenue and Taxation Code, or that is paid for by the City in whole or in part with funds donated from any entity other than another governmental body or bona fide educational institution as defined in Section 203 of the Revenue and Taxation Code; or\n(b) reimburses the entity for the gift of transportation, lodging or subsistence in order to avoid receiving a gift.\n\nThis table includes filings from April 2015 to the present.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/uqhk-vesf.json"
+    }
+  }, 
+  "name": "SFEC 3.216(d) Gifts of Travel Filings", 
+  "schema": {
+    "columns": [
+      {
+        "name": "elected_officer_last_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "elected_officer_first_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "office_held", 
+        "type": "text"
+      }, 
+      {
+        "name": "date_filed", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "trip", 
+        "type": "text"
+      }, 
+      {
+        "name": "purpose_of_travel", 
+        "type": "text"
+      }, 
+      {
+        "name": "period_start_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "period_end_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "amount", 
+        "type": "real"
+      }, 
+      {
+        "name": "note_regarding_amount", 
+        "type": "text"
+      }, 
+      {
+        "name": "filing", 
+        "type": "text"
+      }, 
+      {
+        "name": "amendment", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "socrata_sfgov_sfec_3_216_d_gifts_of_travel_filings"
+}

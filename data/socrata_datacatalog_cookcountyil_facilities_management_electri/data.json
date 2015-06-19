@@ -3,19 +3,29 @@
   "data": {
     "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/3zcj-x7hs/rows.csv"
   }, 
+  "description": "Updated 10/31/2011. The monthly electricity usage of Cook County Government facilities, in kw/h and dollars 2007 - September 2011.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
     "attribution": "Cook County Department of Facilities Management", 
     "category": "Finance & Administration", 
+    "description": "Updated 10/31/2011. The monthly electricity usage of Cook County Government facilities, in kw/h and dollars 2007 - September 2011.", 
     "socrata": {
-      "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/avst-7ttu.json"
+      "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/z8wm-7fjb.json"
     }
   }, 
-  "name": "Facilities Management - Electricity Usage, 2121 Euclid Av Facility, by Month - Fiscal Year 2008 through February 2012", 
+  "name": "Facilities Management - Electricity usage per month, by Cook County Government facilities - 2007 through September 2011", 
   "schema": {
     "columns": [
+      {
+        "name": "service_address", 
+        "type": "text"
+      }, 
+      {
+        "name": "service_town", 
+        "type": "text"
+      }, 
       {
         "name": "month", 
         "type": "text"
@@ -25,11 +35,11 @@
         "type": "text"
       }, 
       {
-        "name": "usage_kwh", 
+        "name": "usage_therms_", 
         "type": "text"
       }, 
       {
-        "name": "cost", 
+        "name": "total_cost", 
         "type": "real"
       }, 
       {

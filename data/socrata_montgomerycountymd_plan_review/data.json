@@ -1,0 +1,59 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_montgomerycountymd_plan_review/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/s8xg-6upf/rows.csv"
+  }, 
+  "description": "Plan reviews completed by Permitting Services. Update Frequency: Daily", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "category": "Licenses/Permits", 
+    "description": "Plan reviews completed by Permitting Services. Update Frequency: Daily", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/s8xg-6upf.json"
+    }
+  }, 
+  "name": "Plan Review", 
+  "schema": {
+    "columns": [
+      {
+        "name": "permitno", 
+        "type": "text"
+      }, 
+      {
+        "name": "permit_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "reviewkey", 
+        "type": "text"
+      }, 
+      {
+        "name": "reviewtype", 
+        "type": "text"
+      }, 
+      {
+        "name": "startby", 
+        "type": "text"
+      }, 
+      {
+        "name": "startdttm", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "compby", 
+        "type": "text"
+      }, 
+      {
+        "name": "compdttm", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "result", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "socrata_montgomerycountymd_plan_review"
+}

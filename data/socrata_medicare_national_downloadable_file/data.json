@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/s63f-csi6/rows.csv"
   }, 
+  "description": "The Physician Compare downloadable file is organized at the individual provider level; each line is unique at the provider/enrollment/organization/address level. Providers with multiple enrollments and/or single enrollments linking to multiple practice location addresses are listed on multiple lines.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.medicare.gov/api/views/s63f-csi6.json"
+    "category": "Physician Compare", 
+    "description": "The Physician Compare downloadable file is organized at the individual provider level; each line is unique at the provider/enrollment/organization/address level. Providers with multiple enrollments and/or single enrollments linking to multiple practice location addresses are listed on multiple lines.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/s63f-csi6.json"
+    }
   }, 
-  "name": "socrata_medicare_national_downloadable_file", 
+  "name": "National Downloadable File", 
   "schema": {
     "columns": [
       {
@@ -185,5 +190,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_medicare_national_downloadable_file"
 }

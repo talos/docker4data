@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/x2vz-tbcx/rows.csv"
   }, 
+  "description": "A high level collection of pageviews and session information based on Google Analytics data. Not all city web servers are tagged with Google Analytics and not all servers appear in this report. These are the main customer focused web servers at the city.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/x2vz-tbcx.json"
+    "attribution": "City of Seattle", 
+    "category": "City Business", 
+    "description": "A high level collection of pageviews and session information based on Google Analytics data. Not all city web servers are tagged with Google Analytics and not all servers appear in this report. These are the main customer focused web servers at the city.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/x2vz-tbcx.json"
+    }
   }, 
-  "name": "socrata_seattle_cos_websites_statistics", 
+  "name": "COS-Websites-Statistics", 
   "schema": {
     "columns": [
       {
@@ -45,5 +51,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_cos_websites_statistics"
 }

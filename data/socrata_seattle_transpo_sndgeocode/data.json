@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/imfu-h4ge/rows.csv"
   }, 
+  "description": "Streets, walkways & bridges coded by type and geocode segments.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/imfu-h4ge.json"
+    "attribution": "Seattle GIS Program", 
+    "category": "Land Base", 
+    "description": "Streets, walkways & bridges coded by type and geocode segments.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/imfu-h4ge.json"
+    }
   }, 
-  "name": "socrata_seattle_transpo_sndgeocode", 
+  "name": "TRANSPO.SNDGEOCODE", 
   "schema": {
     "columns": [
       {
@@ -77,5 +83,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_transpo_sndgeocode"
 }

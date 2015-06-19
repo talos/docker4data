@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.wa.gov/api/views/y3ds-rkew/rows.csv"
   }, 
+  "description": "State Employee Salaries by Calendar Year", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.wa.gov/api/views/y3ds-rkew.json"
+    "attribution": "fiscal.wa.gov", 
+    "category": "Labor", 
+    "description": "State Employee Salaries by Calendar Year", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.wa.gov/api/views/y3ds-rkew.json"
+    }
   }, 
-  "name": "socrata_wa_annual_salary_2010_thru_2013", 
+  "name": "Annual Salary 2010 thru 2013", 
   "schema": {
     "columns": [
       {
@@ -45,5 +51,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_wa_annual_salary_2010_thru_2013"
 }

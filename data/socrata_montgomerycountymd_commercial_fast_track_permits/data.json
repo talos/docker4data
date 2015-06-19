@@ -1,0 +1,91 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_montgomerycountymd_commercial_fast_track_permits/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/drdm-p89i/rows.csv"
+  }, 
+  "description": "Commercial alteration permits issued through DPS' Fast Track process.\r\nUpdate Frequency : Daily.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "category": "Licenses/Permits", 
+    "description": "Commercial alteration permits issued through DPS' Fast Track process.\r\nUpdate Frequency : Daily.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/drdm-p89i.json"
+    }
+  }, 
+  "name": "Commercial Fast Track Permits", 
+  "schema": {
+    "columns": [
+      {
+        "name": "permitno", 
+        "type": "text"
+      }, 
+      {
+        "name": "processdate", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "issueddate", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "finaleddate", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "buildingarea", 
+        "type": "real"
+      }, 
+      {
+        "name": "declaredvaluation", 
+        "type": "real"
+      }, 
+      {
+        "name": "description", 
+        "type": "text"
+      }, 
+      {
+        "name": "worktype", 
+        "type": "text"
+      }, 
+      {
+        "name": "usecode", 
+        "type": "text"
+      }, 
+      {
+        "name": "stno", 
+        "type": "text"
+      }, 
+      {
+        "name": "predir", 
+        "type": "text"
+      }, 
+      {
+        "name": "stname", 
+        "type": "text"
+      }, 
+      {
+        "name": "suffix", 
+        "type": "text"
+      }, 
+      {
+        "name": "postdir", 
+        "type": "text"
+      }, 
+      {
+        "name": "city", 
+        "type": "text"
+      }, 
+      {
+        "name": "state", 
+        "type": "text"
+      }, 
+      {
+        "name": "zip", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "socrata_montgomerycountymd_commercial_fast_track_permits"
+}

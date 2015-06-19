@@ -3,13 +3,17 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.wa.gov/api/views/xa6q-pw7x/rows.csv"
   }, 
+  "description": "Historical usage of data.wa.gov installation beginning in 2009", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.wa.gov/api/views/xa6q-pw7x.json"
+    "description": "Historical usage of data.wa.gov installation beginning in 2009", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.wa.gov/api/views/xa6q-pw7x.json"
+    }
   }, 
-  "name": "socrata_wa_data_wasite_metrics", 
+  "name": "Data WAsite Metrics", 
   "schema": {
     "columns": [
       {
@@ -177,5 +181,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_wa_data_wasite_metrics"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/egc4-d24i/rows.csv"
   }, 
+  "description": "This data is derived from sensor stations placed on bridges and surface streets within city limits.  Each station has a temperature sensor that measures the temperature of the street surface and a sensor that measures the ambient air temperature at the station each second.  Those values are averaged into temperature readings that are recorded by the station every minute.  The dataset is updated every fifteen minutes with new data.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/egc4-d24i.json"
+    "attribution": "Department of Transportation", 
+    "category": "Transportation", 
+    "description": "This data is derived from sensor stations placed on bridges and surface streets within city limits.  Each station has a temperature sensor that measures the temperature of the street surface and a sensor that measures the ambient air temperature at the station each second.  Those values are averaged into temperature readings that are recorded by the station every minute.  The dataset is updated every fifteen minutes with new data.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/egc4-d24i.json"
+    }
   }, 
-  "name": "socrata_seattle_road_weather_information_stations", 
+  "name": "Road Weather Information Stations", 
   "schema": {
     "columns": [
       {
@@ -37,5 +43,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_road_weather_information_stations"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/vwis-5pa9/rows.csv"
   }, 
+  "description": "Arts organizations in Seattle\r\nTo add an organization please use the form at http://data.seattle.gov/Community/Add-new-Arts-Organization/dhvi-6ck6", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/vwis-5pa9.json"
+    "attribution": "Department of Information Technology", 
+    "category": "Community", 
+    "description": "Arts organizations in Seattle\r\nTo add an organization please use the form at http://data.seattle.gov/Community/Add-new-Arts-Organization/dhvi-6ck6", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/vwis-5pa9.json"
+    }
   }, 
-  "name": "socrata_seattle_arts_organizations", 
+  "name": "ARTS ORGANIZATIONS", 
   "schema": {
     "columns": [
       {
@@ -37,5 +43,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_arts_organizations"
 }

@@ -3,13 +3,17 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/mp57-qvt8/rows.csv"
   }, 
+  "description": "All public datasets for data.seattle.gov", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/mp57-qvt8.json"
+    "description": "All public datasets for data.seattle.gov", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/mp57-qvt8.json"
+    }
   }, 
-  "name": "socrata_seattle_dsg_public_datasets", 
+  "name": "Dsg Public Datasets", 
   "schema": {
     "columns": [
       {
@@ -49,5 +53,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_dsg_public_datasets"
 }

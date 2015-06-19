@@ -1,0 +1,68 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_data_actau_act_wildlife_atlas_records/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/www.data.act.gov.au/api/views/e9ux-7djy/rows.csv"
+  }, 
+  "description": "This spatial dataset maps the location of wildlife records held within the ACT Wildlife Atlas up until December 2014. Records include mammals, fish, amphibians, invertebrates, reptiles and birds. Some sensitive records have been withheld.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "ACT Goverment", 
+    "category": "Environment", 
+    "description": "This spatial dataset maps the location of wildlife records held within the ACT Wildlife Atlas up until December 2014. Records include mammals, fish, amphibians, invertebrates, reptiles and birds. Some sensitive records have been withheld.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/www.data.act.gov.au/api/views/e9ux-7djy.json"
+    }
+  }, 
+  "name": "ACT Wildlife Atlas Records", 
+  "schema": {
+    "columns": [
+      {
+        "name": "fid", 
+        "type": "real"
+      }, 
+      {
+        "name": "commonname", 
+        "type": "text"
+      }, 
+      {
+        "name": "scientificname", 
+        "type": "text"
+      }, 
+      {
+        "name": "recorddate", 
+        "type": "text"
+      }, 
+      {
+        "name": "easting_mga", 
+        "type": "real"
+      }, 
+      {
+        "name": "northing_mga", 
+        "type": "real"
+      }, 
+      {
+        "name": "individualcount", 
+        "type": "real"
+      }, 
+      {
+        "name": "coordinateuncertaintyinmeters", 
+        "type": "real"
+      }, 
+      {
+        "name": "geodeticdatum", 
+        "type": "text"
+      }, 
+      {
+        "name": "data_resource_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "location_1", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "socrata_data_actau_act_wildlife_atlas_records"
+}

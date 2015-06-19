@@ -1,0 +1,68 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_healthny_radon_test_results_by_county_beginning_1987/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/8e6u-9695/rows.csv"
+  }, 
+  "description": "The DOH Radon Program contracts with a radon testing laboratory to provide short-term charcoal radon test kits, radon test kit analysis and results to residents.   The contract laboratory provides the radon test results to the individual home owner and the DOH Radon Program. All testing data is entered into our database. From this database, we are able to create radon prevalence maps, design special outreach activities and campaigns, and track the location in the home where the detector was placed.  \r\n\r\nThe radon test results obtained from this database may not be reflective of all radon tests completed in New York State. There are approximately 30,000-40,000 radon tests completed each year in New York State that are not purchased through the NYSDOH Radon Program. These tests are completed by resident home owners, inspectors, schools, etc. across the state.\r\n\r\nFor more information check out, http://www.health.ny.gov/environmental/radiological/radon/radon.htm ,or go to the \"About\" tab.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New York State Department of Health", 
+    "category": "Health", 
+    "description": "The DOH Radon Program contracts with a radon testing laboratory to provide short-term charcoal radon test kits, radon test kit analysis and results to residents.   The contract laboratory provides the radon test results to the individual home owner and the DOH Radon Program. All testing data is entered into our database. From this database, we are able to create radon prevalence maps, design special outreach activities and campaigns, and track the location in the home where the detector was placed.  \r\n\r\nThe radon test results obtained from this database may not be reflective of all radon tests completed in New York State. There are approximately 30,000-40,000 radon tests completed each year in New York State that are not purchased through the NYSDOH Radon Program. These tests are completed by resident home owners, inspectors, schools, etc. across the state.\r\n\r\nFor more information check out, http://www.health.ny.gov/environmental/radiological/radon/radon.htm ,or go to the \"About\" tab.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/8e6u-9695.json"
+    }
+  }, 
+  "name": "Radon Test Results By County: Beginning 1987", 
+  "schema": {
+    "columns": [
+      {
+        "name": "county", 
+        "type": "text"
+      }, 
+      {
+        "name": "test_location_in_home", 
+        "type": "text"
+      }, 
+      {
+        "name": "of_homes_tested", 
+        "type": "real"
+      }, 
+      {
+        "name": "average_radon_pci_l", 
+        "type": "real"
+      }, 
+      {
+        "name": "geo_mean", 
+        "type": "real"
+      }, 
+      {
+        "name": "geo_s_d", 
+        "type": "real"
+      }, 
+      {
+        "name": "highest_pci_l", 
+        "type": "real"
+      }, 
+      {
+        "name": "number_of_radon_tests_4_pci_l", 
+        "type": "real"
+      }, 
+      {
+        "name": "number_of_radon_tests_4_20_pci_l", 
+        "type": "real"
+      }, 
+      {
+        "name": "number_of_radon_tests_20_pci_l", 
+        "type": "real"
+      }, 
+      {
+        "name": "location_1", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "socrata_healthny_radon_test_results_by_county_beginning_1987"
+}

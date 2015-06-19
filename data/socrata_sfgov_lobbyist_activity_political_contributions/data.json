@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/sa8r-purn/rows.csv"
   }, 
+  "description": "All political contributions of $100 or more made or delivered by the lobbyist or the lobbyist's employer, or made by a client at the behest of the lobbyist or the lobbyist's employer during the reporting period to an officer of the City and County, a candidate for such office, a committee controlled by such officer or candidate, or a committee primarily formed to support or oppose such officer or candidate, or any committee primarily formed to support or oppose a ballot measure to be voted on only in San Francisco. This includes political contributions arranged by the lobbyist, or for which the lobbyist acted as an agent or intermediary.\r\n\r\nPolitical contributions are disclosed by lobbyists registered with the Ethics Commission on a monthly basis.  This dataset updates automatically every night.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.sfgov.org/api/views/sa8r-purn.json"
+    "attribution": "San Francisco Ethics Commission", 
+    "category": "City Management and Ethics", 
+    "description": "All political contributions of $100 or more made or delivered by the lobbyist or the lobbyist's employer, or made by a client at the behest of the lobbyist or the lobbyist's employer during the reporting period to an officer of the City and County, a candidate for such office, a committee controlled by such officer or candidate, or a committee primarily formed to support or oppose such officer or candidate, or any committee primarily formed to support or oppose a ballot measure to be voted on only in San Francisco. This includes political contributions arranged by the lobbyist, or for which the lobbyist acted as an agent or intermediary.\r\n\r\nPolitical contributions are disclosed by lobbyists registered with the Ethics Commission on a monthly basis.  This dataset updates automatically every night.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/sa8r-purn.json"
+    }
   }, 
-  "name": "socrata_sfgov_lobbyist_activity_political_contributions", 
+  "name": "Lobbyist Activity - Political Contributions", 
   "schema": {
     "columns": [
       {
@@ -45,5 +51,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_sfgov_lobbyist_activity_political_contributions"
 }

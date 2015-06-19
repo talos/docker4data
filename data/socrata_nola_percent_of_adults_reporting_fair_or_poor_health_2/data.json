@@ -1,0 +1,44 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_nola_percent_of_adults_reporting_fair_or_poor_health_2/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.nola.gov/api/views/3gnx-78r4/rows.csv"
+  }, 
+  "description": "This dataset includes the percent of adults reporting fair or poor health for Orleans Parish and several benchmark counties, including: Davidson County (TN), East Baton Rouge Parish (LA), Fulton County (GA), Hillsborough County (FL), Jefferson County (KY), Miami-Dade County (FL), Oklahoma County (OK), Shelby County (TN), and Wake County (NC). The data comes from the County Health Rankings and Roadmaps analysis of Behavioral Risk Factor Surveillance System (BRFSS) data. BRFSS is a national random digit dial (RDD) telephone survey. Data obtained from the BRFSS are representative of the total non-institutionalized population over 18 years of age living in households with a land line telephone. For the County Health Rankings, data from the BRFSS are used to measure various health behaviors and health-related quality of life (HRQoL) indicators. All data from the BRFSS are weighted by population and the HRQoL measures are age-adjusted. County Health Rankings obtained county-level measures, in almost all instances aggregated over seven years, from the National Center for Health Statistics (NCHS)/Centers for Disease Control and Prevention (CDC).", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "County Health Rankings and Roadmaps, University of Wisconsin", 
+    "category": "Health, Education, and Social Services", 
+    "description": "This dataset includes the percent of adults reporting fair or poor health for Orleans Parish and several benchmark counties, including: Davidson County (TN), East Baton Rouge Parish (LA), Fulton County (GA), Hillsborough County (FL), Jefferson County (KY), Miami-Dade County (FL), Oklahoma County (OK), Shelby County (TN), and Wake County (NC). The data comes from the County Health Rankings and Roadmaps analysis of Behavioral Risk Factor Surveillance System (BRFSS) data. BRFSS is a national random digit dial (RDD) telephone survey. Data obtained from the BRFSS are representative of the total non-institutionalized population over 18 years of age living in households with a land line telephone. For the County Health Rankings, data from the BRFSS are used to measure various health behaviors and health-related quality of life (HRQoL) indicators. All data from the BRFSS are weighted by population and the HRQoL measures are age-adjusted. County Health Rankings obtained county-level measures, in almost all instances aggregated over seven years, from the National Center for Health Statistics (NCHS)/Centers for Disease Control and Prevention (CDC).", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.nola.gov/api/views/3gnx-78r4.json"
+    }
+  }, 
+  "name": "Percent of Adults Reporting Fair or Poor Health (2008 - Present)", 
+  "schema": {
+    "columns": [
+      {
+        "name": "rowid", 
+        "type": "real"
+      }, 
+      {
+        "name": "county_parish", 
+        "type": "text"
+      }, 
+      {
+        "name": "year", 
+        "type": "real"
+      }, 
+      {
+        "name": "date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "indicatorvalue", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "socrata_nola_percent_of_adults_reporting_fair_or_poor_health_2"
+}

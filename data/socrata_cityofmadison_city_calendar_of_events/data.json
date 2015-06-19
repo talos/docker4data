@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.cityofmadison.com/api/views/gxhk-44q9/rows.csv"
   }, 
+  "description": "Date, Location, Categories: City Event, Elections, Environment, Holiday, City Offices Closed, Informational Meetings, Listening Session, Neighborhood Event/Meeting, Parks Events, Public Hearing/Meeting, Safety & Wellness, Seniors, Task Force; Cost; Aldermanic District; Contacts; Description of Event", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.cityofmadison.com/api/views/gxhk-44q9.json"
+    "attribution": "City of Madison", 
+    "category": "Events", 
+    "description": "Date, Location, Categories: City Event, Elections, Environment, Holiday, City Offices Closed, Informational Meetings, Listening Session, Neighborhood Event/Meeting, Parks Events, Public Hearing/Meeting, Safety & Wellness, Seniors, Task Force; Cost; Aldermanic District; Contacts; Description of Event", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofmadison.com/api/views/gxhk-44q9.json"
+    }
   }, 
-  "name": "socrata_cityofmadison_city_calendar_of_events", 
+  "name": "City Calendar of Events", 
   "schema": {
     "columns": [
       {
@@ -81,5 +87,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_cityofmadison_city_calendar_of_events"
 }

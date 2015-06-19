@@ -7,9 +7,12 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/ndi9-2pye.json"
+    "category": "Transportation", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/ndi9-2pye.json"
+    }
   }, 
-  "name": "socrata_seattle_transit_communities", 
+  "name": "Transit communities", 
   "schema": {
     "columns": [
       {
@@ -49,5 +52,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_transit_communities"
 }

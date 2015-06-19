@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.wa.gov/api/views/jym6-rqxg/rows.csv"
   }, 
+  "description": "Project oversight status details.  See OCIO IT Project Oversight Summary (https://data.wa.gov/resource/k495-fmg2) for main project information.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.wa.gov/api/views/jym6-rqxg.json"
+    "attribution": "Office of the CIO", 
+    "category": "Procurements and Contracts", 
+    "description": "Project oversight status details.  See OCIO IT Project Oversight Summary (https://data.wa.gov/resource/k495-fmg2) for main project information.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.wa.gov/api/views/jym6-rqxg.json"
+    }
   }, 
-  "name": "socrata_wa_ocio_it_project_oversight_status_details", 
+  "name": "OCIO IT Project Oversight Status Details", 
   "schema": {
     "columns": [
       {
@@ -25,11 +31,11 @@
         "type": "text"
       }, 
       {
-        "name": "schedule_status", 
+        "name": "budget_status", 
         "type": "text"
       }, 
       {
-        "name": "budget_status", 
+        "name": "schedule_status", 
         "type": "text"
       }, 
       {
@@ -41,5 +47,6 @@
         "type": "timestamp"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_wa_ocio_it_project_oversight_status_details"
 }

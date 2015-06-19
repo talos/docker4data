@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/tpvk-5fr3/rows.csv"
   }, 
+  "description": "This dataset includes Police In-Car video activities. Data shows activity of In-Car recorded video including, Officer Serial Number, Start (Date & Time) of video, post recording activity code and description. Data is refreshed on a weekly basis. Data is records of video and does not imply that there is actual playable video associated.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/tpvk-5fr3.json"
+    "attribution": "Seattle Police", 
+    "category": "Public Safety", 
+    "description": "This dataset includes Police In-Car video activities. Data shows activity of In-Car recorded video including, Officer Serial Number, Start (Date & Time) of video, post recording activity code and description. Data is refreshed on a weekly basis. Data is records of video and does not imply that there is actual playable video associated.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/tpvk-5fr3.json"
+    }
   }, 
-  "name": "socrata_seattle_coban_logs", 
+  "name": "COBAN Logs", 
   "schema": {
     "columns": [
       {
@@ -41,5 +47,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_coban_logs"
 }

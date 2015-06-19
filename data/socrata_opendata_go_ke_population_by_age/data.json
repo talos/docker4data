@@ -7,9 +7,12 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/opendata.go.ke/api/views/rjrk-enge.json"
+    "category": "Population", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/opendata.go.ke/api/views/rjrk-enge.json"
+    }
   }, 
-  "name": "socrata_opendata_go_ke_population_by_age", 
+  "name": "Population By Age", 
   "schema": {
     "columns": [
       {
@@ -45,5 +48,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_opendata_go_ke_population_by_age"
 }

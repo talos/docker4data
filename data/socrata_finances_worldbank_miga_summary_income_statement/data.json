@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/tm6i-3ngg/rows.csv"
   }, 
+  "description": "Provides summary income statement from quarterly .statements", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/finances.worldbank.org/api/views/tm6i-3ngg.json"
+    "attribution": "World Bank Group", 
+    "category": "Accounting and Control", 
+    "description": "Provides summary income statement from quarterly .statements", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/tm6i-3ngg.json"
+    }
   }, 
-  "name": "socrata_finances_worldbank_miga_summary_income_statement", 
+  "name": "MIGA Summary Income Statement", 
   "schema": {
     "columns": [
       {
@@ -33,5 +39,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_finances_worldbank_miga_summary_income_statement"
 }

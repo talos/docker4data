@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/vsxr-aydq/rows.csv"
   }, 
+  "description": "These are the results of this ongoing inventory of cultural space in Seattle. From the largest to the smallest, The Office of Arts & Culture are counting every theater, gallery, arts office, rehearsal room, library, music club, museum, and cinema in town.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/vsxr-aydq.json"
+    "attribution": "Office of Arts & Culture | Seattle", 
+    "category": "Community", 
+    "description": "These are the results of this ongoing inventory of cultural space in Seattle. From the largest to the smallest, The Office of Arts & Culture are counting every theater, gallery, arts office, rehearsal room, library, music club, museum, and cinema in town.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/vsxr-aydq.json"
+    }
   }, 
-  "name": "socrata_seattle_seattle_cultural_space_inventory", 
+  "name": "Seattle Cultural Space Inventory", 
   "schema": {
     "columns": [
       {
@@ -177,5 +183,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_seattle_cultural_space_inventory"
 }

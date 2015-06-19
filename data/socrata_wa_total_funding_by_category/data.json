@@ -7,9 +7,11 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.wa.gov/api/views/f3mm-bvaa.json"
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.wa.gov/api/views/f3mm-bvaa.json"
+    }
   }, 
-  "name": "socrata_wa_total_funding_by_category", 
+  "name": "Total Funding By Category", 
   "schema": {
     "columns": [
       {
@@ -33,5 +35,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_wa_total_funding_by_category"
 }

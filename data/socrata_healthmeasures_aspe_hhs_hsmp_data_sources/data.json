@@ -7,9 +7,11 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/u3f5-p47s.json"
+    "socrata": {
+      "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/u3f5-p47s.json"
+    }
   }, 
-  "name": "socrata_healthmeasures_aspe_hhs_hsmp_data_sources", 
+  "name": "HSMP Data Sources", 
   "schema": {
     "columns": [
       {
@@ -25,5 +27,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_healthmeasures_aspe_hhs_hsmp_data_sources"
 }

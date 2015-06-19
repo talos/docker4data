@@ -1,0 +1,108 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_raleighnc_re_zoning_requests/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.raleighnc.gov/api/views/k4is-g3ap/rows.csv"
+  }, 
+  "description": "Submitted re-zoning requests, including submitter or petitioner, date of submission and latest action, size of land concerned, re-zoning \"Remarks,\" and other details.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "City of Raleigh", 
+    "category": "Urban Planning", 
+    "description": "Submitted re-zoning requests, including submitter or petitioner, date of submission and latest action, size of land concerned, re-zoning \"Remarks,\" and other details.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.raleighnc.gov/api/views/k4is-g3ap.json"
+    }
+  }, 
+  "name": "Re-Zoning Requests", 
+  "schema": {
+    "columns": [
+      {
+        "name": "zpyear", 
+        "type": "text"
+      }, 
+      {
+        "name": "zpnum", 
+        "type": "real"
+      }, 
+      {
+        "name": "submittal_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "petitioner_s", 
+        "type": "text"
+      }, 
+      {
+        "name": "location", 
+        "type": "text"
+      }, 
+      {
+        "name": "remarks", 
+        "type": "text"
+      }, 
+      {
+        "name": "zp_petition_acres", 
+        "type": "real"
+      }, 
+      {
+        "name": "planning_commission_action_s", 
+        "type": "text"
+      }, 
+      {
+        "name": "city_council_actions", 
+        "type": "text"
+      }, 
+      {
+        "name": "ph_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "withdraw_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "effect_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "_120_day_exp_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "_2_year_expiration_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "grp_trans_num", 
+        "type": "real"
+      }, 
+      {
+        "name": "ordinance_number", 
+        "type": "text"
+      }, 
+      {
+        "name": "received_by", 
+        "type": "text"
+      }, 
+      {
+        "name": "last_revised", 
+        "type": "text"
+      }, 
+      {
+        "name": "drain_basin_s", 
+        "type": "text"
+      }, 
+      {
+        "name": "advisory_committee_areas", 
+        "type": "text"
+      }, 
+      {
+        "name": "comprehensive_plan_districts", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "socrata_raleighnc_re_zoning_requests"
+}

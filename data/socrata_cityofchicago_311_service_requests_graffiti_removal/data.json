@@ -1,86 +1,96 @@
 {
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_311_service_requests_graffiti_removal/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/hec5-y4x5/rows.csv"
+  }, 
+  "description": "All open graffiti removal requests made to 311 and all requests completed since January 1, 2011. The Department of Streets & Sanitation's Graffiti Blasters crews offer a vandalism removal service to private property owners. Graffiti Blasters employ \"blast\" trucks that use baking soda under high water pressure to erase painted graffiti from brick, stone and other mineral surfaces. They also use paint trucks to cover graffiti on the remaining surfaces. Organizations and residents may report graffiti and request its removal.\r\n311 sometimes receives duplicate requests for graffiti removal. Requests that have been labeled as Duplicates are in the same geographic area and have been entered into 311\u2019s Customer Service Requests (CSR) system at around the same time as a previous request. Duplicate reports/requests are labeled as such in the Status field, as either \"Open - Dup\" or \"Completed - Dup.\" Data is updated daily.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
+  "metadata": {
+    "attribution": "City of Chicago", 
+    "category": "Service Requests", 
+    "description": "All open graffiti removal requests made to 311 and all requests completed since January 1, 2011. The Department of Streets & Sanitation's Graffiti Blasters crews offer a vandalism removal service to private property owners. Graffiti Blasters employ \"blast\" trucks that use baking soda under high water pressure to erase painted graffiti from brick, stone and other mineral surfaces. They also use paint trucks to cover graffiti on the remaining surfaces. Organizations and residents may report graffiti and request its removal.\r\n311 sometimes receives duplicate requests for graffiti removal. Requests that have been labeled as Duplicates are in the same geographic area and have been entered into 311\u2019s Customer Service Requests (CSR) system at around the same time as a previous request. Duplicate reports/requests are labeled as such in the Status field, as either \"Open - Dup\" or \"Completed - Dup.\" Data is updated daily.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/hec5-y4x5.json"
+    }
+  }, 
+  "name": "311 Service Requests - Graffiti Removal", 
   "schema": {
     "columns": [
       {
-        "type": "timestamp", 
-        "name": "creation_date"
+        "name": "creation_date", 
+        "type": "timestamp"
       }, 
       {
-        "type": "text", 
-        "name": "status"
+        "name": "status", 
+        "type": "text"
       }, 
       {
-        "type": "timestamp", 
-        "name": "completion_date"
+        "name": "completion_date", 
+        "type": "timestamp"
       }, 
       {
-        "type": "text", 
-        "name": "service_request_number"
+        "name": "service_request_number", 
+        "type": "text"
       }, 
       {
-        "type": "text", 
-        "name": "type_of_service_request"
+        "name": "type_of_service_request", 
+        "type": "text"
       }, 
       {
-        "type": "text", 
-        "name": "what_type_of_surface_is_the_graffiti_on_"
+        "name": "what_type_of_surface_is_the_graffiti_on_", 
+        "type": "text"
       }, 
       {
-        "type": "text", 
-        "name": "where_is_the_graffiti_located_"
+        "name": "where_is_the_graffiti_located_", 
+        "type": "text"
       }, 
       {
-        "type": "text", 
-        "name": "street_address"
+        "name": "street_address", 
+        "type": "text"
       }, 
       {
-        "type": "real", 
-        "name": "zip_code"
+        "name": "zip_code", 
+        "type": "real"
       }, 
       {
-        "type": "real", 
-        "name": "x_coordinate"
+        "name": "x_coordinate", 
+        "type": "real"
       }, 
       {
-        "type": "real", 
-        "name": "y_coordinate"
+        "name": "y_coordinate", 
+        "type": "real"
       }, 
       {
-        "type": "real", 
-        "name": "ward"
+        "name": "ward", 
+        "type": "real"
       }, 
       {
-        "type": "real", 
-        "name": "police_district"
+        "name": "police_district", 
+        "type": "real"
       }, 
       {
-        "type": "real", 
-        "name": "community_area"
+        "name": "community_area", 
+        "type": "real"
       }, 
       {
-        "type": "text", 
-        "name": "ssa"
+        "name": "ssa", 
+        "type": "text"
       }, 
       {
-        "type": "real", 
-        "name": "latitude"
+        "name": "latitude", 
+        "type": "real"
       }, 
       {
-        "type": "real", 
-        "name": "longitude"
+        "name": "longitude", 
+        "type": "real"
       }, 
       {
-        "type": "text", 
-        "name": "location"
+        "name": "location", 
+        "type": "text"
       }
     ]
   }, 
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_311_service_requests_graffiti_removal/data.json", 
-  "name": "socrata_cityofchicago_311_service_requests_graffiti_removal", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/hec5-y4x5/rows.csv"
-  }
+  "tableName": "socrata_cityofchicago_311_service_requests_graffiti_removal"
 }

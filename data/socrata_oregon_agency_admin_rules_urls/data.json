@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/qisn-cfm3/rows.csv"
   }, 
+  "description": "As a result of HB 2370 that was passed in 2013 agencies began providing links to Agency website/webpage that has Agency Administrative Rules or information about rules. Sorted by Agency name (V5). This data is updated periodically as new links are reported..", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.oregon.gov/api/views/qisn-cfm3.json"
+    "category": "Administrative", 
+    "description": "As a result of HB 2370 that was passed in 2013 agencies began providing links to Agency website/webpage that has Agency Administrative Rules or information about rules. Sorted by Agency name (V5). This data is updated periodically as new links are reported..", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/qisn-cfm3.json"
+    }
   }, 
-  "name": "socrata_oregon_agency_admin_rules_urls", 
+  "name": "Agency Admin Rules URLs", 
   "schema": {
     "columns": [
       {
@@ -29,5 +34,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_oregon_agency_admin_rules_urls"
 }

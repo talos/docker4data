@@ -10,20 +10,28 @@
   "metadata": {
     "attribution": "Cook County Treasurer's Office", 
     "category": "Property & Taxation", 
-    "description": "2010 Tax Sale Registered Buyers. They are registered to purchase taxes on property that have not been paid for 2 years", 
+    "description": "Annual Tax Sale: A yearly auction of delinquent taxes where a tax buyer (purchaser) pays the delinquent taxes due on a parcel. This results in a lien on the property. The property owner must repay the tax buyer with interest for the amount of the sale \u2013 this is known as \u201credemption.\u201d If redemption does not occur within a set time period, the tax buyer can obtain legal title to the property \u2013 this is referred to as a \u201ctax deed.\u201d", 
     "socrata": {
-      "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/g322-ktce.json"
+      "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/v5vh-4ezv.json"
     }
   }, 
-  "name": "Treasurer - 2010 Annual Tax Sale Registered Buyers", 
+  "name": "Treasurer - 2010 Annual Tax Sale Sold PINS", 
   "schema": {
     "columns": [
       {
-        "name": "buyerid", 
+        "name": "pin", 
         "type": "text"
       }, 
       {
-        "name": "buyername", 
+        "name": "taxtype", 
+        "type": "real"
+      }, 
+      {
+        "name": "taxyear", 
+        "type": "text"
+      }, 
+      {
+        "name": "taxpayerpropertyzip5", 
         "type": "text"
       }
     ]

@@ -1,0 +1,52 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wa_city_of_colfax_2015_building_permits/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/f74k-9nzv/rows.csv"
+  }, 
+  "description": "This dataset consists of all building permits recorded thus far in the City of Colfax, Washington.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "City of Colfax, Washington", 
+    "category": "Economics", 
+    "description": "This dataset consists of all building permits recorded thus far in the City of Colfax, Washington.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.wa.gov/api/views/f74k-9nzv.json"
+    }
+  }, 
+  "name": "City of Colfax: 2015 Building Permits", 
+  "schema": {
+    "columns": [
+      {
+        "name": "permit_no", 
+        "type": "text"
+      }, 
+      {
+        "name": "issue_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "project_cost", 
+        "type": "real"
+      }, 
+      {
+        "name": "owner", 
+        "type": "text"
+      }, 
+      {
+        "name": "project_address", 
+        "type": "text"
+      }, 
+      {
+        "name": "work_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "permit_fee", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "tableName": "socrata_wa_city_of_colfax_2015_building_permits"
+}

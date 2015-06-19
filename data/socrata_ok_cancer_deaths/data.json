@@ -1,0 +1,36 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_cancer_deaths/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/i7bj-zids/rows.csv"
+  }, 
+  "description": "Decrease the cancer death rate from 185.7 per 100,000 in 2013 to 180.3 per 100,000 by 2019.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Oklahoma State Department of Health", 
+    "category": "Health", 
+    "description": "Decrease the cancer death rate from 185.7 per 100,000 in 2013 to 180.3 per 100,000 by 2019.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ok.gov/api/views/i7bj-zids.json"
+    }
+  }, 
+  "name": "Cancer Deaths", 
+  "schema": {
+    "columns": [
+      {
+        "name": "years", 
+        "type": "text"
+      }, 
+      {
+        "name": "historical_data", 
+        "type": "real"
+      }, 
+      {
+        "name": "target", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "tableName": "socrata_ok_cancer_deaths"
+}

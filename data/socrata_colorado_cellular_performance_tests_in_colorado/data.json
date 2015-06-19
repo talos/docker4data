@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/6ad7-gqy3/rows.csv"
   }, 
+  "description": "This data is from mobile devices performing tests of cellular networks in Colorado. The results show latency and signal strength in all tests by carrier and some tests include download and upload performance tests.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.colorado.gov/api/views/6ad7-gqy3.json"
+    "attribution": "Mobile Pulse", 
+    "category": "Telecommunications", 
+    "description": "This data is from mobile devices performing tests of cellular networks in Colorado. The results show latency and signal strength in all tests by carrier and some tests include download and upload performance tests.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/6ad7-gqy3.json"
+    }
   }, 
-  "name": "socrata_colorado_cellular_performance_tests_in_colorado", 
+  "name": "Cellular Performance Tests in Colorado", 
   "schema": {
     "columns": [
       {
@@ -81,5 +87,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_colorado_cellular_performance_tests_in_colorado"
 }

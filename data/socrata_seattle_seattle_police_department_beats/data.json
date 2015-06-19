@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/nnxn-434b/rows.csv"
   }, 
+  "description": "Spatial data files of City of Seatle Police precincts and beats. Coordinate system is WGS84", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/nnxn-434b.json"
+    "attribution": "City of Seattle Department of Information Technology", 
+    "category": "Crime", 
+    "description": "Spatial data files of City of Seatle Police precincts and beats. Coordinate system is WGS84", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/nnxn-434b.json"
+    }
   }, 
-  "name": "socrata_seattle_seattle_police_department_beats", 
+  "name": "Seattle Police Department Beats", 
   "schema": {
     "columns": [
       {
@@ -29,5 +35,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_seattle_police_department_beats"
 }

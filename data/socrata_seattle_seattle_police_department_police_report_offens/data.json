@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/m2gk-mysw/rows.csv"
   }, 
+  "description": "These offenses correspond to the Police Report Incidents\r\nhttp://data.seattle.gov/dataset/Seattle-Police-Department-Police-Report-Incident/7ais-f98f", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/m2gk-mysw.json"
+    "attribution": "City of Seattle, Department of Information Technology, Seattle Police Department", 
+    "category": "Public Safety", 
+    "description": "These offenses correspond to the Police Report Incidents\r\nhttp://data.seattle.gov/dataset/Seattle-Police-Department-Police-Report-Incident/7ais-f98f", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/m2gk-mysw.json"
+    }
   }, 
-  "name": "socrata_seattle_seattle_police_department_police_report_offens", 
+  "name": "Seattle Police Department Police Report Offense", 
   "schema": {
     "columns": [
       {
@@ -41,5 +47,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_seattle_police_department_police_report_offens"
 }

@@ -7,9 +7,13 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.sfgov.org/api/views/wchi-36a5.json"
+    "attribution": "San Francisco Ethics Commission", 
+    "category": "City Management and Ethics", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/wchi-36a5.json"
+    }
   }, 
-  "name": "socrata_sfgov_campaign_consultants_list_of_registered_campaign", 
+  "name": "Campaign Consultants - List of Registered Campaign Consultants and their Respective Clients", 
   "schema": {
     "columns": [
       {
@@ -37,5 +41,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_sfgov_campaign_consultants_list_of_registered_campaign"
 }

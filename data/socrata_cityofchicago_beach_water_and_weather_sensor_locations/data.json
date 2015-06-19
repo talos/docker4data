@@ -1,0 +1,44 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_beach_water_and_weather_sensor_locations/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/g3ip-u8rb/rows.csv"
+  }, 
+  "description": "The locations of the Chicago Park District water and weather sensors that feed https://data.cityofchicago.org/d/qmqz-2xku and https://data.cityofchicago.org/d/k7hf-8y75.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Chicago Park District", 
+    "category": "Parks & Recreation", 
+    "description": "The locations of the Chicago Park District water and weather sensors that feed https://data.cityofchicago.org/d/qmqz-2xku and https://data.cityofchicago.org/d/k7hf-8y75.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/g3ip-u8rb.json"
+    }
+  }, 
+  "name": "Beach Water and Weather Sensor Locations", 
+  "schema": {
+    "columns": [
+      {
+        "name": "sensor_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "sensor_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "latitude", 
+        "type": "real"
+      }, 
+      {
+        "name": "longitude", 
+        "type": "real"
+      }, 
+      {
+        "name": "location", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "socrata_cityofchicago_beach_water_and_weather_sensor_locations"
+}

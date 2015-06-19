@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/x5tj-txci/rows.csv"
   }, 
+  "description": "Structures in the public right of way maintained by DPW. Source: DPW\u2019S RSIS system.  As of October 2013 this data set only includes stairways.  Additional structure types to be added in future.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.sfgov.org/api/views/x5tj-txci.json"
+    "attribution": "San Francisco Department of Public Works", 
+    "category": "City Infrastructure", 
+    "description": "Structures in the public right of way maintained by DPW. Source: DPW\u2019S RSIS system.  As of October 2013 this data set only includes stairways.  Additional structure types to be added in future.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/x5tj-txci.json"
+    }
   }, 
-  "name": "socrata_sfgov_dpw_maintained_roadway_structures", 
+  "name": "DPW Maintained Roadway Structures", 
   "schema": {
     "columns": [
       {
@@ -53,5 +59,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_sfgov_dpw_maintained_roadway_structures"
 }

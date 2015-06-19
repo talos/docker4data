@@ -8,8 +8,8 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "attribution": "City of Melbourne", 
-    "category": "Community", 
+    "attribution": "City of Melbourne, Australia", 
+    "category": "Transport & Movement", 
     "description": "Co-ordinates of the City of Melbourne's pedestrian sensors. Please refer to the Pedestrian Counts dataset for more information on the counts each sensor reports.", 
     "socrata": {
       "@id": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/views/ygaw-6rzq.json"
@@ -19,19 +19,15 @@
   "schema": {
     "columns": [
       {
-        "name": "sensor_id", 
+        "name": "sensorid", 
         "type": "real"
       }, 
       {
-        "name": "sensor_name_external", 
+        "name": "sensorname", 
         "type": "text"
       }, 
       {
-        "name": "sensor_namel", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
+        "name": "sensorloc", 
         "type": "text"
       }, 
       {
@@ -40,7 +36,27 @@
       }, 
       {
         "name": "dt", 
-        "type": "timestamp"
+        "type": "text"
+      }, 
+      {
+        "name": "xdate", 
+        "type": "real"
+      }, 
+      {
+        "name": "loctype", 
+        "type": "text"
+      }, 
+      {
+        "name": "location", 
+        "type": "text"
+      }, 
+      {
+        "name": "latitude", 
+        "type": "text"
+      }, 
+      {
+        "name": "longitude", 
+        "type": "text"
       }
     ]
   }, 

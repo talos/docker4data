@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/kzjm-xkqj/rows.csv"
   }, 
+  "description": "Provides Seattle Fire Department 911 dispatches. Updated every 5 minutes.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/kzjm-xkqj.json"
+    "attribution": "City of Seattle Fire Department MIS", 
+    "category": "Public Safety", 
+    "description": "Provides Seattle Fire Department 911 dispatches. Updated every 5 minutes.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/kzjm-xkqj.json"
+    }
   }, 
-  "name": "socrata_seattle_seattle_real_time_fire_911_calls", 
+  "name": "Seattle Real Time Fire 911 Calls", 
   "schema": {
     "columns": [
       {
@@ -41,5 +47,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_seattle_real_time_fire_911_calls"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/ddqk-i2ey/rows.csv"
   }, 
+  "description": "A list of all City of Edmonton - Department of Transportation maintained sandboxes. These sandboxes are available for the general public to use during the winter period.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.edmonton.ca/api/views/ddqk-i2ey.json"
+    "attribution": "Transportation Services - Transportation Operations", 
+    "category": "Transportation", 
+    "description": "A list of all City of Edmonton - Department of Transportation maintained sandboxes. These sandboxes are available for the general public to use during the winter period.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/ddqk-i2ey.json"
+    }
   }, 
-  "name": "socrata_edmonton_ca_sandboxes", 
+  "name": "Sandboxes", 
   "schema": {
     "columns": [
       {
@@ -45,5 +51,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_edmonton_ca_sandboxes"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ok.gov/api/views/pyir-desi/rows.csv"
   }, 
+  "description": "Oklahoma crime data including violent crime, property crime, murder, forcible rape, robbery, aggravated assault, burglary, larceny theft, and vehicle theft.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ok.gov/api/views/pyir-desi.json"
+    "attribution": "Federal Bureau of Investigation (FBI)", 
+    "category": "Public Safety and Defense", 
+    "description": "Oklahoma crime data including violent crime, property crime, murder, forcible rape, robbery, aggravated assault, burglary, larceny theft, and vehicle theft.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ok.gov/api/views/pyir-desi.json"
+    }
   }, 
-  "name": "socrata_ok_annual_crime_totals_oklahoma", 
+  "name": "Annual Crime Totals - Oklahoma", 
   "schema": {
     "columns": [
       {
@@ -57,5 +63,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ok_annual_crime_totals_oklahoma"
 }

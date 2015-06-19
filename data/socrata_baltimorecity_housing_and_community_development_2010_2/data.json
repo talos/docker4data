@@ -12,14 +12,14 @@
     "category": "Neighborhoods", 
     "description": "Most indicators throughout Vital Signs are created by acquiring and analyzing data collected from governmental agencies for some public administration purpose, such as 311 calls or housing inspections. However, data from the United States Bureau of the Census remains the best source for demographic and socioeconomic indicators for neighborhoods. The Census Bureau collects a wide variety of information through administration of both the decennial Census and the annual American Community Survey (ACS).", 
     "socrata": {
-      "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/m3z4-c8pp.json"
+      "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/mvvs-32jm.json"
     }
   }, 
-  "name": "Housing and Community Development (2010-2012)", 
+  "name": "Housing and Community Development (2010-2013)", 
   "schema": {
     "columns": [
       {
-        "name": "csa2010", 
+        "name": "neighborhood", 
         "type": "text"
       }, 
       {
@@ -35,6 +35,10 @@
         "type": "real"
       }, 
       {
+        "name": "shomes13", 
+        "type": "real"
+      }, 
+      {
         "name": "salepr10", 
         "type": "real"
       }, 
@@ -44,6 +48,10 @@
       }, 
       {
         "name": "salepr12", 
+        "type": "real"
+      }, 
+      {
+        "name": "salepr13", 
         "type": "real"
       }, 
       {
@@ -59,6 +67,10 @@
         "type": "real"
       }, 
       {
+        "name": "dom13", 
+        "type": "real"
+      }, 
+      {
         "name": "reosa11", 
         "type": "text"
       }, 
@@ -67,11 +79,19 @@
         "type": "text"
       }, 
       {
+        "name": "reosa13", 
+        "type": "text"
+      }, 
+      {
         "name": "cashsa11", 
         "type": "text"
       }, 
       {
         "name": "cashsa12", 
+        "type": "text"
+      }, 
+      {
+        "name": "cashsa13", 
         "type": "text"
       }, 
       {
@@ -87,6 +107,10 @@
         "type": "text"
       }, 
       {
+        "name": "fore13", 
+        "type": "text"
+      }, 
+      {
         "name": "ownroc10", 
         "type": "text"
       }, 
@@ -96,6 +120,10 @@
       }, 
       {
         "name": "ownroc12", 
+        "type": "text"
+      }, 
+      {
+        "name": "ownroc13", 
         "type": "text"
       }, 
       {
@@ -111,6 +139,10 @@
         "type": "text"
       }, 
       {
+        "name": "nomail13", 
+        "type": "text"
+      }, 
+      {
         "name": "totalres10", 
         "type": "real"
       }, 
@@ -123,11 +155,15 @@
         "type": "real"
       }, 
       {
-        "name": "affordm12", 
+        "name": "totalres13", 
         "type": "real"
       }, 
       {
-        "name": "affordr12", 
+        "name": "affordm13", 
+        "type": "real"
+      }, 
+      {
+        "name": "affordr13", 
         "type": "real"
       }, 
       {
@@ -139,6 +175,10 @@
         "type": "real"
       }, 
       {
+        "name": "homtax13", 
+        "type": "real"
+      }, 
+      {
         "name": "owntax11", 
         "type": "real"
       }, 
@@ -147,7 +187,15 @@
         "type": "real"
       }, 
       {
+        "name": "owntax13", 
+        "type": "real"
+      }, 
+      {
         "name": "histax12", 
+        "type": "real"
+      }, 
+      {
+        "name": "histax13", 
         "type": "real"
       }, 
       {
@@ -163,11 +211,19 @@
         "type": "text"
       }, 
       {
+        "name": "resrehab13", 
+        "type": "text"
+      }, 
+      {
         "name": "constper11", 
         "type": "real"
       }, 
       {
         "name": "constper12", 
+        "type": "real"
+      }, 
+      {
+        "name": "constper13", 
         "type": "real"
       }, 
       {
@@ -183,11 +239,19 @@
         "type": "text"
       }, 
       {
-        "name": "baltvac11", 
+        "name": "vacant13", 
         "type": "text"
       }, 
       {
+        "name": "baltvac11", 
+        "type": "real"
+      }, 
+      {
         "name": "baltvac12", 
+        "type": "text"
+      }, 
+      {
+        "name": "baltvac13", 
         "type": "text"
       }, 
       {
@@ -203,11 +267,19 @@
         "type": "text"
       }, 
       {
+        "name": "vio13", 
+        "type": "text"
+      }, 
+      {
         "name": "demper11", 
         "type": "real"
       }, 
       {
         "name": "demper12", 
+        "type": "real"
+      }, 
+      {
+        "name": "demper13", 
         "type": "real"
       }
     ]

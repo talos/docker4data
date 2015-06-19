@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.wa.gov/api/views/u7ez-d8rb/rows.csv"
   }, 
+  "description": "Water Quality Index scores by station. Used in conjunction with the WRIA_Stations dataset to produce the water quality tables for the bi-annual state of salmon report. (stateofsalmon.wa.gov)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.wa.gov/api/views/u7ez-d8rb.json"
+    "attribution": "GSRO", 
+    "category": "Natural Resources & Environment", 
+    "description": "Water Quality Index scores by station. Used in conjunction with the WRIA_Stations dataset to produce the water quality tables for the bi-annual state of salmon report. (stateofsalmon.wa.gov)", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.wa.gov/api/views/u7ez-d8rb.json"
+    }
   }, 
-  "name": "socrata_wa_water_quality_index_scores", 
+  "name": "Water Quality Index Scores", 
   "schema": {
     "columns": [
       {
@@ -33,5 +39,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_wa_water_quality_index_scores"
 }

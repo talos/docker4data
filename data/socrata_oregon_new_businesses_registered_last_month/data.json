@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/esjy-u4fc/rows.csv"
   }, 
+  "description": "New businesses registered with the Secretary of State Corporation Division during the previous month.  Data is updated on the first working day of each month.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.oregon.gov/api/views/esjy-u4fc.json"
+    "category": "Business", 
+    "description": "New businesses registered with the Secretary of State Corporation Division during the previous month.  Data is updated on the first working day of each month.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/esjy-u4fc.json"
+    }
   }, 
-  "name": "socrata_oregon_new_businesses_registered_last_month", 
+  "name": "New Businesses Registered Last Month", 
   "schema": {
     "columns": [
       {
@@ -81,5 +86,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_oregon_new_businesses_registered_last_month"
 }

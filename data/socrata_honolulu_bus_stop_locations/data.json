@@ -1,0 +1,69 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_honolulu_bus_stop_locations/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.honolulu.gov/api/views/yczt-gks6/rows.csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "category": "Transportation", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.honolulu.gov/api/views/yczt-gks6.json"
+    }
+  }, 
+  "name": "Bus Stop Locations", 
+  "schema": {
+    "columns": [
+      {
+        "name": "stop_lat", 
+        "type": "real"
+      }, 
+      {
+        "name": "stop_code", 
+        "type": "real"
+      }, 
+      {
+        "name": "stop_lon", 
+        "type": "real"
+      }, 
+      {
+        "name": "stop_id", 
+        "type": "real"
+      }, 
+      {
+        "name": "stop_url", 
+        "type": "text"
+      }, 
+      {
+        "name": "parent_station", 
+        "type": "text"
+      }, 
+      {
+        "name": "stop_desc", 
+        "type": "text"
+      }, 
+      {
+        "name": "stop_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "location_type", 
+        "type": "real"
+      }, 
+      {
+        "name": "zone_id", 
+        "type": "text"
+      }, 
+      {
+        "name": "lat_long", 
+        "type": "text"
+      }, 
+      {
+        "name": "location", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "socrata_honolulu_bus_stop_locations"
+}

@@ -3,29 +3,35 @@
   "data": {
     "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/6jcw-aa54/rows.csv"
   }, 
+  "description": "U0pdated 12/24/2011.  From the 2009 Medical Examiner's Annual Report, the manner of death of autopsied people by race.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
     "attribution": "Cook County Medical Examiner", 
-    "category": "Healthcare", 
+    "category": "Finance & Administration", 
+    "description": "Updated 10/24/2011.  From the 2009 Medical Examiner's Annual Report, the manner of of death of autopsied people by gender and race.", 
     "socrata": {
-      "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/as8j-bewu.json"
+      "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/z6di-sis3.json"
     }
   }, 
-  "name": "Medical Examiner--2009 Manner of Death Autopsy Status", 
+  "name": "Medical Examiner--2009 Manner By Gender, and Race", 
   "schema": {
     "columns": [
       {
-        "name": "manner_of_death", 
+        "name": "race_", 
         "type": "text"
       }, 
       {
-        "name": "autopsy_status_", 
+        "name": "sex_", 
         "type": "text"
       }, 
       {
-        "name": "count", 
+        "name": "manner_of_death_", 
+        "type": "text"
+      }, 
+      {
+        "name": "count_", 
         "type": "real"
       }
     ]

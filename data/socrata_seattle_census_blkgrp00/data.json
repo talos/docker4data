@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/pux5-p7r5/rows.csv"
   }, 
+  "description": "US Census Block Group for 2000 US Census", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/pux5-p7r5.json"
+    "attribution": "Seattle GIS Program", 
+    "category": "Community", 
+    "description": "US Census Block Group for 2000 US Census", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/pux5-p7r5.json"
+    }
   }, 
-  "name": "socrata_seattle_census_blkgrp00", 
+  "name": "CENSUS_BLKGRP00", 
   "schema": {
     "columns": [
       {
@@ -81,5 +87,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_census_blkgrp00"
 }

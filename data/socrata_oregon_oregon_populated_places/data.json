@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/c6z4-hjsu/rows.csv"
   }, 
+  "description": "This point theme shows the location of populated places in the state of Oregon as derived from the 1:24,000 GNIS theme. \r\n\r\n    This dataset was created from the USGS GNIS database. Several SSCGIS staff members have worked on this theme over the years. \r\n\r\nProcedures_Used: The orppl theme was delineted from the 1990 GNIS theme. To get an idea how this coverage was created download the GNIS metadata. The orppl point theme was generated as the orcov theme. It was built for point topology after the theme was generated. it was than copied to oregnis. Arcedit was used to populate the coverage by selecting ppl from the desig item. The theme was again built for point topology. the theme was imported in 1991 and copied to the gniscov name. External was used 5 times to populate the database. the theme was then exported as gniscov. The gniscov was edited and built for point topology. Reselect was used twice. ArcEdit was used 6 times to edit the theme and than renamed to orppl. The theme was than built for point topology. The theme was than copied twice. One of these copies ws overlayed with house90 using the identity using the point .1 fuzzy tolerance and join options to join the two themes together. The theme was than copied to another directory. In the new directory the theme was edited 7 times and build for point topology. The theme was than renamed orppl and copied two more times. The theme was exported twice and built once between 1993 and 1995. The Projectcopy command was used to copy the projection info from the citylimits theme to the orppl. The theme was than exported twice and imported back in to be projected into the Oregon State transfer standard. The theme was built for point topology and imported back in so that metadata could be created for it.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.oregon.gov/api/views/c6z4-hjsu.json"
+    "attribution": "USGS, Geographic Names Information System (GNIS)", 
+    "description": "This point theme shows the location of populated places in the state of Oregon as derived from the 1:24,000 GNIS theme. \r\n\r\n    This dataset was created from the USGS GNIS database. Several SSCGIS staff members have worked on this theme over the years. \r\n\r\nProcedures_Used: The orppl theme was delineted from the 1990 GNIS theme. To get an idea how this coverage was created download the GNIS metadata. The orppl point theme was generated as the orcov theme. It was built for point topology after the theme was generated. it was than copied to oregnis. Arcedit was used to populate the coverage by selecting ppl from the desig item. The theme was again built for point topology. the theme was imported in 1991 and copied to the gniscov name. External was used 5 times to populate the database. the theme was then exported as gniscov. The gniscov was edited and built for point topology. Reselect was used twice. ArcEdit was used 6 times to edit the theme and than renamed to orppl. The theme was than built for point topology. The theme was than copied twice. One of these copies ws overlayed with house90 using the identity using the point .1 fuzzy tolerance and join options to join the two themes together. The theme was than copied to another directory. In the new directory the theme was edited 7 times and build for point topology. The theme was than renamed orppl and copied two more times. The theme was exported twice and built once between 1993 and 1995. The Projectcopy command was used to copy the projection info from the citylimits theme to the orppl. The theme was than exported twice and imported back in to be projected into the Oregon State transfer standard. The theme was built for point topology and imported back in so that metadata could be created for it.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/c6z4-hjsu.json"
+    }
   }, 
-  "name": "socrata_oregon_oregon_populated_places", 
+  "name": "Oregon Populated Places", 
   "schema": {
     "columns": [
       {
@@ -37,5 +42,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_oregon_oregon_populated_places"
 }

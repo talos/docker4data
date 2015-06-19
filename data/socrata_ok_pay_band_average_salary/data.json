@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ok.gov/api/views/wji9-i7ig/rows.csv"
   }, 
+  "description": "Salary information for State of Oklahoma employees by pay band, including average, maximum and minimum, and the size of the range by pay band.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ok.gov/api/views/wji9-i7ig.json"
+    "attribution": "Office of Management and Enterprise Services (OMES) Human Capital Management (HCM) Division", 
+    "category": "Finance and Administration", 
+    "description": "Salary information for State of Oklahoma employees by pay band, including average, maximum and minimum, and the size of the range by pay band.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ok.gov/api/views/wji9-i7ig.json"
+    }
   }, 
-  "name": "socrata_ok_pay_band_average_salary", 
+  "name": "Pay Band Average Salary", 
   "schema": {
     "columns": [
       {
@@ -33,5 +39,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ok_pay_band_average_salary"
 }

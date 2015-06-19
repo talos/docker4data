@@ -1,0 +1,63 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_lead_contractor_registration/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/6yb4-x577/rows.csv"
+  }, 
+  "description": "This list contains Lead Contractor information with their license expiration date.\n\nlast updated March 4, 2015", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "category": "Public Health", 
+    "description": "This list contains Lead Contractor information with their license expiration date.\n\nlast updated March 4, 2015", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/6yb4-x577.json"
+    }
+  }, 
+  "name": "Lead Contractor Registration", 
+  "schema": {
+    "columns": [
+      {
+        "name": "contractoridno", 
+        "type": "real"
+      }, 
+      {
+        "name": "contractor_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "address", 
+        "type": "text"
+      }, 
+      {
+        "name": "city", 
+        "type": "text"
+      }, 
+      {
+        "name": "cstate", 
+        "type": "text"
+      }, 
+      {
+        "name": "czip", 
+        "type": "text"
+      }, 
+      {
+        "name": "county", 
+        "type": "text"
+      }, 
+      {
+        "name": "phone", 
+        "type": "text"
+      }, 
+      {
+        "name": "contact_person", 
+        "type": "text"
+      }, 
+      {
+        "name": "license_expiration", 
+        "type": "timestamp"
+      }
+    ]
+  }, 
+  "tableName": "socrata_illinois_lead_contractor_registration"
+}

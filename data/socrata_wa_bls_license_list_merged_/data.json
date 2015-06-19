@@ -7,9 +7,11 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.wa.gov/api/views/hw7n-fcif.json"
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.wa.gov/api/views/hw7n-fcif.json"
+    }
   }, 
-  "name": "socrata_wa_bls_license_list_merged_", 
+  "name": "BLS License list (merged)", 
   "schema": {
     "columns": [
       {
@@ -73,5 +75,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_wa_bls_license_list_merged_"
 }

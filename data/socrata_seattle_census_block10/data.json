@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/wsns-bqj4/rows.csv"
   }, 
+  "description": "US Census Block for 2010 US Census", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/wsns-bqj4.json"
+    "attribution": "Seattle GIS Program", 
+    "category": "Community", 
+    "description": "US Census Block for 2010 US Census", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/wsns-bqj4.json"
+    }
   }, 
-  "name": "socrata_seattle_census_block10", 
+  "name": "CENSUS_BLOCK10", 
   "schema": {
     "columns": [
       {
@@ -101,5 +107,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_census_block10"
 }

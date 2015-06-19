@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/quhi-bx98/rows.csv"
   }, 
+  "description": "Streams in Seattle. Represented as line segments", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/quhi-bx98.json"
+    "attribution": "Seattle GIS Program", 
+    "category": "Land Base", 
+    "description": "Streams in Seattle. Represented as line segments", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/quhi-bx98.json"
+    }
   }, 
-  "name": "socrata_seattle_dww_stream_ln_pv", 
+  "name": "DWW.STREAM_LN_PV", 
   "schema": {
     "columns": [
       {
@@ -109,5 +115,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_dww_stream_ln_pv"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/n3gw-htbc/rows.csv"
   }, 
+  "description": "from City groups", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/n3gw-htbc.json"
+    "attribution": "City Groups", 
+    "category": "Public Safety", 
+    "description": "from City groups", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/n3gw-htbc.json"
+    }
   }, 
-  "name": "socrata_seattle_block_watch", 
+  "name": "Block Watch", 
   "schema": {
     "columns": [
       {
@@ -85,5 +91,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_block_watch"
 }

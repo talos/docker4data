@@ -1,0 +1,48 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_melbourne_vicau_statement_of_changes_in_equity/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/views/n57n-9wqc/rows.csv"
+  }, 
+  "description": "The statement of Changes in Equity is a statement which is a representation of accumulated surplus, revaluation reserve and other reserve movements at 30 June each financial year. While all due care has been taken in providing these figures, some errors and discrepancies may be present.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "City of Melbourne, Australia", 
+    "category": "Finance & Operations", 
+    "description": "The statement of Changes in Equity is a statement which is a representation of accumulated surplus, revaluation reserve and other reserve movements at 30 June each financial year. While all due care has been taken in providing these figures, some errors and discrepancies may be present.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/views/n57n-9wqc.json"
+    }
+  }, 
+  "name": "Statement of changes in equity", 
+  "schema": {
+    "columns": [
+      {
+        "name": "as_at_date", 
+        "type": "text"
+      }, 
+      {
+        "name": "description", 
+        "type": "text"
+      }, 
+      {
+        "name": "year", 
+        "type": "real"
+      }, 
+      {
+        "name": "accumulated_surplus_000", 
+        "type": "real"
+      }, 
+      {
+        "name": "revaluation_reserve_000", 
+        "type": "real"
+      }, 
+      {
+        "name": "other_reserves_000", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "tableName": "socrata_melbourne_vicau_statement_of_changes_in_equity"
+}

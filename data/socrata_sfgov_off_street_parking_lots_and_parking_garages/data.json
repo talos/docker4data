@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/uupn-yfaw/rows.csv"
   }, 
+  "description": "Publicly available off-street parking in San Francisco as of September 2011. Find attached a data dictionary, a version of the map as a PDF (symbolized to show garage type and capacity of garage), and a shapefile and CSV of the data. \r\n\r\nThis dataset includes location, capacities, and related details of public parking garages and lots; four parking categories: paid, publicly available (PPA): drive up and pay, typically by the hour or by the day; customer parking only (CPO): typically for businesses or religious institutions; permit holder only (PHO, CGO): i.e. employees only, students only, monthly only; free publicly available (FPA): free off-street parking. The data does not contain off-street residential parking spaces or other unmarked \u201cprivate\u201d parking.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.sfgov.org/api/views/uupn-yfaw.json"
+    "attribution": "SFMTA, SFpark", 
+    "category": "Transportation", 
+    "description": "Publicly available off-street parking in San Francisco as of September 2011. Find attached a data dictionary, a version of the map as a PDF (symbolized to show garage type and capacity of garage), and a shapefile and CSV of the data. \r\n\r\nThis dataset includes location, capacities, and related details of public parking garages and lots; four parking categories: paid, publicly available (PPA): drive up and pay, typically by the hour or by the day; customer parking only (CPO): typically for businesses or religious institutions; permit holder only (PHO, CGO): i.e. employees only, students only, monthly only; free publicly available (FPA): free off-street parking. The data does not contain off-street residential parking spaces or other unmarked \u201cprivate\u201d parking.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/uupn-yfaw.json"
+    }
   }, 
-  "name": "socrata_sfgov_off_street_parking_lots_and_parking_garages", 
+  "name": "Off-Street parking lots and parking garages", 
   "schema": {
     "columns": [
       {
@@ -53,5 +59,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_sfgov_off_street_parking_lots_and_parking_garages"
 }

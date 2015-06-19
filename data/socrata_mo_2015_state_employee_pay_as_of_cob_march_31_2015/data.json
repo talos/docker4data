@@ -1,0 +1,43 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_mo_2015_state_employee_pay_as_of_cob_march_31_2015/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.mo.gov/api/views/dky7-niev/rows.csv"
+  }, 
+  "description": "Pay information for calendar year 2015(January 1 - close of business December 31) for the employees of the State of Missouri by their Agency of Employment, Position Title or Employee Name.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "category": "Government Administration", 
+    "description": "Pay information for calendar year 2015(January 1 - close of business December 31) for the employees of the State of Missouri by their Agency of Employment, Position Title or Employee Name.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.mo.gov/api/views/dky7-niev.json"
+    }
+  }, 
+  "name": "2015 State Employee Pay As Of COB March 31, 2015", 
+  "schema": {
+    "columns": [
+      {
+        "name": "calendar_year", 
+        "type": "text"
+      }, 
+      {
+        "name": "agency_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "position_title", 
+        "type": "text"
+      }, 
+      {
+        "name": "employee_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "ytd_gross_pay", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "tableName": "socrata_mo_2015_state_employee_pay_as_of_cob_march_31_2015"
+}

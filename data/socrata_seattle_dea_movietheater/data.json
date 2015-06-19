@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/yxka-33er/rows.csv"
   }, 
+  "description": "Movie theaters in Seattle", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/yxka-33er.json"
+    "attribution": "Seattle Public Utilities GIS Program", 
+    "category": "Community", 
+    "description": "Movie theaters in Seattle", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/yxka-33er.json"
+    }
   }, 
-  "name": "socrata_seattle_dea_movietheater", 
+  "name": "DEA_MovieTheater", 
   "schema": {
     "columns": [
       {
@@ -133,5 +139,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_dea_movietheater"
 }

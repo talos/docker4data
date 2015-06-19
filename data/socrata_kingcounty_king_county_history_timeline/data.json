@@ -1,0 +1,36 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_kingcounty_king_county_history_timeline/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/fuh5-64id/rows.csv"
+  }, 
+  "description": "Milestones in the history of King County, Washington", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "King County Archives", 
+    "category": "Records", 
+    "description": "Milestones in the history of King County, Washington", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/fuh5-64id.json"
+    }
+  }, 
+  "name": "King County History Timeline", 
+  "schema": {
+    "columns": [
+      {
+        "name": "start_time", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "notes", 
+        "type": "text"
+      }, 
+      {
+        "name": "population", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "tableName": "socrata_kingcounty_king_county_history_timeline"
+}

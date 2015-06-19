@@ -1,0 +1,52 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_nola_food_insecurity_rates_2009_present_/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.nola.gov/api/views/n3qj-q4w7/rows.csv"
+  }, 
+  "description": "This data includes the percentage of the population that is food insecure in Orleans Parish and other counties, including: Davidson County (TN), East Baton Rouge Parish (LA), Fulton County (GA), Hillsborough County (FL), Jefferson County (KY), Miami-Dade County (FL), Oklahoma County (OK), Shelby County (TN), and Wake County (NC). The data is available annually beginning in 2009.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Feeding America, Map the Meal Gap", 
+    "category": "Health, Education, and Social Services", 
+    "description": "This data includes the percentage of the population that is food insecure in Orleans Parish and other counties, including: Davidson County (TN), East Baton Rouge Parish (LA), Fulton County (GA), Hillsborough County (FL), Jefferson County (KY), Miami-Dade County (FL), Oklahoma County (OK), Shelby County (TN), and Wake County (NC). The data is available annually beginning in 2009.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.nola.gov/api/views/n3qj-q4w7.json"
+    }
+  }, 
+  "name": "Food Insecurity Rates (2009 - Present)", 
+  "schema": {
+    "columns": [
+      {
+        "name": "rowid", 
+        "type": "real"
+      }, 
+      {
+        "name": "county_parish", 
+        "type": "text"
+      }, 
+      {
+        "name": "state", 
+        "type": "text"
+      }, 
+      {
+        "name": "date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "year", 
+        "type": "real"
+      }, 
+      {
+        "name": "indicator", 
+        "type": "text"
+      }, 
+      {
+        "name": "indicatorvalue", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "socrata_nola_food_insecurity_rates_2009_present_"
+}

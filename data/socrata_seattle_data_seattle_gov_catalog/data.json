@@ -7,9 +7,11 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/p39c-5ije.json"
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/p39c-5ije.json"
+    }
   }, 
-  "name": "socrata_seattle_data_seattle_gov_catalog", 
+  "name": "Data.Seattle.gov Catalog", 
   "schema": {
     "columns": [
       {
@@ -49,5 +51,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_data_seattle_gov_catalog"
 }

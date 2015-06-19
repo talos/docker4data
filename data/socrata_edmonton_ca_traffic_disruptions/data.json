@@ -1,0 +1,92 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_edmonton_ca_traffic_disruptions/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/m6ed-ysu7/rows.csv"
+  }, 
+  "description": "This dataset provides information about what's happening on Edmonton's roads that could impact your drive, including:\r\nMajor road closures and detours, Road construction, Travel delays and special events that impact traffic.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Transportation Operations", 
+    "category": "Transportation", 
+    "description": "This dataset provides information about what's happening on Edmonton's roads that could impact your drive, including:\r\nMajor road closures and detours, Road construction, Travel delays and special events that impact traffic.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/m6ed-ysu7.json"
+    }
+  }, 
+  "name": "Traffic Disruptions", 
+  "schema": {
+    "columns": [
+      {
+        "name": "disruption_number", 
+        "type": "real"
+      }, 
+      {
+        "name": "date_issued", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "starting_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "finish_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "status", 
+        "type": "text"
+      }, 
+      {
+        "name": "closure", 
+        "type": "text"
+      }, 
+      {
+        "name": "on", 
+        "type": "text"
+      }, 
+      {
+        "name": "from", 
+        "type": "text"
+      }, 
+      {
+        "name": "to", 
+        "type": "text"
+      }, 
+      {
+        "name": "impact", 
+        "type": "text"
+      }, 
+      {
+        "name": "duration", 
+        "type": "text"
+      }, 
+      {
+        "name": "details", 
+        "type": "text"
+      }, 
+      {
+        "name": "description", 
+        "type": "text"
+      }, 
+      {
+        "name": "activity_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "traffic_district", 
+        "type": "text"
+      }, 
+      {
+        "name": "infrastructure", 
+        "type": "text"
+      }, 
+      {
+        "name": "location", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "socrata_edmonton_ca_traffic_disruptions"
+}

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/ebvt-eg97/rows.csv"
   }, 
+  "description": "This dataset lists the times that a vehicle arrives at and departs from individual stops for each trip in Edmonton.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.edmonton.ca/api/views/ebvt-eg97.json"
+    "attribution": "Edmonton Transit", 
+    "category": "Transit", 
+    "description": "This dataset lists the times that a vehicle arrives at and departs from individual stops for each trip in Edmonton.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/ebvt-eg97.json"
+    }
   }, 
-  "name": "socrata_edmonton_ca_ets_bus_schedule_gtfs_data_feed_stop_times", 
+  "name": "ETS Bus Schedule GTFS Data Feed - Stop Times", 
   "schema": {
     "columns": [
       {
@@ -41,5 +47,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_edmonton_ca_ets_bus_schedule_gtfs_data_feed_stop_times"
 }

@@ -1,0 +1,43 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oregon_active_benefit_companies/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/baig-8b9x/rows.csv"
+  }, 
+  "description": "(Updated June 17, 2015) Corporations and Limited Liability Companies designated as benefit companies.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "category": "Business", 
+    "description": "(Updated June 17, 2015) Corporations and Limited Liability Companies designated as benefit companies.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/baig-8b9x.json"
+    }
+  }, 
+  "name": "Active Benefit Companies", 
+  "schema": {
+    "columns": [
+      {
+        "name": "registry_number", 
+        "type": "text"
+      }, 
+      {
+        "name": "entity_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "business_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "benefit_designation_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "business_details", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "socrata_oregon_active_benefit_companies"
+}

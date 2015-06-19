@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/vsbp-6kht/rows.csv"
   }, 
+  "description": "2 foot contour lines", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/vsbp-6kht.json"
+    "attribution": "Seattle GIS Program", 
+    "category": "Land Base", 
+    "description": "2 foot contour lines", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/vsbp-6kht.json"
+    }
   }, 
-  "name": "socrata_seattle_cgdb_contour1993_ln", 
+  "name": "CGDB.CONTOUR1993_LN", 
   "schema": {
     "columns": [
       {
@@ -41,5 +47,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_cgdb_contour1993_ln"
 }

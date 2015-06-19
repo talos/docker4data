@@ -7,9 +7,12 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.wa.gov/api/views/vgcw-qfjm.json"
+    "category": "Public Safety", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.wa.gov/api/views/vgcw-qfjm.json"
+    }
   }, 
-  "name": "socrata_wa_lcb_local_authority_letters", 
+  "name": "LCB Local Authority Letters", 
   "schema": {
     "columns": [
       {
@@ -163,11 +166,8 @@
       {
         "name": "location", 
         "type": "text"
-      }, 
-      {
-        "name": "location2", 
-        "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_wa_lcb_local_authority_letters"
 }

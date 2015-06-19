@@ -1,0 +1,52 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oregon_yearly_pond_values/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/qvyp-cz82/rows.csv"
+  }, 
+  "description": "Log price information. Domestically processed logs (delivered to a mill; \"Pond Value\")", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Oregon Department of Forestry", 
+    "category": "Natural Resources", 
+    "description": "Log price information. Domestically processed logs (delivered to a mill; \"Pond Value\")", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/qvyp-cz82.json"
+    }
+  }, 
+  "name": "Yearly Pond Values", 
+  "schema": {
+    "columns": [
+      {
+        "name": "year", 
+        "type": "real"
+      }, 
+      {
+        "name": "quarter", 
+        "type": "text"
+      }, 
+      {
+        "name": "region", 
+        "type": "text"
+      }, 
+      {
+        "name": "species", 
+        "type": "text"
+      }, 
+      {
+        "name": "grade", 
+        "type": "text"
+      }, 
+      {
+        "name": "pond_value", 
+        "type": "real"
+      }, 
+      {
+        "name": "number_of_quotes", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "socrata_oregon_yearly_pond_values"
+}

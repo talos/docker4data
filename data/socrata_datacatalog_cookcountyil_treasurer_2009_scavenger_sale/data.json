@@ -10,20 +10,28 @@
   "metadata": {
     "attribution": "Cook County Treasurer's Office", 
     "category": "Property & Taxation", 
-    "description": "2009 Scavenger Sale Registered Buyers. They are registered to purchase taxes on property that have not been paid for 2 years", 
+    "description": "This is a File that contains Scavenger Sale Sold PIN's", 
     "socrata": {
-      "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/6tn4-u7fq.json"
+      "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/wsmt-5pai.json"
     }
   }, 
-  "name": "Treasurer - 2009 Scavenger Sale Registered Buyers", 
+  "name": "Treasurer - 2009 Scavenger Sale Sold PINS", 
   "schema": {
     "columns": [
       {
-        "name": "buyer_id", 
+        "name": "pin", 
         "type": "text"
       }, 
       {
-        "name": "buyer_name", 
+        "name": "tax_type", 
+        "type": "real"
+      }, 
+      {
+        "name": "tax_year", 
+        "type": "text"
+      }, 
+      {
+        "name": "zip_code", 
         "type": "text"
       }
     ]

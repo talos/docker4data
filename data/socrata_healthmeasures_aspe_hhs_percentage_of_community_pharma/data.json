@@ -3,13 +3,17 @@
   "data": {
     "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/ibq2-zpdt/rows.csv"
   }, 
+  "description": "Click on a state to see data from that state, a time trend graph for the selected state will appear below the map.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/ibq2-zpdt.json"
+    "description": "Click on a state to see data from that state, a time trend graph for the selected state will appear below the map.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/ibq2-zpdt.json"
+    }
   }, 
-  "name": "socrata_healthmeasures_aspe_hhs_percentage_of_community_pharma", 
+  "name": "~ Percentage of community pharmacies actively filling electronic prescriptions by State", 
   "schema": {
     "columns": [
       {
@@ -29,5 +33,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_healthmeasures_aspe_hhs_percentage_of_community_pharma"
 }

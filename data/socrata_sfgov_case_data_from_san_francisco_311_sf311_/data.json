@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/vw6y-z8j6/rows.csv"
   }, 
+  "description": "SF311 cases created since 7/1/2008 with location information", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.sfgov.org/api/views/vw6y-z8j6.json"
+    "attribution": "San Francisco 311", 
+    "category": "City Infrastructure", 
+    "description": "SF311 cases created since 7/1/2008 with location information", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/vw6y-z8j6.json"
+    }
   }, 
-  "name": "socrata_sfgov_case_data_from_san_francisco_311_sf311_", 
+  "name": "Case Data from San Francisco 311 (SF311)", 
   "schema": {
     "columns": [
       {
@@ -73,5 +79,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_sfgov_case_data_from_san_francisco_311_sf311_"
 }

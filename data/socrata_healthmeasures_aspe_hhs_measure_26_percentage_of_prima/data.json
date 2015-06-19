@@ -8,12 +8,12 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "description": "For more information on how regions are defined, please see the <a href=\"/help/glossary#R\" rel=\"external\">Glossary</a> under Help.\r\n<br/>\r\n<br>\r\nThe green lines in the chart below indicate the value +/- the standard error.  The lower and upper standard error values can be seen in the table view.  For more information on standard errors, please see the <a href=\"/help/glossary#S\" rel=\"external\">Glossary</a> under Help.", 
+    "description": "Assumptions were made that if Medicaid or Medicare were selected as an expected payment source then they would be the primary source of payment. If a visit had Medicaid or Medicare as payment type, then the individual's insurance was coded as either Medicaid or Medicare (even if other private insurance was listed). Only 4% of Medicaid recipients listed private insurance as another payment source; whereas approximately 45% of Medicare recipients listed private insurance as another payment source. \r\n\r\nIf both Medicare and Medicaid were listed as payment type, then the individual was coded as dual eligible.", 
     "socrata": {
-      "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/8jks-ehvr.json"
+      "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/yq6p-f8e5.json"
     }
   }, 
-  "name": "' Measure 26 : Percentage of Primary Care Physician Office Visits that Included Depression Screening | Depression Screening", 
+  "name": "( Measure 26 : Percentage of Primary Care Physician Office Visits that Included Depression Screening | Coverage Type and Metric", 
   "schema": {
     "columns": [
       {
@@ -23,6 +23,10 @@
       {
         "name": "year", 
         "type": "real"
+      }, 
+      {
+        "name": "coverage_type", 
+        "type": "text"
       }, 
       {
         "name": "lower_ci", 

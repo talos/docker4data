@@ -8,10 +8,10 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "category": "Geography", 
-    "description": "County name, FIPS, County seat, boundary coordinates, centroid coordinates", 
+    "category": "Natural Resources", 
+    "description": "DNR", 
     "socrata": {
-      "@id": "http://www.opendatacache.com/data.mo.gov/api/views/byps-gsbw.json"
+      "@id": "http://www.opendatacache.com/data.mo.gov/api/views/x5wy-unx3.json"
     }
   }, 
   "name": "Missouri Counties", 
@@ -26,16 +26,20 @@
         "type": "text"
       }, 
       {
+        "name": "region", 
+        "type": "text"
+      }, 
+      {
         "name": "cnty_fips", 
         "type": "real"
       }, 
       {
         "name": "fips", 
-        "type": "text"
+        "type": "real"
       }, 
       {
         "name": "countygnis", 
-        "type": "text"
+        "type": "real"
       }, 
       {
         "name": "cnty_seat", 
@@ -51,11 +55,11 @@
       }, 
       {
         "name": "centroid_latitude", 
-        "type": "text"
+        "type": "real"
       }, 
       {
         "name": "centroid_longitude", 
-        "type": "text"
+        "type": "real"
       }
     ]
   }, 

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/tkzw-k3nq/rows.csv"
   }, 
+  "description": "List of dpw maintained street trees including: Planting date, species, and location", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.sfgov.org/api/views/tkzw-k3nq.json"
+    "attribution": "San Francisco Department of Public Works", 
+    "category": "City Infrastructure", 
+    "description": "List of dpw maintained street trees including: Planting date, species, and location", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/tkzw-k3nq.json"
+    }
   }, 
-  "name": "socrata_sfgov_street_tree_list", 
+  "name": "Street Tree List", 
   "schema": {
     "columns": [
       {
@@ -85,5 +91,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_sfgov_street_tree_list"
 }

@@ -1,0 +1,44 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_melbourne_vicau_fees_and_charges_schedule/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/views/2eyd-p5ws/rows.csv"
+  }, 
+  "description": "This is a list of all Fees and charges administered by the City of Melbourne. Where there is a change to or from $0 this reflects; a new facilities coming online or a new service offered, changes to the pricing structure as determined by the state government or a review of the existing pricing structure. Some fees and charges including GST status are subject to change following a review of Division 81 GST legislation.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "City of Melbourne, Australia", 
+    "category": "Finance & Operations", 
+    "description": "This is a list of all Fees and charges administered by the City of Melbourne. Where there is a change to or from $0 this reflects; a new facilities coming online or a new service offered, changes to the pricing structure as determined by the state government or a review of the existing pricing structure. Some fees and charges including GST status are subject to change following a review of Division 81 GST legislation.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/views/2eyd-p5ws.json"
+    }
+  }, 
+  "name": "Fees and Charges Schedule", 
+  "schema": {
+    "columns": [
+      {
+        "name": "financial_year", 
+        "type": "text"
+      }, 
+      {
+        "name": "branch", 
+        "type": "text"
+      }, 
+      {
+        "name": "name_of_product_or_service", 
+        "type": "text"
+      }, 
+      {
+        "name": "unit_of_measure", 
+        "type": "text"
+      }, 
+      {
+        "name": "price_per_unit_including_gst", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "tableName": "socrata_melbourne_vicau_fees_and_charges_schedule"
+}

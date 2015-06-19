@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.raleighnc.gov/api/views/uaii-fiij/rows.csv"
   }, 
+  "description": "The FY15 information is only for operating funds (not capital), and just expenditure data. The totals are also inclusive of interfund transfers, meaning if someone tries to sum all the data in a year, it won\u2019t match the published net budget total.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.raleighnc.gov/api/views/uaii-fiij.json"
+    "attribution": "City of Raleigh Budget and Management Services", 
+    "category": "Fiscal Year 2015 Proposed to Council", 
+    "description": "The FY15 information is only for operating funds (not capital), and just expenditure data. The totals are also inclusive of interfund transfers, meaning if someone tries to sum all the data in a year, it won\u2019t match the published net budget total.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.raleighnc.gov/api/views/uaii-fiij.json"
+    }
   }, 
-  "name": "socrata_raleighnc_city_of_raleigh_fy14_adopted_and_fy15_propos", 
+  "name": "City Of Raleigh FY14 Adopted And FY15 Proposed Budgets-01", 
   "schema": {
     "columns": [
       {
@@ -49,5 +55,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_raleighnc_city_of_raleigh_fy14_adopted_and_fy15_propos"
 }

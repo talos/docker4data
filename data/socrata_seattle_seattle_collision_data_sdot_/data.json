@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/v7k9-7dn4/rows.csv"
   }, 
+  "description": "Collision data information compiled from SPD and WSDOT for use by SDOT.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/v7k9-7dn4.json"
+    "category": "Transportation", 
+    "description": "Collision data information compiled from SPD and WSDOT for use by SDOT.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/v7k9-7dn4.json"
+    }
   }, 
-  "name": "socrata_seattle_seattle_collision_data_sdot_", 
+  "name": "Seattle Collision Data (SDOT)", 
   "schema": {
     "columns": [
       {
@@ -193,5 +198,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_seattle_collision_data_sdot_"
 }

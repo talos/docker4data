@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ok.gov/api/views/uggx-hjpe/rows.csv"
   }, 
+  "description": "The vendor payment dataset contains payments made by state agencies and institutions of higher education that are processed through the Office of Management and Enterprise Services. These payments reflect disbursements from a state fund for the purchase of goods received, services performed, reimbursements, and payments to other governments. Travel reimbursements include the zip code of the State Capitol and not the individual\u2019s address. For security and privacy reasons, payments related to \u201cconfidential matters\u201d are included in the dataset; however, the payee name is replaced with \u201cProtected Information\u201d and the address is changed to the State Capitol address. . Also, some state agencies are authorized to make payments outside of the Office of Management and Enterprise Services from certain authorized funds. In these cases, the agency reports only the total amount of the expenditures to the Office of Management and Enterprise Services but does not report the detailed vendor payment information. Therefore, these payment details are not included in the dataset.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ok.gov/api/views/uggx-hjpe.json"
+    "attribution": "Office of State Finance", 
+    "category": "Finance and Administration", 
+    "description": "The vendor payment dataset contains payments made by state agencies and institutions of higher education that are processed through the Office of Management and Enterprise Services. These payments reflect disbursements from a state fund for the purchase of goods received, services performed, reimbursements, and payments to other governments. Travel reimbursements include the zip code of the State Capitol and not the individual\u2019s address. For security and privacy reasons, payments related to \u201cconfidential matters\u201d are included in the dataset; however, the payee name is replaced with \u201cProtected Information\u201d and the address is changed to the State Capitol address. . Also, some state agencies are authorized to make payments outside of the Office of Management and Enterprise Services from certain authorized funds. In these cases, the agency reports only the total amount of the expenditures to the Office of Management and Enterprise Services but does not report the detailed vendor payment information. Therefore, these payment details are not included in the dataset.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ok.gov/api/views/uggx-hjpe.json"
+    }
   }, 
-  "name": "socrata_ok_state_of_oklahoma_vendor_payments_fiscal_year_2010", 
+  "name": "State of Oklahoma Vendor Payments Fiscal Year 2010", 
   "schema": {
     "columns": [
       {
@@ -129,5 +135,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ok_state_of_oklahoma_vendor_payments_fiscal_year_2010"
 }

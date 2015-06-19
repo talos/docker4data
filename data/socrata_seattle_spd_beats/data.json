@@ -1,0 +1,40 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_spd_beats/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/e5ub-37ve/rows.csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/e5ub-37ve.json"
+    }
+  }, 
+  "name": "SPD Beats", 
+  "schema": {
+    "columns": [
+      {
+        "name": "_feature_id", 
+        "type": "real"
+      }, 
+      {
+        "name": "_feature_id_string", 
+        "type": "text"
+      }, 
+      {
+        "name": "the_geom", 
+        "type": "text"
+      }, 
+      {
+        "name": "beat", 
+        "type": "text"
+      }, 
+      {
+        "name": "precinct", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "socrata_seattle_spd_beats"
+}

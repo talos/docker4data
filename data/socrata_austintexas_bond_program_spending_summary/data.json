@@ -10,7 +10,7 @@
   "metadata": {
     "attribution": "City of Austin", 
     "category": "Capital Planning", 
-    "description": "The table provides spending details on the City\u2019s voter-approved bond programs. The information summarizes spending by fiscal year quarter starting with FY 13 Q3. Please see the Capital Planning Office website, www.austintexas.gov/cip, for more information about the City\u2019s voter-approved bond programs. The fiscal year begins October 1 and ends September 30. The first fiscal quarter is October through December; the second quarter is January through March; the third fiscal quarter is April through June; and the fourth fiscal quarter is July through September. The following are definitions of terms used in the table. Allocated: The amount of funds designated by the City of Austin Budget Office to be spent per reporting category or proposition. Allocated funds are tied to bond sales, which must be performed in $5,000 increments. Appropriated: City Council authorizes the appropriation of funds, which gives staff the legal authority to expend the funds for a specific purpose. City Council may approve multiple installments of funding throughout the project\u2019s phases. Available: The amount of funds allocated minus the amount encumbered and expended. Encumbered: Commitments made to unperformed contracts for goods or services. Expenditure: Funds that have been paid for goods or services.", 
+    "description": "The table provides spending details on the City\u2019s voter-approved bond programs. The information summarizes spending by fiscal year quarter starting with FY 13 Q3. Please see the Capital Planning Office website, www.austintexas.gov/cip, for more information about the City\u2019s voter-approved bond programs. The fiscal year begins October 1 and ends September 30. The first fiscal quarter is October through December; the second quarter is January through March; the third fiscal quarter is April through June; and the fourth fiscal quarter is July through September. The following are definitions of terms used in the table. Allocated: The amount of funds designated by the City of Austin Budget Office to be spent per reporting category or proposition. Allocated funds are tied to bond sales, which must be performed in $5,000 increments. Appropriated: City Council authorizes the appropriation of funds, which gives staff the legal authority to expend the funds for a specific purpose. City Council may approve multiple installments of funding throughout the project\u2019s phases. Available: The amount of funds allocated minus the amount encumbered and expended. Available funds are programmed for specific purposes. Encumbered: Commitments made to unperformed contracts for goods or services. Expenditure: Funds that have been paid for goods or services.", 
     "socrata": {
       "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/kyp9-ynfw.json"
     }
@@ -21,6 +21,10 @@
       {
         "name": "row_id", 
         "type": "real"
+      }, 
+      {
+        "name": "date", 
+        "type": "timestamp"
       }, 
       {
         "name": "fiscal_year", 

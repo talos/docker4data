@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/pftn-eqhn/rows.csv"
   }, 
+  "description": "List of program and meeting rooms available for rental at Edmonton Public Library branches. Includes room capacity and contact information.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.edmonton.ca/api/views/pftn-eqhn.json"
+    "attribution": "Edmonton Public Library", 
+    "category": "Community Centres", 
+    "description": "List of program and meeting rooms available for rental at Edmonton Public Library branches. Includes room capacity and contact information.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/pftn-eqhn.json"
+    }
   }, 
-  "name": "socrata_edmonton_ca_edmonton_public_library_rooms_for_rent", 
+  "name": "Edmonton Public Library Rooms for Rent", 
   "schema": {
     "columns": [
       {
@@ -53,5 +59,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_edmonton_ca_edmonton_public_library_rooms_for_rent"
 }

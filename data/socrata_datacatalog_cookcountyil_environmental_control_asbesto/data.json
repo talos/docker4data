@@ -10,40 +10,52 @@
   "metadata": {
     "attribution": "Cook County Bureau of Environmental Control", 
     "category": "Finance & Administration", 
-    "description": "From the Department of Environmental Control, a list of Asbestos Abatement Permits for 3Q 2012.", 
+    "description": "From the Department of Environmental Control, a dataset of asbestos demolition permits for 3Q 2012.", 
     "socrata": {
-      "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/erxw-ipht.json"
+      "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/wsbi-a8u3.json"
     }
   }, 
-  "name": "Environmental Control - Asbestos Abatement Permits - 2012 Q3", 
+  "name": "Environmental Control - Asbestos Demolition Summary Report - February 2011 to August 2012", 
   "schema": {
     "columns": [
       {
-        "name": "asbestos_abatement_permit_number", 
+        "name": "permit_number", 
         "type": "text"
       }, 
       {
-        "name": "permit_issue_date", 
+        "name": "issue_date", 
         "type": "text"
       }, 
       {
-        "name": "inspection_fees", 
+        "name": "permit_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "permit_fee", 
         "type": "real"
       }, 
       {
-        "name": "filing_fees", 
-        "type": "real"
-      }, 
-      {
-        "name": "abatement_start_date", 
+        "name": "start_date", 
         "type": "timestamp"
       }, 
       {
-        "name": "abatement_end_date", 
+        "name": "end_date", 
         "type": "timestamp"
       }, 
       {
-        "name": "abatement_contractor", 
+        "name": "property_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "property_address", 
+        "type": "text"
+      }, 
+      {
+        "name": "city_municipality", 
+        "type": "text"
+      }, 
+      {
+        "name": "demolition_contractor", 
         "type": "text"
       }, 
       {

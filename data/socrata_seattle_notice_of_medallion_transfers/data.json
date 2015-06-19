@@ -3,17 +3,27 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/rk6r-ehyv/rows.csv"
   }, 
+  "description": "This data set includes all transfer dates and values of taxicab and for-hire vehicle medallions.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/rk6r-ehyv.json"
+    "attribution": "City of Seattle, Consumer Protection Unit", 
+    "category": "City Business", 
+    "description": "This data set includes all transfer dates and values of taxicab and for-hire vehicle medallions.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/rk6r-ehyv.json"
+    }
   }, 
-  "name": "socrata_seattle_notice_of_medallion_transfers", 
+  "name": "Notice of Medallion Transfers", 
   "schema": {
     "columns": [
       {
-        "name": "application_date", 
+        "name": "medallion_number", 
+        "type": "text"
+      }, 
+      {
+        "name": "medallion_holder_name", 
         "type": "text"
       }, 
       {
@@ -21,17 +31,10 @@
         "type": "text"
       }, 
       {
-        "name": "medallion_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "medallion_transfer_price", 
-        "type": "text"
-      }, 
-      {
-        "name": "notes", 
+        "name": "application_date", 
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_notice_of_medallion_transfers"
 }

@@ -9,41 +9,45 @@
   }, 
   "metadata": {
     "attribution": "KNBS", 
-    "category": "Counties", 
-    "description": "2009 Census Volume II Table 9: Households by main mode of Human Waste Disposal\r\nCounty Estimates", 
+    "category": "Sanitation", 
+    "description": "2009 Census Volume II Table 9: Households by main mode of Human Waste Disposal\r\n by district", 
     "socrata": {
-      "@id": "http://www.opendatacache.com/opendata.go.ke/api/views/4763-45tg.json"
+      "@id": "http://www.opendatacache.com/opendata.go.ke/api/views/mb7b-n9sd.json"
     }
   }, 
-  "name": "2009 Census Volume II Table 9: Households by main mode of Human Waste Disposal County Estimates", 
+  "name": "2009 Census Volume II Table 9: Households by main mode of Human Waste Disposal", 
   "schema": {
     "columns": [
       {
-        "name": "county", 
+        "name": "district", 
         "type": "text"
       }, 
       {
-        "name": "main_sewer", 
+        "name": "rural_urban", 
         "type": "text"
       }, 
       {
-        "name": "septic_tank", 
+        "name": "of_households_with_main_sewer", 
         "type": "text"
       }, 
       {
-        "name": "cess_pool", 
+        "name": "of_households_with_septic_tank", 
         "type": "text"
       }, 
       {
-        "name": "bucket", 
+        "name": "of_households_with_cess_pool", 
         "type": "text"
       }, 
       {
-        "name": "bush", 
+        "name": "of_households_with_bucket", 
         "type": "text"
       }, 
       {
-        "name": "other_waste_disposal", 
+        "name": "of_households_with_bush", 
+        "type": "text"
+      }, 
+      {
+        "name": "of_households_with_other", 
         "type": "text"
       }, 
       {
@@ -75,11 +79,23 @@
         "type": "real"
       }, 
       {
+        "name": "county", 
+        "type": "text"
+      }, 
+      {
+        "name": "mtef", 
+        "type": "text"
+      }, 
+      {
         "name": "location_1", 
         "type": "text"
       }, 
       {
-        "name": "pit_latrine_covered_uncovered", 
+        "name": "of_households_with_vip_pit_latrine", 
+        "type": "text"
+      }, 
+      {
+        "name": "of_households_with_pit_latrine_covered_uncovered", 
         "type": "text"
       }, 
       {
@@ -89,10 +105,6 @@
       {
         "name": "no_of_households_with_pit_latrine_covered_uncovered", 
         "type": "real"
-      }, 
-      {
-        "name": "vip_pit_latrine", 
-        "type": "text"
       }
     ]
   }, 

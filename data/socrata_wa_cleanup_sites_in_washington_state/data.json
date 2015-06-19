@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.wa.gov/api/views/vtkh-65is/rows.csv"
   }, 
+  "description": "This is a list of cleanup sites in Washington State. It includes sites and associated websites.  It includes location data, Cleanup Status, Site Rank \u2013 if the site is ranked, and if the site has an Environmental Covenant.  \r\n\r\nOver half the cleanup sites have a status of \u201cNo Further Action Required/Decision\u201d or NFA.  If a site has a NFA it includes the latest NFA date and NFA reason.  \r\n\r\nThe Washington Department of Ecology (Toxics Cleanup Program) works to clean up contaminated sites/properties throughout the state of Washington. This data was downloaded from the Integrated Site Information System (ISIS) database and is monthly.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.wa.gov/api/views/vtkh-65is.json"
+    "attribution": "Toxics Cleanup Program : Washington Department of Ecology", 
+    "category": "Natural Resources & Environment", 
+    "description": "This is a list of cleanup sites in Washington State. It includes sites and associated websites.  It includes location data, Cleanup Status, Site Rank \u2013 if the site is ranked, and if the site has an Environmental Covenant.  \r\n\r\nOver half the cleanup sites have a status of \u201cNo Further Action Required/Decision\u201d or NFA.  If a site has a NFA it includes the latest NFA date and NFA reason.  \r\n\r\nThe Washington Department of Ecology (Toxics Cleanup Program) works to clean up contaminated sites/properties throughout the state of Washington. This data was downloaded from the Integrated Site Information System (ISIS) database and is monthly.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.wa.gov/api/views/vtkh-65is.json"
+    }
   }, 
-  "name": "socrata_wa_cleanup_sites_in_washington_state", 
+  "name": "Cleanup Sites in Washington State", 
   "schema": {
     "columns": [
       {
@@ -97,5 +103,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_wa_cleanup_sites_in_washington_state"
 }

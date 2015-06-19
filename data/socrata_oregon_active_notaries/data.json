@@ -1,0 +1,60 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oregon_active_notaries/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/j2pk-zk6z/rows.csv"
+  }, 
+  "description": "List of current active Notaries\r\nData as of 6/1/2015", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Secretary of State - Corporation Division", 
+    "category": "Business", 
+    "description": "List of current active Notaries\r\nData as of 6/1/2015", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/j2pk-zk6z.json"
+    }
+  }, 
+  "name": "Active Notaries", 
+  "schema": {
+    "columns": [
+      {
+        "name": "commsn_nbr", 
+        "type": "real"
+      }, 
+      {
+        "name": "last_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "first_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "mdle_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "effective_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "expiration_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "city", 
+        "type": "text"
+      }, 
+      {
+        "name": "state", 
+        "type": "text"
+      }, 
+      {
+        "name": "zip", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "socrata_oregon_active_notaries"
+}

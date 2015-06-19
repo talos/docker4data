@@ -7,9 +7,11 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.wa.gov/api/views/mhct-mytn.json"
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.wa.gov/api/views/mhct-mytn.json"
+    }
   }, 
-  "name": "socrata_wa_auditor_s_report_merged_permits", 
+  "name": "Auditor's Report Merged - Permits", 
   "schema": {
     "columns": [
       {
@@ -89,5 +91,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_wa_auditor_s_report_merged_permits"
 }

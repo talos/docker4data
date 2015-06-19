@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/vz77-kxck/rows.csv"
   }, 
+  "description": "Contains physical, manmade structures used for diverting, storing, releasing, or measuring water; structures are associated with specific bodies of water.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.colorado.gov/api/views/vz77-kxck.json"
+    "category": "Water", 
+    "description": "Contains physical, manmade structures used for diverting, storing, releasing, or measuring water; structures are associated with specific bodies of water.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/vz77-kxck.json"
+    }
   }, 
-  "name": "socrata_colorado_dwr_administrative_structures", 
+  "name": "DWR Administrative Structures", 
   "schema": {
     "columns": [
       {
@@ -161,5 +166,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_colorado_dwr_administrative_structures"
 }

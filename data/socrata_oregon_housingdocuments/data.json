@@ -7,9 +7,12 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.oregon.gov/api/views/8mpt-j9np.json"
+    "attribution": "Oregon Housing and Community Services", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/8mpt-j9np.json"
+    }
   }, 
-  "name": "socrata_oregon_housingdocuments", 
+  "name": "HousingDocuments", 
   "schema": {
     "columns": [
       {
@@ -25,5 +28,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_oregon_housingdocuments"
 }

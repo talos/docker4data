@@ -1,0 +1,80 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_colorado_daily_precipitation_reports/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/mqid-8hv2/rows.csv"
+  }, 
+  "description": "CoCoRaHS is an acronym for the Community Collaborative Rain, Hail and Snow Network. Contains location (lat and long), amount of precipitation, time of reading, amount of precipitation up to that point, and various other data.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "CoCoRaHS - Community Collaborative Rain, Hail & Snow Network", 
+    "category": "Environment", 
+    "description": "CoCoRaHS is an acronym for the Community Collaborative Rain, Hail and Snow Network. Contains location (lat and long), amount of precipitation, time of reading, amount of precipitation up to that point, and various other data.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/mqid-8hv2.json"
+    }
+  }, 
+  "name": "Colorado Daily Precipitation Reports", 
+  "schema": {
+    "columns": [
+      {
+        "name": "id", 
+        "type": "text"
+      }, 
+      {
+        "name": "st_num", 
+        "type": "text"
+      }, 
+      {
+        "name": "st_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "obs_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "obs_time", 
+        "type": "text"
+      }, 
+      {
+        "name": "obs_datetime", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "prcp", 
+        "type": "real"
+      }, 
+      {
+        "name": "snowfall", 
+        "type": "real"
+      }, 
+      {
+        "name": "snowfallswe", 
+        "type": "real"
+      }, 
+      {
+        "name": "snowdepth", 
+        "type": "real"
+      }, 
+      {
+        "name": "snowdepthswe", 
+        "type": "real"
+      }, 
+      {
+        "name": "lat", 
+        "type": "real"
+      }, 
+      {
+        "name": "lng", 
+        "type": "real"
+      }, 
+      {
+        "name": "location", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "socrata_colorado_colorado_daily_precipitation_reports"
+}

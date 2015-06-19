@@ -8,10 +8,10 @@
   }, 
   "metadata": {
     "socrata": {
-      "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/9b5n-yr4i.json"
+      "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/siz5-q64t.json"
     }
   }, 
-  "name": "Personal health expenditures per capita / Medicare and Medicaid per beneficiary", 
+  "name": "Personal health expenditures per capita / Medicare and Medicare per beneficiary by Type of Service", 
   "schema": {
     "columns": [
       {
@@ -21,6 +21,10 @@
       {
         "name": "year", 
         "type": "real"
+      }, 
+      {
+        "name": "type_of_service", 
+        "type": "text"
       }, 
       {
         "name": "dollars", 

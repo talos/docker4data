@@ -9,17 +9,21 @@
   }, 
   "metadata": {
     "attribution": "KNBS", 
-    "category": "Poverty", 
-    "description": "2009 Census Volume II Table 6: Households by main type of Wall Material for the main dwelling unit, county estimates", 
+    "category": "Housing and Real Estate", 
+    "description": "2009 Census Volume II Table 6: Households by main type of Wall Material for the main dwelling unit, by district", 
     "socrata": {
-      "@id": "http://www.opendatacache.com/opendata.go.ke/api/views/2mf4-9b4s.json"
+      "@id": "http://www.opendatacache.com/opendata.go.ke/api/views/nhkv-ij8n.json"
     }
   }, 
-  "name": "2009 Census Volume II Table 6: Households by main type of Wall Material for the main dwelling unit, county estimates", 
+  "name": "2009 Census Volume II Table 6: Households by main type of Wall Material for the main dwelling unit, by district", 
   "schema": {
     "columns": [
       {
-        "name": "county", 
+        "name": "district", 
+        "type": "text"
+      }, 
+      {
+        "name": "rural_urban", 
         "type": "text"
       }, 
       {
@@ -97,6 +101,22 @@
       {
         "name": "no_of_households_with_other", 
         "type": "real"
+      }, 
+      {
+        "name": "county", 
+        "type": "text"
+      }, 
+      {
+        "name": "census_question", 
+        "type": "text"
+      }, 
+      {
+        "name": "mtef", 
+        "type": "text"
+      }, 
+      {
+        "name": "mtp", 
+        "type": "text"
       }, 
       {
         "name": "location_1", 

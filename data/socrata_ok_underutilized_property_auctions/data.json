@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ok.gov/api/views/dknh-b46p/rows.csv"
   }, 
+  "description": "List of all State of Oklahoma-owned and underutilized properties that are available for auction.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ok.gov/api/views/dknh-b46p.json"
+    "attribution": "Office of Management and Enterrpise Services (OMES) Division of Capital Assets Management (DCAM) Office of Facilities Management (OFM)", 
+    "category": "Finance and Administration", 
+    "description": "List of all State of Oklahoma-owned and underutilized properties that are available for auction.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ok.gov/api/views/dknh-b46p.json"
+    }
   }, 
-  "name": "socrata_ok_underutilized_property_auctions", 
+  "name": "Underutilized Property Auctions", 
   "schema": {
     "columns": [
       {
@@ -69,5 +75,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ok_underutilized_property_auctions"
 }

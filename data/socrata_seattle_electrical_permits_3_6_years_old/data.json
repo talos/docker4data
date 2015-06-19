@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/uvnd-ak3d/rows.csv"
   }, 
+  "description": "Permits for electrical work that were issued between three and six years ago.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/uvnd-ak3d.json"
+    "attribution": "City of Seattle, Department of Planning and Development", 
+    "category": "Permitting", 
+    "description": "Permits for electrical work that were issued between three and six years ago.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/uvnd-ak3d.json"
+    }
   }, 
-  "name": "socrata_seattle_electrical_permits_3_6_years_old", 
+  "name": "Electrical Permits: 3-6 years old", 
   "schema": {
     "columns": [
       {
@@ -89,5 +95,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_electrical_permits_3_6_years_old"
 }

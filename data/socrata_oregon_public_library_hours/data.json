@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/p8m3-6eqk/rows.csv"
   }, 
+  "description": "Open hours of Oregon Public Libraries (created from the 2009-2010 public library statistics report)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.oregon.gov/api/views/p8m3-6eqk.json"
+    "attribution": "Oregon State Library", 
+    "category": "Education", 
+    "description": "Open hours of Oregon Public Libraries (created from the 2009-2010 public library statistics report)", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/p8m3-6eqk.json"
+    }
   }, 
-  "name": "socrata_oregon_public_library_hours", 
+  "name": "Public Library Hours", 
   "schema": {
     "columns": [
       {
@@ -73,5 +79,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_oregon_public_library_hours"
 }

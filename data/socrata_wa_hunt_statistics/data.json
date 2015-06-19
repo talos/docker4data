@@ -7,9 +7,12 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.wa.gov/api/views/vj4a-58fj.json"
+    "attribution": "WDFW", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.wa.gov/api/views/vj4a-58fj.json"
+    }
   }, 
-  "name": "socrata_wa_hunt_statistics", 
+  "name": "Hunt Statistics", 
   "schema": {
     "columns": [
       {
@@ -65,5 +68,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_wa_hunt_statistics"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.raleighnc.gov/api/views/snpm-8ugp/rows.csv"
   }, 
+  "description": "The Public Affairs department maintains the Public Meetings calendar. Meeting cancellations are also noted on the calendar.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.raleighnc.gov/api/views/ym37-sa68.json"
+    "attribution": "Department of Public Affairs", 
+    "category": "Government", 
+    "description": "The Public Affairs department maintains the Public Meetings calendar. Meeting cancellations are also noted on the calendar.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.raleighnc.gov/api/views/snpm-8ugp.json"
+    }
   }, 
-  "name": "socrata_raleighnc_public_meetings_calendar", 
+  "name": "Public Meetings Calendar", 
   "schema": {
     "columns": [
       {
@@ -21,11 +27,15 @@
         "type": "timestamp"
       }, 
       {
+        "name": "duration", 
+        "type": "text"
+      }, 
+      {
         "name": "end", 
         "type": "timestamp"
       }, 
       {
-        "name": "duration", 
+        "name": "where", 
         "type": "text"
       }, 
       {
@@ -33,13 +43,10 @@
         "type": "text"
       }, 
       {
-        "name": "where", 
-        "type": "text"
-      }, 
-      {
         "name": "attendees", 
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_raleighnc_public_meetings_calendar"
 }

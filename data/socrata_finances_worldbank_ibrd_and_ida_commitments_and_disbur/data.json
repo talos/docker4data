@@ -3,13 +3,17 @@
   "data": {
     "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/k6tm-smim/rows.csv"
   }, 
+  "description": "Provides quarterly summaries for IBRD and IDA commitments and disbursements to all borrowers (USD Millions). Includes all credits except HIPC.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/finances.worldbank.org/api/views/k6tm-smim.json"
+    "description": "Provides quarterly summaries for IBRD and IDA commitments and disbursements to all borrowers (USD Millions). Includes all credits except HIPC.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/k6tm-smim.json"
+    }
   }, 
-  "name": "socrata_finances_worldbank_ibrd_and_ida_commitments_and_disbur", 
+  "name": "IBRD and IDA Commitments and Disbursements - Country Summary", 
   "schema": {
     "columns": [
       {
@@ -49,5 +53,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_finances_worldbank_ibrd_and_ida_commitments_and_disbur"
 }

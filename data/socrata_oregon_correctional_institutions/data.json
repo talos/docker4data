@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/fqhs-84r4/rows.csv"
   }, 
+  "description": "The Jails and Prisons sub-layer is part of the Emergency Law Enforcement Sector and the Critical Infrastructure Category. A Jail or Prison consists of any facility or location where individuals are regularly and lawfully detained against their will. This includes Federal and State prisons, local jails, and juvenile detention facilities, as well as law enforcement temporary holding facilities. Work camps, including camps operated seasonally, are included if they otherwise meet the definition. A Federal Prison is a facility operated by the Federal Bureau of Prisons for the incarceration of individuals. A State Prison is a facility operated by a state, commonwealth, or territory of the US for the incarceration of individuals for a term usually longer than 1 year. A Juvenile Detention Facility is a facility for the incarceration of those who have not yet reached the age of majority (usually 18 years). A Local Jail is a locally administered facility that holds inmates beyond arraignment (usually 72 hours) and is staffed by municipal or county employees. A temporary holding facility, sometimes referred to as a \"police lock up\" or \"drunk tank\", is a facility used to detain people prior to arraignment. Locations that are administrative offices only are excluded from the dataset. This definition of Jails is consistent with that used by the Department of Justice (DOJ) in their \"National Jail Census\", with the exception of \"temporary holding facilities\", which the DOJ excludes.\n\nLocations which function primarily as law enforcement offices are included in this dataset if they have holding cells.\n\nIf the facility is enclosed with a fence, wall, or structure with a gate around the buildings only, the locations were depicted as \"on entity\" at the center of the facility. If the facility's buildings are not enclosed, the locations were depicted as \"on entity\" on the main building or \"block face\" on the correct street segment.\n\nFor full metadata record, please refer to the Oregon Geospatial Library: http://gis.oregon.gov/DAS/EISPD/GEO/sdlibrary.shtml", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.oregon.gov/api/views/fqhs-84r4.json"
+    "attribution": "TechniGraphics, Inc.", 
+    "category": "Government", 
+    "description": "The Jails and Prisons sub-layer is part of the Emergency Law Enforcement Sector and the Critical Infrastructure Category. A Jail or Prison consists of any facility or location where individuals are regularly and lawfully detained against their will. This includes Federal and State prisons, local jails, and juvenile detention facilities, as well as law enforcement temporary holding facilities. Work camps, including camps operated seasonally, are included if they otherwise meet the definition. A Federal Prison is a facility operated by the Federal Bureau of Prisons for the incarceration of individuals. A State Prison is a facility operated by a state, commonwealth, or territory of the US for the incarceration of individuals for a term usually longer than 1 year. A Juvenile Detention Facility is a facility for the incarceration of those who have not yet reached the age of majority (usually 18 years). A Local Jail is a locally administered facility that holds inmates beyond arraignment (usually 72 hours) and is staffed by municipal or county employees. A temporary holding facility, sometimes referred to as a \"police lock up\" or \"drunk tank\", is a facility used to detain people prior to arraignment. Locations that are administrative offices only are excluded from the dataset. This definition of Jails is consistent with that used by the Department of Justice (DOJ) in their \"National Jail Census\", with the exception of \"temporary holding facilities\", which the DOJ excludes.\n\nLocations which function primarily as law enforcement offices are included in this dataset if they have holding cells.\n\nIf the facility is enclosed with a fence, wall, or structure with a gate around the buildings only, the locations were depicted as \"on entity\" at the center of the facility. If the facility's buildings are not enclosed, the locations were depicted as \"on entity\" on the main building or \"block face\" on the correct street segment.\n\nFor full metadata record, please refer to the Oregon Geospatial Library: http://gis.oregon.gov/DAS/EISPD/GEO/sdlibrary.shtml", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/fqhs-84r4.json"
+    }
   }, 
-  "name": "socrata_oregon_correctional_institutions", 
+  "name": "Correctional Institutions", 
   "schema": {
     "columns": [
       {
@@ -97,5 +103,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_oregon_correctional_institutions"
 }

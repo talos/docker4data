@@ -3,21 +3,27 @@
   "data": {
     "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/8xzh-zvsn/rows.csv"
   }, 
+  "description": "Updated 10/31/2011.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
     "attribution": "Cook County Department of Industrial Engineers", 
     "category": "Finance & Administration", 
+    "description": "Updated 10/31/2011.", 
     "socrata": {
-      "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/8xzh-zvsn.json"
+      "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/hkhn-a2ua.json"
     }
   }, 
-  "name": "Industrial Engineers--Natural Gas Usage by Facility, by Month", 
+  "name": "Industrial Engineers--Natural Gas Usage, by Cook County Government facility, month and year", 
   "schema": {
     "columns": [
       {
-        "name": "facility_address", 
+        "name": "service_address", 
+        "type": "text"
+      }, 
+      {
+        "name": "service_town", 
         "type": "text"
       }, 
       {
@@ -29,12 +35,16 @@
         "type": "text"
       }, 
       {
-        "name": "gas_cost", 
+        "name": "usage_therms_", 
         "type": "real"
       }, 
       {
-        "name": "usage", 
+        "name": "total_cost", 
         "type": "real"
+      }, 
+      {
+        "name": "location_1", 
+        "type": "text"
       }
     ]
   }, 

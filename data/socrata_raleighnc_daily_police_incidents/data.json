@@ -10,7 +10,7 @@
   "metadata": {
     "attribution": "City of Raleigh Police Department", 
     "category": "Police", 
-    "description": "Daily Police Incidents, which is updated every day at 11AM, provided by City of Raleigh Police Department.  Column Heading = Code of Incident Type LCR DESC Column Heading = Description of Incident Type", 
+    "description": "This dataset only includes Police Incidents reported from the previous calendar day, which is updated every day at 11AM, provided by City of Raleigh Police Department.  Column Heading = Code of Incident Type LCR DESC Column Heading = Description of Incident Type\r\n\r\nFor the full dataset of all Police Incidents since 2005: https://data.raleighnc.gov/Police/Police-Incident-Data-All-Dates-Master-File/csw9-dd5k", 
     "socrata": {
       "@id": "http://www.opendatacache.com/data.raleighnc.gov/api/views/guyh-emm5.json"
     }
@@ -31,15 +31,15 @@
         "type": "timestamp"
       }, 
       {
-        "name": "beat", 
-        "type": "real"
-      }, 
-      {
         "name": "inc_no", 
         "type": "text"
       }, 
       {
         "name": "location", 
+        "type": "text"
+      }, 
+      {
+        "name": "district", 
         "type": "text"
       }
     ]

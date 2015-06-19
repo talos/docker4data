@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/uyyd-8gak/rows.csv"
   }, 
+  "description": "Current and historical information on a variety of over the counter and plan review applications and permits that generally include a public comment process and do not authorize construction activities.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/uyyd-8gak.json"
+    "attribution": "City of Seattle, Department of Planning and Development", 
+    "category": "Permitting", 
+    "description": "Current and historical information on a variety of over the counter and plan review applications and permits that generally include a public comment process and do not authorize construction activities.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/uyyd-8gak.json"
+    }
   }, 
-  "name": "socrata_seattle_land_use_permits", 
+  "name": "Land Use Permits", 
   "schema": {
     "columns": [
       {
@@ -89,5 +95,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_land_use_permits"
 }

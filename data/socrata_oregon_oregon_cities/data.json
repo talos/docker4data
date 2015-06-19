@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/d9dy-mbsn/rows.csv"
   }, 
+  "description": "This data is based on 2010 Census information.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.oregon.gov/api/views/d9dy-mbsn.json"
+    "category": "Administrative", 
+    "description": "This data is based on 2010 Census information.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/d9dy-mbsn.json"
+    }
   }, 
-  "name": "socrata_oregon_oregon_cities", 
+  "name": "Oregon Cities", 
   "schema": {
     "columns": [
       {
@@ -25,5 +30,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_oregon_oregon_cities"
 }

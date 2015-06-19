@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/g2yz-fssz/rows.csv"
   }, 
+  "description": "Monthly count of inmates since 1994 by age group", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.oregon.gov/api/views/g2yz-fssz.json"
+    "attribution": "Oregon Department of Corrections, Research and Evaluation", 
+    "category": "Public Safety", 
+    "description": "Monthly count of inmates since 1994 by age group", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/g2yz-fssz.json"
+    }
   }, 
-  "name": "socrata_oregon_oregon_inmates_monlthly_age_group", 
+  "name": "Oregon Inmates Monlthly Age Group", 
   "schema": {
     "columns": [
       {
@@ -29,5 +35,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_oregon_oregon_inmates_monlthly_age_group"
 }

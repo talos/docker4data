@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/smdf-6c45/rows.csv"
   }, 
+  "description": "Active Utility Excavation permits issued by DPW", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.sfgov.org/api/views/smdf-6c45.json"
+    "attribution": "San Francisco Department of Public Works", 
+    "category": "City Infrastructure", 
+    "description": "Active Utility Excavation permits issued by DPW", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/smdf-6c45.json"
+    }
   }, 
-  "name": "socrata_sfgov_utility_excavation_permits", 
+  "name": "Utility Excavation Permits", 
   "schema": {
     "columns": [
       {
@@ -57,5 +63,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_sfgov_utility_excavation_permits"
 }

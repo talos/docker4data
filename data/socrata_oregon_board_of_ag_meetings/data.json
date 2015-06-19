@@ -7,9 +7,12 @@
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.oregon.gov/api/views/peu4-h785.json"
+    "category": "Administrative", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/peu4-h785.json"
+    }
   }, 
-  "name": "socrata_oregon_board_of_ag_meetings", 
+  "name": "Board Of Ag Meetings", 
   "schema": {
     "columns": [
       {
@@ -29,6 +32,10 @@
         "type": "text"
       }, 
       {
+        "name": "subcommittee_agenda", 
+        "type": "text"
+      }, 
+      {
         "name": "minutes", 
         "type": "text"
       }, 
@@ -37,5 +44,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_oregon_board_of_ag_meetings"
 }

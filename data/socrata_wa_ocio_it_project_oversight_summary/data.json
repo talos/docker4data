@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.wa.gov/api/views/k495-fmg2/rows.csv"
   }, 
+  "description": "Project oversight summary", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.wa.gov/api/views/k495-fmg2.json"
+    "attribution": "Office of the CIO", 
+    "category": "Procurements and Contracts", 
+    "description": "Project oversight summary", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.wa.gov/api/views/hdh3-xc9r.json"
+    }
   }, 
-  "name": "socrata_wa_ocio_it_project_oversight_summary", 
+  "name": "OCIO IT Project Oversight Summary", 
   "schema": {
     "columns": [
       {
@@ -34,7 +40,7 @@
       }, 
       {
         "name": "riskseveritylevel", 
-        "type": "text"
+        "type": "real"
       }, 
       {
         "name": "scopestatus", 
@@ -53,5 +59,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_wa_ocio_it_project_oversight_summary"
 }

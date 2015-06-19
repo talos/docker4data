@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/wtq2-nvak/rows.csv"
   }, 
+  "description": "https://gisrevprxy.seattle.gov/ArcGIS/rest/services/ext/WM_CityGISLayers/MapServer/64", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/wtq2-nvak.json"
+    "category": "Community", 
+    "description": "https://gisrevprxy.seattle.gov/ArcGIS/rest/services/ext/WM_CityGISLayers/MapServer/64", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/wtq2-nvak.json"
+    }
   }, 
-  "name": "socrata_seattle_household_hazardous_waste_facilities", 
+  "name": "Household Hazardous Waste Facilities", 
   "schema": {
     "columns": [
       {
@@ -201,5 +206,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_household_hazardous_waste_facilities"
 }

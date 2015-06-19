@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/pxgh-b4sz/rows.csv"
   }, 
+  "description": "This data set contains inventory information on Seattle\u2019s sidewalk network.  Sidewalk inventory information was gathered for all city block segments in the SDOT Hansen Information Technologies asset management database", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/pxgh-b4sz.json"
+    "attribution": "Seattle Department of Transportation", 
+    "category": "Transportation", 
+    "description": "This data set contains inventory information on Seattle\u2019s sidewalk network.  Sidewalk inventory information was gathered for all city block segments in the SDOT Hansen Information Technologies asset management database", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/pxgh-b4sz.json"
+    }
   }, 
-  "name": "socrata_seattle_sdot_sidewalks", 
+  "name": "SDOT - Sidewalks", 
   "schema": {
     "columns": [
       {
@@ -237,5 +243,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_sdot_sidewalks"
 }

@@ -1,0 +1,52 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_nola_park_score_2014_/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.nola.gov/api/views/9r2n-ydic/rows.csv"
+  }, 
+  "description": "This data comes from the Trust for Public Land. It includes data for New Orleans and several benchmark cities, including: Atlanta, Baton Rouge, Louisville, Memphis, Miami, Nashville, Oklahoma City, Raleigh, and Tampa. This data is for the year 2014.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Trust for Public Land", 
+    "category": "Recreation and Culture", 
+    "description": "This data comes from the Trust for Public Land. It includes data for New Orleans and several benchmark cities, including: Atlanta, Baton Rouge, Louisville, Memphis, Miami, Nashville, Oklahoma City, Raleigh, and Tampa. This data is for the year 2014.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.nola.gov/api/views/9r2n-ydic.json"
+    }
+  }, 
+  "name": "Park Score (2014)", 
+  "schema": {
+    "columns": [
+      {
+        "name": "rowid", 
+        "type": "real"
+      }, 
+      {
+        "name": "indicator", 
+        "type": "text"
+      }, 
+      {
+        "name": "city", 
+        "type": "text"
+      }, 
+      {
+        "name": "state", 
+        "type": "text"
+      }, 
+      {
+        "name": "year", 
+        "type": "real"
+      }, 
+      {
+        "name": "date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "indicatorvalue", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "tableName": "socrata_nola_park_score_2014_"
+}

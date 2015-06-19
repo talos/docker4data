@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/uwqp-6qu8/rows.csv"
   }, 
+  "description": "Municipal boundaries for local jurisdictions  in King County and around Seattle", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/uwqp-6qu8.json"
+    "attribution": "Seattle GIS Program", 
+    "category": "Land Base", 
+    "description": "Municipal boundaries for local jurisdictions  in King County and around Seattle", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/uwqp-6qu8.json"
+    }
   }, 
-  "name": "socrata_seattle_municipal_boundaries", 
+  "name": "Municipal Boundaries", 
   "schema": {
     "columns": [
       {
@@ -45,5 +51,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_municipal_boundaries"
 }

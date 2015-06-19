@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/r96p-a8gh/rows.csv"
   }, 
+  "description": "https://gisrevprxy.seattle.gov/ArcGIS/rest/services/ext/WM_CityGISLayers/MapServer/67", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/r96p-a8gh.json"
+    "attribution": "Seattle Public Utilities", 
+    "category": "Land Base", 
+    "description": "https://gisrevprxy.seattle.gov/ArcGIS/rest/services/ext/WM_CityGISLayers/MapServer/67", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/r96p-a8gh.json"
+    }
   }, 
-  "name": "socrata_seattle_spu_watersheds", 
+  "name": "SPU Watersheds", 
   "schema": {
     "columns": [
       {
@@ -45,5 +51,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_spu_watersheds"
 }

@@ -1,0 +1,44 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_melbourne_vicau_property_lease_register/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/views/3v7r-q3ds/rows.csv"
+  }, 
+  "description": "This is a List of off property leases that are administered by the City of Melbourne", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "City of Melbourne, Australia", 
+    "category": "Finance & Operations", 
+    "description": "This is a List of off property leases that are administered by the City of Melbourne", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/views/3v7r-q3ds.json"
+    }
+  }, 
+  "name": "Property Lease Register", 
+  "schema": {
+    "columns": [
+      {
+        "name": "financial_year", 
+        "type": "text"
+      }, 
+      {
+        "name": "address", 
+        "type": "text"
+      }, 
+      {
+        "name": "lease_start_date", 
+        "type": "text"
+      }, 
+      {
+        "name": "lease_end_date", 
+        "type": "text"
+      }, 
+      {
+        "name": "rent_pa", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "tableName": "socrata_melbourne_vicau_property_lease_register"
+}

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ok.gov/api/views/g4c5-rhi8/rows.csv"
   }, 
+  "description": "Hunter education classes are offered year round across the state of Oklahoma. The list is updated as classes are added.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ok.gov/api/views/g4c5-rhi8.json"
+    "attribution": "Oklahoma Department of Wildlife Conservation", 
+    "category": "Education", 
+    "description": "Hunter education classes are offered year round across the state of Oklahoma. The list is updated as classes are added.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ok.gov/api/views/g4c5-rhi8.json"
+    }
   }, 
-  "name": "socrata_ok_hunter_education_class_list", 
+  "name": "Hunter Education Class List", 
   "schema": {
     "columns": [
       {
@@ -49,5 +55,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ok_hunter_education_class_list"
 }

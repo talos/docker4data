@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ok.gov/api/views/k3zb-8be6/rows.csv"
   }, 
+  "description": "Oklahoma and United States crime rate data including violent crime, property crime, murder, forcible rape, robbery, aggravated assault, burglary, larceny theft, and vehicle theft.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ok.gov/api/views/k3zb-8be6.json"
+    "attribution": "Federal Bureau of Investigation (FBI)", 
+    "category": "Public Safety and Defense", 
+    "description": "Oklahoma and United States crime rate data including violent crime, property crime, murder, forcible rape, robbery, aggravated assault, burglary, larceny theft, and vehicle theft.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ok.gov/api/views/k3zb-8be6.json"
+    }
   }, 
-  "name": "socrata_ok_annual_crime_rate_per_100_000_inhabitants_per_year_", 
+  "name": "Annual Crime Rate per 100,000 Inhabitants per year - Oklahoma vs. United States", 
   "schema": {
     "columns": [
       {
@@ -97,5 +103,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ok_annual_crime_rate_per_100_000_inhabitants_per_year_"
 }

@@ -1,0 +1,48 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_street_sweeping_schedule_2015_april_may/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/waad-z968/rows.csv"
+  }, 
+  "description": "Street sweeping schedule by Ward and Ward section number. To find your Ward section, visit https://data.cityofchicago.org/id/4qtf-5nmn. For more information about the City's Street Sweeping program, go to http://bit.ly/H2PHUP. Because the City of Chicago ward map will change on May 18, 2015, this dataset will be updated or supplemented with an additional dataset to cover the remainder of 2015 (through November).", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "City of Chicago", 
+    "category": "Sanitation", 
+    "description": "Street sweeping schedule by Ward and Ward section number. To find your Ward section, visit https://data.cityofchicago.org/id/4qtf-5nmn. For more information about the City's Street Sweeping program, go to http://bit.ly/H2PHUP. Because the City of Chicago ward map will change on May 18, 2015, this dataset will be updated or supplemented with an additional dataset to cover the remainder of 2015 (through November).", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/waad-z968.json"
+    }
+  }, 
+  "name": "Street Sweeping Schedule - 2015 - April-May", 
+  "schema": {
+    "columns": [
+      {
+        "name": "ward_section_concatenated", 
+        "type": "text"
+      }, 
+      {
+        "name": "ward", 
+        "type": "text"
+      }, 
+      {
+        "name": "section", 
+        "type": "text"
+      }, 
+      {
+        "name": "month_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "month_number", 
+        "type": "real"
+      }, 
+      {
+        "name": "dates", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "socrata_cityofchicago_street_sweeping_schedule_2015_april_may"
+}

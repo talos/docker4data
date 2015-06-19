@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/mapx-mcx2/rows.csv"
   }, 
+  "description": "City tile index for cadastral data", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/mapx-mcx2.json"
+    "attribution": "Seattle GIS Program", 
+    "category": "Land Base", 
+    "description": "City tile index for cadastral data", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/mapx-mcx2.json"
+    }
   }, 
-  "name": "socrata_seattle_cadastral_cgdb_tile_index", 
+  "name": "CADASTRAL_CGDB_TILE_INDEX", 
   "schema": {
     "columns": [
       {
@@ -85,5 +91,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_cadastral_cgdb_tile_index"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ok.gov/api/views/vghj-9gt3/rows.csv"
   }, 
+  "description": "Bureau of Labor Statistics data on local area unemployment statistics.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ok.gov/api/views/vghj-9gt3.json"
+    "attribution": "Bureau of Labor Statistics", 
+    "category": "Demographics", 
+    "description": "Bureau of Labor Statistics data on local area unemployment statistics.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ok.gov/api/views/vghj-9gt3.json"
+    }
   }, 
-  "name": "socrata_ok_labor_force", 
+  "name": "Labor Force", 
   "schema": {
     "columns": [
       {
@@ -593,5 +599,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ok_labor_force"
 }

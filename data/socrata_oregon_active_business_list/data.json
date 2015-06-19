@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/ty7j-mnvu/rows.csv"
   }, 
+  "description": "(Updated on June 17, 2015) This is a list of the businesses that are active on the Corporation Division records on 6/16/2015. The list contains the name and address of the registered agent or authorized representative and a mailing address if one was provided.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.oregon.gov/api/views/ty7j-mnvu.json"
+    "category": "Business", 
+    "description": "(Updated on June 17, 2015) This is a list of the businesses that are active on the Corporation Division records on 6/16/2015. The list contains the name and address of the registered agent or authorized representative and a mailing address if one was provided.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/ty7j-mnvu.json"
+    }
   }, 
-  "name": "socrata_oregon_active_business_list", 
+  "name": "Active Business List", 
   "schema": {
     "columns": [
       {
@@ -81,5 +86,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_oregon_active_business_list"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/88g8-5mnd/rows.csv"
   }, 
+  "description": "The San Francisco Controller's Office maintains a database of the salary and benefits paid to City employees since fiscal year 2013. This data is summarized and presented on the Employee Compensation report hosted at http://openbook.sfgov.org, and is also available in this dataset in CSV format. New data is added on a bi-annual basis when available for each fiscal and calendar year.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.sfgov.org/api/views/88g8-5mnd.json"
+    "attribution": "SF Controller's Office", 
+    "category": "City Management and Ethics", 
+    "description": "The San Francisco Controller's Office maintains a database of the salary and benefits paid to City employees since fiscal year 2013. This data is summarized and presented on the Employee Compensation report hosted at http://openbook.sfgov.org, and is also available in this dataset in CSV format. New data is added on a bi-annual basis when available for each fiscal and calendar year.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/88g8-5mnd.json"
+    }
   }, 
-  "name": "socrata_sfgov_employee_compensation", 
+  "name": "Employee Compensation", 
   "schema": {
     "columns": [
       {
@@ -101,5 +107,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_sfgov_employee_compensation"
 }

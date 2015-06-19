@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/w47m-dg37/rows.csv"
   }, 
+  "description": "Permits issued that could impact mobility in the right of way.  Includes all types of permits \u2013 Major, Term, Renew and OTC.  Includes fields to indicate ROW impacts flags for travel lane, sidewalk etc.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/w47m-dg37.json"
+    "attribution": "SDOT GIS TEAM", 
+    "category": "Transportation", 
+    "description": "Permits issued that could impact mobility in the right of way.  Includes all types of permits \u2013 Major, Term, Renew and OTC.  Includes fields to indicate ROW impacts flags for travel lane, sidewalk etc.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/w47m-dg37.json"
+    }
   }, 
-  "name": "socrata_seattle_sdot_street_use_permit_by_street_segment_inclu", 
+  "name": "SDOT - Street Use Permit - by Street Segment - includes Impacts to the Right-of-Way", 
   "schema": {
     "columns": [
       {
@@ -269,5 +275,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_sdot_street_use_permit_by_street_segment_inclu"
 }

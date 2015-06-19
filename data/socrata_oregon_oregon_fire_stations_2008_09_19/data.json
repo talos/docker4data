@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/ju7f-4gwn/rows.csv"
   }, 
+  "description": "Fire Stations in Oregon\nAny location where fire fighters are stationed or based out of, or where equipment that such personnel use in carrying out their jobs is stored for ready use. Fire Departments not having a permanent location are included, in which case their location has been depicted at the city/town hall or at the center of their service area if a city/town hall does not exist. This dataset includes those locations primarily engaged in forest or grasslands fire fighting, including fire lookout towers if the towers are in current use for fire protection purposes. This dataset includes both private and governmental entities. Fire fighting training academies are also included.\nThis dataset is comprised completely of license free data.\nThe Fire Station dataset and the EMS dataset were merged into one working file. TGS processed as one file and then separated for delivery purposes.\nRecords with \"-DOD\" appended to the end of the [NAME] value are located on a military base, as defined by the Defense Installation Spatial Data Infrastructure (DISDI) military installations and military range boundaries.\nText fields in this dataset have been set to all upper case to facilitate consistent database engine search results.\nAll diacritics (e.g., the German umlaut or the Spanish tilde) have been replaced with their closest equivalent English character to facilitate use with database systems that may not support diacritics.\nThe currentness of this dataset is indicated by the [CONTDATE] field. Based upon this field, the oldest record dates from 07/11/2006 and the newest record dates from 06/02/2008. \n\nThis is a tabular representation of a geospatial dataset available from the Oregon Geospatial Enterprise Office: http://gis.oregon.gov/DAS/EISPD/GEO/sdlibrary.shtml.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.oregon.gov/api/views/ju7f-4gwn.json"
+    "attribution": "Techni Graphic Systems, Inc.", 
+    "description": "Fire Stations in Oregon\nAny location where fire fighters are stationed or based out of, or where equipment that such personnel use in carrying out their jobs is stored for ready use. Fire Departments not having a permanent location are included, in which case their location has been depicted at the city/town hall or at the center of their service area if a city/town hall does not exist. This dataset includes those locations primarily engaged in forest or grasslands fire fighting, including fire lookout towers if the towers are in current use for fire protection purposes. This dataset includes both private and governmental entities. Fire fighting training academies are also included.\nThis dataset is comprised completely of license free data.\nThe Fire Station dataset and the EMS dataset were merged into one working file. TGS processed as one file and then separated for delivery purposes.\nRecords with \"-DOD\" appended to the end of the [NAME] value are located on a military base, as defined by the Defense Installation Spatial Data Infrastructure (DISDI) military installations and military range boundaries.\nText fields in this dataset have been set to all upper case to facilitate consistent database engine search results.\nAll diacritics (e.g., the German umlaut or the Spanish tilde) have been replaced with their closest equivalent English character to facilitate use with database systems that may not support diacritics.\nThe currentness of this dataset is indicated by the [CONTDATE] field. Based upon this field, the oldest record dates from 07/11/2006 and the newest record dates from 06/02/2008. \n\nThis is a tabular representation of a geospatial dataset available from the Oregon Geospatial Enterprise Office: http://gis.oregon.gov/DAS/EISPD/GEO/sdlibrary.shtml.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/ju7f-4gwn.json"
+    }
   }, 
-  "name": "socrata_oregon_oregon_fire_stations_2008_09_19", 
+  "name": "Oregon Fire Stations 2008-09-19", 
   "schema": {
     "columns": [
       {
@@ -141,5 +146,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_oregon_oregon_fire_stations_2008_09_19"
 }

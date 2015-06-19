@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/vncn-umqp/rows.csv"
   }, 
+  "description": "Bicycle racks owned and maintained by SDOT. Location of bicycle racks owned and maintained by SDOT in the GIS for cartographic, analysis, and tracking purposes.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/vncn-umqp.json"
+    "attribution": "City of Seattle, Department of Transportation, Traffic Management, Bicycle Program", 
+    "category": "Transportation", 
+    "description": "Bicycle racks owned and maintained by SDOT. Location of bicycle racks owned and maintained by SDOT in the GIS for cartographic, analysis, and tracking purposes.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/vncn-umqp.json"
+    }
   }, 
-  "name": "socrata_seattle_city_of_seattle_bicycle_racks", 
+  "name": "City of Seattle Bicycle Racks", 
   "schema": {
     "columns": [
       {
@@ -113,5 +119,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_city_of_seattle_bicycle_racks"
 }

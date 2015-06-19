@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.raleighnc.gov/api/views/nxsk-qjy7/rows.csv"
   }, 
+  "description": "A map of the polling places in Wake County.  This data is updated in real time from the Wake County GIS server.\r\narcgis_rest_services_Services_OpenData_MapServer_2]", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.raleighnc.gov/api/views/nxsk-qjy7.json"
+    "attribution": "City of Raleigh via Wake County", 
+    "category": "People", 
+    "description": "A map of the polling places in Wake County.  This data is updated in real time from the Wake County GIS server.\r\narcgis_rest_services_Services_OpenData_MapServer_2]", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.raleighnc.gov/api/views/nxsk-qjy7.json"
+    }
   }, 
-  "name": "socrata_raleighnc_wake_county_polling_places", 
+  "name": "Wake County Polling Places", 
   "schema": {
     "columns": [
       {
@@ -45,5 +51,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_raleighnc_wake_county_polling_places"
 }

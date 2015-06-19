@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.wa.gov/api/views/p2c3-pm28/rows.csv"
   }, 
+  "description": "This table shows the low, high, and average percents of discharges related to a referenced DRG (diagnosis-related group) as a share of the total discharges from the top 100 common DRGs.  The source of data for this table is FY2011 hospital charges file provided by the Centers for Medicare and Medicaid Services (CMS).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.wa.gov/api/views/p2c3-pm28.json"
+    "category": "Health", 
+    "description": "This table shows the low, high, and average percents of discharges related to a referenced DRG (diagnosis-related group) as a share of the total discharges from the top 100 common DRGs.  The source of data for this table is FY2011 hospital charges file provided by the Centers for Medicare and Medicaid Services (CMS).", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.wa.gov/api/views/p2c3-pm28.json"
+    }
   }, 
-  "name": "socrata_wa_hospital_inpatient_discharges_by_drg_washington_fy2", 
+  "name": "Hospital Inpatient Discharges by DRG, Washington, FY2011", 
   "schema": {
     "columns": [
       {
@@ -49,5 +54,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_wa_hospital_inpatient_discharges_by_drg_washington_fy2"
 }

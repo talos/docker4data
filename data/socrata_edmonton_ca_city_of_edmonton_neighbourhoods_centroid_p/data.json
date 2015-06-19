@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/3b6m-fezs/rows.csv"
   }, 
+  "description": "List of centroids for current neighbourhood boundaries found within the boundaries of the City of Edmonton. Note - this map includes both residential and industrial neighbourhoods. Also, due to the configuration of a neighbourhood, the centroid may not necessarily lie properly within a neighbourhood boundary.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.edmonton.ca/api/views/3b6m-fezs.json"
+    "attribution": "Sustainable Development  - Urban Planning and Environment", 
+    "category": "City Administration", 
+    "description": "List of centroids for current neighbourhood boundaries found within the boundaries of the City of Edmonton. Note - this map includes both residential and industrial neighbourhoods. Also, due to the configuration of a neighbourhood, the centroid may not necessarily lie properly within a neighbourhood boundary.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/3b6m-fezs.json"
+    }
   }, 
-  "name": "socrata_edmonton_ca_city_of_edmonton_neighbourhoods_centroid_p", 
+  "name": "City of Edmonton - Neighbourhoods (Centroid Point)", 
   "schema": {
     "columns": [
       {
@@ -33,5 +39,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_edmonton_ca_city_of_edmonton_neighbourhoods_centroid_p"
 }

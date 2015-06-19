@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/nyj5-2t3f/rows.csv"
   }, 
+  "description": "Before using this data set, refer to instructions below! \r\nSince 2000, the City's Information Technology Indicators project has been collecting extensive and statistically valid data on residential use of cable tv, broadband adoption and uses (including health, work, education, finance and civic engagement), barriers to broadband adoption, and customer service needs. This project is managed by our Community Technology Program with technical advice from our Citizens Telecommunications and Technology Advisory Board (CTTAB).  \r\nINSTRUCTIONS FOR USING DATA SET\r\nDo not pull down the data set and use it without using the code book. When you run the data set, be sure to refer to the Code Book for invalid or missing values for each question item (variables). \r\nYou must recognize that the data here is unweighted; to replicate the figures in the City\u2019s Information Technology Access and Adoption Report and get values that are representative of Seattle population, you should use the weights. There are 2 weighting variables, one that allows you to use the phone and online survey together (labeled \"weightfin\") and one that is for only the phone survey (labeled \"wgtphoneonly\", which excludes or zeros out everyone in the online survey).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/nyj5-2t3f.json"
+    "attribution": "Department of Information Technology", 
+    "category": "Community", 
+    "description": "Before using this data set, refer to instructions below! \r\nSince 2000, the City's Information Technology Indicators project has been collecting extensive and statistically valid data on residential use of cable tv, broadband adoption and uses (including health, work, education, finance and civic engagement), barriers to broadband adoption, and customer service needs. This project is managed by our Community Technology Program with technical advice from our Citizens Telecommunications and Technology Advisory Board (CTTAB).  \r\nINSTRUCTIONS FOR USING DATA SET\r\nDo not pull down the data set and use it without using the code book. When you run the data set, be sure to refer to the Code Book for invalid or missing values for each question item (variables). \r\nYou must recognize that the data here is unweighted; to replicate the figures in the City\u2019s Information Technology Access and Adoption Report and get values that are representative of Seattle population, you should use the weights. There are 2 weighting variables, one that allows you to use the phone and online survey together (labeled \"weightfin\") and one that is for only the phone survey (labeled \"wgtphoneonly\", which excludes or zeros out everyone in the online survey).", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/nyj5-2t3f.json"
+    }
   }, 
-  "name": "socrata_seattle_cos_do_it_phone_and_online_survey_data_2013_al", 
+  "name": "COS DO- IT Phone And Online Survey Data 2013 Alpha", 
   "schema": {
     "columns": [
       {
@@ -1701,5 +1707,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_cos_do_it_phone_and_online_survey_data_2013_al"
 }

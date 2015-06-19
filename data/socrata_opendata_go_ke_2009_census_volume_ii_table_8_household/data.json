@@ -9,53 +9,57 @@
   }, 
   "metadata": {
     "attribution": "KNBS", 
-    "category": "Counties", 
-    "description": "2009 Census Volume II Table 8: Households by main source of water County Estimates", 
+    "category": "Population", 
+    "description": "2009 Census Volume II Table 8: Households by main source of water by district", 
     "socrata": {
-      "@id": "http://www.opendatacache.com/opendata.go.ke/api/views/75hm-cxe3.json"
+      "@id": "http://www.opendatacache.com/opendata.go.ke/api/views/z9pq-8cin.json"
     }
   }, 
-  "name": "2009 Census Volume II Table 8: Households by main source of water County Estimates", 
+  "name": "2009 Census Volume II Table 8: Households by main source of water by district", 
   "schema": {
     "columns": [
       {
-        "name": "county", 
+        "name": "district", 
         "type": "text"
       }, 
       {
-        "name": "pond_dam", 
+        "name": "rural_urban", 
         "type": "text"
       }, 
       {
-        "name": "lake", 
+        "name": "of_households_with_pond_dam", 
         "type": "text"
       }, 
       {
-        "name": "stream", 
+        "name": "of_households_with_lake", 
         "type": "text"
       }, 
       {
-        "name": "spring_well_borehole", 
+        "name": "of_households_with_stream", 
         "type": "text"
       }, 
       {
-        "name": "piped_into_dwelling", 
+        "name": "of_households_with_spring_well_borehole", 
         "type": "text"
       }, 
       {
-        "name": "piped", 
+        "name": "of_households_with_piped_into_dwelling", 
         "type": "text"
       }, 
       {
-        "name": "jabia_rain_harvested", 
+        "name": "of_households_with_piped", 
         "type": "text"
       }, 
       {
-        "name": "water_vendor", 
+        "name": "of_households_with_jabia_rain_harvested", 
         "type": "text"
       }, 
       {
-        "name": "other", 
+        "name": "of_households_with_water_vendor", 
+        "type": "text"
+      }, 
+      {
+        "name": "of_households_with_other", 
         "type": "text"
       }, 
       {
@@ -99,7 +103,19 @@
         "type": "real"
       }, 
       {
+        "name": "county", 
+        "type": "text"
+      }, 
+      {
+        "name": "mtef", 
+        "type": "text"
+      }, 
+      {
         "name": "location_1", 
+        "type": "text"
+      }, 
+      {
+        "name": "province", 
         "type": "text"
       }
     ]

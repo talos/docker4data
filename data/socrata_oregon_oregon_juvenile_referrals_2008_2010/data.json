@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/d83a-6mjc/rows.csv"
   }, 
+  "description": "This dataset contains delinquency and criminal referrals of Oregon youth to county juvenile departments between 2008 and 2010. Referrals in the juvenile justice system are analogous to arrests in the adult system. Each row in this dataset represents a unique referral and includes demographic information about the referred youth. Youth may be referred multiple times; hence, some youth are associated with multiple referrals in this data set.    For more information please go to:  http://www.oregon.gov/OYA/jjis_data_eval", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.oregon.gov/api/views/d83a-6mjc.json"
+    "attribution": "Oregon Youth Authority", 
+    "category": "Public Safety", 
+    "description": "This dataset contains delinquency and criminal referrals of Oregon youth to county juvenile departments between 2008 and 2010. Referrals in the juvenile justice system are analogous to arrests in the adult system. Each row in this dataset represents a unique referral and includes demographic information about the referred youth. Youth may be referred multiple times; hence, some youth are associated with multiple referrals in this data set.    For more information please go to:  http://www.oregon.gov/OYA/jjis_data_eval", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/d83a-6mjc.json"
+    }
   }, 
-  "name": "socrata_oregon_oregon_juvenile_referrals_2008_2010", 
+  "name": "Oregon Juvenile Referrals 2008 - 2010", 
   "schema": {
     "columns": [
       {
@@ -57,5 +63,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_oregon_oregon_juvenile_referrals_2008_2010"
 }

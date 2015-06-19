@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/37wu-kn3g/rows.csv"
   }, 
+  "description": "Registration and financial data for Charitable Organizations, Paid Solicitors and Professional Fundraising Consultants. The Colorado office of the Secretary of State Division of Charity registers charitable organizations that solicit contributions in Colorado and their professional fundraisers. A charitable organization is a type of non-profit organization (NPO) that centers on philanthropic goals as well as social well-being (educational, religious, other activities serving the public interest or common good). Search for \u201csos-csi\u201d for all other charities related datasets.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.colorado.gov/api/views/37wu-kn3g.json"
+    "attribution": "SOS - Secretary of State - Charities Program", 
+    "category": "Nonprofit Data", 
+    "description": "Registration and financial data for Charitable Organizations, Paid Solicitors and Professional Fundraising Consultants. The Colorado office of the Secretary of State Division of Charity registers charitable organizations that solicit contributions in Colorado and their professional fundraisers. A charitable organization is a type of non-profit organization (NPO) that centers on philanthropic goals as well as social well-being (educational, religious, other activities serving the public interest or common good). Search for \u201csos-csi\u201d for all other charities related datasets.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/37wu-kn3g.json"
+    }
   }, 
-  "name": "socrata_colorado_financial_information_filed_by_charities", 
+  "name": "Financial information filed by charities", 
   "schema": {
     "columns": [
       {
@@ -162,7 +168,7 @@
       }, 
       {
         "name": "organizationestablishedstate", 
-        "type": "timestamp"
+        "type": "text"
       }, 
       {
         "name": "nteecode1", 
@@ -345,5 +351,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_colorado_financial_information_filed_by_charities"
 }

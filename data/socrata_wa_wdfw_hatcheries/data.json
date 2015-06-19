@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.wa.gov/api/views/hjdc-v2n4/rows.csv"
   }, 
+  "description": "A list of hatcheries presented in the Salmon Conservation Reporting Engine (SCoRE)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.wa.gov/api/views/hjdc-v2n4.json"
+    "attribution": "Washington Department of Fish and Wildlife", 
+    "category": "Natural Resources & Environment", 
+    "description": "A list of hatcheries presented in the Salmon Conservation Reporting Engine (SCoRE)", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.wa.gov/api/views/hjdc-v2n4.json"
+    }
   }, 
-  "name": "socrata_wa_wdfw_hatcheries", 
+  "name": "WDFW-Hatcheries", 
   "schema": {
     "columns": [
       {
@@ -101,5 +107,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_wa_wdfw_hatcheries"
 }

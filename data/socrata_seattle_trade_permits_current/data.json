@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/txjd-pq99/rows.csv"
   }, 
+  "description": "Permits for performing Conveyance, refrigeration, boiler/pressure vessel, mechanical, side sewer, and  sign/billboard/awning work, issued in the past five years or currently in progress.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/txjd-pq99.json"
+    "attribution": "City of Seattle, Department of Planning and Development", 
+    "category": "Permitting", 
+    "description": "Permits for performing Conveyance, refrigeration, boiler/pressure vessel, mechanical, side sewer, and  sign/billboard/awning work, issued in the past five years or currently in progress.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/txjd-pq99.json"
+    }
   }, 
-  "name": "socrata_seattle_trade_permits_current", 
+  "name": "Trade Permits : Current", 
   "schema": {
     "columns": [
       {
@@ -89,5 +95,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_trade_permits_current"
 }

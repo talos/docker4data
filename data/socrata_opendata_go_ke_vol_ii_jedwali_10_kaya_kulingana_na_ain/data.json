@@ -9,17 +9,21 @@
   }, 
   "metadata": {
     "attribution": "KNBS", 
-    "category": "Counties", 
-    "description": "2009 Census: Households by main type of lighting fuel and county, Swahili Version", 
+    "category": "Energy", 
+    "description": "2009 Census: Households by main type of lighting fuel and District, Swahili Version", 
     "socrata": {
-      "@id": "http://www.opendatacache.com/opendata.go.ke/api/views/7j8p-2h87.json"
+      "@id": "http://www.opendatacache.com/opendata.go.ke/api/views/s5vm-6gqv.json"
     }
   }, 
-  "name": "Vol II Jedwali 10: Kaya kulingana na aina kuu ya nishati ya taa na Kaunti - 2009", 
+  "name": "Vol II Jedwali 10: Kaya kulingana na aina kuu ya nishati ya taa na Wilaya - 2009", 
   "schema": {
     "columns": [
       {
-        "name": "kaunti", 
+        "name": "wilaya", 
+        "type": "text"
+      }, 
+      {
+        "name": "kijijini_mjini", 
         "type": "text"
       }, 
       {
@@ -31,7 +35,7 @@
         "type": "text"
       }, 
       {
-        "name": "asilimia_ya_kaya_zitumiazo_kandili", 
+        "name": "asilimia_ya_kaya_zitumiazo_taa_za_kandili", 
         "type": "text"
       }, 
       {
@@ -47,12 +51,16 @@
         "type": "text"
       }, 
       {
-        "name": "asilimia_ya_kaya_zitumiazo_nishati_ya_jua_sola", 
+        "name": "asilimia_ya_kaya_zitumiazo_nishati_za_jua_sola", 
         "type": "text"
       }, 
       {
-        "name": "asilimia_ya_kaya_zitumiazo_nishati_nyinginezo", 
+        "name": "asilimia_ya_kaya_zitumiazo_nishati_nyingine", 
         "type": "text"
+      }, 
+      {
+        "name": "idadi_ya_kaya", 
+        "type": "real"
       }, 
       {
         "name": "idadi_ya_kaya_zitumiazo_nguvu_za_umeme", 
@@ -63,7 +71,7 @@
         "type": "real"
       }, 
       {
-        "name": "idadi_ya_kaya_zitumiazo_kandili", 
+        "name": "idadi_ya_kaya_zitumiazo_taa_za_kandili", 
         "type": "real"
       }, 
       {
@@ -79,16 +87,32 @@
         "type": "real"
       }, 
       {
-        "name": "idadi_ya_kaya_zitumiazo_nishati_ya_jua_sola", 
+        "name": "idadi_ya_kaya_zitumiazo_nishati_za_jua_sola", 
         "type": "real"
       }, 
       {
-        "name": "idadi_ya_kaya_zitumiazo_nishati_nyinginezo", 
+        "name": "idadi_ya_kaya_zitumiazo_nishati_nyingine", 
         "type": "real"
       }, 
       {
-        "name": "jumal_ya_kaya", 
-        "type": "real"
+        "name": "mkoa", 
+        "type": "text"
+      }, 
+      {
+        "name": "kaunti", 
+        "type": "text"
+      }, 
+      {
+        "name": "jedwali_la_sensa", 
+        "type": "text"
+      }, 
+      {
+        "name": "mtef", 
+        "type": "text"
+      }, 
+      {
+        "name": "mtp", 
+        "type": "text"
       }, 
       {
         "name": "location_1", 

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ok.gov/api/views/qc59-k65f/rows.csv"
   }, 
+  "description": "Maintain the number of contaminated land acres cleaned at 100 acres every year through 2017.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ok.gov/api/views/qc59-k65f.json"
+    "attribution": "Oklahoma Department of Environmental Quality", 
+    "category": "Natural Resources", 
+    "description": "Maintain the number of contaminated land acres cleaned at 100 acres every year through 2017.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ok.gov/api/views/qc59-k65f.json"
+    }
   }, 
-  "name": "socrata_ok_contaminated_land_acres_cleaned", 
+  "name": "Contaminated Land Acres Cleaned", 
   "schema": {
     "columns": [
       {
@@ -25,5 +31,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ok_contaminated_land_acres_cleaned"
 }

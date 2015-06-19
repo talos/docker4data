@@ -1,0 +1,52 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_melbourne_vicau_standard_income_statement/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/views/2ph9-es73/rows.csv"
+  }, 
+  "description": "The Income Statement is an accrual-based statement prepared in accordance with Australian Accounting Standards and generally adopted accounting principles. It includes non-cash items such as depreciation charges but does not include capital items such as capital works funding. While all due care has been taken in providing these figures, some errors and discrepancies may be present.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "City of Melbourne, Australia", 
+    "category": "Finance & Operations", 
+    "description": "The Income Statement is an accrual-based statement prepared in accordance with Australian Accounting Standards and generally adopted accounting principles. It includes non-cash items such as depreciation charges but does not include capital items such as capital works funding. While all due care has been taken in providing these figures, some errors and discrepancies may be present.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/views/2ph9-es73.json"
+    }
+  }, 
+  "name": "Standard Income Statement", 
+  "schema": {
+    "columns": [
+      {
+        "name": "as_at_date", 
+        "type": "text"
+      }, 
+      {
+        "name": "year", 
+        "type": "text"
+      }, 
+      {
+        "name": "actual_budget_plan", 
+        "type": "text"
+      }, 
+      {
+        "name": "category", 
+        "type": "text"
+      }, 
+      {
+        "name": "sub_category", 
+        "type": "text"
+      }, 
+      {
+        "name": "description", 
+        "type": "text"
+      }, 
+      {
+        "name": "value_000", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "tableName": "socrata_melbourne_vicau_standard_income_statement"
+}

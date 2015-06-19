@@ -1,0 +1,52 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_2014_active_business_license_data/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/nznw-x77u/rows.csv"
+  }, 
+  "description": "Dataset contains active business license data for the City of Seattle for 2014.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "City of Seattle - Department of Finance and Administrative Services", 
+    "category": "Finance", 
+    "description": "Dataset contains active business license data for the City of Seattle for 2014.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/nznw-x77u.json"
+    }
+  }, 
+  "name": "2014 Active Business License Data", 
+  "schema": {
+    "columns": [
+      {
+        "name": "business_legal_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "ownership", 
+        "type": "text"
+      }, 
+      {
+        "name": "trade_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "naics_code", 
+        "type": "real"
+      }, 
+      {
+        "name": "description", 
+        "type": "text"
+      }, 
+      {
+        "name": "license_start_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "city_state_and_zip", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "socrata_seattle_2014_active_business_license_data"
+}

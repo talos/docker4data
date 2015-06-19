@@ -1,0 +1,60 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_opendata_go_ke_national_register_of_rain_gauge_station/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/opendata.go.ke/api/views/8f9r-z3md/rows.csv"
+  }, 
+  "description": "This data is a summary of Rain gauges spread through out the country, As published by the Kenya Meteorological Department. The data-set lists the Year of installation, decommissioning and relative location of this infrastructure.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Kenya Metrology Department", 
+    "category": "Climate", 
+    "description": "This data is a summary of Rain gauges spread through out the country, As published by the Kenya Meteorological Department. The data-set lists the Year of installation, decommissioning and relative location of this infrastructure.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/opendata.go.ke/api/views/8f9r-z3md.json"
+    }
+  }, 
+  "name": "National Register of Rain Gauge Stations status since 1900 : 115 Years of Rainfall Data", 
+  "schema": {
+    "columns": [
+      {
+        "name": "weather_station_no", 
+        "type": "real"
+      }, 
+      {
+        "name": "weather_station_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "status", 
+        "type": "text"
+      }, 
+      {
+        "name": "year_opened", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "year_closed", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "county_name_caps", 
+        "type": "text"
+      }, 
+      {
+        "name": "county", 
+        "type": "text"
+      }, 
+      {
+        "name": "constituency", 
+        "type": "text"
+      }, 
+      {
+        "name": "location", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "socrata_opendata_go_ke_national_register_of_rain_gauge_station"
+}

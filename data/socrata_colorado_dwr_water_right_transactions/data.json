@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/i55n-9sba/rows.csv"
   }, 
+  "description": "A Water Right is a property right that is either conditional or\r\nabsolute and conveys the right to use a particular amount of\r\nwater, with a specified priority date as confirmed by the\r\nwater court.  The Transaction List contains the the court decreed actions that affect amount and use(s) that can be used by each water right.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.colorado.gov/api/views/i55n-9sba.json"
+    "category": "Water", 
+    "description": "A Water Right is a property right that is either conditional or\r\nabsolute and conveys the right to use a particular amount of\r\nwater, with a specified priority date as confirmed by the\r\nwater court.  The Transaction List contains the the court decreed actions that affect amount and use(s) that can be used by each water right.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/i55n-9sba.json"
+    }
   }, 
-  "name": "socrata_colorado_dwr_water_right_transactions", 
+  "name": "DWR Water Right Transactions", 
   "schema": {
     "columns": [
       {
@@ -165,5 +170,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_colorado_dwr_water_right_transactions"
 }

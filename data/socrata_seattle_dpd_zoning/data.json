@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/r6xd-5qab/rows.csv"
   }, 
+  "description": "City of Seattle zoning & associated special districts (ex: historical)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/r6xd-5qab.json"
+    "attribution": "Seattle GIS Program", 
+    "category": "Land Base", 
+    "description": "City of Seattle zoning & associated special districts (ex: historical)", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/r6xd-5qab.json"
+    }
   }, 
-  "name": "socrata_seattle_dpd_zoning", 
+  "name": "DPD.ZONING", 
   "schema": {
     "columns": [
       {
@@ -121,5 +127,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_dpd_zoning"
 }

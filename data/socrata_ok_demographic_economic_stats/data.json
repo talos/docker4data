@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ok.gov/api/views/demh-fju2/rows.csv"
   }, 
+  "description": "Demographic and economic statistics for the State of Oklahoma beginning in 2002. The statistics include personal income, population, per capita income and employment figures.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ok.gov/api/views/demh-fju2.json"
+    "attribution": "Office of Management and Enterprise Services (OMES)", 
+    "category": "Demographics", 
+    "description": "Demographic and economic statistics for the State of Oklahoma beginning in 2002. The statistics include personal income, population, per capita income and employment figures.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ok.gov/api/views/demh-fju2.json"
+    }
   }, 
-  "name": "socrata_ok_demographic_economic_stats", 
+  "name": "Demographic Economic Stats", 
   "schema": {
     "columns": [
       {
@@ -61,5 +67,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ok_demographic_economic_stats"
 }

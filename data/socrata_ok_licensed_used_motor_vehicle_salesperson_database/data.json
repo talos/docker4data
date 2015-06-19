@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ok.gov/api/views/mm67-366g/rows.csv"
   }, 
+  "description": "This database contains a list of individuals licensed by the Used Motor Vehicle and Parts Commission to sale used motor vehicles. Salespersons that are employed by a Franchise Dealership will not appear in this database, their license is issued by the Motor Vehicle Commission.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ok.gov/api/views/mm67-366g.json"
+    "attribution": "Oklahoma Used Motor Vehicle and Parts Commission", 
+    "category": "Regulatory Services", 
+    "description": "This database contains a list of individuals licensed by the Used Motor Vehicle and Parts Commission to sale used motor vehicles. Salespersons that are employed by a Franchise Dealership will not appear in this database, their license is issued by the Motor Vehicle Commission.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ok.gov/api/views/mm67-366g.json"
+    }
   }, 
-  "name": "socrata_ok_licensed_used_motor_vehicle_salesperson_database", 
+  "name": "Licensed Used Motor Vehicle Salesperson Database", 
   "schema": {
     "columns": [
       {
@@ -41,5 +47,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ok_licensed_used_motor_vehicle_salesperson_database"
 }

@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.wa.gov/api/views/hfxj-vx93/rows.csv"
   }, 
+  "description": "List of agency contracts in compliance with RCW 39.26", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.wa.gov/api/views/hfxj-vx93.json"
+    "attribution": "State Agencies", 
+    "category": "Procurements and Contracts", 
+    "description": "List of agency contracts in compliance with RCW 39.26", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.wa.gov/api/views/jeuk-pueh.json"
+    }
   }, 
-  "name": "socrata_wa_agency_contract_reporting", 
+  "name": "Agency Contract Reporting", 
   "schema": {
     "columns": [
       {
@@ -81,5 +87,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_wa_agency_contract_reporting"
 }

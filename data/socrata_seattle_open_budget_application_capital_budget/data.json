@@ -3,13 +3,17 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/qi2h-j69m/rows.csv"
   }, 
+  "description": "data powering openbudget.seattle.gov", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.seattle.gov/api/views/qi2h-j69m.json"
+    "description": "data powering openbudget.seattle.gov", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/qi2h-j69m.json"
+    }
   }, 
-  "name": "socrata_seattle_open_budget_application_capital_budget", 
+  "name": "Open Budget Application: Capital Budget", 
   "schema": {
     "columns": [
       {
@@ -49,5 +53,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_seattle_open_budget_application_capital_budget"
 }

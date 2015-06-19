@@ -1,0 +1,39 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_edmonton_ca_2013_monthly_km_s_driven_by_asset_class_an/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/3pcu-twt5/rows.csv"
+  }, 
+  "description": "Number of kilometers driven by fleet vehicles per month and department for 2013. The KM's driven data excludes all external clients (AHS and EPCOR) as well as ME4000 (self propelled equipment).", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "category": "City Administration", 
+    "description": "Number of kilometers driven by fleet vehicles per month and department for 2013. The KM's driven data excludes all external clients (AHS and EPCOR) as well as ME4000 (self propelled equipment).", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/3pcu-twt5.json"
+    }
+  }, 
+  "name": "2013 Monthly KM's Driven By Asset Class And Department", 
+  "schema": {
+    "columns": [
+      {
+        "name": "department", 
+        "type": "text"
+      }, 
+      {
+        "name": "period", 
+        "type": "text"
+      }, 
+      {
+        "name": "asset_class", 
+        "type": "text"
+      }, 
+      {
+        "name": "sumofkilometers_driven", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "tableName": "socrata_edmonton_ca_2013_monthly_km_s_driven_by_asset_class_an"
+}

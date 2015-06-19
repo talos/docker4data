@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/dmqk-bvvc/rows.csv"
   }, 
+  "description": "Oregon prison inmate forecast values for all OEA forecasts (1995 on), and some from 1993, 1994. Includes actual population counts and differences for each forecast value (if actual is known).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.oregon.gov/api/views/dmqk-bvvc.json"
+    "attribution": "Damon Bell, Oregon Office of Economic Analysis", 
+    "description": "Oregon prison inmate forecast values for all OEA forecasts (1995 on), and some from 1993, 1994. Includes actual population counts and differences for each forecast value (if actual is known).", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/dmqk-bvvc.json"
+    }
   }, 
-  "name": "socrata_oregon_prison_forecast_history_comparison_to_actual_de", 
+  "name": "Prison Forecast History, Comparison to Actual, Detail", 
   "schema": {
     "columns": [
       {
@@ -69,5 +74,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_oregon_prison_forecast_history_comparison_to_actual_de"
 }

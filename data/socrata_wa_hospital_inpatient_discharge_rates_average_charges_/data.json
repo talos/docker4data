@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.wa.gov/api/views/xupn-4ych/rows.csv"
   }, 
+  "description": "The dataset contains hospital inpatient discharge rates, charges, covered payments, charge-to-payment ratios for the 100 most common DRGs among hospitals in the Medicare Prospective Payment System.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.wa.gov/api/views/xupn-4ych.json"
+    "category": "Health", 
+    "description": "The dataset contains hospital inpatient discharge rates, charges, covered payments, charge-to-payment ratios for the 100 most common DRGs among hospitals in the Medicare Prospective Payment System.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.wa.gov/api/views/xupn-4ych.json"
+    }
   }, 
-  "name": "socrata_wa_hospital_inpatient_discharge_rates_average_charges_", 
+  "name": "Hospital Inpatient Discharge Rates, Average Charges, Average Payments, and Charge-to-Payment Ratios by DRG - U.S., Northwest, and Washington State - FY2011", 
   "schema": {
     "columns": [
       {
@@ -65,5 +70,6 @@
         "type": "real"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_wa_hospital_inpatient_discharge_rates_average_charges_"
 }

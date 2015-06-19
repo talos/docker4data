@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/ujme-i5np/rows.csv"
   }, 
+  "description": "Lists intersecting Supervisor Districts and ZIP Codes for City and County of San Francisco, and provides contact information for the corresponding supervisor.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.sfgov.org/api/views/ujme-i5np.json"
+    "attribution": "City and County of San Francisco", 
+    "category": "City Management and Ethics", 
+    "description": "Lists intersecting Supervisor Districts and ZIP Codes for City and County of San Francisco, and provides contact information for the corresponding supervisor.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/ujme-i5np.json"
+    }
   }, 
-  "name": "socrata_sfgov_zip_code_to_supervisor_lookup_with_contact_infor", 
+  "name": "Zip Code to Supervisor Lookup with Contact Information", 
   "schema": {
     "columns": [
       {
@@ -57,5 +63,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_sfgov_zip_code_to_supervisor_lookup_with_contact_infor"
 }

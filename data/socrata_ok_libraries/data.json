@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ok.gov/api/views/tnpp-6czs/rows.csv"
   }, 
+  "description": "list of libraries in Oklahoma", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ok.gov/api/views/tnpp-6czs.json"
+    "category": "Museums", 
+    "description": "list of libraries in Oklahoma", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ok.gov/api/views/tnpp-6czs.json"
+    }
   }, 
-  "name": "socrata_ok_libraries", 
+  "name": "Libraries", 
   "schema": {
     "columns": [
       {
@@ -25,5 +30,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ok_libraries"
 }

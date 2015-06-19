@@ -3,13 +3,19 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.ok.gov/api/views/gffs-juek/rows.csv"
   }, 
+  "description": "Find fire stations in the State of Oklahoma.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.ok.gov/api/views/gffs-juek.json"
+    "attribution": "OK.gov, Oklahoma's Official Website.", 
+    "category": "Public Safety And Defense", 
+    "description": "Find fire stations in the State of Oklahoma.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ok.gov/api/views/gffs-juek.json"
+    }
   }, 
-  "name": "socrata_ok_oklahoma_fire_stations", 
+  "name": "Oklahoma Fire Stations", 
   "schema": {
     "columns": [
       {
@@ -49,5 +55,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_ok_oklahoma_fire_stations"
 }

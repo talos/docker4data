@@ -3,13 +3,18 @@
   "data": {
     "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/8kyv-b2kw/rows.csv"
   }, 
+  "description": "Nonprofit corporations active on the record of the Secretary of State Corporation Division as of the first working day of the month. Updated 3/2/2014.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "socrata": "http://www.opendatacache.com/data.oregon.gov/api/views/8kyv-b2kw.json"
+    "category": "Business", 
+    "description": "Nonprofit corporations active on the record of the Secretary of State Corporation Division as of the first working day of the month. Updated 3/2/2014.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/8kyv-b2kw.json"
+    }
   }, 
-  "name": "socrata_oregon_active_nonprofit_corporations", 
+  "name": "Active Nonprofit Corporations", 
   "schema": {
     "columns": [
       {
@@ -85,5 +90,6 @@
         "type": "text"
       }
     ]
-  }
+  }, 
+  "tableName": "socrata_oregon_active_nonprofit_corporations"
 }

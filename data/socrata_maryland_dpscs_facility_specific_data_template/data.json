@@ -1,0 +1,1204 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_dpscs_facility_specific_data_template/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/jvzm-w72t/rows.csv"
+  }, 
+  "description": "The Department of Public Safety and Correctional Services (DPSCS) submits these data to the Governor's Office each month for each of Maryland's prisons and jails. This dataset shows totals across those facilities: population totals, contraband seizures, searches, assaults, hearing officer reports, disciplinary action, identification document issuance, and IWIF statistics. Statistical analyses and data formatting are performed by Department of Information Technology (DoIT).", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "DPSCS", 
+    "category": "Public Safety", 
+    "description": "The Department of Public Safety and Correctional Services (DPSCS) submits these data to the Governor's Office each month for each of Maryland's prisons and jails. This dataset shows totals across those facilities: population totals, contraband seizures, searches, assaults, hearing officer reports, disciplinary action, identification document issuance, and IWIF statistics. Statistical analyses and data formatting are performed by Department of Information Technology (DoIT).", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/jvzm-w72t.json"
+    }
+  }, 
+  "name": "DPSCS Facility-Specific Data Template", 
+  "schema": {
+    "columns": [
+      {
+        "name": "month_number", 
+        "type": "real"
+      }, 
+      {
+        "name": "row_identifier", 
+        "type": "text"
+      }, 
+      {
+        "name": "facility", 
+        "type": "text"
+      }, 
+      {
+        "name": "region", 
+        "type": "text"
+      }, 
+      {
+        "name": "month", 
+        "type": "text"
+      }, 
+      {
+        "name": "calendar_year", 
+        "type": "text"
+      }, 
+      {
+        "name": "fiscal_year", 
+        "type": "text"
+      }, 
+      {
+        "name": "population_adp", 
+        "type": "real"
+      }, 
+      {
+        "name": "population_adp_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "population_adp_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "inmates_with_current_release_dates_within_next_3_months", 
+        "type": "real"
+      }, 
+      {
+        "name": "inmates_with_current_release_dates_within_next_3_months_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "inmates_with_current_release_dates_within_next_3_months_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "escapes", 
+        "type": "real"
+      }, 
+      {
+        "name": "escapes_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "escapes_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "walk_offs", 
+        "type": "real"
+      }, 
+      {
+        "name": "walk_offs_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "walk_offs_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "firm_assaults_on_staff_serious_physical_assault", 
+        "type": "real"
+      }, 
+      {
+        "name": "firm_assaults_on_staff_serious_physical_assault_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "firm_assaults_on_staff_serious_physical_assault_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "firm_assaults_on_staff_serious_weapon_assault", 
+        "type": "real"
+      }, 
+      {
+        "name": "firm_assaults_on_staff_serious_weapon_assault_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "firm_assaults_on_staff_serious_weapon_assault_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "firm_assaults_on_staff_sexual_assault", 
+        "type": "real"
+      }, 
+      {
+        "name": "firm_assaults_on_staff_sexual_assault_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "firm_assaults_on_staff_sexual_assault_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "firm_assaults_on_staff_less_serious_physical_assault", 
+        "type": "real"
+      }, 
+      {
+        "name": "firm_assaults_on_staff_less_serious_physical_assault_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "firm_assaults_on_staff_less_serious_physical_assault_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "firm_assaults_on_staff_less_serious_weapon_assault", 
+        "type": "real"
+      }, 
+      {
+        "name": "firm_assaults_on_staff_less_serious_weapon_assault_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "firm_assaults_on_staff_less_serious_weapon_assault_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "firm_assaults_on_staff_bodily_fluid_assault", 
+        "type": "real"
+      }, 
+      {
+        "name": "firm_assaults_on_staff_bodily_fluid_assault_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "firm_assaults_on_staff_bodily_fluid_assault_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "firm_assaults_on_staff_inappropriate_physical_contact", 
+        "type": "real"
+      }, 
+      {
+        "name": "firm_assaults_on_staff_inappropriate_physical_contact_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "firm_assaults_on_staff_inappropriate_physical_contact_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "firm_assaults_on_staff_total", 
+        "type": "real"
+      }, 
+      {
+        "name": "firm_assaults_on_staff_total_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "firm_assaults_on_staff_total_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "firm_assaults_on_staff_staff_homicide", 
+        "type": "real"
+      }, 
+      {
+        "name": "firm_assaults_on_staff_staff_homicide_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "firm_assaults_on_staff_staff_homicide_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "firm_assaults_on_inmates_serious_physical_assault", 
+        "type": "real"
+      }, 
+      {
+        "name": "firm_assaults_on_inmates_serious_physical_assault_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "firm_assaults_on_inmates_serious_physical_assault_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "firm_assaults_on_inmates_serious_weapon_assault", 
+        "type": "real"
+      }, 
+      {
+        "name": "firm_assaults_on_inmates_serious_weapon_assault_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "firm_assaults_on_inmates_serious_weapon_assault_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "firm_assaults_on_inmates_sexual_assault", 
+        "type": "real"
+      }, 
+      {
+        "name": "firm_assaults_on_inmates_sexual_assault_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "firm_assaults_on_inmates_sexual_assault_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "firm_assaults_on_inmates_less_serious_physical_assault", 
+        "type": "real"
+      }, 
+      {
+        "name": "firm_assaults_on_inmates_less_serious_physical_assault_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "firm_assaults_on_inmates_less_serious_physical_assault_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "firm_assaults_on_inmates_less_serious_weapon_assault", 
+        "type": "real"
+      }, 
+      {
+        "name": "firm_assaults_on_inmates_less_serious_weapon_assault_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "firm_assaults_on_inmates_less_serious_weapon_assault_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "firm_assaults_on_inmates_bodily_fluid_assault", 
+        "type": "real"
+      }, 
+      {
+        "name": "firm_assaults_on_inmates_bodily_fluid_assault_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "firm_assaults_on_inmates_bodily_fluid_assault_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "firm_assaults_on_inmates_total", 
+        "type": "real"
+      }, 
+      {
+        "name": "firm_assaults_on_inmates_total_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "firm_assaults_on_inmates_total_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "firm_assaults_on_inmates_inmate_homicide", 
+        "type": "real"
+      }, 
+      {
+        "name": "firm_assaults_on_inmates_inmate_homicide_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "firm_assaults_on_inmates_inmate_homicide_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "firm_assaults_on_inmates_suicides", 
+        "type": "real"
+      }, 
+      {
+        "name": "firm_assaults_on_inmates_suicides_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "firm_assaults_on_inmates_suicides_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "housing_areas_searched_non_routine", 
+        "type": "real"
+      }, 
+      {
+        "name": "housing_areas_searched_non_routine_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "housing_areas_searched_non_routine_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "contraband_found_on_inmates_or_in_facility_cds", 
+        "type": "real"
+      }, 
+      {
+        "name": "contraband_found_on_inmates_or_in_facility_cds_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "contraband_found_on_inmates_or_in_facility_cds_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "contraband_found_on_inmates_or_in_facility_cell_phones", 
+        "type": "real"
+      }, 
+      {
+        "name": "contraband_found_on_inmates_or_in_facility_cell_phones_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "contraband_found_on_inmates_or_in_facility_cell_phones_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "contraband_found_on_inmates_or_in_facility_commercial_knives", 
+        "type": "real"
+      }, 
+      {
+        "name": "contraband_found_on_inmates_or_in_facility_commercial_knives_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "contraband_found_on_inmates_or_in_facility_commercial_knives_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "contraband_found_on_inmates_or_in_facility_inmate_made_knives", 
+        "type": "real"
+      }, 
+      {
+        "name": "contraband_found_on_inmates_or_in_facility_inmate_made_knives_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "contraband_found_on_inmates_or_in_facility_inmate_made_knives_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "contraband_found_on_inmates_or_in_facility_money", 
+        "type": "real"
+      }, 
+      {
+        "name": "contraband_found_on_inmates_or_in_facility_money_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "contraband_found_on_inmates_or_in_facility_money_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "contraband_found_on_inmates_or_in_facility_tobacco", 
+        "type": "real"
+      }, 
+      {
+        "name": "contraband_found_on_inmates_or_in_facility_tobacco_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "contraband_found_on_inmates_or_in_facility_tobacco_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "contraband_found_on_inmates_or_in_facility_total", 
+        "type": "real"
+      }, 
+      {
+        "name": "contraband_found_on_inmates_or_in_facility_total_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "contraband_found_on_inmates_or_in_facility_total_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "contraband_found_on_staff_cds", 
+        "type": "real"
+      }, 
+      {
+        "name": "contraband_found_on_staff_cds_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "contraband_found_on_staff_cds_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "contraband_found_on_staff_cell_phones", 
+        "type": "real"
+      }, 
+      {
+        "name": "contraband_found_on_staff_cell_phones_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "contraband_found_on_staff_cell_phones_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "contraband_found_on_staff_commercial_knives", 
+        "type": "real"
+      }, 
+      {
+        "name": "contraband_found_on_staff_commercial_knives_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "contraband_found_on_staff_commercial_knives_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "contraband_found_on_staff_tobacco", 
+        "type": "real"
+      }, 
+      {
+        "name": "contraband_found_on_staff_tobacco_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "contraband_found_on_staff_tobacco_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "contraband_found_on_staff_total", 
+        "type": "real"
+      }, 
+      {
+        "name": "contraband_found_on_staff_total_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "contraband_found_on_staff_total_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "hearing_officer_reports_alcohol_use_possession", 
+        "type": "real"
+      }, 
+      {
+        "name": "hearing_officer_reports_alcohol_use_possession_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "hearing_officer_reports_alcohol_use_possession_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "hearing_officer_reports_drug_use_cases", 
+        "type": "real"
+      }, 
+      {
+        "name": "hearing_officer_reports_drug_use_cases_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "hearing_officer_reports_drug_use_cases_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "hearing_officer_reports_contraband_weapons", 
+        "type": "real"
+      }, 
+      {
+        "name": "hearing_officer_reports_contraband_weapons_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "hearing_officer_reports_contraband_weapons_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "hearing_officer_reports_drugs_paraphernalia", 
+        "type": "real"
+      }, 
+      {
+        "name": "hearing_officer_reports_drugs_paraphernalia_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "hearing_officer_reports_drugs_paraphernalia_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "hearing_officer_reports_money", 
+        "type": "real"
+      }, 
+      {
+        "name": "hearing_officer_reports_money_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "hearing_officer_reports_money_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "hearing_officer_reports_total", 
+        "type": "real"
+      }, 
+      {
+        "name": "hearing_officer_reports_total_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "hearing_officer_reports_total_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "iiu_cases_assigned_investigations_of_inmates_number_of_criminal_cases", 
+        "type": "real"
+      }, 
+      {
+        "name": "iiu_cases_assigned_investigations_of_inmates_number_of_criminal_cases_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "iiu_cases_assigned_investigations_of_inmates_number_of_criminal_cases_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "iiu_cases_assigned_investigations_of_inmates_number_of_administrative_cases", 
+        "type": "real"
+      }, 
+      {
+        "name": "iiu_cases_assigned_investigations_of_inmates_number_of_administrative_cases_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "iiu_cases_assigned_investigations_of_inmates_number_of_administrative_cases_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "iiu_cases_assigned_investigations_of_inmates_number_of_incident_report_cases", 
+        "type": "real"
+      }, 
+      {
+        "name": "iiu_cases_assigned_investigations_of_inmates_number_of_incident_report_cases_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "iiu_cases_assigned_investigations_of_inmates_number_of_incident_report_cases_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "iiu_cases_assigned_investigations_of_inmates_total_cases_assigned", 
+        "type": "real"
+      }, 
+      {
+        "name": "iiu_cases_assigned_investigations_of_inmates_total_cases_assigned_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "iiu_cases_assigned_investigations_of_inmates_total_cases_assigned_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "iiu_cases_assigned_investigations_of_staff_number_of_criminal_cases", 
+        "type": "real"
+      }, 
+      {
+        "name": "iiu_cases_assigned_investigations_of_staff_number_of_criminal_cases_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "iiu_cases_assigned_investigations_of_staff_number_of_criminal_cases_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "iiu_cases_assigned_investigations_of_staff_number_of_administrative_cases", 
+        "type": "real"
+      }, 
+      {
+        "name": "iiu_cases_assigned_investigations_of_staff_number_of_administrative_cases_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "iiu_cases_assigned_investigations_of_staff_number_of_administrative_cases_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "iiu_cases_assigned_investigations_of_staff_number_of_incident_report_cases", 
+        "type": "real"
+      }, 
+      {
+        "name": "iiu_cases_assigned_investigations_of_staff_number_of_incident_report_cases_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "iiu_cases_assigned_investigations_of_staff_number_of_incident_report_cases_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "iiu_cases_assigned_investigations_of_staff_total_cases_assigned", 
+        "type": "real"
+      }, 
+      {
+        "name": "iiu_cases_assigned_investigations_of_staff_total_cases_assigned_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "iiu_cases_assigned_investigations_of_staff_total_cases_assigned_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "intel_investigations_known_gang_members", 
+        "type": "real"
+      }, 
+      {
+        "name": "intel_investigations_known_gang_members_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "intel_investigations_known_gang_members_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "intel_investigations_detainee_inmates_identified_for_transfer", 
+        "type": "real"
+      }, 
+      {
+        "name": "intel_investigations_detainee_inmates_identified_for_transfer_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "intel_investigations_detainee_inmates_identified_for_transfer_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "co_vacancies_and_pins_co_i_ii_iii_filled_positions", 
+        "type": "real"
+      }, 
+      {
+        "name": "co_vacancies_and_pins_co_i_ii_iii_filled_positions_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "co_vacancies_and_pins_co_i_ii_iii_filled_positions_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "co_vacancies_and_pins_co_i_ii_iii_vacancies", 
+        "type": "real"
+      }, 
+      {
+        "name": "co_vacancies_and_pins_co_i_ii_iii_vacancies_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "co_vacancies_and_pins_co_i_ii_iii_vacancies_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "co_vacancies_and_pins_co_i_ii_iii_authorized_pins", 
+        "type": "real"
+      }, 
+      {
+        "name": "co_vacancies_and_pins_co_i_ii_iii_authorized_pins_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "co_vacancies_and_pins_co_i_ii_iii_authorized_pins_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "hiring_statistics_co_i_hired", 
+        "type": "real"
+      }, 
+      {
+        "name": "hiring_statistics_co_i_hired_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "hiring_statistics_co_i_hired_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "hiring_statistics_attrition", 
+        "type": "real"
+      }, 
+      {
+        "name": "hiring_statistics_attrition_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "hiring_statistics_attrition_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_tardiness_dispositions_disposition_terminations_total", 
+        "type": "real"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_tardiness_dispositions_disposition_terminations_total_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_tardiness_dispositions_termination_co_i", 
+        "type": "real"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_tardiness_dispositions_termination_co_i_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_tardiness_dispositions_termination_co_ii", 
+        "type": "real"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_tardiness_dispositions_termination_co_ii_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_tardiness_dispositions_termination_co_iii", 
+        "type": "real"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_tardiness_dispositions_termination_co_iii_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_tardiness_dispositions_termination_co_iv_co_v_co_vi", 
+        "type": "real"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_tardiness_dispositions_termination_co_iv_co_v_co_vi_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_tardiness_dispositions_disposition_suspension_9_days_or_less", 
+        "type": "real"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_tardiness_dispositions_disposition_suspension_9_days_or_less_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_tardiness_dispositions_disposition_suspension_10_days_or_more", 
+        "type": "real"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_tardiness_dispositions_disposition_suspension_10_days_or_more_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_tardiness_dispositions_disposition_reprimand", 
+        "type": "real"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_tardiness_dispositions_disposition_reprimand_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_tardiness_dispositions_disposition_resignation_in_lieu_of_termination", 
+        "type": "real"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_tardiness_dispositions_disposition_resignation_in_lieu_of_termination_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_tardiness_dispositions_disposition_not_guilty", 
+        "type": "real"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_tardiness_dispositions_disposition_not_guilty_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_tardiness_appeals_appointing_authority_successful_appeal_to_secretary", 
+        "type": "real"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_tardiness_appeals_appointing_authority_successful_appeal_to_secretary_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_tardiness_appeals_co_appeal_successful_to_the_court", 
+        "type": "real"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_tardiness_appeals_co_appeal_successful_to_the_court_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_contraband_dispositions_disposition_terminations_total", 
+        "type": "real"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_contraband_dispositions_disposition_terminations_total_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_contraband_dispositions_termination_co_i", 
+        "type": "real"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_contraband_dispositions_termination_co_i_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_contraband_dispositions_termination_co_ii", 
+        "type": "real"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_contraband_dispositions_termination_co_ii_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_contraband_dispositions_termination_co_iii", 
+        "type": "real"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_contraband_dispositions_termination_co_iii_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_contraband_dispositions_termination_co_iv_co_v_co_vi", 
+        "type": "real"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_contraband_dispositions_termination_co_iv_co_v_co_vi_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_contraband_dispositions_disposition_suspension_9_days_or_less", 
+        "type": "real"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_contraband_dispositions_disposition_suspension_9_days_or_less_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_contraband_dispositions_disposition_suspension_10_days_or_more", 
+        "type": "real"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_contraband_dispositions_disposition_suspension_10_days_or_more_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_contraband_dispositions_disposition_reprimand", 
+        "type": "real"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_contraband_dispositions_disposition_reprimand_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_contraband_dispositions_disposition_resignation_in_lieu_of_termination", 
+        "type": "real"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_contraband_dispositions_disposition_resignation_in_lieu_of_termination_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_contraband_dispositions_disposition_not_guilty", 
+        "type": "real"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_contraband_dispositions_disposition_not_guilty_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_contraband_appeals_appointing_authority_successful_appeal_to_secretary", 
+        "type": "real"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_contraband_appeals_appointing_authority_successful_appeal_to_secretary_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_contraband_appeals_co_appeal_successful_to_the_court", 
+        "type": "real"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_contraband_appeals_co_appeal_successful_to_the_court_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_fraternization_dispositions_disposition_terminations_total", 
+        "type": "real"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_fraternization_dispositions_disposition_terminations_total_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_fraternization_dispositions_termination_co_i", 
+        "type": "real"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_fraternization_dispositions_termination_co_i_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_fraternization_dispositions_termination_co_ii", 
+        "type": "real"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_fraternization_dispositions_termination_co_ii_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_fraternization_dispositions_termination_co_iii", 
+        "type": "real"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_fraternization_dispositions_termination_co_iii_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_fraternization_dispositions_termination_co_iv_co_v_co_vi", 
+        "type": "real"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_fraternization_dispositions_termination_co_iv_co_v_co_vi_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_fraternization_dispositions_disposition_suspension_9_days_or_less", 
+        "type": "real"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_fraternization_dispositions_disposition_suspension_9_days_or_less_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_fraternization_dispositions_disposition_suspension_10_days_or_more", 
+        "type": "real"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_fraternization_dispositions_disposition_suspension_10_days_or_more_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_fraternization_dispositions_disposition_reprimand", 
+        "type": "real"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_fraternization_dispositions_disposition_reprimand_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_fraternization_dispositions_disposition_resignation_in_lieu_of_termination", 
+        "type": "real"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_fraternization_dispositions_disposition_resignation_in_lieu_of_termination_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_fraternization_dispositions_disposition_not_guilty", 
+        "type": "real"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_fraternization_dispositions_disposition_not_guilty_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_fraternization_appeals_appointing_authority_successful_appeal_to_secretary", 
+        "type": "real"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_fraternization_appeals_appointing_authority_successful_appeal_to_secretary_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_fraternization_appeals_co_appeal_successful_to_the_court", 
+        "type": "real"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_fraternization_appeals_co_appeal_successful_to_the_court_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_corruption_dispositions_disposition_terminations_total", 
+        "type": "real"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_corruption_dispositions_disposition_terminations_total_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_corruption_dispositions_termination_co_i", 
+        "type": "real"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_corruption_dispositions_termination_co_i_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_corruption_dispositions_termination_co_ii", 
+        "type": "real"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_corruption_dispositions_termination_co_ii_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_corruption_dispositions_termination_co_iii", 
+        "type": "real"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_corruption_dispositions_termination_co_iii_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_corruption_dispositions_termination_co_iv_co_v_co_vi", 
+        "type": "real"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_corruption_dispositions_termination_co_iv_co_v_co_vi_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_corruption_dispositions_disposition_suspension_9_days_or_less", 
+        "type": "real"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_corruption_dispositions_disposition_suspension_9_days_or_less_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_corruption_dispositions_disposition_suspension_10_days_or_more", 
+        "type": "real"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_corruption_dispositions_disposition_suspension_10_days_or_more_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_corruption_dispositions_disposition_reprimand", 
+        "type": "real"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_corruption_dispositions_disposition_reprimand_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_corruption_dispositions_disposition_resignation_in_lieu_of_termination", 
+        "type": "real"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_corruption_dispositions_disposition_resignation_in_lieu_of_termination_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_corruption_dispositions_disposition_not_guilty", 
+        "type": "real"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_corruption_dispositions_disposition_not_guilty_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_corruption_appeals_appointing_authority_successful_appeal_to_secretary", 
+        "type": "real"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_corruption_appeals_appointing_authority_successful_appeal_to_secretary_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_corruption_appeals_co_appeal_successful_to_the_court", 
+        "type": "real"
+      }, 
+      {
+        "name": "final_disciplinary_action_for_corruption_appeals_co_appeal_successful_to_the_court_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "iwif_total_incidents_reported_to_iwif_incidents_with_lost_hours", 
+        "type": "real"
+      }, 
+      {
+        "name": "iwif_total_incidents_reported_to_iwif_incidents_with_lost_hours_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "iwif_total_incidents_reported_to_iwif_incidents_with_lost_hours_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "iwif_total_incidents_reported_to_iwif_accident_leave_hours", 
+        "type": "real"
+      }, 
+      {
+        "name": "iwif_total_incidents_reported_to_iwif_accident_leave_hours_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "iwif_total_incidents_reported_to_iwif_accident_leave_hours_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "iwif_total_incidents_reported_to_iwif_accident_leave_paid", 
+        "type": "real"
+      }, 
+      {
+        "name": "iwif_total_incidents_reported_to_iwif_accident_leave_paid_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "iwif_total_incidents_reported_to_iwif_accident_leave_paid_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "id_documents_mva_ids_issued_mva_pre_screening_process_total", 
+        "type": "real"
+      }, 
+      {
+        "name": "id_documents_mva_ids_issued_mva_pre_screening_process_total_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "id_documents_mva_ids_issued_mva_pre_screening_process_total_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "id_documents_social_security_cards_processed_inmates_declining_ss_card", 
+        "type": "real"
+      }, 
+      {
+        "name": "id_documents_social_security_cards_processed_inmates_declining_ss_card_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "id_documents_social_security_cards_processed_inmates_declining_ss_card_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "id_documents_social_security_cards_processed_ss_card_applications_submitted", 
+        "type": "real"
+      }, 
+      {
+        "name": "id_documents_social_security_cards_processed_ss_card_applications_submitted_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "id_documents_social_security_cards_processed_ss_card_applications_submitted_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "id_documents_birth_certificates_processed_inmates_declining_birth_certificate", 
+        "type": "real"
+      }, 
+      {
+        "name": "id_documents_birth_certificates_processed_inmates_declining_birth_certificate_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "id_documents_birth_certificates_processed_inmates_declining_birth_certificate_correlations", 
+        "type": "text"
+      }, 
+      {
+        "name": "id_documents_birth_certificates_processed_birth_certificate_applications_submitted", 
+        "type": "real"
+      }, 
+      {
+        "name": "id_documents_birth_certificates_processed_birth_certificate_applications_submitted_analysis", 
+        "type": "text"
+      }, 
+      {
+        "name": "id_documents_birth_certificates_processed_birth_certificate_applications_submitted_correlations", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "socrata_maryland_dpscs_facility_specific_data_template"
+}
