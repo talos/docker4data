@@ -4,25 +4,22 @@ DUMPS=http://data.docker4data.com.s3-website-us-east-1.amazonaws.com/sqldump
 
 DATASETS=$@
 
-echo "Running docker4data container to import data"
-docker run -p 54321:5432 -d --name docker4data thegovlab/docker4data >/dev/null 2>&1 || echo "Container already running"
-
 for DATASET in ${DATASETS}; do
-  docker exec docker4data mkdir -p /$DATASET/
-  docker exec docker4data wget -q -O /$DATASET/dump $DUMPS/$DATASET &
+  mkdir -p /$DATASET/
+  wget -q -O /$DATASET/dump $DUMPS/$DATASET &
 done
 
 echo 'Waiting for data to download.'
 wait
 
 while : ; do
-  docker exec docker4data gosu postgres psql -c '\q' > /dev/null 2>&1 && break || echo "Waiting for postgres to start up"
+  gosu postgres psql -c '\q' > /dev/null 2>&1 && break || echo "Waiting for postgres to start up"
   sleep 0.2
 done
 
 for DATASET in $DATASETS; do
   echo "Restoring $DATASET"
-  docker exec docker4data /bin/bash -c "/usr/bin/time -o /${DATASET}.time gosu postgres pg_restore -v -d postgres /$DATASET/dump > /${DATASET}.log 2>&1 &" &
+  /usr/bin/time -o /${DATASET}.time gosu postgres pg_restore -v -d postgres /$DATASET/dump > /${DATASET}.log 2>&1 &
 done
 
 echo "Waiting for dataset imports"
@@ -30,7 +27,7 @@ while : ; do
   sleep 2
   FINISHED=''
   for DATASET in $DATASETS; do
-    TIME=$(docker exec docker4data cat /${DATASET}.time) || continue
+    TIME=$(cat /${DATASET}.time) || continue
     if [ "$TIME" ] ; then
       FINISHED="$FINISHED $DATASET"
     fi

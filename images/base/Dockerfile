@@ -16,6 +16,7 @@ ENV PASSWORD docker4data
 COPY scripts /scripts
 COPY conf /conf
 COPY site /site
+COPY cli /cli
 
 RUN scripts/prereqs.sh
 RUN apt-get install time
