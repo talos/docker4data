@@ -20,7 +20,7 @@ COPY cli /cli
 
 RUN apt-get update --fix-missing
 RUN apt-get install -y freetds-dev wget openssl ca-certificates \
-  apt-transport-https git-core
+  apt-transport-https git-core time
 
 RUN echo "===> add user and group to make sure their IDs get assigned consistently" && \
   groupadd -r postgres && useradd -r -g postgres postgres && \
@@ -68,7 +68,6 @@ RUN git clone https://github.com/talos/docker4data.git
 RUN mkdir /logs
 
 RUN localedef -i en_US -c -f UTF-8 -A /usr/share/locale/locale.alias en_US.UTF-8
-RUN apt-get install time
 EXPOSE 5432
 
 ENTRYPOINT "/scripts/docker-entrypoint.sh"
