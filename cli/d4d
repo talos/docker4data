@@ -1,0 +1,10 @@
+#!/bin/bash -e
+
+docker rm -f docker4data || :
+docker run -p 54321:5432 -d --name docker4data thegovlab/docker4data:latest /bin/bash -c /scripts/docker-entrypoint.sh
+
+if [ "$1" == ls ]; then
+  docker exec docker4data /cli/ls.sh
+elif [ "$1" == install ]; then
+  docker exec docker4data /cli/get_dataset.sh $2
+fi
