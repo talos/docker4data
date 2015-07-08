@@ -9,7 +9,8 @@ mkdir -p $INSTALL_PATH && curl -s $D4D_URL > $INSTALL_PATH/d4d && chmod a+x $INS
 # Adds Docker4Data to PATH
 PATH='$INSTALL_PATH':$PATH' >> $PROFILE_PATH && source $PROFILE_PATH
 
-echo "Installed d4d at $INSTALL_PATH and added to PATH via $PROFILE_PATH.
+echo "
+Installed d4d at $INSTALL_PATH and added to PATH via $PROFILE_PATH.
 
 You can get started with
 
