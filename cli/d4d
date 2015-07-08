@@ -1,10 +1,8 @@
 #!/bin/bash -e
 
-docker rm -f docker4data || :
-docker run -p 54321:5432 -d --name docker4data thegovlab/docker4data:latest /bin/bash -c /scripts/docker-entrypoint.sh
+docker pull thegovlab/docker4data:latest >/dev/null
+docker run -p 54321:5432 -d --name docker4data thegovlab/docker4data:latest /bin/bash -c /scripts/docker-entrypoint.sh 2>/dev/null || :
 
-if [ "$1" == ls ]; then
-  docker exec docker4data /cli/ls.sh
-elif [ "$1" == install ]; then
-  docker exec docker4data /cli/get_dataset.sh $2
-fi
+ARGS=( "$@" )
+
+docker exec docker4data /cli/${ARGS[@]:0:1}.sh ${ARGS[@]:1}
