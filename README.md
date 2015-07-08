@@ -7,6 +7,13 @@ Docker4Data is a system, requiring no commitment from government or other data
 sources, that would massively speed up onboarding large linked public data
 sets.
 
+### Try it out
+
+You'll need [Docker]() functioning on your system to get started.  Once that's
+done, install is just one line:
+
+    curl -s https://raw.githubusercontent.com/talos/docker4data/master/install.sh | bash
+
 ### Components
 
 * Build Server: A build process that sucks in publicly available data and converts them according to a JSON specification into postgres dumps hosted on Docker Hub.  It is running constantly and keeps these dumps up to date.
