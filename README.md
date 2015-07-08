@@ -9,8 +9,8 @@ sets.
 
 ### Try it out
 
-You'll need [Docker]() functioning on your system to get started.  Once that's
-done, install is just one line:
+You'll need to [install Docker](https://docs.docker.com/installation/) on your
+system to get started.  Once that's done, Docker4Data is just one line:
 
     curl -s https://raw.githubusercontent.com/talos/docker4data/master/install.sh | bash
 
