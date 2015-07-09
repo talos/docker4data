@@ -41,11 +41,11 @@ while : ; do
 done
 
 if [ $(which psql) ]; then
-  echo "to drop in, enter
+  echo 'to drop in, enter
 
-     PGPASSWORD=docker4data psql -h localhost -p 54321 -U postgres postgres
+     PGPASSWORD=docker4data psql -h $(boot2docker ip || echo localhost) -p 54321 -U postgres postgres
 
-  "
+  '
 else
   echo "to drop in, enter
 
