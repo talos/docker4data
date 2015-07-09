@@ -55,12 +55,14 @@ def run_remote_script(desc, tmp_dir, env_vars=None):
         raise Exception("Script type '{}' not supported".format(script_type))
 
 
-def generate_schema(table_name, schema):
+def generate_schema(schema_name, table_name, schema):
     """
     Generate a schema dynamically in cases where it's not previously supplied.
     """
     columns = [u'\t"{}"\t{}'.format(c['name'], c['type']) for c in schema['columns']]
-    return u'CREATE UNLOGGED TABLE {} ({})'.format(
+    return u'CREATE SCHEMA IF NOT EXISTS "{}"; CREATE TABLE "{}".{} ({})'.format(
+        schema_name,
+        schema_name,
         table_name,
         ',\n'.join(columns)
     )
@@ -163,9 +165,13 @@ def build(url, s3_bucket, tmp_path):
 
     # Able to verify nothing has changed, abort.
     if current_digest and old_digest and current_digest == old_digest:
-        LOGGER.info('Current digest %s and old digest %s match, skipping %s',
+        LOGGER.info(u'Current digest %s and old digest %s match, skipping %s',
                     current_digest, old_digest, dataset_name)
         sys.exit(100)  # Error exit code to stop build.sh
+
+    if resp[u'dataType'] != 'csv':
+        LOGGER.warn(u'Not yet able to deal with data type %s', resp[u'dataType'])
+        sys.exit(1)
 
     schema = resp[u'schema']
     if 'postgres' in schema:

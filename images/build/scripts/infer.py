@@ -65,7 +65,9 @@ def infer(metadata_url, output_root_dir):
 
     Infer docker4data metadata from a Socrata data.json
     '''
-    socrata_metadata = requests.get(metadata_url).json()
+    socrata_metadata = requests.get(metadata_url, headers={
+        "APP_TOKEN": os.environ.get('APP_TOKEN')
+    }).json()
 
     view_type = socrata_metadata['viewType']
     if view_type == 'tabular':
