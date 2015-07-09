@@ -1,0 +1,120 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/bronx_311_fdny_inspections_and_code_violations/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/qr26-bqxy/rows.csv"
+  }, 
+  "description": "FDNY Fire Department  inspection locations and status for compliance for fire code, fire alarm, sprinkler systems, etc...data updated daily. 2010-present", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "311", 
+    "category": "Environment", 
+    "description": "FDNY Fire Department  inspection locations and status for compliance for fire code, fire alarm, sprinkler systems, etc...data updated daily. 2010-present", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/qr26-bqxy.json"
+    }
+  }, 
+  "name": "Bronx 311 FDNY Inspections And Code Violations", 
+  "schema": {
+    "columns": [
+      {
+        "name": "unique_key", 
+        "type": "real"
+      }, 
+      {
+        "name": "created_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "closed_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "agency", 
+        "type": "text"
+      }, 
+      {
+        "name": "agency_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "complaint_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "descriptor", 
+        "type": "text"
+      }, 
+      {
+        "name": "location_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "incident_zip", 
+        "type": "real"
+      }, 
+      {
+        "name": "incident_address", 
+        "type": "text"
+      }, 
+      {
+        "name": "cross_street_1", 
+        "type": "text"
+      }, 
+      {
+        "name": "cross_street_2", 
+        "type": "text"
+      }, 
+      {
+        "name": "intersection_street_1", 
+        "type": "text"
+      }, 
+      {
+        "name": "intersection_street_2", 
+        "type": "text"
+      }, 
+      {
+        "name": "address_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "landmark", 
+        "type": "text"
+      }, 
+      {
+        "name": "facility_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "status", 
+        "type": "text"
+      }, 
+      {
+        "name": "due_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "resolution_action_updated_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "community_board", 
+        "type": "text"
+      }, 
+      {
+        "name": "park_facility_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "park_borough", 
+        "type": "text"
+      }, 
+      {
+        "name": "location", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "bronx_311_fdny_inspections_and_code_violations"
+}

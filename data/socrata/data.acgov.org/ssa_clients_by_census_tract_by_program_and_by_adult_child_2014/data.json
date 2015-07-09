@@ -1,0 +1,151 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ssa_clients_by_census_tract_by_program_and_by_adult_child_2014/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.acgov.org/api/views/7kni-tmbq/rows.csv"
+  }, 
+  "description": "This file shows the number of children and adults who received assistance from Alameda Social Services Agency from a variety of social welfare programs at any time in 2014, by Census tract. The following programs are included: CalWORKs provides monthly cash assistance to very low income families with children. Immediate Need provides cash assistance to families in the process of applying for CalWORKs, who have an emergency immediate need for cash assistance usually because they are homeless and awaiting approval for CalWORKs. CalFresh provides benefits on a plastic card that can be swiped at stores to pay for food only. Medi-Cal provides no cost or very low-cost health insurance to low income individuals and families. General Assistance provides cash assistance to very low-income adults without children. General Assistance clients who are considered employable are limited to 3 months of aid, while those considered unemployable have no time limit. Foster Care provides cash assistance to families and group homes for children whom the court has determined need a safe place to live when their parents or other relatives cannot take care of them. KinGAP provides cash assistance to relatives who take legal guardianship of former foster youth. Adoption Assistance provides cash assistance to families who adopt former foster youth. Refugee Cash Assistance provides short term monthly cash assistance to very low income to refugee families. One caveat is that individuals may receive assistance from programs through other counties or agencies other than Alameda Social Services Agency, and they would not be counted in these figures. For example, persons may receive Medi-Cal coverage by virtue of being SSI recipients, with eligibility determined by the Social Security Administration, rather than Alameda Social Services Agency. In addition, children may receive Foster Care, KinGAP, or Adoption Assistance from the county where they originally resided, rather than Alameda Social Services, and these youth would also not be counted in these figures.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "category": "Social Services", 
+    "description": "This file shows the number of children and adults who received assistance from Alameda Social Services Agency from a variety of social welfare programs at any time in 2014, by Census tract. The following programs are included: CalWORKs provides monthly cash assistance to very low income families with children. Immediate Need provides cash assistance to families in the process of applying for CalWORKs, who have an emergency immediate need for cash assistance usually because they are homeless and awaiting approval for CalWORKs. CalFresh provides benefits on a plastic card that can be swiped at stores to pay for food only. Medi-Cal provides no cost or very low-cost health insurance to low income individuals and families. General Assistance provides cash assistance to very low-income adults without children. General Assistance clients who are considered employable are limited to 3 months of aid, while those considered unemployable have no time limit. Foster Care provides cash assistance to families and group homes for children whom the court has determined need a safe place to live when their parents or other relatives cannot take care of them. KinGAP provides cash assistance to relatives who take legal guardianship of former foster youth. Adoption Assistance provides cash assistance to families who adopt former foster youth. Refugee Cash Assistance provides short term monthly cash assistance to very low income to refugee families. One caveat is that individuals may receive assistance from programs through other counties or agencies other than Alameda Social Services Agency, and they would not be counted in these figures. For example, persons may receive Medi-Cal coverage by virtue of being SSI recipients, with eligibility determined by the Social Security Administration, rather than Alameda Social Services Agency. In addition, children may receive Foster Care, KinGAP, or Adoption Assistance from the county where they originally resided, rather than Alameda Social Services, and these youth would also not be counted in these figures.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.acgov.org/api/views/7kni-tmbq.json"
+    }
+  }, 
+  "name": "SSA Clients By Census Tract By Program And By Adult Child -2014", 
+  "schema": {
+    "columns": [
+      {
+        "name": "census_tract", 
+        "type": "real"
+      }, 
+      {
+        "name": "cw_adults", 
+        "type": "real"
+      }, 
+      {
+        "name": "cw_kids", 
+        "type": "real"
+      }, 
+      {
+        "name": "cw_total", 
+        "type": "real"
+      }, 
+      {
+        "name": "cf_adults", 
+        "type": "real"
+      }, 
+      {
+        "name": "cf_kids", 
+        "type": "real"
+      }, 
+      {
+        "name": "cf_total", 
+        "type": "real"
+      }, 
+      {
+        "name": "mc_adults", 
+        "type": "real"
+      }, 
+      {
+        "name": "mc_kids", 
+        "type": "real"
+      }, 
+      {
+        "name": "mc_total", 
+        "type": "real"
+      }, 
+      {
+        "name": "ga_adults", 
+        "type": "real"
+      }, 
+      {
+        "name": "ga_kids", 
+        "type": "real"
+      }, 
+      {
+        "name": "ga_total", 
+        "type": "real"
+      }, 
+      {
+        "name": "fc_adults", 
+        "type": "real"
+      }, 
+      {
+        "name": "fc_kids", 
+        "type": "real"
+      }, 
+      {
+        "name": "fc_total", 
+        "type": "real"
+      }, 
+      {
+        "name": "kg_adults", 
+        "type": "real"
+      }, 
+      {
+        "name": "kg_kids", 
+        "type": "real"
+      }, 
+      {
+        "name": "kg_total", 
+        "type": "real"
+      }, 
+      {
+        "name": "aa_adults", 
+        "type": "real"
+      }, 
+      {
+        "name": "aa_kids", 
+        "type": "real"
+      }, 
+      {
+        "name": "aa_total", 
+        "type": "real"
+      }, 
+      {
+        "name": "in_adults", 
+        "type": "real"
+      }, 
+      {
+        "name": "in_kids", 
+        "type": "real"
+      }, 
+      {
+        "name": "in_total", 
+        "type": "real"
+      }, 
+      {
+        "name": "rc_adults", 
+        "type": "real"
+      }, 
+      {
+        "name": "rc_kids", 
+        "type": "real"
+      }, 
+      {
+        "name": "rc_total", 
+        "type": "real"
+      }, 
+      {
+        "name": "unduplicated_persons_clients", 
+        "type": "real"
+      }, 
+      {
+        "name": "bos_majority", 
+        "type": "real"
+      }, 
+      {
+        "name": "place_majority", 
+        "type": "text"
+      }, 
+      {
+        "name": "_2010_census_population", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "tableName": "ssa_clients_by_census_tract_by_program_and_by_adult_child_2014"
+}

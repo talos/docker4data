@@ -1,0 +1,43 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/derelict_vehicles_dispositions_rentals/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/v6j6-k9uc/rows.csv"
+  }, 
+  "description": "Data for removing derelict vehicle operations from city streets, Gives disposition (rentals) of derelict vehicles reported to DSNY from 311.\r\n\r\nhttps://data.cityofnewyork.us/City-Government/Derelict-Vehicle-Dispositions-Tow/vr8p-8shw\r\nhttps://data.cityofnewyork.us/City-Government/Derelict-Vehicle-Dispositions-Vehicles/bjuu-44hx\r\nhttps://data.cityofnewyork.us/City-Government/Derelict-Vehicles-Dispositions-Complaints/pq5i-thsu", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "category": "City Government", 
+    "description": "Data for removing derelict vehicle operations from city streets, Gives disposition (rentals) of derelict vehicles reported to DSNY from 311.\r\n\r\nhttps://data.cityofnewyork.us/City-Government/Derelict-Vehicle-Dispositions-Tow/vr8p-8shw\r\nhttps://data.cityofnewyork.us/City-Government/Derelict-Vehicle-Dispositions-Vehicles/bjuu-44hx\r\nhttps://data.cityofnewyork.us/City-Government/Derelict-Vehicles-Dispositions-Complaints/pq5i-thsu", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/v6j6-k9uc.json"
+    }
+  }, 
+  "name": "Derelict Vehicles Dispositions - Rentals", 
+  "schema": {
+    "columns": [
+      {
+        "name": "dvr_load_timestmp", 
+        "type": "real"
+      }, 
+      {
+        "name": "dvr_fill_1", 
+        "type": "text"
+      }, 
+      {
+        "name": "dvr_fill_2", 
+        "type": "text"
+      }, 
+      {
+        "name": "dvr_delete_indic", 
+        "type": "text"
+      }, 
+      {
+        "name": "dvr_delete_timestmp", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "tableName": "derelict_vehicles_dispositions_rentals"
+}

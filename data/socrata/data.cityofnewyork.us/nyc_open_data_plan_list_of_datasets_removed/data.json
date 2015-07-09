@@ -1,0 +1,40 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nyc_open_data_plan_list_of_datasets_removed/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/unw7-yyit/rows.csv"
+  }, 
+  "description": "This inventory includes all items removed from the Open Data Plan. The reason for removal is documented for each item removed.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Department of Information Technology & Telecommunications(DoITT)", 
+    "category": "City Government", 
+    "description": "This inventory includes all items removed from the Open Data Plan. The reason for removal is documented for each item removed.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/unw7-yyit.json"
+    }
+  }, 
+  "name": "NYC Open Data Plan - List Of Datasets Removed", 
+  "schema": {
+    "columns": [
+      {
+        "name": "agency", 
+        "type": "text"
+      }, 
+      {
+        "name": "dataset", 
+        "type": "text"
+      }, 
+      {
+        "name": "dataset_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "reason_for_removal", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "nyc_open_data_plan_list_of_datasets_removed"
+}

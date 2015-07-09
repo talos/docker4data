@@ -1,0 +1,39 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ems_responses_by_county_units_into_city/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/nw7z-k49b/rows.csv"
+  }, 
+  "description": "The percentage of responses made by ambulances assigned to County EMS stations into the City region.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "category": "Public Safety", 
+    "description": "The percentage of responses made by ambulances assigned to County EMS stations into the City region.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/nw7z-k49b.json"
+    }
+  }, 
+  "name": "EMS Responses By County Units Into City", 
+  "schema": {
+    "columns": [
+      {
+        "name": "month_year", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "total_travis_county_responses", 
+        "type": "real"
+      }, 
+      {
+        "name": "tc_unit_responses_into_coa", 
+        "type": "real"
+      }, 
+      {
+        "name": "percent_coa_responses_by_tc", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "ems_responses_by_county_units_into_city"
+}

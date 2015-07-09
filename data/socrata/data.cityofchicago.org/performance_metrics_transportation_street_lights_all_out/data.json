@@ -1,0 +1,40 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/performance_metrics_transportation_street_lights_all_out/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/phrs-x2nm/rows.csv"
+  }, 
+  "description": "The Chicago Department of Transportation (CDOT) oversees approximately 250,000 street lights that illuminate arterial and residential streets in Chicago. CDOT performs repairs and bulb replacements in response to residents\u2019 reports of street light outages. Whenever CDOT receives a report from 311\u2019s Customer Service Requests (CSR) system of an \u201cAll Out\u201d (an outage of 3 or more lights) the electrician assigned to make the repair looks at all the lights in that circuit (each circuit has 8-16 lights) to make sure that they are all working properly.  This metric tracks the average number of days CDOT takes to complete street lights \u201cAll Out\u201d requests.   Total number of requests fulfilled per week is also available by mousing over columns.  The target response time for street light \u201cAll Out\u201d repairs is within 4 days.  To report a street light outage, call 311 or see http://www.cityofchicago.org/city/en/depts/cdot/provdrs/traffic_signals_andstreetlights/svcs/request_street_lights.html", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "City of Chicago", 
+    "category": "Administration & Finance", 
+    "description": "The Chicago Department of Transportation (CDOT) oversees approximately 250,000 street lights that illuminate arterial and residential streets in Chicago. CDOT performs repairs and bulb replacements in response to residents\u2019 reports of street light outages. Whenever CDOT receives a report from 311\u2019s Customer Service Requests (CSR) system of an \u201cAll Out\u201d (an outage of 3 or more lights) the electrician assigned to make the repair looks at all the lights in that circuit (each circuit has 8-16 lights) to make sure that they are all working properly.  This metric tracks the average number of days CDOT takes to complete street lights \u201cAll Out\u201d requests.   Total number of requests fulfilled per week is also available by mousing over columns.  The target response time for street light \u201cAll Out\u201d repairs is within 4 days.  To report a street light outage, call 311 or see http://www.cityofchicago.org/city/en/depts/cdot/provdrs/traffic_signals_andstreetlights/svcs/request_street_lights.html", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/phrs-x2nm.json"
+    }
+  }, 
+  "name": "Performance Metrics - Transportation - Street Lights All Out", 
+  "schema": {
+    "columns": [
+      {
+        "name": "week", 
+        "type": "text"
+      }, 
+      {
+        "name": "average_days_to_complete_street_lights_all_out_requests", 
+        "type": "real"
+      }, 
+      {
+        "name": "total_completed_requests", 
+        "type": "real"
+      }, 
+      {
+        "name": "target_response_time_days_", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "tableName": "performance_metrics_transportation_street_lights_all_out"
+}

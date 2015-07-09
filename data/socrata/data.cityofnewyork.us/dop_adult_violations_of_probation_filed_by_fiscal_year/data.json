@@ -1,0 +1,40 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/dop_adult_violations_of_probation_filed_by_fiscal_year/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/fve3-eee8/rows.csv"
+  }, 
+  "description": "The number of \u201cviolation of probation\u201d filings sent by the Department to local courts, in response to misconduct by the probation client, during the reporting period.  Categorized by type of violation: rearrest; technical (rules) violation; or absconder.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Department of Probation (DOP)", 
+    "category": "City Government", 
+    "description": "The number of \u201cviolation of probation\u201d filings sent by the Department to local courts, in response to misconduct by the probation client, during the reporting period.  Categorized by type of violation: rearrest; technical (rules) violation; or absconder.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/fve3-eee8.json"
+    }
+  }, 
+  "name": "DOP Adult Violations of Probation Filed by Fiscal Year", 
+  "schema": {
+    "columns": [
+      {
+        "name": "borough", 
+        "type": "text"
+      }, 
+      {
+        "name": "fiscal_year_ending_in_june_", 
+        "type": "real"
+      }, 
+      {
+        "name": "violation_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "filed_violation_count", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "tableName": "dop_adult_violations_of_probation_filed_by_fiscal_year"
+}

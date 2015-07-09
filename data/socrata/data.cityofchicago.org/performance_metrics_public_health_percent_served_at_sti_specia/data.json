@@ -1,0 +1,64 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/performance_metrics_public_health_percent_served_at_sti_specia/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/5t3t-6y9q/rows.csv"
+  }, 
+  "description": "The Chicago Department of Public Health (CDPH) Division of STD/HIV/AIDS Public Policy and Programs works in partnership with communities to advance the prevention and treatment of HIV and sexually transmitted infections (STIs).  CDPH maintains drop-in STI Specialty Clinics & HIV Early Intervention Services in South Austin, Englewood, Roseland, Lakeview and West Town that diagnose and treat STIs and provide information about condom use and other STI prevention methods.  These clinics are offered at no cost, and on a first-come, first-serve basis.  This metric tracks the percent of patients served by the STI Specialty Clinics per month out of the total number of people who seek care.  The monthly performance goal is to serve 100% of those seeking care.  For more information about City STI/HIV/AIDS Services, see http://www.cityofchicago.org/city/en/depts/cdph/provdrs/sti_hiv_aids.html", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "City of Chicago", 
+    "category": "Administration & Finance", 
+    "description": "The Chicago Department of Public Health (CDPH) Division of STD/HIV/AIDS Public Policy and Programs works in partnership with communities to advance the prevention and treatment of HIV and sexually transmitted infections (STIs).  CDPH maintains drop-in STI Specialty Clinics & HIV Early Intervention Services in South Austin, Englewood, Roseland, Lakeview and West Town that diagnose and treat STIs and provide information about condom use and other STI prevention methods.  These clinics are offered at no cost, and on a first-come, first-serve basis.  This metric tracks the percent of patients served by the STI Specialty Clinics per month out of the total number of people who seek care.  The monthly performance goal is to serve 100% of those seeking care.  For more information about City STI/HIV/AIDS Services, see http://www.cityofchicago.org/city/en/depts/cdph/provdrs/sti_hiv_aids.html", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/5t3t-6y9q.json"
+    }
+  }, 
+  "name": "Performance Metrics - Public Health - Percent Served at STI Specialty Clinics", 
+  "schema": {
+    "columns": [
+      {
+        "name": "month", 
+        "type": "text"
+      }, 
+      {
+        "name": "number_of_patients_turned_away_from_city_sti_clinics", 
+        "type": "real"
+      }, 
+      {
+        "name": "percent_turned_away", 
+        "type": "text"
+      }, 
+      {
+        "name": "number_of_patients_served_at_city_sti_clinics", 
+        "type": "real"
+      }, 
+      {
+        "name": "percent_served", 
+        "type": "text"
+      }, 
+      {
+        "name": "total_number_of_patients_presenting_for_care_at_city_sti_clinics", 
+        "type": "real"
+      }, 
+      {
+        "name": "turn_away_target", 
+        "type": "text"
+      }, 
+      {
+        "name": "service_target", 
+        "type": "text"
+      }, 
+      {
+        "name": "months_target_was_met", 
+        "type": "real"
+      }, 
+      {
+        "name": "months_target_was_not_met", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "tableName": "performance_metrics_public_health_percent_served_at_sti_specia"
+}

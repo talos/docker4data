@@ -1,0 +1,51 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/bronx_2012_assembly_districts/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/e7ws-i3s4/rows.csv"
+  }, 
+  "description": "Centroid points of Bronx Assembly Districts and the representative elected for each district, along with the url to each representative's homepage.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "category": "My Neighborhood", 
+    "description": "Centroid points of Bronx Assembly Districts and the representative elected for each district, along with the url to each representative's homepage.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/e7ws-i3s4.json"
+    }
+  }, 
+  "name": "Bronx 2012 Assembly Districts", 
+  "schema": {
+    "columns": [
+      {
+        "name": "assembly_district", 
+        "type": "real"
+      }, 
+      {
+        "name": "shape_leng", 
+        "type": "real"
+      }, 
+      {
+        "name": "borough", 
+        "type": "text"
+      }, 
+      {
+        "name": "assemblyman", 
+        "type": "text"
+      }, 
+      {
+        "name": "url", 
+        "type": "text"
+      }, 
+      {
+        "name": "point_x", 
+        "type": "text"
+      }, 
+      {
+        "name": "point_y", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "tableName": "bronx_2012_assembly_districts"
+}

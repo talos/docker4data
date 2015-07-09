@@ -1,0 +1,88 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/missed_recycling_paper_collection/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/tan3-ffip/rows.csv"
+  }, 
+  "description": "311, missed recycled paper collection. Raw data updated daily", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "NYC Open Data", 
+    "category": "Environment", 
+    "description": "311, missed recycled paper collection. Raw data updated daily", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/tan3-ffip.json"
+    }
+  }, 
+  "name": "Missed Recycling Paper Collection", 
+  "schema": {
+    "columns": [
+      {
+        "name": "uniquekey", 
+        "type": "real"
+      }, 
+      {
+        "name": "createddat", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "closeddate", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "agency", 
+        "type": "text"
+      }, 
+      {
+        "name": "complaintt", 
+        "type": "text"
+      }, 
+      {
+        "name": "descriptor", 
+        "type": "text"
+      }, 
+      {
+        "name": "incidentzi", 
+        "type": "real"
+      }, 
+      {
+        "name": "incidentad", 
+        "type": "text"
+      }, 
+      {
+        "name": "crossstree", 
+        "type": "text"
+      }, 
+      {
+        "name": "crossstr_1", 
+        "type": "text"
+      }, 
+      {
+        "name": "intersecti", 
+        "type": "real"
+      }, 
+      {
+        "name": "intersec_1", 
+        "type": "real"
+      }, 
+      {
+        "name": "status", 
+        "type": "text"
+      }, 
+      {
+        "name": "communityb", 
+        "type": "text"
+      }, 
+      {
+        "name": "borough", 
+        "type": "text"
+      }, 
+      {
+        "name": "zipcode", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "tableName": "missed_recycling_paper_collection"
+}

@@ -1,0 +1,39 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ems_responses_in_city_and_county_combined/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/7i7c-96kx/rows.csv"
+  }, 
+  "description": "A count of ATCEMS responses that occur in City and the County", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "category": "Public Safety", 
+    "description": "A count of ATCEMS responses that occur in City and the County", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/7i7c-96kx.json"
+    }
+  }, 
+  "name": "EMS Responses In City And County Combined", 
+  "schema": {
+    "columns": [
+      {
+        "name": "month_year", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "total_austin_responses", 
+        "type": "real"
+      }, 
+      {
+        "name": "total_travis_county_responses", 
+        "type": "real"
+      }, 
+      {
+        "name": "combined_city_and_county_responses", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "tableName": "ems_responses_in_city_and_county_combined"
+}

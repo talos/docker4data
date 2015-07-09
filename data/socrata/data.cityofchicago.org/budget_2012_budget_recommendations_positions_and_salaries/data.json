@@ -1,0 +1,108 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/budget_2012_budget_recommendations_positions_and_salaries/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/rdd7-bjqm/rows.csv"
+  }, 
+  "description": "This dataset includes recommended positions and salaries for 2012 by title (without names) and salary. The dataset is excerpted from the 2012 Budget Recommendations, which is the line-item budget proposed by the Mayor to the City Council for approval. Disclaimer: the \u201cTotal Budgeted Units\u201d column displays either A) the number of employees AND vacancies associated with a given position, or B) the number of budgeted units (ie. hours/months) for that position. \u201cPosition Control\u201d determines whether Total Budgeted Units column will count employees and vacancies or hours/months. If a Position Control is 1, then employees and vacancies are displayed; if a Position Control is 0, then the total number of hours/months recorded is displayed. Owner: Budget and Management. Frequency: Data is updated annually. For more information about the budget process, visit the Budget Documents page: http://j.mp/lPotWf.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "City of Chicago", 
+    "category": "Administration & Finance", 
+    "description": "This dataset includes recommended positions and salaries for 2012 by title (without names) and salary. The dataset is excerpted from the 2012 Budget Recommendations, which is the line-item budget proposed by the Mayor to the City Council for approval. Disclaimer: the \u201cTotal Budgeted Units\u201d column displays either A) the number of employees AND vacancies associated with a given position, or B) the number of budgeted units (ie. hours/months) for that position. \u201cPosition Control\u201d determines whether Total Budgeted Units column will count employees and vacancies or hours/months. If a Position Control is 1, then employees and vacancies are displayed; if a Position Control is 0, then the total number of hours/months recorded is displayed. Owner: Budget and Management. Frequency: Data is updated annually. For more information about the budget process, visit the Budget Documents page: http://j.mp/lPotWf.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/rdd7-bjqm.json"
+    }
+  }, 
+  "name": "Budget - 2012 Budget Recommendations - Positions and Salaries", 
+  "schema": {
+    "columns": [
+      {
+        "name": "fund_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "department_code", 
+        "type": "real"
+      }, 
+      {
+        "name": "department_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "fund_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "fund_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "organization_code", 
+        "type": "real"
+      }, 
+      {
+        "name": "division_code", 
+        "type": "real"
+      }, 
+      {
+        "name": "division_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "section_code", 
+        "type": "real"
+      }, 
+      {
+        "name": "section_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "sub_section_code", 
+        "type": "real"
+      }, 
+      {
+        "name": "sub_section_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "schedule_grade", 
+        "type": "text"
+      }, 
+      {
+        "name": "bargaining_unit", 
+        "type": "real"
+      }, 
+      {
+        "name": "title_code", 
+        "type": "real"
+      }, 
+      {
+        "name": "title_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "budgeted_unit", 
+        "type": "text"
+      }, 
+      {
+        "name": "total_budgeted_unit", 
+        "type": "real"
+      }, 
+      {
+        "name": "position_control", 
+        "type": "real"
+      }, 
+      {
+        "name": "budgeted_pay_rate", 
+        "type": "real"
+      }, 
+      {
+        "name": "total_budgeted_amount", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "tableName": "budget_2012_budget_recommendations_positions_and_salaries"
+}

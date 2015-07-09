@@ -1,0 +1,88 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/bronx_restaurant_locations_and_recent_dohmh_inspections/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/mt6q-sf39/rows.csv"
+  }, 
+  "description": "Locations and most recent inspection status of Bronx Restaurants. Refer to the Cuisine attachment for restaurant description.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "NYC Open Data", 
+    "category": "My Neighborhood", 
+    "description": "Locations and most recent inspection status of Bronx Restaurants. Refer to the Cuisine attachment for restaurant description.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/mt6q-sf39.json"
+    }
+  }, 
+  "name": "Bronx Restaurant Locations and Recent DOHMH Inspections", 
+  "schema": {
+    "columns": [
+      {
+        "name": "camis", 
+        "type": "real"
+      }, 
+      {
+        "name": "dba", 
+        "type": "text"
+      }, 
+      {
+        "name": "address", 
+        "type": "text"
+      }, 
+      {
+        "name": "zip_code", 
+        "type": "real"
+      }, 
+      {
+        "name": "phone", 
+        "type": "real"
+      }, 
+      {
+        "name": "cuisine_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "inspection_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "action", 
+        "type": "text"
+      }, 
+      {
+        "name": "violation_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "violation_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "critical_flag", 
+        "type": "text"
+      }, 
+      {
+        "name": "score", 
+        "type": "real"
+      }, 
+      {
+        "name": "current_grade", 
+        "type": "text"
+      }, 
+      {
+        "name": "grade_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "record_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "inspection_type", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "bronx_restaurant_locations_and_recent_dohmh_inspections"
+}

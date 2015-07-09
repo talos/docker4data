@@ -1,0 +1,96 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/broadband_by_census_blocks/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/57ar-siya/rows.csv"
+  }, 
+  "description": "Datasets collected and created as part of the NYS Broadband Mapping Program. Data includes high speed Internet service availability by provider company (census block level), internet technology service areas (DSL, Cable Modem, Fiber to the Home) and statistical calculations of households served by technology (2000 US Census household units). Cable and internet providers are listed, and mapped by numerical code.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "NYS GIS Clearinghouse", 
+    "category": "My Neighborhood", 
+    "description": "Datasets collected and created as part of the NYS Broadband Mapping Program. Data includes high speed Internet service availability by provider company (census block level), internet technology service areas (DSL, Cable Modem, Fiber to the Home) and statistical calculations of households served by technology (2000 US Census household units). Cable and internet providers are listed, and mapped by numerical code.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/57ar-siya.json"
+    }
+  }, 
+  "name": "Broadband by Census Blocks", 
+  "schema": {
+    "columns": [
+      {
+        "name": "objectid", 
+        "type": "text"
+      }, 
+      {
+        "name": "provname", 
+        "type": "text"
+      }, 
+      {
+        "name": "dbaname", 
+        "type": "text"
+      }, 
+      {
+        "name": "provider_t", 
+        "type": "text"
+      }, 
+      {
+        "name": "frn", 
+        "type": "text"
+      }, 
+      {
+        "name": "countyfips", 
+        "type": "text"
+      }, 
+      {
+        "name": "tract", 
+        "type": "text"
+      }, 
+      {
+        "name": "blockid", 
+        "type": "text"
+      }, 
+      {
+        "name": "fullfipsid", 
+        "type": "text"
+      }, 
+      {
+        "name": "transtech", 
+        "type": "text"
+      }, 
+      {
+        "name": "maxaddown", 
+        "type": "real"
+      }, 
+      {
+        "name": "maxadup", 
+        "type": "real"
+      }, 
+      {
+        "name": "prov_code", 
+        "type": "real"
+      }, 
+      {
+        "name": "verificati", 
+        "type": "real"
+      }, 
+      {
+        "name": "cp", 
+        "type": "real"
+      }, 
+      {
+        "name": "point_x", 
+        "type": "real"
+      }, 
+      {
+        "name": "point_y", 
+        "type": "real"
+      }, 
+      {
+        "name": "location_1", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "broadband_by_census_blocks"
+}

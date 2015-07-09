@@ -1,0 +1,88 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/2010_2011_class_size_school_level_detail/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/pu4p-rpf8/rows.csv"
+  }, 
+  "description": "Average class sizes for each school, by grade and program type (General Education, Self-Contained Special Education, Collaborative Team Teaching (CTT)) for grades K-9 (where grade 9 is not reported by subject area), and for grades 5-9 (where available) and 9-12, aggregated by program type (General Education, CTT, and Self-Contained Special Education) and core course (e.g. English 9, Integrated Algebra, US History, etc.). Class size data is based on January 28, 2011 data. *Grade 9 Official Class data is included for 0K-09 schools. Core Course information for these sections is not reported.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "NYC OpenData", 
+    "category": "Education", 
+    "description": "Average class sizes for each school, by grade and program type (General Education, Self-Contained Special Education, Collaborative Team Teaching (CTT)) for grades K-9 (where grade 9 is not reported by subject area), and for grades 5-9 (where available) and 9-12, aggregated by program type (General Education, CTT, and Self-Contained Special Education) and core course (e.g. English 9, Integrated Algebra, US History, etc.). Class size data is based on January 28, 2011 data. *Grade 9 Official Class data is included for 0K-09 schools. Core Course information for these sections is not reported.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/pu4p-rpf8.json"
+    }
+  }, 
+  "name": "2010-2011 Class Size - School-level Detail", 
+  "schema": {
+    "columns": [
+      {
+        "name": "csd", 
+        "type": "real"
+      }, 
+      {
+        "name": "borough", 
+        "type": "text"
+      }, 
+      {
+        "name": "school_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "school_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "grade", 
+        "type": "text"
+      }, 
+      {
+        "name": "program_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "core_subject_ms_core_and_9_12_only", 
+        "type": "text"
+      }, 
+      {
+        "name": "core_course_ms_core_and_9_12_only", 
+        "type": "text"
+      }, 
+      {
+        "name": "service_category_k_9_only", 
+        "type": "text"
+      }, 
+      {
+        "name": "number_of_students_seats_filled", 
+        "type": "real"
+      }, 
+      {
+        "name": "number_of_sections", 
+        "type": "real"
+      }, 
+      {
+        "name": "average_class_size", 
+        "type": "real"
+      }, 
+      {
+        "name": "size_of_smallest_class", 
+        "type": "real"
+      }, 
+      {
+        "name": "size_of_largest_class", 
+        "type": "real"
+      }, 
+      {
+        "name": "data_source", 
+        "type": "text"
+      }, 
+      {
+        "name": "schoolwide_pupil_teacher_ratio", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "tableName": "2010_2011_class_size_school_level_detail"
+}

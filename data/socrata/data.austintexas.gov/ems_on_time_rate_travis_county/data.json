@@ -1,0 +1,39 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ems_on_time_rate_travis_county/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/84hw-edzm/rows.csv"
+  }, 
+  "description": "The percentage of County incidents for which ATCEMS meets its response time goals", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "category": "Public Safety", 
+    "description": "The percentage of County incidents for which ATCEMS meets its response time goals", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/84hw-edzm.json"
+    }
+  }, 
+  "name": "EMS On- Time Rate  Travis County", 
+  "schema": {
+    "columns": [
+      {
+        "name": "month_year", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "travis_county_incidents", 
+        "type": "real"
+      }, 
+      {
+        "name": "travis_county_on_time_compliance", 
+        "type": "text"
+      }, 
+      {
+        "name": "target_on_time_compliance", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "ems_on_time_rate_travis_county"
+}

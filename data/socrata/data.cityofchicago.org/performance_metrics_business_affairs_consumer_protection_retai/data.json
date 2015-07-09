@@ -1,0 +1,56 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/performance_metrics_business_affairs_consumer_protection_retai/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/uxj2-up34/rows.csv"
+  }, 
+  "description": "All restaurants and food stores selling perishable items are required to apply for a Retail Food License (RFL). This metric tracks the average number of days the Department of Business Affairs and Consumer Protection (BACP) takes to issue RFLs. The target response time for processing is within 15 days.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "City of Chicago", 
+    "category": "Administration & Finance", 
+    "description": "All restaurants and food stores selling perishable items are required to apply for a Retail Food License (RFL). This metric tracks the average number of days the Department of Business Affairs and Consumer Protection (BACP) takes to issue RFLs. The target response time for processing is within 15 days.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/uxj2-up34.json"
+    }
+  }, 
+  "name": "Performance Metrics - Business Affairs & Consumer Protection - Retail Food Licenses", 
+  "schema": {
+    "columns": [
+      {
+        "name": "week", 
+        "type": "text"
+      }, 
+      {
+        "name": "total_licenses_issued", 
+        "type": "real"
+      }, 
+      {
+        "name": "average_days_to_issue_license", 
+        "type": "real"
+      }, 
+      {
+        "name": "median_days_to_issue_license", 
+        "type": "real"
+      }, 
+      {
+        "name": "target_days_to_issue_license", 
+        "type": "real"
+      }, 
+      {
+        "name": "quarter", 
+        "type": "text"
+      }, 
+      {
+        "name": "weeks_target_was_achieved", 
+        "type": "real"
+      }, 
+      {
+        "name": "weeks_target_was_not_achieved", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "tableName": "performance_metrics_business_affairs_consumer_protection_retai"
+}

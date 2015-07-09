@@ -1,0 +1,36 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nyc_colleges_and_universities/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/5ejr-cyxf/rows.csv"
+  }, 
+  "description": "locations and names of Colleges in NYC", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "NYC Open Data", 
+    "category": "Education", 
+    "description": "locations and names of Colleges in NYC", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/5ejr-cyxf.json"
+    }
+  }, 
+  "name": "NYC Colleges And Universities", 
+  "schema": {
+    "columns": [
+      {
+        "name": "objectid", 
+        "type": "real"
+      }, 
+      {
+        "name": "name", 
+        "type": "text"
+      }, 
+      {
+        "name": "location", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "nyc_colleges_and_universities"
+}

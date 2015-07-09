@@ -66,17 +66,33 @@ def infer(metadata_url, output_root_dir):
     Infer docker4data metadata from a Socrata data.json
     '''
     socrata_metadata = requests.get(metadata_url).json()
-    data_url = metadata_url.replace('.json', '/rows.csv')
+
+    view_type = socrata_metadata['viewType']
+    if view_type == 'tabular':
+        data_type = 'csv'
+        data_url = metadata_url.replace('.json', '/rows.csv')
+    elif view_type == 'blobby':
+        data_type = socrata_metadata['blobMimeType']
+        data_url = metadata_url.replace('api/views', 'download') \
+                               .replace('.json', data_type)
+    elif view_type == 'href':
+        pass
+    elif view_type == 'geo':
+        data_type = 'shapefile'
+        data_url = metadata_url.replace('api/views', 'api/geospatial') \
+                               .replace('.json', '')
+    else:
+        pass
 
     if 'name' not in socrata_metadata:
         LOGGER.warn(u'Cannot infer table from %s, no `name`', socrata_metadata)
         return
 
-    namespace = extract_namespace(metadata_url)
+    namespace = os.path.join('socrata',  extract_namespace(metadata_url))
     tablename = socrata_metadata['name'].lower().replace(' ', '_')
     tablename = re.sub(r'[^0-9a-z]+', '_', tablename)[0:62]
 
-    output_dir = os.path.join(output_root_dir, 'socrata',  namespace, tablename)
+    output_dir = os.path.join(output_root_dir, namespace, tablename)
     output_path = os.path.join(output_dir, 'data.json')
 
     if os.path.exists(output_path):
@@ -88,9 +104,7 @@ def infer(metadata_url, output_root_dir):
             "maintainer": {
                 "@id": "https://github.com/talos/docker4data"
             },
-            "data": {
-                "@id": data_url
-            },
+            "data": {},
             "schema": {},
             "metadata": {}
         }
@@ -101,11 +115,17 @@ def infer(metadata_url, output_root_dir):
 
     d4d_metadata[u"name"] = socrata_metadata[u'name']
     d4d_metadata[u"tableName"] = tablename
+    d4d_metadata[u"schemaName"] = namespace
+
+    d4d_metadata[u"data"][u"@id"] = data_url
+    d4d_metadata[u"data"][u"type"] = data_type
 
     if u'description' not in d4d_metadata and u'description' in socrata_metadata:
         d4d_metadata[u'description'] = socrata_metadata[u'description']
 
-    d4d_metadata[u"schema"][u"columns"] = generate_schema(socrata_metadata[u'columns'])
+    if view_type == 'tabular':
+        d4d_metadata[u"schema"][u"columns"] = generate_schema(socrata_metadata[u'columns'])
+
     if u'metadata' not in d4d_metadata:
         d4d_metadata[u"metadata"] = {}
     d4d_metadata[u"metadata"][u"socrata"] = {

@@ -1,0 +1,60 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/bronx_vacant_lots_cleaned/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/ig2p-d4qt/rows.csv"
+  }, 
+  "description": "Gives address, Borough-Block-Lot of each vacant lot cleaned by DSNY forces during the report month.  Also gives the date cleaned.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Department of Sanitation (DSNY)", 
+    "category": "Environment", 
+    "description": "Gives address, Borough-Block-Lot of each vacant lot cleaned by DSNY forces during the report month.  Also gives the date cleaned.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/ig2p-d4qt.json"
+    }
+  }, 
+  "name": "Bronx Vacant Lots Cleaned", 
+  "schema": {
+    "columns": [
+      {
+        "name": "boro", 
+        "type": "text"
+      }, 
+      {
+        "name": "district", 
+        "type": "real"
+      }, 
+      {
+        "name": "ccu", 
+        "type": "text"
+      }, 
+      {
+        "name": "block", 
+        "type": "real"
+      }, 
+      {
+        "name": "lot", 
+        "type": "real"
+      }, 
+      {
+        "name": "ownertype", 
+        "type": "text"
+      }, 
+      {
+        "name": "status_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "address", 
+        "type": "text"
+      }, 
+      {
+        "name": "location", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "bronx_vacant_lots_cleaned"
+}

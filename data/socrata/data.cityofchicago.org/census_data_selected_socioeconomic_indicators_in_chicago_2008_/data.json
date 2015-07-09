@@ -1,0 +1,60 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/census_data_selected_socioeconomic_indicators_in_chicago_2008_/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/kn9c-c2s2/rows.csv"
+  }, 
+  "description": "This dataset contains a selection of six socioeconomic indicators of public health significance and a \u201chardship index,\u201d by Chicago community area, for the years 2008 \u2013 2012. The indicators are the percent of occupied housing units with more than one person per room (i.e., crowded housing); the percent of households living below the federal poverty level; the percent of persons in the labor force over the age of 16 years that are unemployed; the percent of persons over the age of 25 years without a high school diploma; the percent of the population under 18 or over 64 years of age (i.e., dependency); and per capita income. Indicators for Chicago as a whole are provided in the final row of the table.  See the full dataset description for more information at: https://data.cityofchicago.org/api/views/fwb8-6aw5/files/A5KBlegGR2nWI1jgP6pjJl32CTPwPbkl9KU3FxlZk-A?download=true&filename=P:\\EPI\\OEPHI\\MATERIALS\\REFERENCES\\ECONOMIC_INDICATORS\\Dataset_Description_socioeconomic_indicators_2012_FOR_PORTAL_ONLY.pdf", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "U.S. Census Bureau", 
+    "category": "Health & Human Services", 
+    "description": "This dataset contains a selection of six socioeconomic indicators of public health significance and a \u201chardship index,\u201d by Chicago community area, for the years 2008 \u2013 2012. The indicators are the percent of occupied housing units with more than one person per room (i.e., crowded housing); the percent of households living below the federal poverty level; the percent of persons in the labor force over the age of 16 years that are unemployed; the percent of persons over the age of 25 years without a high school diploma; the percent of the population under 18 or over 64 years of age (i.e., dependency); and per capita income. Indicators for Chicago as a whole are provided in the final row of the table.  See the full dataset description for more information at: https://data.cityofchicago.org/api/views/fwb8-6aw5/files/A5KBlegGR2nWI1jgP6pjJl32CTPwPbkl9KU3FxlZk-A?download=true&filename=P:\\EPI\\OEPHI\\MATERIALS\\REFERENCES\\ECONOMIC_INDICATORS\\Dataset_Description_socioeconomic_indicators_2012_FOR_PORTAL_ONLY.pdf", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/kn9c-c2s2.json"
+    }
+  }, 
+  "name": "Census Data - Selected socioeconomic indicators in Chicago, 2008 \u2013 2012", 
+  "schema": {
+    "columns": [
+      {
+        "name": "ca", 
+        "type": "real"
+      }, 
+      {
+        "name": "community_area_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "percent_of_housing_crowded", 
+        "type": "real"
+      }, 
+      {
+        "name": "percent_households_below_poverty", 
+        "type": "real"
+      }, 
+      {
+        "name": "percent_aged_16_unemployed", 
+        "type": "real"
+      }, 
+      {
+        "name": "percent_aged_25_without_high_school_diploma", 
+        "type": "real"
+      }, 
+      {
+        "name": "percent_aged_under_18_or_over_64", 
+        "type": "real"
+      }, 
+      {
+        "name": "per_capita_income_", 
+        "type": "real"
+      }, 
+      {
+        "name": "hardship_index", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "tableName": "census_data_selected_socioeconomic_indicators_in_chicago_2008_"
+}

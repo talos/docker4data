@@ -1,0 +1,60 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/aggregate_public_assistance_income_2010_for_households/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/urv2-heev/rows.csv"
+  }, 
+  "description": "Data per census tract of the aggregate public assistance income for those who use public assistance. This is not per person, this is the combined total public assistance expenditure per census tract.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "http://factfinder2.census.gov/", 
+    "category": "Population", 
+    "description": "Data per census tract of the aggregate public assistance income for those who use public assistance. This is not per person, this is the combined total public assistance expenditure per census tract.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/urv2-heev.json"
+    }
+  }, 
+  "name": "AGGREGATE PUBLIC ASSISTANCE INCOME 2010 FOR HOUSEHOLDS", 
+  "schema": {
+    "columns": [
+      {
+        "name": "puma", 
+        "type": "real"
+      }, 
+      {
+        "name": "neighborhood", 
+        "type": "text"
+      }, 
+      {
+        "name": "ntacode", 
+        "type": "text"
+      }, 
+      {
+        "name": "sensus_tract", 
+        "type": "real"
+      }, 
+      {
+        "name": "population_estimate", 
+        "type": "real"
+      }, 
+      {
+        "name": "point_x", 
+        "type": "text"
+      }, 
+      {
+        "name": "point_y", 
+        "type": "real"
+      }, 
+      {
+        "name": "estimate_aggregate_public_assistance_income_in_the_past_12_months_in_2010_inflation_adjusted_dollars_for_households", 
+        "type": "real"
+      }, 
+      {
+        "name": "margin_of_error_aggregate_public_assistance_income_in_the_past_12_months_in_2010_inflation_adjusted_dollars_for_households", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "tableName": "aggregate_public_assistance_income_2010_for_households"
+}

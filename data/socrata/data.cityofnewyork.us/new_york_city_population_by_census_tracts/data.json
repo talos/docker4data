@@ -1,0 +1,48 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/new_york_city_population_by_census_tracts/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/37cg-gxjd/rows.csv"
+  }, 
+  "description": "Population Numbers in New York City by Census Tracts", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Department of City Planning (DCP)", 
+    "category": "City Government", 
+    "description": "Population Numbers in New York City by Census Tracts", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/37cg-gxjd.json"
+    }
+  }, 
+  "name": "New York City Population By Census Tracts", 
+  "schema": {
+    "columns": [
+      {
+        "name": "borough", 
+        "type": "text"
+      }, 
+      {
+        "name": "year", 
+        "type": "text"
+      }, 
+      {
+        "name": "fips_county_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "dcp_borough_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "census_tract", 
+        "type": "text"
+      }, 
+      {
+        "name": "population", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "tableName": "new_york_city_population_by_census_tracts"
+}

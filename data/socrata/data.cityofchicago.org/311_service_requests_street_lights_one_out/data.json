@@ -1,0 +1,84 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/311_service_requests_street_lights_one_out/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/3aav-uy2v/rows.csv"
+  }, 
+  "description": "This dataset contains all open 311 reports of one or two lights out on metal poles on a residential or arterial street and all completed requests since January 1, 2011. Whenever CDOT receives a report of a street light outage, the electrician assigned to make the repair looks at all the lights in a group (circuit) to make sure that they are working properly.  If two requests regarding the same group are made within 30 calendar days of each other, the newest CSR is automatically given the status of \u201cDuplicate (Open).\u201d   Since the electrician will be looking at all the lights in a group to verify that they are all working the \u201cDuplicate (Open)\u201d address will also be observed and repaired.  Once the street lights are repaired, the CSR status will read \u201cCompleted\u201d for the original request and \u201cDuplicate (Closed)\u201d for any duplicate requests. Data is updated daily.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "City of Chicago", 
+    "category": "Service Requests", 
+    "description": "This dataset contains all open 311 reports of one or two lights out on metal poles on a residential or arterial street and all completed requests since January 1, 2011. Whenever CDOT receives a report of a street light outage, the electrician assigned to make the repair looks at all the lights in a group (circuit) to make sure that they are working properly.  If two requests regarding the same group are made within 30 calendar days of each other, the newest CSR is automatically given the status of \u201cDuplicate (Open).\u201d   Since the electrician will be looking at all the lights in a group to verify that they are all working the \u201cDuplicate (Open)\u201d address will also be observed and repaired.  Once the street lights are repaired, the CSR status will read \u201cCompleted\u201d for the original request and \u201cDuplicate (Closed)\u201d for any duplicate requests. Data is updated daily.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/3aav-uy2v.json"
+    }
+  }, 
+  "name": "311 Service Requests - Street Lights - One Out", 
+  "schema": {
+    "columns": [
+      {
+        "name": "creation_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "status", 
+        "type": "text"
+      }, 
+      {
+        "name": "completion_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "service_request_number", 
+        "type": "text"
+      }, 
+      {
+        "name": "type_of_service_request", 
+        "type": "text"
+      }, 
+      {
+        "name": "street_address", 
+        "type": "text"
+      }, 
+      {
+        "name": "zip_code", 
+        "type": "real"
+      }, 
+      {
+        "name": "x_coordinate", 
+        "type": "real"
+      }, 
+      {
+        "name": "y_coordinate", 
+        "type": "real"
+      }, 
+      {
+        "name": "ward", 
+        "type": "real"
+      }, 
+      {
+        "name": "police_district", 
+        "type": "real"
+      }, 
+      {
+        "name": "community_area", 
+        "type": "real"
+      }, 
+      {
+        "name": "latitude", 
+        "type": "real"
+      }, 
+      {
+        "name": "longitude", 
+        "type": "real"
+      }, 
+      {
+        "name": "location", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "311_service_requests_street_lights_one_out"
+}

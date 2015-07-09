@@ -1,0 +1,44 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/foia_request_log_innovation_and_technology/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/4nng-j9hd/rows.csv"
+  }, 
+  "description": "FOIA requests received by Innovation and Technology as of May 1, 2010", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "City of Chicago", 
+    "category": "FOIA", 
+    "description": "FOIA requests received by Innovation and Technology as of May 1, 2010", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/4nng-j9hd.json"
+    }
+  }, 
+  "name": "FOIA Request Log - Innovation and Technology", 
+  "schema": {
+    "columns": [
+      {
+        "name": "requestor_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "organization", 
+        "type": "text"
+      }, 
+      {
+        "name": "description_of_request", 
+        "type": "text"
+      }, 
+      {
+        "name": "date_received", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "due_date", 
+        "type": "timestamp"
+      }
+    ]
+  }, 
+  "tableName": "foia_request_log_innovation_and_technology"
+}

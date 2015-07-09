@@ -1,0 +1,56 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/bronx_hexagon_population_acs2011/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/cfgj-w8ix/rows.csv"
+  }, 
+  "description": "Population per hexagon, using 5-year American Community Survey data from 2011. Since each hexagon is equivalent in area, this also serves as a population density map. The data was received as population per census tract. Then a ratio was created: Tract Population/Tract Area = Hexagon Population/Hexagon Area.  This was rearranged so that: Hexagon population = HexArea(TractPop/TractArea).", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "American Community Survey", 
+    "category": "Population", 
+    "description": "Population per hexagon, using 5-year American Community Survey data from 2011. Since each hexagon is equivalent in area, this also serves as a population density map. The data was received as population per census tract. Then a ratio was created: Tract Population/Tract Area = Hexagon Population/Hexagon Area.  This was rearranged so that: Hexagon population = HexArea(TractPop/TractArea).", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/cfgj-w8ix.json"
+    }
+  }, 
+  "name": "Bronx Hexagon Population ACS2011", 
+  "schema": {
+    "columns": [
+      {
+        "name": "id", 
+        "type": "real"
+      }, 
+      {
+        "name": "input_fid", 
+        "type": "real"
+      }, 
+      {
+        "name": "hexagonid_1", 
+        "type": "real"
+      }, 
+      {
+        "name": "hexagon_population", 
+        "type": "real"
+      }, 
+      {
+        "name": "x_coord", 
+        "type": "text"
+      }, 
+      {
+        "name": "y_coord", 
+        "type": "real"
+      }, 
+      {
+        "name": "shape_area", 
+        "type": "real"
+      }, 
+      {
+        "name": "hexagonid_2", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "tableName": "bronx_hexagon_population_acs2011"
+}

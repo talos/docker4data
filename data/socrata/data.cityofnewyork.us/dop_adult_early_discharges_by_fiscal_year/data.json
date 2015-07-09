@@ -1,0 +1,40 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/dop_adult_early_discharges_by_fiscal_year/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/4e8h-wu86/rows.csv"
+  }, 
+  "description": "Adult supervision cases that have had an early discharge request filed with a local court during the reporting period. Categorized by: new early discharge (ED) requests submitted; ED requests approved; ED requests disapproved. Based on carryover of pending early discharge requests from month-to-month, the number of approvals plus disapprovals may not equal the number of requests per year.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Department of Probation (DOP)", 
+    "category": "City Government", 
+    "description": "Adult supervision cases that have had an early discharge request filed with a local court during the reporting period. Categorized by: new early discharge (ED) requests submitted; ED requests approved; ED requests disapproved. Based on carryover of pending early discharge requests from month-to-month, the number of approvals plus disapprovals may not equal the number of requests per year.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/4e8h-wu86.json"
+    }
+  }, 
+  "name": "DOP Adult Early Discharges by Fiscal Year", 
+  "schema": {
+    "columns": [
+      {
+        "name": "borough", 
+        "type": "text"
+      }, 
+      {
+        "name": "fiscal_year_ending_in_june_", 
+        "type": "real"
+      }, 
+      {
+        "name": "early_discharge_request_status", 
+        "type": "text"
+      }, 
+      {
+        "name": "early_discharge_count", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "tableName": "dop_adult_early_discharges_by_fiscal_year"
+}

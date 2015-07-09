@@ -1,0 +1,36 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/dop_juvenile_cases_snapshot_by_fiscal_year/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/4epu-t832/rows.csv"
+  }, 
+  "description": "The number of active juvenile probation supervision cases on the last day of the reporting period (June 30)", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Department of Probation (DOP)", 
+    "category": "City Government", 
+    "description": "The number of active juvenile probation supervision cases on the last day of the reporting period (June 30)", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/4epu-t832.json"
+    }
+  }, 
+  "name": "DOP Juvenile Cases Snapshot by Fiscal Year", 
+  "schema": {
+    "columns": [
+      {
+        "name": "borough", 
+        "type": "text"
+      }, 
+      {
+        "name": "fiscal_year_ending_in_june_", 
+        "type": "real"
+      }, 
+      {
+        "name": "supervision_caseload_count", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "tableName": "dop_juvenile_cases_snapshot_by_fiscal_year"
+}

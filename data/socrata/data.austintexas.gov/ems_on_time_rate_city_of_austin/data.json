@@ -1,0 +1,39 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ems_on_time_rate_city_of_austin/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/e2k6-2zqs/rows.csv"
+  }, 
+  "description": "This indicator measures percentage of incidents for which the City of Austin meets response time goals", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "category": "Public Safety", 
+    "description": "This indicator measures percentage of incidents for which the City of Austin meets response time goals", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/e2k6-2zqs.json"
+    }
+  }, 
+  "name": "EMS   On- Time Rate  City Of Austin", 
+  "schema": {
+    "columns": [
+      {
+        "name": "month_year", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "austin_incidents", 
+        "type": "real"
+      }, 
+      {
+        "name": "austin_on_time_compliance", 
+        "type": "text"
+      }, 
+      {
+        "name": "target_on_time_compliance", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "ems_on_time_rate_city_of_austin"
+}

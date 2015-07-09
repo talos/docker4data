@@ -1,0 +1,72 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/net_deficiencies_dev_version_/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/73wi-y5aa/rows.csv"
+  }, 
+  "description": "This is a snapshot effective 6/12/2015 of Austin Code's NET Project complaint case deficiencies. It is currently in a development state and is subject to change.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Austin Code Department", 
+    "category": "Neighborhood", 
+    "description": "This is a snapshot effective 6/12/2015 of Austin Code's NET Project complaint case deficiencies. It is currently in a development state and is subject to change.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/73wi-y5aa.json"
+    }
+  }, 
+  "name": "NET Deficiencies (Dev Version)", 
+  "schema": {
+    "columns": [
+      {
+        "name": "folder_id", 
+        "type": "real"
+      }, 
+      {
+        "name": "address", 
+        "type": "text"
+      }, 
+      {
+        "name": "case_number", 
+        "type": "text"
+      }, 
+      {
+        "name": "date_opened", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "property_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "status", 
+        "type": "text"
+      }, 
+      {
+        "name": "primary_reported_violation", 
+        "type": "text"
+      }, 
+      {
+        "name": "propx", 
+        "type": "real"
+      }, 
+      {
+        "name": "propy", 
+        "type": "real"
+      }, 
+      {
+        "name": "deficiency", 
+        "type": "text"
+      }, 
+      {
+        "name": "latitude", 
+        "type": "real"
+      }, 
+      {
+        "name": "longitude", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "tableName": "net_deficiencies_dev_version_"
+}

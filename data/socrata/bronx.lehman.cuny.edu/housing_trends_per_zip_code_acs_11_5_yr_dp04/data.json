@@ -1,0 +1,2292 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/housing_trends_per_zip_code_acs_11_5_yr_dp04/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/btbs-6w65/rows.csv"
+  }, 
+  "description": "a detailed dataset covering multiple features in the housing environment, created by the US Census Bureau for years covering 2007-2011.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "US Census Bureau", 
+    "category": "My Neighborhood", 
+    "description": "a detailed dataset covering multiple features in the housing environment, created by the US Census Bureau for years covering 2007-2011.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/btbs-6w65.json"
+    }
+  }, 
+  "name": "Housing Trends per Zip Code - ACS 11 5 YR DP04", 
+  "schema": {
+    "columns": [
+      {
+        "name": "zip_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "point_x", 
+        "type": "text"
+      }, 
+      {
+        "name": "point_y", 
+        "type": "real"
+      }, 
+      {
+        "name": "_4_estimate_housing_occupancy_total_housing_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_5_margin_of_error_housing_occupancy_total_housing_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_6_percent_housing_occupancy_total_housing_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_7_percent_margin_of_error_housing_occupancy_total_housing_units", 
+        "type": "text"
+      }, 
+      {
+        "name": "_8_estimate_housing_occupancy_occupied_housing_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_9_margin_of_error_housing_occupancy_occupied_housing_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_10_percent_housing_occupancy_occupied_housing_units", 
+        "type": "text"
+      }, 
+      {
+        "name": "_11_percent_margin_of_error_housing_occupancy_occupied_housing_units", 
+        "type": "text"
+      }, 
+      {
+        "name": "_12_estimate_housing_occupancy_vacant_housing_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_13_margin_of_error_housing_occupancy_vacant_housing_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_14_percent_housing_occupancy_vacant_housing_units", 
+        "type": "text"
+      }, 
+      {
+        "name": "_15_percent_margin_of_error_housing_occupancy_vacant_housing_units", 
+        "type": "text"
+      }, 
+      {
+        "name": "_16_estimate_housing_occupancy_homeowner_vacancy_rate", 
+        "type": "real"
+      }, 
+      {
+        "name": "_17_margin_of_error_housing_occupancy_homeowner_vacancy_rate", 
+        "type": "real"
+      }, 
+      {
+        "name": "_18_percent_housing_occupancy_homeowner_vacancy_rate", 
+        "type": "text"
+      }, 
+      {
+        "name": "_19_percent_margin_of_error_housing_occupancy_homeowner_vacancy_rate", 
+        "type": "text"
+      }, 
+      {
+        "name": "_20_estimate_housing_occupancy_rental_vacancy_rate", 
+        "type": "real"
+      }, 
+      {
+        "name": "_21_margin_of_error_housing_occupancy_rental_vacancy_rate", 
+        "type": "real"
+      }, 
+      {
+        "name": "_22_percent_housing_occupancy_rental_vacancy_rate", 
+        "type": "text"
+      }, 
+      {
+        "name": "_23_percent_margin_of_error_housing_occupancy_rental_vacancy_rate", 
+        "type": "text"
+      }, 
+      {
+        "name": "_24_estimate_units_in_structure_total_housing_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_25_margin_of_error_units_in_structure_total_housing_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_26_percent_units_in_structure_total_housing_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_27_percent_margin_of_error_units_in_structure_total_housing_units", 
+        "type": "text"
+      }, 
+      {
+        "name": "_28_estimate_units_in_structure_1_unit_detached", 
+        "type": "real"
+      }, 
+      {
+        "name": "_29_margin_of_error_units_in_structure_1_unit_detached", 
+        "type": "real"
+      }, 
+      {
+        "name": "_30_percent_units_in_structure_1_unit_detached", 
+        "type": "text"
+      }, 
+      {
+        "name": "_31_percent_margin_of_error_units_in_structure_1_unit_detached", 
+        "type": "text"
+      }, 
+      {
+        "name": "_32_estimate_units_in_structure_1_unit_attached", 
+        "type": "real"
+      }, 
+      {
+        "name": "_33_margin_of_error_units_in_structure_1_unit_attached", 
+        "type": "real"
+      }, 
+      {
+        "name": "_34_percent_units_in_structure_1_unit_attached", 
+        "type": "text"
+      }, 
+      {
+        "name": "_35_percent_margin_of_error_units_in_structure_1_unit_attached", 
+        "type": "text"
+      }, 
+      {
+        "name": "_36_estimate_units_in_structure_2_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_37_margin_of_error_units_in_structure_2_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_38_percent_units_in_structure_2_units", 
+        "type": "text"
+      }, 
+      {
+        "name": "_39_percent_margin_of_error_units_in_structure_2_units", 
+        "type": "text"
+      }, 
+      {
+        "name": "_40_estimate_units_in_structure_3_or_4_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_41_margin_of_error_units_in_structure_3_or_4_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_42_percent_units_in_structure_3_or_4_units", 
+        "type": "text"
+      }, 
+      {
+        "name": "_43_percent_margin_of_error_units_in_structure_3_or_4_units", 
+        "type": "text"
+      }, 
+      {
+        "name": "_44_estimate_units_in_structure_5_to_9_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_45_margin_of_error_units_in_structure_5_to_9_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_46_percent_units_in_structure_5_to_9_units", 
+        "type": "text"
+      }, 
+      {
+        "name": "_47_percent_margin_of_error_units_in_structure_5_to_9_units", 
+        "type": "text"
+      }, 
+      {
+        "name": "_48_estimate_units_in_structure_10_to_19_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_49_margin_of_error_units_in_structure_10_to_19_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_50_percent_units_in_structure_10_to_19_units", 
+        "type": "text"
+      }, 
+      {
+        "name": "_51_percent_margin_of_error_units_in_structure_10_to_19_units", 
+        "type": "text"
+      }, 
+      {
+        "name": "_52_estimate_units_in_structure_20_or_more_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_53_margin_of_error_units_in_structure_20_or_more_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_54_percent_units_in_structure_20_or_more_units", 
+        "type": "text"
+      }, 
+      {
+        "name": "_55_percent_margin_of_error_units_in_structure_20_or_more_units", 
+        "type": "text"
+      }, 
+      {
+        "name": "_56_estimate_units_in_structure_mobile_home", 
+        "type": "real"
+      }, 
+      {
+        "name": "_57_margin_of_error_units_in_structure_mobile_home", 
+        "type": "real"
+      }, 
+      {
+        "name": "_58_percent_units_in_structure_mobile_home", 
+        "type": "text"
+      }, 
+      {
+        "name": "_59_percent_margin_of_error_units_in_structure_mobile_home", 
+        "type": "text"
+      }, 
+      {
+        "name": "_60_estimate_units_in_structure_boat_rv_van_etc", 
+        "type": "real"
+      }, 
+      {
+        "name": "_61_margin_of_error_units_in_structure_boat_rv_van_etc", 
+        "type": "real"
+      }, 
+      {
+        "name": "_62_percent_units_in_structure_boat_rv_van_etc", 
+        "type": "text"
+      }, 
+      {
+        "name": "_63_percent_margin_of_error_units_in_structure_boat_rv_van_etc", 
+        "type": "text"
+      }, 
+      {
+        "name": "_64_estimate_year_structure_built_total_housing_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_65_margin_of_error_year_structure_built_total_housing_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_66_percent_year_structure_built_total_housing_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_67_percent_margin_of_error_year_structure_built_total_housing_units", 
+        "type": "text"
+      }, 
+      {
+        "name": "_68_estimate_year_structure_built_built_2005_or_later", 
+        "type": "real"
+      }, 
+      {
+        "name": "_69_margin_of_error_year_structure_built_built_2005_or_later", 
+        "type": "real"
+      }, 
+      {
+        "name": "_70_percent_year_structure_built_built_2005_or_later", 
+        "type": "text"
+      }, 
+      {
+        "name": "_71_percent_margin_of_error_year_structure_built_built_2005_or_later", 
+        "type": "text"
+      }, 
+      {
+        "name": "_72_estimate_year_structure_built_built_2000_to_2004", 
+        "type": "real"
+      }, 
+      {
+        "name": "_73_margin_of_error_year_structure_built_built_2000_to_2004", 
+        "type": "real"
+      }, 
+      {
+        "name": "_74_percent_year_structure_built_built_2000_to_2004", 
+        "type": "text"
+      }, 
+      {
+        "name": "_75_percent_margin_of_error_year_structure_built_built_2000_to_2004", 
+        "type": "text"
+      }, 
+      {
+        "name": "_76_estimate_year_structure_built_built_1990_to_1999", 
+        "type": "real"
+      }, 
+      {
+        "name": "_77_margin_of_error_year_structure_built_built_1990_to_1999", 
+        "type": "real"
+      }, 
+      {
+        "name": "_78_percent_year_structure_built_built_1990_to_1999", 
+        "type": "text"
+      }, 
+      {
+        "name": "_79_percent_margin_of_error_year_structure_built_built_1990_to_1999", 
+        "type": "text"
+      }, 
+      {
+        "name": "_80_estimate_year_structure_built_built_1980_to_1989", 
+        "type": "real"
+      }, 
+      {
+        "name": "_81_margin_of_error_year_structure_built_built_1980_to_1989", 
+        "type": "real"
+      }, 
+      {
+        "name": "_82_percent_year_structure_built_built_1980_to_1989", 
+        "type": "text"
+      }, 
+      {
+        "name": "_83_percent_margin_of_error_year_structure_built_built_1980_to_1989", 
+        "type": "text"
+      }, 
+      {
+        "name": "_84_estimate_year_structure_built_built_1970_to_1979", 
+        "type": "real"
+      }, 
+      {
+        "name": "_85_margin_of_error_year_structure_built_built_1970_to_1979", 
+        "type": "real"
+      }, 
+      {
+        "name": "_86_percent_year_structure_built_built_1970_to_1979", 
+        "type": "text"
+      }, 
+      {
+        "name": "_87_percent_margin_of_error_year_structure_built_built_1970_to_1979", 
+        "type": "text"
+      }, 
+      {
+        "name": "_88_estimate_year_structure_built_built_1960_to_1969", 
+        "type": "real"
+      }, 
+      {
+        "name": "_89_margin_of_error_year_structure_built_built_1960_to_1969", 
+        "type": "real"
+      }, 
+      {
+        "name": "_90_percent_year_structure_built_built_1960_to_1969", 
+        "type": "text"
+      }, 
+      {
+        "name": "_91_percent_margin_of_error_year_structure_built_built_1960_to_1969", 
+        "type": "text"
+      }, 
+      {
+        "name": "_92_estimate_year_structure_built_built_1950_to_1959", 
+        "type": "real"
+      }, 
+      {
+        "name": "_93_margin_of_error_year_structure_built_built_1950_to_1959", 
+        "type": "real"
+      }, 
+      {
+        "name": "_94_percent_year_structure_built_built_1950_to_1959", 
+        "type": "text"
+      }, 
+      {
+        "name": "_95_percent_margin_of_error_year_structure_built_built_1950_to_1959", 
+        "type": "text"
+      }, 
+      {
+        "name": "_96_estimate_year_structure_built_built_1940_to_1949", 
+        "type": "real"
+      }, 
+      {
+        "name": "_97_margin_of_error_year_structure_built_built_1940_to_1949", 
+        "type": "real"
+      }, 
+      {
+        "name": "_98_percent_year_structure_built_built_1940_to_1949", 
+        "type": "text"
+      }, 
+      {
+        "name": "_99_percent_margin_of_error_year_structure_built_built_1940_to_1949", 
+        "type": "text"
+      }, 
+      {
+        "name": "_100_estimate_year_structure_built_built_1939_or_earlier", 
+        "type": "real"
+      }, 
+      {
+        "name": "_101_margin_of_error_year_structure_built_built_1939_or_earlier", 
+        "type": "real"
+      }, 
+      {
+        "name": "_102_percent_year_structure_built_built_1939_or_earlier", 
+        "type": "text"
+      }, 
+      {
+        "name": "_103_percent_margin_of_error_year_structure_built_built_1939_or_earlier", 
+        "type": "text"
+      }, 
+      {
+        "name": "_104_estimate_rooms_total_housing_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_105_margin_of_error_rooms_total_housing_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_106_percent_rooms_total_housing_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_107_percent_margin_of_error_rooms_total_housing_units", 
+        "type": "text"
+      }, 
+      {
+        "name": "_108_estimate_rooms_1_room", 
+        "type": "real"
+      }, 
+      {
+        "name": "_109_margin_of_error_rooms_1_room", 
+        "type": "real"
+      }, 
+      {
+        "name": "_110_percent_rooms_1_room", 
+        "type": "text"
+      }, 
+      {
+        "name": "_111_percent_margin_of_error_rooms_1_room", 
+        "type": "text"
+      }, 
+      {
+        "name": "_112_estimate_rooms_2_rooms", 
+        "type": "real"
+      }, 
+      {
+        "name": "_113_margin_of_error_rooms_2_rooms", 
+        "type": "real"
+      }, 
+      {
+        "name": "_114_percent_rooms_2_rooms", 
+        "type": "text"
+      }, 
+      {
+        "name": "_115_percent_margin_of_error_rooms_2_rooms", 
+        "type": "text"
+      }, 
+      {
+        "name": "_116_estimate_rooms_3_rooms", 
+        "type": "real"
+      }, 
+      {
+        "name": "_117_margin_of_error_rooms_3_rooms", 
+        "type": "real"
+      }, 
+      {
+        "name": "_118_percent_rooms_3_rooms", 
+        "type": "text"
+      }, 
+      {
+        "name": "_119_percent_margin_of_error_rooms_3_rooms", 
+        "type": "text"
+      }, 
+      {
+        "name": "_120_estimate_rooms_4_rooms", 
+        "type": "real"
+      }, 
+      {
+        "name": "_121_margin_of_error_rooms_4_rooms", 
+        "type": "real"
+      }, 
+      {
+        "name": "_122_percent_rooms_4_rooms", 
+        "type": "text"
+      }, 
+      {
+        "name": "_123_percent_margin_of_error_rooms_4_rooms", 
+        "type": "text"
+      }, 
+      {
+        "name": "_124_estimate_rooms_5_rooms", 
+        "type": "real"
+      }, 
+      {
+        "name": "_125_margin_of_error_rooms_5_rooms", 
+        "type": "real"
+      }, 
+      {
+        "name": "_126_percent_rooms_5_rooms", 
+        "type": "text"
+      }, 
+      {
+        "name": "_127_percent_margin_of_error_rooms_5_rooms", 
+        "type": "text"
+      }, 
+      {
+        "name": "_128_estimate_rooms_6_rooms", 
+        "type": "real"
+      }, 
+      {
+        "name": "_129_margin_of_error_rooms_6_rooms", 
+        "type": "real"
+      }, 
+      {
+        "name": "_130_percent_rooms_6_rooms", 
+        "type": "text"
+      }, 
+      {
+        "name": "_131_percent_margin_of_error_rooms_6_rooms", 
+        "type": "text"
+      }, 
+      {
+        "name": "_132_estimate_rooms_7_rooms", 
+        "type": "real"
+      }, 
+      {
+        "name": "_133_margin_of_error_rooms_7_rooms", 
+        "type": "real"
+      }, 
+      {
+        "name": "_134_percent_rooms_7_rooms", 
+        "type": "text"
+      }, 
+      {
+        "name": "_135_percent_margin_of_error_rooms_7_rooms", 
+        "type": "text"
+      }, 
+      {
+        "name": "_136_estimate_rooms_8_rooms", 
+        "type": "real"
+      }, 
+      {
+        "name": "_137_margin_of_error_rooms_8_rooms", 
+        "type": "real"
+      }, 
+      {
+        "name": "_138_percent_rooms_8_rooms", 
+        "type": "text"
+      }, 
+      {
+        "name": "_139_percent_margin_of_error_rooms_8_rooms", 
+        "type": "text"
+      }, 
+      {
+        "name": "_140_estimate_rooms_9_rooms_or_more", 
+        "type": "real"
+      }, 
+      {
+        "name": "_141_margin_of_error_rooms_9_rooms_or_more", 
+        "type": "real"
+      }, 
+      {
+        "name": "_142_percent_rooms_9_rooms_or_more", 
+        "type": "text"
+      }, 
+      {
+        "name": "_143_percent_margin_of_error_rooms_9_rooms_or_more", 
+        "type": "text"
+      }, 
+      {
+        "name": "_144_estimate_rooms_median_rooms", 
+        "type": "real"
+      }, 
+      {
+        "name": "_145_margin_of_error_rooms_median_rooms", 
+        "type": "real"
+      }, 
+      {
+        "name": "_146_percent_rooms_median_rooms", 
+        "type": "text"
+      }, 
+      {
+        "name": "_147_percent_margin_of_error_rooms_median_rooms", 
+        "type": "text"
+      }, 
+      {
+        "name": "_148_estimate_bedrooms_total_housing_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_149_margin_of_error_bedrooms_total_housing_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_150_percent_bedrooms_total_housing_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_151_percent_margin_of_error_bedrooms_total_housing_units", 
+        "type": "text"
+      }, 
+      {
+        "name": "_152_estimate_bedrooms_no_bedroom", 
+        "type": "real"
+      }, 
+      {
+        "name": "_153_margin_of_error_bedrooms_no_bedroom", 
+        "type": "real"
+      }, 
+      {
+        "name": "_154_percent_bedrooms_no_bedroom", 
+        "type": "text"
+      }, 
+      {
+        "name": "_155_percent_margin_of_error_bedrooms_no_bedroom", 
+        "type": "text"
+      }, 
+      {
+        "name": "_156_estimate_bedrooms_1_bedroom", 
+        "type": "real"
+      }, 
+      {
+        "name": "_157_margin_of_error_bedrooms_1_bedroom", 
+        "type": "real"
+      }, 
+      {
+        "name": "_158_percent_bedrooms_1_bedroom", 
+        "type": "text"
+      }, 
+      {
+        "name": "_159_percent_margin_of_error_bedrooms_1_bedroom", 
+        "type": "text"
+      }, 
+      {
+        "name": "_160_estimate_bedrooms_2_bedrooms", 
+        "type": "real"
+      }, 
+      {
+        "name": "_161_margin_of_error_bedrooms_2_bedrooms", 
+        "type": "real"
+      }, 
+      {
+        "name": "_162_percent_bedrooms_2_bedrooms", 
+        "type": "text"
+      }, 
+      {
+        "name": "_163_percent_margin_of_error_bedrooms_2_bedrooms", 
+        "type": "text"
+      }, 
+      {
+        "name": "_164_estimate_bedrooms_3_bedrooms", 
+        "type": "real"
+      }, 
+      {
+        "name": "_165_margin_of_error_bedrooms_3_bedrooms", 
+        "type": "real"
+      }, 
+      {
+        "name": "_166_percent_bedrooms_3_bedrooms", 
+        "type": "text"
+      }, 
+      {
+        "name": "_167_percent_margin_of_error_bedrooms_3_bedrooms", 
+        "type": "text"
+      }, 
+      {
+        "name": "_168_estimate_bedrooms_4_bedrooms", 
+        "type": "real"
+      }, 
+      {
+        "name": "_169_margin_of_error_bedrooms_4_bedrooms", 
+        "type": "real"
+      }, 
+      {
+        "name": "_170_percent_bedrooms_4_bedrooms", 
+        "type": "text"
+      }, 
+      {
+        "name": "_171_percent_margin_of_error_bedrooms_4_bedrooms", 
+        "type": "text"
+      }, 
+      {
+        "name": "_172_estimate_bedrooms_5_or_more_bedrooms", 
+        "type": "real"
+      }, 
+      {
+        "name": "_173_margin_of_error_bedrooms_5_or_more_bedrooms", 
+        "type": "real"
+      }, 
+      {
+        "name": "_174_percent_bedrooms_5_or_more_bedrooms", 
+        "type": "text"
+      }, 
+      {
+        "name": "_175_percent_margin_of_error_bedrooms_5_or_more_bedrooms", 
+        "type": "text"
+      }, 
+      {
+        "name": "_176_estimate_housing_tenure_occupied_housing_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_177_margin_of_error_housing_tenure_occupied_housing_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_178_percent_housing_tenure_occupied_housing_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_179_percent_margin_of_error_housing_tenure_occupied_housing_units", 
+        "type": "text"
+      }, 
+      {
+        "name": "_180_estimate_housing_tenure_owner_occupied", 
+        "type": "real"
+      }, 
+      {
+        "name": "_181_margin_of_error_housing_tenure_owner_occupied", 
+        "type": "real"
+      }, 
+      {
+        "name": "_182_percent_housing_tenure_owner_occupied", 
+        "type": "text"
+      }, 
+      {
+        "name": "_183_percent_margin_of_error_housing_tenure_owner_occupied", 
+        "type": "text"
+      }, 
+      {
+        "name": "_184_estimate_housing_tenure_renter_occupied", 
+        "type": "real"
+      }, 
+      {
+        "name": "_185_margin_of_error_housing_tenure_renter_occupied", 
+        "type": "real"
+      }, 
+      {
+        "name": "_186_percent_housing_tenure_renter_occupied", 
+        "type": "text"
+      }, 
+      {
+        "name": "_187_percent_margin_of_error_housing_tenure_renter_occupied", 
+        "type": "text"
+      }, 
+      {
+        "name": "_188_estimate_housing_tenure_average_household_size_of_owner_occupied_unit", 
+        "type": "real"
+      }, 
+      {
+        "name": "_189_margin_of_error_housing_tenure_average_household_size_of_owner_occupied_unit", 
+        "type": "real"
+      }, 
+      {
+        "name": "_190_percent_housing_tenure_average_household_size_of_owner_occupied_unit", 
+        "type": "text"
+      }, 
+      {
+        "name": "_191_percent_margin_of_error_housing_tenure_average_household_size_of_owner_occupied_unit", 
+        "type": "text"
+      }, 
+      {
+        "name": "_192_estimate_housing_tenure_average_household_size_of_renter_occupied_unit", 
+        "type": "real"
+      }, 
+      {
+        "name": "_193_margin_of_error_housing_tenure_average_household_size_of_renter_occupied_unit", 
+        "type": "real"
+      }, 
+      {
+        "name": "_194_percent_housing_tenure_average_household_size_of_renter_occupied_unit", 
+        "type": "text"
+      }, 
+      {
+        "name": "_195_percent_margin_of_error_housing_tenure_average_household_size_of_renter_occupied_unit", 
+        "type": "text"
+      }, 
+      {
+        "name": "_196_estimate_year_householder_moved_into_unit_occupied_housing_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_197_margin_of_error_year_householder_moved_into_unit_occupied_housing_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_198_percent_year_householder_moved_into_unit_occupied_housing_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_199_percent_margin_of_error_year_householder_moved_into_unit_occupied_housing_units", 
+        "type": "text"
+      }, 
+      {
+        "name": "_200_estimate_year_householder_moved_into_unit_moved_in_2005_or_later", 
+        "type": "real"
+      }, 
+      {
+        "name": "_201_margin_of_error_year_householder_moved_into_unit_moved_in_2005_or_later", 
+        "type": "real"
+      }, 
+      {
+        "name": "_202_percent_year_householder_moved_into_unit_moved_in_2005_or_later", 
+        "type": "text"
+      }, 
+      {
+        "name": "_203_percent_margin_of_error_year_householder_moved_into_unit_moved_in_2005_or_later", 
+        "type": "text"
+      }, 
+      {
+        "name": "_204_estimate_year_householder_moved_into_unit_moved_in_2000_to_2004", 
+        "type": "real"
+      }, 
+      {
+        "name": "_205_margin_of_error_year_householder_moved_into_unit_moved_in_2000_to_2004", 
+        "type": "real"
+      }, 
+      {
+        "name": "_206_percent_year_householder_moved_into_unit_moved_in_2000_to_2004", 
+        "type": "text"
+      }, 
+      {
+        "name": "_207_percent_margin_of_error_year_householder_moved_into_unit_moved_in_2000_to_2004", 
+        "type": "text"
+      }, 
+      {
+        "name": "_208_estimate_year_householder_moved_into_unit_moved_in_1990_to_1999", 
+        "type": "real"
+      }, 
+      {
+        "name": "_209_margin_of_error_year_householder_moved_into_unit_moved_in_1990_to_1999", 
+        "type": "real"
+      }, 
+      {
+        "name": "_210_percent_year_householder_moved_into_unit_moved_in_1990_to_1999", 
+        "type": "text"
+      }, 
+      {
+        "name": "_211_percent_margin_of_error_year_householder_moved_into_unit_moved_in_1990_to_1999", 
+        "type": "text"
+      }, 
+      {
+        "name": "_212_estimate_year_householder_moved_into_unit_moved_in_1980_to_1989", 
+        "type": "real"
+      }, 
+      {
+        "name": "_213_margin_of_error_year_householder_moved_into_unit_moved_in_1980_to_1989", 
+        "type": "real"
+      }, 
+      {
+        "name": "_214_percent_year_householder_moved_into_unit_moved_in_1980_to_1989", 
+        "type": "text"
+      }, 
+      {
+        "name": "_215_percent_margin_of_error_year_householder_moved_into_unit_moved_in_1980_to_1989", 
+        "type": "text"
+      }, 
+      {
+        "name": "_216_estimate_year_householder_moved_into_unit_moved_in_1970_to_1979", 
+        "type": "real"
+      }, 
+      {
+        "name": "_217_margin_of_error_year_householder_moved_into_unit_moved_in_1970_to_1979", 
+        "type": "real"
+      }, 
+      {
+        "name": "_218_percent_year_householder_moved_into_unit_moved_in_1970_to_1979", 
+        "type": "text"
+      }, 
+      {
+        "name": "_219_percent_margin_of_error_year_householder_moved_into_unit_moved_in_1970_to_1979", 
+        "type": "text"
+      }, 
+      {
+        "name": "_220_estimate_year_householder_moved_into_unit_moved_in_1969_or_earlier", 
+        "type": "real"
+      }, 
+      {
+        "name": "_221_margin_of_error_year_householder_moved_into_unit_moved_in_1969_or_earlier", 
+        "type": "real"
+      }, 
+      {
+        "name": "_222_percent_year_householder_moved_into_unit_moved_in_1969_or_earlier", 
+        "type": "text"
+      }, 
+      {
+        "name": "_223_percent_margin_of_error_year_householder_moved_into_unit_moved_in_1969_or_earlier", 
+        "type": "text"
+      }, 
+      {
+        "name": "_224_estimate_vehicles_available_occupied_housing_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_225_margin_of_error_vehicles_available_occupied_housing_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_226_percent_vehicles_available_occupied_housing_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_227_percent_margin_of_error_vehicles_available_occupied_housing_units", 
+        "type": "text"
+      }, 
+      {
+        "name": "_228_estimate_vehicles_available_no_vehicles_available", 
+        "type": "real"
+      }, 
+      {
+        "name": "_229_margin_of_error_vehicles_available_no_vehicles_available", 
+        "type": "real"
+      }, 
+      {
+        "name": "_230_percent_vehicles_available_no_vehicles_available", 
+        "type": "text"
+      }, 
+      {
+        "name": "_231_percent_margin_of_error_vehicles_available_no_vehicles_available", 
+        "type": "text"
+      }, 
+      {
+        "name": "_232_estimate_vehicles_available_1_vehicle_available", 
+        "type": "real"
+      }, 
+      {
+        "name": "_233_margin_of_error_vehicles_available_1_vehicle_available", 
+        "type": "real"
+      }, 
+      {
+        "name": "_234_percent_vehicles_available_1_vehicle_available", 
+        "type": "text"
+      }, 
+      {
+        "name": "_235_percent_margin_of_error_vehicles_available_1_vehicle_available", 
+        "type": "text"
+      }, 
+      {
+        "name": "_236_estimate_vehicles_available_2_vehicles_available", 
+        "type": "real"
+      }, 
+      {
+        "name": "_237_margin_of_error_vehicles_available_2_vehicles_available", 
+        "type": "real"
+      }, 
+      {
+        "name": "_238_percent_vehicles_available_2_vehicles_available", 
+        "type": "text"
+      }, 
+      {
+        "name": "_239_percent_margin_of_error_vehicles_available_2_vehicles_available", 
+        "type": "text"
+      }, 
+      {
+        "name": "_240_estimate_vehicles_available_3_or_more_vehicles_available", 
+        "type": "real"
+      }, 
+      {
+        "name": "_241_margin_of_error_vehicles_available_3_or_more_vehicles_available", 
+        "type": "real"
+      }, 
+      {
+        "name": "_242_percent_vehicles_available_3_or_more_vehicles_available", 
+        "type": "text"
+      }, 
+      {
+        "name": "_243_percent_margin_of_error_vehicles_available_3_or_more_vehicles_available", 
+        "type": "text"
+      }, 
+      {
+        "name": "_244_estimate_house_heating_fuel_occupied_housing_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_245_margin_of_error_house_heating_fuel_occupied_housing_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_246_percent_house_heating_fuel_occupied_housing_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_247_percent_margin_of_error_house_heating_fuel_occupied_housing_units", 
+        "type": "text"
+      }, 
+      {
+        "name": "_248_estimate_house_heating_fuel_utility_gas", 
+        "type": "real"
+      }, 
+      {
+        "name": "_249_margin_of_error_house_heating_fuel_utility_gas", 
+        "type": "real"
+      }, 
+      {
+        "name": "_250_percent_house_heating_fuel_utility_gas", 
+        "type": "text"
+      }, 
+      {
+        "name": "_251_percent_margin_of_error_house_heating_fuel_utility_gas", 
+        "type": "text"
+      }, 
+      {
+        "name": "_252_estimate_house_heating_fuel_bottled_tank_or_lp_gas", 
+        "type": "real"
+      }, 
+      {
+        "name": "_253_margin_of_error_house_heating_fuel_bottled_tank_or_lp_gas", 
+        "type": "real"
+      }, 
+      {
+        "name": "_254_percent_house_heating_fuel_bottled_tank_or_lp_gas", 
+        "type": "text"
+      }, 
+      {
+        "name": "_255_percent_margin_of_error_house_heating_fuel_bottled_tank_or_lp_gas", 
+        "type": "text"
+      }, 
+      {
+        "name": "_256_estimate_house_heating_fuel_electricity", 
+        "type": "real"
+      }, 
+      {
+        "name": "_257_margin_of_error_house_heating_fuel_electricity", 
+        "type": "real"
+      }, 
+      {
+        "name": "_258_percent_house_heating_fuel_electricity", 
+        "type": "text"
+      }, 
+      {
+        "name": "_259_percent_margin_of_error_house_heating_fuel_electricity", 
+        "type": "text"
+      }, 
+      {
+        "name": "_260_estimate_house_heating_fuel_fuel_oil_kerosene_etc", 
+        "type": "real"
+      }, 
+      {
+        "name": "_261_margin_of_error_house_heating_fuel_fuel_oil_kerosene_etc", 
+        "type": "real"
+      }, 
+      {
+        "name": "_262_percent_house_heating_fuel_fuel_oil_kerosene_etc", 
+        "type": "real"
+      }, 
+      {
+        "name": "_263_percent_margin_of_error_house_heating_fuel_fuel_oil_kerosene_etc", 
+        "type": "text"
+      }, 
+      {
+        "name": "_264_estimate_house_heating_fuel_coal_or_coke", 
+        "type": "text"
+      }, 
+      {
+        "name": "_265_margin_of_error_house_heating_fuel_coal_or_coke", 
+        "type": "real"
+      }, 
+      {
+        "name": "_266_percent_house_heating_fuel_coal_or_coke", 
+        "type": "text"
+      }, 
+      {
+        "name": "_267_percent_margin_of_error_house_heating_fuel_coal_or_coke", 
+        "type": "text"
+      }, 
+      {
+        "name": "_268_estimate_house_heating_fuel_wood", 
+        "type": "real"
+      }, 
+      {
+        "name": "_269_margin_of_error_house_heating_fuel_wood", 
+        "type": "real"
+      }, 
+      {
+        "name": "_270_percent_house_heating_fuel_wood", 
+        "type": "text"
+      }, 
+      {
+        "name": "_271_percent_margin_of_error_house_heating_fuel_wood", 
+        "type": "text"
+      }, 
+      {
+        "name": "_272_estimate_house_heating_fuel_solar_energy", 
+        "type": "real"
+      }, 
+      {
+        "name": "_273_margin_of_error_house_heating_fuel_solar_energy", 
+        "type": "real"
+      }, 
+      {
+        "name": "_274_percent_house_heating_fuel_solar_energy", 
+        "type": "text"
+      }, 
+      {
+        "name": "_275_percent_margin_of_error_house_heating_fuel_solar_energy", 
+        "type": "text"
+      }, 
+      {
+        "name": "_276_estimate_house_heating_fuel_other_fuel", 
+        "type": "real"
+      }, 
+      {
+        "name": "_277_margin_of_error_house_heating_fuel_other_fuel", 
+        "type": "real"
+      }, 
+      {
+        "name": "_278_percent_house_heating_fuel_other_fuel", 
+        "type": "text"
+      }, 
+      {
+        "name": "_279_percent_margin_of_error_house_heating_fuel_other_fuel", 
+        "type": "text"
+      }, 
+      {
+        "name": "_280_estimate_house_heating_fuel_no_fuel_used", 
+        "type": "real"
+      }, 
+      {
+        "name": "_281_margin_of_error_house_heating_fuel_no_fuel_used", 
+        "type": "real"
+      }, 
+      {
+        "name": "_282_percent_house_heating_fuel_no_fuel_used", 
+        "type": "text"
+      }, 
+      {
+        "name": "_283_percent_margin_of_error_house_heating_fuel_no_fuel_used", 
+        "type": "text"
+      }, 
+      {
+        "name": "_284_estimate_selected_characteristics_occupied_housing_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_285_margin_of_error_selected_characteristics_occupied_housing_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_286_percent_selected_characteristics_occupied_housing_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_287_percent_margin_of_error_selected_characteristics_occupied_housing_units", 
+        "type": "text"
+      }, 
+      {
+        "name": "_288_estimate_selected_characteristics_lacking_complete_plumbing_facilities", 
+        "type": "real"
+      }, 
+      {
+        "name": "_289_margin_of_error_selected_characteristics_lacking_complete_plumbing_facilities", 
+        "type": "real"
+      }, 
+      {
+        "name": "_290_percent_selected_characteristics_lacking_complete_plumbing_facilities", 
+        "type": "text"
+      }, 
+      {
+        "name": "_291_percent_margin_of_error_selected_characteristics_lacking_complete_plumbing_facilities", 
+        "type": "text"
+      }, 
+      {
+        "name": "_292_estimate_selected_characteristics_lacking_complete_kitchen_facilities", 
+        "type": "real"
+      }, 
+      {
+        "name": "_293_margin_of_error_selected_characteristics_lacking_complete_kitchen_facilities", 
+        "type": "real"
+      }, 
+      {
+        "name": "_294_percent_selected_characteristics_lacking_complete_kitchen_facilities", 
+        "type": "text"
+      }, 
+      {
+        "name": "_295_percent_margin_of_error_selected_characteristics_lacking_complete_kitchen_facilities", 
+        "type": "text"
+      }, 
+      {
+        "name": "_296_estimate_selected_characteristics_no_telephone_service_available", 
+        "type": "real"
+      }, 
+      {
+        "name": "_297_margin_of_error_selected_characteristics_no_telephone_service_available", 
+        "type": "real"
+      }, 
+      {
+        "name": "_298_percent_selected_characteristics_no_telephone_service_available", 
+        "type": "text"
+      }, 
+      {
+        "name": "_299_percent_margin_of_error_selected_characteristics_no_telephone_service_available", 
+        "type": "text"
+      }, 
+      {
+        "name": "_300_estimate_occupants_per_room_occupied_housing_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_301_margin_of_error_occupants_per_room_occupied_housing_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_302_percent_occupants_per_room_occupied_housing_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_303_percent_margin_of_error_occupants_per_room_occupied_housing_units", 
+        "type": "text"
+      }, 
+      {
+        "name": "_304_estimate_occupants_per_room_1_00_or_less", 
+        "type": "real"
+      }, 
+      {
+        "name": "_305_margin_of_error_occupants_per_room_1_00_or_less", 
+        "type": "real"
+      }, 
+      {
+        "name": "_306_percent_occupants_per_room_1_00_or_less", 
+        "type": "text"
+      }, 
+      {
+        "name": "_307_percent_margin_of_error_occupants_per_room_1_00_or_less", 
+        "type": "text"
+      }, 
+      {
+        "name": "_308_estimate_occupants_per_room_1_01_to_1_50", 
+        "type": "real"
+      }, 
+      {
+        "name": "_309_margin_of_error_occupants_per_room_1_01_to_1_50", 
+        "type": "real"
+      }, 
+      {
+        "name": "_310_percent_occupants_per_room_1_01_to_1_50", 
+        "type": "text"
+      }, 
+      {
+        "name": "_311_percent_margin_of_error_occupants_per_room_1_01_to_1_50", 
+        "type": "text"
+      }, 
+      {
+        "name": "_312_estimate_occupants_per_room_1_51_or_more", 
+        "type": "real"
+      }, 
+      {
+        "name": "_313_margin_of_error_occupants_per_room_1_51_or_more", 
+        "type": "real"
+      }, 
+      {
+        "name": "_314_percent_occupants_per_room_1_51_or_more", 
+        "type": "text"
+      }, 
+      {
+        "name": "_315_percent_margin_of_error_occupants_per_room_1_51_or_more", 
+        "type": "text"
+      }, 
+      {
+        "name": "_316_estimate_value_owner_occupied_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_317_margin_of_error_value_owner_occupied_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_318_percent_value_owner_occupied_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_319_percent_margin_of_error_value_owner_occupied_units", 
+        "type": "text"
+      }, 
+      {
+        "name": "_320_estimate_value_less_than_50_000", 
+        "type": "real"
+      }, 
+      {
+        "name": "_321_margin_of_error_value_less_than_50_000", 
+        "type": "real"
+      }, 
+      {
+        "name": "_322_percent_value_less_than_50_000", 
+        "type": "text"
+      }, 
+      {
+        "name": "_323_percent_margin_of_error_value_less_than_50_000", 
+        "type": "text"
+      }, 
+      {
+        "name": "_324_estimate_value_50_000_to_99_999", 
+        "type": "real"
+      }, 
+      {
+        "name": "_325_margin_of_error_value_50_000_to_99_999", 
+        "type": "real"
+      }, 
+      {
+        "name": "_326_percent_value_50_000_to_99_999", 
+        "type": "text"
+      }, 
+      {
+        "name": "_327_percent_margin_of_error_value_50_000_to_99_999", 
+        "type": "text"
+      }, 
+      {
+        "name": "_328_estimate_value_100_000_to_149_999", 
+        "type": "real"
+      }, 
+      {
+        "name": "_329_margin_of_error_value_100_000_to_149_999", 
+        "type": "real"
+      }, 
+      {
+        "name": "_330_percent_value_100_000_to_149_999", 
+        "type": "text"
+      }, 
+      {
+        "name": "_331_percent_margin_of_error_value_100_000_to_149_999", 
+        "type": "text"
+      }, 
+      {
+        "name": "_332_estimate_value_150_000_to_199_999", 
+        "type": "real"
+      }, 
+      {
+        "name": "_333_margin_of_error_value_150_000_to_199_999", 
+        "type": "real"
+      }, 
+      {
+        "name": "_334_percent_value_150_000_to_199_999", 
+        "type": "text"
+      }, 
+      {
+        "name": "_335_percent_margin_of_error_value_150_000_to_199_999", 
+        "type": "text"
+      }, 
+      {
+        "name": "_336_estimate_value_200_000_to_299_999", 
+        "type": "real"
+      }, 
+      {
+        "name": "_337_margin_of_error_value_200_000_to_299_999", 
+        "type": "real"
+      }, 
+      {
+        "name": "_338_percent_value_200_000_to_299_999", 
+        "type": "text"
+      }, 
+      {
+        "name": "_339_percent_margin_of_error_value_200_000_to_299_999", 
+        "type": "text"
+      }, 
+      {
+        "name": "_340_estimate_value_300_000_to_499_999", 
+        "type": "real"
+      }, 
+      {
+        "name": "_341_margin_of_error_value_300_000_to_499_999", 
+        "type": "real"
+      }, 
+      {
+        "name": "_342_percent_value_300_000_to_499_999", 
+        "type": "text"
+      }, 
+      {
+        "name": "_343_percent_margin_of_error_value_300_000_to_499_999", 
+        "type": "text"
+      }, 
+      {
+        "name": "_344_estimate_value_500_000_to_999_999", 
+        "type": "real"
+      }, 
+      {
+        "name": "_345_margin_of_error_value_500_000_to_999_999", 
+        "type": "real"
+      }, 
+      {
+        "name": "_346_percent_value_500_000_to_999_999", 
+        "type": "text"
+      }, 
+      {
+        "name": "_347_percent_margin_of_error_value_500_000_to_999_999", 
+        "type": "text"
+      }, 
+      {
+        "name": "_348_estimate_value_1_000_000_or_more", 
+        "type": "real"
+      }, 
+      {
+        "name": "_349_margin_of_error_value_1_000_000_or_more", 
+        "type": "real"
+      }, 
+      {
+        "name": "_350_percent_value_1_000_000_or_more", 
+        "type": "text"
+      }, 
+      {
+        "name": "_351_percent_margin_of_error_value_1_000_000_or_more", 
+        "type": "text"
+      }, 
+      {
+        "name": "_352_estimate_value_median_dollars", 
+        "type": "real"
+      }, 
+      {
+        "name": "_353_margin_of_error_value_median_dollars", 
+        "type": "real"
+      }, 
+      {
+        "name": "_354_percent_value_median_dollars", 
+        "type": "text"
+      }, 
+      {
+        "name": "_355_percent_margin_of_error_value_median_dollars", 
+        "type": "text"
+      }, 
+      {
+        "name": "_356_estimate_mortgage_status_owner_occupied_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_357_margin_of_error_mortgage_status_owner_occupied_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_358_percent_mortgage_status_owner_occupied_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "_359_percent_margin_of_error_mortgage_status_owner_occupied_units", 
+        "type": "text"
+      }, 
+      {
+        "name": "_360_estimate_mortgage_status_housing_units_with_a_mortgage", 
+        "type": "real"
+      }, 
+      {
+        "name": "_361_margin_of_error_mortgage_status_housing_units_with_a_mortgage", 
+        "type": "real"
+      }, 
+      {
+        "name": "_362_percent_mortgage_status_housing_units_with_a_mortgage", 
+        "type": "text"
+      }, 
+      {
+        "name": "_363_percent_margin_of_error_mortgage_status_housing_units_with_a_mortgage", 
+        "type": "text"
+      }, 
+      {
+        "name": "_364_estimate_mortgage_status_housing_units_without_a_mortgage", 
+        "type": "real"
+      }, 
+      {
+        "name": "_365_margin_of_error_mortgage_status_housing_units_without_a_mortgage", 
+        "type": "real"
+      }, 
+      {
+        "name": "_366_percent_mortgage_status_housing_units_without_a_mortgage", 
+        "type": "text"
+      }, 
+      {
+        "name": "_367_percent_margin_of_error_mortgage_status_housing_units_without_a_mortgage", 
+        "type": "text"
+      }, 
+      {
+        "name": "_368_estimate_selected_monthly_owner_costs_smoc_housing_units_with_a_mortgage", 
+        "type": "real"
+      }, 
+      {
+        "name": "_369_margin_of_error_selected_monthly_owner_costs_smoc_housing_units_with_a_mortgage", 
+        "type": "real"
+      }, 
+      {
+        "name": "_370_percent_selected_monthly_owner_costs_smoc_housing_units_with_a_mortgage", 
+        "type": "real"
+      }, 
+      {
+        "name": "_371_percent_margin_of_error_selected_monthly_owner_costs_smoc_housing_units_with_a_mortgage", 
+        "type": "text"
+      }, 
+      {
+        "name": "_372_estimate_selected_monthly_owner_costs_smoc_less_than_300", 
+        "type": "real"
+      }, 
+      {
+        "name": "_373_margin_of_error_selected_monthly_owner_costs_smoc_less_than_300", 
+        "type": "real"
+      }, 
+      {
+        "name": "_374_percent_selected_monthly_owner_costs_smoc_less_than_300", 
+        "type": "text"
+      }, 
+      {
+        "name": "_375_percent_margin_of_error_selected_monthly_owner_costs_smoc_less_than_300", 
+        "type": "text"
+      }, 
+      {
+        "name": "_376_estimate_selected_monthly_owner_costs_smoc_300_to_499", 
+        "type": "real"
+      }, 
+      {
+        "name": "_377_margin_of_error_selected_monthly_owner_costs_smoc_300_to_499", 
+        "type": "real"
+      }, 
+      {
+        "name": "_378_percent_selected_monthly_owner_costs_smoc_300_to_499", 
+        "type": "text"
+      }, 
+      {
+        "name": "_379_percent_margin_of_error_selected_monthly_owner_costs_smoc_300_to_499", 
+        "type": "text"
+      }, 
+      {
+        "name": "_380_estimate_selected_monthly_owner_costs_smoc_500_to_699", 
+        "type": "real"
+      }, 
+      {
+        "name": "_381_margin_of_error_selected_monthly_owner_costs_smoc_500_to_699", 
+        "type": "real"
+      }, 
+      {
+        "name": "_382_percent_selected_monthly_owner_costs_smoc_500_to_699", 
+        "type": "text"
+      }, 
+      {
+        "name": "_383_percent_margin_of_error_selected_monthly_owner_costs_smoc_500_to_699", 
+        "type": "text"
+      }, 
+      {
+        "name": "_384_estimate_selected_monthly_owner_costs_smoc_700_to_999", 
+        "type": "real"
+      }, 
+      {
+        "name": "_385_margin_of_error_selected_monthly_owner_costs_smoc_700_to_999", 
+        "type": "real"
+      }, 
+      {
+        "name": "_386_percent_selected_monthly_owner_costs_smoc_700_to_999", 
+        "type": "text"
+      }, 
+      {
+        "name": "_387_percent_margin_of_error_selected_monthly_owner_costs_smoc_700_to_999", 
+        "type": "text"
+      }, 
+      {
+        "name": "_388_estimate_selected_monthly_owner_costs_smoc_1_000_to_1_499", 
+        "type": "real"
+      }, 
+      {
+        "name": "_389_margin_of_error_selected_monthly_owner_costs_smoc_1_000_to_1_499", 
+        "type": "real"
+      }, 
+      {
+        "name": "_390_percent_selected_monthly_owner_costs_smoc_1_000_to_1_499", 
+        "type": "text"
+      }, 
+      {
+        "name": "_391_percent_margin_of_error_selected_monthly_owner_costs_smoc_1_000_to_1_499", 
+        "type": "text"
+      }, 
+      {
+        "name": "_392_estimate_selected_monthly_owner_costs_smoc_1_500_to_1_999", 
+        "type": "real"
+      }, 
+      {
+        "name": "_393_margin_of_error_selected_monthly_owner_costs_smoc_1_500_to_1_999", 
+        "type": "real"
+      }, 
+      {
+        "name": "_394_percent_selected_monthly_owner_costs_smoc_1_500_to_1_999", 
+        "type": "text"
+      }, 
+      {
+        "name": "_395_percent_margin_of_error_selected_monthly_owner_costs_smoc_1_500_to_1_999", 
+        "type": "text"
+      }, 
+      {
+        "name": "_396_estimate_selected_monthly_owner_costs_smoc_2_000_or_more", 
+        "type": "real"
+      }, 
+      {
+        "name": "_397_margin_of_error_selected_monthly_owner_costs_smoc_2_000_or_more", 
+        "type": "real"
+      }, 
+      {
+        "name": "_398_percent_selected_monthly_owner_costs_smoc_2_000_or_more", 
+        "type": "text"
+      }, 
+      {
+        "name": "_399_percent_margin_of_error_selected_monthly_owner_costs_smoc_2_000_or_more", 
+        "type": "text"
+      }, 
+      {
+        "name": "_400_estimate_selected_monthly_owner_costs_smoc_median_dollars", 
+        "type": "real"
+      }, 
+      {
+        "name": "_401_margin_of_error_selected_monthly_owner_costs_smoc_median_dollars", 
+        "type": "real"
+      }, 
+      {
+        "name": "_402_percent_selected_monthly_owner_costs_smoc_median_dollars", 
+        "type": "text"
+      }, 
+      {
+        "name": "_403_percent_margin_of_error_selected_monthly_owner_costs_smoc_median_dollars", 
+        "type": "text"
+      }, 
+      {
+        "name": "_404_estimate_selected_monthly_owner_costs_smoc_housing_units_without_a_mortgage", 
+        "type": "real"
+      }, 
+      {
+        "name": "_405_margin_of_error_selected_monthly_owner_costs_smoc_housing_units_without_a_mortgage", 
+        "type": "real"
+      }, 
+      {
+        "name": "_406_percent_selected_monthly_owner_costs_smoc_housing_units_without_a_mortgage", 
+        "type": "real"
+      }, 
+      {
+        "name": "_407_percent_margin_of_error_selected_monthly_owner_costs_smoc_housing_units_without_a_mortgage", 
+        "type": "text"
+      }, 
+      {
+        "name": "_408_estimate_selected_monthly_owner_costs_smoc_less_than_100", 
+        "type": "real"
+      }, 
+      {
+        "name": "_409_margin_of_error_selected_monthly_owner_costs_smoc_less_than_100", 
+        "type": "real"
+      }, 
+      {
+        "name": "_410_percent_selected_monthly_owner_costs_smoc_less_than_100", 
+        "type": "text"
+      }, 
+      {
+        "name": "_411_percent_margin_of_error_selected_monthly_owner_costs_smoc_less_than_100", 
+        "type": "text"
+      }, 
+      {
+        "name": "_412_estimate_selected_monthly_owner_costs_smoc_100_to_199", 
+        "type": "real"
+      }, 
+      {
+        "name": "_413_margin_of_error_selected_monthly_owner_costs_smoc_100_to_199", 
+        "type": "real"
+      }, 
+      {
+        "name": "_414_percent_selected_monthly_owner_costs_smoc_100_to_199", 
+        "type": "text"
+      }, 
+      {
+        "name": "_415_percent_margin_of_error_selected_monthly_owner_costs_smoc_100_to_199", 
+        "type": "text"
+      }, 
+      {
+        "name": "_416_estimate_selected_monthly_owner_costs_smoc_200_to_299", 
+        "type": "real"
+      }, 
+      {
+        "name": "_417_margin_of_error_selected_monthly_owner_costs_smoc_200_to_299", 
+        "type": "real"
+      }, 
+      {
+        "name": "_418_percent_selected_monthly_owner_costs_smoc_200_to_299", 
+        "type": "text"
+      }, 
+      {
+        "name": "_419_percent_margin_of_error_selected_monthly_owner_costs_smoc_200_to_299", 
+        "type": "text"
+      }, 
+      {
+        "name": "_420_estimate_selected_monthly_owner_costs_smoc_300_to_399", 
+        "type": "real"
+      }, 
+      {
+        "name": "_421_margin_of_error_selected_monthly_owner_costs_smoc_300_to_399", 
+        "type": "real"
+      }, 
+      {
+        "name": "_422_percent_selected_monthly_owner_costs_smoc_300_to_399", 
+        "type": "text"
+      }, 
+      {
+        "name": "_423_percent_margin_of_error_selected_monthly_owner_costs_smoc_300_to_399", 
+        "type": "text"
+      }, 
+      {
+        "name": "_424_estimate_selected_monthly_owner_costs_smoc_400_or_more", 
+        "type": "real"
+      }, 
+      {
+        "name": "_425_margin_of_error_selected_monthly_owner_costs_smoc_400_or_more", 
+        "type": "real"
+      }, 
+      {
+        "name": "_426_percent_selected_monthly_owner_costs_smoc_400_or_more", 
+        "type": "text"
+      }, 
+      {
+        "name": "_427_percent_margin_of_error_selected_monthly_owner_costs_smoc_400_or_more", 
+        "type": "text"
+      }, 
+      {
+        "name": "_428_estimate_selected_monthly_owner_costs_smoc_median_dollars", 
+        "type": "real"
+      }, 
+      {
+        "name": "_429_margin_of_error_selected_monthly_owner_costs_smoc_median_dollars", 
+        "type": "real"
+      }, 
+      {
+        "name": "_430_percent_selected_monthly_owner_costs_smoc_median_dollars", 
+        "type": "text"
+      }, 
+      {
+        "name": "_431_percent_margin_of_error_selected_monthly_owner_costs_smoc_median_dollars", 
+        "type": "text"
+      }, 
+      {
+        "name": "_432_estimate_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_housing_units_with_a_mortgage_excluding_units_where_smocapi_cannot_be_computed", 
+        "type": "real"
+      }, 
+      {
+        "name": "_433_margin_of_error_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_housing_units_with_a_mortgage_excluding_units_where_smocapi_cannot_be_computed", 
+        "type": "real"
+      }, 
+      {
+        "name": "_434_percent_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_housing_units_with_a_mortgage_excluding_units_where_smocapi_cannot_be_computed", 
+        "type": "real"
+      }, 
+      {
+        "name": "_435_percent_margin_of_error_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_housing_units_with_a_mortgage_excluding_units_where_smocapi_cannot_be_computed", 
+        "type": "text"
+      }, 
+      {
+        "name": "_436_estimate_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_less_than_20_0_percent", 
+        "type": "real"
+      }, 
+      {
+        "name": "_437_margin_of_error_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_less_than_20_0_percent", 
+        "type": "real"
+      }, 
+      {
+        "name": "_438_percent_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_less_than_20_0_percent", 
+        "type": "text"
+      }, 
+      {
+        "name": "_439_percent_margin_of_error_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_less_than_20_0_percent", 
+        "type": "text"
+      }, 
+      {
+        "name": "_440_estimate_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_20_0_to_24_9_percent", 
+        "type": "real"
+      }, 
+      {
+        "name": "_441_margin_of_error_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_20_0_to_24_9_percent", 
+        "type": "real"
+      }, 
+      {
+        "name": "_442_percent_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_20_0_to_24_9_percent", 
+        "type": "text"
+      }, 
+      {
+        "name": "_443_percent_margin_of_error_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_20_0_to_24_9_percent", 
+        "type": "text"
+      }, 
+      {
+        "name": "_444_estimate_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_25_0_to_29_9_percent", 
+        "type": "real"
+      }, 
+      {
+        "name": "_445_margin_of_error_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_25_0_to_29_9_percent", 
+        "type": "real"
+      }, 
+      {
+        "name": "_446_percent_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_25_0_to_29_9_percent", 
+        "type": "text"
+      }, 
+      {
+        "name": "_447_percent_margin_of_error_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_25_0_to_29_9_percent", 
+        "type": "text"
+      }, 
+      {
+        "name": "_448_estimate_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_30_0_to_34_9_percent", 
+        "type": "real"
+      }, 
+      {
+        "name": "_449_margin_of_error_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_30_0_to_34_9_percent", 
+        "type": "real"
+      }, 
+      {
+        "name": "_450_percent_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_30_0_to_34_9_percent", 
+        "type": "text"
+      }, 
+      {
+        "name": "_451_percent_margin_of_error_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_30_0_to_34_9_percent", 
+        "type": "text"
+      }, 
+      {
+        "name": "_452_estimate_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_35_0_percent_or_more", 
+        "type": "real"
+      }, 
+      {
+        "name": "_453_margin_of_error_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_35_0_percent_or_more", 
+        "type": "real"
+      }, 
+      {
+        "name": "_454_percent_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_35_0_percent_or_more", 
+        "type": "text"
+      }, 
+      {
+        "name": "_455_percent_margin_of_error_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_35_0_percent_or_more", 
+        "type": "text"
+      }, 
+      {
+        "name": "_456_estimate_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_not_computed", 
+        "type": "real"
+      }, 
+      {
+        "name": "_457_margin_of_error_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_not_computed", 
+        "type": "real"
+      }, 
+      {
+        "name": "_458_percent_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_not_computed", 
+        "type": "text"
+      }, 
+      {
+        "name": "_459_percent_margin_of_error_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_not_computed", 
+        "type": "text"
+      }, 
+      {
+        "name": "_460_estimate_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_housing_unit_without_a_mortgage_excluding_units_where_smocapi_cannot_be_computed", 
+        "type": "real"
+      }, 
+      {
+        "name": "_461_margin_of_error_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_housing_unit_without_a_mortgage_excluding_units_where_smocapi_cannot_be_computed", 
+        "type": "real"
+      }, 
+      {
+        "name": "_462_percent_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_housing_unit_without_a_mortgage_excluding_units_where_smocapi_cannot_be_computed", 
+        "type": "real"
+      }, 
+      {
+        "name": "_463_percent_margin_of_error_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_housing_unit_without_a_mortgage_excluding_units_where_smocapi_cannot_be_computed", 
+        "type": "text"
+      }, 
+      {
+        "name": "_464_estimate_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_less_than_10_0_percent", 
+        "type": "real"
+      }, 
+      {
+        "name": "_465_margin_of_error_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_less_than_10_0_percent", 
+        "type": "real"
+      }, 
+      {
+        "name": "_466_percent_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_less_than_10_0_percent", 
+        "type": "text"
+      }, 
+      {
+        "name": "_467_percent_margin_of_error_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_less_than_10_0_percent", 
+        "type": "text"
+      }, 
+      {
+        "name": "_468_estimate_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_10_0_to_14_9_percent", 
+        "type": "real"
+      }, 
+      {
+        "name": "_469_margin_of_error_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_10_0_to_14_9_percent", 
+        "type": "real"
+      }, 
+      {
+        "name": "_470_percent_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_10_0_to_14_9_percent", 
+        "type": "text"
+      }, 
+      {
+        "name": "_471_percent_margin_of_error_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_10_0_to_14_9_percent", 
+        "type": "text"
+      }, 
+      {
+        "name": "_472_estimate_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_15_0_to_19_9_percent", 
+        "type": "real"
+      }, 
+      {
+        "name": "_473_margin_of_error_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_15_0_to_19_9_percent", 
+        "type": "real"
+      }, 
+      {
+        "name": "_474_percent_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_15_0_to_19_9_percent", 
+        "type": "text"
+      }, 
+      {
+        "name": "_475_percent_margin_of_error_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_15_0_to_19_9_percent", 
+        "type": "text"
+      }, 
+      {
+        "name": "_476_estimate_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_20_0_to_24_9_percent", 
+        "type": "real"
+      }, 
+      {
+        "name": "_477_margin_of_error_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_20_0_to_24_9_percent", 
+        "type": "real"
+      }, 
+      {
+        "name": "_478_percent_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_20_0_to_24_9_percent", 
+        "type": "text"
+      }, 
+      {
+        "name": "_479_percent_margin_of_error_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_20_0_to_24_9_percent", 
+        "type": "text"
+      }, 
+      {
+        "name": "_480_estimate_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_25_0_to_29_9_percent", 
+        "type": "real"
+      }, 
+      {
+        "name": "_481_margin_of_error_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_25_0_to_29_9_percent", 
+        "type": "real"
+      }, 
+      {
+        "name": "_482_percent_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_25_0_to_29_9_percent", 
+        "type": "text"
+      }, 
+      {
+        "name": "_483_percent_margin_of_error_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_25_0_to_29_9_percent", 
+        "type": "text"
+      }, 
+      {
+        "name": "_484_estimate_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_30_0_to_34_9_percent", 
+        "type": "real"
+      }, 
+      {
+        "name": "_485_margin_of_error_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_30_0_to_34_9_percent", 
+        "type": "real"
+      }, 
+      {
+        "name": "_486_percent_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_30_0_to_34_9_percent", 
+        "type": "text"
+      }, 
+      {
+        "name": "_487_percent_margin_of_error_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_30_0_to_34_9_percent", 
+        "type": "text"
+      }, 
+      {
+        "name": "_488_estimate_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_35_0_percent_or_more", 
+        "type": "real"
+      }, 
+      {
+        "name": "_489_margin_of_error_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_35_0_percent_or_more", 
+        "type": "real"
+      }, 
+      {
+        "name": "_490_percent_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_35_0_percent_or_more", 
+        "type": "text"
+      }, 
+      {
+        "name": "_491_percent_margin_of_error_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_35_0_percent_or_more", 
+        "type": "text"
+      }, 
+      {
+        "name": "_492_estimate_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_not_computed", 
+        "type": "real"
+      }, 
+      {
+        "name": "_493_margin_of_error_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_not_computed", 
+        "type": "real"
+      }, 
+      {
+        "name": "_494_percent_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_not_computed", 
+        "type": "text"
+      }, 
+      {
+        "name": "_495_percent_margin_of_error_selected_monthly_owner_costs_as_a_percentage_of_household_income_smocapi_not_computed", 
+        "type": "text"
+      }, 
+      {
+        "name": "_496_estimate_gross_rent_occupied_units_paying_rent", 
+        "type": "real"
+      }, 
+      {
+        "name": "_497_margin_of_error_gross_rent_occupied_units_paying_rent", 
+        "type": "real"
+      }, 
+      {
+        "name": "_498_percent_gross_rent_occupied_units_paying_rent", 
+        "type": "real"
+      }, 
+      {
+        "name": "_499_percent_margin_of_error_gross_rent_occupied_units_paying_rent", 
+        "type": "text"
+      }, 
+      {
+        "name": "_500_estimate_gross_rent_less_than_200", 
+        "type": "real"
+      }, 
+      {
+        "name": "_501_margin_of_error_gross_rent_less_than_200", 
+        "type": "real"
+      }, 
+      {
+        "name": "_502_percent_gross_rent_less_than_200", 
+        "type": "text"
+      }, 
+      {
+        "name": "_503_percent_margin_of_error_gross_rent_less_than_200", 
+        "type": "text"
+      }, 
+      {
+        "name": "_504_estimate_gross_rent_200_to_299", 
+        "type": "real"
+      }, 
+      {
+        "name": "_505_margin_of_error_gross_rent_200_to_299", 
+        "type": "real"
+      }, 
+      {
+        "name": "_506_percent_gross_rent_200_to_299", 
+        "type": "text"
+      }, 
+      {
+        "name": "_507_percent_margin_of_error_gross_rent_200_to_299", 
+        "type": "text"
+      }, 
+      {
+        "name": "_508_estimate_gross_rent_300_to_499", 
+        "type": "real"
+      }, 
+      {
+        "name": "_509_margin_of_error_gross_rent_300_to_499", 
+        "type": "real"
+      }, 
+      {
+        "name": "_510_percent_gross_rent_300_to_499", 
+        "type": "text"
+      }, 
+      {
+        "name": "_511_percent_margin_of_error_gross_rent_300_to_499", 
+        "type": "text"
+      }, 
+      {
+        "name": "_512_estimate_gross_rent_500_to_749", 
+        "type": "real"
+      }, 
+      {
+        "name": "_513_margin_of_error_gross_rent_500_to_749", 
+        "type": "real"
+      }, 
+      {
+        "name": "_514_percent_gross_rent_500_to_749", 
+        "type": "text"
+      }, 
+      {
+        "name": "_515_percent_margin_of_error_gross_rent_500_to_749", 
+        "type": "text"
+      }, 
+      {
+        "name": "_516_estimate_gross_rent_750_to_999", 
+        "type": "real"
+      }, 
+      {
+        "name": "_517_margin_of_error_gross_rent_750_to_999", 
+        "type": "real"
+      }, 
+      {
+        "name": "_518_percent_gross_rent_750_to_999", 
+        "type": "text"
+      }, 
+      {
+        "name": "_519_percent_margin_of_error_gross_rent_750_to_999", 
+        "type": "text"
+      }, 
+      {
+        "name": "_520_estimate_gross_rent_1_000_to_1_499", 
+        "type": "real"
+      }, 
+      {
+        "name": "_521_margin_of_error_gross_rent_1_000_to_1_499", 
+        "type": "real"
+      }, 
+      {
+        "name": "_522_percent_gross_rent_1_000_to_1_499", 
+        "type": "text"
+      }, 
+      {
+        "name": "_523_percent_margin_of_error_gross_rent_1_000_to_1_499", 
+        "type": "text"
+      }, 
+      {
+        "name": "_524_estimate_gross_rent_1_500_or_more", 
+        "type": "real"
+      }, 
+      {
+        "name": "_525_margin_of_error_gross_rent_1_500_or_more", 
+        "type": "real"
+      }, 
+      {
+        "name": "_526_percent_gross_rent_1_500_or_more", 
+        "type": "text"
+      }, 
+      {
+        "name": "_527_percent_margin_of_error_gross_rent_1_500_or_more", 
+        "type": "text"
+      }, 
+      {
+        "name": "_528_estimate_gross_rent_median_dollars", 
+        "type": "real"
+      }, 
+      {
+        "name": "_529_margin_of_error_gross_rent_median_dollars", 
+        "type": "real"
+      }, 
+      {
+        "name": "_530_percent_gross_rent_median_dollars", 
+        "type": "text"
+      }, 
+      {
+        "name": "_531_percent_margin_of_error_gross_rent_median_dollars", 
+        "type": "text"
+      }, 
+      {
+        "name": "_532_estimate_gross_rent_no_rent_paid", 
+        "type": "real"
+      }, 
+      {
+        "name": "_533_margin_of_error_gross_rent_no_rent_paid", 
+        "type": "real"
+      }, 
+      {
+        "name": "_534_percent_gross_rent_no_rent_paid", 
+        "type": "text"
+      }, 
+      {
+        "name": "_535_percent_margin_of_error_gross_rent_no_rent_paid", 
+        "type": "text"
+      }, 
+      {
+        "name": "_536_estimate_gross_rent_as_a_percentage_of_household_income_grapi_occupied_units_paying_rent_excluding_units_where_grapi_cannot_be_computed", 
+        "type": "real"
+      }, 
+      {
+        "name": "_537_margin_of_error_gross_rent_as_a_percentage_of_household_income_grapi_occupied_units_paying_rent_excluding_units_where_grapi_cannot_be_computed", 
+        "type": "real"
+      }, 
+      {
+        "name": "_538_percent_gross_rent_as_a_percentage_of_household_income_grapi_occupied_units_paying_rent_excluding_units_where_grapi_cannot_be_computed", 
+        "type": "real"
+      }, 
+      {
+        "name": "_539_percent_margin_of_error_gross_rent_as_a_percentage_of_household_income_grapi_occupied_units_paying_rent_excluding_units_where_grapi_cannot_be_computed", 
+        "type": "text"
+      }, 
+      {
+        "name": "_540_estimate_gross_rent_as_a_percentage_of_household_income_grapi_less_than_15_0_percent", 
+        "type": "real"
+      }, 
+      {
+        "name": "_541_margin_of_error_gross_rent_as_a_percentage_of_household_income_grapi_less_than_15_0_percent", 
+        "type": "real"
+      }, 
+      {
+        "name": "_542_percent_gross_rent_as_a_percentage_of_household_income_grapi_less_than_15_0_percent", 
+        "type": "text"
+      }, 
+      {
+        "name": "_543_percent_margin_of_error_gross_rent_as_a_percentage_of_household_income_grapi_less_than_15_0_percent", 
+        "type": "text"
+      }, 
+      {
+        "name": "_544_estimate_gross_rent_as_a_percentage_of_household_income_grapi_15_0_to_19_9_percent", 
+        "type": "real"
+      }, 
+      {
+        "name": "_545_margin_of_error_gross_rent_as_a_percentage_of_household_income_grapi_15_0_to_19_9_percent", 
+        "type": "real"
+      }, 
+      {
+        "name": "_546_percent_gross_rent_as_a_percentage_of_household_income_grapi_15_0_to_19_9_percent", 
+        "type": "text"
+      }, 
+      {
+        "name": "_547_percent_margin_of_error_gross_rent_as_a_percentage_of_household_income_grapi_15_0_to_19_9_percent", 
+        "type": "text"
+      }, 
+      {
+        "name": "_548_estimate_gross_rent_as_a_percentage_of_household_income_grapi_20_0_to_24_9_percent", 
+        "type": "real"
+      }, 
+      {
+        "name": "_549_margin_of_error_gross_rent_as_a_percentage_of_household_income_grapi_20_0_to_24_9_percent", 
+        "type": "real"
+      }, 
+      {
+        "name": "_550_percent_gross_rent_as_a_percentage_of_household_income_grapi_20_0_to_24_9_percent", 
+        "type": "text"
+      }, 
+      {
+        "name": "_551_percent_margin_of_error_gross_rent_as_a_percentage_of_household_income_grapi_20_0_to_24_9_percent", 
+        "type": "text"
+      }, 
+      {
+        "name": "_552_estimate_gross_rent_as_a_percentage_of_household_income_grapi_25_0_to_29_9_percent", 
+        "type": "real"
+      }, 
+      {
+        "name": "_553_margin_of_error_gross_rent_as_a_percentage_of_household_income_grapi_25_0_to_29_9_percent", 
+        "type": "real"
+      }, 
+      {
+        "name": "_554_percent_gross_rent_as_a_percentage_of_household_income_grapi_25_0_to_29_9_percent", 
+        "type": "text"
+      }, 
+      {
+        "name": "_555_percent_margin_of_error_gross_rent_as_a_percentage_of_household_income_grapi_25_0_to_29_9_percent", 
+        "type": "text"
+      }, 
+      {
+        "name": "_556_estimate_gross_rent_as_a_percentage_of_household_income_grapi_30_0_to_34_9_percent", 
+        "type": "real"
+      }, 
+      {
+        "name": "_557_margin_of_error_gross_rent_as_a_percentage_of_household_income_grapi_30_0_to_34_9_percent", 
+        "type": "real"
+      }, 
+      {
+        "name": "_558_percent_gross_rent_as_a_percentage_of_household_income_grapi_30_0_to_34_9_percent", 
+        "type": "text"
+      }, 
+      {
+        "name": "_559_percent_margin_of_error_gross_rent_as_a_percentage_of_household_income_grapi_30_0_to_34_9_percent", 
+        "type": "text"
+      }, 
+      {
+        "name": "_560_estimate_gross_rent_as_a_percentage_of_household_income_grapi_35_0_percent_or_more", 
+        "type": "real"
+      }, 
+      {
+        "name": "_561_margin_of_error_gross_rent_as_a_percentage_of_household_income_grapi_35_0_percent_or_more", 
+        "type": "real"
+      }, 
+      {
+        "name": "_562_percent_gross_rent_as_a_percentage_of_household_income_grapi_35_0_percent_or_more", 
+        "type": "text"
+      }, 
+      {
+        "name": "_563_percent_margin_of_error_gross_rent_as_a_percentage_of_household_income_grapi_35_0_percent_or_more", 
+        "type": "text"
+      }, 
+      {
+        "name": "_564_estimate_gross_rent_as_a_percentage_of_household_income_grapi_not_computed", 
+        "type": "real"
+      }, 
+      {
+        "name": "_565_margin_of_error_gross_rent_as_a_percentage_of_household_income_grapi_not_computed", 
+        "type": "real"
+      }, 
+      {
+        "name": "_566_percent_gross_rent_as_a_percentage_of_household_income_grapi_not_computed", 
+        "type": "text"
+      }, 
+      {
+        "name": "_567_percent_margin_of_error_gross_rent_as_a_percentage_of_household_income_grapi_not_computed", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "housing_trends_per_zip_code_acs_11_5_yr_dp04"
+}

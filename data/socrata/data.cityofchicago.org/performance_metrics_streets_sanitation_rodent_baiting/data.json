@@ -1,0 +1,40 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/performance_metrics_streets_sanitation_rodent_baiting/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/ga2y-gwbs/rows.csv"
+  }, 
+  "description": "In addition to performing regular scheduled preventative rodent control, the Department of Streets & Sanitation (DSS) responds to site-specific customer rat complaints logged through 311\u2019s Customer Service Requests (CSR) system. This metric tracks the average number of days the DSS takes to complete rodent baiting requests per week. Median days to complete requests as well as total number of requests fulfilled per week are available by mousing over columns. The target response time for rodent baiting requests is within 7 days. For more information on open rat complaints, see https://data.cityofchicago.org/Government/311-Service-Requests-Rodent-Baiting-2011-/97t6-zrhs", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "City of Chicago", 
+    "category": "Administration & Finance", 
+    "description": "In addition to performing regular scheduled preventative rodent control, the Department of Streets & Sanitation (DSS) responds to site-specific customer rat complaints logged through 311\u2019s Customer Service Requests (CSR) system. This metric tracks the average number of days the DSS takes to complete rodent baiting requests per week. Median days to complete requests as well as total number of requests fulfilled per week are available by mousing over columns. The target response time for rodent baiting requests is within 7 days. For more information on open rat complaints, see https://data.cityofchicago.org/Government/311-Service-Requests-Rodent-Baiting-2011-/97t6-zrhs", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/ga2y-gwbs.json"
+    }
+  }, 
+  "name": "Performance Metrics - Streets & Sanitation - Rodent Baiting", 
+  "schema": {
+    "columns": [
+      {
+        "name": "week", 
+        "type": "text"
+      }, 
+      {
+        "name": "average_days_to_complete_rodent_baiting_rat_complaint_requests", 
+        "type": "real"
+      }, 
+      {
+        "name": "median_days_to_repond_to_rodent_baiting_request", 
+        "type": "real"
+      }, 
+      {
+        "name": "target_response_time_days_", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "tableName": "performance_metrics_streets_sanitation_rodent_baiting"
+}

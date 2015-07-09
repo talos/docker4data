@@ -1,0 +1,164 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/bronx_clean_heat_data/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/bb8s-w66d/rows.csv"
+  }, 
+  "description": "Clean heat statistics for properties throughout the Bronx. This takes the place of a previous dataset that was incorrectly formatted. This one is formatted so that the locations can be mapped.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Mayor's Office of Long Term Planning and Sustainability", 
+    "category": "Environment", 
+    "description": "Clean heat statistics for properties throughout the Bronx. This takes the place of a previous dataset that was incorrectly formatted. This one is formatted so that the locations can be mapped.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/bb8s-w66d.json"
+    }
+  }, 
+  "name": "Bronx Clean Heat Data", 
+  "schema": {
+    "columns": [
+      {
+        "name": "borough_block_lot", 
+        "type": "real"
+      }, 
+      {
+        "name": "street_address", 
+        "type": "text"
+      }, 
+      {
+        "name": "zip_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "utility", 
+        "type": "text"
+      }, 
+      {
+        "name": "building_manager", 
+        "type": "text"
+      }, 
+      {
+        "name": "owner", 
+        "type": "text"
+      }, 
+      {
+        "name": "owner_telephone", 
+        "type": "text"
+      }, 
+      {
+        "name": "dep_boiler_application", 
+        "type": "text"
+      }, 
+      {
+        "name": "_6_deadline", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "boiler_model", 
+        "type": "text"
+      }, 
+      {
+        "name": "of_identical_boilers", 
+        "type": "real"
+      }, 
+      {
+        "name": "boiler_capacity_gross_btu", 
+        "type": "real"
+      }, 
+      {
+        "name": "boiler_installation_date", 
+        "type": "real"
+      }, 
+      {
+        "name": "boiler_age_range", 
+        "type": "text"
+      }, 
+      {
+        "name": "est_retirement_year", 
+        "type": "real"
+      }, 
+      {
+        "name": "burner_model", 
+        "type": "text"
+      }, 
+      {
+        "name": "primary_fuel", 
+        "type": "text"
+      }, 
+      {
+        "name": "total_gallons_high", 
+        "type": "real"
+      }, 
+      {
+        "name": "total_gallons_low", 
+        "type": "real"
+      }, 
+      {
+        "name": "total_mmbtu_high", 
+        "type": "real"
+      }, 
+      {
+        "name": "total_mmbtu_low", 
+        "type": "real"
+      }, 
+      {
+        "name": "greener_greater_buildings", 
+        "type": "text"
+      }, 
+      {
+        "name": "ggb_deadline", 
+        "type": "text"
+      }, 
+      {
+        "name": "building_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "city_council_district", 
+        "type": "real"
+      }, 
+      {
+        "name": "city_community_board", 
+        "type": "real"
+      }, 
+      {
+        "name": "bldg_sqft", 
+        "type": "real"
+      }, 
+      {
+        "name": "of_bldgs", 
+        "type": "real"
+      }, 
+      {
+        "name": "of_floors", 
+        "type": "real"
+      }, 
+      {
+        "name": "of_res_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "total_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "year_built", 
+        "type": "real"
+      }, 
+      {
+        "name": "condo", 
+        "type": "text"
+      }, 
+      {
+        "name": "coop", 
+        "type": "text"
+      }, 
+      {
+        "name": "boiler_address", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "bronx_clean_heat_data"
+}

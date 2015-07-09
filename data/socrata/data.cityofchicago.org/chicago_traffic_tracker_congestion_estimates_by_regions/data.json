@@ -1,0 +1,59 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/chicago_traffic_tracker_congestion_estimates_by_regions/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/t2qc-9pjd/rows.csv"
+  }, 
+  "description": "This dataset contains the current estimated congestion for the 29 traffic regions. For a detailed description, go to: http://bitly.com/TeqrNv. \r\n\r\nThe Chicago Traffic Tracker estimates traffic congestion on Chicago\u2019s arterial streets (non-freeway streets) in real-time by continuously monitoring and analyzing GPS traces received from Chicago Transit Authority (CTA) buses. Two types of congestion estimates are produced every 10 minutes: 1) by Traffic Segments and 2) by Traffic Regions or Zones. Congestion estimates by traffic segments gives observed speed typically for one-half mile of a street in one direction of traffic. Traffic Segment level congestion is available for about 300 miles of principal arterials. Congestion by Traffic Region gives the average traffic condition for all arterial street segments within a region. A traffic region is comprised of two or three community areas with comparable traffic patterns. 29 regions are created to cover the entire city (except O\u2019Hare airport area). \r\n\r\nThere is much volatility in traffic segment speed. However, the congestion estimates for the traffic regions remain consistent for a relatively longer period. Most volatility in arterial speed comes from the very nature of the arterials themselves. Due to a myriad of factors, including but not limited to frequent intersections, traffic signals, transit movements, availability of alternative routes, crashes, short length of the segments, etc. Speed on individual arterial segments can fluctuate from heavily congested to no congestion and back in a few minutes. The segment speed and traffic region congestion estimates together may give a better understanding of the actual traffic conditions.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "category": "Transportation", 
+    "description": "This dataset contains the current estimated congestion for the 29 traffic regions. For a detailed description, go to: http://bitly.com/TeqrNv. \r\n\r\nThe Chicago Traffic Tracker estimates traffic congestion on Chicago\u2019s arterial streets (non-freeway streets) in real-time by continuously monitoring and analyzing GPS traces received from Chicago Transit Authority (CTA) buses. Two types of congestion estimates are produced every 10 minutes: 1) by Traffic Segments and 2) by Traffic Regions or Zones. Congestion estimates by traffic segments gives observed speed typically for one-half mile of a street in one direction of traffic. Traffic Segment level congestion is available for about 300 miles of principal arterials. Congestion by Traffic Region gives the average traffic condition for all arterial street segments within a region. A traffic region is comprised of two or three community areas with comparable traffic patterns. 29 regions are created to cover the entire city (except O\u2019Hare airport area). \r\n\r\nThere is much volatility in traffic segment speed. However, the congestion estimates for the traffic regions remain consistent for a relatively longer period. Most volatility in arterial speed comes from the very nature of the arterials themselves. Due to a myriad of factors, including but not limited to frequent intersections, traffic signals, transit movements, availability of alternative routes, crashes, short length of the segments, etc. Speed on individual arterial segments can fluctuate from heavily congested to no congestion and back in a few minutes. The segment speed and traffic region congestion estimates together may give a better understanding of the actual traffic conditions.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/t2qc-9pjd.json"
+    }
+  }, 
+  "name": "Chicago Traffic Tracker - Congestion Estimates by Regions", 
+  "schema": {
+    "columns": [
+      {
+        "name": "region", 
+        "type": "text"
+      }, 
+      {
+        "name": "_region_id", 
+        "type": "real"
+      }, 
+      {
+        "name": "_west", 
+        "type": "real"
+      }, 
+      {
+        "name": "_east", 
+        "type": "real"
+      }, 
+      {
+        "name": "_south", 
+        "type": "real"
+      }, 
+      {
+        "name": "_north", 
+        "type": "real"
+      }, 
+      {
+        "name": "_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "current_speed", 
+        "type": "real"
+      }, 
+      {
+        "name": "_last_updt", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "chicago_traffic_tracker_congestion_estimates_by_regions"
+}

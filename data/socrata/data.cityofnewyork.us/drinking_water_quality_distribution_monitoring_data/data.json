@@ -1,0 +1,64 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/drinking_water_quality_distribution_monitoring_data/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/bkwf-xfky/rows.csv"
+  }, 
+  "description": "The data tables summarize the turbidity values, coliform, fluoride and chlorine found at sides in distribution each month.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Department of Environmental Protection (DEP)", 
+    "category": "Environment", 
+    "description": "The data tables summarize the turbidity values, coliform, fluoride and chlorine found at sides in distribution each month.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/bkwf-xfky.json"
+    }
+  }, 
+  "name": "Drinking Water Quality Distribution Monitoring Data", 
+  "schema": {
+    "columns": [
+      {
+        "name": "sample_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "sample_time", 
+        "type": "text"
+      }, 
+      {
+        "name": "sample_site", 
+        "type": "real"
+      }, 
+      {
+        "name": "sample_class", 
+        "type": "text"
+      }, 
+      {
+        "name": "location", 
+        "type": "text"
+      }, 
+      {
+        "name": "residual_free_chlorine_mg_l", 
+        "type": "real"
+      }, 
+      {
+        "name": "turbidity_ntu", 
+        "type": "real"
+      }, 
+      {
+        "name": "fluoride_mg_l", 
+        "type": "real"
+      }, 
+      {
+        "name": "coliform_quanti_tray_mpn_100ml", 
+        "type": "text"
+      }, 
+      {
+        "name": "e_coli_quanti_tray_mpn_100ml", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "drinking_water_quality_distribution_monitoring_data"
+}

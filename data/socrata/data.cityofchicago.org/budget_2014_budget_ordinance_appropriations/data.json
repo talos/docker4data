@@ -1,0 +1,64 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/budget_2014_budget_ordinance_appropriations/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/ub6s-xy6e/rows.csv"
+  }, 
+  "description": "The Annual Appropriation Ordinance is the final City operating budget as approved by the City Council. It reflects the City\u2019s operating budget at the beginning of the fiscal year on January 1. This dataset details the budgeted expenditures in the Ordinance and identifies them by department, appropriation account, and funding type: Local, Community Development Block Grant Program (CDBG), and other Grants. \u201cLocal\u201d funds refer to those line items that are balanced with locally generated revenue sources, including but not limited to the Corporate Fund, Water Fund, Midway and O\u2019Hare Airport funds, Vehicle Tax Fund, Library Fund and General Obligation Bond funds. Owner: Budget and Management. Frequency: Data are updated annually. For more information about the budget process, visit the Budget Documents page: http://j.mp/lPotWf.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "City of Chicago", 
+    "category": "Administration & Finance", 
+    "description": "The Annual Appropriation Ordinance is the final City operating budget as approved by the City Council. It reflects the City\u2019s operating budget at the beginning of the fiscal year on January 1. This dataset details the budgeted expenditures in the Ordinance and identifies them by department, appropriation account, and funding type: Local, Community Development Block Grant Program (CDBG), and other Grants. \u201cLocal\u201d funds refer to those line items that are balanced with locally generated revenue sources, including but not limited to the Corporate Fund, Water Fund, Midway and O\u2019Hare Airport funds, Vehicle Tax Fund, Library Fund and General Obligation Bond funds. Owner: Budget and Management. Frequency: Data are updated annually. For more information about the budget process, visit the Budget Documents page: http://j.mp/lPotWf.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/ub6s-xy6e.json"
+    }
+  }, 
+  "name": "Budget - 2014 Budget Ordinance - Appropriations", 
+  "schema": {
+    "columns": [
+      {
+        "name": "fund_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "fund_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "fund_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "department_number", 
+        "type": "real"
+      }, 
+      {
+        "name": "department_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "appropriation_authority", 
+        "type": "real"
+      }, 
+      {
+        "name": "appropriation_authority_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "appropriation_account", 
+        "type": "real"
+      }, 
+      {
+        "name": "appropriation_account_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "_ordinance_amount_", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "tableName": "budget_2014_budget_ordinance_appropriations"
+}

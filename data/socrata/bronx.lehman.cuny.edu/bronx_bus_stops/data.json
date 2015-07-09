@@ -1,0 +1,36 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/bronx_bus_stops/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/eqmj-6b8d/rows.csv"
+  }, 
+  "description": "Bronx Transit Bus Stops", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "mta.info", 
+    "category": "Environment", 
+    "description": "Bronx Transit Bus Stops", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/eqmj-6b8d.json"
+    }
+  }, 
+  "name": "Bronx Bus Stops", 
+  "schema": {
+    "columns": [
+      {
+        "name": "stop_id", 
+        "type": "real"
+      }, 
+      {
+        "name": "stop_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "location", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "tableName": "bronx_bus_stops"
+}

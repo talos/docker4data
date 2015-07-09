@@ -1,0 +1,52 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/employee_indebtedness_to_the_city_of_chicago/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/pasx-mnuv/rows.csv"
+  }, 
+  "description": "Number of employees in each department or sister agency who owe funds to the City. For each department, the dataset provides the following as of the date noted: total number of individuals employed by the department or agency, number of individuals that owe funds to the City in the department; and the total amount of debt owed by those employees. Data Owner: Revenue. Time Period: mid-October 2011 to present. Frequency: Data is updated weekly.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "City of Chicago", 
+    "category": "Administration & Finance", 
+    "description": "Number of employees in each department or sister agency who owe funds to the City. For each department, the dataset provides the following as of the date noted: total number of individuals employed by the department or agency, number of individuals that owe funds to the City in the department; and the total amount of debt owed by those employees. Data Owner: Revenue. Time Period: mid-October 2011 to present. Frequency: Data is updated weekly.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/pasx-mnuv.json"
+    }
+  }, 
+  "name": "Employee Indebtedness to the City of Chicago", 
+  "schema": {
+    "columns": [
+      {
+        "name": "date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "department", 
+        "type": "text"
+      }, 
+      {
+        "name": "arms_department_id", 
+        "type": "text"
+      }, 
+      {
+        "name": "dept_size", 
+        "type": "real"
+      }, 
+      {
+        "name": "employees", 
+        "type": "real"
+      }, 
+      {
+        "name": "_employees_w_debt", 
+        "type": "text"
+      }, 
+      {
+        "name": "due", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "tableName": "employee_indebtedness_to_the_city_of_chicago"
+}
