@@ -28,24 +28,13 @@ def shell(cmd):
 
 def extract_namespace(metadata_url, is_proxy=True):
     """
-    Determine a proper namespace for dataset based off of the metadata url.
-
-    For example:
-
-        `https://data.somervillema.gov/api/views/id.json` -> somervillema
-        `https://cookcounty.socrata.com/api/views/id.json` -> cookcounty
-        `https://opendata.go.ke/api/views/id.json` -> opendata_go_ke
-        `https://data.cityofnewyork.us/api/views/id.json` -> cityofnewyork
-        `https://electionsdata.kingcounty.gov/api/views/id.json` -> electionsdata_kingcounty
-
+    Determine the netloc regardless of whether this is proxied.
     """
     if is_proxy:
         netloc = urlparse.urlsplit(metadata_url).path.split('/')[1]
     else:
         netloc = urlparse.urlsplit(metadata_url).netloc
-    netloc = re.sub(r'((^|\.)data\.|\.gov($|\.)|\.edu$|\.com$|\.org$|\.?socrata\.?|^www\.|\.us$)',
-                    '', netloc)
-    return netloc.replace('.', '_').lower()
+    return netloc
 
 
 def generate_schema(columns):
@@ -84,11 +73,10 @@ def infer(metadata_url, output_root_dir):
         return
 
     namespace = extract_namespace(metadata_url)
-    tablename = u'socrata_{}_{}'.format(namespace,
-                                        socrata_metadata['name'].lower().replace(' ', '_'))
+    tablename = socrata_metadata['name'].lower().replace(' ', '_')
     tablename = re.sub(r'[^0-9a-z]+', '_', tablename)[0:62]
 
-    output_dir = os.path.join(output_root_dir, tablename)
+    output_dir = os.path.join(output_root_dir, 'socrata',  namespace, tablename)
     output_path = os.path.join(output_dir, 'data.json')
 
     if os.path.exists(output_path):
@@ -132,6 +120,8 @@ def infer(metadata_url, output_root_dir):
 
     with open(output_path, 'w') as output_file:
         json.dump(d4d_metadata, output_file, indent=2, sort_keys=True)
+
+    LOGGER.info(u'Inferred "%s" from "%s"', output_path, metadata_url)
 
 
 if __name__ == "__main__":
