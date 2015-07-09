@@ -69,7 +69,7 @@ def infer(metadata_url, output_root_dir):
         "APP_TOKEN": os.environ.get('APP_TOKEN')
     }).json()
 
-    view_type = socrata_metadata['viewType']
+    view_type = socrata_metadata.get('viewType')
     if view_type == 'tabular':
         data_type = 'csv'
         data_url = metadata_url.replace('.json', '/rows.csv')
@@ -84,7 +84,8 @@ def infer(metadata_url, output_root_dir):
         data_url = metadata_url.replace('api/views', 'api/geospatial') \
                                .replace('.json', '')
     else:
-        pass
+        LOGGER.warn(u'Cannot infer table from %s, `viewType` "%s" not recognized', socrata_metadata, view_type)
+        return
 
     if 'name' not in socrata_metadata:
         LOGGER.warn(u'Cannot infer table from %s, no `name`', socrata_metadata)
