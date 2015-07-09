@@ -1,6 +1,13 @@
 #!/bin/bash -e
 
-docker pull thegovlab/docker4data:latest >/dev/null
+IMAGE=thegovlab/docker4data
+
+if [ "$(docker images | grep $IMAGE)" ]; then
+  docker pull $IMAGE:latest >/dev/null
+else
+  echo "Pulling image for $IMAGE"
+  docker pull $IMAGE:latest
+fi
 docker run -p 54321:5432 -d --name docker4data thegovlab/docker4data:latest /bin/bash -c /scripts/docker-entrypoint.sh 2>/dev/null || :
 
 ARGS=( "$@" )
