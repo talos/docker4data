@@ -55,17 +55,13 @@ def run_remote_script(desc, tmp_dir, env_vars=None):
         raise Exception("Script type '{}' not supported".format(script_type))
 
 
-def generate_schema(schema_name, table_name, schema):
+def generate_schema(tmpname, schema):
     """
-    Generate a schema dynamically in cases where it's not previously supplied.
+    Generate a schema dynamically in cases where it doesn't exist already.
     """
     columns = [u'\t"{}"\t{}'.format(c['name'], c['type']) for c in schema['columns']]
-    return u'CREATE SCHEMA IF NOT EXISTS "{}"; CREATE TABLE "{}".{} ({})'.format(
-        schema_name,
-        schema_name,
-        table_name,
-        ',\n'.join(columns)
-    )
+    return u'CREATE TABLE "{tmpname}" (\n{columns}\n);\n'.format(
+        tmpname=tmpname, columns=',\n'.join(columns))
 
 
 def wget_download(url, name, tmp_dir):
@@ -124,7 +120,7 @@ def get_old_digest(s3_bucket, name):
     return old_headers['Metadata']['metadata_sha1_hexdigest']
 
 
-def pgload_import(dataset_name, data_path, load_format, tmp_dir):
+def pgload_import(tmpname, schema_name, dataset_name, data_path, load_format, tmp_dir): #pylint: disable=too-many-arguments
     """
     Import a dataset via pgload.
     """
@@ -135,20 +131,27 @@ def pgload_import(dataset_name, data_path, load_format, tmp_dir):
     with open(pgload_path, 'w') as pgload:
         pgload.write('''
 LOAD CSV FROM stdin
-  INTO postgresql://postgres@localhost/postgres?{}
+  INTO postgresql://postgres@localhost/postgres?tablename={tmpname}
   WITH skip header = 1,
        batch rows = 10000,
-       fields terminated by '{}';
-'''.format(dataset_name, separator))
+       fields terminated by '{sep}'
+  AFTER LOAD DO
+       $$ CREATE SCHEMA IF NOT EXISTS "{schema_name}"; $$,
+       $$ ALTER TABLE "{tmpname}"
+            SET SCHEMA "{schema_name}"; $$,
+       $$ ALTER TABLE "{schema_name}"."{tmpname}"
+            RENAME TO "{dataset_name}";
+       $$;
+'''.format(tmpname=tmpname, schema_name=schema_name, dataset_name=dataset_name, sep=separator))
 
-    script = 'gosu postgres tail -n +2 {} | '.format(data_path)
+    script = 'gosu postgres gunzip -c {} | tail -n +2 | '.format(data_path)
     if bool(load_format.get('unique', False)):
         script += 'sort | uniq | '
     script += 'pgloader {}'.format(pgload_path)
     shell(script)
 
 
-def build(url, s3_bucket, tmp_path):
+def build(url, s3_bucket, tmp_path): # pylint: disable=too-many-locals
     """
     Main function.  Takes the URL of the data.json spec.
 
@@ -160,8 +163,10 @@ def build(url, s3_bucket, tmp_path):
     resp = requests.get(url).json()
 
     dataset_name = resp[u'tableName']
+    schema_name = resp.get(u'schemaName', 'contrib')
     current_digest = get_current_digest(resp)
     old_digest = get_old_digest(s3_bucket, dataset_name)
+    tmpname = u'tmp_{}'.format(tmp_path.split('.')[-1].lower())
 
     # Able to verify nothing has changed, abort.
     if current_digest and old_digest and current_digest == old_digest:
@@ -169,7 +174,7 @@ def build(url, s3_bucket, tmp_path):
                     current_digest, old_digest, dataset_name)
         sys.exit(100)  # Error exit code to stop build.sh
 
-    if resp[u'dataType'] != 'csv':
+    if resp[u'data'][u'type'] != 'csv':
         LOGGER.warn(u'Not yet able to deal with data type %s', resp[u'dataType'])
         sys.exit(1)
 
@@ -179,20 +184,22 @@ def build(url, s3_bucket, tmp_path):
     else:
         schema_path = os.path.join(tmp_path, 'schema.sql')
         with open(schema_path, 'w') as schema_file:
-            schema_file.write(generate_schema(dataset_name, schema))
-    shell("gosu postgres psql -c 'DROP TABLE IF EXISTS {}'".format(dataset_name))
+            schema_file.write(generate_schema(tmpname, schema))
+    shell("gosu postgres psql -c 'DROP TABLE IF EXISTS \"{}\".{}'".format(
+        schema_name, dataset_name))
+
     run_postgres_script(schema_path)
 
-    data_filename = dataset_name + '.data'
-    data_path = wget_download(resp[u'data'][u'@id'], data_filename, tmp_path)
+    data_path = wget_download(resp[u'data'][u'@id'], 'data', tmp_path)
 
     for before in resp.get(u'before', []):
-        run_remote_script(before, tmp_path, {'DATASET': data_filename})
+        run_remote_script(before, tmp_path, {'DATASET': 'data'})
 
-    pgload_import(dataset_name, data_path, resp.get(u'load_format', {}), tmp_path)
+    pgload_import(tmpname, schema_name, dataset_name, data_path,
+                  resp.get(u'load_format', {}), tmp_path)
 
     for after in resp.get(u'after', []):
-        run_remote_script(after, tmp_path, {'DATASET': data_filename})
+        run_remote_script(after, tmp_path, {'DATASET': 'data'})
 
     sys.stdout.write(current_digest)
 

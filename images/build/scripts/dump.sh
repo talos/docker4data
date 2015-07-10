@@ -1,6 +1,10 @@
 #!/bin/bash
 
-NAME=$1
+FULLNAME=$1
 OUT=$2
 
-gosu postgres pg_dump -F c -Z 9 -t ${NAME} -f ${OUT} postgres
+TABLENAME=$(basename $FULLNAME)
+SCHEMANAME=$(dirname $FULLNAME)
+
+gosu postgres pg_dump -F c -Z 9 --schema=\"${SCHEMANAME}\" \
+    -t \"${SCHEMANAME}\".\"${TABLENAME}\" -f ${OUT} postgres
