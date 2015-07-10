@@ -1,0 +1,86 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/idph_stds_nationally_ranked_by_state/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/3pdc-gk5d/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "U.S. states ranked by cases of Chlamydia, gonorrhea, and primary and secondary syphilis reported.  Data Source: Centers for Disease Control and Prevention Surveillance Reports 2000-2013 (http://www.cdc.gov/std/stats11/default.htm)", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Centers for Disease Control and Prevention", 
+    "category": "Public Health", 
+    "description": "U.S. states ranked by cases of Chlamydia, gonorrhea, and primary and secondary syphilis reported.  Data Source: Centers for Disease Control and Prevention Surveillance Reports 2000-2013 (http://www.cdc.gov/std/stats11/default.htm)", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/3pdc-gk5d.json"
+    }
+  }, 
+  "name": "IDPH: STDs Nationally Ranked By State", 
+  "schema": {
+    "columns": [
+      {
+        "name": "sort", 
+        "type": "real"
+      }, 
+      {
+        "name": "year", 
+        "type": "text"
+      }, 
+      {
+        "name": "state", 
+        "type": "text"
+      }, 
+      {
+        "name": "chlamydia_count", 
+        "type": "real"
+      }, 
+      {
+        "name": "chlamydia_rate", 
+        "type": "real"
+      }, 
+      {
+        "name": "chlamydia_rankbycount", 
+        "type": "real"
+      }, 
+      {
+        "name": "chlamydia_rankbyrate", 
+        "type": "real"
+      }, 
+      {
+        "name": "gonorrhea_count", 
+        "type": "real"
+      }, 
+      {
+        "name": "gonorrhea_rate", 
+        "type": "real"
+      }, 
+      {
+        "name": "gonorrhea_rankbycount", 
+        "type": "real"
+      }, 
+      {
+        "name": "gonorrhea_rankbyrate", 
+        "type": "real"
+      }, 
+      {
+        "name": "primary_secondary_syphilis_count", 
+        "type": "real"
+      }, 
+      {
+        "name": "primary_secondary_syphilis_rate", 
+        "type": "real"
+      }, 
+      {
+        "name": "primary_secondary_syphilis_rankbycount", 
+        "type": "real"
+      }, 
+      {
+        "name": "primary_secondary_syphilis_rankbyrate", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.illinois.gov", 
+  "tableName": "idph_stds_nationally_ranked_by_state"
+}

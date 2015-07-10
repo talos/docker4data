@@ -1,0 +1,58 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/child_health_plus_program_enrollment_beginning_2009/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/izdx-gtc9/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "This dataset contains the aggregate number of Child Health Plus Beneficiaries by eligibility year and month within each economic region, health plan, gender, age group, and race/ethnicity. Child Health Plus is a government insurance program for eligible children through the month in which they turn nineteen, whose income and resources fall within program guidelines. For more information check out: http://www.health.ny.gov/health_care/child_health_plus or go to the \u201cAbout\u201d tab.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New York State Department of Health", 
+    "category": "Health", 
+    "description": "This dataset contains the aggregate number of Child Health Plus Beneficiaries by eligibility year and month within each economic region, health plan, gender, age group, and race/ethnicity. Child Health Plus is a government insurance program for eligible children through the month in which they turn nineteen, whose income and resources fall within program guidelines. For more information check out: http://www.health.ny.gov/health_care/child_health_plus or go to the \u201cAbout\u201d tab.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/izdx-gtc9.json"
+    }
+  }, 
+  "name": "Child Health Plus Program Enrollment: Beginning 2009", 
+  "schema": {
+    "columns": [
+      {
+        "name": "eligibility_year", 
+        "type": "real"
+      }, 
+      {
+        "name": "eligibility_month", 
+        "type": "real"
+      }, 
+      {
+        "name": "economic_region", 
+        "type": "text"
+      }, 
+      {
+        "name": "plan_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "gender", 
+        "type": "text"
+      }, 
+      {
+        "name": "age_group", 
+        "type": "text"
+      }, 
+      {
+        "name": "race", 
+        "type": "text"
+      }, 
+      {
+        "name": "number_of_enrollees", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/health.data.ny.gov", 
+  "tableName": "child_health_plus_program_enrollment_beginning_2009"
+}

@@ -1,0 +1,58 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/performance_metrics_business_affairs_consumer_protection_limited_business_licenses/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/7483-qiqw/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Limited Business Licenses (LBLs) are required for all Chicago businesses not specifically exempt from licensing requirements. This includes all business that provide services, or engage in office operations or general sales. Currently the performance target for processing Limited Business Licenses is 3 days.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "City of Chicago", 
+    "category": "Administration & Finance", 
+    "description": "Limited Business Licenses (LBLs) are required for all Chicago businesses not specifically exempt from licensing requirements. This includes all business that provide services, or engage in office operations or general sales. Currently the performance target for processing Limited Business Licenses is 3 days.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/7483-qiqw.json"
+    }
+  }, 
+  "name": "Performance Metrics - Business Affairs & Consumer Protection - Limited Business Licenses", 
+  "schema": {
+    "columns": [
+      {
+        "name": "week", 
+        "type": "text"
+      }, 
+      {
+        "name": "total_licenses_issued", 
+        "type": "real"
+      }, 
+      {
+        "name": "average_days_to_issue_license", 
+        "type": "real"
+      }, 
+      {
+        "name": "median_days_to_issue_license", 
+        "type": "real"
+      }, 
+      {
+        "name": "target_days_to_issue_license", 
+        "type": "real"
+      }, 
+      {
+        "name": "quarter", 
+        "type": "text"
+      }, 
+      {
+        "name": "weeks_target_was_achieved", 
+        "type": "real"
+      }, 
+      {
+        "name": "weeks_target_was_not_achieved", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.cityofchicago.org", 
+  "tableName": "performance_metrics_business_affairs_consumer_protection_limited_business_licenses"
+}

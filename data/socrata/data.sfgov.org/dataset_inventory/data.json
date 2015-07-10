@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_dataset_inventory/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/y8fp-fbf5/rows.csv"
+    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/y8fp-fbf5/rows.csv", 
+    "type": "csv"
   }, 
   "description": "The dataset inventory provides a list of data maintained by departments that are candidates for open data publishing or have already been published and is collected in accordance with Chapter 22D of the Administrative Code. The inventory will be used in conjunction with department publishing plans to track progress toward meeting plan goals for each department. These plans will be made available early in the summer 2015.", 
   "maintainer": {
@@ -63,5 +64,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_sfgov_dataset_inventory"
+  "schemaName": "socrata/data.sfgov.org", 
+  "tableName": "dataset_inventory"
 }

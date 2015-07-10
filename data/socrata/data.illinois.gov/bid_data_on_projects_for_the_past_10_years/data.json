@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_bid_data_on_projects_for_the_past_10_years/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/u8e9-ci8g/rows.csv"
+    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/u8e9-ci8g/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Lists all the firms that bid on projects from 2004 to present", 
   "maintainer": {
@@ -72,5 +73,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_illinois_bid_data_on_projects_for_the_past_10_years"
+  "schemaName": "socrata/data.illinois.gov", 
+  "tableName": "bid_data_on_projects_for_the_past_10_years"
 }

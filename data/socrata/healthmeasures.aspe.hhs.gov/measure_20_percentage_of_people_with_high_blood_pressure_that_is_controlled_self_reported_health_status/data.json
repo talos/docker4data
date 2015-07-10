@@ -1,0 +1,42 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/measure_20_percentage_of_people_with_high_blood_pressure_that_is_controlled_self_reported_health_status/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/pa24-e4kv/rows.csv", 
+    "type": "csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "socrata": {
+      "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/pa24-e4kv.json"
+    }
+  }, 
+  "name": "Measure 20 : Percentage of People with High Blood Pressure that is Controlled | Self Reported Health Status", 
+  "schema": {
+    "columns": [
+      {
+        "name": "measure_value", 
+        "type": "text"
+      }, 
+      {
+        "name": "year", 
+        "type": "text"
+      }, 
+      {
+        "name": "self_reported_health_status", 
+        "type": "text"
+      }, 
+      {
+        "name": "lower_ci", 
+        "type": "real"
+      }, 
+      {
+        "name": "upper_ci", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/healthmeasures.aspe.hhs.gov", 
+  "tableName": "measure_20_percentage_of_people_with_high_blood_pressure_that_is_controlled_self_reported_health_status"
+}

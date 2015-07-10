@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_liquid_fuel_tax_base_and_tax_collections/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/ghq7-kwjf/rows.csv"
+    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/ghq7-kwjf/rows.csv", 
+    "type": "csv"
   }, 
   "description": "This series shows quantities and tax amounts for fuel subject to fuel taxes or to the environmental response tax.  The quantities and taxes are broken down by county and by type of fuel.", 
   "maintainer": {
@@ -54,5 +55,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_hawaii_liquid_fuel_tax_base_and_tax_collections"
+  "schemaName": "socrata/data.hawaii.gov", 
+  "tableName": "liquid_fuel_tax_base_and_tax_collections"
 }

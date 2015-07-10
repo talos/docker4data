@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_permit_types/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/6wa6-8527/rows.csv"
+    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/6wa6-8527/rows.csv", 
+    "type": "csv"
   }, 
   "description": "a child table for --Street-Use Permits-- and --Right of Way Exception Data--.  contains a translation of permit type abbreviations", 
   "maintainer": {
@@ -28,5 +29,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_sfgov_permit_types"
+  "schemaName": "socrata/data.sfgov.org", 
+  "tableName": "permit_types"
 }

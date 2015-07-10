@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_weatherfordtx_primary_datasets/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/32ak-r84i/rows.csv"
+    "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/32ak-r84i/rows.csv", 
+    "type": "csv"
   }, 
   "description": "A listing of all primary datasets and links to embed in the City's web site.", 
   "maintainer": {
@@ -31,5 +32,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_weatherfordtx_primary_datasets"
+  "schemaName": "socrata/data.weatherfordtx.gov", 
+  "tableName": "primary_datasets"
 }

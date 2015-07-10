@@ -1,0 +1,66 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/paid_in_contributions_to_ibrd_ida_ifc_trust_funds_based_on_fy_of_receipt/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/nh5z-5qch/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "This dataset provides a summary of the total funds received from donors for Trust Funds on the form of cash, promissory notes or other instruments acceptable to the World Bank Group entity administering the Trust Fund. The summary is based on the fiscal year of receipt. Data is provided at the individual Trust Fund level. All definitions should be regarded at present as provisional and not final, and are subject to revision at any time. Please refer to http://www.cfpto.org/TFGlossary2012/ for the Trust Fund Glossary. In fulfilling its responsibilities, the World Bank as Trustee complies with all sanctions applicable to World Bank transactions.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "World Bank Group", 
+    "category": "Trust Funds", 
+    "description": "This dataset provides a summary of the total funds received from donors for Trust Funds on the form of cash, promissory notes or other instruments acceptable to the World Bank Group entity administering the Trust Fund. The summary is based on the fiscal year of receipt. Data is provided at the individual Trust Fund level. All definitions should be regarded at present as provisional and not final, and are subject to revision at any time. Please refer to http://www.cfpto.org/TFGlossary2012/ for the Trust Fund Glossary. In fulfilling its responsibilities, the World Bank as Trustee complies with all sanctions applicable to World Bank transactions.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/nh5z-5qch.json"
+    }
+  }, 
+  "name": "Paid In Contributions to IBRD/IDA/IFC Trust Funds based on FY of Receipt", 
+  "schema": {
+    "columns": [
+      {
+        "name": "as_of_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "fund", 
+        "type": "text"
+      }, 
+      {
+        "name": "trustee_fund_number", 
+        "type": "text"
+      }, 
+      {
+        "name": "trustee_fund_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "donor_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "donor_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "donor_agency", 
+        "type": "text"
+      }, 
+      {
+        "name": "fiscal_year_of_receipt", 
+        "type": "real"
+      }, 
+      {
+        "name": "_contributions_paid_in_usd_", 
+        "type": "real"
+      }, 
+      {
+        "name": "status", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/finances.worldbank.org", 
+  "tableName": "paid_in_contributions_to_ibrd_ida_ifc_trust_funds_based_on_fy_of_receipt"
+}

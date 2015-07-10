@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_landlord_utility_passthroughs/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/5ayi-he6v/rows.csv"
+    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/5ayi-he6v/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Where a landlord pays for gas, electricity and/or steam provided to the tenant's unit and/or to the common areas of the property, the landlord may recover the increase in the cost of these utilities from the tenants in the form of a utility passthrough \r\nTime Period: January 1, 2004 thru December 31, 2010", 
   "maintainer": {
@@ -56,5 +57,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_sfgov_landlord_utility_passthroughs"
+  "schemaName": "socrata/data.sfgov.org", 
+  "tableName": "landlord_utility_passthroughs"
 }

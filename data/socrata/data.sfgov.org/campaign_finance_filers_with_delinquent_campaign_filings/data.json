@@ -1,0 +1,42 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/campaign_finance_filers_with_delinquent_campaign_filings/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/jb8g-e374/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "According to its records, the Ethics Commission has identified the campaign finance disclosure filers in this table as non-responsive (NR) filers.  NR filers are those that have not responded to two or more written notices and one or more verbal notices regarding past-due reporting.  Please note that Ethics Commission records are subject to change and the table below may not include all NR filers or reflect recent activity.  The NR filers are encouraged to contact the Commission because continued failure to file may result in an enforcement action.  Posted NR filers are removed from the list after filing their past-due campaign statement(s) or five years have elapsed since the applicable filing deadline.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "San Francisco Ethics Commission", 
+    "category": "City Management and Ethics", 
+    "description": "According to its records, the Ethics Commission has identified the campaign finance disclosure filers in this table as non-responsive (NR) filers.  NR filers are those that have not responded to two or more written notices and one or more verbal notices regarding past-due reporting.  Please note that Ethics Commission records are subject to change and the table below may not include all NR filers or reflect recent activity.  The NR filers are encouraged to contact the Commission because continued failure to file may result in an enforcement action.  Posted NR filers are removed from the list after filing their past-due campaign statement(s) or five years have elapsed since the applicable filing deadline.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/jb8g-e374.json"
+    }
+  }, 
+  "name": "Campaign Finance - Filers With Delinquent Campaign Filings", 
+  "schema": {
+    "columns": [
+      {
+        "name": "name", 
+        "type": "text"
+      }, 
+      {
+        "name": "id", 
+        "type": "text"
+      }, 
+      {
+        "name": "treasurer", 
+        "type": "text"
+      }, 
+      {
+        "name": "applicable_date_of_election", 
+        "type": "timestamp"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.sfgov.org", 
+  "tableName": "campaign_finance_filers_with_delinquent_campaign_filings"
+}

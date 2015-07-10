@@ -1,0 +1,34 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/august_2014_primary_results_schedule/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/electionsdata.kingcounty.gov/api/views/kjaj-8den/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Primary election results posting schedule; daily updates subject to change.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "King County Elections", 
+    "category": "Government", 
+    "description": "Primary election results posting schedule; daily updates subject to change.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/electionsdata.kingcounty.gov/api/views/kjaj-8den.json"
+    }
+  }, 
+  "name": "August 2014 Primary Results Schedule", 
+  "schema": {
+    "columns": [
+      {
+        "name": "date_and_time", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "results_posting", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/electionsdata.kingcounty.gov", 
+  "tableName": "august_2014_primary_results_schedule"
+}

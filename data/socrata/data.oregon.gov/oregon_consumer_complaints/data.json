@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oregon_oregon_consumer_complaints/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/2ix7-8hwk/rows.csv"
+    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/2ix7-8hwk/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Consumer complaints registered with the Oregon Dept. of Justice.  The database of consumer complaints is derived from consumer contacts for the past 3 years and is for information only. This database may not offer a completely accurate or comprehensive account of every incident. Several factors, including a company\u2019s size and volume of transactions, may affect the likelihood of a consumer complaint being filed. The number of complaints about a business may not be a reliable measure as to whether it is appropriately conducting business.\r\n\r\nThe information in this database is updated as soon as possible. However, recently submitted complaints may not be immediately available.\r\n\r\nThe statements in this database do not necessarily reflect the opinion of the DOJ.\r\n\r\nFor more information, see http://www.doj.state.or.us/finfraud/index.shtml", 
   "maintainer": {
@@ -76,5 +77,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_oregon_oregon_consumer_complaints"
+  "schemaName": "socrata/data.oregon.gov", 
+  "tableName": "oregon_consumer_complaints"
 }

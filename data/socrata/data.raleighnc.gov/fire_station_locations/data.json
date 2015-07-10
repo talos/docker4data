@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_raleighnc_fire_station_locations/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.raleighnc.gov/api/views/svy9-98zt/rows.csv"
+    "@id": "http://www.opendatacache.com/data.raleighnc.gov/api/views/svy9-98zt/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Fire Station Locations\r\nhttps://maps.raleighnc.gov/arcgis/rest/services/Services/OpenData/MapServer/5", 
   "maintainer": {
@@ -55,5 +56,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_raleighnc_fire_station_locations"
+  "schemaName": "socrata/data.raleighnc.gov", 
+  "tableName": "fire_station_locations"
 }

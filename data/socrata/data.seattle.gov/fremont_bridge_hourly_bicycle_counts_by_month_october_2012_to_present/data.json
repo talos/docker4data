@@ -1,0 +1,38 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/fremont_bridge_hourly_bicycle_counts_by_month_october_2012_to_present/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/65db-xm6k/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "The Fremont Bridge Bicycle Counter records the number of bikes that cross the bridge using the pedestrian/bicycle pathways. Inductive loops on the east and west pathways count the passing of bicycles regardless of travel direction. The data consists of a date/time field: Date, east pathway count field: Fremont Bridge NB,  and west pathway count field: Fremont Bridge SB. The count fields represent the total bicycles detected during the specified one hour period. Direction of travel is not specified, but in general most traffic in the Fremont Bridge NB field is travelling northbound and most traffic in the Fremont Bridge SB field is travelling southbound.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Seattle Department of Transportation", 
+    "category": "Transportation", 
+    "description": "The Fremont Bridge Bicycle Counter records the number of bikes that cross the bridge using the pedestrian/bicycle pathways. Inductive loops on the east and west pathways count the passing of bicycles regardless of travel direction. The data consists of a date/time field: Date, east pathway count field: Fremont Bridge NB,  and west pathway count field: Fremont Bridge SB. The count fields represent the total bicycles detected during the specified one hour period. Direction of travel is not specified, but in general most traffic in the Fremont Bridge NB field is travelling northbound and most traffic in the Fremont Bridge SB field is travelling southbound.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/65db-xm6k.json"
+    }
+  }, 
+  "name": "Fremont Bridge Hourly Bicycle Counts by Month October 2012 to present", 
+  "schema": {
+    "columns": [
+      {
+        "name": "date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "fremont_bridge_nb", 
+        "type": "real"
+      }, 
+      {
+        "name": "fremont_bridge_sb", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.seattle.gov", 
+  "tableName": "fremont_bridge_hourly_bicycle_counts_by_month_october_2012_to_present"
+}

@@ -1,0 +1,42 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/spending_disclosure_fiscal_year_2014/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/9w77-kckj/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "The purpose of this Spending Disclosure FY14 dataset is to allow the public to search and view summary information on payments made to recipients (referred to as suppliers) that received $25,000 or more in a fiscal year. Note that salary and benefit payments to employees, pension payments to retirees, and any information that is confidential under State or Federal law is excluded from disclosure.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Montgomery County Department of Finance", 
+    "category": "Finance/Tax/Property", 
+    "description": "The purpose of this Spending Disclosure FY14 dataset is to allow the public to search and view summary information on payments made to recipients (referred to as suppliers) that received $25,000 or more in a fiscal year. Note that salary and benefit payments to employees, pension payments to retirees, and any information that is confidential under State or Federal law is excluded from disclosure.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/9w77-kckj.json"
+    }
+  }, 
+  "name": "Spending Disclosure - Fiscal Year 2014", 
+  "schema": {
+    "columns": [
+      {
+        "name": "supplier_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "zip_code", 
+        "type": "real"
+      }, 
+      {
+        "name": "department", 
+        "type": "text"
+      }, 
+      {
+        "name": "amount", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.montgomerycountymd.gov", 
+  "tableName": "spending_disclosure_fiscal_year_2014"
+}

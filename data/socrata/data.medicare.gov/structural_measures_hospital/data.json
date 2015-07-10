@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_medicare_structural_measures_hospital/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/4hje-vua3/rows.csv"
+    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/4hje-vua3/rows.csv", 
+    "type": "csv"
   }, 
   "description": "A list of hospitals and the availability of structural measures at that hospital. A structural measure reflects the environment in which hospitals care for patients. For example, whether or not a hospital participates in a Cardiac Surgery Registry.", 
   "maintainer": {
@@ -79,5 +80,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_medicare_structural_measures_hospital"
+  "schemaName": "socrata/data.medicare.gov", 
+  "tableName": "structural_measures_hospital"
 }

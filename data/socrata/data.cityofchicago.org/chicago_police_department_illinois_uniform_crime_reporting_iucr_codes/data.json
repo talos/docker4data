@@ -1,0 +1,42 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/chicago_police_department_illinois_uniform_crime_reporting_iucr_codes/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/c7ck-438e/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Illinois Uniform Crime Reporting (IUCR) codes are four digit codes that law enforcement agencies use to classify criminal incidents when taking individual reports. These codes are also used to aggregate types of cases for statistical purposes.  In Illinois, the Illinois State Police establish IUCR codes, but the agencies can add codes to suit their individual needs.  The Chicago Police Department currently uses more than 350 IUCR codes to classify criminal offenses, divided into \u201cIndex\u201d and \u201cNon-Index\u201d offenses.  Index offenses are the offenses that are collected nation-wide by the Federal Bureaus of Investigation\u2019s Uniform Crime Reports program to document crime trends over time (data released semi-annually), and include murder, criminal sexual assault, robbery, aggravated assault & battery, burglary, theft, motor vehicle theft, and arson.  Non-index offenses are all other types of criminal incidents, including vandalism, weapons violations, public peace violations, etc.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Chicago Police Department", 
+    "category": "Public Safety", 
+    "description": "Illinois Uniform Crime Reporting (IUCR) codes are four digit codes that law enforcement agencies use to classify criminal incidents when taking individual reports. These codes are also used to aggregate types of cases for statistical purposes.  In Illinois, the Illinois State Police establish IUCR codes, but the agencies can add codes to suit their individual needs.  The Chicago Police Department currently uses more than 350 IUCR codes to classify criminal offenses, divided into \u201cIndex\u201d and \u201cNon-Index\u201d offenses.  Index offenses are the offenses that are collected nation-wide by the Federal Bureaus of Investigation\u2019s Uniform Crime Reports program to document crime trends over time (data released semi-annually), and include murder, criminal sexual assault, robbery, aggravated assault & battery, burglary, theft, motor vehicle theft, and arson.  Non-index offenses are all other types of criminal incidents, including vandalism, weapons violations, public peace violations, etc.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/c7ck-438e.json"
+    }
+  }, 
+  "name": "Chicago Police Department - Illinois Uniform Crime Reporting (IUCR) Codes", 
+  "schema": {
+    "columns": [
+      {
+        "name": "iucr", 
+        "type": "text"
+      }, 
+      {
+        "name": "primary_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "secondary_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "index_code", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.cityofchicago.org", 
+  "tableName": "chicago_police_department_illinois_uniform_crime_reporting_iucr_codes"
+}

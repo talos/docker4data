@@ -1,0 +1,66 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/hepatitis_b_birth_dose_vaccination_rates_beginning_2012/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/favj-y88j/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "This dataset contains an annual summary of the number of infants receiving a dose of hepatitis B vaccine within 3 days of birth at hospitals around the state.  The data is extracted from the New York Statewide Perinatal Data System and includes only live birth infants weighing at least 2,000 grams at birth. For more information, check out: http://www.health.ny.gov/prevention/immunization/,  or go to the \u201cAbout\u201d tab.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New York State Department of Health", 
+    "category": "Health", 
+    "description": "This dataset contains an annual summary of the number of infants receiving a dose of hepatitis B vaccine within 3 days of birth at hospitals around the state.  The data is extracted from the New York Statewide Perinatal Data System and includes only live birth infants weighing at least 2,000 grams at birth. For more information, check out: http://www.health.ny.gov/prevention/immunization/,  or go to the \u201cAbout\u201d tab.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/favj-y88j.json"
+    }
+  }, 
+  "name": "Hepatitis B Birth Dose Vaccination Rates: Beginning 2012", 
+  "schema": {
+    "columns": [
+      {
+        "name": "year", 
+        "type": "real"
+      }, 
+      {
+        "name": "pfi", 
+        "type": "real"
+      }, 
+      {
+        "name": "county", 
+        "type": "text"
+      }, 
+      {
+        "name": "region", 
+        "type": "text"
+      }, 
+      {
+        "name": "maternity_facility", 
+        "type": "text"
+      }, 
+      {
+        "name": "total_births", 
+        "type": "real"
+      }, 
+      {
+        "name": "infants_2000_gm", 
+        "type": "real"
+      }, 
+      {
+        "name": "adj_births", 
+        "type": "real"
+      }, 
+      {
+        "name": "total_infants_vaccinated", 
+        "type": "real"
+      }, 
+      {
+        "name": "infants_vaccinated1", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/health.data.ny.gov", 
+  "tableName": "hepatitis_b_birth_dose_vaccination_rates_beginning_2012"
+}

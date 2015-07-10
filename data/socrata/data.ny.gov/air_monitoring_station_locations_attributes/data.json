@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_air_monitoring_station_locations_attributes/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/qcpj-zdb6/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/qcpj-zdb6/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Location maps of  monitoring sites and measured parameters in the NY State Ambient Air Monitoring Network", 
   "maintainer": {
@@ -124,5 +125,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ny_air_monitoring_station_locations_attributes"
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "air_monitoring_station_locations_attributes"
 }

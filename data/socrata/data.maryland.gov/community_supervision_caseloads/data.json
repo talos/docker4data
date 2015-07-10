@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_community_supervision_caseloads/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/9fm9-iwza/rows.csv"
+    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/9fm9-iwza/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Data reflect the statewide caseloads for Community Supervision within the Department of Public Safety and Community Supervision, to include:  parole, mandatory\trelease, probation, probation before judgement, Drinking Driver Monitor Program (DDMP).  The data set also contains the statewide average for cases per monitor for Community Supervision.", 
   "maintainer": {
@@ -48,5 +49,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_maryland_community_supervision_caseloads"
+  "schemaName": "socrata/data.maryland.gov", 
+  "tableName": "community_supervision_caseloads"
 }

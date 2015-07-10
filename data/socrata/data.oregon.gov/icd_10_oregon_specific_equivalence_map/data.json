@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oregon_icd_10_oregon_specific_equivalence_map/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/2kx3-jmrj/rows.csv"
+    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/2kx3-jmrj/rows.csv", 
+    "type": "csv"
   }, 
   "description": "DISCLAIMER: The Oregon-Specific Equivalence Map includes ICD-9 codes translated to ICD-10 based on a clinical and policy analysis of each code. It is not intended to be used as an ICD-10 conversion or crosswalk tool. The final version of this map will be released in August 2014. The Oregon Health Authority (OHA) gives no indemnity as to the correctness of the information or the data given in the Oregon-Specific Equivalence Map and shall not be liable for any loss or damage arising directly or indirectly from use of the data supplied in the Oregon-Specific Equivalence Map. The information in the Oregon-Specific Equivalence Map has not been vetted by the Centers for Medicare and Medicaid Services (CMS) and should not be considered an official CMS document. OHA encourages readers to review the specific statutes, regulations and other interpretive materials relating to Oregon Administrative Rule 410-120-1280 \u2013 Billing.", 
   "maintainer": {
@@ -40,5 +41,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_oregon_icd_10_oregon_specific_equivalence_map"
+  "schemaName": "socrata/data.oregon.gov", 
+  "tableName": "icd_10_oregon_specific_equivalence_map"
 }

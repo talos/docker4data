@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_carto_ctylimit/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/eykv-q5y9/rows.csv"
+    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/eykv-q5y9/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Delineates north and south boundaries of City of Seattle", 
   "maintainer": {
@@ -36,5 +37,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_seattle_carto_ctylimit"
+  "schemaName": "socrata/data.seattle.gov", 
+  "tableName": "carto_ctylimit"
 }

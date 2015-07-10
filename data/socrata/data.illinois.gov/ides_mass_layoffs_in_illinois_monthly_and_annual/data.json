@@ -1,0 +1,54 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ides_mass_layoffs_in_illinois_monthly_and_annual/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/6jt3-ntuh/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Includes all potential mass layoff events, regardless of the reason for the layoffs or their duration (i.e.temporary, extended; seasonal and economic related layoffs)\r\nThe number of weeks included in each month can vary each year, thereby limiting comparability across years.\r\nPreliminary data.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "IDES - Economic Information and Analysis Division", 
+    "category": "Economics", 
+    "description": "Includes all potential mass layoff events, regardless of the reason for the layoffs or their duration (i.e.temporary, extended; seasonal and economic related layoffs)\r\nThe number of weeks included in each month can vary each year, thereby limiting comparability across years.\r\nPreliminary data.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/6jt3-ntuh.json"
+    }
+  }, 
+  "name": "IDES - Mass Layoffs in Illinois, monthly and annual", 
+  "schema": {
+    "columns": [
+      {
+        "name": "month", 
+        "type": "text"
+      }, 
+      {
+        "name": "layoff_events", 
+        "type": "text"
+      }, 
+      {
+        "name": "initial_claims", 
+        "type": "text"
+      }, 
+      {
+        "name": "layoff_events_same_month_one_year_earlier", 
+        "type": "text"
+      }, 
+      {
+        "name": "initial_claims_same_month_one_year_earlier", 
+        "type": "text"
+      }, 
+      {
+        "name": "over_the_year_change_layoffs", 
+        "type": "text"
+      }, 
+      {
+        "name": "over_the_year_change_initial_claims", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.illinois.gov", 
+  "tableName": "ides_mass_layoffs_in_illinois_monthly_and_annual"
+}

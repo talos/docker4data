@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_kingcounty_public_health_clinics/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/dnjy-kgwg/rows.csv"
+    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/dnjy-kgwg/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Clinic locations for Seattle/King County Public Health", 
   "maintainer": {
@@ -48,5 +49,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_kingcounty_public_health_clinics"
+  "schemaName": "socrata/data.kingcounty.gov", 
+  "tableName": "public_health_clinics"
 }

@@ -1,0 +1,94 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/community_health_indicator_reports_chirs_latest_data/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/54ci-sdfi/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "This dataset contains the latest community health indicator data available. New York State Community Health Indicator Reports (CHIRS) were developed in 2012, and are updated annually to consolidate and improve data linkages for the health indicators included in the County Health Assessment Indicators (CHAI) for all communities in New York. The CHIRS present data for more than 300 health indicators that are organized by 15 different health topics. Data tables are provided for all 62 New York State counties, 11 regions (including New York City), the State excluding New York City, and New York State. For more information, check out: http://www.health.ny.gov/statistics/chac/indicators/ or go to the \u201cAbout\u201d tab.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New York State Department of Health", 
+    "category": "Health", 
+    "description": "This dataset contains the latest community health indicator data available. New York State Community Health Indicator Reports (CHIRS) were developed in 2012, and are updated annually to consolidate and improve data linkages for the health indicators included in the County Health Assessment Indicators (CHAI) for all communities in New York. The CHIRS present data for more than 300 health indicators that are organized by 15 different health topics. Data tables are provided for all 62 New York State counties, 11 regions (including New York City), the State excluding New York City, and New York State. For more information, check out: http://www.health.ny.gov/statistics/chac/indicators/ or go to the \u201cAbout\u201d tab.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/54ci-sdfi.json"
+    }
+  }, 
+  "name": "Community Health Indicator Reports (CHIRS): Latest Data", 
+  "schema": {
+    "columns": [
+      {
+        "name": "county_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "health_topic_number", 
+        "type": "real"
+      }, 
+      {
+        "name": "health_topic", 
+        "type": "text"
+      }, 
+      {
+        "name": "indicator_number", 
+        "type": "text"
+      }, 
+      {
+        "name": "indicator", 
+        "type": "text"
+      }, 
+      {
+        "name": "event_count", 
+        "type": "real"
+      }, 
+      {
+        "name": "average_number_of_denominator", 
+        "type": "real"
+      }, 
+      {
+        "name": "measure_unit", 
+        "type": "text"
+      }, 
+      {
+        "name": "percent_rate", 
+        "type": "real"
+      }, 
+      {
+        "name": "lower_limit_of_95_ci", 
+        "type": "real"
+      }, 
+      {
+        "name": "upper_limit_of_95_ci", 
+        "type": "real"
+      }, 
+      {
+        "name": "data_comments", 
+        "type": "text"
+      }, 
+      {
+        "name": "quartile", 
+        "type": "text"
+      }, 
+      {
+        "name": "data_years", 
+        "type": "text"
+      }, 
+      {
+        "name": "data_source", 
+        "type": "text"
+      }, 
+      {
+        "name": "mapping_distribution", 
+        "type": "real"
+      }, 
+      {
+        "name": "location", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/health.data.ny.gov", 
+  "tableName": "community_health_indicator_reports_chirs_latest_data"
+}

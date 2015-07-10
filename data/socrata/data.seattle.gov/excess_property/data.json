@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_excess_property/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/yenx-5x5h/rows.csv"
+    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/yenx-5x5h/rows.csv", 
+    "type": "csv"
   }, 
   "description": "List of  properties in the reuse and disposition review process", 
   "maintainer": {
@@ -119,5 +120,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_seattle_excess_property"
+  "schemaName": "socrata/data.seattle.gov", 
+  "tableName": "excess_property"
 }

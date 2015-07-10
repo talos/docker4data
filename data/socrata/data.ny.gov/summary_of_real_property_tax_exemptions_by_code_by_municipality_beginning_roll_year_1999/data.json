@@ -1,0 +1,78 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/summary_of_real_property_tax_exemptions_by_code_by_municipality_beginning_roll_year_1999/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/ykg4-r7ad/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "The Department of Taxation and Finance annually produces a report pertaining to the exemptions from real property taxation in New York State.  The data analysis includes an examination and summary of exemptions by exemption code for each municipality in the State.  The summary data include the number of exemptions in each code, the assessed value of the parcels containing the exemption code and the exemption amount itself, as well as the estimated full value of both the parcels containing the exemption code and the exemption amount.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New York State Department of Taxation and Finance", 
+    "category": "Government & Finance", 
+    "description": "The Department of Taxation and Finance annually produces a report pertaining to the exemptions from real property taxation in New York State.  The data analysis includes an examination and summary of exemptions by exemption code for each municipality in the State.  The summary data include the number of exemptions in each code, the assessed value of the parcels containing the exemption code and the exemption amount itself, as well as the estimated full value of both the parcels containing the exemption code and the exemption amount.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/ykg4-r7ad.json"
+    }
+  }, 
+  "name": "Summary of Real Property Tax Exemptions by Code by Municipality: Beginning Roll Year 1999", 
+  "schema": {
+    "columns": [
+      {
+        "name": "roll_year", 
+        "type": "real"
+      }, 
+      {
+        "name": "swis_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "municipality_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "county_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "exemption_code_number", 
+        "type": "real"
+      }, 
+      {
+        "name": "law_type_section", 
+        "type": "text"
+      }, 
+      {
+        "name": "exemption_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "exemption_group_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "exempt_parcels", 
+        "type": "real"
+      }, 
+      {
+        "name": "total_assessed_value_of_exempt_parcels", 
+        "type": "real"
+      }, 
+      {
+        "name": "estimated_total_full_value_of_exempt_parcels", 
+        "type": "real"
+      }, 
+      {
+        "name": "total_exempt_amount", 
+        "type": "real"
+      }, 
+      {
+        "name": "estimated_total_full_value_of_exempt_amount", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "summary_of_real_property_tax_exemptions_by_code_by_municipality_beginning_roll_year_1999"
+}

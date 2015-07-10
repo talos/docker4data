@@ -1,0 +1,50 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ifc_subscriptions_and_voting_power/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/gsdw-avpz/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Provides data on Members' Subscriptions and Voting Power. Latest information on voting powers is available at http://go.worldbank.org/VKVDQDUC10", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "World Bank Group", 
+    "category": "Shareholder Equity", 
+    "description": "Provides data on Members' Subscriptions and Voting Power. Latest information on voting powers is available at http://go.worldbank.org/VKVDQDUC10", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/gsdw-avpz.json"
+    }
+  }, 
+  "name": "IFC Subscriptions and Voting Power", 
+  "schema": {
+    "columns": [
+      {
+        "name": "member", 
+        "type": "text"
+      }, 
+      {
+        "name": "amount_thousands_of_usd", 
+        "type": "real"
+      }, 
+      {
+        "name": "percent_of_total_amount", 
+        "type": "real"
+      }, 
+      {
+        "name": "number_of_votes", 
+        "type": "real"
+      }, 
+      {
+        "name": "percent_of_total_votes", 
+        "type": "real"
+      }, 
+      {
+        "name": "as_of_date", 
+        "type": "timestamp"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/finances.worldbank.org", 
+  "tableName": "ifc_subscriptions_and_voting_power"
+}

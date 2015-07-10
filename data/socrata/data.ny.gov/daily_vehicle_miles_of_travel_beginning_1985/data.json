@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_daily_vehicle_miles_of_travel_beginning_1985/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/fsr4-j7q5/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/fsr4-j7q5/rows.csv", 
+    "type": "csv"
   }, 
   "description": "VMT is an estimate of travel based on traffic counts taken along the roads in New York State.  Each year travel is estimated as part of the annual report to the Federal Highway Administration through the Highway Performance Monitoring System software application.  The VMT estimate is stratified by the roadway Functional Classification of Principal Arterials, Minor Arterials, Collectors, and Local Roads & Street.  The VMT data from 1985 through the current year is available.", 
   "maintainer": {
@@ -40,5 +41,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ny_daily_vehicle_miles_of_travel_beginning_1985"
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "daily_vehicle_miles_of_travel_beginning_1985"
 }

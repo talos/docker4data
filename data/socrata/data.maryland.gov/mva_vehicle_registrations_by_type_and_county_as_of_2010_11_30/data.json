@@ -1,0 +1,50 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/mva_vehicle_registrations_by_type_and_county_as_of_2010_11_30/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/yhy6-iewx/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "MVA Vehicle Registration Counts by Type and County as of November 30, 2010 (active registrations)", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Maryland Motor Vehicle Administration", 
+    "category": "Transportation", 
+    "description": "MVA Vehicle Registration Counts by Type and County as of November 30, 2010 (active registrations)", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/yhy6-iewx.json"
+    }
+  }, 
+  "name": "MVA Vehicle Registrations By Type And County As Of 2010-11-30", 
+  "schema": {
+    "columns": [
+      {
+        "name": "county", 
+        "type": "text"
+      }, 
+      {
+        "name": "passenger", 
+        "type": "real"
+      }, 
+      {
+        "name": "multi_purpose", 
+        "type": "real"
+      }, 
+      {
+        "name": "motorcycle", 
+        "type": "real"
+      }, 
+      {
+        "name": "trailer", 
+        "type": "real"
+      }, 
+      {
+        "name": "other", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.maryland.gov", 
+  "tableName": "mva_vehicle_registrations_by_type_and_county_as_of_2010_11_30"
+}

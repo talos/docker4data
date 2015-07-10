@@ -1,0 +1,102 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/seattle_police_department_police_report_incident/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/7ais-f98f/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "These incidents are based on initial police reports taken by officers when responding to incidents around the city. The information enters our Records Management System (RMS) and is then transmitted out to data.seattle.gov. This information is published within 6 to 12 hours after the report is filed into the system.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "City of Seattle, Department of Information Technology, Seattle Police Department", 
+    "category": "Public Safety", 
+    "description": "These incidents are based on initial police reports taken by officers when responding to incidents around the city. The information enters our Records Management System (RMS) and is then transmitted out to data.seattle.gov. This information is published within 6 to 12 hours after the report is filed into the system.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/7ais-f98f.json"
+    }
+  }, 
+  "name": "Seattle Police Department Police Report Incident", 
+  "schema": {
+    "columns": [
+      {
+        "name": "rms_cdw_id", 
+        "type": "text"
+      }, 
+      {
+        "name": "general_offense_number", 
+        "type": "text"
+      }, 
+      {
+        "name": "offense_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "offense_code_extension", 
+        "type": "text"
+      }, 
+      {
+        "name": "offense_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "summary_offense_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "summarized_offense_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "date_reported", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "occurred_date_or_date_range_start", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "occurred_date_range_end", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "hundred_block_location", 
+        "type": "text"
+      }, 
+      {
+        "name": "district_sector", 
+        "type": "text"
+      }, 
+      {
+        "name": "zone_beat", 
+        "type": "text"
+      }, 
+      {
+        "name": "census_tract_2000", 
+        "type": "text"
+      }, 
+      {
+        "name": "longitude", 
+        "type": "real"
+      }, 
+      {
+        "name": "latitude", 
+        "type": "real"
+      }, 
+      {
+        "name": "location", 
+        "type": "text"
+      }, 
+      {
+        "name": "month", 
+        "type": "real"
+      }, 
+      {
+        "name": "year", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.seattle.gov", 
+  "tableName": "seattle_police_department_police_report_incident"
+}

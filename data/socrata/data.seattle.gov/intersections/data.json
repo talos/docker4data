@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_intersections/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/2az7-96yc/rows.csv"
+    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/2az7-96yc/rows.csv", 
+    "type": "csv"
   }, 
   "description": "City of Seattle road network intersections", 
   "maintainer": {
@@ -71,5 +72,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_seattle_intersections"
+  "schemaName": "socrata/data.seattle.gov", 
+  "tableName": "intersections"
 }

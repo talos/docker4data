@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_ssmma_tod_zoning/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/jtrb-dted/rows.csv"
+    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/jtrb-dted/rows.csv", 
+    "type": "csv"
   }, 
   "description": "This dataset was compiled during the Chicago Southland Transit Corridor project in 2011. This details parcel-level zoning for a half mile around transit-oriented development areas in the Chicago Southland.", 
   "maintainer": {
@@ -40,5 +41,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_illinois_ssmma_tod_zoning"
+  "schemaName": "socrata/data.illinois.gov", 
+  "tableName": "ssmma_tod_zoning"
 }

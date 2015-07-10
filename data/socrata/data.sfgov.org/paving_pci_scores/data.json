@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_paving_pci_scores/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/5aye-4rtt/rows.csv"
+    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/5aye-4rtt/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Pavement Condition Index Rating Scores by location.", 
   "maintainer": {
@@ -52,5 +53,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_sfgov_paving_pci_scores"
+  "schemaName": "socrata/data.sfgov.org", 
+  "tableName": "paving_pci_scores"
 }

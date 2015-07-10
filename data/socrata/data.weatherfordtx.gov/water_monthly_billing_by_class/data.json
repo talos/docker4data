@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_weatherfordtx_water_monthly_billing_by_class/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/ysfs-8f2v/rows.csv"
+    "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/ysfs-8f2v/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Water Department billing data by class, including number of customers, consumption, and amount billed.", 
   "maintainer": {
@@ -40,5 +41,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_weatherfordtx_water_monthly_billing_by_class"
+  "schemaName": "socrata/data.weatherfordtx.gov", 
+  "tableName": "water_monthly_billing_by_class"
 }

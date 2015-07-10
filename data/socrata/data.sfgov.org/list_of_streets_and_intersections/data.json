@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_list_of_streets_and_intersections/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/pu5n-qu5c/rows.csv"
+    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/pu5n-qu5c/rows.csv", 
+    "type": "csv"
   }, 
   "description": "A list of street segments and intersections sorted by street name and ascending address number.  This data set is based on the City's GIS basemap and contains CNN id numbers for each record.", 
   "maintainer": {
@@ -80,5 +81,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_sfgov_list_of_streets_and_intersections"
+  "schemaName": "socrata/data.sfgov.org", 
+  "tableName": "list_of_streets_and_intersections"
 }

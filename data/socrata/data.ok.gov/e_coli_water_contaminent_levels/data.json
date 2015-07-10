@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_e_coli_water_contaminent_levels/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/bgu2-it6w/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/bgu2-it6w/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Decrease the percentage of public water supplies with maximum contaminant level violations for E-coli from 0.7% in 2013 to 0.5% by 2017.", 
   "maintainer": {
@@ -32,5 +33,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ok_e_coli_water_contaminent_levels"
+  "schemaName": "socrata/data.ok.gov", 
+  "tableName": "e_coli_water_contaminent_levels"
 }

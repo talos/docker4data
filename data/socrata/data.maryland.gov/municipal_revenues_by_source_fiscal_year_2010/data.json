@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_municipal_revenues_by_source_fiscal_year_2010/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/idsb-kajn/rows.csv"
+    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/idsb-kajn/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Municipal revenue sources for each county's municipalities. Source: Local Government Finances Fiscal 2010 (Department of Legislative Services), via Overview of Maryland Local Governments Finances and Demographic Information (Department of Legislative Services, 2012. Link: http://mgaleg.maryland.gov/pubs/budgetfiscal/2012-local-government-finances-demographics.pdf)", 
   "maintainer": {
@@ -56,5 +57,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_maryland_municipal_revenues_by_source_fiscal_year_2010"
+  "schemaName": "socrata/data.maryland.gov", 
+  "tableName": "municipal_revenues_by_source_fiscal_year_2010"
 }

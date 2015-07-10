@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_nola_accela_legacy_hearings/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.nola.gov/api/views/d2is-2r79/rows.csv"
+    "@id": "http://www.opendatacache.com/data.nola.gov/api/views/d2is-2r79/rows.csv", 
+    "type": "csv"
   }, 
   "description": "A number of historical records did not successfully migrate during the City's transition to LAMA, a new data management system for land use regulation, in 2012. \r\nThis dataset gives information on hearings from cases held before that transition. This is not an exhaustive list of all cases, and it contains some records that did migrate successfully, causing duplicates between this dataset and the dataset \"CE All Hearings.\" That data can be found at: https://data.nola.gov/dataset/CE-All-Hearings/44ct-56tr.", 
   "maintainer": {
@@ -88,5 +89,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_nola_accela_legacy_hearings"
+  "schemaName": "socrata/data.nola.gov", 
+  "tableName": "accela_legacy_hearings"
 }

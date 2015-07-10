@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_expenditure_summary_fiscal_year_2009/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/hdrp-he47/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/hdrp-he47/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Provides expenditure data summarized by each agency and general ledger account.  The general ledger account may be viewed by major class, sub-class or detail expenditure code.  Examples of the major class expenditure category include:\r\n\u2022\tPersonal Services \r\n\u2022\tTravel Expenses \r\n\u2022\tAdministrative Expense \r\n\u2022\tProperty, Furniture, Equipment and Related Debt \r\n\u2022\tGeneral Assistance, Awards, Grants, & Other \r\n\u2022\tProgram-Directed Payments \r\n\u2022\tTransfers and Other Disbursements", 
   "maintainer": {
@@ -64,5 +65,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ok_expenditure_summary_fiscal_year_2009"
+  "schemaName": "socrata/data.ok.gov", 
+  "tableName": "expenditure_summary_fiscal_year_2009"
 }

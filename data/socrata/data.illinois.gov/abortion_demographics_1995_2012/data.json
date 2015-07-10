@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_abortion_demographics_1995_2012/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/f7nd-jj28/rows.csv"
+    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/f7nd-jj28/rows.csv", 
+    "type": "csv"
   }, 
   "description": "The number of induced pregnancy terminations reported in Illinois by county (if in excess of 50), by age and marital status.\nNote: Marital status and age are only for Illinois residents.", 
   "maintainer": {
@@ -96,5 +97,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_illinois_abortion_demographics_1995_2012"
+  "schemaName": "socrata/data.illinois.gov", 
+  "tableName": "abortion_demographics_1995_2012"
 }

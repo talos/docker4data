@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_metered_motorcycle_spaces/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/uf55-k7py/rows.csv"
+    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/uf55-k7py/rows.csv", 
+    "type": "csv"
   }, 
   "description": "This dataset includes metered motorcycle parking spaces in San Francisco as of April 2013. Find attached a data dictionary, a version of the map as a PDF, and a shapefile of the data. This data provides locations of motorcycle meters; meter characteristics, such as single-space or multi-space meter, smart meter status, sensor status, owner, on- or off-street location; rate area.", 
   "maintainer": {
@@ -88,5 +89,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_sfgov_metered_motorcycle_spaces"
+  "schemaName": "socrata/data.sfgov.org", 
+  "tableName": "metered_motorcycle_spaces"
 }

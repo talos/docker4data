@@ -1,0 +1,50 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/tax_credits/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/5fkx-9rt5/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Earned Income Tax Credit Maximum Income Levels and Credit Amounts Tax Year 2012.\r\n*MFJ-Married filing jointly", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Human Resources Administration (HRA)", 
+    "category": "Social Services", 
+    "description": "Earned Income Tax Credit Maximum Income Levels and Credit Amounts Tax Year 2012.\r\n*MFJ-Married filing jointly", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/5fkx-9rt5.json"
+    }
+  }, 
+  "name": "Tax credits", 
+  "schema": {
+    "columns": [
+      {
+        "name": "category", 
+        "type": "text"
+      }, 
+      {
+        "name": "maximum_city_credit", 
+        "type": "text"
+      }, 
+      {
+        "name": "maximum_state_credit", 
+        "type": "text"
+      }, 
+      {
+        "name": "maximum_federal_credit", 
+        "type": "text"
+      }, 
+      {
+        "name": "maximum_combined_credit", 
+        "type": "text"
+      }, 
+      {
+        "name": "maximum_income", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.cityofnewyork.us", 
+  "tableName": "tax_credits"
+}

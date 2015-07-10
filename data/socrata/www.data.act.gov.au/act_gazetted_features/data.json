@@ -1,0 +1,58 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/act_gazetted_features/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/www.data.act.gov.au/api/views/wyif-uh5r/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Feature names are captured though various means. Each instance of the name represents a single use of a name and that name can be applied across various locations. Some of these feature names are gazetted, such as streets, divisions, locations etc but not all including but not limited to commercial buildings etc. Feature names are stored in SDMS and maintained in two ways. Names may be maintained though geomedia custom commands. Or they may be maintained though the nomenclature oracle forms as they were prior to SDMS implementation. Feature names are constantly maintained in a effort to have a high data integrity.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "ACT Goverment", 
+    "category": "People and Society", 
+    "description": "Feature names are captured though various means. Each instance of the name represents a single use of a name and that name can be applied across various locations. Some of these feature names are gazetted, such as streets, divisions, locations etc but not all including but not limited to commercial buildings etc. Feature names are stored in SDMS and maintained in two ways. Names may be maintained though geomedia custom commands. Or they may be maintained though the nomenclature oracle forms as they were prior to SDMS implementation. Feature names are constantly maintained in a effort to have a high data integrity.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/www.data.act.gov.au/api/views/wyif-uh5r.json"
+    }
+  }, 
+  "name": "ACT GAZETTED FEATURES", 
+  "schema": {
+    "columns": [
+      {
+        "name": "feature_id", 
+        "type": "real"
+      }, 
+      {
+        "name": "type", 
+        "type": "text"
+      }, 
+      {
+        "name": "name", 
+        "type": "text"
+      }, 
+      {
+        "name": "division", 
+        "type": "text"
+      }, 
+      {
+        "name": "district", 
+        "type": "text"
+      }, 
+      {
+        "name": "extracted", 
+        "type": "real"
+      }, 
+      {
+        "name": "latitude", 
+        "type": "real"
+      }, 
+      {
+        "name": "longitude", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/www.data.act.gov.au", 
+  "tableName": "act_gazetted_features"
+}

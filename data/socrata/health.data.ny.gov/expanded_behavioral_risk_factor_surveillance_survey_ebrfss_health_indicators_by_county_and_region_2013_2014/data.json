@@ -1,0 +1,150 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/expanded_behavioral_risk_factor_surveillance_survey_ebrfss_health_indicators_by_county_and_region_2013_2014/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/jsy7-eb4n/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Data from the 2013-2014 New York Expanded Behavioral Risk Factor Surveillance System (eBRFSS) Survey were used to generate percentages of non-institutionalized adult (18+) NYS residents for 50 health indicators.  Health domains covered include: \r\n\r\nImprove health status and reducing health disparities; \r\nPromote a healthy and safe environment; \r\nPrevent chronic diseases; Prevent HIV/STDs, vaccine preventable diseases and healthcare-associated infections; \r\nPromote healthy women, infants, and children;  and\r\nPromote mental health and prevention substance abuse. \r\n\r\nPercentages for this wide range of public health metrics are provided as both unadjusted and age-adjusted rates for counties and regions. \r\n\r\nThe eBRFSS is a random digit dialing (RDD) phone survey of the health status and health behaviors of adult NYS residents. The eBRFSS is designed to provide estimates of health indicators at the county level. The sample covers 31,690 completed interviews conducted between April 2013 and March 2014. The questionnaire used for the survey can be found in the attachments section under the \"About\" tab.  For more information, go to: \r\n\r\nhttp://www.health.ny.gov/statistics/brfss/expanded/ or go to the \"About\" tab.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New York State Department of Health", 
+    "category": "Health", 
+    "description": "Data from the 2013-2014 New York Expanded Behavioral Risk Factor Surveillance System (eBRFSS) Survey were used to generate percentages of non-institutionalized adult (18+) NYS residents for 50 health indicators.  Health domains covered include: \r\n\r\nImprove health status and reducing health disparities; \r\nPromote a healthy and safe environment; \r\nPrevent chronic diseases; Prevent HIV/STDs, vaccine preventable diseases and healthcare-associated infections; \r\nPromote healthy women, infants, and children;  and\r\nPromote mental health and prevention substance abuse. \r\n\r\nPercentages for this wide range of public health metrics are provided as both unadjusted and age-adjusted rates for counties and regions. \r\n\r\nThe eBRFSS is a random digit dialing (RDD) phone survey of the health status and health behaviors of adult NYS residents. The eBRFSS is designed to provide estimates of health indicators at the county level. The sample covers 31,690 completed interviews conducted between April 2013 and March 2014. The questionnaire used for the survey can be found in the attachments section under the \"About\" tab.  For more information, go to: \r\n\r\nhttp://www.health.ny.gov/statistics/brfss/expanded/ or go to the \"About\" tab.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/jsy7-eb4n.json"
+    }
+  }, 
+  "name": "Expanded Behavioral Risk Factor Surveillance Survey (eBRFSS) Health Indicators by County and Region: 2013 -2014", 
+  "schema": {
+    "columns": [
+      {
+        "name": "years", 
+        "type": "text"
+      }, 
+      {
+        "name": "health_domain", 
+        "type": "text"
+      }, 
+      {
+        "name": "health_indicator", 
+        "type": "text"
+      }, 
+      {
+        "name": "geography", 
+        "type": "text"
+      }, 
+      {
+        "name": "region_county", 
+        "type": "text"
+      }, 
+      {
+        "name": "suppression_comment", 
+        "type": "text"
+      }, 
+      {
+        "name": "fips", 
+        "type": "real"
+      }, 
+      {
+        "name": "sample_size_n", 
+        "type": "real"
+      }, 
+      {
+        "name": "est_count", 
+        "type": "real"
+      }, 
+      {
+        "name": "est_denominator", 
+        "type": "real"
+      }, 
+      {
+        "name": "unadjusted_rate", 
+        "type": "text"
+      }, 
+      {
+        "name": "unadj_rate_comment", 
+        "type": "text"
+      }, 
+      {
+        "name": "cl_95_lower_unadjusted", 
+        "type": "text"
+      }, 
+      {
+        "name": "cl_95_upper_unadjusted", 
+        "type": "text"
+      }, 
+      {
+        "name": "adjusted_rate", 
+        "type": "text"
+      }, 
+      {
+        "name": "adj_rate_comment", 
+        "type": "text"
+      }, 
+      {
+        "name": "cl_95_lower_adjusted", 
+        "type": "text"
+      }, 
+      {
+        "name": "cl_95_upper_adjusted", 
+        "type": "text"
+      }, 
+      {
+        "name": "prevention_agenda_pa", 
+        "type": "text"
+      }, 
+      {
+        "name": "pa_rate_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "ship", 
+        "type": "text"
+      }, 
+      {
+        "name": "ship_rate_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "dsrip", 
+        "type": "text"
+      }, 
+      {
+        "name": "dsrip_rate_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "chirs", 
+        "type": "text"
+      }, 
+      {
+        "name": "chirs_rate_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "health_indicator_sort_key", 
+        "type": "real"
+      }, 
+      {
+        "name": "dsrip_region_sort_key", 
+        "type": "real"
+      }, 
+      {
+        "name": "upstate_downstate_sort_key", 
+        "type": "real"
+      }, 
+      {
+        "name": "county_sort_key", 
+        "type": "real"
+      }, 
+      {
+        "name": "location", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/health.data.ny.gov", 
+  "tableName": "expanded_behavioral_risk_factor_surveillance_survey_ebrfss_health_indicators_by_county_and_region_2013_2014"
+}

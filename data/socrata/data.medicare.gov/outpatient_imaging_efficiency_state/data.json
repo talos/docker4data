@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_medicare_outpatient_imaging_efficiency_state/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/if5v-4x48/rows.csv"
+    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/if5v-4x48/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Use of medical imaging - state data. These measures give you information about hospitals' use of medical imaging tests for outpatients. Examples of medical imaging tests include CT Scans, MRIs, and mammograms.", 
   "maintainer": {
@@ -47,5 +48,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_medicare_outpatient_imaging_efficiency_state"
+  "schemaName": "socrata/data.medicare.gov", 
+  "tableName": "outpatient_imaging_efficiency_state"
 }

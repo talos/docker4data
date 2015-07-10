@@ -1,0 +1,46 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/idph_marriages_divorces_and_annulments_state_total_1958_2009/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/mszz-27vx/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Rate is per 1,000 population\r\n* Reporting known to be incomplete", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Illinois Center for Health Statistics", 
+    "category": "Public Health", 
+    "description": "Rate is per 1,000 population\r\n* Reporting known to be incomplete", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/mszz-27vx.json"
+    }
+  }, 
+  "name": "IDPH Marriages, Divorces, and Annulments, State Total, 1958-2009", 
+  "schema": {
+    "columns": [
+      {
+        "name": "year", 
+        "type": "text"
+      }, 
+      {
+        "name": "marriages", 
+        "type": "real"
+      }, 
+      {
+        "name": "marriage_rate", 
+        "type": "real"
+      }, 
+      {
+        "name": "divorces_and_annulments", 
+        "type": "real"
+      }, 
+      {
+        "name": "divorce_and_annulment_rate", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.illinois.gov", 
+  "tableName": "idph_marriages_divorces_and_annulments_state_total_1958_2009"
+}

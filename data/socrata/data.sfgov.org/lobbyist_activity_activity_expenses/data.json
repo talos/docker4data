@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_lobbyist_activity_activity_expenses/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/rvdt-bv57/rows.csv"
+    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/rvdt-bv57/rows.csv", 
+    "type": "csv"
   }, 
   "description": "\"Activity expenses\" means any expense incurred or payment made by a lobbyist or a lobbyist's client at the behest of the lobbyist, or arranged by a lobbyist or a lobbyist's client at the behest of the lobbyist, which benefits in whole or in part any: officer of the City and County; candidate for City and County office; aide to a member of the Board of Supervisors; or member of the immediate family or the registered domestic partner of an officer, candidate, or aide to a member of the Board of Supervisors. An expense or payment is not an \"activity expense\" unless it is incurred or made within three months of a contact with the officer, candidate, or Supervisor's aide who benefits from the expense or payment, or whose immediate family member or registered domestic partner benefits from the expense or payment. \"Activity expenses\" include honoraria, consulting fees, salaries, and any other thing of value totaling more than $25 in value in a consecutive three-month period, but do not include political contributions.\r\n\r\nActivity expenses are disclosed by lobbyists registered with the Ethics Commission on a monthly basis.  This dataset updates automatically every night.", 
   "maintainer": {
@@ -56,5 +57,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_sfgov_lobbyist_activity_activity_expenses"
+  "schemaName": "socrata/data.sfgov.org", 
+  "tableName": "lobbyist_activity_activity_expenses"
 }

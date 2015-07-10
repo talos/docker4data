@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_violent_crimes_by_county_2006_to_2013/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/kicx-k4rc/rows.csv"
+    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/kicx-k4rc/rows.csv", 
+    "type": "csv"
   }, 
   "description": "This dataset shows the total number of violent crimes by county and statewide, for CY2006 versus CY2013. Data are provided by the Maryland Statistical Analysis Center (MSAC) within the Governor's Office of Crime Control and Prevention (GOCCP).", 
   "maintainer": {
@@ -60,5 +61,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_maryland_violent_crimes_by_county_2006_to_2013"
+  "schemaName": "socrata/data.maryland.gov", 
+  "tableName": "violent_crimes_by_county_2006_to_2013"
 }

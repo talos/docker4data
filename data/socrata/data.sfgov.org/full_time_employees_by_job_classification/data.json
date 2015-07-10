@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_full_time_employees_by_job_classification/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/uk3k-9ai5/rows.csv"
+    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/uk3k-9ai5/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Shows Full Time Employees by Classification. \r\nUsed with the Salary Ranges by Classification and Job Titles by Classification", 
   "maintainer": {
@@ -48,5 +49,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_sfgov_full_time_employees_by_job_classification"
+  "schemaName": "socrata/data.sfgov.org", 
+  "tableName": "full_time_employees_by_job_classification"
 }

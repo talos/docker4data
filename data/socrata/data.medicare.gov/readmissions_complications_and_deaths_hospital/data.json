@@ -1,0 +1,101 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/readmissions_complications_and_deaths_hospital/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/7xux-kdpw/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Readmissions, Complications and Deaths - provider data. This data set includes provider data for 30-day death and readmission measures, the hip/knee complication measure, and the Agency for Healthcare Research and Quality (AHRQ) measures of serious complications.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "category": "Hospital Compare", 
+    "description": "Readmissions, Complications and Deaths - provider data. This data set includes provider data for 30-day death and readmission measures, the hip/knee complication measure, and the Agency for Healthcare Research and Quality (AHRQ) measures of serious complications.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/7xux-kdpw.json"
+    }
+  }, 
+  "name": "Readmissions Complications and Deaths - Hospital", 
+  "schema": {
+    "columns": [
+      {
+        "name": "provider_id", 
+        "type": "text"
+      }, 
+      {
+        "name": "hospital_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "address", 
+        "type": "text"
+      }, 
+      {
+        "name": "city", 
+        "type": "text"
+      }, 
+      {
+        "name": "state", 
+        "type": "text"
+      }, 
+      {
+        "name": "zip_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "county_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "phone_number", 
+        "type": "text"
+      }, 
+      {
+        "name": "measure_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "measure_id", 
+        "type": "text"
+      }, 
+      {
+        "name": "compared_to_national", 
+        "type": "text"
+      }, 
+      {
+        "name": "denominator", 
+        "type": "text"
+      }, 
+      {
+        "name": "score", 
+        "type": "text"
+      }, 
+      {
+        "name": "lower_estimate", 
+        "type": "text"
+      }, 
+      {
+        "name": "higher_estimate", 
+        "type": "text"
+      }, 
+      {
+        "name": "footnote", 
+        "type": "text"
+      }, 
+      {
+        "name": "measure_start_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "measure_end_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "location", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.medicare.gov", 
+  "tableName": "readmissions_complications_and_deaths_hospital"
+}

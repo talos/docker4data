@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_streetcar_stations/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/4pcz-6jpg/rows.csv"
+    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/4pcz-6jpg/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Show the location and names of the street car stations", 
   "maintainer": {
@@ -36,5 +37,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_seattle_streetcar_stations"
+  "schemaName": "socrata/data.seattle.gov", 
+  "tableName": "streetcar_stations"
 }

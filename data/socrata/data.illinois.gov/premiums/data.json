@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_premiums/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/pbnq-tdta/rows.csv"
+    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/pbnq-tdta/rows.csv", 
+    "type": "csv"
   }, 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -48,5 +49,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_illinois_premiums"
+  "schemaName": "socrata/data.illinois.gov", 
+  "tableName": "premiums"
 }

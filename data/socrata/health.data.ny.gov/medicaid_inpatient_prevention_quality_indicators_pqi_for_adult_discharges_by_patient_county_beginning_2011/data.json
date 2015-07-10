@@ -1,0 +1,74 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/medicaid_inpatient_prevention_quality_indicators_pqi_for_adult_discharges_by_patient_county_beginning_2011/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/6kjt-7svn/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "The datasets contain number of Medicaid PQI hospitalizations (numerator), county Medicaid population (denominator), observed rate, expected number of hospitalizations and rate, and risk-adjusted rate for Agency for Healthcare Research and Quality Prevention Quality Indicators \u2013 Adult (AHRQ PQI) for Medicaid enrollees beginning in 2011.\r\nThe Agency for Healthcare Research and Quality (AHRQ) Prevention Quality Indicators (PQIs) are a set of population based measures that can be used with hospital inpatient discharge data to identify ambulatory care sensitive conditions. These are conditions where 1) the need for hospitalization is potentially preventable with appropriate outpatient care, or 2) conditions that could be less severe if treated early and appropriately. All PQIs apply only to adult populations (over the age of 18 years).\r\nThe rates were calculated using Medicaid inpatient data for the numerator and Medicaid enrollee characteristics for the denominator.\r\nThe observed, expected, and risk-adjusted rates for each AHRQ PQI is presented by either resident county (including a statewide total) or resident zip code (including a statewide total). For more information, go to http://www.health.ny.gov/health_care/medicaid/, or go to the \"About\" tab.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New York State Department of Health", 
+    "category": "Health", 
+    "description": "The datasets contain number of Medicaid PQI hospitalizations (numerator), county Medicaid population (denominator), observed rate, expected number of hospitalizations and rate, and risk-adjusted rate for Agency for Healthcare Research and Quality Prevention Quality Indicators \u2013 Adult (AHRQ PQI) for Medicaid enrollees beginning in 2011.\r\nThe Agency for Healthcare Research and Quality (AHRQ) Prevention Quality Indicators (PQIs) are a set of population based measures that can be used with hospital inpatient discharge data to identify ambulatory care sensitive conditions. These are conditions where 1) the need for hospitalization is potentially preventable with appropriate outpatient care, or 2) conditions that could be less severe if treated early and appropriately. All PQIs apply only to adult populations (over the age of 18 years).\r\nThe rates were calculated using Medicaid inpatient data for the numerator and Medicaid enrollee characteristics for the denominator.\r\nThe observed, expected, and risk-adjusted rates for each AHRQ PQI is presented by either resident county (including a statewide total) or resident zip code (including a statewide total). For more information, go to http://www.health.ny.gov/health_care/medicaid/, or go to the \"About\" tab.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/6kjt-7svn.json"
+    }
+  }, 
+  "name": "Medicaid Inpatient Prevention Quality Indicators (PQI) for Adult Discharges by Patient County: Beginning 2011", 
+  "schema": {
+    "columns": [
+      {
+        "name": "discharge_year", 
+        "type": "real"
+      }, 
+      {
+        "name": "county", 
+        "type": "text"
+      }, 
+      {
+        "name": "pqi_number", 
+        "type": "text"
+      }, 
+      {
+        "name": "pqi_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "medicaid_pqi_hospitalizations", 
+        "type": "real"
+      }, 
+      {
+        "name": "county_medicaid_population", 
+        "type": "real"
+      }, 
+      {
+        "name": "observed_rate_per_100_000_people", 
+        "type": "real"
+      }, 
+      {
+        "name": "expected_pqi_hospitalizations", 
+        "type": "real"
+      }, 
+      {
+        "name": "expected_rate_per_100_000_people", 
+        "type": "real"
+      }, 
+      {
+        "name": "risk_adjusted_rate_per_100_000_people", 
+        "type": "real"
+      }, 
+      {
+        "name": "difference_in_hospitalizations", 
+        "type": "real"
+      }, 
+      {
+        "name": "dual_status", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/health.data.ny.gov", 
+  "tableName": "medicaid_inpatient_prevention_quality_indicators_pqi_for_adult_discharges_by_patient_county_beginning_2011"
+}

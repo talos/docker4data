@@ -1,0 +1,42 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/seattle_crime_stats_by_1990_census_tract_1996_2007/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/e3zj-s4zh/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Violent Part 1 crime statistics by 1990 census tract.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "city of seattle", 
+    "category": "Public Safety", 
+    "description": "Violent Part 1 crime statistics by 1990 census tract.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/e3zj-s4zh.json"
+    }
+  }, 
+  "name": "Seattle Crime Stats by 1990 Census Tract 1996-2007", 
+  "schema": {
+    "columns": [
+      {
+        "name": "report_year", 
+        "type": "real"
+      }, 
+      {
+        "name": "census_tract_1990", 
+        "type": "real"
+      }, 
+      {
+        "name": "crime_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "report_year_total", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.seattle.gov", 
+  "tableName": "seattle_crime_stats_by_1990_census_tract_1996_2007"
+}

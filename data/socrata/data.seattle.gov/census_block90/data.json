@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_census_block90/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/f96w-338u/rows.csv"
+    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/f96w-338u/rows.csv", 
+    "type": "csv"
   }, 
   "description": "US Census Blocks for 1990 US Census", 
   "maintainer": {
@@ -84,5 +85,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_seattle_census_block90"
+  "schemaName": "socrata/data.seattle.gov", 
+  "tableName": "census_block90"
 }

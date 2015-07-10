@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_dww_inlets/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/ejn9-f8zr/rows.csv"
+    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/ejn9-f8zr/rows.csv", 
+    "type": "csv"
   }, 
   "description": "https://gisrevprxy.seattle.gov/ArcGIS/rest/services/ext/WM_CityGISLayers/MapServer/60", 
   "maintainer": {
@@ -251,5 +252,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_seattle_dww_inlets"
+  "schemaName": "socrata/data.seattle.gov", 
+  "tableName": "dww_inlets"
 }

@@ -1,0 +1,54 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/2013_general_elections_results/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/electionsdata.kingcounty.gov/api/views/tj4s-fdvs/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "This is the dataset for November 5, 2013 general election results.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "King County Elections", 
+    "category": "Government", 
+    "description": "This is the dataset for November 5, 2013 general election results.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/electionsdata.kingcounty.gov/api/views/tj4s-fdvs.json"
+    }
+  }, 
+  "name": "2013 General Elections Results", 
+  "schema": {
+    "columns": [
+      {
+        "name": "contname", 
+        "type": "text"
+      }, 
+      {
+        "name": "registered", 
+        "type": "real"
+      }, 
+      {
+        "name": "cast", 
+        "type": "real"
+      }, 
+      {
+        "name": "nameonballot", 
+        "type": "text"
+      }, 
+      {
+        "name": "party", 
+        "type": "text"
+      }, 
+      {
+        "name": "votes", 
+        "type": "real"
+      }, 
+      {
+        "name": "percent", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/electionsdata.kingcounty.gov", 
+  "tableName": "2013_general_elections_results"
+}

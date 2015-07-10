@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_medicare_patient_survey_hcahps_state/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/84jm-wiui/rows.csv"
+    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/84jm-wiui/rows.csv", 
+    "type": "csv"
   }, 
   "description": "A list of the state averages for the HCAHPS survey responses. HCAHPS is a national, standardized survey of hospital patients about their experiences during a recent inpatient hospital stay.", 
   "maintainer": {
@@ -51,5 +52,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_medicare_patient_survey_hcahps_state"
+  "schemaName": "socrata/data.medicare.gov", 
+  "tableName": "patient_survey_hcahps_state"
 }

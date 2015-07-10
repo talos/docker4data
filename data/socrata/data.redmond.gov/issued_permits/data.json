@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_redmond_issued_permits/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.redmond.gov/api/views/wzgk-dadm/rows.csv"
+    "@id": "http://www.opendatacache.com/data.redmond.gov/api/views/wzgk-dadm/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Contains a snapshot of issued permit data, updated monthly.", 
   "maintainer": {
@@ -110,5 +111,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_redmond_issued_permits"
+  "schemaName": "socrata/data.redmond.gov", 
+  "tableName": "issued_permits"
 }

@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_parking_meters/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/28my-4796/rows.csv"
+    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/28my-4796/rows.csv", 
+    "type": "csv"
   }, 
   "description": "All parking meters owned by the SFMTA and the Port of San Francisco as of March 2014. Find attached a data dictionary, a version of the map as a PDF, and a shapefile of the data. This data includes locations of meters; meter characteristics, such as single-space or multi-space meter, smart meter status, sensor status, owner, on or off-street location; rate areas; cap colors (use type and restrictions): Black: Motorcycle parking, Brown: Tour bus parking, Green: Short term parking, Grey: General metered parking, Purple: Boat trailer parking, Red: Six-wheeled commercial vehicle parking, Yellow: Commercial vehicle parking. Please direct any data inquiries to info@sfpark.org", 
   "maintainer": {
@@ -84,5 +85,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_sfgov_parking_meters"
+  "schemaName": "socrata/data.sfgov.org", 
+  "tableName": "parking_meters"
 }

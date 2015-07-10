@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_seattle_traffic_cameras/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/65fc-btcc/rows.csv"
+    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/65fc-btcc/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Traffic caneras in Seattle owned by SDOT and WSDOT", 
   "maintainer": {
@@ -52,5 +53,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_seattle_seattle_traffic_cameras"
+  "schemaName": "socrata/data.seattle.gov", 
+  "tableName": "seattle_traffic_cameras"
 }

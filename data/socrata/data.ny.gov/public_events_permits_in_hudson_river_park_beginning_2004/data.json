@@ -1,0 +1,42 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/public_events_permits_in_hudson_river_park_beginning_2004/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/nwx8-ckzy/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "This dataset contains a list of events held in Hudson River Park and permitted by Hudson River Park Trust (HRPT), along with the permittee\u2019s name and the name of the entity that paid the permit fee.  Events which do not require a permit are not included.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Hudson River Park Trust (HRPT)", 
+    "category": "Recreation", 
+    "description": "This dataset contains a list of events held in Hudson River Park and permitted by Hudson River Park Trust (HRPT), along with the permittee\u2019s name and the name of the entity that paid the permit fee.  Events which do not require a permit are not included.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/nwx8-ckzy.json"
+    }
+  }, 
+  "name": "Public Events Permits in Hudson River Park:  Beginning 2004", 
+  "schema": {
+    "columns": [
+      {
+        "name": "fiscal_year", 
+        "type": "real"
+      }, 
+      {
+        "name": "permitted_organization", 
+        "type": "text"
+      }, 
+      {
+        "name": "name_on_permit_fee_check", 
+        "type": "text"
+      }, 
+      {
+        "name": "event_type_name", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "public_events_permits_in_hudson_river_park_beginning_2004"
+}

@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wa_washington_state_criminal_justice_data_book/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/humt-chdg/rows.csv"
+    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/humt-chdg/rows.csv", 
+    "type": "csv"
   }, 
   "description": "The Washington SAC provides access to crime statistics through several methods; CrimeStats Online, the Uniform Crime Report (UCR), and the National Incident Based Reporting System (NIBRS). Queries are web-based interfaces that allow users to query Washington crime data online. For more detailed analyses, the UCR and NIBRS data are available in Excel spreadsheets and SAS datasets. County-level summaries from the Criminal Justice Data Book are available in Excel as well.", 
   "maintainer": {
@@ -872,5 +873,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_wa_washington_state_criminal_justice_data_book"
+  "schemaName": "socrata/data.wa.gov", 
+  "tableName": "washington_state_criminal_justice_data_book"
 }

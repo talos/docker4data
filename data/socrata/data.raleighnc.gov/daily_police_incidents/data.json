@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_raleighnc_daily_police_incidents/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.raleighnc.gov/api/views/guyh-emm5/rows.csv"
+    "@id": "http://www.opendatacache.com/data.raleighnc.gov/api/views/guyh-emm5/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Daily Police Incidents, which is updated every day at 11AM, provided by City of Raleigh Police Department.  Column Heading = Code of Incident Type LCR DESC Column Heading = Description of Incident Type", 
   "maintainer": {
@@ -44,5 +45,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_raleighnc_daily_police_incidents"
+  "schemaName": "socrata/data.raleighnc.gov", 
+  "tableName": "daily_police_incidents"
 }

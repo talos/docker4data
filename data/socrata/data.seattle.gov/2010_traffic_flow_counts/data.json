@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_2010_traffic_flow_counts/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/k8ie-d3iu/rows.csv"
+    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/k8ie-d3iu/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Annualized Average Weekday Daily Traffic\r\nTo provide traffic count data that includes ADT(Average daily traffic- 7 day count, includes weekends.  This is an average number, derived from averaging daily traffic volumes for all seven days), AWDT (Average week-day traffic- 5 day count, does not include week-ends. Derived from averaging daily traffic volumes for Monday thru Friday), AM (AM Peak hour, the highest hour count volume in the AM, consisting of four consecutive 15 minute periods that fall between midnight and noon)and PM (PM Peak hour, the highest hour count volume in the PM, consisting of four consecutive 15 minute periods that fall between noon and midnight)peak hour volumes along with study dates.", 
   "maintainer": {
@@ -80,5 +81,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_seattle_2010_traffic_flow_counts"
+  "schemaName": "socrata/data.seattle.gov", 
+  "tableName": "2010_traffic_flow_counts"
 }

@@ -1,0 +1,62 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/april_2014_special_election_ecanvass/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/electionsdata.kingcounty.gov/api/views/bcv6-x9b7/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "eCanvass for April 22, 2014 special election; King County results only. More info here: http://1.usa.gov/1mwntU6", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "King County Elections", 
+    "category": "Government", 
+    "description": "eCanvass for April 22, 2014 special election; King County results only. More info here: http://1.usa.gov/1mwntU6", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/electionsdata.kingcounty.gov/api/views/bcv6-x9b7.json"
+    }
+  }, 
+  "name": "April 2014 Special Election - eCanvass", 
+  "schema": {
+    "columns": [
+      {
+        "name": "precinct", 
+        "type": "text"
+      }, 
+      {
+        "name": "race", 
+        "type": "text"
+      }, 
+      {
+        "name": "leg", 
+        "type": "real"
+      }, 
+      {
+        "name": "cc", 
+        "type": "real"
+      }, 
+      {
+        "name": "cg", 
+        "type": "real"
+      }, 
+      {
+        "name": "countergroup", 
+        "type": "text"
+      }, 
+      {
+        "name": "party", 
+        "type": "text"
+      }, 
+      {
+        "name": "countertype", 
+        "type": "text"
+      }, 
+      {
+        "name": "sumofcount", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/electionsdata.kingcounty.gov", 
+  "tableName": "april_2014_special_election_ecanvass"
+}

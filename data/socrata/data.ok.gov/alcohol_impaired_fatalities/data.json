@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_alcohol_impaired_fatalities/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/rxre-mtbv/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/rxre-mtbv/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Decrease alcohol impaired fatalities from 205 in 2012 to 185 by 2017.", 
   "maintainer": {
@@ -32,5 +33,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ok_alcohol_impaired_fatalities"
+  "schemaName": "socrata/data.ok.gov", 
+  "tableName": "alcohol_impaired_fatalities"
 }

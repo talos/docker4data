@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_infant_death_rate/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/hetc-ue6u/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/hetc-ue6u/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Decrease the rate of infant deaths per 1,000 live births from 7.5 in 2012 to 6.5 by 2018.", 
   "maintainer": {
@@ -32,5 +33,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ok_infant_death_rate"
+  "schemaName": "socrata/data.ok.gov", 
+  "tableName": "infant_death_rate"
 }

@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_spd_beats/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/e5ub-37ve/rows.csv"
+    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/e5ub-37ve/rows.csv", 
+    "type": "csv"
   }, 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -36,5 +37,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_seattle_spd_beats"
+  "schemaName": "socrata/data.seattle.gov", 
+  "tableName": "spd_beats"
 }

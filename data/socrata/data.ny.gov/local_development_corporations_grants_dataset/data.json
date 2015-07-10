@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_local_development_corporations_grants_dataset/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/j5ab-5nj2/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/j5ab-5nj2/rows.csv", 
+    "type": "csv"
   }, 
   "description": "The dataset consists of 3 years of grants data reported by Local Development Corporations and includes information on recipients, amounts and purpose of the grants.  Public authorities are required by Section 2800 of Public Authorities Law to submit annual reports to the Authorities Budget Office that include grants data. Local development corporations are required to report information on the projects they support and how those approved projects are financed (either through grants, loans, or bonds).", 
   "maintainer": {
@@ -76,5 +77,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ny_local_development_corporations_grants_dataset"
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "local_development_corporations_grants_dataset"
 }

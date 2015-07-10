@@ -1,0 +1,58 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/financial_intermediary_funds_commitments/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/fie8-6fxn/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Financial Intermediary Funds (FIFs) are multilateral financing arrangements for which the World Bank provides Trustee services that include committing and transferring funds to project implementers (generally international organizations such as multilateral development banks or UN agencies). \r\n\r\nIn all cases the World Bank as Trustee is required to act in accordance with instructions of independent governing bodies. In fulfilling its responsibilities, the World Bank as Trustee complies with all sanctions applicable to World Bank transactions. \r\n\r\nThis dataset provides data on legal obligations to pay recipients of FIFs.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "World Bank", 
+    "category": "Financial Intermediary Funds", 
+    "description": "Financial Intermediary Funds (FIFs) are multilateral financing arrangements for which the World Bank provides Trustee services that include committing and transferring funds to project implementers (generally international organizations such as multilateral development banks or UN agencies). \r\n\r\nIn all cases the World Bank as Trustee is required to act in accordance with instructions of independent governing bodies. In fulfilling its responsibilities, the World Bank as Trustee complies with all sanctions applicable to World Bank transactions. \r\n\r\nThis dataset provides data on legal obligations to pay recipients of FIFs.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/fie8-6fxn.json"
+    }
+  }, 
+  "name": "Financial Intermediary Funds Commitments", 
+  "schema": {
+    "columns": [
+      {
+        "name": "as_of_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "fund_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "principal_recipient", 
+        "type": "text"
+      }, 
+      {
+        "name": "approval_quarter", 
+        "type": "text"
+      }, 
+      {
+        "name": "calendar_year", 
+        "type": "text"
+      }, 
+      {
+        "name": "amount_in_usd", 
+        "type": "real"
+      }, 
+      {
+        "name": "financial_product", 
+        "type": "text"
+      }, 
+      {
+        "name": "sector_theme", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/finances.worldbank.org", 
+  "tableName": "financial_intermediary_funds_commitments"
+}

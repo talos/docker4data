@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_dpscs_facility_specific_data_template/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/jvzm-w72t/rows.csv"
+    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/jvzm-w72t/rows.csv", 
+    "type": "csv"
   }, 
   "description": "The Department of Public Safety and Correctional Services (DPSCS) submits these data to the Governor's Office each month for each of Maryland's prisons and jails. This dataset shows totals across those facilities: population totals, contraband seizures, searches, assaults, hearing officer reports, disciplinary action, identification document issuance, and IWIF statistics. Statistical analyses and data formatting are performed by Department of Information Technology (DoIT).", 
   "maintainer": {
@@ -1200,5 +1201,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_maryland_dpscs_facility_specific_data_template"
+  "schemaName": "socrata/data.maryland.gov", 
+  "tableName": "dpscs_facility_specific_data_template"
 }

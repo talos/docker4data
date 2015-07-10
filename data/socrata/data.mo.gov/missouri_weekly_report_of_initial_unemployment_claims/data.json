@@ -1,0 +1,38 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/missouri_weekly_report_of_initial_unemployment_claims/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.mo.gov/api/views/qet9-8yam/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "The number of people filing for initial unemployment benefits by county and week.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Missouri Department of Labor and Industrial Relations", 
+    "category": "Labor", 
+    "description": "The number of people filing for initial unemployment benefits by county and week.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.mo.gov/api/views/qet9-8yam.json"
+    }
+  }, 
+  "name": "Missouri Weekly Report of Initial Unemployment Claims", 
+  "schema": {
+    "columns": [
+      {
+        "name": "weekending", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "county", 
+        "type": "text"
+      }, 
+      {
+        "name": "claims", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.mo.gov", 
+  "tableName": "missouri_weekly_report_of_initial_unemployment_claims"
+}

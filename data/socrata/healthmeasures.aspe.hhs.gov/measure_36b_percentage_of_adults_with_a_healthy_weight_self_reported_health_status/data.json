@@ -1,0 +1,42 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/measure_36b_percentage_of_adults_with_a_healthy_weight_self_reported_health_status/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/fsun-wigf/rows.csv", 
+    "type": "csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "socrata": {
+      "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/fsun-wigf.json"
+    }
+  }, 
+  "name": "Measure 36b : Percentage of Adults with a Healthy Weight | Self Reported Health Status", 
+  "schema": {
+    "columns": [
+      {
+        "name": "measure_value", 
+        "type": "text"
+      }, 
+      {
+        "name": "year", 
+        "type": "text"
+      }, 
+      {
+        "name": "self_reported_health_status", 
+        "type": "text"
+      }, 
+      {
+        "name": "lower_ci", 
+        "type": "real"
+      }, 
+      {
+        "name": "upper_ci", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/healthmeasures.aspe.hhs.gov", 
+  "tableName": "measure_36b_percentage_of_adults_with_a_healthy_weight_self_reported_health_status"
+}

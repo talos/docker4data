@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_cms_location_data_file/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/6pug-rk3y/rows.csv"
+    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/6pug-rk3y/rows.csv", 
+    "type": "csv"
   }, 
   "description": "This file contains information to allow developers to correlate data from other extracts and determine location information.  This file does not contain GIS coordinates.  Please contact cms.data@illinois.gov for questions or to report problems with this dataset.  Please see the data definition file located in the Files and Documents section for additional details.", 
   "maintainer": {
@@ -39,5 +40,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_illinois_cms_location_data_file"
+  "schemaName": "socrata/data.illinois.gov", 
+  "tableName": "cms_location_data_file"
 }

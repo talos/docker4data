@@ -1,0 +1,58 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/congenital_malformation_rates_cmr_beginning_1992/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/mz8x-255x/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "This dataset contains data on the occurrence of selected major malformations in infants born 1992 \u2013 Forward. The Congenital Malformations Registry (CMR) of the New York State Department of Health is a repository for case reports on children who are born or reside in New York State and are diagnosed before the age of two years with any structural, functional or biochemical abnormality determined genetically or induced during gestation and not due to birthing events. This is based on reporting from hospitals which is required under the State Sanitary Code.  Hospitals report a narrative description of the birth defect which is reviewed and coded by CMR staff. For more information, check out: http://www.health.ny.gov/diseases/congenital_malformations/cmrhome.htm or go to the \"About\" tab.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New York State Department of Health", 
+    "category": "Health", 
+    "description": "This dataset contains data on the occurrence of selected major malformations in infants born 1992 \u2013 Forward. The Congenital Malformations Registry (CMR) of the New York State Department of Health is a repository for case reports on children who are born or reside in New York State and are diagnosed before the age of two years with any structural, functional or biochemical abnormality determined genetically or induced during gestation and not due to birthing events. This is based on reporting from hospitals which is required under the State Sanitary Code.  Hospitals report a narrative description of the birth defect which is reviewed and coded by CMR staff. For more information, check out: http://www.health.ny.gov/diseases/congenital_malformations/cmrhome.htm or go to the \"About\" tab.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/mz8x-255x.json"
+    }
+  }, 
+  "name": "Congenital Malformation Rates (CMR): Beginning 1992", 
+  "schema": {
+    "columns": [
+      {
+        "name": "year", 
+        "type": "real"
+      }, 
+      {
+        "name": "malformations", 
+        "type": "text"
+      }, 
+      {
+        "name": "category_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "sex", 
+        "type": "text"
+      }, 
+      {
+        "name": "category_value", 
+        "type": "text"
+      }, 
+      {
+        "name": "number_of_children_with_birth_defects", 
+        "type": "real"
+      }, 
+      {
+        "name": "live_births", 
+        "type": "real"
+      }, 
+      {
+        "name": "prevalence", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/health.data.ny.gov", 
+  "tableName": "congenital_malformation_rates_cmr_beginning_1992"
+}

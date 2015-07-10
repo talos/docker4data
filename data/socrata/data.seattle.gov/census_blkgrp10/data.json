@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_census_blkgrp10/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/nriy-8iv7/rows.csv"
+    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/nriy-8iv7/rows.csv", 
+    "type": "csv"
   }, 
   "description": "US Census Block Group for 2010 US Census", 
   "maintainer": {
@@ -96,5 +97,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_seattle_census_blkgrp10"
+  "schemaName": "socrata/data.seattle.gov", 
+  "tableName": "census_blkgrp10"
 }

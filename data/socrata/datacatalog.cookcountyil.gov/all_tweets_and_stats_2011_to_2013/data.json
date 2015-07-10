@@ -1,0 +1,54 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/all_tweets_and_stats_2011_to_2013/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/dw7q-wyyh/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "All Cook County Tweets, starting in 2011 to 12/31/2013.  As measured by Crowdbooster.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Cook County Bureau of Technology", 
+    "category": "Finance & Administration", 
+    "description": "All Cook County Tweets, starting in 2011 to 12/31/2013.  As measured by Crowdbooster.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/dw7q-wyyh.json"
+    }
+  }, 
+  "name": "All Tweets And Stats 2011 To 2013", 
+  "schema": {
+    "columns": [
+      {
+        "name": "date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "time", 
+        "type": "text"
+      }, 
+      {
+        "name": "text", 
+        "type": "text"
+      }, 
+      {
+        "name": "retweets", 
+        "type": "real"
+      }, 
+      {
+        "name": "replies", 
+        "type": "real"
+      }, 
+      {
+        "name": "potential_impressions", 
+        "type": "real"
+      }, 
+      {
+        "name": "link", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/datacatalog.cookcountyil.gov", 
+  "tableName": "all_tweets_and_stats_2011_to_2013"
+}

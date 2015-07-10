@@ -1,0 +1,61 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/permit_inspections/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/hyxh-ndxj/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Inspections performed for issued permits.  Update Frequency: Daily", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "category": "Licenses/Permits", 
+    "description": "Inspections performed for issued permits.  Update Frequency: Daily", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/hyxh-ndxj.json"
+    }
+  }, 
+  "name": "Permit Inspections", 
+  "schema": {
+    "columns": [
+      {
+        "name": "permitno", 
+        "type": "text"
+      }, 
+      {
+        "name": "permit_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "inspectionkey", 
+        "type": "text"
+      }, 
+      {
+        "name": "inspectiontype", 
+        "type": "text"
+      }, 
+      {
+        "name": "assignto", 
+        "type": "text"
+      }, 
+      {
+        "name": "scheddttm", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "inspby", 
+        "type": "text"
+      }, 
+      {
+        "name": "compdttm", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "result", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.montgomerycountymd.gov", 
+  "tableName": "permit_inspections"
+}

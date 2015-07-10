@@ -1,0 +1,54 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/design_construction_capital_projects_vendor_payments_beginning_2014/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/rb9h-9fit/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "This dataset provides the public with the value of individual payments made to vendors for Professional Services or Construction contacts, by State Contract number.  Data includes individual payments recorded in the specified time frame to vendors for the County in which the work was performed. Statewide payments are also included that are not County specific.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New York State Office of General Services", 
+    "category": "Economic Development", 
+    "description": "This dataset provides the public with the value of individual payments made to vendors for Professional Services or Construction contacts, by State Contract number.  Data includes individual payments recorded in the specified time frame to vendors for the County in which the work was performed. Statewide payments are also included that are not County specific.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/rb9h-9fit.json"
+    }
+  }, 
+  "name": "Design & Construction Capital Projects Vendor Payments:  Beginning 2014", 
+  "schema": {
+    "columns": [
+      {
+        "name": "contractnumber", 
+        "type": "text"
+      }, 
+      {
+        "name": "vendor", 
+        "type": "text"
+      }, 
+      {
+        "name": "typeofservice", 
+        "type": "text"
+      }, 
+      {
+        "name": "paymentamount", 
+        "type": "real"
+      }, 
+      {
+        "name": "fiscalyear", 
+        "type": "text"
+      }, 
+      {
+        "name": "quarter", 
+        "type": "real"
+      }, 
+      {
+        "name": "county", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "design_construction_capital_projects_vendor_payments_beginning_2014"
+}

@@ -1,0 +1,50 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/workers_compensation_rates_state_by_state_comparison_2010/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/fqmb-yv95/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "The Information Management Division of the Oregon Department of Consumer and Business Services conducts a state-by-state comparison of workers\u2019 compensation rates every two years. The goal of this study is to produce a comparison of premium rates for a comparable set of classifications across all states. The study has been done because states\u2019 economies, industries, and mix of occupations differ significantly. Therefore, simple analyses, such as overall average rates, are not comparable among states. The study uses a comparable set of occupational classes to address this problem. It uses the National Council on Compensation Insurance classification codes. Of the approximately 450 active classes in Oregon, 50 were selected based on relative importance as measured by share of losses in Oregon. \r\n\r\nUsers of this premium rate ranking study should be aware of some of the other issues in comparing premium rates among states. There are many factors that cannot be separately measured in each state, but that contribute to overall rate level and individual class rates. Users are referred to the report for more information on the methodology.\r\n\r\nLink to summary report: http://www4.cbs.state.or.us/ex/imd/reports/rpt/index.cfm?fuseaction=version_view&version_tk=184455&ProgID=FEARA012\r\n\r\nLink to full report:\r\nhttp://www4.cbs.state.or.us/ex/imd/reports/rpt/index.cfm?fuseaction=version_view&version_tk=185127&ProgID=FEARA011", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Oregon Department of Consumer and Business Services, Information Management Division", 
+    "category": "Business", 
+    "description": "The Information Management Division of the Oregon Department of Consumer and Business Services conducts a state-by-state comparison of workers\u2019 compensation rates every two years. The goal of this study is to produce a comparison of premium rates for a comparable set of classifications across all states. The study has been done because states\u2019 economies, industries, and mix of occupations differ significantly. Therefore, simple analyses, such as overall average rates, are not comparable among states. The study uses a comparable set of occupational classes to address this problem. It uses the National Council on Compensation Insurance classification codes. Of the approximately 450 active classes in Oregon, 50 were selected based on relative importance as measured by share of losses in Oregon. \r\n\r\nUsers of this premium rate ranking study should be aware of some of the other issues in comparing premium rates among states. There are many factors that cannot be separately measured in each state, but that contribute to overall rate level and individual class rates. Users are referred to the report for more information on the methodology.\r\n\r\nLink to summary report: http://www4.cbs.state.or.us/ex/imd/reports/rpt/index.cfm?fuseaction=version_view&version_tk=184455&ProgID=FEARA012\r\n\r\nLink to full report:\r\nhttp://www4.cbs.state.or.us/ex/imd/reports/rpt/index.cfm?fuseaction=version_view&version_tk=185127&ProgID=FEARA011", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/fqmb-yv95.json"
+    }
+  }, 
+  "name": "Workers' Compensation Rates, State-by-State Comparison, 2010", 
+  "schema": {
+    "columns": [
+      {
+        "name": "state", 
+        "type": "text"
+      }, 
+      {
+        "name": "_2010_ranking", 
+        "type": "real"
+      }, 
+      {
+        "name": "_2010_index_rate", 
+        "type": "real"
+      }, 
+      {
+        "name": "of_2010_study_median", 
+        "type": "text"
+      }, 
+      {
+        "name": "effective_date", 
+        "type": "text"
+      }, 
+      {
+        "name": "_2008_ranking", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.oregon.gov", 
+  "tableName": "workers_compensation_rates_state_by_state_comparison_2010"
+}

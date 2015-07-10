@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_building_permits_since_2009/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/stav-rdug/rows.csv"
+    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/stav-rdug/rows.csv", 
+    "type": "csv"
   }, 
   "description": "List of all building permits issued since 2009", 
   "maintainer": {
@@ -56,5 +57,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_illinois_building_permits_since_2009"
+  "schemaName": "socrata/data.illinois.gov", 
+  "tableName": "building_permits_since_2009"
 }

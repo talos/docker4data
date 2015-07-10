@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_kingcounty_districts/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/h89v-f4as/rows.csv"
+    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/h89v-f4as/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Districts for King County Elections", 
   "maintainer": {
@@ -167,5 +168,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_kingcounty_districts"
+  "schemaName": "socrata/data.kingcounty.gov", 
+  "tableName": "districts"
 }

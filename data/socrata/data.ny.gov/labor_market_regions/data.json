@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_labor_market_regions/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/imem-myat/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/imem-myat/rows.csv", 
+    "type": "csv"
   }, 
   "description": "The New York State Department of Labor has ten labor market regions across the state.   This dataset lists the counties and their corresponding labor market region.", 
   "maintainer": {
@@ -28,5 +29,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ny_labor_market_regions"
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "labor_market_regions"
 }

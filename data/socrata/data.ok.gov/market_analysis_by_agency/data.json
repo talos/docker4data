@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_market_analysis_by_agency/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/6rug-xpex/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/6rug-xpex/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Market analysis of classified employees by agency for the previous fiscal year. This analysis shows the number of classified employees as well as benchmarks for the number of incumbent,s market average salaries, and the average salary.", 
   "maintainer": {
@@ -52,5 +53,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ok_market_analysis_by_agency"
+  "schemaName": "socrata/data.ok.gov", 
+  "tableName": "market_analysis_by_agency"
 }

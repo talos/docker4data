@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_montgomerycountymd_demolition_permits/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/b6ht-fw3x/rows.csv"
+    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/b6ht-fw3x/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Data for all Demolition Permit applications, including status and work performed.\r\n\r\nUpdate Frequency:  Daily", 
   "maintainer": {
@@ -91,5 +92,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_montgomerycountymd_demolition_permits"
+  "schemaName": "socrata/data.montgomerycountymd.gov", 
+  "tableName": "demolition_permits"
 }

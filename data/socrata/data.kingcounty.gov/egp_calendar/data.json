@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_kingcounty_egp_calendar/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/ih66-9vhb/rows.csv"
+    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/ih66-9vhb/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Base dataset for the King County Employee Giving Program (EGP) Annual Giving Drive Calendar", 
   "maintainer": {
@@ -67,5 +68,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_kingcounty_egp_calendar"
+  "schemaName": "socrata/data.kingcounty.gov", 
+  "tableName": "egp_calendar"
 }

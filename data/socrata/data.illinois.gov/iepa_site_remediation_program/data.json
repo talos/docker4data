@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_iepa_site_remediation_program/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/viug-8kkr/rows.csv"
+    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/viug-8kkr/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Data extracted from the Bureau of Land's Site Remediation Program Database which identifies the status of all voluntary remediation projects enrolled in the Pre-Notice Site Cleanup Program (1989 to 1995) and the Site Remediation Program (1996 to the present).", 
   "maintainer": {
@@ -96,5 +97,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_illinois_iepa_site_remediation_program"
+  "schemaName": "socrata/data.illinois.gov", 
+  "tableName": "iepa_site_remediation_program"
 }

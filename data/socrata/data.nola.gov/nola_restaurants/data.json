@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_nola_nola_restaurants/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.nola.gov/api/views/utqx-f83p/rows.csv"
+    "@id": "http://www.opendatacache.com/data.nola.gov/api/views/utqx-f83p/rows.csv", 
+    "type": "csv"
   }, 
   "description": "New Orleans restaurants as of 01/16/2014, source data Bureau of Revenue.  Scheduled update: Quarterly.", 
   "maintainer": {
@@ -40,5 +41,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_nola_nola_restaurants"
+  "schemaName": "socrata/data.nola.gov", 
+  "tableName": "nola_restaurants"
 }

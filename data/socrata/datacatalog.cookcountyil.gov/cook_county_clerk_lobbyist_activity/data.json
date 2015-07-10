@@ -1,0 +1,58 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/cook_county_clerk_lobbyist_activity/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/c774-azg6/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "This dataset is updated nightly. For extended information about Lobbyist Activities in Cook County IL, visit the Cook County Clerk's Lobbyist search: http://lobbyist.cookcountyclerk.com/Public/SearchHome.aspx", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Cook County Clerk", 
+    "category": "Finance & Administration", 
+    "description": "This dataset is updated nightly. For extended information about Lobbyist Activities in Cook County IL, visit the Cook County Clerk's Lobbyist search: http://lobbyist.cookcountyclerk.com/Public/SearchHome.aspx", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/c774-azg6.json"
+    }
+  }, 
+  "name": "Cook County Clerk - Lobbyist Activity", 
+  "schema": {
+    "columns": [
+      {
+        "name": "lobbyist_firm_sole_proprietor", 
+        "type": "text"
+      }, 
+      {
+        "name": "activity_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "client", 
+        "type": "text"
+      }, 
+      {
+        "name": "person_lobbied", 
+        "type": "text"
+      }, 
+      {
+        "name": "person_lobbied_title", 
+        "type": "text"
+      }, 
+      {
+        "name": "lobbyist", 
+        "type": "text"
+      }, 
+      {
+        "name": "contact_nature", 
+        "type": "text"
+      }, 
+      {
+        "name": "subject_matter", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/datacatalog.cookcountyil.gov", 
+  "tableName": "cook_county_clerk_lobbyist_activity"
+}

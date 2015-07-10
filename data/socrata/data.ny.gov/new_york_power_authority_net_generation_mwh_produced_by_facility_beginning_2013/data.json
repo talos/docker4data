@@ -1,0 +1,42 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/new_york_power_authority_net_generation_mwh_produced_by_facility_beginning_2013/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/isux-jnrn/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "The New York Power Authority is America's largest state power organization, with 16 generating facilities and more than 1,400 circuit-miles of transmission lines.\r\nThe data provided includes megawatt-hours produced net of station service by each NYPA facility.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New York Power Authority", 
+    "category": "Energy & Environment", 
+    "description": "The New York Power Authority is America's largest state power organization, with 16 generating facilities and more than 1,400 circuit-miles of transmission lines.\r\nThe data provided includes megawatt-hours produced net of station service by each NYPA facility.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/isux-jnrn.json"
+    }
+  }, 
+  "name": "New York Power Authority Net Generation (MWh) Produced by Facility: Beginning 2013", 
+  "schema": {
+    "columns": [
+      {
+        "name": "year", 
+        "type": "real"
+      }, 
+      {
+        "name": "month", 
+        "type": "text"
+      }, 
+      {
+        "name": "nypa_facility_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "net_generation_mwh", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "new_york_power_authority_net_generation_mwh_produced_by_facility_beginning_2013"
+}

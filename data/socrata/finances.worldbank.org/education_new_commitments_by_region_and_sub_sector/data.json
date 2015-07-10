@@ -1,0 +1,54 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/education_new_commitments_by_region_and_sub_sector/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/64f3-59mr/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "This dataset provides the new commitments for education from FY1990 going forward. Data is available at sub-sector and regional level.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "World Bank Group", 
+    "category": "Education", 
+    "description": "This dataset provides the new commitments for education from FY1990 going forward. Data is available at sub-sector and regional level.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/64f3-59mr.json"
+    }
+  }, 
+  "name": "Education - New Commitments by Region and Sub-sector", 
+  "schema": {
+    "columns": [
+      {
+        "name": "sector", 
+        "type": "text"
+      }, 
+      {
+        "name": "sub_sector", 
+        "type": "text"
+      }, 
+      {
+        "name": "region", 
+        "type": "text"
+      }, 
+      {
+        "name": "fiscal_year", 
+        "type": "text"
+      }, 
+      {
+        "name": "ida_new_commitments_millions_of_current_us", 
+        "type": "real"
+      }, 
+      {
+        "name": "ibrd_new_commitments_millions_of_current_us", 
+        "type": "real"
+      }, 
+      {
+        "name": "ibrd_ida_new_commitments_millions_of_current_us", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/finances.worldbank.org", 
+  "tableName": "education_new_commitments_by_region_and_sub_sector"
+}

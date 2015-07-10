@@ -1,0 +1,42 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/total_property_insurance_premiums_written_annually_in_new_york_beginning_1998/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/472d-zats/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Listings of total direct written premiums for insurers authorized to write Property & Casualty lines of business in New York State.  These insurers are required under Article 41 of the New York Insurance Law to meet minimum financial security requirements.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Insurance Division - Property Bureau", 
+    "category": "Government & Finance", 
+    "description": "Listings of total direct written premiums for insurers authorized to write Property & Casualty lines of business in New York State.  These insurers are required under Article 41 of the New York Insurance Law to meet minimum financial security requirements.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/472d-zats.json"
+    }
+  }, 
+  "name": "Total Property Insurance Premiums Written Annually in New York: Beginning 1998", 
+  "schema": {
+    "columns": [
+      {
+        "name": "naic_code", 
+        "type": "real"
+      }, 
+      {
+        "name": "company_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "calendar_year_year", 
+        "type": "real"
+      }, 
+      {
+        "name": "net_premiums_written", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "total_property_insurance_premiums_written_annually_in_new_york_beginning_1998"
+}

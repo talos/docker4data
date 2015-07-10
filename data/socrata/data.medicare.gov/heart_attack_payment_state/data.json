@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_medicare_heart_attack_payment_state/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/98ix-2iqy/rows.csv"
+    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/98ix-2iqy/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Payment for heart attack patients measure \u2013 state data. This data set includes state-level data for payments associated with a 30-day episode of care for heart attack patients.", 
   "maintainer": {
@@ -59,5 +60,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_medicare_heart_attack_payment_state"
+  "schemaName": "socrata/data.medicare.gov", 
+  "tableName": "heart_attack_payment_state"
 }

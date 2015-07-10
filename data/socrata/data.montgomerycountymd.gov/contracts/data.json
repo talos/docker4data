@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_montgomerycountymd_contracts/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/vmu2-pnrc/rows.csv"
+    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/vmu2-pnrc/rows.csv", 
+    "type": "csv"
   }, 
   "description": "The following dataset is a listing of all active County contracts.  This list is updated daily.  Contract spending information can be found at:  https://data.montgomerycountymd.gov/Finance-Tax-Property/Contract-Spending/wv2m-su7v\r\n\r\nUpdate Frequency:  Daily", 
   "maintainer": {
@@ -127,5 +128,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_montgomerycountymd_contracts"
+  "schemaName": "socrata/data.montgomerycountymd.gov", 
+  "tableName": "contracts"
 }

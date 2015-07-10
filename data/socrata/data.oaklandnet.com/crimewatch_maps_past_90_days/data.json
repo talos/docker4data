@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oaklandnet_crimewatch_maps_past_90_days/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.oaklandnet.com/api/views/ym6k-rx7a/rows.csv"
+    "@id": "http://www.opendatacache.com/data.oaklandnet.com/api/views/ym6k-rx7a/rows.csv", 
+    "type": "csv"
   }, 
   "description": "The Oakland Police Department provides crime data to the public through the City of Oakland\u2019s Crime Watch web site. This site presents the data in a geographic format, which allows users of the information to produce maps and/or reports. \r\n\r\nThe file that you are about to electronically download, copy, or otherwise retrieve by other means is a tabular representation of the same data without maps or reporting capabilities. Be advised that the exact address of each crime has been substituted with the block address to protect the privacy of the victim.", 
   "maintainer": {
@@ -56,5 +57,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_oaklandnet_crimewatch_maps_past_90_days"
+  "schemaName": "socrata/data.oaklandnet.com", 
+  "tableName": "crimewatch_maps_past_90_days"
 }

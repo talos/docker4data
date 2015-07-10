@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_census_tracts_odata2/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/8mm5-z8i7/rows.csv"
+    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/8mm5-z8i7/rows.csv", 
+    "type": "csv"
   }, 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -45,5 +46,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_sfgov_census_tracts_odata2"
+  "schemaName": "socrata/data.sfgov.org", 
+  "tableName": "census_tracts_odata2"
 }

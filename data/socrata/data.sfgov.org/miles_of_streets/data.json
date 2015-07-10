@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_miles_of_streets/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/5s76-j52p/rows.csv"
+    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/5s76-j52p/rows.csv", 
+    "type": "csv"
   }, 
   "description": "A report compiled for the Controller's Office containing miles of City streets broken out by jurisdiction.", 
   "maintainer": {
@@ -32,5 +33,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_sfgov_miles_of_streets"
+  "schemaName": "socrata/data.sfgov.org", 
+  "tableName": "miles_of_streets"
 }

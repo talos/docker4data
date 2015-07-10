@@ -1,0 +1,154 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/fy2015_operating_budget_by_budgeting_for_results_category/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/bqxt-e8u4/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "This dataset contains the Fiscal Year 2015 operations budget with historical and proposed appropriations for state budgeted entities. The data is sortable by Budgeting for Results categories \u201cStatewide Result Area,\u201d and \u201cStatewide Outcome Name.\u201d The file is provided by the Governor\u2019s Office of Management and Budget (website: Budget.Illinois.gov or http://www.state.il.us/budget/).\n\nThe first eight (8) Columns contain the statewide result area name, the statewide outcome area name, the agency name, the agency division name, the fund from which the appropriation is made, the appropriation name, the appropriation code associated with the appropriation, and the agency program name.\n\nThe remaining columns contain the appropriation amounts ($ thousands) for fiscal years 2013 and 2014, and recommended and not recommended appropriations for fiscal year 2015. Appropriations amounts for each fiscal year are broken out into General Funds (GF), Other State Funds (OF), and Federal Funds (FF).", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Governor's Office of Management and Budget", 
+    "category": "Reference", 
+    "description": "This dataset contains the Fiscal Year 2015 operations budget with historical and proposed appropriations for state budgeted entities. The data is sortable by Budgeting for Results categories \u201cStatewide Result Area,\u201d and \u201cStatewide Outcome Name.\u201d The file is provided by the Governor\u2019s Office of Management and Budget (website: Budget.Illinois.gov or http://www.state.il.us/budget/).\n\nThe first eight (8) Columns contain the statewide result area name, the statewide outcome area name, the agency name, the agency division name, the fund from which the appropriation is made, the appropriation name, the appropriation code associated with the appropriation, and the agency program name.\n\nThe remaining columns contain the appropriation amounts ($ thousands) for fiscal years 2013 and 2014, and recommended and not recommended appropriations for fiscal year 2015. Appropriations amounts for each fiscal year are broken out into General Funds (GF), Other State Funds (OF), and Federal Funds (FF).", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/bqxt-e8u4.json"
+    }
+  }, 
+  "name": "FY2015 Operating Budget by Budgeting For Results Category", 
+  "schema": {
+    "columns": [
+      {
+        "name": "result_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "outcome_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "agency_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "division_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "fund_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "appropriation_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "approp_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "program_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "fy13_approp", 
+        "type": "real"
+      }, 
+      {
+        "name": "fy13_expend", 
+        "type": "real"
+      }, 
+      {
+        "name": "fy14_approp", 
+        "type": "real"
+      }, 
+      {
+        "name": "fy14_estimated", 
+        "type": "real"
+      }, 
+      {
+        "name": "fy15_proposed", 
+        "type": "real"
+      }, 
+      {
+        "name": "fy15_not_recommneded", 
+        "type": "real"
+      }, 
+      {
+        "name": "fy13_approp_gf", 
+        "type": "real"
+      }, 
+      {
+        "name": "fy13_approp_of", 
+        "type": "real"
+      }, 
+      {
+        "name": "fy13_approp_ff", 
+        "type": "real"
+      }, 
+      {
+        "name": "fy13_expend_gf", 
+        "type": "real"
+      }, 
+      {
+        "name": "fy13_expend_of", 
+        "type": "real"
+      }, 
+      {
+        "name": "fy13_expend_ff", 
+        "type": "real"
+      }, 
+      {
+        "name": "fy14_approp_gf", 
+        "type": "real"
+      }, 
+      {
+        "name": "fy14_approp_of", 
+        "type": "real"
+      }, 
+      {
+        "name": "fy14_approp_ff", 
+        "type": "real"
+      }, 
+      {
+        "name": "fy14_estimated_gf", 
+        "type": "real"
+      }, 
+      {
+        "name": "fy14_estimated_of", 
+        "type": "real"
+      }, 
+      {
+        "name": "fy14_estimated_ff", 
+        "type": "real"
+      }, 
+      {
+        "name": "fy15_proposed_gf", 
+        "type": "real"
+      }, 
+      {
+        "name": "fy15_proposed_of", 
+        "type": "real"
+      }, 
+      {
+        "name": "fy15_proposed_ff", 
+        "type": "real"
+      }, 
+      {
+        "name": "fy15_not_recommended_gf", 
+        "type": "real"
+      }, 
+      {
+        "name": "fy15_not_recommended_of", 
+        "type": "real"
+      }, 
+      {
+        "name": "fy15_not_recommended_ff", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.illinois.gov", 
+  "tableName": "fy2015_operating_budget_by_budgeting_for_results_category"
+}

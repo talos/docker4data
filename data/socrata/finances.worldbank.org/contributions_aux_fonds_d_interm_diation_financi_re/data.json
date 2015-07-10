@@ -1,0 +1,78 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/contributions_aux_fonds_d_interm_diation_financi_re/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/y8zz-s79i/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Les fonds d\u2019interm\u00e9diation financi\u00e8re (FIF) sont des dispositifs de financement multilat\u00e9raux pour lesquels la Banque mondiale joue le r\u00f4le d\u2019administrateur, ce qui consiste notamment \u00e0 assurer les engagements et transferts de fonds aux organismes d\u2019ex\u00e9cution des projets (qui sont en g\u00e9n\u00e9ral des organisations internationales telles que banques multilat\u00e9rales de d\u00e9veloppement ou agences des Nations Unies). Dans ce r\u00f4le d\u2019administrateur, la Banque mondiale est tenue dans tous les cas de se conformer aux instructions des organes de gouvernance ind\u00e9pendants.\r\n\r\nDans l\u2019exercice de ses responsabilit\u00e9s d\u2019administrateur, la Banque mondiale veille en outre au respect de toutes sanctions pouvant s\u2019appliquer \u00e0 ses transactions.\r\n\r\nDe par l\u2019aspect novateur de leurs m\u00e9canismes de financement et de gouvernance, les FIF permettent la mobilisation de fonds de sources multiples, comprenant aussi bien des entit\u00e9s souveraines que des int\u00e9r\u00eats priv\u00e9s. Leurs structures peuvent en outre \u00eatre con\u00e7ues sur mesure : certains FIF ont par exemple \u00e9t\u00e9 structur\u00e9s de mani\u00e8re \u00e0 recevoir des contributions sous forme de pr\u00eats concessionnels, en plus des dons de type conventionnel ; et ils peuvent aussi recourir \u00e0 des produits financiers sur mesure pour dispenser les fonds \u00e0 leurs b\u00e9n\u00e9ficiaires.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "World Bank Group", 
+    "category": "Financial Intermediary Funds", 
+    "description": "Les fonds d\u2019interm\u00e9diation financi\u00e8re (FIF) sont des dispositifs de financement multilat\u00e9raux pour lesquels la Banque mondiale joue le r\u00f4le d\u2019administrateur, ce qui consiste notamment \u00e0 assurer les engagements et transferts de fonds aux organismes d\u2019ex\u00e9cution des projets (qui sont en g\u00e9n\u00e9ral des organisations internationales telles que banques multilat\u00e9rales de d\u00e9veloppement ou agences des Nations Unies). Dans ce r\u00f4le d\u2019administrateur, la Banque mondiale est tenue dans tous les cas de se conformer aux instructions des organes de gouvernance ind\u00e9pendants.\r\n\r\nDans l\u2019exercice de ses responsabilit\u00e9s d\u2019administrateur, la Banque mondiale veille en outre au respect de toutes sanctions pouvant s\u2019appliquer \u00e0 ses transactions.\r\n\r\nDe par l\u2019aspect novateur de leurs m\u00e9canismes de financement et de gouvernance, les FIF permettent la mobilisation de fonds de sources multiples, comprenant aussi bien des entit\u00e9s souveraines que des int\u00e9r\u00eats priv\u00e9s. Leurs structures peuvent en outre \u00eatre con\u00e7ues sur mesure : certains FIF ont par exemple \u00e9t\u00e9 structur\u00e9s de mani\u00e8re \u00e0 recevoir des contributions sous forme de pr\u00eats concessionnels, en plus des dons de type conventionnel ; et ils peuvent aussi recourir \u00e0 des produits financiers sur mesure pour dispenser les fonds \u00e0 leurs b\u00e9n\u00e9ficiaires.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/y8zz-s79i.json"
+    }
+  }, 
+  "name": "Contributions aux fonds d\u2019interm\u00e9diation financi\u00e8re", 
+  "schema": {
+    "columns": [
+      {
+        "name": "as_of_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "fund_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "donor_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "donor_country_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "receipt_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "receipt_quarter", 
+        "type": "text"
+      }, 
+      {
+        "name": "calendar_year", 
+        "type": "real"
+      }, 
+      {
+        "name": "receipt_currency", 
+        "type": "text"
+      }, 
+      {
+        "name": "receipt_amount", 
+        "type": "real"
+      }, 
+      {
+        "name": "contribution_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "sub_account", 
+        "type": "text"
+      }, 
+      {
+        "name": "amount_in_usd", 
+        "type": "real"
+      }, 
+      {
+        "name": "sector_theme", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/finances.worldbank.org", 
+  "tableName": "contributions_aux_fonds_d_interm_diation_financi_re"
+}

@@ -1,0 +1,42 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ibrd_balance_sheet_fy2010/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/e8yz-96c6/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Provides data from the IBRD Balance Sheet for the fiscal years ended June 30, 2010 and June 30, 2009. The values are expressed in millions of U.S. Dollars", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "World Bank", 
+    "category": "Accounting and Control", 
+    "description": "Provides data from the IBRD Balance Sheet for the fiscal years ended June 30, 2010 and June 30, 2009. The values are expressed in millions of U.S. Dollars", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/e8yz-96c6.json"
+    }
+  }, 
+  "name": "IBRD Balance Sheet, FY2010", 
+  "schema": {
+    "columns": [
+      {
+        "name": "category", 
+        "type": "text"
+      }, 
+      {
+        "name": "line_item", 
+        "type": "text"
+      }, 
+      {
+        "name": "fiscal_year", 
+        "type": "text"
+      }, 
+      {
+        "name": "amount_us_millions", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/finances.worldbank.org", 
+  "tableName": "ibrd_balance_sheet_fy2010"
+}

@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_electricity_sales_by_sector_gwh_beginning_1980/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/pv7j-5nz8/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/pv7j-5nz8/rows.csv", 
+    "type": "csv"
   }, 
   "description": "New York Electricity Sales dataset provides data on total electricity requirements for New York State.  Electricity sales to ultimate consumers are provided and are broken down by sector (Residential/Commercial/Industrial/Transportation) in GWh.", 
   "maintainer": {
@@ -44,5 +45,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ny_electricity_sales_by_sector_gwh_beginning_1980"
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "electricity_sales_by_sector_gwh_beginning_1980"
 }

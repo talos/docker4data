@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_intentional_deaths/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/ugrz-2fft/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/ugrz-2fft/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Decrease the rate of intentional injury death from 22.8 per 100,000 in 2013 to 19.4 per 100,000 by 2017.", 
   "maintainer": {
@@ -32,5 +33,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ok_intentional_deaths"
+  "schemaName": "socrata/data.ok.gov", 
+  "tableName": "intentional_deaths"
 }

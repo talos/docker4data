@@ -1,0 +1,62 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/campaign_consultants_employment_of_local_officeholders_and_city_employees/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/myxh-kx93/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "If a campaign consultant employs a local officeholder or City employee during the reporting period, the filer must report the name of the officeholder or City employee and describe the nature of the employment by the filer.\u00a0In addition, if a client of the filer employs a local officeholder or City employee at the behest of the filer during the reporting period, the filer must report the name of the client, the name of each officeholder or City employee hired by the client, and the nature of the employment by the client.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "San Francisco Ethics Commission", 
+    "category": "City Management and Ethics", 
+    "description": "If a campaign consultant employs a local officeholder or City employee during the reporting period, the filer must report the name of the officeholder or City employee and describe the nature of the employment by the filer.\u00a0In addition, if a client of the filer employs a local officeholder or City employee at the behest of the filer during the reporting period, the filer must report the name of the client, the name of each officeholder or City employee hired by the client, and the nature of the employment by the client.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/myxh-kx93.json"
+    }
+  }, 
+  "name": "Campaign Consultants - Employment of Local Officeholders and City Employees", 
+  "schema": {
+    "columns": [
+      {
+        "name": "campaign_consultant", 
+        "type": "text"
+      }, 
+      {
+        "name": "employee", 
+        "type": "text"
+      }, 
+      {
+        "name": "position", 
+        "type": "text"
+      }, 
+      {
+        "name": "department", 
+        "type": "text"
+      }, 
+      {
+        "name": "city_position", 
+        "type": "text"
+      }, 
+      {
+        "name": "quarter_start_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "quarter_end_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "quarter", 
+        "type": "text"
+      }, 
+      {
+        "name": "year", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.sfgov.org", 
+  "tableName": "campaign_consultants_employment_of_local_officeholders_and_city_employees"
+}

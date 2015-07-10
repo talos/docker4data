@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_weatherfordtx_utilities_fund_history/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/cdyu-igpi/rows.csv"
+    "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/cdyu-igpi/rows.csv", 
+    "type": "csv"
   }, 
   "description": "A history of Utilities Fund Revenues, Expenditures, and Encumbrances (both Budget and Actual, YTD and MTD)", 
   "maintainer": {
@@ -87,5 +88,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_weatherfordtx_utilities_fund_history"
+  "schemaName": "socrata/data.weatherfordtx.gov", 
+  "tableName": "utilities_fund_history"
 }

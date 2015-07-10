@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_veterans_employment_metrics/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/7p7m-tk68/rows.csv"
+    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/7p7m-tk68/rows.csv", 
+    "type": "csv"
   }, 
   "description": "This data set contains information on veterans provided with workforce services from the Maryland Department of Labor, Licensing and Regulation.  Metrics include veterans those that went on to enter employment after ending participation in workforce services, those that did not go on to enter employment, and the rate at which those ending participation in workforce services entered employment.  Additionally, it includes veterans still employed after 6 months, those not still employed after 6 months, and the rate at which veterans retained employment after 6 months. Workforce services are provided through the Maryland Workforce Exchange or through One-Stop Career Centers.", 
   "maintainer": {
@@ -39,5 +40,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_maryland_veterans_employment_metrics"
+  "schemaName": "socrata/data.maryland.gov", 
+  "tableName": "veterans_employment_metrics"
 }

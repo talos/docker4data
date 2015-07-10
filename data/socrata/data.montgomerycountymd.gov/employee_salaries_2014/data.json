@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_montgomerycountymd_employee_salaries_2014/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/54rh-89p8/rows.csv"
+    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/54rh-89p8/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Annual salary information including gross pay and overtime pay for all active, permanent employees of Montgomery County, MD paid in calendar year 2014. This information will be published annually, by the end of January each year.", 
   "maintainer": {
@@ -67,5 +68,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_montgomerycountymd_employee_salaries_2014"
+  "schemaName": "socrata/data.montgomerycountymd.gov", 
+  "tableName": "employee_salaries_2014"
 }

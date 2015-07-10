@@ -1,0 +1,42 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ida_statement_of_cash_flows_fy2012/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/i7ru-ngvc/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Provides data from the IDA Statement of Cash Flows for the fiscal years ended June 30, 2012, June 30, 2011 and June 30, 2010. Sum of all cash flows represent the net changes in unrestricted cash.The values are expressed in millions of U.S. Dollars. Amount in millions of US Dollars, rounded.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "World Bank", 
+    "category": "Accounting and Control", 
+    "description": "Provides data from the IDA Statement of Cash Flows for the fiscal years ended June 30, 2012, June 30, 2011 and June 30, 2010. Sum of all cash flows represent the net changes in unrestricted cash.The values are expressed in millions of U.S. Dollars. Amount in millions of US Dollars, rounded.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/i7ru-ngvc.json"
+    }
+  }, 
+  "name": "IDA Statement Of Cash Flows  FY2012", 
+  "schema": {
+    "columns": [
+      {
+        "name": "source", 
+        "type": "text"
+      }, 
+      {
+        "name": "line_item", 
+        "type": "text"
+      }, 
+      {
+        "name": "fiscal_year", 
+        "type": "real"
+      }, 
+      {
+        "name": "amount_us_millions", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/finances.worldbank.org", 
+  "tableName": "ida_statement_of_cash_flows_fy2012"
+}

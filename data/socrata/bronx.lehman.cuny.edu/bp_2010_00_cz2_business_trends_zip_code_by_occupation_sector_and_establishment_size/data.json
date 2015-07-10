@@ -1,0 +1,62 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/bp_2010_00_cz2_business_trends_zip_code_by_occupation_sector_and_establishment_size/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/camc-vngn/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "2010 census data on the number of establishments per zip code grouped by sector and payrolled employees/establishment size. To create a pointmap of this dataset you must filter for \"Meaning of 2007 North American Industry Classification System (NAICS)\" AND \"Number of Employees\".", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "US Census", 
+    "category": "My Neighborhood", 
+    "description": "2010 census data on the number of establishments per zip code grouped by sector and payrolled employees/establishment size. To create a pointmap of this dataset you must filter for \"Meaning of 2007 North American Industry Classification System (NAICS)\" AND \"Number of Employees\".", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/camc-vngn.json"
+    }
+  }, 
+  "name": "BP 2010 00 CZ2 Business Trends Zip Code by Occupation, Sector, and Establishment Size", 
+  "schema": {
+    "columns": [
+      {
+        "name": "year", 
+        "type": "text"
+      }, 
+      {
+        "name": "zip_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "_2007_north_american_industry_classification_system_naics", 
+        "type": "real"
+      }, 
+      {
+        "name": "meaning_of_2007_north_american_industry_classification_system_naics", 
+        "type": "text"
+      }, 
+      {
+        "name": "number_of_employees", 
+        "type": "text"
+      }, 
+      {
+        "name": "employment_size_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "number_of_establishments", 
+        "type": "real"
+      }, 
+      {
+        "name": "point_x", 
+        "type": "text"
+      }, 
+      {
+        "name": "point_y", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/bronx.lehman.cuny.edu", 
+  "tableName": "bp_2010_00_cz2_business_trends_zip_code_by_occupation_sector_and_establishment_size"
+}

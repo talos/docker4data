@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_vehicle_snowmobile_and_boat_registrations/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/w4pv-hbkt/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/w4pv-hbkt/rows.csv", 
+    "type": "csv"
   }, 
   "description": "This dataset contains the file of vehicle, snowmobile and boat registrations in NYS. Expired registrations are excluded. Records that have a scofflaw, revocation and/or suspension are included with indicators specifying this.", 
   "maintainer": {
@@ -100,5 +101,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ny_vehicle_snowmobile_and_boat_registrations"
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "vehicle_snowmobile_and_boat_registrations"
 }

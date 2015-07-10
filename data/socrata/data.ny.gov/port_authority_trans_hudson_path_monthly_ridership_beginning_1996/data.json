@@ -1,0 +1,38 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/port_authority_trans_hudson_path_monthly_ridership_beginning_1996/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/v5t9-im68/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Total Port Authority Trans-Hudson (PATH) system linked passenger trips, by month beginning 1996 through current year period.  Trips are based on station turnstile entry counts.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Port Authority NY & NJ", 
+    "category": "Transportation", 
+    "description": "Total Port Authority Trans-Hudson (PATH) system linked passenger trips, by month beginning 1996 through current year period.  Trips are based on station turnstile entry counts.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/v5t9-im68.json"
+    }
+  }, 
+  "name": "Port Authority Trans-Hudson (PATH) Monthly Ridership: Beginning 1996", 
+  "schema": {
+    "columns": [
+      {
+        "name": "year", 
+        "type": "real"
+      }, 
+      {
+        "name": "month", 
+        "type": "text"
+      }, 
+      {
+        "name": "total_trips_000_000", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "port_authority_trans_hudson_path_monthly_ridership_beginning_1996"
+}

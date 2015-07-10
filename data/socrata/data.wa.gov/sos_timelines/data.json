@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wa_sos_timelines/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/tshj-72pu/rows.csv"
+    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/tshj-72pu/rows.csv", 
+    "type": "csv"
   }, 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -61,5 +62,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_wa_sos_timelines"
+  "schemaName": "socrata/data.wa.gov", 
+  "tableName": "sos_timelines"
 }

@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_weatherfordtx_electric_monthly_billing_by_class/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/n4m9-h86u/rows.csv"
+    "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/n4m9-h86u/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Weatherford Electric billing data by class, including number of customers, consumption, and amount billed.", 
   "maintainer": {
@@ -44,5 +45,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_weatherfordtx_electric_monthly_billing_by_class"
+  "schemaName": "socrata/data.weatherfordtx.gov", 
+  "tableName": "electric_monthly_billing_by_class"
 }

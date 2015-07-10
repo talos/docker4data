@@ -1,0 +1,58 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/campaign_finance_sfec_1_126_notification_of_contract_approval_filings/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/sn2k-q974/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "The dataset includes a list of SFEC 1.126 Notification of Contract Approval Filings filed with the San Francisco Ethics Commission.\r\nEach City elective officer who approves a contract that has a value of $50,000 or more in a fiscal year must file form SFEC-126 with the Ethics Commission within five business days of approval. This filing requirement applies if the contract is approved by:\r\n(1)the City elective officer, (2) any board on which the City elective officer serves, or (3) the board of any state agency on which an appointee of the City elective officer serves.\r\n\r\nTo view the filings, proceed to:  http://www.sfethics.org/ethics/contracts/", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "San Francisco Ethics Commission", 
+    "category": "City Management and Ethics", 
+    "description": "The dataset includes a list of SFEC 1.126 Notification of Contract Approval Filings filed with the San Francisco Ethics Commission.\r\nEach City elective officer who approves a contract that has a value of $50,000 or more in a fiscal year must file form SFEC-126 with the Ethics Commission within five business days of approval. This filing requirement applies if the contract is approved by:\r\n(1)the City elective officer, (2) any board on which the City elective officer serves, or (3) the board of any state agency on which an appointee of the City elective officer serves.\r\n\r\nTo view the filings, proceed to:  http://www.sfethics.org/ethics/contracts/", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/sn2k-q974.json"
+    }
+  }, 
+  "name": "Campaign Finance - SFEC 1.126 Notification of Contract Approval Filings", 
+  "schema": {
+    "columns": [
+      {
+        "name": "name_of_city_elective_officer", 
+        "type": "text"
+      }, 
+      {
+        "name": "name_of_agency_board_approving_contract", 
+        "type": "text"
+      }, 
+      {
+        "name": "name_of_contractor", 
+        "type": "text"
+      }, 
+      {
+        "name": "date_received_by_ethics", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "date_of_contract_approval", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "contract_amount", 
+        "type": "text"
+      }, 
+      {
+        "name": "brief_description_of_contract_amount", 
+        "type": "text"
+      }, 
+      {
+        "name": "filing", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.sfgov.org", 
+  "tableName": "campaign_finance_sfec_1_126_notification_of_contract_approval_filings"
+}

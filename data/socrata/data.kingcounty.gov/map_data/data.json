@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_kingcounty_map_data/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/3xee-dwpd/rows.csv"
+    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/3xee-dwpd/rows.csv", 
+    "type": "csv"
   }, 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -48,5 +49,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_kingcounty_map_data"
+  "schemaName": "socrata/data.kingcounty.gov", 
+  "tableName": "map_data"
 }

@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_state_of_oklahoma_payroll_q3_2010/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/ws3u-f9vf/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/ws3u-f9vf/rows.csv", 
+    "type": "csv"
   }, 
   "description": "The payroll data represents the amount paid to an employee during the reported time period. In addition to regular pay, these amounts may include other pay types such as overtime, longevity, shift differential or terminal pay. This amount does not include any state share costs associated with the payroll i.e. FICA, state share retirement, etc. This amount may vary from an employee\u2019s \u2018salary\u2019 due to pay adjustments or pay period timing. The payroll information will be updated monthly after the end of the month. For example, July information will be added in August.", 
   "maintainer": {
@@ -67,5 +68,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ok_state_of_oklahoma_payroll_q3_2010"
+  "schemaName": "socrata/data.ok.gov", 
+  "tableName": "state_of_oklahoma_payroll_q3_2010"
 }

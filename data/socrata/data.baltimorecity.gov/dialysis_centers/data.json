@@ -1,0 +1,50 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/dialysis_centers/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/wasd-qc7e/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Listing of area dialysis centers developed by the Baltimore City Department of Health", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Baltimore City Department of Health", 
+    "category": "Housing & Development", 
+    "description": "Listing of area dialysis centers developed by the Baltimore City Department of Health", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/wasd-qc7e.json"
+    }
+  }, 
+  "name": "Dialysis Centers", 
+  "schema": {
+    "columns": [
+      {
+        "name": "name", 
+        "type": "text"
+      }, 
+      {
+        "name": "zipcode", 
+        "type": "text"
+      }, 
+      {
+        "name": "neighborhood", 
+        "type": "text"
+      }, 
+      {
+        "name": "councildistrict", 
+        "type": "real"
+      }, 
+      {
+        "name": "policedistrict", 
+        "type": "text"
+      }, 
+      {
+        "name": "location_1", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.baltimorecity.gov", 
+  "tableName": "dialysis_centers"
+}

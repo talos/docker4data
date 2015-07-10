@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_police_report_narratives/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/ktpa-re45/rows.csv"
+    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/ktpa-re45/rows.csv", 
+    "type": "csv"
   }, 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -24,5 +25,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_seattle_police_report_narratives"
+  "schemaName": "socrata/data.seattle.gov", 
+  "tableName": "police_report_narratives"
 }

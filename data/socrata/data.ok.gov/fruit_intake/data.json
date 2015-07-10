@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_fruit_intake/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/kmwm-jqbm/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/kmwm-jqbm/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Increase the median intake of fruits from 0.9 times per day in 2012 to 1.3 times per day by 2017.", 
   "maintainer": {
@@ -32,5 +33,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ok_fruit_intake"
+  "schemaName": "socrata/data.ok.gov", 
+  "tableName": "fruit_intake"
 }

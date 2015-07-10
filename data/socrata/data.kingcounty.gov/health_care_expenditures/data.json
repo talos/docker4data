@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_kingcounty_health_care_expenditures/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/impj-6vgn/rows.csv"
+    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/impj-6vgn/rows.csv", 
+    "type": "csv"
   }, 
   "description": "King County budget healthcare expenditures since 2000.  See http://www.kingcounty.gov/budget for more.", 
   "maintainer": {
@@ -28,5 +29,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_kingcounty_health_care_expenditures"
+  "schemaName": "socrata/data.kingcounty.gov", 
+  "tableName": "health_care_expenditures"
 }

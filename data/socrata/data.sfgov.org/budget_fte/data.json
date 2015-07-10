@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_budget_fte/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/4zfx-f2ts/rows.csv"
+    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/4zfx-f2ts/rows.csv", 
+    "type": "csv"
   }, 
   "description": "The San Francisco Controller's Office maintains a database of budgetary staffing data that appears in summarized form in each Annual Salary Ordinance (ASO). This data is presented on the Budget report hosted at http://openbook.sfgov.org, and is also available in this dataset in CSV format. New data is added on an annual basis when the ASO is published for each new fiscal year. Data is available from fiscal year 2010 forward.", 
   "maintainer": {
@@ -112,5 +113,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_sfgov_budget_fte"
+  "schemaName": "socrata/data.sfgov.org", 
+  "tableName": "budget_fte"
 }

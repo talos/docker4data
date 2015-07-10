@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_seattle_major_crimes_last_48_hours/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/vtr2-wp3r/rows.csv"
+    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/vtr2-wp3r/rows.csv", 
+    "type": "csv"
   }, 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -92,5 +93,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_seattle_seattle_major_crimes_last_48_hours"
+  "schemaName": "socrata/data.seattle.gov", 
+  "tableName": "seattle_major_crimes_last_48_hours"
 }

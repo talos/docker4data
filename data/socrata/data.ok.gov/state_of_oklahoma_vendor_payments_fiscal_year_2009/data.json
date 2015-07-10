@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_state_of_oklahoma_vendor_payments_fiscal_year_2009/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/deaa-m6ft/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/deaa-m6ft/rows.csv", 
+    "type": "csv"
   }, 
   "description": "The vendor payment dataset contains payments made by state agencies and institutions of higher education that are processed through the Office of Management and Enterprise Services. These payments reflect disbursements from a state fund for the purchase of goods received, services performed, reimbursements, and payments to other governments. Travel reimbursements include the zip code of the State Capitol and not the individual\u2019s address. For security and privacy reasons, payments related to \u201cconfidential matters\u201d are included in the dataset; however, the payee name is replaced with \u201cProtected Information\u201d and the address is changed to the State Capitol address. . Also, some state agencies are authorized to make payments outside of the Office of Management and Enterprise Services from certain authorized funds. In these cases, the agency reports only the total amount of the expenditures to the Office of Management and Enterprise Services but does not report the detailed vendor payment information. Therefore, these payment details are not included in the dataset.", 
   "maintainer": {
@@ -136,5 +137,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ok_state_of_oklahoma_vendor_payments_fiscal_year_2009"
+  "schemaName": "socrata/data.ok.gov", 
+  "tableName": "state_of_oklahoma_vendor_payments_fiscal_year_2009"
 }

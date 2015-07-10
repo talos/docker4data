@@ -1,0 +1,44 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/personal_health_care_expenditures_per_capita_by_state/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/wcrk-wbgx/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Test Measure 99", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "description": "Test Measure 99", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/wcrk-wbgx.json"
+    }
+  }, 
+  "name": "Personal Health Care Expenditures per Capita by State", 
+  "schema": {
+    "columns": [
+      {
+        "name": "measure_value", 
+        "type": "real"
+      }, 
+      {
+        "name": "year", 
+        "type": "real"
+      }, 
+      {
+        "name": "state", 
+        "type": "text"
+      }, 
+      {
+        "name": "dollars", 
+        "type": "text"
+      }, 
+      {
+        "name": "national_data", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/healthmeasures.aspe.hhs.gov", 
+  "tableName": "personal_health_care_expenditures_per_capita_by_state"
+}

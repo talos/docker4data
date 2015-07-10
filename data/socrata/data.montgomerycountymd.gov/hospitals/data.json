@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_montgomerycountymd_hospitals/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/677d-kzp6/rows.csv"
+    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/677d-kzp6/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Address and Locations for Hospitals in Montgomery County, MD and the immediate vicinity.", 
   "maintainer": {
@@ -60,5 +61,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_montgomerycountymd_hospitals"
+  "schemaName": "socrata/data.montgomerycountymd.gov", 
+  "tableName": "hospitals"
 }

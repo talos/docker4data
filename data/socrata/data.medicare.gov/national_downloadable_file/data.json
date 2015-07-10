@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_medicare_national_downloadable_file/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/s63f-csi6/rows.csv"
+    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/s63f-csi6/rows.csv", 
+    "type": "csv"
   }, 
   "description": "The Physician Compare downloadable file is organized at the individual provider level; each line is unique at the provider/enrollment/organization/address level. Providers with multiple enrollments and/or single enrollments linking to multiple practice location addresses are listed on multiple lines.", 
   "maintainer": {
@@ -191,5 +192,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_medicare_national_downloadable_file"
+  "schemaName": "socrata/data.medicare.gov", 
+  "tableName": "national_downloadable_file"
 }

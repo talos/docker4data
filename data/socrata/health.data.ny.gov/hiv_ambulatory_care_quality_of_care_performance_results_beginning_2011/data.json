@@ -1,0 +1,74 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/hiv_ambulatory_care_quality_of_care_performance_results_beginning_2011/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/bbkg-kmnd/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "This dataset represents self\u2010reported performance data by HIV ambulatory care programs.  All HIV ambulatory programs throughout New York State with a significant HIV caseload (a total caseload of at least 30 HIV\u2010infected patients receiving ambulatory HIV care at one or more sites) are expected to self\u2010report their annual quality of care performance data using standardized submission tools and methodologies. With the assistance of the online eHIVQUAL application, performance data results are instantly available to HIV programs, allowing them to immediately utilize their data findings to prioritize upcoming quality activities, and are available for generating benchmarking reports across New York State. See Limitations regarding redaction of small\u2010population data.\r\n\r\nFor more information, check out http://www.health.ny.gov/diseases/aids/about/, or go to the \"About\" tab.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New York State Department of Health", 
+    "category": "Health", 
+    "description": "This dataset represents self\u2010reported performance data by HIV ambulatory care programs.  All HIV ambulatory programs throughout New York State with a significant HIV caseload (a total caseload of at least 30 HIV\u2010infected patients receiving ambulatory HIV care at one or more sites) are expected to self\u2010report their annual quality of care performance data using standardized submission tools and methodologies. With the assistance of the online eHIVQUAL application, performance data results are instantly available to HIV programs, allowing them to immediately utilize their data findings to prioritize upcoming quality activities, and are available for generating benchmarking reports across New York State. See Limitations regarding redaction of small\u2010population data.\r\n\r\nFor more information, check out http://www.health.ny.gov/diseases/aids/about/, or go to the \"About\" tab.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/bbkg-kmnd.json"
+    }
+  }, 
+  "name": "HIV Ambulatory Care Quality of Care Performance Results: Beginning 2011", 
+  "schema": {
+    "columns": [
+      {
+        "name": "year", 
+        "type": "real"
+      }, 
+      {
+        "name": "region", 
+        "type": "text"
+      }, 
+      {
+        "name": "program_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "indicator_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "eligible_patients", 
+        "type": "real"
+      }, 
+      {
+        "name": "indicator_value", 
+        "type": "text"
+      }, 
+      {
+        "name": "quintile", 
+        "type": "text"
+      }, 
+      {
+        "name": "facility_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "address", 
+        "type": "text"
+      }, 
+      {
+        "name": "city", 
+        "type": "text"
+      }, 
+      {
+        "name": "zip", 
+        "type": "text"
+      }, 
+      {
+        "name": "location", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/health.data.ny.gov", 
+  "tableName": "hiv_ambulatory_care_quality_of_care_performance_results_beginning_2011"
+}

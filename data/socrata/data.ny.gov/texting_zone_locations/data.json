@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_texting_zone_locations/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/c3dv-qqzw/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/c3dv-qqzw/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Special \"Texting Zones\" locations along the New York State Thruway and State Highways that give motorists a pull-off area to park and use their mobile devices. Existing Park-n-Ride facilities, rest stops, parking areas and travel plazas along the Thruway and State Highways will have a dual-function as a texting zone.  A total of 90 Texting Zones are located along major highways across the state. \r\n\r\nNew York State Department of Transportation (NYSDOT) in coordination with the Thruway Authority, have collaborated to provide Texting Zones location information and signage to inform drivers.", 
   "maintainer": {
@@ -56,5 +57,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ny_texting_zone_locations"
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "texting_zone_locations"
 }

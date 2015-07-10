@@ -1,0 +1,58 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/earned_income_tax_credit_eitc_claims_by_credit_type_and_place_of_residence_beginning_1999/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/v4us-962v/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "The Department of Taxation and Finance annually prepares a mandated report of statistical information on New York State Earned Income Tax credit. Data in this dataset are from Table 3, 5 and 7 of the report. It includes the distribution of credit and average amount of credit by credit type and place of residence. A large proportion of EITC claims are paid out in the form of cash rebates to taxpayers. This is because credit claimants are typically low and moderate-income taxpayers who have little or no pre-credit tax liability. However, in a significant number of cases credit claims are used to offset pre-credit New York State tax liability. In the aggregate, approximately 85 percent of credit claimed is typically returned to taxpayers in the form of cash rebates. For more information, please go to: http://www.tax.ny.gov/research/stats/stat_pit/earned_income_tax_credit_analysis_of_credit_claims.htm", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New York State Department of Taxation and Finance", 
+    "category": "Government & Finance", 
+    "description": "The Department of Taxation and Finance annually prepares a mandated report of statistical information on New York State Earned Income Tax credit. Data in this dataset are from Table 3, 5 and 7 of the report. It includes the distribution of credit and average amount of credit by credit type and place of residence. A large proportion of EITC claims are paid out in the form of cash rebates to taxpayers. This is because credit claimants are typically low and moderate-income taxpayers who have little or no pre-credit tax liability. However, in a significant number of cases credit claims are used to offset pre-credit New York State tax liability. In the aggregate, approximately 85 percent of credit claimed is typically returned to taxpayers in the form of cash rebates. For more information, please go to: http://www.tax.ny.gov/research/stats/stat_pit/earned_income_tax_credit_analysis_of_credit_claims.htm", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/v4us-962v.json"
+    }
+  }, 
+  "name": "Earned Income Tax Credit (EITC) Claims By Credit Type and Place Of Residence: Beginning 1999", 
+  "schema": {
+    "columns": [
+      {
+        "name": "year", 
+        "type": "real"
+      }, 
+      {
+        "name": "credit_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "county", 
+        "type": "text"
+      }, 
+      {
+        "name": "number_of_claims", 
+        "type": "real"
+      }, 
+      {
+        "name": "number_of_claims_indicator", 
+        "type": "text"
+      }, 
+      {
+        "name": "amount_claimed_in_thousands", 
+        "type": "real"
+      }, 
+      {
+        "name": "amount_claimed_indicator", 
+        "type": "text"
+      }, 
+      {
+        "name": "average_credit", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "earned_income_tax_credit_eitc_claims_by_credit_type_and_place_of_residence_beginning_1999"
+}

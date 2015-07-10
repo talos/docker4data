@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_public_schools/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/ywms-iep2/rows.csv"
+    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/ywms-iep2/rows.csv", 
+    "type": "csv"
   }, 
   "description": "https://gisrevprxy.seattle.gov/ArcGIS/rest/services/ext/WM_CityGISLayers/MapServer/61", 
   "maintainer": {
@@ -63,5 +64,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_seattle_public_schools"
+  "schemaName": "socrata/data.seattle.gov", 
+  "tableName": "public_schools"
 }

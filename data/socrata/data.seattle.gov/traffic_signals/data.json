@@ -1,18 +1,19 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_traffic_signals/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/a3dp-9q2z/rows.csv"
+    "@id": "http://www.opendatacache.com/data.seattle.gov/download/dr6d-ejexapplication/zip; charset=binary", 
+    "type": "application/zip; charset=binary"
   }, 
   "description": "City of Seattle Traffic Signals", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
-    "attribution": "Seattle Department of Transportation", 
+    "attribution": "Seattle Public Utilities", 
     "category": "Transportation", 
-    "description": "City of Seattle Traffic Signals", 
+    "description": "Traffic signal locations within the City of Seattle.", 
     "socrata": {
-      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/a3dp-9q2z.json"
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/dr6d-ejex.json"
     }
   }, 
   "name": "Traffic Signals", 
@@ -140,5 +141,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_seattle_traffic_signals"
+  "schemaName": "socrata/data.seattle.gov", 
+  "tableName": "traffic_signals"
 }

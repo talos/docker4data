@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_security_risk_rating/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/d65b-yb9i/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/d65b-yb9i/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Increase the state government rating of security risk from 60% in 2014 to 70% by 2018.", 
   "maintainer": {
@@ -32,5 +33,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ok_security_risk_rating"
+  "schemaName": "socrata/data.ok.gov", 
+  "tableName": "security_risk_rating"
 }

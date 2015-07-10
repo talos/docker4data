@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_honolulu_crime_incidents/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.honolulu.gov/api/views/a96q-gyhq/rows.csv"
+    "@id": "http://www.opendatacache.com/data.honolulu.gov/api/views/a96q-gyhq/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Crime Incidents is an active feed from the Honolulu Police Department", 
   "maintainer": {
@@ -59,5 +60,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_honolulu_crime_incidents"
+  "schemaName": "socrata/data.honolulu.gov", 
+  "tableName": "crime_incidents"
 }

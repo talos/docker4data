@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_university_of_hawaii_enrollment_by_zipcode/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/wkcq-pipq/rows.csv"
+    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/wkcq-pipq/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Summary enrollment headcount by zipcode for Fall enrollments", 
   "maintainer": {
@@ -39,5 +40,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_hawaii_university_of_hawaii_enrollment_by_zipcode"
+  "schemaName": "socrata/data.hawaii.gov", 
+  "tableName": "university_of_hawaii_enrollment_by_zipcode"
 }

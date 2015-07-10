@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_medicare_medicare_hospital_spending_per_patient_state/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/rs6n-9qwg/rows.csv"
+    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/rs6n-9qwg/rows.csv", 
+    "type": "csv"
   }, 
   "description": "The \"Medicare hospital spending per patient (Medicare Spending per Beneficiary)\" measure shows whether Medicare spends more, less or about the same per Medicare patient treated in a specific hospital, compared to how much Medicare spends per patient nationally. This measure includes any Medicare Part A and Part B payments made for services provided to a patient during the 3 days prior to the hospital stay, during the stay, and during the 30 days after discharge from the hospital. The data displayed here are the average measures for each State.", 
   "maintainer": {
@@ -47,5 +48,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_medicare_medicare_hospital_spending_per_patient_state"
+  "schemaName": "socrata/data.medicare.gov", 
+  "tableName": "medicare_hospital_spending_per_patient_state"
 }

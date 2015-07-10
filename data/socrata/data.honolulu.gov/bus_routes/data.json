@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_honolulu_bus_routes/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.honolulu.gov/api/views/s5c7-gtgi/rows.csv"
+    "@id": "http://www.opendatacache.com/data.honolulu.gov/api/views/s5c7-gtgi/rows.csv", 
+    "type": "csv"
   }, 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -53,5 +54,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_honolulu_bus_routes"
+  "schemaName": "socrata/data.honolulu.gov", 
+  "tableName": "bus_routes"
 }

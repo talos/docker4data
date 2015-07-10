@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_water_contaminent_levels/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/wuzh-gazj/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/wuzh-gazj/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Decrease the percentage of public water supplies with annually reported maximum contaminant level violations from 16% in 2013 to below 12% by 2017.", 
   "maintainer": {
@@ -32,5 +33,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ok_water_contaminent_levels"
+  "schemaName": "socrata/data.ok.gov", 
+  "tableName": "water_contaminent_levels"
 }

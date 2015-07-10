@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_large_utility_excavation_permits/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/i926-ujnc/rows.csv"
+    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/i926-ujnc/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Large utility excavation permits (>=1000 square feet total size) issued in the last year. Compiled for Dig Once program.", 
   "maintainer": {
@@ -88,5 +89,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_sfgov_large_utility_excavation_permits"
+  "schemaName": "socrata/data.sfgov.org", 
+  "tableName": "large_utility_excavation_permits"
 }

@@ -1,0 +1,58 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/hospital_inpatient_prevention_quality_indicators_pdi_for_pediatric_discharges_by_patient_county_sparcs_beginning_2009/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/vh2s-8wb2/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "The dataset contains observed, expected, and risk-adjusted rates for the Agency for Healthcare Research and Quality Pediatric Quality Indicators \u2013 Pediatric (AHRQ PDI) beginning in 2009.\r\nThe AHRQ PDIs are a set of population based measures that can be used with hospital inpatient discharge data to identify ambulatory care sensitive conditions. These are conditions where 1) the need for hospitalization is potentially preventable with appropriate outpatient care, or 2) conditions that could be less severe if treated early and appropriately. Both the Urinary Tract Infection and Gastroenteritis PDIs include admissions for patients aged 3 months through 17 years.  The asthma PDI includes admissions for patients aged 2 through 17 years.  Eligible admissions for the Diabetes Short-term Complications PDI includes admissions for patients aged 6 through 17 years.\r\n\r\nThe rates were calculated using Statewide Planning and Research Cooperative System (SPARCS) inpatient data and Claritas population information.  \r\n\r\nThe observed, expected, risk-adjusted rates, and difference in rates, for each AHRQ PDI are presented by resident county (including a statewide total). To view the data presented by resident zip code (including a statewide total), go to: https://health.data.ny.gov/Health/Hospital-Inpatient-Prevention-Quality-Indicators-P/2xc5-n3zd.  For more information, check out: http://www.health.ny.gov/statistics/sparcs/. or go to the \"About\" tab.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New York State Department of Health", 
+    "category": "Health", 
+    "description": "The dataset contains observed, expected, and risk-adjusted rates for the Agency for Healthcare Research and Quality Pediatric Quality Indicators \u2013 Pediatric (AHRQ PDI) beginning in 2009.\r\nThe AHRQ PDIs are a set of population based measures that can be used with hospital inpatient discharge data to identify ambulatory care sensitive conditions. These are conditions where 1) the need for hospitalization is potentially preventable with appropriate outpatient care, or 2) conditions that could be less severe if treated early and appropriately. Both the Urinary Tract Infection and Gastroenteritis PDIs include admissions for patients aged 3 months through 17 years.  The asthma PDI includes admissions for patients aged 2 through 17 years.  Eligible admissions for the Diabetes Short-term Complications PDI includes admissions for patients aged 6 through 17 years.\r\n\r\nThe rates were calculated using Statewide Planning and Research Cooperative System (SPARCS) inpatient data and Claritas population information.  \r\n\r\nThe observed, expected, risk-adjusted rates, and difference in rates, for each AHRQ PDI are presented by resident county (including a statewide total). To view the data presented by resident zip code (including a statewide total), go to: https://health.data.ny.gov/Health/Hospital-Inpatient-Prevention-Quality-Indicators-P/2xc5-n3zd.  For more information, check out: http://www.health.ny.gov/statistics/sparcs/. or go to the \"About\" tab.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/vh2s-8wb2.json"
+    }
+  }, 
+  "name": "Hospital Inpatient Prevention Quality Indicators (PDI) for Pediatric Discharges by Patient County (SPARCS): Beginning 2009", 
+  "schema": {
+    "columns": [
+      {
+        "name": "discharge_year", 
+        "type": "real"
+      }, 
+      {
+        "name": "patient_county", 
+        "type": "text"
+      }, 
+      {
+        "name": "pdi_number", 
+        "type": "text"
+      }, 
+      {
+        "name": "pdi_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "observed_rate_per_100_000_people", 
+        "type": "real"
+      }, 
+      {
+        "name": "expected_rate_per_100_000_people", 
+        "type": "real"
+      }, 
+      {
+        "name": "risk_adjusted_rate_per_100_000_people", 
+        "type": "real"
+      }, 
+      {
+        "name": "difference_in_rates", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/health.data.ny.gov", 
+  "tableName": "hospital_inpatient_prevention_quality_indicators_pdi_for_pediatric_discharges_by_patient_county_sparcs_beginning_2009"
+}

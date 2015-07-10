@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_street_signs/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/kb3s-zi3z/rows.csv"
+    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/kb3s-zi3z/rows.csv", 
+    "type": "csv"
   }, 
   "description": "All street signs including parking, stop and bike route.", 
   "maintainer": {
@@ -156,5 +157,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_seattle_street_signs"
+  "schemaName": "socrata/data.seattle.gov", 
+  "tableName": "street_signs"
 }

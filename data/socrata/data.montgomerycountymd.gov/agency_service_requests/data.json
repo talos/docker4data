@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_montgomerycountymd_agency_service_requests/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/5diu-yj9e/rows.csv"
+    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/5diu-yj9e/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Publish DPS Agency Service Requests Data on Open Data web site\r\n\r\nUpdate Frequency:  Daily", 
   "maintainer": {
@@ -83,5 +84,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_montgomerycountymd_agency_service_requests"
+  "schemaName": "socrata/data.montgomerycountymd.gov", 
+  "tableName": "agency_service_requests"
 }

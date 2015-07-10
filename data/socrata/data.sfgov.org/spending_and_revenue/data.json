@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_spending_and_revenue/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/bpnb-jwfb/rows.csv"
+    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/bpnb-jwfb/rows.csv", 
+    "type": "csv"
   }, 
   "description": "The San Francisco Controller's Office maintains a database of spending and revenue data sourced from it's citywide financial system. This data is presented on the Spending and Revenue report hosted at http://openbook.sfgov.org, and is also available in this dataset in CSV format. New data is added on a weekly basis, and is available from fiscal year 2000 forward.", 
   "maintainer": {
@@ -108,5 +109,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_sfgov_spending_and_revenue"
+  "schemaName": "socrata/data.sfgov.org", 
+  "tableName": "spending_and_revenue"
 }

@@ -1,0 +1,44 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/measure_22_percentage_of_people_with_high_cholesterol_that_is_controlled_chronic_condition/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/ygzp-7qxk/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "For more information on how chronic conditions were defined, please see the <a href=\"/help/glossary#C\" rel=\"external\">Glossary</a> under Help.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "description": "For more information on how chronic conditions were defined, please see the <a href=\"/help/glossary#C\" rel=\"external\">Glossary</a> under Help.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/ygzp-7qxk.json"
+    }
+  }, 
+  "name": "Measure 22 : Percentage of People with High Cholesterol that is Controlled | Chronic Condition", 
+  "schema": {
+    "columns": [
+      {
+        "name": "measure_value", 
+        "type": "text"
+      }, 
+      {
+        "name": "year", 
+        "type": "text"
+      }, 
+      {
+        "name": "chronic_condition", 
+        "type": "text"
+      }, 
+      {
+        "name": "lower_ci", 
+        "type": "real"
+      }, 
+      {
+        "name": "upper_ci", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/healthmeasures.aspe.hhs.gov", 
+  "tableName": "measure_22_percentage_of_people_with_high_cholesterol_that_is_controlled_chronic_condition"
+}

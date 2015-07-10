@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_medicare_hospital_acquired_condition_reduction_program/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/yq43-i98g/rows.csv"
+    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/yq43-i98g/rows.csv", 
+    "type": "csv"
   }, 
   "description": "In October 2014, CMS began reducing Medicare payments for subsection (d) hospitals that rank in the worst performing quartile with respect to hospital-acquired conditions (HACs). Hospitals with a Total HAC Score above the 75th percentile of the Total HAC Score distribution may be subject to the payment reduction. This table contains a hospital\u2019s measure, domain and Total HAC scores. The measure and domain scores comprise the Total HAC Score.", 
   "maintainer": {
@@ -79,5 +80,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_medicare_hospital_acquired_condition_reduction_program"
+  "schemaName": "socrata/data.medicare.gov", 
+  "tableName": "hospital_acquired_condition_reduction_program"
 }

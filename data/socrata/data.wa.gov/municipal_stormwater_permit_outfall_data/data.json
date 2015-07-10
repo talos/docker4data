@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wa_municipal_stormwater_permit_outfall_data/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/d958-q2ci/rows.csv"
+    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/d958-q2ci/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Special Condition S8.D of the 2007-2012 Phase I Municipal Stormwater Permit required permittees to collect and analyze data to evaluate pollutant loadings of stormwater discharged from different land uses: high density (HD) residential, low density (LD) residential, commercial, and industrial.\r\n\r\nTo meet the S8.D requirement, Phase I Permittees collected water quality and flow data, sediment data, and toxicity information from stormwater discharges during storm events.", 
   "maintainer": {
@@ -260,5 +261,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_wa_municipal_stormwater_permit_outfall_data"
+  "schemaName": "socrata/data.wa.gov", 
+  "tableName": "municipal_stormwater_permit_outfall_data"
 }

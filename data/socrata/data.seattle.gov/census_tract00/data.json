@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_census_tract00/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/54jz-7gsk/rows.csv"
+    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/54jz-7gsk/rows.csv", 
+    "type": "csv"
   }, 
   "description": "US Census Tracts for 2000 US Census", 
   "maintainer": {
@@ -80,5 +81,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_seattle_census_tract00"
+  "schemaName": "socrata/data.seattle.gov", 
+  "tableName": "census_tract00"
 }

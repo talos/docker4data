@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_mo_well_data/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.mo.gov/api/views/4k5k-76gn/rows.csv"
+    "@id": "http://www.opendatacache.com/data.mo.gov/api/views/4k5k-76gn/rows.csv", 
+    "type": "csv"
   }, 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -121,5 +122,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_mo_well_data"
+  "schemaName": "socrata/data.mo.gov", 
+  "tableName": "well_data"
 }

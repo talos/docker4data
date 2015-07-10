@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_311_information_requests_by_month/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/hrr4-hjc6/rows.csv"
+    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/hrr4-hjc6/rows.csv", 
+    "type": "csv"
   }, 
   "description": "SF311 launched its current knowledge base in July 2012. This dataset shows the title of the articles in our knowledge base that are used to answer information requests, and the number of times they were accessed by our Customer Service Representatives on a call.", 
   "maintainer": {
@@ -160,8 +161,13 @@
       {
         "name": "may_15", 
         "type": "real"
+      }, 
+      {
+        "name": "june_15", 
+        "type": "real"
       }
     ]
   }, 
-  "tableName": "socrata_sfgov_311_information_requests_by_month"
+  "schemaName": "socrata/data.sfgov.org", 
+  "tableName": "311_information_requests_by_month"
 }

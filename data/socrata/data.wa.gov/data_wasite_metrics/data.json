@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wa_data_wasite_metrics/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/xa6q-pw7x/rows.csv"
+    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/xa6q-pw7x/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Historical usage of data.wa.gov installation beginning in 2009", 
   "maintainer": {
@@ -182,5 +183,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_wa_data_wasite_metrics"
+  "schemaName": "socrata/data.wa.gov", 
+  "tableName": "data_wasite_metrics"
 }

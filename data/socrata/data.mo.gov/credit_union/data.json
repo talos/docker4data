@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_mo_credit_union/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.mo.gov/api/views/r843-p6xb/rows.csv"
+    "@id": "http://www.opendatacache.com/data.mo.gov/api/views/r843-p6xb/rows.csv", 
+    "type": "csv"
   }, 
   "description": "List of Missouri Credit Union, Branches and information there of. There is a provided Geo Location for each. This dataset corresponds with the map- view: https://data.mo.gov/Regulatory/Credit-Unions-Map/8aqp-4djd.", 
   "maintainer": {
@@ -64,5 +65,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_mo_credit_union"
+  "schemaName": "socrata/data.mo.gov", 
+  "tableName": "credit_union"
 }

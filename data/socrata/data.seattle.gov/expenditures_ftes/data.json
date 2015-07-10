@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_expenditures_ftes/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/nr4r-xu4y/rows.csv"
+    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/nr4r-xu4y/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Expenditures - FTEs", 
   "maintainer": {
@@ -43,5 +44,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_seattle_expenditures_ftes"
+  "schemaName": "socrata/data.seattle.gov", 
+  "tableName": "expenditures_ftes"
 }

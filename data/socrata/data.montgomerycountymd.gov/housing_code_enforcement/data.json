@@ -1,0 +1,129 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/housing_code_enforcement/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/k9nj-z35d/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Housing Code Enforcement data from 2013 to the present , including violations identified.  Update Frequency : Weekly", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "category": "Consumer/Housing", 
+    "description": "Housing Code Enforcement data from 2013 to the present , including violations identified.  Update Frequency : Weekly", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/k9nj-z35d.json"
+    }
+  }, 
+  "name": "Housing Code Enforcement", 
+  "schema": {
+    "columns": [
+      {
+        "name": "street_number", 
+        "type": "text"
+      }, 
+      {
+        "name": "street_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "street_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "unit_number", 
+        "type": "text"
+      }, 
+      {
+        "name": "city", 
+        "type": "text"
+      }, 
+      {
+        "name": "zip_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "date_filed", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "date_assigned", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "inspection_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "violation_id", 
+        "type": "real"
+      }, 
+      {
+        "name": "location_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "item", 
+        "type": "text"
+      }, 
+      {
+        "name": "condition", 
+        "type": "text"
+      }, 
+      {
+        "name": "action", 
+        "type": "text"
+      }, 
+      {
+        "name": "code_reference", 
+        "type": "text"
+      }, 
+      {
+        "name": "case_number", 
+        "type": "real"
+      }, 
+      {
+        "name": "corrected", 
+        "type": "text"
+      }, 
+      {
+        "name": "date_closed", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "disposition", 
+        "type": "text"
+      }, 
+      {
+        "name": "service_request_number", 
+        "type": "text"
+      }, 
+      {
+        "name": "service_request_created_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "service_request_closed_time", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "service_request_status", 
+        "type": "text"
+      }, 
+      {
+        "name": "latitude", 
+        "type": "real"
+      }, 
+      {
+        "name": "longitude", 
+        "type": "real"
+      }, 
+      {
+        "name": "geolocation", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.montgomerycountymd.gov", 
+  "tableName": "housing_code_enforcement"
+}

@@ -1,0 +1,46 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/commercial_credit_exposure_by_counterparty_rating/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/p65j-3upu/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Provides data on investment commercial credit exposure for IBRD and IDA. The values are shown net of collateral held. For IBRD, the decrease in credit exposure in FY2010 reflects a decrease in the size of the IBRD investment program due to decrease in liquidity held and a relatively smaller decrease in IBRD's net swap exposure.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "World Bank Group", 
+    "category": "Liquid Assets Management", 
+    "description": "Provides data on investment commercial credit exposure for IBRD and IDA. The values are shown net of collateral held. For IBRD, the decrease in credit exposure in FY2010 reflects a decrease in the size of the IBRD investment program due to decrease in liquidity held and a relatively smaller decrease in IBRD's net swap exposure.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/p65j-3upu.json"
+    }
+  }, 
+  "name": "Commercial Credit Exposure by Counterparty Rating", 
+  "schema": {
+    "columns": [
+      {
+        "name": "organization", 
+        "type": "text"
+      }, 
+      {
+        "name": "period_end_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "category", 
+        "type": "text"
+      }, 
+      {
+        "name": "counterparty_rating", 
+        "type": "text"
+      }, 
+      {
+        "name": "amount_us_millions", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/finances.worldbank.org", 
+  "tableName": "commercial_credit_exposure_by_counterparty_rating"
+}

@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wa_waofm_census_population_and_housing_2000_and_2010/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/tx5i-i2ja/rows.csv"
+    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/tx5i-i2ja/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Population and housing information extracted from decennial census Public Law 94-171 redistricting summary files for Washington state for years 2000 and 2010.", 
   "maintainer": {
@@ -156,5 +157,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_wa_waofm_census_population_and_housing_2000_and_2010"
+  "schemaName": "socrata/data.wa.gov", 
+  "tableName": "waofm_census_population_and_housing_2000_and_2010"
 }

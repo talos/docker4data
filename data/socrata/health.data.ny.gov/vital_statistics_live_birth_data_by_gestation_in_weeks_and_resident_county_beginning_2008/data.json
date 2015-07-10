@@ -1,0 +1,46 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/vital_statistics_live_birth_data_by_gestation_in_weeks_and_resident_county_beginning_2008/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/aeev-8svr/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "This dataset contains the number of New York State live births stratified by county of residence and gestation in weeks. The data presented here may not be the same as the Vital Statistics tables on the DOH public web due to data updates. For more information, check out: \r\n: http://www.health.ny.gov/statistics/vital_statistics/ or go to the \"About\" tab.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New York State Department of Health", 
+    "category": "Health", 
+    "description": "This dataset contains the number of New York State live births stratified by county of residence and gestation in weeks. The data presented here may not be the same as the Vital Statistics tables on the DOH public web due to data updates. For more information, check out: \r\n: http://www.health.ny.gov/statistics/vital_statistics/ or go to the \"About\" tab.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/aeev-8svr.json"
+    }
+  }, 
+  "name": "Vital Statistics Live Birth Data by Gestation in Weeks and Resident County: Beginning 2008", 
+  "schema": {
+    "columns": [
+      {
+        "name": "year", 
+        "type": "real"
+      }, 
+      {
+        "name": "table", 
+        "type": "text"
+      }, 
+      {
+        "name": "county", 
+        "type": "text"
+      }, 
+      {
+        "name": "gestation_in_weeks", 
+        "type": "text"
+      }, 
+      {
+        "name": "number_of_births", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/health.data.ny.gov", 
+  "tableName": "vital_statistics_live_birth_data_by_gestation_in_weeks_and_resident_county_beginning_2008"
+}

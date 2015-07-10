@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_maryland_oeds_2013/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/98di-cejy/rows.csv"
+    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/98di-cejy/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Maryland 8-Hour Ozone Concentrations Exceeding 2008 Health-Based Standard in ppb, Preliminary Data. In 2008 EPA set the ozone standard to 75 ppb. High levels of ozone can cause health effects including increased asthma attacks and other respiratory effects. You can get more information about the health effects at http://www.epa.gov/air/ozonepollution/. This data set details which monitoring locations in Maryland exceeded the standard during the year and the maximum concentrations on the dates the standard was exceeded. More information on Maryland's air quality monitoring is available at http://www.mde.state.md.us/programs/Air/AirQualityMonitoring/Pages/index.aspx.", 
   "maintainer": {
@@ -107,5 +108,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_maryland_maryland_oeds_2013"
+  "schemaName": "socrata/data.maryland.gov", 
+  "tableName": "maryland_oeds_2013"
 }

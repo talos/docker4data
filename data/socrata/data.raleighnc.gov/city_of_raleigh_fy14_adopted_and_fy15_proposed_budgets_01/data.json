@@ -1,0 +1,62 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/city_of_raleigh_fy14_adopted_and_fy15_proposed_budgets_01/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.raleighnc.gov/api/views/uaii-fiij/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "The FY15 information is only for operating funds (not capital), and just expenditure data. The totals are also inclusive of interfund transfers, meaning if someone tries to sum all the data in a year, it won\u2019t match the published net budget total.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "City of Raleigh Budget and Management Services", 
+    "category": "Fiscal Year 2015 Proposed to Council", 
+    "description": "The FY15 information is only for operating funds (not capital), and just expenditure data. The totals are also inclusive of interfund transfers, meaning if someone tries to sum all the data in a year, it won\u2019t match the published net budget total.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.raleighnc.gov/api/views/uaii-fiij.json"
+    }
+  }, 
+  "name": "City Of Raleigh FY14 Adopted And FY15 Proposed Budgets-01", 
+  "schema": {
+    "columns": [
+      {
+        "name": "account_level_6", 
+        "type": "text"
+      }, 
+      {
+        "name": "fund_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "deptid_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "account_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "budget_amount", 
+        "type": "real"
+      }, 
+      {
+        "name": "budget_year", 
+        "type": "real"
+      }, 
+      {
+        "name": "account_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "program", 
+        "type": "real"
+      }, 
+      {
+        "name": "program_description", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.raleighnc.gov", 
+  "tableName": "city_of_raleigh_fy14_adopted_and_fy15_proposed_budgets_01"
+}

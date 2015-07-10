@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_p_card_scheduled_pay_cycle/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/nanb-6sn8/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/nanb-6sn8/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Actual dates of action associated with the P-Card payments, including deadline for Works editing; when the P-Card download to PeopleSoft will occur each month; the date agencies can begin preparing their P-Card vouchers, and the submission deadline for the vouchers received at OMES each month.", 
   "maintainer": {
@@ -44,5 +45,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ok_p_card_scheduled_pay_cycle"
+  "schemaName": "socrata/data.ok.gov", 
+  "tableName": "p_card_scheduled_pay_cycle"
 }

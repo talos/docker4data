@@ -1,0 +1,70 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/medicaid_chronic_conditions_inpatient_admissions_and_emergency_room_visits_by_zip_code_beginning_2012/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/2yck-xisk/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "This data set contains information on selected chronic health conditions in the Medicaid population at the zip code level. The chronic health conditions were identified through 3M Clinical Risk Group software and Medicaid enrollment/eligibility, encounter, claim and pharmacy data over a 12 month period. The chronic health categories represented in the data file are: Diabetes Mellitus, Diseases and Disorders of the Cardiovascular System, Diseases and Disorders of the Respiratory System, HIV Infection, Mental Diseases and Disorders, Newborn and Neonates and Substance Abuse. All conditions that have 20 or less unique beneficiaries are suppressed from this data file.  \r\n\r\nFor more information, go to http://www.health.ny.gov/health_care/medicaid/, or go to the \"About\" tab.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New York State Department of Health", 
+    "category": "Health", 
+    "description": "This data set contains information on selected chronic health conditions in the Medicaid population at the zip code level. The chronic health conditions were identified through 3M Clinical Risk Group software and Medicaid enrollment/eligibility, encounter, claim and pharmacy data over a 12 month period. The chronic health categories represented in the data file are: Diabetes Mellitus, Diseases and Disorders of the Cardiovascular System, Diseases and Disorders of the Respiratory System, HIV Infection, Mental Diseases and Disorders, Newborn and Neonates and Substance Abuse. All conditions that have 20 or less unique beneficiaries are suppressed from this data file.  \r\n\r\nFor more information, go to http://www.health.ny.gov/health_care/medicaid/, or go to the \"About\" tab.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/2yck-xisk.json"
+    }
+  }, 
+  "name": "Medicaid Chronic Conditions, Inpatient Admissions and Emergency Room Visits by Zip Code: Beginning 2012", 
+  "schema": {
+    "columns": [
+      {
+        "name": "year", 
+        "type": "real"
+      }, 
+      {
+        "name": "zip_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "county", 
+        "type": "text"
+      }, 
+      {
+        "name": "dual_status", 
+        "type": "text"
+      }, 
+      {
+        "name": "major_diagnostic_category", 
+        "type": "text"
+      }, 
+      {
+        "name": "episode_disease_category", 
+        "type": "text"
+      }, 
+      {
+        "name": "recip_condition", 
+        "type": "real"
+      }, 
+      {
+        "name": "ip_recips", 
+        "type": "real"
+      }, 
+      {
+        "name": "ip_admits", 
+        "type": "real"
+      }, 
+      {
+        "name": "er_recips", 
+        "type": "real"
+      }, 
+      {
+        "name": "er_visits", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/health.data.ny.gov", 
+  "tableName": "medicaid_chronic_conditions_inpatient_admissions_and_emergency_room_visits_by_zip_code_beginning_2012"
+}

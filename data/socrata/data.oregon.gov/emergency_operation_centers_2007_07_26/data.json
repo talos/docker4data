@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oregon_emergency_operation_centers_2007_07_26/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/pjn6-jprb/rows.csv"
+    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/pjn6-jprb/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Emergency Operations Centers (EOC) in Oregon\n\n\"The physical location at which the coordination of information and resources to support domestic incident management activities normally takes place. An EOC may be a temporary facility or may be located in\na more central or permanently established facility, perhaps at a higher level of organization within a jurisdiction. EOCs may be organized by major functional disciplines (e.g., fire, law enforcement, and medical services), by jurisdiction (e.g., Federal, State, regional, county, city, tribal), or some combination thereof.\"\n\n(Excerpted from the National Incident Management System)\n\nIn instances where TGS could not verify the location of an Emergency Operations Center due to non-cooperation of the entity and to the exhaustion of all possible alternative resources, its location was depicted at the center of the service area. \n\nIn cases where an Emergency Operations Center has a mobile unit, TGS captured the location of the mobile unit as a separate record.  This record represents where the mobile unit is stored.  \n\nText fields in this dataset have been set to all upper case to facilitate consistent database engine search results.\n\nAll diacritics (e.g., the German umlaut or the Spanish tilde) have been replaced with their closest equivalent English character to facilitate use with database systems that may not support diacritics.  \n\nThe currentness of this dataset is indicated by the [CONTDATE] attribute. Based upon this attribute, the oldest record dates from 03/27/2007 and the newest record dates from 04/23/2007.\n\nOne data point was removed at the request of the City of Portland 11/24/08.\n\nThis is a tabular representation of a geospatial dataset available from the Oregon Geospatial Enterprise Office: http://gis.oregon.gov/DAS/EISPD/GEO/sdlibrary.shtml.", 
   "maintainer": {
@@ -119,5 +120,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_oregon_emergency_operation_centers_2007_07_26"
+  "schemaName": "socrata/data.oregon.gov", 
+  "tableName": "emergency_operation_centers_2007_07_26"
 }

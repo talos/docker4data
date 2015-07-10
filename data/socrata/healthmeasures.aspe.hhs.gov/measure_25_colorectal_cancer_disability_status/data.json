@@ -1,0 +1,36 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/measure_25_colorectal_cancer_disability_status/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/5vr2-idba/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Disability was defined according to the standard questions used in the American Community Survey.  An individual was identified as having a disability if any of the following conditions existed: is deaf or has serious difficulty hearing; is blind or has serious difficulty seeing even when wearing glasses; has difficulty dressing or bathing; has serious difficulty concentrating, remembering, or making decisions; has serious difficulty walking or climbing stairs; has difficulty doing errands alone such as visiting a doctor's office or shopping.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "description": "Disability was defined according to the standard questions used in the American Community Survey.  An individual was identified as having a disability if any of the following conditions existed: is deaf or has serious difficulty hearing; is blind or has serious difficulty seeing even when wearing glasses; has difficulty dressing or bathing; has serious difficulty concentrating, remembering, or making decisions; has serious difficulty walking or climbing stairs; has difficulty doing errands alone such as visiting a doctor's office or shopping.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/5vr2-idba.json"
+    }
+  }, 
+  "name": "Measure 25   Colorectal Cancer   Disability Status", 
+  "schema": {
+    "columns": [
+      {
+        "name": "measure_value", 
+        "type": "text"
+      }, 
+      {
+        "name": "year", 
+        "type": "real"
+      }, 
+      {
+        "name": "disability_status", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/healthmeasures.aspe.hhs.gov", 
+  "tableName": "measure_25_colorectal_cancer_disability_status"
+}

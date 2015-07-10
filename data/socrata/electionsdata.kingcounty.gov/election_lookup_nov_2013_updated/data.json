@@ -1,0 +1,36 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/election_lookup_nov_2013_updated/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/electionsdata.kingcounty.gov/api/views/7yfn-dith/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Edited to remove nickname for races", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "description": "Edited to remove nickname for races", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/electionsdata.kingcounty.gov/api/views/7yfn-dith.json"
+    }
+  }, 
+  "name": "Election Lookup Nov 2013 - updated", 
+  "schema": {
+    "columns": [
+      {
+        "name": "contname", 
+        "type": "text"
+      }, 
+      {
+        "name": "cat_1", 
+        "type": "text"
+      }, 
+      {
+        "name": "cat_2", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/electionsdata.kingcounty.gov", 
+  "tableName": "election_lookup_nov_2013_updated"
+}

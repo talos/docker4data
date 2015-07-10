@@ -1,0 +1,350 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/mta_transit_oriented_development_tod_data/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/cqt2-ypem/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "*** DISCLAIMER - This web page is a public resource of general information. The Maryland Mass Transit Administration (MTA) makes no warranty, representation, or guarantee as to the content, sequence, accuracy, timeliness, or completeness of any of the spatial data or database information provided herein. MTA and partner state, local, and other agencies shall assume no liability for errors, omissions, or inaccuracies in the information provided regardless of how caused; or any decision made or action taken or not taken by any person relying on any information or data furnished within. ***\r\n\r\nThis dataset assesses rail station potential different forms of transit oriented development (TOD). A key driver of increased transit ridership in Maryland, TOD capitalizes on existing rapid transit infrastructure. The online tool focuses on the MTA\u2019s existing MARC Commuter Rail, Metro Subway, and Central Light Rail lines and includes information specific to each station. \r\n\r\nThe goal of this dataset is to give MTA planning staff, developers, local governments, and transit riders a picture of how each MTA rail station could attract TOD investment. In order to make this assessment, MTA staff gathered data on characteristics that are likely to influence TOD potential. The station-specific data is organized into 6 different categories referring to transit activity; station facilities; parking provision and utilization; bicycle and pedestrian access; and local zoning and land availability around each station. \r\n\r\nAs a publicly shared resource, this dataset can be used by local communities to identify and prioritize area improvements in coordination with the MTA that can help attract investment around rail stations.\r\n\r\nYou can view an interactive version of this dataset at geodata.md.gov/tod.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "MTA", 
+    "category": "Transportation", 
+    "description": "*** DISCLAIMER - This web page is a public resource of general information. The Maryland Mass Transit Administration (MTA) makes no warranty, representation, or guarantee as to the content, sequence, accuracy, timeliness, or completeness of any of the spatial data or database information provided herein. MTA and partner state, local, and other agencies shall assume no liability for errors, omissions, or inaccuracies in the information provided regardless of how caused; or any decision made or action taken or not taken by any person relying on any information or data furnished within. ***\r\n\r\nThis dataset assesses rail station potential different forms of transit oriented development (TOD). A key driver of increased transit ridership in Maryland, TOD capitalizes on existing rapid transit infrastructure. The online tool focuses on the MTA\u2019s existing MARC Commuter Rail, Metro Subway, and Central Light Rail lines and includes information specific to each station. \r\n\r\nThe goal of this dataset is to give MTA planning staff, developers, local governments, and transit riders a picture of how each MTA rail station could attract TOD investment. In order to make this assessment, MTA staff gathered data on characteristics that are likely to influence TOD potential. The station-specific data is organized into 6 different categories referring to transit activity; station facilities; parking provision and utilization; bicycle and pedestrian access; and local zoning and land availability around each station. \r\n\r\nAs a publicly shared resource, this dataset can be used by local communities to identify and prioritize area improvements in coordination with the MTA that can help attract investment around rail stations.\r\n\r\nYou can view an interactive version of this dataset at geodata.md.gov/tod.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/cqt2-ypem.json"
+    }
+  }, 
+  "name": "MTA Transit Oriented Development (TOD) Data", 
+  "schema": {
+    "columns": [
+      {
+        "name": "station", 
+        "type": "text"
+      }, 
+      {
+        "name": "station_id", 
+        "type": "real"
+      }, 
+      {
+        "name": "station_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "rail_lines_served", 
+        "type": "text"
+      }, 
+      {
+        "name": "state_designated_tod", 
+        "type": "text"
+      }, 
+      {
+        "name": "jurisdiction", 
+        "type": "text"
+      }, 
+      {
+        "name": "tod_place_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "area_population_2010", 
+        "type": "real"
+      }, 
+      {
+        "name": "station_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "transit_score", 
+        "type": "real"
+      }, 
+      {
+        "name": "station_facility_score", 
+        "type": "real"
+      }, 
+      {
+        "name": "parking_score", 
+        "type": "real"
+      }, 
+      {
+        "name": "bike_access_score", 
+        "type": "real"
+      }, 
+      {
+        "name": "ped_access_score", 
+        "type": "real"
+      }, 
+      {
+        "name": "tod_zoning_score", 
+        "type": "real"
+      }, 
+      {
+        "name": "development_market", 
+        "type": "real"
+      }, 
+      {
+        "name": "total_rail_lines", 
+        "type": "real"
+      }, 
+      {
+        "name": "modes_served", 
+        "type": "real"
+      }, 
+      {
+        "name": "transit_connections", 
+        "type": "text"
+      }, 
+      {
+        "name": "connecting_bus_routes", 
+        "type": "text"
+      }, 
+      {
+        "name": "connecting_bus_routes_text", 
+        "type": "text"
+      }, 
+      {
+        "name": "weekday_ridership_marc_penn", 
+        "type": "real"
+      }, 
+      {
+        "name": "weekday_ridership_marc_camden", 
+        "type": "real"
+      }, 
+      {
+        "name": "weekday_ridership_marc_brunswick", 
+        "type": "real"
+      }, 
+      {
+        "name": "weekday_ridership_metro", 
+        "type": "real"
+      }, 
+      {
+        "name": "weekday_ridership_light_rail", 
+        "type": "real"
+      }, 
+      {
+        "name": "weekend_ridership_marc_penn", 
+        "type": "real"
+      }, 
+      {
+        "name": "weekend_ridership_marc_camden", 
+        "type": "real"
+      }, 
+      {
+        "name": "weekend_ridership_marc_brunswick", 
+        "type": "real"
+      }, 
+      {
+        "name": "weekend_ridership_metro", 
+        "type": "real"
+      }, 
+      {
+        "name": "weekend_ridership_light_rail", 
+        "type": "real"
+      }, 
+      {
+        "name": "frequency_of_service_weekday_marc_penn", 
+        "type": "real"
+      }, 
+      {
+        "name": "frequency_of_service_weekday_marc_camden", 
+        "type": "real"
+      }, 
+      {
+        "name": "frequency_of_service_weekday_marc_brunswick", 
+        "type": "real"
+      }, 
+      {
+        "name": "frequency_of_service_weekday_metro", 
+        "type": "real"
+      }, 
+      {
+        "name": "frequency_of_service_weekday_light_rail", 
+        "type": "real"
+      }, 
+      {
+        "name": "frequency_of_service_weekend_marc_penn", 
+        "type": "real"
+      }, 
+      {
+        "name": "frequency_of_service_weekend_marc_camden", 
+        "type": "real"
+      }, 
+      {
+        "name": "frequency_of_service_weekend_marc_brunswick", 
+        "type": "real"
+      }, 
+      {
+        "name": "frequency_of_service_weekend_metro", 
+        "type": "real"
+      }, 
+      {
+        "name": "frequency_of_service_weekend_light_rail", 
+        "type": "real"
+      }, 
+      {
+        "name": "track_crossing", 
+        "type": "text"
+      }, 
+      {
+        "name": "schedule_information", 
+        "type": "text"
+      }, 
+      {
+        "name": "route_information", 
+        "type": "text"
+      }, 
+      {
+        "name": "ticket_booth_machine", 
+        "type": "text"
+      }, 
+      {
+        "name": "shelter", 
+        "type": "text"
+      }, 
+      {
+        "name": "benches", 
+        "type": "text"
+      }, 
+      {
+        "name": "public_restrooms", 
+        "type": "text"
+      }, 
+      {
+        "name": "public_phones", 
+        "type": "text"
+      }, 
+      {
+        "name": "parking_spots_regular", 
+        "type": "real"
+      }, 
+      {
+        "name": "parking_fee", 
+        "type": "text"
+      }, 
+      {
+        "name": "parking_spots_ada", 
+        "type": "real"
+      }, 
+      {
+        "name": "evc_charge_stations", 
+        "type": "real"
+      }, 
+      {
+        "name": "evc_charge_stations_occupied", 
+        "type": "real"
+      }, 
+      {
+        "name": "vehicles_parked_2010", 
+        "type": "real"
+      }, 
+      {
+        "name": "vehicles_parked_2014", 
+        "type": "real"
+      }, 
+      {
+        "name": "utilization_rate_2014", 
+        "type": "text"
+      }, 
+      {
+        "name": "spaces_relative_to_number_of_average_daily_riders_weekday_total_lines", 
+        "type": "real"
+      }, 
+      {
+        "name": "spaces_relative_to_number_of_average_daily_riders_weekend_total_lines", 
+        "type": "real"
+      }, 
+      {
+        "name": "spaces_relative_to_other_stations_on_the_same_line", 
+        "type": "real"
+      }, 
+      {
+        "name": "intersection_density_1_mile_diameter", 
+        "type": "real"
+      }, 
+      {
+        "name": "short_trip_opportunity_analysis_1_mile_buffer", 
+        "type": "real"
+      }, 
+      {
+        "name": "number_of_bicycle_racks", 
+        "type": "real"
+      }, 
+      {
+        "name": "type_of_bicycle_racks", 
+        "type": "text"
+      }, 
+      {
+        "name": "number_of_bicycle_lockers", 
+        "type": "real"
+      }, 
+      {
+        "name": "number_of_bicycle_lockers_occupied", 
+        "type": "real"
+      }, 
+      {
+        "name": "locally_designated_tod", 
+        "type": "text"
+      }, 
+      {
+        "name": "zoning_summary", 
+        "type": "text"
+      }, 
+      {
+        "name": "local_zoning_descriptions", 
+        "type": "text"
+      }, 
+      {
+        "name": "area_master_plans", 
+        "type": "text"
+      }, 
+      {
+        "name": "residential_alterations_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "residentail_alterations_permits", 
+        "type": "real"
+      }, 
+      {
+        "name": "residential_new_construction_permits", 
+        "type": "real"
+      }, 
+      {
+        "name": "residential_new_construction_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "non_residential_alterations_permits", 
+        "type": "real"
+      }, 
+      {
+        "name": "non_residentail_new_contruction_permits", 
+        "type": "real"
+      }, 
+      {
+        "name": "mixed_use_new_construction_permits", 
+        "type": "real"
+      }, 
+      {
+        "name": "mixed_use_new_construction_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "count_of_md_property_view_parcels", 
+        "type": "real"
+      }, 
+      {
+        "name": "cumulative_composite_score_yearblt_score_x_sqftstrc_score", 
+        "type": "real"
+      }, 
+      {
+        "name": "location", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.maryland.gov", 
+  "tableName": "mta_transit_oriented_development_tod_data"
+}

@@ -1,0 +1,77 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/physician_compare_2013_group_practice_public_reporting/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/ddiw-pgap/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "This downloadable file includes information regarding group practice participation in 2013 Centers for Medicare & Medicaid (CMS) quality program as well as the 2013 Physician Quality Report System (PQRS) Group Practice Reporting Option (GPRO) performance rates for the three Diabetes Mellitus (DM) measures and one Coronary Artery Disease (CAD) measure now publicly reported on Physician Compare. Data are publicly available for the 139 group practices of 25 or more eligible professionals (EPs) that successfully reported data under the 2013 PQRS GPRO via the Web Interface. For information about public reporting on Physician Compare, visit the Physician Compare Initiative page. For all inquiries regarding Physician Compare, including this dataset, contact the Physician Compare support team at PhysicianCompare@Westat.com.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "category": "Physician Compare", 
+    "description": "This downloadable file includes information regarding group practice participation in 2013 Centers for Medicare & Medicaid (CMS) quality program as well as the 2013 Physician Quality Report System (PQRS) Group Practice Reporting Option (GPRO) performance rates for the three Diabetes Mellitus (DM) measures and one Coronary Artery Disease (CAD) measure now publicly reported on Physician Compare. Data are publicly available for the 139 group practices of 25 or more eligible professionals (EPs) that successfully reported data under the 2013 PQRS GPRO via the Web Interface. For information about public reporting on Physician Compare, visit the Physician Compare Initiative page. For all inquiries regarding Physician Compare, including this dataset, contact the Physician Compare support team at PhysicianCompare@Westat.com.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/ddiw-pgap.json"
+    }
+  }, 
+  "name": "Physician Compare 2013 Group Practice Public Reporting", 
+  "schema": {
+    "columns": [
+      {
+        "name": "org_nm", 
+        "type": "text"
+      }, 
+      {
+        "name": "org_pac_id", 
+        "type": "text"
+      }, 
+      {
+        "name": "st", 
+        "type": "text"
+      }, 
+      {
+        "name": "erx", 
+        "type": "text"
+      }, 
+      {
+        "name": "pqrs", 
+        "type": "text"
+      }, 
+      {
+        "name": "gpro_dm_15", 
+        "type": "real"
+      }, 
+      {
+        "name": "fn_dm_15", 
+        "type": "real"
+      }, 
+      {
+        "name": "gpro_dm_13", 
+        "type": "real"
+      }, 
+      {
+        "name": "fn_dm_13", 
+        "type": "real"
+      }, 
+      {
+        "name": "gpro_dm_16", 
+        "type": "real"
+      }, 
+      {
+        "name": "fn_dm_16", 
+        "type": "real"
+      }, 
+      {
+        "name": "gpro_cad_7", 
+        "type": "real"
+      }, 
+      {
+        "name": "fn_cad_7", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.medicare.gov", 
+  "tableName": "physician_compare_2013_group_practice_public_reporting"
+}

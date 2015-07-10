@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_montgomerycountymd_fy15_spending_disclosure/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/fk7w-kxjz/rows.csv"
+    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/fk7w-kxjz/rows.csv", 
+    "type": "csv"
   }, 
   "description": "The purpose of this Spending Disclosure FY15 dataset is to allow the public to search and view summary information on payments made to recipients (referred to as suppliers) that received $25,000 or more in a fiscal year. Note that salary and benefit payments to employees, pension payments to retirees, and any information that is confidential under State or Federal law is excluded from disclosure.", 
   "maintainer": {
@@ -35,5 +36,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_montgomerycountymd_fy15_spending_disclosure"
+  "schemaName": "socrata/data.montgomerycountymd.gov", 
+  "tableName": "fy15_spending_disclosure"
 }

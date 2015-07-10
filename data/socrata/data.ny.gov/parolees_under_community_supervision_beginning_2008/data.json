@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_parolees_under_community_supervision_beginning_2008/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/pmxm-gftz/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/pmxm-gftz/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Provides data about parolees under community supervision on March 31 of the snapshot year. Information includes region of supervision, county of residence, snapshot year, supervision level, gender, age as of the file date, and crime type for most serious instant offense.", 
   "maintainer": {
@@ -48,5 +49,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ny_parolees_under_community_supervision_beginning_2008"
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "parolees_under_community_supervision_beginning_2008"
 }

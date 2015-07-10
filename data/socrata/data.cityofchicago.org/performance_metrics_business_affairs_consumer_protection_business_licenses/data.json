@@ -1,0 +1,54 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/performance_metrics_business_affairs_consumer_protection_business_licenses/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/emvs-38e6/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Business licenses and building permits are required to operate a business in Chicago or to ensure that a building construction project conforms to the minimum standards of the Chicago Building Code. Currently the performance target for processing most business license types is approximately 15 days.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "City of Chicago", 
+    "category": "Administration & Finance", 
+    "description": "Business licenses and building permits are required to operate a business in Chicago or to ensure that a building construction project conforms to the minimum standards of the Chicago Building Code. Currently the performance target for processing most business license types is approximately 15 days.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/emvs-38e6.json"
+    }
+  }, 
+  "name": "Performance Metrics - Business Affairs & Consumer Protection - Business Licenses", 
+  "schema": {
+    "columns": [
+      {
+        "name": "licence_code", 
+        "type": "real"
+      }, 
+      {
+        "name": "license_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "year", 
+        "type": "real"
+      }, 
+      {
+        "name": "week", 
+        "type": "text"
+      }, 
+      {
+        "name": "average_days_to_issue_license", 
+        "type": "real"
+      }, 
+      {
+        "name": "median_days_to_issue_license", 
+        "type": "real"
+      }, 
+      {
+        "name": "total_licenses_issued", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.cityofchicago.org", 
+  "tableName": "performance_metrics_business_affairs_consumer_protection_business_licenses"
+}

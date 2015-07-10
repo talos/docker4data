@@ -1,0 +1,54 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/driver_license_permit_and_non_driver_identification_cards_issued_by_county_age_and_gender_beginning_2009/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/rsxa-xf6b/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Annual data on the number of DMV issued photo document holders broken out by County of residence, age, and gender.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "NYS DMV", 
+    "category": "Transportation", 
+    "description": "Annual data on the number of DMV issued photo document holders broken out by County of residence, age, and gender.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/rsxa-xf6b.json"
+    }
+  }, 
+  "name": "Driver License, Permit, and Non-Driver Identification Cards Issued by County, Age, and Gender: Beginning 2009", 
+  "schema": {
+    "columns": [
+      {
+        "name": "year", 
+        "type": "real"
+      }, 
+      {
+        "name": "county", 
+        "type": "text"
+      }, 
+      {
+        "name": "age_in_years", 
+        "type": "real"
+      }, 
+      {
+        "name": "sex", 
+        "type": "text"
+      }, 
+      {
+        "name": "document_class", 
+        "type": "text"
+      }, 
+      {
+        "name": "document_count", 
+        "type": "real"
+      }, 
+      {
+        "name": "obs_date", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "driver_license_permit_and_non_driver_identification_cards_issued_by_county_age_and_gender_beginning_2009"
+}

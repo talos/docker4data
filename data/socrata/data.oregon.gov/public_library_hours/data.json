@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oregon_public_library_hours/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/p8m3-6eqk/rows.csv"
+    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/p8m3-6eqk/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Open hours of Oregon Public Libraries (created from the 2009-2010 public library statistics report)", 
   "maintainer": {
@@ -80,5 +81,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_oregon_public_library_hours"
+  "schemaName": "socrata/data.oregon.gov", 
+  "tableName": "public_library_hours"
 }

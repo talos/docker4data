@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_violent_crime_statewide_totals_by_type/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/wkgc-hy7s/rows.csv"
+    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/wkgc-hy7s/rows.csv", 
+    "type": "csv"
   }, 
   "description": "The data are provided are the Maryland Statistical Analysis Center (MSAC), within the Governor's Office of Crime Control and Prevention (GOCCP). MSAC, in turn, receives these data from the FBI's annual Uniform Crime Reports.", 
   "maintainer": {
@@ -84,5 +85,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_maryland_violent_crime_statewide_totals_by_type"
+  "schemaName": "socrata/data.maryland.gov", 
+  "tableName": "violent_crime_statewide_totals_by_type"
 }

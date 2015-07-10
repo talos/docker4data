@@ -1,0 +1,62 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/individual_landmarks/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/tdab-kixi/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Individual landmarks in Chicago. The data can be viewed on the Chicago Data Portal with a web browser. However, to view or use the files outside of a web browser, you will need to use compression software and special GIS software, such as ESRI ArcGIS (shapefile) or Google Earth (KML or KMZ).", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "City of Chicago", 
+    "category": "Historic Preservation", 
+    "description": "This dataset is a list of individual Chicago Landmarks designated by City Council upon recommendation of the Commission on Chicago Landmarks. It contains the name of each landmark property along with the date of its construction (if known), the name of its architect/designer (if known), and the date of Chicago Landmark designation. Additional information about each individual Chicago Landmark can be found on the Chicago Landmarks home page at http://j.mp/lRJVnh. Properties which have been proposed for landmark designation by the Commission on Chicago Landmarks and remain under consideration are not included. This information is for illustrative purposes only; the legal descriptions are as identified by the respective landmark designation ordinances. A dataset containing Chicago Landmark Districts is available separately. Data updated quarterly.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/tdab-kixi.json"
+    }
+  }, 
+  "name": "Individual Landmarks", 
+  "schema": {
+    "columns": [
+      {
+        "name": "landmark_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "id", 
+        "type": "text"
+      }, 
+      {
+        "name": "address", 
+        "type": "text"
+      }, 
+      {
+        "name": "date_built", 
+        "type": "text"
+      }, 
+      {
+        "name": "architect", 
+        "type": "text"
+      }, 
+      {
+        "name": "landmark_designation_date", 
+        "type": "text"
+      }, 
+      {
+        "name": "latitude", 
+        "type": "real"
+      }, 
+      {
+        "name": "longitude", 
+        "type": "real"
+      }, 
+      {
+        "name": "location", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.cityofchicago.org", 
+  "tableName": "individual_landmarks"
+}

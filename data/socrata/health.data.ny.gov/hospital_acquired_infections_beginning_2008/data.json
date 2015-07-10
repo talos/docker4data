@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_healthny_hospital_acquired_infections_beginning_2008/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/utrt-zdsi/rows.csv"
+    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/utrt-zdsi/rows.csv", 
+    "type": "csv"
   }, 
   "description": "All acute care hospitals are required to report certain hospital-acquired infections (HAIs) to the New York State Department of Health (NYSDOH).  This includes central line-associated blood stream infections in intensive care units; surgical site infections following colon, hip replacement/revision, and coronary artery bypass graft; and Clostridium difficile infections. PLEASE NOTE: Because of the complicated nature of the risk-adjustment methodology used to produce the HAI rates, the advice of a statistician is recommended before attempting to manipulate the data.  Hospital-specific risk-adjusted rates cannot simply be combined. In addition, due to NYSDOH validation audits which may involve data from both the current and previous calendar year, a revised data file will be published the year after the original data file was released.  \r\nFor more information, check out http://www.health.ny.gov/statistics/facilities/hospital/hospital_acquired_infections/, or go to the \"About\" tab.", 
   "maintainer": {
@@ -72,5 +73,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_healthny_hospital_acquired_infections_beginning_2008"
+  "schemaName": "socrata/health.data.ny.gov", 
+  "tableName": "hospital_acquired_infections_beginning_2008"
 }

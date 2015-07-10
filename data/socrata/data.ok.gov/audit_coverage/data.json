@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_audit_coverage/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/avzi-i7nw/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/avzi-i7nw/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Maintain the percentage of state and federal funds audited at 85% or more every year through 2018.", 
   "maintainer": {
@@ -28,5 +29,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ok_audit_coverage"
+  "schemaName": "socrata/data.ok.gov", 
+  "tableName": "audit_coverage"
 }

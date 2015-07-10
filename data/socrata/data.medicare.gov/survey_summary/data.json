@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_medicare_survey_summary/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/tbry-pc2d/rows.csv"
+    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/tbry-pc2d/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Nursing home summary information for the Health and Fire Safety Inspections currently listed on Nursing Home Compare, including dates of the three most recent inspections (including those with no deficiencies), and counts of deficiencies sited, overall and within the categories listed on Nursing Home Compare.  Data are presented as one inspection cycle per provider.  Note that deficiency counts do not include citations from complaint inspections.", 
   "maintainer": {
@@ -207,5 +208,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_medicare_survey_summary"
+  "schemaName": "socrata/data.medicare.gov", 
+  "tableName": "survey_summary"
 }

@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_ssmma_vacant_lots/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/pkyu-rhje/rows.csv"
+    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/pkyu-rhje/rows.csv", 
+    "type": "csv"
   }, 
   "description": "This dataset details vacant lots across the Chicago Southland. These lots are suspected vacant by South Suburban Atlas staff.", 
   "maintainer": {
@@ -28,5 +29,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_illinois_ssmma_vacant_lots"
+  "schemaName": "socrata/data.illinois.gov", 
+  "tableName": "ssmma_vacant_lots"
 }

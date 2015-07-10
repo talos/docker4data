@@ -1,0 +1,58 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/headcount_enrollment_by_student_level_and_student_load_by_institutions_of_the_state_university_of_new_york_beginning_fall_2011/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/4fyc-bf8i/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Number of home institution students attending a SUNY campus by level (Undergraduate/Graduate) and load status (full-time, part-time) by institution based on Fall term enrollment.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "SUNY System Administration, Office of Institutional Research", 
+    "category": "Education", 
+    "description": "Number of home institution students attending a SUNY campus by level (Undergraduate/Graduate) and load status (full-time, part-time) by institution based on Fall term enrollment.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/4fyc-bf8i.json"
+    }
+  }, 
+  "name": "Headcount Enrollment by Student Level and Student Load by Institutions of the State University of New York: Beginning Fall 2011", 
+  "schema": {
+    "columns": [
+      {
+        "name": "year", 
+        "type": "real"
+      }, 
+      {
+        "name": "term", 
+        "type": "text"
+      }, 
+      {
+        "name": "college_or_institution_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "college_or_institution_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "undergraduate_full_time", 
+        "type": "real"
+      }, 
+      {
+        "name": "undergraduate_part_time", 
+        "type": "real"
+      }, 
+      {
+        "name": "graduate_full_time", 
+        "type": "real"
+      }, 
+      {
+        "name": "graduate_part_time", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "headcount_enrollment_by_student_level_and_student_load_by_institutions_of_the_state_university_of_new_york_beginning_fall_2011"
+}

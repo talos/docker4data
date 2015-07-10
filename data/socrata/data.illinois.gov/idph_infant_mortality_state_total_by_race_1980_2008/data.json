@@ -1,0 +1,42 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/idph_infant_mortality_state_total_by_race_1980_2008/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/nw3t-wtmy/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Rates shown are per 1,000 live births\r\n* Corrected Rate", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Illinois Center for Health Statistics", 
+    "category": "Public Health", 
+    "description": "Rates shown are per 1,000 live births\r\n* Corrected Rate", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/nw3t-wtmy.json"
+    }
+  }, 
+  "name": "IDPH Infant Mortality, State Total, by Race, 1980-2008", 
+  "schema": {
+    "columns": [
+      {
+        "name": "year", 
+        "type": "text"
+      }, 
+      {
+        "name": "white", 
+        "type": "real"
+      }, 
+      {
+        "name": "african_american", 
+        "type": "real"
+      }, 
+      {
+        "name": "overall", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.illinois.gov", 
+  "tableName": "idph_infant_mortality_state_total_by_race_1980_2008"
+}

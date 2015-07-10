@@ -1,0 +1,42 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/coach_bus_passengers_per_month_at_port_authority_of_ny_nj_airports_beginning_2002/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/39r6-cbzf/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "The Port Authority of New York & New Jersey quarterly produces a data file and provides information on monthly in-bound, out-bound, and connecting Coach Bus passengers between John F. Kennedy International Airport, LaGuardia Airport, and Newark Liberty International Airport; and between aforementioned airports and NYC bus stations beginning in 2002. The dataset represents aggregate numbers of single destination (e.g. A -> B) Coach Bus ticket sale by the Coach Bus companies.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "The Port Authority of New York & New Jersey", 
+    "category": "Transportation", 
+    "description": "The Port Authority of New York & New Jersey quarterly produces a data file and provides information on monthly in-bound, out-bound, and connecting Coach Bus passengers between John F. Kennedy International Airport, LaGuardia Airport, and Newark Liberty International Airport; and between aforementioned airports and NYC bus stations beginning in 2002. The dataset represents aggregate numbers of single destination (e.g. A -> B) Coach Bus ticket sale by the Coach Bus companies.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/39r6-cbzf.json"
+    }
+  }, 
+  "name": "Coach Bus Passengers per Month at Port Authority of NY NJ Airports: Beginning 2002", 
+  "schema": {
+    "columns": [
+      {
+        "name": "airport", 
+        "type": "text"
+      }, 
+      {
+        "name": "year", 
+        "type": "real"
+      }, 
+      {
+        "name": "month", 
+        "type": "real"
+      }, 
+      {
+        "name": "coach_passengers", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "coach_bus_passengers_per_month_at_port_authority_of_ny_nj_airports_beginning_2002"
+}

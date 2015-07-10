@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_job_count_by_industry_state_of_hawaii/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/i9kr-y5ej/rows.csv"
+    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/i9kr-y5ej/rows.csv", 
+    "type": "csv"
   }, 
   "description": "This dataset shows the job counts by industry for the State of Hawaii and will be updated monthly with new data.", 
   "maintainer": {
@@ -111,5 +112,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_hawaii_job_count_by_industry_state_of_hawaii"
+  "schemaName": "socrata/data.hawaii.gov", 
+  "tableName": "job_count_by_industry_state_of_hawaii"
 }

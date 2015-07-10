@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_pay_band_average_salary/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/wji9-i7ig/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/wji9-i7ig/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Salary information for State of Oklahoma employees by pay band, including average, maximum and minimum, and the size of the range by pay band.", 
   "maintainer": {
@@ -40,5 +41,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ok_pay_band_average_salary"
+  "schemaName": "socrata/data.ok.gov", 
+  "tableName": "pay_band_average_salary"
 }

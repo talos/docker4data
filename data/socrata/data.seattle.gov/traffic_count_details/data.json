@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_traffic_count_details/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/qfw2-ekmx/rows.csv"
+    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/qfw2-ekmx/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Vehicle traffic volumes collected from 7-day counts. Used to provide traffic count data that includes ADT, AWDT, AM and PM peak hour volumes along with study dates.", 
   "maintainer": {
@@ -152,5 +153,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_seattle_traffic_count_details"
+  "schemaName": "socrata/data.seattle.gov", 
+  "tableName": "traffic_count_details"
 }

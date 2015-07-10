@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_salary_ranges_by_job_classification/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/7h4w-reyq/rows.csv"
+    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/7h4w-reyq/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Shows the job titles associated with job classifications. \r\nUsed with the Job Titles by Classification and Employees by Classification", 
   "maintainer": {
@@ -72,5 +73,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_sfgov_salary_ranges_by_job_classification"
+  "schemaName": "socrata/data.sfgov.org", 
+  "tableName": "salary_ranges_by_job_classification"
 }

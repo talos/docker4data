@@ -1,0 +1,66 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/environmental_radiation_surveillance_knolls_atomic_power_laboratory_readings_beginning_2009/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/79hs-9r8m/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "This dataset measures the air and water near Knolls Atomic Power Lab and other locations (background) around NYS to determine the normal levels of radioactivity and monitors the influence of human activities on these levels. The site numbers represent the location from which samples are collected. This dataset is not designed, or intended to monitor releases from discharge points at a specific facility (e.g., a stack). The facility operator performs this type of monitoring to meet the requirements of its licensing agency (e.g., a federal agency or the New York State Department of Environmental Conservation). A column has been added for values which can be graphed. Readings where a less than value is displayed show a value that is less than the detection limit of the measurement method and are essentially equivalent to 0. Variations in detection limit are due to variations in sample collection and measurement instrument performance. For more information please visit http://www.health.ny.gov/environmental/radiological/radon/surveillance.htm , or go to the \"About\" tab.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New York State Department of Health", 
+    "category": "Health", 
+    "description": "This dataset measures the air and water near Knolls Atomic Power Lab and other locations (background) around NYS to determine the normal levels of radioactivity and monitors the influence of human activities on these levels. The site numbers represent the location from which samples are collected. This dataset is not designed, or intended to monitor releases from discharge points at a specific facility (e.g., a stack). The facility operator performs this type of monitoring to meet the requirements of its licensing agency (e.g., a federal agency or the New York State Department of Environmental Conservation). A column has been added for values which can be graphed. Readings where a less than value is displayed show a value that is less than the detection limit of the measurement method and are essentially equivalent to 0. Variations in detection limit are due to variations in sample collection and measurement instrument performance. For more information please visit http://www.health.ny.gov/environmental/radiological/radon/surveillance.htm , or go to the \"About\" tab.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/79hs-9r8m.json"
+    }
+  }, 
+  "name": "Environmental Radiation Surveillance Knolls Atomic Power Laboratory Readings: Beginning 2009", 
+  "schema": {
+    "columns": [
+      {
+        "name": "location_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "sample_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "sample_location", 
+        "type": "text"
+      }, 
+      {
+        "name": "sampling_frequency", 
+        "type": "text"
+      }, 
+      {
+        "name": "sampling_date", 
+        "type": "text"
+      }, 
+      {
+        "name": "isotope_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "value", 
+        "type": "text"
+      }, 
+      {
+        "name": "units", 
+        "type": "text"
+      }, 
+      {
+        "name": "graph_value", 
+        "type": "real"
+      }, 
+      {
+        "name": "comment", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/health.data.ny.gov", 
+  "tableName": "environmental_radiation_surveillance_knolls_atomic_power_laboratory_readings_beginning_2009"
+}

@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_cip_expenditures/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/54sf-nz6w/rows.csv"
+    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/54sf-nz6w/rows.csv", 
+    "type": "csv"
   }, 
   "description": "CIP Expenditures. Monthly Data Extract from FAMIS - Financial Accounting Management Information System.  Coded fields may require further analysis to interpret", 
   "maintainer": {
@@ -168,5 +169,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_hawaii_cip_expenditures"
+  "schemaName": "socrata/data.hawaii.gov", 
+  "tableName": "cip_expenditures"
 }

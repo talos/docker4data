@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_real_property_transactions_of_state_authorities/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/t7uh-5ac8/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/t7uh-5ac8/rows.csv", 
+    "type": "csv"
   }, 
   "description": "This dataset consists of 3 years of real property transactions reported by State Authorities.  Public authorities are required by Section 2800 of Public Authorities Law to submit annual reports to the Authorities Budget Office (ABO) that include real property transactions data.  Authorities are required to report real property transactions having an estimated fair market of more than $15,000.", 
   "maintainer": {
@@ -112,5 +113,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ny_real_property_transactions_of_state_authorities"
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "real_property_transactions_of_state_authorities"
 }

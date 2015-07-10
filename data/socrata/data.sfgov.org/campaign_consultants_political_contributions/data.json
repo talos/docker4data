@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_campaign_consultants_political_contributions/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/tv94-tvke/rows.csv"
+    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/tv94-tvke/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Filers must report each political contribution of $100 or more to a candidate for local office, a committee controlled by a local officeholder or a candidate for local office, or a ballot measure committee whether or not the committee is controlled by a local officeholder or a candidate for local office.  Filers must report contributions of $100 or more made or delivered by the filer, or made by the filer\u2019s client at the filer\u2019s behest, or for which the filer acted as an agent or intermediary during the reporting period. \r\n\r\nThis chart indicates the political contributions made by campaign consultants during the reporting period.", 
   "maintainer": {
@@ -48,5 +49,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_sfgov_campaign_consultants_political_contributions"
+  "schemaName": "socrata/data.sfgov.org", 
+  "tableName": "campaign_consultants_political_contributions"
 }

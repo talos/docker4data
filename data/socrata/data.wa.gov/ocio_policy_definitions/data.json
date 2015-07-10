@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wa_ocio_policy_definitions/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/63y2-dcac/rows.csv"
+    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/63y2-dcac/rows.csv", 
+    "type": "csv"
   }, 
   "description": "This dataset contains all of the terms defined in OCIO policy or standard, as well as a few other FAQ and guidance documents.", 
   "maintainer": {
@@ -39,5 +40,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_wa_ocio_policy_definitions"
+  "schemaName": "socrata/data.wa.gov", 
+  "tableName": "ocio_policy_definitions"
 }

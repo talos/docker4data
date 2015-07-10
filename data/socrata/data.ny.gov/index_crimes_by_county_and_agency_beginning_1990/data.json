@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_index_crimes_by_county_and_agency_beginning_1990/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/ca8h-8gjq/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/ca8h-8gjq/rows.csv", 
+    "type": "csv"
   }, 
   "description": "The Division of Criminal Justice Services (DCJS) collects crime reports from more than 500 New York State police and sheriffs\u2019 departments. DCJS compiles these reports as New York\u2019s official crime statistics and submits them to the FBI under the National Uniform Crime Reporting (UCR) Program. UCR uses standard offense definitions to count crime in localities across America regardless of variations in crime laws from state to state. In New York State, law enforcement agencies use the UCR system to report their monthly crime totals to DCJS. The UCR reporting system collects information on seven crimes classified as Index offenses which are most commonly used to gauge overall crime volume. These include the violent crimes of murder/non-negligent manslaughter, forcible rape, robbery, and aggravated assault; and the property crimes of burglary, larceny, and motor vehicle theft. Police agencies may experience reporting problems that preclude accurate or complete reporting. The counts represent only crimes reported to the police but not total crimes that occurred.", 
   "maintainer": {
@@ -76,5 +77,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ny_index_crimes_by_county_and_agency_beginning_1990"
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "index_crimes_by_county_and_agency_beginning_1990"
 }

@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_nola_commuters_2005_present_/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.nola.gov/api/views/u9xq-ywvp/rows.csv"
+    "@id": "http://www.opendatacache.com/data.nola.gov/api/views/u9xq-ywvp/rows.csv", 
+    "type": "csv"
   }, 
   "description": "This data on travel time and means of transportation for commuters traveling to work comes from the U.S. Census Bureau's American Community Survey (ACS) one-year estimates, which are published on an annual basis.  It includes data for the following cities: Tampa, Florida; Memphis, Tennessee; Louisville, Kentucky; Nashville, Tennessee; Raleigh, North Carolina; Atlanta, Georgia; Baton Rouge, Louisiana; New Orleans, Louisiana. This data covers the time period of 2005 to present.", 
   "maintainer": {
@@ -40,5 +41,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_nola_commuters_2005_present_"
+  "schemaName": "socrata/data.nola.gov", 
+  "tableName": "commuters_2005_present_"
 }

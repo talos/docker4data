@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_lobbyist_directory/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/exbu-si57/rows.csv"
+    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/exbu-si57/rows.csv", 
+    "type": "csv"
   }, 
   "description": "The directory of individual lobbyists contains a list of all lobbyists registered with the San Francisco Ethics Commission.\r\n\r\nThis dataset updates automatically every night.", 
   "maintainer": {
@@ -84,5 +85,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_sfgov_lobbyist_directory"
+  "schemaName": "socrata/data.sfgov.org", 
+  "tableName": "lobbyist_directory"
 }

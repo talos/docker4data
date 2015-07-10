@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_nola_code_enforcement_inspections/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.nola.gov/api/views/2mq3-p3xc/rows.csv"
+    "@id": "http://www.opendatacache.com/data.nola.gov/api/views/2mq3-p3xc/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Lists all inspections of private property completed by the New Orleans Code Enforcement and Hearings Bureau, with dates, case numbers, addresses, type and result of inspections. Each address has been assigned additional geographic attributes: council district, police district, census tract, inspection district, and neighborhood attributes.", 
   "maintainer": {
@@ -100,5 +101,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_nola_code_enforcement_inspections"
+  "schemaName": "socrata/data.nola.gov", 
+  "tableName": "code_enforcement_inspections"
 }

@@ -1,0 +1,74 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/biodiversity_by_county_distribution_of_animals_plants_and_natural_communities/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/tk82-7km5/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "The NYS Department of Environmental Conservation (DEC) collects and maintains several datasets on the locations, distribution and status of species of plants and animals. Information on distribution by county from the following three databases was extracted and compiled into this dataset.  First, the New York Natural Heritage Program biodiversity database: Rare animals, rare plants, and significant natural communities. Significant natural communities are rare or high-quality wetlands, forests, grasslands, ponds, streams, and other types of habitats.  Next, the 2nd NYS Breeding Bird Atlas Project database: Birds documented as breeding during the atlas project from 2000-2005.  And last, DEC\u2019s NYS Reptile and Amphibian Database: Reptiles and amphibians; most records are from the NYS Amphibian & Reptile Atlas Project (Herp Atlas) from 1990-1999.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New York State Department of Environmental Conservation", 
+    "category": "Energy & Environment", 
+    "description": "The NYS Department of Environmental Conservation (DEC) collects and maintains several datasets on the locations, distribution and status of species of plants and animals. Information on distribution by county from the following three databases was extracted and compiled into this dataset.  First, the New York Natural Heritage Program biodiversity database: Rare animals, rare plants, and significant natural communities. Significant natural communities are rare or high-quality wetlands, forests, grasslands, ponds, streams, and other types of habitats.  Next, the 2nd NYS Breeding Bird Atlas Project database: Birds documented as breeding during the atlas project from 2000-2005.  And last, DEC\u2019s NYS Reptile and Amphibian Database: Reptiles and amphibians; most records are from the NYS Amphibian & Reptile Atlas Project (Herp Atlas) from 1990-1999.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/tk82-7km5.json"
+    }
+  }, 
+  "name": "Biodiversity by County \u2013 Distribution of Animals, Plants and Natural Communities", 
+  "schema": {
+    "columns": [
+      {
+        "name": "county", 
+        "type": "text"
+      }, 
+      {
+        "name": "category", 
+        "type": "text"
+      }, 
+      {
+        "name": "taxonomic_group", 
+        "type": "text"
+      }, 
+      {
+        "name": "taxonomic_subgroup", 
+        "type": "text"
+      }, 
+      {
+        "name": "scientific_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "common_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "year_last_documented", 
+        "type": "text"
+      }, 
+      {
+        "name": "ny_listing_status", 
+        "type": "text"
+      }, 
+      {
+        "name": "federal_listing_status", 
+        "type": "text"
+      }, 
+      {
+        "name": "state_conservation_rank", 
+        "type": "text"
+      }, 
+      {
+        "name": "global_conservation_rank", 
+        "type": "text"
+      }, 
+      {
+        "name": "distribution_status", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "biodiversity_by_county_distribution_of_animals_plants_and_natural_communities"
+}

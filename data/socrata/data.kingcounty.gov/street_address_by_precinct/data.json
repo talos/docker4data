@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_kingcounty_street_address_by_precinct/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/pwqp-uiq9/rows.csv"
+    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/pwqp-uiq9/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Street Address By Precinct for King County Elections", 
   "maintainer": {
@@ -175,5 +176,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_kingcounty_street_address_by_precinct"
+  "schemaName": "socrata/data.kingcounty.gov", 
+  "tableName": "street_address_by_precinct"
 }

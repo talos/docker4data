@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_uninsured_individuals/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/e26h-sbcx/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/e26h-sbcx/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Decrease the percentage of uninsured individuals from 17% in 2013 to 9.5% by 2019.", 
   "maintainer": {
@@ -32,5 +33,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ok_uninsured_individuals"
+  "schemaName": "socrata/data.ok.gov", 
+  "tableName": "uninsured_individuals"
 }

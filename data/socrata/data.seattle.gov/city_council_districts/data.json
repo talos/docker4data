@@ -1,12 +1,17 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_city_council_districts/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/wsu4-9jt9/rows.csv"
+    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/wsu4-9jt9/rows.csv", 
+    "type": "csv"
   }, 
+  "description": "City Council geographic districts", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
+    "attribution": "DPD, City of Seattle", 
+    "category": "City Business", 
+    "description": "City Council geographic districts", 
     "socrata": {
       "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/wsu4-9jt9.json"
     }
@@ -44,5 +49,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_seattle_city_council_districts"
+  "schemaName": "socrata/data.seattle.gov", 
+  "tableName": "city_council_districts"
 }

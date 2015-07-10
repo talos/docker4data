@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oregon_yearly_pond_values/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/qvyp-cz82/rows.csv"
+    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/qvyp-cz82/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Log price information. Domestically processed logs (delivered to a mill; \"Pond Value\")", 
   "maintainer": {
@@ -48,5 +49,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_oregon_yearly_pond_values"
+  "schemaName": "socrata/data.oregon.gov", 
+  "tableName": "yearly_pond_values"
 }

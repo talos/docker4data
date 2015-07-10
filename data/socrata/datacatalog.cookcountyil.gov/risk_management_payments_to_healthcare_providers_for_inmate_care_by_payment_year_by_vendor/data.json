@@ -1,0 +1,62 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/risk_management_payments_to_healthcare_providers_for_inmate_care_by_payment_year_by_vendor/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/a5kn-k8qb/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "A list of payments to healthcare providers for services rendered to Sheriff detainees that were paid beginning in December 2010 through July 2012.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Cook County Department of Risk Management", 
+    "category": "Healthcare", 
+    "description": "A list of payments to healthcare providers for services rendered to Sheriff detainees that were paid beginning in December 2010 through July 2012.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/a5kn-k8qb.json"
+    }
+  }, 
+  "name": "Risk Management - Payments to Healthcare Providers for Inmate Care, by Payment Year, by Vendor", 
+  "schema": {
+    "columns": [
+      {
+        "name": "hospital", 
+        "type": "text"
+      }, 
+      {
+        "name": "original_billed_amount", 
+        "type": "real"
+      }, 
+      {
+        "name": "idhfs_discount", 
+        "type": "real"
+      }, 
+      {
+        "name": "unrelated", 
+        "type": "real"
+      }, 
+      {
+        "name": "provider_discount", 
+        "type": "real"
+      }, 
+      {
+        "name": "amount_payable", 
+        "type": "real"
+      }, 
+      {
+        "name": "board_meeting_date", 
+        "type": "text"
+      }, 
+      {
+        "name": "fiscal_year_of_payment", 
+        "type": "text"
+      }, 
+      {
+        "name": "fiscal_year_of_treatment", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/datacatalog.cookcountyil.gov", 
+  "tableName": "risk_management_payments_to_healthcare_providers_for_inmate_care_by_payment_year_by_vendor"
+}

@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wa_local_area_unemployment_statistics/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/ak95-mjh9/rows.csv"
+    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/ak95-mjh9/rows.csv", 
+    "type": "csv"
   }, 
   "description": "The Local Area Unemployment Statistics (LAUS) program produces monthly and annual employment, unemployment, and labor force data for Census regions and divisions, States, counties, metropolitan areas, and many cities, by place of residence.", 
   "maintainer": {
@@ -68,5 +69,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_wa_local_area_unemployment_statistics"
+  "schemaName": "socrata/data.wa.gov", 
+  "tableName": "local_area_unemployment_statistics"
 }

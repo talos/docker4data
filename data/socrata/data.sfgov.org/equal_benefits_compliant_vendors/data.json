@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_equal_benefits_compliant_vendors/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/pbek-bym4/rows.csv"
+    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/pbek-bym4/rows.csv", 
+    "type": "csv"
   }, 
   "description": "The Equal Benefits Ordinance, as Chapter 12B of the San Francisco Administrative Code is commonly referred to, prohibits the City of San Francisco from entering into contracts or leases with entities (which do more than $5,000 of business with the City per year) that discriminate against their employees in the provision of benefits between employees with domestic partners and employees with spouses, or against employees or others that are members of protected classes. This dataset contains all firms certified as compliant with the Equal Benefits Ordinance by the San Francisco Human Rights Commission.", 
   "maintainer": {
@@ -36,5 +37,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_sfgov_equal_benefits_compliant_vendors"
+  "schemaName": "socrata/data.sfgov.org", 
+  "tableName": "equal_benefits_compliant_vendors"
 }

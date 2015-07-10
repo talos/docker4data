@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_service_requests/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/53fr-di76/rows.csv"
+    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/53fr-di76/rows.csv", 
+    "type": "csv"
   }, 
   "description": "City of Rockford 2013 Service Requests", 
   "maintainer": {
@@ -63,5 +64,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_illinois_service_requests"
+  "schemaName": "socrata/data.illinois.gov", 
+  "tableName": "service_requests"
 }

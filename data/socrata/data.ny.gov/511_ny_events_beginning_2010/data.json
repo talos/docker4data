@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_511_ny_events_beginning_2010/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/ah74-pg4w/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/ah74-pg4w/rows.csv", 
+    "type": "csv"
   }, 
   "description": "The 511NY dataset contain historical traffic and transit event information provided by the New York State Department of Transportation (NYSDOT), the New York City Department of Transportation, the New York State Thruway Authority and the Niagara International Transportation Technology Coalition (Buffalo-Niagara Region). The file includes all incidents/accidents, construction projects and special events in New York State that were available on the 511NY traffic and transit map for the time period noted.", 
   "maintainer": {
@@ -72,5 +73,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ny_511_ny_events_beginning_2010"
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "511_ny_events_beginning_2010"
 }

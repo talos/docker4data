@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_noi_notice_of_intent/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/85pj-nxpf/rows.csv"
+    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/85pj-nxpf/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Notification list for projects in the Public Right of Way which require a \u2018Notice of Intent\u2019 (NOI)", 
   "maintainer": {
@@ -44,5 +45,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_sfgov_noi_notice_of_intent"
+  "schemaName": "socrata/data.sfgov.org", 
+  "tableName": "noi_notice_of_intent"
 }

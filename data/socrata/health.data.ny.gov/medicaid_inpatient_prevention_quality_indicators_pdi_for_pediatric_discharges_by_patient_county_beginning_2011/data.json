@@ -1,0 +1,70 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/medicaid_inpatient_prevention_quality_indicators_pdi_for_pediatric_discharges_by_patient_county_beginning_2011/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/64yg-akce/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "The datasets contain number of Medicaid PDI hospitalizations (numerator), county or zip Medicaid population (denominator), observed rate, expected number of hospitalizations and rate, and risk-adjusted rate for Agency for Healthcare Research and Quality Pediatric Quality Indicators \u2013 Pediatric (AHRQ PDI) for Medicaid enrollees beginning in 2011.\r\n\r\nThe Agency for Healthcare Research and Quality (AHRQ) Pediatric Quality Indicators (PDIs) are a set of population based measures that can be used with hospital inpatient discharge data to identify ambulatory care sensitive conditions. These are conditions where 1) the need for hospitalization is potentially preventable with appropriate outpatient care, or 2) conditions that could be less severe if treated early and appropriately. Both the Urinary Tract Infection and Gastroenteritis PDIs include admissions for patients aged 3 months through 17 years.  The asthma PDI includes admissions for patients aged 2 through 17 years.  Eligible admissions for the Diabetes Short-term Complications PDI includes admissions for patients aged 6 through 17 years.\r\n\r\nThe rates were calculated using Medicaid inpatient hospital data for the numerator and Medicaid enrollment in the county or zip code for the denominator.  \r\n\r\nThe observed counts and rates, expected counts and rates, risk-adjusted rates and the difference between the number of observed and expected PDI hospitalizations for each AHRQ PDI are presented by either resident county (including a statewide total) or resident zip code (including a statewide total).  For more information, check out: http://www.health.ny.gov/health_care/medicaid/  or go to the \u201cAbout\u201d tab.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New York State Department of Health", 
+    "category": "Health", 
+    "description": "The datasets contain number of Medicaid PDI hospitalizations (numerator), county or zip Medicaid population (denominator), observed rate, expected number of hospitalizations and rate, and risk-adjusted rate for Agency for Healthcare Research and Quality Pediatric Quality Indicators \u2013 Pediatric (AHRQ PDI) for Medicaid enrollees beginning in 2011.\r\n\r\nThe Agency for Healthcare Research and Quality (AHRQ) Pediatric Quality Indicators (PDIs) are a set of population based measures that can be used with hospital inpatient discharge data to identify ambulatory care sensitive conditions. These are conditions where 1) the need for hospitalization is potentially preventable with appropriate outpatient care, or 2) conditions that could be less severe if treated early and appropriately. Both the Urinary Tract Infection and Gastroenteritis PDIs include admissions for patients aged 3 months through 17 years.  The asthma PDI includes admissions for patients aged 2 through 17 years.  Eligible admissions for the Diabetes Short-term Complications PDI includes admissions for patients aged 6 through 17 years.\r\n\r\nThe rates were calculated using Medicaid inpatient hospital data for the numerator and Medicaid enrollment in the county or zip code for the denominator.  \r\n\r\nThe observed counts and rates, expected counts and rates, risk-adjusted rates and the difference between the number of observed and expected PDI hospitalizations for each AHRQ PDI are presented by either resident county (including a statewide total) or resident zip code (including a statewide total).  For more information, check out: http://www.health.ny.gov/health_care/medicaid/  or go to the \u201cAbout\u201d tab.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/64yg-akce.json"
+    }
+  }, 
+  "name": "Medicaid Inpatient Prevention Quality Indicators (PDI) for Pediatric Discharges by Patient County: Beginning 2011", 
+  "schema": {
+    "columns": [
+      {
+        "name": "discharge_year", 
+        "type": "real"
+      }, 
+      {
+        "name": "patient_county", 
+        "type": "text"
+      }, 
+      {
+        "name": "pdi_number", 
+        "type": "text"
+      }, 
+      {
+        "name": "pdi_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "medicaid_pdi_hospitalizations", 
+        "type": "real"
+      }, 
+      {
+        "name": "county_medicaid_population", 
+        "type": "real"
+      }, 
+      {
+        "name": "observed_rate_per_100_000_people", 
+        "type": "real"
+      }, 
+      {
+        "name": "expected_pqi_hospitalizations", 
+        "type": "real"
+      }, 
+      {
+        "name": "expected_rate_per_100_000_people", 
+        "type": "real"
+      }, 
+      {
+        "name": "risk_adjusted_rate_per_100_000_people", 
+        "type": "real"
+      }, 
+      {
+        "name": "difference_in_hospitalizations", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/health.data.ny.gov", 
+  "tableName": "medicaid_inpatient_prevention_quality_indicators_pdi_for_pediatric_discharges_by_patient_county_beginning_2011"
+}

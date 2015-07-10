@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_cadastral_plss/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/42vt-uxpy/rows.csv"
+    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/42vt-uxpy/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Public Land Survey System for Seattle", 
   "maintainer": {
@@ -80,5 +81,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_seattle_cadastral_plss"
+  "schemaName": "socrata/data.seattle.gov", 
+  "tableName": "cadastral_plss"
 }

@@ -1,0 +1,70 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/new_york_state_budget_vetoes_2015_16/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/xy2c-fxc5/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "This data set includes vetoed reappropriation items from the 2015-16 Enacted budget bills by veto number, agency, bill, fund type and justification.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Division of Budget", 
+    "category": "Government & Finance", 
+    "description": "This data set includes vetoed reappropriation items from the 2015-16 Enacted budget bills by veto number, agency, bill, fund type and justification.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/xy2c-fxc5.json"
+    }
+  }, 
+  "name": "New York State Budget Vetoes: 2015-16", 
+  "schema": {
+    "columns": [
+      {
+        "name": "veto", 
+        "type": "real"
+      }, 
+      {
+        "name": "agency", 
+        "type": "text"
+      }, 
+      {
+        "name": "bill", 
+        "type": "text"
+      }, 
+      {
+        "name": "from_page", 
+        "type": "real"
+      }, 
+      {
+        "name": "to_page", 
+        "type": "real"
+      }, 
+      {
+        "name": "from_line", 
+        "type": "real"
+      }, 
+      {
+        "name": "to_line", 
+        "type": "real"
+      }, 
+      {
+        "name": "fund_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "purpose", 
+        "type": "text"
+      }, 
+      {
+        "name": "amount", 
+        "type": "real"
+      }, 
+      {
+        "name": "justification_text", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "new_york_state_budget_vetoes_2015_16"
+}

@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_bho_sud_readmission_beginning_2010/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/mki6-ies9/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/mki6-ies9/rows.csv", 
+    "type": "csv"
   }, 
   "description": "The Behavioral Health Organization (BHO) initiative oversees the transition to managed care for Medicaid recipients who receive mental health (MH) and substance use disorder (SUD) services in New York State. The metrics emphasize improving rates of timely follow-up treatment post discharge, timely filling of appropriate medication prescriptions post discharge, and reducing rates of readmission.\r\nThe BHO SUD Readmission dataset describes the rate of readmission for substance use disorder inpatient detoxification or chemical dependence inpatient rehabilitation within either 30 or 45 days of the last inpatient substance use disorder discharge for all discharges identified from paid fee-for-service Medicaid claims.", 
   "maintainer": {
@@ -76,5 +77,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ny_bho_sud_readmission_beginning_2010"
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "bho_sud_readmission_beginning_2010"
 }

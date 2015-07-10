@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_median_household_income/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/93ry-4338/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/93ry-4338/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Increase the state median household income from $45,690 in 2013 to $51,424 by 2017.", 
   "maintainer": {
@@ -32,5 +33,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ok_median_household_income"
+  "schemaName": "socrata/data.ok.gov", 
+  "tableName": "median_household_income"
 }

@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_poverty_rate_with_margin_of_error_2006_2012/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/qnk2-m5pz/rows.csv"
+    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/qnk2-m5pz/rows.csv", 
+    "type": "csv"
   }, 
   "description": "The data consist of the poverty rate by the year in Maryland and the margin of error of the poverty rate from 2006 to 2012. MOE= Margin of Error for the 90% confidence interval. Source from the U.S. Census Bureau, Small Area Income and Poverty Estimates, July 2014.", 
   "maintainer": {
@@ -80,5 +81,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_maryland_poverty_rate_with_margin_of_error_2006_2012"
+  "schemaName": "socrata/data.maryland.gov", 
+  "tableName": "poverty_rate_with_margin_of_error_2006_2012"
 }

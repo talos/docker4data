@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_nola_nora_sold_properties/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.nola.gov/api/views/hpm5-48nj/rows.csv"
+    "@id": "http://www.opendatacache.com/data.nola.gov/api/views/hpm5-48nj/rows.csv", 
+    "type": "csv"
   }, 
   "description": "This data set is a listing of all properties sold by NORA through the following disposition channels.\r\n-Auction: Properties put up for auction and sold to the highest bidder.\r\n-Development: Properties offered via request for proposals to create affordable housing.\r\n-Lot Next Door: Properties sold to adjacent owners.\r\n-Alternate Land Use: Properties sold for purposes of creating green space and used for activities such as community gardens.", 
   "maintainer": {
@@ -47,5 +48,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_nola_nora_sold_properties"
+  "schemaName": "socrata/data.nola.gov", 
+  "tableName": "nora_sold_properties"
 }

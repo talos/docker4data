@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_prison_population/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/bnfz-zbjn/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/bnfz-zbjn/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Decrease the percentage of the total prison population from 28,328 in 2014 to 26,200 by 2018.", 
   "maintainer": {
@@ -32,5 +33,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ok_prison_population"
+  "schemaName": "socrata/data.ok.gov", 
+  "tableName": "prison_population"
 }

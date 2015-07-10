@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_pothole_repairs/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/w3qe-e2jj/rows.csv"
+    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/w3qe-e2jj/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Displays the pothole repair work orders that are currently being evaluated and repaired by SDOT\u2019s Street Maintenance crews along with those that have been repaired over the previous year.  The previous year is based on a rolling calendar.", 
   "maintainer": {
@@ -79,5 +80,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_seattle_pothole_repairs"
+  "schemaName": "socrata/data.seattle.gov", 
+  "tableName": "pothole_repairs"
 }

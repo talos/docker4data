@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_raleighnc_abc_liquor_license/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.raleighnc.gov/api/views/4253-v43q/rows.csv"
+    "@id": "http://www.opendatacache.com/data.raleighnc.gov/api/views/4253-v43q/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Liquor licenses for the State of North Carolina. Filters can be set by city/township name.", 
   "maintainer": {
@@ -60,5 +61,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_raleighnc_abc_liquor_license"
+  "schemaName": "socrata/data.raleighnc.gov", 
+  "tableName": "abc_liquor_license"
 }

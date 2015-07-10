@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_ssmma_local_traffic_counts/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/ru3b-73t6/rows.csv"
+    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/ru3b-73t6/rows.csv", 
+    "type": "csv"
   }, 
   "description": "This dataset details traffic counts in the Chicago Southland from 2010 thru 1998. This dataset is a mashup of IDOT, County, and CMAP traffic counts", 
   "maintainer": {
@@ -108,5 +109,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_illinois_ssmma_local_traffic_counts"
+  "schemaName": "socrata/data.illinois.gov", 
+  "tableName": "ssmma_local_traffic_counts"
 }

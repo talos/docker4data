@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_greenhouse_gas_emissions_estimates/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/8cmy-9rim/rows.csv"
+    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/8cmy-9rim/rows.csv", 
+    "type": "csv"
   }, 
   "description": "The State conducted a detailed inventory of greenhouse gasses in 2006 and again in 2011.  Estimated actual emissions for those two years represent the results of these inventories.  \r\n\r\nProjected emissions under a \"business as usual\" scenario were estimated based on the 2006 inventory, projected forward using a protocol set forth by the Environmental Protection Agency.  The business as usual estimates were revised due to changes in the economy since the protocol was set out.  It is important to bear in mind that a BAU projected emissions inventory is a forecast that may, or may not, prove to be an entirely accurate predictor of future emissions. \r\n\r\nAnnual actual emission estimates were calculated for the intervening years from 2006 through 2011 by utilizing three surrogates as indicators of emissions (energy, transportation and residential, commercial and industrial fuel combustion).  These three sectors account for over 85 percent of greenhouse gas emissions in Maryland.", 
   "maintainer": {
@@ -44,5 +45,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_maryland_greenhouse_gas_emissions_estimates"
+  "schemaName": "socrata/data.maryland.gov", 
+  "tableName": "greenhouse_gas_emissions_estimates"
 }

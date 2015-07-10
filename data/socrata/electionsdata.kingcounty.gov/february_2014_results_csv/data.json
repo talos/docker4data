@@ -1,0 +1,53 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/february_2014_results_csv/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/electionsdata.kingcounty.gov/api/views/j5xc-9dht/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Election results dataset for February 11, 2014 special election.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "category": "Government", 
+    "description": "Election results dataset for February 11, 2014 special election.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/electionsdata.kingcounty.gov/api/views/j5xc-9dht.json"
+    }
+  }, 
+  "name": "February 2014 - Results CSV", 
+  "schema": {
+    "columns": [
+      {
+        "name": "contname", 
+        "type": "text"
+      }, 
+      {
+        "name": "registered", 
+        "type": "real"
+      }, 
+      {
+        "name": "cast", 
+        "type": "real"
+      }, 
+      {
+        "name": "nameonballot", 
+        "type": "text"
+      }, 
+      {
+        "name": "party", 
+        "type": "text"
+      }, 
+      {
+        "name": "votes", 
+        "type": "real"
+      }, 
+      {
+        "name": "percent", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/electionsdata.kingcounty.gov", 
+  "tableName": "february_2014_results_csv"
+}

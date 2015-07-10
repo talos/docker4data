@@ -1,0 +1,50 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/estado_de_las_suscripciones_de_capital_y_los_derechos_de_voto_del_birf/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/f24n-2y5b/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Estado de las suscripciones de capital y los derechos de voto. La informaci\u00f3n m\u00e1s reciente sobre derechos de voto est\u00e1 disponible en: http://go.worldbank.org/VKVDQDUC10. Una porci\u00f3n de las suscripciones del capital pagadas al BIRF se ha efectivizado en las monedas nacionales de los pa\u00edses miembros. El BIRF utiliza estos montos, denominados monedas restringidas, en sus operaciones de pr\u00e9stamo e inversi\u00f3n \u2014solamente con el consentimiento de los respectivos miembros\u2014 y para gastos administrativos.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "World Bank Group", 
+    "category": "Shareholder Equity", 
+    "description": "Estado de las suscripciones de capital y los derechos de voto. La informaci\u00f3n m\u00e1s reciente sobre derechos de voto est\u00e1 disponible en: http://go.worldbank.org/VKVDQDUC10. Una porci\u00f3n de las suscripciones del capital pagadas al BIRF se ha efectivizado en las monedas nacionales de los pa\u00edses miembros. El BIRF utiliza estos montos, denominados monedas restringidas, en sus operaciones de pr\u00e9stamo e inversi\u00f3n \u2014solamente con el consentimiento de los respectivos miembros\u2014 y para gastos administrativos.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/f24n-2y5b.json"
+    }
+  }, 
+  "name": "Estado de las suscripciones de capital y los derechos de voto del BIRF", 
+  "schema": {
+    "columns": [
+      {
+        "name": "member", 
+        "type": "text"
+      }, 
+      {
+        "name": "shares", 
+        "type": "real"
+      }, 
+      {
+        "name": "percentage_of_total_shares", 
+        "type": "text"
+      }, 
+      {
+        "name": "number_of_votes", 
+        "type": "real"
+      }, 
+      {
+        "name": "percentage_of_total_votes", 
+        "type": "text"
+      }, 
+      {
+        "name": "as_of_date", 
+        "type": "timestamp"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/finances.worldbank.org", 
+  "tableName": "estado_de_las_suscripciones_de_capital_y_los_derechos_de_voto_del_birf"
+}

@@ -1,0 +1,40 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/10_industry/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/hqdc-4345/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Some industry categories do not have a sufficient sample to produce estimates, so industries are grouped with other industries.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "description": "Some industry categories do not have a sufficient sample to produce estimates, so industries are grouped with other industries.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/hqdc-4345.json"
+    }
+  }, 
+  "name": "10 Industry", 
+  "schema": {
+    "columns": [
+      {
+        "name": "measure_value", 
+        "type": "real"
+      }, 
+      {
+        "name": "year", 
+        "type": "real"
+      }, 
+      {
+        "name": "level_of_coverage", 
+        "type": "text"
+      }, 
+      {
+        "name": "industry", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/healthmeasures.aspe.hhs.gov", 
+  "tableName": "10_industry"
+}

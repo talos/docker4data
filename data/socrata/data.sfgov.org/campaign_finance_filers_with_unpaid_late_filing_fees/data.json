@@ -1,0 +1,42 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/campaign_finance_filers_with_unpaid_late_filing_fees/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/mwws-zd4b/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "The campaign finance disclosure filers in the table below have not paid one or more late filing fees.  The filers listed below have not responded to two or more written notices and one or more verbal notices regarding late filing fees.  Filers posted to this list for not paying late filing fees are removed from this list after paying their late fees or four (4) years have elapsed since the Executive Director\u2019s final determination of the late fees (i.e., the date the late fees are assessed or the date the Executive Director makes a determination in response to a request for waiver, if any).\r\nIn addition to being listed in the table below, filers whose late fees remain unpaid may be referred to the Bureau of Delinquent Revenues at the Treasurer and Tax Collectors Office.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "San Francisco Ethics Commission", 
+    "category": "City Management and Ethics", 
+    "description": "The campaign finance disclosure filers in the table below have not paid one or more late filing fees.  The filers listed below have not responded to two or more written notices and one or more verbal notices regarding late filing fees.  Filers posted to this list for not paying late filing fees are removed from this list after paying their late fees or four (4) years have elapsed since the Executive Director\u2019s final determination of the late fees (i.e., the date the late fees are assessed or the date the Executive Director makes a determination in response to a request for waiver, if any).\r\nIn addition to being listed in the table below, filers whose late fees remain unpaid may be referred to the Bureau of Delinquent Revenues at the Treasurer and Tax Collectors Office.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/mwws-zd4b.json"
+    }
+  }, 
+  "name": "Campaign Finance - Filers With Unpaid Late Filing Fees", 
+  "schema": {
+    "columns": [
+      {
+        "name": "committee_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "fppc_id", 
+        "type": "text"
+      }, 
+      {
+        "name": "treasurer", 
+        "type": "text"
+      }, 
+      {
+        "name": "delinquent_fees", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.sfgov.org", 
+  "tableName": "campaign_finance_filers_with_unpaid_late_filing_fees"
+}

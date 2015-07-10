@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_passenger_counts_may_2013/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/k5s6-yfqg/rows.csv"
+    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/k5s6-yfqg/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Updated daily, Monday through Friday.  International Passenger Count excluding flights from Canada.  May 2012 counts included for comparison.", 
   "maintainer": {
@@ -80,5 +81,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_hawaii_passenger_counts_may_2013"
+  "schemaName": "socrata/data.hawaii.gov", 
+  "tableName": "passenger_counts_may_2013"
 }

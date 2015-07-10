@@ -1,0 +1,54 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/bus_safety_information_network_busnet_operator_report_beginning_2009/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/h9zr-j4pg/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "The Bus Safety Information Network (BUSNET) Profile Operator Report dataset provides a summary of annual bus passenger vehicle operators safety inspections conducted by New York State Department of Transportation (NYSDOT).   The dataset is a summary listing of all operators that have one or more vehicles inspected under NYSDOT semi-annual vehicle safety inspection program by state fiscal year.  The semi-annual bus inspection program is helps to reduce accidents, injuries, and fatalities resulting from unsafe vehicles operating on highways in New York State.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New York State Department of Transportation (NYSDOT)", 
+    "category": "Transportation", 
+    "description": "The Bus Safety Information Network (BUSNET) Profile Operator Report dataset provides a summary of annual bus passenger vehicle operators safety inspections conducted by New York State Department of Transportation (NYSDOT).   The dataset is a summary listing of all operators that have one or more vehicles inspected under NYSDOT semi-annual vehicle safety inspection program by state fiscal year.  The semi-annual bus inspection program is helps to reduce accidents, injuries, and fatalities resulting from unsafe vehicles operating on highways in New York State.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/h9zr-j4pg.json"
+    }
+  }, 
+  "name": "Bus Safety Information Network (BUSNET) Operator Report:  Beginning 2009", 
+  "schema": {
+    "columns": [
+      {
+        "name": "state_fiscal_year_end_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "operator_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "inspections", 
+        "type": "real"
+      }, 
+      {
+        "name": "failed_inspections", 
+        "type": "real"
+      }, 
+      {
+        "name": "operator_id", 
+        "type": "real"
+      }, 
+      {
+        "name": "city", 
+        "type": "text"
+      }, 
+      {
+        "name": "region", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "bus_safety_information_network_busnet_operator_report_beginning_2009"
+}

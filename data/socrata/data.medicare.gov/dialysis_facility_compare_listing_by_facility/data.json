@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_medicare_dialysis_facility_compare_listing_by_facility/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/23ew-n7w9/rows.csv"
+    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/23ew-n7w9/rows.csv", 
+    "type": "csv"
   }, 
   "description": "A list of all dialysis facilities registered with Medicare that includes addresses and phone numbers, as well as services and quality of care provided.", 
   "maintainer": {
@@ -371,5 +372,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_medicare_dialysis_facility_compare_listing_by_facility"
+  "schemaName": "socrata/data.medicare.gov", 
+  "tableName": "dialysis_facility_compare_listing_by_facility"
 }

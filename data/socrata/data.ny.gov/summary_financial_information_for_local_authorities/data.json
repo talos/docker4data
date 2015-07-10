@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_summary_financial_information_for_local_authorities/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/cgg6-2ah8/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/cgg6-2ah8/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Public authorities are required by Section 2800 of Public Authorities Law to submit annual reports to the Authorities Budget Office that includes summary financial information. The dataset consists of 3 years of information from the statement of net assets and the statement of revenues, expenses and change in net assets reported by Local Authorities.", 
   "maintainer": {
@@ -284,5 +285,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ny_summary_financial_information_for_local_authorities"
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "summary_financial_information_for_local_authorities"
 }

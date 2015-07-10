@@ -1,0 +1,45 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/condensed_balance_sheets/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/54xn-mzza/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Quarterly updates for condensed balance sheets", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "World Bank Group", 
+    "description": "Quarterly updates for condensed balance sheets", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/54xn-mzza.json"
+    }
+  }, 
+  "name": "Condensed Balance Sheets", 
+  "schema": {
+    "columns": [
+      {
+        "name": "organization", 
+        "type": "text"
+      }, 
+      {
+        "name": "category", 
+        "type": "text"
+      }, 
+      {
+        "name": "line_item", 
+        "type": "text"
+      }, 
+      {
+        "name": "fiscal_year", 
+        "type": "text"
+      }, 
+      {
+        "name": "amount_us_millions", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/finances.worldbank.org", 
+  "tableName": "condensed_balance_sheets"
+}

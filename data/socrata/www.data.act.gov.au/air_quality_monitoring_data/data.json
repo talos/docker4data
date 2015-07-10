@@ -1,0 +1,97 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/air_quality_monitoring_data/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/www.data.act.gov.au/api/views/94a5-zqnn/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Unverified data in this dataset. The data displayed may have undergone no or only preliminary quality assurance checks. These data may require modification as a result of calibration changes, power failures, instrument failures etc.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "category": "Environment", 
+    "description": "Unverified data in this dataset. The data displayed may have undergone no or only preliminary quality assurance checks. These data may require modification as a result of calibration changes, power failures, instrument failures etc.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/www.data.act.gov.au/api/views/94a5-zqnn.json"
+    }
+  }, 
+  "name": "Air Quality Monitoring Data", 
+  "schema": {
+    "columns": [
+      {
+        "name": "name", 
+        "type": "text"
+      }, 
+      {
+        "name": "gps", 
+        "type": "text"
+      }, 
+      {
+        "name": "datetime", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "no2", 
+        "type": "real"
+      }, 
+      {
+        "name": "o3_1hr", 
+        "type": "real"
+      }, 
+      {
+        "name": "o3_4hr", 
+        "type": "real"
+      }, 
+      {
+        "name": "co", 
+        "type": "real"
+      }, 
+      {
+        "name": "pm10", 
+        "type": "real"
+      }, 
+      {
+        "name": "pm2_5", 
+        "type": "real"
+      }, 
+      {
+        "name": "aqi_co", 
+        "type": "real"
+      }, 
+      {
+        "name": "aqi_no2", 
+        "type": "real"
+      }, 
+      {
+        "name": "aqi_o3_1hr", 
+        "type": "real"
+      }, 
+      {
+        "name": "aqi_o3_4hr", 
+        "type": "real"
+      }, 
+      {
+        "name": "aqi_pm10", 
+        "type": "real"
+      }, 
+      {
+        "name": "aqi_pm2_5", 
+        "type": "real"
+      }, 
+      {
+        "name": "aqi_site", 
+        "type": "real"
+      }, 
+      {
+        "name": "date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "time", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/www.data.act.gov.au", 
+  "tableName": "air_quality_monitoring_data"
+}

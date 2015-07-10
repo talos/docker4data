@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_nola_nora_uncommitted_property_inventory/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.nola.gov/api/views/5ktx-e9wc/rows.csv"
+    "@id": "http://www.opendatacache.com/data.nola.gov/api/views/5ktx-e9wc/rows.csv", 
+    "type": "csv"
   }, 
   "description": "This is a listing of all properties in NORA's inventory that are not under contract.", 
   "maintainer": {
@@ -43,5 +44,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_nola_nora_uncommitted_property_inventory"
+  "schemaName": "socrata/data.nola.gov", 
+  "tableName": "nora_uncommitted_property_inventory"
 }

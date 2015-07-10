@@ -1,0 +1,54 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/dep_reported_sanitary_sewer_overflows/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/pah9-6f8f/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Sanitary sewer overflows reported to the Department of Environmental Protection by the Washington Suburban Sanitary Commission or individuals in the County. Update Frequency - Daily", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Department of Environmental Protection", 
+    "category": "Environment", 
+    "description": "Sanitary sewer overflows reported to the Department of Environmental Protection by the Washington Suburban Sanitary Commission or individuals in the County. Update Frequency - Daily", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/pah9-6f8f.json"
+    }
+  }, 
+  "name": "DEP Reported Sanitary Sewer Overflows", 
+  "schema": {
+    "columns": [
+      {
+        "name": "caseno", 
+        "type": "real"
+      }, 
+      {
+        "name": "opendate", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "closedate", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "casedesc", 
+        "type": "text"
+      }, 
+      {
+        "name": "caseyear", 
+        "type": "real"
+      }, 
+      {
+        "name": "casetype", 
+        "type": "text"
+      }, 
+      {
+        "name": "casesubtype", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.montgomerycountymd.gov", 
+  "tableName": "dep_reported_sanitary_sewer_overflows"
+}

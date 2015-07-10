@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_dgs_personnel_report/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/pz8k-gpmz/rows.csv"
+    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/pz8k-gpmz/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Data are provided by the Department of General Services (DGS). This report, updated monthly, shows DGS-wide overtime use, IWIF reports, and sick leave, and accident leave.", 
   "maintainer": {
@@ -104,5 +105,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_maryland_dgs_personnel_report"
+  "schemaName": "socrata/data.maryland.gov", 
+  "tableName": "dgs_personnel_report"
 }

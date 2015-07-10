@@ -1,0 +1,90 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/world_bank_program_budget/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/gprm-cvxz/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "The World Bank Program Budget data give the administrative budget for Bank (BB) funds and Reimbursable funds as approved by the Board from FY09 to FY12 as well as indicative administrative budgets for FY13 and FY14.  These data are based on \"Annex B:  Program Cost Summary FY09-FY14\" in the World Bank's FY12 Budget Document http://go.worldbank.org/ZMGQ638IT0.\r\n\r\nData are for all \"above-the-line\" components for which management is responsible for work program delivery as well as all \"below-the-line\" components for which management is not solely responsible (e.g., grant-making facilities).\r\n\r\nBB funds are authorized by the Bank's Board of Directors for general purpose Bank operations.  Reimbursable funds are received from external sources as reimbursements for special purpose program outputs or other services provided by the Bank.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "World Bank", 
+    "category": "Budget", 
+    "description": "The World Bank Program Budget data give the administrative budget for Bank (BB) funds and Reimbursable funds as approved by the Board from FY09 to FY12 as well as indicative administrative budgets for FY13 and FY14.  These data are based on \"Annex B:  Program Cost Summary FY09-FY14\" in the World Bank's FY12 Budget Document http://go.worldbank.org/ZMGQ638IT0.\r\n\r\nData are for all \"above-the-line\" components for which management is responsible for work program delivery as well as all \"below-the-line\" components for which management is not solely responsible (e.g., grant-making facilities).\r\n\r\nBB funds are authorized by the Bank's Board of Directors for general purpose Bank operations.  Reimbursable funds are received from external sources as reimbursements for special purpose program outputs or other services provided by the Bank.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/gprm-cvxz.json"
+    }
+  }, 
+  "name": "World Bank Program Budget", 
+  "schema": {
+    "columns": [
+      {
+        "name": "notes", 
+        "type": "text"
+      }, 
+      {
+        "name": "admin_budget_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "vpu_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "vpu_group", 
+        "type": "text"
+      }, 
+      {
+        "name": "vpu_group_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "vpu", 
+        "type": "text"
+      }, 
+      {
+        "name": "vpu_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "fiscal_year", 
+        "type": "real"
+      }, 
+      {
+        "name": "fy09_budget_plan", 
+        "type": "real"
+      }, 
+      {
+        "name": "fy10_budget_plan", 
+        "type": "real"
+      }, 
+      {
+        "name": "fy11_budget_plan", 
+        "type": "real"
+      }, 
+      {
+        "name": "fy11_budget_remap", 
+        "type": "real"
+      }, 
+      {
+        "name": "fy12_budget_plan_fy11_", 
+        "type": "real"
+      }, 
+      {
+        "name": "fy12_budget_plan_fy12_", 
+        "type": "real"
+      }, 
+      {
+        "name": "fy13_indicative_plan_fy12_", 
+        "type": "real"
+      }, 
+      {
+        "name": "fy14_indicative_plan_fy12_", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/finances.worldbank.org", 
+  "tableName": "world_bank_program_budget"
+}

@@ -1,0 +1,138 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/city_of_raleigh_building_permits_from_jan_2000/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.raleighnc.gov/api/views/hk3n-ieai/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Master dataset for city construction permits. COR Permit data from 2000 to the current date. Dataset is updated daily.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "City of Raleigh Inspections", 
+    "category": "Urban Planning", 
+    "description": "Master dataset for city construction permits. COR Permit data from 2000 to the current date. Dataset is updated daily.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.raleighnc.gov/api/views/hk3n-ieai.json"
+    }
+  }, 
+  "name": "City of Raleigh Building Permits - from Jan 2000", 
+  "schema": {
+    "columns": [
+      {
+        "name": "issue_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "status", 
+        "type": "text"
+      }, 
+      {
+        "name": "work_type_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "census_land_use_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "land_use_code_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "land_use_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "permit_number", 
+        "type": "text"
+      }, 
+      {
+        "name": "address", 
+        "type": "text"
+      }, 
+      {
+        "name": "lot_number", 
+        "type": "real"
+      }, 
+      {
+        "name": "authorized_work", 
+        "type": "text"
+      }, 
+      {
+        "name": "proposed_work", 
+        "type": "text"
+      }, 
+      {
+        "name": "square_feet", 
+        "type": "real"
+      }, 
+      {
+        "name": "building_footprint", 
+        "type": "real"
+      }, 
+      {
+        "name": "number_of_stories", 
+        "type": "text"
+      }, 
+      {
+        "name": "dwelling_units_total", 
+        "type": "real"
+      }, 
+      {
+        "name": "cost_of_construction", 
+        "type": "real"
+      }, 
+      {
+        "name": "building_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "contractor_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "contractor_email", 
+        "type": "text"
+      }, 
+      {
+        "name": "contractor_phone", 
+        "type": "text"
+      }, 
+      {
+        "name": "contractor_city_id", 
+        "type": "text"
+      }, 
+      {
+        "name": "owner_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "owners_address", 
+        "type": "text"
+      }, 
+      {
+        "name": "in_out_city_limits", 
+        "type": "text"
+      }, 
+      {
+        "name": "county", 
+        "type": "text"
+      }, 
+      {
+        "name": "county_account_number", 
+        "type": "text"
+      }, 
+      {
+        "name": "nc_pin", 
+        "type": "text"
+      }, 
+      {
+        "name": "development_plan_name", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.raleighnc.gov", 
+  "tableName": "city_of_raleigh_building_permits_from_jan_2000"
+}

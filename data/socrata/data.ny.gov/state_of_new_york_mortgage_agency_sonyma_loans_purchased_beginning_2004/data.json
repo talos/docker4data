@@ -1,0 +1,82 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/state_of_new_york_mortgage_agency_sonyma_loans_purchased_beginning_2004/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/22ew-dxez/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "The data set includes raw data on all the loans purchased by SONYMA since January 2004. Users can use the data to get information on the types of loans we are making (loan amount, loan type, term, loan-to-value, with or without down payment assistance), when the loans were made (purchase date), \r\nwhere the loans are being made (county), and what property types (# of units, construction status, property type).", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New York State Homes & Community Renewal", 
+    "category": "Economic Development", 
+    "description": "The data set includes raw data on all the loans purchased by SONYMA since January 2004. Users can use the data to get information on the types of loans we are making (loan amount, loan type, term, loan-to-value, with or without down payment assistance), when the loans were made (purchase date), \r\nwhere the loans are being made (county), and what property types (# of units, construction status, property type).", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/22ew-dxez.json"
+    }
+  }, 
+  "name": "State of New York Mortgage Agency (SONYMA) Loans Purchased: Beginning 2004", 
+  "schema": {
+    "columns": [
+      {
+        "name": "bond_series", 
+        "type": "text"
+      }, 
+      {
+        "name": "original_loan_amount", 
+        "type": "real"
+      }, 
+      {
+        "name": "loan_purchase_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "purchase_year", 
+        "type": "text"
+      }, 
+      {
+        "name": "original_ltv", 
+        "type": "text"
+      }, 
+      {
+        "name": "loan_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "sonyma_dpal_ccal_amount", 
+        "type": "real"
+      }, 
+      {
+        "name": "original_term", 
+        "type": "real"
+      }, 
+      {
+        "name": "county", 
+        "type": "text"
+      }, 
+      {
+        "name": "fips_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "of_units", 
+        "type": "text"
+      }, 
+      {
+        "name": "property_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "housing_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "household_size", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "state_of_new_york_mortgage_agency_sonyma_loans_purchased_beginning_2004"
+}

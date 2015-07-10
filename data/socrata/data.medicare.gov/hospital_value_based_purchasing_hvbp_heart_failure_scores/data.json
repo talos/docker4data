@@ -1,0 +1,77 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/hospital_value_based_purchasing_hvbp_heart_failure_scores/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/waqh-8uyi/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "A list of hospitals participating in the Hospital VBP Program and their performance rates and scores for the Clinical Process of Care Heart Failure measures.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "category": "Hospital Compare", 
+    "description": "A list of hospitals participating in the Hospital VBP Program and their performance rates and scores for the Clinical Process of Care Heart Failure measures.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/waqh-8uyi.json"
+    }
+  }, 
+  "name": "Hospital Value-Based Purchasing (HVBP) \u2013 Heart Failure Scores", 
+  "schema": {
+    "columns": [
+      {
+        "name": "provider_number", 
+        "type": "text"
+      }, 
+      {
+        "name": "hospital_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "address", 
+        "type": "text"
+      }, 
+      {
+        "name": "city", 
+        "type": "text"
+      }, 
+      {
+        "name": "state", 
+        "type": "text"
+      }, 
+      {
+        "name": "zip_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "county_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "hf_1_performance_rate", 
+        "type": "real"
+      }, 
+      {
+        "name": "hf_1_achievement_points", 
+        "type": "text"
+      }, 
+      {
+        "name": "hf_1_improvement_points", 
+        "type": "text"
+      }, 
+      {
+        "name": "hf_1_measure_score", 
+        "type": "text"
+      }, 
+      {
+        "name": "hf_condition_procedure_score", 
+        "type": "real"
+      }, 
+      {
+        "name": "location", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.medicare.gov", 
+  "tableName": "hospital_value_based_purchasing_hvbp_heart_failure_scores"
+}

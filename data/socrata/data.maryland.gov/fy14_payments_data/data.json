@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_fy14_payments_data/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/8xda-39tn/rows.csv"
+    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/8xda-39tn/rows.csv", 
+    "type": "csv"
   }, 
   "description": "This dataset shows payments made by state agencies in FY2014 which were $25,000 or more. All parties receiving funds are shown: private businesses, local governments, non-profit organizations, and individuals.", 
   "maintainer": {
@@ -40,5 +41,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_maryland_fy14_payments_data"
+  "schemaName": "socrata/data.maryland.gov", 
+  "tableName": "fy14_payments_data"
 }

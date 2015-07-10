@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_weatherfordtx_monthly_sales_tax_collections/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/c4zr-3y7x/rows.csv"
+    "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/c4zr-3y7x/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Monthly sales tax collections since 1990. Taxes collected by the city are shown separately beginning around 2007.", 
   "maintainer": {
@@ -35,5 +36,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_weatherfordtx_monthly_sales_tax_collections"
+  "schemaName": "socrata/data.weatherfordtx.gov", 
+  "tableName": "monthly_sales_tax_collections"
 }

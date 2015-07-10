@@ -1,0 +1,69 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/maryland_public_information_act_mpia_request_responses/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/99ya-kjjr/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "The MPIA dataset will contain a list of MPIA requests that contain information about the MPIA request as well as a web link to the MPIA response packet created by the owning departments.  Each request will contain the following information:\r\n\r\nRequestor First Name\r\nRequestor Last Name\r\nRequestor Organization\r\nDescription\r\nIntake (ie email)\r\nLead Department\r\nData Owning Departments\r\nDate Response Posted\r\nWho Published the Response\r\nLink to the Response Document(s) on a public Web Site\r\n\r\nUpdate Frequency:  Daily", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "category": "Government", 
+    "description": "The MPIA dataset will contain a list of MPIA requests that contain information about the MPIA request as well as a web link to the MPIA response packet created by the owning departments.  Each request will contain the following information:\r\n\r\nRequestor First Name\r\nRequestor Last Name\r\nRequestor Organization\r\nDescription\r\nIntake (ie email)\r\nLead Department\r\nData Owning Departments\r\nDate Response Posted\r\nWho Published the Response\r\nLink to the Response Document(s) on a public Web Site\r\n\r\nUpdate Frequency:  Daily", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/99ya-kjjr.json"
+    }
+  }, 
+  "name": "Maryland Public Information Act  (MPIA)  Request Responses", 
+  "schema": {
+    "columns": [
+      {
+        "name": "sequence_id", 
+        "type": "text"
+      }, 
+      {
+        "name": "first_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "last_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "requestororganization", 
+        "type": "text"
+      }, 
+      {
+        "name": "requestdescription", 
+        "type": "text"
+      }, 
+      {
+        "name": "requestintake", 
+        "type": "text"
+      }, 
+      {
+        "name": "leaddepartment", 
+        "type": "text"
+      }, 
+      {
+        "name": "dataowningdepartments", 
+        "type": "text"
+      }, 
+      {
+        "name": "publishdate", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "publishedby", 
+        "type": "text"
+      }, 
+      {
+        "name": "responsedocumentation", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.montgomerycountymd.gov", 
+  "tableName": "maryland_public_information_act_mpia_request_responses"
+}

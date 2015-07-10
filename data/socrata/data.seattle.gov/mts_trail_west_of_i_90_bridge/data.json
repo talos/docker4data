@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_mts_trail_west_of_i_90_bridge/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/u38e-ybnc/rows.csv"
+    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/u38e-ybnc/rows.csv", 
+    "type": "csv"
   }, 
   "description": "These sensors counts both people riding bikes and pedestrians. Separate volumes are tallied for each travel mode. Wires in a diamond formation in the concrete detect bikes and an infrared sensor mounted on a wooden post detects pedestrians. The counters also capture the direction of travel for both bikes and pedestrians.", 
   "maintainer": {
@@ -44,5 +45,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_seattle_mts_trail_west_of_i_90_bridge"
+  "schemaName": "socrata/data.seattle.gov", 
+  "tableName": "mts_trail_west_of_i_90_bridge"
 }

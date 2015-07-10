@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_raleighnc_survey_monuments/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.raleighnc.gov/api/views/pq6n-qerp/rows.csv"
+    "@id": "http://www.opendatacache.com/data.raleighnc.gov/api/views/pq6n-qerp/rows.csv", 
+    "type": "csv"
   }, 
   "description": "https://maps.raleighnc.gov/arcgis/rest/services/Services/OpenData/MapServer/3", 
   "maintainer": {
@@ -171,5 +172,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_raleighnc_survey_monuments"
+  "schemaName": "socrata/data.raleighnc.gov", 
+  "tableName": "survey_monuments"
 }

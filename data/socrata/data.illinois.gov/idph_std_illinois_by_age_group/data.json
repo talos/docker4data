@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_idph_std_illinois_by_age_group/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/84hd-bxse/rows.csv"
+    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/84hd-bxse/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Illinois 2000-2013 STD counts and rates (per 100,000 population) by five year age groups. See attachment for metadata and censoring details under the \"About\" link.  Null values in dataset reflect censored data.  Data Source: Illinois Department of Public Health STD Program.", 
   "maintainer": {
@@ -56,5 +57,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_illinois_idph_std_illinois_by_age_group"
+  "schemaName": "socrata/data.illinois.gov", 
+  "tableName": "idph_std_illinois_by_age_group"
 }

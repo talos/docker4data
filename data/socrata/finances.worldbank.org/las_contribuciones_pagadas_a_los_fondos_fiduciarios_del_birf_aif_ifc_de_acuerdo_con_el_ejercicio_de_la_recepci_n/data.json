@@ -1,0 +1,66 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/las_contribuciones_pagadas_a_los_fondos_fiduciarios_del_birf_aif_ifc_de_acuerdo_con_el_ejercicio_de_la_recepci_n/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/bdk8-4bzr/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Esta base de datos ofrece un resumen de los fondos totales recibidos de donantes para los fondos fiduciarios en forma de efectivo, pagar\u00e9s u otros instrumentos aceptables para la entidad del Grupo del Banco Mundial que administra el fondo fiduciario correspondiente. El resumen se basa en el ejercicio de la recepci\u00f3n. Los datos corresponden al nivel de los fondos fiduciarios individuales. Todas las definiciones actuales deben considerarse provisorias, no finales, ya que est\u00e1n sujetas a revisi\u00f3n peri\u00f3dica. V\u00e9ase el glosario de fondos fiduciarios en: http://www.cfpto.org/TFGlossary2012. Como parte de sus responsabilidades como depositario, el Banco Mundial cumple con todas las sanciones aplicables a sus operaciones.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "World Bank Group", 
+    "category": "Trust Funds", 
+    "description": "Esta base de datos ofrece un resumen de los fondos totales recibidos de donantes para los fondos fiduciarios en forma de efectivo, pagar\u00e9s u otros instrumentos aceptables para la entidad del Grupo del Banco Mundial que administra el fondo fiduciario correspondiente. El resumen se basa en el ejercicio de la recepci\u00f3n. Los datos corresponden al nivel de los fondos fiduciarios individuales. Todas las definiciones actuales deben considerarse provisorias, no finales, ya que est\u00e1n sujetas a revisi\u00f3n peri\u00f3dica. V\u00e9ase el glosario de fondos fiduciarios en: http://www.cfpto.org/TFGlossary2012. Como parte de sus responsabilidades como depositario, el Banco Mundial cumple con todas las sanciones aplicables a sus operaciones.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/bdk8-4bzr.json"
+    }
+  }, 
+  "name": "Las contribuciones pagadas a los fondos fiduciarios del BIRF/AIF/IFC de acuerdo con el ejercicio de la recepci\u00f3n", 
+  "schema": {
+    "columns": [
+      {
+        "name": "as_of_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "fund", 
+        "type": "text"
+      }, 
+      {
+        "name": "trustee_fund_number", 
+        "type": "text"
+      }, 
+      {
+        "name": "trustee_fund_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "donor_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "donor_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "donor_agency", 
+        "type": "text"
+      }, 
+      {
+        "name": "fiscal_year_of_receipt", 
+        "type": "real"
+      }, 
+      {
+        "name": "contributions_paid_in_usd", 
+        "type": "real"
+      }, 
+      {
+        "name": "status", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/finances.worldbank.org", 
+  "tableName": "las_contribuciones_pagadas_a_los_fondos_fiduciarios_del_birf_aif_ifc_de_acuerdo_con_el_ejercicio_de_la_recepci_n"
+}

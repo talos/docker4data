@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_montgomerycountymd_plan_review/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/s8xg-6upf/rows.csv"
+    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/s8xg-6upf/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Plan reviews completed by Permitting Services. Update Frequency: Daily", 
   "maintainer": {
@@ -55,5 +56,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_montgomerycountymd_plan_review"
+  "schemaName": "socrata/data.montgomerycountymd.gov", 
+  "tableName": "plan_review"
 }

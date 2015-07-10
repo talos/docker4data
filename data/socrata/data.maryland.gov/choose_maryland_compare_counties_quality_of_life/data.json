@@ -1,0 +1,46 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/choose_maryland_compare_counties_quality_of_life/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/dyym-bjv4/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Key quality of life indicators - cost index, housing, and crime.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Maryland Department of Business and Economic Development", 
+    "category": "Housing", 
+    "description": "Key quality of life indicators - cost index, housing, and crime.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/dyym-bjv4.json"
+    }
+  }, 
+  "name": "Choose Maryland:  Compare Counties - Quality Of Life", 
+  "schema": {
+    "columns": [
+      {
+        "name": "county", 
+        "type": "text"
+      }, 
+      {
+        "name": "cost_of_living_index", 
+        "type": "real"
+      }, 
+      {
+        "name": "avg_sale_price_home", 
+        "type": "real"
+      }, 
+      {
+        "name": "median_sale_price_home", 
+        "type": "real"
+      }, 
+      {
+        "name": "housing_units_sold", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.maryland.gov", 
+  "tableName": "choose_maryland_compare_counties_quality_of_life"
+}

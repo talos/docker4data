@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_title_and_salary_listing/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/t3vp-5tka/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/t3vp-5tka/rows.csv", 
+    "type": "csv"
   }, 
   "description": "The Title and Salary Listing is a compilation of job titles under the jurisdiction of the Department of Civil Service.", 
   "maintainer": {
@@ -84,5 +85,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ny_title_and_salary_listing"
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "title_and_salary_listing"
 }

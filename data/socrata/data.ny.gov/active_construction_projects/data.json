@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_active_construction_projects/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/ekci-x6aq/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/ekci-x6aq/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Report includes a snapshot of active projects where DASNY\r\ndelivers some level of project management oversight.", 
   "maintainer": {
@@ -60,5 +61,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ny_active_construction_projects"
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "active_construction_projects"
 }

@@ -1,0 +1,62 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/lottery_daily_numbers_win_4_winning_numbers_beginning_1980/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/hsys-3def/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Go to http://on.ny.gov/1Cx6zvs or http://on.ny.gov/1KYjE6X on the New York Lottery website for past Daily Numbers/Win-4 results and payouts.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New York State Gaming Commission", 
+    "category": "Government & Finance", 
+    "description": "Go to http://on.ny.gov/1Cx6zvs or http://on.ny.gov/1KYjE6X on the New York Lottery website for past Daily Numbers/Win-4 results and payouts.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/hsys-3def.json"
+    }
+  }, 
+  "name": "Lottery Daily Numbers/Win-4 Winning Numbers: Beginning 1980", 
+  "schema": {
+    "columns": [
+      {
+        "name": "draw_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "midday_daily", 
+        "type": "text"
+      }, 
+      {
+        "name": "midday_daily_sum", 
+        "type": "real"
+      }, 
+      {
+        "name": "evening_daily", 
+        "type": "text"
+      }, 
+      {
+        "name": "evening_daily_sum", 
+        "type": "real"
+      }, 
+      {
+        "name": "midday_win_4", 
+        "type": "text"
+      }, 
+      {
+        "name": "midday_win_4_sum", 
+        "type": "real"
+      }, 
+      {
+        "name": "evening_win_4", 
+        "type": "text"
+      }, 
+      {
+        "name": "evening_win_4_sum", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "lottery_daily_numbers_win_4_winning_numbers_beginning_1980"
+}

@@ -1,0 +1,42 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/title_insurance_premiums_written_annually_in_new_york_beginning_1998/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/ixxq-mken/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Total written premiums for insurers authorized to write Title insurance business in New York State.  These insurers are required under Article 64 of the New York Insurance Law to meet minimum financial security requirements.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Insurance Division - Property Bureau", 
+    "category": "Government & Finance", 
+    "description": "Total written premiums for insurers authorized to write Title insurance business in New York State.  These insurers are required under Article 64 of the New York Insurance Law to meet minimum financial security requirements.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/ixxq-mken.json"
+    }
+  }, 
+  "name": "Title Insurance Premiums Written Annually in New York: Beginning 1998", 
+  "schema": {
+    "columns": [
+      {
+        "name": "naic_no", 
+        "type": "real"
+      }, 
+      {
+        "name": "company", 
+        "type": "text"
+      }, 
+      {
+        "name": "calendar_year", 
+        "type": "real"
+      }, 
+      {
+        "name": "direct_premium_written", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "title_insurance_premiums_written_annually_in_new_york_beginning_1998"
+}

@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_weatherfordtx_animal_shelter_all_animal_cases/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/2ek5-qq7s/rows.csv"
+    "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/2ek5-qq7s/rows.csv", 
+    "type": "csv"
   }, 
   "description": "All animal cases since April 2007, including arrival and disposition date, status, type, breed, and other information.", 
   "maintainer": {
@@ -112,5 +113,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_weatherfordtx_animal_shelter_all_animal_cases"
+  "schemaName": "socrata/data.weatherfordtx.gov", 
+  "tableName": "animal_shelter_all_animal_cases"
 }

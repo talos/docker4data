@@ -1,0 +1,42 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ibrd_statement_of_income_fy2013/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/wjcp-yc3u/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Provides data from the IBRD Statement of Income for the fiscal years ended June 30, 2013, June 30, 2012 and June 30, 2011. The values are expressed in millions of U.S. Dollars. Where applicable, changes have been made to certain line items on FY 2012 income statement to conform with the current year's presentation, but the comparable prior years' data sets have not been adjusted to reflect the reclassification impact of those changes.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "World Bank", 
+    "category": "Accounting and Control", 
+    "description": "Provides data from the IBRD Statement of Income for the fiscal years ended June 30, 2013, June 30, 2012 and June 30, 2011. The values are expressed in millions of U.S. Dollars. Where applicable, changes have been made to certain line items on FY 2012 income statement to conform with the current year's presentation, but the comparable prior years' data sets have not been adjusted to reflect the reclassification impact of those changes.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/wjcp-yc3u.json"
+    }
+  }, 
+  "name": "IBRD Statement Of Income  FY2013", 
+  "schema": {
+    "columns": [
+      {
+        "name": "category", 
+        "type": "text"
+      }, 
+      {
+        "name": "line_item", 
+        "type": "text"
+      }, 
+      {
+        "name": "fiscal_year", 
+        "type": "real"
+      }, 
+      {
+        "name": "amount_us_millions", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/finances.worldbank.org", 
+  "tableName": "ibrd_statement_of_income_fy2013"
+}

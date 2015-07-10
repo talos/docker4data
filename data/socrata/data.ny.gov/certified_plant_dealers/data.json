@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_certified_plant_dealers/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/2ssy-s6ns/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/2ssy-s6ns/rows.csv", 
+    "type": "csv"
   }, 
   "description": "A listing of all certified plant dealers which are licensed by the Department of Agriculture and Markets. Licensing of plant dealers is intended to prevent the introduction of injurious insects, noxious weeds, and plant diseases into the state.", 
   "maintainer": {
@@ -72,5 +73,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ny_certified_plant_dealers"
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "certified_plant_dealers"
 }

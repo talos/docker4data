@@ -1,0 +1,54 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/2010_u_s_census_population_counts_king_county_and_its_cities_april_1_2010/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/cavj-x985/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Source:  U.S. Census Bureau, PL 94-171 Redistricting data, 2000 and 2010. Note: Census numbers for the cities of Burien and Kent do not include annexations that took place after March 31, 2010.  These annexations would increase Burien to 48,072, Kent to 118,565, and decrease uninc King County to 284,089.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "King County", 
+    "category": "Census", 
+    "description": "Source:  U.S. Census Bureau, PL 94-171 Redistricting data, 2000 and 2010. Note: Census numbers for the cities of Burien and Kent do not include annexations that took place after March 31, 2010.  These annexations would increase Burien to 48,072, Kent to 118,565, and decrease uninc King County to 284,089.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/cavj-x985.json"
+    }
+  }, 
+  "name": "2010 U.S. Census Population Counts, King County and its Cities, April 1, 2010", 
+  "schema": {
+    "columns": [
+      {
+        "name": "city", 
+        "type": "text"
+      }, 
+      {
+        "name": "_2000_census_corrected", 
+        "type": "real"
+      }, 
+      {
+        "name": "_2010_census", 
+        "type": "real"
+      }, 
+      {
+        "name": "change_2000_2010_1", 
+        "type": "real"
+      }, 
+      {
+        "name": "change_2000_2010_2", 
+        "type": "text"
+      }, 
+      {
+        "name": "note", 
+        "type": "text"
+      }, 
+      {
+        "name": "location_for_mapping", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.kingcounty.gov", 
+  "tableName": "2010_u_s_census_population_counts_king_county_and_its_cities_april_1_2010"
+}

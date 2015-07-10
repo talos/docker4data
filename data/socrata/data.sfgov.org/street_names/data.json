@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_street_names/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/6d9h-4u5v/rows.csv"
+    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/6d9h-4u5v/rows.csv", 
+    "type": "csv"
   }, 
   "description": "A list of officially valid street names contained in the City's GIS Basemap", 
   "maintainer": {
@@ -32,5 +33,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_sfgov_street_names"
+  "schemaName": "socrata/data.sfgov.org", 
+  "tableName": "street_names"
 }

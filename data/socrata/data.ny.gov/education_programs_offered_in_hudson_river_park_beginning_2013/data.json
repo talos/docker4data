@@ -1,0 +1,54 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/education_programs_offered_in_hudson_river_park_beginning_2013/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/by6w-btmk/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "This dataset is a list of educational programs offered by Hudson River Park Trust (HRPT) and includes the type of program, the date of the first and last offerings, and participation numbers.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Hudson River Park Trust (HRPT)", 
+    "category": "Education", 
+    "description": "This dataset is a list of educational programs offered by Hudson River Park Trust (HRPT) and includes the type of program, the date of the first and last offerings, and participation numbers.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/by6w-btmk.json"
+    }
+  }, 
+  "name": "Education Programs Offered in Hudson River Park:  Beginning 2013", 
+  "schema": {
+    "columns": [
+      {
+        "name": "program_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "program_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "start_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "end_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "number_of_programs", 
+        "type": "real"
+      }, 
+      {
+        "name": "total_number_of_participants", 
+        "type": "real"
+      }, 
+      {
+        "name": "average_number_of_participants_per_program", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "education_programs_offered_in_hudson_river_park_beginning_2013"
+}

@@ -1,0 +1,50 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/all_payer_potentially_preventable_emergency_visit_ppv_rates_by_patient_zip_code_sparcs_beginning_2011/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/gu5u-nze7/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "The datasets contain Potentially Preventable Visit (PPV) observed, expected, and risk-adjusted rates for all payer beneficiaries by patient county and patient zip code beginning in 2011.\r\n\r\nThe Potentially Preventable Visits (PPV), obtained from software created by 3M Health Information Systems, are emergency visits that may result from a lack of adequate access to care or ambulatory care coordination.  These ambulatory sensitive conditions could be reduced or eliminated with adequate patient monitoring and follow up.  \r\n\r\nThe rates were calculated using Statewide Planning and Research Cooperative System (SPARCS) inpatient and outpatient data and Claritas population information.  \r\n\r\nThe observed, expected and risk adjusted rates for PPV are presented by either resident county (including a statewide total) or resident zip code (including a statewide total). For more information, check out: http://www.health.ny.gov/statistics/sparcs/, or go to the \"About\" tab.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New York State Department of Health", 
+    "category": "Health", 
+    "description": "The datasets contain Potentially Preventable Visit (PPV) observed, expected, and risk-adjusted rates for all payer beneficiaries by patient county and patient zip code beginning in 2011.\r\n\r\nThe Potentially Preventable Visits (PPV), obtained from software created by 3M Health Information Systems, are emergency visits that may result from a lack of adequate access to care or ambulatory care coordination.  These ambulatory sensitive conditions could be reduced or eliminated with adequate patient monitoring and follow up.  \r\n\r\nThe rates were calculated using Statewide Planning and Research Cooperative System (SPARCS) inpatient and outpatient data and Claritas population information.  \r\n\r\nThe observed, expected and risk adjusted rates for PPV are presented by either resident county (including a statewide total) or resident zip code (including a statewide total). For more information, check out: http://www.health.ny.gov/statistics/sparcs/, or go to the \"About\" tab.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/gu5u-nze7.json"
+    }
+  }, 
+  "name": "All Payer Potentially Preventable Emergency Visit (PPV) Rates by Patient Zip Code (SPARCS): Beginning 2011", 
+  "schema": {
+    "columns": [
+      {
+        "name": "discharge_year", 
+        "type": "real"
+      }, 
+      {
+        "name": "patient_zipcode", 
+        "type": "text"
+      }, 
+      {
+        "name": "observed_rate_per_100", 
+        "type": "real"
+      }, 
+      {
+        "name": "expected_rate_per_100", 
+        "type": "real"
+      }, 
+      {
+        "name": "adjusted_rate_per_100", 
+        "type": "real"
+      }, 
+      {
+        "name": "difference_in_rates", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/health.data.ny.gov", 
+  "tableName": "all_payer_potentially_preventable_emergency_visit_ppv_rates_by_patient_zip_code_sparcs_beginning_2011"
+}

@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_current_san_francisco_advisories/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/qn4d-bra2/rows.csv"
+    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/qn4d-bra2/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Current events that impact visitors to San Francisco - Available on our mobile app at sf311.org/mobile", 
   "maintainer": {
@@ -39,5 +40,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_sfgov_current_san_francisco_advisories"
+  "schemaName": "socrata/data.sfgov.org", 
+  "tableName": "current_san_francisco_advisories"
 }

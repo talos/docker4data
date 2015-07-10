@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_meter_operating_schedules/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/6cqg-dxku/rows.csv"
+    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/6cqg-dxku/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Operating schedules and time limits for all meters owned by SFMTA and the Port of SF as of March 10, 2014. Tow periods and Alternate schedules trump all base Operating Schedules. Please direct any data inquiries to info@sfpark.org", 
   "maintainer": {
@@ -68,5 +69,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_sfgov_meter_operating_schedules"
+  "schemaName": "socrata/data.sfgov.org", 
+  "tableName": "meter_operating_schedules"
 }

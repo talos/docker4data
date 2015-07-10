@@ -1,0 +1,82 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/idph_std_illinois_by_county_by_race_ethnicity_early_syphilis/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/9jqz-nfak/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Illinois 2000-2013 STD early syphilis counts by county by race/ethnicity. See attachment for metadata and censoring details under the \"About\" link.  Null values in dataset reflect censored data. {AIAN: American Indian, Alaskan Native, non-Hispanic; Asian: Asian, non-Hispanic; Black: Black or African American, non-Hispanic; Hisp: Hispanc (of any race); MultiRace: more than one race was reported, non-Hispanic (Chlamydia and gonorrhea use multiple races in reporting, syphilis cases use single race reporting (i.e., MultiRace values may be zero for syphilis cases)); NHPI: Native Hawaiian or Other Pacific Islander (Chlamydia and gonorrhea cases reports distinguishes NHPI from Asians, whereas syphilis cases group Asians, native Hawaiians and other Pacific Islanders as \u201cAsian\u201d (i.e., NHPI cases in syphilis case reports may display zero cases; these cases would have been reported under Asian)); White: White or Caucasian, non-Hispanic; Other: Other race, non-Hispanic; Unk: Unknown race, ethnicity.}  Data Source: Illinois Department of Public Health STD Program.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Illinois Department of Public Health STD Program", 
+    "category": "Public Health", 
+    "description": "Illinois 2000-2013 STD early syphilis counts by county by race/ethnicity. See attachment for metadata and censoring details under the \"About\" link.  Null values in dataset reflect censored data. {AIAN: American Indian, Alaskan Native, non-Hispanic; Asian: Asian, non-Hispanic; Black: Black or African American, non-Hispanic; Hisp: Hispanc (of any race); MultiRace: more than one race was reported, non-Hispanic (Chlamydia and gonorrhea use multiple races in reporting, syphilis cases use single race reporting (i.e., MultiRace values may be zero for syphilis cases)); NHPI: Native Hawaiian or Other Pacific Islander (Chlamydia and gonorrhea cases reports distinguishes NHPI from Asians, whereas syphilis cases group Asians, native Hawaiians and other Pacific Islanders as \u201cAsian\u201d (i.e., NHPI cases in syphilis case reports may display zero cases; these cases would have been reported under Asian)); White: White or Caucasian, non-Hispanic; Other: Other race, non-Hispanic; Unk: Unknown race, ethnicity.}  Data Source: Illinois Department of Public Health STD Program.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/9jqz-nfak.json"
+    }
+  }, 
+  "name": "IDPH STD Illinois By County By Race Ethnicity Early Syphilis", 
+  "schema": {
+    "columns": [
+      {
+        "name": "sort", 
+        "type": "real"
+      }, 
+      {
+        "name": "year", 
+        "type": "text"
+      }, 
+      {
+        "name": "county_jurisdiction", 
+        "type": "text"
+      }, 
+      {
+        "name": "countyfips", 
+        "type": "text"
+      }, 
+      {
+        "name": "total_counts", 
+        "type": "real"
+      }, 
+      {
+        "name": "aian_count", 
+        "type": "real"
+      }, 
+      {
+        "name": "asian_count", 
+        "type": "real"
+      }, 
+      {
+        "name": "black_count", 
+        "type": "real"
+      }, 
+      {
+        "name": "hisp_count", 
+        "type": "real"
+      }, 
+      {
+        "name": "multirace_count", 
+        "type": "real"
+      }, 
+      {
+        "name": "nhpi_count", 
+        "type": "real"
+      }, 
+      {
+        "name": "white_count", 
+        "type": "real"
+      }, 
+      {
+        "name": "other_count", 
+        "type": "real"
+      }, 
+      {
+        "name": "unk_count", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.illinois.gov", 
+  "tableName": "idph_std_illinois_by_county_by_race_ethnicity_early_syphilis"
+}

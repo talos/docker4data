@@ -1,0 +1,40 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/10_urbanization/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/6fgw-uk2k/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "For more information on how metropolitan status was defined, please see the <a href=\"/help/glossary#M\" rel=\"external\">Glossary</a> under Help.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "description": "For more information on how metropolitan status was defined, please see the <a href=\"/help/glossary#M\" rel=\"external\">Glossary</a> under Help.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/6fgw-uk2k.json"
+    }
+  }, 
+  "name": "10 Urbanization", 
+  "schema": {
+    "columns": [
+      {
+        "name": "measure_value", 
+        "type": "real"
+      }, 
+      {
+        "name": "year", 
+        "type": "real"
+      }, 
+      {
+        "name": "level_of_coverage", 
+        "type": "text"
+      }, 
+      {
+        "name": "metropolitan_status", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/healthmeasures.aspe.hhs.gov", 
+  "tableName": "10_urbanization"
+}

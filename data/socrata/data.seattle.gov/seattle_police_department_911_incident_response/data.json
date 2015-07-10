@@ -1,0 +1,102 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/seattle_police_department_911_incident_response/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/3k2p-39jp/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "This dataset is all the Police responses to 9-1-1 calls within the city. Police response data shows all officers dispatched. To protect the security of a scene, the safety of officers and the public, and sensitive ongoing investigation, these events are added to the data.seattle.gov only after the incident is considered safe to close out. Data is refreshed on a 4 hour interval.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "City of Seattle, Department of Information Technology, Seattle Police Department", 
+    "category": "Public Safety", 
+    "description": "This dataset is all the Police responses to 9-1-1 calls within the city. Police response data shows all officers dispatched. To protect the security of a scene, the safety of officers and the public, and sensitive ongoing investigation, these events are added to the data.seattle.gov only after the incident is considered safe to close out. Data is refreshed on a 4 hour interval.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/3k2p-39jp.json"
+    }
+  }, 
+  "name": "Seattle Police Department 911 Incident Response", 
+  "schema": {
+    "columns": [
+      {
+        "name": "cad_cdw_id", 
+        "type": "text"
+      }, 
+      {
+        "name": "cad_event_number", 
+        "type": "text"
+      }, 
+      {
+        "name": "general_offense_number", 
+        "type": "text"
+      }, 
+      {
+        "name": "event_clearance_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "event_clearance_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "event_clearance_subgroup", 
+        "type": "text"
+      }, 
+      {
+        "name": "event_clearance_group", 
+        "type": "text"
+      }, 
+      {
+        "name": "event_clearance_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "hundred_block_location", 
+        "type": "text"
+      }, 
+      {
+        "name": "district_sector", 
+        "type": "text"
+      }, 
+      {
+        "name": "zone_beat", 
+        "type": "text"
+      }, 
+      {
+        "name": "census_tract", 
+        "type": "text"
+      }, 
+      {
+        "name": "longitude", 
+        "type": "real"
+      }, 
+      {
+        "name": "latitude", 
+        "type": "real"
+      }, 
+      {
+        "name": "incident_location", 
+        "type": "text"
+      }, 
+      {
+        "name": "initial_type_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "initial_type_subgroup", 
+        "type": "text"
+      }, 
+      {
+        "name": "initial_type_group", 
+        "type": "text"
+      }, 
+      {
+        "name": "at_scene_time", 
+        "type": "timestamp"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.seattle.gov", 
+  "tableName": "seattle_police_department_911_incident_response"
+}

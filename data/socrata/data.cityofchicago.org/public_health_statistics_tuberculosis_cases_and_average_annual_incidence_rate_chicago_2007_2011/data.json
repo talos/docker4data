@@ -1,0 +1,74 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/public_health_statistics_tuberculosis_cases_and_average_annual_incidence_rate_chicago_2007_2011/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/ndk3-zftj/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "The annual number of new cases of tuberculosis and average annual tuberculosis incidence rate (new cases per 100,000 residents) with corresponding 95% confidence intervals, by Chicago community area, for the years 2007 \u2013 2011.  See the full description at https://data.cityofchicago.org/api/assets/E0205898-C378-4299-97C1-F9F89AAF603C.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Public Health", 
+    "category": "Health & Human Services", 
+    "description": "The annual number of new cases of tuberculosis and average annual tuberculosis incidence rate (new cases per 100,000 residents) with corresponding 95% confidence intervals, by Chicago community area, for the years 2007 \u2013 2011.  See the full description at https://data.cityofchicago.org/api/assets/E0205898-C378-4299-97C1-F9F89AAF603C.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/ndk3-zftj.json"
+    }
+  }, 
+  "name": "Public Health Statistics- Tuberculosis cases and average annual incidence rate, Chicago, 2007- 2011", 
+  "schema": {
+    "columns": [
+      {
+        "name": "community_area", 
+        "type": "real"
+      }, 
+      {
+        "name": "community_area_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "cases_2006", 
+        "type": "real"
+      }, 
+      {
+        "name": "cases_2007", 
+        "type": "real"
+      }, 
+      {
+        "name": "cases_2008", 
+        "type": "real"
+      }, 
+      {
+        "name": "cases_2009", 
+        "type": "real"
+      }, 
+      {
+        "name": "cases_2010", 
+        "type": "real"
+      }, 
+      {
+        "name": "cases_2006_2010", 
+        "type": "real"
+      }, 
+      {
+        "name": "average_annual_incidence_rate_2006_2010", 
+        "type": "real"
+      }, 
+      {
+        "name": "incidence_rate_lower_ci", 
+        "type": "real"
+      }, 
+      {
+        "name": "incidence_rate_upper_ci", 
+        "type": "real"
+      }, 
+      {
+        "name": "warning", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.cityofchicago.org", 
+  "tableName": "public_health_statistics_tuberculosis_cases_and_average_annual_incidence_rate_chicago_2007_2011"
+}

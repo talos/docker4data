@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_iema_hazardous_material_spills/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/s296-ttzm/rows.csv"
+    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/s296-ttzm/rows.csv", 
+    "type": "csv"
   }, 
   "description": "A list of reports taken by IEMA of Hazardous Material spills in Illinois", 
   "maintainer": {
@@ -311,5 +312,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_illinois_iema_hazardous_material_spills"
+  "schemaName": "socrata/data.illinois.gov", 
+  "tableName": "iema_hazardous_material_spills"
 }

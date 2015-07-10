@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_lobbyist_data_name_mapping/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/u89s-bsxm/rows.csv"
+    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/u89s-bsxm/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Lobbyists are required to accurately self-report all information required under the Lobbyist Ordinance.  The Ethics Commission does not alter any entry except to correct typographical errors in order to facilitate the public's use of the reported information.  This includes correcting the spelling of public officials' names. However, the Commission retains the original filings in its office. \r\n\r\nThe table below provides a list of typographical errors on lobbyist disclosure reports since January, 2010. The \"Reported As\" column indicates the name originally reported by the lobbyist. The \"Display As\" column indicates the corrections made on the lobbyist web site.", 
   "maintainer": {
@@ -28,5 +29,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_sfgov_lobbyist_data_name_mapping"
+  "schemaName": "socrata/data.sfgov.org", 
+  "tableName": "lobbyist_data_name_mapping"
 }

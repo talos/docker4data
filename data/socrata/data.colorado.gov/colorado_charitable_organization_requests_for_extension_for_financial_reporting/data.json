@@ -1,0 +1,70 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/colorado_charitable_organization_requests_for_extension_for_financial_reporting/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/icqv-mi3c/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Extensions of the filing deadline filed by charitable organizations. The Colorado office of the Secretary of State Division of Charity registers charitable organizations that solicit contributions in Colorado and their professional fundraisers. A charitable organization is a type of non-profit organization (NPO) that centers on philanthropic goals as well as social well-being (educational, religious, other activities serving the public interest or common good). Search for \u201csos-csi\u201d for all other charities related datasets.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "SOS - Secretary of State - Charities Program", 
+    "category": "Nonprofit Data", 
+    "description": "Extensions of the filing deadline filed by charitable organizations. The Colorado office of the Secretary of State Division of Charity registers charitable organizations that solicit contributions in Colorado and their professional fundraisers. A charitable organization is a type of non-profit organization (NPO) that centers on philanthropic goals as well as social well-being (educational, religious, other activities serving the public interest or common good). Search for \u201csos-csi\u201d for all other charities related datasets.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/icqv-mi3c.json"
+    }
+  }, 
+  "name": "Colorado charitable organization requests for extension for financial reporting", 
+  "schema": {
+    "columns": [
+      {
+        "name": "entityid", 
+        "type": "real"
+      }, 
+      {
+        "name": "fein", 
+        "type": "real"
+      }, 
+      {
+        "name": "name", 
+        "type": "text"
+      }, 
+      {
+        "name": "authorizedofficer", 
+        "type": "text"
+      }, 
+      {
+        "name": "form990tcorporation", 
+        "type": "text"
+      }, 
+      {
+        "name": "extendedduedate", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "datecreated", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "fiscalyearend", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "extensionrequestreason", 
+        "type": "text"
+      }, 
+      {
+        "name": "_990filingstatus", 
+        "type": "text"
+      }, 
+      {
+        "name": "form8868filed", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.colorado.gov", 
+  "tableName": "colorado_charitable_organization_requests_for_extension_for_financial_reporting"
+}

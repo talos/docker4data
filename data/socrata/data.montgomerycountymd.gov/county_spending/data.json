@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_montgomerycountymd_county_spending/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/vpf9-6irq/rows.csv"
+    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/vpf9-6irq/rows.csv", 
+    "type": "csv"
   }, 
   "description": "This dataset includes County spending data for Montgomery County government. It does not include agency spending. Data considered sensitive or confidential and will be encrypted before it is posted.", 
   "maintainer": {
@@ -119,5 +120,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_montgomerycountymd_county_spending"
+  "schemaName": "socrata/data.montgomerycountymd.gov", 
+  "tableName": "county_spending"
 }

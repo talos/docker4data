@@ -1,0 +1,34 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/24_medicare_coverage/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/fkxj-dvtr/rows.csv", 
+    "type": "csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "socrata": {
+      "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/fkxj-dvtr.json"
+    }
+  }, 
+  "name": "24 Medicare Coverage", 
+  "schema": {
+    "columns": [
+      {
+        "name": "measure_value", 
+        "type": "real"
+      }, 
+      {
+        "name": "year", 
+        "type": "real"
+      }, 
+      {
+        "name": "coverage_subtype", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/healthmeasures.aspe.hhs.gov", 
+  "tableName": "24_medicare_coverage"
+}

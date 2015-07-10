@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_jail_population_by_county_beginning_1997/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/nymx-kgkn/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/nymx-kgkn/rows.csv", 
+    "type": "csv"
   }, 
   "description": "A file containing the average daily census for county for each year displayed (e.g., daily counts are averaged and then divided by the number of days reported for that year).  The population report categorizes inmates by type of offender and includes:  Sentenced, Civil, Federal, Technical Parole Violators, State Readies and Other Unsentenced.", 
   "maintainer": {
@@ -64,5 +65,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ny_jail_population_by_county_beginning_1997"
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "jail_population_by_county_beginning_1997"
 }

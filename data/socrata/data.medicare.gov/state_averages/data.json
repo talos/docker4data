@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_medicare_state_averages/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/xcdc-v8bm/rows.csv"
+    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/xcdc-v8bm/rows.csv", 
+    "type": "csv"
   }, 
   "description": "A list of a variety of averages for each state or territory as well as the national average, including each quality measure, staffing, fine amount and number of deficiencies. Each row displays a specific state or territory, the associated measure and average.", 
   "maintainer": {
@@ -155,5 +156,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_medicare_state_averages"
+  "schemaName": "socrata/data.medicare.gov", 
+  "tableName": "state_averages"
 }

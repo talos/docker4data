@@ -1,0 +1,48 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/unemployment_rate_hawaii_county_annual_not_seasonally_adjusted/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/hwpi-m9nj/rows.csv", 
+    "type": "csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "DLIR R&S", 
+    "category": "Employment", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/hwpi-m9nj.json"
+    }
+  }, 
+  "name": "UNEMPLOYMENT RATE - HAWAII County - Annual - Not Seasonally Adjusted", 
+  "schema": {
+    "columns": [
+      {
+        "name": "year", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "notes", 
+        "type": "text"
+      }, 
+      {
+        "name": "civilian_labor_force", 
+        "type": "real"
+      }, 
+      {
+        "name": "employed", 
+        "type": "real"
+      }, 
+      {
+        "name": "unemployed", 
+        "type": "real"
+      }, 
+      {
+        "name": "unemployment_rate", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.hawaii.gov", 
+  "tableName": "unemployment_rate_hawaii_county_annual_not_seasonally_adjusted"
+}

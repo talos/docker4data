@@ -1,0 +1,50 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/idph_stds_nationally_ranked_by_county_gonorrhea_2005_2013/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/kc8y-8tqk/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "U.S. counties ranked nationally by cases of gonorrhea reported.  Data Source: Centers for Disease Control and Prevention 2005-2013 Surveillance Report (http://www.cdc.gov/STD/publications/default.htm)", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Centers for Disease Control and Prevention", 
+    "category": "Public Health", 
+    "description": "U.S. counties ranked nationally by cases of gonorrhea reported.  Data Source: Centers for Disease Control and Prevention 2005-2013 Surveillance Report (http://www.cdc.gov/STD/publications/default.htm)", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/kc8y-8tqk.json"
+    }
+  }, 
+  "name": "IDPH: STDs Nationally Ranked By County Gonorrhea 2005-2013", 
+  "schema": {
+    "columns": [
+      {
+        "name": "rankbycount", 
+        "type": "real"
+      }, 
+      {
+        "name": "year", 
+        "type": "text"
+      }, 
+      {
+        "name": "county_independent_city", 
+        "type": "text"
+      }, 
+      {
+        "name": "count", 
+        "type": "real"
+      }, 
+      {
+        "name": "rate", 
+        "type": "real"
+      }, 
+      {
+        "name": "cumulative_percent", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.illinois.gov", 
+  "tableName": "idph_stds_nationally_ranked_by_county_gonorrhea_2005_2013"
+}

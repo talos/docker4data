@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_total_energy_usage/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/g9au-g57y/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/g9au-g57y/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Decrease the total energy use index of state-owned facilities from 128.28 kBtu/square foot in 2012 to 109.04 kBtu/square foot by 2018.", 
   "maintainer": {
@@ -32,5 +33,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ok_total_energy_usage"
+  "schemaName": "socrata/data.ok.gov", 
+  "tableName": "total_energy_usage"
 }

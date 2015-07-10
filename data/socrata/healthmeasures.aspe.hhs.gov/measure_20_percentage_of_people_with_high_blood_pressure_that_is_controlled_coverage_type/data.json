@@ -1,0 +1,44 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/measure_20_percentage_of_people_with_high_blood_pressure_that_is_controlled_coverage_type/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/8mgr-5ph8/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "For insurance estimates, the following definitions are used: Private insurance excludes plans that pay for only one type of service, such as dental or vision care.  Persons covered by both Medicare and Medigap plans are classified as having public coverage.  Public coverage includes Medicaid, Children's Health Insurance Program (CHIP), state-sponsored or other government-sponsored health plan, Medicare (disability), Indian health Service, or military health care (TRICARE, VA, or CHAMP-VA).\r\n<br/>", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "description": "For insurance estimates, the following definitions are used: Private insurance excludes plans that pay for only one type of service, such as dental or vision care.  Persons covered by both Medicare and Medigap plans are classified as having public coverage.  Public coverage includes Medicaid, Children's Health Insurance Program (CHIP), state-sponsored or other government-sponsored health plan, Medicare (disability), Indian health Service, or military health care (TRICARE, VA, or CHAMP-VA).\r\n<br/>", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/8mgr-5ph8.json"
+    }
+  }, 
+  "name": "Measure 20 : Percentage of People with High Blood Pressure that is Controlled | Coverage Type", 
+  "schema": {
+    "columns": [
+      {
+        "name": "measure_value", 
+        "type": "text"
+      }, 
+      {
+        "name": "year", 
+        "type": "text"
+      }, 
+      {
+        "name": "coverage_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "lower_ci", 
+        "type": "real"
+      }, 
+      {
+        "name": "upper_ci", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/healthmeasures.aspe.hhs.gov", 
+  "tableName": "measure_20_percentage_of_people_with_high_blood_pressure_that_is_controlled_coverage_type"
+}

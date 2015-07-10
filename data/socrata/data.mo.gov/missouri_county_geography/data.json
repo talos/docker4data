@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_mo_missouri_county_geography/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.mo.gov/api/views/rtst-p7t3/rows.csv"
+    "@id": "http://www.opendatacache.com/data.mo.gov/api/views/rtst-p7t3/rows.csv", 
+    "type": "csv"
   }, 
   "description": "The following dataset is created from the 2009 census file available at ftp://ftp.census.gov/geo/tiger/TIGER2009/29_MISSOURI/", 
   "maintainer": {
@@ -95,5 +96,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_mo_missouri_county_geography"
+  "schemaName": "socrata/data.mo.gov", 
+  "tableName": "missouri_county_geography"
 }

@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_honolulu_traffic_incidents/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.honolulu.gov/api/views/ix32-iw26/rows.csv"
+    "@id": "http://www.opendatacache.com/data.honolulu.gov/api/views/ix32-iw26/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Up-to-the-minute traffic updates", 
   "maintainer": {
@@ -43,5 +44,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_honolulu_traffic_incidents"
+  "schemaName": "socrata/data.honolulu.gov", 
+  "tableName": "traffic_incidents"
 }

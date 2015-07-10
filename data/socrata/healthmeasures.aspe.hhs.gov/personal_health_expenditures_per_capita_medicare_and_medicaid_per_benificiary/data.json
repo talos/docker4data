@@ -1,0 +1,34 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/personal_health_expenditures_per_capita_medicare_and_medicaid_per_benificiary/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/h4rf-3nfw/rows.csv", 
+    "type": "csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "socrata": {
+      "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/h4rf-3nfw.json"
+    }
+  }, 
+  "name": "Personal health expenditures per capita / Medicare and Medicaid per benificiary", 
+  "schema": {
+    "columns": [
+      {
+        "name": "measure_value", 
+        "type": "real"
+      }, 
+      {
+        "name": "year", 
+        "type": "real"
+      }, 
+      {
+        "name": "dollars", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/healthmeasures.aspe.hhs.gov", 
+  "tableName": "personal_health_expenditures_per_capita_medicare_and_medicaid_per_benificiary"
+}

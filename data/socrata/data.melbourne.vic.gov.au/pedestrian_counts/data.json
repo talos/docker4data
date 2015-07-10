@@ -1,0 +1,42 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/pedestrian_counts/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/views/b2ak-trbp/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "The City of Melbourne has automated pedestrian counting sensors located across the city. These sensors provide pedestrian counts for the previous hour at the given location. Counts are currently uploaded on a monthly basis.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "City of Melbourne, Australia", 
+    "category": "Transport & Movement", 
+    "description": "The City of Melbourne has automated pedestrian counting sensors located across the city. These sensors provide pedestrian counts for the previous hour at the given location. Counts are currently uploaded on a monthly basis.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/views/b2ak-trbp.json"
+    }
+  }, 
+  "name": "Pedestrian Counts", 
+  "schema": {
+    "columns": [
+      {
+        "name": "daet_time", 
+        "type": "text"
+      }, 
+      {
+        "name": "sensor_id", 
+        "type": "real"
+      }, 
+      {
+        "name": "sensor_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "qv_market_peel_st", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.melbourne.vic.gov.au", 
+  "tableName": "pedestrian_counts"
+}

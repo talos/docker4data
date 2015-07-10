@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_energy_employment/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/bit8-as5a/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/bit8-as5a/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Increase Energy employment from 120,751 in 2013 to 128,161 by 2017.", 
   "maintainer": {
@@ -32,5 +33,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ok_energy_employment"
+  "schemaName": "socrata/data.ok.gov", 
+  "tableName": "energy_employment"
 }

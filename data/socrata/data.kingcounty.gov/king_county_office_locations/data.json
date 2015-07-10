@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_kingcounty_king_county_office_locations/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/heqd-ysmv/rows.csv"
+    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/heqd-ysmv/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Locations of all official King County government workplaces", 
   "maintainer": {
@@ -88,5 +89,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_kingcounty_king_county_office_locations"
+  "schemaName": "socrata/data.kingcounty.gov", 
+  "tableName": "king_county_office_locations"
 }

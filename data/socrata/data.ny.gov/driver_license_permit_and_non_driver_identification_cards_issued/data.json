@@ -1,0 +1,66 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/driver_license_permit_and_non_driver_identification_cards_issued/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/a4s2-d9tt/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "This data set includes general demographics for all persons who hold, or have recently held a: Driver License, Permit or Non-Driver Identification Card (a.k.a. credential) issued by the New York State Department of Motor Vehicles.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New York State Department of Motor Vehicles", 
+    "category": "Transportation", 
+    "description": "This data set includes general demographics for all persons who hold, or have recently held a: Driver License, Permit or Non-Driver Identification Card (a.k.a. credential) issued by the New York State Department of Motor Vehicles.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/a4s2-d9tt.json"
+    }
+  }, 
+  "name": "Driver License, Permit, and Non-Driver Identification Cards Issued", 
+  "schema": {
+    "columns": [
+      {
+        "name": "year_of_birth", 
+        "type": "real"
+      }, 
+      {
+        "name": "sex", 
+        "type": "text"
+      }, 
+      {
+        "name": "city", 
+        "type": "text"
+      }, 
+      {
+        "name": "state", 
+        "type": "text"
+      }, 
+      {
+        "name": "zip", 
+        "type": "text"
+      }, 
+      {
+        "name": "residence_county", 
+        "type": "text"
+      }, 
+      {
+        "name": "license_class", 
+        "type": "text"
+      }, 
+      {
+        "name": "status", 
+        "type": "text"
+      }, 
+      {
+        "name": "privilege", 
+        "type": "text"
+      }, 
+      {
+        "name": "year_of_expiration", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "driver_license_permit_and_non_driver_identification_cards_issued"
+}

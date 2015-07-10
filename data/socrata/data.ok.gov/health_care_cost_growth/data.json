@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_health_care_cost_growth/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/2rx6-rfwj/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/2rx6-rfwj/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Limit state-purchased health care cost growth to 2% less than the projected national health expenditures average every year through 2019.", 
   "maintainer": {
@@ -32,5 +33,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ok_health_care_cost_growth"
+  "schemaName": "socrata/data.ok.gov", 
+  "tableName": "health_care_cost_growth"
 }

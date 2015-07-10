@@ -1,0 +1,40 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/18_medicare_coverage/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/u7dz-tviz/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "In order to define coverage types, disability is defined as follows: Individuals were identified as having a disability if any of the following conditions existed:  One or more Activities of Daily Living impairments, blindness, or deafness.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "description": "In order to define coverage types, disability is defined as follows: Individuals were identified as having a disability if any of the following conditions existed:  One or more Activities of Daily Living impairments, blindness, or deafness.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/u7dz-tviz.json"
+    }
+  }, 
+  "name": "18 Medicare Coverage", 
+  "schema": {
+    "columns": [
+      {
+        "name": "measure_value", 
+        "type": "real"
+      }, 
+      {
+        "name": "year", 
+        "type": "real"
+      }, 
+      {
+        "name": "coverage_subtype", 
+        "type": "text"
+      }, 
+      {
+        "name": "income_threshold", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/healthmeasures.aspe.hhs.gov", 
+  "tableName": "18_medicare_coverage"
+}

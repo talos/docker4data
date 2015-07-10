@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oregon_odfw_license_agents_in_or/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/wis2-2pdd/rows.csv"
+    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/wis2-2pdd/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Where outdoor enthusiasts can purchase Hunting and Fishing Licenses, Angling Tags, Controlled Hunt Applications, Game Bird Validations and Permits, Hunting Tags, Raffles, Sauvie Island Parking Permits and Aquatic Invasive Species Prevention Permits.", 
   "maintainer": {
@@ -27,6 +28,10 @@
         "type": "text"
       }, 
       {
+        "name": "city", 
+        "type": "text"
+      }, 
+      {
         "name": "zip_code", 
         "type": "text"
       }, 
@@ -41,12 +46,9 @@
       {
         "name": "type_of_permit_sold", 
         "type": "text"
-      }, 
-      {
-        "name": "online_license_sales", 
-        "type": "text"
       }
     ]
   }, 
-  "tableName": "socrata_oregon_odfw_license_agents_in_or"
+  "schemaName": "socrata/data.oregon.gov", 
+  "tableName": "odfw_license_agents_in_or"
 }

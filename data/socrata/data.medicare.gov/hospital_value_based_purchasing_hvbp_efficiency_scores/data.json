@@ -1,0 +1,73 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/hospital_value_based_purchasing_hvbp_efficiency_scores/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/su9h-3pvj/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "A list of hospitals participating in the Hospital VBP Program and their performance ratios and scores for the Efficiency Medicare Spending per Beneficiary (MSPB) measure.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "category": "Hospital Compare", 
+    "description": "A list of hospitals participating in the Hospital VBP Program and their performance ratios and scores for the Efficiency Medicare Spending per Beneficiary (MSPB) measure.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/su9h-3pvj.json"
+    }
+  }, 
+  "name": "Hospital Value-Based Purchasing (HVBP) \u2013 Efficiency Scores", 
+  "schema": {
+    "columns": [
+      {
+        "name": "provider_number", 
+        "type": "text"
+      }, 
+      {
+        "name": "hospital_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "address", 
+        "type": "text"
+      }, 
+      {
+        "name": "city", 
+        "type": "text"
+      }, 
+      {
+        "name": "state", 
+        "type": "text"
+      }, 
+      {
+        "name": "zip_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "county_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "mspb_1_performance_rate", 
+        "type": "real"
+      }, 
+      {
+        "name": "mspb_1_achievement_points", 
+        "type": "text"
+      }, 
+      {
+        "name": "mspb_1_improvement_points", 
+        "type": "text"
+      }, 
+      {
+        "name": "mspb_1_measure_score", 
+        "type": "text"
+      }, 
+      {
+        "name": "location", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.medicare.gov", 
+  "tableName": "hospital_value_based_purchasing_hvbp_efficiency_scores"
+}

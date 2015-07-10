@@ -1,0 +1,70 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/decisiones_de_financiamiento_de_los_fondos_intermediarios_financieros/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/6nux-qd6b/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Los fondos intermediarios financieros (FIF) son mecanismos financieros multilaterales a los que el Banco Mundial brinda servicios de depositario. Esto incluye comprometer y transferir fondos a los encargados de ejecutar los proyectos (por lo general, organismos internacionales como los bancos multilaterales de desarrollo o los organismos de las Naciones Unidas). En todos los casos, el Banco Mundial, en su calidad de depositario, debe actuar de conformidad con las instrucciones de los \u00f3rganos rectores independientes.\r\n\r\nComo parte de sus responsabilidades como depositario, el Banco Mundial cumple con todas las sanciones aplicables a sus operaciones. \r\n\r\nLas decisiones de financiamiento constituyen los montos aprobados por los \u00f3rganos rectores de los FIF para honorarios de proyectos y presupuestos administrativos. El financiamiento para proyectos puede concretarse mediante diferentes productos financieros, como donaciones y pr\u00e9stamos en condiciones concesionarias.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "World Bank Group", 
+    "category": "Financial Intermediary Funds", 
+    "description": "Los fondos intermediarios financieros (FIF) son mecanismos financieros multilaterales a los que el Banco Mundial brinda servicios de depositario. Esto incluye comprometer y transferir fondos a los encargados de ejecutar los proyectos (por lo general, organismos internacionales como los bancos multilaterales de desarrollo o los organismos de las Naciones Unidas). En todos los casos, el Banco Mundial, en su calidad de depositario, debe actuar de conformidad con las instrucciones de los \u00f3rganos rectores independientes.\r\n\r\nComo parte de sus responsabilidades como depositario, el Banco Mundial cumple con todas las sanciones aplicables a sus operaciones. \r\n\r\nLas decisiones de financiamiento constituyen los montos aprobados por los \u00f3rganos rectores de los FIF para honorarios de proyectos y presupuestos administrativos. El financiamiento para proyectos puede concretarse mediante diferentes productos financieros, como donaciones y pr\u00e9stamos en condiciones concesionarias.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/6nux-qd6b.json"
+    }
+  }, 
+  "name": "Decisiones de financiamiento de los fondos intermediarios financieros", 
+  "schema": {
+    "columns": [
+      {
+        "name": "as_of_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "fund_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "use_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "country_beneficiary", 
+        "type": "text"
+      }, 
+      {
+        "name": "recipient", 
+        "type": "text"
+      }, 
+      {
+        "name": "sub_account", 
+        "type": "text"
+      }, 
+      {
+        "name": "approval_quarter", 
+        "type": "text"
+      }, 
+      {
+        "name": "calendar_year", 
+        "type": "real"
+      }, 
+      {
+        "name": "amount_in_usd", 
+        "type": "real"
+      }, 
+      {
+        "name": "financial_product", 
+        "type": "text"
+      }, 
+      {
+        "name": "sector_theme", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/finances.worldbank.org", 
+  "tableName": "decisiones_de_financiamiento_de_los_fondos_intermediarios_financieros"
+}

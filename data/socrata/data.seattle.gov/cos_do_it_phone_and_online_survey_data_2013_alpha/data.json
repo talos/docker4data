@@ -1,0 +1,1714 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/cos_do_it_phone_and_online_survey_data_2013_alpha/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/nyj5-2t3f/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Before using this data set, refer to instructions below! \r\nSince 2000, the City's Information Technology Indicators project has been collecting extensive and statistically valid data on residential use of cable tv, broadband adoption and uses (including health, work, education, finance and civic engagement), barriers to broadband adoption, and customer service needs. This project is managed by our Community Technology Program with technical advice from our Citizens Telecommunications and Technology Advisory Board (CTTAB).  \r\nINSTRUCTIONS FOR USING DATA SET\r\nDo not pull down the data set and use it without using the code book. When you run the data set, be sure to refer to the Code Book for invalid or missing values for each question item (variables). \r\nYou must recognize that the data here is unweighted; to replicate the figures in the City\u2019s Information Technology Access and Adoption Report and get values that are representative of Seattle population, you should use the weights. There are 2 weighting variables, one that allows you to use the phone and online survey together (labeled \"weightfin\") and one that is for only the phone survey (labeled \"wgtphoneonly\", which excludes or zeros out everyone in the online survey).", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Department of Information Technology", 
+    "category": "Community", 
+    "description": "Before using this data set, refer to instructions below! \r\nSince 2000, the City's Information Technology Indicators project has been collecting extensive and statistically valid data on residential use of cable tv, broadband adoption and uses (including health, work, education, finance and civic engagement), barriers to broadband adoption, and customer service needs. This project is managed by our Community Technology Program with technical advice from our Citizens Telecommunications and Technology Advisory Board (CTTAB).  \r\nINSTRUCTIONS FOR USING DATA SET\r\nDo not pull down the data set and use it without using the code book. When you run the data set, be sure to refer to the Code Book for invalid or missing values for each question item (variables). \r\nYou must recognize that the data here is unweighted; to replicate the figures in the City\u2019s Information Technology Access and Adoption Report and get values that are representative of Seattle population, you should use the weights. There are 2 weighting variables, one that allows you to use the phone and online survey together (labeled \"weightfin\") and one that is for only the phone survey (labeled \"wgtphoneonly\", which excludes or zeros out everyone in the online survey).", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/nyj5-2t3f.json"
+    }
+  }, 
+  "name": "COS DO- IT Phone And Online Survey Data 2013 Alpha", 
+  "schema": {
+    "columns": [
+      {
+        "name": "id", 
+        "type": "real"
+      }, 
+      {
+        "name": "weightfin", 
+        "type": "real"
+      }, 
+      {
+        "name": "wgtphoneonly", 
+        "type": "real"
+      }, 
+      {
+        "name": "survey", 
+        "type": "text"
+      }, 
+      {
+        "name": "sample", 
+        "type": "text"
+      }, 
+      {
+        "name": "fonetype", 
+        "type": "text"
+      }, 
+      {
+        "name": "langpref", 
+        "type": "text"
+      }, 
+      {
+        "name": "gender", 
+        "type": "text"
+      }, 
+      {
+        "name": "s1", 
+        "type": "real"
+      }, 
+      {
+        "name": "dem4", 
+        "type": "text"
+      }, 
+      {
+        "name": "dem7", 
+        "type": "text"
+      }, 
+      {
+        "name": "dem5", 
+        "type": "text"
+      }, 
+      {
+        "name": "dem10", 
+        "type": "text"
+      }, 
+      {
+        "name": "tc3_summary", 
+        "type": "text"
+      }, 
+      {
+        "name": "tc3_any", 
+        "type": "text"
+      }, 
+      {
+        "name": "inet1_1", 
+        "type": "text"
+      }, 
+      {
+        "name": "inet1_2", 
+        "type": "text"
+      }, 
+      {
+        "name": "anycable", 
+        "type": "text"
+      }, 
+      {
+        "name": "tc1_1", 
+        "type": "text"
+      }, 
+      {
+        "name": "tc1_2", 
+        "type": "text"
+      }, 
+      {
+        "name": "tc2", 
+        "type": "text"
+      }, 
+      {
+        "name": "tc3_1", 
+        "type": "text"
+      }, 
+      {
+        "name": "tc3_2", 
+        "type": "text"
+      }, 
+      {
+        "name": "tc3_4", 
+        "type": "text"
+      }, 
+      {
+        "name": "laptopnetbook", 
+        "type": "text"
+      }, 
+      {
+        "name": "tc3_0", 
+        "type": "text"
+      }, 
+      {
+        "name": "tc3_8", 
+        "type": "text"
+      }, 
+      {
+        "name": "tc3_other", 
+        "type": "text"
+      }, 
+      {
+        "name": "tc4_1", 
+        "type": "text"
+      }, 
+      {
+        "name": "tc4_2", 
+        "type": "text"
+      }, 
+      {
+        "name": "tc4_3", 
+        "type": "text"
+      }, 
+      {
+        "name": "tc4_any", 
+        "type": "text"
+      }, 
+      {
+        "name": "tc4_0", 
+        "type": "text"
+      }, 
+      {
+        "name": "tc4_8", 
+        "type": "text"
+      }, 
+      {
+        "name": "tc5_1", 
+        "type": "text"
+      }, 
+      {
+        "name": "tc5_2", 
+        "type": "text"
+      }, 
+      {
+        "name": "tc6", 
+        "type": "text"
+      }, 
+      {
+        "name": "anymobile", 
+        "type": "text"
+      }, 
+      {
+        "name": "numinternetdev", 
+        "type": "real"
+      }, 
+      {
+        "name": "multinternetdev", 
+        "type": "text"
+      }, 
+      {
+        "name": "anyinternetdev", 
+        "type": "text"
+      }, 
+      {
+        "name": "smartnetonly", 
+        "type": "text"
+      }, 
+      {
+        "name": "numplace", 
+        "type": "real"
+      }, 
+      {
+        "name": "inet2_88", 
+        "type": "real"
+      }, 
+      {
+        "name": "inet2_1", 
+        "type": "text"
+      }, 
+      {
+        "name": "inet2_2", 
+        "type": "text"
+      }, 
+      {
+        "name": "inet2_3", 
+        "type": "text"
+      }, 
+      {
+        "name": "inet2_4", 
+        "type": "text"
+      }, 
+      {
+        "name": "inet2_5", 
+        "type": "text"
+      }, 
+      {
+        "name": "inet2_6", 
+        "type": "text"
+      }, 
+      {
+        "name": "inet2_7", 
+        "type": "text"
+      }, 
+      {
+        "name": "inet2_8", 
+        "type": "text"
+      }, 
+      {
+        "name": "inet2_travel", 
+        "type": "text"
+      }, 
+      {
+        "name": "inet2_store", 
+        "type": "text"
+      }, 
+      {
+        "name": "inet2_9", 
+        "type": "text"
+      }, 
+      {
+        "name": "inet2_med", 
+        "type": "text"
+      }, 
+      {
+        "name": "inet2_anywifi", 
+        "type": "text"
+      }, 
+      {
+        "name": "inet2_other", 
+        "type": "text"
+      }, 
+      {
+        "name": "highspeed", 
+        "type": "text"
+      }, 
+      {
+        "name": "homenet", 
+        "type": "text"
+      }, 
+      {
+        "name": "dslcablewifi", 
+        "type": "real"
+      }, 
+      {
+        "name": "dslcableallwificell", 
+        "type": "real"
+      }, 
+      {
+        "name": "r_inet3", 
+        "type": "text"
+      }, 
+      {
+        "name": "inet3", 
+        "type": "text"
+      }, 
+      {
+        "name": "inet3_2", 
+        "type": "text"
+      }, 
+      {
+        "name": "inet3_3", 
+        "type": "text"
+      }, 
+      {
+        "name": "inet3_4", 
+        "type": "text"
+      }, 
+      {
+        "name": "inet3_5", 
+        "type": "text"
+      }, 
+      {
+        "name": "inet3_6", 
+        "type": "text"
+      }, 
+      {
+        "name": "inet3_14", 
+        "type": "text"
+      }, 
+      {
+        "name": "inet3_1", 
+        "type": "text"
+      }, 
+      {
+        "name": "inet3_7", 
+        "type": "text"
+      }, 
+      {
+        "name": "inet3_0", 
+        "type": "real"
+      }, 
+      {
+        "name": "inet3_8", 
+        "type": "real"
+      }, 
+      {
+        "name": "inet3_other", 
+        "type": "text"
+      }, 
+      {
+        "name": "inet3_oth", 
+        "type": "real"
+      }, 
+      {
+        "name": "rinet4", 
+        "type": "text"
+      }, 
+      {
+        "name": "inet4", 
+        "type": "text"
+      }, 
+      {
+        "name": "inet4_oth", 
+        "type": "real"
+      }, 
+      {
+        "name": "inet4oth", 
+        "type": "text"
+      }, 
+      {
+        "name": "inet5", 
+        "type": "text"
+      }, 
+      {
+        "name": "inet6", 
+        "type": "text"
+      }, 
+      {
+        "name": "inet6whence", 
+        "type": "text"
+      }, 
+      {
+        "name": "p_inet7", 
+        "type": "real"
+      }, 
+      {
+        "name": "inet7_1", 
+        "type": "text"
+      }, 
+      {
+        "name": "inet7_2", 
+        "type": "text"
+      }, 
+      {
+        "name": "inet7_3", 
+        "type": "text"
+      }, 
+      {
+        "name": "inet7_4", 
+        "type": "text"
+      }, 
+      {
+        "name": "inet7_5", 
+        "type": "text"
+      }, 
+      {
+        "name": "inet7_6", 
+        "type": "text"
+      }, 
+      {
+        "name": "inet7_7", 
+        "type": "text"
+      }, 
+      {
+        "name": "inet7_8", 
+        "type": "text"
+      }, 
+      {
+        "name": "inet7_9", 
+        "type": "text"
+      }, 
+      {
+        "name": "inet7_88", 
+        "type": "real"
+      }, 
+      {
+        "name": "inet7_freewifi", 
+        "type": "real"
+      }, 
+      {
+        "name": "inet7oth", 
+        "type": "text"
+      }, 
+      {
+        "name": "inet7_oth", 
+        "type": "real"
+      }, 
+      {
+        "name": "inet8_any", 
+        "type": "text"
+      }, 
+      {
+        "name": "inet8", 
+        "type": "real"
+      }, 
+      {
+        "name": "r_use1", 
+        "type": "text"
+      }, 
+      {
+        "name": "r_use2", 
+        "type": "text"
+      }, 
+      {
+        "name": "r_use3", 
+        "type": "text"
+      }, 
+      {
+        "name": "r_use4", 
+        "type": "text"
+      }, 
+      {
+        "name": "r_use5", 
+        "type": "text"
+      }, 
+      {
+        "name": "r_use6", 
+        "type": "text"
+      }, 
+      {
+        "name": "r_use7", 
+        "type": "text"
+      }, 
+      {
+        "name": "r_use8", 
+        "type": "text"
+      }, 
+      {
+        "name": "r_use9", 
+        "type": "text"
+      }, 
+      {
+        "name": "r_use10", 
+        "type": "text"
+      }, 
+      {
+        "name": "r_use11", 
+        "type": "text"
+      }, 
+      {
+        "name": "r_use12", 
+        "type": "text"
+      }, 
+      {
+        "name": "r_use13", 
+        "type": "text"
+      }, 
+      {
+        "name": "r_use14", 
+        "type": "text"
+      }, 
+      {
+        "name": "r_use15", 
+        "type": "text"
+      }, 
+      {
+        "name": "r_lit1", 
+        "type": "text"
+      }, 
+      {
+        "name": "r_lit2", 
+        "type": "text"
+      }, 
+      {
+        "name": "r_lit3", 
+        "type": "text"
+      }, 
+      {
+        "name": "numcompuse", 
+        "type": "real"
+      }, 
+      {
+        "name": "use1", 
+        "type": "text"
+      }, 
+      {
+        "name": "use2", 
+        "type": "text"
+      }, 
+      {
+        "name": "use3", 
+        "type": "text"
+      }, 
+      {
+        "name": "use4", 
+        "type": "text"
+      }, 
+      {
+        "name": "use5", 
+        "type": "text"
+      }, 
+      {
+        "name": "use6", 
+        "type": "text"
+      }, 
+      {
+        "name": "use7", 
+        "type": "text"
+      }, 
+      {
+        "name": "use8", 
+        "type": "text"
+      }, 
+      {
+        "name": "use9", 
+        "type": "text"
+      }, 
+      {
+        "name": "use10", 
+        "type": "text"
+      }, 
+      {
+        "name": "use11", 
+        "type": "text"
+      }, 
+      {
+        "name": "o_usesellgoods", 
+        "type": "text"
+      }, 
+      {
+        "name": "o_usepostvid", 
+        "type": "text"
+      }, 
+      {
+        "name": "o_usepodcast", 
+        "type": "text"
+      }, 
+      {
+        "name": "o_usenone", 
+        "type": "real"
+      }, 
+      {
+        "name": "o_otheruse", 
+        "type": "text"
+      }, 
+      {
+        "name": "use12", 
+        "type": "text"
+      }, 
+      {
+        "name": "use13", 
+        "type": "text"
+      }, 
+      {
+        "name": "use14", 
+        "type": "text"
+      }, 
+      {
+        "name": "othersocnw", 
+        "type": "text"
+      }, 
+      {
+        "name": "use15", 
+        "type": "text"
+      }, 
+      {
+        "name": "lit1", 
+        "type": "text"
+      }, 
+      {
+        "name": "lit2", 
+        "type": "text"
+      }, 
+      {
+        "name": "lit3", 
+        "type": "text"
+      }, 
+      {
+        "name": "numhsapps", 
+        "type": "real"
+      }, 
+      {
+        "name": "hs1", 
+        "type": "text"
+      }, 
+      {
+        "name": "hs2_1", 
+        "type": "text"
+      }, 
+      {
+        "name": "hs2_2", 
+        "type": "text"
+      }, 
+      {
+        "name": "hs2_3", 
+        "type": "text"
+      }, 
+      {
+        "name": "hs2_4", 
+        "type": "text"
+      }, 
+      {
+        "name": "hs2_5", 
+        "type": "text"
+      }, 
+      {
+        "name": "hs2_6", 
+        "type": "text"
+      }, 
+      {
+        "name": "hs2_7", 
+        "type": "text"
+      }, 
+      {
+        "name": "hs2_9", 
+        "type": "text"
+      }, 
+      {
+        "name": "hs2_88", 
+        "type": "text"
+      }, 
+      {
+        "name": "hs2_other", 
+        "type": "text"
+      }, 
+      {
+        "name": "hs2_oth", 
+        "type": "real"
+      }, 
+      {
+        "name": "hs2_oth1", 
+        "type": "text"
+      }, 
+      {
+        "name": "hs2_oth2", 
+        "type": "text"
+      }, 
+      {
+        "name": "hs2_oth3", 
+        "type": "text"
+      }, 
+      {
+        "name": "hs3_1", 
+        "type": "text"
+      }, 
+      {
+        "name": "hs3_2", 
+        "type": "text"
+      }, 
+      {
+        "name": "hs3_3", 
+        "type": "text"
+      }, 
+      {
+        "name": "hs3_5", 
+        "type": "text"
+      }, 
+      {
+        "name": "hs3_4", 
+        "type": "real"
+      }, 
+      {
+        "name": "hs3_6", 
+        "type": "text"
+      }, 
+      {
+        "name": "hs3_0", 
+        "type": "text"
+      }, 
+      {
+        "name": "hs3_other", 
+        "type": "text"
+      }, 
+      {
+        "name": "hsgoodenuf", 
+        "type": "text"
+      }, 
+      {
+        "name": "hsfastenuf", 
+        "type": "text"
+      }, 
+      {
+        "name": "hs3_oth", 
+        "type": "real"
+      }, 
+      {
+        "name": "hs3_oth1", 
+        "type": "text"
+      }, 
+      {
+        "name": "hs3_oth2", 
+        "type": "text"
+      }, 
+      {
+        "name": "hs3_oth3", 
+        "type": "text"
+      }, 
+      {
+        "name": "hs3_oth4", 
+        "type": "text"
+      }, 
+      {
+        "name": "hs3_oth5", 
+        "type": "text"
+      }, 
+      {
+        "name": "cable1", 
+        "type": "text"
+      }, 
+      {
+        "name": "cable2", 
+        "type": "text"
+      }, 
+      {
+        "name": "cable3_1", 
+        "type": "text"
+      }, 
+      {
+        "name": "cable3_2", 
+        "type": "text"
+      }, 
+      {
+        "name": "cable3_3", 
+        "type": "text"
+      }, 
+      {
+        "name": "cable3_4", 
+        "type": "text"
+      }, 
+      {
+        "name": "cable3_14", 
+        "type": "real"
+      }, 
+      {
+        "name": "cable3oth", 
+        "type": "text"
+      }, 
+      {
+        "name": "cable3_oth", 
+        "type": "real"
+      }, 
+      {
+        "name": "cable3_oth1", 
+        "type": "text"
+      }, 
+      {
+        "name": "cable3_oth2", 
+        "type": "text"
+      }, 
+      {
+        "name": "cable3_oth3", 
+        "type": "text"
+      }, 
+      {
+        "name": "cable3_oth4", 
+        "type": "text"
+      }, 
+      {
+        "name": "cable3_oth5", 
+        "type": "text"
+      }, 
+      {
+        "name": "cable3_0", 
+        "type": "text"
+      }, 
+      {
+        "name": "cable4", 
+        "type": "text"
+      }, 
+      {
+        "name": "cable5", 
+        "type": "text"
+      }, 
+      {
+        "name": "cab_quote", 
+        "type": "text"
+      }, 
+      {
+        "name": "cab_local", 
+        "type": "text"
+      }, 
+      {
+        "name": "cab_educ", 
+        "type": "text"
+      }, 
+      {
+        "name": "cab_arts", 
+        "type": "text"
+      }, 
+      {
+        "name": "cab_env", 
+        "type": "text"
+      }, 
+      {
+        "name": "cab_diverse", 
+        "type": "text"
+      }, 
+      {
+        "name": "cab_fam", 
+        "type": "text"
+      }, 
+      {
+        "name": "cab_news", 
+        "type": "text"
+      }, 
+      {
+        "name": "cab_cn", 
+        "type": "text"
+      }, 
+      {
+        "name": "cab_none", 
+        "type": "text"
+      }, 
+      {
+        "name": "cab_dk", 
+        "type": "text"
+      }, 
+      {
+        "name": "cab_na", 
+        "type": "real"
+      }, 
+      {
+        "name": "cab_other", 
+        "type": "real"
+      }, 
+      {
+        "name": "cab_movies", 
+        "type": "real"
+      }, 
+      {
+        "name": "cab_noads", 
+        "type": "real"
+      }, 
+      {
+        "name": "cab_sci", 
+        "type": "real"
+      }, 
+      {
+        "name": "cab_travel", 
+        "type": "real"
+      }, 
+      {
+        "name": "cab_lifestyle", 
+        "type": "real"
+      }, 
+      {
+        "name": "cab_doc", 
+        "type": "real"
+      }, 
+      {
+        "name": "cab_sports", 
+        "type": "real"
+      }, 
+      {
+        "name": "cab_hx", 
+        "type": "real"
+      }, 
+      {
+        "name": "cab_specific", 
+        "type": "real"
+      }, 
+      {
+        "name": "cab_relig", 
+        "type": "real"
+      }, 
+      {
+        "name": "cab_pbs", 
+        "type": "real"
+      }, 
+      {
+        "name": "cab_comedy", 
+        "type": "real"
+      }, 
+      {
+        "name": "cab_drama", 
+        "type": "real"
+      }, 
+      {
+        "name": "cable6", 
+        "type": "text"
+      }, 
+      {
+        "name": "cable7", 
+        "type": "text"
+      }, 
+      {
+        "name": "cable8", 
+        "type": "text"
+      }, 
+      {
+        "name": "cable8oth", 
+        "type": "text"
+      }, 
+      {
+        "name": "cable8_oth", 
+        "type": "real"
+      }, 
+      {
+        "name": "cable9", 
+        "type": "text"
+      }, 
+      {
+        "name": "cnot1", 
+        "type": "text"
+      }, 
+      {
+        "name": "cnot2_other1", 
+        "type": "text"
+      }, 
+      {
+        "name": "cnot2_other2", 
+        "type": "text"
+      }, 
+      {
+        "name": "cnot2_1", 
+        "type": "text"
+      }, 
+      {
+        "name": "cnot2_2", 
+        "type": "text"
+      }, 
+      {
+        "name": "cnot2_3", 
+        "type": "text"
+      }, 
+      {
+        "name": "cnot2_4", 
+        "type": "text"
+      }, 
+      {
+        "name": "cnot2_5", 
+        "type": "text"
+      }, 
+      {
+        "name": "cnot2_6", 
+        "type": "text"
+      }, 
+      {
+        "name": "cnot2_7", 
+        "type": "text"
+      }, 
+      {
+        "name": "cnot2_8", 
+        "type": "text"
+      }, 
+      {
+        "name": "cnot2_9", 
+        "type": "text"
+      }, 
+      {
+        "name": "cnot2_10", 
+        "type": "text"
+      }, 
+      {
+        "name": "cnot2_11", 
+        "type": "text"
+      }, 
+      {
+        "name": "cnot2_88", 
+        "type": "real"
+      }, 
+      {
+        "name": "cnot2_12", 
+        "type": "text"
+      }, 
+      {
+        "name": "cnot2_oth1", 
+        "type": "text"
+      }, 
+      {
+        "name": "cnot2_oth2", 
+        "type": "text"
+      }, 
+      {
+        "name": "cnot2_oth3", 
+        "type": "text"
+      }, 
+      {
+        "name": "cnot2_oth4", 
+        "type": "text"
+      }, 
+      {
+        "name": "cnot2_oth5", 
+        "type": "text"
+      }, 
+      {
+        "name": "cnot2_oth6", 
+        "type": "text"
+      }, 
+      {
+        "name": "cnot2_oth7", 
+        "type": "text"
+      }, 
+      {
+        "name": "cnot2_oth8", 
+        "type": "text"
+      }, 
+      {
+        "name": "cnot2_any", 
+        "type": "text"
+      }, 
+      {
+        "name": "cb1", 
+        "type": "text"
+      }, 
+      {
+        "name": "o_cb1print", 
+        "type": "real"
+      }, 
+      {
+        "name": "o_cb1meeting", 
+        "type": "text"
+      }, 
+      {
+        "name": "o_cb1phone", 
+        "type": "real"
+      }, 
+      {
+        "name": "o_cb1email", 
+        "type": "text"
+      }, 
+      {
+        "name": "o_cb1fb", 
+        "type": "text"
+      }, 
+      {
+        "name": "o_cb1twitter", 
+        "type": "real"
+      }, 
+      {
+        "name": "o_cb1website", 
+        "type": "text"
+      }, 
+      {
+        "name": "o_cb1text", 
+        "type": "real"
+      }, 
+      {
+        "name": "o_cb1rss", 
+        "type": "real"
+      }, 
+      {
+        "name": "o_cb1calendar", 
+        "type": "real"
+      }, 
+      {
+        "name": "o_cb1blog", 
+        "type": "text"
+      }, 
+      {
+        "name": "o_cb1dk", 
+        "type": "real"
+      }, 
+      {
+        "name": "o_anycb1oth", 
+        "type": "real"
+      }, 
+      {
+        "name": "o_cb1oth", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic1_1", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic1_2", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic1_3", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic1_4", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic1_5", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic1_6", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic1_7", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic1_8", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic1_9", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic1_10", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic1_11", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic1_12", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic1_anyelec", 
+        "type": "real"
+      }, 
+      {
+        "name": "civic1_other", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic1_oth", 
+        "type": "real"
+      }, 
+      {
+        "name": "civic1_oth1", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic1_oth2", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic1_oth3", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic1_oth4", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic1_na", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic2", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic2_1", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic2_2", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic2_3", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic2_4", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic2_5", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic2_6", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic2_7", 
+        "type": "real"
+      }, 
+      {
+        "name": "civic2_88", 
+        "type": "real"
+      }, 
+      {
+        "name": "civic2_other", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic2_oth", 
+        "type": "real"
+      }, 
+      {
+        "name": "numciv3", 
+        "type": "real"
+      }, 
+      {
+        "name": "civic3_1", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic3_2", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic3_3", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic3_4", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic3_5", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic3_6", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic3_7", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic3_8", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic3_9", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic3_0", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic3_other", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic3_oth", 
+        "type": "real"
+      }, 
+      {
+        "name": "civic3_oth1", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic3_oth2", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic3_oth3", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic3_oth4", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic3_oth5", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic3_oth6", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic3_oth7", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic3_oth8", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic3_oth9", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic3_oth10", 
+        "type": "text"
+      }, 
+      {
+        "name": "numciv4", 
+        "type": "real"
+      }, 
+      {
+        "name": "civic4_1", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic4_2", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic4_3", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic4_4", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic4_5", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic4_6", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic4_7", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic4_0", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic4_1_2_4", 
+        "type": "real"
+      }, 
+      {
+        "name": "civic4_1_4", 
+        "type": "real"
+      }, 
+      {
+        "name": "civic4_2_4", 
+        "type": "real"
+      }, 
+      {
+        "name": "civic4_1_2", 
+        "type": "real"
+      }, 
+      {
+        "name": "civic4_person", 
+        "type": "real"
+      }, 
+      {
+        "name": "civic4_oth_1", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic4_oth_2", 
+        "type": "real"
+      }, 
+      {
+        "name": "civic4_oth1", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic4_oth2", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic4_oth3", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic4_oth4", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic4_oth5", 
+        "type": "text"
+      }, 
+      {
+        "name": "civic4_oth6", 
+        "type": "text"
+      }, 
+      {
+        "name": "web1_any", 
+        "type": "text"
+      }, 
+      {
+        "name": "web1_freq", 
+        "type": "text"
+      }, 
+      {
+        "name": "web2", 
+        "type": "text"
+      }, 
+      {
+        "name": "web2_other", 
+        "type": "text"
+      }, 
+      {
+        "name": "web2_oth", 
+        "type": "real"
+      }, 
+      {
+        "name": "sea1_ever", 
+        "type": "text"
+      }, 
+      {
+        "name": "sea1_how", 
+        "type": "text"
+      }, 
+      {
+        "name": "sea2", 
+        "type": "text"
+      }, 
+      {
+        "name": "sea3", 
+        "type": "text"
+      }, 
+      {
+        "name": "sea4_1", 
+        "type": "text"
+      }, 
+      {
+        "name": "sea4_2", 
+        "type": "text"
+      }, 
+      {
+        "name": "sea4new", 
+        "type": "text"
+      }, 
+      {
+        "name": "sea4dk", 
+        "type": "real"
+      }, 
+      {
+        "name": "sea4nothing", 
+        "type": "real"
+      }, 
+      {
+        "name": "sea4other", 
+        "type": "real"
+      }, 
+      {
+        "name": "sea4oknow", 
+        "type": "real"
+      }, 
+      {
+        "name": "sea4quote", 
+        "type": "real"
+      }, 
+      {
+        "name": "sea4pers", 
+        "type": "real"
+      }, 
+      {
+        "name": "sea4infra", 
+        "type": "real"
+      }, 
+      {
+        "name": "sea4event", 
+        "type": "real"
+      }, 
+      {
+        "name": "sea4alert", 
+        "type": "real"
+      }, 
+      {
+        "name": "sea4engage", 
+        "type": "real"
+      }, 
+      {
+        "name": "sea4current", 
+        "type": "real"
+      }, 
+      {
+        "name": "sea4trans", 
+        "type": "real"
+      }, 
+      {
+        "name": "sea4culture", 
+        "type": "real"
+      }, 
+      {
+        "name": "sea4seainfo", 
+        "type": "real"
+      }, 
+      {
+        "name": "sea4gov", 
+        "type": "real"
+      }, 
+      {
+        "name": "sea4commissue", 
+        "type": "real"
+      }, 
+      {
+        "name": "sea4howto", 
+        "type": "real"
+      }, 
+      {
+        "name": "sea4pubwrk", 
+        "type": "real"
+      }, 
+      {
+        "name": "sea4opp", 
+        "type": "real"
+      }, 
+      {
+        "name": "sea4crime", 
+        "type": "real"
+      }, 
+      {
+        "name": "sea4budget", 
+        "type": "real"
+      }, 
+      {
+        "name": "sea4disaster", 
+        "type": "real"
+      }, 
+      {
+        "name": "sea4service", 
+        "type": "real"
+      }, 
+      {
+        "name": "sea4envir", 
+        "type": "real"
+      }, 
+      {
+        "name": "sea4input", 
+        "type": "real"
+      }, 
+      {
+        "name": "sea4people", 
+        "type": "real"
+      }, 
+      {
+        "name": "sea4educ", 
+        "type": "real"
+      }, 
+      {
+        "name": "sea4schools", 
+        "type": "real"
+      }, 
+      {
+        "name": "sea4biz", 
+        "type": "real"
+      }, 
+      {
+        "name": "sea4discuss", 
+        "type": "real"
+      }, 
+      {
+        "name": "sea4housing", 
+        "type": "real"
+      }, 
+      {
+        "name": "sea4notcode", 
+        "type": "real"
+      }, 
+      {
+        "name": "dem1", 
+        "type": "real"
+      }, 
+      {
+        "name": "dem2", 
+        "type": "real"
+      }, 
+      {
+        "name": "dem3", 
+        "type": "text"
+      }, 
+      {
+        "name": "dem6", 
+        "type": "text"
+      }, 
+      {
+        "name": "dem6_other", 
+        "type": "text"
+      }, 
+      {
+        "name": "dem7_1", 
+        "type": "text"
+      }, 
+      {
+        "name": "dem7_2", 
+        "type": "text"
+      }, 
+      {
+        "name": "dem7oth", 
+        "type": "text"
+      }, 
+      {
+        "name": "dem7prim", 
+        "type": "text"
+      }, 
+      {
+        "name": "dem7a", 
+        "type": "text"
+      }, 
+      {
+        "name": "dem7_cat", 
+        "type": "text"
+      }, 
+      {
+        "name": "afamer_blk", 
+        "type": "real"
+      }, 
+      {
+        "name": "asian_pi", 
+        "type": "real"
+      }, 
+      {
+        "name": "cauc_wht", 
+        "type": "real"
+      }, 
+      {
+        "name": "hisp_lat", 
+        "type": "real"
+      }, 
+      {
+        "name": "dem8", 
+        "type": "text"
+      }, 
+      {
+        "name": "dem8b_1", 
+        "type": "text"
+      }, 
+      {
+        "name": "dem8b_2", 
+        "type": "text"
+      }, 
+      {
+        "name": "dem8b_3", 
+        "type": "text"
+      }, 
+      {
+        "name": "anyemp", 
+        "type": "real"
+      }, 
+      {
+        "name": "dem8a_4", 
+        "type": "text"
+      }, 
+      {
+        "name": "dem8a_5", 
+        "type": "text"
+      }, 
+      {
+        "name": "dem8a_6", 
+        "type": "text"
+      }, 
+      {
+        "name": "dem8a_7", 
+        "type": "text"
+      }, 
+      {
+        "name": "dem8a_9", 
+        "type": "text"
+      }, 
+      {
+        "name": "dem9", 
+        "type": "text"
+      }, 
+      {
+        "name": "pwd", 
+        "type": "real"
+      }, 
+      {
+        "name": "language", 
+        "type": "text"
+      }, 
+      {
+        "name": "tlength", 
+        "type": "real"
+      }, 
+      {
+        "name": "weight_ed", 
+        "type": "real"
+      }, 
+      {
+        "name": "wgt1", 
+        "type": "real"
+      }, 
+      {
+        "name": "weight_age", 
+        "type": "real"
+      }, 
+      {
+        "name": "wgt2", 
+        "type": "real"
+      }, 
+      {
+        "name": "weight", 
+        "type": "real"
+      }, 
+      {
+        "name": "wgt3", 
+        "type": "real"
+      }, 
+      {
+        "name": "weight_eth", 
+        "type": "real"
+      }, 
+      {
+        "name": "wgt4", 
+        "type": "real"
+      }, 
+      {
+        "name": "weight_zip", 
+        "type": "real"
+      }, 
+      {
+        "name": "wgt5", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.seattle.gov", 
+  "tableName": "cos_do_it_phone_and_online_survey_data_2013_alpha"
+}

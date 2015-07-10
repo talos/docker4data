@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_2013_housing_inventory/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/e7d3-dxh5/rows.csv"
+    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/e7d3-dxh5/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Excel workbook of all housing construction from the 2013 Housing Inventory.", 
   "maintainer": {
@@ -84,5 +85,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_sfgov_2013_housing_inventory"
+  "schemaName": "socrata/data.sfgov.org", 
+  "tableName": "2013_housing_inventory"
 }

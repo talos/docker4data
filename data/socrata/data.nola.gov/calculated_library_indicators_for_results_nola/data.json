@@ -1,0 +1,50 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/calculated_library_indicators_for_results_nola/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.nola.gov/api/views/jpch-7rje/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "This dataset includes data for ResultsNOLA indicators that were calculated based on the following source datasets: \u201cLibrary Cardholders (2012 - present)\u201d and \u201cAnnual population estimates (2012 \u2013 present).\"", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New Orleans Public Library", 
+    "category": "Recreation and Culture", 
+    "description": "This dataset includes data for ResultsNOLA indicators that were calculated based on the following source datasets: \u201cLibrary Cardholders (2012 - present)\u201d and \u201cAnnual population estimates (2012 \u2013 present).\"", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.nola.gov/api/views/jpch-7rje.json"
+    }
+  }, 
+  "name": "Calculated Library Indicators For Results NOLA", 
+  "schema": {
+    "columns": [
+      {
+        "name": "rowid", 
+        "type": "text"
+      }, 
+      {
+        "name": "date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "month", 
+        "type": "text"
+      }, 
+      {
+        "name": "year", 
+        "type": "real"
+      }, 
+      {
+        "name": "indicatorname", 
+        "type": "text"
+      }, 
+      {
+        "name": "indicatorvalue", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.nola.gov", 
+  "tableName": "calculated_library_indicators_for_results_nola"
+}

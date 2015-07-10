@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_streetcar_lines/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/rdd5-dn4u/rows.csv"
+    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/rdd5-dn4u/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Show the location of the Seattle street car lines", 
   "maintainer": {
@@ -40,5 +41,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_seattle_streetcar_lines"
+  "schemaName": "socrata/data.seattle.gov", 
+  "tableName": "streetcar_lines"
 }

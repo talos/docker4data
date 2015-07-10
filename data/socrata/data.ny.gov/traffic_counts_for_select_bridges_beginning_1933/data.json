@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_traffic_counts_for_select_bridges_beginning_1933/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/5qpa-id23/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/5qpa-id23/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Traffic counts by bridge for 1933 forward for each bridge in the New York State Bridge Authority system.", 
   "maintainer": {
@@ -56,5 +57,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ny_traffic_counts_for_select_bridges_beginning_1933"
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "traffic_counts_for_select_bridges_beginning_1933"
 }

@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oregon_ucc_list_of_filings_entered_last_month/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/snfi-f79b/rows.csv"
+    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/snfi-f79b/rows.csv", 
+    "type": "csv"
   }, 
   "description": "List of New UCC filings entered during the previous month. This list will be updated by the 9th of every month.\r\nUpdated 6/1/2015", 
   "maintainer": {
@@ -9,7 +10,7 @@
   }, 
   "metadata": {
     "category": "Business", 
-    "description": "List of New UCC filings entered during the previous month. This list will be updated by the 9th of every month.\r\nUpdated 6/1/2015", 
+    "description": "List of New UCC filings entered during the previous month. Updated 7/2/2015 This list will be updated by the 9th of every month.", 
     "socrata": {
       "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/snfi-f79b.json"
     }
@@ -79,5 +80,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_oregon_ucc_list_of_filings_entered_last_month"
+  "schemaName": "socrata/data.oregon.gov", 
+  "tableName": "ucc_list_of_filings_entered_last_month"
 }

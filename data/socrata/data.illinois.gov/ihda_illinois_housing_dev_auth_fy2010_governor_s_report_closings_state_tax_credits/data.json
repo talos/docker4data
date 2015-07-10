@@ -1,0 +1,65 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ihda_illinois_housing_dev_auth_fy2010_governor_s_report_closings_state_tax_credits/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/thdm-e6xz/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "FY2010 Governor's Report - Closings.State Tax Credits", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "category": "Housing", 
+    "description": "FY2010 Governor's Report - Closings.State Tax Credits", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/thdm-e6xz.json"
+    }
+  }, 
+  "name": "IHDA - Illinois Housing Dev Auth - FY2010 Governor's Report - Closings.State Tax Credits", 
+  "schema": {
+    "columns": [
+      {
+        "name": "fiscal_year", 
+        "type": "text"
+      }, 
+      {
+        "name": "project_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "project_address", 
+        "type": "text"
+      }, 
+      {
+        "name": "project_city", 
+        "type": "text"
+      }, 
+      {
+        "name": "owner", 
+        "type": "text"
+      }, 
+      {
+        "name": "credit_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "reservation_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "amount", 
+        "type": "real"
+      }, 
+      {
+        "name": "units", 
+        "type": "real"
+      }, 
+      {
+        "name": "state_tax_credit_units", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.illinois.gov", 
+  "tableName": "ihda_illinois_housing_dev_auth_fy2010_governor_s_report_closings_state_tax_credits"
+}

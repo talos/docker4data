@@ -1,0 +1,46 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/annual_population_estimates_for_new_york_state_and_counties_beginning_1970/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/krt9-ym2k/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Resident population of New York State and counties beginning in 1970.  Estimates are based on Census counts (base population), intercensal estimates, and postcensal estimates.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New York State Department of Labor", 
+    "category": "Government & Finance", 
+    "description": "Resident population of New York State and counties beginning in 1970.  Estimates are based on Census counts (base population), intercensal estimates, and postcensal estimates.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/krt9-ym2k.json"
+    }
+  }, 
+  "name": "Annual Population Estimates for New York State and Counties: Beginning 1970", 
+  "schema": {
+    "columns": [
+      {
+        "name": "fips_code", 
+        "type": "real"
+      }, 
+      {
+        "name": "geography", 
+        "type": "text"
+      }, 
+      {
+        "name": "year", 
+        "type": "real"
+      }, 
+      {
+        "name": "program_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "population", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "annual_population_estimates_for_new_york_state_and_counties_beginning_1970"
+}

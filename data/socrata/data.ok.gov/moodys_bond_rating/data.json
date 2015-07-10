@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_moodys_bond_rating/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/j3uz-tqvh/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/j3uz-tqvh/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Increase the Moodys bond rating of the State of Oklahoma from Aa2 in 2014 to Aa1 by 2018.", 
   "maintainer": {
@@ -32,5 +33,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ok_moodys_bond_rating"
+  "schemaName": "socrata/data.ok.gov", 
+  "tableName": "moodys_bond_rating"
 }

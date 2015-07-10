@@ -1,0 +1,62 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/performance_metrics_family_support_services_homeless_shelter_system_monthly_utilization/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/vg8w-2w9y/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Homeless Shelter System Monthly Utilization\r\nThis metric tracks the number of shelter beds used by individuals and families per month. Overnight shelters provide nightly shelter for individuals for up to 12 consecutive hours and do not serve families with children. Interim shelters house families and individuals for up to 120 days.  DFSS coordinates activities and funding to increase the availability of permanent and supportive housing services in Chicago. DFSS funds community based agencies that provide services to persons and families who are homeless or at imminent risk of homelessness so they can sustain safe and secure housing in the effort to achieve self-sufficiency.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "City of Chicago", 
+    "category": "Administration & Finance", 
+    "description": "Homeless Shelter System Monthly Utilization\r\nThis metric tracks the number of shelter beds used by individuals and families per month. Overnight shelters provide nightly shelter for individuals for up to 12 consecutive hours and do not serve families with children. Interim shelters house families and individuals for up to 120 days.  DFSS coordinates activities and funding to increase the availability of permanent and supportive housing services in Chicago. DFSS funds community based agencies that provide services to persons and families who are homeless or at imminent risk of homelessness so they can sustain safe and secure housing in the effort to achieve self-sufficiency.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/vg8w-2w9y.json"
+    }
+  }, 
+  "name": "Performance Metrics - Family & Support Services - Homeless Shelter System Monthly Utilization", 
+  "schema": {
+    "columns": [
+      {
+        "name": "sort", 
+        "type": "real"
+      }, 
+      {
+        "name": "month", 
+        "type": "text"
+      }, 
+      {
+        "name": "year", 
+        "type": "text"
+      }, 
+      {
+        "name": "interim_shelter_beds_used", 
+        "type": "real"
+      }, 
+      {
+        "name": "overnight_shelter_beds_used", 
+        "type": "real"
+      }, 
+      {
+        "name": "total_interim_beds", 
+        "type": "real"
+      }, 
+      {
+        "name": "total_overnight_beds", 
+        "type": "real"
+      }, 
+      {
+        "name": "percent_of_interim_shelter_beds_utilized", 
+        "type": "text"
+      }, 
+      {
+        "name": "percent_of_shelter_beds_utilized_overnight", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.cityofchicago.org", 
+  "tableName": "performance_metrics_family_support_services_homeless_shelter_system_monthly_utilization"
+}

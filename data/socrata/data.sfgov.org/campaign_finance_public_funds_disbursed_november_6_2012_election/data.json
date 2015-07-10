@@ -1,0 +1,48 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/campaign_finance_public_funds_disbursed_november_6_2012_election/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/7x5u-tf83/rows.csv", 
+    "type": "csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "San Francisco Ethics Commission", 
+    "category": "City Management and Ethics", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/7x5u-tf83.json"
+    }
+  }, 
+  "name": "Campaign Finance - Public Funds Disbursed - November 6, 2012 Election", 
+  "schema": {
+    "columns": [
+      {
+        "name": "district", 
+        "type": "text"
+      }, 
+      {
+        "name": "candidate", 
+        "type": "text"
+      }, 
+      {
+        "name": "date_of_submission", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "date_certified_approved", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "pending_completed", 
+        "type": "text"
+      }, 
+      {
+        "name": "funds_disbursed", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.sfgov.org", 
+  "tableName": "campaign_finance_public_funds_disbursed_november_6_2012_election"
+}

@@ -1,0 +1,73 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/fiscal_year_2015_county_executive_recommended_operating_budget/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/y7rf-xz8k/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "This dataset includes the Fiscal Year* 2015 County Executive Recommended operating budget for Montgomery County. The dataset does not include revenues and  detailed agency budget information (only includes agency budget information by fund); each agency, such as Montgomery County Public Schools, maintain their individual budget information. The data can be sorted, filtered, and exported by the following elements: Function (grouping, such as \u201cPublic Safety\u201d), Department, Program, Cost Center (activity within a program), Fund Type , Fund Subtype, Fund Name, Subfund Name, Personnel & Operating Expenses, Object Name, and Account Name. *The 12-month period to which the annual operating and capital budgets and their respective appropriations apply. The Montgomery County fiscal year starts on July 1st and ends on June 30th. Update Frequency: Annually", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "category": "Government", 
+    "description": "This dataset includes the Fiscal Year* 2015 County Executive Recommended operating budget for Montgomery County. The dataset does not include revenues and  detailed agency budget information (only includes agency budget information by fund); each agency, such as Montgomery County Public Schools, maintain their individual budget information. The data can be sorted, filtered, and exported by the following elements: Function (grouping, such as \u201cPublic Safety\u201d), Department, Program, Cost Center (activity within a program), Fund Type , Fund Subtype, Fund Name, Subfund Name, Personnel & Operating Expenses, Object Name, and Account Name. *The 12-month period to which the annual operating and capital budgets and their respective appropriations apply. The Montgomery County fiscal year starts on July 1st and ends on June 30th. Update Frequency: Annually", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/y7rf-xz8k.json"
+    }
+  }, 
+  "name": "Fiscal Year 2015 County Executive Recommended Operating Budget", 
+  "schema": {
+    "columns": [
+      {
+        "name": "function", 
+        "type": "text"
+      }, 
+      {
+        "name": "department", 
+        "type": "text"
+      }, 
+      {
+        "name": "program_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "cost_center_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "fund_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "fund_subtype", 
+        "type": "text"
+      }, 
+      {
+        "name": "subfund_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "fund_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "personnel_costs_amp_operating_expenses", 
+        "type": "text"
+      }, 
+      {
+        "name": "object_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "account_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "recommended_amount", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.montgomerycountymd.gov", 
+  "tableName": "fiscal_year_2015_county_executive_recommended_operating_budget"
+}

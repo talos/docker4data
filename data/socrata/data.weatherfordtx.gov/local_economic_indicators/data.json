@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_weatherfordtx_local_economic_indicators/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/bpma-ut4v/rows.csv"
+    "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/bpma-ut4v/rows.csv", 
+    "type": "csv"
   }, 
   "description": "A monthly summary of some economic local and national indicators.", 
   "maintainer": {
@@ -59,5 +60,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_weatherfordtx_local_economic_indicators"
+  "schemaName": "socrata/data.weatherfordtx.gov", 
+  "tableName": "local_economic_indicators"
 }

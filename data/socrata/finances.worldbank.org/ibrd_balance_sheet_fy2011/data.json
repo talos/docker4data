@@ -1,0 +1,42 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ibrd_balance_sheet_fy2011/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/4i57-byta/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Provides data from the IBRD Balance Sheet for the fiscal years ended June 30, 2011 and June 30, 2010. The values are expressed in millions of U.S. Dollars. Where applicable, changes have been made to certain line items on the June 30, 2010 balance sheet to conform with the current year's presentation, but the comparable prior years' data sets have not been adjusted to reflect the reclassification impact of those changes.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "World Bank", 
+    "category": "Accounting and Control", 
+    "description": "Provides data from the IBRD Balance Sheet for the fiscal years ended June 30, 2011 and June 30, 2010. The values are expressed in millions of U.S. Dollars. Where applicable, changes have been made to certain line items on the June 30, 2010 balance sheet to conform with the current year's presentation, but the comparable prior years' data sets have not been adjusted to reflect the reclassification impact of those changes.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/4i57-byta.json"
+    }
+  }, 
+  "name": "IBRD Balance Sheet FY2011", 
+  "schema": {
+    "columns": [
+      {
+        "name": "category", 
+        "type": "text"
+      }, 
+      {
+        "name": "line_item", 
+        "type": "text"
+      }, 
+      {
+        "name": "fiscal_year", 
+        "type": "text"
+      }, 
+      {
+        "name": "amount_us_millions", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/finances.worldbank.org", 
+  "tableName": "ibrd_balance_sheet_fy2011"
+}

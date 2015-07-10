@@ -1,0 +1,54 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/melbourne_bike_share/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/views/tdvh-n9dv/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Melbourne Bike Share is a joint RACV/Victorian Government bicycle hire scheme. This dataset contains the locations of all of the bike share pods, the amount of bikes located at each pod and the number of empty slots at the pod.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "City of Melbourne, Australia", 
+    "category": "Transport & Movement", 
+    "description": "Melbourne Bike Share is a joint RACV/Victorian Government bicycle hire scheme. This dataset contains the locations of all of the bike share pods, the amount of bikes located at each pod and the number of empty slots at the pod.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/views/tdvh-n9dv.json"
+    }
+  }, 
+  "name": "Melbourne bike share", 
+  "schema": {
+    "columns": [
+      {
+        "name": "id", 
+        "type": "real"
+      }, 
+      {
+        "name": "featurename", 
+        "type": "text"
+      }, 
+      {
+        "name": "terminalname", 
+        "type": "text"
+      }, 
+      {
+        "name": "nbbikes", 
+        "type": "real"
+      }, 
+      {
+        "name": "nbemptydoc", 
+        "type": "real"
+      }, 
+      {
+        "name": "uploaddate", 
+        "type": "text"
+      }, 
+      {
+        "name": "coordinates", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.melbourne.vic.gov.au", 
+  "tableName": "melbourne_bike_share"
+}

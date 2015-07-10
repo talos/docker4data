@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_sold_fleet_equipment/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/y6ef-jf2w/rows.csv"
+    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/y6ef-jf2w/rows.csv", 
+    "type": "csv"
   }, 
   "description": "This dataset includes sales data for fleet equipment that was sold in the current and previous two years. This dataset does not include sales data for Seattle City Light (SCL) fleet equipment.", 
   "maintainer": {
@@ -55,5 +56,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_seattle_sold_fleet_equipment"
+  "schemaName": "socrata/data.seattle.gov", 
+  "tableName": "sold_fleet_equipment"
 }

@@ -1,0 +1,44 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/_measure_26_percentage_of_primary_care_physician_office_visits_that_included_depression_screening_coverage_type_and_metric/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/yq6p-f8e5/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Assumptions were made that if Medicaid or Medicare were selected as an expected payment source then they would be the primary source of payment. If a visit had Medicaid or Medicare as payment type, then the individual's insurance was coded as either Medicaid or Medicare (even if other private insurance was listed). Only 4% of Medicaid recipients listed private insurance as another payment source; whereas approximately 45% of Medicare recipients listed private insurance as another payment source. \r\n\r\nIf both Medicare and Medicaid were listed as payment type, then the individual was coded as dual eligible.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "description": "Assumptions were made that if Medicaid or Medicare were selected as an expected payment source then they would be the primary source of payment. If a visit had Medicaid or Medicare as payment type, then the individual's insurance was coded as either Medicaid or Medicare (even if other private insurance was listed). Only 4% of Medicaid recipients listed private insurance as another payment source; whereas approximately 45% of Medicare recipients listed private insurance as another payment source. \r\n\r\nIf both Medicare and Medicaid were listed as payment type, then the individual was coded as dual eligible.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/yq6p-f8e5.json"
+    }
+  }, 
+  "name": "( Measure 26 : Percentage of Primary Care Physician Office Visits that Included Depression Screening | Coverage Type and Metric", 
+  "schema": {
+    "columns": [
+      {
+        "name": "measure_value", 
+        "type": "text"
+      }, 
+      {
+        "name": "year", 
+        "type": "real"
+      }, 
+      {
+        "name": "coverage_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "lower_ci", 
+        "type": "real"
+      }, 
+      {
+        "name": "upper_ci", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/healthmeasures.aspe.hhs.gov", 
+  "tableName": "_measure_26_percentage_of_primary_care_physician_office_visits_that_included_depression_screening_coverage_type_and_metric"
+}

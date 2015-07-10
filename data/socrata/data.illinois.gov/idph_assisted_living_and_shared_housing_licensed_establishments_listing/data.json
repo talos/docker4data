@@ -1,0 +1,86 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/idph_assisted_living_and_shared_housing_licensed_establishments_listing/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/992y-d4p5/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "A list of licensed facilities that provide assisted living and shared housing functionality. Listed are the number of units, whether they provide Alzheimer and adult day care.\r\n\r\nCurrent as of June, 2015.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Division of Health Care Facilities and Programs", 
+    "category": "Public Health", 
+    "description": "A list of licensed facilities that provide assisted living and shared housing functionality. Listed are the number of units, whether they provide Alzheimer and adult day care.\r\n\r\nCurrent as of June, 2015.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/992y-d4p5.json"
+    }
+  }, 
+  "name": "IDPH Assisted Living and Shared Housing Licensed Establishments Listing", 
+  "schema": {
+    "columns": [
+      {
+        "name": "establishment_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "license_", 
+        "type": "text"
+      }, 
+      {
+        "name": "address", 
+        "type": "text"
+      }, 
+      {
+        "name": "city", 
+        "type": "text"
+      }, 
+      {
+        "name": "county", 
+        "type": "text"
+      }, 
+      {
+        "name": "zip", 
+        "type": "text"
+      }, 
+      {
+        "name": "phone", 
+        "type": "text"
+      }, 
+      {
+        "name": "issue_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "expiration_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "_az_units", 
+        "type": "text"
+      }, 
+      {
+        "name": "total_units", 
+        "type": "real"
+      }, 
+      {
+        "name": "fl", 
+        "type": "real"
+      }, 
+      {
+        "name": "total", 
+        "type": "real"
+      }, 
+      {
+        "name": "alzheimer_facility", 
+        "type": "text"
+      }, 
+      {
+        "name": "adult_day_care_facility", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.illinois.gov", 
+  "tableName": "idph_assisted_living_and_shared_housing_licensed_establishments_listing"
+}

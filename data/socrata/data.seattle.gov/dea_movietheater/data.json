@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_dea_movietheater/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/yxka-33er/rows.csv"
+    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/yxka-33er/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Movie theaters in Seattle", 
   "maintainer": {
@@ -140,5 +141,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_seattle_dea_movietheater"
+  "schemaName": "socrata/data.seattle.gov", 
+  "tableName": "dea_movietheater"
 }

@@ -1,0 +1,82 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/_duplicate_human_waste_/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/eswg-wnti/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Cases created since 7/1/2008 with location information", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "San Francisco 311", 
+    "category": "City Management and Ethics", 
+    "description": "Cases created since 7/1/2008 with location information", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/eswg-wnti.json"
+    }
+  }, 
+  "name": "[Duplicate: Human Waste]", 
+  "schema": {
+    "columns": [
+      {
+        "name": "case_id", 
+        "type": "real"
+      }, 
+      {
+        "name": "opened", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "closed", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "status", 
+        "type": "text"
+      }, 
+      {
+        "name": "responsible_agency", 
+        "type": "text"
+      }, 
+      {
+        "name": "address", 
+        "type": "text"
+      }, 
+      {
+        "name": "category", 
+        "type": "text"
+      }, 
+      {
+        "name": "request_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "request_details", 
+        "type": "text"
+      }, 
+      {
+        "name": "source", 
+        "type": "text"
+      }, 
+      {
+        "name": "supervisor_district", 
+        "type": "real"
+      }, 
+      {
+        "name": "neighborhood", 
+        "type": "text"
+      }, 
+      {
+        "name": "updated", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "point", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.sfgov.org", 
+  "tableName": "_duplicate_human_waste_"
+}

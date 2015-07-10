@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_traffic_flow_counts/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/7svg-ds5z/rows.csv"
+    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/7svg-ds5z/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Vehicle traffic volumes for arterial streets in Seattle based on spot studies that have been adjusted for seasonal variation.\r\nTo provide a high level view of traffic volumes on major streets in Seattle, and compare changes from year to year.\r\nThe AAWDT count is a seasonally adjusted average weekday daily total of vehicle traffic for all lanes, i.e. total vehicles in both directions for one average 24-hour business day, Monday through Friday. Only selected arterial streets are included.", 
   "maintainer": {
@@ -36,5 +37,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_seattle_traffic_flow_counts"
+  "schemaName": "socrata/data.seattle.gov", 
+  "tableName": "traffic_flow_counts"
 }

@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_funding_summary_fiscal_year_2014/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/wa4v-3fd8/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/wa4v-3fd8/rows.csv", 
+    "type": "csv"
   }, 
   "description": "The Funding dataset provides information for the current fiscal year (to-date) and the three prior fiscal years. The funding information is first presented by high-level funding categories including: \u2022 Assets Held for Others \u2022 Taxes and Interest Income \u2022 Licenses, Permits, Tuition, Fees and Other \u2022 Federal Grants \u2022 Appropriations Each Funding category (class) may be further viewed by sub-class and detail funding type.", 
   "maintainer": {
@@ -64,5 +65,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ok_funding_summary_fiscal_year_2014"
+  "schemaName": "socrata/data.ok.gov", 
+  "tableName": "funding_summary_fiscal_year_2014"
 }

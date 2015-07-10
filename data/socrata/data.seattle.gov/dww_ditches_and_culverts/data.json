@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_dww_ditches_and_culverts/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/5m22-ub5z/rows.csv"
+    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/5m22-ub5z/rows.csv", 
+    "type": "csv"
   }, 
   "description": "https://gisrevprxy.seattle.gov/ArcGIS/rest/services/ext/WM_CityGISLayers/MapServer/59", 
   "maintainer": {
@@ -195,5 +196,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_seattle_dww_ditches_and_culverts"
+  "schemaName": "socrata/data.seattle.gov", 
+  "tableName": "dww_ditches_and_culverts"
 }

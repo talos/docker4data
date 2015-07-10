@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_kingcounty_pet_events/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/3rpu-sz4q/rows.csv"
+    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/3rpu-sz4q/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Base dataset for the Pet Events Calendar", 
   "maintainer": {
@@ -58,5 +59,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_kingcounty_pet_events"
+  "schemaName": "socrata/data.kingcounty.gov", 
+  "tableName": "pet_events"
 }

@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_weatherfordtx_city_facilities/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/vhv4-pkrx/rows.csv"
+    "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/vhv4-pkrx/rows.csv", 
+    "type": "csv"
   }, 
   "description": "A list of public City facilities, including type and location", 
   "maintainer": {
@@ -35,5 +36,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_weatherfordtx_city_facilities"
+  "schemaName": "socrata/data.weatherfordtx.gov", 
+  "tableName": "city_facilities"
 }

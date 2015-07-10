@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_medicare_preventable_hospitalizations/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/w7ji-wmc9/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/w7ji-wmc9/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Decrease the rate of preventable hospitalizations among Medicare beneficiaries from 76.9 per 1,000 in 2013 to 69.21 per 1,000 by 2019.", 
   "maintainer": {
@@ -32,5 +33,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ok_medicare_preventable_hospitalizations"
+  "schemaName": "socrata/data.ok.gov", 
+  "tableName": "medicare_preventable_hospitalizations"
 }

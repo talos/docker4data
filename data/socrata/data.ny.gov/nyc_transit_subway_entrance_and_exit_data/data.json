@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_nyc_transit_subway_entrance_and_exit_data/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/i9wp-a4ja/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/i9wp-a4ja/rows.csv", 
+    "type": "csv"
   }, 
   "description": "This data file provides a variety of information on subway station entrances and exits which includes but is not limited to: Division, Line, Station Name, Longitude and Latitude coordinates of entrances/exits.", 
   "maintainer": {
@@ -148,5 +149,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ny_nyc_transit_subway_entrance_and_exit_data"
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "nyc_transit_subway_entrance_and_exit_data"
 }

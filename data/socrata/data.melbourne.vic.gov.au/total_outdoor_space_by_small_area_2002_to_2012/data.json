@@ -1,0 +1,42 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/total_outdoor_space_by_small_area_2002_to_2012/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/views/8xvk-9a8s/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "From the City of Melbourne's Census of Land Use and Employment (CLUE), total area (sq m) of outdoor space, (excluding road and waterway area) in each CLUE small area, categorised by Census year and use.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "City of Melbourne, Australia", 
+    "category": "Environment", 
+    "description": "From the City of Melbourne's Census of Land Use and Employment (CLUE), total area (sq m) of outdoor space, (excluding road and waterway area) in each CLUE small area, categorised by Census year and use.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/views/8xvk-9a8s.json"
+    }
+  }, 
+  "name": "Total Outdoor Space - By Small Area - 2002 to 2012", 
+  "schema": {
+    "columns": [
+      {
+        "name": "space_use", 
+        "type": "text"
+      }, 
+      {
+        "name": "floor_space_sq_m", 
+        "type": "real"
+      }, 
+      {
+        "name": "suburb", 
+        "type": "text"
+      }, 
+      {
+        "name": "year", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.melbourne.vic.gov.au", 
+  "tableName": "total_outdoor_space_by_small_area_2002_to_2012"
+}

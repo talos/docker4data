@@ -1,0 +1,54 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/healthchoice_medicare_supplement_plans_medications_with_quantity_limits/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/7yui-a476/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Due to approved therapy guidelines the following medications have set maximum quantity limits per copay. These quantity limits are less than the standard pharmacy benefit of a 30-day or 90-day supply.  Quantity limits are determined by the recommended length of therapy and/or routine use of the medication and also apply when the medication form is other than a tablet or capsule.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "HealthChoice Oklahoma", 
+    "category": "Health", 
+    "description": "Due to approved therapy guidelines the following medications have set maximum quantity limits per copay. These quantity limits are less than the standard pharmacy benefit of a 30-day or 90-day supply.  Quantity limits are determined by the recommended length of therapy and/or routine use of the medication and also apply when the medication form is other than a tablet or capsule.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ok.gov/api/views/7yui-a476.json"
+    }
+  }, 
+  "name": "HealthChoice Medicare Supplement Plans Medications with Quantity Limits", 
+  "schema": {
+    "columns": [
+      {
+        "name": "drug_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "dosage_form", 
+        "type": "text"
+      }, 
+      {
+        "name": "route_of_admin", 
+        "type": "text"
+      }, 
+      {
+        "name": "strength", 
+        "type": "text"
+      }, 
+      {
+        "name": "tier_level_value", 
+        "type": "real"
+      }, 
+      {
+        "name": "quantity_limit_amount", 
+        "type": "text"
+      }, 
+      {
+        "name": "quantity_limit_days", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.ok.gov", 
+  "tableName": "healthchoice_medicare_supplement_plans_medications_with_quantity_limits"
+}

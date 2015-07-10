@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_medicare_ownership/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/y2hd-n93e/rows.csv"
+    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/y2hd-n93e/rows.csv", 
+    "type": "csv"
   }, 
   "description": "A list of ownership information for currently active nursing homes.", 
   "maintainer": {
@@ -71,5 +72,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_medicare_ownership"
+  "schemaName": "socrata/data.medicare.gov", 
+  "tableName": "ownership"
 }

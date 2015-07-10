@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_montgomerycountymd_commercial_permits/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/i26v-w6bd/rows.csv"
+    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/i26v-w6bd/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Data for all Commercial Building Permits issued since 2000, including status and work performed.\r\n\r\nUpdate Frequency:  Daily", 
   "maintainer": {
@@ -99,5 +100,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_montgomerycountymd_commercial_permits"
+  "schemaName": "socrata/data.montgomerycountymd.gov", 
+  "tableName": "commercial_permits"
 }

@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wa_dsdam_construction_type/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/4z9g-5gai/rows.csv"
+    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/4z9g-5gai/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Testing file for the upload of data form an SSIS package in MS SQL Server through datasync", 
   "maintainer": {
@@ -27,5 +28,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_wa_dsdam_construction_type"
+  "schemaName": "socrata/data.wa.gov", 
+  "tableName": "dsdam_construction_type"
 }

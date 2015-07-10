@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_medicare_penalties/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/g6vv-u9sr/rows.csv"
+    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/g6vv-u9sr/rows.csv", 
+    "type": "csv"
   }, 
   "description": "A list of the fines and payment denials currently displayed on Nursing Home Compare.", 
   "maintainer": {
@@ -71,5 +72,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_medicare_penalties"
+  "schemaName": "socrata/data.medicare.gov", 
+  "tableName": "penalties"
 }

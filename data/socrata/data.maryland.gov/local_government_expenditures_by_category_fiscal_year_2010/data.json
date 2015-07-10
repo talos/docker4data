@@ -1,0 +1,54 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/local_government_expenditures_by_category_fiscal_year_2010/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/aid4-m6ib/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "State, county, and municipal expenditures by spending category. Source: Local Government Finances Fiscal 2010 (Department of Legislative Services), via Overview of Maryland Local Governments Finances and Demographic Information (Department of Legislative Services, 2012. Link: http://mgaleg.maryland.gov/pubs/budgetfiscal/2012-local-government-finances-demographics.pdf)", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Source: Local Government Finances Fiscal 2010 (Department of Legislative Services), via Overview of Maryland Local Governments Finances and Demographic Information (Department of Legislative Services, 2012. Link: http://mgaleg.maryland.gov/pubs/budgetfiscal/2012-local-government-finances-demographics.pdf)", 
+    "category": "Budget", 
+    "description": "State, county, and municipal expenditures by spending category. Source: Local Government Finances Fiscal 2010 (Department of Legislative Services), via Overview of Maryland Local Governments Finances and Demographic Information (Department of Legislative Services, 2012. Link: http://mgaleg.maryland.gov/pubs/budgetfiscal/2012-local-government-finances-demographics.pdf)", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/aid4-m6ib.json"
+    }
+  }, 
+  "name": "Local Government Expenditures By Category \u2013 Fiscal Year 2010", 
+  "schema": {
+    "columns": [
+      {
+        "name": "category", 
+        "type": "text"
+      }, 
+      {
+        "name": "total_local_expenditures", 
+        "type": "real"
+      }, 
+      {
+        "name": "percent_of_total", 
+        "type": "text"
+      }, 
+      {
+        "name": "municipal_expenditures", 
+        "type": "real"
+      }, 
+      {
+        "name": "percent_municipal", 
+        "type": "text"
+      }, 
+      {
+        "name": "county_expenditures", 
+        "type": "real"
+      }, 
+      {
+        "name": "percent_county", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.maryland.gov", 
+  "tableName": "local_government_expenditures_by_category_fiscal_year_2010"
+}

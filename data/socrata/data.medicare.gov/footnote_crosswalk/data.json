@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_medicare_footnote_crosswalk/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/y9us-9xdf/rows.csv"
+    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/y9us-9xdf/rows.csv", 
+    "type": "csv"
   }, 
   "description": "The footnote crosswalk displays a list of footnotes and their summary.", 
   "maintainer": {
@@ -27,5 +28,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_medicare_footnote_crosswalk"
+  "schemaName": "socrata/data.medicare.gov", 
+  "tableName": "footnote_crosswalk"
 }

@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_weatherfordtx_permits_issued/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/fq45-73gh/rows.csv"
+    "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/fq45-73gh/rows.csv", 
+    "type": "csv"
   }, 
   "description": "All historical permits issued, including issue date, type, subtype, etc.", 
   "maintainer": {
@@ -56,5 +57,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_weatherfordtx_permits_issued"
+  "schemaName": "socrata/data.weatherfordtx.gov", 
+  "tableName": "permits_issued"
 }

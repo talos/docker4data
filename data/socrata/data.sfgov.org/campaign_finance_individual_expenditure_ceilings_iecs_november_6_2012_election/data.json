@@ -1,0 +1,40 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/campaign_finance_individual_expenditure_ceilings_iecs_november_6_2012_election/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/85cd-6rtn/rows.csv", 
+    "type": "csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "San Francisco Ethics Commission", 
+    "category": "City Management and Ethics", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/85cd-6rtn.json"
+    }
+  }, 
+  "name": "Campaign Finance - Individual Expenditure Ceilings (IECs) - November 6, 2012 Election", 
+  "schema": {
+    "columns": [
+      {
+        "name": "district", 
+        "type": "text"
+      }, 
+      {
+        "name": "candidate", 
+        "type": "text"
+      }, 
+      {
+        "name": "date_iec_raised", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "amount_of_iec", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.sfgov.org", 
+  "tableName": "campaign_finance_individual_expenditure_ceilings_iecs_november_6_2012_election"
+}

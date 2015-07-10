@@ -1,0 +1,44 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/measure_20_percentage_of_people_with_high_blood_pressure_that_is_controlled_age_group/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/f94q-uyye/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Inclusion Criteria: All non-pregnant survey participants ages 18+ years with non-zero blood pressure measurements. \r\n<br/>\r\nExclusion Criteria: Pregnant women. Blood pressure measurements were not obtained in survey participants less than age 8 years and use of anti-hypertensive medication questionnaire not asked of survey participants less than age 16 years. Insufficient sample size of controlled blood pressure for ages 16-17 years, therefore this age range not included.\r\n<br/>", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "description": "Inclusion Criteria: All non-pregnant survey participants ages 18+ years with non-zero blood pressure measurements. \r\n<br/>\r\nExclusion Criteria: Pregnant women. Blood pressure measurements were not obtained in survey participants less than age 8 years and use of anti-hypertensive medication questionnaire not asked of survey participants less than age 16 years. Insufficient sample size of controlled blood pressure for ages 16-17 years, therefore this age range not included.\r\n<br/>", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/f94q-uyye.json"
+    }
+  }, 
+  "name": "Measure 20 : Percentage of People with High Blood Pressure that is Controlled | Age Group", 
+  "schema": {
+    "columns": [
+      {
+        "name": "measure_value", 
+        "type": "text"
+      }, 
+      {
+        "name": "year", 
+        "type": "text"
+      }, 
+      {
+        "name": "age_group", 
+        "type": "text"
+      }, 
+      {
+        "name": "lower_ci", 
+        "type": "real"
+      }, 
+      {
+        "name": "upper_ci", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/healthmeasures.aspe.hhs.gov", 
+  "tableName": "measure_20_percentage_of_people_with_high_blood_pressure_that_is_controlled_age_group"
+}

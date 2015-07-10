@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_building_permits_older_than_5_years/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/47eb-r92t/rows.csv"
+    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/47eb-r92t/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Building Permits issued more than 5 years ago.", 
   "maintainer": {
@@ -100,5 +101,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_seattle_building_permits_older_than_5_years"
+  "schemaName": "socrata/data.seattle.gov", 
+  "tableName": "building_permits_older_than_5_years"
 }

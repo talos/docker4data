@@ -1,0 +1,58 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/all_payer_inpatient_quality_indicators_iqi_volume_measures_by_hospital_sparcs_beginning_2009/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/cskh-k5ew/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "The datasets contain hospital discharges counts (numerators, denominators, volume counts), observed, expected and risk-adjusted rates with corresponding 95% confidence intervals for IQIs generated using methodology developed by Agency for Healthcare Research and Quality (AHRQ).\r\nThe IQIs are a set of measures that provide a perspective on hospital quality of care using hospital administrative data. These indicators reflect quality of care inside hospitals and include inpatient mortality for certain procedures and medical conditions; utilization of procedures for which there are questions of overuse, underuse, and misuse; and volume of procedures for which there is some evidence that a higher volume of procedures is associated with lower mortality.\r\nAll the IQI measures were calculated using Statewide Planning and Research Cooperative System (SPARCS) inpatient data beginning 2009. US Census data files provided by AHRQ were used to derive denominators for county level (area level) IQI measures.\r\n\r\nThe mortality, volume and utilization measures IQIs are presented by hospital as rates or counts. Area-level utilization measures are presented by county as rates. For more information, check out: http://www.health.ny.gov/statistics/sparcs/, or go to the \"About\" tab.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New York State Department of Health", 
+    "category": "Health", 
+    "description": "The datasets contain hospital discharges counts (numerators, denominators, volume counts), observed, expected and risk-adjusted rates with corresponding 95% confidence intervals for IQIs generated using methodology developed by Agency for Healthcare Research and Quality (AHRQ).\r\nThe IQIs are a set of measures that provide a perspective on hospital quality of care using hospital administrative data. These indicators reflect quality of care inside hospitals and include inpatient mortality for certain procedures and medical conditions; utilization of procedures for which there are questions of overuse, underuse, and misuse; and volume of procedures for which there is some evidence that a higher volume of procedures is associated with lower mortality.\r\nAll the IQI measures were calculated using Statewide Planning and Research Cooperative System (SPARCS) inpatient data beginning 2009. US Census data files provided by AHRQ were used to derive denominators for county level (area level) IQI measures.\r\n\r\nThe mortality, volume and utilization measures IQIs are presented by hospital as rates or counts. Area-level utilization measures are presented by county as rates. For more information, check out: http://www.health.ny.gov/statistics/sparcs/, or go to the \"About\" tab.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/cskh-k5ew.json"
+    }
+  }, 
+  "name": "All Payer Inpatient Quality Indicators (IQI) Volume Measures by Hospital (SPARCS): Beginning 2009", 
+  "schema": {
+    "columns": [
+      {
+        "name": "year", 
+        "type": "real"
+      }, 
+      {
+        "name": "facility_id", 
+        "type": "real"
+      }, 
+      {
+        "name": "hospital_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "hospital_county", 
+        "type": "text"
+      }, 
+      {
+        "name": "hospital_region", 
+        "type": "text"
+      }, 
+      {
+        "name": "iqi_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "iqi_value", 
+        "type": "text"
+      }, 
+      {
+        "name": "volume", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/health.data.ny.gov", 
+  "tableName": "all_payer_inpatient_quality_indicators_iqi_volume_measures_by_hospital_sparcs_beginning_2009"
+}

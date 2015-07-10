@@ -1,0 +1,118 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/real_property_transactions_of_local_development_corporations/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/ajgp-mddq/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "This dataset consists of 3 years of real property transactions reported by Local Development Corporations.  Public authorities are required by Section 2800 of Public Authorities Law to submit annual reports to the Authorities Budget Office (ABO) that include real property transactions data.  Authorities are required to report real property transactions having an estimated fair market of more than $15,000.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Authorities Budget Office (ABO)", 
+    "category": "Transparency", 
+    "description": "This dataset consists of 3 years of real property transactions reported by Local Development Corporations.  Public authorities are required by Section 2800 of Public Authorities Law to submit annual reports to the Authorities Budget Office (ABO) that include real property transactions data.  Authorities are required to report real property transactions having an estimated fair market of more than $15,000.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/ajgp-mddq.json"
+    }
+  }, 
+  "name": "Real Property Transactions of Local Development Corporations", 
+  "schema": {
+    "columns": [
+      {
+        "name": "authority_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "fiscal_year_end_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "property_transactions", 
+        "type": "text"
+      }, 
+      {
+        "name": "property_address1", 
+        "type": "text"
+      }, 
+      {
+        "name": "property_address2", 
+        "type": "text"
+      }, 
+      {
+        "name": "property_city", 
+        "type": "text"
+      }, 
+      {
+        "name": "property_state", 
+        "type": "text"
+      }, 
+      {
+        "name": "property_postal_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "property_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "estimated_fair_market_value", 
+        "type": "real"
+      }, 
+      {
+        "name": "fair_market_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "transaction_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "transaction_type_other", 
+        "type": "text"
+      }, 
+      {
+        "name": "transaction_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "purchase_sale_price", 
+        "type": "real"
+      }, 
+      {
+        "name": "market_rate", 
+        "type": "real"
+      }, 
+      {
+        "name": "lease_rate", 
+        "type": "real"
+      }, 
+      {
+        "name": "lease_period", 
+        "type": "real"
+      }, 
+      {
+        "name": "seller_purchaser_tenant", 
+        "type": "text"
+      }, 
+      {
+        "name": "relation_with_authority", 
+        "type": "text"
+      }, 
+      {
+        "name": "seller_purchaser_tenant_city", 
+        "type": "text"
+      }, 
+      {
+        "name": "seller_purchaser_tenant_state", 
+        "type": "text"
+      }, 
+      {
+        "name": "seller_purchaser_tenant_postal_code", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "real_property_transactions_of_local_development_corporations"
+}

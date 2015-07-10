@@ -1,0 +1,46 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/state_taxes_and_fees_collected_beginning_fiscal_year_ending_march_31_2003/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/cpjr-ezcj/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "The Department of Taxation and Finance annually produces a compilation of the taxes and fees collected by the department. The taxes and fees information provided in this data set are primarily taxes imposed by the Tax Law, but also includes fees that are imposed by other state laws but are administered and collected by the Department. Collections are net of refunds and other processing and accounting adjustments.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New York State Department of Taxation and Finance", 
+    "category": "Government & Finance", 
+    "description": "The Department of Taxation and Finance annually produces a compilation of the taxes and fees collected by the department. The taxes and fees information provided in this data set are primarily taxes imposed by the Tax Law, but also includes fees that are imposed by other state laws but are administered and collected by the Department. Collections are net of refunds and other processing and accounting adjustments.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/cpjr-ezcj.json"
+    }
+  }, 
+  "name": "State Taxes and Fees Collected: Beginning Fiscal Year Ending March 31, 2003", 
+  "schema": {
+    "columns": [
+      {
+        "name": "fiscal_year", 
+        "type": "real"
+      }, 
+      {
+        "name": "tax_category", 
+        "type": "text"
+      }, 
+      {
+        "name": "tax_or_fee", 
+        "type": "text"
+      }, 
+      {
+        "name": "amount_collected", 
+        "type": "real"
+      }, 
+      {
+        "name": "tax_or_fee_sort_order", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "state_taxes_and_fees_collected_beginning_fiscal_year_ending_march_31_2003"
+}

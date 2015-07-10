@@ -1,0 +1,74 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/lobbyist_data_lobbyist_categorized_expenditures_report/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/bc2p-hky6/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "The lobbyist categorized expenditures report is part of the Lobbyist Activity Report, a notarized disclosure that must be filed twice each year (January 20th and July 20th). Lobbyists are required to report  the total amount of lobbying-related expenditures paid by the lobbyist or charged to the client in each of the categories listed on Form C, Part 3 of 3, Section H, Question 3 (http://bit.ly/q2lRTh). All lobbyist activity reports are submitted to the Board of Ethics in paper form and are available in their entirety in the Board's offices. The Board has, since 2000, compiled and posted static lists of all lobbyists and their clients online. / Data Owner: Board of Ethics [http://j.mp/mbH9BN] / Time Period: January 1, 2011 to present/ Frequency: Data is updated daily / Related Applications: Registered Lobbyist List [http://bit.ly/FOctNY]", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "City of Chicago", 
+    "category": "Ethics", 
+    "description": "The lobbyist categorized expenditures report is part of the Lobbyist Activity Report, a notarized disclosure that must be filed twice each year (January 20th and July 20th). Lobbyists are required to report  the total amount of lobbying-related expenditures paid by the lobbyist or charged to the client in each of the categories listed on Form C, Part 3 of 3, Section H, Question 3 (http://bit.ly/q2lRTh). All lobbyist activity reports are submitted to the Board of Ethics in paper form and are available in their entirety in the Board's offices. The Board has, since 2000, compiled and posted static lists of all lobbyists and their clients online. / Data Owner: Board of Ethics [http://j.mp/mbH9BN] / Time Period: January 1, 2011 to present/ Frequency: Data is updated daily / Related Applications: Registered Lobbyist List [http://bit.ly/FOctNY]", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/bc2p-hky6.json"
+    }
+  }, 
+  "name": "Lobbyist Data - Lobbyist Categorized Expenditures Report", 
+  "schema": {
+    "columns": [
+      {
+        "name": "filing_year", 
+        "type": "real"
+      }, 
+      {
+        "name": "last_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "first_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "middle_initial", 
+        "type": "text"
+      }, 
+      {
+        "name": "client_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "office_expenses", 
+        "type": "real"
+      }, 
+      {
+        "name": "compensation_to_others", 
+        "type": "real"
+      }, 
+      {
+        "name": "public_education", 
+        "type": "real"
+      }, 
+      {
+        "name": "personal_sustenance", 
+        "type": "real"
+      }, 
+      {
+        "name": "other_expenses", 
+        "type": "real"
+      }, 
+      {
+        "name": "total_expenses", 
+        "type": "real"
+      }, 
+      {
+        "name": "filing_period", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.cityofchicago.org", 
+  "tableName": "lobbyist_data_lobbyist_categorized_expenditures_report"
+}

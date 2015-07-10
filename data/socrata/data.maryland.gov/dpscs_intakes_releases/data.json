@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_dpscs_intakes_releases/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/virj-gd9a/rows.csv"
+    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/virj-gd9a/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Data reflect the Department of Public Safety and Correctional Service's intakes to correctional facilities, including:  intakes from court, return from mandatory / parole supervision, return from escape, return from mental hospital, and return from Patuxent Institute.\r\n\r\nData reflect the Department of Public Safety and Correctional Service's releases from correctional facilities, including:  expiration of sentence, mandatory release, parole, continued on supervision, commutation, court order, transfer to Patuxent, death, and escape.", 
   "maintainer": {
@@ -32,5 +33,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_maryland_dpscs_intakes_releases"
+  "schemaName": "socrata/data.maryland.gov", 
+  "tableName": "dpscs_intakes_releases"
 }

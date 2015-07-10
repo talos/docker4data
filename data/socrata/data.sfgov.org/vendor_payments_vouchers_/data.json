@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_vendor_payments_vouchers_/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/n9pm-xkyq/rows.csv"
+    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/n9pm-xkyq/rows.csv", 
+    "type": "csv"
   }, 
   "description": "The San Francisco Controller's Office maintains a database of payments made to vendors from fiscal year 2007 forward. This data is presented on the Vendor Payments report hosted at http://openbook.sfgov.org, and is also available in this dataset in CSV format, which represents detailed data by voucher. New data is added on a weekly basis.", 
   "maintainer": {
@@ -120,5 +121,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_sfgov_vendor_payments_vouchers_"
+  "schemaName": "socrata/data.sfgov.org", 
+  "tableName": "vendor_payments_vouchers_"
 }

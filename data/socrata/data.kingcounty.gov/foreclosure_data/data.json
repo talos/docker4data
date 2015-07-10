@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_kingcounty_foreclosure_data/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/fsze-bwc2/rows.csv"
+    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/fsze-bwc2/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Dataset for foreclosure data from mainframe", 
   "maintainer": {
@@ -48,5 +49,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_kingcounty_foreclosure_data"
+  "schemaName": "socrata/data.kingcounty.gov", 
+  "tableName": "foreclosure_data"
 }

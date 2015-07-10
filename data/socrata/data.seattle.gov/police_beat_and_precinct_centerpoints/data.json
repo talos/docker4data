@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_police_beat_and_precinct_centerpoints/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/4khs-fz35/rows.csv"
+    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/4khs-fz35/rows.csv", 
+    "type": "csv"
   }, 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -33,5 +34,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_seattle_police_beat_and_precinct_centerpoints"
+  "schemaName": "socrata/data.seattle.gov", 
+  "tableName": "police_beat_and_precinct_centerpoints"
 }

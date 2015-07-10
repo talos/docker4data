@@ -1,0 +1,844 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/utilization_and_costs_of_health_services_for_medicare_beneficiaries_washington_state_and_counties_2007_2013/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/4yjd-2ysy/rows.csv", 
+    "type": "csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Wei Yen, Washington State Office of Financial Management", 
+    "category": "Health", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.wa.gov/api/views/4yjd-2ysy.json"
+    }
+  }, 
+  "name": "Utilization and Costs of Health Services for Medicare Beneficiaries, Washington State and Counties, 2007-2013", 
+  "schema": {
+    "columns": [
+      {
+        "name": "county", 
+        "type": "text"
+      }, 
+      {
+        "name": "to_sort_by_county_and_year", 
+        "type": "text"
+      }, 
+      {
+        "name": "to_sort_by_year_and_county", 
+        "type": "text"
+      }, 
+      {
+        "name": "year", 
+        "type": "text"
+      }, 
+      {
+        "name": "asc_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "asc_actual_costs_as_of_total_actual_costs", 
+        "type": "text"
+      }, 
+      {
+        "name": "asc_events_per_1000_beneficiaries", 
+        "type": "real"
+      }, 
+      {
+        "name": "asc_per_capita_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "asc_per_capita_standardized_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "asc_per_user_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "asc_per_user_standardized_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "asc_standardized_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "asc_standardized_costs_as_of_total_standardized_costs", 
+        "type": "text"
+      }, 
+      {
+        "name": "asc_users", 
+        "type": "real"
+      }, 
+      {
+        "name": "actual_per_capita_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "number_of_acute_hospital_readmissions", 
+        "type": "real"
+      }, 
+      {
+        "name": "ambulance_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "part_b_drugs_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "part_b_drugs_actual_costs_as_of_total_actual_costs", 
+        "type": "text"
+      }, 
+      {
+        "name": "part_b_drugs_per_capita_standardized_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "part_b_drugs_per_capita_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "part_b_drugs_per_user_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "part_b_drugs_per_user_standardized_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "part_b_drugs_standardized_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "part_b_drugs_standardized_costs_as_of_total_standardized_costs", 
+        "type": "text"
+      }, 
+      {
+        "name": "part_b_drugs_users", 
+        "type": "real"
+      }, 
+      {
+        "name": "dme_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "dme_actual_costs_as_of_total_actual_costs", 
+        "type": "text"
+      }, 
+      {
+        "name": "dme_events_per_1000_beneficiaries", 
+        "type": "real"
+      }, 
+      {
+        "name": "dme_per_capita_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "dme_per_capita_standardized_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "dme_per_user_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "dme_per_user_standardized_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "dme_standardized_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "dme_standardized_costs_as_of_total_standardized_costs", 
+        "type": "text"
+      }, 
+      {
+        "name": "dme_users", 
+        "type": "real"
+      }, 
+      {
+        "name": "emergency_department_visits", 
+        "type": "real"
+      }, 
+      {
+        "name": "emergency_department_visits_per_1_000_beneficiaries", 
+        "type": "real"
+      }, 
+      {
+        "name": "em_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "em_actual_costs_as_of_total_actual_costs", 
+        "type": "text"
+      }, 
+      {
+        "name": "em_events_per_1000_beneficiaries", 
+        "type": "real"
+      }, 
+      {
+        "name": "em_per_capita_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "em_per_capita_standardized_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "em_per_user_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "em_per_user_standardized_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "em_standardized_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "em_standardized_costs_as_of_total_standardized_costs", 
+        "type": "text"
+      }, 
+      {
+        "name": "em_users", 
+        "type": "real"
+      }, 
+      {
+        "name": "fqhc_rhc_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "fqhc_rhc_actual_costs_as_of_total_actual_costs", 
+        "type": "text"
+      }, 
+      {
+        "name": "fqhc_rhc_per_capita_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "fqhc_rhc_per_capita_standardized_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "fqhc_rhc_per_user_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "fqhc_rhc_per_user_standardized_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "fqhc_rhc_standardized_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "fqhc_rhc_standardized_costs_as_of_total_standardized_costs", 
+        "type": "text"
+      }, 
+      {
+        "name": "fqhc_rhc_users", 
+        "type": "real"
+      }, 
+      {
+        "name": "fqhc_rhc_visits_per_1000_beneficiaries", 
+        "type": "real"
+      }, 
+      {
+        "name": "hospital_readmission_rate", 
+        "type": "text"
+      }, 
+      {
+        "name": "hospice_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "hospice_actual_costs_as_of_total_actual_costs", 
+        "type": "text"
+      }, 
+      {
+        "name": "hospice_covered_days_per_1000_beneficiaries", 
+        "type": "real"
+      }, 
+      {
+        "name": "hospice_per_capita_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "hospice_per_capita_standardized_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "hospice_per_user_standardized_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "hospice_standardized_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "hospice_standardized_costs_as_of_total_standardized_costs", 
+        "type": "text"
+      }, 
+      {
+        "name": "hospice_users_with_a_covered_stay", 
+        "type": "real"
+      }, 
+      {
+        "name": "ip_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "ip_actual_costs_as_of_total_actual_costs", 
+        "type": "text"
+      }, 
+      {
+        "name": "ip_covered_days_per_1000_beneficiaries", 
+        "type": "real"
+      }, 
+      {
+        "name": "ip_covered_stays_per_1000_beneficiaries", 
+        "type": "real"
+      }, 
+      {
+        "name": "ip_per_capita_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "ip_per_capita_standardized_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "ip_per_user_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "ip_per_user_standardized_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "ip_standardized_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "ip_standardized_costs_as_of_total_standardized_costs", 
+        "type": "text"
+      }, 
+      {
+        "name": "ip_users_with_a_covered_stay", 
+        "type": "real"
+      }, 
+      {
+        "name": "imaging_actual_costs_as_of_total_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "imaging_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "imaging_events_per_1000_beneficiaries", 
+        "type": "real"
+      }, 
+      {
+        "name": "imaging_per_capita_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "imaging_per_user_standardized_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "imaging_standardized_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "imaging_standardized_costs_as_of_total_standardized_costs", 
+        "type": "text"
+      }, 
+      {
+        "name": "imaging_users", 
+        "type": "real"
+      }, 
+      {
+        "name": "imaging_per_user_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "outpatient_dialysis_facility_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "outpatient_dialysis_facility_actual_costs_as_of_total_actual_costs", 
+        "type": "text"
+      }, 
+      {
+        "name": "outpatient_dialysis_facility_per_capita_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "outpatient_dialysis_facility_per_capita_standardized_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "outpatient_dialysis_facility_per_user_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "outpatient_dialysis_facility_per_user_standardized_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "outpatient_dialysis_facility_standardized_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "outpatient_dialysis_facility_standardized_costs_as_of_total_standardized_costs", 
+        "type": "text"
+      }, 
+      {
+        "name": "outpatient_dialysis_facility_users", 
+        "type": "real"
+      }, 
+      {
+        "name": "op_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "op_actual_costs_as_of_total_actual_costs", 
+        "type": "text"
+      }, 
+      {
+        "name": "outpatient_dialysis_facility_events_per_1000_beneficiaries", 
+        "type": "real"
+      }, 
+      {
+        "name": "op_per_capita_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "op_per_capita_standardized_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "op_per_user_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "op_per_user_standardized_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "op_standardized_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "op_standardized_costs_as_of_total_standardized_costs", 
+        "type": "text"
+      }, 
+      {
+        "name": "op_users", 
+        "type": "real"
+      }, 
+      {
+        "name": "op_visits_per_1000_beneficiaries", 
+        "type": "real"
+      }, 
+      {
+        "name": "pac_hh_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "pac_hh_actual_costs_as_of_total_actual_costs", 
+        "type": "text"
+      }, 
+      {
+        "name": "pac_hh_episodes_per_1000_beneficiaries", 
+        "type": "real"
+      }, 
+      {
+        "name": "pac_hh_per_capita_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "pac_hh_per_capita_standardized_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "pac_hh_per_user_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "pac_hh_per_user_standardized_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "pac_hh_standardized_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "pac_hh_standardized_costs_as_of_total_standardized_costs", 
+        "type": "text"
+      }, 
+      {
+        "name": "pac_hh_users", 
+        "type": "real"
+      }, 
+      {
+        "name": "pac_hh_visits_per_1000_beneficiaries", 
+        "type": "real"
+      }, 
+      {
+        "name": "pac_irf_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "pac_irf_actual_costs_as_of_total_actual_costs", 
+        "type": "text"
+      }, 
+      {
+        "name": "pac_irf_covered_days_per_1000_beneficiaries", 
+        "type": "real"
+      }, 
+      {
+        "name": "pac_irf_covered_stays_per_1000_beneficiaries", 
+        "type": "real"
+      }, 
+      {
+        "name": "pac_irf_per_capita_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "pac_irf_per_capita_standardized_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "pac_irf_per_user_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "pac_irf_per_user_standardized_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "pac_irf_standardized_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "pac_irf_standardized_costs_as_of_total_standardized_costs", 
+        "type": "text"
+      }, 
+      {
+        "name": "pac_irf_users_with_a_covered_stay", 
+        "type": "real"
+      }, 
+      {
+        "name": "pac_ltch_actual_costs", 
+        "type": "text"
+      }, 
+      {
+        "name": "pac_ltch_actual_costs_as_of_total_actual_costs", 
+        "type": "text"
+      }, 
+      {
+        "name": "pac_ltch_covered_days_per_1000_beneficiaries", 
+        "type": "text"
+      }, 
+      {
+        "name": "pac_ltch_covered_stays_per_1000_beneficiaries", 
+        "type": "text"
+      }, 
+      {
+        "name": "pac_ltch_per_capita_actual_costs", 
+        "type": "text"
+      }, 
+      {
+        "name": "pac_ltch_per_capita_standardized_costs", 
+        "type": "text"
+      }, 
+      {
+        "name": "pac_ltch_per_user_actual_costs", 
+        "type": "text"
+      }, 
+      {
+        "name": "pac_ltch_per_user_standardized_costs", 
+        "type": "text"
+      }, 
+      {
+        "name": "pac_ltch_standardized_costs", 
+        "type": "text"
+      }, 
+      {
+        "name": "pac_ltch_standardized_costs_as_of_total_standardized_costs", 
+        "type": "text"
+      }, 
+      {
+        "name": "pac_ltch_users_with_a_covered_stay", 
+        "type": "text"
+      }, 
+      {
+        "name": "pac_snf_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "pac_snf_actual_costs_as_of_total_actual_costs", 
+        "type": "text"
+      }, 
+      {
+        "name": "pac_snf_covered_days_per_1000_beneficiaries", 
+        "type": "real"
+      }, 
+      {
+        "name": "pac_snf_covered_stays_per_1000_beneficiaries", 
+        "type": "real"
+      }, 
+      {
+        "name": "pac_snf_per_capita_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "pac_snf_per_capita_standardized_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "pac_snf_per_user_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "pac_snf_per_user_standardized_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "pac_snf_standardized_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "pac_snf_standardized_costs_as_of_total_standardized_costs", 
+        "type": "text"
+      }, 
+      {
+        "name": "pac_snf_users_with_a_covered_stay", 
+        "type": "real"
+      }, 
+      {
+        "name": "procedures_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "procedures_actual_costs_as_of_total_actual_costs", 
+        "type": "text"
+      }, 
+      {
+        "name": "procedures_events_per_1000_beneficiaries", 
+        "type": "real"
+      }, 
+      {
+        "name": "procedures_per_capita_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "procedures_per_capita_standardized_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "procedures_per_user_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "procedures_per_user_standardized_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "procedures_standardized_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "procedures_standardized_costs_as_of_total_standardized_costs", 
+        "type": "text"
+      }, 
+      {
+        "name": "procedures_users", 
+        "type": "real"
+      }, 
+      {
+        "name": "tests_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "tests_actual_costs_as_of_total_actual_costs", 
+        "type": "text"
+      }, 
+      {
+        "name": "tests_events_per_1000_beneficiaries", 
+        "type": "real"
+      }, 
+      {
+        "name": "tests_per_capita_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "tests_per_capita_standardized_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "tests_per_user_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "tests_per_user_standardized_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "tests_standardized_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "tests_standardized_costs_as_of_total_standardized_costs", 
+        "type": "text"
+      }, 
+      {
+        "name": "tests_users", 
+        "type": "real"
+      }, 
+      {
+        "name": "total_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "total_standardized_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "total_standardized_risk_adjusted_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "of_beneficiaries_using_asc", 
+        "type": "text"
+      }, 
+      {
+        "name": "of_beneficiaries_using_part_b_drugs", 
+        "type": "text"
+      }, 
+      {
+        "name": "of_beneficiaries_using_dme", 
+        "type": "text"
+      }, 
+      {
+        "name": "of_beneficiaries_using_em", 
+        "type": "text"
+      }, 
+      {
+        "name": "of_beneficiaries_using_fqhc_rhc", 
+        "type": "text"
+      }, 
+      {
+        "name": "of_beneficiaries_using_ip", 
+        "type": "text"
+      }, 
+      {
+        "name": "of_beneficiaries_using_outpatient_dialysis_facility", 
+        "type": "text"
+      }, 
+      {
+        "name": "of_beneficiaries_using_op", 
+        "type": "text"
+      }, 
+      {
+        "name": "of_beneficiaries_using_pac_hh", 
+        "type": "text"
+      }, 
+      {
+        "name": "of_beneficiaries_using_pac_irf", 
+        "type": "text"
+      }, 
+      {
+        "name": "of_beneficiaries_using_pac_ltch", 
+        "type": "text"
+      }, 
+      {
+        "name": "of_beneficiaries_using_pac_snf", 
+        "type": "text"
+      }, 
+      {
+        "name": "of_beneficiaries_using_ambulance", 
+        "type": "text"
+      }, 
+      {
+        "name": "of_beneficiaries_using_hospice", 
+        "type": "text"
+      }, 
+      {
+        "name": "of_beneficiaries_using_imaging", 
+        "type": "text"
+      }, 
+      {
+        "name": "of_beneficiaries_using_procedures", 
+        "type": "text"
+      }, 
+      {
+        "name": "of_beneficiaries_using_tests", 
+        "type": "text"
+      }, 
+      {
+        "name": "ambulance_actual_costs_as_of_total_actual_costs", 
+        "type": "text"
+      }, 
+      {
+        "name": "ambulance_per_capita_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "ambulance_per_capita_standardized_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "ambulance_per_user_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "ambulance_per_user_standardized_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "ambulance_standardized_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "ambulance_standardized_costs_as_of_total_standardized_costs", 
+        "type": "text"
+      }, 
+      {
+        "name": "ambulance_users", 
+        "type": "real"
+      }, 
+      {
+        "name": "hospice_covered_stays_per_1000_beneficiaries", 
+        "type": "real"
+      }, 
+      {
+        "name": "hospice_per_user_actual_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "imaging_per_capita_standardized_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "standardized_per_capita_costs", 
+        "type": "real"
+      }, 
+      {
+        "name": "standardized_risk_adjusted_per_capita_costs", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.wa.gov", 
+  "tableName": "utilization_and_costs_of_health_services_for_medicare_beneficiaries_washington_state_and_counties_2007_2013"
+}

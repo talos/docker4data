@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_2012_program_enrollment_data/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/au97-6um7/rows.csv"
+    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/9nmq-76s4/rows.csv", 
+    "type": "csv"
   }, 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -9,7 +10,7 @@
   "metadata": {
     "category": "Health-Medicaid", 
     "socrata": {
-      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/au97-6um7.json"
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/9nmq-76s4.json"
     }
   }, 
   "name": "2012 Program Enrollment Data", 
@@ -28,7 +29,7 @@
         "type": "text"
       }, 
       {
-        "name": "racecd", 
+        "name": "newracecd", 
         "type": "text"
       }, 
       {
@@ -57,5 +58,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_illinois_2012_program_enrollment_data"
+  "schemaName": "socrata/data.illinois.gov", 
+  "tableName": "2012_program_enrollment_data"
 }

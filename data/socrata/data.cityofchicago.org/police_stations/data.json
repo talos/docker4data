@@ -1,0 +1,66 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/police_stations/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/z8bn-74gv/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Chicago Police district station locations and contact information.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Chicago Police Department", 
+    "category": "Public Safety", 
+    "description": "Chicago Police district station locations and contact information.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/z8bn-74gv.json"
+    }
+  }, 
+  "name": "Police Stations", 
+  "schema": {
+    "columns": [
+      {
+        "name": "district", 
+        "type": "text"
+      }, 
+      {
+        "name": "address", 
+        "type": "text"
+      }, 
+      {
+        "name": "city", 
+        "type": "text"
+      }, 
+      {
+        "name": "state", 
+        "type": "text"
+      }, 
+      {
+        "name": "zip", 
+        "type": "text"
+      }, 
+      {
+        "name": "website", 
+        "type": "text"
+      }, 
+      {
+        "name": "phone", 
+        "type": "text"
+      }, 
+      {
+        "name": "fax", 
+        "type": "text"
+      }, 
+      {
+        "name": "tty", 
+        "type": "text"
+      }, 
+      {
+        "name": "location", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.cityofchicago.org", 
+  "tableName": "police_stations"
+}

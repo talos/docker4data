@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_contaminated_land_acres_cleaned/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/qc59-k65f/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/qc59-k65f/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Maintain the number of contaminated land acres cleaned at 100 acres every year through 2017.", 
   "maintainer": {
@@ -32,5 +33,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ok_contaminated_land_acres_cleaned"
+  "schemaName": "socrata/data.ok.gov", 
+  "tableName": "contaminated_land_acres_cleaned"
 }

@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_medicare_home_health_care_agencies/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/6jpm-sxkc/rows.csv"
+    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/6jpm-sxkc/rows.csv", 
+    "type": "csv"
   }, 
   "description": "A list of all Home Health Agencies that have been registered with Medicare. The list includes addresses, phone numbers, and quality measure ratings for each agency.", 
   "maintainer": {
@@ -259,5 +260,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_medicare_home_health_care_agencies"
+  "schemaName": "socrata/data.medicare.gov", 
+  "tableName": "home_health_care_agencies"
 }

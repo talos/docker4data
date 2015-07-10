@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wellingtonfl_building_permits/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.wellingtonfl.gov/api/views/ezn9-g8km/rows.csv"
+    "@id": "http://www.opendatacache.com/data.wellingtonfl.gov/api/views/ezn9-g8km/rows.csv", 
+    "type": "csv"
   }, 
   "description": "List of Building Permits", 
   "maintainer": {
@@ -70,5 +71,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_wellingtonfl_building_permits"
+  "schemaName": "socrata/data.wellingtonfl.gov", 
+  "tableName": "building_permits"
 }

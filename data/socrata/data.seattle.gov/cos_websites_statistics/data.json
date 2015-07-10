@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_cos_websites_statistics/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/x2vz-tbcx/rows.csv"
+    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/vtyv-f9qh/rows.csv", 
+    "type": "csv"
   }, 
   "description": "A high level collection of pageviews and session information based on Google Analytics data. Not all city web servers are tagged with Google Analytics and not all servers appear in this report. These are the main customer focused web servers at the city.", 
   "maintainer": {
@@ -10,22 +11,14 @@
   "metadata": {
     "attribution": "City of Seattle", 
     "category": "City Business", 
-    "description": "A high level collection of pageviews and session information based on Google Analytics data. Not all city web servers are tagged with Google Analytics and not all servers appear in this report. These are the main customer focused web servers at the city.", 
+    "description": "Google Analytics stats for seattle.gov websites", 
     "socrata": {
-      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/x2vz-tbcx.json"
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/vtyv-f9qh.json"
     }
   }, 
   "name": "COS-Websites-Statistics", 
   "schema": {
     "columns": [
-      {
-        "name": "title", 
-        "type": "text"
-      }, 
-      {
-        "name": "function", 
-        "type": "text"
-      }, 
       {
         "name": "url", 
         "type": "text"
@@ -39,18 +32,11 @@
         "type": "real"
       }, 
       {
-        "name": "startdate", 
+        "name": "month", 
         "type": "timestamp"
-      }, 
-      {
-        "name": "timeperiod", 
-        "type": "text"
-      }, 
-      {
-        "name": "note", 
-        "type": "text"
       }
     ]
   }, 
-  "tableName": "socrata_seattle_cos_websites_statistics"
+  "schemaName": "socrata/data.seattle.gov", 
+  "tableName": "cos_websites_statistics"
 }

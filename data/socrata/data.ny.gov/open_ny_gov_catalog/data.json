@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_open_ny_gov_catalog/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/dcri-ui5d/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/dcri-ui5d/rows.csv", 
+    "type": "csv"
   }, 
   "description": "An interactive dataset containing the metadata for the Open.ny.gov raw datasets and tools catalogs", 
   "maintainer": {
@@ -130,5 +131,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ny_open_ny_gov_catalog"
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "open_ny_gov_catalog"
 }

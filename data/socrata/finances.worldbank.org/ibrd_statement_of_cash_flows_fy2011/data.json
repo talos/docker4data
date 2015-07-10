@@ -1,0 +1,42 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ibrd_statement_of_cash_flows_fy2011/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/zyqx-8e4a/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Provides data from the IBRD Statement of Cash Flows for the fiscal years ended June 30, 2011, June 30, 2010 and June 30, 2009. Sum of all cash flows represent the net changes in unrestricted cash. The values are expressed in millions of U.S. Dollars. Where applicable, changes have been made to certain line items on FY 2010 statement of cash flows to conform with the current year's presentation, but the comparable prior years' data sets have not been adjusted to reflect the reclassification impact of those changes.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "World Bank", 
+    "category": "Accounting and Control", 
+    "description": "Provides data from the IBRD Statement of Cash Flows for the fiscal years ended June 30, 2011, June 30, 2010 and June 30, 2009. Sum of all cash flows represent the net changes in unrestricted cash. The values are expressed in millions of U.S. Dollars. Where applicable, changes have been made to certain line items on FY 2010 statement of cash flows to conform with the current year's presentation, but the comparable prior years' data sets have not been adjusted to reflect the reclassification impact of those changes.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/zyqx-8e4a.json"
+    }
+  }, 
+  "name": "IBRD Statement Of Cash Flows, FY2011", 
+  "schema": {
+    "columns": [
+      {
+        "name": "source", 
+        "type": "text"
+      }, 
+      {
+        "name": "line_item", 
+        "type": "text"
+      }, 
+      {
+        "name": "fiscal_year", 
+        "type": "text"
+      }, 
+      {
+        "name": "amount_us_millions", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/finances.worldbank.org", 
+  "tableName": "ibrd_statement_of_cash_flows_fy2011"
+}

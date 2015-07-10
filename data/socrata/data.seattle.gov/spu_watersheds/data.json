@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_spu_watersheds/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/r96p-a8gh/rows.csv"
+    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/r96p-a8gh/rows.csv", 
+    "type": "csv"
   }, 
   "description": "https://gisrevprxy.seattle.gov/ArcGIS/rest/services/ext/WM_CityGISLayers/MapServer/67", 
   "maintainer": {
@@ -52,5 +53,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_seattle_spu_watersheds"
+  "schemaName": "socrata/data.seattle.gov", 
+  "tableName": "spu_watersheds"
 }

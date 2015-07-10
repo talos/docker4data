@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_procurement_report_for_state_authorities/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/ehig-g5x3/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/ehig-g5x3/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Public authorities are required by Section 2800 of Public Authorities Law to submit annual reports to the Authorities Budget Office that include procurement contracts data.  The dataset consists of the most recent 3 years of procurement contracts data reported by Industrial Development Agencies. Authorities are required to report procurement transactions that have an actual or estimated value of $5,000 or more.", 
   "maintainer": {
@@ -112,5 +113,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ny_procurement_report_for_state_authorities"
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "procurement_report_for_state_authorities"
 }

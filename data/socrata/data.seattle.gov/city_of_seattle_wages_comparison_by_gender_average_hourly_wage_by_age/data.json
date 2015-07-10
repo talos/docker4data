@@ -1,0 +1,56 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/city_of_seattle_wages_comparison_by_gender_average_hourly_wage_by_age/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/24tp-6m99/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Average hourly wages for women and men sorted by age range", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "description": "Average hourly wages for women and men sorted by age range", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/24tp-6m99.json"
+    }
+  }, 
+  "name": "City of Seattle Wages: Comparison by Gender - Average Hourly Wage by Age", 
+  "schema": {
+    "columns": [
+      {
+        "name": "age_range", 
+        "type": "text"
+      }, 
+      {
+        "name": "average_of_female_hourly_rate", 
+        "type": "real"
+      }, 
+      {
+        "name": "count_of_female_emplid", 
+        "type": "real"
+      }, 
+      {
+        "name": "average_of_male_hourly_rate", 
+        "type": "real"
+      }, 
+      {
+        "name": "count_of_male_emplid", 
+        "type": "real"
+      }, 
+      {
+        "name": "total_average_of_hourly_rate", 
+        "type": "real"
+      }, 
+      {
+        "name": "total_count_of_emplid", 
+        "type": "real"
+      }, 
+      {
+        "name": "female_to_male_rate", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.seattle.gov", 
+  "tableName": "city_of_seattle_wages_comparison_by_gender_average_hourly_wage_by_age"
+}

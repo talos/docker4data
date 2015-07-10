@@ -1,0 +1,62 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ides_illinois_occupational_wage_information_2010/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/fb9a-cdjv/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Wage data for occupations is collected in the Occupational Employment Statistics (OES) program. Information provide: entry level, median, and experienced hourly (and annual) wages.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "IL Department of Employment Security, Economic Information & Analysis", 
+    "category": "Economics", 
+    "description": "Wage data for occupations is collected in the Occupational Employment Statistics (OES) program. Information provide: entry level, median, and experienced hourly (and annual) wages.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/fb9a-cdjv.json"
+    }
+  }, 
+  "name": "IDES - Illinois Occupational Wage Information 2010", 
+  "schema": {
+    "columns": [
+      {
+        "name": "region", 
+        "type": "text"
+      }, 
+      {
+        "name": "soc_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "soc_occupational_title", 
+        "type": "text"
+      }, 
+      {
+        "name": "entry_wage_hourly", 
+        "type": "text"
+      }, 
+      {
+        "name": "entry_wage_annual", 
+        "type": "text"
+      }, 
+      {
+        "name": "median_wage_hourly", 
+        "type": "text"
+      }, 
+      {
+        "name": "median_wage_annual", 
+        "type": "text"
+      }, 
+      {
+        "name": "experienced_wage_hourly", 
+        "type": "text"
+      }, 
+      {
+        "name": "experienced_wage_annual", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.illinois.gov", 
+  "tableName": "ides_illinois_occupational_wage_information_2010"
+}

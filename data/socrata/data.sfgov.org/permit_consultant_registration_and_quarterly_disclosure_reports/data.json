@@ -1,0 +1,74 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/permit_consultant_registration_and_quarterly_disclosure_reports/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/py46-sknn/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Effective January 1, 2015, an individual who qualifies as a permit consultant under San Francisco law must register and file quarterly reports with the Ethics Commission.\r\n\r\nA permit consultant is an individual who receives or is promised compensation to provide permit consulting services on a \u201cmajor project\u201d or a \u201cminor project,\u201d including any employee who receives compensation for time spent on permit consulting services. \r\n\r\n\u201cPermit consulting services\u201d means any contact with the Department of Building Inspection, the Entertainment Commission, the Planning Department, or the Department of Public Works to help a permit applicant obtain a permit.  \u201cPermit consulting services\u201d do not include simple requests for information which do not otherwise include attempts to help obtain a permit.\r\n\r\nA \u201cmajor project\u201d is a real estate development project located in the City and County of San Francisco with estimated construction costs exceeding $1,000,000 and which requires a permit issued by the Department of Building Inspection or the Planning Department.   Estimated constructions costs are to be calculated in the same manner used to determine building permit fees under the Building Code. \r\n\r\nA \u201cminor project\u201d is a project located in the City and County of San Francisco which requires a permit issued by the Entertainment Commission.\r\n\r\nThe following individuals are not permit consultants and thus are not required to register or report:\r\n\r\n-a licensed architect or engineer of record for construction activity allowed or contemplated by the permit, or an employee of that architect or engineer;\r\n-a contractor who will be responsible for all construction activity associated with the requested permit, or an employee of that contractor; or\r\n-an employee or agent of an organization with tax exempt status under 26 United States Code Section 501(c)(3) communicating on behalf of that organization regarding the development of a project for that organization. \r\n\r\nEach permit consultant must register with the Ethics Commission no later than five business days after providing permit consulting services.  Quarterly disclosure reports must subsequently be filed with the Ethics Commission.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "San Francisco Ethics Commission", 
+    "category": "City Management and Ethics", 
+    "description": "Effective January 1, 2015, an individual who qualifies as a permit consultant under San Francisco law must register and file quarterly reports with the Ethics Commission.\r\n\r\nA permit consultant is an individual who receives or is promised compensation to provide permit consulting services on a \u201cmajor project\u201d or a \u201cminor project,\u201d including any employee who receives compensation for time spent on permit consulting services. \r\n\r\n\u201cPermit consulting services\u201d means any contact with the Department of Building Inspection, the Entertainment Commission, the Planning Department, or the Department of Public Works to help a permit applicant obtain a permit.  \u201cPermit consulting services\u201d do not include simple requests for information which do not otherwise include attempts to help obtain a permit.\r\n\r\nA \u201cmajor project\u201d is a real estate development project located in the City and County of San Francisco with estimated construction costs exceeding $1,000,000 and which requires a permit issued by the Department of Building Inspection or the Planning Department.   Estimated constructions costs are to be calculated in the same manner used to determine building permit fees under the Building Code. \r\n\r\nA \u201cminor project\u201d is a project located in the City and County of San Francisco which requires a permit issued by the Entertainment Commission.\r\n\r\nThe following individuals are not permit consultants and thus are not required to register or report:\r\n\r\n-a licensed architect or engineer of record for construction activity allowed or contemplated by the permit, or an employee of that architect or engineer;\r\n-a contractor who will be responsible for all construction activity associated with the requested permit, or an employee of that contractor; or\r\n-an employee or agent of an organization with tax exempt status under 26 United States Code Section 501(c)(3) communicating on behalf of that organization regarding the development of a project for that organization. \r\n\r\nEach permit consultant must register with the Ethics Commission no later than five business days after providing permit consulting services.  Quarterly disclosure reports must subsequently be filed with the Ethics Commission.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/py46-sknn.json"
+    }
+  }, 
+  "name": "Permit Consultant Registration and Quarterly Disclosure Reports", 
+  "schema": {
+    "columns": [
+      {
+        "name": "permit_consultant_last_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "permit_consultant_first_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "employer", 
+        "type": "text"
+      }, 
+      {
+        "name": "date_filed", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "report_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "report", 
+        "type": "text"
+      }, 
+      {
+        "name": "period_start_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "period_end_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "amendment_filing", 
+        "type": "text"
+      }, 
+      {
+        "name": "amendment_to_report_filed", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "activity", 
+        "type": "text"
+      }, 
+      {
+        "name": "termination", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.sfgov.org", 
+  "tableName": "permit_consultant_registration_and_quarterly_disclosure_reports"
+}

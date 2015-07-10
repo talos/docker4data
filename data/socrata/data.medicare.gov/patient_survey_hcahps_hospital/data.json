@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_medicare_patient_survey_hcahps_hospital/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/dgck-syfz/rows.csv"
+    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/dgck-syfz/rows.csv", 
+    "type": "csv"
   }, 
   "description": "A list of hospital ratings for the Hospital Consumer Assessment of Healthcare Providers and Systems (HCAHPS). HCAHPS is a national, standardized survey of hospital patients about their experiences during a recent inpatient hospital stay.", 
   "maintainer": {
@@ -95,5 +96,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_medicare_patient_survey_hcahps_hospital"
+  "schemaName": "socrata/data.medicare.gov", 
+  "tableName": "patient_survey_hcahps_hospital"
 }

@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_oklahoma_fire_stations/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/gffs-juek/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/gffs-juek/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Find fire stations in the State of Oklahoma.", 
   "maintainer": {
@@ -56,5 +57,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ok_oklahoma_fire_stations"
+  "schemaName": "socrata/data.ok.gov", 
+  "tableName": "oklahoma_fire_stations"
 }

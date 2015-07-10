@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_healthny_cardiac_surgery_by_surgeon_beginning_2008/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/dk4z-k3xb/rows.csv"
+    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/dk4z-k3xb/rows.csv", 
+    "type": "csv"
   }, 
   "description": "This dataset contains the number of cases, number of in hospital/30 day deaths, observed, expected and risk- adjusted mortality rates for cardiac surgery by surgeon. Physician information is presented for each physician who a) performed 200 or more procedures during the three year analysis and/or b) performed at least one cardiac surgery in each of the three years. The results for physicians not meeting the above criteria are grouped together and reported as \u201cAll others\u201d in the hospital in which the procedures are performed.  The initial Health Data NY dataset includes patients discharged between January 1, 2008, and December 31, 2010. Analyses of risk-adjusted mortality rates and associated risk factors are provided for 2010 and for the three-year period from 2008 through 2010. Regions represent where the hospitals are located. Subsequent year reports data will be appended to this dataset.   For more information check out: http://www.health.ny.gov/health_care/consumer_information/cardiac_surgery/ or go to the \u201cAbout\u201d tab.", 
   "maintainer": {
@@ -84,5 +85,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_healthny_cardiac_surgery_by_surgeon_beginning_2008"
+  "schemaName": "socrata/health.data.ny.gov", 
+  "tableName": "cardiac_surgery_by_surgeon_beginning_2008"
 }

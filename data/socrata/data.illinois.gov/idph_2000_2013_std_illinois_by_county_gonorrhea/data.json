@@ -1,0 +1,50 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/idph_2000_2013_std_illinois_by_county_gonorrhea/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/dq2r-y9bw/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Illinois gonorrhea case counts and rates (per 100,000 population) by county by year (2000 to 2013).  See attachment for metadata and censoring details under the \"About\" link.  Null values in dataset reflect censored data.  Data Source: Illinois Department of Public Health STD Program.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Illinois Department of Public Health STD Program", 
+    "category": "Public Health", 
+    "description": "Illinois gonorrhea case counts and rates (per 100,000 population) by county by year (2000 to 2013).  See attachment for metadata and censoring details under the \"About\" link.  Null values in dataset reflect censored data.  Data Source: Illinois Department of Public Health STD Program.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/dq2r-y9bw.json"
+    }
+  }, 
+  "name": "IDPH 2000-2013 STD Illinois By County Gonorrhea", 
+  "schema": {
+    "columns": [
+      {
+        "name": "sort", 
+        "type": "real"
+      }, 
+      {
+        "name": "year", 
+        "type": "text"
+      }, 
+      {
+        "name": "county", 
+        "type": "text"
+      }, 
+      {
+        "name": "countyfips", 
+        "type": "text"
+      }, 
+      {
+        "name": "_2008_count", 
+        "type": "real"
+      }, 
+      {
+        "name": "_2009_count", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.illinois.gov", 
+  "tableName": "idph_2000_2013_std_illinois_by_county_gonorrhea"
+}

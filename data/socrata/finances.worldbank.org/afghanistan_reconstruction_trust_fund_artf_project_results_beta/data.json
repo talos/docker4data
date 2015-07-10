@@ -1,0 +1,90 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/afghanistan_reconstruction_trust_fund_artf_project_results_beta/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/4x9h-fnzu/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "This data represents project development objective indicators for the ARTF portfolio (from 2001 through today). This dataset pulls project indicator measurements from ARTF implementation status reports. The indicator descriptions are pulled from the ARTF results matrix. http://www.artf.af//images/uploads/ARTF_Results_Matrix_January_2014.pdf", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "World Bank Group", 
+    "category": "Trust Funds", 
+    "description": "This data represents project development objective indicators for the ARTF portfolio (from 2001 through today). This dataset pulls project indicator measurements from ARTF implementation status reports. The indicator descriptions are pulled from the ARTF results matrix. http://www.artf.af//images/uploads/ARTF_Results_Matrix_January_2014.pdf", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/4x9h-fnzu.json"
+    }
+  }, 
+  "name": "Afghanistan Reconstruction Trust Fund (ARTF) Project Results - BETA", 
+  "schema": {
+    "columns": [
+      {
+        "name": "trust_fund_grant_number", 
+        "type": "text"
+      }, 
+      {
+        "name": "project_id", 
+        "type": "text"
+      }, 
+      {
+        "name": "project_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "project_status", 
+        "type": "text"
+      }, 
+      {
+        "name": "sector", 
+        "type": "text"
+      }, 
+      {
+        "name": "indicator_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "indicator_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "unit_of_measure", 
+        "type": "text"
+      }, 
+      {
+        "name": "isrr_id", 
+        "type": "text"
+      }, 
+      {
+        "name": "isrr_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "value_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "value_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "value", 
+        "type": "real"
+      }, 
+      {
+        "name": "comment", 
+        "type": "text"
+      }, 
+      {
+        "name": "date_added", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "indicator_id", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/finances.worldbank.org", 
+  "tableName": "afghanistan_reconstruction_trust_fund_artf_project_results_beta"
+}

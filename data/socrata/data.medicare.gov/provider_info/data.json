@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_medicare_provider_info/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/hq9i-23gr/rows.csv"
+    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/4pq5-n9py/rows.csv", 
+    "type": "csv"
   }, 
   "description": "General information on currently active nursing homes, including number of certified beds, quality measure scores, staffing and other information used in the Five-Star Rating System. Data are presented as one row per nursing home.", 
   "maintainer": {
@@ -11,7 +12,7 @@
     "category": "Nursing Home Compare", 
     "description": "General information on currently active nursing homes, including number of certified beds, quality measure scores, staffing and other information used in the Five-Star Rating System. Data are presented as one row per nursing home.", 
     "socrata": {
-      "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/hq9i-23gr.json"
+      "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/4pq5-n9py.json"
     }
   }, 
   "name": "Provider Info", 
@@ -339,5 +340,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_medicare_provider_info"
+  "schemaName": "socrata/data.medicare.gov", 
+  "tableName": "provider_info"
 }

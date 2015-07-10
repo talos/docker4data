@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_designated_scenic_byways/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/q8sd-9bib/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/q8sd-9bib/rows.csv", 
+    "type": "csv"
   }, 
   "description": "The New York State Scenic Byways program was created in 1992 by the State Legislature. The program encourages both economic development and resource conservation, recognizing that each of these aspects of a byway must be fostered to ensure the success of the other. This dataset is a listing of all designated State and National Scenic Byways in New York State with Scenic Byway Corridor Management Plans: Includes location, length, route description, designation and website. Information is current as of the publication date.", 
   "maintainer": {
@@ -52,5 +53,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ny_designated_scenic_byways"
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "designated_scenic_byways"
 }

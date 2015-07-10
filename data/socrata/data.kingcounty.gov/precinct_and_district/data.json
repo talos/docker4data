@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_kingcounty_precinct_and_district/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/xh8b-6e9i/rows.csv"
+    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/xh8b-6e9i/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Combined Precincts Districts for King County Elections", 
   "maintainer": {
@@ -31,5 +32,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_kingcounty_precinct_and_district"
+  "schemaName": "socrata/data.kingcounty.gov", 
+  "tableName": "precinct_and_district"
 }

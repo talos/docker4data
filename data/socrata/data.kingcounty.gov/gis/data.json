@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_kingcounty_gis/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/z5nu-zs2r/rows.csv"
+    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/z5nu-zs2r/rows.csv", 
+    "type": "csv"
   }, 
   "description": "King County GIS data is at http://www5.kingcounty.gov/gisdataportal/", 
   "maintainer": {
@@ -28,5 +29,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_kingcounty_gis"
+  "schemaName": "socrata/data.kingcounty.gov", 
+  "tableName": "gis"
 }

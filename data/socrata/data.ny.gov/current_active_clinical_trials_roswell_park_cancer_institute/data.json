@@ -1,0 +1,54 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/current_active_clinical_trials_roswell_park_cancer_institute/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/2ig8-yxf8/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "List of active studies submitted by Roswell Park Cancer Institute (RPCI) to National Cancer Institute (NCI) annually as part of the Cancer Center Report Grant reporting. It includes the primary site, protocol, principal investigator, date opened, phase and study name.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Roswell Park Cancer Institute (RPCI)", 
+    "category": "Health", 
+    "description": "List of active studies submitted by Roswell Park Cancer Institute (RPCI) to National Cancer Institute (NCI) annually as part of the Cancer Center Report Grant reporting. It includes the primary site, protocol, principal investigator, date opened, phase and study name.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/2ig8-yxf8.json"
+    }
+  }, 
+  "name": "Current Active Clinical Trials - Roswell Park Cancer Institute", 
+  "schema": {
+    "columns": [
+      {
+        "name": "primary_site", 
+        "type": "text"
+      }, 
+      {
+        "name": "protocol", 
+        "type": "text"
+      }, 
+      {
+        "name": "principal_investigator", 
+        "type": "text"
+      }, 
+      {
+        "name": "date_opened", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "date_closed", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "study_phase", 
+        "type": "text"
+      }, 
+      {
+        "name": "title", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "current_active_clinical_trials_roswell_park_cancer_institute"
+}

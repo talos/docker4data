@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wa_water_right_applications/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/9ubz-5r4b/rows.csv"
+    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/9ubz-5r4b/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Pending Water Right Applications in Washington State. Includes both applications for new water rights and to change existing water rights. Updated weekly.    Live data available at: https://fortress.wa.gov/ecy/waterresources/map/QuantityReport.aspx and https://fortress.wa.gov/ecy/waterresources/map/WaterResourcesExplorer.aspx.", 
   "maintainer": {
@@ -120,5 +121,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_wa_water_right_applications"
+  "schemaName": "socrata/data.wa.gov", 
+  "tableName": "water_right_applications"
 }

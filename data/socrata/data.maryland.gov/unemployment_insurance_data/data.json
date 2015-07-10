@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_unemployment_insurance_data/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/3x6e-7i3k/rows.csv"
+    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/3x6e-7i3k/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Monthly metrics on unemployment insurance from the Department of Labor, Licensing and Regulation.", 
   "maintainer": {
@@ -104,5 +105,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_maryland_unemployment_insurance_data"
+  "schemaName": "socrata/data.maryland.gov", 
+  "tableName": "unemployment_insurance_data"
 }

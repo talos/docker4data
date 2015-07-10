@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wa_pets/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/ax5x-pztv/rows.csv"
+    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/ax5x-pztv/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Ecology Data for testing only -> This is a test file for the use of an API call from a web page.  Basic show and tell data that is meaningless on the face.\r\n\r\nAll names, descriptions and animals are fictious.", 
   "maintainer": {
@@ -44,5 +45,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_wa_pets"
+  "schemaName": "socrata/data.wa.gov", 
+  "tableName": "pets"
 }

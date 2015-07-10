@@ -1,0 +1,57 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/estado_de_compromisos_brutos_acumulados_de_ifc/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/3s3g-2jk2/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Los compromisos se componen de fondos que ser\u00e1n proporcionados por IFC por cuenta propia y de recursos que ser\u00e1n aportados por otros participantes a trav\u00e9s de la adquisici\u00f3n de un inter\u00e9s en una inversi\u00f3n de IFC.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "World Bank Group", 
+    "description": "Los compromisos se componen de fondos que ser\u00e1n proporcionados por IFC por cuenta propia y de recursos que ser\u00e1n aportados por otros participantes a trav\u00e9s de la adquisici\u00f3n de un inter\u00e9s en una inversi\u00f3n de IFC.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/3s3g-2jk2.json"
+    }
+  }, 
+  "name": "Estado de compromisos brutos acumulados de IFC", 
+  "schema": {
+    "columns": [
+      {
+        "name": "ifc_region", 
+        "type": "text"
+      }, 
+      {
+        "name": "country", 
+        "type": "text"
+      }, 
+      {
+        "name": "number_of_enterprises", 
+        "type": "real"
+      }, 
+      {
+        "name": "ifc_cumulative_commitments_us_thousands", 
+        "type": "real"
+      }, 
+      {
+        "name": "loan_guarantee_participations_cumulative_commitments_us_thousands", 
+        "type": "real"
+      }, 
+      {
+        "name": "total", 
+        "type": "real"
+      }, 
+      {
+        "name": "fiscal_year", 
+        "type": "text"
+      }, 
+      {
+        "name": "as_of_date", 
+        "type": "timestamp"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/finances.worldbank.org", 
+  "tableName": "estado_de_compromisos_brutos_acumulados_de_ifc"
+}

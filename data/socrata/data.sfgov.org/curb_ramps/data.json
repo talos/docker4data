@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_curb_ramps/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/ch9w-7kih/rows.csv"
+    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/ch9w-7kih/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Curb ramp locations and attribute data", 
   "maintainer": {
@@ -160,5 +161,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_sfgov_curb_ramps"
+  "schemaName": "socrata/data.sfgov.org", 
+  "tableName": "curb_ramps"
 }

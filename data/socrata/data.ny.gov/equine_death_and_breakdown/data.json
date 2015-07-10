@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_equine_death_and_breakdown/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/q6ts-kwhk/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/q6ts-kwhk/rows.csv", 
+    "type": "csv"
   }, 
   "description": "The Equine Death and Breakdown report lists horses that have broken down, been injured, or have died at New York State race tracks.", 
   "maintainer": {
@@ -72,5 +73,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ny_equine_death_and_breakdown"
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "equine_death_and_breakdown"
 }

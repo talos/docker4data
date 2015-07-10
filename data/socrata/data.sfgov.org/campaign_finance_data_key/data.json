@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_campaign_finance_data_key/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/wygs-cc76/rows.csv"
+    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/wygs-cc76/rows.csv", 
+    "type": "csv"
   }, 
   "description": "The dataset contains descriptions for each column of historical campaign finance data available on data.sfgov.org or the Excel exports on the Ethics Commission's Campaign Finance Database at http://nf4.netfile.com/pub2?aid=sfo\r\n\r\nPlease note -- the column header names on different schedules of Form 460 often match, but sometimes have different meanings.", 
   "maintainer": {
@@ -36,5 +37,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_sfgov_campaign_finance_data_key"
+  "schemaName": "socrata/data.sfgov.org", 
+  "tableName": "campaign_finance_data_key"
 }

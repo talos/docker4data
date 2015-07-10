@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_renewable_energy_generated_in_maryland/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/79zg-5xwz/rows.csv"
+    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/79zg-5xwz/rows.csv", 
+    "type": "csv"
   }, 
   "description": "This data set describes the amount of energy generated annually by renewable sources in Maryland in megawatt hours (MWh).  In addition, there is a column which describes the percent of all energy generated in Maryland that came from renewable sources each year.", 
   "maintainer": {
@@ -72,5 +73,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_maryland_renewable_energy_generated_in_maryland"
+  "schemaName": "socrata/data.maryland.gov", 
+  "tableName": "renewable_energy_generated_in_maryland"
 }

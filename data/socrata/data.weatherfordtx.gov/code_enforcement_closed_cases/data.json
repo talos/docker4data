@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_weatherfordtx_code_enforcement_closed_cases/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/cfuq-zji7/rows.csv"
+    "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/cfuq-zji7/rows.csv", 
+    "type": "csv"
   }, 
   "description": "A summary of all closed code enforcement cases since January 2007. Includes dates opened and closed, type, officer, and description.", 
   "maintainer": {
@@ -44,5 +45,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_weatherfordtx_code_enforcement_closed_cases"
+  "schemaName": "socrata/data.weatherfordtx.gov", 
+  "tableName": "code_enforcement_closed_cases"
 }

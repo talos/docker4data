@@ -1,0 +1,36 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/election_periods_for_hawaii_noncandidate_committees/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/ngjc-id6g/rows.csv", 
+    "type": "csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "State of Hawaii; Campaign Spending Commission", 
+    "category": "Community", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/ngjc-id6g.json"
+    }
+  }, 
+  "name": "Election Periods for Hawaii Noncandidate Committees", 
+  "schema": {
+    "columns": [
+      {
+        "name": "election_period", 
+        "type": "text"
+      }, 
+      {
+        "name": "ep_start_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "ep_end_date", 
+        "type": "timestamp"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.hawaii.gov", 
+  "tableName": "election_periods_for_hawaii_noncandidate_committees"
+}

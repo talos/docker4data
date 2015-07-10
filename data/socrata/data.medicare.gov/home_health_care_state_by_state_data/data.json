@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_medicare_home_health_care_state_by_state_data/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/tee5-ixt5/rows.csv"
+    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/tee5-ixt5/rows.csv", 
+    "type": "csv"
   }, 
   "description": "State averages of several home health agency quality measures for Home Health Agencies.", 
   "maintainer": {
@@ -111,5 +112,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_medicare_home_health_care_state_by_state_data"
+  "schemaName": "socrata/data.medicare.gov", 
+  "tableName": "home_health_care_state_by_state_data"
 }

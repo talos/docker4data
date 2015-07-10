@@ -1,0 +1,54 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/performance_metrics_housing_economic_development_affordable_multi_family_homes/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/dsvs-yfj6/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Multi-family programs that support the creation of new affordable multi-family housing units or the preservation of existing affordable units.  Units are counted when financial commitments are approved by the City Council.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "City of Chicago", 
+    "category": "Administration & Finance", 
+    "description": "Multi-family programs that support the creation of new affordable multi-family housing units or the preservation of existing affordable units.  Units are counted when financial commitments are approved by the City Council.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/dsvs-yfj6.json"
+    }
+  }, 
+  "name": "Performance Metrics - Housing & Economic Development - Affordable Multi Family Homes", 
+  "schema": {
+    "columns": [
+      {
+        "name": "month", 
+        "type": "text"
+      }, 
+      {
+        "name": "year", 
+        "type": "text"
+      }, 
+      {
+        "name": "affordable_multi_family_housing_units_created_or_preserved_to_date_", 
+        "type": "real"
+      }, 
+      {
+        "name": "target_homes", 
+        "type": "real"
+      }, 
+      {
+        "name": "progress_to_target_homes", 
+        "type": "text"
+      }, 
+      {
+        "name": "total_spending", 
+        "type": "real"
+      }, 
+      {
+        "name": "spending_target", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.cityofchicago.org", 
+  "tableName": "performance_metrics_housing_economic_development_affordable_multi_family_homes"
+}

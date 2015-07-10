@@ -1,0 +1,70 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/kcse_exam_results_2006_to_2010/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/opendata.go.ke/api/views/ycfy-7tnf/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "This dataset summarizes the KCSE (Kenya Certificate of Secondary Education) between the years 2006 to 2012 national exams mainly covering performance grades and their frequency.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "KNEC", 
+    "category": "Examinations and Performance", 
+    "description": "This dataset summarizes the KCSE (Kenya Certificate of Secondary Education) between the years 2006 to 2012 national exams mainly covering performance grades and their frequency.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/opendata.go.ke/api/views/ycfy-7tnf.json"
+    }
+  }, 
+  "name": "KCSE Exam Results 2006 to 2010", 
+  "schema": {
+    "columns": [
+      {
+        "name": "year", 
+        "type": "real"
+      }, 
+      {
+        "name": "district_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "district_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "county", 
+        "type": "text"
+      }, 
+      {
+        "name": "school_code", 
+        "type": "real"
+      }, 
+      {
+        "name": "knec_code", 
+        "type": "real"
+      }, 
+      {
+        "name": "school_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "gender", 
+        "type": "text"
+      }, 
+      {
+        "name": "grade_attained", 
+        "type": "text"
+      }, 
+      {
+        "name": "mean_grade", 
+        "type": "real"
+      }, 
+      {
+        "name": "frequency", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/opendata.go.ke", 
+  "tableName": "kcse_exam_results_2006_to_2010"
+}

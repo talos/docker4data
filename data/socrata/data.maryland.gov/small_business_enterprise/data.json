@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_small_business_enterprise/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/xedu-p97g/rows.csv"
+    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/xedu-p97g/rows.csv", 
+    "type": "csv"
   }, 
   "description": "This dataset contains a list of the certified Small Business Enterprises (SBE) within the state of Maryland as well as the industry each SBE is affiliated with. This program is affiliated with the Maryland Department of Transportation.", 
   "maintainer": {
@@ -51,5 +52,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_maryland_small_business_enterprise"
+  "schemaName": "socrata/data.maryland.gov", 
+  "tableName": "small_business_enterprise"
 }

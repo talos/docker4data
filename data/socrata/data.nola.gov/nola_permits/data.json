@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_nola_nola_permits/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.nola.gov/api/views/rcm3-fn58/rows.csv"
+    "@id": "http://www.opendatacache.com/data.nola.gov/api/views/rcm3-fn58/rows.csv", 
+    "type": "csv"
   }, 
   "description": "City of New Oreleans permit data from 1/01/2012; Updated Nightly.\r\nNote: For download of entire dataset, export as .csv", 
   "maintainer": {
@@ -188,5 +189,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_nola_nola_permits"
+  "schemaName": "socrata/data.nola.gov", 
+  "tableName": "nola_permits"
 }

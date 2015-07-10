@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_dww_catch_basins/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/r7pf-fsen/rows.csv"
+    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/r7pf-fsen/rows.csv", 
+    "type": "csv"
   }, 
   "description": "https://gisrevprxy.seattle.gov/ArcGIS/rest/services/ext/WM_CityGISLayers/MapServer/57", 
   "maintainer": {
@@ -251,5 +252,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_seattle_dww_catch_basins"
+  "schemaName": "socrata/data.seattle.gov", 
+  "tableName": "dww_catch_basins"
 }

@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_montgomerycountymd_cable_inspections/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/tzyi-s757/rows.csv"
+    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/tzyi-s757/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Information on Cable Inspections performed by the Montgomery County Cable Office since September 1, 2010.  This dataset will be updated on a quarterly basis.", 
   "maintainer": {
@@ -84,5 +85,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_montgomerycountymd_cable_inspections"
+  "schemaName": "socrata/data.montgomerycountymd.gov", 
+  "tableName": "cable_inspections"
 }

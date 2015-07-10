@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_abortions_by_county_1995_2012/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/u65f-usui/rows.csv"
+    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/u65f-usui/rows.csv", 
+    "type": "csv"
   }, 
   "description": "The number of induced pregnancy terminations reported in Illinois by county (if in excess of 50).", 
   "maintainer": {
@@ -32,5 +33,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_illinois_abortions_by_county_1995_2012"
+  "schemaName": "socrata/data.illinois.gov", 
+  "tableName": "abortions_by_county_1995_2012"
 }

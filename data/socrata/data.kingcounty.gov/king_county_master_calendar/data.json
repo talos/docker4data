@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_kingcounty_king_county_master_calendar/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/rnmi-uwsb/rows.csv"
+    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/rnmi-uwsb/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Master calendar for King County events", 
   "maintainer": {
@@ -200,5 +201,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_kingcounty_king_county_master_calendar"
+  "schemaName": "socrata/data.kingcounty.gov", 
+  "tableName": "king_county_master_calendar"
 }

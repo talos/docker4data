@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_msp_traffic_stops_2014/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/nq4v-y7m5/rows.csv"
+    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/nq4v-y7m5/rows.csv", 
+    "type": "csv"
   }, 
   "description": "This dataset shows the total number of MSP traffic stops for CY 2014.  Also included is the total number of citations and warnings issued by MSP for CY 2014.  The values are provided in monthly increments.", 
   "maintainer": {
@@ -36,5 +37,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_maryland_msp_traffic_stops_2014"
+  "schemaName": "socrata/data.maryland.gov", 
+  "tableName": "msp_traffic_stops_2014"
 }

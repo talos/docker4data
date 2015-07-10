@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_undp_hdi_indicators_by_country_2013/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.undp.org/api/views/hah6-ygzy/rows.csv"
+    "@id": "http://www.opendatacache.com/data.undp.org/api/views/hah6-ygzy/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Each Row is a Country, each column is an indicator. All data is for the year 2013.", 
   "maintainer": {
@@ -506,5 +507,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_undp_hdi_indicators_by_country_2013"
+  "schemaName": "socrata/data.undp.org", 
+  "tableName": "hdi_indicators_by_country_2013"
 }

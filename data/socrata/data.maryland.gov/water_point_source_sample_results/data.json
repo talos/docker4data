@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_water_point_source_sample_results/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/eqs6-savc/rows.csv"
+    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/eqs6-savc/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Discharge monitoring reports (DMRs) and monthly operating reports (MORs) for the 58 major WWTPs, 215 minor WWTPs, and 10 major industrial point sources within the State of Maryland and are stored in MDE\u2019s point source database.  This data set contains results for nutrients such as phosphorous and nitrogen that may impact water quality in the Chesapeake Bay.   This dataset covers the time period from 2008 to 2013.", 
   "maintainer": {
@@ -91,5 +92,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_maryland_water_point_source_sample_results"
+  "schemaName": "socrata/data.maryland.gov", 
+  "tableName": "water_point_source_sample_results"
 }

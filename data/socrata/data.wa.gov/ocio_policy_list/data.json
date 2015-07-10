@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wa_ocio_policy_list/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/ijmj-mdqv/rows.csv"
+    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/ijmj-mdqv/rows.csv", 
+    "type": "csv"
   }, 
   "description": "This is a list of OCIO Policies, Standards and Guidelines as currently published. It includes statutory authority references if provided as well as sunset review dates if indicated.", 
   "maintainer": {
@@ -43,5 +44,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_wa_ocio_policy_list"
+  "schemaName": "socrata/data.wa.gov", 
+  "tableName": "ocio_policy_list"
 }

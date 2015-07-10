@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_ssmma_brownfields/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/c9ab-sb5q/rows.csv"
+    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/c9ab-sb5q/rows.csv", 
+    "type": "csv"
   }, 
   "description": "This dataset details the brownfields in the Chicago Southland region. The sites are all recipients of various Brownfield Assessment and Revolving Loan Funds administered by the ILEPA and SSMMA.", 
   "maintainer": {
@@ -116,5 +117,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_illinois_ssmma_brownfields"
+  "schemaName": "socrata/data.illinois.gov", 
+  "tableName": "ssmma_brownfields"
 }

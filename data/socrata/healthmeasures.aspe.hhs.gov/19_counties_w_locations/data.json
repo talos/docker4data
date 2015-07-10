@@ -1,0 +1,36 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/19_counties_w_locations/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/kuis-j8x5/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Missing data years:  Please note that data are not available for all counties for all years.  Percents based on frequencies of less than 20 in the numerators are not presented in the county-level tables; these guidelines are in alignment with the suppression criteria used for vital events at NCHS.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "description": "Missing data years:  Please note that data are not available for all counties for all years.  Percents based on frequencies of less than 20 in the numerators are not presented in the county-level tables; these guidelines are in alignment with the suppression criteria used for vital events at NCHS.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/kuis-j8x5.json"
+    }
+  }, 
+  "name": "19 Counties w/ Locations", 
+  "schema": {
+    "columns": [
+      {
+        "name": "measure_value", 
+        "type": "real"
+      }, 
+      {
+        "name": "year", 
+        "type": "real"
+      }, 
+      {
+        "name": "location", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/healthmeasures.aspe.hhs.gov", 
+  "tableName": "19_counties_w_locations"
+}

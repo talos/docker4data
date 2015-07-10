@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_healthny_health_care_coverage_status_brfss_2007_2010/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/4kmw-8mvn/rows.csv"
+    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/4kmw-8mvn/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Behavioral Risk Factor Surveillance System (BRFSS) sample data were used to generate annual percentages of non-institutionalized adult (18+) NYS residents with/without health insurance coverage. Health care coverage percentages are provided for 2007 to 2010, and are available for a range of demographic groups (New York City/Rest of State; Sex; Race/Ethnicity; Age; Education; Income; Disability Status; Employment Status; Mental Health Status).\r\nBRFSS is a random digit dialing (RDD) phone survey of the health status and health behaviors of adult NYS residents. The sample covers between 6,000 and 9,000 completed interviews annually.  Data for 2011 forward are available at: https://health.data.ny.gov/Health/Health-Care-Coverage-Status-BRFSS-2007-2010/4kmw-8mvn. For more information, check out: http://www.health.ny.gov/statistics/brfss/, or go to the \"About\" tab.", 
   "maintainer": {
@@ -64,5 +65,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_healthny_health_care_coverage_status_brfss_2007_2010"
+  "schemaName": "socrata/health.data.ny.gov", 
+  "tableName": "health_care_coverage_status_brfss_2007_2010"
 }

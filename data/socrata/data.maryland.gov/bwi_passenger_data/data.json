@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_bwi_passenger_data/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/6jva-hr4v/rows.csv"
+    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/6jva-hr4v/rows.csv", 
+    "type": "csv"
   }, 
   "description": "The total number of passengers per month by airline flying into and out of Baltimore/Washington International Thurgood Marshall Airport.  Passenger totals include both local and connecting passengers.", 
   "maintainer": {
@@ -327,5 +328,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_maryland_bwi_passenger_data"
+  "schemaName": "socrata/data.maryland.gov", 
+  "tableName": "bwi_passenger_data"
 }

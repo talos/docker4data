@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_eviction_notices/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/5cei-gny5/rows.csv"
+    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/5cei-gny5/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Data includes eviction notices filed with the San Francisco Rent Board per San Francisco Administrative Code \u00a737.9(c). A notice of eviction does not necessarily indicate that the tenant was eventually evicted, so the notices below may differ from actual evictions. Notices are published since January 1, 1997.", 
   "maintainer": {
@@ -139,5 +140,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_sfgov_eviction_notices"
+  "schemaName": "socrata/data.sfgov.org", 
+  "tableName": "eviction_notices"
 }

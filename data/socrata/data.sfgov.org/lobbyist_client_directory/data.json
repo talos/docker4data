@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_lobbyist_client_directory/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/u4y3-k4vs/rows.csv"
+    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/u4y3-k4vs/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Directory of Clients of  Lobbyists; there are multiple records if there is more than one Lobbyist for a Client.  This list includes both current and past clients for each lobbyist.\r\n\r\nLobbyist clients are disclosed by lobbyists registered with the Ethics Commission on a monthly basis.  This dataset updates automatically every night.", 
   "maintainer": {
@@ -60,5 +61,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_sfgov_lobbyist_client_directory"
+  "schemaName": "socrata/data.sfgov.org", 
+  "tableName": "lobbyist_client_directory"
 }

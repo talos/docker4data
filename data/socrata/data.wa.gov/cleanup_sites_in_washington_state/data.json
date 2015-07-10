@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wa_cleanup_sites_in_washington_state/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/vtkh-65is/rows.csv"
+    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/vtkh-65is/rows.csv", 
+    "type": "csv"
   }, 
   "description": "This is a list of cleanup sites in Washington State. It includes sites and associated websites.  It includes location data, Cleanup Status, Site Rank \u2013 if the site is ranked, and if the site has an Environmental Covenant.  \r\n\r\nOver half the cleanup sites have a status of \u201cNo Further Action Required/Decision\u201d or NFA.  If a site has a NFA it includes the latest NFA date and NFA reason.  \r\n\r\nThe Washington Department of Ecology (Toxics Cleanup Program) works to clean up contaminated sites/properties throughout the state of Washington. This data was downloaded from the Integrated Site Information System (ISIS) database and is monthly.", 
   "maintainer": {
@@ -104,5 +105,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_wa_cleanup_sites_in_washington_state"
+  "schemaName": "socrata/data.wa.gov", 
+  "tableName": "cleanup_sites_in_washington_state"
 }

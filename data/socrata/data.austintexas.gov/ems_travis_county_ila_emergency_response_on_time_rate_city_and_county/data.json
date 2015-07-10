@@ -1,0 +1,50 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ems_travis_county_ila_emergency_response_on_time_rate_city_and_county/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/yfqx-zefp/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "On time rate for the City and County", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Austin-Travis County EMS", 
+    "category": "Public Safety", 
+    "description": "On time rate for the City and County", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/yfqx-zefp.json"
+    }
+  }, 
+  "name": "EMS - Travis County ILA - Emergency Response - On Time Rate - City and County", 
+  "schema": {
+    "columns": [
+      {
+        "name": "month_key", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "incident_count", 
+        "type": "real"
+      }, 
+      {
+        "name": "goal_met_count", 
+        "type": "real"
+      }, 
+      {
+        "name": "goal_met_percentage", 
+        "type": "text"
+      }, 
+      {
+        "name": "target_percentage", 
+        "type": "text"
+      }, 
+      {
+        "name": "average", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.austintexas.gov", 
+  "tableName": "ems_travis_county_ila_emergency_response_on_time_rate_city_and_county"
+}

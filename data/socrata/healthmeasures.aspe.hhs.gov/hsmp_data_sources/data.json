@@ -1,0 +1,34 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/hsmp_data_sources/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/u3f5-p47s/rows.csv", 
+    "type": "csv"
+  }, 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "socrata": {
+      "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/u3f5-p47s.json"
+    }
+  }, 
+  "name": "HSMP Data Sources", 
+  "schema": {
+    "columns": [
+      {
+        "name": "source_title", 
+        "type": "text"
+      }, 
+      {
+        "name": "hyperlink", 
+        "type": "text"
+      }, 
+      {
+        "name": "full_description", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/healthmeasures.aspe.hhs.gov", 
+  "tableName": "hsmp_data_sources"
+}

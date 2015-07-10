@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_redmond_check_register/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.redmond.gov/api/views/7v22-4z3a/rows.csv"
+    "@id": "http://www.opendatacache.com/data.redmond.gov/api/views/7v22-4z3a/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Checks written to pay for products and services received by the City.", 
   "maintainer": {
@@ -47,5 +48,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_redmond_check_register"
+  "schemaName": "socrata/data.redmond.gov", 
+  "tableName": "check_register"
 }

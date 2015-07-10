@@ -1,0 +1,50 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/supplemental_security_income_ssi_living_arrangements_by_region_beginning_2002/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/iuu6-qurh/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "These data are monthly listings of the number of recipients in each living arrangement classification in the Supplemental Security Income Program, by region.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New York State Office of Temporary and Disability Assistance", 
+    "category": "Human Services", 
+    "description": "These data are monthly listings of the number of recipients in each living arrangement classification in the Supplemental Security Income Program, by region.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/iuu6-qurh.json"
+    }
+  }, 
+  "name": "Supplemental Security Income (SSI) Living Arrangements by Region: Beginning 2002", 
+  "schema": {
+    "columns": [
+      {
+        "name": "year", 
+        "type": "real"
+      }, 
+      {
+        "name": "month", 
+        "type": "text"
+      }, 
+      {
+        "name": "monthcode", 
+        "type": "real"
+      }, 
+      {
+        "name": "location", 
+        "type": "text"
+      }, 
+      {
+        "name": "living_arrangement", 
+        "type": "text"
+      }, 
+      {
+        "name": "recipients", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "supplemental_security_income_ssi_living_arrangements_by_region_beginning_2002"
+}

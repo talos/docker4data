@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_medicare_hospital_acs_measures/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/akfs-5dgr/rows.csv"
+    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/akfs-5dgr/rows.csv", 
+    "type": "csv"
   }, 
   "description": "These \"Outcome of Care Surgical Measures\" show whether hospitals differ in what happens to patients after they have one of three types of surgeries.", 
   "maintainer": {
@@ -63,5 +64,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_medicare_hospital_acs_measures"
+  "schemaName": "socrata/data.medicare.gov", 
+  "tableName": "hospital_acs_measures"
 }

@@ -1,0 +1,40 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/_measure_1_percentage_of_people_who_have_a_usual_source_of_medical_care_state/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/s6bn-a529/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "White coloring indicates that no data are available for that state.\r\n<br/>\r\n<br>\r\nState-level estimates (if applicable) meet the following criteria: less than or equal to 20% relative standard error and adequate sample size.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "description": "White coloring indicates that no data are available for that state.\r\n<br/>\r\n<br>\r\nState-level estimates (if applicable) meet the following criteria: less than or equal to 20% relative standard error and adequate sample size.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/s6bn-a529.json"
+    }
+  }, 
+  "name": "~ Measure 1 : Percentage of People Who Have a Usual Source of Medical Care | State", 
+  "schema": {
+    "columns": [
+      {
+        "name": "measure_value", 
+        "type": "text"
+      }, 
+      {
+        "name": "state", 
+        "type": "text"
+      }, 
+      {
+        "name": "year", 
+        "type": "real"
+      }, 
+      {
+        "name": "national_data", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/healthmeasures.aspe.hhs.gov", 
+  "tableName": "_measure_1_percentage_of_people_who_have_a_usual_source_of_medical_care_state"
+}

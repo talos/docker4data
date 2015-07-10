@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_nola_alcohol_beverage_outlet_abo_active_licenses/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.nola.gov/api/views/uiry-as9x/rows.csv"
+    "@id": "http://www.opendatacache.com/data.nola.gov/api/views/uiry-as9x/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Alcohol Beverage Outlet licenses within the City of New Orleans as of 9/16/2014. Data provided by City of New Orleans, Bureau of Revenue. Scheduled Update: Quarterly", 
   "maintainer": {
@@ -10,7 +11,7 @@
   "metadata": {
     "attribution": "City of New Orleans \u2013 Office of Information Technology & Innovation, Enterprise Information Team", 
     "category": "Administrative Data", 
-    "description": "Alcohol Beverage Outlet licenses within the City of New Orleans as of 9/16/2014. Data provided by City of New Orleans, Bureau of Revenue. Scheduled Update: Quarterly", 
+    "description": "Alcohol Beverage Outlet licenses within the City of New Orleans as of 6/15/2015. Data provided by City of New Orleans, Bureau of Revenue.", 
     "socrata": {
       "@id": "http://www.opendatacache.com/data.nola.gov/api/views/uiry-as9x.json"
     }
@@ -39,10 +40,6 @@
         "type": "text"
       }, 
       {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
         "name": "occupation_code", 
         "type": "text"
       }, 
@@ -56,5 +53,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_nola_alcohol_beverage_outlet_abo_active_licenses"
+  "schemaName": "socrata/data.nola.gov", 
+  "tableName": "alcohol_beverage_outlet_abo_active_licenses"
 }

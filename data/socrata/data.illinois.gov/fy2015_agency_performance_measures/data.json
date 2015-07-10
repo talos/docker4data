@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_fy2015_agency_performance_measures/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/paxx-4u36/rows.csv"
+    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/paxx-4u36/rows.csv", 
+    "type": "csv"
   }, 
   "description": "This dataset contains all Fiscal Year 2015 performance measures reported in the FY 15 Budget Book, by agency and program. The file is provided by the Governor\u2019s Office of Management and Budget and is available at the following websites: Budget.Illinois.gov or http://www.state.il.us/budget/).\r\n\r\nThe first two (2) columns contain the name of the Agency and the name of the performance measure.\r\n\r\nColumns three (3) through seven (7) contain the reported data values for the performance measures for FY 2011-FY 2013, and estimated and projected values for FY 2014 and FY 2015.\r\n\r\nColumn eight (8) contains an asterisk (*) if there is a footnote attached to the performance measure. Corresponding footnotes can be found in the respective state agency Performance Measure tables within the agency narrative section in the FY 15 Budget Book, available for download at Budget.Illinois.gov or http://www.state.il.us/budget/.\r\n\r\nColumns nine (9) through eleven (11) contain the program name, the name of the associated Outcome Area and the name of the associated Statewide Result Area.", 
   "maintainer": {
@@ -64,5 +65,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_illinois_fy2015_agency_performance_measures"
+  "schemaName": "socrata/data.illinois.gov", 
+  "tableName": "fy2015_agency_performance_measures"
 }

@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_ssmma_addresses/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/96g3-9rcf/rows.csv"
+    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/96g3-9rcf/rows.csv", 
+    "type": "csv"
   }, 
   "description": "This dataset details addresses and pin numbers for the Chicago Southland region. This list was aggregated from municipal address databases across the south suburban area.", 
   "maintainer": {
@@ -52,5 +53,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_illinois_ssmma_addresses"
+  "schemaName": "socrata/data.illinois.gov", 
+  "tableName": "ssmma_addresses"
 }

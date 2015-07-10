@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_expenditure_summary_fiscal_year_2012/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/afpt-n7ya/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/afpt-n7ya/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Provides expenditure data summarized by each agency and general ledger account. The general ledger account may be viewed by major class, sub-class or detail expenditure code. Examples of the major class expenditure category include: \u2022 Personal Services \u2022 Travel Expenses \u2022 Administrative Expense \u2022 Property, Furniture, Equipment and Related Debt \u2022 General Assistance, Awards, Grants, & Other \u2022 Program-Directed Payments \u2022 Transfers and Other Disbursements", 
   "maintainer": {
@@ -72,5 +73,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ok_expenditure_summary_fiscal_year_2012"
+  "schemaName": "socrata/data.ok.gov", 
+  "tableName": "expenditure_summary_fiscal_year_2012"
 }

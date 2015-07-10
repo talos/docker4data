@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_san_francisco_development_pipeline_q2_2014/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/fv2q-qaux/rows.csv"
+    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/fv2q-qaux/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Snapshot of San Francisco Development Pipeline. Tracking of construction and entitlement activity based on data from Dept of Building Inspection's Permit Tracking and the Planning Department's Case Tracking enterprise databases, processed quarterly.", 
   "maintainer": {
@@ -208,5 +209,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_sfgov_san_francisco_development_pipeline_q2_2014"
+  "schemaName": "socrata/data.sfgov.org", 
+  "tableName": "san_francisco_development_pipeline_q2_2014"
 }

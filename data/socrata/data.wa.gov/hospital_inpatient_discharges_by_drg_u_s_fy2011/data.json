@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wa_hospital_inpatient_discharges_by_drg_u_s_fy2011/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/swuj-ccgu/rows.csv"
+    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/swuj-ccgu/rows.csv", 
+    "type": "csv"
   }, 
   "description": "This table shows the low, high, and average percents of discharges related to a referenced DRG (diagnosis-related group) as a share of the total discharges from the top 100 common DRGs for hospitals in the United States. The source of data for this table is FY2011 hospital charges file provided by the Centers for Medicare and Medicaid Services (CMS).", 
   "maintainer": {
@@ -55,5 +56,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_wa_hospital_inpatient_discharges_by_drg_u_s_fy2011"
+  "schemaName": "socrata/data.wa.gov", 
+  "tableName": "hospital_inpatient_discharges_by_drg_u_s_fy2011"
 }

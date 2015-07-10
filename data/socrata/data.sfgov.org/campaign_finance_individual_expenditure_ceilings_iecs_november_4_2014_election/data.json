@@ -1,0 +1,42 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/campaign_finance_individual_expenditure_ceilings_iecs_november_4_2014_election/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/wv7d-caby/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "In the November 4, 2014 election, only candidates for the Board of Supervisors who have been certified as eligible to receive public funds are bound by an Individual Expenditure Ceiling (IEC). Each publicly financed candidate's IEC begins at $250,000 and may be raised in increments of $10,000.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "San Francisco Ethics Commission", 
+    "category": "City Management and Ethics", 
+    "description": "In the November 4, 2014 election, only candidates for the Board of Supervisors who have been certified as eligible to receive public funds are bound by an Individual Expenditure Ceiling (IEC). Each publicly financed candidate's IEC begins at $250,000 and may be raised in increments of $10,000.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/wv7d-caby.json"
+    }
+  }, 
+  "name": "Campaign Finance - Individual Expenditure Ceilings  IECs  - November 4, 2014 Election", 
+  "schema": {
+    "columns": [
+      {
+        "name": "district", 
+        "type": "text"
+      }, 
+      {
+        "name": "candidate", 
+        "type": "text"
+      }, 
+      {
+        "name": "date_iec_raised", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "amount_of_iec", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.sfgov.org", 
+  "tableName": "campaign_finance_individual_expenditure_ceilings_iecs_november_4_2014_election"
+}

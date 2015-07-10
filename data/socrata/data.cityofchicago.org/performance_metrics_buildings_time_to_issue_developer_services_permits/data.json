@@ -1,0 +1,42 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/performance_metrics_buildings_time_to_issue_developer_services_permits/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/ijdy-a94t/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "The Developer Services Review Program is designed to meet the special needs of owners, developers, architects and contractors working on moderately- to highly-complex construction or renovation projects. Eligible projects include high-rise buildings, mercantile buildings with more than 150,000 square feet, other occupancies with more than 80,000 square feet, buildings with foundations deeper than 12 feet, and residential projects that contain more than 25 units. This metric tracks the average number of days DOB takes to process individual Developer Services Permits, grouped by the week the permit was processed. The target average process time is within 89 days. Click here for more information about DOB\u2019s Developer Services Program.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "City of Chicago", 
+    "category": "Administration & Finance", 
+    "description": "The Developer Services Review Program is designed to meet the special needs of owners, developers, architects and contractors working on moderately- to highly-complex construction or renovation projects. Eligible projects include high-rise buildings, mercantile buildings with more than 150,000 square feet, other occupancies with more than 80,000 square feet, buildings with foundations deeper than 12 feet, and residential projects that contain more than 25 units. This metric tracks the average number of days DOB takes to process individual Developer Services Permits, grouped by the week the permit was processed. The target average process time is within 89 days. Click here for more information about DOB\u2019s Developer Services Program.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/ijdy-a94t.json"
+    }
+  }, 
+  "name": "Performance Metrics - Buildings - Time to Issue Developer Services Permits", 
+  "schema": {
+    "columns": [
+      {
+        "name": "week", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "week_text", 
+        "type": "text"
+      }, 
+      {
+        "name": "average_days_to_permit", 
+        "type": "real"
+      }, 
+      {
+        "name": "target", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.cityofchicago.org", 
+  "tableName": "performance_metrics_buildings_time_to_issue_developer_services_permits"
+}

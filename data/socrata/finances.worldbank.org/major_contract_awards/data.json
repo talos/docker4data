@@ -1,0 +1,106 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/major_contract_awards/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/kdui-wcs3/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "This set of contract awards includes data on commitments against contracts that were reviewed by the Bank before they were awarded (prior-reviewed Bank-funded contracts) under IDA/IBRD investment projects and related Trust Funds. This dataset does not list all contracts awarded by the Bank, and should be viewed only as a guide to determine the distribution of major contract commitments among the Bank's member countries. \"Supplier Country\" represents place of supplier registration, which may or not be the supplier's actual country of origin. Information does not include awards to subcontractors nor account for cofinancing. The Procurement Policy and Services Group does not guarantee the data included in this publication and accepts no responsibility whatsoever for any consequences of its use.  The World Bank complies with all sanctions applicable to World Bank transactions.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "World Bank", 
+    "category": "Procurement", 
+    "description": "This set of contract awards includes data on commitments against contracts that were reviewed by the Bank before they were awarded (prior-reviewed Bank-funded contracts) under IDA/IBRD investment projects and related Trust Funds. This dataset does not list all contracts awarded by the Bank, and should be viewed only as a guide to determine the distribution of major contract commitments among the Bank's member countries. \"Supplier Country\" represents place of supplier registration, which may or not be the supplier's actual country of origin. Information does not include awards to subcontractors nor account for cofinancing. The Procurement Policy and Services Group does not guarantee the data included in this publication and accepts no responsibility whatsoever for any consequences of its use.  The World Bank complies with all sanctions applicable to World Bank transactions.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/kdui-wcs3.json"
+    }
+  }, 
+  "name": "Major Contract Awards", 
+  "schema": {
+    "columns": [
+      {
+        "name": "as_of_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "fiscal_year", 
+        "type": "real"
+      }, 
+      {
+        "name": "region", 
+        "type": "text"
+      }, 
+      {
+        "name": "borrower_country", 
+        "type": "text"
+      }, 
+      {
+        "name": "borrower_country_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "project_id", 
+        "type": "text"
+      }, 
+      {
+        "name": "project_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "procurement_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "procurement_category", 
+        "type": "text"
+      }, 
+      {
+        "name": "procurement_method", 
+        "type": "text"
+      }, 
+      {
+        "name": "product_line", 
+        "type": "text"
+      }, 
+      {
+        "name": "major_sector", 
+        "type": "text"
+      }, 
+      {
+        "name": "wb_contract_number", 
+        "type": "text"
+      }, 
+      {
+        "name": "contract_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "contract_signing_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "supplier", 
+        "type": "text"
+      }, 
+      {
+        "name": "supplier_country", 
+        "type": "text"
+      }, 
+      {
+        "name": "supplier_country_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "supplier_contract_amount_usd", 
+        "type": "real"
+      }, 
+      {
+        "name": "borrower_contract_reference_number", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/finances.worldbank.org", 
+  "tableName": "major_contract_awards"
+}

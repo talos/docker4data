@@ -1,0 +1,54 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/election_results_aug_2008_primary_election_cumulative/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/5jc7-9665/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Detailed cumulative results for August 2008 primary election.  Tutorial available here:  http://www.kingcounty.gov/elections/results/opendatatutorial.aspx", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "King County Elections", 
+    "category": "Election results", 
+    "description": "Detailed cumulative results for August 2008 primary election.  Tutorial available here:  http://www.kingcounty.gov/elections/results/opendatatutorial.aspx", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/5jc7-9665.json"
+    }
+  }, 
+  "name": "Election Results - Aug 2008 Primary Election - Cumulative", 
+  "schema": {
+    "columns": [
+      {
+        "name": "race", 
+        "type": "text"
+      }, 
+      {
+        "name": "precinct", 
+        "type": "text"
+      }, 
+      {
+        "name": "leg", 
+        "type": "real"
+      }, 
+      {
+        "name": "cc", 
+        "type": "real"
+      }, 
+      {
+        "name": "countergroup", 
+        "type": "text"
+      }, 
+      {
+        "name": "countertype", 
+        "type": "text"
+      }, 
+      {
+        "name": "count", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.kingcounty.gov", 
+  "tableName": "election_results_aug_2008_primary_election_cumulative"
+}

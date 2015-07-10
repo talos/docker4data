@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_walk_in_payment_locations/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/na5t-saiv/rows.csv"
+    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/na5t-saiv/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Layer presents the location of walk-in City of Seattle utility bill payment locations.", 
   "maintainer": {
@@ -211,5 +212,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_seattle_walk_in_payment_locations"
+  "schemaName": "socrata/data.seattle.gov", 
+  "tableName": "walk_in_payment_locations"
 }

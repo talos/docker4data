@@ -1,0 +1,50 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/2012_state_expenditures/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.mo.gov/api/views/rqqc-6ytf/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Financial data relating to the purchases of goods and services by the state as well as financial disbursements through various state programs", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Office of Administration", 
+    "category": "Government Administration", 
+    "description": "Financial data relating to the purchases of goods and services by the state as well as financial disbursements through various state programs", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.mo.gov/api/views/rqqc-6ytf.json"
+    }
+  }, 
+  "name": "2012 State Expenditures", 
+  "schema": {
+    "columns": [
+      {
+        "name": "fiscal_year", 
+        "type": "text"
+      }, 
+      {
+        "name": "agency_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "category_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "detail_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "vendor_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "payments_total", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.mo.gov", 
+  "tableName": "2012_state_expenditures"
+}

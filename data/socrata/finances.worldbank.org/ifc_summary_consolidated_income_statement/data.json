@@ -1,0 +1,42 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ifc_summary_consolidated_income_statement/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/m54c-7nnc/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Provides summary consolidated income statement from quarterly financial statements.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "World Bank Group", 
+    "category": "Accounting and Control", 
+    "description": "Provides summary consolidated income statement from quarterly financial statements.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/m54c-7nnc.json"
+    }
+  }, 
+  "name": "IFC Summary Consolidated Income Statement", 
+  "schema": {
+    "columns": [
+      {
+        "name": "organization", 
+        "type": "text"
+      }, 
+      {
+        "name": "line_item", 
+        "type": "text"
+      }, 
+      {
+        "name": "fiscal_year", 
+        "type": "text"
+      }, 
+      {
+        "name": "amount_us_millions", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/finances.worldbank.org", 
+  "tableName": "ifc_summary_consolidated_income_statement"
+}

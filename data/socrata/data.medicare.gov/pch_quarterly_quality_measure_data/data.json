@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_medicare_pch_quarterly_quality_measure_data/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/42wc-33ci/rows.csv"
+    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/42wc-33ci/rows.csv", 
+    "type": "csv"
   }, 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -81,5 +82,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_medicare_pch_quarterly_quality_measure_data"
+  "schemaName": "socrata/data.medicare.gov", 
+  "tableName": "pch_quarterly_quality_measure_data"
 }

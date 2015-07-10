@@ -1,0 +1,62 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/tuition_assistance_program_tap_recipients_dollars_by_college_and_sector_group_beginning_2000/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/tua9-wsak/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "The Tuition Assistance Program (TAP), New York's largest student financial aid grant program, helps eligible New York residents attending in-state postsecondary institutions pay for tuition. TAP grants are based on the applicant\u2019s and his or her family\u2019s New York State taxable income.  \r\nThis data includes TAP award recipients and dollar amounts by college and sector groups starting for academic years 2000.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New York State Higher Education Services Corporation", 
+    "category": "Education", 
+    "description": "The Tuition Assistance Program (TAP), New York's largest student financial aid grant program, helps eligible New York residents attending in-state postsecondary institutions pay for tuition. TAP grants are based on the applicant\u2019s and his or her family\u2019s New York State taxable income.  \r\nThis data includes TAP award recipients and dollar amounts by college and sector groups starting for academic years 2000.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/tua9-wsak.json"
+    }
+  }, 
+  "name": "Tuition Assistance Program (TAP) Recipients & Dollars by College and Sector Group: Beginning 2000", 
+  "schema": {
+    "columns": [
+      {
+        "name": "academic_year", 
+        "type": "real"
+      }, 
+      {
+        "name": "tap_college_code", 
+        "type": "real"
+      }, 
+      {
+        "name": "federal_school_code", 
+        "type": "real"
+      }, 
+      {
+        "name": "tap_college_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "sector_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "tap_sector_group", 
+        "type": "text"
+      }, 
+      {
+        "name": "tap_recipient_headcount", 
+        "type": "real"
+      }, 
+      {
+        "name": "tap_recipient_ftes", 
+        "type": "real"
+      }, 
+      {
+        "name": "tap_recipient_dollars", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "tuition_assistance_program_tap_recipients_dollars_by_college_and_sector_group_beginning_2000"
+}

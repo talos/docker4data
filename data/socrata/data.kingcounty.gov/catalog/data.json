@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_kingcounty_catalog/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/d9gc-nfaw/rows.csv"
+    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/d9gc-nfaw/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Catalog of all data.kingcounty.gov datasets", 
   "maintainer": {
@@ -55,5 +56,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_kingcounty_catalog"
+  "schemaName": "socrata/data.kingcounty.gov", 
+  "tableName": "catalog"
 }

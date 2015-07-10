@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_electric_generation_by_fuel_type_gwh_beginning_1960/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/h4gs-8qnu/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/h4gs-8qnu/rows.csv", 
+    "type": "csv"
   }, 
   "description": "New York Electric Generation By Fuel Type, GWh dataset provides data on total electricity requirements and in-state generation for New York State in giga-watt hours. Sources of electricity include coal, natural gas, petroleum products, hydro, nuclear, waste, landfill gas, wood, wind, solar, and net imports of electricity.", 
   "maintainer": {
@@ -80,5 +81,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ny_electric_generation_by_fuel_type_gwh_beginning_1960"
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "electric_generation_by_fuel_type_gwh_beginning_1960"
 }

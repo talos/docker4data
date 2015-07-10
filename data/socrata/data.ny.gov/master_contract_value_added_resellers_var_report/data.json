@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_master_contract_value_added_resellers_var_report/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/cjqa-a3p4/rows.csv"
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/cjqa-a3p4/rows.csv", 
+    "type": "csv"
   }, 
   "description": "A listing of New York State Master contracts by vendors and associated resellers, provided by NYS Office of General Services (OGS).  The information in the dataset represents the Master contracts used by State agencies and other authorized users, and the value-added resellers associated with the Master Contract.  The information allows State agencies to see the Master Contracts and the associated resellers for payment and informational purposes.", 
   "maintainer": {
@@ -44,5 +45,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_ny_master_contract_value_added_resellers_var_report"
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "master_contract_value_added_resellers_var_report"
 }

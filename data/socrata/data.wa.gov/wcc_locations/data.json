@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wa_wcc_locations/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/7rtx-ccbx/rows.csv"
+    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/7rtx-ccbx/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Table of WCC locations statewide. Filtered based on those positions that are currently recruiting and those that are not.", 
   "maintainer": {
@@ -76,5 +77,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_wa_wcc_locations"
+  "schemaName": "socrata/data.wa.gov", 
+  "tableName": "wcc_locations"
 }

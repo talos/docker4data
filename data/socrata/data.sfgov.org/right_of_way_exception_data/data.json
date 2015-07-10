@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_right_of_way_exception_data/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/yrgu-vakm/rows.csv"
+    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/yrgu-vakm/rows.csv", 
+    "type": "csv"
   }, 
   "description": "A table of restrictions and information about existing conditions in the public right of way.  including permits, moratorium streets, AWSS, SFMTA bluebook, 5 year plan, bike lanes, jurisdiction, monuments, etc.  AKA Street Restrictions, The Exception Table", 
   "maintainer": {
@@ -76,5 +77,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_sfgov_right_of_way_exception_data"
+  "schemaName": "socrata/data.sfgov.org", 
+  "tableName": "right_of_way_exception_data"
 }

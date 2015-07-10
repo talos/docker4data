@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wa_historical_drought_permits_washington_state/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/w9k2-96gh/rows.csv"
+    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/w9k2-96gh/rows.csv", 
+    "type": "csv"
   }, 
   "description": "During times of declared drought (WAC 173-166), the Department of Ecology may approve temporary water right applications and water right transfers for emergency drought relief.   This data set lists approved drought permits from the years 2005 and 2001.", 
   "maintainer": {
@@ -76,5 +77,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_wa_historical_drought_permits_washington_state"
+  "schemaName": "socrata/data.wa.gov", 
+  "tableName": "historical_drought_permits_washington_state"
 }

@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_nola_post_katrina_damage_assessment/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.nola.gov/api/views/aned-jbk9/rows.csv"
+    "@id": "http://www.opendatacache.com/data.nola.gov/api/views/aned-jbk9/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Post-Katrina damage assessment conducted by City inspectors, published by address with breakdown by category. These data formerly supported the \"Damage Assessment Wizard\" web tool. Also see attachment 'DA_Categories' for insight as to how damage was assessed.", 
   "maintainer": {
@@ -256,5 +257,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_nola_post_katrina_damage_assessment"
+  "schemaName": "socrata/data.nola.gov", 
+  "tableName": "post_katrina_damage_assessment"
 }

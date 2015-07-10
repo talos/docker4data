@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_disadvantaged_business_enterprise/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/kzmc-tj7d/rows.csv"
+    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/kzmc-tj7d/rows.csv", 
+    "type": "csv"
   }, 
   "description": "This dataset contains a list of the certified Disadvantaged Business Enterprises (DBE) within the state of Maryland as well as the industry each DBE is affiliated with. This program is affiliated with the Maryland Department of Transportation.", 
   "maintainer": {
@@ -51,5 +52,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_maryland_disadvantaged_business_enterprise"
+  "schemaName": "socrata/data.maryland.gov", 
+  "tableName": "disadvantaged_business_enterprise"
 }

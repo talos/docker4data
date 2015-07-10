@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_honolulu_city_spending/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.honolulu.gov/api/views/std8-yakc/rows.csv"
+    "@id": "http://www.opendatacache.com/data.honolulu.gov/api/views/std8-yakc/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Actual spending 2010&2011\r\nBudget 2012\r\nProposed Budget 2013", 
   "maintainer": {
@@ -75,5 +76,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_honolulu_city_spending"
+  "schemaName": "socrata/data.honolulu.gov", 
+  "tableName": "city_spending"
 }

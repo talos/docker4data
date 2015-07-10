@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_cumulative_violent_crime_reduction_since_2006/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/rknb-wh47/rows.csv"
+    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/rknb-wh47/rows.csv", 
+    "type": "csv"
   }, 
   "description": "This dataset tracks the cumulative statewide reductions in violent crime since 2006. Data are reported each year by MSAC, the Maryland Statistical Analysis Center, within GOCCP, the Governor's Office of Crime Control and Prevention.", 
   "maintainer": {
@@ -56,5 +57,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_maryland_cumulative_violent_crime_reduction_since_2006"
+  "schemaName": "socrata/data.maryland.gov", 
+  "tableName": "cumulative_violent_crime_reduction_since_2006"
 }

@@ -1,0 +1,78 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/energy_prices_dollars_per_million_btu_beginning_1970/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/pzgr-wqm5/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "New York Energy Prices presents retail energy price data.  Energy prices are provided by fuel type in nominal dollars per million Btu for the residential, commercial, industrial, and transportation sectors.  This section includes a column in the price table displaying gross domestic product (GDP) price deflators for converting nominal (current year) dollars to constant (real) dollars.  To convert nominal to constant dollars, divide the nominal energy price by the GDP price deflator for that particular year.  Historical petroleum, electricity, coal, and natural gas prices were compiled primarily from the Energy Information Administration.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "New York State Energy Research and Development Authority", 
+    "category": "Energy & Environment", 
+    "description": "New York Energy Prices presents retail energy price data.  Energy prices are provided by fuel type in nominal dollars per million Btu for the residential, commercial, industrial, and transportation sectors.  This section includes a column in the price table displaying gross domestic product (GDP) price deflators for converting nominal (current year) dollars to constant (real) dollars.  To convert nominal to constant dollars, divide the nominal energy price by the GDP price deflator for that particular year.  Historical petroleum, electricity, coal, and natural gas prices were compiled primarily from the Energy Information Administration.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.ny.gov/api/views/pzgr-wqm5.json"
+    }
+  }, 
+  "name": "Energy Prices, Dollars per Million Btu: Beginning 1970", 
+  "schema": {
+    "columns": [
+      {
+        "name": "year", 
+        "type": "real"
+      }, 
+      {
+        "name": "gdp_deflator", 
+        "type": "real"
+      }, 
+      {
+        "name": "sector", 
+        "type": "text"
+      }, 
+      {
+        "name": "coal", 
+        "type": "real"
+      }, 
+      {
+        "name": "distillate", 
+        "type": "real"
+      }, 
+      {
+        "name": "residual", 
+        "type": "real"
+      }, 
+      {
+        "name": "kerosene", 
+        "type": "real"
+      }, 
+      {
+        "name": "propane", 
+        "type": "real"
+      }, 
+      {
+        "name": "natural_gas", 
+        "type": "real"
+      }, 
+      {
+        "name": "electricity", 
+        "type": "real"
+      }, 
+      {
+        "name": "wood", 
+        "type": "real"
+      }, 
+      {
+        "name": "motor_gasoline", 
+        "type": "real"
+      }, 
+      {
+        "name": "jet_fuel", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.ny.gov", 
+  "tableName": "energy_prices_dollars_per_million_btu_beginning_1970"
+}

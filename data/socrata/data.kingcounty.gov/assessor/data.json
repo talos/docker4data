@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_kingcounty_assessor/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/d665-vvmd/rows.csv"
+    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/d665-vvmd/rows.csv", 
+    "type": "csv"
   }, 
   "description": "King County Assessor's data is at http://info.kingcounty.gov/assessor/DataDownload/", 
   "maintainer": {
@@ -28,5 +29,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_kingcounty_assessor"
+  "schemaName": "socrata/data.kingcounty.gov", 
+  "tableName": "assessor"
 }
