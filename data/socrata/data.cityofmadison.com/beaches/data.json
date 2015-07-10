@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofmadison_beaches/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.cityofmadison.com/api/views/yms6-sayp/rows.csv"
+    "@id": "http://www.opendatacache.com/data.cityofmadison.com/api/views/yms6-sayp/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Lifeguard services are provided by City of Madison Parks. Public Health Madison & Dane County monitors water quality conditions at these beaches.", 
   "maintainer": {
@@ -76,5 +77,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_cityofmadison_beaches"
+  "schemaName": "socrata/data.cityofmadison.com", 
+  "tableName": "beaches"
 }

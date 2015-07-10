@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_austintexas_gov_top_50_pages/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/8yfa-b3bq/rows.csv"
+    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/8yfa-b3bq/rows.csv", 
+    "type": "csv"
   }, 
   "description": "This data, exported from Google Analytics displays the most popular 50 pages on Austintexas.gov based on the following: \nPageviews: The total number of pages viewed. Repeated views of a single page are counted.\nUnique Pageviews: The number of visits during which the specified page was viewed at least once. A unique pageview is counted for each page URL + page Title combination.\nAverage Time on Page: The average amount of time users spent viewing a specified page or screen, or set of pages or screens.\nEntrances: The number of times visitors entered your site through a specified page or set of pages.\nBounce Rate: The percentage of single-page visits (i.e. visits in which the person left your site from the entrance page without interacting with the page).\nPercent Exit: (number of exits) / (number of pageviews) for the page or set of pages. It indicates how often users exit from that page or set of pages when they view the page(s).", 
   "maintainer": {
@@ -47,5 +48,6 @@
       }
     ]
   }, 
+  "schemaName": "socrata/data.austintexas.gov", 
   "tableName": "austintexas_gov_top_50_pages"
 }

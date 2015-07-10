@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/alameda_county_pharmaceutical_take_back_locations/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.acgov.org/api/views/cbck-2ta8/rows.csv"
+    "@id": "http://www.opendatacache.com/data.acgov.org/api/geospatial/w622-twuq", 
+    "type": "shapefile"
   }, 
   "description": "Alameda County Pharmaceutical Take Back Locations", 
   "maintainer": {
@@ -17,7 +18,21 @@
   }, 
   "name": "Alameda County Pharmaceutical Take Back Locations", 
   "schema": {
-    "columns": []
+    "columns": [
+      {
+        "name": "name", 
+        "type": "text"
+      }, 
+      {
+        "name": "type", 
+        "type": "text"
+      }, 
+      {
+        "name": "location_1", 
+        "type": "text"
+      }
+    ]
   }, 
+  "schemaName": "socrata/data.acgov.org", 
   "tableName": "alameda_county_pharmaceutical_take_back_locations"
 }

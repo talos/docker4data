@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofmadison_pavement_data/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.cityofmadison.com/api/views/sjqt-cv73/rows.csv"
+    "@id": "http://www.opendatacache.com/data.cityofmadison.com/api/views/sjqt-cv73/rows.csv", 
+    "type": "csv"
   }, 
   "description": "City of Madison streets with pavement data including functional class, pavement rating, length and others.", 
   "maintainer": {
@@ -96,5 +97,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_cityofmadison_pavement_data"
+  "schemaName": "socrata/data.cityofmadison.com", 
+  "tableName": "pavement_data"
 }

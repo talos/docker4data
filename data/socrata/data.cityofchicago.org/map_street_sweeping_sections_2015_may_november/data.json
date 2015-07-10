@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/map_street_sweeping_sections_2015_may_november/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/2cgx-fb86/rows.csv"
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/geospatial/2cgx-fb86", 
+    "type": "shapefile"
   }, 
   "description": "Street sweeping zones by Ward and Ward Section Number.  For the corresponding schedule, see https://data.cityofchicago.org/id/ggci-kynu. Because the City of Chicago ward map will change on May 18, 2015, this dataset begins on that date.  The map for April and the first half of May is https://data.cityofchicago.org/d/4qtf-5nmn.\n\nFor more information about the City's Street Sweeping program, go to http://bit.ly/H2PHUP. The data can be viewed on the Chicago Data Portal with a web browser. However, to view or use the files outside of a web browser, you will need to use compression software and special GIS software, such as ESRI ArcGIS (shapefile) or Google Earth (KML or KMZ).", 
   "maintainer": {
@@ -19,5 +20,6 @@
   "schema": {
     "columns": []
   }, 
+  "schemaName": "socrata/data.cityofchicago.org", 
   "tableName": "map_street_sweeping_sections_2015_may_november"
 }

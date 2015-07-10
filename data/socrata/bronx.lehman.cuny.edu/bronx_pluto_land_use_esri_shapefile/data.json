@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/bronx_pluto_land_use_esri_shapefile/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/97bw-5f7v/rows.csv"
+    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/geospatial/97bw-5f7v", 
+    "type": "shapefile"
   }, 
   "description": "GIS shapefile of extensive land use and geographic data at the tax lot level. The PLUTO files contain more than seventy fields derived from data maintained by city agencies. Essentially, displays a plethora of plot data including size, tax lot, and other publicly available information. MapPLUTO merges PLUTO tax lot data with tax lot features from the Department of Finance\u2019s Digital Tax Map (DTM), clipped to the shoreline. It contains extensive land use and geographic data at the tax lot level in ESRI shape file format and dbase table format.", 
   "maintainer": {
@@ -19,5 +20,6 @@
   "schema": {
     "columns": []
   }, 
+  "schemaName": "socrata/bronx.lehman.cuny.edu", 
   "tableName": "bronx_pluto_land_use_esri_shapefile"
 }

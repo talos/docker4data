@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ems_patient_contacts_per_month_city_and_county/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/bf4p-asz5/rows.csv"
+    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/bf4p-asz5/rows.csv", 
+    "type": "csv"
   }, 
   "description": "A count of each contact between EMS and a patient during an incident.  A single patient contact is counted for an incident, even if multiple medical staff interact with the patient (e.g. one medic triages a patient and a second medic transports to a hospital).  On the other hand, if an incident involves multiple patients, each contact with those patients is counted once.  For example, a motor vehicle crash with three injured persons would be counted as one incident with three patient contacts. It is single medical interaction between EMS and a patient during the course of an incident. Some incidents may have multiple patients and other incidents may not involve any patients at all.  A patient is a person who requires a medical assessment", 
   "maintainer": {
@@ -39,5 +40,6 @@
       }
     ]
   }, 
+  "schemaName": "socrata/data.austintexas.gov", 
   "tableName": "ems_patient_contacts_per_month_city_and_county"
 }

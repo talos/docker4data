@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_nearby_cook_county_grocery_store_chains/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/wryv-d7zf/rows.csv"
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/wryv-d7zf/rows.csv", 
+    "type": "csv"
   }, 
   "description": "A list of grocery stores which are part of a multi-store chain and are located at or within 1 mile of Chicago's city limits. In addition, this dataset contains additional information about the size and type of food offered by the grocery store. This dataset was provided to the City of Chicago by Chicago State University.", 
   "maintainer": {
@@ -48,5 +49,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_cityofchicago_nearby_cook_county_grocery_store_chains"
+  "schemaName": "socrata/data.cityofchicago.org", 
+  "tableName": "nearby_cook_county_grocery_store_chains"
 }

@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofmadison_assessor_property_information/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.cityofmadison.com/api/views/u7ns-6d4x/rows.csv"
+    "@id": "http://www.opendatacache.com/data.cityofmadison.com/api/views/u7ns-6d4x/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Updated week days. Parcels; Property Value; Property Information: Zoning; Property Class; Water Frontage; Assessment Area; TIF District; Frontage; Residential Building Information:  Home-Style; Stories; Year Built; Number of Garages; Driveway; Roof type and replacement; Interior Information: Number of bedrooms, Full Baths, Half Baths, Fireplaces; Living Areas: Floor and Size of rooms in square feet; Other Structures; Mechanicals.", 
   "maintainer": {
@@ -332,5 +333,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_cityofmadison_assessor_property_information"
+  "schemaName": "socrata/data.cityofmadison.com", 
+  "tableName": "assessor_property_information"
 }

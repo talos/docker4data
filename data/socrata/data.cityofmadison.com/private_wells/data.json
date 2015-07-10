@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofmadison_private_wells/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.cityofmadison.com/api/views/84vr-dpbk/rows.csv"
+    "@id": "http://www.opendatacache.com/data.cityofmadison.com/api/views/84vr-dpbk/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Active private water wells within the Madison Water Utility service area. To learn more about the MWU Private Well Program, visit our Web Page (http://www.cityofmadison.com/water/programs/privateWells.cfm).", 
   "maintainer": {
@@ -32,5 +33,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_cityofmadison_private_wells"
+  "schemaName": "socrata/data.cityofmadison.com", 
+  "tableName": "private_wells"
 }

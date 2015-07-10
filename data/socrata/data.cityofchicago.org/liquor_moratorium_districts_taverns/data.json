@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/liquor_moratorium_districts_taverns/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/jvps-6v8h/rows.csv"
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/download/jvps-6v8happlication/zip; charset=binary", 
+    "type": "application/zip; charset=binary"
   }, 
   "description": "No new tavern licenses can be issued to any location that is within 400 feet of existing businesses already licensed for the sale of alcoholic liquor in certain zoning districts. Measurements are made from the property line and exclude streets, alleys, and public ways. This prohibition does not apply to restaurants, hotels offering restaurant services, or not-for-profit clubs.\r\n\r\nThere are nine major classes of liquor licenses in the City of Chicago, the most common being Tavern, Package Goods and Incidental - Consumption on Premises. These categories were established to help the City identify and regulate the various types of establishments serving alcoholic beverages. They are described at the following link: http://bit.ly/P0Gn4c. The Chicago City Council has passed a series of ordinances restricting the issuance of liquor licenses in various locations throughout the City in sections 4-60-022 and 4-60-023 of the Municipal Code. In general, consumption on premises liquor licenses are affected by the 022 moratorium and Package Goods are affected by the 023 moratorium. However, moratoriums can be complicated, so determining whether or not a moratorium applies to a specific license application is not always straightforward. Users of the data should contact the Department of Business Affairs and Consumer Protection if they have any questions. These GIS layers show the locations of moratoriums passed by the City Council. It is updated monthly if any restrictions have been added or deleted. Columns are as follows: \u2022\tCODE refers to the specific ordinance passed by City County. If there are more than one, they are connected by an underscore. They are in the format ww.nnn where ww is the ward number and nnn is a sequential number. \u2022\tST_SDE refers to which side of the street the ordinance refers to. \u2022\tCREADATE is the date that the ordinance was input into the digital system, usually within a week after passed by City Council. Dates before 2003 do not relect the actual date passed. \r\n\r\nTo view or use these shapefiles, compression software, such as 7-Zip, and special GIS software, such as ESRI ArcGIS or QGIS, are required. To download this file, right-click the \"Download\" link above and choose \"Save link as.\"", 
   "maintainer": {
@@ -19,5 +20,6 @@
   "schema": {
     "columns": []
   }, 
+  "schemaName": "socrata/data.cityofchicago.org", 
   "tableName": "liquor_moratorium_districts_taverns"
 }

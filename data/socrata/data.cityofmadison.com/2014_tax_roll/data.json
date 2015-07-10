@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofmadison_2014_tax_roll/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.cityofmadison.com/api/views/yfsj-iy4u/rows.csv"
+    "@id": "http://www.opendatacache.com/data.cityofmadison.com/api/views/yfsj-iy4u/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Tax by parcel", 
   "maintainer": {
@@ -332,5 +333,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_cityofmadison_2014_tax_roll"
+  "schemaName": "socrata/data.cityofmadison.com", 
+  "tableName": "2014_tax_roll"
 }

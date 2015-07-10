@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/bronx2000_census_tracts_2010_icd_9_sparks_data/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/83b6-eeu7/rows.csv"
+    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/geospatial/83b6-eeu7", 
+    "type": "shapefile"
   }, 
   "description": "Since the source for the ICD9 data has not yet been updated to reflect the changes in the 2010 Census Tracts, I used 2000 Census Tracts with 2010 ICD9 data. This decreased the number of errors and tracts lacking data by 25%. This data is updated", 
   "maintainer": {
@@ -19,5 +20,6 @@
   "schema": {
     "columns": []
   }, 
+  "schemaName": "socrata/bronx.lehman.cuny.edu", 
   "tableName": "bronx2000_census_tracts_2010_icd_9_sparks_data"
 }

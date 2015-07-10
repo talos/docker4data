@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_311_service_requests_tree_debris/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/mab8-y9h3/rows.csv"
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/mab8-y9h3/rows.csv", 
+    "type": "csv"
   }, 
   "description": "All open tree debris removal requests made to 311 and all requests completed since January 1, 2011. Large piles of branches or bushes may be picked up by the Department of Streets and Sanitation.\r\n311 sometimes creates duplicate requests for tree debris removal.  When there is an open tree debris request, a duplicate request is created when the exact same address and the exact same service request type are used. Streets and Sanitation responds to the initial request opened and closes the duplicates. A forestry \"Clam\" is the name of the vehicle the Forestry Bureau deploys to collect tree debris.\r\nData Owner: Streets and Sanitation (http://www.cityofchicago.org/content/city/en/depts/streets.html).\r\nTime Period: January 1, 2011 to present.\r\nFrequency: Data is updated daily.\r\nRelated Applications: 311 Service Request Status Inquiry (https://servicerequest.cityofchicago.org/web_intake_chic/Controller?op=createsrquery2) and \r\n                                    Request Tree Debris Removal (https://servicerequest.cityofchicago.org/web_intake_chic/Controller?op=locform&invSRType=SEL&invSRDesc=Tree%20Debris&locreq=Y).", 
   "maintainer": {
@@ -92,5 +93,6 @@
       }
     ]
   }, 
+  "schemaName": "socrata/data.cityofchicago.org", 
   "tableName": "311_service_requests_tree_debris"
 }

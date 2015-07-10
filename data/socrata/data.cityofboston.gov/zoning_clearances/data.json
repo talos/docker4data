@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofboston_zoning_clearances/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/6xhk-ifjg/rows.csv"
+    "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/6xhk-ifjg/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Zoning rules for districts. A= Allowed  C=Conditional F = Forbidden\r\nPlease use attached document for sub district ID locations and to join to shape file located here: http://boston.maps.arcgis.com/home/item.html?id=58348dd9d09442ee91ca9d2dcb527ba4", 
   "maintainer": {
@@ -788,5 +789,6 @@
       }
     ]
   }, 
+  "schemaName": "socrata/data.cityofboston.gov", 
   "tableName": "zoning_clearances"
 }

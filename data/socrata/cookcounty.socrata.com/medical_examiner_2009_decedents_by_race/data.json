@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cookcountycom_medical_examiner_2009_decedents_by_race/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/cookcounty.socrata.com/api/views/nnih-e5uj/rows.csv"
+    "@id": "http://www.opendatacache.com/cookcounty.socrata.com/api/views/nnih-e5uj/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Updated 10/24/2011.  From the 2009 Medical Examiner's Annual Report.  Race of autopsied people.", 
   "maintainer": {
@@ -9,10 +10,10 @@
   }, 
   "metadata": {
     "attribution": "Cook County Medical Examiner", 
-    "category": "Finance & Administration", 
+    "category": "Healthcare", 
     "description": "Updated 10/24/2011.  From the 2009 Medical Examiner's Annual Report.  Race of autopsied people.", 
     "socrata": {
-      "@id": "http://www.opendatacache.com/cookcounty.socrata.com/api/views/cztm-9h6n.json"
+      "@id": "http://www.opendatacache.com/cookcounty.socrata.com/api/views/nnih-e5uj.json"
     }
   }, 
   "name": "Medical Examiner--2009 Decedents, by Race", 
@@ -28,9 +29,10 @@
       }, 
       {
         "name": "percent_", 
-        "type": "real"
+        "type": "text"
       }
     ]
   }, 
+  "schemaName": "socrata/cookcounty.socrata.com", 
   "tableName": "medical_examiner_2009_decedents_by_race"
 }

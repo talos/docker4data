@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofmadison_election_statistics/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.cityofmadison.com/api/views/7shu-mkhv/rows.csv"
+    "@id": "http://www.opendatacache.com/data.cityofmadison.com/api/views/7shu-mkhv/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Voter turnout and absentee ballot statistics by election.", 
   "maintainer": {
@@ -151,5 +152,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_cityofmadison_election_statistics"
+  "schemaName": "socrata/data.cityofmadison.com", 
+  "tableName": "election_statistics"
 }

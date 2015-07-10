@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/bronx_hurricane_sandy_damaged_trees/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/x3s6-cqrv/rows.csv"
+    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/x3s6-cqrv/rows.csv", 
+    "type": "csv"
   }, 
   "description": "damaged tree complaints logged in three days after Hurricane Sandy. The source file is updated automatically and is logging in tree damage not associated with the storm, so I isolated the damage reports to the following three days after the storm. This dataset is historical and will not be updated.", 
   "maintainer": {
@@ -120,5 +121,6 @@
       }
     ]
   }, 
+  "schemaName": "socrata/bronx.lehman.cuny.edu", 
   "tableName": "bronx_hurricane_sandy_damaged_trees"
 }

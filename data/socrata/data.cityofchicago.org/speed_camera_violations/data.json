@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_speed_camera_violations/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/hhkd-xvj4/rows.csv"
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/hhkd-xvj4/rows.csv", 
+    "type": "csv"
   }, 
   "description": "This dataset reflects the daily volume of violations that have occurred in Children's Safety Zones for each camera. The data reflects violations that occurred from July 1, 2014 until present, minus the most recent 14 days. This data may change due to occasional time lags between the capturing of a potential violation and the processing and determination of a violation. The most recent 14 days are not shown due to revised data being submitted to the City of Chicago. The reported violations are those that have been collected by the camera and radar system and reviewed by two separate City contractors. In some instances, due to the inability the registered owner of the offending vehicle, the violation may not be issued as a citation. However, this dataset contains all violations regardless of whether a citation was issued, which provides an accurate view into the Automated Speed Enforcement Program violations taking place in Children's Safety Zones. More information on the Safety Zone Program can be found here: http://www.cityofchicago.org/city/en/depts/cdot/supp_info/children_s_safetyzoneporgramautomaticspeedenforcement.html. The corresponding dataset for red light camera violations is https://data.cityofchicago.org/id/spqx-js37.", 
   "maintainer": {
@@ -56,5 +57,6 @@
       }
     ]
   }, 
+  "schemaName": "socrata/data.cityofchicago.org", 
   "tableName": "speed_camera_violations"
 }

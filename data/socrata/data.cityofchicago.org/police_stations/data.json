@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_police_stations/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/z8bn-74gv/rows.csv"
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/z8bn-74gv/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Chicago Police district station locations and contact information.", 
   "maintainer": {
@@ -60,5 +61,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_cityofchicago_police_stations"
+  "schemaName": "socrata/data.cityofchicago.org", 
+  "tableName": "police_stations"
 }

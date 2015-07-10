@@ -1,0 +1,42 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/performance_metrics_buildings_time_to_issue_green_permits/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/z2qz-687z/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "As part of the City\u2019s sustainability program, the Department of Buildings (DOB) offers expedited permitting for residential, commercial and industrial building projects that meet certain criteria. In addition to fast-tracking, projects achieving exceptional sustainability may be eligible for a fee waiver up to $25,000.  Projects that include green technologies (green roofs, rainwater harvesting, solar panels, solar thermal panels, wind turbine and geothermal systems) are required to be submitted through the Green Permit Program.  This metric tracks the average number of days DOB takes to process individual Green Permits, grouped by the week the permit was processed. The target average process time is within 71 days.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "City of Chicago", 
+    "category": "Administration & Finance", 
+    "description": "As part of the City\u2019s sustainability program, the Department of Buildings (DOB) offers expedited permitting for residential, commercial and industrial building projects that meet certain criteria. In addition to fast-tracking, projects achieving exceptional sustainability may be eligible for a fee waiver up to $25,000.  Projects that include green technologies (green roofs, rainwater harvesting, solar panels, solar thermal panels, wind turbine and geothermal systems) are required to be submitted through the Green Permit Program.  This metric tracks the average number of days DOB takes to process individual Green Permits, grouped by the week the permit was processed. The target average process time is within 71 days.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/z2qz-687z.json"
+    }
+  }, 
+  "name": "Performance Metrics - Buildings - Time To Issue Green Permits", 
+  "schema": {
+    "columns": [
+      {
+        "name": "week", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "week_text", 
+        "type": "text"
+      }, 
+      {
+        "name": "average_days_to_permit", 
+        "type": "real"
+      }, 
+      {
+        "name": "target", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.cityofchicago.org", 
+  "tableName": "performance_metrics_buildings_time_to_issue_green_permits"
+}

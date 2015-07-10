@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofmadison_november_2014_turnout/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.cityofmadison.com/api/views/gsem-zqpc/rows.csv"
+    "@id": "http://www.opendatacache.com/data.cityofmadison.com/api/views/gsem-zqpc/rows.csv", 
+    "type": "csv"
   }, 
   "description": "11 a.m., 4 p.m., and final turnout numbers by ward for the November 2014 election", 
   "maintainer": {
@@ -59,5 +60,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_cityofmadison_november_2014_turnout"
+  "schemaName": "socrata/data.cityofmadison.com", 
+  "tableName": "november_2014_turnout"
 }

@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/cta_ridership_l_station_entries_daily_totals/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/5neh-572f/rows.csv"
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/5neh-572f/rows.csv", 
+    "type": "csv"
   }, 
   "description": "This list shows daily totals of ridership, by station entry, for each 'L' station dating back to 2001. Dataset shows entries at all turnstiles, combined, for each station. Daytypes are as follows: W=Weekday, A=Saturday, U=Sunday/Holiday. See attached readme file for information on how these numbers are calculated.", 
   "maintainer": {
@@ -40,5 +41,6 @@
       }
     ]
   }, 
+  "schemaName": "socrata/data.cityofchicago.org", 
   "tableName": "cta_ridership_l_station_entries_daily_totals"
 }

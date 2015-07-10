@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_school_monitoring_data/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/45i5-r9tu/rows.csv"
+    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/45i5-r9tu/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Air monitoring  for asbestos in and around the schools near the World Trade Center disaster site. \r\n\r\nNotes:\r\n6/24/02 - Overloaded sample not analyzed\r\nTotal Volume = 1200 liters\r\nSampling Time = 8hrs.\r\nf/cc = fibers per cubic centimeter\r\ns/sqmm = structures per square millimeter\r\nOverload = Indicates that the sampling filter was clogged and the sample could not be read with laboratory analysis.", 
   "maintainer": {
@@ -40,5 +41,6 @@
       }
     ]
   }, 
+  "schemaName": "socrata/data.cityofnewyork.us", 
   "tableName": "school_monitoring_data"
 }

@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/bronx_triangle_grid/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/kn3x-djny/rows.csv"
+    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/geospatial/kn3x-djny", 
+    "type": "shapefile"
   }, 
   "description": "made from a ArcGIS utility called Repeating Shapes. Area = 2,000,000 sq feet. Height = 1861.2 feet. Edge = 2149.14 feet. Use to export and create spatial joins with other data.", 
   "maintainer": {
@@ -19,5 +20,6 @@
   "schema": {
     "columns": []
   }, 
+  "schemaName": "socrata/bronx.lehman.cuny.edu", 
   "tableName": "bronx_triangle_grid"
 }

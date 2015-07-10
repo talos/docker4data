@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofmadison_toilet_rebate_summary/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.cityofmadison.com/api/views/miyr-ap4j/rows.csv"
+    "@id": "http://www.opendatacache.com/data.cityofmadison.com/api/views/miyr-ap4j/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Summary of toilet rebates. Includes number of rebates and dollars refunded to Madison Water Utility customers. To learn more about the High Efficiency Toilet Rebate Program, visit the MWU website (http://www.cityofmadison.com/water/inTheHome/toiletRebate.cfm).", 
   "maintainer": {
@@ -34,5 +35,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_cityofmadison_toilet_rebate_summary"
+  "schemaName": "socrata/data.cityofmadison.com", 
+  "tableName": "toilet_rebate_summary"
 }

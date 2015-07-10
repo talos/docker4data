@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_energy_usage_2010/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/8yq3-m6wp/rows.csv"
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/8yq3-m6wp/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Displays several units of energy consumption for households, businesses, and industries in the City of Chicago during 2010. Electric  The data was aggregated from ComEd and Peoples Natural Gas by Accenture. Electrical and gas usage data comprises 88 percent of Chicago's buildings in 2010. The electricity data comprises 68 percent of overall electrical usage in the city while gas data comprises 81 percent of all gas consumption in Chicago for 2010.\r\n\r\nCensus blocks with less than 4 accounts is displayed at the Community Area without further geographic identifiers. This dataset also contains selected variables describing selected characteristics of the Census block population, physical housing, and occupancy.", 
   "maintainer": {
@@ -312,5 +313,6 @@
       }
     ]
   }, 
+  "schemaName": "socrata/data.cityofchicago.org", 
   "tableName": "energy_usage_2010"
 }

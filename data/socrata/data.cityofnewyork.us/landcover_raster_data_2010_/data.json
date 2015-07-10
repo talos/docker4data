@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/landcover_raster_data_2010_/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/9auy-76zt/rows.csv"
+    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/download/9auy-76ztapplication/zip; charset=binary", 
+    "type": "application/zip; charset=binary"
   }, 
   "description": "High resolution land cover data set for New York City.  This is the 3ft version of the high-resolution land cover dataset for New York City. Seven land cover classes were mapped: (1) tree canopy, (2) grass/shrub, (3) bare earth, (4) water, (5) buildings, (6) roads, and (7) other paved surfaces.  The minimum mapping unit for the delineation of features was set at 3 square feet. The primary sources used to derive this land cover layer were the 2010 LiDAR and the 2008 4-band orthoimagery.  Ancillary data sources included GIS data (city boundary, building footprints, water, parking lots, roads, railroads, railroad structures, ballfields) provided by New York City (all ancillary datasets except railroads); UVM Spatial Analysis Laboratory manually created railroad polygons from manual interpretation of 2008 4-band orthoimagery.  The tree canopy class was considered current as of 2010; the remaining land-cover classes were considered current as of 2008. Object-Based Image Analysis (OBIA) techniques were employed to extract land cover information using the best available remotely sensed and vector GIS datasets.  OBIA systems work by grouping pixels into meaningful objects based on their spectral and spatial properties, while taking into account boundaries imposed by existing vector datasets.  Within the OBIA environment a rule-based expert system was designed to effectively mimic the process of manual image analysis by incorporating the elements of image interpretation (color/tone, texture, pattern, location, size, and shape) into the classification process.  A series of morphological procedures were employed to insure that the end product is both accurate and cartographically pleasing. More than 35,000 corrections were made to the classification.  Overall accuracy was 96%. This dataset was developed as part of the Urban Tree Canopy (UTC) Assessment for New York City.  As such, it represents a 'top down' mapping perspective in which tree canopy over hanging other features is assigned to the tree canopy class.  At the time of its creation this dataset represents the most detailed and accurate land cover dataset for the area. This project was funded by National Urban and Community Forestry Advisory Council (NUCFAC) and the National Science Fundation (NSF), although it is not specifically endorsed by either agency.  The methods used were developed by the University of Vermont Spatial Analysis Laboratory, in collaboration with the New York City Urban Field Station, with funding from the USDA Forest Service.", 
   "maintainer": {
@@ -19,5 +20,6 @@
   "schema": {
     "columns": []
   }, 
+  "schemaName": "socrata/data.cityofnewyork.us", 
   "tableName": "landcover_raster_data_2010_"
 }

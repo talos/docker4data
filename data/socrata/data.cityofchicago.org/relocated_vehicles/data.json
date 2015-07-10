@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_relocated_vehicles/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/5k2z-suxx/rows.csv"
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/5k2z-suxx/rows.csv", 
+    "type": "csv"
   }, 
   "description": "This dataset presents current and former locations of vehicles that have been relocated by the City of Chicago within the last 90 days. Vehicles may be relocated, but not impounded, due to inoperability, accident, severe weather, special events, construction or other work being performed in a thoroughfare where the vehicle was previously located.\r\nData Owner: Streets & Sanitation.\r\nTime Period: Last 90 days.\r\nFrequency: Data is updated daily.\r\nRelated Applications: Find Your Vehicle (http://j.mp/iZiX0B).", 
   "maintainer": {
@@ -80,5 +81,6 @@
       }
     ]
   }, 
+  "schemaName": "socrata/data.cityofchicago.org", 
   "tableName": "relocated_vehicles"
 }

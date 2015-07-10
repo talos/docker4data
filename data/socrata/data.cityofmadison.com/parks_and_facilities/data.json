@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofmadison_parks_and_facilities/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.cityofmadison.com/api/views/svr6-6gvb/rows.csv"
+    "@id": "http://www.opendatacache.com/data.cityofmadison.com/api/views/svr6-6gvb/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Park name, address, acreage, type and the facilities available at each park.", 
   "maintainer": {
@@ -220,5 +221,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_cityofmadison_parks_and_facilities"
+  "schemaName": "socrata/data.cityofmadison.com", 
+  "tableName": "parks_and_facilities"
 }

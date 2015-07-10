@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofmadison_police_incident_reports/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.cityofmadison.com/api/views/d686-rvcw/rows.csv"
+    "@id": "http://www.opendatacache.com/data.cityofmadison.com/api/views/d686-rvcw/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Incidents listed are selected by the Officer In Charge of each shift that may have significant public interest. Incidents listed are not inclusive of all incidents.", 
   "maintainer": {
@@ -64,5 +65,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_cityofmadison_police_incident_reports"
+  "schemaName": "socrata/data.cityofmadison.com", 
+  "tableName": "police_incident_reports"
 }

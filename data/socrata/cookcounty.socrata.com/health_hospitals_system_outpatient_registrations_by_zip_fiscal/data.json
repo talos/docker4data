@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/health_hospitals_system_outpatient_registrations_by_zip_fiscal/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/cookcounty.socrata.com/api/views/3ghu-xq7n/rows.csv"
+    "@id": "http://www.opendatacache.com/cookcounty.socrata.com/api/views/jrkm-9x7q/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Data for 2011 through June 2011. Enclosed data represents outpatient registrations including hospital ancillary services (e.g. laboratory, radiology, physical therapy, dialysis), primary and speciality care clinics (Fantus, Stroger Speciality Clinic, Ambulatory Screening Center, Prieto, Austin, Logan Square, Cicero, Vista, Child Advocacy Center, Woodlawn Adult Clinic, Englewood, Morton East, Near South, Sengstacke, Southside Pediatrics, Southside OB, Cottage Grove, Lincoln Robbins, Woody Winston, and OFH Speciality Clinic) same day surgery, CORE center and emergency department registrations", 
   "maintainer": {
@@ -10,27 +11,1720 @@
   "metadata": {
     "attribution": "Cook County Health & Hospitals System", 
     "category": "Healthcare", 
-    "description": "Data for 2011 through June 2011. Enclosed data represents outpatient registrations including hospital ancillary services (e.g. laboratory, radiology, physical therapy, dialysis), primary and speciality care clinics (Fantus, Stroger Speciality Clinic, Ambulatory Screening Center, Prieto, Austin, Logan Square, Cicero, Vista, Child Advocacy Center, Woodlawn Adult Clinic, Englewood, Morton East, Near South, Sengstacke, Southside Pediatrics, Southside OB, Cottage Grove, Lincoln Robbins, Woody Winston, and OFH Speciality Clinic) same day surgery, CORE center and emergency department registrations", 
+    "description": "Cook County Health & Hospitals System Outpatient registrations by Zipcode in Fiscal Year 2010.", 
     "socrata": {
-      "@id": "http://www.opendatacache.com/cookcounty.socrata.com/api/views/3ghu-xq7n.json"
+      "@id": "http://www.opendatacache.com/cookcounty.socrata.com/api/views/jrkm-9x7q.json"
     }
   }, 
-  "name": "Health & Hospitals System - Outpatient Registrations, by ZIP - Fiscal Year 2011 Incomplete", 
+  "name": "Health & Hospitals System - Outpatient Registrations By ZIP - Fiscal Year 2010", 
   "schema": {
     "columns": [
       {
-        "name": "zipcode", 
+        "name": "month", 
         "type": "text"
       }, 
       {
-        "name": "_ytd_through_june_2011", 
+        "name": "zip_not_provided", 
         "type": "real"
       }, 
       {
-        "name": "location", 
-        "type": "text"
+        "name": "zip_not_readable", 
+        "type": "real"
+      }, 
+      {
+        "name": "_6501", 
+        "type": "real"
+      }, 
+      {
+        "name": "_40223", 
+        "type": "real"
+      }, 
+      {
+        "name": "_46307", 
+        "type": "real"
+      }, 
+      {
+        "name": "_46311", 
+        "type": "real"
+      }, 
+      {
+        "name": "_46312", 
+        "type": "real"
+      }, 
+      {
+        "name": "_46319", 
+        "type": "real"
+      }, 
+      {
+        "name": "_46320", 
+        "type": "real"
+      }, 
+      {
+        "name": "_46321", 
+        "type": "real"
+      }, 
+      {
+        "name": "_46322", 
+        "type": "real"
+      }, 
+      {
+        "name": "_46323", 
+        "type": "real"
+      }, 
+      {
+        "name": "_46324", 
+        "type": "real"
+      }, 
+      {
+        "name": "_46327", 
+        "type": "real"
+      }, 
+      {
+        "name": "_46342", 
+        "type": "real"
+      }, 
+      {
+        "name": "_46360", 
+        "type": "real"
+      }, 
+      {
+        "name": "_46368", 
+        "type": "real"
+      }, 
+      {
+        "name": "_46375", 
+        "type": "real"
+      }, 
+      {
+        "name": "_46385", 
+        "type": "real"
+      }, 
+      {
+        "name": "_46394", 
+        "type": "real"
+      }, 
+      {
+        "name": "_46402", 
+        "type": "real"
+      }, 
+      {
+        "name": "_46403", 
+        "type": "real"
+      }, 
+      {
+        "name": "_46404", 
+        "type": "real"
+      }, 
+      {
+        "name": "_46405", 
+        "type": "real"
+      }, 
+      {
+        "name": "_46406", 
+        "type": "real"
+      }, 
+      {
+        "name": "_46407", 
+        "type": "real"
+      }, 
+      {
+        "name": "_46408", 
+        "type": "real"
+      }, 
+      {
+        "name": "_46409", 
+        "type": "real"
+      }, 
+      {
+        "name": "_46410", 
+        "type": "real"
+      }, 
+      {
+        "name": "_46628", 
+        "type": "real"
+      }, 
+      {
+        "name": "_52001", 
+        "type": "real"
+      }, 
+      {
+        "name": "_53115", 
+        "type": "real"
+      }, 
+      {
+        "name": "_53140", 
+        "type": "real"
+      }, 
+      {
+        "name": "_53218", 
+        "type": "real"
+      }, 
+      {
+        "name": "_55412", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60000", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60002", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60004", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60005", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60006", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60007", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60008", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60010", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60013", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60014", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60015", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60016", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60017", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60018", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60019", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60020", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60021", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60022", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60025", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60026", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60030", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60031", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60033", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60035", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60040", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60041", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60042", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60044", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60045", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60046", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60047", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60048", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60049", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60050", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60051", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60053", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60056", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60060", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60061", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60062", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60063", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60064", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60065", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60067", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60068", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60069", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60070", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60073", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60074", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60076", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60077", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60083", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60084", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60085", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60087", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60089", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60090", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60091", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60093", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60096", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60097", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60098", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60099", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60101", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60102", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60103", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60104", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60106", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60107", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60108", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60110", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60112", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60115", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60118", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60120", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60121", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60123", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60124", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60126", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60130", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60131", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60132", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60133", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60134", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60136", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60137", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60139", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60140", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60141", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60142", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60143", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60148", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60152", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60153", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60154", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60155", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60156", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60159", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60160", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60161", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60162", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60163", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60164", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60165", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60167", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60169", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60171", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60172", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60173", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60174", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60175", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60176", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60177", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60180", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60181", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60184", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60185", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60187", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60188", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60189", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60191", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60192", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60193", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60194", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60195", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60196", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60201", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60202", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60203", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60204", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60301", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60302", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60303", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60304", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60305", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60401", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60402", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60403", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60404", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60405", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60406", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60407", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60408", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60409", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60410", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60411", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60412", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60415", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60416", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60417", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60419", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60420", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60421", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60422", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60423", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60424", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60425", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60426", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60427", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60428", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60429", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60430", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60431", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60432", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60433", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60434", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60435", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60436", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60437", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60438", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60439", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60440", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60441", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60442", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60443", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60444", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60445", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60446", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60447", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60448", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60449", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60450", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60451", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60452", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60453", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60454", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60455", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60456", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60457", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60458", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60459", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60461", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60462", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60463", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60464", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60465", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60466", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60467", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60468", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60469", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60471", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60472", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60473", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60475", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60476", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60477", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60478", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60479", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60480", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60481", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60482", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60484", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60487", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60490", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60491", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60499", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60501", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60502", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60503", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60504", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60505", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60506", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60507", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60510", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60513", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60514", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60515", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60516", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60517", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60518", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60521", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60523", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60525", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60526", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60527", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60528", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60532", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60534", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60538", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60540", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60542", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60543", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60544", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60545", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60546", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60548", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60554", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60555", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60558", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60559", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60560", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60561", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60563", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60564", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60565", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60585", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60586", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60600", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60601", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60602", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60603", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60604", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60605", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60606", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60607", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60608", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60609", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60610", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60611", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60612", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60613", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60614", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60615", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60616", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60617", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60618", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60619", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60620", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60621", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60622", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60623", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60624", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60625", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60626", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60627", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60628", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60629", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60630", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60631", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60632", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60633", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60634", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60635", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60636", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60637", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60638", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60639", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60640", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60641", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60642", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60643", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60644", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60645", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60646", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60647", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60648", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60649", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60650", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60651", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60652", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60653", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60654", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60655", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60656", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60657", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60658", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60659", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60660", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60661", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60662", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60663", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60664", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60666", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60668", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60669", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60670", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60676", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60677", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60678", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60680", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60681", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60682", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60684", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60685", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60687", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60690", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60693", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60699", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60706", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60707", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60712", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60714", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60803", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60804", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60805", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60827", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60828", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60901", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60910", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60914", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60915", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60922", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60944", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60950", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60954", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60958", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60964", 
+        "type": "real"
+      }, 
+      {
+        "name": "_60970", 
+        "type": "real"
+      }, 
+      {
+        "name": "_61008", 
+        "type": "real"
+      }, 
+      {
+        "name": "_61021", 
+        "type": "real"
+      }, 
+      {
+        "name": "_61032", 
+        "type": "real"
+      }, 
+      {
+        "name": "_61068", 
+        "type": "real"
+      }, 
+      {
+        "name": "_61081", 
+        "type": "real"
+      }, 
+      {
+        "name": "_61101", 
+        "type": "real"
+      }, 
+      {
+        "name": "_61102", 
+        "type": "real"
+      }, 
+      {
+        "name": "_61103", 
+        "type": "real"
+      }, 
+      {
+        "name": "_61104", 
+        "type": "real"
+      }, 
+      {
+        "name": "_61107", 
+        "type": "real"
+      }, 
+      {
+        "name": "_61108", 
+        "type": "real"
+      }, 
+      {
+        "name": "_61109", 
+        "type": "real"
+      }, 
+      {
+        "name": "_61111", 
+        "type": "real"
+      }, 
+      {
+        "name": "_61244", 
+        "type": "real"
+      }, 
+      {
+        "name": "_61301", 
+        "type": "real"
+      }, 
+      {
+        "name": "_61350", 
+        "type": "real"
+      }, 
+      {
+        "name": "_61364", 
+        "type": "real"
+      }, 
+      {
+        "name": "_61376", 
+        "type": "real"
+      }, 
+      {
+        "name": "_61612", 
+        "type": "real"
+      }, 
+      {
+        "name": "_61701", 
+        "type": "real"
+      }, 
+      {
+        "name": "_61704", 
+        "type": "real"
+      }, 
+      {
+        "name": "_61801", 
+        "type": "real"
+      }, 
+      {
+        "name": "_61802", 
+        "type": "real"
+      }, 
+      {
+        "name": "_61820", 
+        "type": "real"
+      }, 
+      {
+        "name": "_61821", 
+        "type": "real"
+      }, 
+      {
+        "name": "_61832", 
+        "type": "real"
+      }, 
+      {
+        "name": "_62703", 
+        "type": "real"
+      }, 
+      {
+        "name": "_62901", 
+        "type": "real"
+      }, 
+      {
+        "name": "_66060", 
+        "type": "real"
+      }, 
+      {
+        "name": "_66063", 
+        "type": "real"
+      }, 
+      {
+        "name": "_72370", 
+        "type": "real"
+      }, 
+      {
+        "name": "_90221", 
+        "type": "real"
       }
     ]
   }, 
+  "schemaName": "socrata/cookcounty.socrata.com", 
   "tableName": "health_hospitals_system_outpatient_registrations_by_zip_fiscal"
 }

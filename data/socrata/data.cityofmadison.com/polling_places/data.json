@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofmadison_polling_places/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.cityofmadison.com/api/views/rtyh-6ucr/rows.csv"
+    "@id": "http://www.opendatacache.com/data.cityofmadison.com/api/views/rtyh-6ucr/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Ward; Aldermanic District; Polling Place; Polling Place Address; Handicap Accessible; Comments about location of polling place in building.", 
   "maintainer": {
@@ -44,5 +45,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_cityofmadison_polling_places"
+  "schemaName": "socrata/data.cityofmadison.com", 
+  "tableName": "polling_places"
 }

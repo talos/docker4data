@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_2008_09_class_size_school_level_detail/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/6wcu-cfa3/rows.csv"
+    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/6wcu-cfa3/rows.csv", 
+    "type": "csv"
   }, 
   "description": "This file shows average class sizes and size of smallest and largest class for each school, broken out by grade and program type (General Education, Self-Contained Special Education, Collaborative Team Teaching (CTT)) for grades K-9 (where grade 9 is not reported by subject area), and for grades 5-9 (where available) and 9-12, aggregated by program type (General Education, CTT, and Self-Contained Special Education) and core course (e.g. English 9, Math A, US History, etc.).\r\n\r\nOfficial class size data for grades K-9* is based on October 31, 2008 Audited Registers; Core course class size data for MS CORE and grades 9-12 is based on January 23, 2009 active registers.\r\n*Where ninth grade data is not reported by core course\r\n- For middle schools using MSPA (ATS) or HSST to program, average class size is reported by core course, as well as by official class.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n- For high schools, sections with matching day, period, room and core subject, and combined enrollment less than 34 are assumed to be co-teaching situations.  In the report, duplicated sections are subtracted as \"MATCHED SECTIONS\" and paired sections are added back as \"ASSUMED TEAM TEACHING\".", 
   "maintainer": {
@@ -80,5 +81,6 @@
       }
     ]
   }, 
+  "schemaName": "socrata/data.cityofnewyork.us", 
   "tableName": "2008_09_class_size_school_level_detail"
 }

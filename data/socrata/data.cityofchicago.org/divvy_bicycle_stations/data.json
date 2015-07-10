@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_divvy_bicycle_stations/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/bbyy-e7gq/rows.csv"
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/bbyy-e7gq/rows.csv", 
+    "type": "csv"
   }, 
   "description": "A list of the stations where one can pick up and return bicycles from the Divvy bicycle sharing system (http://divvybikes.com/).   This dataset contains all stations.  For a list of only those stations currently in service, see https://data.cityofchicago.org/d/67g3-8ig8. For real-time status of stations in machine-readable format, see http://divvybikes.com/stations/json.", 
   "maintainer": {
@@ -56,5 +57,6 @@
       }
     ]
   }, 
+  "schemaName": "socrata/data.cityofchicago.org", 
   "tableName": "divvy_bicycle_stations"
 }

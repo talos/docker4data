@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofmadison_city_calendar_of_events/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.cityofmadison.com/api/views/gxhk-44q9/rows.csv"
+    "@id": "http://www.opendatacache.com/data.cityofmadison.com/api/views/gxhk-44q9/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Date, Location, Categories: City Event, Elections, Environment, Holiday, City Offices Closed, Informational Meetings, Listening Session, Neighborhood Event/Meeting, Parks Events, Public Hearing/Meeting, Safety & Wellness, Seniors, Task Force; Cost; Aldermanic District; Contacts; Description of Event", 
   "maintainer": {
@@ -88,5 +89,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_cityofmadison_city_calendar_of_events"
+  "schemaName": "socrata/data.cityofmadison.com", 
+  "tableName": "city_calendar_of_events"
 }

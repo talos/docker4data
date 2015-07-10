@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_baltimorecity_charm_city_circulator_ridership/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/wwvu-583r/rows.csv"
+    "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/wwvu-583r/rows.csv", 
+    "type": "csv"
   }, 
   "description": "The City of Baltimore is constantly seeking innovative and creative ways to alleviate traffic congestion and green house gases in our great city. A new fleet of eco-friendly buses will provide everyone with a faster, more convenient, greener way to move about Baltimore's busy downtown neighborhoods. \r\nThis data reflects the daily passengers boarding and alighting for each route.  In order to get to one \u201cneat\u201d ridership number, an average of the boarding and alighting numbers is calculated to get a final count. The disparity in the boarding and alighting counts can be contributed to the difficulty the sensors encounter with small children, large groups, wheelchairs, strollers, etc.", 
   "maintainer": {
@@ -80,5 +81,6 @@
       }
     ]
   }, 
+  "schemaName": "socrata/data.baltimorecity.gov", 
   "tableName": "charm_city_circulator_ridership"
 }

@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_towed_vehicles/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/ygr5-vcbg/rows.csv"
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/ygr5-vcbg/rows.csv", 
+    "type": "csv"
   }, 
   "description": "This dataset displays location for vehicles that have been towed and impounded by the City of Chicago within the last 90 days. Illegally parked vehicles, abandoned vehicles and vehicles used for illegal activities may be towed by the Chicago Police Department, the Department of Streets and Sanitation, the Department of Revenue, Aviation and the office of the City Clerk. After a tow request is issued, an inventory number is assigned by the Department of Streets and Sanitation and a truck is dispatched to tow the requested vehicle to a City auto pound. Disclaimer: This dataset includes vehicles towed or relocated by the City of Chicago; it does not include vehicles towed by a private towing company. \r\nBackground Info: \r\nAuto Pound Locations (http://j.mp/kG5sgF).\r\nTow Process Overview (http://j.mp/lfBOEP).\r\nCommon Towing Questions (http://j.mp/imFYlp).\r\nParking and Standing Violations (http://j.mp/ifW8Uj).\r\nData Owner: Chicago Police Department.\r\nTime Period: Last 90 days.\r\nFrequency: Data is updated daily.\r\nRelated Applications: Find Your Vehicle (http://j.mp/lWn0S7).", 
   "maintainer": {
@@ -60,5 +61,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_cityofchicago_towed_vehicles"
+  "schemaName": "socrata/data.cityofchicago.org", 
+  "tableName": "towed_vehicles"
 }

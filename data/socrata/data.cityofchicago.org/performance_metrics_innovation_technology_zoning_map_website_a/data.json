@@ -1,0 +1,50 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/performance_metrics_innovation_technology_zoning_map_website_a/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/vqj9-rmbv/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "The Zoning Map website is an interactive mapping site that allows users to determine the zoning classification for any area of the City. The percentage of the Zoning map website uptime, the amount of time the site was available, and the target uptime for each week are available by mousing over columns. The target availability for this site is 99.5%.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "City of Chicago", 
+    "category": "Administration & Finance", 
+    "description": "The Zoning Map website is an interactive mapping site that allows users to determine the zoning classification for any area of the City. The percentage of the Zoning map website uptime, the amount of time the site was available, and the target uptime for each week are available by mousing over columns. The target availability for this site is 99.5%.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/vqj9-rmbv.json"
+    }
+  }, 
+  "name": "Performance Metrics - Innovation & Technology - Zoning Map Website Availability", 
+  "schema": {
+    "columns": [
+      {
+        "name": "week", 
+        "type": "text"
+      }, 
+      {
+        "name": "total_downtime_minutes_", 
+        "type": "real"
+      }, 
+      {
+        "name": "zoning_map_site_uptime_", 
+        "type": "text"
+      }, 
+      {
+        "name": "target_uptime_", 
+        "type": "text"
+      }, 
+      {
+        "name": "weeks_target_was_achieved", 
+        "type": "real"
+      }, 
+      {
+        "name": "weeks_target_was_not_achieved", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.cityofchicago.org", 
+  "tableName": "performance_metrics_innovation_technology_zoning_map_website_a"
+}

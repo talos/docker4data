@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/precincts_current_/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/uvpq-qeeq/rows.csv"
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/geospatial/uvpq-qeeq", 
+    "type": "shapefile"
   }, 
   "description": "Ward precincts, which function as local election districts to determine the polling places for voters, based on their addresses.  Precincts are based on U.S. Census Bureau blocks.  These precincts were first used for the 2012 elections and first used for Chicago municipal elections in 2015.", 
   "maintainer": {
@@ -19,5 +20,6 @@
   "schema": {
     "columns": []
   }, 
+  "schemaName": "socrata/data.cityofchicago.org", 
   "tableName": "precincts_current_"
 }

@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_austin_finance_online_echeckbook/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/8c6z-qnmj/rows.csv"
+    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/8c6z-qnmj/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Flat file data set of the data found in the Austin Finance Online eCheckbook application.  The data contained in this dataset is for informational purposes only and contains expenditure information for the City of Austin. Certain Austin Energy transactions have been excluded as competitive matters under Texas Government Code Section 552.133 and City Council Resolution 20051201-002; therefore, the line amounts may not reflect the total check amount if certain Austin Energy invoices were included on the check.  Please visit the Austin Finance Online website for a searchable front end to this data set.", 
   "maintainer": {
@@ -156,5 +157,6 @@
       }
     ]
   }, 
+  "schemaName": "socrata/data.austintexas.gov", 
   "tableName": "austin_finance_online_echeckbook"
 }

@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/311_service_requests_vacant_and_abandoned_buildings_reported/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/7nii-7srd/rows.csv"
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/7nii-7srd/rows.csv", 
+    "type": "csv"
   }, 
   "description": "All 311 calls for open and vacant buildings reported to the City of Chicago since January 1, 2010. The information is updated daily with the previous day's calls added to the records. The data set provides the date of the 311 service request and the unique Service Request # attached to each request. For each request, the following information (as reported by the 311 caller) is available: address location of building; whether building is vacant or occupied; whether the building is open or boarded; entry point if building is open; whether non-residents are occupying or using the building, if the building appears dangerous or hazardous and if the building is vacant due to a fire.", 
   "maintainer": {
@@ -112,5 +113,6 @@
       }
     ]
   }, 
+  "schemaName": "socrata/data.cityofchicago.org", 
   "tableName": "311_service_requests_vacant_and_abandoned_buildings_reported"
 }

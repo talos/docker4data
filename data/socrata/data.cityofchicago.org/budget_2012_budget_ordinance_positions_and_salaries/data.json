@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/budget_2012_budget_ordinance_positions_and_salaries/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/4n2t-us8h/rows.csv"
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/4n2t-us8h/rows.csv", 
+    "type": "csv"
   }, 
   "description": "The Annual Appropriation Ordinance is the final City operating budget as approved by the City Council. It reflects the City\u2019s operating budget at the beginning of the fiscal year on January 1, 2012.This dataset displays the positions and related salaries detailed in the budget as of January 1. It is extracted from the personnel portion of the Appropriation Ordinance. The dataset presents the position titles (without names) and salaries described in the budget, but does not provide a reflection of the current city workforce with full names and salaries. Disclaimer: the \u201cTotal Budgeted Units\u201d column displays either A) the number of employees AND vacancies associated with a given position, or B) the number of budgeted units (ie. hours/months) for that position. \u201cPosition Control\u201d determines whether Total Budgeted Units column will count employees and vacancies or hours/months. If a Position Control is 1, then employees and vacancies are displayed; if a Position Control is 0, then the total number of hours/months recorded is displayed. Owner: Budget and Management. Frequency: Data is updated annually. For information on the current city workforce, with names, positions and salaries, visit the \"Current Employee Names, Salaries, and Position Titles\" dataset: http://j.mp/iutKlR.", 
   "maintainer": {
@@ -104,5 +105,6 @@
       }
     ]
   }, 
+  "schemaName": "socrata/data.cityofchicago.org", 
   "tableName": "budget_2012_budget_ordinance_positions_and_salaries"
 }

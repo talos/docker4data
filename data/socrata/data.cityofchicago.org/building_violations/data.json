@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_building_violations/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/22u3-xenr/rows.csv"
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/22u3-xenr/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Violations issued by the Department of Buildings in the City of Chicago from 2006 to the present. The dataset contains more than 1 million records/rows of data and cannot be viewed in full in Microsoft Excel. Therefore, when downloading the file, select CSV from the Export menu. Open the file in an ASCII text editor, such as Wordpad, to view and search. Violations are always associated to an inspection and there can be multiple violation records to one(1) inspection record. Data fields requiring description are detailed below. VIOLATION DATE: The date the violation was cited. INSPECTION CATEGORY: Inspections are categorized by one of the following: COMPLAINT \u2013 Inspection is a result of a 311 Complaint PERIODIC \u2013 Inspection is a result of recurring inspection (typically on an annual cycle) PERMIT \u2013 Inspection is a result of a Permit REGISTRATION \u2013 Inspection is a result of a Registration (typically Vacant Building Registration) PROPERTY GROUP: Properties (lots) in the City of Chicago can typically have multiple point addresses, range addresses and buildings. Examples are corner lots, large lots, lots with front and rear buildings, etc.. As a result, inspections (and their associated violations), permits and complaints related to a single property could have different addresses. This problem can be reconciled by using Property Group. All point and range addresses for a property are assigned the same Property Group key. Data Owner: Buildings Time Period: January 1, 2006 to present Frequency: Data is updated daily Related Applications: Building Data Warehouse http://www.cityofchicago.org/city/en/depts/bldgs/provdrs/inspect/svcs/building_violationsonline.html", 
   "maintainer": {
@@ -108,5 +109,6 @@
       }
     ]
   }, 
+  "schemaName": "socrata/data.cityofchicago.org", 
   "tableName": "building_violations"
 }

@@ -1,0 +1,86 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/chicago_park_district_movies_in_the_parks_2015/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/v2a6-nxhe/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "List of all Movies in the Parks events. This list is a one-time upload and cancellations will not be updated.  Please visit the Chicago Park District website or call the Movies in the Parks hotline at 312-742-1134 to check for cancellations due to weather.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Chicago Park District", 
+    "category": "Parks & Recreation", 
+    "description": "List of all Movies in the Parks events. This list is a one-time upload and cancellations will not be updated.  Please visit the Chicago Park District website or call the Movies in the Parks hotline at 312-742-1134 to check for cancellations due to weather.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/v2a6-nxhe.json"
+    }
+  }, 
+  "name": "Chicago Park District: Movies in the Parks 2015", 
+  "schema": {
+    "columns": [
+      {
+        "name": "eventname", 
+        "type": "text"
+      }, 
+      {
+        "name": "moviename", 
+        "type": "text"
+      }, 
+      {
+        "name": "parkname", 
+        "type": "text"
+      }, 
+      {
+        "name": "zipcode", 
+        "type": "real"
+      }, 
+      {
+        "name": "phone", 
+        "type": "text"
+      }, 
+      {
+        "name": "startdate", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "enddate", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "contactname", 
+        "type": "text"
+      }, 
+      {
+        "name": "contactemail", 
+        "type": "text"
+      }, 
+      {
+        "name": "eventurl", 
+        "type": "text"
+      }, 
+      {
+        "name": "parkurl", 
+        "type": "text"
+      }, 
+      {
+        "name": "community", 
+        "type": "text"
+      }, 
+      {
+        "name": "movieclosedcaption", 
+        "type": "text"
+      }, 
+      {
+        "name": "movierating", 
+        "type": "text"
+      }, 
+      {
+        "name": "location_1", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.cityofchicago.org", 
+  "tableName": "chicago_park_district_movies_in_the_parks_2015"
+}

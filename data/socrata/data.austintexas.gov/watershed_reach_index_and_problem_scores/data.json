@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_watershed_reach_index_and_problem_scores/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/vk3r-6prc/rows.csv"
+    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/vk3r-6prc/rows.csv", 
+    "type": "csv"
   }, 
   "description": "The Environmental Integrity Index (EII) is a tool developed by the City of Austin\u2019s Environmental Resource Management Division to monitor and assess the ecological integrity and the degree of impairment in Austin\u2019s watersheds.  This feature class provides the most recent results from the EII for the City of Austin Watershed Protection Department\u2019s Masterplanning process.  Similarly, the Austin Lakes Index was designed to provide a yearly assessment of the ecological integrity of Lake Austin, Lady Bird Lake, and Lake Long.\r\n\r\nIndex scores (from both the EII and ALI) are an integer between 0 and 100.  Excellent  88-100 | Very Good 76-87 | Good 63-75 | Fair 51-62 | Marginal38-50 | Poor 26-37 | Bad 13-25 | Very Bad 0-12.\r\n\r\nProblem Scores are an integer between 1 and 100 with 1 being \"No Problem\" and 100 being a highest priority.\r\n\r\nEII Methodology:\r\n\r\nhttp://www.austintexas.gov/watershed_protection/publications/document.cfm?id=186267\r\n\r\nMaster Plan Problem Score Methodology:\r\n\r\nhttp://www.austintexas.gov/watershed_protection/publications/document.cfm?id=186352\r\n\r\nLake Index Methodology:\r\n\r\nhttp://www.austintexas.gov/watershed_protection/publications/document.cfm?id=196479", 
   "maintainer": {
@@ -136,5 +137,6 @@
       }
     ]
   }, 
+  "schemaName": "socrata/data.austintexas.gov", 
   "tableName": "watershed_reach_index_and_problem_scores"
 }

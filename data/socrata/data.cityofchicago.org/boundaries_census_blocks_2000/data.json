@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/boundaries_census_blocks_2000/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/uktd-fzhd/rows.csv"
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/geospatial/uktd-fzhd", 
+    "type": "shapefile"
   }, 
   "description": "2000 Census block boundaries clipped to Chicago. The data can be viewed on the Chicago Data Portal with a web browser. However, to view or use the files outside of a web browser, you will need to use compression software and special GIS software, such as ESRI ArcGIS (shapefile) or Google Earth (KML or KMZ), is required.", 
   "maintainer": {
@@ -19,5 +20,6 @@
   "schema": {
     "columns": []
   }, 
+  "schemaName": "socrata/data.cityofchicago.org", 
   "tableName": "boundaries_census_blocks_2000"
 }

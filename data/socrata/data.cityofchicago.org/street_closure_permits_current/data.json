@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_street_closure_permits_current/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/avwc-kf7i/rows.csv"
+    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/avwc-kf7i/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Current permitted street closures in Chicago by location, date and type. Closures due to construction or other work being performed in the thoroughfare are indicated by the \u201cStreet Full Closure\u201d permit type. Street closure permits are also granted for festivals, athletic events, block parties, parades, and movie or other filming. \r\nData Owner: Transportation.\r\nTime Period: All closure permits for current day.\r\nFrequency: Data is updated daily.\r\nRelated Applications: Today\u2019s Street Closures (http://webapps.cityofchicago.org/StreetClosure/org/cityofchicago/streetclosure/cdot/getreport.do).", 
   "maintainer": {
@@ -56,5 +57,6 @@
       }
     ]
   }, 
+  "schemaName": "socrata/data.cityofchicago.org", 
   "tableName": "street_closure_permits_current"
 }
