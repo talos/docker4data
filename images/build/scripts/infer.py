@@ -59,15 +59,19 @@ def generate_schema(columns):
     return result
 
 
-def infer(metadata_url, output_root_dir):
+def infer(metadata_url, output_root_dir): #pylint: disable=too-many-branches,too-many-statements
     '''
     Main function.  Takes the URL of some Socrata metadata.
 
     Infer docker4data metadata from a Socrata data.json
     '''
-    socrata_metadata = requests.get(metadata_url, headers={
-        "APP_TOKEN": os.environ.get('APP_TOKEN')
-    }).json()
+    try:
+        socrata_metadata = requests.get(metadata_url, headers={
+            "APP_TOKEN": os.environ.get('APP_TOKEN')
+        }).json()
+    except ValueError:
+        LOGGER.warn(u'Could not extract valid JSON from %s', metadata_url)
+        return
 
     view_type = socrata_metadata.get('viewType')
     if view_type == 'tabular':
@@ -77,23 +81,24 @@ def infer(metadata_url, output_root_dir):
         data_type = socrata_metadata['blobMimeType']
         data_url = metadata_url.replace('api/views', 'download') \
                                .replace('.json', data_type)
-    #elif view_type == 'href':
-    #    pass
     elif view_type == 'geo':
         data_type = 'shapefile'
         data_url = metadata_url.replace('api/views', 'api/geospatial') \
                                .replace('.json', '')
+    #elif view_type == 'href':
+    #    pass
     else:
-        LOGGER.warn(u'Cannot infer table from %s, `viewType` "%s" not recognized', socrata_metadata, view_type)
+        LOGGER.warn(u'Cannot infer table from %s, `viewType` "%s" not recognized',
+                    socrata_metadata, view_type)
         return
 
     if 'name' not in socrata_metadata:
         LOGGER.warn(u'Cannot infer table from %s, no `name`', socrata_metadata)
         return
 
-    namespace = os.path.join('socrata',  extract_namespace(metadata_url))
+    namespace = os.path.join('socrata', extract_namespace(metadata_url))
     tablename = socrata_metadata['name'].lower().replace(' ', '_')
-    tablename = re.sub(r'[^0-9a-z]+', '_', tablename)[0:62]
+    tablename = re.sub(r'[^0-9a-z]+', '_', tablename)
 
     output_dir = os.path.join(output_root_dir, namespace, tablename)
     output_path = os.path.join(output_dir, 'data.json')
