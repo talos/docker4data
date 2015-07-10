@@ -1,0 +1,474 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/education_and_youth_2010_2013_/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/f9ua-ivaj/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "BNIA-JFI tracks twenty seven indicators for elementary, middle, and high school students in an effort to measure the educational performance and youth engagement in Baltimore City. These indicators are grouped into the following seven categories: student enrollment and demographics; dropout rate and high school completion; student attendance, suspensions and expulsions; elementary and middle school student achievement; high school performance; youth labor force participation; and youth civic engagement. The source of data for the Education and Youth section is provided by the Baltimore City Public School System, the American Community Survey and the Baltimore City Board of Elections. The data provided by the Baltimore City Public Schools includes student address, which allows BNIA-JFI to present data on educational performance by the neighborhood in which the student lives, not by the school attended. This allows BNIA-JFI to examine the relationship between community conditions and educational performance. Education and Youth indicators may not be directly comparable to data provided by either the Baltimore City Public School System or the Maryland Department of Education due to several reasons including differences in methodology used to create indicators, excluding students who cannot be matched between data files provided by BCPSS, and excluding students whose home address cannot be geocoded. In the 2009-2010 school year, 3.4% of the student addresses could not be matched or geocoded. This means that these students were not included in our analysis and not included in calculations for the City as a whole and therefore direct comparisons to data and results available through the Baltimore City Public Schools and the Maryland Report Card cannot be made.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "The Baltimore Neighborhood Indicators Alliance-Jacob France Institute at the University of Baltimore (known as BNIA-JFI)", 
+    "category": "Neighborhoods", 
+    "description": "BNIA-JFI tracks twenty seven indicators for elementary, middle, and high school students in an effort to measure the educational performance and youth engagement in Baltimore City. These indicators are grouped into the following seven categories: student enrollment and demographics; dropout rate and high school completion; student attendance, suspensions and expulsions; elementary and middle school student achievement; high school performance; youth labor force participation; and youth civic engagement. The source of data for the Education and Youth section is provided by the Baltimore City Public School System, the American Community Survey and the Baltimore City Board of Elections. The data provided by the Baltimore City Public Schools includes student address, which allows BNIA-JFI to present data on educational performance by the neighborhood in which the student lives, not by the school attended. This allows BNIA-JFI to examine the relationship between community conditions and educational performance. Education and Youth indicators may not be directly comparable to data provided by either the Baltimore City Public School System or the Maryland Department of Education due to several reasons including differences in methodology used to create indicators, excluding students who cannot be matched between data files provided by BCPSS, and excluding students whose home address cannot be geocoded. In the 2009-2010 school year, 3.4% of the student addresses could not be matched or geocoded. This means that these students were not included in our analysis and not included in calculations for the City as a whole and therefore direct comparisons to data and results available through the Baltimore City Public Schools and the Maryland Report Card cannot be made.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/f9ua-ivaj.json"
+    }
+  }, 
+  "name": "Education and Youth (2010-2013)", 
+  "schema": {
+    "columns": [
+      {
+        "name": "neighborhood", 
+        "type": "text"
+      }, 
+      {
+        "name": "eattend10", 
+        "type": "real"
+      }, 
+      {
+        "name": "eattend11", 
+        "type": "real"
+      }, 
+      {
+        "name": "eattend12", 
+        "type": "real"
+      }, 
+      {
+        "name": "eattend13", 
+        "type": "real"
+      }, 
+      {
+        "name": "mattend10", 
+        "type": "real"
+      }, 
+      {
+        "name": "mattend11", 
+        "type": "real"
+      }, 
+      {
+        "name": "mattend12", 
+        "type": "real"
+      }, 
+      {
+        "name": "mattend13", 
+        "type": "real"
+      }, 
+      {
+        "name": "hsattend10", 
+        "type": "real"
+      }, 
+      {
+        "name": "hsattend11", 
+        "type": "real"
+      }, 
+      {
+        "name": "hsattend12", 
+        "type": "real"
+      }, 
+      {
+        "name": "hsattend13", 
+        "type": "real"
+      }, 
+      {
+        "name": "eenrol11", 
+        "type": "real"
+      }, 
+      {
+        "name": "eenrol12", 
+        "type": "real"
+      }, 
+      {
+        "name": "eenrol13", 
+        "type": "real"
+      }, 
+      {
+        "name": "menrol11", 
+        "type": "real"
+      }, 
+      {
+        "name": "menrol12", 
+        "type": "real"
+      }, 
+      {
+        "name": "menrol13", 
+        "type": "real"
+      }, 
+      {
+        "name": "hsenrol11", 
+        "type": "real"
+      }, 
+      {
+        "name": "hsenrol12", 
+        "type": "real"
+      }, 
+      {
+        "name": "hsenrol13", 
+        "type": "real"
+      }, 
+      {
+        "name": "aastud10", 
+        "type": "text"
+      }, 
+      {
+        "name": "aastud11", 
+        "type": "text"
+      }, 
+      {
+        "name": "aastud12", 
+        "type": "text"
+      }, 
+      {
+        "name": "aastud13", 
+        "type": "text"
+      }, 
+      {
+        "name": "wstud10", 
+        "type": "text"
+      }, 
+      {
+        "name": "wstud11", 
+        "type": "text"
+      }, 
+      {
+        "name": "wstud12", 
+        "type": "text"
+      }, 
+      {
+        "name": "wstud13", 
+        "type": "text"
+      }, 
+      {
+        "name": "hstud10", 
+        "type": "text"
+      }, 
+      {
+        "name": "hstud11", 
+        "type": "text"
+      }, 
+      {
+        "name": "hstud12", 
+        "type": "text"
+      }, 
+      {
+        "name": "hstud13", 
+        "type": "text"
+      }, 
+      {
+        "name": "abse10", 
+        "type": "text"
+      }, 
+      {
+        "name": "abse11", 
+        "type": "text"
+      }, 
+      {
+        "name": "abse12", 
+        "type": "text"
+      }, 
+      {
+        "name": "abse13", 
+        "type": "text"
+      }, 
+      {
+        "name": "absmd10", 
+        "type": "text"
+      }, 
+      {
+        "name": "absmd11", 
+        "type": "text"
+      }, 
+      {
+        "name": "absmd12", 
+        "type": "text"
+      }, 
+      {
+        "name": "absmd13", 
+        "type": "text"
+      }, 
+      {
+        "name": "abshs10", 
+        "type": "text"
+      }, 
+      {
+        "name": "abshs11", 
+        "type": "text"
+      }, 
+      {
+        "name": "abshs12", 
+        "type": "text"
+      }, 
+      {
+        "name": "abshs13", 
+        "type": "text"
+      }, 
+      {
+        "name": "susp10", 
+        "type": "text"
+      }, 
+      {
+        "name": "susp11", 
+        "type": "text"
+      }, 
+      {
+        "name": "susp12", 
+        "type": "text"
+      }, 
+      {
+        "name": "susp13", 
+        "type": "text"
+      }, 
+      {
+        "name": "farms10", 
+        "type": "text"
+      }, 
+      {
+        "name": "farms11", 
+        "type": "text"
+      }, 
+      {
+        "name": "farms12", 
+        "type": "text"
+      }, 
+      {
+        "name": "farms13", 
+        "type": "text"
+      }, 
+      {
+        "name": "sped10", 
+        "type": "text"
+      }, 
+      {
+        "name": "sped11", 
+        "type": "text"
+      }, 
+      {
+        "name": "sped12", 
+        "type": "text"
+      }, 
+      {
+        "name": "sped13", 
+        "type": "text"
+      }, 
+      {
+        "name": "ready11", 
+        "type": "text"
+      }, 
+      {
+        "name": "ready12", 
+        "type": "text"
+      }, 
+      {
+        "name": "ready13", 
+        "type": "text"
+      }, 
+      {
+        "name": "math310", 
+        "type": "text"
+      }, 
+      {
+        "name": "math311", 
+        "type": "text"
+      }, 
+      {
+        "name": "math312", 
+        "type": "text"
+      }, 
+      {
+        "name": "math313", 
+        "type": "text"
+      }, 
+      {
+        "name": "read310", 
+        "type": "text"
+      }, 
+      {
+        "name": "read311", 
+        "type": "text"
+      }, 
+      {
+        "name": "read312", 
+        "type": "text"
+      }, 
+      {
+        "name": "read313", 
+        "type": "text"
+      }, 
+      {
+        "name": "math510", 
+        "type": "text"
+      }, 
+      {
+        "name": "math511", 
+        "type": "text"
+      }, 
+      {
+        "name": "math512", 
+        "type": "text"
+      }, 
+      {
+        "name": "math513", 
+        "type": "text"
+      }, 
+      {
+        "name": "read510", 
+        "type": "text"
+      }, 
+      {
+        "name": "read511", 
+        "type": "text"
+      }, 
+      {
+        "name": "read512", 
+        "type": "text"
+      }, 
+      {
+        "name": "read513", 
+        "type": "text"
+      }, 
+      {
+        "name": "math810", 
+        "type": "text"
+      }, 
+      {
+        "name": "math811", 
+        "type": "text"
+      }, 
+      {
+        "name": "math812", 
+        "type": "text"
+      }, 
+      {
+        "name": "math813", 
+        "type": "text"
+      }, 
+      {
+        "name": "read810", 
+        "type": "text"
+      }, 
+      {
+        "name": "read811", 
+        "type": "text"
+      }, 
+      {
+        "name": "read812", 
+        "type": "text"
+      }, 
+      {
+        "name": "read813", 
+        "type": "text"
+      }, 
+      {
+        "name": "hsaeng10", 
+        "type": "text"
+      }, 
+      {
+        "name": "hsaeng11", 
+        "type": "text"
+      }, 
+      {
+        "name": "hsaeng12", 
+        "type": "text"
+      }, 
+      {
+        "name": "hsaeng13", 
+        "type": "text"
+      }, 
+      {
+        "name": "hsabio10", 
+        "type": "text"
+      }, 
+      {
+        "name": "hsabio11", 
+        "type": "text"
+      }, 
+      {
+        "name": "hsabio12", 
+        "type": "text"
+      }, 
+      {
+        "name": "hsabio13", 
+        "type": "text"
+      }, 
+      {
+        "name": "hsagov10", 
+        "type": "text"
+      }, 
+      {
+        "name": "hsagov11", 
+        "type": "text"
+      }, 
+      {
+        "name": "hsagov13", 
+        "type": "text"
+      }, 
+      {
+        "name": "hsaalg10", 
+        "type": "text"
+      }, 
+      {
+        "name": "hsaalg11", 
+        "type": "text"
+      }, 
+      {
+        "name": "hsaalg12", 
+        "type": "text"
+      }, 
+      {
+        "name": "hsaalg13", 
+        "type": "text"
+      }, 
+      {
+        "name": "drop10", 
+        "type": "text"
+      }, 
+      {
+        "name": "drop11", 
+        "type": "text"
+      }, 
+      {
+        "name": "drop12", 
+        "type": "text"
+      }, 
+      {
+        "name": "drop13", 
+        "type": "text"
+      }, 
+      {
+        "name": "compl10", 
+        "type": "text"
+      }, 
+      {
+        "name": "compl11", 
+        "type": "text"
+      }, 
+      {
+        "name": "compl12", 
+        "type": "text"
+      }, 
+      {
+        "name": "compl13", 
+        "type": "text"
+      }, 
+      {
+        "name": "sclsw11", 
+        "type": "text"
+      }, 
+      {
+        "name": "sclsw12", 
+        "type": "text"
+      }, 
+      {
+        "name": "sclsw13", 
+        "type": "text"
+      }, 
+      {
+        "name": "sclemp13", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.baltimorecity.gov", 
+  "tableName": "education_and_youth_2010_2013_"
+}

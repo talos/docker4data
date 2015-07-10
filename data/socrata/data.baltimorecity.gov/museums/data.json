@@ -1,0 +1,50 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/museums/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/8hgq-9pi6/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "This data set shows the location of museums within the City of Baltimore. However, this is not a complete list.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "City of Baltimore", 
+    "category": "Culture & Arts", 
+    "description": "This data set shows the location of museums within the City of Baltimore. However, this is not a complete list.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/8hgq-9pi6.json"
+    }
+  }, 
+  "name": "Museums", 
+  "schema": {
+    "columns": [
+      {
+        "name": "name", 
+        "type": "text"
+      }, 
+      {
+        "name": "zipcode", 
+        "type": "text"
+      }, 
+      {
+        "name": "neighborhood", 
+        "type": "text"
+      }, 
+      {
+        "name": "councildistrict", 
+        "type": "real"
+      }, 
+      {
+        "name": "policedistrict", 
+        "type": "text"
+      }, 
+      {
+        "name": "location_1", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.baltimorecity.gov", 
+  "tableName": "museums"
+}

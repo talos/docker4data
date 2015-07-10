@@ -1,0 +1,50 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/fire_stations/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/g244-i383/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "This data set shows the facility location, in which firefighting apparatus and usually fire department personnel are housed; Baltimore City's Fire Stations", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Baltimore City Fire Department", 
+    "category": "Public Safety", 
+    "description": "This data set shows the facility location, in which firefighting apparatus and usually fire department personnel are housed; Baltimore City's Fire Stations", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/g244-i383.json"
+    }
+  }, 
+  "name": "Fire Stations", 
+  "schema": {
+    "columns": [
+      {
+        "name": "name", 
+        "type": "text"
+      }, 
+      {
+        "name": "zipcode", 
+        "type": "text"
+      }, 
+      {
+        "name": "neighborhood", 
+        "type": "text"
+      }, 
+      {
+        "name": "councildistrict", 
+        "type": "real"
+      }, 
+      {
+        "name": "policedistrict", 
+        "type": "text"
+      }, 
+      {
+        "name": "location_1", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.baltimorecity.gov", 
+  "tableName": "fire_stations"
+}

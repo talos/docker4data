@@ -7,10 +7,9 @@ for foldername in $( ls -d */* ); do
      #ls -d ${foldername}*
      #echo ========
      #echo $foldername $dupcount
-     #git rm -r $foldername
      datasetnamelength=$(echo $foldername | cut -d '/' -f 2 | wc -c)
-     if [ $datasetnamelength -eq 63 ]; then
-       echo $foldername
+     if [ $datasetnamelength -gt 61 ]; then
+       git rm -r $foldername
      fi
   fi
 done
