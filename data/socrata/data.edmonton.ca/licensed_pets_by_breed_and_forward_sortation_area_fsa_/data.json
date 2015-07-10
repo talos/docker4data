@@ -1,0 +1,42 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/licensed_pets_by_breed_and_forward_sortation_area_fsa_/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/bqmh-j34s/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "List of various Animal (Cats or Dogs) Breeds by Forward Sortation Area (First 3 characters of the Postal Code)", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Community Services - Animal Services", 
+    "category": "Demographics", 
+    "description": "List of various Animal (Cats or Dogs) Breeds by Forward Sortation Area (First 3 characters of the Postal Code)", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/bqmh-j34s.json"
+    }
+  }, 
+  "name": "Licensed Pets by Breed and Forward Sortation Area (FSA)", 
+  "schema": {
+    "columns": [
+      {
+        "name": "substr_j_lpostalcode_1_3", 
+        "type": "text"
+      }, 
+      {
+        "name": "typeofanimal", 
+        "type": "text"
+      }, 
+      {
+        "name": "breed", 
+        "type": "text"
+      }, 
+      {
+        "name": "count_o_objectid", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.edmonton.ca", 
+  "tableName": "licensed_pets_by_breed_and_forward_sortation_area_fsa_"
+}

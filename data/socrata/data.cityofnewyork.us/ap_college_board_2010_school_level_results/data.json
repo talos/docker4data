@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ap_college_board_2010_school_level_results/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/itfs-ms3e/rows.csv"
+    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/itfs-ms3e/rows.csv", 
+    "type": "csv"
   }, 
   "description": "New York City school level College Board AP results for 2010.  \r\n\r\nRecords with 5 or fewer students are suppressed. \r\n\r\nStudents are linked to schools by identifying which school they attend when registering for a College Board exam. A student is only included in a school\u2019s report if he/she self-reports being enrolled at that school. \r\n\r\nData collected and processed by the College Board.", 
   "maintainer": {
@@ -40,5 +41,6 @@
       }
     ]
   }, 
+  "schemaName": "socrata/data.cityofnewyork.us", 
   "tableName": "ap_college_board_2010_school_level_results"
 }

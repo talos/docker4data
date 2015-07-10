@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_consumerfinance_college_credit_card_agreements/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.consumerfinance.gov/api/views/r963-hvsf/rows.csv"
+    "@id": "http://www.opendatacache.com/data.consumerfinance.gov/api/views/r963-hvsf/rows.csv", 
+    "type": "csv"
   }, 
   "description": "As required by the Credit CARD Act of 2009, the CFPB collects information annually from credit card issuers who have marketing agreements with universities, colleges, or affiliated organizations such as alumni associations, sororities, fraternities, and foundations. We publish this information and write an annual report to Congress on the state of college credit card agreements.", 
   "maintainer": {
@@ -56,5 +57,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_consumerfinance_college_credit_card_agreements"
+  "schemaName": "socrata/data.consumerfinance.gov", 
+  "tableName": "college_credit_card_agreements"
 }

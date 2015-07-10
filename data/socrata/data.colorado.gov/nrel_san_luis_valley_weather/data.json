@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_nrel_san_luis_valley_weather/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/fph6-vi4y/rows.csv"
+    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/fph6-vi4y/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Weather data for the San Luis Valley station, from June 10, 2008 to November 8, 2010. Contains data on temperature, humidity, wind, precipitation, and irradiance. Recorded and provided by NREL.", 
   "maintainer": {
@@ -80,5 +81,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_colorado_nrel_san_luis_valley_weather"
+  "schemaName": "socrata/data.colorado.gov", 
+  "tableName": "nrel_san_luis_valley_weather"
 }

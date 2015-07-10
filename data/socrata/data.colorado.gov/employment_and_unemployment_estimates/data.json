@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_employment_and_unemployment_estimates/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/4e3w-qire/rows.csv"
+    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/4e3w-qire/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Employment and unemployment estimates reported from the Local Area Unemployment Statistics. The Local Area Unemployment Statistics (LAUS) program is a Federal-State cooperative effort in which monthly estimates of total employment and unemployment are prepared for approximately 7,300 areas, including counties, cities and metropolitan statistical areas. uses data from several sources, including the CPS, the CES program, State UI systems, and the decennial census, to create estimates that are adjusted to the statewide measures of employment and unemployment.", 
   "maintainer": {
@@ -88,5 +89,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_colorado_employment_and_unemployment_estimates"
+  "schemaName": "socrata/data.colorado.gov", 
+  "tableName": "employment_and_unemployment_estimates"
 }

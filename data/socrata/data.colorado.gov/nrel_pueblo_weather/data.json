@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_nrel_pueblo_weather/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/ii3b-uafi/rows.csv"
+    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/ii3b-uafi/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Weather data for the Pueblo station, from June 20, 2007 to June 16, 2011. Contains data on temperature, humidity, wind, precipitation, and irradiance. Recorded and provided by NREL.", 
   "maintainer": {
@@ -80,5 +81,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_colorado_nrel_pueblo_weather"
+  "schemaName": "socrata/data.colorado.gov", 
+  "tableName": "nrel_pueblo_weather"
 }

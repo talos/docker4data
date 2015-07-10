@@ -1,0 +1,90 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/2012_census_population_by_employment_status_neighbourhood_/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/r45z-99vd/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "All Census information is as of April 1, 2012. No data on any individual residence will be released.  To protect the privacy of individuals, data is compiled and presented at the city, ward and neighbourhood level only.  Neighbourhood results with a population under 49 are not posted to protect the information collected.  The designation of \u201cNo Response\u201d includes households from which no census data could be collected or only partial data was available.  \u201cOther Residential\u201d includes dwelling units not covered by the other categories, such as a unit attached to a non-residential structure (e.g. an apartment in a store or church) or a movable structure (e.g. recreational vehicle, tent, etc.).", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "City of Edmonton - Office of the City Clerk", 
+    "category": "Census", 
+    "description": "All Census information is as of April 1, 2012. No data on any individual residence will be released.  To protect the privacy of individuals, data is compiled and presented at the city, ward and neighbourhood level only.  Neighbourhood results with a population under 49 are not posted to protect the information collected.  The designation of \u201cNo Response\u201d includes households from which no census data could be collected or only partial data was available.  \u201cOther Residential\u201d includes dwelling units not covered by the other categories, such as a unit attached to a non-residential structure (e.g. an apartment in a store or church) or a movable structure (e.g. recreational vehicle, tent, etc.).", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/r45z-99vd.json"
+    }
+  }, 
+  "name": "2012 Census - Population By Employment Status (Neighbourhood)", 
+  "schema": {
+    "columns": [
+      {
+        "name": "ward", 
+        "type": "text"
+      }, 
+      {
+        "name": "neighbourhood_number", 
+        "type": "real"
+      }, 
+      {
+        "name": "neighbourhood_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "preschool", 
+        "type": "real"
+      }, 
+      {
+        "name": "kindergarten_grade6", 
+        "type": "real"
+      }, 
+      {
+        "name": "grade_7_grade_9", 
+        "type": "real"
+      }, 
+      {
+        "name": "grade_10_grade_12", 
+        "type": "real"
+      }, 
+      {
+        "name": "post_secondary_student", 
+        "type": "real"
+      }, 
+      {
+        "name": "homemaker", 
+        "type": "real"
+      }, 
+      {
+        "name": "employed_0_30_hours", 
+        "type": "real"
+      }, 
+      {
+        "name": "employed_more_than_30_hours", 
+        "type": "real"
+      }, 
+      {
+        "name": "unemployed", 
+        "type": "real"
+      }, 
+      {
+        "name": "retired", 
+        "type": "real"
+      }, 
+      {
+        "name": "permanently_unable_to_work", 
+        "type": "real"
+      }, 
+      {
+        "name": "other", 
+        "type": "real"
+      }, 
+      {
+        "name": "no_response", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.edmonton.ca", 
+  "tableName": "2012_census_population_by_employment_status_neighbourhood_"
+}

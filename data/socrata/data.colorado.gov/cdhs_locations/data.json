@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_cdhs_locations/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/gs5c-mx8w/rows.csv"
+    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/gs5c-mx8w/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Useful information about the locations of social services from the Colorado Department of Human Services within the State of Colorado.", 
   "maintainer": {
@@ -51,5 +52,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_colorado_cdhs_locations"
+  "schemaName": "socrata/data.colorado.gov", 
+  "tableName": "cdhs_locations"
 }

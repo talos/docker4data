@@ -1,0 +1,78 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/vacant_land_inventory/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/svsw-2ub7/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "This is a dataset using centroid points to geolocate vacant land in the city. This inventory is a snapshot in time using data collected from May 2014. The data is based on the land inventory and provides a summary of vacant land in Edmonton\u2019s central core, established, and mature neighbourhoods at the time of analysis. A vacant lot is classified as \u201ca registered lot (serviced or unserviced) that contains no permanent structures at the time of inspection. It generally does not include land developed for parks, transportation or utility purposes.\r\n\r\nThe City of Edmonton provides this information in good faith. While every effort has been made to ensure the accuracy of information contained in this report, the City of Edmonton provides no warranty, express or implied, regarding the\u00a0accuracy, completeness or correctness of information contained herein.  The City of Edmonton disclaims any liability for the use of this information.  No part of this material may be reproduced, in whole or in part, without acknowledgement.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Sustainable Development", 
+    "category": "Sustainable Development", 
+    "description": "This is a dataset using centroid points to geolocate vacant land in the city. This inventory is a snapshot in time using data collected from May 2014. The data is based on the land inventory and provides a summary of vacant land in Edmonton\u2019s central core, established, and mature neighbourhoods at the time of analysis. A vacant lot is classified as \u201ca registered lot (serviced or unserviced) that contains no permanent structures at the time of inspection. It generally does not include land developed for parks, transportation or utility purposes.\r\n\r\nThe City of Edmonton provides this information in good faith. While every effort has been made to ensure the accuracy of information contained in this report, the City of Edmonton provides no warranty, express or implied, regarding the\u00a0accuracy, completeness or correctness of information contained herein.  The City of Edmonton disclaims any liability for the use of this information.  No part of this material may be reproduced, in whole or in part, without acknowledgement.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/svsw-2ub7.json"
+    }
+  }, 
+  "name": "Vacant Land Inventory", 
+  "schema": {
+    "columns": [
+      {
+        "name": "address", 
+        "type": "text"
+      }, 
+      {
+        "name": "neighbourhood_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "ward", 
+        "type": "real"
+      }, 
+      {
+        "name": "zoning", 
+        "type": "text"
+      }, 
+      {
+        "name": "sector", 
+        "type": "text"
+      }, 
+      {
+        "name": "size_m2", 
+        "type": "real"
+      }, 
+      {
+        "name": "typology", 
+        "type": "text"
+      }, 
+      {
+        "name": "known_planning_applications", 
+        "type": "text"
+      }, 
+      {
+        "name": "ownership_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "groups", 
+        "type": "real"
+      }, 
+      {
+        "name": "latitude", 
+        "type": "real"
+      }, 
+      {
+        "name": "longitude", 
+        "type": "real"
+      }, 
+      {
+        "name": "location", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.edmonton.ca", 
+  "tableName": "vacant_land_inventory"
+}

@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_nrel_aurora_weather/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/e86d-vx82/rows.csv"
+    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/e86d-vx82/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Weather data for the Aurora station, from February 11, 2011 to yesterday. Contains data on temperature, humidity, wind, precipitation, pressure, and irradiance. Recorded and provided by NREL.", 
   "maintainer": {
@@ -100,5 +101,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_colorado_nrel_aurora_weather"
+  "schemaName": "socrata/data.colorado.gov", 
+  "tableName": "nrel_aurora_weather"
 }

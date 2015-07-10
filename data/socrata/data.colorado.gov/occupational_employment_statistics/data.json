@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_occupational_employment_statistics/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/busm-qa5b/rows.csv"
+    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/busm-qa5b/rows.csv", 
+    "type": "csv"
   }, 
   "description": "This table contains data about each entity of an occupation for a given region as derived from the Occupational Employment Statistics Survey. There are 876 unique occupation types identified, and 12 established regions for data aggregation.", 
   "maintainer": {
@@ -176,5 +177,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_colorado_occupational_employment_statistics"
+  "schemaName": "socrata/data.colorado.gov", 
+  "tableName": "occupational_employment_statistics"
 }

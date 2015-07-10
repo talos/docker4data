@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cms_2010_basic_stand_alone_hospice_beneficiary_puf/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.cms.gov/api/views/xvix-nd9s/rows.csv"
+    "@id": "http://www.opendatacache.com/data.cms.gov/api/views/xvix-nd9s/rows.csv", 
+    "type": "csv"
   }, 
   "description": "This is a Public Use File from Hospice claims drawn from the 2010 Beneficiary Summary File of Medicare beneficiaries enrolled during the calendar year 2010, and their associated Medicare claims. The most important aspects of this file are as follow: 1. 5% simple random sample drawn without replacement from 100% 2010 Beneficiary Summary File. 2. This sample is disjoint from the existing 5% CMS Research Sample and the other 2010 PUFs.", 
   "maintainer": {
@@ -52,5 +53,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_cms_2010_basic_stand_alone_hospice_beneficiary_puf"
+  "schemaName": "socrata/data.cms.gov", 
+  "tableName": "2010_basic_stand_alone_hospice_beneficiary_puf"
 }

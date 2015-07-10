@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_dor_retail_sales_by_county_and_industry/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/fe4v-h3pk/rows.csv"
+    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/fe4v-h3pk/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Colorado Retail and Sales Tax information are summarized monthly at the county level by industry. Retail Sales for the monthly filing period are summarized by county and industry in this report including retail trade totals. Contains fields like agriculture, clothing, food & beverage, etc.", 
   "maintainer": {
@@ -168,5 +169,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_colorado_dor_retail_sales_by_county_and_industry"
+  "schemaName": "socrata/data.colorado.gov", 
+  "tableName": "dor_retail_sales_by_county_and_industry"
 }

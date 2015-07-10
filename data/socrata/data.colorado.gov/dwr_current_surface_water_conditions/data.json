@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_dwr_current_surface_water_conditions/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/4yw9-a5y6/rows.csv"
+    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/4yw9-a5y6/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Division of Water Resources (DWR) Current Surface Water Conditions.  This is a list of all remote monitored stream, diversion, and reservoir gages within the state of Colorado.", 
   "maintainer": {
@@ -100,5 +101,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_colorado_dwr_current_surface_water_conditions"
+  "schemaName": "socrata/data.colorado.gov", 
+  "tableName": "dwr_current_surface_water_conditions"
 }

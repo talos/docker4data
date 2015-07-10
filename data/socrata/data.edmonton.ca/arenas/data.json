@@ -1,0 +1,42 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/arenas/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/mnwt-r49h/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "List of ice arenas maintained by the City of Edmonton", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Community Services - Facilities and Programs", 
+    "category": "Indoor Recreation", 
+    "description": "List of ice arenas maintained by the City of Edmonton", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/mnwt-r49h.json"
+    }
+  }, 
+  "name": "Arenas", 
+  "schema": {
+    "columns": [
+      {
+        "name": "name", 
+        "type": "text"
+      }, 
+      {
+        "name": "latitude", 
+        "type": "real"
+      }, 
+      {
+        "name": "longitude", 
+        "type": "real"
+      }, 
+      {
+        "name": "location", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.edmonton.ca", 
+  "tableName": "arenas"
+}

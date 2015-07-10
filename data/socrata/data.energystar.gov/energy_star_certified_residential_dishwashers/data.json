@@ -1,0 +1,93 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/energy_star_certified_residential_dishwashers/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.energystar.gov/api/views/58b3-559d/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Certified models meet all ENERGY STAR requirements as listed in the Version 5.2 ENERGY STAR Program Requirements for Residential Dishwashers that are effective as of January 20, 2012. A detailed listing of key efficiency criteria are available at http://www.energystar.gov/index.cfm?c=dishwash.pr_crit_dishwashers", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "category": "Active Specifications", 
+    "description": "Certified models meet all ENERGY STAR requirements as listed in the Version 5.2 ENERGY STAR Program Requirements for Residential Dishwashers that are effective as of January 20, 2012. A detailed listing of key efficiency criteria are available at http://www.energystar.gov/index.cfm?c=dishwash.pr_crit_dishwashers", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.energystar.gov/api/views/58b3-559d.json"
+    }
+  }, 
+  "name": "ENERGY STAR Certified Residential Dishwashers", 
+  "schema": {
+    "columns": [
+      {
+        "name": "pd_id", 
+        "type": "real"
+      }, 
+      {
+        "name": "brand_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "model_number", 
+        "type": "text"
+      }, 
+      {
+        "name": "additional_model_information", 
+        "type": "text"
+      }, 
+      {
+        "name": "type", 
+        "type": "text"
+      }, 
+      {
+        "name": "annual_energy_use_kwh_year", 
+        "type": "real"
+      }, 
+      {
+        "name": "us_federal_standard_kwh_year", 
+        "type": "real"
+      }, 
+      {
+        "name": "better_than_us_federal_standard_kwh_year", 
+        "type": "real"
+      }, 
+      {
+        "name": "energy_factor_ef", 
+        "type": "real"
+      }, 
+      {
+        "name": "water_use_gallons_cycle", 
+        "type": "real"
+      }, 
+      {
+        "name": "us_federal_standard_gallons_cycle", 
+        "type": "real"
+      }, 
+      {
+        "name": "better_than_us_federal_standard_gallons_cycle", 
+        "type": "real"
+      }, 
+      {
+        "name": "date_available_on_market", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "date_qualified", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "markets", 
+        "type": "text"
+      }, 
+      {
+        "name": "energy_star_model_identifier", 
+        "type": "text"
+      }, 
+      {
+        "name": "meets_most_efficient_criteria", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.energystar.gov", 
+  "tableName": "energy_star_certified_residential_dishwashers"
+}

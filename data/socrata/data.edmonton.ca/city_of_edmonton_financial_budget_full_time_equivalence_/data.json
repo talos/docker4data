@@ -1,0 +1,45 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/city_of_edmonton_financial_budget_full_time_equivalence_/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/eazf-zhey/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Full Time Equivalence summary of City of Edmonton's Department or Civic Agency. Also, you can see the Financial Budget at - https://data.edmonton.ca/Financial/City-of-Edmonton-Financial-Budget/qycq-4ckj", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "category": "Financial", 
+    "description": "Full Time Equivalence summary of City of Edmonton's Department or Civic Agency. Also, you can see the Financial Budget at - https://data.edmonton.ca/Financial/City-of-Edmonton-Financial-Budget/qycq-4ckj", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/eazf-zhey.json"
+    }
+  }, 
+  "name": "City of Edmonton - Financial Budget (Full Time Equivalence)", 
+  "schema": {
+    "columns": [
+      {
+        "name": "year", 
+        "type": "real"
+      }, 
+      {
+        "name": "department_agencies", 
+        "type": "text"
+      }, 
+      {
+        "name": "branch", 
+        "type": "text"
+      }, 
+      {
+        "name": "status", 
+        "type": "text"
+      }, 
+      {
+        "name": "full_time_equivalents", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.edmonton.ca", 
+  "tableName": "city_of_edmonton_financial_budget_full_time_equivalence_"
+}

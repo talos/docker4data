@@ -1,0 +1,46 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/recreation_centres/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/7yt8-7467/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "List of all recreational centres owned by the City of Edmonton", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Community Services - Facilities and Programs", 
+    "category": "Indoor Recreation", 
+    "description": "List of all recreational centres owned by the City of Edmonton", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/7yt8-7467.json"
+    }
+  }, 
+  "name": "Recreation Centres", 
+  "schema": {
+    "columns": [
+      {
+        "name": "name", 
+        "type": "text"
+      }, 
+      {
+        "name": "latitude", 
+        "type": "real"
+      }, 
+      {
+        "name": "longitude", 
+        "type": "real"
+      }, 
+      {
+        "name": "location", 
+        "type": "text"
+      }, 
+      {
+        "name": "type", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.edmonton.ca", 
+  "tableName": "recreation_centres"
+}

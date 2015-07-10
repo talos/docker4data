@@ -1,0 +1,154 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/midblock_collision_summary_2010_2011_/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/igwr-fbps/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "This file contains information about all midblock segments (portions of roadway that exist between intersections) in Edmonton with 10 or more collisions for the year 2010 to 2011, including:\r\n- The collision rate, where available;\r\n- A summary of the number of minor and major injuries as well as fatalities;\r\n- A breakdown of collisions by the standard list of causes used in reporting\r\n\r\nCollision information is provided by the Motor Vehicle Collision Information System (MVCIS), maintained by the City of Edmonton Office of Traffic Safety. This system tracks police-reported collisions involving at least one motor vehicle that occur on public roadways and which result in property damage of $1,000 or more, as well as any collisions resulting in injury or fatality. \r\n\r\nThis file is meant as a companion piece to the 2010 Annual Collision Report, produced by the City of Edmonton Office of Traffic Safety. Please refer to the full report for more information on collisions in Edmonton, and definitions of the collision causes and injury types used in this file.  \r\n.\r\n\r\nCollision Locations\r\nMidblock collision locations are usually descibed as being north of or west of an intersection. For example, Whitemud Drive west of 122 Street encompasses all of Whitemud Drive from west of 122 Street (not including the intersections at 122 Street) to the Terwillegar Drive interchange. Generally, a midblock is defined from one intersection to the next intersection with a public roadway. Midblocks in interchanges are defined by their description in the spreadsheet that follows.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "City of Edmonton - Office of Traffic Safety", 
+    "category": "Transportation", 
+    "description": "This file contains information about all midblock segments (portions of roadway that exist between intersections) in Edmonton with 10 or more collisions for the year 2010 to 2011, including:\r\n- The collision rate, where available;\r\n- A summary of the number of minor and major injuries as well as fatalities;\r\n- A breakdown of collisions by the standard list of causes used in reporting\r\n\r\nCollision information is provided by the Motor Vehicle Collision Information System (MVCIS), maintained by the City of Edmonton Office of Traffic Safety. This system tracks police-reported collisions involving at least one motor vehicle that occur on public roadways and which result in property damage of $1,000 or more, as well as any collisions resulting in injury or fatality. \r\n\r\nThis file is meant as a companion piece to the 2010 Annual Collision Report, produced by the City of Edmonton Office of Traffic Safety. Please refer to the full report for more information on collisions in Edmonton, and definitions of the collision causes and injury types used in this file.  \r\n.\r\n\r\nCollision Locations\r\nMidblock collision locations are usually descibed as being north of or west of an intersection. For example, Whitemud Drive west of 122 Street encompasses all of Whitemud Drive from west of 122 Street (not including the intersections at 122 Street) to the Terwillegar Drive interchange. Generally, a midblock is defined from one intersection to the next intersection with a public roadway. Midblocks in interchanges are defined by their description in the spreadsheet that follows.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/igwr-fbps.json"
+    }
+  }, 
+  "name": "Midblock Collision Summary (2010 - 2011)", 
+  "schema": {
+    "columns": [
+      {
+        "name": "year", 
+        "type": "real"
+      }, 
+      {
+        "name": "midblock_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "total_collisions", 
+        "type": "real"
+      }, 
+      {
+        "name": "minor_injuries", 
+        "type": "real"
+      }, 
+      {
+        "name": "major_injuries", 
+        "type": "real"
+      }, 
+      {
+        "name": "fatalities", 
+        "type": "real"
+      }, 
+      {
+        "name": "followed_too_closely", 
+        "type": "real"
+      }, 
+      {
+        "name": "struck_parked_vehicle", 
+        "type": "real"
+      }, 
+      {
+        "name": "improper_lane_change", 
+        "type": "real"
+      }, 
+      {
+        "name": "ran_off_road", 
+        "type": "real"
+      }, 
+      {
+        "name": "failed_to_yield_right_of_way_no_control_", 
+        "type": "real"
+      }, 
+      {
+        "name": "backed_unsafely", 
+        "type": "real"
+      }, 
+      {
+        "name": "left_of_centre", 
+        "type": "real"
+      }, 
+      {
+        "name": "left_turn_across_path", 
+        "type": "real"
+      }, 
+      {
+        "name": "animal_action", 
+        "type": "real"
+      }, 
+      {
+        "name": "improper_turn", 
+        "type": "real"
+      }, 
+      {
+        "name": "stop_sign_violation", 
+        "type": "real"
+      }, 
+      {
+        "name": "other", 
+        "type": "real"
+      }, 
+      {
+        "name": "pedestrian_error_violation", 
+        "type": "real"
+      }, 
+      {
+        "name": "improper_passing", 
+        "type": "real"
+      }, 
+      {
+        "name": "failed_to_yield_to_pedestrian", 
+        "type": "real"
+      }, 
+      {
+        "name": "improper_loading", 
+        "type": "real"
+      }, 
+      {
+        "name": "driverless_vehicle", 
+        "type": "real"
+      }, 
+      {
+        "name": "failed_to_observe_traffic_signal", 
+        "type": "real"
+      }, 
+      {
+        "name": "failed_to_yield_to_cyclist", 
+        "type": "real"
+      }, 
+      {
+        "name": "cyclst_error_violation", 
+        "type": "real"
+      }, 
+      {
+        "name": "oversize_vehicle", 
+        "type": "real"
+      }, 
+      {
+        "name": "unknown", 
+        "type": "real"
+      }, 
+      {
+        "name": "one_way_violation", 
+        "type": "real"
+      }, 
+      {
+        "name": "yield_sign_violation", 
+        "type": "real"
+      }, 
+      {
+        "name": "inanimate_object_action", 
+        "type": "real"
+      }, 
+      {
+        "name": "opened_door_into_traffic", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.edmonton.ca", 
+  "tableName": "midblock_collision_summary_2010_2011_"
+}

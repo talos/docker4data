@@ -1,0 +1,54 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/corporate_transaction_history_for_business_entities/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/casm-dbbj/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "History of all corporate transactions of business entities with the Secretary of State. The dataset goes back to the 1800\u2019s and contains millions of records. The Colorado office of the Secretary of State houses five divisions: Business, Licensing, Elections, Administration and Information Technology, and the Business Division files documents for certain business organizations and business names and other associated data", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "SOS - Colorado Secretary of State business division", 
+    "category": "Business", 
+    "description": "History of all corporate transactions of business entities with the Secretary of State. The dataset goes back to the 1800\u2019s and contains millions of records. The Colorado office of the Secretary of State houses five divisions: Business, Licensing, Elections, Administration and Information Technology, and the Business Division files documents for certain business organizations and business names and other associated data", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/casm-dbbj.json"
+    }
+  }, 
+  "name": "Corporate Transaction History for Business Entities", 
+  "schema": {
+    "columns": [
+      {
+        "name": "entityid", 
+        "type": "text"
+      }, 
+      {
+        "name": "transactionid", 
+        "type": "text"
+      }, 
+      {
+        "name": "historydes", 
+        "type": "text"
+      }, 
+      {
+        "name": "comment", 
+        "type": "text"
+      }, 
+      {
+        "name": "receiveddate", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "effectivedate", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "name", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.colorado.gov", 
+  "tableName": "corporate_transaction_history_for_business_entities"
+}

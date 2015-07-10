@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_govloop_personnel_data/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.govloop.com/api/views/9tsu-xipw/rows.csv"
+    "@id": "http://www.opendatacache.com/data.govloop.com/api/views/9tsu-xipw/rows.csv", 
+    "type": "csv"
   }, 
   "description": "OPM personnel data", 
   "maintainer": {
@@ -71,5 +72,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_govloop_personnel_data"
+  "schemaName": "socrata/data.govloop.com", 
+  "tableName": "personnel_data"
 }

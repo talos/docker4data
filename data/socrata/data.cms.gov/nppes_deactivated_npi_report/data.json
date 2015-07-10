@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cms_nppes_deactivated_npi_report/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.cms.gov/api/views/qbms-kuqs/rows.csv"
+    "@id": "http://www.opendatacache.com/data.cms.gov/api/views/qbms-kuqs/rows.csv", 
+    "type": "csv"
   }, 
   "description": "The Deactivated NPI report contains NPPES data (NPI and Deactivation date) on all current deactivated NPIs in NPPES since May 23, 2005.   Each monthly report will contain the cumulative list of NPIs that have a current status of \u2018Deactivated\u2019 in NPPES.   (Reactivated NPIs will be removed from the NPPES Monthly Deactivated NPI Reports.)", 
   "maintainer": {
@@ -28,5 +29,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_cms_nppes_deactivated_npi_report"
+  "schemaName": "socrata/data.cms.gov", 
+  "tableName": "nppes_deactivated_npi_report"
 }

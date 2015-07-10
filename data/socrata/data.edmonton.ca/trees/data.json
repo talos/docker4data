@@ -1,0 +1,90 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/trees/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/eecg-fc54/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "List of all trees owned and maintained by the City of Edmonton. Note - There are about 320,000 records. It may take some time to load everything.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "City of Edmonton / Urban Forestry", 
+    "category": "Environmental Services", 
+    "description": "List of all trees owned and maintained by the City of Edmonton. Note - There are about 320,000 records. It may take some time to load everything.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/eecg-fc54.json"
+    }
+  }, 
+  "name": "Trees", 
+  "schema": {
+    "columns": [
+      {
+        "name": "id", 
+        "type": "real"
+      }, 
+      {
+        "name": "neighbourhood_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "location_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "species_botanical", 
+        "type": "text"
+      }, 
+      {
+        "name": "species", 
+        "type": "text"
+      }, 
+      {
+        "name": "genus", 
+        "type": "text"
+      }, 
+      {
+        "name": "species_2", 
+        "type": "text"
+      }, 
+      {
+        "name": "cultivar", 
+        "type": "text"
+      }, 
+      {
+        "name": "diameter_breast_height", 
+        "type": "real"
+      }, 
+      {
+        "name": "condition_percent", 
+        "type": "real"
+      }, 
+      {
+        "name": "planted_date", 
+        "type": "text"
+      }, 
+      {
+        "name": "owner", 
+        "type": "text"
+      }, 
+      {
+        "name": "latitude", 
+        "type": "real"
+      }, 
+      {
+        "name": "longitude", 
+        "type": "real"
+      }, 
+      {
+        "name": "location", 
+        "type": "text"
+      }, 
+      {
+        "name": "count", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.edmonton.ca", 
+  "tableName": "trees"
+}

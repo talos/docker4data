@@ -1,0 +1,42 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/2009_census_population_by_single_year_of_age_and_gender_ward_/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/ei4u-794h/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "All Census information is as of April 1, 2009.\r\nAges of residents are effective April 1, 2009.\r\nWard Reports are based on the 6-Ward system, which existed in the City of Edmonton until October, 2010.\r\nNo data on any individual residence will be released.  To protect the privacy of individuals, data is compiled and presented at the city-, ward- and neighbourhood-level only.\r\nThe designation of \u201cNo Response\u201d includes households from which no census data could be collected or only partial data was available.\r\nBulk-count data from multiple-resident facilities (such as group homes, transient drop-in centres, residential hotels or criminal detention centres) may be limited when personal information can not be obtained (i.e. information is not available or can not be released by the facility administration).", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "City of Edmonton \u2013 Office of the City Clerk", 
+    "category": "Census", 
+    "description": "All Census information is as of April 1, 2009.\r\nAges of residents are effective April 1, 2009.\r\nWard Reports are based on the 6-Ward system, which existed in the City of Edmonton until October, 2010.\r\nNo data on any individual residence will be released.  To protect the privacy of individuals, data is compiled and presented at the city-, ward- and neighbourhood-level only.\r\nThe designation of \u201cNo Response\u201d includes households from which no census data could be collected or only partial data was available.\r\nBulk-count data from multiple-resident facilities (such as group homes, transient drop-in centres, residential hotels or criminal detention centres) may be limited when personal information can not be obtained (i.e. information is not available or can not be released by the facility administration).", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/ei4u-794h.json"
+    }
+  }, 
+  "name": "2009 Census - Population By Single Year Of Age And Gender (Ward)", 
+  "schema": {
+    "columns": [
+      {
+        "name": "ward", 
+        "type": "text"
+      }, 
+      {
+        "name": "age", 
+        "type": "text"
+      }, 
+      {
+        "name": "female", 
+        "type": "real"
+      }, 
+      {
+        "name": "male", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.edmonton.ca", 
+  "tableName": "2009_census_population_by_single_year_of_age_and_gender_ward_"
+}

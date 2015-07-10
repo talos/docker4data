@@ -1,0 +1,46 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/track_sports_fields/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/ykrg-bwt7/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "List of track sports fields in Edmonton", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "City of Edmonton - Information Technology", 
+    "category": "Outdoor Recreation", 
+    "description": "List of track sports fields in Edmonton", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/ykrg-bwt7.json"
+    }
+  }, 
+  "name": "Track Sports Fields", 
+  "schema": {
+    "columns": [
+      {
+        "name": "name", 
+        "type": "text"
+      }, 
+      {
+        "name": "surface", 
+        "type": "text"
+      }, 
+      {
+        "name": "latitude", 
+        "type": "real"
+      }, 
+      {
+        "name": "longitude", 
+        "type": "real"
+      }, 
+      {
+        "name": "location", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.edmonton.ca", 
+  "tableName": "track_sports_fields"
+}

@@ -1,0 +1,70 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/outpatient_prospective_payment_system_opps_provider_summary_fo/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cms.gov/api/views/tr34-anpb/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "A provider level summary of Outpatient Prospective Payment System (OPPS) average estimated submitted charges and average Medicare Payments for 30 selected Ambulatory Payment Classification (APC) Groups.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "CMS", 
+    "category": "Public Use Files", 
+    "description": "The data provided here include estimated hospital-specific charges for 30 Ambulatory Payment Classification (APC) Groups paid under the Medicare Outpatient Prospective Payment System (OPPS) for Calendar Year (CY) 2012.  The Medicare payment amount includes the APC payment amount, the beneficiary Part B coinsurance amount and the beneficiary deductible amount.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cms.gov/api/views/tr34-anpb.json"
+    }
+  }, 
+  "name": "Outpatient Prospective Payment System (OPPS) Provider Summary for 30 Selected Ambulatory Payment Classification (APC) Groups - CY2012", 
+  "schema": {
+    "columns": [
+      {
+        "name": "apc", 
+        "type": "text"
+      }, 
+      {
+        "name": "provider_id", 
+        "type": "text"
+      }, 
+      {
+        "name": "provider_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "provider_street_address", 
+        "type": "text"
+      }, 
+      {
+        "name": "provider_city", 
+        "type": "text"
+      }, 
+      {
+        "name": "provider_state", 
+        "type": "text"
+      }, 
+      {
+        "name": "provider_zip_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "hospital_referral_region_hrr_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "outpatient_services", 
+        "type": "real"
+      }, 
+      {
+        "name": "average_estimated_submitted_charges", 
+        "type": "real"
+      }, 
+      {
+        "name": "average_total_payments", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.cms.gov", 
+  "tableName": "outpatient_prospective_payment_system_opps_provider_summary_fo"
+}

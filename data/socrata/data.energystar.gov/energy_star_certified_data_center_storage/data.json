@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_energystar_energy_star_certified_data_center_storage/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.energystar.gov/api/views/gqtf-hp7x/rows.csv"
+    "@id": "http://www.opendatacache.com/data.energystar.gov/api/views/gqtf-hp7x/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Certified models meet all ENERGY STAR requirements as listed in the Version 1.0 ENERGY STAR Program Requirements for Data Center Storage that are effective as of December 2, 2013. A detailed listing of key efficiency criteria are available at http://www.energystar.gov/certified-products/detail/data_center_storage", 
   "maintainer": {
@@ -1175,5 +1176,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_energystar_energy_star_certified_data_center_storage"
+  "schemaName": "socrata/data.energystar.gov", 
+  "tableName": "energy_star_certified_data_center_storage"
 }

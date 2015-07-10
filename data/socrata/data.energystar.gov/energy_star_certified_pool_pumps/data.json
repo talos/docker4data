@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_energystar_energy_star_certified_pool_pumps/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.energystar.gov/api/views/2ppn-v3hp/rows.csv"
+    "@id": "http://www.opendatacache.com/data.energystar.gov/api/views/2ppn-v3hp/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Certified models meet all ENERGY STAR requirements as listed in the Version 1.0 ENERGY STAR Program Requirements for Pool Pumps that are effective as of February 15, 2013. A detailed listing of key efficiency criteria are available at http://www.energystar.gov/index.cfm?c=poolpumps.pr_crit_poolpumps", 
   "maintainer": {
@@ -131,5 +132,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_energystar_energy_star_certified_pool_pumps"
+  "schemaName": "socrata/data.energystar.gov", 
+  "tableName": "energy_star_certified_pool_pumps"
 }

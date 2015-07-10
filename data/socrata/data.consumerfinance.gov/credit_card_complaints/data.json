@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_consumerfinance_credit_card_complaints/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.consumerfinance.gov/api/views/25ei-6bcr/rows.csv"
+    "@id": "http://www.opendatacache.com/data.consumerfinance.gov/api/views/25ei-6bcr/rows.csv", 
+    "type": "csv"
   }, 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -60,5 +61,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_consumerfinance_credit_card_complaints"
+  "schemaName": "socrata/data.consumerfinance.gov", 
+  "tableName": "credit_card_complaints"
 }

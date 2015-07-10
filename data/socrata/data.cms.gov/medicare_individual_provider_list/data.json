@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cms_medicare_individual_provider_list/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.cms.gov/api/views/u8u9-2upx/rows.csv"
+    "@id": "http://www.opendatacache.com/data.cms.gov/api/views/u8u9-2upx/rows.csv", 
+    "type": "csv"
   }, 
   "description": "In an effort to prepare the prescribers and Part D sponsors for the December 1, 2015, enforcement date, CMS is making available an enrollment file that identifies physician and eligible professional who are enrolled in Medicare in an approved or opt out status.   The file contains production data but is considered a test file since the Part D prescriber enrollment requirement is not yet applicable.  An updated enrollment file will be generated every two weeks and continue through the December 1, 2015 enforcement date.  \r\n\r\nThe file displays provider eligibility as of and after November 1, 2014 (i.e., currently enrolled, new approvals, or changes from opt-out to enrolled as of November 1, 2014).  Any inactive providers or periods of inactivity for existing providers prior to November 1, 2014, will not be displayed on the enrollment file. However, any enrollments that become inactive after November 1, 2014, will be on the file with its respective end dates for that given provider.   For opted out providers, the opt out flag will display a Y/N (Yes/No) value to indicate the periods the provider was opted out of Medicare.  The file will include the provider\u2019s:\r\n\r\n\u2022\tNational Provider Identifier (NPI);\r\n\u2022\tFirst and Last Name;\r\n\u2022\tEffective and End Dates; and\r\n\u2022\tOpt Out Flag", 
   "maintainer": {
@@ -43,5 +44,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_cms_medicare_individual_provider_list"
+  "schemaName": "socrata/data.cms.gov", 
+  "tableName": "medicare_individual_provider_list"
 }

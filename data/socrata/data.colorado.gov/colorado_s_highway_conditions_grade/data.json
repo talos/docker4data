@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_colorado_s_highway_conditions_grade/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/vk5i-uf67/rows.csv"
+    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/vk5i-uf67/rows.csv", 
+    "type": "csv"
   }, 
   "description": "CDOT gives a letter grade to overall roadway condition. It is a combination of the percent of highway pavement determined to have high or moderate Drivability Life and the level of service (LOS) delivered by CDOT\u2019s maintenance program. The Department in 2013 changed its way of evaluating pavement condition. Grades for previous years are not directly comparable.", 
   "maintainer": {
@@ -36,5 +37,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_colorado_colorado_s_highway_conditions_grade"
+  "schemaName": "socrata/data.colorado.gov", 
+  "tableName": "colorado_s_highway_conditions_grade"
 }

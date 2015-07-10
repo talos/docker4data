@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/vision_zero_view_data/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/y74e-vkxy/rows.csv"
+    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/download/y74e-vkxyapplication/zip; charset=binary", 
+    "type": "application/zip; charset=binary"
   }, 
   "description": "Data that that populates the Vision Zero View map, which can be found at www.nycvzv.info\r\n\r\nVision Zero is the City's goal for ending traffic deaths and injuries.  The Vision Zero action plan can be found at http://www.nyc.gov/html/visionzero/pdf/nyc-vision-zero-action-plan.pdf\r\n\r\nCrash data is obtained from the Traffic Accident Management System (TAMS), which is maintained by the New York City Police Department (NYPD). Only crashes with valid geographic information are mapped. All midblock crashes are mapped to the nearest intersection. Injuries and fatalities are grouped by intersection and summarized by month and year. This data is queried and aggregated on a monthly basis and is current as of the query date. Current year data is January to the end of the latest full month. All mappable crash data is represented on the simplified NYC street model. Crashes occurring at complex intersections with multiple roadways are mapped onto a single point. Injury and fatality crashes occurring on highways are excluded from this data. Please note that this data is preliminary and may contain errors, accordingly, the data on this site is for informational purposes only. Although all attempts to provide the most accurate information are made, errors may be present and any person who relies upon this data does so at their own risk.", 
   "maintainer": {
@@ -19,5 +20,6 @@
   "schema": {
     "columns": []
   }, 
+  "schemaName": "socrata/data.cityofnewyork.us", 
   "tableName": "vision_zero_view_data"
 }

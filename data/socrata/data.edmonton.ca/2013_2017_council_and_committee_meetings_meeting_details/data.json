@@ -1,0 +1,50 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/2013_2017_council_and_committee_meetings_meeting_details/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/mner-asqn/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "List of Council-approved meetings of Edmonton City Council and related Committees of Council.  The list includes the date, time and location of each meeting.  (Information Subject to Change. While every effort is taken to ensure its accuracy, the data presented here is for informational purposes only.  The official record of the Council and Committee meetings shall be the Agendas, Minutes and supporting documents approved by and filed with the City Clerk.)", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Office of the City Clerk", 
+    "category": "City Administration", 
+    "description": "List of Council-approved meetings of Edmonton City Council and related Committees of Council.  The list includes the date, time and location of each meeting.  (Information Subject to Change. While every effort is taken to ensure its accuracy, the data presented here is for informational purposes only.  The official record of the Council and Committee meetings shall be the Agendas, Minutes and supporting documents approved by and filed with the City Clerk.)", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/mner-asqn.json"
+    }
+  }, 
+  "name": "2013-2017 Council And Committee Meetings - Meeting Details", 
+  "schema": {
+    "columns": [
+      {
+        "name": "meeting_id", 
+        "type": "real"
+      }, 
+      {
+        "name": "meeting_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "record_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "meeting_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "meeting_time", 
+        "type": "text"
+      }, 
+      {
+        "name": "meeting_location", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.edmonton.ca", 
+  "tableName": "2013_2017_council_and_committee_meetings_meeting_details"
+}

@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_dwr_calls_history/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/t7na-sz5k/rows.csv"
+    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/t7na-sz5k/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Division of Water Resources (DWR) Call History. The Call is a term used by the state engineer to effectively communicate the administrative status of the natural stream. The Call communicates the priority required during a specified period of time for a water right located within a specific stream or stream segment to divert under the Prior Appropriation Doctrine. The basic purpose of the Call is to \u201ccall out\u201d water rights that are not in priority in order to make water available to the senior water right that is diverting less than its decreed amount of water that it could beneficially use.", 
   "maintainer": {
@@ -124,5 +125,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_colorado_dwr_calls_history"
+  "schemaName": "socrata/data.colorado.gov", 
+  "tableName": "dwr_calls_history"
 }

@@ -1,0 +1,97 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/energy_star_certified_commercial_ice_machines/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.energystar.gov/api/views/xsaq-9wt3/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Certified models meet all ENERGY STAR requirements as listed in the Version 2.0 ENERGY STAR Program Requirements for Automatic Commercial Ice Makers that are effective as of February 1, 2013. A detailed listing of key efficiency criteria are available at http://www.energystar.gov/index.cfm?c=comm_ice_machines.pr_crit_comm_ice_machines", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "category": "Active Specifications", 
+    "description": "Certified models meet all ENERGY STAR requirements as listed in the Version 2.0 ENERGY STAR Program Requirements for Automatic Commercial Ice Makers that are effective as of February 1, 2013. A detailed listing of key efficiency criteria are available at http://www.energystar.gov/index.cfm?c=comm_ice_machines.pr_crit_comm_ice_machines", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.energystar.gov/api/views/xsaq-9wt3.json"
+    }
+  }, 
+  "name": "ENERGY STAR Certified Commercial Ice Machines", 
+  "schema": {
+    "columns": [
+      {
+        "name": "pd_id", 
+        "type": "real"
+      }, 
+      {
+        "name": "energy_star_partner", 
+        "type": "text"
+      }, 
+      {
+        "name": "brand_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "model_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "model_number", 
+        "type": "text"
+      }, 
+      {
+        "name": "additional_model_information", 
+        "type": "text"
+      }, 
+      {
+        "name": "product_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "ice_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "harvest_rate_lbs_ice_day", 
+        "type": "real"
+      }, 
+      {
+        "name": "measured_energy_use_kwh_100_lbs_ice", 
+        "type": "real"
+      }, 
+      {
+        "name": "adjusted_energy_use_kwh_100_lbs_ice", 
+        "type": "real"
+      }, 
+      {
+        "name": "potable_water_use_gal_100_lbs_ice", 
+        "type": "real"
+      }, 
+      {
+        "name": "ice_hardness_factor", 
+        "type": "real"
+      }, 
+      {
+        "name": "condenser_unit_model_number_if_applicable", 
+        "type": "text"
+      }, 
+      {
+        "name": "date_available_on_market", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "date_qualified", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "markets", 
+        "type": "text"
+      }, 
+      {
+        "name": "energy_star_model_identifier", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.energystar.gov", 
+  "tableName": "energy_star_certified_commercial_ice_machines"
+}

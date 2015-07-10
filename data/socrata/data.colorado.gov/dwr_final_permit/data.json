@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_dwr_final_permit/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/4rcf-bncv/rows.csv"
+    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/4rcf-bncv/rows.csv", 
+    "type": "csv"
   }, 
   "description": "A Final Permit is a document issued by the Colorado Ground Water Commission that establishes, or adjudicates, an absolute designated ground water right within a Designated Basin.", 
   "maintainer": {
@@ -216,5 +217,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_colorado_dwr_final_permit"
+  "schemaName": "socrata/data.colorado.gov", 
+  "tableName": "dwr_final_permit"
 }

@@ -1,0 +1,86 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/annual_census_population_estimates_for_colorado_counties/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/bu8h-8sux/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Annual population estimates every year from 1900-2014 from the US Census Bureau for Colorado Counties.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "CDLE - Colorado Department of Labor & Employment", 
+    "category": "Labor & Employment", 
+    "description": "Annual population estimates every year from 1900-2014 from the US Census Bureau for Colorado Counties.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/bu8h-8sux.json"
+    }
+  }, 
+  "name": "Annual Census Population Estimates for Colorado Counties", 
+  "schema": {
+    "columns": [
+      {
+        "name": "stateabbrv", 
+        "type": "text"
+      }, 
+      {
+        "name": "statename", 
+        "type": "text"
+      }, 
+      {
+        "name": "stfips", 
+        "type": "real"
+      }, 
+      {
+        "name": "areaname", 
+        "type": "text"
+      }, 
+      {
+        "name": "areatype", 
+        "type": "real"
+      }, 
+      {
+        "name": "areatyname", 
+        "type": "text"
+      }, 
+      {
+        "name": "area", 
+        "type": "real"
+      }, 
+      {
+        "name": "periodyear", 
+        "type": "real"
+      }, 
+      {
+        "name": "periodtype", 
+        "type": "real"
+      }, 
+      {
+        "name": "pertypdesc", 
+        "type": "text"
+      }, 
+      {
+        "name": "period", 
+        "type": "real"
+      }, 
+      {
+        "name": "popsource", 
+        "type": "real"
+      }, 
+      {
+        "name": "popsrcdesc", 
+        "type": "text"
+      }, 
+      {
+        "name": "population", 
+        "type": "real"
+      }, 
+      {
+        "name": "releasedate", 
+        "type": "timestamp"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.colorado.gov", 
+  "tableName": "annual_census_population_estimates_for_colorado_counties"
+}

@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_cdhe_degrees_awarded/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/hxf8-ab6k/rows.csv"
+    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/hxf8-ab6k/rows.csv", 
+    "type": "csv"
   }, 
   "description": "The Degree File includes all students who have received a certificate, degree, or formal award approved by DHE during the report year. Also contains data on age, ethnicity, program name, and residency.", 
   "maintainer": {
@@ -104,5 +105,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_colorado_cdhe_degrees_awarded"
+  "schemaName": "socrata/data.colorado.gov", 
+  "tableName": "cdhe_degrees_awarded"
 }

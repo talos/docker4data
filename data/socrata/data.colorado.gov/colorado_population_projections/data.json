@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_colorado_population_projections/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/q5vp-adf3/rows.csv"
+    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/q5vp-adf3/rows.csv", 
+    "type": "csv"
   }, 
   "description": "This dataset contains data on the actual and projected population by gender and age from 1990-2040.", 
   "maintainer": {
@@ -48,5 +49,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_colorado_colorado_population_projections"
+  "schemaName": "socrata/data.colorado.gov", 
+  "tableName": "colorado_population_projections"
 }

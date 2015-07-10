@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_dwr_water_right_net_amounts/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/acsg-f33s/rows.csv"
+    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/acsg-f33s/rows.csv", 
+    "type": "csv"
   }, 
   "description": "A Water Right is a property right that is either conditional or\r\nabsolute and conveys the right to use a particular amount of\r\nwater, with a specified priority date as confirmed by the\r\nwater court.  The Net Amounts List contains the current status of a water right based on all of  its court decreed actions.", 
   "maintainer": {
@@ -159,5 +160,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_colorado_dwr_water_right_net_amounts"
+  "schemaName": "socrata/data.colorado.gov", 
+  "tableName": "dwr_water_right_net_amounts"
 }

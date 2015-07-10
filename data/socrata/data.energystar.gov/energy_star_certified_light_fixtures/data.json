@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_energystar_energy_star_certified_light_fixtures/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.energystar.gov/api/views/wyt9-72bp/rows.csv"
+    "@id": "http://www.opendatacache.com/data.energystar.gov/api/views/wyt9-72bp/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Certified models meet all ENERGY STAR requirements as listed in the Version 1.2 ENERGY STAR Program Requirements for Luminaires. A detailed listing of key efficiency criteria are available at http://www.energystar.gov/index.cfm?fuseaction=find_a_product.showProductGroup&pgw_code=LU#specs", 
   "maintainer": {
@@ -119,5 +120,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_energystar_energy_star_certified_light_fixtures"
+  "schemaName": "socrata/data.energystar.gov", 
+  "tableName": "energy_star_certified_light_fixtures"
 }

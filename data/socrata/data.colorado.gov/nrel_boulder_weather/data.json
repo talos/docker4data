@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_nrel_boulder_weather/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/pfjr-vhp3/rows.csv"
+    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/pfjr-vhp3/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Weather data for the Boulder station, from September 24, 1996 to yesterday. Contains data on temperature, humidity, and wind. Recorded and provided by NREL.", 
   "maintainer": {
@@ -144,5 +145,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_colorado_nrel_boulder_weather"
+  "schemaName": "socrata/data.colorado.gov", 
+  "tableName": "nrel_boulder_weather"
 }

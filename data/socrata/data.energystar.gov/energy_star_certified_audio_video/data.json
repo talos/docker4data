@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_energystar_energy_star_certified_audio_video/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.energystar.gov/api/views/ewhi-bvce/rows.csv"
+    "@id": "http://www.opendatacache.com/data.energystar.gov/api/views/ewhi-bvce/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Certified models meet all ENERGY STAR requirements as listed in the Version 3.0 ENERGY STAR Program Requirements for Audio Video Equipment that are effective as of May 1, 2013. A detailed listing of key efficiency criteria are available at http://www.energystar.gov/index.cfm?c=audio_dvd.pr_crit_audio_dvd", 
   "maintainer": {
@@ -119,5 +120,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_energystar_energy_star_certified_audio_video"
+  "schemaName": "socrata/data.energystar.gov", 
+  "tableName": "energy_star_certified_audio_video"
 }

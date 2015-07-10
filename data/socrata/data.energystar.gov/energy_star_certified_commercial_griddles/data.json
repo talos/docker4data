@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_energystar_energy_star_certified_commercial_griddles/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.energystar.gov/api/views/nw5s-r5ca/rows.csv"
+    "@id": "http://www.opendatacache.com/data.energystar.gov/api/views/nw5s-r5ca/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Certified models meet all ENERGY STAR requirements as listed in the Version 1.1 ENERGY STAR Program Requirements for Commercial Griddles that are effective as of May 8, 2009 or January 1, 2011. A detailed listing of key efficiency criteria are available at http://www.energystar.gov/index.cfm?c=griddles.pr_crit_comm_griddles", 
   "maintainer": {
@@ -107,5 +108,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_energystar_energy_star_certified_commercial_griddles"
+  "schemaName": "socrata/data.energystar.gov", 
+  "tableName": "energy_star_certified_commercial_griddles"
 }

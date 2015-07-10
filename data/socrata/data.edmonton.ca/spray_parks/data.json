@@ -1,0 +1,50 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/spray_parks/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/jyra-si4k/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "List of all spray parks in Edmonton", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Community Services - Parks", 
+    "category": "Outdoor Recreation", 
+    "description": "List of all spray parks in Edmonton", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/jyra-si4k.json"
+    }
+  }, 
+  "name": "Spray Parks", 
+  "schema": {
+    "columns": [
+      {
+        "name": "name", 
+        "type": "text"
+      }, 
+      {
+        "name": "address", 
+        "type": "text"
+      }, 
+      {
+        "name": "latitude", 
+        "type": "real"
+      }, 
+      {
+        "name": "longitude", 
+        "type": "real"
+      }, 
+      {
+        "name": "location", 
+        "type": "text"
+      }, 
+      {
+        "name": "type", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.edmonton.ca", 
+  "tableName": "spray_parks"
+}

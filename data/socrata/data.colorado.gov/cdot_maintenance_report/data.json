@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_cdot_maintenance_report/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/mh72-9v9v/rows.csv"
+    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/mh72-9v9v/rows.csv", 
+    "type": "csv"
   }, 
   "description": "CDOT measures the overall performance of its maintenance program by assigning letter grades to nine program areas, such as Snow and Ice Removal, Roadway Striping, Sign and Signal Maintenance, and Rest Area Maintenance. The overall grade for maintenance reflects the performance of all nine areas.", 
   "maintainer": {
@@ -36,5 +37,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_colorado_cdot_maintenance_report"
+  "schemaName": "socrata/data.colorado.gov", 
+  "tableName": "cdot_maintenance_report"
 }

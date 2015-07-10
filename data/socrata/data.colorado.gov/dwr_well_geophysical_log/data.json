@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_dwr_well_geophysical_log/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/cfyk-gwjj/rows.csv"
+    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/cfyk-gwjj/rows.csv", 
+    "type": "csv"
   }, 
   "description": "A detailed record (a well log) of the geologic formations penetrated by a wells.   Contains Aquifer Top/Bottom/Saturate Sand Thickness.", 
   "maintainer": {
@@ -279,5 +280,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_colorado_dwr_well_geophysical_log"
+  "schemaName": "socrata/data.colorado.gov", 
+  "tableName": "dwr_well_geophysical_log"
 }

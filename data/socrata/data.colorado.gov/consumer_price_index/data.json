@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_consumer_price_index/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/bynd-i2hj/rows.csv"
+    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/bynd-i2hj/rows.csv", 
+    "type": "csv"
   }, 
   "description": "The Consumer Price Indexes (CPI) program produces monthly data on changes in the prices paid by urban consumers for a representative basket of goods and services.", 
   "maintainer": {
@@ -88,5 +89,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_colorado_consumer_price_index"
+  "schemaName": "socrata/data.colorado.gov", 
+  "tableName": "consumer_price_index"
 }

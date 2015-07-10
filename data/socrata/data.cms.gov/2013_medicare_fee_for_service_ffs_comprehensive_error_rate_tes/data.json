@@ -1,0 +1,81 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/2013_medicare_fee_for_service_ffs_comprehensive_error_rate_tes/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cms.gov/api/views/ekh8-yqc7/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "The dataset comprises information on Medicare FFS claims that underwent CERT medical review for the 2013 Medicare Fee-for-service Improper Payment Report period of July 1, 2011 through June 30, 2012.  These claims were used to calculate the Fiscal Year (FY) 2013 Medicare FFS improper payment rate.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Centers for Medicare and Medicaid Services", 
+    "description": "The dataset comprises information on Medicare FFS claims that underwent CERT medical review for the 2013 Medicare Fee-for-service Improper Payment Report period of July 1, 2011 through June 30, 2012.  These claims were used to calculate the Fiscal Year (FY) 2013 Medicare FFS improper payment rate.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cms.gov/api/views/ekh8-yqc7.json"
+    }
+  }, 
+  "name": "2013 Medicare fee-for-service (FFS) Comprehensive Error Rate Testing (CERT) improper payment data", 
+  "schema": {
+    "columns": [
+      {
+        "name": "part", 
+        "type": "text"
+      }, 
+      {
+        "name": "cid", 
+        "type": "real"
+      }, 
+      {
+        "name": "claim_line_item_number", 
+        "type": "real"
+      }, 
+      {
+        "name": "span_number", 
+        "type": "real"
+      }, 
+      {
+        "name": "hcpcs_procedure_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "type_of_bill", 
+        "type": "real"
+      }, 
+      {
+        "name": "drg", 
+        "type": "text"
+      }, 
+      {
+        "name": "diagnosis_code", 
+        "type": "real"
+      }, 
+      {
+        "name": "provider_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "type_of_service", 
+        "type": "text"
+      }, 
+      {
+        "name": "service_from_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "service_through_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "error_code", 
+        "type": "text"
+      }, 
+      {
+        "name": "review_decision", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.cms.gov", 
+  "tableName": "2013_medicare_fee_for_service_ffs_comprehensive_error_rate_tes"
+}

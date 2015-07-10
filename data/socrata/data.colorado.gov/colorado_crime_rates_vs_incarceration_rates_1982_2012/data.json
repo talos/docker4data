@@ -1,0 +1,62 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/colorado_crime_rates_vs_incarceration_rates_1982_2012/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/w88j-pefv/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "National or state offense totals are based on data from all reporting agencies and estimates for unreported areas. Rates are the number of reported offenses per 100,000 population. These figures are based on end of calendar year populations.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Colorado Department of Public Safety", 
+    "category": "Public Safety", 
+    "description": "National or state offense totals are based on data from all reporting agencies and estimates for unreported areas. Rates are the number of reported offenses per 100,000 population. These figures are based on end of calendar year populations.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/w88j-pefv.json"
+    }
+  }, 
+  "name": "COLORADO CRIME RATES VS INCARCERATION RATES, 1982-2012", 
+  "schema": {
+    "columns": [
+      {
+        "name": "year", 
+        "type": "text"
+      }, 
+      {
+        "name": "population", 
+        "type": "real"
+      }, 
+      {
+        "name": "violent_crime_total", 
+        "type": "real"
+      }, 
+      {
+        "name": "violent_crime_rate", 
+        "type": "real"
+      }, 
+      {
+        "name": "property_crime_total", 
+        "type": "real"
+      }, 
+      {
+        "name": "property_crime_rate", 
+        "type": "real"
+      }, 
+      {
+        "name": "total_crime", 
+        "type": "real"
+      }, 
+      {
+        "name": "total_crime_rate", 
+        "type": "real"
+      }, 
+      {
+        "name": "incarceration_rate", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.colorado.gov", 
+  "tableName": "colorado_crime_rates_vs_incarceration_rates_1982_2012"
+}

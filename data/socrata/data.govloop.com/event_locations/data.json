@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_govloop_event_locations/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.govloop.com/api/views/zkq3-6agf/rows.csv"
+    "@id": "http://www.opendatacache.com/data.govloop.com/api/views/zkq3-6agf/rows.csv", 
+    "type": "csv"
   }, 
   "description": "List of event locations in DC", 
   "maintainer": {
@@ -35,5 +36,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_govloop_event_locations"
+  "schemaName": "socrata/data.govloop.com", 
+  "tableName": "event_locations"
 }

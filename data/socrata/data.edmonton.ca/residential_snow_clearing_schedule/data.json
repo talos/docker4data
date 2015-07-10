@@ -1,0 +1,46 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/residential_snow_clearing_schedule/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/7gh5-bnbs/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "A list of all City of Edmonton transportation maintenance areas and the date on which each is scheduled for residential snow clearing.  Does NOT include arterials or major routes.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Transportation Services - Transportation Operations", 
+    "category": "Transportation", 
+    "description": "A list of all City of Edmonton transportation maintenance areas and the date on which each is scheduled for residential snow clearing.  Does NOT include arterials or major routes.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/7gh5-bnbs.json"
+    }
+  }, 
+  "name": "Residential Snow Clearing Schedule", 
+  "schema": {
+    "columns": [
+      {
+        "name": "maintenance_area_number", 
+        "type": "real"
+      }, 
+      {
+        "name": "neighbourhood", 
+        "type": "text"
+      }, 
+      {
+        "name": "scheduled_date", 
+        "type": "text"
+      }, 
+      {
+        "name": "status", 
+        "type": "text"
+      }, 
+      {
+        "name": "scheduled_day", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.edmonton.ca", 
+  "tableName": "residential_snow_clearing_schedule"
+}

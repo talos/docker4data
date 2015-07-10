@@ -1,0 +1,46 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/2013_2017_council_and_committee_meetings_voting_record/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/fwq5-ux79/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Detailed Voting Record of each motion made at Council or selected Committee meetings (see attachment below for details). Members of Council or the Committee will be shown as voting \u2018in favour\u2019 \u2018opposed\u2019 or \u2018absent\u2019. While Councillors are allowed to abstain from voting, this can only happen under exceptional circumstances (the Councillor must have a pecuniary interest in the matter). Therefore, it is very unlikely to see an \u2018abstention\u2019 noted.\r\n(While every effort is taken to ensure its accuracy, the data presented here is for informational purposes only.  The official record of the Council and Committee meetings shall be the Agendas, Minutes and supporting documents approved by and filed with the City Clerk.)", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Office of the City Clerk", 
+    "category": "City Administration", 
+    "description": "Detailed Voting Record of each motion made at Council or selected Committee meetings (see attachment below for details). Members of Council or the Committee will be shown as voting \u2018in favour\u2019 \u2018opposed\u2019 or \u2018absent\u2019. While Councillors are allowed to abstain from voting, this can only happen under exceptional circumstances (the Councillor must have a pecuniary interest in the matter). Therefore, it is very unlikely to see an \u2018abstention\u2019 noted.\r\n(While every effort is taken to ensure its accuracy, the data presented here is for informational purposes only.  The official record of the Council and Committee meetings shall be the Agendas, Minutes and supporting documents approved by and filed with the City Clerk.)", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/fwq5-ux79.json"
+    }
+  }, 
+  "name": "2013-2017 Council And Committee Meetings - Voting Record", 
+  "schema": {
+    "columns": [
+      {
+        "name": "meeting_id", 
+        "type": "real"
+      }, 
+      {
+        "name": "item_id", 
+        "type": "real"
+      }, 
+      {
+        "name": "motion_id", 
+        "type": "text"
+      }, 
+      {
+        "name": "voter", 
+        "type": "text"
+      }, 
+      {
+        "name": "vote", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.edmonton.ca", 
+  "tableName": "2013_2017_council_and_committee_meetings_voting_record"
+}

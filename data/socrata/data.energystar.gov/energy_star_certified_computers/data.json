@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_energystar_energy_star_certified_computers/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.energystar.gov/api/views/ed9u-v8cw/rows.csv"
+    "@id": "http://www.opendatacache.com/data.energystar.gov/api/views/ed9u-v8cw/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Certified models meet all ENERGY STAR requirements as listed in the Version 6.1 ENERGY STAR Program Requirements for Computers that are effective as of June 2, 2014. A detailed listing of key efficiency criteria are available at http://www.energystar.gov/index.cfm?c=computers.pr_crit_computers", 
   "maintainer": {
@@ -615,5 +616,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_energystar_energy_star_certified_computers"
+  "schemaName": "socrata/data.energystar.gov", 
+  "tableName": "energy_star_certified_computers"
 }

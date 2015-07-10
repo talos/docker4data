@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cms_provider_of_services_file_other_september_2013/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.cms.gov/api/views/xssf-xjt2/rows.csv"
+    "@id": "http://www.opendatacache.com/data.cms.gov/api/views/xssf-xjt2/rows.csv", 
+    "type": "csv"
   }, 
   "description": "The POS file consists of two data files, one for CLIA labs and one for 18 other provider types.  The file names are CLIA and OTHER. If downloading the file, note it is fairly large (125MB in CSV).\r\nThe POS Extract is created from the QIES (Quality Improvement Evaluation System) database. These data include provider number, name, and address and characterize the participating institutional providers. The data are collected through the Centers for Medicare & Medicaid Services (CMS) Regional Offices. The file contains an individual record for each Medicare-approved provider and is updated quarterly. For a list of provider types, layout files, and how to order previous annual files, please see the Source Link in the About tab.", 
   "maintainer": {
@@ -1960,5 +1961,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_cms_provider_of_services_file_other_september_2013"
+  "schemaName": "socrata/data.cms.gov", 
+  "tableName": "provider_of_services_file_other_september_2013"
 }

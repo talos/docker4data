@@ -1,0 +1,46 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/2009_census_dwelling_unit_by_structure_type_and_occupancy_neig/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/qdcb-svkz/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "All Census information is as of April 1, 2009.\r\nNo data on any individual residence will be released.  To protect the privacy of individuals, data is compiled and presented at the city-, ward- and neighbourhood-level only.\r\nIn order to further protect the privacy of individuals, neighbourhood data is not reported for neighbourhoods with populations between 1 and 49 residents.\r\nThe designation of \u201cNo Response\u201d includes households from which no census data could be collected or only partial data was available.\r\nBulk-count data from multiple-resident facilities (such as group homes, transient drop-in centres, residential hotels or criminal detention centres) may be limited when personal information can not be obtained (i.e. information is not available or can not be released by the facility administration).\r\n\u201cOther Residential\u201d includes dwelling units not covered by the other categories, such as a unit attached to a non-residential structure (e.g. an apartment in a store or church) or a movable structure (e.g. recreational vehicle, tent, etc.)\r\nAn Unoccupied site is one that was vacant (i.e. no one was living in the unit on April 1), had no structure, was under construction, or was no longer in use (structure existed, but was no longer used as a residence).", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "City of Edmonton - Office of the City Clerk", 
+    "category": "Census", 
+    "description": "All Census information is as of April 1, 2009.\r\nNo data on any individual residence will be released.  To protect the privacy of individuals, data is compiled and presented at the city-, ward- and neighbourhood-level only.\r\nIn order to further protect the privacy of individuals, neighbourhood data is not reported for neighbourhoods with populations between 1 and 49 residents.\r\nThe designation of \u201cNo Response\u201d includes households from which no census data could be collected or only partial data was available.\r\nBulk-count data from multiple-resident facilities (such as group homes, transient drop-in centres, residential hotels or criminal detention centres) may be limited when personal information can not be obtained (i.e. information is not available or can not be released by the facility administration).\r\n\u201cOther Residential\u201d includes dwelling units not covered by the other categories, such as a unit attached to a non-residential structure (e.g. an apartment in a store or church) or a movable structure (e.g. recreational vehicle, tent, etc.)\r\nAn Unoccupied site is one that was vacant (i.e. no one was living in the unit on April 1), had no structure, was under construction, or was no longer in use (structure existed, but was no longer used as a residence).", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/qdcb-svkz.json"
+    }
+  }, 
+  "name": "2009 Census - Dwelling Unit By Structure Type And Occupancy (Neighbourhood)", 
+  "schema": {
+    "columns": [
+      {
+        "name": "neighbourhood", 
+        "type": "text"
+      }, 
+      {
+        "name": "structure_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "occupied", 
+        "type": "real"
+      }, 
+      {
+        "name": "unoccupied", 
+        "type": "real"
+      }, 
+      {
+        "name": "no_response", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.edmonton.ca", 
+  "tableName": "2009_census_dwelling_unit_by_structure_type_and_occupancy_neig"
+}

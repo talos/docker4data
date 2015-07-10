@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_fhv_bases/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/qwub-fkfe/rows.csv"
+    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/geospatial/v52x-36fy", 
+    "type": "shapefile"
   }, 
   "description": "Click this link for use instructions : http://www.nyc.gov/html/tlc/downloads/pdf/open_data_instructions_base_finder.pdf", 
   "maintainer": {
@@ -17,7 +18,65 @@
   }, 
   "name": "FHV Bases", 
   "schema": {
-    "columns": []
+    "columns": [
+      {
+        "name": "base_license", 
+        "type": "text"
+      }, 
+      {
+        "name": "base_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "base_phone", 
+        "type": "text"
+      }, 
+      {
+        "name": "street_hail_livery_endorsement", 
+        "type": "text"
+      }, 
+      {
+        "name": "wheelchair_accessible_vehicles", 
+        "type": "real"
+      }, 
+      {
+        "name": "base_type", 
+        "type": "text"
+      }, 
+      {
+        "name": "street_number", 
+        "type": "text"
+      }, 
+      {
+        "name": "street", 
+        "type": "text"
+      }, 
+      {
+        "name": "city", 
+        "type": "text"
+      }, 
+      {
+        "name": "state", 
+        "type": "text"
+      }, 
+      {
+        "name": "zip", 
+        "type": "text"
+      }, 
+      {
+        "name": "location", 
+        "type": "text"
+      }, 
+      {
+        "name": "latitude", 
+        "type": "text"
+      }, 
+      {
+        "name": "longitude", 
+        "type": "text"
+      }
+    ]
   }, 
+  "schemaName": "socrata/data.cityofnewyork.us", 
   "tableName": "fhv_bases"
 }

@@ -1,0 +1,38 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/medical_marijuana_statistics_reported_condition/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/5yqk-p422/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Medical Marijuana Registry Program Update by County as of April 30, 2014", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Colorado Department of Public Health & Environment", 
+    "category": "Health", 
+    "description": "Medical Marijuana Registry Program Update by County as of April 30, 2014", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/5yqk-p422.json"
+    }
+  }, 
+  "name": "Medical Marijuana Statistics - Reported Condition", 
+  "schema": {
+    "columns": [
+      {
+        "name": "reported_condition", 
+        "type": "text"
+      }, 
+      {
+        "name": "number_of_patients_reporting_condition", 
+        "type": "real"
+      }, 
+      {
+        "name": "percent_of_patients_reporting_condition", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.colorado.gov", 
+  "tableName": "medical_marijuana_statistics_reported_condition"
+}

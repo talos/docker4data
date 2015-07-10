@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_energystar_energy_star_certified_light_bulbs/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.energystar.gov/api/views/v33x-ybr3/rows.csv"
+    "@id": "http://www.opendatacache.com/data.energystar.gov/api/views/v33x-ybr3/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Certified models meet all ENERGY STAR requirements as listed in the Version 1.1 Lamps that are effective as of September 30, 2014. A detailed listing of key efficiency criteria are available at https://www.energystar.gov/products/certified-products/detail/light-bulbs", 
   "maintainer": {
@@ -159,5 +160,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_energystar_energy_star_certified_light_bulbs"
+  "schemaName": "socrata/data.energystar.gov", 
+  "tableName": "energy_star_certified_light_bulbs"
 }

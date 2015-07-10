@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_cdhe_financial_aid/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/g53r-j5td/rows.csv"
+    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/g53r-j5td/rows.csv", 
+    "type": "csv"
   }, 
   "description": "The primary purpose of this file is to collect the most complete data possible about student aid awards for a fiscal year. Includes all students who are enrolled with a FAFSA on file and applied for or received aid.", 
   "maintainer": {
@@ -124,5 +125,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_colorado_cdhe_financial_aid"
+  "schemaName": "socrata/data.colorado.gov", 
+  "tableName": "cdhe_financial_aid"
 }

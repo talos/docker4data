@@ -1,0 +1,41 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/2014_monthly_km_s_driven_by_asset_class_and_department/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/nmyd-hbqs/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "Number of kilometers driven by fleet vehicles per month and department for 2014. The KM's driven data excludes all external clients (AHS and EPCOR) as well as ME4000 (self propelled equipment).", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "category": "City Administration", 
+    "description": "Number of kilometers driven by fleet vehicles per month and department for 2014. The KM's driven data excludes all external clients (AHS and EPCOR) as well as ME4000 (self propelled equipment).", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/nmyd-hbqs.json"
+    }
+  }, 
+  "name": "2014 Monthly KM's Driven By Asset Class And Department", 
+  "schema": {
+    "columns": [
+      {
+        "name": "department", 
+        "type": "text"
+      }, 
+      {
+        "name": "period", 
+        "type": "text"
+      }, 
+      {
+        "name": "asset_class_desc", 
+        "type": "text"
+      }, 
+      {
+        "name": "km_driven", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.edmonton.ca", 
+  "tableName": "2014_monthly_km_s_driven_by_asset_class_and_department"
+}

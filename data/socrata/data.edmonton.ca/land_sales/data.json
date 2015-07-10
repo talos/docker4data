@@ -1,0 +1,78 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/land_sales/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/qh6u-3haa/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "City of Edmonton's properties for sale, ranging from single family lots and houses to multi-use commercial and industrial sites.", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Sustainable Development - Corporate Properties", 
+    "category": "City Administration", 
+    "description": "City of Edmonton's properties for sale, ranging from single family lots and houses to multi-use commercial and industrial sites.", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/qh6u-3haa.json"
+    }
+  }, 
+  "name": "Land Sales", 
+  "schema": {
+    "columns": [
+      {
+        "name": "details_pdf_file", 
+        "type": "text"
+      }, 
+      {
+        "name": "featured", 
+        "type": "text"
+      }, 
+      {
+        "name": "description", 
+        "type": "text"
+      }, 
+      {
+        "name": "status", 
+        "type": "text"
+      }, 
+      {
+        "name": "category", 
+        "type": "text"
+      }, 
+      {
+        "name": "asking_price", 
+        "type": "real"
+      }, 
+      {
+        "name": "area", 
+        "type": "real"
+      }, 
+      {
+        "name": "unit_of_measure", 
+        "type": "text"
+      }, 
+      {
+        "name": "neighbourhood", 
+        "type": "text"
+      }, 
+      {
+        "name": "latitude", 
+        "type": "real"
+      }, 
+      {
+        "name": "longitude", 
+        "type": "real"
+      }, 
+      {
+        "name": "location", 
+        "type": "text"
+      }, 
+      {
+        "name": "icon", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.edmonton.ca", 
+  "tableName": "land_sales"
+}

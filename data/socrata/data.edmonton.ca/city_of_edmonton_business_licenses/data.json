@@ -1,0 +1,58 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/city_of_edmonton_business_licenses/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/qhi4-bdpu/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "List of establishments that have a valid business licence to operate in the City of Edmonton", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "City of Edmonton - Sustainable Development Department", 
+    "category": "Sustainable Development", 
+    "description": "List of establishments that have a valid business licence to operate in the City of Edmonton", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/qhi4-bdpu.json"
+    }
+  }, 
+  "name": "City of Edmonton - Business Licenses", 
+  "schema": {
+    "columns": [
+      {
+        "name": "externalid", 
+        "type": "text"
+      }, 
+      {
+        "name": "business_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "trade_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "date_of_issue", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "expiry_date", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "business_category", 
+        "type": "text"
+      }, 
+      {
+        "name": "status", 
+        "type": "text"
+      }, 
+      {
+        "name": "count", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.edmonton.ca", 
+  "tableName": "city_of_edmonton_business_licenses"
+}

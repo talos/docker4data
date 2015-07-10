@@ -1,0 +1,50 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/parkland/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/gdd9-eqv9/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "List of all parkland spaces in Edmonton", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "City of Edmonton - Information Technology", 
+    "category": "Outdoor Recreation", 
+    "description": "List of all parkland spaces in Edmonton", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/gdd9-eqv9.json"
+    }
+  }, 
+  "name": "Parkland", 
+  "schema": {
+    "columns": [
+      {
+        "name": "name", 
+        "type": "text"
+      }, 
+      {
+        "name": "common_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "address", 
+        "type": "text"
+      }, 
+      {
+        "name": "latitude", 
+        "type": "real"
+      }, 
+      {
+        "name": "longitude", 
+        "type": "real"
+      }, 
+      {
+        "name": "location", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.edmonton.ca", 
+  "tableName": "parkland"
+}

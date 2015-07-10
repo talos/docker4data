@@ -1,0 +1,58 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nyc_open_data_plan/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/v475-8jcj/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "A schedule of datasets that New York City agencies will make available on nyc.gov/data", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Department of Information Technology & Telecommunications (DoITT)", 
+    "category": "City Government", 
+    "description": "A schedule of datasets that New York City agencies will make available on nyc.gov/data", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/v475-8jcj.json"
+    }
+  }, 
+  "name": "NYC Open Data Plan", 
+  "schema": {
+    "columns": [
+      {
+        "name": "dataset", 
+        "type": "text"
+      }, 
+      {
+        "name": "dataset_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "update_frequency", 
+        "type": "text"
+      }, 
+      {
+        "name": "type", 
+        "type": "text"
+      }, 
+      {
+        "name": "priority_classification", 
+        "type": "timestamp"
+      }, 
+      {
+        "name": "available", 
+        "type": "text"
+      }, 
+      {
+        "name": "link", 
+        "type": "text"
+      }, 
+      {
+        "name": "behind_schedule", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.cityofnewyork.us", 
+  "tableName": "nyc_open_data_plan"
+}

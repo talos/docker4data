@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_cellular_performance_tests_in_colorado/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/6ad7-gqy3/rows.csv"
+    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/6ad7-gqy3/rows.csv", 
+    "type": "csv"
   }, 
   "description": "This data is from mobile devices performing tests of cellular networks in Colorado. The results show latency and signal strength in all tests by carrier and some tests include download and upload performance tests.", 
   "maintainer": {
@@ -88,5 +89,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_colorado_cellular_performance_tests_in_colorado"
+  "schemaName": "socrata/data.colorado.gov", 
+  "tableName": "cellular_performance_tests_in_colorado"
 }

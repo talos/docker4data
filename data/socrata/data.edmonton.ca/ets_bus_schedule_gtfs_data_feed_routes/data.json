@@ -1,0 +1,50 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ets_bus_schedule_gtfs_data_feed_routes/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/d577-xky7/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "List of all bus routes in Edmonton", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "attribution": "Edmonton Transit", 
+    "category": "Transit", 
+    "description": "List of all bus routes in Edmonton", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/d577-xky7.json"
+    }
+  }, 
+  "name": "ETS Bus Schedule GTFS Data Feed - Routes", 
+  "schema": {
+    "columns": [
+      {
+        "name": "route_id", 
+        "type": "text"
+      }, 
+      {
+        "name": "route_short_name", 
+        "type": "real"
+      }, 
+      {
+        "name": "route_long_name", 
+        "type": "text"
+      }, 
+      {
+        "name": "route_description", 
+        "type": "text"
+      }, 
+      {
+        "name": "route_typee", 
+        "type": "real"
+      }, 
+      {
+        "name": "route_url", 
+        "type": "text"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.edmonton.ca", 
+  "tableName": "ets_bus_schedule_gtfs_data_feed_routes"
+}

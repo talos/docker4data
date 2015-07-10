@@ -1,0 +1,53 @@
+{
+  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/city_of_edmonton_financial_budget/data.json", 
+  "data": {
+    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/qycq-4ckj/rows.csv", 
+    "type": "csv"
+  }, 
+  "description": "High-level detail summary of the City of Edmonton's 2014 Financial Operating Budget by Department or Civic Agency. In addition, one can see Full Time equivalencies at - https://data.edmonton.ca/Financial/City-of-Edmonton-Financial-Budget-Full-Time-Equiva/eazf-zhey", 
+  "maintainer": {
+    "@id": "https://github.com/talos/docker4data"
+  }, 
+  "metadata": {
+    "category": "Financial", 
+    "description": "High-level detail summary of the City of Edmonton's 2014 Financial Operating Budget by Department or Civic Agency. In addition, one can see Full Time equivalencies at - https://data.edmonton.ca/Financial/City-of-Edmonton-Financial-Budget-Full-Time-Equiva/eazf-zhey", 
+    "socrata": {
+      "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/qycq-4ckj.json"
+    }
+  }, 
+  "name": "City of Edmonton - Financial Budget", 
+  "schema": {
+    "columns": [
+      {
+        "name": "year", 
+        "type": "real"
+      }, 
+      {
+        "name": "department_agencies", 
+        "type": "text"
+      }, 
+      {
+        "name": "branch", 
+        "type": "text"
+      }, 
+      {
+        "name": "status", 
+        "type": "text"
+      }, 
+      {
+        "name": "budget_category", 
+        "type": "text"
+      }, 
+      {
+        "name": "budget_sub_category", 
+        "type": "text"
+      }, 
+      {
+        "name": "dollar_amount", 
+        "type": "real"
+      }
+    ]
+  }, 
+  "schemaName": "socrata/data.edmonton.ca", 
+  "tableName": "city_of_edmonton_financial_budget"
+}

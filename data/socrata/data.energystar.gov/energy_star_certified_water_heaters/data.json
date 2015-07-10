@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_energystar_energy_star_certified_water_heaters/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.energystar.gov/api/views/3gp2-af4x/rows.csv"
+    "@id": "http://www.opendatacache.com/data.energystar.gov/api/views/3gp2-af4x/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Certified models meet all ENERGY STAR requirements as listed in the Version 3.0 ENERGY STAR Program Requirements for Water Heaters that are effective April 16, 2015. A detailed listing of key efficiency criteria are available at http://www.energystar.gov/index.cfm?c=water_heat.pr_crit_water_heaters", 
   "maintainer": {
@@ -199,5 +200,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_energystar_energy_star_certified_water_heaters"
+  "schemaName": "socrata/data.energystar.gov", 
+  "tableName": "energy_star_certified_water_heaters"
 }

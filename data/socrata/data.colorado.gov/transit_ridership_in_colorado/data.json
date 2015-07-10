@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_transit_ridership_in_colorado/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/j24f-h6ie/rows.csv"
+    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/j24f-h6ie/rows.csv", 
+    "type": "csv"
   }, 
   "description": "Passengers took almost 120 million trips in 2012 on Colorado\u2019s public transportation vehicles, which include buses, light rail and vehicles used by services that transport disabled people. A trip is counted each time a passenger boards a vehicle, no matter how many vehicles the passenger takes to reach a destination.", 
   "maintainer": {
@@ -36,5 +37,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_colorado_transit_ridership_in_colorado"
+  "schemaName": "socrata/data.colorado.gov", 
+  "tableName": "transit_ridership_in_colorado"
 }

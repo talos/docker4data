@@ -1,7 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cms_order_and_referring_pmd/data.json", 
   "data": {
-    "@id": "http://www.opendatacache.com/data.cms.gov/api/views/g6jg-y93m/rows.csv"
+    "@id": "http://www.opendatacache.com/data.cms.gov/api/views/g6jg-y93m/rows.csv", 
+    "type": "csv"
   }, 
   "description": "The file contain the National Provider Identifier (NPI) and legal name (last name, first name) of  those physicians and non-physician practitioners that are eligible to order and refer PMD and have a current enrollment record in Medicare.\r\n http://www.cms.gov/Outreach-and-Education/Medicare-Learning-Network-MLN/MLNMattersArticles/Downloads/MM8239.pdf", 
   "maintainer": {
@@ -32,5 +33,6 @@
       }
     ]
   }, 
-  "tableName": "socrata_cms_order_and_referring_pmd"
+  "schemaName": "socrata/data.cms.gov", 
+  "tableName": "order_and_referring_pmd"
 }
