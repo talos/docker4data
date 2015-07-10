@@ -91,13 +91,15 @@ def get_current_digest(metadata):
         LOGGER.warn('bad socrata metadata for %s', metadata)
 
     # Can't hash the entire thing because downloadCount changes!  For now
-    # just use rowsUpdatedAt
-    if 'rowsUpdatedAt' not in socrata_metadata:
+    # just use rowsUpdatedAt, or viewLastModified
+    last_modified = socrata_metadata.get(u'rowsUpdatedAt',
+                                         socrata_metadata.get(u'viewLastModified'))
+    if not last_modified:
         return ''
 
-    #LOGGER.info(metadata_content)
-    #LOGGER.info('metadata hexdigest: %s', hashlib.sha1(metadata_content).hexdigest())
-    return hashlib.sha1(unicode(socrata_metadata['rowsUpdatedAt'])).hexdigest()
+    current_digest = hashlib.sha1(unicode(last_modified)).hexdigest()
+    #LOGGER.info('metadata hexdigest: %s', current_digest)
+    return current_digest
 
 
 def get_old_digest(s3_bucket, name):
@@ -229,7 +231,6 @@ def build(url, s3_bucket, tmp_path): # pylint: disable=too-many-locals
     else:
         LOGGER.warn(u'Not yet able to deal with data type %s', data_type)
         sys.exit(1)
-
 
     sys.stdout.write(current_digest)
 
