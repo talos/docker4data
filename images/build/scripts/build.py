@@ -156,6 +156,23 @@ LOAD CSV FROM stdin
     shell(script)
 
 
+def ogr2ogr_import(schema_name, dataset_name, tmp_dir):
+    """
+    Use ogr2ogr to load a shapefile into the database.
+    """
+    path = shell(u'ls {}/*/*.shp'.format(tmp_dir))
+    name = u'.'.join(path.split(os.path.sep)[-1].split('.')[0:-1]).lower()
+    shell(u'gosu postgres ogr2ogr -nlt GEOMETRY -t_srs EPSG:4326 -overwrite '
+          u'-f "PostgreSQL" PG:dbname=postgres {path}'.format(path=path))
+    shell(u"gosu postgres psql -c 'CREATE SCHEMA IF NOT EXISTS \"{schema_name}\"'".format(
+        schema_name=schema_name))
+    shell(u"gosu postgres psql -c 'ALTER TABLE \"{name}\" SET SCHEMA \"{schema_name}\"'".format(
+        name=name, schema_name=schema_name))
+    shell(u"gosu postgres psql -c 'ALTER TABLE \"{schema_name}\".\"{name}\" "
+          u"RENAME TO \"{dataset_name}\"'".format(
+              schema_name=schema_name, name=name, dataset_name=dataset_name))
+
+
 def build(url, s3_bucket, tmp_path): # pylint: disable=too-many-locals
     """
     Main function.  Takes the URL of the data.json spec.
@@ -180,32 +197,39 @@ def build(url, s3_bucket, tmp_path): # pylint: disable=too-many-locals
         sys.exit(100)  # Error exit code to stop build.sh
 
     data_type = resp[u'data'][u'type']
-    if data_type != 'csv':
+    if data_type in (u'csv', u'shapefile'):
+        shell("gosu postgres psql -c 'DROP TABLE IF EXISTS \"{}\".\"{}\"'".format(
+            schema_name, dataset_name))
+
+        for before in resp.get(u'before', []):
+            run_remote_script(before, tmp_path, {'DATASET': 'data'})
+
+        data_path = wget_download(resp[u'data'][u'@id'], 'data', tmp_path)
+
+        if data_type == u'csv':
+            schema = resp[u'schema']
+            if 'postgres' in schema:
+                schema_path = wget_download(schema[u'postgres'][u'@id'], 'schema.sql', tmp_path)
+            else:
+                schema_path = os.path.join(tmp_path, 'schema.sql')
+                with open(schema_path, 'w') as schema_file:
+                    schema_file.write(generate_schema(tmpname, schema))
+
+            run_postgres_script(schema_path)
+
+            pgload_import(tmpname, schema_name, dataset_name, data_path,
+                          resp.get(u'load_format', {}), tmp_path)
+
+        elif data_type == u'shapefile':
+            shell(u'unzip {} -d {}'.format(data_path, tmp_path))
+            ogr2ogr_import(schema_name, dataset_name, tmp_path)
+
+        for after in resp.get(u'after', []):
+            run_remote_script(after, tmp_path, {'DATASET': 'data'})
+    else:
         LOGGER.warn(u'Not yet able to deal with data type %s', data_type)
         sys.exit(1)
 
-    schema = resp[u'schema']
-    if 'postgres' in schema:
-        schema_path = wget_download(schema[u'postgres'][u'@id'], 'schema.sql', tmp_path)
-    else:
-        schema_path = os.path.join(tmp_path, 'schema.sql')
-        with open(schema_path, 'w') as schema_file:
-            schema_file.write(generate_schema(tmpname, schema))
-    shell("gosu postgres psql -c 'DROP TABLE IF EXISTS \"{}\".\"{}\"'".format(
-        schema_name, dataset_name))
-
-    run_postgres_script(schema_path)
-
-    data_path = wget_download(resp[u'data'][u'@id'], 'data', tmp_path)
-
-    for before in resp.get(u'before', []):
-        run_remote_script(before, tmp_path, {'DATASET': 'data'})
-
-    pgload_import(tmpname, schema_name, dataset_name, data_path,
-                  resp.get(u'load_format', {}), tmp_path)
-
-    for after in resp.get(u'after', []):
-        run_remote_script(after, tmp_path, {'DATASET': 'data'})
 
     sys.stdout.write(current_digest)
 
