@@ -134,7 +134,12 @@ LOAD CSV FROM stdin
   INTO postgresql://postgres@localhost/postgres?tablename={tmpname}
   WITH skip header = 1,
        batch rows = 10000,
-       fields terminated by '{sep}'
+       fields terminated by '{sep}',
+       batch concurrency = 1,
+       batch rows = 1000,
+       batch size = 5MB
+  SET work_mem to '16MB',
+      maintenance_work_mem to '100MB'
   AFTER LOAD DO
        $$ CREATE SCHEMA IF NOT EXISTS "{schema_name}"; $$,
        $$ ALTER TABLE "{tmpname}"
@@ -163,9 +168,9 @@ def build(url, s3_bucket, tmp_path): # pylint: disable=too-many-locals
     resp = requests.get(url).json()
 
     dataset_name = resp[u'tableName']
-    schema_name = resp.get(u'schemaName', 'contrib')
+    schema_name = resp.get(u'schemaName', u'contrib')
     current_digest = get_current_digest(resp)
-    old_digest = get_old_digest(s3_bucket, dataset_name)
+    old_digest = get_old_digest(s3_bucket, u'/'.join([schema_name, dataset_name]))
     tmpname = u'tmp_{}'.format(tmp_path.split('.')[-1].lower())
 
     # Able to verify nothing has changed, abort.
@@ -174,8 +179,9 @@ def build(url, s3_bucket, tmp_path): # pylint: disable=too-many-locals
                     current_digest, old_digest, dataset_name)
         sys.exit(100)  # Error exit code to stop build.sh
 
-    if resp[u'data'][u'type'] != 'csv':
-        LOGGER.warn(u'Not yet able to deal with data type %s', resp[u'dataType'])
+    data_type = resp[u'data'][u'type']
+    if data_type != 'csv':
+        LOGGER.warn(u'Not yet able to deal with data type %s', data_type)
         sys.exit(1)
 
     schema = resp[u'schema']
@@ -185,7 +191,7 @@ def build(url, s3_bucket, tmp_path): # pylint: disable=too-many-locals
         schema_path = os.path.join(tmp_path, 'schema.sql')
         with open(schema_path, 'w') as schema_file:
             schema_file.write(generate_schema(tmpname, schema))
-    shell("gosu postgres psql -c 'DROP TABLE IF EXISTS \"{}\".{}'".format(
+    shell("gosu postgres psql -c 'DROP TABLE IF EXISTS \"{}\".\"{}\"'".format(
         schema_name, dataset_name))
 
     run_postgres_script(schema_path)
