@@ -77,8 +77,8 @@ def infer(metadata_url, output_root_dir):
         data_type = socrata_metadata['blobMimeType']
         data_url = metadata_url.replace('api/views', 'download') \
                                .replace('.json', data_type)
-    elif view_type == 'href':
-        pass
+    #elif view_type == 'href':
+    #    pass
     elif view_type == 'geo':
         data_type = 'shapefile'
         data_url = metadata_url.replace('api/views', 'api/geospatial') \
