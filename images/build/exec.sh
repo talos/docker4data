@@ -1,3 +1,5 @@
+#!/bin/bash -e
+
 if [[ -n "$@" ]]; then
   docker exec docker4data-build $@
 else
