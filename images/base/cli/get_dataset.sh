@@ -12,6 +12,20 @@ done
 echo 'Waiting for data to download.'
 wait
 
+for DATASET in ${DATASETS}; do
+  if [ -s /$DATASET/dump ]; then
+    DATASETS_TO_RESTORE="$DATASETS_TO_RESTORE $DATASET"
+  else
+    echo "There is no dataset '$DATASET', skipping"
+  fi
+done
+DATASETS=$DATASETS_TO_RESTORE
+
+if [ -z "$DATASETS" ]; then
+  echo "No valid datasets specified"
+  exit
+fi
+
 while : ; do
   gosu postgres psql -c '\q' > /dev/null 2>&1 && break || echo "Waiting for postgres to start up"
   sleep 0.2
@@ -19,6 +33,8 @@ done
 
 for DATASET in $DATASETS; do
   echo "Restoring $DATASET"
+  SCHEMA=$(dirname $DATASET)
+  gosu postgres psql -c "CREATE SCHEMA IF NOT EXISTS \"$SCHEMA\";"
   /usr/bin/time -o /${DATASET}.time gosu postgres pg_restore -v -d postgres /$DATASET/dump > /${DATASET}.log 2>&1 &
 done
 
@@ -32,7 +48,7 @@ while : ; do
       FINISHED="$FINISHED $DATASET"
     fi
   done
-  if [ " ${DATASETS}" == "${FINISHED}" ] ; then
+  if [ "${DATASETS}" == "${FINISHED}" ] ; then
     echo "Finished importing '${FINISHED}' datasets"
     break
   else
@@ -40,19 +56,19 @@ while : ; do
   fi
 done
 
-if [ $(which psql) ]; then
-  echo 'to drop in, enter
-
-     PGPASSWORD=docker4data psql -h $(boot2docker ip || echo localhost) -p 54321 -U postgres postgres
-
-  '
-else
+#if [ $(which psql) ]; then
+#  echo 'to drop in, enter
+#
+#     PGPASSWORD=docker4data psql -h $(boot2docker ip || echo localhost) -p 54321 -U postgres postgres
+#
+#  '
+#else
   echo "to drop in, enter
 
      docker exec -it docker4data gosu postgres psql
 
   "
-fi
+#fi
 
 #
 #docker exec -i docker4data /bin/bash
