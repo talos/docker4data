@@ -7,7 +7,7 @@ PROFILE_PATH=~/.bash_profile
 mkdir -p $INSTALL_PATH && curl -s $D4D_URL > $INSTALL_PATH/d4d && chmod a+x $INSTALL_PATH/d4d && echo '
 
 # Adds Docker4Data to PATH
-echo PATH='$INSTALL_PATH':$PATH' >> $PROFILE_PATH
+PATH='$INSTALL_PATH':$PATH' >> $PROFILE_PATH
 source $PROFILE_PATH
 
 echo "
