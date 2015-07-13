@@ -100,7 +100,8 @@ def infer(metadata_url, output_root_dir): #pylint: disable=too-many-branches,too
     tablename = socrata_metadata['name'].lower().replace(' ', '_')
     tablename = re.sub(r'[^0-9a-z]+', '_', tablename)
 
-    output_dir = os.path.join(output_root_dir, namespace, tablename)
+    # limit to 143 characters to support encryptfs
+    output_dir = os.path.join(output_root_dir, namespace, tablename[0:143])
     output_path = os.path.join(output_dir, 'data.json')
 
     if os.path.exists(output_path):
