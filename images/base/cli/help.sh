@@ -12,6 +12,7 @@ Basic docker4data commands:
   d4d install <DATASET_NAME>: Install the named dataset
   d4d ls: List all available datasets
   d4d psql: Launch into postgres
+  d4d shell: Drop into a bash prompt inside the container
 
 [todo]
 
