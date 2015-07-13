@@ -1,19 +1,29 @@
 #!/bin/bash
 
-for foldername in $( ls -d */* ); do
-  dupcount=$(ls -d ${foldername}* | wc -l)
-  if [ $dupcount -gt 1 ]; then
-     #echo ========= $dupcount $foldername ========
-     #ls -d ${foldername}*
-     #echo ========
-     #echo $foldername $dupcount
-     datasetnamelength=$(echo $foldername | cut -d '/' -f 2 | wc -c)
-     if [ $datasetnamelength -gt 61 ]; then
-       git rm -r $foldername
-     fi
-  fi
-done
 
+for fullpath in $( ls -d */* ); do
+  # EcryptFS compatibility
+  dirname=$(dirname $fullpath)
+  filename=$(basename $fullpath)
+  filename_length=$(echo $filename | wc -c)
+  if [ $filename_length -gt 143 ]; then
+    truncated_filename=$(echo $filename | head -c 143)
+    git mv $fullpath $dirname/$truncated_filename
+    echo $fullpath
+  fi
+  #dupcount=$(ls -d ${fullpath}* | wc -l)
+  #if [ $dupcount -gt 1 ]; then
+  #   #echo ========= $dupcount $fullpath ========
+  #   #ls -d ${fullpath}*
+  #   #echo ========
+  #   #echo $fullpath $dupcount
+  #   datasetnamelength=$(echo $fullpath | cut -d '/' -f 2 | wc -c)
+  #   if [ $datasetnamelength -gt 61 ]; then
+  #     git rm -r $fullpath
+  #   fi
+  #fi
+done
+#
 #for filename in $( ls . ); do
 #  portal=$(echo $filename | cut -d _ -f 2)
 #  dataset=$(echo $filename | cut -d _ -f 3-)
