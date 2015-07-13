@@ -1,4 +1,4 @@
-CREATE UNLOGGED TABLE "nyc_pluto" (
+CREATE TABLE "contrib"."us_ny_nyc_pluto" (
   "boroughtext" text,
   "block" integer,
   "lot" integer,
