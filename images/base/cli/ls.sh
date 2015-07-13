@@ -1,3 +1,3 @@
 #!/bin/bash -e
 
-ls /docker4data/data
+pushd /docker4data/data && ls -d */*/* && popd

@@ -4,6 +4,35 @@ DUMPS=http://data.docker4data.com.s3-website-us-east-1.amazonaws.com/sqldump
 
 DATASETS=$@
 
+# Update our local metadata
+echo "Updating metadata"
+pushd /docker4data >/dev/null && git pull origin master >/dev/null 2>&1 && popd >/dev/null
+
+# Make sure datasets actually exist
+for DATASET in ${DATASETS}; do
+  if [ -e /docker4data/$DATASET ]; then
+    DATASETS_TO_DOWNLOAD="$DATASETS_TO_DOWNLOAD $DATASET"
+  else
+    SIMILAR="$(/cli/find.sh $DATASET)"
+    SIMILAR_CNT=$(echo "$SIMILAR" | wc -l)
+    if [ $SIMILAR_CNT == "0" ]; then
+      echo 'There is no dataset "'$DATASET'", and nothing similar, skipping'
+    elif [ $SIMILAR_CNT == "1" ]; then
+      echo 'Substituting '\"$SIMILAR\"' for '\"$DATASET\"''
+      DATASETS_TO_DOWNLOAD="$DATASETS_TO_DOWNLOAD $SIMILAR"
+    else
+      echo 'There is no dataset "'$DATASET'", but '$SIMILAR_CNT' like it, skipping
+
+Could you have meant:
+
+'"$SIMILAR"
+    fi
+  fi
+done
+
+DATASETS=$DATASETS_TO_DOWNLOAD
+
+# Downloading datasets
 for DATASET in ${DATASETS}; do
   mkdir -p /$DATASET/
   wget -q -O /$DATASET/dump $DUMPS/$DATASET &
@@ -16,7 +45,7 @@ for DATASET in ${DATASETS}; do
   if [ -s /$DATASET/dump ]; then
     DATASETS_TO_RESTORE="$DATASETS_TO_RESTORE $DATASET"
   else
-    echo "There is no dataset '$DATASET', skipping"
+    echo 'Unable to get pg_dump for "'$DATASET'", skipping'
   fi
 done
 DATASETS=$DATASETS_TO_RESTORE
@@ -40,7 +69,6 @@ done
 
 echo "Waiting for dataset imports"
 while : ; do
-  sleep 2
   FINISHED=''
   for DATASET in $DATASETS; do
     TIME=$(cat /${DATASET}.time) || continue
@@ -52,8 +80,10 @@ while : ; do
     echo "Finished importing '${FINISHED}' datasets"
     break
   else
-    echo "Imported '${FINISHED}' datasets, waiting for more"
+    #echo "Imported '${FINISHED}' datasets, waiting for more"
+    echo -n '.'
   fi
+  sleep 1
 done
 
 #if [ $(which psql) ]; then
@@ -63,9 +93,9 @@ done
 #
 #  '
 #else
-  echo "to drop in, enter
+  echo "To drop in, enter
 
-     docker exec -it docker4data gosu postgres psql
+     d4d psql
 
   "
 #fi

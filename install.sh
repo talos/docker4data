@@ -15,5 +15,5 @@ Installed d4d at $INSTALL_PATH and added to PATH via $PROFILE_PATH.
 
 You can get started with
 
-   d4d -h
+   d4d help
 "
