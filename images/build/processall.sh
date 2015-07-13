@@ -7,11 +7,11 @@ echo "$@"
 for dir in "$@" ; do
   for name in $(find $dir -name data.json); do
     name=$(dirname $(echo $name | cut -d / -f 4-))
-    logdir=logs/$name
+    logname=logs/$name.log
     echo $name
     ./run.sh
-    mkdir -p $logdir
-    echo $(date) >> logs/$name.log
-    ./exec.sh scripts/process.sh $name | tee -a $logdir.log
+    mkdir -p $(dirname $logname)
+    echo $(date) >> $logname
+    ./exec.sh scripts/process.sh $name > >(tee -a $logname) 2> >(tee -a $logname >&2)
   done
 done
