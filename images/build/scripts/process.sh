@@ -1,8 +1,8 @@
 #!/bin/bash -e
 
 if [ ! $1 ]; then
-  echo 'Must specify name of data.json in github.com/talos/docker4data to build
-as first argument.
+  echo 'Must specify name of data.json in github.com/talos/docker4data to
+process as first argument.
 
     ./build.sh $PATH_IN_DATA_DIR
 
@@ -19,10 +19,10 @@ TMPDIR=$(mktemp -d /tmp/docker4data-build.XXXX)
 
 # Import the csv using the supplied schema
 data_json=https://raw.githubusercontent.com/talos/docker4data/master/data/$FULLNAME/data.json
-echo $data_json
+echo processing $data_json
 
 chown -R postgres:postgres $TMPDIR
-METADATA_DIGEST=$(python /scripts/build.py $data_json $S3_BUCKET/$SQLDUMP $TMPDIR)
+METADATA_DIGEST=$(python /scripts/process.py $data_json $S3_BUCKET/$SQLDUMP $TMPDIR)
 echo metadata digest: $METADATA_DIGEST
 
 DUMP=$TMPDIR/dump

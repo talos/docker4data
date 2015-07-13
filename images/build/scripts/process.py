@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 '''
-Build a docker4data container.
+Download data based off of a data.json.  Skips download if metadata matches.
 
     scripts/build.py <url> <s3bucket> <tmp path>
 '''
