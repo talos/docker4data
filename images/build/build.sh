@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build -t thegovlab/docker4data-build .
+docker build --no-cache -t thegovlab/docker4data-build .

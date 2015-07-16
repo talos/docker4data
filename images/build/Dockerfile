@@ -11,7 +11,7 @@ ENV LANGUAGE en_US.UTF8
 ENV PATH /usr/lib/postgresql/9.3/bin:$PATH
 
 RUN apt-get update --fix-missing
-RUN apt-get install -y freetds-dev wget openssl ca-certificates apt-transport-https python-pip gdal-bin curl make bzip2 subversion
+RUN apt-get install -y freetds-dev wget openssl ca-certificates apt-transport-https python-pip gdal-bin curl make bzip2 subversion libc6
 
 RUN echo "===> add user and group to make sure their IDs get assigned consistently" && \
   groupadd -r postgres && useradd -r -g postgres postgres && \
