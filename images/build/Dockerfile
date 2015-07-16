@@ -43,11 +43,12 @@ RUN echo "===> install postgres" && \
   rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 ADD install.lisp /tmp/install.lisp
-RUN echo "===> install CCL" && \
+RUN echo "===> download CCL" && \
   mkdir -p /tmp && cd /tmp && \
   svn co http://svn.clozure.com/publicsvn/openmcl/release/1.10/linuxx86/ccl && \
-  wget -q http://beta.quicklisp.org/quicklisp.lisp && \
-  sleep 3 && \
+  wget -q http://beta.quicklisp.org/quicklisp.lisp
+
+RUN echo "===> install CCL" && \
   /tmp/ccl/lx86cl64 -l /tmp/install.lisp && \
   ln -s /tmp/ccl/lx86cl64 /usr/bin/ccl && \
   cd /
