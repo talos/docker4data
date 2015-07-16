@@ -11,7 +11,7 @@ ENV LANGUAGE en_US.UTF8
 ENV PATH /usr/lib/postgresql/9.3/bin:$PATH
 
 RUN apt-get update --fix-missing
-RUN apt-get install -y freetds-dev wget openssl ca-certificates apt-transport-https python-pip gdal-bin
+RUN apt-get install -y freetds-dev wget openssl ca-certificates apt-transport-https python-pip gdal-bin curl make bzip2 subversion
 
 RUN echo "===> add user and group to make sure their IDs get assigned consistently" && \
   groupadd -r postgres && useradd -r -g postgres postgres && \
@@ -42,21 +42,37 @@ RUN echo "===> install postgres" && \
   apt-get clean && \
   rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
+ADD install.lisp /tmp/install.lisp
+RUN echo "===> install CCL" && \
+  mkdir -p /tmp && pushd /tmp && \
+  svn co http://svn.clozure.com/publicsvn/openmcl/release/1.10/linuxx86/ccl && \
+  wget http://beta.quicklisp.org/quicklisp.lisp && \
+  /tmp/ccl/lx86cl64 -l /tmp/install.lisp && \
+  ln -s /tmp/ccl/lx86cl64 /usr/bin/ccl && \
+  popd
+
 RUN echo "===> install pgloader" && \
-  echo "deb http://ftp.debian.org/debian sid main" | tee \
-    /etc/apt/sources.list.d/sid.list && \
-  apt-get update && \
-  apt-get install -y libc6 && \
-  \
-  \
-  echo "===> downloading pgloader" && \
-  wget -q "http://pgloader.io/files/pgloader_3.2.0+dfsg-1_amd64.deb" && \
-  dpkg -i "pgloader_3.2.0+dfsg-1_amd64.deb" && \
-  \
-  \
-  echo "===> clean up" && \
-  apt-get clean && \
-  rm -f /pgloader_3.2.0+dfsg-1_amd64.deb
+  git clone https://github.com/dimitri/pgloader.git && \
+  cd /pgloader && \
+  git checkout 388dc31cb73bd196043f06fd02b0650fab81158b && \
+  make CL=ccl pgloader && \
+  ln -s /pgloader/build/bin/pgloader /usr/bin/pgloader
+
+#RUN echo "===> install pgloader" && \
+#  echo "deb http://ftp.debian.org/debian sid main" | tee \
+#    /etc/apt/sources.list.d/sid.list && \
+#  apt-get update && \
+#  apt-get install -y libc6 && \
+#  \
+#  \
+#  echo "===> downloading pgloader" && \
+#  wget -q "http://pgloader.io/files/pgloader_3.2.0+dfsg-1_amd64.deb" && \
+#  dpkg -i "pgloader_3.2.0+dfsg-1_amd64.deb" && \
+#  \
+#  \
+#  echo "===> clean up" && \
+#  apt-get clean && \
+#  rm -f /pgloader_3.2.0+dfsg-1_amd64.deb
 
 RUN mkdir -p /var/run/postgresql && chown -R postgres /var/run/postgresql
 
