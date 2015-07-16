@@ -44,12 +44,12 @@ RUN echo "===> install postgres" && \
 
 ADD install.lisp /tmp/install.lisp
 RUN echo "===> install CCL" && \
-  mkdir -p /tmp && pushd /tmp && \
+  mkdir -p /tmp && cd /tmp && \
   svn co http://svn.clozure.com/publicsvn/openmcl/release/1.10/linuxx86/ccl && \
   wget http://beta.quicklisp.org/quicklisp.lisp && \
   /tmp/ccl/lx86cl64 -l /tmp/install.lisp && \
   ln -s /tmp/ccl/lx86cl64 /usr/bin/ccl && \
-  popd
+  cd /
 
 RUN echo "===> install pgloader" && \
   git clone https://github.com/dimitri/pgloader.git && \
