@@ -13,7 +13,7 @@ ENV PATH /usr/lib/postgresql/9.4/bin:$PATH
 RUN echo "deb http://ftp.debian.org/debian sid main" | tee \
     /etc/apt/sources.list.d/debian-sid.list
 RUN apt-get update --fix-missing
-RUN apt-get install -y freetds-dev wget openssl ca-certificates apt-transport-https python-pip gdal-bin curl make bzip2 subversion libc6
+RUN apt-get install -y freetds-dev wget openssl ca-certificates apt-transport-https python-pip gdal-bin curl make bzip2 subversion libc6 time unzip git-core
 
 RUN echo "===> add user and group to make sure their IDs get assigned consistently" && \
   groupadd -r postgres && useradd -r -g postgres postgres && \
@@ -91,8 +91,6 @@ RUN echo "===> install postgis" && \
     gosu postgres psql < /usr/share/postgresql/9.4/contrib/postgis-2.1/spatial_ref_sys.sql && \
     gosu postgres pg_ctl -D /data stop
 
-RUN apt-get update --fix-missing
-RUN apt-get install -yqq time unzip git-core
 RUN localedef -i en_US -c -f UTF-8 -A /usr/share/locale/locale.alias en_US.UTF-8
 RUN git clone https://github.com/talos/docker4data.git
 
