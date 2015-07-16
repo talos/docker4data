@@ -135,13 +135,9 @@ def pgload_import(tmpname, schema_name, dataset_name, data_path, load_format, tm
 LOAD CSV FROM stdin
   INTO postgresql://postgres@localhost/postgres?tablename={tmpname}
   WITH skip header = 1,
-       batch rows = 10000,
-       fields terminated by '{sep}',
-       batch concurrency = 1,
-       batch rows = 1000,
-       batch size = 5MB
-  SET work_mem to '16MB',
-      maintenance_work_mem to '100MB'
+       fields terminated by '{sep}'
+  SET work_mem to '64MB',
+      maintenance_work_mem to '128MB'
   AFTER LOAD DO
        $$ CREATE SCHEMA IF NOT EXISTS "{schema_name}"; $$,
        $$ ALTER TABLE "{tmpname}"
