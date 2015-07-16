@@ -10,7 +10,7 @@ ENV LC_ALL en_US.UTF8
 ENV LANGUAGE en_US.UTF8
 ENV PATH /usr/lib/postgresql/9.4/bin:$PATH
 
-echo "deb http://ftp.debian.org/debian sid main" | tee \
+RUN echo "deb http://ftp.debian.org/debian sid main" | tee \
     /etc/apt/sources.list.d/debian-sid.list
 RUN apt-get update --fix-missing
 RUN apt-get install -y freetds-dev wget openssl ca-certificates apt-transport-https python-pip gdal-bin curl make bzip2 subversion libc6
