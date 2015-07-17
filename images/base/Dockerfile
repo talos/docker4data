@@ -10,7 +10,7 @@ MAINTAINER John Krauss <irving.krauss@gmail.com>
 ENV LANG en_US.UTF8
 ENV LC_ALL en_US.UTF8
 ENV LANGUAGE en_US.UTF8
-ENV PATH /usr/lib/postgresql/9.3/bin:$PATH
+ENV PATH /usr/lib/postgresql/9.4/bin:$PATH
 ENV PASSWORD docker4data
 
 COPY scripts /scripts
@@ -20,7 +20,7 @@ COPY cli /cli
 
 RUN apt-get update --fix-missing
 RUN apt-get install -y freetds-dev wget openssl ca-certificates \
-  apt-transport-https git-core time
+  apt-transport-https git-core time pv
 
 RUN echo "===> add user and group to make sure their IDs get assigned consistently" && \
   groupadd -r postgres && useradd -r -g postgres postgres && \
@@ -44,7 +44,7 @@ RUN echo "===> install postgres" && \
   apt-get update && \
   apt-get install -y postgresql-common && \
   sed -ri 's/#(create_main_cluster) .*$/\1 = false/' /etc/postgresql-common/createcluster.conf && \
-  apt-get install -y postgresql-9.3-postgis-2.1 postgresql-contrib pgtune && \
+  apt-get install -y postgresql-9.4-postgis-2.1 postgresql-contrib pgtune && \
   \
   \
   echo "===> clean up" && \
@@ -57,8 +57,8 @@ RUN /scripts/createdb.sh
 
 RUN echo "===> install postgis" && \
     gosu postgres pg_ctl -D /data -w start && \
-    gosu postgres psql < /usr/share/postgresql/9.3/contrib/postgis-2.1/postgis.sql && \
-    gosu postgres psql < /usr/share/postgresql/9.3/contrib/postgis-2.1/spatial_ref_sys.sql && \
+    gosu postgres psql < /usr/share/postgresql/9.4/contrib/postgis-2.1/postgis.sql && \
+    gosu postgres psql < /usr/share/postgresql/9.4/contrib/postgis-2.1/spatial_ref_sys.sql && \
     gosu postgres pg_ctl -D /data stop
 
 #apt-get remove -y freetds-dev openssl ca-certificates \

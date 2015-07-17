@@ -1,12 +1,14 @@
-#!/bin/bash -e
+#!/bin/bash
+
+source /cli/_colors.sh
 
 DUMPS=http://data.docker4data.com.s3-website-us-east-1.amazonaws.com/sqldump
 
 DATASETS=$@
 
 # Update our local metadata
-echo "Updating metadata"
-pushd /docker4data >/dev/null && git pull origin master >/dev/null 2>&1 && popd >/dev/null
+info "Updating metadata"
+cd /docker4data && git pull origin master >/dev/null 2>&1 && cd /
 
 # Make sure datasets actually exist
 for DATASET in ${DATASETS}; do
@@ -15,13 +17,13 @@ for DATASET in ${DATASETS}; do
   else
     SIMILAR="$(/cli/find.sh $DATASET)"
     SIMILAR_CNT=$(echo "$SIMILAR" | wc -l)
-    if [ $SIMILAR_CNT == "0" ]; then
-      echo 'There is no dataset "'$DATASET'", and nothing similar, skipping'
+    if [ -z $SIMILAR ]; then
+      warn 'There is no dataset "'$DATASET'", and nothing similar, skipping'
     elif [ $SIMILAR_CNT == "1" ]; then
-      echo 'Substituting '\"$SIMILAR\"' for '\"$DATASET\"''
+      info 'Substituting '\"$SIMILAR\"' for '\"$DATASET\"''
       DATASETS_TO_DOWNLOAD="$DATASETS_TO_DOWNLOAD $SIMILAR"
     else
-      echo 'There is no dataset "'$DATASET'", but '$SIMILAR_CNT' like it, skipping
+      warn 'There is no dataset "'$DATASET'", but '$SIMILAR_CNT' like it, skipping
 
 Could you have meant:
 
@@ -32,75 +34,53 @@ done
 
 DATASETS=$DATASETS_TO_DOWNLOAD
 
-# Downloading datasets
-for DATASET in ${DATASETS}; do
-  mkdir -p /$DATASET/
-  wget -q -O /$DATASET/dump $DUMPS/$DATASET &
-done
-
-echo 'Waiting for data to download.'
-wait
-
-for DATASET in ${DATASETS}; do
-  if [ -s /$DATASET/dump ]; then
-    DATASETS_TO_RESTORE="$DATASETS_TO_RESTORE $DATASET"
-  else
-    echo 'Unable to get pg_dump for "'$DATASET'", skipping'
-  fi
-done
-DATASETS=$DATASETS_TO_RESTORE
-
-if [ -z "$DATASETS" ]; then
-  echo "No valid datasets specified"
-  exit
-fi
-
 while : ; do
-  gosu postgres psql -c '\q' > /dev/null 2>&1 && break || echo "Waiting for postgres to start up"
+  gosu postgres psql -c '\q' > /dev/null 2>&1 && break || info "Waiting for postgres to start up"
   sleep 0.2
 done
 
-for DATASET in $DATASETS; do
-  echo "Restoring $DATASET"
+NUM_DATASETS=$(echo "${DATASETS}" | tr -cd ' ' | wc -c)
+
+success "Installing ${NUM_DATASETS} datasets"
+
+# Downloading datasets
+for DATASET in ${DATASETS}; do
+  mkdir -p /$DATASET/
   SCHEMA=$(dirname $DATASET)
-  gosu postgres psql -c "CREATE SCHEMA IF NOT EXISTS \"$SCHEMA\";"
-  /usr/bin/time -o /${DATASET}.time gosu postgres pg_restore -v -d postgres /$DATASET/dump > /${DATASET}.log 2>&1 &
+  gosu postgres psql -c "CREATE SCHEMA IF NOT EXISTS \"$SCHEMA\";" >/dev/null 2>&1
+  gosu postgres psql -c "DROP TABLE IF EXISTS \"$SCHEMA\".\"$DATASET\";" >/dev/null 2>&1
+  wget --progress=bar:force -O - $DUMPS/$DATASET 2>/$DATASET/wget.log | \
+    gosu postgres pg_restore -d postgres > /$DATASET/out.log 2>/$DATASET/err.log &
 done
 
-echo "Waiting for dataset imports"
+# Progress view
+for DATASET in ${DATASETS}; do
+  echo ''
+done
 while : ; do
-  FINISHED=''
-  for DATASET in $DATASETS; do
-    TIME=$(cat /${DATASET}.time) || continue
-    if [ "$TIME" ] ; then
-      FINISHED="$FINISHED $DATASET"
-    fi
+  #echo -e "\033[${NUM_DATASETS}A"
+  echo -e "\033[$(($NUM_DATASETS + 1))A"
+  for DATASET in ${DATASETS}; do
+    echo -e "\033[K$(tail -n 3 $DATASET/wget.log | grep -m 1 '%') $DATASET"
   done
-  if [ "${DATASETS}" == "${FINISHED}" ] ; then
-    echo "Finished importing '${FINISHED}' datasets"
+
+  if [ -z "$(jobs)" ]; then
+    # one last update
+    #echo -e "\033[$(($NUM_DATASETS + 2))A"
+    for DATASET in ${DATASETS}; do
+      echo -e "\033[K$(tail -n 4 $DATASET/wget.log | grep -m 1 '%') $DATASET"
+    done
     break
   else
-    #echo "Imported '${FINISHED}' datasets, waiting for more"
-    echo -n '.'
+    jobs >/dev/null
+    sleep 1
   fi
-  sleep 1
 done
 
-#if [ $(which psql) ]; then
-#  echo 'to drop in, enter
-#
-#     PGPASSWORD=docker4data psql -h $(boot2docker ip || echo localhost) -p 54321 -U postgres postgres
-#
-#  '
-#else
-  echo "To drop in, enter
+echo "
 
-     d4d psql
+To drop in, enter
 
-  "
-#fi
+   d4d psql
 
-#
-#docker exec -i docker4data /bin/bash
-
-#docker rm -f docker4data
+"
