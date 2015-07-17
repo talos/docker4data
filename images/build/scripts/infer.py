@@ -12,6 +12,7 @@ import re
 import json
 import os
 import logging
+import time
 
 LOGGER = logging.getLogger(__name__)
 LOGGER.setLevel(logging.INFO)
@@ -65,13 +66,21 @@ def infer(metadata_url, output_root_dir): #pylint: disable=too-many-branches,too
 
     Infer docker4data metadata from a Socrata data.json
     '''
-    try:
-        socrata_metadata = requests.get(metadata_url, headers={
-            "APP_TOKEN": os.environ.get('APP_TOKEN')
-        }).json()
-    except ValueError:
-        LOGGER.warn(u'Could not extract valid JSON from %s', metadata_url)
-        return
+    wait_time = 1
+    while True:
+        try:
+            socrata_metadata = requests.get(metadata_url, headers={
+                "APP_TOKEN": os.environ.get('APP_TOKEN')
+            }).json()
+            break
+        except ValueError:
+            LOGGER.warn(u'Could not extract valid JSON from %s', metadata_url)
+            return
+        except requests.exceptions.ConnectionError as err:
+            LOGGER.warn(u'ConnectionError %s for %s, waiting %s secs',
+                        err, metadata_url, wait_time)
+            time.sleep(wait_time)
+            wait_time *= 2
 
     view_type = socrata_metadata.get('viewType')
     if view_type == 'tabular':
