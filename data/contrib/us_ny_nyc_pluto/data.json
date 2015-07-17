@@ -1,25 +1,9 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/contrib/us_ny_nyc_pluto/data.json",
-  "before": [{
-    "type": "bash",
-    "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/contrib/us_ny_nyc_pluto/concatenate.sh"
+  "data": "http://www.nyc.gov/html/dcp/download/bytes/nyc_pluto_14v1.zip",
+  "load": "pgloader",
+  "options" [{
+    "with": "fields terminated by '\t'"
   }],
-  "data": {
-    "@id": "http://www.nyc.gov/html/dcp/download/bytes/nyc_pluto_14v1.zip",
-    "type": "zip"
-  },
-  "load": {
-    "type": "tsv"
-  },
-  "after": [{
-    "type": "postgres",
-    "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/contrib/us_ny_nyc_pluto/index.sql"
-  }],
-  "schema": {
-    "postgres": {
-      "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/contrib/us_ny_nyc_pluto/schema.sql"
-    }
-  },
-  "schemaName": "contrib", 
-  "tableName": "us_ny_nyc_pluto"
+  "schema": "contrib",
+  "table": "us_ny_nyc_pluto"
 }
