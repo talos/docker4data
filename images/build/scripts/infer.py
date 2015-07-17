@@ -49,7 +49,7 @@ def generate_schema(columns):
         elif _type == 'calendar_date':
             _type = 'timestamp'
         elif _type == 'money':
-            _type = 'real'
+            _type = 'text'
         else:
             _type = 'text'
         result.append({
@@ -108,8 +108,6 @@ def infer(metadata_url, output_root_dir): #pylint: disable=too-many-branches,too
         d4d_metadata = json.load(open(output_path, 'r'))
     else:
         d4d_metadata = {
-            "@id": u"https://raw.githubusercontent.com/talos/docker4data/"
-                   u"master/data/{}/data.json".format(tablename),
             "maintainer": {
                 "@id": "https://github.com/talos/docker4data"
             },
@@ -121,6 +119,9 @@ def infer(metadata_url, output_root_dir): #pylint: disable=too-many-branches,too
             os.makedirs(output_dir)
         except OSError:
             pass
+
+    if '@id' in d4d_metadata:
+        del d4d_metadata['@id']
 
     d4d_metadata[u"name"] = socrata_metadata[u'name']
     d4d_metadata[u"tableName"] = tablename
