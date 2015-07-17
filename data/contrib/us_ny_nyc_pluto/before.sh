@@ -1,17 +1,17 @@
 #!/bin/bash
 
-unzip ${DATASET}
+unzip data
 
 ls *.csv | \
   tail -n 1 | \
   xargs head -n 1 | \
   sed -E 's/ +/ /g' \
-  > ${DATASET}.concatenated
+  > data.concatenated
 
 ls *.csv | \
   xargs tail -q -n +2 | \
   sed 's/[^[:print:]]//g' | \
   sed -E 's/ +/ /g' \
-  >> ${DATASET}.concatenated
+  >> data.concatenated
 
-mv ${DATASET}.concatenated ${DATASET}
+mv data.concatenated data
