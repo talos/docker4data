@@ -15,14 +15,16 @@ SQLDUMP=sqldump
 FULLNAME=$1
 
 PWD=$(pwd)
-TMPDIR=$(mktemp -d /tmp/docker4data-build.XXXX)
+#TMPDIR=$(mktemp -d /tmp/docker4data-build.XXXX)
+TMPDIR=/tmp/$FULLNAME
+rm -rf $TMPDIR
+mkdir -p $TMPDIR
 
 # Import the csv using the supplied schema
-data_json=https://raw.githubusercontent.com/talos/docker4data/master/data/$FULLNAME/data.json
-echo processing $data_json
+echo processing $FULLNAME
 
 chown -R postgres:postgres $TMPDIR
-METADATA_DIGEST=$(python /scripts/process.py $data_json $S3_BUCKET/$SQLDUMP $TMPDIR)
+METADATA_DIGEST=$(python /scripts/process.py /docker4data/data/$FULLNAME/data.json $S3_BUCKET/$SQLDUMP $TMPDIR)
 echo metadata digest: $METADATA_DIGEST
 
 DUMP=$TMPDIR/dump
@@ -56,5 +58,5 @@ else
     --body $DUMP
 fi
 
-echo removing data from $TMPDIR
-rm -rf $TMPDIR
+#echo removing data from $TMPDIR
+#rm -rf $TMPDIR
