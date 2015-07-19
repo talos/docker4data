@@ -1,5 +1,5 @@
 #
-# Experimental NYC ACRIS datafile for docker4data
+# Base Docker4Data image
 #
 # https://github.com/talos/docker4data
 #
