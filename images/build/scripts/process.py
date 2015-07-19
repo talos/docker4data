@@ -206,7 +206,7 @@ def build(metadata_path, s3_bucket, tmp_path):
         shell(u"gosu postgres psql -c 'ALTER TABLE \"{table}\" SET SCHEMA \"{schema}\"'".format(
             table=dataset_name, schema=schema_name))
 
-    elif u'ogr2ogr' in metadata:
+    elif load_type == 'ogr2ogr':
         shell(u'unzip {} -d {}'.format(data_path, tmp_path))
         ogr2ogr_import(metadata, tmp_path)
 

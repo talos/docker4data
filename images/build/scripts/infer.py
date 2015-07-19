@@ -60,7 +60,7 @@ def generate_schema(columns):
     return result
 
 
-def infer(metadata_url, output_root_dir): #pylint: disable=too-many-branches,too-many-statements
+def infer(metadata_url, output_root_dir): #pylint: disable=too-many-branches,too-many-statements,too-many-locals
     '''
     Main function.  Takes the URL of some Socrata metadata.
 
@@ -87,15 +87,16 @@ def infer(metadata_url, output_root_dir): #pylint: disable=too-many-branches,too
         data_type = 'csv'
         data_url = metadata_url.replace('.json', '/rows.csv')
     elif view_type == 'blobby':
-        data_type = socrata_metadata['blobMimeType']
+        data_type = socrata_metadata['blobMimeType'].split(';')[0]
         data_url = metadata_url.replace('api/views', 'download') \
-                               .replace('.json', data_type)
+                               .replace('.json', '/' + data_type)
     elif view_type == 'geo':
         data_type = 'shapefile'
         data_url = metadata_url.replace('api/views', 'api/geospatial') \
                                .replace('.json', '')
-    #elif view_type == 'href':
-    #    pass
+    elif view_type == 'href':
+        data_type = 'href'
+        data_url = socrata_metadata['metadata']['accessPoints'].items()[0][1]
     else:
         LOGGER.warn(u'Cannot infer table from %s, `viewType` "%s" not recognized',
                     socrata_metadata, view_type)
@@ -112,6 +113,7 @@ def infer(metadata_url, output_root_dir): #pylint: disable=too-many-branches,too
     # limit to 143 characters to support encryptfs
     output_dir = os.path.join(output_root_dir, namespace, tablename[0:143])
     output_path = os.path.join(output_dir, 'data.json')
+    schema_path = os.path.join(output_dir, 'schema.sql')
 
     if os.path.exists(output_path):
         d4d_metadata = json.load(open(output_path, 'r'))
@@ -120,8 +122,6 @@ def infer(metadata_url, output_root_dir): #pylint: disable=too-many-branches,too
             "maintainer": {
                 "@id": "https://github.com/talos/docker4data"
             },
-            "data": {},
-            "schema": {},
             "metadata": {}
         }
         try:
@@ -129,21 +129,41 @@ def infer(metadata_url, output_root_dir): #pylint: disable=too-many-branches,too
         except OSError:
             pass
 
-    if '@id' in d4d_metadata:
-        del d4d_metadata['@id']
-
     d4d_metadata[u"name"] = socrata_metadata[u'name']
-    d4d_metadata[u"tableName"] = tablename
-    d4d_metadata[u"schemaName"] = namespace
+    d4d_metadata[u"table"] = tablename
+    d4d_metadata[u"schema"] = namespace
 
-    d4d_metadata[u"data"][u"@id"] = data_url
-    d4d_metadata[u"data"][u"type"] = data_type
+    if data_type == u"href":
+        if data_url.endswith(".xml"):
+            data_type = u"application/xml"
+        elif data_url.endswith(".pdf"):
+            data_type = u"application/pdf"
+        elif data_url.endswith(".xls") or data_url.endswith(".xlsx"):
+            data_type = u"vnd.ms-excel"
+        else:
+            pass
+
+    d4d_metadata[u"data"] = data_url
+    if data_type == u"csv":
+        pass
+    elif data_type == u"shapefile":
+        d4d_metadata[u"load"] = u"pgloader"
+    elif data_type == u"application/pdf":
+        d4d_metadata[u"load"] = u"pdftotext"
+    elif data_type == u"vnd.ms-excel":
+        d4d_metadata[u"load"] = u"TODO: excel"
+    elif data_type == u"application/xml":
+        d4d_metadata[u"load"] = u"TODO: xml"
+    else:
+        d4d_metadata[u"load"] = u"TODO: {}".format(data_type)
 
     if u'description' not in d4d_metadata and u'description' in socrata_metadata:
         d4d_metadata[u'description'] = socrata_metadata[u'description']
 
-    if view_type == 'tabular':
-        d4d_metadata[u"schema"][u"columns"] = generate_schema(socrata_metadata[u'columns'])
+    if data_type == 'csv':
+        schema = generate_schema(socrata_metadata[u'columns'])
+    else:
+        schema = None
 
     if u'metadata' not in d4d_metadata:
         d4d_metadata[u"metadata"] = {}
@@ -159,6 +179,10 @@ def infer(metadata_url, output_root_dir): #pylint: disable=too-many-branches,too
 
     with open(output_path, 'w') as output_file:
         json.dump(d4d_metadata, output_file, indent=2, sort_keys=True)
+
+    if schema is not None:
+        with open(schema_path, 'w') as schema_file:
+            schema_file.write(schema)
 
     LOGGER.info(u'Inferred "%s" from "%s"', output_path, metadata_url)
 
