@@ -217,7 +217,7 @@ def build(metadata_path, s3_bucket, tmp_path):
         shell(u'unzip {} -d {}'.format(data_path, tmp_path))
         ogr2ogr_import(metadata, tmp_path)
 
-    run_script(os.path.join(metadata_folder, 'index.sql'), tmp_path)
+    run_script(os.path.join(metadata_folder, 'after.sql'), tmp_path)
 
     sys.stdout.write(current_digest)
 
