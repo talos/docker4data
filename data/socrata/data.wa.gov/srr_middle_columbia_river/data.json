@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/srr_middle_columbia_river/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/geospatial/53bn-cucs", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.wa.gov/api/geospatial/53bn-cucs", 
   "description": "Middle COlumbia salmon recovery region boundaries", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,7 +13,7 @@
     }
   }, 
   "name": "SRR - MIddle Columbia River", 
-  "schema": {}, 
-  "schemaName": "socrata/data.wa.gov", 
-  "tableName": "srr_middle_columbia_river"
+  "schema": "socrata/data.wa.gov", 
+  "status": "needs review", 
+  "table": "srr_middle_columbia_river"
 }

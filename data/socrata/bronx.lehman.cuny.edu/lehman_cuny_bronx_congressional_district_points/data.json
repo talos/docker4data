@@ -1,8 +1,6 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_bronx_lehman_cuny_bronx_congressional_district_points/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/ftz5-8vky/rows.csv"
-  }, 
+  "data": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/ftz5-8vky/rows.csv", 
   "description": "Central points of each congressional district in the Bronx including representative and website information.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,29 +14,5 @@
     }
   }, 
   "name": "Bronx Congressional District Points", 
-  "schema": {
-    "columns": [
-      {
-        "name": "congressional_district", 
-        "type": "text"
-      }, 
-      {
-        "name": "congressman", 
-        "type": "text"
-      }, 
-      {
-        "name": "website", 
-        "type": "text"
-      }, 
-      {
-        "name": "point_x", 
-        "type": "text"
-      }, 
-      {
-        "name": "point_y", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "tableName": "socrata_bronx_lehman_cuny_bronx_congressional_district_points"
+  "table": "socrata_bronx_lehman_cuny_bronx_congressional_district_points"
 }

@@ -1,0 +1,21 @@
+CREATE TABLE "economic_indicators" (
+	"year"	real,
+	"month"	real,
+	"logan_passengers"	real,
+	"logan_intl_flights"	real,
+	"hotel_occup_rate"	real,
+	"hotel_avg_daily_rate"	real,
+	"total_jobs"	real,
+	"unemp_rate"	real,
+	"labor_force_part_rate"	real,
+	"pipeline_unit"	real,
+	"pipeline_total_dev_cost"	real,
+	"pipeline_sqft"	real,
+	"pipeline_const_jobs"	real,
+	"foreclosure_pet"	real,
+	"foreclosure_deeds"	real,
+	"med_housing_price"	real,
+	"housing_sales_vol"	real,
+	"new_housing_const_permits"	real,
+	"new_affordable_housing_permits"	real
+);

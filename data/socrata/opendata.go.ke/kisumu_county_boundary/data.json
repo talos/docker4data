@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/kisumu_county_boundary/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/opendata.go.ke/api/geospatial/xz33-vdcp", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/opendata.go.ke/api/geospatial/xz33-vdcp", 
   "description": "Proposed Kisumu County Boundary", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Kisumu County Boundary", 
-  "schema": {}, 
-  "schemaName": "socrata/opendata.go.ke", 
-  "tableName": "kisumu_county_boundary"
+  "schema": "socrata/opendata.go.ke", 
+  "status": "needs review", 
+  "table": "kisumu_county_boundary"
 }

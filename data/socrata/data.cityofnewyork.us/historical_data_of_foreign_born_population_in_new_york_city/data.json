@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/historical_data_of_foreign_born_population_in_new_york_city/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/8qru-nyj8/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/8qru-nyj8/rows.csv", 
   "description": "Details of foreign-born population versus total population in New York City since 1820", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "Historical Data Of Foreign-Born Population in New York City", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "text"
-      }, 
-      {
-        "name": "total_population", 
-        "type": "real"
-      }, 
-      {
-        "name": "foreign_born_population", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "historical_data_of_foreign_born_population_in_new_york_city"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "historical_data_of_foreign_born_population_in_new_york_city"
 }

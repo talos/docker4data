@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/new_orleans_fire_department_districts/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.nola.gov/api/geospatial/k4eq-x4cs", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.nola.gov/api/geospatial/k4eq-x4cs", 
   "description": "New Orleans Fire Department Districts", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,7 +13,7 @@
     }
   }, 
   "name": "New Orleans Fire Department Districts", 
-  "schema": {}, 
-  "schemaName": "socrata/data.nola.gov", 
-  "tableName": "new_orleans_fire_department_districts"
+  "schema": "socrata/data.nola.gov", 
+  "status": "needs review", 
+  "table": "new_orleans_fire_department_districts"
 }

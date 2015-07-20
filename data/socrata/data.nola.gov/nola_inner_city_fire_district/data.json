@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nola_inner_city_fire_district/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.nola.gov/api/geospatial/tf5z-dhbr", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.nola.gov/api/geospatial/tf5z-dhbr", 
   "description": "The area included within the following described boundaries is hereby designated \"Fire District\". Commencing at the center line of John Churchill Chase Street at the Mississippi River, thence along the center line of John Churchill Chase Street to the center line of Camp Street, thence along the center line of Calliope Street to the center line of St. Charles Avenue, thence alone the center line of St. Charles Avenue to the intersection of Howard Avenue, thence along the center line of Howard Avenue to the center line of Claiborne Avenue, thence along the center line of Claiborne Avenue to the center line of St. Peter Street, thence along the center line of St Peter Street to the Mississippi River, thence along the Mississippi River to the point of commencement.\r\n\r\nBasis: Code of the City of New Orleans, Louisiana; Part II - Code, Chapter 26, Article I, Sec D101", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "NOLA Inner City Fire District", 
-  "schema": {}, 
-  "schemaName": "socrata/data.nola.gov", 
-  "tableName": "nola_inner_city_fire_district"
+  "schema": "socrata/data.nola.gov", 
+  "status": "needs review", 
+  "table": "nola_inner_city_fire_district"
 }

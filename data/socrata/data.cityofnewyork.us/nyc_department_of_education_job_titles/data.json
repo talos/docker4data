@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_nyc_department_of_education_job_titles/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/s7yj-m732/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/s7yj-m732/rows.csv", 
   "description": "List of civil service titles used by the Department of Education", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,70 +13,7 @@
     }
   }, 
   "name": "NYC Department of Education Job Titles", 
-  "schema": {
-    "columns": [
-      {
-        "name": "title", 
-        "type": "real"
-      }, 
-      {
-        "name": "descr", 
-        "type": "text"
-      }, 
-      {
-        "name": "sfx", 
-        "type": "real"
-      }, 
-      {
-        "name": "sffx_descr", 
-        "type": "text"
-      }, 
-      {
-        "name": "std_hrs", 
-        "type": "real"
-      }, 
-      {
-        "name": "asg_lvl", 
-        "type": "real"
-      }, 
-      {
-        "name": "jobcd", 
-        "type": "real"
-      }, 
-      {
-        "name": "union_cd", 
-        "type": "real"
-      }, 
-      {
-        "name": "union_descr", 
-        "type": "text"
-      }, 
-      {
-        "name": "barg_unit", 
-        "type": "text"
-      }, 
-      {
-        "name": "barg_unit_descr", 
-        "type": "text"
-      }, 
-      {
-        "name": "aprl_bank", 
-        "type": "text"
-      }, 
-      {
-        "name": "aprl_lvl", 
-        "type": "text"
-      }, 
-      {
-        "name": "min_rate", 
-        "type": "real"
-      }, 
-      {
-        "name": "max_rate", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "nyc_department_of_education_job_titles"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "nyc_department_of_education_job_titles"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_libraries_2015_wi_fi_usage/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/gs6y-r8xi/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/gs6y-r8xi/rows.csv", 
   "description": "The Chicago Public Library offers free WiFi at all locations.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,26 +11,7 @@
     }
   }, 
   "name": "Libraries - 2015 Wi Fi Usage", 
-  "schema": {
-    "columns": [
-      {
-        "name": "month", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "text"
-      }, 
-      {
-        "name": "number_of_sessions", 
-        "type": "real"
-      }, 
-      {
-        "name": "ytd", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "libraries_2015_wi_fi_usage"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "libraries_2015_wi_fi_usage"
 }

@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/flum_combined/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/geospatial/kj68-c8mg", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/geospatial/kj68-c8mg", 
   "description": "This data is only the GIS layer, and is not the official Future Land Use Map (FLUM). Official FLUM's may contain additional information that was adopted by City Council. Each FLUM and their associated Neighborhood Plan can be viewed by starting at http://www.ci.austin.tx.us/planning/neighborhood/planning_areas.htm. During the Neighborhood Planning Process, neighbors and staff develop a Future Land Use Map (FLUM) that is a graphical representation of recommendations for future growth patterns in an area. It depicts where different types of development should occur. The Hyde Park and Old West Austin Neighborhood Planning Areas do not have a City Council Approved Future Land Use Map. They are shown here for planning purposes only. ftp://ftp.ci.austin.tx.us/npzd/website/Planning_Zoning/land_use_policy_guide.pdf contains more information on the land use codes used in the FLUM's.\r\nThis product is for informational purposes and may not have been prepared for or be suitable for legal, engineering, or surveying purposes. It does not represent an on-the-ground survey and represents only the approximate relative location of property boundaries. This product has been produced by the Planning and Zoning Department for the sole purpose of geographic reference. No warranty is made by the City of Austin regarding specific accuracy or completeness.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,9 +14,7 @@
     }
   }, 
   "name": "Flum Combined", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "flum_combined"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "flum_combined"
 }

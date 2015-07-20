@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_dcla_programs_funding_for_fy2010/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/j8p3-8ufc/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/j8p3-8ufc/rows.csv", 
   "description": "Department of Cultural Affairs (DCLA)\r\nThis data set is the Programs funding award amount for FY10.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "DCLA: Programs Funding for FY2010", 
-  "schema": {
-    "columns": [
-      {
-        "name": "application_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "orgname", 
-        "type": "text"
-      }, 
-      {
-        "name": "fy10_programs_", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "dcla_programs_funding_for_fy2010"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "dcla_programs_funding_for_fy2010"
 }

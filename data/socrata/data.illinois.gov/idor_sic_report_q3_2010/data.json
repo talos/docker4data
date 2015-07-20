@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_idor_sic_report_q3_2010/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/uwtt-n6qv/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/uwtt-n6qv/rows.csv", 
   "description": "The SIC report is compiled to provide detail information regarding the types of business collecting the various taxes connected to the retailing of tangible personal property. This report shows the amount of each tax type, by a category grouping and totals for each incorporated municipality and the unincorporated areas of each county.   Information is for liability periods July 2010 thru September 2010 which were collected in August 2010 thru October 2010.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,78 +13,7 @@
     }
   }, 
   "name": "IDOR SIC Report Q3 2010", 
-  "schema": {
-    "columns": [
-      {
-        "name": "ending_liability_period", 
-        "type": "text"
-      }, 
-      {
-        "name": "run_type_indicator", 
-        "type": "text"
-      }, 
-      {
-        "name": "local_government_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "multi_county_indicator", 
-        "type": "text"
-      }, 
-      {
-        "name": "tax_type_indicator", 
-        "type": "text"
-      }, 
-      {
-        "name": "number_of_taxpayers", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_tax_receipts", 
-        "type": "real"
-      }, 
-      {
-        "name": "general_merchandise_category", 
-        "type": "real"
-      }, 
-      {
-        "name": "food_category", 
-        "type": "real"
-      }, 
-      {
-        "name": "drinking_eating_places_category", 
-        "type": "real"
-      }, 
-      {
-        "name": "apparel_category", 
-        "type": "real"
-      }, 
-      {
-        "name": "funiture_h_h_radio_category", 
-        "type": "real"
-      }, 
-      {
-        "name": "lumber_building_hardware_category", 
-        "type": "real"
-      }, 
-      {
-        "name": "automative_filling_stations_category", 
-        "type": "real"
-      }, 
-      {
-        "name": "drugs_misc_retail_category", 
-        "type": "real"
-      }, 
-      {
-        "name": "agriculture_all_others_category", 
-        "type": "real"
-      }, 
-      {
-        "name": "manufacturers_category", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "idor_sic_report_q3_2010"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "idor_sic_report_q3_2010"
 }

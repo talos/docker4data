@@ -1,0 +1,22 @@
+CREATE TABLE "salary_information_for_local_development_corporations" (
+	"authority_name"	text,
+	"fiscal_year_end_date"	timestamp,
+	"has_employees"	text,
+	"last_name"	text,
+	"middle_initial"	text,
+	"first_name"	text,
+	"title"	text,
+	"group"	text,
+	"department"	text,
+	"pay_type"	text,
+	"exempt_indicator"	text,
+	"base_annualized_salary"	text,
+	"actual_salary_paid"	text,
+	"overtime_paid"	text,
+	"performance_bonus"	text,
+	"extra_pay"	text,
+	"other_compensation"	text,
+	"total_compensation"	text,
+	"paid_by_another_entity"	text,
+	"paid_by_state_or_local_government"	text
+);

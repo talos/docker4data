@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_acgov_assessor_s_office_parcel_locations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.acgov.org/api/views/9cwz-4fci/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.acgov.org/api/views/9cwz-4fci/rows.csv", 
   "description": "Latitude - Longitude locations of all the parcels in Alameda County as of 3/1/2015.  Use Sort Parcel as your key field to merge with other Assessor data.  Standard used is State Plane Coordinate System.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "Assessor's Office Parcel Locations", 
-  "schema": {
-    "columns": [
-      {
-        "name": "sort_parcel", 
-        "type": "text"
-      }, 
-      {
-        "name": "print_parcel", 
-        "type": "text"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "text"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.acgov.org", 
-  "tableName": "assessor_s_office_parcel_locations"
+  "schema": "socrata/data.acgov.org", 
+  "status": "needs review", 
+  "table": "assessor_s_office_parcel_locations"
 }

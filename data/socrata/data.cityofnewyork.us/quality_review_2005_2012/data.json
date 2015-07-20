@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_quality_review_2005_2012/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/piri-jns7/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/piri-jns7/rows.csv", 
   "description": "The Quality Review is a two- or three-day school visit by experienced educators to each New York City school. During the review, the external evaluator visits classrooms, talks with school leaders, and uses a rubric to evaluate how well the school is organized to support student achievement. This dataset includes all of the Quality Review scores from 2005-2011.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "Quality Review 2005-2012", 
-  "schema": {
-    "columns": [
-      {
-        "name": "dbn", 
-        "type": "text"
-      }, 
-      {
-        "name": "school_year", 
-        "type": "text"
-      }, 
-      {
-        "name": "overall_rating", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "quality_review_2005_2012"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "quality_review_2005_2012"
 }

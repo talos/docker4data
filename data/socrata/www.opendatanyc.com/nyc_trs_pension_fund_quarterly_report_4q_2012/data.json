@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nyc_trs_pension_fund_quarterly_report_4q_2012/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/www.opendatanyc.com/download/hmgb-p4ecapplication/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/www.opendatanyc.com/download/hmgb-p4ec/application/pdf", 
   "description": "Performance as of 4Q 2012", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,7 +13,7 @@
     }
   }, 
   "name": "NYC TRS Pension Fund Quarterly Report 4Q 2012", 
-  "schema": {}, 
-  "schemaName": "socrata/www.opendatanyc.com", 
-  "tableName": "nyc_trs_pension_fund_quarterly_report_4q_2012"
+  "schema": "socrata/www.opendatanyc.com", 
+  "status": "needs review", 
+  "table": "nyc_trs_pension_fund_quarterly_report_4q_2012"
 }

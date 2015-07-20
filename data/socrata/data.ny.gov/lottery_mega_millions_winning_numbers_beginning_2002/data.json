@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/lottery_mega_millions_winning_numbers_beginning_2002/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/5xaw-6ayf/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/5xaw-6ayf/rows.csv", 
   "description": "Go to http://on.ny.gov/1J8tPSN on the New York Lottery website for past Mega Millions results and payouts.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "Lottery Mega Millions Winning Numbers: Beginning 2002", 
-  "schema": {
-    "columns": [
-      {
-        "name": "draw_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "winning_numbers", 
-        "type": "text"
-      }, 
-      {
-        "name": "mega_ball", 
-        "type": "text"
-      }, 
-      {
-        "name": "multiplier", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "lottery_mega_millions_winning_numbers_beginning_2002"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "lottery_mega_millions_winning_numbers_beginning_2002"
 }

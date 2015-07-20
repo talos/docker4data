@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/act_reserves/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/www.data.act.gov.au/api/geospatial/fwta-dhe3", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/www.data.act.gov.au/api/geospatial/fwta-dhe3", 
   "description": "A list of reserves and open spaces in the ACT.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "ACT Reserves", 
-  "schema": {}, 
-  "schemaName": "socrata/www.data.act.gov.au", 
-  "tableName": "act_reserves"
+  "schema": "socrata/www.data.act.gov.au", 
+  "status": "needs review", 
+  "table": "act_reserves"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_active_space_requests/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/ur4h-9t5c/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/ur4h-9t5c/rows.csv", 
   "description": "Current active space requests.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,46 +11,7 @@
     }
   }, 
   "name": "Active Space Requests", 
-  "schema": {
-    "columns": [
-      {
-        "name": "agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "contact_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "email", 
-        "type": "text"
-      }, 
-      {
-        "name": "received", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "new_add", 
-        "type": "text"
-      }, 
-      {
-        "name": "type", 
-        "type": "text"
-      }, 
-      {
-        "name": "sqft_authorized", 
-        "type": "real"
-      }, 
-      {
-        "name": "status", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "active_space_requests"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "active_space_requests"
 }

@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ward_precincts/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/download/sgsc-bb4napplication/zip; charset=binary", 
-    "type": "application/zip; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/download/sgsc-bb4n/application/zip", 
   "description": "Ward precincts, which function as local election districts, in Chicago. To view or use these files, compression software and special GIS software, such as ESRI ArcGIS, is required. To download, right-click the \"Download\" link above and choose \"Save link as.\"", 
+  "load": "TODO: zip", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Ward Precincts", 
-  "schema": {}, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "ward_precincts"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "ward_precincts"
 }

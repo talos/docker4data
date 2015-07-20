@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_dpd_eca_flood/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/mtus-f3kr/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/mtus-f3kr/rows.csv", 
   "description": "Critical area designation: flood / flood prone areas", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "DPD.ECA_FLOOD", 
-  "schema": {
-    "columns": [
-      {
-        "name": "objectid", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape", 
-        "type": "text"
-      }, 
-      {
-        "name": "donut", 
-        "type": "real"
-      }, 
-      {
-        "name": "flood", 
-        "type": "text"
-      }, 
-      {
-        "name": "area", 
-        "type": "real"
-      }, 
-      {
-        "name": "len", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape_length", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape_area", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "dpd_eca_flood"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "dpd_eca_flood"
 }

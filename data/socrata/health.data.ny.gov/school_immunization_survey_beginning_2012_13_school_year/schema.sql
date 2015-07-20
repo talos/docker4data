@@ -1,0 +1,23 @@
+CREATE TABLE "school_immunization_survey_beginning_2012_13_school_year" (
+	"schoolid"	text,
+	"district_name"	text,
+	"report_period"	text,
+	"type"	text,
+	"schoolname"	text,
+	"percentmedicalexemptions"	real,
+	"percentreligiousexemptions"	real,
+	"percentimmunizedpolio"	text,
+	"percentimmunizedmeasles"	text,
+	"percentimmunizedmumps"	text,
+	"percentimmunizedrubella"	text,
+	"percentimmunizeddiphtheria"	text,
+	"percentimmunizedhepatitisb"	text,
+	"percentimmunizedvaricella"	text,
+	"percentcompletelyimmunized"	text,
+	"street"	text,
+	"city"	text,
+	"county"	text,
+	"state"	text,
+	"zip"	text,
+	"location"	text
+);

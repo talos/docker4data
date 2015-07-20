@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/proportion_of_restaurant_inspections_with_red_violations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/2qw6-nhv6/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.kingcounty.gov/api/views/2qw6-nhv6/rows.csv", 
   "description": "Five-year listing of data. Data source: https://data.kingcounty.gov/Government/Food-Establishment-Inspection-Data/f29f-zza5", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,18 +13,7 @@
     }
   }, 
   "name": "Proportion of restaurant inspections with red violations", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "violations", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.kingcounty.gov", 
-  "tableName": "proportion_of_restaurant_inspections_with_red_violations"
+  "schema": "socrata/data.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "proportion_of_restaurant_inspections_with_red_violations"
 }

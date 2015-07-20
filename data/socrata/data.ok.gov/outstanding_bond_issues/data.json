@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_outstanding_bond_issues/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/we3k-dmvu/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/we3k-dmvu/rows.csv", 
   "description": "as of June 30, 2012", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,34 +12,7 @@
     }
   }, 
   "name": "Outstanding Bond Issues", 
-  "schema": {
-    "columns": [
-      {
-        "name": "series", 
-        "type": "text"
-      }, 
-      {
-        "name": "original_par_value", 
-        "type": "real"
-      }, 
-      {
-        "name": "outstanding_value", 
-        "type": "real"
-      }, 
-      {
-        "name": "issue_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "maturity", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "yield_range", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "outstanding_bond_issues"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "outstanding_bond_issues"
 }

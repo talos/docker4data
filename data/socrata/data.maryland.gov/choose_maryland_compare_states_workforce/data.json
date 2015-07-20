@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_choose_maryland_compare_states_workforce/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/5esm-neyf/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/5esm-neyf/rows.csv", 
   "description": "Workforce summary - employed, unemployed, and participation rates.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "Choose Maryland:  Compare States - Workforce", 
-  "schema": {
-    "columns": [
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "civilian_laborforce", 
-        "type": "real"
-      }, 
-      {
-        "name": "employment", 
-        "type": "real"
-      }, 
-      {
-        "name": "unemployment", 
-        "type": "real"
-      }, 
-      {
-        "name": "unemployment_rate", 
-        "type": "text"
-      }, 
-      {
-        "name": "laborforce_rate_total", 
-        "type": "text"
-      }, 
-      {
-        "name": "laborforce_rate_male", 
-        "type": "text"
-      }, 
-      {
-        "name": "laborforce_rate_female", 
-        "type": "text"
-      }, 
-      {
-        "name": "professional_technical_workers", 
-        "type": "text"
-      }, 
-      {
-        "name": "scientists_engineers_per100k", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "choose_maryland_compare_states_workforce"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "choose_maryland_compare_states_workforce"
 }

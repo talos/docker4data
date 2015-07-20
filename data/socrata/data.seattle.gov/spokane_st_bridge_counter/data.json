@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_spokane_st_bridge_counter/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/upms-nr8w/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/upms-nr8w/rows.csv", 
   "description": "The Spokane Bridge Bicycle Counter records the number of bikes that cross the bridge using the pedestrian/bicycle pathway on the south side. Inductive loops on the pathway count the passing of bicycles with travel direction. The data consists of a date/time field, east pathway count field and west pathway count field. The count fields represent the total bicycles detected during the specified one hour period.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "Spokane St Bridge Counter", 
-  "schema": {
-    "columns": [
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "spokane_st_bridge_total", 
-        "type": "real"
-      }, 
-      {
-        "name": "west", 
-        "type": "real"
-      }, 
-      {
-        "name": "east", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "spokane_st_bridge_counter"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "spokane_st_bridge_counter"
 }

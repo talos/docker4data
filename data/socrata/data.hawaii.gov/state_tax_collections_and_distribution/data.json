@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_state_tax_collections_and_distribution/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/evqj-e9i8/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/evqj-e9i8/rows.csv", 
   "description": "This series shows collections of taxes administered by the State and the allocations of the taxes among the State's general fund and the various special funds.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,38 +11,7 @@
     }
   }, 
   "name": "State Tax Collections and Distribution", 
-  "schema": {
-    "columns": [
-      {
-        "name": "source_destination", 
-        "type": "text"
-      }, 
-      {
-        "name": "all_districts", 
-        "type": "real"
-      }, 
-      {
-        "name": "cumulative_totals", 
-        "type": "real"
-      }, 
-      {
-        "name": "type", 
-        "type": "text"
-      }, 
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "month", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "state_tax_collections_and_distribution"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "state_tax_collections_and_distribution"
 }

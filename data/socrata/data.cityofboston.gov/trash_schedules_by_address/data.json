@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofboston_trash_schedules_by_address/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/cich-iivi/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/api/views/cich-iivi/rows.csv", 
   "description": "trash/recycling schedules by address", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Trash Schedules by Address", 
-  "schema": {
-    "columns": [
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "publicworksdistrict", 
-        "type": "real"
-      }, 
-      {
-        "name": "trash", 
-        "type": "text"
-      }, 
-      {
-        "name": "recycling", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "trash_schedules_by_address"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "trash_schedules_by_address"
 }

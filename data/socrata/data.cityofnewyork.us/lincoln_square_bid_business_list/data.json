@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_lincoln_square_bid_business_list/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/ne9f-g6k4/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/ne9f-g6k4/rows.csv", 
   "description": "List of all of the businesses in the Lincoln Square area", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "Lincoln Square BID Business List", 
-  "schema": {
-    "columns": [
-      {
-        "name": "company", 
-        "type": "text"
-      }, 
-      {
-        "name": "business_address_street", 
-        "type": "text"
-      }, 
-      {
-        "name": "business_address_city", 
-        "type": "text"
-      }, 
-      {
-        "name": "business_address_state", 
-        "type": "text"
-      }, 
-      {
-        "name": "business_address_postal_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone_business", 
-        "type": "text"
-      }, 
-      {
-        "name": "categories", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "lincoln_square_bid_business_list"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "lincoln_square_bid_business_list"
 }

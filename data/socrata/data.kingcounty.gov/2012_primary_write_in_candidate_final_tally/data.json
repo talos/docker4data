@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_kingcounty_2012_primary_write_in_candidate_final_tally/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/78tb-4u7r/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.kingcounty.gov/api/views/78tb-4u7r/rows.csv", 
   "description": "Data on write-in candidates for King County Elections August 7 2012 primary.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "2012 Primary - Write In Candidate Final Tally", 
-  "schema": {
-    "columns": [
-      {
-        "name": "contest", 
-        "type": "text"
-      }, 
-      {
-        "name": "one_percent_threshold_to_qualify", 
-        "type": "text"
-      }, 
-      {
-        "name": "disposition", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.kingcounty.gov", 
-  "tableName": "2012_primary_write_in_candidate_final_tally"
+  "schema": "socrata/data.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "2012_primary_write_in_candidate_final_tally"
 }

@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/subway_entrances/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/geospatial/drex-xx56", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/geospatial/drex-xx56", 
   "description": "Map of NYC Subway Entrances", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,9 +14,7 @@
     }
   }, 
   "name": "Subway Entrances", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "subway_entrances"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "subway_entrances"
 }

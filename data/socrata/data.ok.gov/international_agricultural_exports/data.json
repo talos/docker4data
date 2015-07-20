@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_international_agricultural_exports/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/f5xd-kq69/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/f5xd-kq69/rows.csv", 
   "description": "Increase the 4-year moving average of total international agricultural exports from $1.67 billion in 2012 to $1.76 billion by 2018.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "International Agricultural Exports", 
-  "schema": {
-    "columns": [
-      {
-        "name": "years", 
-        "type": "text"
-      }, 
-      {
-        "name": "historical_data", 
-        "type": "real"
-      }, 
-      {
-        "name": "target", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "international_agricultural_exports"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "international_agricultural_exports"
 }

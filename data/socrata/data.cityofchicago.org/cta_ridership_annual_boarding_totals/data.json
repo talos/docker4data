@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_cta_ridership_annual_boarding_totals/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/w8km-9pzd/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/w8km-9pzd/rows.csv", 
   "description": "This dataset gives annual ridership totals dating to the mid-1980s. Numbers are presented in boardings (see attached readme file for information on how these numbers are calculated).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "CTA - Ridership - Annual Boarding Totals", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "bus", 
-        "type": "real"
-      }, 
-      {
-        "name": "paratransit", 
-        "type": "real"
-      }, 
-      {
-        "name": "rail", 
-        "type": "real"
-      }, 
-      {
-        "name": "total", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "cta_ridership_annual_boarding_totals"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "cta_ridership_annual_boarding_totals"
 }

@@ -1,0 +1,23 @@
+CREATE TABLE "montgomery_county_council_legislation_bills" (
+	"bill_no"	text,
+	"title"	text,
+	"status"	text,
+	"enacted_bill"	text,
+	"sponsors"	text,
+	"co_sponsors"	text,
+	"introduction_date"	timestamp,
+	"public_hearing_date"	timestamp,
+	"expiration_date_of_pending_bills"	timestamp,
+	"council_action"	text,
+	"yeas"	text,
+	"nays"	text,
+	"abstain"	text,
+	"action_date"	timestamp,
+	"executive_action"	text,
+	"effective_date"	timestamp,
+	"sunset_date"	timestamp,
+	"mc_code_chapter"	text,
+	"mc_code_section"	text,
+	"committee"	text,
+	"lmc_chapter_no"	text
+);

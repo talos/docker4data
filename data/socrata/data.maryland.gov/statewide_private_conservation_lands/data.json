@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/statewide_private_conservation_lands/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/geospatial/diqy-7fxx", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/geospatial/diqy-7fxx", 
   "description": "The Private Conservation data layer is a collection of properties that are protected from development by ownership of a Private Conservation group or society.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Statewide Private Conservation Lands", 
-  "schema": {}, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "statewide_private_conservation_lands"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "statewide_private_conservation_lands"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_nola_core_cultural_jobs_2002_present_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.nola.gov/api/views/idx4-2868/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.nola.gov/api/views/idx4-2868/rows.csv", 
   "description": "This data comes from the Cultural Economy Snapshot put out by the Mayor's Office of Cultural Economy commissioned. Mt. Auburn Associates was commissioned to do the research for the Snapshot. The data they data they used comes from Economic Modeling Specialists Intl. (EMSI). The definition used for core cultural industries includes:\n1) Culinary Arts: The state\u2019s food-related cultural products including food processing, specialty food products and locally-owned, full service restaurants (does not include franchise/non-local chain restaurants; e.g. Wendy\u2019s, Olive Garden, etc.).\n2) Design: Individual Designers and firms involved in the communication arts such as graphic Design, printing, and advertising.\n3) Entertainment: The performing arts (music, theater, and dance), individual performers, and the film and media industries.\n4) Literary Arts and Humanities: Individual writers and editors and book, periodical, and newspaper publishing.\n5) Preservation: Economic activities focused on the restoration and redevelopment of the built environment including architecture, landscape architecture and a percentage of construction activity focused on Preservation and renovation.\n6) Visual Arts and Crafts: Individual artists and craftspeople as well as the galleries and museums that present cultural products.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "Core Cultural Jobs (2002-present)", 
-  "schema": {
-    "columns": [
-      {
-        "name": "rowid", 
-        "type": "real"
-      }, 
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "geography", 
-        "type": "text"
-      }, 
-      {
-        "name": "core_cultural_industry_jobs", 
-        "type": "real"
-      }, 
-      {
-        "name": "all_jobs", 
-        "type": "real"
-      }, 
-      {
-        "name": "core_cultural_industries_share_of_all_jobs", 
-        "type": "text"
-      }, 
-      {
-        "name": "core_cultural_industry_job_growth_from_2002", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.nola.gov", 
-  "tableName": "core_cultural_jobs_2002_present_"
+  "schema": "socrata/data.nola.gov", 
+  "status": "needs review", 
+  "table": "core_cultural_jobs_2002_present_"
 }

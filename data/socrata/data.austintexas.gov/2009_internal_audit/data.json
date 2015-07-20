@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/2009_internal_audit/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/download/e8ue-96dbapplication/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/download/e8ue-96db/application/pdf", 
   "description": "2009 Internal Audit", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -15,7 +12,7 @@
     }
   }, 
   "name": "2009 Internal Audit", 
-  "schema": {}, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "2009_internal_audit"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "2009_internal_audit"
 }

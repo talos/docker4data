@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_sf_civic_art_collection/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/zfw6-95su/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sfgov.org/api/views/zfw6-95su/rows.csv", 
   "description": "This data set includes all of the publicly-sited works in the Civic Art Collection, which includes historic monuments, murals, and artworks commissioned through the City's Public Art Program. The data set includes the following categories: artist name, title of work, medium, dimensions and location.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,62 +13,7 @@
     }
   }, 
   "name": "SF Civic Art Collection", 
-  "schema": {
-    "columns": [
-      {
-        "name": "_id_", 
-        "type": "text"
-      }, 
-      {
-        "name": "_rev", 
-        "type": "text"
-      }, 
-      {
-        "name": "accession_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "artist", 
-        "type": "text"
-      }, 
-      {
-        "name": "created_at", 
-        "type": "text"
-      }, 
-      {
-        "name": "credit_line", 
-        "type": "text"
-      }, 
-      {
-        "name": "display_dimensions", 
-        "type": "text"
-      }, 
-      {
-        "name": "geometry", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "medium", 
-        "type": "text"
-      }, 
-      {
-        "name": "source", 
-        "type": "text"
-      }, 
-      {
-        "name": "title", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sfgov.org", 
-  "tableName": "sf_civic_art_collection"
+  "schema": "socrata/data.sfgov.org", 
+  "status": "needs review", 
+  "table": "sf_civic_art_collection"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_oklahoma_post_offices/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/k8q7-jcbn/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/k8q7-jcbn/rows.csv", 
   "description": "Find Post Offices in the state of Oklahoma.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "Oklahoma Post Offices", 
-  "schema": {
-    "columns": [
-      {
-        "name": "city_of_post_office", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "oklahoma_post_offices"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "oklahoma_post_offices"
 }

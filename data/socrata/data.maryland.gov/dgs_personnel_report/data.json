@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_dgs_personnel_report/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/pz8k-gpmz/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/pz8k-gpmz/rows.csv", 
   "description": "Data are provided by the Department of General Services (DGS). This report, updated monthly, shows DGS-wide overtime use, IWIF reports, and sick leave, and accident leave.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,94 +13,7 @@
     }
   }, 
   "name": "DGS Personnel Report", 
-  "schema": {
-    "columns": [
-      {
-        "name": "pay_period_ending_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "overtime_total_hours", 
-        "type": "real"
-      }, 
-      {
-        "name": "overtime_hours_administration", 
-        "type": "real"
-      }, 
-      {
-        "name": "overtime_hours_facilities_operation_and_maintenance", 
-        "type": "real"
-      }, 
-      {
-        "name": "overtime_hours_facilities_design_planning", 
-        "type": "real"
-      }, 
-      {
-        "name": "overtime_hours_real_estate", 
-        "type": "real"
-      }, 
-      {
-        "name": "overtime_hours_procurement_logistics", 
-        "type": "real"
-      }, 
-      {
-        "name": "overtime_hours_security", 
-        "type": "real"
-      }, 
-      {
-        "name": "sick_leave_total_days", 
-        "type": "real"
-      }, 
-      {
-        "name": "sick_leave_days_administration", 
-        "type": "real"
-      }, 
-      {
-        "name": "sick_leave_days_facilities_operation_and_maintenance", 
-        "type": "real"
-      }, 
-      {
-        "name": "sick_leave_days_facilities_design_planning", 
-        "type": "real"
-      }, 
-      {
-        "name": "sick_leave_days_real_estate", 
-        "type": "real"
-      }, 
-      {
-        "name": "sick_leave_days_procurement_logistics", 
-        "type": "real"
-      }, 
-      {
-        "name": "sick_leave_days_security", 
-        "type": "real"
-      }, 
-      {
-        "name": "accident_leave_hours_administration", 
-        "type": "real"
-      }, 
-      {
-        "name": "accident_leave_hours_facilities_operation_and_maintenance", 
-        "type": "real"
-      }, 
-      {
-        "name": "accident_leave_hours_facilities_design_planning", 
-        "type": "real"
-      }, 
-      {
-        "name": "accident_leave_hours_real_estate", 
-        "type": "real"
-      }, 
-      {
-        "name": "accident_leave_hours_procurement_logistics", 
-        "type": "real"
-      }, 
-      {
-        "name": "accident_leave_hours_security", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "dgs_personnel_report"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "dgs_personnel_report"
 }

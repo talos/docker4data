@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_state_employee_turnover_rate/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/2imn-v8qj/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/2imn-v8qj/rows.csv", 
   "description": "Maintain the state employee turnover rate at or below the annual regional average of surrounding states every year through 2019.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "State Employee Turnover Rate", 
-  "schema": {
-    "columns": [
-      {
-        "name": "years", 
-        "type": "text"
-      }, 
-      {
-        "name": "historical_data", 
-        "type": "text"
-      }, 
-      {
-        "name": "national_average", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "state_employee_turnover_rate"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "state_employee_turnover_rate"
 }

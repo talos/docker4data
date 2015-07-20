@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/alameda_county_voter_precincts/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.acgov.org/api/geospatial/q6ek-ybkr", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.acgov.org/api/geospatial/q6ek-ybkr", 
   "description": "Alameda County home Precincts as of August 2014.  Some home Precincts are combined during an election to reduce the number of Precincts.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,9 +14,7 @@
     }
   }, 
   "name": "Alameda County Voter Precincts", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.acgov.org", 
-  "tableName": "alameda_county_voter_precincts"
+  "schema": "socrata/data.acgov.org", 
+  "status": "needs review", 
+  "table": "alameda_county_voter_precincts"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/cook_county_check_register_fiscal_years_2006_through_2013/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/bfni-y3nr/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/bfni-y3nr/rows.csv", 
   "description": "New check register data can be found at https://datacatalog.cookcountyil.gov/id/gywr-fjeh. This register contains checks from December 2006 through November 2013. This dataset will not be updated.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "Cook County Check Register - Fiscal Years 2006 through 2013", 
-  "schema": {
-    "columns": [
-      {
-        "name": "check_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "payee_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "company_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "purchase_order_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "product_descritpion_nigp_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "business_unit", 
-        "type": "text"
-      }, 
-      {
-        "name": "payment_amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "check_date", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/datacatalog.cookcountyil.gov", 
-  "tableName": "cook_county_check_register_fiscal_years_2006_through_2013"
+  "schema": "socrata/datacatalog.cookcountyil.gov", 
+  "status": "needs review", 
+  "table": "cook_county_check_register_fiscal_years_2006_through_2013"
 }

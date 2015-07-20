@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_cgdb_bldg2009_plgn/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/4ap4-ggys/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/4ap4-ggys/rows.csv", 
   "description": "Building roof outlines derived from 2009 orthophotography. The dataset can be dowloaded by clicking the link on the upper right corner in this page https://data.seattle.gov/dataset/2009-Building-Outlines/y7u8-vad7   \r\nNote - these data do not contain peak elevation data. For peak elevation data you can refer to the 1999 building outlines via this link:  https://data.seattle.gov/Land-Base/CGDB-BLDG1999-PLGN/x87c-yyrn", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "CGDB.BLDG2009_PLGN", 
-  "schema": {
-    "columns": [
-      {
-        "name": "objectid", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape", 
-        "type": "text"
-      }, 
-      {
-        "name": "y", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape_length", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape_area", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "cgdb_bldg2009_plgn"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "cgdb_bldg2009_plgn"
 }

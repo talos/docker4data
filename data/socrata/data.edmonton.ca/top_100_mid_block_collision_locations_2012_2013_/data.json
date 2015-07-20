@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/top_100_mid_block_collision_locations_2012_2013_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/ug3k-mq4p/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.edmonton.ca/api/views/ug3k-mq4p/rows.csv", 
   "description": "List of Top 100 Mid-block Collision Locations in Edmonton for the years 2012-2013. This file contains information about those mid-blocks in Edmonton , with a breakdown of collisions by the standard list of causes used in reporting.\r\n\r\nCollision information is provided by the Motor Vehicle Collision Information System (MVCIS), maintained by the City of Edmonton Office of Traffic Safety. This system tracks police-reported collisions involving at least one motor vehicle that occur on public roadways and which result in property damage of $1,000 or more, as well as any collisions resulting in injury or fatality. \r\n\r\nThis file is meant as a companion piece to the Annual Collision Report, produced by the City of Edmonton Office of Traffic Safety. Please refer to the full report for more information on collisions in Edmonton, and definitions of the collision causes and injury types used in this file.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "Top 100 Mid- Block Collision Locations (2012-2013)", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "collision_location_midblock", 
-        "type": "text"
-      }, 
-      {
-        "name": "collision_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "collision_cause", 
-        "type": "text"
-      }, 
-      {
-        "name": "number_of_collisions", 
-        "type": "real"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.edmonton.ca", 
-  "tableName": "top_100_mid_block_collision_locations_2012_2013_"
+  "schema": "socrata/data.edmonton.ca", 
+  "status": "needs review", 
+  "table": "top_100_mid_block_collision_locations_2012_2013_"
 }

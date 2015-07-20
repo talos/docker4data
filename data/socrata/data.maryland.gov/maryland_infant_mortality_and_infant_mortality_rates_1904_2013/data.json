@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/maryland_infant_mortality_and_infant_mortality_rates_1904_2013/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/p6r3-wfed/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/p6r3-wfed/rows.csv", 
   "description": "Rate and number of infant deaths per 1,000 live births by year. The total rate and number variables include all available races and are not limited to white and black races. Blank cells indicate that the data are not available.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "Maryland Infant Mortality and Infant Mortality Rates, 1904-2013", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "infant_mortality_rate_total", 
-        "type": "real"
-      }, 
-      {
-        "name": "infant_mortality_rate_white", 
-        "type": "real"
-      }, 
-      {
-        "name": "infant_mortality_rate_black", 
-        "type": "real"
-      }, 
-      {
-        "name": "number_of_infant_deaths_total", 
-        "type": "real"
-      }, 
-      {
-        "name": "number_of_infant_deaths_white", 
-        "type": "real"
-      }, 
-      {
-        "name": "number_of_infant_deaths_black", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "maryland_infant_mortality_and_infant_mortality_rates_1904_2013"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "maryland_infant_mortality_and_infant_mortality_rates_1904_2013"
 }

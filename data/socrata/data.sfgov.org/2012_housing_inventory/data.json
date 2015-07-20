@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_2012_housing_inventory/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/4xa2-t52k/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sfgov.org/api/views/4xa2-t52k/rows.csv", 
   "description": "Excel workbook of all housing construction from the 2012 Housing Inventory.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,74 +13,7 @@
     }
   }, 
   "name": "2012 Housing Inventory", 
-  "schema": {
-    "columns": [
-      {
-        "name": "standardaddress", 
-        "type": "text"
-      }, 
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "block", 
-        "type": "text"
-      }, 
-      {
-        "name": "lot", 
-        "type": "real"
-      }, 
-      {
-        "name": "units", 
-        "type": "real"
-      }, 
-      {
-        "name": "netunits", 
-        "type": "real"
-      }, 
-      {
-        "name": "aff_hsg", 
-        "type": "real"
-      }, 
-      {
-        "name": "affgrp", 
-        "type": "text"
-      }, 
-      {
-        "name": "add_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "existuse", 
-        "type": "text"
-      }, 
-      {
-        "name": "propuse", 
-        "type": "text"
-      }, 
-      {
-        "name": "actdate", 
-        "type": "text"
-      }, 
-      {
-        "name": "zoning", 
-        "type": "text"
-      }, 
-      {
-        "name": "planningdistrict", 
-        "type": "real"
-      }, 
-      {
-        "name": "supedistrict", 
-        "type": "real"
-      }, 
-      {
-        "name": "planarea", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sfgov.org", 
-  "tableName": "2012_housing_inventory"
+  "schema": "socrata/data.sfgov.org", 
+  "status": "needs review", 
+  "table": "2012_housing_inventory"
 }

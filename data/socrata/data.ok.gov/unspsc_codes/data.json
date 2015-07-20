@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_unspsc_codes/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/uqsf-qkqb/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/uqsf-qkqb/rows.csv", 
   "description": "The United Nations Standard Products and Services Code (UNSPSC) is a hierarchical convention that is used to classify all products and services.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "UNSPSC Codes", 
-  "schema": {
-    "columns": [
-      {
-        "name": "segment", 
-        "type": "text"
-      }, 
-      {
-        "name": "segment_title", 
-        "type": "text"
-      }, 
-      {
-        "name": "family", 
-        "type": "text"
-      }, 
-      {
-        "name": "family_ttile", 
-        "type": "text"
-      }, 
-      {
-        "name": "class", 
-        "type": "text"
-      }, 
-      {
-        "name": "class_title", 
-        "type": "text"
-      }, 
-      {
-        "name": "key", 
-        "type": "text"
-      }, 
-      {
-        "name": "commodity", 
-        "type": "text"
-      }, 
-      {
-        "name": "commodity_title", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "unspsc_codes"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "unspsc_codes"
 }

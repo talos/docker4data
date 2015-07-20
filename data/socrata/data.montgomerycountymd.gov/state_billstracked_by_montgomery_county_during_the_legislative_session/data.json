@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/state_billstracked_by_montgomery_county_during_the_legislative_session/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/p3ub-bqni/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/p3ub-bqni/rows.csv", 
   "description": "This list only includes bills introduced in the Senate or the House of Delegates during regular session of the General Assembly. The Office also tracks all local and bi-county bills considered by the Montgomery County Delegation, all bi-county bills considered by the Prince George's County Delegation, and all bills introduced during special sessions.\r\nFor bill status and other information on the bills, see the General Assembly\u2019s web site at mgaleg.maryland.gov\r\n\r\nUpdate Frequency:  Weekly during the legislative session", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,18 +13,7 @@
     }
   }, 
   "name": "State BillsTracked by Montgomery County during the legislative session", 
-  "schema": {
-    "columns": [
-      {
-        "name": "bill_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "title", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.montgomerycountymd.gov", 
-  "tableName": "state_billstracked_by_montgomery_county_during_the_legislative_session"
+  "schema": "socrata/data.montgomerycountymd.gov", 
+  "status": "needs review", 
+  "table": "state_billstracked_by_montgomery_county_during_the_legislative_session"
 }

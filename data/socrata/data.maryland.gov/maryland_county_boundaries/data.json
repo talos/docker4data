@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/maryland_county_boundaries/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/geospatial/txbb-k3bc", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/geospatial/txbb-k3bc", 
   "description": "Political boundaries for Maryland counties", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Maryland County Boundaries", 
-  "schema": {}, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "maryland_county_boundaries"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "maryland_county_boundaries"
 }

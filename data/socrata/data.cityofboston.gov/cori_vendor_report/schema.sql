@@ -1,0 +1,20 @@
+CREATE TABLE "cori_vendor_report" (
+	"vendor"	text,
+	"name"	text,
+	"address_1"	text,
+	"address_2"	text,
+	"address_3"	text,
+	"city"	text,
+	"state"	text,
+	"contact_type"	text,
+	"contact_name"	text,
+	"contact_title"	text,
+	"internet"	text,
+	"email_id"	text,
+	"phone_type_1"	text,
+	"phone_number_1"	text,
+	"phone_extension_1"	real,
+	"phone_type_2"	text,
+	"phone_number_2"	text,
+	"phone_extension_2"	real
+);

@@ -1,0 +1,22 @@
+CREATE TABLE "hud_housing_inventory_2007" (
+	"project_name"	text,
+	"zip_code"	text,
+	"phone_number"	text,
+	"owner_management_co"	text,
+	"owner_type"	text,
+	"program_subsidy"	text,
+	"totalunits"	real,
+	"bmrunits"	real,
+	"eldr"	real,
+	"dis"	real,
+	"fam"	real,
+	"sro"	real,
+	"number_of_studios"	real,
+	"number_of_1_bd"	real,
+	"number_of_2_bd"	real,
+	"number_of_3_bd"	text,
+	"number_of_4_bd"	text,
+	"conversiondate"	real,
+	"incomelevel"	text,
+	"location_1"	text
+);

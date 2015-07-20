@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_colorado_truck_station_electrification/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/c8jj-hcxj/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/api/views/c8jj-hcxj/rows.csv", 
   "description": "Electrified parking spaces (EPS), also known as truck stop electrification, allow truck drivers to provide power to necessary systems, such as heating, air conditioning, or appliances, without idling the engine. The U.S. Department of Transportation (DOT) estimates there are about 5,000 truck stops in the United States. Options for truck stop electrification include single-system electrification and dual-system electrification, also known as \"shorepower.\"", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,90 +13,7 @@
     }
   }, 
   "name": "Colorado Truck Station Electrification", 
-  "schema": {
-    "columns": [
-      {
-        "name": "businesshours", 
-        "type": "text"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "streetaddress", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip", 
-        "type": "real"
-      }, 
-      {
-        "name": "intersectiondirections", 
-        "type": "text"
-      }, 
-      {
-        "name": "createdat", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "updatedat", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "datelastconfirmed", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "id", 
-        "type": "real"
-      }, 
-      {
-        "name": "publicnotes", 
-        "type": "text"
-      }, 
-      {
-        "name": "geocodestatus", 
-        "type": "text"
-      }, 
-      {
-        "name": "manufacturerkeys", 
-        "type": "text"
-      }, 
-      {
-        "name": "paymentkeys", 
-        "type": "text"
-      }, 
-      {
-        "name": "mediakeys", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "colorado_truck_station_electrification"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "colorado_truck_station_electrification"
 }

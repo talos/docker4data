@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/schools_with_crossing_guards/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/geospatial/k7zg-kef2", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.sfgov.org/api/geospatial/k7zg-kef2", 
   "description": "This shapefile contains information about the schools served by the SFMTA Adult School Crossing Guard Program. The placement and assignment of crossing guards is dependent on a number of criteria. To find out more about the program, please visit: http://www.sfmta.com/services/streets-sidewalks/request-crossing-guard", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Schools with Crossing Guards", 
-  "schema": {}, 
-  "schemaName": "socrata/data.sfgov.org", 
-  "tableName": "schools_with_crossing_guards"
+  "schema": "socrata/data.sfgov.org", 
+  "status": "needs review", 
+  "table": "schools_with_crossing_guards"
 }

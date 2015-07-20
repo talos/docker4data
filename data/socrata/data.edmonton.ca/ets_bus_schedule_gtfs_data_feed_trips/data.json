@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ets_bus_schedule_gtfs_data_feed_trips/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/ctwr-tvrd/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.edmonton.ca/api/views/ctwr-tvrd/rows.csv", 
   "description": "This dataset lists all trips and their routes in Edmonton. A trip is a sequence of two or more stops that occurs at specific time.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "ETS Bus Schedule GTFS Data Feed - Trips", 
-  "schema": {
-    "columns": [
-      {
-        "name": "route_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "service_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "trip_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "trip_headsign", 
-        "type": "real"
-      }, 
-      {
-        "name": "direction_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "block_id", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.edmonton.ca", 
-  "tableName": "ets_bus_schedule_gtfs_data_feed_trips"
+  "schema": "socrata/data.edmonton.ca", 
+  "status": "needs review", 
+  "table": "ets_bus_schedule_gtfs_data_feed_trips"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_kingcounty_election_results_may_20_2008_special/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/8ih8-hp62/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.kingcounty.gov/api/views/8ih8-hp62/rows.csv", 
   "description": "Detailed results for May 20, 2008 special elections.\r\nTutorial available here: http://kingcounty.gov/elections/results/opendatatutorial.aspx", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "Election results - May 20, 2008 special", 
-  "schema": {
-    "columns": [
-      {
-        "name": "race", 
-        "type": "text"
-      }, 
-      {
-        "name": "precinct", 
-        "type": "text"
-      }, 
-      {
-        "name": "leg", 
-        "type": "real"
-      }, 
-      {
-        "name": "cc", 
-        "type": "real"
-      }, 
-      {
-        "name": "countergroup", 
-        "type": "text"
-      }, 
-      {
-        "name": "countertype", 
-        "type": "text"
-      }, 
-      {
-        "name": "count", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.kingcounty.gov", 
-  "tableName": "election_results_may_20_2008_special"
+  "schema": "socrata/data.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "election_results_may_20_2008_special"
 }

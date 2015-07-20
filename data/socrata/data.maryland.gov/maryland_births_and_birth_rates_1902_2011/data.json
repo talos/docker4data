@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_maryland_births_and_birth_rates_1902_2011/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/jc6h-tmg9/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/jc6h-tmg9/rows.csv", 
   "description": "Number of live births and birth rate per 1,000 population by year.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "Maryland Births and Birth Rates, 1902-2011", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "number_of_births", 
-        "type": "real"
-      }, 
-      {
-        "name": "birth_rate", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "maryland_births_and_birth_rates_1902_2011"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "maryland_births_and_birth_rates_1902_2011"
 }

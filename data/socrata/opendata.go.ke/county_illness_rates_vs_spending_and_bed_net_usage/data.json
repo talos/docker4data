@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/county_illness_rates_vs_spending_and_bed_net_usage/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/opendata.go.ke/api/views/gtbx-qhc8/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/opendata.go.ke/api/views/gtbx-qhc8/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -15,26 +11,7 @@
     }
   }, 
   "name": "County Illness Rates vs Spending and Bed Net Usage", 
-  "schema": {
-    "columns": [
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "slept_under_a_bed_net", 
-        "type": "real"
-      }, 
-      {
-        "name": "had_fever_or_malaria", 
-        "type": "real"
-      }, 
-      {
-        "name": "spending_per_person", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/opendata.go.ke", 
-  "tableName": "county_illness_rates_vs_spending_and_bed_net_usage"
+  "schema": "socrata/opendata.go.ke", 
+  "status": "needs review", 
+  "table": "county_illness_rates_vs_spending_and_bed_net_usage"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/shell_file_hstp/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/n4re-idhg/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/n4re-idhg/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,22 +9,7 @@
     }
   }, 
   "name": "Shell File HSTP", 
-  "schema": {
-    "columns": [
-      {
-        "name": "measure_value", 
-        "type": "real"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "ethnicity", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/healthmeasures.aspe.hhs.gov", 
-  "tableName": "shell_file_hstp"
+  "schema": "socrata/healthmeasures.aspe.hhs.gov", 
+  "status": "needs review", 
+  "table": "shell_file_hstp"
 }

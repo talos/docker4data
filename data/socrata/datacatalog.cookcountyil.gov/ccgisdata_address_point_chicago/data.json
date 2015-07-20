@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ccgisdata_address_point_chicago/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/geospatial/jev2-4wjs", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/geospatial/jev2-4wjs", 
   "description": "This Address Point feature class contains one or more point for each parcel in Chicago that has, within its boundary, an observable, physically addressable structure.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "ccgisdata - Address Point Chicago", 
-  "schema": {}, 
-  "schemaName": "socrata/datacatalog.cookcountyil.gov", 
-  "tableName": "ccgisdata_address_point_chicago"
+  "schema": "socrata/datacatalog.cookcountyil.gov", 
+  "status": "needs review", 
+  "table": "ccgisdata_address_point_chicago"
 }

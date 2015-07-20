@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/campaign_consultants_appointment_to_public_office/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/tgmn-chny/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sfgov.org/api/views/tgmn-chny/rows.csv", 
   "description": "If the campaign consultant is appointed to public office during the reporting period and the appointment is made by a local officeholder who is the campaign consultant's client, the campaign consultant must report the public office to which the filer was appointed, the date of the appointment, and the name of the officeholder who appointed the campaign consultant.\u00a0", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "Campaign Consultants - Appointment to Public Office", 
-  "schema": {
-    "columns": [
-      {
-        "name": "campaign_consultant", 
-        "type": "text"
-      }, 
-      {
-        "name": "employee", 
-        "type": "text"
-      }, 
-      {
-        "name": "department", 
-        "type": "text"
-      }, 
-      {
-        "name": "city_position", 
-        "type": "text"
-      }, 
-      {
-        "name": "appointment_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "appointing_officer", 
-        "type": "text"
-      }, 
-      {
-        "name": "quarter_start_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "quarter_end_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "quarter", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sfgov.org", 
-  "tableName": "campaign_consultants_appointment_to_public_office"
+  "schema": "socrata/data.sfgov.org", 
+  "status": "needs review", 
+  "table": "campaign_consultants_appointment_to_public_office"
 }

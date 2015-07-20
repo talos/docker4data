@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_current_expired_product_list/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/ntbw-b89q/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/ntbw-b89q/rows.csv", 
   "description": "List of pesticide products licensed for distribution and sale in the state of Hawaii, including currently licensed and expired.  This list is provided for informational purposes only.  Restricted use pesticides are indicated by an asterisk (*).  Restricted use pesticides can only be distributed and sold by a licensed dealer and only to certified applicators.  It is a violation of state and federal laws to use these restricted use pesticides unless the person is a certified pesticide applicator or under the direct supervision of a certified pesticide applicator.  Product names followed by a number in parenthesis, for example (1) or (2), indicate that the product will be discontinued and will only be renewed for one or two additional years after the current license period expires.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "Current & Expired Product List", 
-  "schema": {
-    "columns": [
-      {
-        "name": "prod_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "eparegisno", 
-        "type": "text"
-      }, 
-      {
-        "name": "classific", 
-        "type": "text"
-      }, 
-      {
-        "name": "exp_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "company_no", 
-        "type": "real"
-      }, 
-      {
-        "name": "product_no", 
-        "type": "real"
-      }, 
-      {
-        "name": "labels", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "current_expired_product_list"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "current_expired_product_list"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/building_and_zoning_certificate_of_compliance_issued/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/cookcounty.socrata.com/api/views/pftf-7d6t/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/cookcounty.socrata.com/api/views/pftf-7d6t/rows.csv", 
   "description": "Number of Certificate of Compliance issued by year for 1993 through part of 2011. Data is incomplete for 2011.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,18 +13,6 @@
     }
   }, 
   "name": "Building and Zoning - Certificate Of Compliance Issued", 
-  "schema": {
-    "columns": [
-      {
-        "name": "fiscal_year", 
-        "type": "text"
-      }, 
-      {
-        "name": "certificate_of_compliance_issued", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/cookcounty.socrata.com", 
-  "tableName": "building_and_zoning_certificate_of_compliance_issued"
+  "schema": "socrata/cookcounty.socrata.com", 
+  "table": "building_and_zoning_certificate_of_compliance_issued"
 }

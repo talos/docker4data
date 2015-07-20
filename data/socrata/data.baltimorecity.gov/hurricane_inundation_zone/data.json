@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/hurricane_inundation_zone/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/geospatial/vanx-ubga", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.baltimorecity.gov/api/geospatial/vanx-ubga", 
   "description": "This file is generated as part of the Hazards Analysis within the Hurricane Evacuation Study for the Maryland Western Shore. Storm surge zones have been developed for category 1-4 hurricanes represented by the Saffir-Simpson Scale. The storm surge zones data used in this application were generated using the Sea, Lake, and Overland Surges from Hurricanes (SLOSH) model. SLOSH is a computerized model run by the National Weather Service to estimate storm surge heights resulting from historical, hypothetical, or predicted hurricanes. The model creates its estimates by assessing the pressure, size, forward speed, track, and wind data from a storm. Graphical output from the model displays color-coded storm surge heights for a particular area. The calculations are applied to a specific locale's shoreline, incorporating the unique bay and river configurations, water depths, bridges, roads, and other physical features. The SLOSH MOM data is utilized. MOM is the \"Maximum of Maximum or \"Meows Of Meows\". MOM output represents the highest water level or the \"worst case scenario\" for the entire Slosh basin.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,9 +14,7 @@
     }
   }, 
   "name": "Hurricane Inundation Zone", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.baltimorecity.gov", 
-  "tableName": "hurricane_inundation_zone"
+  "schema": "socrata/data.baltimorecity.gov", 
+  "status": "needs review", 
+  "table": "hurricane_inundation_zone"
 }

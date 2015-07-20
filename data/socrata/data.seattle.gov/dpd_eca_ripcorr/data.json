@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_dpd_eca_ripcorr/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/gr7y-yxcq/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/gr7y-yxcq/rows.csv", 
   "description": "Critical area designation: riparian zones", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,58 +12,7 @@
     }
   }, 
   "name": "DPD.ECA_RIPCORR", 
-  "schema": {
-    "columns": [
-      {
-        "name": "objectid", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape", 
-        "type": "text"
-      }, 
-      {
-        "name": "area_", 
-        "type": "real"
-      }, 
-      {
-        "name": "perimeter", 
-        "type": "real"
-      }, 
-      {
-        "name": "strmbuf_", 
-        "type": "real"
-      }, 
-      {
-        "name": "strmbuf_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "donut", 
-        "type": "real"
-      }, 
-      {
-        "name": "strmbuf", 
-        "type": "text"
-      }, 
-      {
-        "name": "area", 
-        "type": "real"
-      }, 
-      {
-        "name": "len", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape_length", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape_area", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "dpd_eca_ripcorr"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "dpd_eca_ripcorr"
 }

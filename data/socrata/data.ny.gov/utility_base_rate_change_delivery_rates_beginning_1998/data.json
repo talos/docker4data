@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/utility_base_rate_change_delivery_rates_beginning_1998/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/ddrw-g9a6/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/ddrw-g9a6/rows.csv", 
   "description": "Summary of 15 years worth of utility base rate changes for major NYS utilities.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "Utility Base Rate Change  - Delivery Rates Beginning 1998", 
-  "schema": {
-    "columns": [
-      {
-        "name": "company", 
-        "type": "text"
-      }, 
-      {
-        "name": "electric_gas", 
-        "type": "text"
-      }, 
-      {
-        "name": "case", 
-        "type": "text"
-      }, 
-      {
-        "name": "date_effective", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "change_millions_of_dollars", 
-        "type": "real"
-      }, 
-      {
-        "name": "change_percent", 
-        "type": "text"
-      }, 
-      {
-        "name": "comment", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "utility_base_rate_change_delivery_rates_beginning_1998"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "utility_base_rate_change_delivery_rates_beginning_1998"
 }

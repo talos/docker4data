@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/graffiti_sites/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/www.data.act.gov.au/api/views/wdpz-r2ns/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/www.data.act.gov.au/api/views/wdpz-r2ns/rows.csv", 
   "description": "There are currently 24 legal graffiti art sites around Canberra. Each wall will be signposted indicating that it is a legal site.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "Graffiti Sites", 
-  "schema": {
-    "columns": [
-      {
-        "name": "region", 
-        "type": "text"
-      }, 
-      {
-        "name": "suburb", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "type", 
-        "type": "text"
-      }, 
-      {
-        "name": "surface", 
-        "type": "text"
-      }, 
-      {
-        "name": "image_link", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/www.data.act.gov.au", 
-  "tableName": "graffiti_sites"
+  "schema": "socrata/www.data.act.gov.au", 
+  "status": "needs review", 
+  "table": "graffiti_sites"
 }

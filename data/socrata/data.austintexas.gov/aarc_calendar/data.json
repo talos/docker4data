@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_aarc_calendar/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/42ix-g4e3/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/views/42ix-g4e3/rows.csv", 
   "description": "Data for the Asian American Resource Center web calendar", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,30 +12,7 @@
     }
   }, 
   "name": "AARC Calendar", 
-  "schema": {
-    "columns": [
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "event_or_activity", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "more_information", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "aarc_calendar"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "aarc_calendar"
 }

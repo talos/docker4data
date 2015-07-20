@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_medicare_data_updates/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/bzsr-4my4/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.medicare.gov/api/views/bzsr-4my4/rows.csv", 
   "description": "Lists the data updates for a scheduled quarterly refresh and as well those that are updated in between refreshes.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,30 +12,7 @@
     }
   }, 
   "name": "Data Updates", 
-  "schema": {
-    "columns": [
-      {
-        "name": "data_medicare_gov_location_affected", 
-        "type": "text"
-      }, 
-      {
-        "name": "downloadable_access_file_affected", 
-        "type": "text"
-      }, 
-      {
-        "name": "downloadable_csv_revised_file_affected", 
-        "type": "text"
-      }, 
-      {
-        "name": "data_last_updated", 
-        "type": "text"
-      }, 
-      {
-        "name": "data_last_updated_details", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.medicare.gov", 
-  "tableName": "data_updates"
+  "schema": "socrata/data.medicare.gov", 
+  "status": "needs review", 
+  "table": "data_updates"
 }

@@ -1,0 +1,23 @@
+CREATE TABLE "2009_census_volume_ii_table_8_households_by_main_source_of_water_county_estimates" (
+	"county"	text,
+	"pond_dam"	text,
+	"lake"	text,
+	"stream"	text,
+	"spring_well_borehole"	text,
+	"piped_into_dwelling"	text,
+	"piped"	text,
+	"jabia_rain_harvested"	text,
+	"water_vendor"	text,
+	"other"	text,
+	"households"	real,
+	"no_of_households_with_pond_dam"	real,
+	"no_of_households_with_lake"	real,
+	"no_of_households_with_stream"	real,
+	"no_of_households_with_spring_well_borehole"	real,
+	"no_of_households_with_piped_into_dwelling"	real,
+	"no_of_households_with_piped"	real,
+	"no_of_households_with_jabia_rain_harvested"	real,
+	"no_of_households_with_water_vendor"	real,
+	"no_of_households_with_other"	real,
+	"location_1"	text
+);

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_medicare_timely_and_effective_care_state/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/apyc-v239/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.medicare.gov/api/views/apyc-v239/rows.csv", 
   "description": "Timely and Effective Care measures - state data. This data set includes state-level data for measures of heart attack care, heart failure care, pneumonia care, surgical care, emergency department care, preventive care, children\u2019s asthma care, stroke care, blood clot prevention and treatment, and pregnancy and delivery care.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,42 +12,7 @@
     }
   }, 
   "name": "Timely and Effective Care - State", 
-  "schema": {
-    "columns": [
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "condition", 
-        "type": "text"
-      }, 
-      {
-        "name": "measure_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "measure_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "score", 
-        "type": "real"
-      }, 
-      {
-        "name": "footnote", 
-        "type": "text"
-      }, 
-      {
-        "name": "measure_start_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "measure_end_date", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.medicare.gov", 
-  "tableName": "timely_and_effective_care_state"
+  "schema": "socrata/data.medicare.gov", 
+  "status": "needs review", 
+  "table": "timely_and_effective_care_state"
 }

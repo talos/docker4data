@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/motor_vehicle_crashes_vehicle_information_beginning_2009/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/xe9x-a24f/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/xe9x-a24f/rows.csv", 
   "description": "Attributes about each vehicle involved in a crash as reported to NYS DMV", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,82 +13,7 @@
     }
   }, 
   "name": "Motor Vehicle Crashes - Vehicle Information: Beginning 2009", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "case_vehicle_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "vehicle_body_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "registration_class", 
-        "type": "text"
-      }, 
-      {
-        "name": "action_prior_to_accident", 
-        "type": "text"
-      }, 
-      {
-        "name": "type_axles_of_truck_or_bus", 
-        "type": "text"
-      }, 
-      {
-        "name": "direction_of_travel", 
-        "type": "text"
-      }, 
-      {
-        "name": "fuel_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "vehicle_year", 
-        "type": "text"
-      }, 
-      {
-        "name": "state_of_registration", 
-        "type": "text"
-      }, 
-      {
-        "name": "number_of_occupants", 
-        "type": "text"
-      }, 
-      {
-        "name": "engine_cylinders", 
-        "type": "text"
-      }, 
-      {
-        "name": "vehicle_make", 
-        "type": "text"
-      }, 
-      {
-        "name": "contributing_factor_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "contributing_factor_1_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "contributing_factor_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "contributing_factor_2_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "event_type", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "motor_vehicle_crashes_vehicle_information_beginning_2009"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "motor_vehicle_crashes_vehicle_information_beginning_2009"
 }

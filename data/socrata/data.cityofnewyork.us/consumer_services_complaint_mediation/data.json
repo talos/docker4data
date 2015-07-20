@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_consumer_services_complaint_mediation/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/nre2-6m2s/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/nre2-6m2s/rows.csv", 
   "description": "Consumer complaints against businesses that were mediated by the Department of Consumer Affairs. List excludes cases that may have ongoing legal investigations. Business address information is not included for businesses if that address is likely to be a personal address.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,66 +13,7 @@
     }
   }, 
   "name": "Consumer Services Complaint Mediation", 
-  "schema": {
-    "columns": [
-      {
-        "name": "record_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "business_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "business_category", 
-        "type": "text"
-      }, 
-      {
-        "name": "docket_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "complaint_codes", 
-        "type": "text"
-      }, 
-      {
-        "name": "complaint_result", 
-        "type": "text"
-      }, 
-      {
-        "name": "close_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "business_building", 
-        "type": "text"
-      }, 
-      {
-        "name": "business_street", 
-        "type": "text"
-      }, 
-      {
-        "name": "business_address_unit", 
-        "type": "text"
-      }, 
-      {
-        "name": "business_city", 
-        "type": "text"
-      }, 
-      {
-        "name": "business_state", 
-        "type": "text"
-      }, 
-      {
-        "name": "business_zip", 
-        "type": "real"
-      }, 
-      {
-        "name": "complainant_zip", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "consumer_services_complaint_mediation"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "consumer_services_complaint_mediation"
 }

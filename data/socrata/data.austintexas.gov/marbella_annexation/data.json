@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/marbella_annexation/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/geospatial/six2-p7d6", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/geospatial/six2-p7d6", 
   "description": "Case #: C7a-2013-0006\r\nOrdinance #: 20131024-028\r\nEffective: Nov. 4. 2013\r\nFULL PURPOSE ANNEXATION\r\n\r\nRESPONSE AREAS:\r\nAPD RA: FRANK 3\r\nAFD RA: 00-3612 and 00-2403\r\nEMS RA: SOUTH", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -15,9 +12,7 @@
     }
   }, 
   "name": "Marbella Annexation", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "marbella_annexation"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "marbella_annexation"
 }

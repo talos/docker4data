@@ -1,0 +1,22 @@
+CREATE TABLE "crime" (
+	"case_number"	text,
+	"date"	timestamp,
+	"incident_type"	text,
+	"narrative"	text,
+	"district"	text,
+	"location"	text,
+	"city"	text,
+	"state"	text,
+	"zip_code"	real,
+	"agency"	text,
+	"place"	text,
+	"sector"	text,
+	"beat"	text,
+	"pra"	text,
+	"start_date"	timestamp,
+	"end_date"	timestamp,
+	"latitude"	real,
+	"longitude"	real,
+	"police_district_number"	text,
+	"geolocation"	text
+);

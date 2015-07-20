@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_air_quality_monitor_compliance/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/phkt-8u9j/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/phkt-8u9j/rows.csv", 
   "description": "Increase the percentage of monitors demonstrating compliance with National Ambient Air Quality Standards from 79% in 2013 to 87% by 2017.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "Air Quality Monitor Compliance", 
-  "schema": {
-    "columns": [
-      {
-        "name": "years", 
-        "type": "text"
-      }, 
-      {
-        "name": "historical_data", 
-        "type": "text"
-      }, 
-      {
-        "name": "target", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "air_quality_monitor_compliance"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "air_quality_monitor_compliance"
 }

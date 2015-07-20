@@ -1,0 +1,22 @@
+CREATE TABLE "colorado_secured_party_information" (
+	"spid"	real,
+	"fileid"	real,
+	"actiontypecode"	text,
+	"actiontype"	text,
+	"actionrefid"	text,
+	"recordstatuscd"	text,
+	"recordstatus"	text,
+	"lastname"	text,
+	"firstname"	text,
+	"middlename"	text,
+	"suffix"	text,
+	"organizationname"	text,
+	"address1"	text,
+	"address2"	text,
+	"city"	text,
+	"state"	text,
+	"country"	text,
+	"zipcode"	text,
+	"zipcode4"	text,
+	"assignor"	real
+);

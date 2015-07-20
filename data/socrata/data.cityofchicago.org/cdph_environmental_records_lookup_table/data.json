@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_cdph_environmental_records_lookup_table/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/a9u4-3dwb/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/a9u4-3dwb/rows.csv", 
   "description": "This dataset serves as a lookup table to determine if environmental records exist in a Chicago Department of Public Health (CDPH) environmental dataset for a given address.   \r\nData fields requiring description are detailed below. \r\nMAPPED LOCATION: Contains the address, city, state and latitude/longitude coordinates of the facility. In instances where the facility address is a range, the lower number (the value in the \u201cStreet Number From\u201d column) is used. For example, for the range address 1000-1005 S Wabash Ave, the Mapped Location would be 1000 S Wabash Ave. The latitude/longitude coordinate is determined through the Chicago Open Data Portal\u2019s geocoding process.  Addresses that fail to geocode are assigned the coordinates 41.88415000022252\u00b0, -87.63241000012124\u00b0.This coordinate is located approximately just south of the intersection of W Randolph and N LaSalle.\r\nCOMPLAINTS:  A \u2018Y\u2019 indicates that one or more records exist in the CDPH Environmental Complaints dataset. \r\nNESHAPS & DEMOLITON NOTICES:  A \u2018Y\u2019 indicates that one or more records exist in the CDPH Asbestos and Demolition Notification dataset. \r\nENFORCEMENT:  A \u2018Y\u2019 indicates that one or more records exist in the CDPH Environmental Enforcement dataset. \r\nINSPECTIONS:  A \u2018Y\u2019 indicates that one or more records exist in the CDPH Environmental Inspections dataset. \r\nPERMITS:  A \u2018Y\u2019 indicates that one or more records exist in the CDPH Environmental Permits dataset. \r\nTANKS:  A \u2018Y\u2019 indicates that one or more records exist in the CDPH Storage Tanks dataset.  Each 'Y' is a clickable link that will download the corresponding records in CSV format.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,58 +12,7 @@
     }
   }, 
   "name": "CDPH Environmental Records Lookup Table", 
-  "schema": {
-    "columns": [
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "direction", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "complaints", 
-        "type": "text"
-      }, 
-      {
-        "name": "neshaps_demolition_notices", 
-        "type": "text"
-      }, 
-      {
-        "name": "enforcement", 
-        "type": "text"
-      }, 
-      {
-        "name": "inspections", 
-        "type": "text"
-      }, 
-      {
-        "name": "permits", 
-        "type": "text"
-      }, 
-      {
-        "name": "tanks", 
-        "type": "text"
-      }, 
-      {
-        "name": "holds", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "cdph_environmental_records_lookup_table"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "cdph_environmental_records_lookup_table"
 }

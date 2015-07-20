@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_raleighnc_rha_section_8_vouchers_in_raleigh/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.raleighnc.gov/api/views/p85i-ctnm/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.raleighnc.gov/api/views/p85i-ctnm/rows.csv", 
   "description": "RHA Section 8 Vouchers count by Census Tract", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,18 +13,7 @@
     }
   }, 
   "name": "RHA Section 8 Vouchers In Raleigh", 
-  "schema": {
-    "columns": [
-      {
-        "name": "tract", 
-        "type": "text"
-      }, 
-      {
-        "name": "rha_count", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.raleighnc.gov", 
-  "tableName": "rha_section_8_vouchers_in_raleigh"
+  "schema": "socrata/data.raleighnc.gov", 
+  "status": "needs review", 
+  "table": "rha_section_8_vouchers_in_raleigh"
 }

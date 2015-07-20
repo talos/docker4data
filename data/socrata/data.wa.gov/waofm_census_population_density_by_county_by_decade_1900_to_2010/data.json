@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/waofm_census_population_density_by_county_by_decade_1900_to_2010/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/e6ip-wkqq/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.wa.gov/api/views/e6ip-wkqq/rows.csv", 
   "description": "Washington state population density by county by decade 1900 to 2010.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,62 +13,7 @@
     }
   }, 
   "name": "WAOFM - Census - Population Density by County by Decade, 1900 to 2010", 
-  "schema": {
-    "columns": [
-      {
-        "name": "county_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "population_density_1900", 
-        "type": "real"
-      }, 
-      {
-        "name": "population_density_1910", 
-        "type": "real"
-      }, 
-      {
-        "name": "population_density_1920", 
-        "type": "real"
-      }, 
-      {
-        "name": "population_density_1930", 
-        "type": "real"
-      }, 
-      {
-        "name": "population_density_1940", 
-        "type": "real"
-      }, 
-      {
-        "name": "population_density_1950", 
-        "type": "real"
-      }, 
-      {
-        "name": "population_density_1960", 
-        "type": "real"
-      }, 
-      {
-        "name": "population_density_1970", 
-        "type": "real"
-      }, 
-      {
-        "name": "population_density_1980", 
-        "type": "real"
-      }, 
-      {
-        "name": "population_density_1990", 
-        "type": "real"
-      }, 
-      {
-        "name": "population_density_2000", 
-        "type": "real"
-      }, 
-      {
-        "name": "population_density_2010", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.wa.gov", 
-  "tableName": "waofm_census_population_density_by_county_by_decade_1900_to_2010"
+  "schema": "socrata/data.wa.gov", 
+  "status": "needs review", 
+  "table": "waofm_census_population_density_by_county_by_decade_1900_to_2010"
 }

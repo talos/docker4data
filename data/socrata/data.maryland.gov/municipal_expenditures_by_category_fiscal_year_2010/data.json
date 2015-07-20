@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/municipal_expenditures_by_category_fiscal_year_2010/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/6ndv-zvyu/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/6ndv-zvyu/rows.csv", 
   "description": "Percentages of municipalities' expenditures towards general government, public safety, public works, health and social services, education and libraries, parks and recreation, and debt service -- broken out by county. Source: Local Government Finances Fiscal 2010 (Department of Legislative Services), via Overview of Maryland Local Governments Finances and Demographic Information (Department of Legislative Services, 2012. Link: http://mgaleg.maryland.gov/pubs/budgetfiscal/2012-local-government-finances-demographics.pdf)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "Municipal Expenditures By Category \u2013 Fiscal Year 2010", 
-  "schema": {
-    "columns": [
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "general_government", 
-        "type": "text"
-      }, 
-      {
-        "name": "public_safety", 
-        "type": "text"
-      }, 
-      {
-        "name": "public_works", 
-        "type": "text"
-      }, 
-      {
-        "name": "parks_recreation", 
-        "type": "text"
-      }, 
-      {
-        "name": "community_development", 
-        "type": "text"
-      }, 
-      {
-        "name": "economic_development", 
-        "type": "text"
-      }, 
-      {
-        "name": "debt_service", 
-        "type": "text"
-      }, 
-      {
-        "name": "other", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "municipal_expenditures_by_category_fiscal_year_2010"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "municipal_expenditures_by_category_fiscal_year_2010"
 }

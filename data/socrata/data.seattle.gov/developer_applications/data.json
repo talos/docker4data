@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_developer_applications/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/iv32-jq4d/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/iv32-jq4d/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,46 +9,7 @@
     }
   }, 
   "name": "Developer Applications", 
-  "schema": {
-    "columns": [
-      {
-        "name": "application_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "application_owner_team", 
-        "type": "text"
-      }, 
-      {
-        "name": "image", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "link_to_app", 
-        "type": "text"
-      }, 
-      {
-        "name": "link_to_code_repository", 
-        "type": "text"
-      }, 
-      {
-        "name": "approved", 
-        "type": "text"
-      }, 
-      {
-        "name": "official", 
-        "type": "text"
-      }, 
-      {
-        "name": "order", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "developer_applications"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "developer_applications"
 }

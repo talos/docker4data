@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/freeway_buffer_1000ft/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oaklandnet.com/api/geospatial/h8hb-35um", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.oaklandnet.com/api/geospatial/h8hb-35um", 
   "description": "1000 ft buffer around 880, 980, and the section of 580 that borders west Oakland. These areas are currently being considered for PCA designation.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,7 +13,7 @@
     }
   }, 
   "name": "Freeway Buffer 1000ft", 
-  "schema": {}, 
-  "schemaName": "socrata/data.oaklandnet.com", 
-  "tableName": "freeway_buffer_1000ft"
+  "schema": "socrata/data.oaklandnet.com", 
+  "status": "needs review", 
+  "table": "freeway_buffer_1000ft"
 }

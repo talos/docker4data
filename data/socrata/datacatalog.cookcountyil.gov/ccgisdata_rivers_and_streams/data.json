@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ccgisdata_rivers_and_streams/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/geospatial/sbwa-jayd", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/geospatial/sbwa-jayd", 
   "description": "The Rivers and Streams data set represents, as a single line, the interpreted midline of flowing water features as seen on the aerial photography.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "ccgisdata -  Rivers and Streams", 
-  "schema": {}, 
-  "schemaName": "socrata/datacatalog.cookcountyil.gov", 
-  "tableName": "ccgisdata_rivers_and_streams"
+  "schema": "socrata/datacatalog.cookcountyil.gov", 
+  "status": "needs review", 
+  "table": "ccgisdata_rivers_and_streams"
 }

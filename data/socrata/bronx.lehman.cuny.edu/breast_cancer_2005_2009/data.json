@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/breast_cancer_2005_2009/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/9ejb-i5ke/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/9ejb-i5ke/rows.csv", 
   "description": "The ZIP Code lists show the number of people who developed the specific type of cancer while living in the ZIP Code area between 2005 and 2009. The lists also show the number of people who might have been expected to get cancer in that time period, based on the size of the population of the ZIP Code. For more info, see http://www.health.ny.gov/statistics/cancer/registry/zipcode/faq.htm", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,6 @@
     }
   }, 
   "name": "Breast Cancer 2005-2009", 
-  "schema": {
-    "columns": [
-      {
-        "name": "zip_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "observed_number_of_cases", 
-        "type": "real"
-      }, 
-      {
-        "name": "expected_number_of_cases", 
-        "type": "real"
-      }, 
-      {
-        "name": "percent_difference_from_expected", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/bronx.lehman.cuny.edu", 
-  "tableName": "breast_cancer_2005_2009"
+  "schema": "socrata/bronx.lehman.cuny.edu", 
+  "table": "breast_cancer_2005_2009"
 }

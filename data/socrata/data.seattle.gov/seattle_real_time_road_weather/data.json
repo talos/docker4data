@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_seattle_real_time_road_weather/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/q773-8un5/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/q773-8un5/rows.csv", 
   "description": "This dataset provides street surface and ambient air temperatures collected from SDOT's Road Weather stations.  The dataset is updated every 15 minutes", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "Seattle Real Time Road Weather", 
-  "schema": {
-    "columns": [
-      {
-        "name": "station_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "temperaturedatetime", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "record_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "street_surface_temperature", 
-        "type": "real"
-      }, 
-      {
-        "name": "ambient_air_temperature", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "seattle_real_time_road_weather"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "seattle_real_time_road_weather"
 }

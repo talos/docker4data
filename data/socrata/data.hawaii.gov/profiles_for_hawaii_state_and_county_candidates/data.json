@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_profiles_for_hawaii_state_and_county_candidates/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/9ewi-sbvu/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/9ewi-sbvu/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -15,34 +11,7 @@
     }
   }, 
   "name": "Profiles For Hawaii State and County Candidates", 
-  "schema": {
-    "columns": [
-      {
-        "name": "reg_no", 
-        "type": "text"
-      }, 
-      {
-        "name": "candidate_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "office", 
-        "type": "text"
-      }, 
-      {
-        "name": "election_period", 
-        "type": "text"
-      }, 
-      {
-        "name": "ep_start_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "ep_end_date", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "profiles_for_hawaii_state_and_county_candidates"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "profiles_for_hawaii_state_and_county_candidates"
 }

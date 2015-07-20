@@ -1,0 +1,22 @@
+CREATE TABLE "crime_rates_1980_2012" (
+	"year"	real,
+	"population"	real,
+	"violent_crime_total"	real,
+	"murder_and_non_negligent_manslaughter"	real,
+	"forcible_rape"	real,
+	"robbery"	real,
+	"aggravated_assault"	real,
+	"property_crime_total"	real,
+	"burglary"	real,
+	"larceny_theft"	real,
+	"motor_vehicle_theft"	real,
+	"violent_crime_rate"	real,
+	"murder_and_non_negligent_manslaughter_rate"	real,
+	"forcible_rape_rate"	real,
+	"robbery_rate"	real,
+	"aggravated_assault_rate"	real,
+	"property_crime_rate"	real,
+	"burglary_rate"	real,
+	"larceny_theft_rate"	real,
+	"motor_vehicle_theft_rate"	real
+);

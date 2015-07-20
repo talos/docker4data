@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_2012_business_license_data_updated_june_2013_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/qmtq-5rpt/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/qmtq-5rpt/rows.csv", 
   "description": "Dataset contains active business license data for the City of Seattle for 2012 updated in June 2013.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "2012 Business License Data (Updated June 2013)", 
-  "schema": {
-    "columns": [
-      {
-        "name": "business_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "business_legal_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "ownership", 
-        "type": "text"
-      }, 
-      {
-        "name": "trade_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "naics_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "nacisdesc", 
-        "type": "text"
-      }, 
-      {
-        "name": "sic_code_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "sic_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "lic_start_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "city_state_zip", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "2012_business_license_data_updated_june_2013_"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "2012_business_license_data_updated_june_2013_"
 }

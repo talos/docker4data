@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_colorado_state_minimum_wage_2010_2014/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/ijcd-v284/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/api/views/ijcd-v284/rows.csv", 
   "description": "Minimum wage in Colorado, including tipped employees, from 2010 to 2014.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "Colorado State Minimum Wage, 2010 - 2014", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "minimum_wage", 
-        "type": "real"
-      }, 
-      {
-        "name": "tipped_employee_wage", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "colorado_state_minimum_wage_2010_2014"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "colorado_state_minimum_wage_2010_2014"
 }

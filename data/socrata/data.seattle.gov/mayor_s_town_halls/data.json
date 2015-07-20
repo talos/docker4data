@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_mayor_s_town_halls/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/k3fj-6j29/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/k3fj-6j29/rows.csv", 
   "description": "A list of all of Mayor McGinn's public outreach meetings from 2010 to 2013, current as of 9/6/13. Contact Sol Villarreal in the Mayor's Office with questions: sol.villarreal@seattle.gov.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "Mayor's Town Halls", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "event", 
-        "type": "text"
-      }, 
-      {
-        "name": "venue", 
-        "type": "text"
-      }, 
-      {
-        "name": "seattle_channel_url", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "mayor_s_town_halls"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "mayor_s_town_halls"
 }

@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/industry_profile_accommodation_and_food_services_industry/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/download/gihn-metzapplication/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/download/gihn-metz/application/pdf", 
   "description": "\"Industry Profiles\" is a series on the largest industries in Boston. They contain facts on employment, major employers, education, and more. This report highlights Boston's Accommodation and Food Services industry.", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,9 +13,7 @@
     }
   }, 
   "name": "Industry Profile: Accommodation and Food Services Industry", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "industry_profile_accommodation_and_food_services_industry"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "industry_profile_accommodation_and_food_services_industry"
 }

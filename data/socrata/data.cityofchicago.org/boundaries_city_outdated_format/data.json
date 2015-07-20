@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/boundaries_city_outdated_format/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/download/q38j-zgreapplication/zip; charset=binary", 
-    "type": "application/zip; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/download/q38j-zgre/application/zip", 
   "description": "City boundary of Chicago in shapefile format. This dataset has been superseded by https://data.cityofchicago.org/d/ewy2-6yfk, which is in a more flexible format that still allows shapefile downloads.  Please use that dataset instead.  This one will eventually be removed.", 
+  "load": "TODO: zip", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,9 +14,7 @@
     }
   }, 
   "name": "Boundaries - City - Outdated Format", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "boundaries_city_outdated_format"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "boundaries_city_outdated_format"
 }

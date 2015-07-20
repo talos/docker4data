@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_ssmma_property_tax/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/jjf8-mx47/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/jjf8-mx47/rows.csv", 
   "description": "This dataset provides a overview of property tax rates across Chicago Southland communities", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "SSMMA Property Tax", 
-  "schema": {
-    "columns": [
-      {
-        "name": "objectid", 
-        "type": "real"
-      }, 
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "type", 
-        "type": "text"
-      }, 
-      {
-        "name": "st", 
-        "type": "text"
-      }, 
-      {
-        "name": "stfips", 
-        "type": "real"
-      }, 
-      {
-        "name": "fips_place", 
-        "type": "real"
-      }, 
-      {
-        "name": "propertyta", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "ssmma_property_tax"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "ssmma_property_tax"
 }

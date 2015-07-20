@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_coffee_with_the_sallys_map/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/kdjv-k5qf/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/kdjv-k5qf/rows.csv", 
   "description": "Grab a coffee and join Seattle City Councilmember Sally Bagshaw and Seattle City Council President Sally Clark for conversation and caffeine out in your neighborhood.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,22 +11,7 @@
     }
   }, 
   "name": "Coffee with the Sallys Map", 
-  "schema": {
-    "columns": [
-      {
-        "name": "common_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "icon", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "coffee_with_the_sallys_map"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "coffee_with_the_sallys_map"
 }

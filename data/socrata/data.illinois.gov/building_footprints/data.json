@@ -1,9 +1,6 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/building_footprints/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/geospatial/ypum-ncwe", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/geospatial/ypum-ncwe", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -15,7 +12,7 @@
     }
   }, 
   "name": "Building Footprints", 
-  "schema": {}, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "building_footprints"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "building_footprints"
 }

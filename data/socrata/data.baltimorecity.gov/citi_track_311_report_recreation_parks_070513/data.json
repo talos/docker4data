@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/citi_track_311_report_recreation_parks_070513/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.baltimorecity.gov/download/yg7i-ridcapplication/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.baltimorecity.gov/download/yg7i-ridc/application/pdf", 
   "description": "Summary report of Recreation & Parks 311 performance", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,9 +14,7 @@
     }
   }, 
   "name": "Citi Track 311 Report Recreation & Parks 070513", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.baltimorecity.gov", 
-  "tableName": "citi_track_311_report_recreation_parks_070513"
+  "schema": "socrata/data.baltimorecity.gov", 
+  "status": "needs review", 
+  "table": "citi_track_311_report_recreation_parks_070513"
 }

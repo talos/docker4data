@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/bronx_2010_puma_language_by_houshold/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/cu5c-g8jj/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/cu5c-g8jj/rows.csv", 
   "description": "Language spoken in the household as recorded during the 2010 Census, divided by PUMA (public use microdata area). More info on PUMA can be found here: https://www.census.gov/geo/reference/puma.html \n\nData was acquired from Lehman College Geography Department faculty", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,62 +13,6 @@
     }
   }, 
   "name": "Bronx 2010 PUMA Language By Houshold", 
-  "schema": {
-    "columns": [
-      {
-        "name": "puma", 
-        "type": "text"
-      }, 
-      {
-        "name": "total_households_by_language", 
-        "type": "real"
-      }, 
-      {
-        "name": "english_only", 
-        "type": "real"
-      }, 
-      {
-        "name": "spanish", 
-        "type": "real"
-      }, 
-      {
-        "name": "spanish_no_one_14_up_speaks_eng_very_well", 
-        "type": "real"
-      }, 
-      {
-        "name": "other_indo_european_languages", 
-        "type": "real"
-      }, 
-      {
-        "name": "other_indo_european_languages_no_one_14_up_speaks_eng_very_well", 
-        "type": "real"
-      }, 
-      {
-        "name": "asian_and_pacific_island_languages", 
-        "type": "real"
-      }, 
-      {
-        "name": "asian_and_pacific_island_languages_no_one_14_up_speaks_eng_very_well", 
-        "type": "real"
-      }, 
-      {
-        "name": "other_languages", 
-        "type": "real"
-      }, 
-      {
-        "name": "other_languages_no_one_14_up_speaks_eng_very_well", 
-        "type": "real"
-      }, 
-      {
-        "name": "hholds_lingiso_no_adult_spks_eng_very_well", 
-        "type": "real"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/bronx.lehman.cuny.edu", 
-  "tableName": "bronx_2010_puma_language_by_houshold"
+  "schema": "socrata/bronx.lehman.cuny.edu", 
+  "table": "bronx_2010_puma_language_by_houshold"
 }

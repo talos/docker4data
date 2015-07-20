@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_pc_tssb_wkly/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/4rpu-rhfz/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/4rpu-rhfz/rows.csv", 
   "description": "ICSD", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,58 +11,7 @@
     }
   }, 
   "name": "PC TSSB WKLY", 
-  "schema": {
-    "columns": [
-      {
-        "name": "transaction_no", 
-        "type": "text"
-      }, 
-      {
-        "name": "transaction_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "post_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "department", 
-        "type": "text"
-      }, 
-      {
-        "name": "settlement_sign", 
-        "type": "text"
-      }, 
-      {
-        "name": "settlement_amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "vendor_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "category", 
-        "type": "text"
-      }, 
-      {
-        "name": "fund", 
-        "type": "text"
-      }, 
-      {
-        "name": "fy", 
-        "type": "text"
-      }, 
-      {
-        "name": "appr", 
-        "type": "real"
-      }, 
-      {
-        "name": "cost_center", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "pc_tssb_wkly"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "pc_tssb_wkly"
 }

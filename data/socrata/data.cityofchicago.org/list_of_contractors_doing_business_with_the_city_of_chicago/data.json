@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/list_of_contractors_doing_business_with_the_city_of_chicago/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/5wd9-d675/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/5wd9-d675/rows.csv", 
   "description": "In accordance with the Governmental Ethics Ordinance, the Department of Innovation & Technology provides the following list of current and former contractors who, during the preceding four reporting years, received from the City of Chicago payments totaling $10,000 or more in any 12 consecutive months period. The data source for this list is the Financial Management and Purchasing Systems (FMPS).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "List of Contractors Doing Business with the City Of Chicago", 
-  "schema": {
-    "columns": [
-      {
-        "name": "vendor_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendor", 
-        "type": "text"
-      }, 
-      {
-        "name": "address_line_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "address_line_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "list_of_contractors_doing_business_with_the_city_of_chicago"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "list_of_contractors_doing_business_with_the_city_of_chicago"
 }

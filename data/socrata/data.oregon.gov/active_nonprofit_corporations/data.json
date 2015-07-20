@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oregon_active_nonprofit_corporations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/8kyv-b2kw/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/api/views/8kyv-b2kw/rows.csv", 
   "description": "Nonprofit corporations active on the record of the Secretary of State Corporation Division as of the first working day of the month. Updated 3/2/2014.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,82 +12,7 @@
     }
   }, 
   "name": "Active Nonprofit Corporations", 
-  "schema": {
-    "columns": [
-      {
-        "name": "registry_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "business_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "entity_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "registry_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "nonprofit_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "associated_name_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "first_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "middle_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "last_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "suffix", 
-        "type": "text"
-      }, 
-      {
-        "name": "not_of_record_entity", 
-        "type": "text"
-      }, 
-      {
-        "name": "entity_of_record_reg_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "entity_of_record_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "address_continued", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "active_nonprofit_corporations"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "active_nonprofit_corporations"
 }

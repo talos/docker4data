@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_baltimorecity_cctv_locations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/hdyb-27ak/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/hdyb-27ak/rows.csv", 
   "description": "Closed circuit camera locations capturing activity within 256ft (~2 blocks).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "CCTV Locations", 
-  "schema": {
-    "columns": [
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "project", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.baltimorecity.gov", 
-  "tableName": "cctv_locations"
+  "schema": "socrata/data.baltimorecity.gov", 
+  "status": "needs review", 
+  "table": "cctv_locations"
 }

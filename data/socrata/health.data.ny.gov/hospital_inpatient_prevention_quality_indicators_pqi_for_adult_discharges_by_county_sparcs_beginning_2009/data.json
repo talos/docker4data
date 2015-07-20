@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/hospital_inpatient_prevention_quality_indicators_pqi_for_adult_discharges_by_county_sparcs_beginning_2009/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/iqp6-vdi4/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/health.data.ny.gov/api/views/iqp6-vdi4/rows.csv", 
   "description": "This is one of two datasets that contain observed and expected rates for Agency for Healthcare Research and Quality Prevention Quality Indicators \u2013 Adult (AHRQ PQI) beginning in 2009. This dataset is at the county level. The Agency for Healthcare Research and Quality (AHRQ) Prevention Quality Indicators (PQIs) are a set of population based measures that can be used with hospital inpatient discharge data to identify ambulatory care sensitive conditions. These are conditions where 1) the need for hospitalization is potentially preventable with appropriate outpatient care, or 2) conditions that could be less severe if treated early and appropriately. All PQIs apply only to adult populations (over the age of 18 years).  The rates were calculated using Statewide Planning and Research Cooperative System (SPARCS) inpatient data and Claritas population information. For more information, check out: http://www.health.ny.gov/statistics/sparcs/ or go to the \"About\" tab. \r\n\r\nThe observed rates and expected rates for each AHRQ PQI is presented by either resident county (including a statewide total) or resident zip code (including a statewide total).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "Hospital Inpatient Prevention Quality Indicators (PQI) for Adult Discharges by County (SPARCS): Beginning 2009", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "patient_county", 
-        "type": "text"
-      }, 
-      {
-        "name": "pqi_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "pqi_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "observed_rate_per_100_000_people", 
-        "type": "real"
-      }, 
-      {
-        "name": "expected_rate_per_100_000_people", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/health.data.ny.gov", 
-  "tableName": "hospital_inpatient_prevention_quality_indicators_pqi_for_adult_discharges_by_county_sparcs_beginning_2009"
+  "schema": "socrata/health.data.ny.gov", 
+  "status": "needs review", 
+  "table": "hospital_inpatient_prevention_quality_indicators_pqi_for_adult_discharges_by_county_sparcs_beginning_2009"
 }

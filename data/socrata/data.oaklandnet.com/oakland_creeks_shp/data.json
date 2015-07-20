@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/oakland_creeks_shp/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oaklandnet.com/api/geospatial/yrzt-bxmu", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.oaklandnet.com/api/geospatial/yrzt-bxmu", 
   "description": "Creeks within Oakland, including daylighted creeks and culverted creeks.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,7 +13,7 @@
     }
   }, 
   "name": "Oakland Creeks.shp", 
-  "schema": {}, 
-  "schemaName": "socrata/data.oaklandnet.com", 
-  "tableName": "oakland_creeks_shp"
+  "schema": "socrata/data.oaklandnet.com", 
+  "status": "needs review", 
+  "table": "oakland_creeks_shp"
 }

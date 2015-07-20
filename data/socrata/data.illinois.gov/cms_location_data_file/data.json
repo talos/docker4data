@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_cms_location_data_file/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/6pug-rk3y/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/6pug-rk3y/rows.csv", 
   "description": "This file contains information to allow developers to correlate data from other extracts and determine location information.  This file does not contain GIS coordinates.  Please contact cms.data@illinois.gov for questions or to report problems with this dataset.  Please see the data definition file located in the Files and Documents section for additional details.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,30 +12,7 @@
     }
   }, 
   "name": "CMS Location Data File", 
-  "schema": {
-    "columns": [
-      {
-        "name": "zipcode", 
-        "type": "text"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "il_county_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "fips_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "county_seat", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "cms_location_data_file"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "cms_location_data_file"
 }

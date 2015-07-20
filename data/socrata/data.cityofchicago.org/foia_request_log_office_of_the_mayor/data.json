@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_foia_request_log_office_of_the_mayor/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/srzw-dcvg/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/srzw-dcvg/rows.csv", 
   "description": "FOIA requests received by the Office of the Mayor as of May 1, 2010", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "FOIA Request Log - Office of the Mayor", 
-  "schema": {
-    "columns": [
-      {
-        "name": "requestor_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "organization", 
-        "type": "text"
-      }, 
-      {
-        "name": "description_of_request", 
-        "type": "text"
-      }, 
-      {
-        "name": "date_received", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "due_date", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "foia_request_log_office_of_the_mayor"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "foia_request_log_office_of_the_mayor"
 }

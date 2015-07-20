@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/current_employee_names_salaries_and_position_titles/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/xzkq-xp2w/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/xzkq-xp2w/rows.csv", 
   "description": "This dataset is a listing of all current City of Chicago employees, complete with full names, departments, positions, and annual salaries. For hourly employees the annual salary is estimated. Data Owner: Human Resources. Frequency: Data is updated quarterly. For information on the positions and related salaries detailed in the budget as of January 1, 2013, visit the \"Budget - 2013 Budget Ordinance - Positions and Salaries\" dataset: https://data.cityofchicago.org/d/78az-bt2s.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "Current Employee Names, Salaries, and Position Titles", 
-  "schema": {
-    "columns": [
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "job_titles", 
-        "type": "text"
-      }, 
-      {
-        "name": "department", 
-        "type": "text"
-      }, 
-      {
-        "name": "employee_annual_salary", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "current_employee_names_salaries_and_position_titles"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "current_employee_names_salaries_and_position_titles"
 }

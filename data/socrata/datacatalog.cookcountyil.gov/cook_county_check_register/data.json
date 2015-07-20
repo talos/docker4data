@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/cook_county_check_register/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/gywr-fjeh/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/gywr-fjeh/rows.csv", 
   "description": "This check register provides a cumulative record of payments to County suppliers, vendors and other payees as approved by the Cook County Board of Commissioners. Data covers December 2009 through May 2015.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -11,92 +7,13 @@
   "metadata": {
     "attribution": "Cook County Office of the Comptroller", 
     "category": "Finance & Administration", 
-    "description": "This check register provides a cumulative record of payments to County suppliers, vendors and other payees as approved by the Cook County Board of Commissioners. Data covers December 2009 through May 2015.", 
+    "description": "This check register provides a cumulative record of payments to County suppliers, vendors and other payees as approved by the Cook County Board of Commissioners. Data covers December 2009 through June 2015.", 
     "socrata": {
       "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/gywr-fjeh.json"
     }
   }, 
   "name": "Cook County Check Register", 
-  "schema": {
-    "columns": [
-      {
-        "name": "service_type_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "service_type_desc", 
-        "type": "text"
-      }, 
-      {
-        "name": "check_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "check_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "payee_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "payee_vendor_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "payment_amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "purchase_order", 
-        "type": "real"
-      }, 
-      {
-        "name": "pdmcu", 
-        "type": "real"
-      }, 
-      {
-        "name": "department_nbr", 
-        "type": "real"
-      }, 
-      {
-        "name": "department_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "business_unit_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "business_unit_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendor_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendor_address_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendor_address_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/datacatalog.cookcountyil.gov", 
-  "tableName": "cook_county_check_register"
+  "schema": "socrata/datacatalog.cookcountyil.gov", 
+  "status": "needs review", 
+  "table": "cook_county_check_register"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_nfpa_manufacturing_area_of_origin/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.nfpa.org/api/views/6g2n-v4p9/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.nfpa.org/api/views/6g2n-v4p9/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,38 +9,7 @@
     }
   }, 
   "name": "Manufacturing Area of Origin", 
-  "schema": {
-    "columns": [
-      {
-        "name": "area_of_origin", 
-        "type": "text"
-      }, 
-      {
-        "name": "fires_non_confined", 
-        "type": "real"
-      }, 
-      {
-        "name": "fires_confined", 
-        "type": "real"
-      }, 
-      {
-        "name": "fires_total", 
-        "type": "real"
-      }, 
-      {
-        "name": "dollar_loss_non_confined", 
-        "type": "real"
-      }, 
-      {
-        "name": "dollar_loss_confined", 
-        "type": "real"
-      }, 
-      {
-        "name": "dollar_loss_total", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.nfpa.org", 
-  "tableName": "manufacturing_area_of_origin"
+  "schema": "socrata/data.nfpa.org", 
+  "status": "needs review", 
+  "table": "manufacturing_area_of_origin"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_cdhe_financial_aid/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/g53r-j5td/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/api/views/g53r-j5td/rows.csv", 
   "description": "The primary purpose of this file is to collect the most complete data possible about student aid awards for a fiscal year. Includes all students who are enrolled with a FAFSA on file and applied for or received aid.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,114 +13,7 @@
     }
   }, 
   "name": "CDHE - Financial Aid", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "institutionname", 
-        "type": "text"
-      }, 
-      {
-        "name": "institutionlevelid", 
-        "type": "real"
-      }, 
-      {
-        "name": "institutionlevel", 
-        "type": "text"
-      }, 
-      {
-        "name": "institutiontype", 
-        "type": "text"
-      }, 
-      {
-        "name": "taxtype", 
-        "type": "text"
-      }, 
-      {
-        "name": "cobased", 
-        "type": "text"
-      }, 
-      {
-        "name": "division", 
-        "type": "text"
-      }, 
-      {
-        "name": "fafsaindicator", 
-        "type": "real"
-      }, 
-      {
-        "name": "residencyid", 
-        "type": "real"
-      }, 
-      {
-        "name": "residency", 
-        "type": "text"
-      }, 
-      {
-        "name": "agedesc", 
-        "type": "text"
-      }, 
-      {
-        "name": "agemin", 
-        "type": "real"
-      }, 
-      {
-        "name": "agemax", 
-        "type": "real"
-      }, 
-      {
-        "name": "gender", 
-        "type": "text"
-      }, 
-      {
-        "name": "ethnicity", 
-        "type": "text"
-      }, 
-      {
-        "name": "studentlevel", 
-        "type": "text"
-      }, 
-      {
-        "name": "enrollmentclassification", 
-        "type": "text"
-      }, 
-      {
-        "name": "sumstateaid", 
-        "type": "real"
-      }, 
-      {
-        "name": "sumfederalpell", 
-        "type": "real"
-      }, 
-      {
-        "name": "sumfederalloans", 
-        "type": "real"
-      }, 
-      {
-        "name": "sumotherfederal", 
-        "type": "real"
-      }, 
-      {
-        "name": "sumfederalplus", 
-        "type": "real"
-      }, 
-      {
-        "name": "sumotherloans", 
-        "type": "real"
-      }, 
-      {
-        "name": "sumotherscholarships", 
-        "type": "real"
-      }, 
-      {
-        "name": "recordcount", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "cdhe_financial_aid"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "cdhe_financial_aid"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_youth_substance_abuse_prevention/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/3cfz-8ujx/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/3cfz-8ujx/rows.csv", 
   "description": "Maintain the percentage of youth ages 12-17 exposed to a substance abuse prevention message at 86.6% every year through 2018.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "Youth Substance Abuse Prevention", 
-  "schema": {
-    "columns": [
-      {
-        "name": "years", 
-        "type": "text"
-      }, 
-      {
-        "name": "historical_data", 
-        "type": "text"
-      }, 
-      {
-        "name": "target", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "youth_substance_abuse_prevention"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "youth_substance_abuse_prevention"
 }

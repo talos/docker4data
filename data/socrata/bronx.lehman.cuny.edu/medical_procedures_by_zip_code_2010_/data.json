@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/medical_procedures_by_zip_code_2010_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/7k4f-f4wp/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/7k4f-f4wp/rows.csv", 
   "description": "Table Details\t\t\t\t\t\t\t\r\nRegion: Bronx\t\t\t\t\t\t\t\r\nSource: Hospital Admissions/SPARCS (Detailed) (2010): NYS Dept. of Health\t\t\t\t\t\t\t\r\nCategory: NYC Residents, Any Hospital\t\t\t\t\t\t\t\r\nCount: Persons\t\t\t\t\t\t\t\r\nColumns: Service Category\t\t\t\t\t\t\t\r\nRows: Zip Code\t\t\t\t\t\t\t\r\nThe data satisfies these conditions:\t\t\t\t\t\t\t\r\nBorough is 'Bronx'", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,6 @@
     }
   }, 
   "name": "Medical Procedures by Zip Code (2010)", 
-  "schema": {
-    "columns": [
-      {
-        "name": "zip_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "medical", 
-        "type": "real"
-      }, 
-      {
-        "name": "surgical", 
-        "type": "real"
-      }, 
-      {
-        "name": "pediatric", 
-        "type": "real"
-      }, 
-      {
-        "name": "obstetrical", 
-        "type": "real"
-      }, 
-      {
-        "name": "nursery_newborn", 
-        "type": "real"
-      }, 
-      {
-        "name": "psychiatric", 
-        "type": "real"
-      }, 
-      {
-        "name": "total", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/bronx.lehman.cuny.edu", 
-  "tableName": "medical_procedures_by_zip_code_2010_"
+  "schema": "socrata/bronx.lehman.cuny.edu", 
+  "table": "medical_procedures_by_zip_code_2010_"
 }

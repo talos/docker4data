@@ -1,0 +1,23 @@
+CREATE TABLE "oregon_access_points_and_boat_ramps" (
+	"location_1"	text,
+	"access"	text,
+	"parking"	real,
+	"dock_name"	text,
+	"dock_addre"	text,
+	"city"	text,
+	"waterbody"	text,
+	"owner"	text,
+	"phone"	text,
+	"parkingpav"	real,
+	"parkingunp"	real,
+	"ramp_type"	text,
+	"num_lanes"	real,
+	"boardfloat"	text,
+	"restrooms"	text,
+	"camping"	text,
+	"fuel"	text,
+	"boatrental"	text,
+	"lat"	real,
+	"long"	real,
+	"location_2"	text
+);

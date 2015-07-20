@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_raleighnc_midas_2005_2009_summary_compare/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.raleighnc.gov/api/views/s4ma-jh5i/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.raleighnc.gov/api/views/s4ma-jh5i/rows.csv", 
   "description": "MIDAS Wake County. 2005-2009 U.S. synthesized population data set  version 1-2. Version 1-2 includes Version 1 generic synthesized households with Version 2 group quarters facilities and synthesized persons who reside in them. Population sampling is from the US Census American Communities Survey.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "MIDAS 2005-2009 Summary Compare", 
-  "schema": {
-    "columns": [
-      {
-        "name": "stcotrbg", 
-        "type": "real"
-      }, 
-      {
-        "name": "count_of_households", 
-        "type": "real"
-      }, 
-      {
-        "name": "size_accuracy", 
-        "type": "real"
-      }, 
-      {
-        "name": "age_accuracy", 
-        "type": "real"
-      }, 
-      {
-        "name": "income_accuracy", 
-        "type": "real"
-      }, 
-      {
-        "name": "race_accuracy", 
-        "type": "real"
-      }, 
-      {
-        "name": "overall_accuracy", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.raleighnc.gov", 
-  "tableName": "midas_2005_2009_summary_compare"
+  "schema": "socrata/data.raleighnc.gov", 
+  "status": "needs review", 
+  "table": "midas_2005_2009_summary_compare"
 }

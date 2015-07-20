@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_govloop_personnel_data/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.govloop.com/api/views/9tsu-xipw/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.govloop.com/api/views/9tsu-xipw/rows.csv", 
   "description": "OPM personnel data", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,62 +12,7 @@
     }
   }, 
   "name": "Personnel Data", 
-  "schema": {
-    "columns": [
-      {
-        "name": "d_department_of_defense", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_all", 
-        "type": "real"
-      }, 
-      {
-        "name": "occupation_all", 
-        "type": "real"
-      }, 
-      {
-        "name": "occupational_category_all", 
-        "type": "text"
-      }, 
-      {
-        "name": "pay_plan_and_grade_all", 
-        "type": "text"
-      }, 
-      {
-        "name": "general_schedule_and_related_grade_all", 
-        "type": "text"
-      }, 
-      {
-        "name": "salary_level_all", 
-        "type": "text"
-      }, 
-      {
-        "name": "work_schedule_all", 
-        "type": "text"
-      }, 
-      {
-        "name": "type_of_appointment_all", 
-        "type": "text"
-      }, 
-      {
-        "name": "gender_all", 
-        "type": "text"
-      }, 
-      {
-        "name": "age_all", 
-        "type": "text"
-      }, 
-      {
-        "name": "length_of_service_all", 
-        "type": "text"
-      }, 
-      {
-        "name": "employment", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.govloop.com", 
-  "tableName": "personnel_data"
+  "schema": "socrata/data.govloop.com", 
+  "status": "needs review", 
+  "table": "personnel_data"
 }

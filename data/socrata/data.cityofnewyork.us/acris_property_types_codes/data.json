@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_acris_property_types_codes/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/94g4-w6xz/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/94g4-w6xz/rows.csv", 
   "description": "ACRIS State mapping for Codes in the ACRIS Real and Personal Property Legals Datasets", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "ACRIS - Property Types Codes", 
-  "schema": {
-    "columns": [
-      {
-        "name": "record_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "property_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "acris_property_types_codes"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "acris_property_types_codes"
 }

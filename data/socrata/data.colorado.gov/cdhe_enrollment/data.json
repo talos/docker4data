@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_cdhe_enrollment/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/p8m4-v33g/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/api/views/p8m4-v33g/rows.csv", 
   "description": "Current Enrollment refers to all students currently enrolled in courses awarding credit toward a degree or other formal award. The file is collected every semester from each public post\u00adsecondary education institution participating in SURDS.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,86 +13,7 @@
     }
   }, 
   "name": "CDHE - Enrollment", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "institutionname", 
-        "type": "text"
-      }, 
-      {
-        "name": "institutionlevelid", 
-        "type": "real"
-      }, 
-      {
-        "name": "institutionlevel", 
-        "type": "text"
-      }, 
-      {
-        "name": "institutiontype", 
-        "type": "text"
-      }, 
-      {
-        "name": "taxtype", 
-        "type": "text"
-      }, 
-      {
-        "name": "division", 
-        "type": "text"
-      }, 
-      {
-        "name": "agedesc", 
-        "type": "text"
-      }, 
-      {
-        "name": "max", 
-        "type": "real"
-      }, 
-      {
-        "name": "min", 
-        "type": "real"
-      }, 
-      {
-        "name": "gender", 
-        "type": "text"
-      }, 
-      {
-        "name": "ethnicity", 
-        "type": "text"
-      }, 
-      {
-        "name": "studentlevel", 
-        "type": "text"
-      }, 
-      {
-        "name": "degreelevel", 
-        "type": "text"
-      }, 
-      {
-        "name": "residencyid", 
-        "type": "real"
-      }, 
-      {
-        "name": "residency", 
-        "type": "text"
-      }, 
-      {
-        "name": "registrationstatusid", 
-        "type": "real"
-      }, 
-      {
-        "name": "registrationstatus", 
-        "type": "text"
-      }, 
-      {
-        "name": "recordcount", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "cdhe_enrollment"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "cdhe_enrollment"
 }

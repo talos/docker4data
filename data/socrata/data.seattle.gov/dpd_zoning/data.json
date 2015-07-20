@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_dpd_zoning/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/r6xd-5qab/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/r6xd-5qab/rows.csv", 
   "description": "City of Seattle zoning & associated special districts (ex: historical)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,118 +13,7 @@
     }
   }, 
   "name": "DPD.ZONING", 
-  "schema": {
-    "columns": [
-      {
-        "name": "objectid", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape", 
-        "type": "text"
-      }, 
-      {
-        "name": "zoneid", 
-        "type": "real"
-      }, 
-      {
-        "name": "zoning", 
-        "type": "text"
-      }, 
-      {
-        "name": "zonelut", 
-        "type": "text"
-      }, 
-      {
-        "name": "contract", 
-        "type": "text"
-      }, 
-      {
-        "name": "ordinance", 
-        "type": "text"
-      }, 
-      {
-        "name": "effective", 
-        "type": "text"
-      }, 
-      {
-        "name": "historic", 
-        "type": "text"
-      }, 
-      {
-        "name": "pedestrian", 
-        "type": "text"
-      }, 
-      {
-        "name": "shoreline", 
-        "type": "text"
-      }, 
-      {
-        "name": "overlay", 
-        "type": "text"
-      }, 
-      {
-        "name": "village", 
-        "type": "text"
-      }, 
-      {
-        "name": "split1", 
-        "type": "real"
-      }, 
-      {
-        "name": "lightrail", 
-        "type": "text"
-      }, 
-      {
-        "name": "oldzoneid", 
-        "type": "real"
-      }, 
-      {
-        "name": "geo", 
-        "type": "text"
-      }, 
-      {
-        "name": "symbol", 
-        "type": "real"
-      }, 
-      {
-        "name": "zonelut_de", 
-        "type": "text"
-      }, 
-      {
-        "name": "class_desc", 
-        "type": "text"
-      }, 
-      {
-        "name": "mio", 
-        "type": "text"
-      }, 
-      {
-        "name": "polyarea", 
-        "type": "real"
-      }, 
-      {
-        "name": "polylen", 
-        "type": "real"
-      }, 
-      {
-        "name": "area", 
-        "type": "real"
-      }, 
-      {
-        "name": "len", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape_length", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape_area", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "dpd_zoning"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "dpd_zoning"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oregon_oregon_state_owned_leased_buildings/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/2q2s-w8ry/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/api/views/2q2s-w8ry/rows.csv", 
   "description": "Locations of buildings owned and leased by the State of Oregon.\r\n\r\n[Note: This dataset does not contain a complete list of state owned and leased buildings, a updated dataset will be uploaded shortly.]", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,50 +12,7 @@
     }
   }, 
   "name": "Oregon State Owned/Leased Buildings", 
-  "schema": {
-    "columns": [
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "zipcode", 
-        "type": "text"
-      }, 
-      {
-        "name": "type", 
-        "type": "text"
-      }, 
-      {
-        "name": "webpage", 
-        "type": "text"
-      }, 
-      {
-        "name": "sqft", 
-        "type": "real"
-      }, 
-      {
-        "name": "expdate", 
-        "type": "text"
-      }, 
-      {
-        "name": "directions", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "oregon_state_owned_leased_buildings"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "oregon_state_owned_leased_buildings"
 }

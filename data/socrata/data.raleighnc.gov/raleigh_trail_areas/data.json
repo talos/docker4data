@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/raleigh_trail_areas/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.raleighnc.gov/api/geospatial/pwv5-a5ca", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.raleighnc.gov/api/geospatial/pwv5-a5ca", 
   "description": "A maps of trails within Raleigh city limits from 2011.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,7 +13,7 @@
     }
   }, 
   "name": "Raleigh Trail Areas", 
-  "schema": {}, 
-  "schemaName": "socrata/data.raleighnc.gov", 
-  "tableName": "raleigh_trail_areas"
+  "schema": "socrata/data.raleighnc.gov", 
+  "status": "needs review", 
+  "table": "raleigh_trail_areas"
 }

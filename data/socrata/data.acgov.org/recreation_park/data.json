@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/recreation_park/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.acgov.org/api/geospatial/mr4m-fm9a", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.acgov.org/api/geospatial/mr4m-fm9a", 
   "description": "Recreation and Park Districts within Alameda County", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,9 +14,7 @@
     }
   }, 
   "name": "Recreation Park", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.acgov.org", 
-  "tableName": "recreation_park"
+  "schema": "socrata/data.acgov.org", 
+  "status": "needs review", 
+  "table": "recreation_park"
 }

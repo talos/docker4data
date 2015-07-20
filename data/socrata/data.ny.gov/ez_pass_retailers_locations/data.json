@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_ez_pass_retailers_locations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/y59h-w6v4/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/y59h-w6v4/rows.csv", 
   "description": "This data file provides the locations of authorized businesses that can sell E-Z Pass tags.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "EZ Pass Retailers Locations", 
-  "schema": {
-    "columns": [
-      {
-        "name": "company", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "ez_pass_retailers_locations"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "ez_pass_retailers_locations"
 }

@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/citistat_dot_082213/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.baltimorecity.gov/download/u3zz-v88fapplication/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.baltimorecity.gov/download/u3zz-v88f/application/pdf", 
   "description": "Data is self reported by agency", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,9 +14,7 @@
     }
   }, 
   "name": "CitiStat DOT 082213", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.baltimorecity.gov", 
-  "tableName": "citistat_dot_082213"
+  "schema": "socrata/data.baltimorecity.gov", 
+  "status": "needs review", 
+  "table": "citistat_dot_082213"
 }

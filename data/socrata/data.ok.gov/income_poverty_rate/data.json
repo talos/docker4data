@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_income_poverty_rate/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/tzab-4a87/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/tzab-4a87/rows.csv", 
   "description": "Decrease the state income poverty rate from 16.8% in 2013 to 15.3% by 2017.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "Income Poverty Rate", 
-  "schema": {
-    "columns": [
-      {
-        "name": "years", 
-        "type": "text"
-      }, 
-      {
-        "name": "historical_data", 
-        "type": "text"
-      }, 
-      {
-        "name": "target", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "income_poverty_rate"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "income_poverty_rate"
 }

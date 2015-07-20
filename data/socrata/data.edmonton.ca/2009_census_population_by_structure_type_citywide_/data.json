@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/2009_census_population_by_structure_type_citywide_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/rjq9-ge5s/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.edmonton.ca/api/views/rjq9-ge5s/rows.csv", 
   "description": "All Census information is as of April 1, 2009.\r\nNo data on any individual residence will be released.  To protect the privacy of individuals, data is compiled and presented at the city-, ward- and neighbourhood-level only.\r\nThe designation of \u201cNo Response\u201d includes households from which no census data could be collected or only partial data was available.\r\nBulk-count data from multiple-resident facilities (such as group homes, transient drop-in centres, residential hotels or criminal detention centres) may be limited when personal information can not be obtained (i.e. information is not available or can not be released by the facility administration).\r\n\u201cOther Residential\u201d includes dwelling units not covered by the other categories, such as a unit attached to a non-residential structure (e.g. an apartment in a store or church) or a movable structure (e.g. recreational vehicle, tent, etc.).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,18 +13,7 @@
     }
   }, 
   "name": "2009 Census - Population By Structure Type (Citywide)", 
-  "schema": {
-    "columns": [
-      {
-        "name": "structure_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "number", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.edmonton.ca", 
-  "tableName": "2009_census_population_by_structure_type_citywide_"
+  "schema": "socrata/data.edmonton.ca", 
+  "status": "needs review", 
+  "table": "2009_census_population_by_structure_type_citywide_"
 }

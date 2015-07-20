@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_developers_featured_content/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/tqcb-5mdd/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/tqcb-5mdd/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,34 +9,7 @@
     }
   }, 
   "name": "Developers Featured Content", 
-  "schema": {
-    "columns": [
-      {
-        "name": "title", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "image", 
-        "type": "text"
-      }, 
-      {
-        "name": "link", 
-        "type": "text"
-      }, 
-      {
-        "name": "order", 
-        "type": "real"
-      }, 
-      {
-        "name": "show", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "developers_featured_content"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "developers_featured_content"
 }

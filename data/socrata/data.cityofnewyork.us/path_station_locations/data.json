@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/path_station_locations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/geospatial/acxp-7ep7", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/geospatial/acxp-7ep7", 
   "description": "Path Station Locations", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,9 +14,7 @@
     }
   }, 
   "name": "Path Station Locations", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "path_station_locations"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "path_station_locations"
 }

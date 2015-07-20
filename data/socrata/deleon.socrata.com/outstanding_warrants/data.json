@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_deleoncom_outstanding_warrants/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/deleon.socrata.com/api/views/xbf3-af3b/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/deleon.socrata.com/api/views/xbf3-af3b/rows.csv", 
   "description": "Individuals with outstanding warrants in the City of De Leon.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,54 +11,7 @@
     }
   }, 
   "name": "Outstanding Warrants", 
-  "schema": {
-    "columns": [
-      {
-        "name": "last_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "middle_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "first_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip", 
-        "type": "text"
-      }, 
-      {
-        "name": "of_warrants", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_cost", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_bond", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/deleon.socrata.com", 
-  "tableName": "outstanding_warrants"
+  "schema": "socrata/deleon.socrata.com", 
+  "status": "needs review", 
+  "table": "outstanding_warrants"
 }

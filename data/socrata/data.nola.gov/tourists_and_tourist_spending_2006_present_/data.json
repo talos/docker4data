@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_nola_tourists_and_tourist_spending_2006_present_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.nola.gov/api/views/hc59-n6t7/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.nola.gov/api/views/hc59-n6t7/rows.csv", 
   "description": "This data includes the number of toursists and tourist spending for the New Orleans Metro on annual basis from 2006 to present. Note: gambling spending was not included in tourist spending before 2012.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "Tourists And Tourist Spending (2006 - Present)", 
-  "schema": {
-    "columns": [
-      {
-        "name": "rowid", 
-        "type": "real"
-      }, 
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "indicator", 
-        "type": "text"
-      }, 
-      {
-        "name": "indicatorvalue", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.nola.gov", 
-  "tableName": "tourists_and_tourist_spending_2006_present_"
+  "schema": "socrata/data.nola.gov", 
+  "status": "needs review", 
+  "table": "tourists_and_tourist_spending_2006_present_"
 }

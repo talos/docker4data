@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_school_progress_report_2007_2008/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/yayv-apxh/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/yayv-apxh/rows.csv", 
   "description": "Progress Reports grade each school with an A, B, C, D, or F. \u00a0These reports focus on a school's learning environment, student performance, and student progress.\u00a0 They were designed to help parents, teachers, principals, and others understand how well schools are doing\u2014and compare them to other, similar schools.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,90 +13,7 @@
     }
   }, 
   "name": "School Progress Report 2007-2008", 
-  "schema": {
-    "columns": [
-      {
-        "name": "dbn", 
-        "type": "text"
-      }, 
-      {
-        "name": "district", 
-        "type": "text"
-      }, 
-      {
-        "name": "school", 
-        "type": "text"
-      }, 
-      {
-        "name": "principal", 
-        "type": "text"
-      }, 
-      {
-        "name": "_2007_08_school_support_organization", 
-        "type": "text"
-      }, 
-      {
-        "name": "progress_report_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "school_level", 
-        "type": "text"
-      }, 
-      {
-        "name": "peer_index", 
-        "type": "text"
-      }, 
-      {
-        "name": "overall_grade", 
-        "type": "text"
-      }, 
-      {
-        "name": "overall_score", 
-        "type": "text"
-      }, 
-      {
-        "name": "environment_category_score", 
-        "type": "text"
-      }, 
-      {
-        "name": "environment_grade", 
-        "type": "text"
-      }, 
-      {
-        "name": "performance_category_score", 
-        "type": "text"
-      }, 
-      {
-        "name": "performance_grade", 
-        "type": "text"
-      }, 
-      {
-        "name": "progress_category_score", 
-        "type": "text"
-      }, 
-      {
-        "name": "progress_grade", 
-        "type": "text"
-      }, 
-      {
-        "name": "additional_credit", 
-        "type": "text"
-      }, 
-      {
-        "name": "_2006_07_progress_report_grade", 
-        "type": "text"
-      }, 
-      {
-        "name": "_2007_08_quality_review_score", 
-        "type": "text"
-      }, 
-      {
-        "name": "_2006_07_federal_accountability_status", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "school_progress_report_2007_2008"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "school_progress_report_2007_2008"
 }

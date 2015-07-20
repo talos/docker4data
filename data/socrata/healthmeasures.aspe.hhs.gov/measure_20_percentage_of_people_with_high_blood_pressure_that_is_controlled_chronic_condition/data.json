@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/measure_20_percentage_of_people_with_high_blood_pressure_that_is_controlled_chronic_condition/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/s82v-nmjz/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/s82v-nmjz/rows.csv", 
   "description": "For more information on how chronic conditions were defined, please see the <a href=\"/help/glossary#C\" rel=\"external\">Glossary</a> under Help.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,30 +11,7 @@
     }
   }, 
   "name": "Measure 20 : Percentage of People with High Blood Pressure that is Controlled | Chronic Condition", 
-  "schema": {
-    "columns": [
-      {
-        "name": "measure_value", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "text"
-      }, 
-      {
-        "name": "chronic_condition", 
-        "type": "text"
-      }, 
-      {
-        "name": "lower_ci", 
-        "type": "real"
-      }, 
-      {
-        "name": "upper_ci", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/healthmeasures.aspe.hhs.gov", 
-  "tableName": "measure_20_percentage_of_people_with_high_blood_pressure_that_is_controlled_chronic_condition"
+  "schema": "socrata/healthmeasures.aspe.hhs.gov", 
+  "status": "needs review", 
+  "table": "measure_20_percentage_of_people_with_high_blood_pressure_that_is_controlled_chronic_condition"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_gasoline_prices_u_s_vs_hawaii_source_dbedt_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/f55i-85xa/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/f55i-85xa/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,22 +9,7 @@
     }
   }, 
   "name": "Gasoline Prices: U.S. vs. Hawaii  (Source: DBEDT)", 
-  "schema": {
-    "columns": [
-      {
-        "name": "date", 
-        "type": "text"
-      }, 
-      {
-        "name": "u_s", 
-        "type": "real"
-      }, 
-      {
-        "name": "state", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "gasoline_prices_u_s_vs_hawaii_source_dbedt_"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "gasoline_prices_u_s_vs_hawaii_source_dbedt_"
 }

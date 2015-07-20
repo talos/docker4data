@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/2009_2059_act_population_projections/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/www.data.act.gov.au/api/views/v64c-5t9x/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/www.data.act.gov.au/api/views/v64c-5t9x/rows.csv", 
   "description": "Projections of the population of the ACT for the period 2009-2059", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "2009-2059 ACT Population Projections", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "text"
-      }, 
-      {
-        "name": "projected_population_male", 
-        "type": "real"
-      }, 
-      {
-        "name": "projected_population_female", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_persons", 
-        "type": "real"
-      }, 
-      {
-        "name": "aged_0_14_years", 
-        "type": "text"
-      }, 
-      {
-        "name": "aged_15_64_years", 
-        "type": "text"
-      }, 
-      {
-        "name": "aged_65_years", 
-        "type": "text"
-      }, 
-      {
-        "name": "median_age", 
-        "type": "real"
-      }, 
-      {
-        "name": "growth_persons_p_a", 
-        "type": "real"
-      }, 
-      {
-        "name": "growth_p_a", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/www.data.act.gov.au", 
-  "tableName": "2009_2059_act_population_projections"
+  "schema": "socrata/www.data.act.gov.au", 
+  "status": "needs review", 
+  "table": "2009_2059_act_population_projections"
 }

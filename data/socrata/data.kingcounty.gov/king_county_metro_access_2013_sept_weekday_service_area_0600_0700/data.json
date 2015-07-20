@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/king_county_metro_access_2013_sept_weekday_service_area_0600_0700/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/geospatial/vht3-x9wm", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.kingcounty.gov/api/geospatial/vht3-x9wm", 
   "description": "This map describes Metro Access' weekday service area between the hours of 6am and 7am. This change takes effect beginning September 30, 2013.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "King County Metro Access - 2013 Sept - Weekday Service Area 0600-0700", 
-  "schema": {}, 
-  "schemaName": "socrata/data.kingcounty.gov", 
-  "tableName": "king_county_metro_access_2013_sept_weekday_service_area_0600_0700"
+  "schema": "socrata/data.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "king_county_metro_access_2013_sept_weekday_service_area_0600_0700"
 }

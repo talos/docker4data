@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/waterways/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/geospatial/eg9f-z3t6", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/geospatial/eg9f-z3t6", 
   "description": "Waterways in Chicago. To view or use these files, compression software and special GIS software, such as ESRI ArcGIS, is required.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Waterways", 
-  "schema": {}, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "waterways"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "waterways"
 }

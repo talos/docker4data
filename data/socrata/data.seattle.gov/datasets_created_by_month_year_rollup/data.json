@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/datasets_created_by_month_year_rollup/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/7v28-5naf/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/7v28-5naf/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,30 +9,7 @@
     }
   }, 
   "name": "Datasets Created By Month - Year Rollup", 
-  "schema": {
-    "columns": [
-      {
-        "name": "creation_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "date_text", 
-        "type": "text"
-      }, 
-      {
-        "name": "count", 
-        "type": "real"
-      }, 
-      {
-        "name": "monthly", 
-        "type": "real"
-      }, 
-      {
-        "name": "yearly", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "datasets_created_by_month_year_rollup"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "datasets_created_by_month_year_rollup"
 }

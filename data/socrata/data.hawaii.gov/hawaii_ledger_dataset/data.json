@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_hawaii_ledger_dataset/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/j62i-gbgw/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/j62i-gbgw/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,94 +9,7 @@
     }
   }, 
   "name": "Hawaii Ledger Dataset", 
-  "schema": {
-    "columns": [
-      {
-        "name": "fiscal_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "fiscal_year_period", 
-        "type": "real"
-      }, 
-      {
-        "name": "department", 
-        "type": "text"
-      }, 
-      {
-        "name": "agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "cost_center", 
-        "type": "text"
-      }, 
-      {
-        "name": "expense_category", 
-        "type": "text"
-      }, 
-      {
-        "name": "fund", 
-        "type": "text"
-      }, 
-      {
-        "name": "fund_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendor", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendor_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendor_zip", 
-        "type": "text"
-      }, 
-      {
-        "name": "payment_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "payment_method", 
-        "type": "text"
-      }, 
-      {
-        "name": "payment_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "payment_status", 
-        "type": "text"
-      }, 
-      {
-        "name": "invoice_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "invoice_line", 
-        "type": "real"
-      }, 
-      {
-        "name": "post_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "expenditure_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "appr", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "hawaii_ledger_dataset"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "hawaii_ledger_dataset"
 }

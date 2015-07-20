@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oregon_state_of_oregon_social_media_sites/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/hqhe-shsc/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/api/views/hqhe-shsc/rows.csv", 
   "description": "List of social media sites by agency", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "State of Oregon Social Media Sites", 
-  "schema": {
-    "columns": [
-      {
-        "name": "agency_board_commission", 
-        "type": "text"
-      }, 
-      {
-        "name": "type_of_social_media", 
-        "type": "text"
-      }, 
-      {
-        "name": "social_media_link", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "acronym", 
-        "type": "text"
-      }, 
-      {
-        "name": "active_inactive", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "type_of_agency", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "state_of_oregon_social_media_sites"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "state_of_oregon_social_media_sites"
 }

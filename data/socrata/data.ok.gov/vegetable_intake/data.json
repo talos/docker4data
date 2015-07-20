@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_vegetable_intake/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/nw63-jcnm/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/nw63-jcnm/rows.csv", 
   "description": "Increase the median intake of vegetables from 1.6 times per day in 2012 to 2.1 times per day by 2017.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "Vegetable Intake", 
-  "schema": {
-    "columns": [
-      {
-        "name": "years", 
-        "type": "text"
-      }, 
-      {
-        "name": "historical_data", 
-        "type": "real"
-      }, 
-      {
-        "name": "target", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "vegetable_intake"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "vegetable_intake"
 }

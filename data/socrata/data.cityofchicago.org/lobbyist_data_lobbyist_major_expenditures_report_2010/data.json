@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/lobbyist_data_lobbyist_major_expenditures_report_2010/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/dqw9-xyre/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/dqw9-xyre/rows.csv", 
   "description": "The lobbyist expense report is part of the Lobbyist Activity Report, a notarized disclosure that lobbyists were required to file twice during 2010 (January 20th and July 20th). Lobbyists were required to report single expenditures paid by the lobbyist or charged to the client totaling $250.00 or more on Form C Part 3 Section H Question 2 (http://bit.ly/q2lRTh). All lobbyist activity reports are submitted to the Board of Ethics in paper form and are available in their entirety in the Board's offices.  / Data Owner: Board of Ethics [http://j.mp/mbH9BN] / Time Period: 2010/  Related Applications: Registered Lobbyist List http://j.mp/l8LwAq.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "Lobbyist Data - Lobbyist Major Expenditures Report - 2010", 
-  "schema": {
-    "columns": [
-      {
-        "name": "lobbyist_last_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "lobbyist_first_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "lobbyist_middle_initial", 
-        "type": "text"
-      }, 
-      {
-        "name": "client_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "expense_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "recipient_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "purpose", 
-        "type": "text"
-      }, 
-      {
-        "name": "amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "action", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "lobbyist_data_lobbyist_major_expenditures_report_2010"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "lobbyist_data_lobbyist_major_expenditures_report_2010"
 }

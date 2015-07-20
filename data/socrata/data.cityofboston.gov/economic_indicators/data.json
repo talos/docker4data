@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofboston_economic_indicators/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/snhc-w7k7/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/api/views/snhc-w7k7/rows.csv", 
   "description": "Economic indicators collected by the Boston Redevelopment Authority. Figures subject to update.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,86 +13,7 @@
     }
   }, 
   "name": "Economic Indicators", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "month", 
-        "type": "real"
-      }, 
-      {
-        "name": "logan_passengers", 
-        "type": "real"
-      }, 
-      {
-        "name": "logan_intl_flights", 
-        "type": "real"
-      }, 
-      {
-        "name": "hotel_occup_rate", 
-        "type": "real"
-      }, 
-      {
-        "name": "hotel_avg_daily_rate", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_jobs", 
-        "type": "real"
-      }, 
-      {
-        "name": "unemp_rate", 
-        "type": "real"
-      }, 
-      {
-        "name": "labor_force_part_rate", 
-        "type": "real"
-      }, 
-      {
-        "name": "pipeline_unit", 
-        "type": "real"
-      }, 
-      {
-        "name": "pipeline_total_dev_cost", 
-        "type": "real"
-      }, 
-      {
-        "name": "pipeline_sqft", 
-        "type": "real"
-      }, 
-      {
-        "name": "pipeline_const_jobs", 
-        "type": "real"
-      }, 
-      {
-        "name": "foreclosure_pet", 
-        "type": "real"
-      }, 
-      {
-        "name": "foreclosure_deeds", 
-        "type": "real"
-      }, 
-      {
-        "name": "med_housing_price", 
-        "type": "real"
-      }, 
-      {
-        "name": "housing_sales_vol", 
-        "type": "real"
-      }, 
-      {
-        "name": "new_housing_const_permits", 
-        "type": "real"
-      }, 
-      {
-        "name": "new_affordable_housing_permits", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "economic_indicators"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "economic_indicators"
 }

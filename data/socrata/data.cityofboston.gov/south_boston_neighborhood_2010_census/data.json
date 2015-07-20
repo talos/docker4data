@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/south_boston_neighborhood_2010_census/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/download/ybpb-72n5application/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/download/ybpb-72n5/application/pdf", 
   "description": "A report featuring data on all people and households in South Boston from the 2010 Census Summary Files (SF-1).", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,7 +13,7 @@
     }
   }, 
   "name": "South Boston, neighborhood: 2010 Census", 
-  "schema": {}, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "south_boston_neighborhood_2010_census"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "south_boston_neighborhood_2010_census"
 }

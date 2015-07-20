@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_expenditures_dollars/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/frxe-s3us/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/frxe-s3us/rows.csv", 
   "description": "Expenditures - dollars", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,38 +12,7 @@
     }
   }, 
   "name": "Expenditures-dollars", 
-  "schema": {
-    "columns": [
-      {
-        "name": "department", 
-        "type": "text"
-      }, 
-      {
-        "name": "bcl", 
-        "type": "text"
-      }, 
-      {
-        "name": "program", 
-        "type": "text"
-      }, 
-      {
-        "name": "_2012_actual", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2013_adopted", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2014_endorsed", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2014_proposed", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "expenditures_dollars"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "expenditures_dollars"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_ides_illinois_establishments_data/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/khk2-fvve/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/khk2-fvve/rows.csv", 
   "description": "Number of Establishments By Size Category, By Local Workforce Area And By Ownership in Illinois", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,58 +13,7 @@
     }
   }, 
   "name": "IDES - Illinois Establishments Data", 
-  "schema": {
-    "columns": [
-      {
-        "name": "area", 
-        "type": "text"
-      }, 
-      {
-        "name": "size_category", 
-        "type": "text"
-      }, 
-      {
-        "name": "private_sector_est", 
-        "type": "text"
-      }, 
-      {
-        "name": "private_sector_emp", 
-        "type": "text"
-      }, 
-      {
-        "name": "federal_gov_t_est", 
-        "type": "text"
-      }, 
-      {
-        "name": "federal_gov_t_emp", 
-        "type": "text"
-      }, 
-      {
-        "name": "state_gov_t_est", 
-        "type": "text"
-      }, 
-      {
-        "name": "state_gov_t_emp", 
-        "type": "text"
-      }, 
-      {
-        "name": "local_gov_t_est", 
-        "type": "text"
-      }, 
-      {
-        "name": "local_gov_t_emp", 
-        "type": "text"
-      }, 
-      {
-        "name": "total_est", 
-        "type": "text"
-      }, 
-      {
-        "name": "total_emp", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "ides_illinois_establishments_data"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "ides_illinois_establishments_data"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_active_property_reviews/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/ihj6-wg8s/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/ihj6-wg8s/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,34 +9,7 @@
     }
   }, 
   "name": "Active Property Reviews", 
-  "schema": {
-    "columns": [
-      {
-        "name": "pma", 
-        "type": "real"
-      }, 
-      {
-        "name": "property_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "status", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "more_info", 
-        "type": "text"
-      }, 
-      {
-        "name": "page_type", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "active_property_reviews"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "active_property_reviews"
 }

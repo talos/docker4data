@@ -1,9 +1,6 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/maryland_heritage_areas/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/geospatial/x377-7dk5", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/geospatial/x377-7dk5", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -14,7 +11,7 @@
     }
   }, 
   "name": "Maryland Heritage Areas", 
-  "schema": {}, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "maryland_heritage_areas"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "maryland_heritage_areas"
 }

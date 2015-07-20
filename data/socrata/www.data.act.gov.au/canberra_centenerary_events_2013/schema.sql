@@ -1,0 +1,23 @@
+CREATE TABLE "canberra_centenerary_events_2013" (
+	"id"	real,
+	"title"	text,
+	"location"	text,
+	"calendar"	text,
+	"from_date"	timestamp,
+	"to_date"	timestamp,
+	"from_time"	text,
+	"to_time"	text,
+	"related_program"	text,
+	"category_arts"	text,
+	"category_brainfood"	text,
+	"category_built_environment"	text,
+	"category_design"	text,
+	"category_family"	text,
+	"category_free"	text,
+	"category_history_and_heritage"	text,
+	"category_indigenous"	text,
+	"category_natural_environment"	text,
+	"category_science_and_discovery"	text,
+	"category_special_events"	text,
+	"category_sport"	text
+);

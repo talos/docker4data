@@ -1,0 +1,20 @@
+CREATE TABLE "transmission_facilities_application_status_location" (
+	"applicationnumber"	text,
+	"carriername"	text,
+	"description"	text,
+	"sitename"	text,
+	"propertynumber"	text,
+	"propertystreet"	text,
+	"propertycity"	text,
+	"zone"	text,
+	"propertyowner"	text,
+	"received"	timestamp,
+	"action"	text,
+	"actiondate"	timestamp,
+	"latitude"	real,
+	"longitude"	real,
+	"dms_latitude"	text,
+	"dms_longitude"	text,
+	"structure"	text,
+	"location"	text
+);

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_license_event_notification_service_lens_customers/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/tt84-bydt/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/tt84-bydt/rows.csv", 
   "description": "The License Event Notification Service (LENS) is a tool that enables LENS customers to monitor a set of drivers\u2019 qualifications, and to receive notifications of changes to drivers\u2019 qualifications. The source for LENS drivers\u2019 information is the New York State Department of Motor Vehicles Driving Record. LENS customers include employers of drivers, insurers of drivers and entities that regulate drivers or their employers.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,114 +13,7 @@
     }
   }, 
   "name": "License Event Notification Service (LENS) Customers", 
-  "schema": {
-    "columns": [
-      {
-        "name": "customer", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "address_line_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "contact_person", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "e_mail", 
-        "type": "text"
-      }, 
-      {
-        "name": "date_enrolled", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "vat202_category", 
-        "type": "text"
-      }, 
-      {
-        "name": "status", 
-        "type": "text"
-      }, 
-      {
-        "name": "observation_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "crash_notification", 
-        "type": "text"
-      }, 
-      {
-        "name": "conviction_notification", 
-        "type": "text"
-      }, 
-      {
-        "name": "suspension_notification", 
-        "type": "text"
-      }, 
-      {
-        "name": "insurance_pt_reduction_course_completion_notification", 
-        "type": "text"
-      }, 
-      {
-        "name": "driver_status_change_notification", 
-        "type": "text"
-      }, 
-      {
-        "name": "license_expiration_notification", 
-        "type": "text"
-      }, 
-      {
-        "name": "hazardous_material_endorsement_notification", 
-        "type": "text"
-      }, 
-      {
-        "name": "cdl_medical_certification_status_change", 
-        "type": "text"
-      }, 
-      {
-        "name": "ticket_notification", 
-        "type": "text"
-      }, 
-      {
-        "name": "number_of_drivers_monitored", 
-        "type": "real"
-      }, 
-      {
-        "name": "date_of_most_recent_driver_addition", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "date_of_most_recent_driver_deletion", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "number_of_lens_interface_users", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "license_event_notification_service_lens_customers"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "license_event_notification_service_lens_customers"
 }

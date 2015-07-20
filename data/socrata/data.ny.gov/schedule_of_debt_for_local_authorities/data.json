@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_schedule_of_debt_for_local_authorities/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/vfju-zm9q/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/vfju-zm9q/rows.csv", 
   "description": "The dataset consists of 3 years of schedule of debt data reported by Local Authorities.  Public authorities are required by Section 2800 of Public Authorities Law to submit annual reports to the Authorities Budget Office that include a schedule of the authorities\u2019 debt.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "Schedule of Debt for Local Authorities", 
-  "schema": {
-    "columns": [
-      {
-        "name": "authority_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "fiscal_year_end_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "has_outstanding_debt", 
-        "type": "text"
-      }, 
-      {
-        "name": "type_of_debt", 
-        "type": "text"
-      }, 
-      {
-        "name": "debt_program", 
-        "type": "text"
-      }, 
-      {
-        "name": "begin_amount_total", 
-        "type": "real"
-      }, 
-      {
-        "name": "new_debt_issuance", 
-        "type": "real"
-      }, 
-      {
-        "name": "amount_retired", 
-        "type": "real"
-      }, 
-      {
-        "name": "end_amount_total", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "schedule_of_debt_for_local_authorities"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "schedule_of_debt_for_local_authorities"
 }

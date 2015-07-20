@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_sentences_to_probation_by_year_beginning_1970/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/ejfc-rxyg/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/ejfc-rxyg/rows.csv", 
   "description": "The Division of Criminal Justice Services (DCJS) collects information on sentences to probation from the Office of Court Administration.  DCJS publishes annual data on the DCJS public website.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "Sentences to Probation by Year: Beginning 1970", 
-  "schema": {
-    "columns": [
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "conviction", 
-        "type": "text"
-      }, 
-      {
-        "name": "vfo", 
-        "type": "real"
-      }, 
-      {
-        "name": "drugs", 
-        "type": "real"
-      }, 
-      {
-        "name": "dwi", 
-        "type": "real"
-      }, 
-      {
-        "name": "property", 
-        "type": "real"
-      }, 
-      {
-        "name": "other", 
-        "type": "real"
-      }, 
-      {
-        "name": "total", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "sentences_to_probation_by_year_beginning_1970"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "sentences_to_probation_by_year_beginning_1970"
 }

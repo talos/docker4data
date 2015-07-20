@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_nycha_citywide_special_events/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/7iqz-npua/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/7iqz-npua/rows.csv", 
   "description": "It contains the special events hosted by NYCHA", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "NYCHA Citywide Special Events", 
-  "schema": {
-    "columns": [
-      {
-        "name": "unit", 
-        "type": "text"
-      }, 
-      {
-        "name": "event_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "event_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "place", 
-        "type": "text"
-      }, 
-      {
-        "name": "time", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "type_of_event", 
-        "type": "text"
-      }, 
-      {
-        "name": "estimated___of_participants", 
-        "type": "text"
-      }, 
-      {
-        "name": "open_to_the_public", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "nycha_citywide_special_events"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "nycha_citywide_special_events"
 }

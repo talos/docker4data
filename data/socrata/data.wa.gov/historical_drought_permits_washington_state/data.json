@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wa_historical_drought_permits_washington_state/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/w9k2-96gh/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.wa.gov/api/views/w9k2-96gh/rows.csv", 
   "description": "During times of declared drought (WAC 173-166), the Department of Ecology may approve temporary water right applications and water right transfers for emergency drought relief.   This data set lists approved drought permits from the years 2005 and 2001.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,66 +13,7 @@
     }
   }, 
   "name": "Historical Drought Permits -- Washington State", 
-  "schema": {
-    "columns": [
-      {
-        "name": "wr_doc_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "wr_doc_file_nr", 
-        "type": "text"
-      }, 
-      {
-        "name": "person_last_or_organization_nm", 
-        "type": "text"
-      }, 
-      {
-        "name": "county_nm", 
-        "type": "text"
-      }, 
-      {
-        "name": "wria_nm", 
-        "type": "text"
-      }, 
-      {
-        "name": "appyear", 
-        "type": "text"
-      }, 
-      {
-        "name": "doc_type_nm", 
-        "type": "text"
-      }, 
-      {
-        "name": "purpose_list", 
-        "type": "text"
-      }, 
-      {
-        "name": "change_list", 
-        "type": "text"
-      }, 
-      {
-        "name": "event_type_nm", 
-        "type": "text"
-      }, 
-      {
-        "name": "event_status_nm", 
-        "type": "text"
-      }, 
-      {
-        "name": "region_nm", 
-        "type": "text"
-      }, 
-      {
-        "name": "image_url", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.wa.gov", 
-  "tableName": "historical_drought_permits_washington_state"
+  "schema": "socrata/data.wa.gov", 
+  "status": "needs review", 
+  "table": "historical_drought_permits_washington_state"
 }

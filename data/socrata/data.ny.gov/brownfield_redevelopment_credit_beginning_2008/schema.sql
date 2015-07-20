@@ -1,0 +1,20 @@
+CREATE TABLE "brownfield_redevelopment_credit_beginning_2008" (
+	"calendar_year"	real,
+	"tax_year"	real,
+	"taxpayer_name"	text,
+	"project_site_name"	text,
+	"notes"	text,
+	"dec_region"	real,
+	"county"	text,
+	"municipality"	text,
+	"en_zone"	text,
+	"site_preparation_component_costs"	real,
+	"site_preparation_component_credit"	real,
+	"tangible_property_component_costs"	real,
+	"tangible_property_component_credit"	real,
+	"onsite_groundwater_remediation_costs"	real,
+	"onsite_groundwater_remediation_component_credit"	real,
+	"total_costs"	real,
+	"total_credit"	real,
+	"location"	text
+);

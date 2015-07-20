@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_red_light_camera_locations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/thvf-6diy/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/thvf-6diy/rows.csv", 
   "description": "This dataset shows the location, first operational date, and approaches of the red light cameras in the City of Chicago. The approach describes the originating direction of travel which is monitored by a red light camera.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "Red Light Camera Locations", 
-  "schema": {
-    "columns": [
-      {
-        "name": "intersection", 
-        "type": "text"
-      }, 
-      {
-        "name": "first_approach", 
-        "type": "text"
-      }, 
-      {
-        "name": "second_approach", 
-        "type": "text"
-      }, 
-      {
-        "name": "third_approach", 
-        "type": "text"
-      }, 
-      {
-        "name": "go_live_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "red_light_camera_locations"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "red_light_camera_locations"
 }

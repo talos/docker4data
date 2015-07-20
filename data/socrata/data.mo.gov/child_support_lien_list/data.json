@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_mo_child_support_lien_list/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.mo.gov/api/views/7t5a-79ri/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.mo.gov/api/views/7t5a-79ri/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -15,30 +11,7 @@
     }
   }, 
   "name": "Child Support Lien List", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "make", 
-        "type": "text"
-      }, 
-      {
-        "name": "vin_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "child_support_lien_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "lien_satisfaction_date", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.mo.gov", 
-  "tableName": "child_support_lien_list"
+  "schema": "socrata/data.mo.gov", 
+  "status": "needs review", 
+  "table": "child_support_lien_list"
 }

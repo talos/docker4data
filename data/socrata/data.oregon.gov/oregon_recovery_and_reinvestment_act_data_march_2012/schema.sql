@@ -1,0 +1,20 @@
+CREATE TABLE "oregon_recovery_and_reinvestment_act_data_march_2012" (
+	"sort_order"	real,
+	"prime_number"	text,
+	"recipient_type"	text,
+	"county"	text,
+	"category"	text,
+	"award_name"	text,
+	"project_name"	text,
+	"recipient"	text,
+	"award_amount"	text,
+	"amount_expended"	text,
+	"jobs_funded"	real,
+	"project_status"	text,
+	"project_description"	text,
+	"address"	text,
+	"city"	text,
+	"state"	text,
+	"zipcode"	text,
+	"congressional_district"	real
+);

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_montgomerycountymd_cable_complaints/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/v2ei-xfce/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/v2ei-xfce/rows.csv", 
   "description": "All cable complaints filed with the Montgomery County Cable Office since January 2010.  This data will be updated on a quarterly basis.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,94 +13,7 @@
     }
   }, 
   "name": "Cable Complaints", 
-  "schema": {
-    "columns": [
-      {
-        "name": "date_of_complaint", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "date_of_closure", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "street", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip", 
-        "type": "real"
-      }, 
-      {
-        "name": "cable_provider", 
-        "type": "text"
-      }, 
-      {
-        "name": "billing", 
-        "type": "real"
-      }, 
-      {
-        "name": "service", 
-        "type": "real"
-      }, 
-      {
-        "name": "internet", 
-        "type": "real"
-      }, 
-      {
-        "name": "telephone_answering_time", 
-        "type": "real"
-      }, 
-      {
-        "name": "reception", 
-        "type": "real"
-      }, 
-      {
-        "name": "construction", 
-        "type": "real"
-      }, 
-      {
-        "name": "marketing", 
-        "type": "real"
-      }, 
-      {
-        "name": "installation", 
-        "type": "real"
-      }, 
-      {
-        "name": "cable_service_availability", 
-        "type": "real"
-      }, 
-      {
-        "name": "cable_line_related", 
-        "type": "real"
-      }, 
-      {
-        "name": "telephone_service", 
-        "type": "real"
-      }, 
-      {
-        "name": "other", 
-        "type": "real"
-      }, 
-      {
-        "name": "type", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.montgomerycountymd.gov", 
-  "tableName": "cable_complaints"
+  "schema": "socrata/data.montgomerycountymd.gov", 
+  "status": "needs review", 
+  "table": "cable_complaints"
 }

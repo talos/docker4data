@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_ssmma_sauk_village_foia_log/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/reqj-psb4/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/reqj-psb4/rows.csv", 
   "description": "This dataset is a freedom of information request log for the Village of Sauk Village for the 2012 calendar year.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "SSMMA Sauk Village FOIA Log", 
-  "schema": {
-    "columns": [
-      {
-        "name": "number", 
-        "type": "text"
-      }, 
-      {
-        "name": "date_received", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "requested_by", 
-        "type": "text"
-      }, 
-      {
-        "name": "assigned_to", 
-        "type": "text"
-      }, 
-      {
-        "name": "date_completed", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "method", 
-        "type": "text"
-      }, 
-      {
-        "name": "foia_description", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "ssmma_sauk_village_foia_log"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "ssmma_sauk_village_foia_log"
 }

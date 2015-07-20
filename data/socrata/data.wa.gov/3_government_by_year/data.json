@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wa_3_government_by_year/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/ht3z-vfgq/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.wa.gov/api/views/ht3z-vfgq/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,34 +9,7 @@
     }
   }, 
   "name": "3 -- Government $$ By Year", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "state_all", 
-        "type": "real"
-      }, 
-      {
-        "name": "local_all", 
-        "type": "real"
-      }, 
-      {
-        "name": "federal_all", 
-        "type": "real"
-      }, 
-      {
-        "name": "total", 
-        "type": "real"
-      }, 
-      {
-        "name": "cumulative_total", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.wa.gov", 
-  "tableName": "3_government_by_year"
+  "schema": "socrata/data.wa.gov", 
+  "status": "needs review", 
+  "table": "3_government_by_year"
 }

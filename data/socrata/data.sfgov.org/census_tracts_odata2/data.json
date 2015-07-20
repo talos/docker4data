@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_census_tracts_odata2/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/8mm5-z8i7/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sfgov.org/api/views/8mm5-z8i7/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -14,38 +10,7 @@
     }
   }, 
   "name": "census_tracts_odata2", 
-  "schema": {
-    "columns": [
-      {
-        "name": "polygon_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "point_order", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "tractce10", 
-        "type": "text"
-      }, 
-      {
-        "name": "aland10", 
-        "type": "real"
-      }, 
-      {
-        "name": "geom", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sfgov.org", 
-  "tableName": "census_tracts_odata2"
+  "schema": "socrata/data.sfgov.org", 
+  "status": "needs review", 
+  "table": "census_tracts_odata2"
 }

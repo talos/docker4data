@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_medallion_vehicles_inactive/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/jgtb-hmpg/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/jgtb-hmpg/rows.csv", 
   "description": "This list contains information on medallion vehicles that are currently inactive. The reason codes for an inactive medallion status are as follows: OOB for Out of Business, PEN for Pending, REV for Revoked, STO for In Storage and SUS for Suspended (Note: Reason for Suspension is also supplied).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,66 +13,7 @@
     }
   }, 
   "name": "Medallion Vehicles - Inactive", 
-  "schema": {
-    "columns": [
-      {
-        "name": "license_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "type", 
-        "type": "text"
-      }, 
-      {
-        "name": "current_status", 
-        "type": "text"
-      }, 
-      {
-        "name": "dmv_license_plate_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "vehicle_vin_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "vehicle_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "model_year", 
-        "type": "text"
-      }, 
-      {
-        "name": "medallion_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "agent_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "suspension_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "suspension_reason", 
-        "type": "text"
-      }, 
-      {
-        "name": "last_updated_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "last_updated_time", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "medallion_vehicles_inactive"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "medallion_vehicles_inactive"
 }

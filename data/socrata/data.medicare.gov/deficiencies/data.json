@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_medicare_deficiencies/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/r5ix-sfxw/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.medicare.gov/api/views/r5ix-sfxw/rows.csv", 
   "description": "A list of all deficiencies currently listed on Nursing Home Compare, including the nursing home that received the deficiency, the associated inspection date, deficiency tag number, scope and severity, the current status of the deficiency and the correction date.  Data are presented as one deficiency per row.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,86 +12,7 @@
     }
   }, 
   "name": "Deficiencies", 
-  "schema": {
-    "columns": [
-      {
-        "name": "federal_provider_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "provider_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "provider_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "provider_city", 
-        "type": "text"
-      }, 
-      {
-        "name": "provider_state", 
-        "type": "text"
-      }, 
-      {
-        "name": "provider_zip_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "survey_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "survey_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "deficiency_prefix", 
-        "type": "text"
-      }, 
-      {
-        "name": "deficiency_tag_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "deficiency_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "scope_severity_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "deficiency_corrected", 
-        "type": "text"
-      }, 
-      {
-        "name": "correction_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "inspection_cycle", 
-        "type": "real"
-      }, 
-      {
-        "name": "standard_deficiency", 
-        "type": "text"
-      }, 
-      {
-        "name": "complaint_deficiency", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "processing_date", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.medicare.gov", 
-  "tableName": "deficiencies"
+  "schema": "socrata/data.medicare.gov", 
+  "status": "needs review", 
+  "table": "deficiencies"
 }

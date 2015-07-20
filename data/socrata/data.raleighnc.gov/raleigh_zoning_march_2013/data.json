@@ -1,9 +1,6 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/raleigh_zoning_march_2013/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.raleighnc.gov/api/geospatial/5n3m-tqy2", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.raleighnc.gov/api/geospatial/5n3m-tqy2", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -15,7 +12,7 @@
     }
   }, 
   "name": "Raleigh Zoning March 2013", 
-  "schema": {}, 
-  "schemaName": "socrata/data.raleighnc.gov", 
-  "tableName": "raleigh_zoning_march_2013"
+  "schema": "socrata/data.raleighnc.gov", 
+  "status": "needs review", 
+  "table": "raleigh_zoning_march_2013"
 }

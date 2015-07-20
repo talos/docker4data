@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/annual_taxpayer_location_address_list_2014/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/kukh-c9wt/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/kukh-c9wt/rows.csv", 
   "description": "List of businesses registered with the State of Illinois that may levy retail sales taxes in the Chicago area.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,58 +13,7 @@
     }
   }, 
   "name": "Annual Taxpayer Location Address List 2014", 
-  "schema": {
-    "columns": [
-      {
-        "name": "illinois_business_tax_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "sequence_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "type_of_filer", 
-        "type": "text"
-      }, 
-      {
-        "name": "sic", 
-        "type": "text"
-      }, 
-      {
-        "name": "dba_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "owning_entity", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "address_secondary", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "annual_taxpayer_location_address_list_2014"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "annual_taxpayer_location_address_list_2014"
 }

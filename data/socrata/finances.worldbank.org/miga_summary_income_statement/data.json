@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/miga_summary_income_statement/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/tm6i-3ngg/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/finances.worldbank.org/api/views/tm6i-3ngg/rows.csv", 
   "description": "Provides summary income statement from quarterly .statements", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "MIGA Summary Income Statement", 
-  "schema": {
-    "columns": [
-      {
-        "name": "organization", 
-        "type": "text"
-      }, 
-      {
-        "name": "category", 
-        "type": "text"
-      }, 
-      {
-        "name": "line_item", 
-        "type": "text"
-      }, 
-      {
-        "name": "fiscal_year", 
-        "type": "text"
-      }, 
-      {
-        "name": "amount_us_millions", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/finances.worldbank.org", 
-  "tableName": "miga_summary_income_statement"
+  "schema": "socrata/finances.worldbank.org", 
+  "status": "needs review", 
+  "table": "miga_summary_income_statement"
 }

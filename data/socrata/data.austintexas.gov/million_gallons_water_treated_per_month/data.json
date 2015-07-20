@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_million_gallons_water_treated_per_month/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/uvma-gv9c/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/views/uvma-gv9c/rows.csv", 
   "description": "Volume of water treated by all water treatment facilities by month", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "Million gallons water treated per month", 
-  "schema": {
-    "columns": [
-      {
-        "name": "fiscalyear", 
-        "type": "real"
-      }, 
-      {
-        "name": "monthname", 
-        "type": "text"
-      }, 
-      {
-        "name": "plantcode", 
-        "type": "text"
-      }, 
-      {
-        "name": "mg_water_treated", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "million_gallons_water_treated_per_month"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "million_gallons_water_treated_per_month"
 }

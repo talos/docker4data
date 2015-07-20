@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_mo_bill_s_test_dataset/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.mo.gov/api/views/qsyv-qq4p/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.mo.gov/api/views/qsyv-qq4p/rows.csv", 
   "description": "Dataset for testing Drupal connectivity", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,18 +12,7 @@
     }
   }, 
   "name": "Bill's Test Dataset", 
-  "schema": {
-    "columns": [
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "list", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.mo.gov", 
-  "tableName": "bill_s_test_dataset"
+  "schema": "socrata/data.mo.gov", 
+  "status": "needs review", 
+  "table": "bill_s_test_dataset"
 }

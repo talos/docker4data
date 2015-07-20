@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/11_medicaid_coverage/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/375b-7zuf/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/375b-7zuf/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,26 +9,7 @@
     }
   }, 
   "name": "11 Medicaid Coverage", 
-  "schema": {
-    "columns": [
-      {
-        "name": "measure_value", 
-        "type": "real"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "coverage_subtype", 
-        "type": "text"
-      }, 
-      {
-        "name": "condition", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/healthmeasures.aspe.hhs.gov", 
-  "tableName": "11_medicaid_coverage"
+  "schema": "socrata/healthmeasures.aspe.hhs.gov", 
+  "status": "needs review", 
+  "table": "11_medicaid_coverage"
 }

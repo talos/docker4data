@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_cadastral_cgdb_tile_index/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/mapx-mcx2/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/mapx-mcx2/rows.csv", 
   "description": "City tile index for cadastral data", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,82 +13,7 @@
     }
   }, 
   "name": "CADASTRAL_CGDB_TILE_INDEX", 
-  "schema": {
-    "columns": [
-      {
-        "name": "objectid", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape", 
-        "type": "text"
-      }, 
-      {
-        "name": "ti_area", 
-        "type": "real"
-      }, 
-      {
-        "name": "ti_prmtr", 
-        "type": "real"
-      }, 
-      {
-        "name": "ti_cgdb_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "ti_cgdb_num", 
-        "type": "real"
-      }, 
-      {
-        "name": "ti_meridian", 
-        "type": "text"
-      }, 
-      {
-        "name": "ti_township", 
-        "type": "text"
-      }, 
-      {
-        "name": "ti_range", 
-        "type": "text"
-      }, 
-      {
-        "name": "ti_section", 
-        "type": "real"
-      }, 
-      {
-        "name": "ti_qstr", 
-        "type": "text"
-      }, 
-      {
-        "name": "ti_scl_num", 
-        "type": "text"
-      }, 
-      {
-        "name": "ti_swd_num", 
-        "type": "text"
-      }, 
-      {
-        "name": "ti_spu_mappage", 
-        "type": "text"
-      }, 
-      {
-        "name": "area", 
-        "type": "real"
-      }, 
-      {
-        "name": "len", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape_length", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape_area", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "cadastral_cgdb_tile_index"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "cadastral_cgdb_tile_index"
 }

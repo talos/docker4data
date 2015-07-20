@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_nfpa_unintentional_fire_death_rate_by_state_2003_2007_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.nfpa.org/api/views/jf8g-2bkn/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.nfpa.org/api/views/jf8g-2bkn/rows.csv", 
   "description": "This map is based on Unintentional Fire Death Rates by State, October 2011. The map shows the unintentional fire death rate for each state and each state\u2019s rank relative to other states, ranked from highest to lowest. Also included are numbers and ranks for several risk factors correlated with higher fire death rates, including smoking, poverty, lacking 12 years of school, and living in a rural area. http://www.nfpa.org/itemDetail.asp?categoryID=2397&itemID=55349&URL=Research/Statistical%20reports/Regional/community%20patterns/", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,62 +13,7 @@
     }
   }, 
   "name": "Unintentional Fire Death Rate by State (2003-2007)", 
-  "schema": {
-    "columns": [
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "fire_deaths_per_million_population_2003_2007", 
-        "type": "real"
-      }, 
-      {
-        "name": "rank_death_rate", 
-        "type": "text"
-      }, 
-      {
-        "name": "adults_without_12_years_of_school_2005", 
-        "type": "text"
-      }, 
-      {
-        "name": "rank_education", 
-        "type": "text"
-      }, 
-      {
-        "name": "population_12_or_over_who_used_cigarettes_in_last_month_2004_2005", 
-        "type": "text"
-      }, 
-      {
-        "name": "rank_smoking", 
-        "type": "text"
-      }, 
-      {
-        "name": "population_below_poverty_line_2005", 
-        "type": "text"
-      }, 
-      {
-        "name": "rank_poverty", 
-        "type": "text"
-      }, 
-      {
-        "name": "population_living_in_rural_communities_2000", 
-        "type": "text"
-      }, 
-      {
-        "name": "rank_rural", 
-        "type": "real"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.nfpa.org", 
-  "tableName": "unintentional_fire_death_rate_by_state_2003_2007_"
+  "schema": "socrata/data.nfpa.org", 
+  "status": "needs review", 
+  "table": "unintentional_fire_death_rate_by_state_2003_2007_"
 }

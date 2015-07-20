@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_raleighnc_housing_problems_of_low_income_households/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.raleighnc.gov/api/views/trbx-ynwg/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.raleighnc.gov/api/views/trbx-ynwg/rows.csv", 
   "description": "The system provides a mini-documentation of the development of the FY 2010 Section 8 Income Limits for any area of the country selected by the user. The user is provided a tooltip containing the name of the county, its median Income and the various 4 person Income limits like Very-Low Income (50%), Extremely-Low Income (30%), and Low Income (80%). County level summary of housing problems of low income households for 2009", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "Housing Problems of Low Income Households", 
-  "schema": {
-    "columns": [
-      {
-        "name": "geoid", 
-        "type": "text"
-      }, 
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "total_number_of_li_households", 
-        "type": "real"
-      }, 
-      {
-        "name": "percent_of_li_households_with_any_housing_problem", 
-        "type": "real"
-      }, 
-      {
-        "name": "number_of_li_households_in_a_substandard_unit", 
-        "type": "real"
-      }, 
-      {
-        "name": "number_of_li_households_with_overcrowding_no_worse_problem", 
-        "type": "real"
-      }, 
-      {
-        "name": "number_of_li_households_with_cost_burden_no_worse_problem", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.raleighnc.gov", 
-  "tableName": "housing_problems_of_low_income_households"
+  "schema": "socrata/data.raleighnc.gov", 
+  "status": "needs review", 
+  "table": "housing_problems_of_low_income_households"
 }

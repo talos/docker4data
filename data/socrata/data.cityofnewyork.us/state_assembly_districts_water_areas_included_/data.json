@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/state_assembly_districts_water_areas_included_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/geospatial/qh62-9utz", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/geospatial/qh62-9utz", 
   "description": "GIS data: Boundaries of State Assembly Districts (water areas included)", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,9 +14,7 @@
     }
   }, 
   "name": "State Assembly Districts (water areas included)", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "state_assembly_districts_water_areas_included_"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "state_assembly_districts_water_areas_included_"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_tourism_information_centers/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/5sdk-z637/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/5sdk-z637/rows.csv", 
   "description": "Staffed Tourism Information Centers (TIC) are located at several travel plazas and interchanges along the Thruway system. At these centers, travelers may obtain literature about destinations and attractions in New York State and directional assistance.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "Tourism Information Centers", 
-  "schema": {
-    "columns": [
-      {
-        "name": "plaza_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "route", 
-        "type": "text"
-      }, 
-      {
-        "name": "milepost", 
-        "type": "text"
-      }, 
-      {
-        "name": "direction", 
-        "type": "text"
-      }, 
-      {
-        "name": "operation", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "mapping_location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "tourism_information_centers"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "tourism_information_centers"
 }

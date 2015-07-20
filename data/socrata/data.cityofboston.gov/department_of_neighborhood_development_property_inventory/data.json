@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/department_of_neighborhood_development_property_inventory/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/cgd4-ynb2/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/api/views/cgd4-ynb2/rows.csv", 
   "description": "Department of Neighborhood Development managed city owned property. Spatial projection WGS 84 long lat (EPSG:4326) .", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,54 +13,7 @@
     }
   }, 
   "name": "Department of Neighborhood Development - Property Inventory", 
-  "schema": {
-    "columns": [
-      {
-        "name": "parcelid", 
-        "type": "text"
-      }, 
-      {
-        "name": "lotsize", 
-        "type": "real"
-      }, 
-      {
-        "name": "proptype", 
-        "type": "text"
-      }, 
-      {
-        "name": "zipcode", 
-        "type": "text"
-      }, 
-      {
-        "name": "neigh", 
-        "type": "text"
-      }, 
-      {
-        "name": "puse", 
-        "type": "text"
-      }, 
-      {
-        "name": "streetnum", 
-        "type": "text"
-      }, 
-      {
-        "name": "streetname", 
-        "type": "text"
-      }, 
-      {
-        "name": "streetsuf", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "department_of_neighborhood_development_property_inventory"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "department_of_neighborhood_development_property_inventory"
 }

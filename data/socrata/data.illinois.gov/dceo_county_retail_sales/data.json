@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_dceo_county_retail_sales/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/q9xi-hgtu/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/q9xi-hgtu/rows.csv", 
   "description": "Historical data of Illinois County Retail Sales", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "DCEO County Retail Sales", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "time_period", 
-        "type": "text"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "sales_millions", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "dceo_county_retail_sales"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "dceo_county_retail_sales"
 }

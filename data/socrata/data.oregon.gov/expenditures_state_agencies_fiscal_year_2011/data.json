@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oregon_expenditures_state_agencies_fiscal_year_2011/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/4j6h-st85/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/api/views/4j6h-st85/rows.csv", 
   "description": "This report provides information on expenditures (i.e., cash transactions/payments) for the agencies that utilize the State Financial Management Application (SFMA) issued for the fiscal year 2011 (July 1, 2010 - June 30, 2011). See the Oregon Transparency Website Expenditure page for more detail: http://oregon.gov/transparency/expenditures.page", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,42 +12,7 @@
     }
   }, 
   "name": "Expenditures: State Agencies: Fiscal Year 2011", 
-  "schema": {
-    "columns": [
-      {
-        "name": "agency", 
-        "type": "real"
-      }, 
-      {
-        "name": "agency_title", 
-        "type": "text"
-      }, 
-      {
-        "name": "compt_obj", 
-        "type": "real"
-      }, 
-      {
-        "name": "compt_obj_title", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendor_state", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendor_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "cash_expense", 
-        "type": "real"
-      }, 
-      {
-        "name": "fiscal_year", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "expenditures_state_agencies_fiscal_year_2011"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "expenditures_state_agencies_fiscal_year_2011"
 }

@@ -1,0 +1,22 @@
+CREATE TABLE "nyc_municipal_building_energy_benchmarking_results" (
+	"borough"	real,
+	"block"	real,
+	"lot"	real,
+	"bin"	real,
+	"agency"	text,
+	"building"	text,
+	"rating"	text,
+	"current_source_energy_intensity_kbtu_sq_ft"	text,
+	"current_total_ghg_emissions_mtco2e"	real,
+	"rating_2"	text,
+	"source_energy_intensity_kbtu_sq_ft"	real,
+	"total_ghg_emissions_mtco2e"	real,
+	"address"	text,
+	"city"	text,
+	"state"	text,
+	"zip"	real,
+	"gross_sq_ft"	real,
+	"year_built"	real,
+	"epapmbenchmarkedas"	text,
+	"campus_name"	text
+);

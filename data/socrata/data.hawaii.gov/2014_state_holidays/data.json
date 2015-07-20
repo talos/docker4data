@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_2014_state_holidays/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/rcfm-5fv2/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/rcfm-5fv2/rows.csv", 
   "description": "Stte of Hawaii Holidays for calendar year 2014", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "2014 State Holidays", 
-  "schema": {
-    "columns": [
-      {
-        "name": "new_year_s_day", 
-        "type": "text"
-      }, 
-      {
-        "name": "jan_14", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "wednesday", 
-        "type": "text"
-      }, 
-      {
-        "name": "the_first_day_in_january", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "2014_state_holidays"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "2014_state_holidays"
 }

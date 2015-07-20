@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_honolulu_city_public_parking_stalls/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.honolulu.gov/api/views/cma8-twyj/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.honolulu.gov/api/views/cma8-twyj/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -14,34 +10,7 @@
     }
   }, 
   "name": "City Public Parking Stalls", 
-  "schema": {
-    "columns": [
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "quantity", 
-        "type": "real"
-      }, 
-      {
-        "name": "meter_numbers", 
-        "type": "text"
-      }, 
-      {
-        "name": "rate_hr", 
-        "type": "real"
-      }, 
-      {
-        "name": "timelimit", 
-        "type": "text"
-      }, 
-      {
-        "name": "type", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.honolulu.gov", 
-  "tableName": "city_public_parking_stalls"
+  "schema": "socrata/data.honolulu.gov", 
+  "status": "needs review", 
+  "table": "city_public_parking_stalls"
 }

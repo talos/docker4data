@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/transforming_colorado_government_for_today_and_the_future_september_2014_report/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/download/rhmi-xjprapplication/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/download/rhmi-xjpr/application/pdf", 
   "description": "OIT's Annual Report report provides information about OIT's approach to managing and transforming IT in the State of Colorado, our key initiatives, and a financial review.", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Transforming Colorado Government for Today and the Future, September 2014 Report", 
-  "schema": {}, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "transforming_colorado_government_for_today_and_the_future_september_2014_report"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "transforming_colorado_government_for_today_and_the_future_september_2014_report"
 }

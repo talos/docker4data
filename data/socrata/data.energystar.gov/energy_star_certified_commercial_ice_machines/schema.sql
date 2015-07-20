@@ -1,0 +1,20 @@
+CREATE TABLE "energy_star_certified_commercial_ice_machines" (
+	"pd_id"	real,
+	"energy_star_partner"	text,
+	"brand_name"	text,
+	"model_name"	text,
+	"model_number"	text,
+	"additional_model_information"	text,
+	"product_type"	text,
+	"ice_type"	text,
+	"harvest_rate_lbs_ice_day"	real,
+	"measured_energy_use_kwh_100_lbs_ice"	real,
+	"adjusted_energy_use_kwh_100_lbs_ice"	real,
+	"potable_water_use_gal_100_lbs_ice"	real,
+	"ice_hardness_factor"	real,
+	"condenser_unit_model_number_if_applicable"	text,
+	"date_available_on_market"	timestamp,
+	"date_qualified"	timestamp,
+	"markets"	text,
+	"energy_star_model_identifier"	text
+);

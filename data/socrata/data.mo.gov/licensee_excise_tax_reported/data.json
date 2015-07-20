@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_mo_licensee_excise_tax_reported/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.mo.gov/api/views/mjc8-gkkx/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.mo.gov/api/views/mjc8-gkkx/rows.csv", 
   "description": "Excise Tax data reported by number of gallons per product type.  Dataset consists of the last 6 reporting months.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "Licensee Excise Tax Reported", 
-  "schema": {
-    "columns": [
-      {
-        "name": "licensenum", 
-        "type": "text"
-      }, 
-      {
-        "name": "licensecodetxt", 
-        "type": "text"
-      }, 
-      {
-        "name": "licenseenametxt", 
-        "type": "text"
-      }, 
-      {
-        "name": "statetxt", 
-        "type": "text"
-      }, 
-      {
-        "name": "taxperioddate", 
-        "type": "text"
-      }, 
-      {
-        "name": "taxgroupkey", 
-        "type": "text"
-      }, 
-      {
-        "name": "gallonsnum", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.mo.gov", 
-  "tableName": "licensee_excise_tax_reported"
+  "schema": "socrata/data.mo.gov", 
+  "status": "needs review", 
+  "table": "licensee_excise_tax_reported"
 }

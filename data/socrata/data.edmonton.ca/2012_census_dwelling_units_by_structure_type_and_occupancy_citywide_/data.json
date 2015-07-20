@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/2012_census_dwelling_units_by_structure_type_and_occupancy_citywide_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/xiut-24bw/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.edmonton.ca/api/views/xiut-24bw/rows.csv", 
   "description": "All Census information is as of April 1, 2012. No data on any individual residence will be released.  To protect the privacy of individuals, data is compiled and presented at the city, ward and neighbourhood level only.  Neighbourhood results with a population under 49 are not posted to protect the information collected.  The designation of \u201cNo Response\u201d includes households from which no census data could be collected or only partial data was available.  \u201cOther Residential\u201d includes dwelling units not covered by the other categories, such as a unit attached to a non-residential structure (e.g. an apartment in a store or church) or a movable structure (e.g. recreational vehicle, tent, etc.).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "2012 Census - Dwelling Units By Structure Type And Occupancy (Citywide)", 
-  "schema": {
-    "columns": [
-      {
-        "name": "structure_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "occupied", 
-        "type": "real"
-      }, 
-      {
-        "name": "not_occupied", 
-        "type": "real"
-      }, 
-      {
-        "name": "no_response", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.edmonton.ca", 
-  "tableName": "2012_census_dwelling_units_by_structure_type_and_occupancy_citywide_"
+  "schema": "socrata/data.edmonton.ca", 
+  "status": "needs review", 
+  "table": "2012_census_dwelling_units_by_structure_type_and_occupancy_citywide_"
 }

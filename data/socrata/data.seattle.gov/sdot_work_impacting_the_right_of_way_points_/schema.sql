@@ -1,0 +1,20 @@
+CREATE TABLE "sdot_work_impacting_the_right_of_way_points_" (
+	"objectid"	real,
+	"shape"	text,
+	"wo_id"	real,
+	"division_name"	text,
+	"activity_type"	text,
+	"asset_type"	text,
+	"work_start_datetime"	text,
+	"work_end_datetime"	text,
+	"contact_name"	text,
+	"contact_phone_num"	text,
+	"street_closed_flag"	text,
+	"lane_closed_flag"	text,
+	"parking_lane_closed_flag"	text,
+	"alley_closed_flag"	text,
+	"sidewalk_closed_flag"	text,
+	"congestion_flag"	text,
+	"tcp_roll30_flag"	text,
+	"sdot_work_comments_text"	text
+);

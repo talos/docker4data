@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_kingcounty_budget_2012_cip/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/cnt6-trc2/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.kingcounty.gov/api/views/cnt6-trc2/rows.csv", 
   "description": "Capital Improvements budget, 2012. More at http://www.kingcounty.gov/budget", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,18 +13,7 @@
     }
   }, 
   "name": "Budget 2012- CIP", 
-  "schema": {
-    "columns": [
-      {
-        "name": "program", 
-        "type": "text"
-      }, 
-      {
-        "name": "amount", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.kingcounty.gov", 
-  "tableName": "budget_2012_cip"
+  "schema": "socrata/data.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "budget_2012_cip"
 }

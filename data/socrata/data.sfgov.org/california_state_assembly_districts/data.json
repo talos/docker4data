@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/california_state_assembly_districts/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/geospatial/8wrd-yeue", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.sfgov.org/api/geospatial/8wrd-yeue", 
   "description": "California State Assembly Districts", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "California State Assembly Districts", 
-  "schema": {}, 
-  "schemaName": "socrata/data.sfgov.org", 
-  "tableName": "california_state_assembly_districts"
+  "schema": "socrata/data.sfgov.org", 
+  "status": "needs review", 
+  "table": "california_state_assembly_districts"
 }

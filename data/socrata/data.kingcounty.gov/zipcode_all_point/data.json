@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/zipcode_all_point/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/geospatial/e7bx-b8ih", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.kingcounty.gov/api/geospatial/e7bx-b8ih", 
   "description": "Zipcodes for King County and Surrounding Area as Point Features", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Zipcode All Point", 
-  "schema": {}, 
-  "schemaName": "socrata/data.kingcounty.gov", 
-  "tableName": "zipcode_all_point"
+  "schema": "socrata/data.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "zipcode_all_point"
 }

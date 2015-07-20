@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oregon_agency_payroll_contacts/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/agyj-8dkq/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/api/views/agyj-8dkq/rows.csv", 
   "description": "Need to contact someone in your agency's payroll department.  Well look no further!", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "Agency Payroll Contacts", 
-  "schema": {
-    "columns": [
-      {
-        "name": "agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "agency_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "agency_payroll_phone_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "agency_payroll_email_contact", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "agency_payroll_contacts"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "agency_payroll_contacts"
 }

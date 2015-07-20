@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_haulers_licensed_by_city_of_austin/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/qe89-agqj/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/views/qe89-agqj/rows.csv", 
   "description": "Licensed Waste, Recycling, and/or Compost/Organic Haulers. The City of Austin does not endorse any particular company, rather, we provide these lists as an informational resource.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "Haulers Licensed by City of Austin", 
-  "schema": {
-    "columns": [
-      {
-        "name": "type_of_hauler", 
-        "type": "text"
-      }, 
-      {
-        "name": "name_of_hauler", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "website", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "haulers_licensed_by_city_of_austin"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "haulers_licensed_by_city_of_austin"
 }

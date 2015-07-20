@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_unprescribed_drug_use/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/ceym-4uty/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/ceym-4uty/rows.csv", 
   "description": "Decrease the percentage of adults who have taken prescription drugs in the past 30 days without a doctor's prescription from 2.5% in 2013 to 2.1% by 2017.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "Unprescribed Drug Use", 
-  "schema": {
-    "columns": [
-      {
-        "name": "years", 
-        "type": "text"
-      }, 
-      {
-        "name": "historical_data", 
-        "type": "text"
-      }, 
-      {
-        "name": "target", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "unprescribed_drug_use"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "unprescribed_drug_use"
 }

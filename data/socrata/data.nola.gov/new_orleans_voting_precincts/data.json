@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/new_orleans_voting_precincts/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.nola.gov/api/geospatial/vycb-i8x3", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.nola.gov/api/geospatial/vycb-i8x3", 
   "description": "New Orleans Voting Precincts- Precincts are drawn according to the New Orleans Home Rule Charter.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "New Orleans Voting Precincts", 
-  "schema": {}, 
-  "schemaName": "socrata/data.nola.gov", 
-  "tableName": "new_orleans_voting_precincts"
+  "schema": "socrata/data.nola.gov", 
+  "status": "needs review", 
+  "table": "new_orleans_voting_precincts"
 }

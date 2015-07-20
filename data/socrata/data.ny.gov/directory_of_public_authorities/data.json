@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_directory_of_public_authorities/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/4vym-q77x/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/4vym-q77x/rows.csv", 
   "description": "The Authorities Budget Office is required by Section 6(b) of Public Authorities Law to maintain a comprehensive inventory of state and local authorities.  State authorities are defined as public authorities with one or more board member appointed by the governor, other than interstate or international authorities.  Local authorities are public authorities with no members appointed by the governor; not-for-profit corporations affiliated with, sponsored by, or created by a municipality; industrial development agencies or authorities; or any affiliate of any local authority.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "Directory of Public Authorities", 
-  "schema": {
-    "columns": [
-      {
-        "name": "public_authority_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "public_authority_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip", 
-        "type": "text"
-      }, 
-      {
-        "name": "website", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "directory_of_public_authorities"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "directory_of_public_authorities"
 }

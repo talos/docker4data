@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/long_island_railroad_map/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/geospatial/jbqr-kiev", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/geospatial/jbqr-kiev", 
   "description": "This data file shows the location of routes and stops along the Long Island Rail Road (LIRR).   This is a commuter rail system serving the length of Long Island, New York, stretching from Manhattan to the easternmost tip of Suffolk County, New York", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Long Island Railroad Map", 
-  "schema": {}, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "long_island_railroad_map"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "long_island_railroad_map"
 }

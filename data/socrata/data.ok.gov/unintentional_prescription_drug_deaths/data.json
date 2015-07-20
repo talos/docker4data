@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_unintentional_prescription_drug_deaths/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/3pd7-iydf/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/3pd7-iydf/rows.csv", 
   "description": "Decrease the rate of unintentional poisoning deaths involving prescription drugs from 13.3 per 100,000 in 2011 to 11.3 per 100,000 by 2017.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "Unintentional Prescription Drug Deaths", 
-  "schema": {
-    "columns": [
-      {
-        "name": "years", 
-        "type": "text"
-      }, 
-      {
-        "name": "historical_data", 
-        "type": "real"
-      }, 
-      {
-        "name": "target", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "unintentional_prescription_drug_deaths"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "unintentional_prescription_drug_deaths"
 }

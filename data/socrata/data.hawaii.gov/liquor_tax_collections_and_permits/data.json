@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_liquor_tax_collections_and_permits/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/wajt-vrqf/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/wajt-vrqf/rows.csv", 
   "description": "This series shows collections of the liquor tax and permit fees, and penalties and interest on the tax.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,54 +11,7 @@
     }
   }, 
   "name": "Liquor Tax Collections and Permits", 
-  "schema": {
-    "columns": [
-      {
-        "name": "source_destination", 
-        "type": "text"
-      }, 
-      {
-        "name": "first_district", 
-        "type": "real"
-      }, 
-      {
-        "name": "second_district", 
-        "type": "real"
-      }, 
-      {
-        "name": "third_district", 
-        "type": "real"
-      }, 
-      {
-        "name": "fourth_district", 
-        "type": "real"
-      }, 
-      {
-        "name": "all_districts", 
-        "type": "real"
-      }, 
-      {
-        "name": "cumulative_totals", 
-        "type": "real"
-      }, 
-      {
-        "name": "type", 
-        "type": "text"
-      }, 
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "month", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "liquor_tax_collections_and_permits"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "liquor_tax_collections_and_permits"
 }

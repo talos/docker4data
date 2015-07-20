@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/boston_in_context_2007_2011_neighborhoods/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/download/scke-wv2sapplication/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/download/scke-wv2s/application/pdf", 
   "description": "This publication compares Boston and its neighborhoods to the U.S. and Massachusetts on several demographic, economic and housing characteristics. This report uses a combination of 2010 Census data and 2007-2011 American Community Survey data.", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,9 +13,7 @@
     }
   }, 
   "name": "Boston In Context 2007-2011, Neighborhoods", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "boston_in_context_2007_2011_neighborhoods"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "boston_in_context_2007_2011_neighborhoods"
 }

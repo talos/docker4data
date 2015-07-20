@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/srr_puget_sound/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/geospatial/2vkt-dfag", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.wa.gov/api/geospatial/2vkt-dfag", 
   "description": "puget sound salmon recovery region boundaries", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,7 +13,7 @@
     }
   }, 
   "name": "SRR - Puget Sound", 
-  "schema": {}, 
-  "schemaName": "socrata/data.wa.gov", 
-  "tableName": "srr_puget_sound"
+  "schema": "socrata/data.wa.gov", 
+  "status": "needs review", 
+  "table": "srr_puget_sound"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/dof_summary_of_neighborhood_sales_in_queens_for_class_1_2_and_3_family_homes_2007/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/hcv4-fhfs/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/hcv4-fhfs/rows.csv", 
   "description": "The Department of Finance (DOF) maintains records for all property sales in New York City, including sales of family homes in each borough. This list is a summary of neighborhood sales for Class 1-, 2- and 3-Family homes in Queens in 2007.\r\n\r\nThis list includes all sales of 1-, 2-, and 3-Family Homes' from January 1st, 2007 to December 31, 2007, whose sale price is equal to or more than $150,000.  The Building Class Category for Sales is based on the Building Class at the time of the sale.\r\n\r\nUpdate Schedule: Annually", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "DOF: Summary of Neighborhood Sales in Queens for Class 1-, 2- and 3-Family homes - 2007", 
-  "schema": {
-    "columns": [
-      {
-        "name": "neighborhood", 
-        "type": "text"
-      }, 
-      {
-        "name": "type_of_home", 
-        "type": "text"
-      }, 
-      {
-        "name": "number_of_sales", 
-        "type": "real"
-      }, 
-      {
-        "name": "lowest_sale_price", 
-        "type": "real"
-      }, 
-      {
-        "name": "average_sale_price", 
-        "type": "real"
-      }, 
-      {
-        "name": "median_sale_price", 
-        "type": "real"
-      }, 
-      {
-        "name": "highest_sale_price", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "dof_summary_of_neighborhood_sales_in_queens_for_class_1_2_and_3_family_homes_2007"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "dof_summary_of_neighborhood_sales_in_queens_for_class_1_2_and_3_family_homes_2007"
 }

@@ -1,9 +1,6 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/edgepave_street_poly/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/geospatial/gim5-45gr", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.baltimorecity.gov/api/geospatial/gim5-45gr", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -15,9 +12,7 @@
     }
   }, 
   "name": "Edgepave Street Poly", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.baltimorecity.gov", 
-  "tableName": "edgepave_street_poly"
+  "schema": "socrata/data.baltimorecity.gov", 
+  "status": "needs review", 
+  "table": "edgepave_street_poly"
 }

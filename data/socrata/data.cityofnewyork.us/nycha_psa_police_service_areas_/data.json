@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nycha_psa_police_service_areas_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/geospatial/72wx-vdjr", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/geospatial/72wx-vdjr", 
   "description": "Police Service Areas", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,9 +14,7 @@
     }
   }, 
   "name": "NYCHA PSA (Police Service Areas)", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "nycha_psa_police_service_areas_"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "nycha_psa_police_service_areas_"
 }

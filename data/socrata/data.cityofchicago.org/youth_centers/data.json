@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_youth_centers/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/meks-hp6f/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/meks-hp6f/rows.csv", 
   "description": "Location and contact information for Family & Support Services' delegate agencies that provide youth programming. For more information, go to http://www.cityofchicago.org/city/en/depts/fss/provdrs/youth.html.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,66 +13,7 @@
     }
   }, 
   "name": "Youth Centers", 
-  "schema": {
-    "columns": [
-      {
-        "name": "agency_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "project", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "street_direction", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "fax", 
-        "type": "text"
-      }, 
-      {
-        "name": "alternate_phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "ward", 
-        "type": "real"
-      }, 
-      {
-        "name": "community_area", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "youth_centers"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "youth_centers"
 }

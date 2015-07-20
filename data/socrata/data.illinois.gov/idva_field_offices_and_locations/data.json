@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_idva_field_offices_and_locations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/rjrr-h2p8/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/rjrr-h2p8/rows.csv", 
   "description": "This data shows the contact information of the Illinois Department of Veterans Affairs field offices.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,54 +13,7 @@
     }
   }, 
   "name": "IDVA -  Field Offices and Locations", 
-  "schema": {
-    "columns": [
-      {
-        "name": "county_location", 
-        "type": "text"
-      }, 
-      {
-        "name": "address_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "address_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "primary_phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "ext", 
-        "type": "real"
-      }, 
-      {
-        "name": "fax", 
-        "type": "text"
-      }, 
-      {
-        "name": "primary_contact", 
-        "type": "text"
-      }, 
-      {
-        "name": "secondary_contact", 
-        "type": "text"
-      }, 
-      {
-        "name": "region", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "idva_field_offices_and_locations"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "idva_field_offices_and_locations"
 }

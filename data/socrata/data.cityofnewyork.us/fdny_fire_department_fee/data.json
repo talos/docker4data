@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_fdny_fire_department_fee/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/2cvx-33uz/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/2cvx-33uz/rows.csv", 
   "description": "All accreditation fees are per year, unless otherwise indicated.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "FDNY Fire Department Fee", 
-  "schema": {
-    "columns": [
-      {
-        "name": "fee_type_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "certificate_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "fee_application_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "fee_amount", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "fdny_fire_department_fee"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "fdny_fire_department_fee"
 }

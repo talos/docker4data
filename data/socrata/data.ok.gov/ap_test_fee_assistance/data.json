@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_ap_test_fee_assistance/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/423b-gkvc/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/423b-gkvc/rows.csv", 
   "description": "Increase the number of exams receiving test fee assistance for eligible low-income students taking an Advanced Placement (AP) exam from 7,168 in 2014 to NA by 2018  (Target not yet established).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "AP Test Fee Assistance", 
-  "schema": {
-    "columns": [
-      {
-        "name": "years", 
-        "type": "text"
-      }, 
-      {
-        "name": "historical_data", 
-        "type": "real"
-      }, 
-      {
-        "name": "target", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "ap_test_fee_assistance"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "ap_test_fee_assistance"
 }

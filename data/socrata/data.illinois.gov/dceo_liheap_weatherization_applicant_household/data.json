@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/dceo_liheap_weatherization_applicant_household/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/sbvd-g9hi/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/sbvd-g9hi/rows.csv", 
   "description": "Liheap Applicant totals", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,38 +12,7 @@
     }
   }, 
   "name": "DCEO Liheap/Weatherization Applicant Household", 
-  "schema": {
-    "columns": [
-      {
-        "name": "typeofassistance", 
-        "type": "text"
-      }, 
-      {
-        "name": "numberofapplicanthouseholds", 
-        "type": "real"
-      }, 
-      {
-        "name": "under75pcthhspoverty", 
-        "type": "real"
-      }, 
-      {
-        "name": "_pctto100pcthhspoverty", 
-        "type": "real"
-      }, 
-      {
-        "name": "_pctto125pcthhspoverty", 
-        "type": "real"
-      }, 
-      {
-        "name": "_pctto150pcthhspoverty", 
-        "type": "real"
-      }, 
-      {
-        "name": "over150pcthhspoverty", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "dceo_liheap_weatherization_applicant_household"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "dceo_liheap_weatherization_applicant_household"
 }

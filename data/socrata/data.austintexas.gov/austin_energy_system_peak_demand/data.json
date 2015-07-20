@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_austin_energy_system_peak_demand/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/a6pm-qynf/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/views/a6pm-qynf/rows.csv", 
   "description": "System peak demand is the most amount of electricity consumed by Austin Energy customers at any given time.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,18 +12,7 @@
     }
   }, 
   "name": "Austin Energy System Peak Demand", 
-  "schema": {
-    "columns": [
-      {
-        "name": "fy", 
-        "type": "text"
-      }, 
-      {
-        "name": "mw", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "austin_energy_system_peak_demand"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "austin_energy_system_peak_demand"
 }

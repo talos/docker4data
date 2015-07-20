@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_significant_noncompliance_list/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/xnje-s6zf/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/xnje-s6zf/rows.csv", 
   "description": "List of establishments in New York City that were in significant noncompliance with applicable pretreatment standards and other requirements. Significant noncompliance is defined in 40 CFR 403.8(f) (2) (viii)\r\n\r\n(* Indicates that these establishments are on the list for late reporting only)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,18 +13,7 @@
     }
   }, 
   "name": "Significant Noncompliance List", 
-  "schema": {
-    "columns": [
-      {
-        "name": "period", 
-        "type": "text"
-      }, 
-      {
-        "name": "establishment_name", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "significant_noncompliance_list"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "significant_noncompliance_list"
 }

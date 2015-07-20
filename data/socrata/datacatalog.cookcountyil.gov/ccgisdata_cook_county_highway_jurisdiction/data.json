@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ccgisdata_cook_county_highway_jurisdiction/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/geospatial/xwwf-iwgu", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/geospatial/xwwf-iwgu", 
   "description": "This dataset contains roads under Cook County jurisdiction. The MAINT attribute is \"True\" for roads maintained by the County \n\nData last updated 06/19/2015.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "ccgisdata - Cook County Highway Jurisdiction", 
-  "schema": {}, 
-  "schemaName": "socrata/datacatalog.cookcountyil.gov", 
-  "tableName": "ccgisdata_cook_county_highway_jurisdiction"
+  "schema": "socrata/datacatalog.cookcountyil.gov", 
+  "status": "needs review", 
+  "table": "ccgisdata_cook_county_highway_jurisdiction"
 }

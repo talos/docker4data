@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/oregon_ag_water_quality_management_areas_map/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/geospatial/2zp7-jetq", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/api/geospatial/2zp7-jetq", 
   "description": "Oregon Ag Water Quality Management Areas", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Oregon Ag Water Quality Management Areas Map", 
-  "schema": {}, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "oregon_ag_water_quality_management_areas_map"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "oregon_ag_water_quality_management_areas_map"
 }

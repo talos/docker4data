@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wa_ocvaguide_records/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/ww32-mk3r/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.wa.gov/api/views/ww32-mk3r/rows.csv", 
   "description": "The Office of Crime Victims Advocacy Resource Directory can help you to locate a non-emergency victim service provider in Washington State. Each service provider offers a variety of services such as crisis intervention, advocacy, support groups, medical & mental health care, transitional housing, emergency shelter and many more. Additionally, some service providers may focus on domestic violence or sexual assault.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,78 +13,7 @@
     }
   }, 
   "name": "OCVAGuide Records", 
-  "schema": {
-    "columns": [
-      {
-        "name": "countyid", 
-        "type": "real"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "title", 
-        "type": "text"
-      }, 
-      {
-        "name": "agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "category", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "phonecrisis", 
-        "type": "text"
-      }, 
-      {
-        "name": "fax", 
-        "type": "text"
-      }, 
-      {
-        "name": "email", 
-        "type": "text"
-      }, 
-      {
-        "name": "web", 
-        "type": "text"
-      }, 
-      {
-        "name": "updated", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "characteristics", 
-        "type": "text"
-      }, 
-      {
-        "name": "types", 
-        "type": "text"
-      }, 
-      {
-        "name": "services", 
-        "type": "text"
-      }, 
-      {
-        "name": "fees", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_2", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.wa.gov", 
-  "tableName": "ocvaguide_records"
+  "schema": "socrata/data.wa.gov", 
+  "status": "needs review", 
+  "table": "ocvaguide_records"
 }

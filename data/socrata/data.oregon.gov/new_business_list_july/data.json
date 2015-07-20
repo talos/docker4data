@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oregon_new_business_list_july/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/395d-muju/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/api/views/395d-muju/rows.csv", 
   "description": "Businesses registered with the Secretary of State Corporation Division during th emonth of July.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,78 +12,7 @@
     }
   }, 
   "name": "New Business List - July", 
-  "schema": {
-    "columns": [
-      {
-        "name": "registry_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "business_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "entity_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "registry_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "associated_name_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "first_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "middle_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "last_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "suffix", 
-        "type": "text"
-      }, 
-      {
-        "name": "not_of_record_entity", 
-        "type": "text"
-      }, 
-      {
-        "name": "entity_of_record_reg_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "entity_of_record_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "address_continued", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "new_business_list_july"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "new_business_list_july"
 }

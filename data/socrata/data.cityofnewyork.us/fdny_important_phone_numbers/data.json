@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_fdny_important_phone_numbers/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/kjmq-hfaa/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/kjmq-hfaa/rows.csv", 
   "description": "FDNY Important Phone Numbers", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,18 +13,7 @@
     }
   }, 
   "name": "FDNY Important Phone Numbers", 
-  "schema": {
-    "columns": [
-      {
-        "name": "department", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone_number", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "fdny_important_phone_numbers"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "fdny_important_phone_numbers"
 }

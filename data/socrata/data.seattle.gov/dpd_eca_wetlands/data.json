@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_dpd_eca_wetlands/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/bfub-vv9y/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/bfub-vv9y/rows.csv", 
   "description": "Critical area designation: wetland areas", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,54 +13,7 @@
     }
   }, 
   "name": "DPD.ECA_WETLANDS", 
-  "schema": {
-    "columns": [
-      {
-        "name": "objectid", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape", 
-        "type": "text"
-      }, 
-      {
-        "name": "donut", 
-        "type": "real"
-      }, 
-      {
-        "name": "wetlands", 
-        "type": "text"
-      }, 
-      {
-        "name": "attribute", 
-        "type": "text"
-      }, 
-      {
-        "name": "decode", 
-        "type": "text"
-      }, 
-      {
-        "name": "hgm_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "area", 
-        "type": "real"
-      }, 
-      {
-        "name": "len", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape_length", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape_area", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "dpd_eca_wetlands"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "dpd_eca_wetlands"
 }

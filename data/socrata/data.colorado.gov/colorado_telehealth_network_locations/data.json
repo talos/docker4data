@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_colorado_telehealth_network_locations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/c2sf-deth/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/api/views/c2sf-deth/rows.csv", 
   "description": "This dataset provides the location of health care service providers around the State of Colorado where the Colorado Telehealth Network (CTN) has installed new communications technology that will enable patients, providers and payers to improve the quality of care, reduce costs and increase access for health care services. By connecting patients and providers on a high speed and secure statewide private broadband network, the CTN provides increased access to educational, business process and clinical care products.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "Colorado Telehealth Network Locations", 
-  "schema": {
-    "columns": [
-      {
-        "name": "member", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "colorado_telehealth_network_locations"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "colorado_telehealth_network_locations"
 }

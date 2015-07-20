@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofboston_issued_permits_all_types_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/2hre-tvqe/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/api/views/2hre-tvqe/rows.csv", 
   "description": "Permits issued by Public Works, Transportation, Inspectional Services, and the Fire Department", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,114 +13,7 @@
     }
   }, 
   "name": "Issued Permits(ALL TYPES)", 
-  "schema": {
-    "columns": [
-      {
-        "name": "permitnumber", 
-        "type": "text"
-      }, 
-      {
-        "name": "worktype", 
-        "type": "text"
-      }, 
-      {
-        "name": "permittypedescr", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "comments", 
-        "type": "text"
-      }, 
-      {
-        "name": "applicant", 
-        "type": "text"
-      }, 
-      {
-        "name": "applicant_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "applicant_city", 
-        "type": "text"
-      }, 
-      {
-        "name": "applicant_state", 
-        "type": "text"
-      }, 
-      {
-        "name": "applicant_zip", 
-        "type": "text"
-      }, 
-      {
-        "name": "is_contractor", 
-        "type": "text"
-      }, 
-      {
-        "name": "declared_valuation", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_fees", 
-        "type": "real"
-      }, 
-      {
-        "name": "issued_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "expiration_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "status", 
-        "type": "text"
-      }, 
-      {
-        "name": "owner", 
-        "type": "text"
-      }, 
-      {
-        "name": "occupancytype", 
-        "type": "text"
-      }, 
-      {
-        "name": "sq_feet", 
-        "type": "real"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip", 
-        "type": "text"
-      }, 
-      {
-        "name": "property_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "parcel_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "issued_permits_all_types_"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "issued_permits_all_types_"
 }

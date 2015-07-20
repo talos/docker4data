@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oregon_safety_net_clinics/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/4q3t-6bdy/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/api/views/4q3t-6bdy/rows.csv", 
   "description": "These clinics provide comprehensive primary care services to all patients, regardless of a person\u2019s ability to pay. Please note that unless indicated, only Hospital Emergency Departments within a hospital necessarily treat patients regardless of their ability to pay. Check with the individual clinic for their specific financial policies and how they are applied.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,54 +12,7 @@
     }
   }, 
   "name": "Safety Net Clinics", 
-  "schema": {
-    "columns": [
-      {
-        "name": "clinic", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "suite", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "website", 
-        "type": "text"
-      }, 
-      {
-        "name": "nhsc_certified", 
-        "type": "text"
-      }, 
-      {
-        "name": "pcpch_recognized", 
-        "type": "text"
-      }, 
-      {
-        "name": "clinic_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "safety_net_clinics"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "safety_net_clinics"
 }

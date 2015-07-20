@@ -1,0 +1,22 @@
+CREATE TABLE "cook_county_commissioner_information" (
+	"office"	text,
+	"district"	text,
+	"jurisdiction"	text,
+	"first_name"	text,
+	"middle_name"	text,
+	"last_name"	text,
+	"last_elected"	timestamp,
+	"next_election"	real,
+	"term"	real,
+	"appointed"	text,
+	"phone1"	text,
+	"fax1"	text,
+	"email1"	text,
+	"url1"	text,
+	"phone2"	text,
+	"fax2"	text,
+	"email2"	text,
+	"url2"	text,
+	"location_1"	text,
+	"location_2"	text
+);

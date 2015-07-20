@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nopd_districts/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.nola.gov/api/geospatial/8yny-6sic", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.nola.gov/api/geospatial/8yny-6sic", 
   "description": "New Orleans Police Districts (December 2011)", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "NOPD Districts", 
-  "schema": {}, 
-  "schemaName": "socrata/data.nola.gov", 
-  "tableName": "nopd_districts"
+  "schema": "socrata/data.nola.gov", 
+  "status": "needs review", 
+  "table": "nopd_districts"
 }

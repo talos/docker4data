@@ -1,8 +1,6 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_bronx_lehman_cuny_bronx_311_dsny_missed_collection/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/gbk3-awq2/rows.csv"
-  }, 
+  "data": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/gbk3-awq2/rows.csv", 
   "description": "All 311 DSNY Missed Collection Service Requests from 2010 to present. This information is automatically updated daily.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,89 +14,5 @@
     }
   }, 
   "name": "Bronx 311 DSNY Missed Collection", 
-  "schema": {
-    "columns": [
-      {
-        "name": "unique_key", 
-        "type": "real"
-      }, 
-      {
-        "name": "created_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "closed_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "agency_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "complaint_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "descriptor", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "incident_zip", 
-        "type": "real"
-      }, 
-      {
-        "name": "incident_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "cross_street_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "cross_street_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "intersection_street_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "intersection_street_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "address_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "facility_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "status", 
-        "type": "text"
-      }, 
-      {
-        "name": "resolution_action_updated_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "community_board", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "tableName": "socrata_bronx_lehman_cuny_bronx_311_dsny_missed_collection"
+  "table": "socrata_bronx_lehman_cuny_bronx_311_dsny_missed_collection"
 }

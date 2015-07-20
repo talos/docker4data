@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_hawaii_directory_of_green_employers/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/mq86-5ta6/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/mq86-5ta6/rows.csv", 
   "description": "The Hawai'i Directory of Green Employers is a growing online directory of green employers in Hawai'i. The Hawaii Department of Labor and Industrial Relations (DLIR) defines green employers as businesses that employ workers in occupations in these core areas: \n\n\u2022\tGenerate clean, renewable, sustainable Energy \n\u2022\tReduce pollution and waste; conserve natural resources; recycle\n\u2022\tEnergy efficiency \n\u2022\tEducation, training and support of green workforce \n\u2022\tNatural, sustainable, environmentally-friendly production \n\nThe Directory contains employers\u2019 self-posted profiles that describe their operations, specify their core occupations, and describe the skills and education they want in employees. Jobseekers, students, their counselors and advisors, and others can access the employer profiles to learn about these companies and the workers they require.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,54 +12,7 @@
     }
   }, 
   "name": "Hawaii Directory Of Green Employers", 
-  "schema": {
-    "columns": [
-      {
-        "name": "employer_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "primary_contact_phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "company_phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "industry", 
-        "type": "text"
-      }, 
-      {
-        "name": "subsector", 
-        "type": "text"
-      }, 
-      {
-        "name": "primary_contact_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "job_title", 
-        "type": "text"
-      }, 
-      {
-        "name": "job_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "job_green_area", 
-        "type": "text"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "hawaii_directory_of_green_employers"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "hawaii_directory_of_green_employers"
 }

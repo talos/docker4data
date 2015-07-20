@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wa_middle_snake_low_flow_trend_indicator_2005_2013/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/g8kr-9vgm/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.wa.gov/api/views/g8kr-9vgm/rows.csv", 
   "description": "Short-term flow trends from an expanded number of stations.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "Middle Snake Low Flow Trend Indicator 2005-2013", 
-  "schema": {
-    "columns": [
-      {
-        "name": "stn_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "station_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "wria", 
-        "type": "real"
-      }, 
-      {
-        "name": "m_k_p", 
-        "type": "real"
-      }, 
-      {
-        "name": "reg_p", 
-        "type": "real"
-      }, 
-      {
-        "name": "trend_category", 
-        "type": "text"
-      }, 
-      {
-        "name": "trend_cfs_yr", 
-        "type": "real"
-      }, 
-      {
-        "name": "trend_year", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.wa.gov", 
-  "tableName": "middle_snake_low_flow_trend_indicator_2005_2013"
+  "schema": "socrata/data.wa.gov", 
+  "status": "needs review", 
+  "table": "middle_snake_low_flow_trend_indicator_2005_2013"
 }

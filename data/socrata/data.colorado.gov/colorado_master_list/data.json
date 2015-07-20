@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_colorado_master_list/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/ej2c-jkvh/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/api/views/ej2c-jkvh/rows.csv", 
   "description": "The master list is a report that contains information from all of the effective financing statements (EFS) that were effective as of the last day of the previous month. Contains information on debtors, crops, records, and amendments.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,90 +13,7 @@
     }
   }, 
   "name": "Colorado Master List", 
-  "schema": {
-    "columns": [
-      {
-        "name": "farmproduct", 
-        "type": "text"
-      }, 
-      {
-        "name": "debtorname", 
-        "type": "text"
-      }, 
-      {
-        "name": "debtorid", 
-        "type": "text"
-      }, 
-      {
-        "name": "counties", 
-        "type": "text"
-      }, 
-      {
-        "name": "cropyear", 
-        "type": "text"
-      }, 
-      {
-        "name": "cropyearmin", 
-        "type": "real"
-      }, 
-      {
-        "name": "cropyearmax", 
-        "type": "real"
-      }, 
-      {
-        "name": "debtoraddress", 
-        "type": "text"
-      }, 
-      {
-        "name": "additionaldebtors", 
-        "type": "text"
-      }, 
-      {
-        "name": "additionaldebtorid", 
-        "type": "text"
-      }, 
-      {
-        "name": "securedparty", 
-        "type": "text"
-      }, 
-      {
-        "name": "assignee", 
-        "type": "text"
-      }, 
-      {
-        "name": "additionalfarmproduct", 
-        "type": "text"
-      }, 
-      {
-        "name": "recordidverbatim", 
-        "type": "text"
-      }, 
-      {
-        "name": "recordid", 
-        "type": "text"
-      }, 
-      {
-        "name": "recordiddate", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "recordcountyfilingid", 
-        "type": "text"
-      }, 
-      {
-        "name": "recordcountyfiling", 
-        "type": "text"
-      }, 
-      {
-        "name": "amendmentidverbatim", 
-        "type": "text"
-      }, 
-      {
-        "name": "amendmentid", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "colorado_master_list"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "colorado_master_list"
 }

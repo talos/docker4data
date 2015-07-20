@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_baltimorecity_red_light_cameras/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/ydjd-febd/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/ydjd-febd/rows.csv", 
   "description": "Motorists who drive aggressively and exceed the posted speed limit by at least 12 miles per hour will receive $40 citations in the mail. These citations are not reported to insurance companies and no license points are assigned. Notification signs will be placed at all speed enforcement locations so that motorists will be aware that they are approaching a speed check zone. The goal of the program is to make the streets of Baltimore safer for everyone by changing aggressive driving behavior. In addition to the eight portable speed enforcement units, the city has retrofitted 50 red light camera locations with the automated speed enforcement technology.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "Red Light Cameras", 
-  "schema": {
-    "columns": [
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "enforcement", 
-        "type": "text"
-      }, 
-      {
-        "name": "installationdate", 
-        "type": "text"
-      }, 
-      {
-        "name": "direction", 
-        "type": "text"
-      }, 
-      {
-        "name": "street", 
-        "type": "text"
-      }, 
-      {
-        "name": "block", 
-        "type": "text"
-      }, 
-      {
-        "name": "crossstreet", 
-        "type": "text"
-      }, 
-      {
-        "name": "intersection", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.baltimorecity.gov", 
-  "tableName": "red_light_cameras"
+  "schema": "socrata/data.baltimorecity.gov", 
+  "status": "needs review", 
+  "table": "red_light_cameras"
 }

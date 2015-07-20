@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_scout_conditions/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/kjxa-7ccf/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/kjxa-7ccf/rows.csv", 
   "description": "Quality of life conditions reported by city inspectors.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "SCOUT Conditions", 
-  "schema": {
-    "columns": [
-      {
-        "name": "created_month", 
-        "type": "text"
-      }, 
-      {
-        "name": "borough", 
-        "type": "text"
-      }, 
-      {
-        "name": "community_board", 
-        "type": "text"
-      }, 
-      {
-        "name": "agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "complaint_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "descriptor_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "of_srs", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "scout_conditions"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "scout_conditions"
 }

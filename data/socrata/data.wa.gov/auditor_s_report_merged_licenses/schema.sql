@@ -1,0 +1,22 @@
+CREATE TABLE "auditor_s_report_merged_licenses" (
+	"agency_name"	text,
+	"license_name"	text,
+	"license_category"	text,
+	"purpose_of_license"	text,
+	"business_activities_requiring_license"	text,
+	"uses_of_license_if_more_than_one_identified_on_the_agency_s_website_or_application"	text,
+	"total_number_of_uses_for_license"	text,
+	"where_license_application_is_available"	text,
+	"form_and_revision_date"	text,
+	"where_business_submits_the_license_application"	text,
+	"required_frequency_of_renewal"	text,
+	"rcw_governing_license"	text,
+	"wac_governing_license"	text,
+	"fee_for_license"	text,
+	"license_processing_time_identified_on_the_agency_s_website_or_application"	text,
+	"total_number_of_initial_license_applications_received_in_2006_2010_calendar_year"	text,
+	"currently_exists_on_bls_website"	text,
+	"currently_exists_on_ora_website"	text,
+	"source"	text,
+	"agency_comments"	text
+);

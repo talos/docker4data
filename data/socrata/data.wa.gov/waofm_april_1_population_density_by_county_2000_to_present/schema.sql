@@ -1,0 +1,20 @@
+CREATE TABLE "waofm_april_1_population_density_by_county_2000_to_present" (
+	"county"	text,
+	"popden_2000"	real,
+	"popden_2001"	real,
+	"popden_2002"	real,
+	"popden_2003"	real,
+	"popden_2004"	real,
+	"popden_2005"	real,
+	"popden_2006"	real,
+	"popden_2007"	real,
+	"popden_2008"	real,
+	"popden_2009"	real,
+	"popden_2010"	real,
+	"popden_2011"	real,
+	"popden_2012"	real,
+	"popden_2013"	real,
+	"popden_2014"	real,
+	"popden_2015"	real,
+	"location_1"	text
+);

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wa_better_brakes_histograms_data/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/myjj-3x4c/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.wa.gov/api/views/myjj-3x4c/rows.csv", 
   "description": "This dataset contains information reported as part the Better Brakes Law, Chapter 70.285 RCW. It contains data needed to draw histograms of the concentrations of copper, nickel, zinc, and antimony.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "Better Brakes -  Histograms Data", 
-  "schema": {
-    "columns": [
-      {
-        "name": "histogram_bin", 
-        "type": "text"
-      }, 
-      {
-        "name": "light_duty_cu_formula_count", 
-        "type": "real"
-      }, 
-      {
-        "name": "light_duty_zi_formula_count", 
-        "type": "real"
-      }, 
-      {
-        "name": "light_duty_sb_formula_count", 
-        "type": "real"
-      }, 
-      {
-        "name": "heavy_duty_cu_formula_count", 
-        "type": "real"
-      }, 
-      {
-        "name": "heavy_duty_zi_formula_count", 
-        "type": "real"
-      }, 
-      {
-        "name": "heavy_duty_sb_formula_count", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.wa.gov", 
-  "tableName": "better_brakes_histograms_data"
+  "schema": "socrata/data.wa.gov", 
+  "status": "needs review", 
+  "table": "better_brakes_histograms_data"
 }

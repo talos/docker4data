@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ides_mass_layoff_statistics_by_industry_annual_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/7a67-edw6/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/7a67-edw6/rows.csv", 
   "description": "Annual mass layoffs by industry group in Illinois (subject to revision). Includes all potential mass layoff events, regardless of the reason(s) or duration of the layoffs (i.e. both temporary and extended layoffs and economic and non-economic layoffs).  Data suppressed to avoid potential disclosure on individual business establishments, per State law.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "IDES - Mass Layoff Statistics By Industry (Annual)", 
-  "schema": {
-    "columns": [
-      {
-        "name": "industry_group", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "text"
-      }, 
-      {
-        "name": "layoff_events", 
-        "type": "text"
-      }, 
-      {
-        "name": "initial_claims", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "ides_mass_layoff_statistics_by_industry_annual_"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "ides_mass_layoff_statistics_by_industry_annual_"
 }

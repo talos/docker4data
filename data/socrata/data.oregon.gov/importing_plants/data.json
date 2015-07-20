@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oregon_importing_plants/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/sab8-tquj/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/api/views/sab8-tquj/rows.csv", 
   "description": "Regulations for importing plants into Oregon", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,30 +11,7 @@
     }
   }, 
   "name": "Importing Plants", 
-  "schema": {
-    "columns": [
-      {
-        "name": "plant_part", 
-        "type": "text"
-      }, 
-      {
-        "name": "area_under_quarantine", 
-        "type": "text"
-      }, 
-      {
-        "name": "regulation", 
-        "type": "text"
-      }, 
-      {
-        "name": "requirements", 
-        "type": "text"
-      }, 
-      {
-        "name": "additional_information", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "importing_plants"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "importing_plants"
 }

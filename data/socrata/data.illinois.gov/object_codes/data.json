@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_object_codes/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/jbmj-nkfx/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/jbmj-nkfx/rows.csv", 
   "description": "City of Rockford Finance Object Codes", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,22 +12,7 @@
     }
   }, 
   "name": "Object Codes", 
-  "schema": {
-    "columns": [
-      {
-        "name": "object", 
-        "type": "real"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "short_desc", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "object_codes"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "object_codes"
 }

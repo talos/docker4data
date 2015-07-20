@@ -1,0 +1,21 @@
+CREATE TABLE "colorado_alternative_energy_laws_and_incentives" (
+	"lawid"	real,
+	"title"	text,
+	"text"	text,
+	"enacteddate"	text,
+	"amendeddate"	text,
+	"isrecent"	text,
+	"sequencenumber"	real,
+	"type"	text,
+	"agency"	text,
+	"significantupdatedate"	text,
+	"expireddate"	text,
+	"archiveddate"	text,
+	"repealeddate"	text,
+	"topic"	text,
+	"technologycategories"	text,
+	"incentivecategories"	text,
+	"regulationcategories"	text,
+	"usercategories"	text,
+	"references"	text
+);

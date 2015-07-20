@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_relocated_vehicles/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/5k2z-suxx/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/5k2z-suxx/rows.csv", 
   "description": "This dataset presents current and former locations of vehicles that have been relocated by the City of Chicago within the last 90 days. Vehicles may be relocated, but not impounded, due to inoperability, accident, severe weather, special events, construction or other work being performed in a thoroughfare where the vehicle was previously located.\r\nData Owner: Streets & Sanitation.\r\nTime Period: Last 90 days.\r\nFrequency: Data is updated daily.\r\nRelated Applications: Find Your Vehicle (http://j.mp/iZiX0B).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,70 +13,7 @@
     }
   }, 
   "name": "Relocated Vehicles", 
-  "schema": {
-    "columns": [
-      {
-        "name": "relocated_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "make", 
-        "type": "text"
-      }, 
-      {
-        "name": "color", 
-        "type": "text"
-      }, 
-      {
-        "name": "plate", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "relocated_from_address_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "relocated_from_street_direction", 
-        "type": "text"
-      }, 
-      {
-        "name": "relocated_from_street_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "relocated_from_suffix", 
-        "type": "text"
-      }, 
-      {
-        "name": "relocated_to_address_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "relocated_to_direction", 
-        "type": "text"
-      }, 
-      {
-        "name": "relocated_to_street_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "relocated_to_suffix", 
-        "type": "text"
-      }, 
-      {
-        "name": "relocated_reason", 
-        "type": "text"
-      }, 
-      {
-        "name": "service_request_number", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "relocated_vehicles"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "relocated_vehicles"
 }

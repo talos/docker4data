@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nyc_bers_pension_fund_december_2010/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/www.opendatanyc.com/download/beme-qrbpapplication/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/www.opendatanyc.com/download/beme-qrbp/application/pdf", 
   "description": "Performance as of September 2010.", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,7 +13,7 @@
     }
   }, 
   "name": "NYC BERS Pension Fund December, 2010", 
-  "schema": {}, 
-  "schemaName": "socrata/www.opendatanyc.com", 
-  "tableName": "nyc_bers_pension_fund_december_2010"
+  "schema": "socrata/www.opendatanyc.com", 
+  "status": "needs review", 
+  "table": "nyc_bers_pension_fund_december_2010"
 }

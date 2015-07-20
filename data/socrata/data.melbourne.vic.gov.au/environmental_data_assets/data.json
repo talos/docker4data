@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/environmental_data_assets/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/views/axts-5eu4/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/views/axts-5eu4/rows.csv", 
   "description": "The Environmental data includes energy consumed and generated as well as greenhouse gas emissions from Council's assets and a portion of its supply chain.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,54 +13,7 @@
     }
   }, 
   "name": "Environmental Data - Assets", 
-  "schema": {
-    "columns": [
-      {
-        "name": "branch", 
-        "type": "text"
-      }, 
-      {
-        "name": "asset_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "asset_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "suburb", 
-        "type": "text"
-      }, 
-      {
-        "name": "postcode", 
-        "type": "real"
-      }, 
-      {
-        "name": "category", 
-        "type": "text"
-      }, 
-      {
-        "name": "nger_entity", 
-        "type": "text"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "geocode", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.melbourne.vic.gov.au", 
-  "tableName": "environmental_data_assets"
+  "schema": "socrata/data.melbourne.vic.gov.au", 
+  "status": "needs review", 
+  "table": "environmental_data_assets"
 }

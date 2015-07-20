@@ -1,0 +1,22 @@
+CREATE TABLE "2011_2012_all_progress_report_results_2012_10_01_bronx" (
+	"boro"	text,
+	"dbn"	text,
+	"district"	real,
+	"school"	text,
+	"principal"	text,
+	"progress_report_type"	text,
+	"school_level"	text,
+	"peer_index"	real,
+	"overall_grade"	text,
+	"overall_score"	real,
+	"overall_percentile"	real,
+	"progress_category_score"	real,
+	"progress_grade"	text,
+	"performance_category_score"	real,
+	"performance_grade"	text,
+	"environment_category_score"	real,
+	"environment_grade"	text,
+	"additional_credit"	real,
+	"progress_report_grade_1"	text,
+	"progress_report_grade_2"	text
+);

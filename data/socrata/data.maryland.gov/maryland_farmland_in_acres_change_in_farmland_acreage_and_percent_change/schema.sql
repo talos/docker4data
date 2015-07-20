@@ -1,0 +1,22 @@
+CREATE TABLE "maryland_farmland_in_acres_change_in_farmland_acreage_and_percent_change" (
+	"date_created"	timestamp,
+	"year"	text,
+	"number_of_acres_in_farmland_1987"	real,
+	"number_of_acres_in_farmland_1992"	real,
+	"number_of_acres_in_farmland_1997"	real,
+	"number_of_acres_in_farmland_2002"	real,
+	"number_of_acres_in_farmland_2007"	real,
+	"number_of_acres_in_farmland_2012"	real,
+	"change_in_number_of_acres_1987_1992"	real,
+	"change_in_number_of_acres_1992_1997"	real,
+	"change_in_number_of_acres_1997_2002"	real,
+	"change_in_number_of_acres_2002_2007"	real,
+	"change_in_number_of_acres_2007_2012"	real,
+	"percent_change_in_acres_1987_1992"	text,
+	"percent_change_in_acres_1992_1997"	text,
+	"percent_change_in_acres_1997_2002"	text,
+	"percent_change_in_acres_2002_2007"	text,
+	"percent_change_in_acres_2007_2012"	text,
+	"change_in_number_of_acres_1987_2012"	real,
+	"percent_change_in_acres_1987_2012"	text
+);

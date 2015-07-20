@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_weatherfordtx_2013_mosquito_treatments/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/5rrs-sgue/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/5rrs-sgue/rows.csv", 
   "description": "Logs of all larvacide treatments except for spraying", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,26 +12,7 @@
     }
   }, 
   "name": "2013 Mosquito Treatments", 
-  "schema": {
-    "columns": [
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "geolocation", 
-        "type": "text"
-      }, 
-      {
-        "name": "work_order", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.weatherfordtx.gov", 
-  "tableName": "2013_mosquito_treatments"
+  "schema": "socrata/data.weatherfordtx.gov", 
+  "status": "needs review", 
+  "table": "2013_mosquito_treatments"
 }

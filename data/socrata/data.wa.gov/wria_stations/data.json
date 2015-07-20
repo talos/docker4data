@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wa_wria_stations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/9f58-2fb8/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.wa.gov/api/views/9f58-2fb8/rows.csv", 
   "description": "Water Resource Inventory Area Stations in washington state. This data set is used in conjunction with the \"Water Quality Index Scores\" data set to produce the water quality tables in the bi-annual state of salmon report (stateofsalmon.wa.gov)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "WRIA Stations", 
-  "schema": {
-    "columns": [
-      {
-        "name": "station", 
-        "type": "text"
-      }, 
-      {
-        "name": "station_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "ssr", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.wa.gov", 
-  "tableName": "wria_stations"
+  "schema": "socrata/data.wa.gov", 
+  "status": "needs review", 
+  "table": "wria_stations"
 }

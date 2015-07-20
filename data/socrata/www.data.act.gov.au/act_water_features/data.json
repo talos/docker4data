@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/act_water_features/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/www.data.act.gov.au/api/geospatial/czug-indd", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/www.data.act.gov.au/api/geospatial/czug-indd", 
   "description": "ACT Water Features are comprised of lines and polygons representing an area of land that is or may be covered in water, either intermittently, constantly, temporarily or permanently.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "ACT Water Features", 
-  "schema": {}, 
-  "schemaName": "socrata/www.data.act.gov.au", 
-  "tableName": "act_water_features"
+  "schema": "socrata/www.data.act.gov.au", 
+  "status": "needs review", 
+  "table": "act_water_features"
 }

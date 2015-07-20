@@ -1,0 +1,23 @@
+CREATE TABLE "public_expenditure_2002_2010" (
+	"year"	text,
+	"central_or_sub_national_spending"	text,
+	"vote_constituency_or_local_authority"	text,
+	"sub_vote"	text,
+	"head"	text,
+	"sub_head"	text,
+	"district_code"	text,
+	"district"	text,
+	"cdf_project"	text,
+	"county"	text,
+	"mtef_sector"	text,
+	"sub_sector"	text,
+	"current_or_capital"	text,
+	"gfs_economic_classification"	text,
+	"line_item"	text,
+	"estimates"	real,
+	"revised"	real,
+	"executed"	real,
+	"a_in_a"	text,
+	"budget_type"	text,
+	"location_1"	text
+);

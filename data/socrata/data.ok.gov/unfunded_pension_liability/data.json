@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_unfunded_pension_liability/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/bxbx-8n89/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/bxbx-8n89/rows.csv", 
   "description": "Decrease the State of Oklahoma\u2019s unfunded pension liability from $9.65 billion in 2014 to $NA billion by 2018 (Target not yet established).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "Unfunded Pension Liability", 
-  "schema": {
-    "columns": [
-      {
-        "name": "years", 
-        "type": "text"
-      }, 
-      {
-        "name": "historical_data", 
-        "type": "real"
-      }, 
-      {
-        "name": "target", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "unfunded_pension_liability"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "unfunded_pension_liability"
 }

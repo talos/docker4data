@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wa_statewide_stream_miles_opened/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/4cuw-kixp/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.wa.gov/api/views/4cuw-kixp/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,18 +9,7 @@
     }
   }, 
   "name": "Statewide Stream Miles Opened", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "stream_miles_opened", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.wa.gov", 
-  "tableName": "statewide_stream_miles_opened"
+  "schema": "socrata/data.wa.gov", 
+  "status": "needs review", 
+  "table": "statewide_stream_miles_opened"
 }

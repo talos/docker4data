@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_weatherfordtx_authorized_vendor_list/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/c68f-eup2/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/c68f-eup2/rows.csv", 
   "description": "Full list of authorized vendors.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "Authorized Vendor List", 
-  "schema": {
-    "columns": [
-      {
-        "name": "name_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "name_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_1", 
-        "type": "real"
-      }, 
-      {
-        "name": "zip_2", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.weatherfordtx.gov", 
-  "tableName": "authorized_vendor_list"
+  "schema": "socrata/data.weatherfordtx.gov", 
+  "status": "needs review", 
+  "table": "authorized_vendor_list"
 }

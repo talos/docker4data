@@ -1,0 +1,20 @@
+CREATE TABLE "steelhead_estimates_2012_final" (
+	"region"	text,
+	"system"	text,
+	"water"	text,
+	"race"	text,
+	"mark"	text,
+	"apr_2012"	real,
+	"may_2012"	real,
+	"jun_2012"	real,
+	"jul_2012"	real,
+	"aug_2012"	real,
+	"sep_2012"	real,
+	"oct_2012"	real,
+	"nov_2012"	real,
+	"dec_2012"	real,
+	"jan_2013"	real,
+	"feb_2013"	real,
+	"mar_2013"	real,
+	"total"	real
+);

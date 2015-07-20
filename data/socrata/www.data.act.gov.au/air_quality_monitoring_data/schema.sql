@@ -1,0 +1,20 @@
+CREATE TABLE "air_quality_monitoring_data" (
+	"name"	text,
+	"gps"	text,
+	"datetime"	timestamp,
+	"no2"	real,
+	"o3_1hr"	real,
+	"o3_4hr"	real,
+	"co"	real,
+	"pm10"	real,
+	"pm2_5"	real,
+	"aqi_co"	real,
+	"aqi_no2"	real,
+	"aqi_o3_1hr"	real,
+	"aqi_o3_4hr"	real,
+	"aqi_pm10"	real,
+	"aqi_pm2_5"	real,
+	"aqi_site"	real,
+	"date"	timestamp,
+	"time"	text
+);

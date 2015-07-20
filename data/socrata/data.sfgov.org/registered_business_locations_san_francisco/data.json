@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_registered_business_locations_san_francisco/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/g8m3-pdis/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sfgov.org/api/views/g8m3-pdis/rows.csv", 
   "description": "Registered business locations in San Francisco maintained by the Office of Treasurer-Tax Collector, including business locations that have been sold, closed, or moved out of San Francisco.\r\nNote: a new business tax system has been put in place as of July 1, 2014; the Class and PBC Codes have been retained from previous system, and new additions to the system will not have business codes until March 2015.  At that time,  all codes will be replaced with the proper NAICS code for each business location.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,78 +13,7 @@
     }
   }, 
   "name": "Registered Business Locations - San Francisco", 
-  "schema": {
-    "columns": [
-      {
-        "name": "ttxid", 
-        "type": "text"
-      }, 
-      {
-        "name": "certificate_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "ownership_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "dba_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "full_business_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "business_zip", 
-        "type": "text"
-      }, 
-      {
-        "name": "dba_start_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "dba_end_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "location_start_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "location_end_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "mailing_address_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "mailing_city_state_zip_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "class_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "pbc_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sfgov.org", 
-  "tableName": "registered_business_locations_san_francisco"
+  "schema": "socrata/data.sfgov.org", 
+  "status": "needs review", 
+  "table": "registered_business_locations_san_francisco"
 }

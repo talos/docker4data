@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/theaters/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/geospatial/kdu2-865w", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/geospatial/kdu2-865w", 
   "description": "Listing of NYC theaters", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,9 +14,7 @@
     }
   }, 
   "name": "Theaters", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "theaters"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "theaters"
 }

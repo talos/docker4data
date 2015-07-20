@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/new_york_city_population_by_neighborhood_tabulation_areas/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/swpk-hqdp/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/swpk-hqdp/rows.csv", 
   "description": "Population Numbers By New York City Neighborhood Tabulation Areas", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "New York City Population By Neighborhood Tabulation Areas", 
-  "schema": {
-    "columns": [
-      {
-        "name": "borough", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "text"
-      }, 
-      {
-        "name": "fips_county_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "nta_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "nta_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "population", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "new_york_city_population_by_neighborhood_tabulation_areas"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "new_york_city_population_by_neighborhood_tabulation_areas"
 }

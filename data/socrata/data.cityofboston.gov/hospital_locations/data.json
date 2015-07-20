@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofboston_hospital_locations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/46f7-2snz/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/api/views/46f7-2snz/rows.csv", 
   "description": "Locations of Hospitals within the city", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,38 +12,7 @@
     }
   }, 
   "name": "Hospital Locations", 
-  "schema": {
-    "columns": [
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "ad", 
-        "type": "text"
-      }, 
-      {
-        "name": "zipcode", 
-        "type": "real"
-      }, 
-      {
-        "name": "neigh", 
-        "type": "text"
-      }, 
-      {
-        "name": "xcoord", 
-        "type": "real"
-      }, 
-      {
-        "name": "ycoord", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "hospital_locations"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "hospital_locations"
 }

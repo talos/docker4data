@@ -1,0 +1,20 @@
+CREATE TABLE "public_art_test_data" (
+	"sac_id"	text,
+	"project"	text,
+	"artist_first_name"	text,
+	"artist_last_name"	text,
+	"title"	text,
+	"description"	text,
+	"classification"	text,
+	"media"	text,
+	"measurements"	text,
+	"date"	text,
+	"location"	text,
+	"location_id"	text,
+	"situation"	text,
+	"descriptor"	text,
+	"lat_lng"	text,
+	"address"	text,
+	"latitude"	text,
+	"longitude"	text
+);

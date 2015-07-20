@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/mature_neighbourhood_reinvestment/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/vd42-umu2/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.edmonton.ca/api/views/vd42-umu2/rows.csv", 
   "description": "Summary of development activities in Mature Neighbourhood Overlay neighbourhoods. This data-set is from 2000 to present year. Data is updated annually.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,54 +13,7 @@
     }
   }, 
   "name": "Mature Neighbourhood Reinvestment", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "type", 
-        "type": "text"
-      }, 
-      {
-        "name": "neighbourhood", 
-        "type": "text"
-      }, 
-      {
-        "name": "total_construction_value", 
-        "type": "real"
-      }, 
-      {
-        "name": "additions", 
-        "type": "real"
-      }, 
-      {
-        "name": "interior_exterior_alterations", 
-        "type": "real"
-      }, 
-      {
-        "name": "secondary_suites", 
-        "type": "real"
-      }, 
-      {
-        "name": "new_units", 
-        "type": "real"
-      }, 
-      {
-        "name": "demolished_units", 
-        "type": "real"
-      }, 
-      {
-        "name": "net_units", 
-        "type": "real"
-      }, 
-      {
-        "name": "number_of_permits", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.edmonton.ca", 
-  "tableName": "mature_neighbourhood_reinvestment"
+  "schema": "socrata/data.edmonton.ca", 
+  "status": "needs review", 
+  "table": "mature_neighbourhood_reinvestment"
 }

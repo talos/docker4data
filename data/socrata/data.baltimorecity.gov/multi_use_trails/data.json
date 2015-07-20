@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_baltimorecity_multi_use_trails/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/sicc-m9it/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/sicc-m9it/rows.csv", 
   "description": "The data shows all current and proposed multiuse trails within the Baltimore City limits. Every reasonable effort has been made to ensure the accuracy of this data. The City of Baltimore makes no representations nor warranties, either expressed or implied, regarding the accuracy of this information or its suitability for any particular purpose whatsoever. The data is licensed \"as is\" and the City of Baltimore will not be liable for its use or misuse by any party.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Multi-Use Trails", 
-  "schema": {
-    "columns": [
-      {
-        "name": "phase", 
-        "type": "text"
-      }, 
-      {
-        "name": "trail", 
-        "type": "text"
-      }, 
-      {
-        "name": "type", 
-        "type": "text"
-      }, 
-      {
-        "name": "surface", 
-        "type": "text"
-      }, 
-      {
-        "name": "onroad", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.baltimorecity.gov", 
-  "tableName": "multi_use_trails"
+  "schema": "socrata/data.baltimorecity.gov", 
+  "status": "needs review", 
+  "table": "multi_use_trails"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_council_committees_and_meetings/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/m48u-yjt8/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/m48u-yjt8/rows.csv", 
   "description": "This list contains information on committee and full Council meetings", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Council Committees And Meetings", 
-  "schema": {
-    "columns": [
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "meeting_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "meeting_time", 
-        "type": "text"
-      }, 
-      {
-        "name": "meeting_location", 
-        "type": "text"
-      }, 
-      {
-        "name": "meeting_topic", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "council_committees_and_meetings"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "council_committees_and_meetings"
 }

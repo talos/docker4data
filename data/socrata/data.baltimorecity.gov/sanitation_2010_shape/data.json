@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/sanitation_2010_shape/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/geospatial/7y6i-3pcr", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.baltimorecity.gov/api/geospatial/7y6i-3pcr", 
   "description": "All sanitation data for Vital Signs indicators are provided by the Baltimore CitiStat. BNIA-JFI normalizes this data by population to establish rates. Normalizing data allows for the rates to reflect the concentration of the issue relative to the population in the area and allows for comparison between areas of different populations.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,9 +14,7 @@
     }
   }, 
   "name": "Sanitation 2010 - Shape", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.baltimorecity.gov", 
-  "tableName": "sanitation_2010_shape"
+  "schema": "socrata/data.baltimorecity.gov", 
+  "status": "needs review", 
+  "table": "sanitation_2010_shape"
 }

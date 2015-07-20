@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/schools/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/kqmn-byj8/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/kqmn-byj8/rows.csv", 
   "description": "List of schools by name, address, type and grades. Note some facilities house multiple schools.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,90 +13,7 @@
     }
   }, 
   "name": "Schools", 
-  "schema": {
-    "columns": [
-      {
-        "name": "school_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "definition", 
-        "type": "text"
-      }, 
-      {
-        "name": "primary_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "second_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "grades", 
-        "type": "text"
-      }, 
-      {
-        "name": "school2_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "school2_primary_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "school2_secondary_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "school2_grades", 
-        "type": "text"
-      }, 
-      {
-        "name": "school2_definition", 
-        "type": "text"
-      }, 
-      {
-        "name": "school3_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "school3_primary_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "school3_secondary_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "school3_grades", 
-        "type": "text"
-      }, 
-      {
-        "name": "school3_definition", 
-        "type": "text"
-      }, 
-      {
-        "name": "school4_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "school4_primary_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "school4_secondary_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "school4_grades", 
-        "type": "text"
-      }, 
-      {
-        "name": "school4_definition", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "schools"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "schools"
 }

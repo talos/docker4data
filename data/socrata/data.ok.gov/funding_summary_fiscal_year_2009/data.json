@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_funding_summary_fiscal_year_2009/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/5sui-v8ct/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/5sui-v8ct/rows.csv", 
   "description": "The Funding dataset provides information for the current fiscal year (to-date) and the three prior fiscal years.  The funding information is first presented by high-level funding categories including:\r\n\u2022\tAssets Held for Others \r\n\u2022\tTaxes and Interest Income\r\n\u2022\tLicenses, Permits, Tuition, Fees and Other \r\n\u2022\tFederal Grants \r\n\u2022\tAppropriations \r\nEach Funding category (class) may be further viewed by sub-class and detail funding type.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,54 +13,7 @@
     }
   }, 
   "name": "Funding Summary - Fiscal Year 2009", 
-  "schema": {
-    "columns": [
-      {
-        "name": "agency_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "agency_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "account_major_class", 
-        "type": "text"
-      }, 
-      {
-        "name": "account_description_major_class", 
-        "type": "text"
-      }, 
-      {
-        "name": "account_sub_class", 
-        "type": "text"
-      }, 
-      {
-        "name": "account_description_sub_class", 
-        "type": "text"
-      }, 
-      {
-        "name": "account", 
-        "type": "text"
-      }, 
-      {
-        "name": "account_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "fiscal_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "accounting_period", 
-        "type": "real"
-      }, 
-      {
-        "name": "amount", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "funding_summary_fiscal_year_2009"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "funding_summary_fiscal_year_2009"
 }

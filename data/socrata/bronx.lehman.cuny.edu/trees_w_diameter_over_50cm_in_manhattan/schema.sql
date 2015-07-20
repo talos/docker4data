@@ -1,0 +1,20 @@
+CREATE TABLE "trees_w_diameter_over_50cm_in_manhattan" (
+	"treeid"	real,
+	"objectid_1"	real,
+	"parity"	text,
+	"crossstree"	text,
+	"crossstr_1"	text,
+	"buildingnu"	real,
+	"buildingst"	text,
+	"treelocati"	real,
+	"site"	real,
+	"treepit"	real,
+	"treecondit"	real,
+	"diameter"	real,
+	"species"	text,
+	"borough"	text,
+	"zipcode"	real,
+	"fid_1"	real,
+	"commdist"	real,
+	"location_1"	text
+);

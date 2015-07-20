@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_odra_home_care_trends/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/xjur-zbxw/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/xjur-zbxw/rows.csv", 
   "description": "Monthly trend analysis on home care cases.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "ODRA Home Care Trends", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "month", 
-        "type": "real"
-      }, 
-      {
-        "name": "cases", 
-        "type": "real"
-      }, 
-      {
-        "name": "monthly_percent_change", 
-        "type": "text"
-      }, 
-      {
-        "name": "yearly_percent_change", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "odra_home_care_trends"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "odra_home_care_trends"
 }

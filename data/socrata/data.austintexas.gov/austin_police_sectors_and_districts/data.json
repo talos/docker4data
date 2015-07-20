@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/austin_police_sectors_and_districts/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/geospatial/bh6h-vpxb", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/geospatial/bh6h-vpxb", 
   "description": "Austin Police Department Sectors and Districts.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,9 +14,7 @@
     }
   }, 
   "name": "Austin Police Sectors and Districts", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "austin_police_sectors_and_districts"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "austin_police_sectors_and_districts"
 }

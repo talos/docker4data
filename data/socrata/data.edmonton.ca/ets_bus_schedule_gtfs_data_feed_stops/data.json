@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ets_bus_schedule_gtfs_data_feed_stops/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/4vt2-8zrq/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.edmonton.ca/api/views/4vt2-8zrq/rows.csv", 
   "description": "List of all transit bus stops in Edmonton", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "ETS Bus Schedule GTFS Data Feed - Stops", 
-  "schema": {
-    "columns": [
-      {
-        "name": "stop_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "stop_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "stop_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "stop_desc", 
-        "type": "text"
-      }, 
-      {
-        "name": "stop_lat", 
-        "type": "real"
-      }, 
-      {
-        "name": "stop_lon", 
-        "type": "real"
-      }, 
-      {
-        "name": "zone_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "stop_url", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_type", 
-        "type": "real"
-      }, 
-      {
-        "name": "parent_station", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.edmonton.ca", 
-  "tableName": "ets_bus_schedule_gtfs_data_feed_stops"
+  "schema": "socrata/data.edmonton.ca", 
+  "status": "needs review", 
+  "table": "ets_bus_schedule_gtfs_data_feed_stops"
 }

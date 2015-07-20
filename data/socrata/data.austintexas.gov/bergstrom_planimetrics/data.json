@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/bergstrom_planimetrics/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/geospatial/sfqf-yubf", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/geospatial/sfqf-yubf", 
   "description": "This layer represents the detailed transportation infrastructure of the Austin Bergstrom International Airport as of the year 2001. This data has been produced by the City of Austin for the sole purpose of aiding internal processes and is not warranted for any other use. No warranty is made by the City of Austin regarding its accuracy or completeness. Acknowledgment of the City of Austin GIS Division would be appreciated in products derived from these data.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,9 +14,7 @@
     }
   }, 
   "name": "Bergstrom Planimetrics", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "bergstrom_planimetrics"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "bergstrom_planimetrics"
 }

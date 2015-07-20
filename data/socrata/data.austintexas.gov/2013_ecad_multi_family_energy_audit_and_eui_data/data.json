@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/2013_ecad_multi_family_energy_audit_and_eui_data/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/askx-pbnh/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/views/askx-pbnh/rows.csv", 
   "description": "The following information will allow you to understand the intent of data provided.  This report is in conjunction with Austin City Code 6-7\u2019s Energy Conservation Audit and Disclosure Ordinance approved in November 2008 (amended in April 2011) to improve the energy efficiency of homes and buildings that receive electricity from Austin Energy. The ordinance meets one of the primary goals of the Austin Climate Protection Plan which is to offset 800 megawatts of peak energy demand by 2020 to help reduce Austin's carbon footprint.  In addition, this report contains information on multi-family properties older than 10 years that are required to perform an energy audit and report the results to the City of Austin and all residents living in those communities. The Austin Energy report quantifies the 2013 energy efficiency findings and the progress towards meeting City Council goals of Resolution 20081106-048.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,66 +13,7 @@
     }
   }, 
   "name": "2013: ECAD Multi-Family Energy Audit and EUI Data", 
-  "schema": {
-    "columns": [
-      {
-        "name": "community_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "tcad_or_wcad_property_id_s", 
-        "type": "text"
-      }, 
-      {
-        "name": "audit_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "percent_duct_leakage", 
-        "type": "real"
-      }, 
-      {
-        "name": "recommend_duct_leakage", 
-        "type": "text"
-      }, 
-      {
-        "name": "attic_r_value", 
-        "type": "real"
-      }, 
-      {
-        "name": "window_screens", 
-        "type": "text"
-      }, 
-      {
-        "name": "year_built", 
-        "type": "real"
-      }, 
-      {
-        "name": "common_wash_dryer", 
-        "type": "text"
-      }, 
-      {
-        "name": "utilities", 
-        "type": "text"
-      }, 
-      {
-        "name": "total_units", 
-        "type": "real"
-      }, 
-      {
-        "name": "community_eui_kwh_sqft_yr", 
-        "type": "real"
-      }, 
-      {
-        "name": "as_of", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "2013_ecad_multi_family_energy_audit_and_eui_data"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "2013_ecad_multi_family_energy_audit_and_eui_data"
 }

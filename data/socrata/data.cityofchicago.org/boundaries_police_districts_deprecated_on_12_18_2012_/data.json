@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/boundaries_police_districts_deprecated_on_12_18_2012_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/geospatial/p3h8-xsd4", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/geospatial/p3h8-xsd4", 
   "description": "Police district boundaries in Chicago that were in effect through December 18, 2012. The current police district boundaries can always be found at https://data.cityofchicago.org/d/fthy-xz3r. To view or use these files outside of a web browser, compression software and special GIS software, such as ESRI ArcGIS, is required.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,9 +14,7 @@
     }
   }, 
   "name": "Boundaries - Police Districts (deprecated on 12/18/2012)", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "boundaries_police_districts_deprecated_on_12_18_2012_"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "boundaries_police_districts_deprecated_on_12_18_2012_"
 }

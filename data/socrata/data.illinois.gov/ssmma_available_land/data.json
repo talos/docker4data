@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_ssmma_available_land/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/asei-xiqk/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/asei-xiqk/rows.csv", 
   "description": "This dataset includes Available Land for sale and lease in the Chicago Southland region. This data is a aggregation of listings from Wm C Groebe & Co., Newmark, Knight, and Frank, Simborg, Lee & Associates, and Rofo.com.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,70 +13,7 @@
     }
   }, 
   "name": "SSMMA Available Land", 
-  "schema": {
-    "columns": [
-      {
-        "name": "objectid", 
-        "type": "text"
-      }, 
-      {
-        "name": "size", 
-        "type": "text"
-      }, 
-      {
-        "name": "price", 
-        "type": "text"
-      }, 
-      {
-        "name": "contact", 
-        "type": "text"
-      }, 
-      {
-        "name": "contact_nu", 
-        "type": "text"
-      }, 
-      {
-        "name": "source", 
-        "type": "text"
-      }, 
-      {
-        "name": "type", 
-        "type": "text"
-      }, 
-      {
-        "name": "website", 
-        "type": "text"
-      }, 
-      {
-        "name": "lois_link", 
-        "type": "text"
-      }, 
-      {
-        "name": "editor", 
-        "type": "text"
-      }, 
-      {
-        "name": "propreitar", 
-        "type": "real"
-      }, 
-      {
-        "name": "universali", 
-        "type": "text"
-      }, 
-      {
-        "name": "shape_leng", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape_area", 
-        "type": "real"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "ssmma_available_land"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "ssmma_available_land"
 }

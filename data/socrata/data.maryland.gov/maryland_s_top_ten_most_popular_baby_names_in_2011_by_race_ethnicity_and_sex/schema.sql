@@ -1,0 +1,23 @@
+CREATE TABLE "maryland_s_top_ten_most_popular_baby_names_in_2011_by_race_ethnicity_and_sex" (
+	"rank"	real,
+	"names_all_races_male"	text,
+	"number_all_races_male"	real,
+	"names_all_races_female"	text,
+	"number_all_races_female"	real,
+	"names_white_non_hispanic_male"	text,
+	"number_white_non_hispanic_male"	real,
+	"names_white_non_hispanic_female"	text,
+	"number_white_non_hispanic_female"	real,
+	"names_black_non_hispanic_male"	text,
+	"number_black_non_hispanic_male"	real,
+	"names_black_non_hispanic_female"	text,
+	"number_black_non_hispanic_female"	real,
+	"names_asian_pacific_islander_non_hispanic_male"	text,
+	"number_asian_pacific_islander_non_hispanic_male"	real,
+	"names_asian_pacific_islander_non_hispanic_female"	text,
+	"number_asian_pacific_islander_non_hispanic_female"	real,
+	"names_hispanic_male"	text,
+	"number_hispanic_male"	real,
+	"names_hispanic_female"	text,
+	"numbe_hispanic_female"	real
+);

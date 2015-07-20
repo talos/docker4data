@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_illinois_grants_data/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/j56i-q45c/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/j56i-q45c/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,46 +9,7 @@
     }
   }, 
   "name": "Illinois Grants Data", 
-  "schema": {
-    "columns": [
-      {
-        "name": "grantor_agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "grantee", 
-        "type": "text"
-      }, 
-      {
-        "name": "project_name_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "grant_amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "start_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "completion_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "duration_days", 
-        "type": "real"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "duplicate_ignore_in_explorer", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "illinois_grants_data"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "illinois_grants_data"
 }

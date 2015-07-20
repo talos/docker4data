@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_raleighnc_wake_county_polling_places/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.raleighnc.gov/api/views/nxsk-qjy7/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.raleighnc.gov/api/views/nxsk-qjy7/rows.csv", 
   "description": "A map of the polling places in Wake County.  This data is updated in real time from the Wake County GIS server.\r\narcgis_rest_services_Services_OpenData_MapServer_2]", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "Wake County Polling Places", 
-  "schema": {
-    "columns": [
-      {
-        "name": "objectid", 
-        "type": "real"
-      }, 
-      {
-        "name": "reid", 
-        "type": "text"
-      }, 
-      {
-        "name": "precinct", 
-        "type": "text"
-      }, 
-      {
-        "name": "st_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "poll_pl", 
-        "type": "text"
-      }, 
-      {
-        "name": "st_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.raleighnc.gov", 
-  "tableName": "wake_county_polling_places"
+  "schema": "socrata/data.raleighnc.gov", 
+  "status": "needs review", 
+  "table": "wake_county_polling_places"
 }

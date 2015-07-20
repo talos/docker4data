@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/city_of_albany_building_permits_issued_beginning_january_2009/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/kb9s-4gzd/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/kb9s-4gzd/rows.csv", 
   "description": "This data summarizes the Building Permits issued since 2009 in the City of Albany.  This process is governed by the Division of Buildings and Regulatory Compliance.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "City of Albany Building Permits Issued:  Beginning January, 2009", 
-  "schema": {
-    "columns": [
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "application_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "permit_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "owner", 
-        "type": "text"
-      }, 
-      {
-        "name": "contractor", 
-        "type": "text"
-      }, 
-      {
-        "name": "estimated_cost", 
-        "type": "real"
-      }, 
-      {
-        "name": "fee", 
-        "type": "real"
-      }, 
-      {
-        "name": "description_of_work", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "city_of_albany_building_permits_issued_beginning_january_2009"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "city_of_albany_building_permits_issued_beginning_january_2009"
 }

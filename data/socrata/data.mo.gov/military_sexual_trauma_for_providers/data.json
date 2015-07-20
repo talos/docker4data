@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/military_sexual_trauma_for_providers/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.mo.gov/download/n2xp-bfxdapplication/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.mo.gov/download/n2xp-bfxd/application/pdf", 
   "description": "A collection of national resources for clinicians working with military clients living with Military Sexual Trauma.", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,7 +13,7 @@
     }
   }, 
   "name": "Military Sexual Trauma For Providers", 
-  "schema": {}, 
-  "schemaName": "socrata/data.mo.gov", 
-  "tableName": "military_sexual_trauma_for_providers"
+  "schema": "socrata/data.mo.gov", 
+  "status": "needs review", 
+  "table": "military_sexual_trauma_for_providers"
 }

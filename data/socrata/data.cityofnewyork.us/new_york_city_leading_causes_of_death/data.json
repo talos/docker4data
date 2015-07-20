@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_new_york_city_leading_causes_of_death/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/jb7j-dtam/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/jb7j-dtam/rows.csv", 
   "description": "The leading causes of death by sex and ethnicity in New York City in since 2007.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "New York City Leading Causes of Death", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "text"
-      }, 
-      {
-        "name": "ethnicity", 
-        "type": "text"
-      }, 
-      {
-        "name": "sex", 
-        "type": "text"
-      }, 
-      {
-        "name": "cause_of_death", 
-        "type": "text"
-      }, 
-      {
-        "name": "count", 
-        "type": "real"
-      }, 
-      {
-        "name": "percent", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "new_york_city_leading_causes_of_death"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "new_york_city_leading_causes_of_death"
 }

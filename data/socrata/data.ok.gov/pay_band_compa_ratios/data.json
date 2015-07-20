@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_pay_band_compa_ratios/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/dnzj-5xts/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/dnzj-5xts/rows.csv", 
   "description": "Compa ratios for the State of Oklahoma showing the current ratio for employees and the ratio if the pay bands are increased by 3%.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "Pay Band Compa Ratios", 
-  "schema": {
-    "columns": [
-      {
-        "name": "pay_band", 
-        "type": "text"
-      }, 
-      {
-        "name": "current_compa_ratio", 
-        "type": "text"
-      }, 
-      {
-        "name": "bands_moved_3_compa_ratio", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "pay_band_compa_ratios"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "pay_band_compa_ratios"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_kingcounty_accessible_voting_centers/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/pwm3-yync/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.kingcounty.gov/api/views/pwm3-yync/rows.csv", 
   "description": "Accessible Voting Centers for the upcoming election", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,58 +13,7 @@
     }
   }, 
   "name": "Accessible Voting Centers", 
-  "schema": {
-    "columns": [
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "avc_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "avc_city", 
-        "type": "text"
-      }, 
-      {
-        "name": "avc_state", 
-        "type": "text"
-      }, 
-      {
-        "name": "avc_zipcode", 
-        "type": "text"
-      }, 
-      {
-        "name": "pre_election_days", 
-        "type": "text"
-      }, 
-      {
-        "name": "pre_election_hours", 
-        "type": "text"
-      }, 
-      {
-        "name": "election_day", 
-        "type": "text"
-      }, 
-      {
-        "name": "election_day_hours", 
-        "type": "text"
-      }, 
-      {
-        "name": "photo", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "directions", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.kingcounty.gov", 
-  "tableName": "accessible_voting_centers"
+  "schema": "socrata/data.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "accessible_voting_centers"
 }

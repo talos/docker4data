@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/srr_northeast_washington/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/geospatial/dtba-89sp", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.wa.gov/api/geospatial/dtba-89sp", 
   "description": "Northeast Washington Salmon Recovery Region boundaries.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,7 +13,7 @@
     }
   }, 
   "name": "SRR - Northeast Washington", 
-  "schema": {}, 
-  "schemaName": "socrata/data.wa.gov", 
-  "tableName": "srr_northeast_washington"
+  "schema": "socrata/data.wa.gov", 
+  "status": "needs review", 
+  "table": "srr_northeast_washington"
 }

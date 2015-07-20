@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sunlightlabs_norcross/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sunlightlabs.com/api/views/53dw-b9mr/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sunlightlabs.com/api/views/53dw-b9mr/rows.csv", 
   "description": "Political contributions by George Norcross and his family members", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,38 +12,7 @@
     }
   }, 
   "name": "Norcross", 
-  "schema": {
-    "columns": [
-      {
-        "name": "amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "contributor_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "contributor_city", 
-        "type": "text"
-      }, 
-      {
-        "name": "contributor_state", 
-        "type": "text"
-      }, 
-      {
-        "name": "recipient_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "recipient_party", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sunlightlabs.com", 
-  "tableName": "norcross"
+  "schema": "socrata/data.sunlightlabs.com", 
+  "status": "needs review", 
+  "table": "norcross"
 }

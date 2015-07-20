@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/principaux_march_s_et_contrats_attribu_s/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/p77f-2r2q/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/finances.worldbank.org/api/views/p77f-2r2q/rows.csv", 
   "description": "Cette s\u00e9rie de donn\u00e9es relatives aux march\u00e9s ou contrats attribu\u00e9s fournit des informations sur les engagements aff\u00e9rents aux march\u00e9s et contrats qui ont \u00e9t\u00e9 soumis \u00e0 l\u2019examen pr\u00e9alable de la Banque avant d\u2019\u00eatre attribu\u00e9s dans le cadre des projets d\u2019investissement financ\u00e9s par la BIRD et l\u2019IDA et les fonds fiduciaires correspondants. Elle ne couvre pas l\u2019ensemble des march\u00e9s attribu\u00e9s par la Banque, et est \u00e0 consid\u00e9rer simplement comme un guide permettant d\u2019\u00e9tablir comment les principaux engagements de la Banque au titre de march\u00e9s ou contrats se r\u00e9partissent entre ses diff\u00e9rents pays membres. La notion de \u00ab\u00a0pays du fournisseur\u00a0\u00bb pr\u00e9sent\u00e9e ici d\u00e9signe le lieu dans lequel l\u2019entreprise en question est enregistr\u00e9e, ce qui ne correspond pas n\u00e9cessairement \u00e0 son pays d\u2019origine. Les informations fournies ici n\u2019incluent pas les march\u00e9s ou contrats attribu\u00e9s \u00e0 des sous-traitants, et ne prennent pas non plus en consid\u00e9ration les cofinancements. Le Groupe Politiques et services de passation des march\u00e9s de la Banque mondiale ne garantit pas les donn\u00e9es figurant ici et n\u2019accepte aucune responsabilit\u00e9 quant aux cons\u00e9quences de leur utilisation. La Banque mondiale veille au respect de toutes sanctions pouvant s\u2019appliquer \u00e0 ses transactions.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,90 +13,7 @@
     }
   }, 
   "name": "Principaux march\u00e9s et contrats attribu\u00e9s", 
-  "schema": {
-    "columns": [
-      {
-        "name": "as_of_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "fiscal_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "region", 
-        "type": "text"
-      }, 
-      {
-        "name": "borrower_country", 
-        "type": "text"
-      }, 
-      {
-        "name": "borrower_country_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "project_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "project_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "procurement_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "procurement_category", 
-        "type": "text"
-      }, 
-      {
-        "name": "procurement_method", 
-        "type": "text"
-      }, 
-      {
-        "name": "product_line", 
-        "type": "text"
-      }, 
-      {
-        "name": "major_sector", 
-        "type": "text"
-      }, 
-      {
-        "name": "wb_contract_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "contract_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "contract_signing_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "supplier", 
-        "type": "text"
-      }, 
-      {
-        "name": "supplier_country", 
-        "type": "text"
-      }, 
-      {
-        "name": "supplier_country_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "total_contract_amount_usd", 
-        "type": "real"
-      }, 
-      {
-        "name": "borrower_contract_reference_number", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/finances.worldbank.org", 
-  "tableName": "principaux_march_s_et_contrats_attribu_s"
+  "schema": "socrata/finances.worldbank.org", 
+  "status": "needs review", 
+  "table": "principaux_march_s_et_contrats_attribu_s"
 }

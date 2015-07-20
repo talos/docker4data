@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/recreation_centres_map_view_polygon_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/geospatial/diri-rk3m", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.edmonton.ca/api/geospatial/diri-rk3m", 
   "description": "Spatial view of all recreational centres owned by the City of Edmonton", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Recreation Centres - Map View (Polygon)", 
-  "schema": {}, 
-  "schemaName": "socrata/data.edmonton.ca", 
-  "tableName": "recreation_centres_map_view_polygon_"
+  "schema": "socrata/data.edmonton.ca", 
+  "status": "needs review", 
+  "table": "recreation_centres_map_view_polygon_"
 }

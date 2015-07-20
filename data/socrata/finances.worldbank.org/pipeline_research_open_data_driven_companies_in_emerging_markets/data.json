@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/pipeline_research_open_data_driven_companies_in_emerging_markets/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/u4wq-7b6m/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/finances.worldbank.org/api/views/u4wq-7b6m/rows.csv", 
   "description": "This dataset contains the names and basic information about companies that were contacted in the process of a research which aimed to identify open data companies in emerging markets, specifically in Latin America, Southeast Asia, Africa, as well as India and Russia.  The data was collected by several vendors and consultants and was not validated independently by the World Bank staff.  Data was collected over a short period of 4-6 weeks in the spring of 2014 and represents data-centric companies that vendors/consultants were able to identify in that timeframe.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,34 +12,7 @@
     }
   }, 
   "name": "Pipeline research \u2013 open data driven companies in emerging markets", 
-  "schema": {
-    "columns": [
-      {
-        "name": "company_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "country", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "website", 
-        "type": "text"
-      }, 
-      {
-        "name": "business_focus_area", 
-        "type": "text"
-      }, 
-      {
-        "name": "use_of_public_data_yes_no", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/finances.worldbank.org", 
-  "tableName": "pipeline_research_open_data_driven_companies_in_emerging_markets"
+  "schema": "socrata/finances.worldbank.org", 
+  "status": "needs review", 
+  "table": "pipeline_research_open_data_driven_companies_in_emerging_markets"
 }

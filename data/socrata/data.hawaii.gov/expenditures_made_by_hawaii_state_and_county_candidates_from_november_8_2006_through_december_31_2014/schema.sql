@@ -1,0 +1,23 @@
+CREATE TABLE "expenditures_made_by_hawaii_state_and_county_candidates_from_november_8_2006_through_december_31_2014" (
+	"candidate_name"	text,
+	"vendor_type"	text,
+	"vendor_name"	text,
+	"date"	timestamp,
+	"amount"	text,
+	"authorized_use"	text,
+	"expenditure_category"	text,
+	"purpose_of_expenditure"	text,
+	"address_1"	text,
+	"address_2"	text,
+	"city"	text,
+	"state"	text,
+	"zip_code"	text,
+	"office"	text,
+	"district"	text,
+	"county"	text,
+	"party"	text,
+	"reg_no"	text,
+	"election_period"	text,
+	"location_1"	text,
+	"inoutstate"	text
+);

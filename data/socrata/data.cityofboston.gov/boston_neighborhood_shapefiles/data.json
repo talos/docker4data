@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/boston_neighborhood_shapefiles/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/download/af56-j7tbapplication/zip; charset=binary", 
-    "type": "application/zip; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/download/af56-j7tb/application/zip", 
   "description": "Neighborhood boundaries are created based on zip code, zoning district boundaries and census tract boundaries. This GIS data layer was produced by the BRA Office of Digital Cartography and GIS.  These boundaries should not be considered official neighborhood boundaries for the City of Boston.  The locations of features and boundaries shown on this map are approximate and are intended for planning and visualization purposes only. This is not intended for survey, engineering, or legal purposes.   March 2011", 
+  "load": "TODO: zip", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,9 +13,7 @@
     }
   }, 
   "name": "Boston Neighborhood Shapefiles", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "boston_neighborhood_shapefiles"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "boston_neighborhood_shapefiles"
 }

@@ -1,0 +1,22 @@
+CREATE TABLE "table_6_a_multidimensional_poverty_index_changes_over_time_for_select_countries" (
+	"country"	text,
+	"population_in_multidimensional_poverty_multidimensional_poverty_index_year_survey"	text,
+	"note_1"	text,
+	"population_in_multidimensional_poverty_multidimensional_poverty_index_value"	real,
+	"note_2"	text,
+	"population_in_multidimensional_poverty_headcount"	real,
+	"note_3"	text,
+	"population_in_multidimensional_poverty_headcount_000"	real,
+	"note_4"	text,
+	"population_in_multidimensional_poverty_intensity_of_deprivation"	real,
+	"note_5"	text,
+	"population_near_multidimensional_poverty"	real,
+	"note_6"	text,
+	"population_in_severe_poverty"	real,
+	"note_7"	text,
+	"contribution_of_deprivation_to_overall_poverty_education"	real,
+	"note_8"	text,
+	"contribution_of_deprivation_to_overall_poverty_health"	real,
+	"note_9"	text,
+	"contribution_of_deprivation_to_overall_poverty_living_standards"	real
+);

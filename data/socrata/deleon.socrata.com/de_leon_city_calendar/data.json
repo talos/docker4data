@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_deleoncom_de_leon_city_calendar/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/deleon.socrata.com/api/views/ehs9-mzvg/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/deleon.socrata.com/api/views/ehs9-mzvg/rows.csv", 
   "description": "A shared calendar of citywide events.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,34 +12,7 @@
     }
   }, 
   "name": "De Leon City Calendar", 
-  "schema": {
-    "columns": [
-      {
-        "name": "start_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "end_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "event_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "event_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "website", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/deleon.socrata.com", 
-  "tableName": "de_leon_city_calendar"
+  "schema": "socrata/deleon.socrata.com", 
+  "status": "needs review", 
+  "table": "de_leon_city_calendar"
 }

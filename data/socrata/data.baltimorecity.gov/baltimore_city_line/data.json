@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/baltimore_city_line/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/geospatial/fy7v-tvcr", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.baltimorecity.gov/api/geospatial/fy7v-tvcr", 
   "description": "Line feature showing the political boundary of Baltimore City. Last Updated 2008", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Baltimore City Line", 
-  "schema": {}, 
-  "schemaName": "socrata/data.baltimorecity.gov", 
-  "tableName": "baltimore_city_line"
+  "schema": "socrata/data.baltimorecity.gov", 
+  "status": "needs review", 
+  "table": "baltimore_city_line"
 }

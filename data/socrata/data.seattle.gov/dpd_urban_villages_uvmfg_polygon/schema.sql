@@ -1,0 +1,20 @@
+CREATE TABLE "dpd_urban_villages_uvmfg_polygon" (
+	"objectid"	real,
+	"shape"	text,
+	"uv_name"	text,
+	"uv_type"	text,
+	"polyid"	real,
+	"subpoly"	real,
+	"water"	real,
+	"type_name"	text,
+	"common_area"	real,
+	"uc_init"	real,
+	"villint"	real,
+	"cenvillno"	real,
+	"acres"	real,
+	"villnumb"	real,
+	"area"	real,
+	"len"	real,
+	"shape_length"	real,
+	"shape_area"	real
+);

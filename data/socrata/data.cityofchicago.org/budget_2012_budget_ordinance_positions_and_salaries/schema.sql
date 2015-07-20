@@ -1,0 +1,23 @@
+CREATE TABLE "budget_2012_budget_ordinance_positions_and_salaries" (
+	"fund_type"	text,
+	"fund_code"	text,
+	"fund_description"	text,
+	"department_number"	real,
+	"department_description"	text,
+	"organization_code"	real,
+	"division_code"	real,
+	"division_description"	text,
+	"section_code"	real,
+	"section_description"	text,
+	"sub_section_code"	real,
+	"sub_section_description"	text,
+	"schedule_grade"	text,
+	"bargaining_unit"	real,
+	"title_code"	text,
+	"title_description"	text,
+	"budgeted_unit"	text,
+	"total_budgeted_unit"	real,
+	"position_control"	real,
+	"budgeted_pay_rate"	text,
+	"total_budgeted_amount"	text
+);

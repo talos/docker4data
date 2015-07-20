@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wa_webscommodities/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/p3h4-ygqm/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.wa.gov/api/views/p3h4-ygqm/rows.csv", 
   "description": "Commodity codes used by Washington's E-business system.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "WEBSCommodities", 
-  "schema": {
-    "columns": [
-      {
-        "name": "code", 
-        "type": "text"
-      }, 
-      {
-        "name": "title", 
-        "type": "text"
-      }, 
-      {
-        "name": "category", 
-        "type": "text"
-      }, 
-      {
-        "name": "keywords", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.wa.gov", 
-  "tableName": "webscommodities"
+  "schema": "socrata/data.wa.gov", 
+  "status": "needs review", 
+  "table": "webscommodities"
 }

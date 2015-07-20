@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_turnover_by_agency_fy2013/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/bhxi-f9mi/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/bhxi-f9mi/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,42 +9,7 @@
     }
   }, 
   "name": "Turnover By Agency FY2013", 
-  "schema": {
-    "columns": [
-      {
-        "name": "co", 
-        "type": "real"
-      }, 
-      {
-        "name": "agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "total_employees", 
-        "type": "real"
-      }, 
-      {
-        "name": "resignation", 
-        "type": "real"
-      }, 
-      {
-        "name": "retirement", 
-        "type": "real"
-      }, 
-      {
-        "name": "discharge", 
-        "type": "real"
-      }, 
-      {
-        "name": "death", 
-        "type": "real"
-      }, 
-      {
-        "name": "turnover_rate", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "turnover_by_agency_fy2013"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "turnover_by_agency_fy2013"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_test_dailypassenger_total/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/p2pw-yyri/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/p2pw-yyri/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,22 +9,7 @@
     }
   }, 
   "name": "Test-Dailypassenger Total", 
-  "schema": {
-    "columns": [
-      {
-        "name": "date", 
-        "type": "text"
-      }, 
-      {
-        "name": "currentyear", 
-        "type": "real"
-      }, 
-      {
-        "name": "last_year", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "test_dailypassenger_total"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "test_dailypassenger_total"
 }

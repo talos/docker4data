@@ -1,0 +1,20 @@
+CREATE TABLE "human_rights_commission_bases_for_claims_for_complaints_filed_in_fy_2011" (
+	"type_of_claim"	text,
+	"race"	text,
+	"color"	text,
+	"sex"	text,
+	"age"	text,
+	"religion"	text,
+	"disability"	text,
+	"national_origin"	text,
+	"ancestry"	text,
+	"sexual_orientation"	text,
+	"sexual_harrassment"	text,
+	"marital_status"	text,
+	"parental_status"	text,
+	"source_of_income"	text,
+	"housing_status"	text,
+	"aiding_and_abetting"	text,
+	"gender_identity"	text,
+	"retaliation"	text
+);

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/recreational_facility_event_schedule/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/9j7i-47f8/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.edmonton.ca/api/views/9j7i-47f8/rows.csv", 
   "description": "Information about various events that are to occur at a particular Recreational Facility. Data is extracted from CLASS.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,38 +12,7 @@
     }
   }, 
   "name": "Recreational Facility -  Event Schedule", 
-  "schema": {
-    "columns": [
-      {
-        "name": "facility_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "facility", 
-        "type": "text"
-      }, 
-      {
-        "name": "parent_facility", 
-        "type": "text"
-      }, 
-      {
-        "name": "start_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "end_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "event_title", 
-        "type": "text"
-      }, 
-      {
-        "name": "event_name", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.edmonton.ca", 
-  "tableName": "recreational_facility_event_schedule"
+  "schema": "socrata/data.edmonton.ca", 
+  "status": "needs review", 
+  "table": "recreational_facility_event_schedule"
 }

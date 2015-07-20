@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sunlightlabs_cspc_meetings2/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sunlightlabs.com/api/views/4dw2-gqy5/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sunlightlabs.com/api/views/4dw2-gqy5/rows.csv", 
   "description": "Digitized version of attendees found here: http://www.cpsc.gov/en/Regulations-Laws--Standards/CPSIA/Phthalates/Chronic-Hazard-Advisory-Panel-CHAP-on-Phthalates/. Hand entered by Sunlight Foundation. In some cases, names were illegible. In these cases fields are left blank. \"Type\" codes were added by Sunlight.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "CSPC Meetings2", 
-  "schema": {
-    "columns": [
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "who", 
-        "type": "text"
-      }, 
-      {
-        "name": "new_company", 
-        "type": "text"
-      }, 
-      {
-        "name": "type", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sunlightlabs.com", 
-  "tableName": "cspc_meetings2"
+  "schema": "socrata/data.sunlightlabs.com", 
+  "status": "needs review", 
+  "table": "cspc_meetings2"
 }

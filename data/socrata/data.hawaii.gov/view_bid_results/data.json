@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_view_bid_results/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/ym3h-nmfi/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/ym3h-nmfi/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,30 +9,7 @@
     }
   }, 
   "name": "View Bid Results", 
-  "schema": {
-    "columns": [
-      {
-        "name": "bid_open", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "project", 
-        "type": "text"
-      }, 
-      {
-        "name": "job", 
-        "type": "text"
-      }, 
-      {
-        "name": "results", 
-        "type": "text"
-      }, 
-      {
-        "name": "sublisting", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "view_bid_results"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "view_bid_results"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_weatherfordtx_2013_mosquito_complaints/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/4kr8-nw7w/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/4kr8-nw7w/rows.csv", 
   "description": "For citizens to document potential concerns regarding mosquitos", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,42 +12,7 @@
     }
   }, 
   "name": "2013 Mosquito Complaints", 
-  "schema": {
-    "columns": [
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "address_of_concern", 
-        "type": "text"
-      }, 
-      {
-        "name": "complaint_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "description_of_problem", 
-        "type": "text"
-      }, 
-      {
-        "name": "resulted_in_treatment", 
-        "type": "text"
-      }, 
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "email", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone_number", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.weatherfordtx.gov", 
-  "tableName": "2013_mosquito_complaints"
+  "schema": "socrata/data.weatherfordtx.gov", 
+  "status": "needs review", 
+  "table": "2013_mosquito_complaints"
 }

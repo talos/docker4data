@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/south_end_neighborhood_2010_census_population/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/download/muzk-m355application/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/download/muzk-m355/application/pdf", 
   "description": "The Neighborhood of South End by Age, Race, Ethnicity and Housing from the 2010 Census (includes 2000 data for comparison)", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,9 +13,7 @@
     }
   }, 
   "name": "South End Neighborhood 2010 Census Population", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "south_end_neighborhood_2010_census_population"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "south_end_neighborhood_2010_census_population"
 }

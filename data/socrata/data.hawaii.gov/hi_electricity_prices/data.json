@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_hi_electricity_prices/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/74g9-vewt/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/74g9-vewt/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -15,34 +11,7 @@
     }
   }, 
   "name": "HI Electricity Prices", 
-  "schema": {
-    "columns": [
-      {
-        "name": "company", 
-        "type": "text"
-      }, 
-      {
-        "name": "island", 
-        "type": "text"
-      }, 
-      {
-        "name": "rptmonth", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "sector", 
-        "type": "text"
-      }, 
-      {
-        "name": "price", 
-        "type": "real"
-      }, 
-      {
-        "name": "physicalunit", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "hi_electricity_prices"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "hi_electricity_prices"
 }

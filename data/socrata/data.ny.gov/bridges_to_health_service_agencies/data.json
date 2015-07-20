@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_bridges_to_health_service_agencies/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/8kxa-52ch/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/8kxa-52ch/rows.csv", 
   "description": "Included in this data set are all the Health Care Integration Agencies (HCIA) authorized to provide Bridges to Health (B2H) services in New York State. These community based services are available to children with significant mental health care needs, developmental disabilities or medical fragility who would otherwise require an institutional level of care.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "Bridges To Health Service Agencies", 
-  "schema": {
-    "columns": [
-      {
-        "name": "agency_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "street", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip", 
-        "type": "text"
-      }, 
-      {
-        "name": "business_phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "counties_served", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "bridges_to_health_service_agencies"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "bridges_to_health_service_agencies"
 }

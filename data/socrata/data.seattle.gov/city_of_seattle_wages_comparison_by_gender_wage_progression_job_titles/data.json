@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/city_of_seattle_wages_comparison_by_gender_wage_progression_job_titles/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/k9m8-nhz3/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/k9m8-nhz3/rows.csv", 
   "description": "Average hourly wages for women and men in all represented and non-represented step-progression job classes", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,50 +11,7 @@
     }
   }, 
   "name": "City of Seattle Wages:  Comparison by Gender \u2013Wage Progression Job Titles", 
-  "schema": {
-    "columns": [
-      {
-        "name": "job_classification", 
-        "type": "text"
-      }, 
-      {
-        "name": "female_avg_hrly_rate", 
-        "type": "real"
-      }, 
-      {
-        "name": "no_female_empl", 
-        "type": "real"
-      }, 
-      {
-        "name": "male_avg_hrly_rate", 
-        "type": "real"
-      }, 
-      {
-        "name": "no_male_empl", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_avg_hrly_rate", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_no_empl", 
-        "type": "real"
-      }, 
-      {
-        "name": "female_to_male_rate", 
-        "type": "text"
-      }, 
-      {
-        "name": "female_to_male_count", 
-        "type": "text"
-      }, 
-      {
-        "name": "notes", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "city_of_seattle_wages_comparison_by_gender_wage_progression_job_titles"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "city_of_seattle_wages_comparison_by_gender_wage_progression_job_titles"
 }

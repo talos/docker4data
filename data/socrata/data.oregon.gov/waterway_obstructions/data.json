@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oregon_waterway_obstructions/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/nf4p-tbur/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/api/views/nf4p-tbur/rows.csv", 
   "description": "Navigational Obstructions on Oregon waters", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,38 +11,7 @@
     }
   }, 
   "name": "Waterway Obstructions", 
-  "schema": {
-    "columns": [
-      {
-        "name": "waterbody", 
-        "type": "text"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "recommendation", 
-        "type": "text"
-      }, 
-      {
-        "name": "icon", 
-        "type": "text"
-      }, 
-      {
-        "name": "photo", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "waterway_obstructions"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "waterway_obstructions"
 }

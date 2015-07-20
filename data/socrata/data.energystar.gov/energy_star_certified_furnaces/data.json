@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_energystar_energy_star_certified_furnaces/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.energystar.gov/api/views/i97v-e8au/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.energystar.gov/api/views/i97v-e8au/rows.csv", 
   "description": "Certified models meet all ENERGY STAR requirements as listed in the Version 4.0 ENERGY STAR Program Requirements for Furnaces that are effective as of February 1, 2013. A detailed listing of key efficiency criteria are available at http://www.energystar.gov/index.cfm?c=furnaces.pr_crit_furnaces", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,74 +12,7 @@
     }
   }, 
   "name": "ENERGY STAR Certified Furnaces", 
-  "schema": {
-    "columns": [
-      {
-        "name": "pd_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "energy_star_partner", 
-        "type": "text"
-      }, 
-      {
-        "name": "brand_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "model_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "model_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "additional_model_information", 
-        "type": "text"
-      }, 
-      {
-        "name": "fuel_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "furnace_is_energy_star_certified_in", 
-        "type": "text"
-      }, 
-      {
-        "name": "efficiency_afue", 
-        "type": "real"
-      }, 
-      {
-        "name": "capable_of_two_way_communication", 
-        "type": "text"
-      }, 
-      {
-        "name": "date_available_on_market", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "date_qualified", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "markets", 
-        "type": "text"
-      }, 
-      {
-        "name": "energy_star_model_identifier", 
-        "type": "text"
-      }, 
-      {
-        "name": "can_integrate_hot_water_heating", 
-        "type": "text"
-      }, 
-      {
-        "name": "meets_most_efficient_criteria", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.energystar.gov", 
-  "tableName": "energy_star_certified_furnaces"
+  "schema": "socrata/data.energystar.gov", 
+  "status": "needs review", 
+  "table": "energy_star_certified_furnaces"
 }

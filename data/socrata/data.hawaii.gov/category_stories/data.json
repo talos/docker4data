@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_category_stories/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/p46r-d2ir/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/p46r-d2ir/rows.csv", 
   "description": "Dataset of information for Category Detail pages", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,34 +11,7 @@
     }
   }, 
   "name": "Category Stories", 
-  "schema": {
-    "columns": [
-      {
-        "name": "category", 
-        "type": "text"
-      }, 
-      {
-        "name": "link", 
-        "type": "text"
-      }, 
-      {
-        "name": "title", 
-        "type": "text"
-      }, 
-      {
-        "name": "source", 
-        "type": "text"
-      }, 
-      {
-        "name": "text", 
-        "type": "text"
-      }, 
-      {
-        "name": "photo", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "category_stories"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "category_stories"
 }

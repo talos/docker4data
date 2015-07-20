@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/parks_chicago_park_district_facilities/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/geospatial/5yyk-qt9y", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/geospatial/5yyk-qt9y", 
   "description": "Facilities managed & maintained by the Chicago Park District as of March 19, 2015", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,9 +14,7 @@
     }
   }, 
   "name": "Parks - Chicago Park District Facilities", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "parks_chicago_park_district_facilities"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "parks_chicago_park_district_facilities"
 }

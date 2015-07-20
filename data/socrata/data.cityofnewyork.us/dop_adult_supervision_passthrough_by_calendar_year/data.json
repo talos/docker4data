@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/dop_adult_supervision_passthrough_by_calendar_year/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/3av7-txd8/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/3av7-txd8/rows.csv", 
   "description": "The sum of: the number of cases on the first day of the reporting period, plus all cases added during the reporting period.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "DOP Adult Supervision Passthrough by Calendar Year", 
-  "schema": {
-    "columns": [
-      {
-        "name": "borough", 
-        "type": "text"
-      }, 
-      {
-        "name": "calendar_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "passthrough_count", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "dop_adult_supervision_passthrough_by_calendar_year"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "dop_adult_supervision_passthrough_by_calendar_year"
 }

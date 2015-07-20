@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_idph_home_services_directory/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/swzv-788p/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/swzv-788p/rows.csv", 
   "description": "Current as of January 2015", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "IDPH Home Services Directory", 
-  "schema": {
-    "columns": [
-      {
-        "name": "home_service_agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip", 
-        "type": "real"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "license_", 
-        "type": "real"
-      }, 
-      {
-        "name": "license_expiration_date", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "idph_home_services_directory"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "idph_home_services_directory"
 }

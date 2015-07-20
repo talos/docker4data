@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_idot_average_annual_daily_traffic_2007/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/86j7-vghm/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/86j7-vghm/rows.csv", 
   "description": "This coverage contains a highway Annual Average Daily Traffic (AADT) subset of the information included in the IDOT Illinois Highway Information System (IHIS) -- Illinois Roadway Information System (IRIS). Information is collected for all public highways as defined in Illinois Compiled Statutes (605 ILCS 5/2-202).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,70 +13,7 @@
     }
   }, 
   "name": "IDOT Average Annual Daily Traffic 2007", 
-  "schema": {
-    "columns": [
-      {
-        "name": "aadt", 
-        "type": "text"
-      }, 
-      {
-        "name": "aadt_yr", 
-        "type": "text"
-      }, 
-      {
-        "name": "marked_nam", 
-        "type": "text"
-      }, 
-      {
-        "name": "road_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "county_nam", 
-        "type": "text"
-      }, 
-      {
-        "name": "hcv", 
-        "type": "text"
-      }, 
-      {
-        "name": "hcv_mu_yr", 
-        "type": "text"
-      }, 
-      {
-        "name": "mu_vol", 
-        "type": "text"
-      }, 
-      {
-        "name": "su_vol", 
-        "type": "text"
-      }, 
-      {
-        "name": "mr_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "mr_type", 
-        "type": "real"
-      }, 
-      {
-        "name": "inventory", 
-        "type": "text"
-      }, 
-      {
-        "name": "key_rt_nbr", 
-        "type": "text"
-      }, 
-      {
-        "name": "point_x", 
-        "type": "real"
-      }, 
-      {
-        "name": "point_y", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "idot_average_annual_daily_traffic_2007"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "idot_average_annual_daily_traffic_2007"
 }

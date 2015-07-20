@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_occupations_licensed_or_certified_by_new_york_state/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/w2w4-tdxt/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/w2w4-tdxt/rows.csv", 
   "description": "The Occupations Licensed or Certified by New York State dataset contains a list of occupations, which by law are licensed or certified by a New York State agency.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,58 +13,7 @@
     }
   }, 
   "name": "Occupations Licensed or Certified by New York State", 
-  "schema": {
-    "columns": [
-      {
-        "name": "new_york_state_agency_occupation_title", 
-        "type": "text"
-      }, 
-      {
-        "name": "agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "division", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip", 
-        "type": "text"
-      }, 
-      {
-        "name": "telephone", 
-        "type": "real"
-      }, 
-      {
-        "name": "url", 
-        "type": "text"
-      }, 
-      {
-        "name": "occupation_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "occupation_title", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "occupations_licensed_or_certified_by_new_york_state"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "occupations_licensed_or_certified_by_new_york_state"
 }

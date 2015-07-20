@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_idph_multiple_births_by_county_2009/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/umgb-zw5k/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/umgb-zw5k/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -15,30 +11,7 @@
     }
   }, 
   "name": "IDPH Multiple Births, by County, 2009", 
-  "schema": {
-    "columns": [
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "all_live_births_", 
-        "type": "real"
-      }, 
-      {
-        "name": "singleton_births_", 
-        "type": "real"
-      }, 
-      {
-        "name": "twin_births_", 
-        "type": "real"
-      }, 
-      {
-        "name": "_births", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "idph_multiple_births_by_county_2009"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "idph_multiple_births_by_county_2009"
 }

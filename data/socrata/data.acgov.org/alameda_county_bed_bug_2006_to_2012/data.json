@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_acgov_alameda_county_bed_bug_2006_to_2012/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.acgov.org/api/views/2y9p-458z/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.acgov.org/api/views/2y9p-458z/rows.csv", 
   "description": "Beg Bug Requests for Service\r\nJune 1, 2006 to May 31, 2012\r\nThe data is not confirmed cases of bed bugs, just the number of calls requesting service.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "Alameda County Bed Bug 2006 to 2012", 
-  "schema": {
-    "columns": [
-      {
-        "name": "request_city", 
-        "type": "text"
-      }, 
-      {
-        "name": "request_zip", 
-        "type": "real"
-      }, 
-      {
-        "name": "census_tract", 
-        "type": "real"
-      }, 
-      {
-        "name": "date_received", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.acgov.org", 
-  "tableName": "alameda_county_bed_bug_2006_to_2012"
+  "schema": "socrata/data.acgov.org", 
+  "status": "needs review", 
+  "table": "alameda_county_bed_bug_2006_to_2012"
 }

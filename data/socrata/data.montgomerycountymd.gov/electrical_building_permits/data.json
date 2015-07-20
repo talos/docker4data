@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_montgomerycountymd_electrical_building_permits/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/qxie-8qnp/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/qxie-8qnp/rows.csv", 
   "description": "Data for all Electrical Permit applications, including status and work performed.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,82 +12,7 @@
     }
   }, 
   "name": "Electrical Building Permits", 
-  "schema": {
-    "columns": [
-      {
-        "name": "permitno", 
-        "type": "text"
-      }, 
-      {
-        "name": "status", 
-        "type": "text"
-      }, 
-      {
-        "name": "stno", 
-        "type": "text"
-      }, 
-      {
-        "name": "predir", 
-        "type": "text"
-      }, 
-      {
-        "name": "stname", 
-        "type": "text"
-      }, 
-      {
-        "name": "suffix", 
-        "type": "text"
-      }, 
-      {
-        "name": "postdir", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip", 
-        "type": "real"
-      }, 
-      {
-        "name": "worktype", 
-        "type": "text"
-      }, 
-      {
-        "name": "usecode", 
-        "type": "text"
-      }, 
-      {
-        "name": "addeddate", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "issueddate", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "finaleddate", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "applicationtype", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.montgomerycountymd.gov", 
-  "tableName": "electrical_building_permits"
+  "schema": "socrata/data.montgomerycountymd.gov", 
+  "status": "needs review", 
+  "table": "electrical_building_permits"
 }

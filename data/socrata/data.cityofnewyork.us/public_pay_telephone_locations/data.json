@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/public_pay_telephone_locations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/geospatial/t7sx-id53", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/geospatial/t7sx-id53", 
   "description": "Public Pay Telephone NYC Free Public Wi-Fi locations, Advertising Locations and Zoning Information (the zoning information should be compared with the dates of most recent zoning changes found on the NYC Planning website)  http://www.nyc.gov/html/dcp/home.html\r\n\r\nDisclaimer\r\nThe Zoning Reference provides only general zoning information and is not meant to serve as a substitute for the actual regulations which are to be found in the Zoning Resolution.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,9 +14,7 @@
     }
   }, 
   "name": "Public Pay Telephone Locations", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "public_pay_telephone_locations"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "public_pay_telephone_locations"
 }

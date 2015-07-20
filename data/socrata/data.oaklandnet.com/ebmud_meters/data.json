@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ebmud_meters/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oaklandnet.com/api/geospatial/4kvt-8avt", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.oaklandnet.com/api/geospatial/4kvt-8avt", 
   "description": "Utility meter locations with addresses", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "EBMUD Meters", 
-  "schema": {}, 
-  "schemaName": "socrata/data.oaklandnet.com", 
-  "tableName": "ebmud_meters"
+  "schema": "socrata/data.oaklandnet.com", 
+  "status": "needs review", 
+  "table": "ebmud_meters"
 }

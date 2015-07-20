@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_acgov_medi_cal_outreach_sites/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.acgov.org/api/views/tz9g-nsii/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.acgov.org/api/views/tz9g-nsii/rows.csv", 
   "description": "Community sites where Social Services staff are onsite to help people apply for MediCal health insurance and CalFresh (Food Stamps) benefits.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "Medi-Cal Outreach sites", 
-  "schema": {
-    "columns": [
-      {
-        "name": "clinic_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.acgov.org", 
-  "tableName": "medi_cal_outreach_sites"
+  "schema": "socrata/data.acgov.org", 
+  "status": "needs review", 
+  "table": "medi_cal_outreach_sites"
 }

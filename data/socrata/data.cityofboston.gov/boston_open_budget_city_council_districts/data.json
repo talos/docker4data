@@ -1,9 +1,6 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/boston_open_budget_city_council_districts/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/geospatial/kxtc-4nq5", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/api/geospatial/kxtc-4nq5", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,9 +10,7 @@
     }
   }, 
   "name": "Boston Open Budget - City Council Districts", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "boston_open_budget_city_council_districts"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "boston_open_budget_city_council_districts"
 }

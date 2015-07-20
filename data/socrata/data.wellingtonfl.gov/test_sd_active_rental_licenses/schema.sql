@@ -1,0 +1,21 @@
+CREATE TABLE "test_sd_active_rental_licenses" (
+	"active_rental_licenses_id"	text,
+	"create_date"	timestamp,
+	"location_id"	text,
+	"business_name"	text,
+	"phone"	text,
+	"unknown"	text,
+	"license_type"	text,
+	"issue_date"	text,
+	"expired_date"	text,
+	"fiscal_year"	text,
+	"capitive_number"	text,
+	"pcn"	text,
+	"street_number"	text,
+	"state_suffix"	text,
+	"postal_code"	text,
+	"location_1"	text,
+	"location_2"	text,
+	"location_3"	text,
+	"location_4"	text
+);

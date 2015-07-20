@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/youth_marijuana_use_2004_2012_even_years_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/geospatial/dkxx-z4fb", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.kingcounty.gov/api/geospatial/dkxx-z4fb", 
   "description": "Data from Healthy Youth Survey about current marijuana use in grades 6, 8, 10, and 12, for 2004-2012 (even years)", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Youth Marijuana Use 2004-2012 (even years)", 
-  "schema": {}, 
-  "schemaName": "socrata/data.kingcounty.gov", 
-  "tableName": "youth_marijuana_use_2004_2012_even_years_"
+  "schema": "socrata/data.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "youth_marijuana_use_2004_2012_even_years_"
 }

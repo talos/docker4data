@@ -1,0 +1,21 @@
+CREATE TABLE "statistical_forecasting_demographic_projection_report_enrollment_projections_new_york_city_public_schools" (
+	"borough_or_district"	text,
+	"data_type"	text,
+	"year"	text,
+	"pk"	text,
+	"k"	text,
+	"grade_1"	text,
+	"grade_2"	text,
+	"grade_3"	text,
+	"grade_4"	text,
+	"grade_5"	text,
+	"grade_6"	text,
+	"grade_7"	text,
+	"grade_8"	text,
+	"grade_9"	text,
+	"grade_10"	text,
+	"grade_11"	text,
+	"grade_12"	text,
+	"ged"	text,
+	"se1"	real
+);

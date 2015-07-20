@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/medical_examiner_2009_manner_of_death_by_age/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/cookcounty.socrata.com/api/views/9gbd-zx5t/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/cookcounty.socrata.com/api/views/9gbd-zx5t/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -15,22 +11,6 @@
     }
   }, 
   "name": "Medical Examiner -- 2009 Manner of Death by Age", 
-  "schema": {
-    "columns": [
-      {
-        "name": "age_range_", 
-        "type": "text"
-      }, 
-      {
-        "name": "manner_of_death_", 
-        "type": "text"
-      }, 
-      {
-        "name": "count", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/cookcounty.socrata.com", 
-  "tableName": "medical_examiner_2009_manner_of_death_by_age"
+  "schema": "socrata/cookcounty.socrata.com", 
+  "table": "medical_examiner_2009_manner_of_death_by_age"
 }

@@ -1,0 +1,20 @@
+CREATE TABLE "energy_star_certified_commercial_fryers" (
+	"pd_id"	real,
+	"energy_star_partner"	text,
+	"brand_name"	text,
+	"model_name"	text,
+	"model_number"	text,
+	"additional_model_information"	text,
+	"product_type"	text,
+	"fuel_type"	text,
+	"fryer_width_in"	real,
+	"shortening_capacity_lb"	real,
+	"fryer_depth_in"	real,
+	"cooking_energy_efficiency"	real,
+	"idle_energy_rate_gas_btu_h"	real,
+	"idle_energy_rate_electric_watts"	real,
+	"date_available_on_market"	timestamp,
+	"date_qualified"	timestamp,
+	"markets"	text,
+	"energy_star_model_identifier"	text
+);

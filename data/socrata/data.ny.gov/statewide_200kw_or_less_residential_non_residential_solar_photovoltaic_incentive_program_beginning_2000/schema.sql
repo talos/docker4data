@@ -1,0 +1,22 @@
+CREATE TABLE "statewide_200kw_or_less_residential_non_residential_solar_photovoltaic_incentive_program_beginning_2000" (
+	"project_number"	text,
+	"city"	text,
+	"county"	text,
+	"state"	text,
+	"zip_code"	text,
+	"sector"	text,
+	"solicitation"	text,
+	"electric_utility"	text,
+	"purchase_type"	text,
+	"date_application_received"	timestamp,
+	"date_install"	timestamp,
+	"inverter_manufacturer"	text,
+	"inverter_quantity"	real,
+	"pv_module_manufacturer"	text,
+	"pv_module_quantity"	real,
+	"project_cost"	text,
+	"incentive"	text,
+	"totalnameplatekw"	real,
+	"expected_kwh_annual_production"	real,
+	"location_1"	text
+);

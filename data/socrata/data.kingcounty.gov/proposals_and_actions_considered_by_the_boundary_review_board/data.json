@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/proposals_and_actions_considered_by_the_boundary_review_board/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/nkhs-aqmd/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.kingcounty.gov/api/views/nkhs-aqmd/rows.csv", 
   "description": "The current actions section details proposals to and actions considered by the Boundary Review Board in the form of File Summaries. The File Summaries include the actual file numbers of cases currently up for consideration.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "Proposals and actions considered by the Boundary Review Board", 
-  "schema": {
-    "columns": [
-      {
-        "name": "file_no", 
-        "type": "text"
-      }, 
-      {
-        "name": "thomas_guide_map", 
-        "type": "text"
-      }, 
-      {
-        "name": "date_received", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "date_distributed", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "expiration_45_days", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "board_meeting", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "entity", 
-        "type": "text"
-      }, 
-      {
-        "name": "action", 
-        "type": "text"
-      }, 
-      {
-        "name": "title", 
-        "type": "text"
-      }, 
-      {
-        "name": "view_map_image", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.kingcounty.gov", 
-  "tableName": "proposals_and_actions_considered_by_the_boundary_review_board"
+  "schema": "socrata/data.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "proposals_and_actions_considered_by_the_boundary_review_board"
 }

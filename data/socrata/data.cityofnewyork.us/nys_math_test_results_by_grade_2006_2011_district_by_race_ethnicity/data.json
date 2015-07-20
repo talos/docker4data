@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nys_math_test_results_by_grade_2006_2011_district_by_race_ethnicity/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/pgrs-2cjd/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/pgrs-2cjd/rows.csv", 
   "description": "New York City Results on the New York State Mathematics Tests, Grades 3 - 8\r\nNotes:\r\nAs of 2006, the New York State Education Department expanded the ELA and mathematics testing programs to Grades 3-8. Previously, state tests were administered in Grades 4 and 8 and citywide tests were administered in Grades 3, 5, 6, and 7.\r\nIn 2006, NYSED treated District 75 students as a distinct geographic district. For 2007-2011, District 75 students are represented in their home districts and boroughs. Spreadsheets for District and Borough do not include District 75 students in 2006.\r\nStarting in 2010, NYSED changed the scale score required to meet each of the proficiency levels, increasing the number of questions students needed to answer correctly to meet proficiency.\r\n\r\nRows are suppressed (noted with \u2018s\u2019) if the number of tested students was 5 or fewer.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,74 +13,7 @@
     }
   }, 
   "name": "NYS Math Test Results By Grade 2006-2011 - District - By Race- Ethnicity", 
-  "schema": {
-    "columns": [
-      {
-        "name": "district", 
-        "type": "text"
-      }, 
-      {
-        "name": "grade", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "text"
-      }, 
-      {
-        "name": "category", 
-        "type": "text"
-      }, 
-      {
-        "name": "number_tested", 
-        "type": "real"
-      }, 
-      {
-        "name": "mean_scale_score", 
-        "type": "real"
-      }, 
-      {
-        "name": "level_1_1", 
-        "type": "real"
-      }, 
-      {
-        "name": "level_1_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "level_2_1", 
-        "type": "real"
-      }, 
-      {
-        "name": "level_2_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "level_3_1", 
-        "type": "real"
-      }, 
-      {
-        "name": "level_3_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "level_4_1", 
-        "type": "real"
-      }, 
-      {
-        "name": "level_4_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "level_3_4_1", 
-        "type": "real"
-      }, 
-      {
-        "name": "level_3_4_2", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "nys_math_test_results_by_grade_2006_2011_district_by_race_ethnicity"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "nys_math_test_results_by_grade_2006_2011_district_by_race_ethnicity"
 }

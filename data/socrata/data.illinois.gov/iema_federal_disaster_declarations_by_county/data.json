@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_iema_federal_disaster_declarations_by_county/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/r7fq-24ug/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/r7fq-24ug/rows.csv", 
   "description": "A list of Federally Declared Disaster by Illinois County since 1965.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,26 +12,7 @@
     }
   }, 
   "name": "IEMA Federal Disaster Declarations by County", 
-  "schema": {
-    "columns": [
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "fema_", 
-        "type": "real"
-      }, 
-      {
-        "name": "declaration_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "type_of_disaster", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "iema_federal_disaster_declarations_by_county"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "iema_federal_disaster_declarations_by_county"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofboston_big_belly_locations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/42qi-w8d7/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/api/views/42qi-w8d7/rows.csv", 
   "description": "Locations of all Big Belly trash receptacles in the city", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,18 +13,7 @@
     }
   }, 
   "name": "Big Belly Locations", 
-  "schema": {
-    "columns": [
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "big_belly_locations"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "big_belly_locations"
 }

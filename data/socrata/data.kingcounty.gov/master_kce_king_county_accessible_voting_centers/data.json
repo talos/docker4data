@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/master_kce_king_county_accessible_voting_centers/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/nv8f-b8na/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.kingcounty.gov/api/views/nv8f-b8na/rows.csv", 
   "description": "Master dataset for accessible voting centers (AVC) in King County. All AVC locations are not open for every election.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,70 +13,7 @@
     }
   }, 
   "name": "MASTER KCE: King County Accessible Voting Centers", 
-  "schema": {
-    "columns": [
-      {
-        "name": "avc_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "in_use", 
-        "type": "text"
-      }, 
-      {
-        "name": "dates_open", 
-        "type": "text"
-      }, 
-      {
-        "name": "hours_of_operation", 
-        "type": "text"
-      }, 
-      {
-        "name": "election_day_hours", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "room", 
-        "type": "text"
-      }, 
-      {
-        "name": "ch_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "ch_dates", 
-        "type": "text"
-      }, 
-      {
-        "name": "ch_times", 
-        "type": "text"
-      }, 
-      {
-        "name": "ch_election_day", 
-        "type": "text"
-      }, 
-      {
-        "name": "vi_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "vi_dates", 
-        "type": "text"
-      }, 
-      {
-        "name": "vi_hours", 
-        "type": "text"
-      }, 
-      {
-        "name": "vi_election_day", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.kingcounty.gov", 
-  "tableName": "master_kce_king_county_accessible_voting_centers"
+  "schema": "socrata/data.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "master_kce_king_county_accessible_voting_centers"
 }

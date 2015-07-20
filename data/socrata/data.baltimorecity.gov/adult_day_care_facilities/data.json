@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_baltimorecity_adult_day_care_facilities/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/yc75-xbrv/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/yc75-xbrv/rows.csv", 
   "description": "This data set provides the location of adult day care facilities within the City of Baltimore. The list of facilities is from the Maryland Office of Health Care and Quality (OHCQ). EGIS gets the data indirectly from the Baltimore City Commission on Aging and Retirement Education (CARE).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "Adult Day Care Facilities", 
-  "schema": {
-    "columns": [
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "neighborhood", 
-        "type": "text"
-      }, 
-      {
-        "name": "zipcode", 
-        "type": "text"
-      }, 
-      {
-        "name": "councildistrict", 
-        "type": "real"
-      }, 
-      {
-        "name": "policedistrict", 
-        "type": "real"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.baltimorecity.gov", 
-  "tableName": "adult_day_care_facilities"
+  "schema": "socrata/data.baltimorecity.gov", 
+  "status": "needs review", 
+  "table": "adult_day_care_facilities"
 }

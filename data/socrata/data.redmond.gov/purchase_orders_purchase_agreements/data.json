@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_redmond_purchase_orders_purchase_agreements/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.redmond.gov/api/views/6i78-333a/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.redmond.gov/api/views/6i78-333a/rows.csv", 
   "description": "Issued to acquire and track products and services", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,50 +11,7 @@
     }
   }, 
   "name": "Purchase Orders & Purchase Agreements", 
-  "schema": {
-    "columns": [
-      {
-        "name": "po_no", 
-        "type": "text"
-      }, 
-      {
-        "name": "effective_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "line_no", 
-        "type": "real"
-      }, 
-      {
-        "name": "invoice_no", 
-        "type": "text"
-      }, 
-      {
-        "name": "line_item_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "quantity", 
-        "type": "real"
-      }, 
-      {
-        "name": "price", 
-        "type": "real"
-      }, 
-      {
-        "name": "vendor_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "vendor_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.redmond.gov", 
-  "tableName": "purchase_orders_purchase_agreements"
+  "schema": "socrata/data.redmond.gov", 
+  "status": "needs review", 
+  "table": "purchase_orders_purchase_agreements"
 }

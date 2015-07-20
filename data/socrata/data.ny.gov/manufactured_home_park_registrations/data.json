@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_manufactured_home_park_registrations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/sxi2-m23m/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/sxi2-m23m/rows.csv", 
   "description": "This dataset captures the park name, address, and county in which a maufactured home park is located; the number of site capacity and number of occupied sites; and the name and contact number for the park owner/operator. New York State Homes and Community Renewal\u2019s (HCR) Division of Housing and Community Renewal (DHCR) oversees the registration of these parks in accordance with NYS Real Property Law Section 233 sub-section (v.) which requires owners of manufactured home parks with three or more homes register their park with DHCR.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "Manufactured Home Park Registrations", 
-  "schema": {
-    "columns": [
-      {
-        "name": "park_registration_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "county_of_park", 
-        "type": "text"
-      }, 
-      {
-        "name": "park_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "park_street_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "park_city_town_village", 
-        "type": "text"
-      }, 
-      {
-        "name": "site_capacity", 
-        "type": "real"
-      }, 
-      {
-        "name": "sites_filled", 
-        "type": "real"
-      }, 
-      {
-        "name": "park_contact_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "park_contact_phone", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "manufactured_home_park_registrations"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "manufactured_home_park_registrations"
 }

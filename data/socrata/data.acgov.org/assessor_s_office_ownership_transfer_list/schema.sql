@@ -1,0 +1,23 @@
+CREATE TABLE "assessor_s_office_ownership_transfer_list" (
+	"sort_parcel"	text,
+	"print_parcel"	text,
+	"use_code"	text,
+	"use_code_name"	text,
+	"street_number"	real,
+	"pre_dir"	text,
+	"street_name"	text,
+	"street_suffix"	text,
+	"post_dir"	text,
+	"unit_desig"	text,
+	"unit_number"	text,
+	"city_name"	text,
+	"state_code"	text,
+	"zip_code"	real,
+	"zip_code_plus_4"	real,
+	"doc_dt"	timestamp,
+	"transfer_dt"	timestamp,
+	"doc_prefix"	real,
+	"doc_series"	real,
+	"value_from_trans_tax"	text,
+	"doc_parcel_count"	real
+);

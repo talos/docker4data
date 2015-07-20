@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/water_well_and_closed_loop_well_examination_dates/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/n5tw-n2kr/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/n5tw-n2kr/rows.csv", 
   "description": "New Water Well Installation and Pump Installation Contractors are required to take an examination in order to receive a license to install water wells or water well pumps in Illinois.  Closed Well Contractors may be required to take an examination as well.  The examination dates are presented here.  Last Updated October 2014", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "Water Well and Closed Loop Well Examination Dates", 
-  "schema": {
-    "columns": [
-      {
-        "name": "examination_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "examination_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "requirements", 
-        "type": "text"
-      }, 
-      {
-        "name": "examination_location", 
-        "type": "text"
-      }, 
-      {
-        "name": "examination_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "examination_city", 
-        "type": "text"
-      }, 
-      {
-        "name": "examination_state", 
-        "type": "text"
-      }, 
-      {
-        "name": "examination_zipcode", 
-        "type": "real"
-      }, 
-      {
-        "name": "examination_times", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "water_well_and_closed_loop_well_examination_dates"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "water_well_and_closed_loop_well_examination_dates"
 }

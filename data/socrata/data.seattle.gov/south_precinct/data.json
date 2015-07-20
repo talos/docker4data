@@ -1,9 +1,6 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/south_precinct/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/geospatial/6k2n-m47n", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/geospatial/6k2n-m47n", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,7 +10,7 @@
     }
   }, 
   "name": "South Precinct", 
-  "schema": {}, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "south_precinct"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "south_precinct"
 }

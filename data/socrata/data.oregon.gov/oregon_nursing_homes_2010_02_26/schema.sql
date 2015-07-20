@@ -1,0 +1,22 @@
+CREATE TABLE "oregon_nursing_homes_2010_02_26" (
+	"name"	text,
+	"phone"	text,
+	"address"	text,
+	"address2"	text,
+	"city"	text,
+	"state"	text,
+	"zip_code"	real,
+	"zipp4"	real,
+	"county"	text,
+	"naicsdescr"	text,
+	"x"	real,
+	"y"	real,
+	"website"	text,
+	"source"	text,
+	"facility_type"	text,
+	"beds"	real,
+	"ownership"	text,
+	"medicare_id"	real,
+	"supfactype"	text,
+	"location"	text
+);

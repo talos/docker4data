@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/_percentage_of_community_pharmacies_actively_filling_electronic_prescriptions_by_state/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/ibq2-zpdt/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/ibq2-zpdt/rows.csv", 
   "description": "Click on a state to see data from that state, a time trend graph for the selected state will appear below the map.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,26 +11,7 @@
     }
   }, 
   "name": "~ Percentage of community pharmacies actively filling electronic prescriptions by State", 
-  "schema": {
-    "columns": [
-      {
-        "name": "measure_value", 
-        "type": "real"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "national_data", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/healthmeasures.aspe.hhs.gov", 
-  "tableName": "_percentage_of_community_pharmacies_actively_filling_electronic_prescriptions_by_state"
+  "schema": "socrata/healthmeasures.aspe.hhs.gov", 
+  "status": "needs review", 
+  "table": "_percentage_of_community_pharmacies_actively_filling_electronic_prescriptions_by_state"
 }

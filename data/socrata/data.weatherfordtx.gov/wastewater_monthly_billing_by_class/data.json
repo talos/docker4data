@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_weatherfordtx_wastewater_monthly_billing_by_class/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/u2u7-hf87/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/u2u7-hf87/rows.csv", 
   "description": "Wastewater Department billing data by class, including number of customers, consumption, and amount billed.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Wastewater Monthly Billing By Class", 
-  "schema": {
-    "columns": [
-      {
-        "name": "billing_month", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "class", 
-        "type": "text"
-      }, 
-      {
-        "name": "number_billed", 
-        "type": "real"
-      }, 
-      {
-        "name": "billed_consumption", 
-        "type": "real"
-      }, 
-      {
-        "name": "bill_amount", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.weatherfordtx.gov", 
-  "tableName": "wastewater_monthly_billing_by_class"
+  "schema": "socrata/data.weatherfordtx.gov", 
+  "status": "needs review", 
+  "table": "wastewater_monthly_billing_by_class"
 }

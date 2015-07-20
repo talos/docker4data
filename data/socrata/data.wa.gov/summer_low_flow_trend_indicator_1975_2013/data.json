@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wa_summer_low_flow_trend_indicator_1975_2013/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/hdw4-yhs4/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.wa.gov/api/views/hdw4-yhs4/rows.csv", 
   "description": "Summer Low Flow Trend Indicator results, statewide, updated through Oct 2013. \r\n\r\nThis information is updated annually with an additional year of flow data. These results are provided to the Puget Sound Partnership for their Vital Signs (http://www.psp.wa.gov/vitalsigns/summer_stream_flows.php) and to the Governor's Salmon Recovery Office for the \"State of Salmon in WAtersheds\" report (http://stateofsalmon.wa.gov/statewide/indicators/water-quantity). \r\n\r\nThe attached document \"WR Indicator Outcomes Memo - 10-24-10.pdf\" describes the methodology for developing these indicators. \r\n\r\nThe attached document \"Low Flow Indicator Metadata.pdf\" describes the contents of each column. \r\n\r\nDept. of Ecology home page: http://www.ecy.wa.gov/ \r\n\r\nDisclaimer: \r\nInformation provided by Ecology on this Web site is accurate to the best of Ecology's knowledge and is subject to change on a regular basis, without notice. Ecology cannot and does not warrant that the information on this Web site is absolutely current, although every effort is made to ensure that it is kept as current as possible. Ecology cannot and does not warrant the accuracy of these documents beyond the source documents, although every attempt is made to work from authoritative sources. Links to related sites are provided as a courtesy, but Ecology is not responsible for their availability, content or policies.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,62 +13,7 @@
     }
   }, 
   "name": "Summer Low Flow Trend Indicator 1975-2013", 
-  "schema": {
-    "columns": [
-      {
-        "name": "stn_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "station_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "salmon_region", 
-        "type": "text"
-      }, 
-      {
-        "name": "wria", 
-        "type": "real"
-      }, 
-      {
-        "name": "trib_level", 
-        "type": "real"
-      }, 
-      {
-        "name": "m_k_p", 
-        "type": "real"
-      }, 
-      {
-        "name": "reg_p", 
-        "type": "real"
-      }, 
-      {
-        "name": "trend_category", 
-        "type": "text"
-      }, 
-      {
-        "name": "trend_cfs_yr", 
-        "type": "real"
-      }, 
-      {
-        "name": "trend_year", 
-        "type": "text"
-      }, 
-      {
-        "name": "cat_change_from_2011", 
-        "type": "text"
-      }, 
-      {
-        "name": "change_from_2012", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.wa.gov", 
-  "tableName": "summer_low_flow_trend_indicator_1975_2013"
+  "schema": "socrata/data.wa.gov", 
+  "status": "needs review", 
+  "table": "summer_low_flow_trend_indicator_1975_2013"
 }

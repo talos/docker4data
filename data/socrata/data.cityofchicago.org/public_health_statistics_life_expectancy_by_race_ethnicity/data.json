@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/public_health_statistics_life_expectancy_by_race_ethnicity/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/3qdj-cqb8/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/3qdj-cqb8/rows.csv", 
   "description": "This dataset gives the average life expectancy and corresponding confidence intervals for sex and racial-ethnic groups in Chicago for the years 1990, 2000 and 2010.  See the full description at: \r\nhttps://data.cityofchicago.org/api/views/3qdj-cqb8/files/pJ3PVVyubnsS2SpGO5P5IOPtNgCJZTE3LNOeLagC3mw?download=true&filename=P:\\EPI\\OEPHI\\MATERIALS\\REFERENCES\\Life Expectancy\\Dataset description_LE_ Sex_Race_Ethnicity.pdf", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,54 +13,7 @@
     }
   }, 
   "name": "Public Health Statistics- Life Expectancy By Race Ethnicity", 
-  "schema": {
-    "columns": [
-      {
-        "name": "race_ethnicity", 
-        "type": "text"
-      }, 
-      {
-        "name": "sex", 
-        "type": "text"
-      }, 
-      {
-        "name": "_1990_life_expectancy", 
-        "type": "real"
-      }, 
-      {
-        "name": "_1990_lower_95_ci", 
-        "type": "real"
-      }, 
-      {
-        "name": "_1990_upper_95_ci", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2000_life_expectancy", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2000_lower_95_ci", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2000_upper_95_ci", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2010_life_expectancy", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2010_lower_95_ci", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2010_upper_95_ci", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "public_health_statistics_life_expectancy_by_race_ethnicity"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "public_health_statistics_life_expectancy_by_race_ethnicity"
 }

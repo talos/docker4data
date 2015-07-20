@@ -1,0 +1,20 @@
+CREATE TABLE "oil_and_gas_annual_production_beginning_2001" (
+	"api_wellno"	real,
+	"cnty"	text,
+	"coname"	text,
+	"hole"	text,
+	"sidetrck"	text,
+	"completion"	text,
+	"well_typ"	text,
+	"field"	text,
+	"wl_status"	text,
+	"well_nm"	text,
+	"town"	text,
+	"prod_form"	text,
+	"production"	real,
+	"gas"	real,
+	"water"	real,
+	"oilprod"	real,
+	"year"	real,
+	"location_1"	text
+);

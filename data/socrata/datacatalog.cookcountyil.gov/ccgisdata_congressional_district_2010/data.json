@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ccgisdata_congressional_district_2010/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/geospatial/jh56-md8x", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/geospatial/jh56-md8x", 
   "description": "U.S. Congressional Districts based on Census 2010", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "ccgisdata - Congressional District 2010", 
-  "schema": {}, 
-  "schemaName": "socrata/datacatalog.cookcountyil.gov", 
-  "tableName": "ccgisdata_congressional_district_2010"
+  "schema": "socrata/datacatalog.cookcountyil.gov", 
+  "status": "needs review", 
+  "table": "ccgisdata_congressional_district_2010"
 }

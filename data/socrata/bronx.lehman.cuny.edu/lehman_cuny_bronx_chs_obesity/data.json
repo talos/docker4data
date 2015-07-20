@@ -1,8 +1,6 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_bronx_lehman_cuny_bronx_chs_obesity/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/sqx9-d8zc/rows.csv"
-  }, 
+  "data": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/sqx9-d8zc/rows.csv", 
   "description": "Obesity rates in the Bronx per United Hospital Fund areas", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,73 +14,5 @@
     }
   }, 
   "name": "Bronx CHS obesity", 
-  "schema": {
-    "columns": [
-      {
-        "name": "uhf34_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "uhf_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "bmicat3", 
-        "type": "text"
-      }, 
-      {
-        "name": "obesity_percentage", 
-        "type": "real"
-      }, 
-      {
-        "name": "numerator", 
-        "type": "real"
-      }, 
-      {
-        "name": "denominator", 
-        "type": "real"
-      }, 
-      {
-        "name": "population", 
-        "type": "real"
-      }, 
-      {
-        "name": "upper_ci", 
-        "type": "real"
-      }, 
-      {
-        "name": "lower_ci", 
-        "type": "real"
-      }, 
-      {
-        "name": "ci_band", 
-        "type": "real"
-      }, 
-      {
-        "name": "rse", 
-        "type": "real"
-      }, 
-      {
-        "name": "oldrse", 
-        "type": "real"
-      }, 
-      {
-        "name": "unreliable", 
-        "type": "real"
-      }, 
-      {
-        "name": "suppressed", 
-        "type": "real"
-      }, 
-      {
-        "name": "ci_undefined", 
-        "type": "real"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "tableName": "socrata_bronx_lehman_cuny_bronx_chs_obesity"
+  "table": "socrata_bronx_lehman_cuny_bronx_chs_obesity"
 }

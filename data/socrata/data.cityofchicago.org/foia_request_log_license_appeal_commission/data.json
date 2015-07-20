@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/foia_request_log_license_appeal_commission/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/4nkr-n688/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/4nkr-n688/rows.csv", 
   "description": "FOIA requests received by the License Appeal Commission as of May 1, 2010", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "FOIA Request Log - License Appeal Commission", 
-  "schema": {
-    "columns": [
-      {
-        "name": "requestor_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "organization", 
-        "type": "text"
-      }, 
-      {
-        "name": "description_of_request", 
-        "type": "text"
-      }, 
-      {
-        "name": "date_received", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "due_date", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "foia_request_log_license_appeal_commission"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "foia_request_log_license_appeal_commission"
 }

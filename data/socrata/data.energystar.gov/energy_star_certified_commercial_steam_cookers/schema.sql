@@ -1,0 +1,20 @@
+CREATE TABLE "energy_star_certified_commercial_steam_cookers" (
+	"pd_id"	real,
+	"energy_star_partner"	text,
+	"brand_name"	text,
+	"model_name"	text,
+	"model_number"	text,
+	"additional_model_information"	text,
+	"product_type"	text,
+	"method_of_steam_generation"	text,
+	"pan_capacity"	real,
+	"primary_fuel_source"	text,
+	"cooking_energy_efficiency"	text,
+	"water_consumption_gallons_per_hour_gph"	real,
+	"idle_energy_rate_gas_btu_h"	real,
+	"idle_energy_rate_electric_watts"	real,
+	"date_available_on_market"	timestamp,
+	"date_qualified"	timestamp,
+	"markets"	text,
+	"energy_star_model_identifier"	text
+);

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_undp_top_10_programme_countries/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.undp.org/api/views/wuwy-uzsx/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.undp.org/api/views/wuwy-uzsx/rows.csv", 
   "description": "As of Sept end 2013", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,18 +12,7 @@
     }
   }, 
   "name": "Top 10 programme countries", 
-  "schema": {
-    "columns": [
-      {
-        "name": "country", 
-        "type": "text"
-      }, 
-      {
-        "name": "expenditure_in_millions", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.undp.org", 
-  "tableName": "top_10_programme_countries"
+  "schema": "socrata/data.undp.org", 
+  "status": "needs review", 
+  "table": "top_10_programme_countries"
 }

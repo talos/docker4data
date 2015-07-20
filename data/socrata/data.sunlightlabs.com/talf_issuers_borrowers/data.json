@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sunlightlabs_talf_issuers_borrowers/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sunlightlabs.com/api/views/78wa-m7aq/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sunlightlabs.com/api/views/78wa-m7aq/rows.csv", 
   "description": "A list of all companies buying assets with TALF loans and the companies selling those loans. The buyers are TALF borrowers and the sellers are issuers. The outstanding loan amount is included as well as the asset classification.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Talf Issuers Borrowers", 
-  "schema": {
-    "columns": [
-      {
-        "name": "company_selling_assets_issuer", 
-        "type": "text"
-      }, 
-      {
-        "name": "company_purchasing_assets_and_receiving_loans_borrower", 
-        "type": "text"
-      }, 
-      {
-        "name": "loan_amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "loan_amount_outstanding_as_of_september_30_2010", 
-        "type": "real"
-      }, 
-      {
-        "name": "collateral_asset_sub_class", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sunlightlabs.com", 
-  "tableName": "talf_issuers_borrowers"
+  "schema": "socrata/data.sunlightlabs.com", 
+  "status": "needs review", 
+  "table": "talf_issuers_borrowers"
 }

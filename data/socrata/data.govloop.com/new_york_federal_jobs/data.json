@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_govloop_new_york_federal_jobs/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.govloop.com/api/views/wy2e-sv7g/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.govloop.com/api/views/wy2e-sv7g/rows.csv", 
   "description": "List of federal jobs and agencies in New York City", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,18 +12,7 @@
     }
   }, 
   "name": "New York Federal Jobs", 
-  "schema": {
-    "columns": [
-      {
-        "name": "agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.govloop.com", 
-  "tableName": "new_york_federal_jobs"
+  "schema": "socrata/data.govloop.com", 
+  "status": "needs review", 
+  "table": "new_york_federal_jobs"
 }

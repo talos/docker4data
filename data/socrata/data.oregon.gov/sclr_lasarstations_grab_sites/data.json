@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oregon_sclr_lasarstations_grab_sites/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/92th-scpp/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/api/views/92th-scpp/rows.csv", 
   "description": "South Coast/Lower Rogue Watershed Councils grab water quality monitoring sites associated with DEQ LASAR numbers", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,54 +13,7 @@
     }
   }, 
   "name": "SCLR LASARStations Grab Sites", 
-  "schema": {
-    "columns": [
-      {
-        "name": "lasar_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "sclr_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "lasar_location_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "lasar_location_memo", 
-        "type": "text"
-      }, 
-      {
-        "name": "lasar_elevation", 
-        "type": "real"
-      }, 
-      {
-        "name": "lasar_river_distance", 
-        "type": "real"
-      }, 
-      {
-        "name": "lasar_data_source", 
-        "type": "text"
-      }, 
-      {
-        "name": "sclr_lat", 
-        "type": "real"
-      }, 
-      {
-        "name": "sclr_long", 
-        "type": "real"
-      }, 
-      {
-        "name": "sclr_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "sclr_lasarstations_grab_sites"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "sclr_lasarstations_grab_sites"
 }

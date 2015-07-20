@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_oklahoma_general_pay_increase_history/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/6evb-5kfi/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/6evb-5kfi/rows.csv", 
   "description": "List of pay increases for State of Oklahoma employees since fiscal year 2002.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "Oklahoma General Pay Increase History", 
-  "schema": {
-    "columns": [
-      {
-        "name": "effective_fiscal_year", 
-        "type": "text"
-      }, 
-      {
-        "name": "appropriation_bills", 
-        "type": "text"
-      }, 
-      {
-        "name": "pay_increase_allocated_for_classified_employees", 
-        "type": "text"
-      }, 
-      {
-        "name": "effective_date", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "oklahoma_general_pay_increase_history"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "oklahoma_general_pay_increase_history"
 }

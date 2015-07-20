@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/parking_events_2011/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/views/8nfq-mtcn/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/views/8nfq-mtcn/rows.csv", 
   "description": "The City of Melbourne has installed in-ground parking bay sensors in most CBD parking bays. These sensors record when a vehicle arrives and when it departs. Each record  also includes the parking restriction for the bay and whether the vehicle has overstayed that restriction. This is the data for the 2011 calendar year", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,62 +13,7 @@
     }
   }, 
   "name": "Parking Events 2011", 
-  "schema": {
-    "columns": [
-      {
-        "name": "deviceid", 
-        "type": "real"
-      }, 
-      {
-        "name": "arrivaltime", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "departuretime", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "durationseconds", 
-        "type": "real"
-      }, 
-      {
-        "name": "streetmarker", 
-        "type": "text"
-      }, 
-      {
-        "name": "sign", 
-        "type": "text"
-      }, 
-      {
-        "name": "areaname", 
-        "type": "text"
-      }, 
-      {
-        "name": "streetid", 
-        "type": "real"
-      }, 
-      {
-        "name": "streetname", 
-        "type": "text"
-      }, 
-      {
-        "name": "betweenstreet1", 
-        "type": "text"
-      }, 
-      {
-        "name": "betweenstreet2", 
-        "type": "text"
-      }, 
-      {
-        "name": "sideofstreet", 
-        "type": "real"
-      }, 
-      {
-        "name": "inviolation", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.melbourne.vic.gov.au", 
-  "tableName": "parking_events_2011"
+  "schema": "socrata/data.melbourne.vic.gov.au", 
+  "status": "needs review", 
+  "table": "parking_events_2011"
 }

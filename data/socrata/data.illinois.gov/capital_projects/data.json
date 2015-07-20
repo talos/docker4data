@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_capital_projects/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/adjt-wwru/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/adjt-wwru/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,78 +9,7 @@
     }
   }, 
   "name": "Capital Projects", 
-  "schema": {
-    "columns": [
-      {
-        "name": "agency_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "project_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "project_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "project_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "recipient", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "congressional_district", 
-        "type": "real"
-      }, 
-      {
-        "name": "state_rep_district", 
-        "type": "real"
-      }, 
-      {
-        "name": "state_senate_district", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "state_amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "federal_amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "local_amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "date_started", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "date_completed", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "status", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "capital_projects"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "capital_projects"
 }

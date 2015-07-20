@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/bus_stops/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/www.data.act.gov.au/api/views/22rs-ycdh/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/www.data.act.gov.au/api/views/22rs-ycdh/rows.csv", 
   "description": "Individual bus stop locations where vehicles pick up or drop off passengers.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "Bus Stops", 
-  "schema": {
-    "columns": [
-      {
-        "name": "stop_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "stop_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "stop_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "stop_desc", 
-        "type": "text"
-      }, 
-      {
-        "name": "stop_lat", 
-        "type": "text"
-      }, 
-      {
-        "name": "stop_lon", 
-        "type": "real"
-      }, 
-      {
-        "name": "zone_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "stop_url", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_type", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/www.data.act.gov.au", 
-  "tableName": "bus_stops"
+  "schema": "socrata/www.data.act.gov.au", 
+  "status": "needs review", 
+  "table": "bus_stops"
 }

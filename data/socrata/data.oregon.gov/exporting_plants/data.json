@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oregon_exporting_plants/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/xnmu-pks4/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/api/views/xnmu-pks4/rows.csv", 
   "description": "Regulations for Exporting Plants out of Oregon", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,30 +11,7 @@
     }
   }, 
   "name": "Exporting Plants", 
-  "schema": {
-    "columns": [
-      {
-        "name": "plant_part", 
-        "type": "text"
-      }, 
-      {
-        "name": "destination", 
-        "type": "text"
-      }, 
-      {
-        "name": "regulation", 
-        "type": "text"
-      }, 
-      {
-        "name": "requirements", 
-        "type": "text"
-      }, 
-      {
-        "name": "additional_information", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "exporting_plants"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "exporting_plants"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_nyc_budget_expense_all_funds/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/fseq-viud/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/fseq-viud/rows.csv", 
   "description": "Data set contains expense budgets by agency for actual fiscal years and five financial plan fiscal years in All funds.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,78 +13,7 @@
     }
   }, 
   "name": "NYC Budget Expense All Funds", 
-  "schema": {
-    "columns": [
-      {
-        "name": "agn", 
-        "type": "real"
-      }, 
-      {
-        "name": "agency_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "_fy_2002_actual_", 
-        "type": "real"
-      }, 
-      {
-        "name": "_fy_2003_actual_", 
-        "type": "real"
-      }, 
-      {
-        "name": "_fy_2004_actual_", 
-        "type": "real"
-      }, 
-      {
-        "name": "_fy_2005_actual_", 
-        "type": "real"
-      }, 
-      {
-        "name": "_fy_2006_actual_", 
-        "type": "real"
-      }, 
-      {
-        "name": "_fy_2007_actual_", 
-        "type": "real"
-      }, 
-      {
-        "name": "_fy_2008_actual_", 
-        "type": "real"
-      }, 
-      {
-        "name": "_fy_2009_actual_", 
-        "type": "real"
-      }, 
-      {
-        "name": "fy_2010_actual", 
-        "type": "real"
-      }, 
-      {
-        "name": "fy_2011_plan", 
-        "type": "real"
-      }, 
-      {
-        "name": "fy_2012_plan", 
-        "type": "real"
-      }, 
-      {
-        "name": "fy_2013_plan", 
-        "type": "real"
-      }, 
-      {
-        "name": "fy_2014_plan", 
-        "type": "real"
-      }, 
-      {
-        "name": "fy_2015_plan", 
-        "type": "real"
-      }, 
-      {
-        "name": "expense_in_thousands_all_funds", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "nyc_budget_expense_all_funds"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "nyc_budget_expense_all_funds"
 }

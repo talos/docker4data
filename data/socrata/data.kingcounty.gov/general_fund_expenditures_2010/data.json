@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_kingcounty_general_fund_expenditures_2010/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/3qjh-aynk/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.kingcounty.gov/api/views/3qjh-aynk/rows.csv", 
   "description": "King County 2010 Budget General Fund Expenditures", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "General Fund Expenditures 2010", 
-  "schema": {
-    "columns": [
-      {
-        "name": "fundnumber", 
-        "type": "real"
-      }, 
-      {
-        "name": "funddescription", 
-        "type": "text"
-      }, 
-      {
-        "name": "dept", 
-        "type": "real"
-      }, 
-      {
-        "name": "deptdescription", 
-        "type": "text"
-      }, 
-      {
-        "name": "loworg", 
-        "type": "real"
-      }, 
-      {
-        "name": "loworgdescription", 
-        "type": "text"
-      }, 
-      {
-        "name": "account", 
-        "type": "text"
-      }, 
-      {
-        "name": "accountdescription", 
-        "type": "text"
-      }, 
-      {
-        "name": "adopted", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.kingcounty.gov", 
-  "tableName": "general_fund_expenditures_2010"
+  "schema": "socrata/data.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "general_fund_expenditures_2010"
 }

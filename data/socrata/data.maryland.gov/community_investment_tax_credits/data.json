@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_community_investment_tax_credits/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/7gad-cuav/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/7gad-cuav/rows.csv", 
   "description": "COMMUNITY INVESTMENT TAX CREDITS (CITC) support 501(c)(3) nonprofit organizations by awarding allocations of State tax credits for use as incentives to attract contributions from individuals and businesses to benefit local projects and services.\r\nThis data is to show possible donors what nonprofit organizations they can donate to and see the tax credits still available from those nonprofits.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,82 +13,7 @@
     }
   }, 
   "name": "Community Investment Tax Credits", 
-  "schema": {
-    "columns": [
-      {
-        "name": "projid", 
-        "type": "text"
-      }, 
-      {
-        "name": "projnum", 
-        "type": "text"
-      }, 
-      {
-        "name": "fy", 
-        "type": "real"
-      }, 
-      {
-        "name": "awardee", 
-        "type": "text"
-      }, 
-      {
-        "name": "projname", 
-        "type": "text"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "region", 
-        "type": "text"
-      }, 
-      {
-        "name": "applicanttype", 
-        "type": "text"
-      }, 
-      {
-        "name": "projtype", 
-        "type": "text"
-      }, 
-      {
-        "name": "projectdesc", 
-        "type": "text"
-      }, 
-      {
-        "name": "awardamount", 
-        "type": "real"
-      }, 
-      {
-        "name": "taxcredited", 
-        "type": "real"
-      }, 
-      {
-        "name": "taxcredbal", 
-        "type": "real"
-      }, 
-      {
-        "name": "donationlink", 
-        "type": "text"
-      }, 
-      {
-        "name": "website", 
-        "type": "text"
-      }, 
-      {
-        "name": "x_coord", 
-        "type": "real"
-      }, 
-      {
-        "name": "y_coord", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "community_investment_tax_credits"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "community_investment_tax_credits"
 }

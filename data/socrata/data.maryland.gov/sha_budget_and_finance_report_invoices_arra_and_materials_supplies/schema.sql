@@ -1,0 +1,14 @@
+CREATE TABLE "sha_budget_and_finance_report_invoices_arra_and_materials_supplies" (
+	"month"	text,
+	"late_invoice_payments"	real,
+	"total_invoices_paid"	real,
+	"percentage_of_invoice_payments_late"	text,
+	"late_invoice_amounts"	text,
+	"total_invoice_amounts"	text,
+	"percentage_late_of_invoice_payments_late"	text,
+	"arra_auditing_number_of_independent_assurances_to_ensure_compliance_with_federal_and_state_specifications"	real,
+	"arra_auditing_number_of_invoices_received_from_local_governments_for_reimbursement"	real,
+	"arra_auditing_number_of_local_government_invoices_approved_for_reimbursement_by_agency"	real,
+	"materials_and_supplies_inventory_number_of_inventory_storage_locations"	real,
+	"materials_and_supplies_inventory_number_of_reconciliations_completed_within_30_days_of_monthly_financial_system_close"	real
+);

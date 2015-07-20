@@ -1,0 +1,20 @@
+CREATE TABLE "controllable_agency_expenses_financial_plan" (
+	"year"	text,
+	"police_department"	text,
+	"fire_department"	text,
+	"department_of_correction"	text,
+	"sanitation_department"	text,
+	"social_services"	text,
+	"children_s_services"	text,
+	"homeless_services"	text,
+	"health_and_mental_hygiene"	text,
+	"hhc_subsidy"	text,
+	"housing_preservation_development"	text,
+	"environmental_protection"	text,
+	"finance"	text,
+	"transportation"	text,
+	"parks_and_recreation"	text,
+	"department_of_education"	text,
+	"cuny"	text,
+	"mayoralty"	text
+);

@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/waterbody_inventory_priority_waterbodies/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/geospatial/uctu-y9hj", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/geospatial/uctu-y9hj", 
   "description": "The Waterbody Inventory/Priority Waterbodies List (WI/PWL) dataset is an inventory of the state's surface water quality. This dataset provides a summary of general water quality conditions, tracks the degree to which a waterbody supports its designated uses, and monitors progress toward the identification and resolution of water quality problems, pollutants, and sources.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Waterbody Inventory & Priority Waterbodies", 
-  "schema": {}, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "waterbody_inventory_priority_waterbodies"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "waterbody_inventory_priority_waterbodies"
 }

@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/2008_tree_canopy_urbanforest/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/geospatial/xmnz-a7qy", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/geospatial/xmnz-a7qy", 
   "description": "Tree canopy within City of Melbourne mapped using 2008 aerial photos and LiDAR. The canopy polygons represent actual tree canopy extents on both private and public property across the city. The data is considered accurate for 2008. Changes in tree canopy are expected to have occurred since that time.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "2008 Tree Canopy - #Urbanforest", 
-  "schema": {}, 
-  "schemaName": "socrata/data.melbourne.vic.gov.au", 
-  "tableName": "2008_tree_canopy_urbanforest"
+  "schema": "socrata/data.melbourne.vic.gov.au", 
+  "status": "needs review", 
+  "table": "2008_tree_canopy_urbanforest"
 }

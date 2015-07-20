@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oregon_marine_board_permitted_events/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/7zxm-9fbf/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/api/views/7zxm-9fbf/rows.csv", 
   "description": "This is a list of all events permitted by the Oregon State Marine Board for the current year on Oregon waterways.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "MARINE BOARD PERMITTED EVENTS", 
-  "schema": {
-    "columns": [
-      {
-        "name": "event_start_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "event_end_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "event", 
-        "type": "text"
-      }, 
-      {
-        "name": "sponsor", 
-        "type": "text"
-      }, 
-      {
-        "name": "contact", 
-        "type": "text"
-      }, 
-      {
-        "name": "permit_number", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "marine_board_permitted_events"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "marine_board_permitted_events"
 }

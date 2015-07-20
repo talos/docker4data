@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ccgisdata_street_midlines/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/geospatial/ujuy-nfcm", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/geospatial/ujuy-nfcm", 
   "description": "The Street Midlines in this feature class represent the interpreted midline between the compiled edges of pavement. Unimproved rights-of-way are also included in this database.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "ccgisdata - Street Midlines", 
-  "schema": {}, 
-  "schemaName": "socrata/datacatalog.cookcountyil.gov", 
-  "tableName": "ccgisdata_street_midlines"
+  "schema": "socrata/datacatalog.cookcountyil.gov", 
+  "status": "needs review", 
+  "table": "ccgisdata_street_midlines"
 }

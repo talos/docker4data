@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_snow_ice_routes/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/65qz-efrq/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/65qz-efrq/rows.csv", 
   "description": "City of Seattle streets covered under SDOT\u2019s Winter Storm Response Plan, showing snow and ice removal routes categorized by targeted level of service.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "Snow Ice Routes", 
-  "schema": {
-    "columns": [
-      {
-        "name": "route_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "si_shop", 
-        "type": "text"
-      }, 
-      {
-        "name": "si_los", 
-        "type": "real"
-      }, 
-      {
-        "name": "si_route", 
-        "type": "real"
-      }, 
-      {
-        "name": "geo_area", 
-        "type": "text"
-      }, 
-      {
-        "name": "routemiles", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "snow_ice_routes"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "snow_ice_routes"
 }

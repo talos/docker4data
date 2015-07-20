@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/log_prices/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/4v4m-wr5p/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/api/views/4v4m-wr5p/rows.csv", 
   "description": "Log prices by species and grade from 2015-2000", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "Log Prices", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "text"
-      }, 
-      {
-        "name": "quarter", 
-        "type": "real"
-      }, 
-      {
-        "name": "region", 
-        "type": "text"
-      }, 
-      {
-        "name": "species", 
-        "type": "text"
-      }, 
-      {
-        "name": "grade", 
-        "type": "text"
-      }, 
-      {
-        "name": "pond_value", 
-        "type": "real"
-      }, 
-      {
-        "name": "number_of_quotes", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "log_prices"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "log_prices"
 }

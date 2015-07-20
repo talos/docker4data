@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/bronx_elevation/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/j3ck-8dma/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/j3ck-8dma/rows.csv", 
   "description": "Point data on the elevation of the Bronx. There are over 140,000 points in this dataset.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,30 +12,6 @@
     }
   }, 
   "name": "Bronx Elevation", 
-  "schema": {
-    "columns": [
-      {
-        "name": "source_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "elevation", 
-        "type": "real"
-      }, 
-      {
-        "name": "point_x", 
-        "type": "text"
-      }, 
-      {
-        "name": "point_y", 
-        "type": "real"
-      }, 
-      {
-        "name": "point_z", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/bronx.lehman.cuny.edu", 
-  "tableName": "bronx_elevation"
+  "schema": "socrata/bronx.lehman.cuny.edu", 
+  "table": "bronx_elevation"
 }

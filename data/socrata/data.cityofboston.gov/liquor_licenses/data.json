@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofboston_liquor_licenses/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/hda6-fnsh/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/api/views/hda6-fnsh/rows.csv", 
   "description": "All approved liquor licenses", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,102 +12,7 @@
     }
   }, 
   "name": "Liquor Licenses", 
-  "schema": {
-    "columns": [
-      {
-        "name": "licenseno", 
-        "type": "text"
-      }, 
-      {
-        "name": "businessname", 
-        "type": "text"
-      }, 
-      {
-        "name": "dbaname", 
-        "type": "text"
-      }, 
-      {
-        "name": "comments", 
-        "type": "text"
-      }, 
-      {
-        "name": "locationcomments", 
-        "type": "text"
-      }, 
-      {
-        "name": "issdttm", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "expdttm", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "licstatus", 
-        "type": "text"
-      }, 
-      {
-        "name": "liccat", 
-        "type": "text"
-      }, 
-      {
-        "name": "liccatdesc", 
-        "type": "text"
-      }, 
-      {
-        "name": "opening", 
-        "type": "text"
-      }, 
-      {
-        "name": "closing", 
-        "type": "text"
-      }, 
-      {
-        "name": "patronsout", 
-        "type": "text"
-      }, 
-      {
-        "name": "capacity", 
-        "type": "real"
-      }, 
-      {
-        "name": "primapplicant", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "stno", 
-        "type": "real"
-      }, 
-      {
-        "name": "stnohi", 
-        "type": "real"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "liquor_licenses"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "liquor_licenses"
 }

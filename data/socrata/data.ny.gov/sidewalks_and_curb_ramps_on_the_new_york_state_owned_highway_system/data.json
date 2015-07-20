@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/sidewalks_and_curb_ramps_on_the_new_york_state_owned_highway_system/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/geospatial/4z7z-cyam", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/geospatial/4z7z-cyam", 
   "description": "This data set includes all sidewalks and curb ramps on the roads system under the jurisdiction of NYSDOT. It contains the Regional Office responsible for the management of the feature (sidewalk or curb ramps), the state county where the feature is located and the route name and number for all sidewalks and curb ramps on state-owned routes within New York State. \r\n\r\nThe data set does not include sidewalks or curb ramps on non-state owned routes such as those owned by cities, towns or villages within the state.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Sidewalks  and Curb Ramps on the New York State-Owned Highway System", 
-  "schema": {}, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "sidewalks_and_curb_ramps_on_the_new_york_state_owned_highway_system"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "sidewalks_and_curb_ramps_on_the_new_york_state_owned_highway_system"
 }

@@ -1,9 +1,6 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/homewood_community_partners/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/geospatial/gqbd-j4a2", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.baltimorecity.gov/api/geospatial/gqbd-j4a2", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -15,9 +12,7 @@
     }
   }, 
   "name": "Homewood Community Partners", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.baltimorecity.gov", 
-  "tableName": "homewood_community_partners"
+  "schema": "socrata/data.baltimorecity.gov", 
+  "status": "needs review", 
+  "table": "homewood_community_partners"
 }

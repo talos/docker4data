@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_ems_ambulance_responses_by_month/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/bptg-ndvw/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/views/bptg-ndvw/rows.csv", 
   "description": "This table contains data related to responses by regularly scheduled ambulances.  Units that are not ambulances or are deployed on an irregular basis are excluded from this table.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,54 +13,7 @@
     }
   }, 
   "name": "EMS - Ambulance Responses by Month", 
-  "schema": {
-    "columns": [
-      {
-        "name": "month_key", 
-        "type": "real"
-      }, 
-      {
-        "name": "month_start_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "count_responses_all", 
-        "type": "real"
-      }, 
-      {
-        "name": "count_responses_into_coa", 
-        "type": "real"
-      }, 
-      {
-        "name": "count_responses_into_tc", 
-        "type": "real"
-      }, 
-      {
-        "name": "count_responses_into_other", 
-        "type": "real"
-      }, 
-      {
-        "name": "count_responses_into_coa_or_tc", 
-        "type": "real"
-      }, 
-      {
-        "name": "count_responses_into_tc_by_coa", 
-        "type": "real"
-      }, 
-      {
-        "name": "count_responses_into_coa_by_tc", 
-        "type": "real"
-      }, 
-      {
-        "name": "percent_responses_into_coa_by_tc", 
-        "type": "text"
-      }, 
-      {
-        "name": "percent_responses_into_tc_by_coa", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "ems_ambulance_responses_by_month"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "ems_ambulance_responses_by_month"
 }

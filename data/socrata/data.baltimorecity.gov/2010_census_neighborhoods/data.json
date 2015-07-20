@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/2010_census_neighborhoods/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/geospatial/r3qj-2ifh", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.baltimorecity.gov/api/geospatial/r3qj-2ifh", 
   "description": "Neighborhoods of Baltimore, featuring Census 2010 demographic data (Public Law 41-171).", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "2010 Census Neighborhoods", 
-  "schema": {}, 
-  "schemaName": "socrata/data.baltimorecity.gov", 
-  "tableName": "2010_census_neighborhoods"
+  "schema": "socrata/data.baltimorecity.gov", 
+  "status": "needs review", 
+  "table": "2010_census_neighborhoods"
 }

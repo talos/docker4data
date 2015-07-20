@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sunlightlabs_2012_ad_spending/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sunlightlabs.com/api/views/85zf-gqtp/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sunlightlabs.com/api/views/85zf-gqtp/rows.csv", 
   "description": "Ad spending by campaigns", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "2012 Ad Spending", 
-  "schema": {
-    "columns": [
-      {
-        "name": "candidate_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "candidate_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "amount_spent_on_ad_buys", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sunlightlabs.com", 
-  "tableName": "2012_ad_spending"
+  "schema": "socrata/data.sunlightlabs.com", 
+  "status": "needs review", 
+  "table": "2012_ad_spending"
 }

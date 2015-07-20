@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_new_york_state_locality_hierarchy_with_websites/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/55k6-h6qq/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/55k6-h6qq/rows.csv", 
   "description": "The dataset contains a hierarchal listing of New York State counties, cities, towns, and villages, as well as official locality websites", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,66 +13,7 @@
     }
   }, 
   "name": "New York State Locality Hierarchy with Websites", 
-  "schema": {
-    "columns": [
-      {
-        "name": "swis_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "type_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "type", 
-        "type": "text"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "city_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "town_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "village_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "_2nd_county", 
-        "type": "text"
-      }, 
-      {
-        "name": "website", 
-        "type": "text"
-      }, 
-      {
-        "name": "municipality", 
-        "type": "text"
-      }, 
-      {
-        "name": "gnis_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "state_fips", 
-        "type": "text"
-      }, 
-      {
-        "name": "county_fips", 
-        "type": "text"
-      }, 
-      {
-        "name": "state_county_fips", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "new_york_state_locality_hierarchy_with_websites"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "new_york_state_locality_hierarchy_with_websites"
 }

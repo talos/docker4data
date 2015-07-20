@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_tif_balances_by_fiscal_year/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/hz8p-ewk5/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/hz8p-ewk5/rows.csv", 
   "description": "TIF fund balances by fiscal year based on annual financial statements.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "TIF Balances by Fiscal Year", 
-  "schema": {
-    "columns": [
-      {
-        "name": "fiscal_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "tif_ref", 
-        "type": "text"
-      }, 
-      {
-        "name": "tif_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "balance", 
-        "type": "text"
-      }, 
-      {
-        "name": "amount", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "tif_balances_by_fiscal_year"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "tif_balances_by_fiscal_year"
 }

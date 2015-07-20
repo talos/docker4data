@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofmadison_pavement_data/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofmadison.com/api/views/sjqt-cv73/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofmadison.com/api/views/sjqt-cv73/rows.csv", 
   "description": "City of Madison streets with pavement data including functional class, pavement rating, length and others.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,86 +13,7 @@
     }
   }, 
   "name": "Pavement Data", 
-  "schema": {
-    "columns": [
-      {
-        "name": "segment_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "from_segment", 
-        "type": "text"
-      }, 
-      {
-        "name": "to_segment", 
-        "type": "text"
-      }, 
-      {
-        "name": "rating_year", 
-        "type": "text"
-      }, 
-      {
-        "name": "pvmt_rating", 
-        "type": "real"
-      }, 
-      {
-        "name": "curb_rating", 
-        "type": "real"
-      }, 
-      {
-        "name": "speed_limit", 
-        "type": "real"
-      }, 
-      {
-        "name": "funct_class", 
-        "type": "text"
-      }, 
-      {
-        "name": "surface_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "surface_year", 
-        "type": "text"
-      }, 
-      {
-        "name": "surface_width", 
-        "type": "real"
-      }, 
-      {
-        "name": "project_no", 
-        "type": "text"
-      }, 
-      {
-        "name": "lanes", 
-        "type": "real"
-      }, 
-      {
-        "name": "curb_gutter", 
-        "type": "text"
-      }, 
-      {
-        "name": "truck_route", 
-        "type": "text"
-      }, 
-      {
-        "name": "oneway", 
-        "type": "text"
-      }, 
-      {
-        "name": "rw_width", 
-        "type": "real"
-      }, 
-      {
-        "name": "maintained_by", 
-        "type": "text"
-      }, 
-      {
-        "name": "segment_length", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofmadison.com", 
-  "tableName": "pavement_data"
+  "schema": "socrata/data.cityofmadison.com", 
+  "status": "needs review", 
+  "table": "pavement_data"
 }

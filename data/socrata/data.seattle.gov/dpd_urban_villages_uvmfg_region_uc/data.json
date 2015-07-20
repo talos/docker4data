@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_dpd_urban_villages_uvmfg_region_uc/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/6mvc-x6yt/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/6mvc-x6yt/rows.csv", 
   "description": "Urban villages and manufacturing centers", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "DPD.URBAN_VILLAGES_UVMFG_REGION_UC", 
-  "schema": {
-    "columns": [
-      {
-        "name": "objectid", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape", 
-        "type": "text"
-      }, 
-      {
-        "name": "water", 
-        "type": "real"
-      }, 
-      {
-        "name": "uc_init", 
-        "type": "real"
-      }, 
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "area", 
-        "type": "real"
-      }, 
-      {
-        "name": "len", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape_length", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape_area", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "dpd_urban_villages_uvmfg_region_uc"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "dpd_urban_villages_uvmfg_region_uc"
 }

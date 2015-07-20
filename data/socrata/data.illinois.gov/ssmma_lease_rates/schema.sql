@@ -1,0 +1,21 @@
+CREATE TABLE "ssmma_lease_rates" (
+	"objectid"	real,
+	"municipali"	text,
+	"county"	text,
+	"date"	text,
+	"commercial"	text,
+	"industrial"	text,
+	"warehouse"	text,
+	"retail"	text,
+	"residentia"	text,
+	"editor"	text,
+	"propreitar"	real,
+	"universali"	text,
+	"shape_leng"	real,
+	"shape_area"	real,
+	"comm"	text,
+	"indus"	text,
+	"wareh"	text,
+	"retail_1"	text,
+	"resident_1"	text
+);

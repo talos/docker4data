@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/foia_request_log_cultural_affairs_special_events/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/ikdf-ernx/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/ikdf-ernx/rows.csv", 
   "description": "FOIA requests received by Cultural Affairs & Special Events as of January 1, 2011.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "FOIA Request Log - Cultural Affairs & Special Events", 
-  "schema": {
-    "columns": [
-      {
-        "name": "requestor_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "organization", 
-        "type": "text"
-      }, 
-      {
-        "name": "description_of_request", 
-        "type": "text"
-      }, 
-      {
-        "name": "date_received", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "due_date", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "foia_request_log_cultural_affairs_special_events"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "foia_request_log_cultural_affairs_special_events"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_511_ny_events_beginning_2010/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/ah74-pg4w/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/ah74-pg4w/rows.csv", 
   "description": "The 511NY dataset contain historical traffic and transit event information provided by the New York State Department of Transportation (NYSDOT), the New York City Department of Transportation, the New York State Thruway Authority and the Niagara International Transportation Technology Coalition (Buffalo-Niagara Region). The file includes all incidents/accidents, construction projects and special events in New York State that were available on the 511NY traffic and transit map for the time period noted.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,62 +13,7 @@
     }
   }, 
   "name": "511 NY Events: Beginning 2010", 
-  "schema": {
-    "columns": [
-      {
-        "name": "event_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "organization_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "facility_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "direction", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "create_time", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "close_time", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "event_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "responding_organization_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "511_ny_events_beginning_2010"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "511_ny_events_beginning_2010"
 }

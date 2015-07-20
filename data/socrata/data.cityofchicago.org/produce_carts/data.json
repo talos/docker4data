@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_produce_carts/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/divg-mhqk/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/divg-mhqk/rows.csv", 
   "description": "Neighbor Capital is a social enterprise that runs a produce cart program that employs difficult to employ people who manage and operate a cart on a public sidewalk or private plaza across the city. The City of Chicago legalized this business model in 2012 with the requirement that half be set up in low-food access areas. Each cart carries a full line of fresh locally grown produce on an 8 feet by 6 foot stand generally between early morning and early evening hours.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "Produce Carts", 
-  "schema": {
-    "columns": [
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "produce_carts"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "produce_carts"
 }

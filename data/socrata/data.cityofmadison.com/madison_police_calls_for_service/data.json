@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofmadison_madison_police_calls_for_service/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofmadison.com/api/views/4gss-84dk/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofmadison.com/api/views/4gss-84dk/rows.csv", 
   "description": "Type of Call; Date/Time; Location by 100 block; Incident Number", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Madison Police Calls for Service", 
-  "schema": {
-    "columns": [
-      {
-        "name": "incident_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "type", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "date_time", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofmadison.com", 
-  "tableName": "madison_police_calls_for_service"
+  "schema": "socrata/data.cityofmadison.com", 
+  "status": "needs review", 
+  "table": "madison_police_calls_for_service"
 }

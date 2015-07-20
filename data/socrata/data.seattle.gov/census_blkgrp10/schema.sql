@@ -1,0 +1,21 @@
+CREATE TABLE "census_blkgrp10" (
+	"objectid"	real,
+	"shape"	text,
+	"tractce10"	text,
+	"blkgrpce10"	text,
+	"geoid10"	text,
+	"namelsad10"	text,
+	"intptlat10"	text,
+	"intptlon10"	text,
+	"tract"	real,
+	"trbg"	real,
+	"trbg_str"	text,
+	"acres_total"	real,
+	"acres_land"	real,
+	"acres_water"	real,
+	"water"	real,
+	"area"	real,
+	"len"	real,
+	"shape_length"	real,
+	"shape_area"	real
+);

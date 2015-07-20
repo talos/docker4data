@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/broadband_served_underserved_areas_map_oct_2013_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/download/dcsh-t7ziapplication/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/download/dcsh-t7zi/application/pdf", 
   "description": "PDF map of areas served or underserved by broadband service (defined for this map as internet download speeds > 3 MBPS). Broadband service is based on the October 2013 submission of broadband data to the National Telecommunications and Information Administration.", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Broadband Served / Underserved Areas Map (Oct 2013)", 
-  "schema": {}, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "broadband_served_underserved_areas_map_oct_2013_"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "broadband_served_underserved_areas_map_oct_2013_"
 }

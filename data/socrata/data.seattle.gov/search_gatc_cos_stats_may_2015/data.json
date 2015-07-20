@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/search_gatc_cos_stats_may_2015/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/qktf-bug7/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/qktf-bug7/rows.csv", 
   "description": "Search terms from find.seattle.gov as reported by Google Analytics in May 2015", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "Search-gatc-cos-stats-may-2015", 
-  "schema": {
-    "columns": [
-      {
-        "name": "search_query", 
-        "type": "text"
-      }, 
-      {
-        "name": "total_unique_searches", 
-        "type": "real"
-      }, 
-      {
-        "name": "results_pageviews_search", 
-        "type": "real"
-      }, 
-      {
-        "name": "number_of_exits", 
-        "type": "text"
-      }, 
-      {
-        "name": "search_refinements", 
-        "type": "text"
-      }, 
-      {
-        "name": "onsite_time_after_search", 
-        "type": "text"
-      }, 
-      {
-        "name": "average_search_depth", 
-        "type": "real"
-      }, 
-      {
-        "name": "month", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "search_gatc_cos_stats_may_2015"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "search_gatc_cos_stats_may_2015"
 }

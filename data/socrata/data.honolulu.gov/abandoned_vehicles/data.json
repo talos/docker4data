@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_honolulu_abandoned_vehicles/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.honolulu.gov/api/views/7mwf-c3z3/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.honolulu.gov/api/views/7mwf-c3z3/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -14,42 +10,7 @@
     }
   }, 
   "name": "Abandoned Vehicles", 
-  "schema": {
-    "columns": [
-      {
-        "name": "streetnumber", 
-        "type": "text"
-      }, 
-      {
-        "name": "streetname", 
-        "type": "text"
-      }, 
-      {
-        "name": "vehiclemake", 
-        "type": "text"
-      }, 
-      {
-        "name": "vehicletype", 
-        "type": "text"
-      }, 
-      {
-        "name": "entrydate", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "closedate", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "status", 
-        "type": "text"
-      }, 
-      {
-        "name": "closereason", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.honolulu.gov", 
-  "tableName": "abandoned_vehicles"
+  "schema": "socrata/data.honolulu.gov", 
+  "status": "needs review", 
+  "table": "abandoned_vehicles"
 }

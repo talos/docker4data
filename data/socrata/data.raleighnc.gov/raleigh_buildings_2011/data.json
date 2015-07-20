@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/raleigh_buildings_2011/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.raleighnc.gov/api/geospatial/46tk-23jt", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.raleighnc.gov/api/geospatial/46tk-23jt", 
   "description": "A GIS map of buildings within Raleigh city limits.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,7 +13,7 @@
     }
   }, 
   "name": "Raleigh Buildings 2011", 
-  "schema": {}, 
-  "schemaName": "socrata/data.raleighnc.gov", 
-  "tableName": "raleigh_buildings_2011"
+  "schema": "socrata/data.raleighnc.gov", 
+  "status": "needs review", 
+  "table": "raleigh_buildings_2011"
 }

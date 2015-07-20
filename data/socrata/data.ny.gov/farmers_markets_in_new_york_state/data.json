@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_farmers_markets_in_new_york_state/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/qq4h-8p86/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/qq4h-8p86/rows.csv", 
   "description": "In the past decade the number of farmers markets in New York State has grown at a rapid rate.  The dataset published on the Department website contains information detailing the time and location of community farmers markets as well as the name and phone number of the market manager.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,82 +13,7 @@
     }
   }, 
   "name": "Farmers Markets in New York State", 
-  "schema": {
-    "columns": [
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "market_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "address_line_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip", 
-        "type": "real"
-      }, 
-      {
-        "name": "contact", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone", 
-        "type": "real"
-      }, 
-      {
-        "name": "market_link", 
-        "type": "text"
-      }, 
-      {
-        "name": "operation_hours", 
-        "type": "text"
-      }, 
-      {
-        "name": "operation_season", 
-        "type": "text"
-      }, 
-      {
-        "name": "operation_months_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "fmnp", 
-        "type": "text"
-      }, 
-      {
-        "name": "snap_status", 
-        "type": "text"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "location_points", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "farmers_markets_in_new_york_state"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "farmers_markets_in_new_york_state"
 }

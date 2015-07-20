@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_kingcounty_king_county_metro_access_service_advisories/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/su4w-amh4/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.kingcounty.gov/api/views/su4w-amh4/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -15,42 +11,7 @@
     }
   }, 
   "name": "King County Metro Access - Service Advisories", 
-  "schema": {
-    "columns": [
-      {
-        "name": "start_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "end_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "event", 
-        "type": "text"
-      }, 
-      {
-        "name": "area_affected", 
-        "type": "text"
-      }, 
-      {
-        "name": "details", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "attachment", 
-        "type": "text"
-      }, 
-      {
-        "name": "posted", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.kingcounty.gov", 
-  "tableName": "king_county_metro_access_service_advisories"
+  "schema": "socrata/data.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "king_county_metro_access_service_advisories"
 }

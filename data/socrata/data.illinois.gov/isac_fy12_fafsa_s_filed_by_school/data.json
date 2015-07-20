@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_isac_fy12_fafsa_s_filed_by_school/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/wt9x-teai/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/wt9x-teai/rows.csv", 
   "description": "This data is current as of August 25th 2011.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "ISAC FY12 FAFSA's Filed by School", 
-  "schema": {
-    "columns": [
-      {
-        "name": "region", 
-        "type": "real"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "district", 
-        "type": "text"
-      }, 
-      {
-        "name": "high_school", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "fafsas_1", 
-        "type": "real"
-      }, 
-      {
-        "name": "fafsas_2", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "isac_fy12_fafsa_s_filed_by_school"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "isac_fy12_fafsa_s_filed_by_school"
 }

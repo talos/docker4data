@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_retail_food_stores/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/9a8c-vfzj/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/9a8c-vfzj/rows.csv", 
   "description": "A listing of all retail food stores which are licensed by the Department of Agriculture and Markets.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,70 +13,7 @@
     }
   }, 
   "name": "Retail Food Stores", 
-  "schema": {
-    "columns": [
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "license_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "operation_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "estab_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "entity_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "dba_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "address_line_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "address_line_3", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "square_footage", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "retail_food_stores"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "retail_food_stores"
 }

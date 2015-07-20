@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_tlc_vehicle_insurance/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/cw8b-zbc3/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/cw8b-zbc3/rows.csv", 
   "description": "Spreadsheet of all TLC vehicle insurance", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "TLC Vehicle Insurance", 
-  "schema": {
-    "columns": [
-      {
-        "name": "tlc_license_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "tlc_license_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "dmv_plate", 
-        "type": "text"
-      }, 
-      {
-        "name": "vin", 
-        "type": "text"
-      }, 
-      {
-        "name": "automobile_insurance_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "automobile_insurance_policy_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "vehicle_owner_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "affiliated_base_or_taxi_agent_or_fleet_license_number", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "tlc_vehicle_insurance"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "tlc_vehicle_insurance"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_05to12_iquery_histo_data/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/h79e-pjdp/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/h79e-pjdp/rows.csv", 
   "description": "Histoplasma capsulatum is a dimorphic fungus that grows as a mold in soil, and as a yeast in humans and animals. The fungus is found in nature in soil with undisturbed droppings from birds or bats. The growth of the fungus in the soil produces very small particles that can be inhaled with dust when the soil is disturbed. A case of histoplasmosis may manifest itself as a respiratory or pulmonary illness that may be severe.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,54 +11,7 @@
     }
   }, 
   "name": "05to12 Iquery Histo Data", 
-  "schema": {
-    "columns": [
-      {
-        "name": "disease", 
-        "type": "text"
-      }, 
-      {
-        "name": "yeartext", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "stateorcounty", 
-        "type": "text"
-      }, 
-      {
-        "name": "il", 
-        "type": "text"
-      }, 
-      {
-        "name": "race", 
-        "type": "text"
-      }, 
-      {
-        "name": "ethnicity", 
-        "type": "text"
-      }, 
-      {
-        "name": "gender", 
-        "type": "text"
-      }, 
-      {
-        "name": "agegrouptext", 
-        "type": "text"
-      }, 
-      {
-        "name": "agegroup", 
-        "type": "text"
-      }, 
-      {
-        "name": "count", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "05to12_iquery_histo_data"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "05to12_iquery_histo_data"
 }

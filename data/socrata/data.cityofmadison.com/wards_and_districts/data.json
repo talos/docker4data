@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofmadison_wards_and_districts/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofmadison.com/api/views/q5sg-7k3x/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofmadison.com/api/views/q5sg-7k3x/rows.csv", 
   "description": "Table of City of Madison Wards by School District, Aldermanic District, County Supervisor District, Assembly District, and Senate District.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "Wards and Districts", 
-  "schema": {
-    "columns": [
-      {
-        "name": "ward", 
-        "type": "real"
-      }, 
-      {
-        "name": "aldermanic_district", 
-        "type": "real"
-      }, 
-      {
-        "name": "county_supervisor_district", 
-        "type": "real"
-      }, 
-      {
-        "name": "assembly_district", 
-        "type": "real"
-      }, 
-      {
-        "name": "senate_district", 
-        "type": "real"
-      }, 
-      {
-        "name": "school_district", 
-        "type": "real"
-      }, 
-      {
-        "name": "school_board", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofmadison.com", 
-  "tableName": "wards_and_districts"
+  "schema": "socrata/data.cityofmadison.com", 
+  "status": "needs review", 
+  "table": "wards_and_districts"
 }

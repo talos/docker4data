@@ -1,0 +1,21 @@
+CREATE TABLE "income_data_for_colorado_counties" (
+	"stateabbrv"	text,
+	"statename"	text,
+	"stfips"	real,
+	"areatyname"	text,
+	"areaname"	text,
+	"areatype"	real,
+	"area"	real,
+	"periodyear"	real,
+	"periodtype"	real,
+	"pertypdesc"	text,
+	"period"	real,
+	"inctype"	real,
+	"incdesc"	text,
+	"incsource"	real,
+	"incsrcdesc"	text,
+	"income"	real,
+	"incrank"	real,
+	"population"	real,
+	"releasedate"	timestamp
+);

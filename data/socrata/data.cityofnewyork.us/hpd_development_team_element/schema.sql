@@ -1,0 +1,21 @@
+CREATE TABLE "hpd_development_team_element" (
+	"development_team_dw_id"	real,
+	"project_id"	real,
+	"type"	text,
+	"entity_name"	text,
+	"first_name"	text,
+	"last_name"	text,
+	"entity_individual_indicator"	text,
+	"parent_entity_name"	text,
+	"individual_role"	text,
+	"individual_title"	text,
+	"individual_officer_equivalence"	text,
+	"care_of"	text,
+	"house_number"	text,
+	"street_name"	text,
+	"apartment_suite_floor"	text,
+	"city"	text,
+	"state"	text,
+	"zip"	text,
+	"trade_type"	text
+);

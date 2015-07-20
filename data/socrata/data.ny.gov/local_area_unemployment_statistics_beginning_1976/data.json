@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_local_area_unemployment_statistics_beginning_1976/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/5hyu-bdh8/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/5hyu-bdh8/rows.csv", 
   "description": "The Local Area Unemployment Statistics program estimates labor force statistics (labor force, employed, unemployment, unemployment rate) for New York State civilian labor force aged 16 and up. Areas covered include, New York State, New York City, Balance of State, Metropolitan Statistical Areas, Counties, Labor Market Regions, Workforce Investment Board Areas, and cities and towns with populations of 25,000 or more. Data are not seasonally adjusted. Civilian labor force data do not include military, prison inmate, or other institutional populations.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "Local Area Unemployment Statistics: Beginning 1976", 
-  "schema": {
-    "columns": [
-      {
-        "name": "area", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "month", 
-        "type": "real"
-      }, 
-      {
-        "name": "laborforce", 
-        "type": "real"
-      }, 
-      {
-        "name": "employed", 
-        "type": "real"
-      }, 
-      {
-        "name": "unemployed", 
-        "type": "real"
-      }, 
-      {
-        "name": "unemployment_rate", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "local_area_unemployment_statistics_beginning_1976"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "local_area_unemployment_statistics_beginning_1976"
 }

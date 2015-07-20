@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/total_contributions_to_ibrd_ida_ifc_trust_funds_summary_based_on_fy_of_agreement/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/m54j-ersw/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/finances.worldbank.org/api/views/m54j-ersw/rows.csv", 
   "description": "A Trust Fund is a financing arrangement set up with contributions from one or more donor(s), and in some\r\ncases from the World Bank Group. A Trust Fund can be country-specific, regional, or global in its\r\ngeographic scope, and it can be free-standing or programmatic.  In fulfilling its responsibilities, the World Bank as Trustee complies with all sanctions applicable to World Bank transactions. This dataset  provides a summary of the contributions per fiscal year at the individual Trust Fund level. All definitions should be regarded at present as provisional and not final, and are subject to revision at any time. Please refer to http://www.cfpto.org/TFGlossary2012/ for the Trust Fund Glossary.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,58 +13,7 @@
     }
   }, 
   "name": "Total Contributions to IBRD/IDA/IFC Trust Funds - Summary based on FY of Agreement", 
-  "schema": {
-    "columns": [
-      {
-        "name": "as_of_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "fund", 
-        "type": "text"
-      }, 
-      {
-        "name": "trustee_fund_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "trustee_fund_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "donor_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "donor_name_", 
-        "type": "text"
-      }, 
-      {
-        "name": "donor_agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "fiscal_year_of_agreement", 
-        "type": "real"
-      }, 
-      {
-        "name": "contributions_paid_in_usd_", 
-        "type": "real"
-      }, 
-      {
-        "name": "contributions_outstanding_usd_", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_contribution_usd_", 
-        "type": "real"
-      }, 
-      {
-        "name": "status", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/finances.worldbank.org", 
-  "tableName": "total_contributions_to_ibrd_ida_ifc_trust_funds_summary_based_on_fy_of_agreement"
+  "schema": "socrata/finances.worldbank.org", 
+  "status": "needs review", 
+  "table": "total_contributions_to_ibrd_ida_ifc_trust_funds_summary_based_on_fy_of_agreement"
 }

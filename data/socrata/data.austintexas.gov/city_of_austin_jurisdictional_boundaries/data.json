@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/city_of_austin_jurisdictional_boundaries/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/geospatial/8dnv-8czf", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/geospatial/8dnv-8czf", 
   "description": "This layer represents the jurisdiction and regulatory boundaries of the City of Austin.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,9 +14,7 @@
     }
   }, 
   "name": "City of Austin Jurisdictional Boundaries", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "city_of_austin_jurisdictional_boundaries"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "city_of_austin_jurisdictional_boundaries"
 }

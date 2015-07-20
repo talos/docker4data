@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_board_of_supervisors_aides/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/c9w8-qfpk/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sfgov.org/api/views/c9w8-qfpk/rows.csv", 
   "description": "List of aides to the Board of Supervisors, includes areas of interest if specified.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Board of Supervisors Aides", 
-  "schema": {
-    "columns": [
-      {
-        "name": "district", 
-        "type": "real"
-      }, 
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "email", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "areas_of_interest", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sfgov.org", 
-  "tableName": "board_of_supervisors_aides"
+  "schema": "socrata/data.sfgov.org", 
+  "status": "needs review", 
+  "table": "board_of_supervisors_aides"
 }

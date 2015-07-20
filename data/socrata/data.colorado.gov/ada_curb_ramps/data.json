@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ada_curb_ramps/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/geospatial/4qh9-evw6", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/api/geospatial/4qh9-evw6", 
   "description": "This dataset includes locations of ADA compliant curb ramps, among other features.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Ada Curb Ramps", 
-  "schema": {}, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "ada_curb_ramps"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "ada_curb_ramps"
 }

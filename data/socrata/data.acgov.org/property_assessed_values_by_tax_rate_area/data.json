@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_acgov_property_assessed_values_by_tax_rate_area/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.acgov.org/api/views/rccp-umip/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.acgov.org/api/views/rccp-umip/rows.csv", 
   "description": "Summarizes the Secured, Unsecured and State Utilities values by Tax Rate Area (TRA) broken out by Land, Improvements, Fixtures, Business Personal Property, Household Personal Property, Home Owner Exemption, Other Exemptions and Net Assessed Values.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,58 +13,7 @@
     }
   }, 
   "name": "Property Assessed Values by Tax Rate Area", 
-  "schema": {
-    "columns": [
-      {
-        "name": "tax_roll_year", 
-        "type": "text"
-      }, 
-      {
-        "name": "summary_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "tra_primary", 
-        "type": "text"
-      }, 
-      {
-        "name": "tra_secondary", 
-        "type": "text"
-      }, 
-      {
-        "name": "land", 
-        "type": "real"
-      }, 
-      {
-        "name": "improvements", 
-        "type": "real"
-      }, 
-      {
-        "name": "fixtures", 
-        "type": "real"
-      }, 
-      {
-        "name": "business_personal_property", 
-        "type": "real"
-      }, 
-      {
-        "name": "household_personal_property", 
-        "type": "real"
-      }, 
-      {
-        "name": "home_owner_exemptions", 
-        "type": "real"
-      }, 
-      {
-        "name": "other_exemptions", 
-        "type": "real"
-      }, 
-      {
-        "name": "net_av", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.acgov.org", 
-  "tableName": "property_assessed_values_by_tax_rate_area"
+  "schema": "socrata/data.acgov.org", 
+  "status": "needs review", 
+  "table": "property_assessed_values_by_tax_rate_area"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_baltimorecity_designated_landmarks/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/cpd3-yi9b/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/cpd3-yi9b/rows.csv", 
   "description": "This data shows designated landmarks within the City of Baltimore", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "Designated Landmarks", 
-  "schema": {
-    "columns": [
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "zipcode", 
-        "type": "text"
-      }, 
-      {
-        "name": "neighborhood", 
-        "type": "text"
-      }, 
-      {
-        "name": "councildistrict", 
-        "type": "real"
-      }, 
-      {
-        "name": "policedistrict", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.baltimorecity.gov", 
-  "tableName": "designated_landmarks"
+  "schema": "socrata/data.baltimorecity.gov", 
+  "status": "needs review", 
+  "table": "designated_landmarks"
 }

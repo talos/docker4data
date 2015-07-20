@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_mva_vehicle_registrations_by_county_by_fy/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/766f-aaun/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/766f-aaun/rows.csv", 
   "description": "MVA Vehicle Registration Counts by County as of Fiscal Yearend (active registrations)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "MVA Vehicle Registrations By County By FY", 
-  "schema": {
-    "columns": [
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "fy_2014", 
-        "type": "real"
-      }, 
-      {
-        "name": "fy_2013", 
-        "type": "real"
-      }, 
-      {
-        "name": "fy_2012", 
-        "type": "real"
-      }, 
-      {
-        "name": "fy_2011", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "mva_vehicle_registrations_by_county_by_fy"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "mva_vehicle_registrations_by_county_by_fy"
 }

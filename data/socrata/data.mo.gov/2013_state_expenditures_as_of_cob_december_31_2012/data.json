@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_mo_2013_state_expenditures_as_of_cob_december_31_2012/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.mo.gov/api/views/ecs3-rejh/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.mo.gov/api/views/ecs3-rejh/rows.csv", 
   "description": "Financial data relating to the purchases of goods and services by the state as well as financial disbursements through various state programs. Current as of the close of business December 31, 2012.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,34 +12,7 @@
     }
   }, 
   "name": "2013 State Expenditures As Of COB December 31, 2012", 
-  "schema": {
-    "columns": [
-      {
-        "name": "fiscal_year", 
-        "type": "text"
-      }, 
-      {
-        "name": "agency_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "category_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "detail_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendor_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "payments_total", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.mo.gov", 
-  "tableName": "2013_state_expenditures_as_of_cob_december_31_2012"
+  "schema": "socrata/data.mo.gov", 
+  "status": "needs review", 
+  "table": "2013_state_expenditures_as_of_cob_december_31_2012"
 }

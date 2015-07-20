@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/military_sexual_trauma/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.mo.gov/download/kzf7-r4e9application/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.mo.gov/download/kzf7-r4e9/application/pdf", 
   "description": "A collection of national resources on Military Sexual Trauma for service members, Veterans and their families.", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,7 +13,7 @@
     }
   }, 
   "name": "Military Sexual Trauma", 
-  "schema": {}, 
-  "schemaName": "socrata/data.mo.gov", 
-  "tableName": "military_sexual_trauma"
+  "schema": "socrata/data.mo.gov", 
+  "status": "needs review", 
+  "table": "military_sexual_trauma"
 }

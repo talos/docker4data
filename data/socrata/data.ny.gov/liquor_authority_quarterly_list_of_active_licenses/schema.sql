@@ -1,0 +1,23 @@
+CREATE TABLE "liquor_authority_quarterly_list_of_active_licenses" (
+	"license_serial_number"	real,
+	"license_type_name"	text,
+	"license_class_code"	real,
+	"license_type_code"	text,
+	"agency_zone_office_name"	text,
+	"agency_zone_office_number"	real,
+	"county_name_licensee"	text,
+	"premises_name"	text,
+	"doing_business_as_dba"	text,
+	"actual_address_of_premises_address1"	text,
+	"additional_address_information_address2"	text,
+	"city"	text,
+	"state"	text,
+	"zip"	text,
+	"license_certificate_number"	real,
+	"license_original_issue_date"	timestamp,
+	"license_effective_date"	timestamp,
+	"license_expiration_date"	timestamp,
+	"latitude"	real,
+	"longitude"	real,
+	"location"	text
+);

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofboston_boston_open_budget_capital_budget/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/gb2s-qbsg/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/api/views/gb2s-qbsg/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,46 +9,7 @@
     }
   }, 
   "name": "Boston Open Budget - Capital Budget", 
-  "schema": {
-    "columns": [
-      {
-        "name": "fiscal_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "service", 
-        "type": "text"
-      }, 
-      {
-        "name": "department", 
-        "type": "text"
-      }, 
-      {
-        "name": "project", 
-        "type": "text"
-      }, 
-      {
-        "name": "project_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "fund", 
-        "type": "text"
-      }, 
-      {
-        "name": "fund_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "thru_fy_actuals", 
-        "type": "real"
-      }, 
-      {
-        "name": "fy_approved", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "boston_open_budget_capital_budget"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "boston_open_budget_capital_budget"
 }

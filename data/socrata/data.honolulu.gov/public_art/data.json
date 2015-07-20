@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_honolulu_public_art/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.honolulu.gov/api/views/yef5-h88r/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.honolulu.gov/api/views/yef5-h88r/rows.csv", 
   "description": "Location and descriptions of public works of art", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,66 +11,7 @@
     }
   }, 
   "name": "Public Art", 
-  "schema": {
-    "columns": [
-      {
-        "name": "creator", 
-        "type": "text"
-      }, 
-      {
-        "name": "credit", 
-        "type": "text"
-      }, 
-      {
-        "name": "date", 
-        "type": "real"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "imagefile", 
-        "type": "text"
-      }, 
-      {
-        "name": "objectid", 
-        "type": "text"
-      }, 
-      {
-        "name": "discipline", 
-        "type": "text"
-      }, 
-      {
-        "name": "title", 
-        "type": "text"
-      }, 
-      {
-        "name": "access", 
-        "type": "text"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "artloc", 
-        "type": "text"
-      }, 
-      {
-        "name": "thumb", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.honolulu.gov", 
-  "tableName": "public_art"
+  "schema": "socrata/data.honolulu.gov", 
+  "status": "needs review", 
+  "table": "public_art"
 }

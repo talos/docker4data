@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/work_order_management_module/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/4fvw-nn9c/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/4fvw-nn9c/rows.csv", 
   "description": "Work orders associated with a CSR complaints", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "Work Order Management Module", 
-  "schema": {
-    "columns": [
-      {
-        "name": "svc_request_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "workorder_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "workorder_activity_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "workorder_activity_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "workorder_started", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "workorder_completed", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "workorder_added", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "time_stamp", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "work_order_management_module"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "work_order_management_module"
 }

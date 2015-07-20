@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_austin_energy_general_fund_transfer/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/zzix-yxi4/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/views/zzix-yxi4/rows.csv", 
   "description": "As a community-owned electric utility, Austin Energy returns a dividend to its community. This dividend is comparable to funds distributed to stockholders by investor-owned electric utilities. The dividend (known as the General Fund transfer) returned by Austin Energy helps fund other City services such as Police, Fire, EMS, Parks, and Libraries. General Fund transfers are common among municipally-owned utilities.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,18 +13,7 @@
     }
   }, 
   "name": "Austin Energy General Fund Transfer", 
-  "schema": {
-    "columns": [
-      {
-        "name": "budget", 
-        "type": "text"
-      }, 
-      {
-        "name": "amount_in_millions", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "austin_energy_general_fund_transfer"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "austin_energy_general_fund_transfer"
 }

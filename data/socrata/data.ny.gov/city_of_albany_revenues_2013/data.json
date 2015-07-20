@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_city_of_albany_revenues_2013/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/27dc-dsd2/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/27dc-dsd2/rows.csv", 
   "description": "In the accompanying data, each type of revenue is listed by category. The categories used are those promulgated by State Comptroller so that reporting among all localities is uniform.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "City of Albany Revenues: 2013", 
-  "schema": {
-    "columns": [
-      {
-        "name": "budget_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "source", 
-        "type": "text"
-      }, 
-      {
-        "name": "item", 
-        "type": "text"
-      }, 
-      {
-        "name": "_2011_actual", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2012_budget", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2013_budget", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "city_of_albany_revenues_2013"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "city_of_albany_revenues_2013"
 }

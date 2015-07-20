@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/medical_examiner_2009_deaths_by_gender_of_decedent/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/cookcounty.socrata.com/api/views/xbrr-cj6t/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/cookcounty.socrata.com/api/views/xbrr-cj6t/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -15,22 +11,6 @@
     }
   }, 
   "name": "Medical Examiner -- 2009 Deaths by Gender of Decedent", 
-  "schema": {
-    "columns": [
-      {
-        "name": "sex_", 
-        "type": "text"
-      }, 
-      {
-        "name": "count_", 
-        "type": "real"
-      }, 
-      {
-        "name": "percent_", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/cookcounty.socrata.com", 
-  "tableName": "medical_examiner_2009_deaths_by_gender_of_decedent"
+  "schema": "socrata/cookcounty.socrata.com", 
+  "table": "medical_examiner_2009_deaths_by_gender_of_decedent"
 }

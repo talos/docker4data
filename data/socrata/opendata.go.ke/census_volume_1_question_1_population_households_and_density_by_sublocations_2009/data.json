@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/census_volume_1_question_1_population_households_and_density_by_sublocations_2009/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/opendata.go.ke/api/views/wd27-eki2/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/opendata.go.ke/api/views/wd27-eki2/rows.csv", 
   "description": "2009 Census data on number of households, population by male and female, area in square kilometers, and population density by sub-location.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,54 +13,7 @@
     }
   }, 
   "name": "Census Volume 1 Question 1 Population, Households and Density by Sublocations - 2009", 
-  "schema": {
-    "columns": [
-      {
-        "name": "district", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "sublocation", 
-        "type": "text"
-      }, 
-      {
-        "name": "male", 
-        "type": "real"
-      }, 
-      {
-        "name": "female", 
-        "type": "real"
-      }, 
-      {
-        "name": "total", 
-        "type": "real"
-      }, 
-      {
-        "name": "households", 
-        "type": "real"
-      }, 
-      {
-        "name": "area_in_sq_km", 
-        "type": "real"
-      }, 
-      {
-        "name": "population_density", 
-        "type": "real"
-      }, 
-      {
-        "name": "division", 
-        "type": "text"
-      }, 
-      {
-        "name": "province", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/opendata.go.ke", 
-  "tableName": "census_volume_1_question_1_population_households_and_density_by_sublocations_2009"
+  "schema": "socrata/opendata.go.ke", 
+  "status": "needs review", 
+  "table": "census_volume_1_question_1_population_households_and_density_by_sublocations_2009"
 }

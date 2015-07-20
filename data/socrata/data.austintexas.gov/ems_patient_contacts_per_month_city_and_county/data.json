@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ems_patient_contacts_per_month_city_and_county/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/bf4p-asz5/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/views/bf4p-asz5/rows.csv", 
   "description": "A count of each contact between EMS and a patient during an incident.  A single patient contact is counted for an incident, even if multiple medical staff interact with the patient (e.g. one medic triages a patient and a second medic transports to a hospital).  On the other hand, if an incident involves multiple patients, each contact with those patients is counted once.  For example, a motor vehicle crash with three injured persons would be counted as one incident with three patient contacts. It is single medical interaction between EMS and a patient during the course of an incident. Some incidents may have multiple patients and other incidents may not involve any patients at all.  A patient is a person who requires a medical assessment", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,30 +12,7 @@
     }
   }, 
   "name": "EMS Patient Contacts Per Month City And County", 
-  "schema": {
-    "columns": [
-      {
-        "name": "month_year", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "total_patient_contacts", 
-        "type": "real"
-      }, 
-      {
-        "name": "austin_patient_contacts", 
-        "type": "real"
-      }, 
-      {
-        "name": "travis_county_patient_contacts", 
-        "type": "real"
-      }, 
-      {
-        "name": "combined_coa_and_tc_patient_contacts", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "ems_patient_contacts_per_month_city_and_county"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "ems_patient_contacts_per_month_city_and_county"
 }

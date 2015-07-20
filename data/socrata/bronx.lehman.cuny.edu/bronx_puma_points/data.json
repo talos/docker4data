@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/bronx_puma_points/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/tdr9-zd8k/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/tdr9-zd8k/rows.csv", 
   "description": "Coordinate data for central points to Bronx PUMA districts", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,6 @@
     }
   }, 
   "name": "Bronx PUMA Points", 
-  "schema": {
-    "columns": [
-      {
-        "name": "name", 
-        "type": "real"
-      }, 
-      {
-        "name": "puma5", 
-        "type": "real"
-      }, 
-      {
-        "name": "area", 
-        "type": "real"
-      }, 
-      {
-        "name": "perimeter", 
-        "type": "real"
-      }, 
-      {
-        "name": "p536_d00", 
-        "type": "real"
-      }, 
-      {
-        "name": "p536_d00_i", 
-        "type": "real"
-      }, 
-      {
-        "name": "lsad", 
-        "type": "text"
-      }, 
-      {
-        "name": "lsad_trans", 
-        "type": "real"
-      }, 
-      {
-        "name": "point_x", 
-        "type": "text"
-      }, 
-      {
-        "name": "point_y", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/bronx.lehman.cuny.edu", 
-  "tableName": "bronx_puma_points"
+  "schema": "socrata/bronx.lehman.cuny.edu", 
+  "table": "bronx_puma_points"
 }

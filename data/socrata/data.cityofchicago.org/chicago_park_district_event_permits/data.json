@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_chicago_park_district_event_permits/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/pk66-w54g/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/pk66-w54g/rows.csv", 
   "description": "This Chicago Park District dataset includes information about event permits requested through the Chicago Park District, including the name of applicant, the name of the event and a brief description, contact information, time of event including set-up and tear-down times, the name of the Park and location, and estimated number of event attendees. Additional information may be included depending on the type of the event, including proof of insurance, route maps for all races and runs, security plans and medical services and required city documents.  Permit levels issued by the Department of Revenue include picnic levels, athletic levels, corporate levels, media levels, promotions levels, and festivals/performances levels. For more information, visit http://www.chicagoparkdistrict.com/permits-and-rentals/.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "Chicago Park District - Event Permits", 
-  "schema": {
-    "columns": [
-      {
-        "name": "requestor_", 
-        "type": "text"
-      }, 
-      {
-        "name": "organization", 
-        "type": "text"
-      }, 
-      {
-        "name": "park_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "park_facility_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "reservation_start_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "reservation_end_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "event_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "event_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "permit_status", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "chicago_park_district_event_permits"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "chicago_park_district_event_permits"
 }

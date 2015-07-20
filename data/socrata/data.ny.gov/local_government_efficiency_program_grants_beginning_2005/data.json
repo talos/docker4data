@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/local_government_efficiency_program_grants_beginning_2005/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/fc8g-rgwz/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/fc8g-rgwz/rows.csv", 
   "description": "This dataset provides applicant and project information for grants given by the NYS Department of State's Division of Local Government Services.  The Division is responsible for assisting local officials in understanding and improving the local government financial health and promoting local government management based upon long-term planning and performance measurement.  The program provides incentive funding directly to local governments to help reduce the cost of local services and increase service efficiencies.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "Local Government Efficiency Program Grants:  Beginning 2005", 
-  "schema": {
-    "columns": [
-      {
-        "name": "lead_applicant", 
-        "type": "text"
-      }, 
-      {
-        "name": "lead_applicant_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "project_title", 
-        "type": "text"
-      }, 
-      {
-        "name": "fiscal_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "final_award", 
-        "type": "real"
-      }, 
-      {
-        "name": "primary_county", 
-        "type": "text"
-      }, 
-      {
-        "name": "project_status", 
-        "type": "text"
-      }, 
-      {
-        "name": "completion_date", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "local_government_efficiency_program_grants_beginning_2005"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "local_government_efficiency_program_grants_beginning_2005"
 }

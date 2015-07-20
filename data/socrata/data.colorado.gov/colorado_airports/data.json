@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/colorado_airports/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/geospatial/x5bw-ax3d", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/api/geospatial/x5bw-ax3d", 
   "description": "Locations of all airports in Colorado, their primary uses and support features, closest highways and towns, hours and seasonal operations, number surface type and length of runways, annual number of passengers, airport navigation system types and the nearby recreation opportunities. This includes heliport locations, airports for agricultural applications, use of gliders, parachuting, ballooning, presence of wildlife expected on runways, terrain information, and military operations.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Colorado Airports", 
-  "schema": {}, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "colorado_airports"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "colorado_airports"
 }

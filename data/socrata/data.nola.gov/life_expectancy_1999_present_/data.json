@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_nola_life_expectancy_1999_present_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.nola.gov/api/views/hvjp-5787/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.nola.gov/api/views/hvjp-5787/rows.csv", 
   "description": "This dataset includes the life expectancy for men and women for Orleans Parish and several benchmark counties, including: Davidson County (TN), East Baton Rouge Parish (LA), Fulton County (GA), Hillsborough County (FL), Jefferson County (KY), Miami-Dade County (FL), Oklahoma County (OK), Shelby County (TN), and Wake County (NC). The data comes from the Institute for Health Metrics and Evaluation, University of Washington. It is available on an annual basis beginning in 1999.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "Life Expectancy (1999 - Present)", 
-  "schema": {
-    "columns": [
-      {
-        "name": "rowid", 
-        "type": "real"
-      }, 
-      {
-        "name": "county_parish", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "gender", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "indicatorvalue", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.nola.gov", 
-  "tableName": "life_expectancy_1999_present_"
+  "schema": "socrata/data.nola.gov", 
+  "status": "needs review", 
+  "table": "life_expectancy_1999_present_"
 }

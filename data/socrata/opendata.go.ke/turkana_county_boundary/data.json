@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/turkana_county_boundary/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/opendata.go.ke/api/geospatial/a4rj-qmrq", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/opendata.go.ke/api/geospatial/a4rj-qmrq", 
   "description": "Proposed Turkana County Boundary - 2010", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Turkana County Boundary", 
-  "schema": {}, 
-  "schemaName": "socrata/opendata.go.ke", 
-  "tableName": "turkana_county_boundary"
+  "schema": "socrata/opendata.go.ke", 
+  "status": "needs review", 
+  "table": "turkana_county_boundary"
 }

@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nola_cultural_products_districts/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.nola.gov/api/geospatial/m7iz-wdrn", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.nola.gov/api/geospatial/m7iz-wdrn", 
   "description": "Louisiana's Cultural Products Districts provide for tax free sales of original works of visual art, as well as tax credits for commercial and residential renovation within the specified district. The primary goal of this initiative is to spark community revitalization based on cultural activity though tax incentives. This dataset depicts boundaries, as of October 2012, for the 21 Cultural Products Districts within the City of New Orelans. This dataset is designed to be used in conjunction with the City of New Orleans 'Parcel' and 'Address' data to identify eligible properties. For specific information on eligibility, please contact the City of New Orelans Cultural Economy Project Coordinator. Update: As Needed", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "NOLA Cultural Products Districts", 
-  "schema": {}, 
-  "schemaName": "socrata/data.nola.gov", 
-  "tableName": "nola_cultural_products_districts"
+  "schema": "socrata/data.nola.gov", 
+  "status": "needs review", 
+  "table": "nola_cultural_products_districts"
 }

@@ -1,0 +1,20 @@
+CREATE TABLE "undp_projects_2011" (
+	"id"	real,
+	"title"	text,
+	"description"	text,
+	"project_description_long"	text,
+	"region"	text,
+	"unit"	text,
+	"country_unit"	text,
+	"budget"	text,
+	"expenditure"	text,
+	"hq_co"	text,
+	"awardid"	real,
+	"gender_marker"	text,
+	"gender_marker_descr"	text,
+	"focus_area"	real,
+	"fa_description"	text,
+	"crs"	real,
+	"crs_descr"	text,
+	"fiscal_year"	real
+);

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_acgov_ssa_eligibility_counts_by_census/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.acgov.org/api/views/3536-rcma/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.acgov.org/api/views/3536-rcma/rows.csv", 
   "description": "SSA Eligibility Counts By Census Tract 2013. This file shows the number of children and adults who received assistance from Alameda Social Services Agency from a variety of social welfare programs at any time in 2013, by Census tract. The following programs are included: CalWORKs provides monthly cash assistance to very low income families with children. CalFresh provides benefits on a plastic card that can be swiped at stores to pay for food only. Medi-Cal provides no cost or very low-cost health insurance to low income individuals and families. General Assistance provides cash assistance to very low-income adults without children. General Assistance clients who are considered employable are limited to 3 months of aid, while those considered unemployable have no time limit. Foster Care provides cash assistance to families and group homes for children whom the court has determined need a safe place to live when their parents or other relatives cannot take care of them. KinGAP provides cash assistance to relatives who take legal guardianship of former foster youth.  Adoption Assistance provides cash assistance to families who adopt former foster youth.  One caveat is that individuals may receive assistance from programs through other counties or agencies other than Alameda Social Services Agency, and they would not be counted in these figures.  For example, persons may receive Medi-Cal coverage through the Social Security Administration, rather than Alameda Social Services Agency.  In addition, children may receive Foster Care, KinGAP, or Adoption Assistance from the county where they originally resided, rather than Alameda Social Services, and these youth would also not be counted in these figures", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,114 +13,7 @@
     }
   }, 
   "name": "SSA Eligibility Counts By Census", 
-  "schema": {
-    "columns": [
-      {
-        "name": "census_tract", 
-        "type": "real"
-      }, 
-      {
-        "name": "cw_adult", 
-        "type": "real"
-      }, 
-      {
-        "name": "cw_child", 
-        "type": "real"
-      }, 
-      {
-        "name": "cw_total", 
-        "type": "real"
-      }, 
-      {
-        "name": "fs_adult", 
-        "type": "real"
-      }, 
-      {
-        "name": "fs_child", 
-        "type": "real"
-      }, 
-      {
-        "name": "cf_total", 
-        "type": "real"
-      }, 
-      {
-        "name": "mc_adult", 
-        "type": "real"
-      }, 
-      {
-        "name": "mc_child", 
-        "type": "real"
-      }, 
-      {
-        "name": "mc_total", 
-        "type": "real"
-      }, 
-      {
-        "name": "ga_adult", 
-        "type": "real"
-      }, 
-      {
-        "name": "ga_kids", 
-        "type": "real"
-      }, 
-      {
-        "name": "ga_total", 
-        "type": "real"
-      }, 
-      {
-        "name": "fc_adults", 
-        "type": "real"
-      }, 
-      {
-        "name": "fc_kids", 
-        "type": "real"
-      }, 
-      {
-        "name": "fc_total", 
-        "type": "real"
-      }, 
-      {
-        "name": "kg_adults", 
-        "type": "real"
-      }, 
-      {
-        "name": "kg_kids", 
-        "type": "real"
-      }, 
-      {
-        "name": "kg_total", 
-        "type": "real"
-      }, 
-      {
-        "name": "aa_adults", 
-        "type": "real"
-      }, 
-      {
-        "name": "aa_kids", 
-        "type": "real"
-      }, 
-      {
-        "name": "aa_total", 
-        "type": "real"
-      }, 
-      {
-        "name": "unduplicated_persons_clients", 
-        "type": "real"
-      }, 
-      {
-        "name": "bos_majority", 
-        "type": "real"
-      }, 
-      {
-        "name": "place_majority", 
-        "type": "text"
-      }, 
-      {
-        "name": "census_population", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.acgov.org", 
-  "tableName": "ssa_eligibility_counts_by_census"
+  "schema": "socrata/data.acgov.org", 
+  "status": "needs review", 
+  "table": "ssa_eligibility_counts_by_census"
 }

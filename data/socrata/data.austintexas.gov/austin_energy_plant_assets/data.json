@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_austin_energy_plant_assets/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/kidc-knry/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/views/kidc-knry/rows.csv", 
   "description": "Plant assets include all of Austin Energy's system equipment and includes everything from office buildings and computers to generation. This includes Austin Energy's power plants (Fayette Power Project, South Texas Project, Decker Creek Power Station, and Sand Hill Energy Center), distribution and transmission lines, poles, and transformers.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,18 +13,7 @@
     }
   }, 
   "name": "Austin Energy Plant Assets", 
-  "schema": {
-    "columns": [
-      {
-        "name": "fiscal_year", 
-        "type": "text"
-      }, 
-      {
-        "name": "_total_plant_assets", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "austin_energy_plant_assets"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "austin_energy_plant_assets"
 }

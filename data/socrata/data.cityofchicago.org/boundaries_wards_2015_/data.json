@@ -1,25 +1,20 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/boundaries_wards_2015_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/geospatial/sp34-6z76", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/geospatial/sp34-6z76", 
   "description": "Ward boundaries in Chicago from May 2015 onward, corresponding to the dates when a new City Council is sworn in, based on the immediately preceding elections.  Neither this description nor the dataset should be relied upon in situations where legal precision is required. The data can be viewed on the Chicago Data Portal with a web browser. However, to view or use the files outside of a web browser, you will need to use compression software and special GIS software, such as ESRI ArcGIS (shapefile) or Google Earth (KML or KMZ), is required.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
     "attribution": "City of Chicago", 
     "category": "Facilities & Geographic Boundaries", 
-    "description": "Ward boundaries in Chicago from May 2015 onward, corresponding to the dates when a new City Council is sworn in, based on the immediately preceding elections.  Neither this description nor the dataset should be relied upon in situations where legal precision is required. The data can be viewed on the Chicago Data Portal with a web browser. However, to view or use the files outside of a web browser, you will need to use compression software and special GIS software, such as ESRI ArcGIS (shapefile) or Google Earth (KML or KMZ), is required.", 
+    "description": "Ward boundaries in Chicago from May 2015 onward, corresponding to the dates when a new City Council is sworn in, based on the immediately preceding elections.  Neither this description nor the dataset should be relied upon in situations where legal precision is required. The data can be viewed on the Chicago Data Portal with a web browser. However, to view or use the files outside of a web browser, you will need to use compression software and special GIS software, such as ESRI ArcGIS (shapefile) or Google Earth (KML or KMZ).", 
     "socrata": {
       "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/sp34-6z76.json"
     }
   }, 
   "name": "Boundaries - Wards (2015-)", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "boundaries_wards_2015_"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "boundaries_wards_2015_"
 }

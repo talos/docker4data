@@ -1,0 +1,23 @@
+CREATE TABLE "tpw_2013_street_condition_survey" (
+	"cgid"	text,
+	"street"	text,
+	"hundred_block"	text,
+	"length_ft"	real,
+	"width_ft"	real,
+	"area_yds2"	real,
+	"surface_type"	text,
+	"direction"	text,
+	"classification"	text,
+	"pci"	real,
+	"roughness_index"	real,
+	"rut_t_profile_index"	real,
+	"longitudinal_crack_index"	real,
+	"transverse_crack_index"	real,
+	"alligator_crack_index"	real,
+	"map_block_crack_index"	real,
+	"raveling_scaling_index"	real,
+	"bleeding_polishing_index"	real,
+	"patching_index"	real,
+	"distortion_heaving_index"	real,
+	"delamination_index"	real
+);

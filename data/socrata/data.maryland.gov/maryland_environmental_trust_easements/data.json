@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/maryland_environmental_trust_easements/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/geospatial/uryz-kgae", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/geospatial/uryz-kgae", 
   "description": "The Maryland Environmental Trust (MET) is a statewide local land trust governed by a citizen Board of Trustees. Since its creation by the General Assembly in 1967, MET's main goal is the preservation of open land, such as farmland, forest land, and significant natural resources. The primary tool for doing this is the conservation easement, a voluntary agreement between a landowner and the MET Board of Trustees. \n\nMET Conservation Easements promote growth management, the protection of significant natural resources and rural areas, and discourage sprawling development patterns. A Conservation Easement is a perpetual legal agreement between a landowner (grantor) and the Trust (grantee) ensuring that a property shall not be developed beyond a limit agreed upon by both parties. The land is thereby protected and preserved without detriment to the rights of ownership, occupancy, or privacy, while the agreement provides for significant income, estate, and property tax benefits.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Maryland Environmental Trust Easements", 
-  "schema": {}, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "maryland_environmental_trust_easements"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "maryland_environmental_trust_easements"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_fdny_fire_department_fire_code_data/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/msp3-x6rs/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/msp3-x6rs/rows.csv", 
   "description": "Lists the standards that are referenced in the code.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "FDNY Fire Department Fire Code Data", 
-  "schema": {
-    "columns": [
-      {
-        "name": "standard_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "standard_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "standard_agency_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "standard_reference_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "standard_title", 
-        "type": "text"
-      }, 
-      {
-        "name": "reference_code_section_number", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "fdny_fire_department_fire_code_data"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "fdny_fire_department_fire_code_data"
 }

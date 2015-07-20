@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/_electric_motor_only_waterways_in_oregon/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/vkd9-qi8f/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/api/views/vkd9-qi8f/rows.csv", 
   "description": "Some waterbodies in Oregon have been designated \"electric motor only\" by Oregon Administrative Rule or statute.  These waterbodies have been designated based on their topography, size and traditional boating uses.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "\"Electric Motor Only\" Waterways in Oregon", 
-  "schema": {
-    "columns": [
-      {
-        "name": "waterbody", 
-        "type": "text"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "waterway_segment", 
-        "type": "text"
-      }, 
-      {
-        "name": "restricted_segment", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "_electric_motor_only_waterways_in_oregon"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "_electric_motor_only_waterways_in_oregon"
 }

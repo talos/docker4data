@@ -1,0 +1,22 @@
+CREATE TABLE "bronx_public_school_standardized_math_scores_2009" (
+	"dbn"	text,
+	"schoolname"	text,
+	"boroughname"	text,
+	"zipcode"	real,
+	"grade"	text,
+	"year"	real,
+	"category"	text,
+	"numtested"	real,
+	"meanscalescore"	real,
+	"level_1_1"	real,
+	"level_1_2"	text,
+	"level_2_1"	real,
+	"level_2_2"	text,
+	"level_3_1"	real,
+	"level_3_2"	text,
+	"level_4_1"	real,
+	"level_4_2"	text,
+	"level_3_4_1"	real,
+	"level_3_4_2"	text,
+	"location_1"	text
+);

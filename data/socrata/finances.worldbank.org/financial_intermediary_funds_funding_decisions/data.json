@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/financial_intermediary_funds_funding_decisions/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/ax5s-vav5/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/finances.worldbank.org/api/views/ax5s-vav5/rows.csv", 
   "description": "Financial Intermediary Funds (FIFs) are multilateral financing arrangements for which the World Bank provides Trustee services that include committing and transferring funds to project implementers (generally international organizations such as multilateral development banks or UN agencies). In all cases the World Bank as Trustee is required to act in accordance with instructions of independent governing bodies.\r\n\r\nIn fulfilling its responsibilities, the World Bank as Trustee complies with all sanctions applicable to World Bank transactions. \r\n\r\nFunding Decisions represent amounts approved by the FIFs governing bodies for projects fees and administrative budgets. Funding to projects can be done through various financial products, including grants and concessional loans.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,54 +13,7 @@
     }
   }, 
   "name": "Financial Intermediary Funds Funding Decisions", 
-  "schema": {
-    "columns": [
-      {
-        "name": "as_of_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "fund_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "use_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "country_beneficiary", 
-        "type": "text"
-      }, 
-      {
-        "name": "recipient", 
-        "type": "text"
-      }, 
-      {
-        "name": "sub_account", 
-        "type": "text"
-      }, 
-      {
-        "name": "approval_quarter", 
-        "type": "text"
-      }, 
-      {
-        "name": "calendar_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "amount_in_usd", 
-        "type": "real"
-      }, 
-      {
-        "name": "financial_product", 
-        "type": "text"
-      }, 
-      {
-        "name": "sector_theme", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/finances.worldbank.org", 
-  "tableName": "financial_intermediary_funds_funding_decisions"
+  "schema": "socrata/finances.worldbank.org", 
+  "status": "needs review", 
+  "table": "financial_intermediary_funds_funding_decisions"
 }

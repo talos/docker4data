@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/campaign_finance_fppc_form_460_summary_totals/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oaklandnet.com/api/views/rsxe-vvuw/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.oaklandnet.com/api/views/rsxe-vvuw/rows.csv", 
   "description": "This dataset includes all summary totals e-filed on Fair Political Practices Commission (FPPC) Form 460 Summary Page from 2011 to the present. The data is current as of the last modified date on this dataset. See the data key for column definitions: https://data.sfgov.org/Ethics/Campaign-Finance-Data-Key/wygs-cc76", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,74 +12,7 @@
     }
   }, 
   "name": "Campaign Finance - FPPC Form 460 - Summary Totals", 
-  "schema": {
-    "columns": [
-      {
-        "name": "filer_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "filer_naml", 
-        "type": "text"
-      }, 
-      {
-        "name": "report_num", 
-        "type": "real"
-      }, 
-      {
-        "name": "committee_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "rpt_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "from_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "thru_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "elect_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "tblcover_office_cd", 
-        "type": "text"
-      }, 
-      {
-        "name": "tblcover_offic_dscr", 
-        "type": "text"
-      }, 
-      {
-        "name": "rec_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "form_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "line_item", 
-        "type": "text"
-      }, 
-      {
-        "name": "amount_a", 
-        "type": "real"
-      }, 
-      {
-        "name": "amount_b", 
-        "type": "real"
-      }, 
-      {
-        "name": "amount_c", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.oaklandnet.com", 
-  "tableName": "campaign_finance_fppc_form_460_summary_totals"
+  "schema": "socrata/data.oaklandnet.com", 
+  "status": "needs review", 
+  "table": "campaign_finance_fppc_form_460_summary_totals"
 }

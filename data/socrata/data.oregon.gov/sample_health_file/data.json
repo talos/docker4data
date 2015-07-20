@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oregon_sample_health_file/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/kafc-72dh/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/api/views/kafc-72dh/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,50 +9,7 @@
     }
   }, 
   "name": "Sample Health File", 
-  "schema": {
-    "columns": [
-      {
-        "name": "id", 
-        "type": "real"
-      }, 
-      {
-        "name": "medicaid_recipient_age", 
-        "type": "real"
-      }, 
-      {
-        "name": "gender", 
-        "type": "text"
-      }, 
-      {
-        "name": "household_language", 
-        "type": "text"
-      }, 
-      {
-        "name": "race", 
-        "type": "text"
-      }, 
-      {
-        "name": "ethnicity", 
-        "type": "text"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "region_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_filter", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "sample_health_file"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "sample_health_file"
 }

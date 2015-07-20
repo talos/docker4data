@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_idph_births_by_county_by_characteristics_2009/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/deug-fjb5/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/deug-fjb5/rows.csv", 
   "description": "Note:  The sum of certain variables may not equal the total due to unknown geography and/or demographics.\r\n\r\n *   Rate or percentage does not meet standards of reliability (numerator <10 or denominator <100)\r\n-0-  Percentage zero corresponding to '0' in frequency column\r\n**   Uknowns excluded from denominator when calculating percentage", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,74 +12,7 @@
     }
   }, 
   "name": "IDPH Births, by County, by Characteristics,  2009", 
-  "schema": {
-    "columns": [
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "total_births", 
-        "type": "real"
-      }, 
-      {
-        "name": "low_birth_weight", 
-        "type": "real"
-      }, 
-      {
-        "name": "low_birth_weight_rate", 
-        "type": "text"
-      }, 
-      {
-        "name": "very_low_birth_weight", 
-        "type": "real"
-      }, 
-      {
-        "name": "very_low_birth_weight_rate", 
-        "type": "text"
-      }, 
-      {
-        "name": "preterm", 
-        "type": "real"
-      }, 
-      {
-        "name": "preterm_rate", 
-        "type": "text"
-      }, 
-      {
-        "name": "adequate_prenatal_care_kotelchuck_", 
-        "type": "real"
-      }, 
-      {
-        "name": "adequate_prenatal_care_kotelchuck_rate", 
-        "type": "text"
-      }, 
-      {
-        "name": "cesarean_section", 
-        "type": "real"
-      }, 
-      {
-        "name": "cesarean_section_rate", 
-        "type": "text"
-      }, 
-      {
-        "name": "unmarried_mother", 
-        "type": "real"
-      }, 
-      {
-        "name": "unmarried_mother_rate", 
-        "type": "text"
-      }, 
-      {
-        "name": "not_h_s_graduateage_20_", 
-        "type": "real"
-      }, 
-      {
-        "name": "not_h_s_graduateage_20_rate", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "idph_births_by_county_by_characteristics_2009"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "idph_births_by_county_by_characteristics_2009"
 }

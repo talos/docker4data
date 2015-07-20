@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_weatherfordtx_solid_waste_operating_statistics/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/mvy8-6q2t/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/mvy8-6q2t/rows.csv", 
   "description": "Solid waste operating information. Updated monthly.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,110 +13,7 @@
     }
   }, 
   "name": "Solid Waste Operating Statistics", 
-  "schema": {
-    "columns": [
-      {
-        "name": "report_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "fy", 
-        "type": "real"
-      }, 
-      {
-        "name": "fm", 
-        "type": "real"
-      }, 
-      {
-        "name": "calendar_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "calendar_month", 
-        "type": "real"
-      }, 
-      {
-        "name": "number_of_residential_small_commercial_garbage_customer_accounts", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_tons_of_residential_small_commercial_garbage_collected", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_sales_residential_small_commercial_garbage_collection", 
-        "type": "real"
-      }, 
-      {
-        "name": "average_pounds_residential_small_commercial_garbage_collected_per_customer_account", 
-        "type": "real"
-      }, 
-      {
-        "name": "average_residential_small_commercial_garbage_sales_per_customer_account", 
-        "type": "real"
-      }, 
-      {
-        "name": "number_of_residential_curbside_recycling_customers", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_tons_collected_for_residential_curbside_recycling", 
-        "type": "real"
-      }, 
-      {
-        "name": "average_pounds_collected_per_residential_customer_account", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_sales_recycling", 
-        "type": "real"
-      }, 
-      {
-        "name": "percent_of_garbage_customers_participating_in_curbside_recycling", 
-        "type": "text"
-      }, 
-      {
-        "name": "total_landfill_disposal_fees_avoided", 
-        "type": "real"
-      }, 
-      {
-        "name": "percent_of_waste_stream_diverted_from_landfill_through_residential_curbside_recycling", 
-        "type": "text"
-      }, 
-      {
-        "name": "number_of_bulk_and_brush_collection_requests", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_tons_of_bulk_and_brush_collected", 
-        "type": "real"
-      }, 
-      {
-        "name": "average_bulk_and_brush_tons_collected_per_request", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_sales_brush", 
-        "type": "real"
-      }, 
-      {
-        "name": "average_bulk_and_brush_sales_per_request", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_revenues_all_categories_less_landfill_royalties", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_expenditures_all_categories", 
-        "type": "real"
-      }, 
-      {
-        "name": "net_profit_loss", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.weatherfordtx.gov", 
-  "tableName": "solid_waste_operating_statistics"
+  "schema": "socrata/data.weatherfordtx.gov", 
+  "status": "needs review", 
+  "table": "solid_waste_operating_statistics"
 }

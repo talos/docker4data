@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wa_better_brakes_nickel_concentrations_in_brakes/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/8w2g-8pqm/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.wa.gov/api/views/8w2g-8pqm/rows.csv", 
   "description": "This dataset contains information reported as part the Better Brakes Law, Chapter 70.285 RCW. It contains summary information on the concentration of nickel in brake friction materials.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "Better Brakes - Nickel Concentrations In Brakes", 
-  "schema": {
-    "columns": [
-      {
-        "name": "ni_category", 
-        "type": "text"
-      }, 
-      {
-        "name": "count_of_formulas", 
-        "type": "real"
-      }, 
-      {
-        "name": "vehicle_type", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.wa.gov", 
-  "tableName": "better_brakes_nickel_concentrations_in_brakes"
+  "schema": "socrata/data.wa.gov", 
+  "status": "needs review", 
+  "table": "better_brakes_nickel_concentrations_in_brakes"
 }

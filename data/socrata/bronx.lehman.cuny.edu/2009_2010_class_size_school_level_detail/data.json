@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/2009_2010_class_size_school_level_detail/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/gwdn-x4ca/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/gwdn-x4ca/rows.csv", 
   "description": "This file shows average class sizes, pupil-teacher ratio, and size of largest and smallest classes for each school, broken out by grade and program type (General Education, Self-Contained Special Education, Collaborative Team Teaching (CTT)) for grades K-9 (where grade 9 is not reported by subject area), and for grades 5-9 (where available) and 9-12, aggregated by program type (General Education, CTT, and Self-Contained Special Education) and core course (e.g. English 9, Math A, US History, etc.) Based on January 27, 2010 data. * Grade 9 Official Class data is included for 0K-09 schools. Core Course information for these sections is not reported.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,74 +13,6 @@
     }
   }, 
   "name": "2009-2010 Class Size - School-level Detail", 
-  "schema": {
-    "columns": [
-      {
-        "name": "boro", 
-        "type": "text"
-      }, 
-      {
-        "name": "csd", 
-        "type": "real"
-      }, 
-      {
-        "name": "school_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "school_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "grade", 
-        "type": "text"
-      }, 
-      {
-        "name": "program_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "core_subject_ms_core_and_9_12_only", 
-        "type": "text"
-      }, 
-      {
-        "name": "core_course_ms_core_and_9_12_only", 
-        "type": "text"
-      }, 
-      {
-        "name": "service_category_k_9_only", 
-        "type": "text"
-      }, 
-      {
-        "name": "number_of_classes", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_register", 
-        "type": "real"
-      }, 
-      {
-        "name": "average_class_size", 
-        "type": "real"
-      }, 
-      {
-        "name": "size_of_smallest_class", 
-        "type": "real"
-      }, 
-      {
-        "name": "size_of_largest_class", 
-        "type": "real"
-      }, 
-      {
-        "name": "data_source", 
-        "type": "text"
-      }, 
-      {
-        "name": "schoolwide_pupil_teacher_ratio", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/bronx.lehman.cuny.edu", 
-  "tableName": "2009_2010_class_size_school_level_detail"
+  "schema": "socrata/bronx.lehman.cuny.edu", 
+  "table": "2009_2010_class_size_school_level_detail"
 }

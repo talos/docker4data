@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_illinois_plumbing_code_ordinance_approvals/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/cup9-8qhc/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/cup9-8qhc/rows.csv", 
   "description": "Dataset of IDPH approved plumbing ordinances organized by effective amendment date. Attached to dataset is document containing copies of IDPH issued Certificates of Approval bearing adoption and local amendment language. \r\n\r\n*Note: NA = not applicable , TA = tentatively approved", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Illinois Plumbing Code Ordinance Approvals", 
-  "schema": {
-    "columns": [
-      {
-        "name": "unit_of_local_government", 
-        "type": "text"
-      }, 
-      {
-        "name": "effective_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "expiration_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "adoption_s", 
-        "type": "text"
-      }, 
-      {
-        "name": "local_amendment_approval_s", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "illinois_plumbing_code_ordinance_approvals"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "illinois_plumbing_code_ordinance_approvals"
 }

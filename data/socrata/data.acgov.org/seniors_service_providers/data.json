@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_acgov_seniors_service_providers/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.acgov.org/api/views/2azf-7j5d/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.acgov.org/api/views/2azf-7j5d/rows.csv", 
   "description": "SSA Seniors Service Providers", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "Seniors Service Providers", 
-  "schema": {
-    "columns": [
-      {
-        "name": "funding_source", 
-        "type": "text"
-      }, 
-      {
-        "name": "provider", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone", 
-        "type": "real"
-      }, 
-      {
-        "name": "program", 
-        "type": "text"
-      }, 
-      {
-        "name": "total", 
-        "type": "real"
-      }, 
-      {
-        "name": "contact_name", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.acgov.org", 
-  "tableName": "seniors_service_providers"
+  "schema": "socrata/data.acgov.org", 
+  "status": "needs review", 
+  "table": "seniors_service_providers"
 }

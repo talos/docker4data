@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_highway_mileage_beginning_2008/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/tccz-tc3t/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/tccz-tc3t/rows.csv", 
   "description": "The Highway Mileage Report is an annual publication that lists the mileage of roadway and maintenance jurisdiction/ownership of roadways within each municipality of New York State. Information is current as of the publication date.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "Highway Mileage: Beginning 2008", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "municipality", 
-        "type": "text"
-      }, 
-      {
-        "name": "nysdot_geocode", 
-        "type": "real"
-      }, 
-      {
-        "name": "touring_route_mileage", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_centerline_highway_mileage", 
-        "type": "real"
-      }, 
-      {
-        "name": "local_mileage", 
-        "type": "real"
-      }, 
-      {
-        "name": "county_mileage", 
-        "type": "real"
-      }, 
-      {
-        "name": "nysdot_mileage", 
-        "type": "real"
-      }, 
-      {
-        "name": "other_mileage", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "highway_mileage_beginning_2008"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "highway_mileage_beginning_2008"
 }

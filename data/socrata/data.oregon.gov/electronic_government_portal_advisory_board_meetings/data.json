@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/electronic_government_portal_advisory_board_meetings/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/arrt-f5ji/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/api/views/arrt-f5ji/rows.csv", 
   "description": "Dates, agendas, minutes, and handouts of the E-Government Portal Advisory Board meetings. The board was formed by Oregon Revised Statute 182.128\r\nhttp://www.oregon.gov/eapb", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,30 +12,7 @@
     }
   }, 
   "name": "Electronic Government Portal Advisory Board Meetings", 
-  "schema": {
-    "columns": [
-      {
-        "name": "meeting_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "meeting_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "agenda", 
-        "type": "text"
-      }, 
-      {
-        "name": "minutes", 
-        "type": "text"
-      }, 
-      {
-        "name": "handouts", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "electronic_government_portal_advisory_board_meetings"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "electronic_government_portal_advisory_board_meetings"
 }

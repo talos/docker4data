@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/mobile_food_vending_group_sites/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oaklandnet.com/api/geospatial/waih-8ek2", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.oaklandnet.com/api/geospatial/waih-8ek2", 
   "description": "List of all currently permitted mobile food vending group sites in Oakland. For questions and concerns, call Nancy Marcus at (510) 238-3294.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,7 +13,7 @@
     }
   }, 
   "name": "Mobile Food Vending Group Sites", 
-  "schema": {}, 
-  "schemaName": "socrata/data.oaklandnet.com", 
-  "tableName": "mobile_food_vending_group_sites"
+  "schema": "socrata/data.oaklandnet.com", 
+  "status": "needs review", 
+  "table": "mobile_food_vending_group_sites"
 }

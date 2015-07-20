@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/37a_medicaid_coverage/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/6mph-3zwu/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/6mph-3zwu/rows.csv", 
   "description": "In order to define coverage types, disability is defined as follows: Disability was defined according to the standard questions used in the American Community Survey. An individual was identified as having a disability if any of the following conditions existed: is deaf or has serious difficulty hearing; is blind or has serious difficulty seeing even when wearing glasses; has difficulty dressing or bathing; has serious difficulty concentrating, remembering, or making decisions; has serious difficulty walking or climbing stairs; has difficulty doing errands alone such as visiting a doctor's office or shopping. Disability estimates are available for calendar years 2009 and later.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,22 +11,7 @@
     }
   }, 
   "name": "37a Medicaid Coverage", 
-  "schema": {
-    "columns": [
-      {
-        "name": "measure_value", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "coverage_subtype", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/healthmeasures.aspe.hhs.gov", 
-  "tableName": "37a_medicaid_coverage"
+  "schema": "socrata/healthmeasures.aspe.hhs.gov", 
+  "status": "needs review", 
+  "table": "37a_medicaid_coverage"
 }

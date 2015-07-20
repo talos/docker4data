@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oregon_salaries_state_agencies_as_of_june_30_2014/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/q3ai-fubz/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/api/views/q3ai-fubz/rows.csv", 
   "description": "Salaries of state work force sorted by agency.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,38 +12,7 @@
     }
   }, 
   "name": "Salaries: State Agencies: As of June 30, 2014", 
-  "schema": {
-    "columns": [
-      {
-        "name": "agency", 
-        "type": "real"
-      }, 
-      {
-        "name": "agency_title", 
-        "type": "text"
-      }, 
-      {
-        "name": "classification", 
-        "type": "text"
-      }, 
-      {
-        "name": "service_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "full_part_time", 
-        "type": "text"
-      }, 
-      {
-        "name": "annual_salary", 
-        "type": "real"
-      }, 
-      {
-        "name": "fiscal_year", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "salaries_state_agencies_as_of_june_30_2014"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "salaries_state_agencies_as_of_june_30_2014"
 }

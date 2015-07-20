@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sunlightlabs_olc_opinions_consolidated_1998_2012/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sunlightlabs.com/api/views/ferr-djz3/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sunlightlabs.com/api/views/ferr-djz3/rows.csv", 
   "description": "A hand-curated consolidated list of named OLC opinions from 1998-2012", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "OLC Opinions Consolidated 1998-2012", 
-  "schema": {
-    "columns": [
-      {
-        "name": "id", 
-        "type": "text"
-      }, 
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "title", 
-        "type": "text"
-      }, 
-      {
-        "name": "on_official_listing", 
-        "type": "real"
-      }, 
-      {
-        "name": "on_website_electronic_reading_room", 
-        "type": "real"
-      }, 
-      {
-        "name": "in_foia_response", 
-        "type": "real"
-      }, 
-      {
-        "name": "electronic_reading_room_only", 
-        "type": "real"
-      }, 
-      {
-        "name": "is_the_opinion_named_in_either_olc_webpage", 
-        "type": "real"
-      }, 
-      {
-        "name": "official_listing_foia_response", 
-        "type": "real"
-      }, 
-      {
-        "name": "is_the_opinion_named_online_somewhere_but_not_listed_in_the_foia", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sunlightlabs.com", 
-  "tableName": "olc_opinions_consolidated_1998_2012"
+  "schema": "socrata/data.sunlightlabs.com", 
+  "status": "needs review", 
+  "table": "olc_opinions_consolidated_1998_2012"
 }

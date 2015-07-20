@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/housing_facts_lite_events/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/afwp-v695/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/views/afwp-v695/rows.csv", 
   "description": "This data represents Austin Code Department complaint case events.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "Housing Facts Lite Events", 
-  "schema": {
-    "columns": [
-      {
-        "name": "event_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "case_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "status_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "status", 
-        "type": "text"
-      }, 
-      {
-        "name": "notes", 
-        "type": "text"
-      }, 
-      {
-        "name": "contact", 
-        "type": "text"
-      }, 
-      {
-        "name": "date_updated", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "housing_facts_lite_events"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "housing_facts_lite_events"
 }

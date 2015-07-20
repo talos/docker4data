@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_anne_arundel_county_crime_rate_by_type/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/3fys-ggpk/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/3fys-ggpk/rows.csv", 
   "description": "Historical crime rates per 100,000 people, 1975 - present.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,70 +13,7 @@
     }
   }, 
   "name": "Anne Arundel County Crime Rate By Type", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "population", 
-        "type": "real"
-      }, 
-      {
-        "name": "murder", 
-        "type": "real"
-      }, 
-      {
-        "name": "rape", 
-        "type": "real"
-      }, 
-      {
-        "name": "robbery", 
-        "type": "real"
-      }, 
-      {
-        "name": "agg_assault", 
-        "type": "real"
-      }, 
-      {
-        "name": "violent_crime_rate", 
-        "type": "real"
-      }, 
-      {
-        "name": "violent_crime_rate_percent_change", 
-        "type": "text"
-      }, 
-      {
-        "name": "b_e", 
-        "type": "real"
-      }, 
-      {
-        "name": "larceny_theft", 
-        "type": "real"
-      }, 
-      {
-        "name": "m_v_theft", 
-        "type": "real"
-      }, 
-      {
-        "name": "property_crime_rate", 
-        "type": "real"
-      }, 
-      {
-        "name": "property_crime_rate_percent_change", 
-        "type": "text"
-      }, 
-      {
-        "name": "total_crime_rate", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_crime_ratae_percent_change", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "anne_arundel_county_crime_rate_by_type"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "anne_arundel_county_crime_rate_by_type"
 }

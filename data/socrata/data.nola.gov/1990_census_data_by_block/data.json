@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/1990_census_data_by_block/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.nola.gov/api/geospatial/5zkd-bcqp", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.nola.gov/api/geospatial/5zkd-bcqp", 
   "description": "1990 City of New Orleans/Orleans Parish Census data by block.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,7 +13,7 @@
     }
   }, 
   "name": "1990 Census Data by Block", 
-  "schema": {}, 
-  "schemaName": "socrata/data.nola.gov", 
-  "tableName": "1990_census_data_by_block"
+  "schema": "socrata/data.nola.gov", 
+  "status": "needs review", 
+  "table": "1990_census_data_by_block"
 }

@@ -1,0 +1,23 @@
+CREATE TABLE "water_resevoir_levels" (
+	"neversink_date"	text,
+	"neversink_elevation"	real,
+	"neversink_storage"	real,
+	"rondout_date"	text,
+	"rondout_elevation"	real,
+	"rondout_storage"	real,
+	"schoharie_date"	text,
+	"schoharie_elevation"	real,
+	"schoharie_storage"	real,
+	"cannonsville_date"	text,
+	"cannonsville_elevation"	real,
+	"cannonsville_storage"	real,
+	"pepacton_date"	text,
+	"pepacton_elevation"	real,
+	"pepacton_storage"	real,
+	"ashokan_east_date"	text,
+	"ashokan_east_elevation"	real,
+	"ashokan_east_storage"	real,
+	"ashokan_west_date"	text,
+	"ashokan_west_elevation"	real,
+	"ashokan_west_storage"	real
+);

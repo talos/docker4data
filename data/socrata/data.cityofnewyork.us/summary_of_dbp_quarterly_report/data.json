@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_summary_of_dbp_quarterly_report/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/33c5-b922/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/33c5-b922/rows.csv", 
   "description": "The data tables summarizes the disinfection by-product results for TTHM and HAA5 from distribution sites and calculated compliance values for each quarter", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,54 +13,7 @@
     }
   }, 
   "name": "Summary of DBP Quarterly Report", 
-  "schema": {
-    "columns": [
-      {
-        "name": "site", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "sample_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "analysis_date_tthm_g_l_a", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "result_tthm_g_l_a", 
-        "type": "real"
-      }, 
-      {
-        "name": "lraa_tthm_g_l_a", 
-        "type": "real"
-      }, 
-      {
-        "name": "oel_tthm_g_l_a", 
-        "type": "real"
-      }, 
-      {
-        "name": "analysis_date_haa5_g_l_b", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "result_haa5_g_l_b", 
-        "type": "real"
-      }, 
-      {
-        "name": "lraa_haa5_g_l_b", 
-        "type": "real"
-      }, 
-      {
-        "name": "oel_haa5_g_l_b", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "summary_of_dbp_quarterly_report"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "summary_of_dbp_quarterly_report"
 }

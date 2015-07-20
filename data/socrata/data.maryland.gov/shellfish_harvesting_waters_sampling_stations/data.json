@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_shellfish_harvesting_waters_sampling_stations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/bamm-xcx6/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/bamm-xcx6/rows.csv", 
   "description": "This dataset contains the station ID, station name, and location for the shellfish harvesting waters sampling program. Sample results are available in the Shellfish Harvesting Waters Sample Results dataset.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,42 +12,7 @@
     }
   }, 
   "name": "Shellfish Harvesting Waters Sampling Stations", 
-  "schema": {
-    "columns": [
-      {
-        "name": "org_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "station_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "station_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "primary_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "horizontal_datum", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "shellfish_harvesting_waters_sampling_stations"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "shellfish_harvesting_waters_sampling_stations"
 }

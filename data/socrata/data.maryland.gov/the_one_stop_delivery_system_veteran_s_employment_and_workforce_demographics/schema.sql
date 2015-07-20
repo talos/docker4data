@@ -1,0 +1,22 @@
+CREATE TABLE "the_one_stop_delivery_system_veteran_s_employment_and_workforce_demographics" (
+	"period"	text,
+	"total"	real,
+	"employed_at_participation"	real,
+	"notemployed_at_participation"	real,
+	"eligibleclaimant"	real,
+	"hipanic_or_latino"	real,
+	"not_hispanic_or_latino"	real,
+	"americanindian_oralaskan_native"	real,
+	"asian"	real,
+	"black_orafrican_american"	real,
+	"native_hawaiianor_other_pacificislander"	real,
+	"white"	real,
+	"more_thanone_race"	real,
+	"in_school"	real,
+	"not_highschoolgraduate"	real,
+	"highschoolgraduateor_ged"	real,
+	"post_secondarydegree_orcertification"	real,
+	"persons_w_disability"	real,
+	"msfw"	real,
+	"dislocatedworkers"	real
+);

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/montgomery_county_council_legislation_bills/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/ksj8-bd3u/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/ksj8-bd3u/rows.csv", 
   "description": "The Council enacts local public laws for the \u2018peace, good government, health, and welfare of the county\u2019. The bills dataset contains all legislation considered by the County Council to amend specific sections of the Montgomery County Code. Update Frequency : Daily", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,94 +12,7 @@
     }
   }, 
   "name": "Montgomery County Council Legislation - Bills", 
-  "schema": {
-    "columns": [
-      {
-        "name": "bill_no", 
-        "type": "text"
-      }, 
-      {
-        "name": "title", 
-        "type": "text"
-      }, 
-      {
-        "name": "status", 
-        "type": "text"
-      }, 
-      {
-        "name": "enacted_bill", 
-        "type": "text"
-      }, 
-      {
-        "name": "sponsors", 
-        "type": "text"
-      }, 
-      {
-        "name": "co_sponsors", 
-        "type": "text"
-      }, 
-      {
-        "name": "introduction_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "public_hearing_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "expiration_date_of_pending_bills", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "council_action", 
-        "type": "text"
-      }, 
-      {
-        "name": "yeas", 
-        "type": "text"
-      }, 
-      {
-        "name": "nays", 
-        "type": "text"
-      }, 
-      {
-        "name": "abstain", 
-        "type": "text"
-      }, 
-      {
-        "name": "action_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "executive_action", 
-        "type": "text"
-      }, 
-      {
-        "name": "effective_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "sunset_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "mc_code_chapter", 
-        "type": "text"
-      }, 
-      {
-        "name": "mc_code_section", 
-        "type": "text"
-      }, 
-      {
-        "name": "committee", 
-        "type": "text"
-      }, 
-      {
-        "name": "lmc_chapter_no", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.montgomerycountymd.gov", 
-  "tableName": "montgomery_county_council_legislation_bills"
+  "schema": "socrata/data.montgomerycountymd.gov", 
+  "status": "needs review", 
+  "table": "montgomery_county_council_legislation_bills"
 }

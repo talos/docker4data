@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/parks_buildings/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/2u2y-n6dm/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/2u2y-n6dm/rows.csv", 
   "description": "Buildings located in Chicago Park District Parks.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,66 +13,7 @@
     }
   }, 
   "name": "Parks - Buildings", 
-  "schema": {
-    "columns": [
-      {
-        "name": "park", 
-        "type": "text"
-      }, 
-      {
-        "name": "park_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "building_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "building_status", 
-        "type": "text"
-      }, 
-      {
-        "name": "ward", 
-        "type": "real"
-      }, 
-      {
-        "name": "community_area", 
-        "type": "real"
-      }, 
-      {
-        "name": "region", 
-        "type": "text"
-      }, 
-      {
-        "name": "building_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "demolished", 
-        "type": "real"
-      }, 
-      {
-        "name": "year_built", 
-        "type": "real"
-      }, 
-      {
-        "name": "x_coordinate", 
-        "type": "real"
-      }, 
-      {
-        "name": "y_coordinate", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "parks_buildings"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "parks_buildings"
 }

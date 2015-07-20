@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/shared_ride_reservations_at_port_authority_of_ny_nj_airports_beginning_2005/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/78na-rqz7/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/78na-rqz7/rows.csv", 
   "description": "The Port Authority of New York and New Jersey quarterly produces a data file and provides information on Shared Ride (airport transportation services by authorized vehicles) reservations. Shared Ride service is defined as multiple stop \u201cdoor to door\u201d services by authorized providers.  Although both reservation and passenger number for Shared Ride are simultaneously registered at the Port Authority\u2019s Welcome Center when an individual makes a reservation, the Port Authority\u2019s Ground Transportation Information System (GTIS) counts reservation numbers and passenger numbers separately as one reservation can have multiple passengers. This Shared Ride Reservation dataset reflects only the Shared Ride reservations.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "Shared Ride Reservations at Port Authority of NY NJ Airports: Beginning 2005", 
-  "schema": {
-    "columns": [
-      {
-        "name": "airport", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "month", 
-        "type": "real"
-      }, 
-      {
-        "name": "shared_ride_reservation", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "shared_ride_reservations_at_port_authority_of_ny_nj_airports_beginning_2005"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "shared_ride_reservations_at_port_authority_of_ny_nj_airports_beginning_2005"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_preventable_hospitalizations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/tddk-h8fk/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/tddk-h8fk/rows.csv", 
   "description": "The Governor's strategic goal on preventable hospitalizations is to drive down the rate by  10 percent by the end of 2015.\r\n\r\n2011 cost data are in 2011 dollars. 2010 cost data are in 2010 dollars.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Preventable Hospitalizations", 
-  "schema": {
-    "columns": [
-      {
-        "name": "calendar_year", 
-        "type": "text"
-      }, 
-      {
-        "name": "preventable_hospitalizations_per_1_000_people", 
-        "type": "real"
-      }, 
-      {
-        "name": "chronic_preventable_hospitalizations_per_100_000_people", 
-        "type": "real"
-      }, 
-      {
-        "name": "acute_preventable_hospitalizations", 
-        "type": "real"
-      }, 
-      {
-        "name": "preventable_hospitalizations_total_cost", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "preventable_hospitalizations"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "preventable_hospitalizations"
 }

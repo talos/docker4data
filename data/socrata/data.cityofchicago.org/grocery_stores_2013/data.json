@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_grocery_stores_2013/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/53t8-wyrc/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/53t8-wyrc/rows.csv", 
   "description": "Contains a list of grocery stores which was used by the city to calculate the estimates of Chicagoans living in food deserts in 2011. Data in this file can be cross-referenced with the city's business license data (http://bit.ly/sMFZdN).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,78 +13,7 @@
     }
   }, 
   "name": "Grocery Stores - 2013", 
-  "schema": {
-    "columns": [
-      {
-        "name": "store_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "license_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "account_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "square_feet", 
-        "type": "real"
-      }, 
-      {
-        "name": "buffer_size", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "community_area_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "community_area", 
-        "type": "real"
-      }, 
-      {
-        "name": "ward", 
-        "type": "real"
-      }, 
-      {
-        "name": "census_tract", 
-        "type": "real"
-      }, 
-      {
-        "name": "census_block", 
-        "type": "real"
-      }, 
-      {
-        "name": "x_coordinate", 
-        "type": "real"
-      }, 
-      {
-        "name": "y_coordinate", 
-        "type": "real"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "grocery_stores_2013"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "grocery_stores_2013"
 }

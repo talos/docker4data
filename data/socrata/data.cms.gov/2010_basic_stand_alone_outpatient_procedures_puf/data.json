@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cms_2010_basic_stand_alone_outpatient_procedures_puf/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cms.gov/api/views/tb9m-6kk7/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cms.gov/api/views/tb9m-6kk7/rows.csv", 
   "description": "The CMS 2010 BSA Outpatient Procedures PUF originates from a 5% simple random sample of beneficiaries drawn (without replacement) from the 100% Beneficiary Summary File for reference year 2010.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "2010 Basic Stand Alone Outpatient Procedures PUF", 
-  "schema": {
-    "columns": [
-      {
-        "name": "bene_sex_ident_cd", 
-        "type": "text"
-      }, 
-      {
-        "name": "bene_age_cat_cd", 
-        "type": "text"
-      }, 
-      {
-        "name": "op_clm_icd9_diag_cd", 
-        "type": "text"
-      }, 
-      {
-        "name": "op_hcpcd_cd", 
-        "type": "text"
-      }, 
-      {
-        "name": "op_hcpcs_unit_cnt", 
-        "type": "real"
-      }, 
-      {
-        "name": "op_hcpcs_pmt_amt", 
-        "type": "real"
-      }, 
-      {
-        "name": "proc_cnt", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cms.gov", 
-  "tableName": "2010_basic_stand_alone_outpatient_procedures_puf"
+  "schema": "socrata/data.cms.gov", 
+  "status": "needs review", 
+  "table": "2010_basic_stand_alone_outpatient_procedures_puf"
 }

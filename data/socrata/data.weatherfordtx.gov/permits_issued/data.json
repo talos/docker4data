@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_weatherfordtx_permits_issued/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/fq45-73gh/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/fq45-73gh/rows.csv", 
   "description": "All historical permits issued, including issue date, type, subtype, etc.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "Permits Issued", 
-  "schema": {
-    "columns": [
-      {
-        "name": "permit_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "issue_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "type", 
-        "type": "text"
-      }, 
-      {
-        "name": "subtype", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "site_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "parcel_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "contractor", 
-        "type": "text"
-      }, 
-      {
-        "name": "owner", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.weatherfordtx.gov", 
-  "tableName": "permits_issued"
+  "schema": "socrata/data.weatherfordtx.gov", 
+  "status": "needs review", 
+  "table": "permits_issued"
 }

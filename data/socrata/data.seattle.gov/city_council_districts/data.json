@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_city_council_districts/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/wsu4-9jt9/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/wsu4-9jt9/rows.csv", 
   "description": "City Council geographic districts", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "City Council Districts", 
-  "schema": {
-    "columns": [
-      {
-        "name": "_feature_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "_feature_id_string", 
-        "type": "text"
-      }, 
-      {
-        "name": "the_geom", 
-        "type": "text"
-      }, 
-      {
-        "name": "objectid", 
-        "type": "real"
-      }, 
-      {
-        "name": "c_district", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape_area", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape_len", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "city_council_districts"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "city_council_districts"
 }

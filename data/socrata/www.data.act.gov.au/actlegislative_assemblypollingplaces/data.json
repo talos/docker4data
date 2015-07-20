@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/actlegislative_assemblypollingplaces/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/www.data.act.gov.au/api/geospatial/grh6-mmqd", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/www.data.act.gov.au/api/geospatial/grh6-mmqd", 
   "description": "2012 ACT Election Polling places as published by Elections ACT.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "ACTLegislative Assemblypollingplaces", 
-  "schema": {}, 
-  "schemaName": "socrata/www.data.act.gov.au", 
-  "tableName": "actlegislative_assemblypollingplaces"
+  "schema": "socrata/www.data.act.gov.au", 
+  "status": "needs review", 
+  "table": "actlegislative_assemblypollingplaces"
 }

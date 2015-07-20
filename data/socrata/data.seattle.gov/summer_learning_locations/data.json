@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_summer_learning_locations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/jbb5-9wmt/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/jbb5-9wmt/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -14,26 +10,7 @@
     }
   }, 
   "name": "Summer Learning Locations", 
-  "schema": {
-    "columns": [
-      {
-        "name": "site_location", 
-        "type": "text"
-      }, 
-      {
-        "name": "grade_span_s", 
-        "type": "text"
-      }, 
-      {
-        "name": "lead_provider_s", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "summer_learning_locations"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "summer_learning_locations"
 }

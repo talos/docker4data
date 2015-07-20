@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_2012_bond_program_voter_results/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/qmwp-kjjs/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/views/qmwp-kjjs/rows.csv", 
   "description": "2012 Bond Election Voter Results", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "2012 Bond Program Voter Results", 
-  "schema": {
-    "columns": [
-      {
-        "name": "_2012_bond_program_proposition_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "voter_response", 
-        "type": "text"
-      }, 
-      {
-        "name": "number_of_responses", 
-        "type": "real"
-      }, 
-      {
-        "name": "percentage_of_responses", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "2012_bond_program_voter_results"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "2012_bond_program_voter_results"
 }

@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/srr_washington_coast/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/geospatial/49zc-4hgv", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.wa.gov/api/geospatial/49zc-4hgv", 
   "description": "washington coastal salmon recovery region", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,7 +13,7 @@
     }
   }, 
   "name": "SRR - Washington Coast", 
-  "schema": {}, 
-  "schemaName": "socrata/data.wa.gov", 
-  "tableName": "srr_washington_coast"
+  "schema": "socrata/data.wa.gov", 
+  "status": "needs review", 
+  "table": "srr_washington_coast"
 }

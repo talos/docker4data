@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/transmission_facilities_application_status_location/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/j2i5-vax9/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/j2i5-vax9/rows.csv", 
   "description": "Information on all transmission facility applications (new tower or attachments) filed with the Montgomery County Cable Office for telecommunications and radio & TV transmission sites, including the location of the tower and the disposition of the application.  This dataset will be updated on a quarterly basis.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,82 +13,7 @@
     }
   }, 
   "name": "Transmission Facilities Application Status & Location", 
-  "schema": {
-    "columns": [
-      {
-        "name": "applicationnumber", 
-        "type": "text"
-      }, 
-      {
-        "name": "carriername", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "sitename", 
-        "type": "text"
-      }, 
-      {
-        "name": "propertynumber", 
-        "type": "text"
-      }, 
-      {
-        "name": "propertystreet", 
-        "type": "text"
-      }, 
-      {
-        "name": "propertycity", 
-        "type": "text"
-      }, 
-      {
-        "name": "zone", 
-        "type": "text"
-      }, 
-      {
-        "name": "propertyowner", 
-        "type": "text"
-      }, 
-      {
-        "name": "received", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "action", 
-        "type": "text"
-      }, 
-      {
-        "name": "actiondate", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "dms_latitude", 
-        "type": "text"
-      }, 
-      {
-        "name": "dms_longitude", 
-        "type": "text"
-      }, 
-      {
-        "name": "structure", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.montgomerycountymd.gov", 
-  "tableName": "transmission_facilities_application_status_location"
+  "schema": "socrata/data.montgomerycountymd.gov", 
+  "status": "needs review", 
+  "table": "transmission_facilities_application_status_location"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_2014_elections_ballot_issue_committees/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/b7sp-ttng/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/b7sp-ttng/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -15,38 +11,7 @@
     }
   }, 
   "name": "2014 Elections - Ballot Issue Committees", 
-  "schema": {
-    "columns": [
-      {
-        "name": "committee_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "ballot_issue", 
-        "type": "text"
-      }, 
-      {
-        "name": "total_recipts", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_disbursements", 
-        "type": "real"
-      }, 
-      {
-        "name": "closing_cash", 
-        "type": "real"
-      }, 
-      {
-        "name": "unpaid_expenditures", 
-        "type": "real"
-      }, 
-      {
-        "name": "surplus_deficit", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "2014_elections_ballot_issue_committees"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "2014_elections_ballot_issue_committees"
 }

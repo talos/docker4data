@@ -1,0 +1,22 @@
+CREATE TABLE "311_explorer" (
+	"ticket_id"	text,
+	"ticket_created_date_time"	timestamp,
+	"ticket_closed_date_time"	timestamp,
+	"ticket_status"	text,
+	"status_detail"	text,
+	"issue_type"	text,
+	"issue_description"	text,
+	"agency_responsible"	text,
+	"display_name"	text,
+	"community_league"	text,
+	"neighborhood_district"	text,
+	"street_address"	text,
+	"lat"	real,
+	"long"	real,
+	"location"	text,
+	"ticket_source"	text,
+	"calendar_year"	real,
+	"count"	real,
+	"posse_number"	text,
+	"transit_ref_number"	text
+);

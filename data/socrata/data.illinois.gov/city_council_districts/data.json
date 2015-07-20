@@ -1,9 +1,6 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/city_council_districts/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/geospatial/7wth-bhg3", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/geospatial/7wth-bhg3", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -14,7 +11,7 @@
     }
   }, 
   "name": "City Council Districts", 
-  "schema": {}, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "city_council_districts"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "city_council_districts"
 }

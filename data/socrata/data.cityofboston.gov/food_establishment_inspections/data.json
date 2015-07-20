@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofboston_food_establishment_inspections/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/qndu-wx8w/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/api/views/qndu-wx8w/rows.csv", 
   "description": "Health inspections of licensed food establishments", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,114 +13,7 @@
     }
   }, 
   "name": "Food Establishment Inspections", 
-  "schema": {
-    "columns": [
-      {
-        "name": "businessname", 
-        "type": "text"
-      }, 
-      {
-        "name": "dbaname", 
-        "type": "text"
-      }, 
-      {
-        "name": "legalowner", 
-        "type": "text"
-      }, 
-      {
-        "name": "namelast", 
-        "type": "text"
-      }, 
-      {
-        "name": "namefirst", 
-        "type": "text"
-      }, 
-      {
-        "name": "licenseno", 
-        "type": "real"
-      }, 
-      {
-        "name": "issdttm", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "expdttm", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "licstatus", 
-        "type": "text"
-      }, 
-      {
-        "name": "licensecat", 
-        "type": "text"
-      }, 
-      {
-        "name": "descript", 
-        "type": "text"
-      }, 
-      {
-        "name": "result", 
-        "type": "text"
-      }, 
-      {
-        "name": "resultdttm", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "violation", 
-        "type": "text"
-      }, 
-      {
-        "name": "viollevel", 
-        "type": "text"
-      }, 
-      {
-        "name": "violdesc", 
-        "type": "text"
-      }, 
-      {
-        "name": "violdttm", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "violstatus", 
-        "type": "text"
-      }, 
-      {
-        "name": "statusdate", 
-        "type": "text"
-      }, 
-      {
-        "name": "comments", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip", 
-        "type": "text"
-      }, 
-      {
-        "name": "property_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "food_establishment_inspections"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "food_establishment_inspections"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_statewide_contracts_solicitations_search/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/vjjs-9r4f/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/vjjs-9r4f/rows.csv", 
   "description": "This utility provides searchable information on statewide contracts and solicitations for the State of Oklahoma.\r\n\r\nStatewide contracts are written agreements between the State of Oklahoma and contractors that have been selected to provide a variety of products and services to state and local entities.\r\n\r\nSolicitations are requests for specified products and/or services that are not available on statewide contracts. Responses to solicitations are reviewed and evaluated, and if approved, an award is made to one or more vendors. The solicitations listed on the website have a status of Open, Pending Award, Awarded, Cancelled.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "Statewide Contracts & Solicitations Search", 
-  "schema": {
-    "columns": [
-      {
-        "name": "information", 
-        "type": "text"
-      }, 
-      {
-        "name": "website", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "statewide_contracts_solicitations_search"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "statewide_contracts_solicitations_search"
 }

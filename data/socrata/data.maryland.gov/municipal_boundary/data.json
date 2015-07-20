@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/municipal_boundary/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/geospatial/qg24-fk7n", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/geospatial/qg24-fk7n", 
   "description": "City of Frederick Municipal Boundary", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Municipal Boundary", 
-  "schema": {}, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "municipal_boundary"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "municipal_boundary"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_census_blkgrp00/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/pux5-p7r5/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/pux5-p7r5/rows.csv", 
   "description": "US Census Block Group for 2000 US Census", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,78 +13,7 @@
     }
   }, 
   "name": "CENSUS_BLKGRP00", 
-  "schema": {
-    "columns": [
-      {
-        "name": "objectid", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape", 
-        "type": "text"
-      }, 
-      {
-        "name": "tract00", 
-        "type": "real"
-      }, 
-      {
-        "name": "bg00", 
-        "type": "real"
-      }, 
-      {
-        "name": "water", 
-        "type": "real"
-      }, 
-      {
-        "name": "land_acres", 
-        "type": "real"
-      }, 
-      {
-        "name": "water_acres", 
-        "type": "real"
-      }, 
-      {
-        "name": "logrecnosf1", 
-        "type": "real"
-      }, 
-      {
-        "name": "logrecnosf3", 
-        "type": "real"
-      }, 
-      {
-        "name": "tractlab", 
-        "type": "real"
-      }, 
-      {
-        "name": "trbg00", 
-        "type": "real"
-      }, 
-      {
-        "name": "area_sqft", 
-        "type": "real"
-      }, 
-      {
-        "name": "perimeter_ft", 
-        "type": "real"
-      }, 
-      {
-        "name": "area", 
-        "type": "real"
-      }, 
-      {
-        "name": "len", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape_length", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape_area", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "census_blkgrp00"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "census_blkgrp00"
 }

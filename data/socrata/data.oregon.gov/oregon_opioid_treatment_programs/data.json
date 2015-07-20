@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oregon_oregon_opioid_treatment_programs/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/am83-9hdi/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/api/views/am83-9hdi/rows.csv", 
   "description": "Medication-Assisted Treatment and Recovery Programs in Oregon", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,26 +11,7 @@
     }
   }, 
   "name": "Oregon Opioid Treatment Programs", 
-  "schema": {
-    "columns": [
-      {
-        "name": "clinic_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "phone_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "oregon_opioid_treatment_programs"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "oregon_opioid_treatment_programs"
 }

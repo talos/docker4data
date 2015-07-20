@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_damage_by_sandy_by_age_of_building/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/mgjt-zuui/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/mgjt-zuui/rows.csv", 
   "description": "Details about how the age and code of the building correlates to destruction due to Storm Sandy", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Damage By Sandy By Age Of Building", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year_built", 
-        "type": "text"
-      }, 
-      {
-        "name": "inundation_area", 
-        "type": "text"
-      }, 
-      {
-        "name": "destroyed_by_storm", 
-        "type": "text"
-      }, 
-      {
-        "name": "red_tags", 
-        "type": "text"
-      }, 
-      {
-        "name": "yellow_tags", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "damage_by_sandy_by_age_of_building"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "damage_by_sandy_by_age_of_building"
 }

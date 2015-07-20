@@ -1,8 +1,6 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_bronx_lehman_cuny_bronx_311_air_quality_3_19_13_popula/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/a35a-tqkr/rows.csv"
-  }, 
+  "data": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/a35a-tqkr/rows.csv", 
   "description": "This is a 311 dataset combined with 2010 Census population data. The rate of air-quality complaints were divided by the population to get what is called a \"population index\" in get a better idea of the nature of the air-quality complaints. The more people there are in a given area, the more likely there will be more complaints. This is an attempt to correct for the population density in each census tract. The data is updated daily, so this is a snapshot of all of the complaints from 1/1/2010 to 3/19/2013.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,45 +14,5 @@
     }
   }, 
   "name": "Bronx 311 Air Quality 3.19.13 (population adjusted)", 
-  "schema": {
-    "columns": [
-      {
-        "name": "ntaname", 
-        "type": "text"
-      }, 
-      {
-        "name": "ctract", 
-        "type": "real"
-      }, 
-      {
-        "name": "popindex", 
-        "type": "real"
-      }, 
-      {
-        "name": "pop", 
-        "type": "real"
-      }, 
-      {
-        "name": "moe", 
-        "type": "real"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "point_x", 
-        "type": "real"
-      }, 
-      {
-        "name": "point_y", 
-        "type": "real"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "tableName": "socrata_bronx_lehman_cuny_bronx_311_air_quality_3_19_13_popula"
+  "table": "socrata_bronx_lehman_cuny_bronx_311_air_quality_3_19_13_popula"
 }

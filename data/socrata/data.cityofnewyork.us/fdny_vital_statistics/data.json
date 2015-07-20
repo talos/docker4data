@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_fdny_vital_statistics/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/qg7h-jiy8/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/qg7h-jiy8/rows.csv", 
   "description": "FDNY Vital Statistics", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "FDNY Vital Statistics", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "text"
-      }, 
-      {
-        "name": "vital_statistic_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "vtail_statistic_value", 
-        "type": "text"
-      }, 
-      {
-        "name": "vital_statist_unit_of_measure", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "fdny_vital_statistics"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "fdny_vital_statistics"
 }

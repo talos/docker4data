@@ -1,0 +1,23 @@
+CREATE TABLE "general_building_permits" (
+	"issue_date"	timestamp,
+	"permit_number"	text,
+	"year"	real,
+	"month_number"	real,
+	"permit_date"	timestamp,
+	"job_category"	text,
+	"address"	text,
+	"legal_description"	text,
+	"neighbourhood"	text,
+	"neighbourhood_numberr"	text,
+	"job_description"	text,
+	"building_type"	text,
+	"work_type"	text,
+	"floor_area"	real,
+	"construction_value"	real,
+	"zoning"	text,
+	"units_added"	real,
+	"latitude"	real,
+	"longitude"	real,
+	"location"	text,
+	"count"	real
+);

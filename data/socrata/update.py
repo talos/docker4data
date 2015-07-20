@@ -16,6 +16,34 @@ def generate_schema(table, schema):
         table=table, columns=',\n'.join(columns))
 
 
+def set_load_type(metadata):
+    """
+    Determine what the load type should be from metadata.  Set it.
+
+    Also corrects problematic metadata and data URLs (when '; charset') slipped
+    in without a slash before.
+    """
+    data_type = metadata['data'].get('type')
+    if data_type == 'csv':
+        pass
+    elif data_type == 'shapefile':
+        metadata['load'] = 'ogr2ogr'
+    else:
+        data_type = data_type.split(';')[0]
+        if data_type in (u'application/pdf', 'pdf'):
+            metadata['load'] = 'pdftotext'
+        elif data_type in (u'application/xml', 'xml'):
+            metadata['load'] = 'TODO: xml'
+        elif data_type in (u'vnd.ms-excel', 'xls', 'xlsx'):
+            metadata['load'] = 'TODO: excel'
+        elif data_type in (u'application/zip', 'zip'):
+            metadata['load'] = 'TODO: zip'
+        else:
+            metadata['load'] = 'TODO: {}'.format(data_type)
+        metadata['data']['@id'] = metadata['data']['@id'].split(';')[0].replace(
+            data_type, u'/' + data_type)
+
+
 def process(path):
     '''
     Process metadata at path
@@ -32,14 +60,12 @@ def process(path):
         sys.stderr.write('Skipping {} as it is custom or already updated.\n'.format(path))
         return
 
-    data_type = metadata['data']['type']
-    if data_type == 'csv':
-        pass
-    elif data_type == 'shapefile':
-        metadata['load'] = 'ogr2ogr'
-    else:
-        import pdb
-        pdb.set_trace()
+    if 'type' not in metadata['data']:
+        sys.stderr.write('Deleting {} as it has not been inferred recently.\n'.format(path))
+        os.unlink(metadata_path)
+        return
+
+    set_load_type(metadata)
 
     if '@id' in metadata['data']:
         metadata['data'] = metadata['data']['@id']
@@ -58,6 +84,9 @@ def process(path):
 
     if 'schemaName' in metadata:
         metadata['schema'] = metadata.pop('schemaName')
+
+    if 'status' not in metadata:
+        metadata['status'] = 'needs review'
 
     with open(metadata_path, 'w') as new_json_file:
         json.dump(metadata, new_json_file, indent=2, sort_keys=True)

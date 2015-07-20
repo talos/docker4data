@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_local_mental_health_programs/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/6nvr-tbv8/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/6nvr-tbv8/rows.csv", 
   "description": "Includes programs that are licensed by the Office of Mental Health (OMH) and programs that are funded by OMH but do not need a license to operate.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,114 +13,7 @@
     }
   }, 
   "name": "Local Mental Health Programs", 
-  "schema": {
-    "columns": [
-      {
-        "name": "row_created_date_time", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "sponsor_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "sponsor_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "agency_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "agency_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "facility_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "facility_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "program_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "program_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "populations_served", 
-        "type": "text"
-      }, 
-      {
-        "name": "agency_phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "program_phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "program_address_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "program_address_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "program_city", 
-        "type": "text"
-      }, 
-      {
-        "name": "program_state", 
-        "type": "text"
-      }, 
-      {
-        "name": "program_zip", 
-        "type": "text"
-      }, 
-      {
-        "name": "operating_certificate_required", 
-        "type": "text"
-      }, 
-      {
-        "name": "program_tier", 
-        "type": "real"
-      }, 
-      {
-        "name": "operating_certificate_duration", 
-        "type": "real"
-      }, 
-      {
-        "name": "program_county", 
-        "type": "text"
-      }, 
-      {
-        "name": "program_region", 
-        "type": "text"
-      }, 
-      {
-        "name": "program_type_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "program_category_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "program_subcategory_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "local_mental_health_programs"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "local_mental_health_programs"
 }

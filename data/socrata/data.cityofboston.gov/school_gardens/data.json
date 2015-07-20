@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofboston_school_gardens/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/cxb7-aa9j/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/api/views/cxb7-aa9j/rows.csv", 
   "description": "School gardens in and near the City of Boston. School grounds may be private property. Inaccurate information? Let us know!", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "School Gardens", 
-  "schema": {
-    "columns": [
-      {
-        "name": "site", 
-        "type": "text"
-      }, 
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "area", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "coordinates", 
-        "type": "text"
-      }, 
-      {
-        "name": "map_locations", 
-        "type": "text"
-      }, 
-      {
-        "name": "map_location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "school_gardens"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "school_gardens"
 }

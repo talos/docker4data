@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/population_by_age/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/opendata.go.ke/api/views/rjrk-enge/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/opendata.go.ke/api/views/rjrk-enge/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -14,42 +10,7 @@
     }
   }, 
   "name": "Population By Age", 
-  "schema": {
-    "columns": [
-      {
-        "name": "district", 
-        "type": "text"
-      }, 
-      {
-        "name": "urban_rural", 
-        "type": "text"
-      }, 
-      {
-        "name": "age_years", 
-        "type": "real"
-      }, 
-      {
-        "name": "male", 
-        "type": "real"
-      }, 
-      {
-        "name": "female", 
-        "type": "real"
-      }, 
-      {
-        "name": "total", 
-        "type": "real"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/opendata.go.ke", 
-  "tableName": "population_by_age"
+  "schema": "socrata/opendata.go.ke", 
+  "status": "needs review", 
+  "table": "population_by_age"
 }

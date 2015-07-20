@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/2014_housing_market_typology/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/geospatial/bd6x-nxgg", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.baltimorecity.gov/api/geospatial/bd6x-nxgg", 
   "description": "The Typology will assist city government, local foundations and non-profits to understand local market strengths and to appropriately match neighborhood strategies to market conditions, for the best use of public and private resources. In addition, the typology will inform neighborhood level planning efforts and provide residents with an understanding of the local housing market conditions in their communities.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,9 +14,7 @@
     }
   }, 
   "name": "2014 Housing Market Typology", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.baltimorecity.gov", 
-  "tableName": "2014_housing_market_typology"
+  "schema": "socrata/data.baltimorecity.gov", 
+  "status": "needs review", 
+  "table": "2014_housing_market_typology"
 }

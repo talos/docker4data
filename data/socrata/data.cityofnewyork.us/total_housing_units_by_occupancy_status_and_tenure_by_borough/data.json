@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/total_housing_units_by_occupancy_status_and_tenure_by_borough/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/6qzy-b4x8/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/6qzy-b4x8/rows.csv", 
   "description": "Details of Housing Unit numbers by Occupancy Status and Tenure in New York City Boroughs", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "Total Housing Units By Occupancy Status And Tenure By Borough", 
-  "schema": {
-    "columns": [
-      {
-        "name": "borough", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_housing_units", 
-        "type": "real"
-      }, 
-      {
-        "name": "owner_occupied", 
-        "type": "real"
-      }, 
-      {
-        "name": "renter_occupied", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_vacant_units", 
-        "type": "real"
-      }, 
-      {
-        "name": "vacant_units_for_seasonal_recreational_or_occasional_use", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "total_housing_units_by_occupancy_status_and_tenure_by_borough"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "total_housing_units_by_occupancy_status_and_tenure_by_borough"
 }

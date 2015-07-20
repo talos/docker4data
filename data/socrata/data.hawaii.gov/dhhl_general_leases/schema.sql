@@ -1,0 +1,21 @@
+CREATE TABLE "dhhl_general_leases" (
+	"island"	text,
+	"acre"	real,
+	"number"	text,
+	"use"	text,
+	"name"	text,
+	"location"	text,
+	"tmk"	text,
+	"terms_years"	text,
+	"starting_date"	timestamp,
+	"ending_date"	timestamp,
+	"annual_rent"	text,
+	"monthly_rent"	text,
+	"reopennings_date_1"	timestamp,
+	"annual_rent_1"	text,
+	"date_2"	timestamp,
+	"annual_rent_2"	text,
+	"date_3"	timestamp,
+	"annual_rent_3"	text,
+	"location_1"	text
+);

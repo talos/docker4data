@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_liquid_fuel_tax_allocation_by_fund/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/qe9x-qsvt/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/qe9x-qsvt/rows.csv", 
   "description": "This series shows how the State and County liquid fuel taxes and the State environmental response tax are divided between the State and the Counties and how the tax collections are distributed among the various special funds.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,34 +11,7 @@
     }
   }, 
   "name": "Liquid Fuel Tax Allocation by Fund", 
-  "schema": {
-    "columns": [
-      {
-        "name": "source_of_revenue", 
-        "type": "text"
-      }, 
-      {
-        "name": "amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "month", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "liquid_fuel_tax_allocation_by_fund"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "liquid_fuel_tax_allocation_by_fund"
 }

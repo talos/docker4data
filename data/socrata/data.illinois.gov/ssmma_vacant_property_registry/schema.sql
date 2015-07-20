@@ -1,0 +1,20 @@
+CREATE TABLE "ssmma_vacant_property_registry" (
+	"objectid"	real,
+	"municipali"	text,
+	"adopted"	text,
+	"date_of_ad"	timestamp,
+	"county"	text,
+	"source"	text,
+	"shape_leng"	real,
+	"shape_area"	real,
+	"status"	text,
+	"registrati"	text,
+	"fee"	text,
+	"contact_na"	text,
+	"contact_in"	text,
+	"editor"	text,
+	"propreitar"	real,
+	"universal"	text,
+	"ordinance"	text,
+	"form_link"	text
+);

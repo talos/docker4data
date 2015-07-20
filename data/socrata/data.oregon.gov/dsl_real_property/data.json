@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oregon_dsl_real_property/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/3fqf-5typ/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/api/views/3fqf-5typ/rows.csv", 
   "description": "Public comments and questions related to land sales and exchanges", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,38 +12,7 @@
     }
   }, 
   "name": "DSL-Real Property", 
-  "schema": {
-    "columns": [
-      {
-        "name": "first_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "last_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "email_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "organization", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "comment", 
-        "type": "text"
-      }, 
-      {
-        "name": "additional_document", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "dsl_real_property"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "dsl_real_property"
 }

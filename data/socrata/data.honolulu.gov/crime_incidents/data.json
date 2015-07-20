@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_honolulu_crime_incidents/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.honolulu.gov/api/views/a96q-gyhq/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.honolulu.gov/api/views/a96q-gyhq/rows.csv", 
   "description": "Crime Incidents is an active feed from the Honolulu Police Department", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,50 +12,7 @@
     }
   }, 
   "name": "Crime Incidents", 
-  "schema": {
-    "columns": [
-      {
-        "name": "objectid", 
-        "type": "text"
-      }, 
-      {
-        "name": "kilonbr", 
-        "type": "text"
-      }, 
-      {
-        "name": "blockaddress", 
-        "type": "text"
-      }, 
-      {
-        "name": "cmid", 
-        "type": "text"
-      }, 
-      {
-        "name": "cmagency", 
-        "type": "text"
-      }, 
-      {
-        "name": "date", 
-        "type": "text"
-      }, 
-      {
-        "name": "type", 
-        "type": "text"
-      }, 
-      {
-        "name": "status", 
-        "type": "text"
-      }, 
-      {
-        "name": "score", 
-        "type": "text"
-      }, 
-      {
-        "name": "side", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.honolulu.gov", 
-  "tableName": "crime_incidents"
+  "schema": "socrata/data.honolulu.gov", 
+  "status": "needs review", 
+  "table": "crime_incidents"
 }

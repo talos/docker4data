@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofboston_cityofboston_gov_top_10_pages/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/nbv5-39vx/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/api/views/nbv5-39vx/rows.csv", 
   "description": "Top 10 pages in the cityofboston.gov domain for 2014", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "Cityofboston.gov Top 10 pages", 
-  "schema": {
-    "columns": [
-      {
-        "name": "top_pages", 
-        "type": "text"
-      }, 
-      {
-        "name": "pageviews", 
-        "type": "real"
-      }, 
-      {
-        "name": "unique_pageviews", 
-        "type": "real"
-      }, 
-      {
-        "name": "avg_time_on_page", 
-        "type": "text"
-      }, 
-      {
-        "name": "entrances", 
-        "type": "real"
-      }, 
-      {
-        "name": "bounce_rate", 
-        "type": "text"
-      }, 
-      {
-        "name": "exit", 
-        "type": "text"
-      }, 
-      {
-        "name": "page_value", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "cityofboston_gov_top_10_pages"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "cityofboston_gov_top_10_pages"
 }

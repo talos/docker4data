@@ -1,0 +1,5 @@
+CREATE TABLE "first_in_nation_per_capita_top_ten_u_s_states_ranked_by_grid_connected_pv_cumulative_installed_capacity_per_capita_source_interstate_renewable_energy_council_" (
+	"state"	text,
+	"cumulative_through_2011_wdc_person"	real,
+	"installations_wdc_person"	real
+);

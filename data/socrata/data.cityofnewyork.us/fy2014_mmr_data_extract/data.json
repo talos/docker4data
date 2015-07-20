@@ -1,111 +1,17 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_fy2014_mmr_data_extract/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/xkye-5k68/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/xkye-5k68/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
+    "attribution": "Department of Information Technology & Telecommunications (DoITT)", 
     "category": "City Government", 
     "socrata": {
       "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/xkye-5k68.json"
     }
   }, 
   "name": "FY2014 MMR Data Extract", 
-  "schema": {
-    "columns": [
-      {
-        "name": "agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "indicator_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "indicator_sequence", 
-        "type": "real"
-      }, 
-      {
-        "name": "sub_indicator", 
-        "type": "text"
-      }, 
-      {
-        "name": "triage", 
-        "type": "real"
-      }, 
-      {
-        "name": "record_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "kpsa_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "goal_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "desired_direction", 
-        "type": "text"
-      }, 
-      {
-        "name": "critical_flag", 
-        "type": "text"
-      }, 
-      {
-        "name": "geography", 
-        "type": "text"
-      }, 
-      {
-        "name": "measure_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "fiscal_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "conditional_formatting", 
-        "type": "text"
-      }, 
-      {
-        "name": "raw_value", 
-        "type": "real"
-      }, 
-      {
-        "name": "format_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "value_percent_ff", 
-        "type": "text"
-      }, 
-      {
-        "name": "value_number_ff", 
-        "type": "real"
-      }, 
-      {
-        "name": "value_currency_ff", 
-        "type": "real"
-      }, 
-      {
-        "name": "value_time_ff", 
-        "type": "text"
-      }, 
-      {
-        "name": "value_ratio_ff", 
-        "type": "text"
-      }, 
-      {
-        "name": "indicator_id", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "fy2014_mmr_data_extract"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "fy2014_mmr_data_extract"
 }

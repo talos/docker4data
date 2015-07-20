@@ -1,0 +1,23 @@
+CREATE TABLE "cable_complaints" (
+	"date_of_complaint"	timestamp,
+	"date_of_closure"	timestamp,
+	"street"	text,
+	"city"	text,
+	"state"	text,
+	"zip"	real,
+	"cable_provider"	text,
+	"billing"	real,
+	"service"	real,
+	"internet"	real,
+	"telephone_answering_time"	real,
+	"reception"	real,
+	"construction"	real,
+	"marketing"	real,
+	"installation"	real,
+	"cable_service_availability"	real,
+	"cable_line_related"	real,
+	"telephone_service"	real,
+	"other"	real,
+	"type"	text,
+	"location"	text
+);

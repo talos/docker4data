@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wa_wqi_parameter_scores_1994_2013/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/dn4d-x42e/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.wa.gov/api/views/dn4d-x42e/rows.csv", 
   "description": "Routine freshwater monitoring data collected by the The WA State Department of Ecology's River and Stream Monitoring Program are summarized by a technique called the \"Water Quality Index\" (WQI). The WQI ranges from 1 (poor quality) to 100 (good quality). The WQI summary does not include non-standard elements like metals. For temperature, pH, oxygen, and fecal coliform bacteria, the WQI is based on criteria in Washington\u2019s Water Quality Standards, WAC 173-201A. For nutrient and sediment measures where standards are not specific, results are based on expected conditions in a given region. Multiple constituents are combined and results aggregated over time to produce a single score for each station and each year. All current long-term Ecology monitoring stations with at least 5 years data are included.  Most stations are located near the mouths of major streams.  These stations integrate upstream water quality and capture large basin-scale trends. However, status and trends at these locations may not reflect status or trends in any particular sub-basin. Scores for individual parameters are presented as Oxygen (Oxy) , pH, temperature (TEMP), total suspended sediment (TSS), turbidity(Turb), nitrogen(TPN), and phosphorus(TP).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,62 +12,7 @@
     }
   }, 
   "name": "WQI Parameter Scores 1994-2013", 
-  "schema": {
-    "columns": [
-      {
-        "name": "station", 
-        "type": "text"
-      }, 
-      {
-        "name": "station_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "text"
-      }, 
-      {
-        "name": "overall_wqi", 
-        "type": "real"
-      }, 
-      {
-        "name": "wqi_fc", 
-        "type": "real"
-      }, 
-      {
-        "name": "wqi_oxy", 
-        "type": "real"
-      }, 
-      {
-        "name": "wqi_ph", 
-        "type": "real"
-      }, 
-      {
-        "name": "wqi_tss", 
-        "type": "real"
-      }, 
-      {
-        "name": "wqi_temp", 
-        "type": "real"
-      }, 
-      {
-        "name": "wqi_tpn", 
-        "type": "real"
-      }, 
-      {
-        "name": "wqi_tp", 
-        "type": "real"
-      }, 
-      {
-        "name": "wqi_turb", 
-        "type": "real"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.wa.gov", 
-  "tableName": "wqi_parameter_scores_1994_2013"
+  "schema": "socrata/data.wa.gov", 
+  "status": "needs review", 
+  "table": "wqi_parameter_scores_1994_2013"
 }

@@ -1,9 +1,6 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/oakland_centerline_of_streams/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oaklandnet.com/api/geospatial/fz84-7e6j", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.oaklandnet.com/api/geospatial/fz84-7e6j", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -14,7 +11,7 @@
     }
   }, 
   "name": "Oakland Centerline of Streams", 
-  "schema": {}, 
-  "schemaName": "socrata/data.oaklandnet.com", 
-  "tableName": "oakland_centerline_of_streams"
+  "schema": "socrata/data.oaklandnet.com", 
+  "status": "needs review", 
+  "table": "oakland_centerline_of_streams"
 }

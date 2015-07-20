@@ -1,9 +1,6 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/oakland_city_council_districts/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oaklandnet.com/api/geospatial/byvq-sy7z", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.oaklandnet.com/api/geospatial/byvq-sy7z", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -14,7 +11,7 @@
     }
   }, 
   "name": "Oakland City Council Districts", 
-  "schema": {}, 
-  "schemaName": "socrata/data.oaklandnet.com", 
-  "tableName": "oakland_city_council_districts"
+  "schema": "socrata/data.oaklandnet.com", 
+  "status": "needs review", 
+  "table": "oakland_city_council_districts"
 }

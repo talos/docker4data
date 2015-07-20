@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofboston_winter_farmers_markets/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/2tib-uhic/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/api/views/2tib-uhic/rows.csv", 
   "description": "Winter farmers' market in Boston and surrounding areas. Subject to change in future seasons; times listed were accurate as of December 2012.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "Winter Farmers Markets", 
-  "schema": {
-    "columns": [
-      {
-        "name": "site", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "area", 
-        "type": "text"
-      }, 
-      {
-        "name": "dates_of_operation", 
-        "type": "text"
-      }, 
-      {
-        "name": "times_of_operation", 
-        "type": "text"
-      }, 
-      {
-        "name": "snap_ebt", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "winter_farmers_markets"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "winter_farmers_markets"
 }

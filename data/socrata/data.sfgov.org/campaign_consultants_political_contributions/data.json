@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_campaign_consultants_political_contributions/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/tv94-tvke/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sfgov.org/api/views/tv94-tvke/rows.csv", 
   "description": "Filers must report each political contribution of $100 or more to a candidate for local office, a committee controlled by a local officeholder or a candidate for local office, or a ballot measure committee whether or not the committee is controlled by a local officeholder or a candidate for local office.  Filers must report contributions of $100 or more made or delivered by the filer, or made by the filer\u2019s client at the filer\u2019s behest, or for which the filer acted as an agent or intermediary during the reporting period. \r\n\r\nThis chart indicates the political contributions made by campaign consultants during the reporting period.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "Campaign Consultants - Political Contributions", 
-  "schema": {
-    "columns": [
-      {
-        "name": "committee_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "consultant_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "quarter_start_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "quarter_end_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "quarter", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sfgov.org", 
-  "tableName": "campaign_consultants_political_contributions"
+  "schema": "socrata/data.sfgov.org", 
+  "status": "needs review", 
+  "table": "campaign_consultants_political_contributions"
 }

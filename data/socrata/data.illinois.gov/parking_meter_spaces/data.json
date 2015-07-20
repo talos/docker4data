@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_parking_meter_spaces/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/qwhu-479p/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/qwhu-479p/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -15,14 +11,7 @@
     }
   }, 
   "name": "Parking Meter Spaces", 
-  "schema": {
-    "columns": [
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "parking_meter_spaces"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "parking_meter_spaces"
 }

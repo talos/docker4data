@@ -1,0 +1,20 @@
+CREATE TABLE "dohmh_new_york_city_restaurant_inspection_results" (
+	"camis"	text,
+	"dba"	text,
+	"boro"	text,
+	"building"	text,
+	"street"	text,
+	"zipcode"	text,
+	"phone"	text,
+	"cuisine_description"	text,
+	"inspection_date"	timestamp,
+	"action"	text,
+	"violation_code"	text,
+	"violation_description"	text,
+	"critical_flag"	text,
+	"score"	real,
+	"grade"	text,
+	"grade_date"	timestamp,
+	"record_date"	timestamp,
+	"inspection_type"	text
+);

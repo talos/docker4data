@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sunlightlabs_rep_caucus/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sunlightlabs.com/api/views/y4yz-mxmv/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sunlightlabs.com/api/views/y4yz-mxmv/rows.csv", 
   "description": "Data used for a post on the makeup of the Republican Caucus, and the allocation of leadership positions", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,34 +12,7 @@
     }
   }, 
   "name": "REP Caucus", 
-  "schema": {
-    "columns": [
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "leadership_pac_amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "leadership_pac", 
-        "type": "text"
-      }, 
-      {
-        "name": "seniority", 
-        "type": "real"
-      }, 
-      {
-        "name": "gender", 
-        "type": "text"
-      }, 
-      {
-        "name": "icpsr_id", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sunlightlabs.com", 
-  "tableName": "rep_caucus"
+  "schema": "socrata/data.sunlightlabs.com", 
+  "status": "needs review", 
+  "table": "rep_caucus"
 }

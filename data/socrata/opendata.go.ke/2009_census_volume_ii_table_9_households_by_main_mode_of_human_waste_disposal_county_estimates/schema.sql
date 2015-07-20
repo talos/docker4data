@@ -1,0 +1,21 @@
+CREATE TABLE "2009_census_volume_ii_table_9_households_by_main_mode_of_human_waste_disposal_county_estimates" (
+	"county"	text,
+	"main_sewer"	text,
+	"septic_tank"	text,
+	"cess_pool"	text,
+	"bucket"	text,
+	"bush"	text,
+	"other_waste_disposal"	text,
+	"housholds"	real,
+	"no_of_households_with_main_sewer"	real,
+	"no_of_households_with_septic_tank"	real,
+	"no_of_households_with_cess_pool"	real,
+	"no_of_households_with_bucket"	real,
+	"no_of_households_with_bush"	real,
+	"no_of_households_with_other"	real,
+	"location_1"	text,
+	"pit_latrine_covered_uncovered"	text,
+	"no_of_households_with_vip_pit_latrine"	real,
+	"no_of_households_with_pit_latrine_covered_uncovered"	real,
+	"vip_pit_latrine"	text
+);

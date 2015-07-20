@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_law_divisions/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/4se9-mk53/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/4se9-mk53/rows.csv", 
   "description": "The Law Department is composed of 17 legal divisions. Three support divisions provide high quality services to the Law Department's 650 attorneys.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,18 +13,7 @@
     }
   }, 
   "name": "LAW Divisions", 
-  "schema": {
-    "columns": [
-      {
-        "name": "division_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "department_name", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "law_divisions"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "law_divisions"
 }

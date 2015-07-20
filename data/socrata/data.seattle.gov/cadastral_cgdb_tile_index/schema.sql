@@ -1,0 +1,20 @@
+CREATE TABLE "cadastral_cgdb_tile_index" (
+	"objectid"	real,
+	"shape"	text,
+	"ti_area"	real,
+	"ti_prmtr"	real,
+	"ti_cgdb_name"	text,
+	"ti_cgdb_num"	real,
+	"ti_meridian"	text,
+	"ti_township"	text,
+	"ti_range"	text,
+	"ti_section"	real,
+	"ti_qstr"	text,
+	"ti_scl_num"	text,
+	"ti_swd_num"	text,
+	"ti_spu_mappage"	text,
+	"area"	real,
+	"len"	real,
+	"shape_length"	real,
+	"shape_area"	real
+);

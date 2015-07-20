@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oregon_motorboat_restrictions_in_oregon/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/tkhs-6avg/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/api/views/tkhs-6avg/rows.csv", 
   "description": "Waterbodies where the use of motors are prohibited.  Waterways where motor boats are not allowed are established in Oregon Administrative Rule 250 or Oregon Statute 830.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "Motorboat Restrictions in Oregon", 
-  "schema": {
-    "columns": [
-      {
-        "name": "waterway", 
-        "type": "text"
-      }, 
-      {
-        "name": "_waterway_segment", 
-        "type": "text"
-      }, 
-      {
-        "name": "prohibited_segment_s_", 
-        "type": "text"
-      }, 
-      {
-        "name": "county_", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "motorboat_restrictions_in_oregon"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "motorboat_restrictions_in_oregon"
 }

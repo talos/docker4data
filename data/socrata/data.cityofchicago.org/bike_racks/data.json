@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_bike_racks/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/cbyb-69xx/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/cbyb-69xx/rows.csv", 
   "description": "Bike racks in Chicago. To view or use the attachment files, compression software and special GIS software, such as ESRI ArcGIS, is required.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,58 +13,7 @@
     }
   }, 
   "name": "Bike Racks", 
-  "schema": {
-    "columns": [
-      {
-        "name": "rackid", 
-        "type": "real"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "ward", 
-        "type": "real"
-      }, 
-      {
-        "name": "community_area", 
-        "type": "real"
-      }, 
-      {
-        "name": "community_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "totinstall", 
-        "type": "real"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "historical", 
-        "type": "real"
-      }, 
-      {
-        "name": "f12", 
-        "type": "real"
-      }, 
-      {
-        "name": "f13", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "bike_racks"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "bike_racks"
 }

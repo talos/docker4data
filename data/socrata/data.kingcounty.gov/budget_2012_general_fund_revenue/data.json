@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_kingcounty_budget_2012_general_fund_revenue/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/4pc3-aaqp/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.kingcounty.gov/api/views/4pc3-aaqp/rows.csv", 
   "description": "2012 Proposed revenue sources for the general fund. More at http://www.kingcounty.gov/budget", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,18 +13,7 @@
     }
   }, 
   "name": "Budget 2012- General Fund Revenue", 
-  "schema": {
-    "columns": [
-      {
-        "name": "fund_source", 
-        "type": "text"
-      }, 
-      {
-        "name": "_proposed", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.kingcounty.gov", 
-  "tableName": "budget_2012_general_fund_revenue"
+  "schema": "socrata/data.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "budget_2012_general_fund_revenue"
 }

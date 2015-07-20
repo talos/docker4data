@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_public_garage_or_parking_lot_includes_e_park/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/3neb-8edu/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/3neb-8edu/rows.csv", 
   "description": "Display the locations of off street garages and lots along with information such as rates, operator name, etc.  Off street garages participating in the ePark program also display the availability of parking spaces.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,122 +13,7 @@
     }
   }, 
   "name": "Public Garage or Parking Lot includes e-Park", 
-  "schema": {
-    "columns": [
-      {
-        "name": "objectid", 
-        "type": "real"
-      }, 
-      {
-        "name": "buslic_location_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "dea_facility_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "dea_stalls", 
-        "type": "real"
-      }, 
-      {
-        "name": "fac_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "hrs_monfri", 
-        "type": "text"
-      }, 
-      {
-        "name": "hrs_sat", 
-        "type": "text"
-      }, 
-      {
-        "name": "hrs_sun", 
-        "type": "text"
-      }, 
-      {
-        "name": "fac_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "rte_1hr", 
-        "type": "text"
-      }, 
-      {
-        "name": "rte_2hr", 
-        "type": "text"
-      }, 
-      {
-        "name": "rte_3hr", 
-        "type": "text"
-      }, 
-      {
-        "name": "rte_allday", 
-        "type": "text"
-      }, 
-      {
-        "name": "disabled", 
-        "type": "text"
-      }, 
-      {
-        "name": "op_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "op_phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "op_phone2", 
-        "type": "text"
-      }, 
-      {
-        "name": "op_web", 
-        "type": "text"
-      }, 
-      {
-        "name": "payment_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "other", 
-        "type": "text"
-      }, 
-      {
-        "name": "webname", 
-        "type": "text"
-      }, 
-      {
-        "name": "regionid", 
-        "type": "real"
-      }, 
-      {
-        "name": "outofserv", 
-        "type": "text"
-      }, 
-      {
-        "name": "vacant", 
-        "type": "real"
-      }, 
-      {
-        "name": "status", 
-        "type": "text"
-      }, 
-      {
-        "name": "datetime", 
-        "type": "text"
-      }, 
-      {
-        "name": "shape", 
-        "type": "text"
-      }, 
-      {
-        "name": "signid", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "public_garage_or_parking_lot_includes_e_park"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "public_garage_or_parking_lot_includes_e_park"
 }

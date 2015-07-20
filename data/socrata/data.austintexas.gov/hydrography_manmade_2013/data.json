@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/hydrography_manmade_2013/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/geospatial/68hm-8k5p", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/geospatial/68hm-8k5p", 
   "description": "Manmade hydrography feature class is created to assist in City of Austin planning activities.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,9 +14,7 @@
     }
   }, 
   "name": "Hydrography Manmade 2013", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "hydrography_manmade_2013"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "hydrography_manmade_2013"
 }

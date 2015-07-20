@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_income_data_for_colorado_counties/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/2cpa-vbur/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/api/views/2cpa-vbur/rows.csv", 
   "description": "Income data from the Bureau of Economic Analysis and Census for the State of Colorado and counties, including FIPS codes. Updated monthly, and and extending back to 1929. Data is aggregated and updated by Median Household Income from the United States Census and by Total Personal Income and from the Per Capita Personal Income by the Bureau of Economic Analysis. Both income and population are aggregated and reported.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,86 +13,7 @@
     }
   }, 
   "name": "Income Data for Colorado Counties", 
-  "schema": {
-    "columns": [
-      {
-        "name": "stateabbrv", 
-        "type": "text"
-      }, 
-      {
-        "name": "statename", 
-        "type": "text"
-      }, 
-      {
-        "name": "stfips", 
-        "type": "real"
-      }, 
-      {
-        "name": "areatyname", 
-        "type": "text"
-      }, 
-      {
-        "name": "areaname", 
-        "type": "text"
-      }, 
-      {
-        "name": "areatype", 
-        "type": "real"
-      }, 
-      {
-        "name": "area", 
-        "type": "real"
-      }, 
-      {
-        "name": "periodyear", 
-        "type": "real"
-      }, 
-      {
-        "name": "periodtype", 
-        "type": "real"
-      }, 
-      {
-        "name": "pertypdesc", 
-        "type": "text"
-      }, 
-      {
-        "name": "period", 
-        "type": "real"
-      }, 
-      {
-        "name": "inctype", 
-        "type": "real"
-      }, 
-      {
-        "name": "incdesc", 
-        "type": "text"
-      }, 
-      {
-        "name": "incsource", 
-        "type": "real"
-      }, 
-      {
-        "name": "incsrcdesc", 
-        "type": "text"
-      }, 
-      {
-        "name": "income", 
-        "type": "real"
-      }, 
-      {
-        "name": "incrank", 
-        "type": "real"
-      }, 
-      {
-        "name": "population", 
-        "type": "real"
-      }, 
-      {
-        "name": "releasedate", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "income_data_for_colorado_counties"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "income_data_for_colorado_counties"
 }

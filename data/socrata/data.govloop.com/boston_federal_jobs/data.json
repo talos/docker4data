@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_govloop_boston_federal_jobs/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.govloop.com/api/views/zbif-tgav/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.govloop.com/api/views/zbif-tgav/rows.csv", 
   "description": "List of federal jobs and agencies in Boston", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,22 +12,7 @@
     }
   }, 
   "name": "Boston Federal Jobs", 
-  "schema": {
-    "columns": [
-      {
-        "name": "agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "locatino", 
-        "type": "text"
-      }, 
-      {
-        "name": "details", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.govloop.com", 
-  "tableName": "boston_federal_jobs"
+  "schema": "socrata/data.govloop.com", 
+  "status": "needs review", 
+  "table": "boston_federal_jobs"
 }

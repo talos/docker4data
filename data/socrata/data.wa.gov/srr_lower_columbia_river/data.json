@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/srr_lower_columbia_river/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/geospatial/7vzj-84vy", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.wa.gov/api/geospatial/7vzj-84vy", 
   "description": "Lower Columbia River Salmon Recovery Region boundaries.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "SRR - Lower Columbia River", 
-  "schema": {}, 
-  "schemaName": "socrata/data.wa.gov", 
-  "tableName": "srr_lower_columbia_river"
+  "schema": "socrata/data.wa.gov", 
+  "status": "needs review", 
+  "table": "srr_lower_columbia_river"
 }

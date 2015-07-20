@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/west_end_neighborhood_2010_census/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/download/8wmf-b9y2application/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/download/8wmf-b9y2/application/pdf", 
   "description": "A report featuring data on all people and households in West End from the 2010 Census Summary Files (SF-1).", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,7 +13,7 @@
     }
   }, 
   "name": "West End, neighborhood: 2010 Census", 
-  "schema": {}, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "west_end_neighborhood_2010_census"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "west_end_neighborhood_2010_census"
 }

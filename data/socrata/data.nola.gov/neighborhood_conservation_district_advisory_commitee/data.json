@@ -1,10 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/neighborhood_conservation_district_advisory_commitee/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.nola.gov/api/geospatial/phs2-i523", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.nola.gov/api/geospatial/phs2-i523", 
   "description": "The purpose of the NCDAC shall be:\r\n1. To attempt to preserve those buildings within the NCDAC having a historical or architectural value as defined by the historic district landmarks commission or buildings that contribute to the overall character of the neighborhood.\r\n2. To preserve and stabilize neighborhoods through the protection of those structures that represents the character and the quality of the neighborhood.\r\n3. To promote redevelopment that contributes to the historic character of the neighborhood.\r\n4. To discourage underutilization of property in an urban environment.\r\n5. To advise the City Council of New Orleans as it deems appropriate and necessary concerning issues related to the conservation of neighborhoods within the NCDAC.\r\n\r\nBasis: Code of the City of New Orleans; Part II - Code, Chapter 26, Article I, Sec. 26-3\r\n\r\nCurrent as of 20120410, Name changed to NCDAC 2014", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +15,7 @@
     }
   }, 
   "name": "Neighborhood Conservation District Advisory Commitee", 
-  "schema": {}, 
-  "schemaName": "socrata/data.nola.gov", 
-  "tableName": "neighborhood_conservation_district_advisory_commitee"
+  "schema": "socrata/data.nola.gov", 
+  "status": "needs review", 
+  "table": "neighborhood_conservation_district_advisory_commitee"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_hra_domestic_violence_partners/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/tbf6-u8ea/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/tbf6-u8ea/rows.csv", 
   "description": "Listing of domestic violence non-residential services.  Phone numbers and the borough where service is provided is included.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "HRA Domestic Violence Partners", 
-  "schema": {
-    "columns": [
-      {
-        "name": "provider", 
-        "type": "text"
-      }, 
-      {
-        "name": "hotline", 
-        "type": "text"
-      }, 
-      {
-        "name": "borough", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "hra_domestic_violence_partners"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "hra_domestic_violence_partners"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_accessible_housing_for_seniors_fy13/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/9itr-7h69/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/9itr-7h69/rows.csv", 
   "description": "Accessible Housing For Seniors is a sub-set of the Maryland Rehabilitation Loan Program. Numbers are tracked individually, when the rehabilitation work involves strictly accessibility features. Often times accessiblity improvements/rehabilitation is done as part of a larger project and the funding does not reflect in these numbers. For more information please visit www.mdhousing.org", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "Accessible Housing For Seniors FY13", 
-  "schema": {
-    "columns": [
-      {
-        "name": "month", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "ahfp_applications_received", 
-        "type": "real"
-      }, 
-      {
-        "name": "ahfp_committed", 
-        "type": "real"
-      }, 
-      {
-        "name": "ahfp_units_committed", 
-        "type": "real"
-      }, 
-      {
-        "name": "ahfp_closed_loans", 
-        "type": "real"
-      }, 
-      {
-        "name": "ahfp_units_closed", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "accessible_housing_for_seniors_fy13"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "accessible_housing_for_seniors_fy13"
 }

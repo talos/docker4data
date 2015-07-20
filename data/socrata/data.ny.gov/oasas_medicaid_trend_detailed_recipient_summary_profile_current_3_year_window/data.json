@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/oasas_medicaid_trend_detailed_recipient_summary_profile_current_3_year_window/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/hrsh-6vzi/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/hrsh-6vzi/rows.csv", 
   "description": "This profile shows a detailed summary of recipients, units of service, paid claim dollars, dollars per individual and dollars per units of service for services reimbursed by the Medicaid Fee-for-Service billing system by type of chemical dependence and non-chemical dependence services received for the current consecutive 3 state fiscal year window for which data is available and analyzed.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "OASAS Medicaid Trend Detailed Recipient Summary Profile: Current 3 Year Window", 
-  "schema": {
-    "columns": [
-      {
-        "name": "claims", 
-        "type": "real"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "dollars", 
-        "type": "real"
-      }, 
-      {
-        "name": "dollars_per_claims", 
-        "type": "real"
-      }, 
-      {
-        "name": "dollars_per_recipient", 
-        "type": "real"
-      }, 
-      {
-        "name": "recipients", 
-        "type": "real"
-      }, 
-      {
-        "name": "sfy", 
-        "type": "real"
-      }, 
-      {
-        "name": "services", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "oasas_medicaid_trend_detailed_recipient_summary_profile_current_3_year_window"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "oasas_medicaid_trend_detailed_recipient_summary_profile_current_3_year_window"
 }

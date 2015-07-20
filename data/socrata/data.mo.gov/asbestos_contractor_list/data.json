@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_mo_asbestos_contractor_list/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.mo.gov/api/views/czsc-qm87/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.mo.gov/api/views/czsc-qm87/rows.csv", 
   "description": "Names and Addresses of Contractors of Asbestos Removal", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "Asbestos - Contractor List", 
-  "schema": {
-    "columns": [
-      {
-        "name": "contractor", 
-        "type": "text"
-      }, 
-      {
-        "name": "registration_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "expiration_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "business_telephone_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "ceo", 
-        "type": "text"
-      }, 
-      {
-        "name": "status", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.mo.gov", 
-  "tableName": "asbestos_contractor_list"
+  "schema": "socrata/data.mo.gov", 
+  "status": "needs review", 
+  "table": "asbestos_contractor_list"
 }

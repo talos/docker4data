@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wa_cleanup_sites_in_washington_state/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/vtkh-65is/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.wa.gov/api/views/vtkh-65is/rows.csv", 
   "description": "This is a list of cleanup sites in Washington State. It includes sites and associated websites.  It includes location data, Cleanup Status, Site Rank \u2013 if the site is ranked, and if the site has an Environmental Covenant.  \r\n\r\nOver half the cleanup sites have a status of \u201cNo Further Action Required/Decision\u201d or NFA.  If a site has a NFA it includes the latest NFA date and NFA reason.  \r\n\r\nThe Washington Department of Ecology (Toxics Cleanup Program) works to clean up contaminated sites/properties throughout the state of Washington. This data was downloaded from the Integrated Site Information System (ISIS) database and is monthly.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,94 +13,7 @@
     }
   }, 
   "name": "Cleanup Sites in Washington State", 
-  "schema": {
-    "columns": [
-      {
-        "name": "cleanup_site_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "cleanup_site_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "cleanup_status", 
-        "type": "text"
-      }, 
-      {
-        "name": "statute", 
-        "type": "text"
-      }, 
-      {
-        "name": "rank", 
-        "type": "text"
-      }, 
-      {
-        "name": "responsible_section", 
-        "type": "text"
-      }, 
-      {
-        "name": "has_environmental_covenant", 
-        "type": "text"
-      }, 
-      {
-        "name": "county_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "region", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "zipcode", 
-        "type": "text"
-      }, 
-      {
-        "name": "facility_site_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "legislative_district", 
-        "type": "real"
-      }, 
-      {
-        "name": "congressional_district", 
-        "type": "real"
-      }, 
-      {
-        "name": "website", 
-        "type": "text"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "no_further_action_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "no_further_action_reason", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.wa.gov", 
-  "tableName": "cleanup_sites_in_washington_state"
+  "schema": "socrata/data.wa.gov", 
+  "status": "needs review", 
+  "table": "cleanup_sites_in_washington_state"
 }

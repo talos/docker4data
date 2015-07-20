@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_medicare_hospital_readmission_reduction/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/9n3s-kdb3/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.medicare.gov/api/views/9n3s-kdb3/rows.csv", 
   "description": "In October 2012, CMS began reducing Medicare payments for Inpatient Prospective Payment System hospitals with excess readmissions. Excess readmissions are measured by a ratio, by dividing a hospital\u2019s number of \u201cpredicted\u201d 30-day readmissions for heart attack, heart failure, and pneumonia by the number that would be \u201cexpected,\u201d based on an average hospital with similar patients. A ratio greater than 1 indicates excess readmissions.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,58 +12,7 @@
     }
   }, 
   "name": "Hospital Readmission Reduction", 
-  "schema": {
-    "columns": [
-      {
-        "name": "hospital_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "provider_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "measure_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "number_of_discharges", 
-        "type": "text"
-      }, 
-      {
-        "name": "footnote", 
-        "type": "real"
-      }, 
-      {
-        "name": "readm_ratio", 
-        "type": "real"
-      }, 
-      {
-        "name": "predicted", 
-        "type": "real"
-      }, 
-      {
-        "name": "expected", 
-        "type": "real"
-      }, 
-      {
-        "name": "number_of_readmissions", 
-        "type": "real"
-      }, 
-      {
-        "name": "start_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "end_date", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.medicare.gov", 
-  "tableName": "hospital_readmission_reduction"
+  "schema": "socrata/data.medicare.gov", 
+  "status": "needs review", 
+  "table": "hospital_readmission_reduction"
 }

@@ -1,9 +1,6 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/sidewalks/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/geospatial/vq4r-jrv2", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/geospatial/vq4r-jrv2", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -15,7 +12,7 @@
     }
   }, 
   "name": "Sidewalks", 
-  "schema": {}, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "sidewalks"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "sidewalks"
 }

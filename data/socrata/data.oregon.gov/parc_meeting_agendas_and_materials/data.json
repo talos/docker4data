@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oregon_parc_meeting_agendas_and_materials/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/tbw9-awkh/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/api/views/tbw9-awkh/rows.csv", 
   "description": "Pesticide Analytical Response Center meetings and information", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,30 +12,7 @@
     }
   }, 
   "name": "PARC meeting agendas and materials", 
-  "schema": {
-    "columns": [
-      {
-        "name": "date_of_meeting", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "agenda", 
-        "type": "text"
-      }, 
-      {
-        "name": "summary", 
-        "type": "text"
-      }, 
-      {
-        "name": "materials", 
-        "type": "text"
-      }, 
-      {
-        "name": "audio", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "parc_meeting_agendas_and_materials"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "parc_meeting_agendas_and_materials"
 }

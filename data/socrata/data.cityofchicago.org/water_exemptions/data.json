@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_water_exemptions/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/8k9i-ia3x/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/8k9i-ia3x/rows.csv", 
   "description": "List of organizations currently receiving reduced water rates by premise. Data Owner: Water Management. Time Period: Data current as of May 2012. Update Frequency: Data is updated as needed.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "Water Exemptions", 
-  "schema": {
-    "columns": [
-      {
-        "name": "customer_last_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "premises_street_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "pdir_pre", 
-        "type": "text"
-      }, 
-      {
-        "name": "premise_street_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "ssfx", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "st", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "water_exemptions"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "water_exemptions"
 }

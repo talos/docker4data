@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/act_public_art_list/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/www.data.act.gov.au/api/views/j746-krni/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/www.data.act.gov.au/api/views/j746-krni/rows.csv", 
   "description": "A list of public art works in the ACT.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "ACT Public Art List", 
-  "schema": {
-    "columns": [
-      {
-        "name": "title", 
-        "type": "text"
-      }, 
-      {
-        "name": "artist", 
-        "type": "text"
-      }, 
-      {
-        "name": "medium", 
-        "type": "text"
-      }, 
-      {
-        "name": "suburb", 
-        "type": "text"
-      }, 
-      {
-        "name": "date", 
-        "type": "real"
-      }, 
-      {
-        "name": "commissioned_details", 
-        "type": "text"
-      }, 
-      {
-        "name": "aquisition_details", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/www.data.act.gov.au", 
-  "tableName": "act_public_art_list"
+  "schema": "socrata/www.data.act.gov.au", 
+  "status": "needs review", 
+  "table": "act_public_art_list"
 }

@@ -1,0 +1,22 @@
+CREATE TABLE "public_expenditures_2002_3_to_2008_9" (
+	"year"	text,
+	"admin1"	text,
+	"admin2"	text,
+	"admin3"	text,
+	"admin4"	text,
+	"admin5"	text,
+	"admin6"	text,
+	"county"	text,
+	"district"	text,
+	"mtef_sector"	text,
+	"sub_sector"	text,
+	"econ1"	text,
+	"econ2"	text,
+	"econ3"	text,
+	"estimates"	real,
+	"revised"	real,
+	"executed"	real,
+	"a_in_a"	text,
+	"budget_type"	text,
+	"location_1"	text
+);

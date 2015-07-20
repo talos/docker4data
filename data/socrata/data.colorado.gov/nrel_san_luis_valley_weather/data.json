@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_nrel_san_luis_valley_weather/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/fph6-vi4y/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/api/views/fph6-vi4y/rows.csv", 
   "description": "Weather data for the San Luis Valley station, from June 10, 2008 to November 8, 2010. Contains data on temperature, humidity, wind, precipitation, and irradiance. Recorded and provided by NREL.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,70 +13,7 @@
     }
   }, 
   "name": "NREL San Luis Valley Weather", 
-  "schema": {
-    "columns": [
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "globalhorizontal", 
-        "type": "real"
-      }, 
-      {
-        "name": "directnormal", 
-        "type": "real"
-      }, 
-      {
-        "name": "diffusehorizontal", 
-        "type": "real"
-      }, 
-      {
-        "name": "airtemperature", 
-        "type": "real"
-      }, 
-      {
-        "name": "stationpressure", 
-        "type": "real"
-      }, 
-      {
-        "name": "avgwindspeed10m", 
-        "type": "real"
-      }, 
-      {
-        "name": "avgwinddirection10m", 
-        "type": "real"
-      }, 
-      {
-        "name": "peakwindspeed10m", 
-        "type": "real"
-      }, 
-      {
-        "name": "zenithangle", 
-        "type": "real"
-      }, 
-      {
-        "name": "azimuthangle", 
-        "type": "real"
-      }, 
-      {
-        "name": "relhumidity", 
-        "type": "real"
-      }, 
-      {
-        "name": "precipitation", 
-        "type": "real"
-      }, 
-      {
-        "name": "precipitationaccumulated", 
-        "type": "real"
-      }, 
-      {
-        "name": "airmass", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "nrel_san_luis_valley_weather"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "nrel_san_luis_valley_weather"
 }

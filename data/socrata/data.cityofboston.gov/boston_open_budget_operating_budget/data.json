@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofboston_boston_open_budget_operating_budget/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/83wv-akpx/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/api/views/83wv-akpx/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,62 +9,7 @@
     }
   }, 
   "name": "Boston Open Budget - Operating Budget", 
-  "schema": {
-    "columns": [
-      {
-        "name": "fiscal_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "cabinet", 
-        "type": "text"
-      }, 
-      {
-        "name": "department", 
-        "type": "text"
-      }, 
-      {
-        "name": "program", 
-        "type": "text"
-      }, 
-      {
-        "name": "expense_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "expense_category", 
-        "type": "text"
-      }, 
-      {
-        "name": "recommended_amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "approved_amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "account_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "fund", 
-        "type": "text"
-      }, 
-      {
-        "name": "fund_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "program_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "account_number", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "boston_open_budget_operating_budget"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "boston_open_budget_operating_budget"
 }

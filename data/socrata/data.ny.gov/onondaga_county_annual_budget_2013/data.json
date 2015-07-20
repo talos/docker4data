@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_onondaga_county_annual_budget_2013/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/gz9u-87e4/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/gz9u-87e4/rows.csv", 
   "description": "The Onondaga County Annual Budget for all departmental appropriations and revenues by major category and fund type and fund. This data includes the name of the major appropriation and revenue categories, the fund type and fund as adopted by the County Legislature for the calendar year noted (2013).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "Onondaga County Annual Budget: 2013", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "scenario", 
-        "type": "text"
-      }, 
-      {
-        "name": "version", 
-        "type": "text"
-      }, 
-      {
-        "name": "department", 
-        "type": "text"
-      }, 
-      {
-        "name": "project", 
-        "type": "text"
-      }, 
-      {
-        "name": "fund", 
-        "type": "text"
-      }, 
-      {
-        "name": "item_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "item_type_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "item", 
-        "type": "text"
-      }, 
-      {
-        "name": "amount", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "onondaga_county_annual_budget_2013"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "onondaga_county_annual_budget_2013"
 }

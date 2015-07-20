@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/vital_statistics_live_birth_by_birth_weight_and_resident_county_beginning_2008/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/b3b6-bu6t/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/health.data.ny.gov/api/views/b3b6-bu6t/rows.csv", 
   "description": "This dataset contains the number of New York State live births by the infant\u2019s birth weight in grams and the mother\u2019s county of residence. The data presented here may not be the same as the Vital Statistics tables on the DOH public web due to data updates. For more information, check out: :http://www.health.ny.gov/statistics/vital_statistics/ or go to the \"About\" tab.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Vital Statistics Live Birth by Birth Weight and Resident County: Beginning 2008", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "table", 
-        "type": "text"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "category_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "value", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/health.data.ny.gov", 
-  "tableName": "vital_statistics_live_birth_by_birth_weight_and_resident_county_beginning_2008"
+  "schema": "socrata/health.data.ny.gov", 
+  "status": "needs review", 
+  "table": "vital_statistics_live_birth_by_birth_weight_and_resident_county_beginning_2008"
 }

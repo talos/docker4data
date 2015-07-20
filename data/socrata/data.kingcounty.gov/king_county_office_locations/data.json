@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_kingcounty_king_county_office_locations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/heqd-ysmv/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.kingcounty.gov/api/views/heqd-ysmv/rows.csv", 
   "description": "Locations of all official King County government workplaces", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,78 +13,7 @@
     }
   }, 
   "name": "King County office locations", 
-  "schema": {
-    "columns": [
-      {
-        "name": "department", 
-        "type": "text"
-      }, 
-      {
-        "name": "division", 
-        "type": "text"
-      }, 
-      {
-        "name": "building", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip", 
-        "type": "text"
-      }, 
-      {
-        "name": "facility_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "ownership", 
-        "type": "text"
-      }, 
-      {
-        "name": "agreement", 
-        "type": "real"
-      }, 
-      {
-        "name": "budgeted", 
-        "type": "real"
-      }, 
-      {
-        "name": "est_1_1", 
-        "type": "real"
-      }, 
-      {
-        "name": "est_4", 
-        "type": "real"
-      }, 
-      {
-        "name": "est_3", 
-        "type": "real"
-      }, 
-      {
-        "name": "est_2", 
-        "type": "real"
-      }, 
-      {
-        "name": "parcel_id_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "downtown", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.kingcounty.gov", 
-  "tableName": "king_county_office_locations"
+  "schema": "socrata/data.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "king_county_office_locations"
 }

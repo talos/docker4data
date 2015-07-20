@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_consumerfinance_consumer_complaints/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.consumerfinance.gov/api/views/x94z-ydhh/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.consumerfinance.gov/api/views/x94z-ydhh/rows.csv", 
   "description": "Each week we send thousands of consumers' complaints about financial products and services to companies for response. Complaints are listed in the database after the company responds or after they\u2019ve had the complaint for 15 calendar days, whichever comes first.<br><br>\r\n\r\nWe publish the consumer\u2019s description of what happened if the consumer opts to share it and after taking steps to remove personal information. See our <a href=\"http://files.consumerfinance.gov/a/assets/201503_cfpb_Narrative-Scrubbing-Standard.pdf\">Scrubbing Standard</a> for more details<br><br>\r\n\r\nWe don\u2019t verify all the facts alleged in these complaints, but we take steps to confirm a commercial relationship. We may remove complaints if they don\u2019t meet all of the publication criteria. Data is refreshed nightly.<br><br>\r\n\r\n<a href=\"http://www.consumerfinance.gov/complaintdatabase/\">More about the Consumer Complaint Database</a> | <a href=\"http://www.consumerfinance.gov/complaint/data-use/\">How we use complaint data</a> | <a href=\"http://www.consumerfinance.gov/complaintdatabase/technical-documentation/\">Technical documentation</a>", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,66 +11,7 @@
     }
   }, 
   "name": "Consumer Complaints", 
-  "schema": {
-    "columns": [
-      {
-        "name": "complaint_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "product", 
-        "type": "text"
-      }, 
-      {
-        "name": "sub_product", 
-        "type": "text"
-      }, 
-      {
-        "name": "issue", 
-        "type": "text"
-      }, 
-      {
-        "name": "sub_issue", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "submitted_via", 
-        "type": "text"
-      }, 
-      {
-        "name": "date_received", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "date_sent_to_company", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "company", 
-        "type": "text"
-      }, 
-      {
-        "name": "company_response", 
-        "type": "text"
-      }, 
-      {
-        "name": "timely_response", 
-        "type": "text"
-      }, 
-      {
-        "name": "consumer_disputed", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.consumerfinance.gov", 
-  "tableName": "consumer_complaints"
+  "schema": "socrata/data.consumerfinance.gov", 
+  "status": "needs review", 
+  "table": "consumer_complaints"
 }

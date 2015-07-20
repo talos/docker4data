@@ -1,0 +1,22 @@
+CREATE TABLE "nursing_home_weekly_bed_census_last_submission" (
+	"facility_id"	text,
+	"facility_name"	text,
+	"certification_number"	text,
+	"street_address"	text,
+	"city"	text,
+	"state"	text,
+	"zip_code"	text,
+	"county"	text,
+	"area_office"	text,
+	"phone_number"	text,
+	"website"	text,
+	"bed_census_date"	timestamp,
+	"weeks_since_census"	real,
+	"data_recency_category"	real,
+	"bed_type_service_category"	text,
+	"total_capacity"	real,
+	"total_available"	real,
+	"total_available_category"	real,
+	"bed_availability_notes"	text,
+	"location"	text
+);

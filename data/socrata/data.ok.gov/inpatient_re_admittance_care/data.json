@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_inpatient_re_admittance_care/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/cdje-ypv8/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/cdje-ypv8/rows.csv", 
   "description": "Maintain the percentage of individuals receiving inpatient or crisis unit care who return within 180 days at 21% or below every year through 2018.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "Inpatient Re-Admittance Care", 
-  "schema": {
-    "columns": [
-      {
-        "name": "years", 
-        "type": "text"
-      }, 
-      {
-        "name": "historical_data", 
-        "type": "text"
-      }, 
-      {
-        "name": "target", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "inpatient_re_admittance_care"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "inpatient_re_admittance_care"
 }

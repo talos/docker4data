@@ -1,0 +1,22 @@
+CREATE TABLE "vol_ii_jedwali_3_idadi_ya_watu_waliona_miaka_3_na_za_zaidi_wanaohudhuria_shule_kulingana_na_jinsia_na_kiwango_cha_juu_cha_elimu_kilichofikiwa_katika_kaunti_2009" (
+	"kaunti"	text,
+	"asilimia_ya_wale_walio_na_masomo_ya_chekechea"	text,
+	"asilimia_ya_walio_na_masomo_ya_msingi"	text,
+	"asilimia_ya_walio_na_masomo_ya_upili"	text,
+	"asilimia_ya_walio_na_masomo_ya_juu"	text,
+	"asilimia_ya_walio_na_masomo_ya_vyuo_vikuu"	text,
+	"asilimia_ya_walio_na_masomo_ya_politeknic"	text,
+	"asilimia_ya_wanaoeza_kuandika_na_kusoma"	text,
+	"asilimia_ya_walio_na_masomo_ya_madrassa"	text,
+	"idadi_katika_shule_na_walio_na_masomo_ya_chekechea"	real,
+	"idadi_katika_shule_walio_na_masomo_ya_msingi"	real,
+	"idadi_katika_shule_walio_na_masomo_ya_upili"	real,
+	"idadi_katika_shule_walio_na_masomo_ya_juu"	real,
+	"idadi_ya_walio_na_masomo_ya_juu_kutoka_vyuo_vikuu"	real,
+	"idadi_ya_walio_na_masomo_ya_politeknik"	real,
+	"idadi_ya_wanaoweza_kusoma_na_kuandika"	real,
+	"idadi_katika_shule_za_madrassa"	real,
+	"jumla_ya_idadi_ya_watu"	real,
+	"mkoa"	text,
+	"location_1"	text
+);

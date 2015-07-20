@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_dwr_current_surface_water_conditions/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/4yw9-a5y6/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/api/views/4yw9-a5y6/rows.csv", 
   "description": "Division of Water Resources (DWR) Current Surface Water Conditions.  This is a list of all remote monitored stream, diversion, and reservoir gages within the state of Colorado.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,90 +13,7 @@
     }
   }, 
   "name": "DWR Current Surface Water Conditions", 
-  "schema": {
-    "columns": [
-      {
-        "name": "div", 
-        "type": "real"
-      }, 
-      {
-        "name": "wd", 
-        "type": "real"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "station_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "data_source", 
-        "type": "text"
-      }, 
-      {
-        "name": "dwr_abbrev", 
-        "type": "text"
-      }, 
-      {
-        "name": "usgs_station_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "station_status", 
-        "type": "text"
-      }, 
-      {
-        "name": "station_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "date_time", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "variable", 
-        "type": "text"
-      }, 
-      {
-        "name": "stage", 
-        "type": "text"
-      }, 
-      {
-        "name": "amount", 
-        "type": "text"
-      }, 
-      {
-        "name": "units", 
-        "type": "text"
-      }, 
-      {
-        "name": "flag", 
-        "type": "text"
-      }, 
-      {
-        "name": "http_linkage", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "utm_x", 
-        "type": "real"
-      }, 
-      {
-        "name": "utm_y", 
-        "type": "real"
-      }, 
-      {
-        "name": "location_accuracy", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "dwr_current_surface_water_conditions"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "dwr_current_surface_water_conditions"
 }

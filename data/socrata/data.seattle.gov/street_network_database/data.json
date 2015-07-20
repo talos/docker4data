@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/street_network_database/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/download/afip-2mzrapplication/zip; charset=binary", 
-    "type": "application/zip; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/download/afip-2mzr/application/zip", 
   "description": "The Street Network Database (SND) is a representation of the physical, land based, improved, travel pathway infrastructure and associated theoretical address ranges. The pathway representation consists of Segments and Intersection elements. A Segment is a linear graphic element that represents a continuous physical travel path terminated by path end (dead end) or physical intersection with other travel paths. Segments have one streetname, one address range and one set of segment characteristics. A Segment may have none or multiple alias streetnames. Segment types included are Freeways, Highways, Streets, Alleys (named only), Railroads, Walkways, and Bikelanes. SNDSEG is a linear feature class representing the SND Segment Feature, with attributes for Streetname, Address Range, Alias Streetname and segment Characteristics objects. Part of the Address Range and all of Streetname objects are logically shared with the Discrete Address Point-Master Address File layer. Please refer to the SND Business Rules.htm document included in the .zip file for additional information.", 
+  "load": "TODO: zip", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,7 +13,7 @@
     }
   }, 
   "name": "Street Network Database", 
-  "schema": {}, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "street_network_database"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "street_network_database"
 }

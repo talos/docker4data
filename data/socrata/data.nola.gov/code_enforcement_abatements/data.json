@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_nola_code_enforcement_abatements/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.nola.gov/api/views/xv8z-gn8b/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.nola.gov/api/views/xv8z-gn8b/rows.csv", 
   "description": "Code Enforcement - Abatements", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,70 +11,7 @@
     }
   }, 
   "name": "Code Enforcement - Abatements", 
-  "schema": {
-    "columns": [
-      {
-        "name": "caseno", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "o_c", 
-        "type": "text"
-      }, 
-      {
-        "name": "judgment", 
-        "type": "text"
-      }, 
-      {
-        "name": "eventname", 
-        "type": "text"
-      }, 
-      {
-        "name": "status", 
-        "type": "text"
-      }, 
-      {
-        "name": "exitreason", 
-        "type": "text"
-      }, 
-      {
-        "name": "datefiled", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "dateclosed", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "dateenteredabatement", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "stage", 
-        "type": "text"
-      }, 
-      {
-        "name": "xpos", 
-        "type": "real"
-      }, 
-      {
-        "name": "ypos", 
-        "type": "real"
-      }, 
-      {
-        "name": "caseid", 
-        "type": "real"
-      }, 
-      {
-        "name": "lastupload", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.nola.gov", 
-  "tableName": "code_enforcement_abatements"
+  "schema": "socrata/data.nola.gov", 
+  "status": "needs review", 
+  "table": "code_enforcement_abatements"
 }

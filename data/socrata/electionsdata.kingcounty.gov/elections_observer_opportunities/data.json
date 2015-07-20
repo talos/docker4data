@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/elections_observer_opportunities/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/electionsdata.kingcounty.gov/api/views/n8nx-vmcd/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/electionsdata.kingcounty.gov/api/views/n8nx-vmcd/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -14,26 +10,7 @@
     }
   }, 
   "name": "Elections Observer Opportunities", 
-  "schema": {
-    "columns": [
-      {
-        "name": "observer_event", 
-        "type": "text"
-      }, 
-      {
-        "name": "start_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "end_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "link", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/electionsdata.kingcounty.gov", 
-  "tableName": "elections_observer_opportunities"
+  "schema": "socrata/electionsdata.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "elections_observer_opportunities"
 }

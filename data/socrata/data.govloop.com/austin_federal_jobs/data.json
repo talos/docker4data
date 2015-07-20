@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_govloop_austin_federal_jobs/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.govloop.com/api/views/ibir-deba/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.govloop.com/api/views/ibir-deba/rows.csv", 
   "description": "List of federal jobs and agencies in Austin", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,22 +12,7 @@
     }
   }, 
   "name": "Austin Federal Jobs", 
-  "schema": {
-    "columns": [
-      {
-        "name": "agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "details", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.govloop.com", 
-  "tableName": "austin_federal_jobs"
+  "schema": "socrata/data.govloop.com", 
+  "status": "needs review", 
+  "table": "austin_federal_jobs"
 }

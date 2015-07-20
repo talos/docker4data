@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/order_and_referring/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cms.gov/api/views/qcn7-gc3g/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cms.gov/api/views/qcn7-gc3g/rows.csv", 
   "description": "Order and Referring data file has National Provider Identifier (NPI) and legal name (last name, first name) of all physicians and non-physician practitioners who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare (i.e., they have enrollment records in PECOS)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "Order and Referring", 
-  "schema": {
-    "columns": [
-      {
-        "name": "npi", 
-        "type": "real"
-      }, 
-      {
-        "name": "last_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "first_name", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cms.gov", 
-  "tableName": "order_and_referring"
+  "schema": "socrata/data.cms.gov", 
+  "status": "needs review", 
+  "table": "order_and_referring"
 }

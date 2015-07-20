@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_idol_illinois_minimum_wage/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/y63e-f8gg/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/y63e-f8gg/rows.csv", 
   "description": "Guarantees a minimum wage per hour for workers 18 years of age and older.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,18 +13,7 @@
     }
   }, 
   "name": "IDOL Illinois Minimum Wage", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "text"
-      }, 
-      {
-        "name": "rate", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "idol_illinois_minimum_wage"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "idol_illinois_minimum_wage"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_medicare_healthcare_associated_infections_hospital/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/77hc-ibv8/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.medicare.gov/api/views/77hc-ibv8/rows.csv", 
   "description": "The\u00a0Healthcare-Associated Infection (HAI)\u00a0measures - provider data. These measures are developed by\u00a0Centers for Disease Control and Prevention (CDC)\u00a0and collected through the\u00a0National Healthcare Safety Network (NHSN). They provide information on infections that occur while the patient is in the hospital. These infections can be related to devices, such as central lines and urinary catheters, or spread from patient to patient after contact with an infected person or surface. Many healthcare associated infections can be prevented when the hospitals use\u00a0CDC-recommended infection control steps.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,74 +12,7 @@
     }
   }, 
   "name": "Healthcare Associated Infections - Hospital", 
-  "schema": {
-    "columns": [
-      {
-        "name": "provider_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "hospital_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "county_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "measure_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "measure_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "compared_to_national", 
-        "type": "text"
-      }, 
-      {
-        "name": "score", 
-        "type": "text"
-      }, 
-      {
-        "name": "footnote", 
-        "type": "text"
-      }, 
-      {
-        "name": "measure_start_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "measure_end_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.medicare.gov", 
-  "tableName": "healthcare_associated_infections_hospital"
+  "schema": "socrata/data.medicare.gov", 
+  "status": "needs review", 
+  "table": "healthcare_associated_infections_hospital"
 }

@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/usgs_3_75_minute_quarter_quadrangle_boundaries/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/geospatial/8r3c-cnbt", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/geospatial/8r3c-cnbt", 
   "description": "This is a polygon feature class representing the boundaries of USGS 3.5 min quadrangle grid for Travis County, Texas. Data obtained from Texas Natural Resources Information System and clipped to Travis County extent. This data has been produced by the City of Austin for the sole purpose of aiding regional planning and is not warranted for any other use. No warranty is made by the City regarding its accuracy or completeness.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,9 +14,7 @@
     }
   }, 
   "name": "USGS 3.75 minute quarter quadrangle boundaries", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "usgs_3_75_minute_quarter_quadrangle_boundaries"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "usgs_3_75_minute_quarter_quadrangle_boundaries"
 }

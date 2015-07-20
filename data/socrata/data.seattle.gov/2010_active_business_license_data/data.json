@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_2010_active_business_license_data/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/evxh-x3jp/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/evxh-x3jp/rows.csv", 
   "description": "Dataset contains active business license data for the City of Seattle for 2010", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "2010 Active Business License Data", 
-  "schema": {
-    "columns": [
-      {
-        "name": "business_legal_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "ownership_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "trade_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "naics_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "naics_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "sic_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "sic_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "license_start_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "city_state_zip", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "2010_active_business_license_data"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "2010_active_business_license_data"
 }

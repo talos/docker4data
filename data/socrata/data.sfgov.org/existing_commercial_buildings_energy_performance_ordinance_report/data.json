@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/existing_commercial_buildings_energy_performance_ordinance_report/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/j2j3-acqj/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sfgov.org/api/views/j2j3-acqj/rows.csv", 
   "description": "Data as of 7/1/2015. \r\n\r\nThe Existing Commercial Buildings Energy Performance Ordinance (Environment Code Chapter 20) requires that each non-residential building with at least 10,000 square feet of conditioned (heated or cooled) space must be benchmarked using Energy Star Portfolio Manager annually, and undergo an energy audit or retrocommissioning at least once every 5 years. More information: www.sfenvironment.org/ecb This dataset lists compliance status for private-sector (non-municipal) properties where the owner has been notified a building is subject to the ordinance. Fields reported will expand in subsequent releases, and will include energy use intensity, the 1-100 Portfolio Manager rating, and estimated greenhouse gas emissions from annual energy consumption.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,78 +13,7 @@
     }
   }, 
   "name": "Existing Commercial Buildings Energy Performance Ordinance Report", 
-  "schema": {
-    "columns": [
-      {
-        "name": "parcel_s", 
-        "type": "text"
-      }, 
-      {
-        "name": "building_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "building_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "building_zip", 
-        "type": "real"
-      }, 
-      {
-        "name": "neighborhood", 
-        "type": "text"
-      }, 
-      {
-        "name": "sq_ftg_group", 
-        "type": "text"
-      }, 
-      {
-        "name": "floor_area", 
-        "type": "real"
-      }, 
-      {
-        "name": "pim_link", 
-        "type": "text"
-      }, 
-      {
-        "name": "benchmark_2010_status", 
-        "type": "text"
-      }, 
-      {
-        "name": "benchmark_2011_status", 
-        "type": "text"
-      }, 
-      {
-        "name": "benchmark_2012_status", 
-        "type": "text"
-      }, 
-      {
-        "name": "benchmark_2013_status", 
-        "type": "text"
-      }, 
-      {
-        "name": "benchmark_2014_status", 
-        "type": "text"
-      }, 
-      {
-        "name": "energy_audit_due_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "energy_audit_status", 
-        "type": "text"
-      }, 
-      {
-        "name": "mapblklot", 
-        "type": "text"
-      }, 
-      {
-        "name": "full_address", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sfgov.org", 
-  "tableName": "existing_commercial_buildings_energy_performance_ordinance_report"
+  "schema": "socrata/data.sfgov.org", 
+  "status": "needs review", 
+  "table": "existing_commercial_buildings_energy_performance_ordinance_report"
 }

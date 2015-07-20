@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/scholarship_recipients_and_dollars_by_college_code_beginning_2009/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/ww7t-w8k9/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/ww7t-w8k9/rows.csv", 
   "description": "This data includes the number of Scholarship award recipients and dollar amounts by TAP college code beginning academic year 2009 (for HESC-administered scholarships only)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "Scholarship Recipients And Dollars By College Code: Beginning 2009", 
-  "schema": {
-    "columns": [
-      {
-        "name": "academic_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "tap_college_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "federal_school_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "tap_college_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "tap_sector_group", 
-        "type": "text"
-      }, 
-      {
-        "name": "scholarship_headcount", 
-        "type": "real"
-      }, 
-      {
-        "name": "scholarship_fte", 
-        "type": "real"
-      }, 
-      {
-        "name": "scholarship_dollars", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "scholarship_recipients_and_dollars_by_college_code_beginning_2009"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "scholarship_recipients_and_dollars_by_college_code_beginning_2009"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_beach_water_quality_automated_sensors/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/qmqz-2xku/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/qmqz-2xku/rows.csv", 
   "description": "The Chicago Park District maintains sensors at beaches along Chicago's Lake Michigan lakefront. These sensors generally capture the indicated measurements hourly while the sensors are in operation during the summer.  During other seasons and at some other times, information from the sensors may not be available.  See https://data.cityofchicago.org/id/tz6n-cnmj for a filtered view of this dataset that hides some off-season and other records without generally useful data.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "Beach Water Quality - Automated Sensors", 
-  "schema": {
-    "columns": [
-      {
-        "name": "beach_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "measurement_timestamp", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "water_temperature", 
-        "type": "real"
-      }, 
-      {
-        "name": "turbidity", 
-        "type": "real"
-      }, 
-      {
-        "name": "transducer_depth", 
-        "type": "real"
-      }, 
-      {
-        "name": "wave_height", 
-        "type": "real"
-      }, 
-      {
-        "name": "wave_period", 
-        "type": "real"
-      }, 
-      {
-        "name": "battery_life", 
-        "type": "real"
-      }, 
-      {
-        "name": "measurement_timestamp_label", 
-        "type": "text"
-      }, 
-      {
-        "name": "measurement_id", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "beach_water_quality_automated_sensors"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "beach_water_quality_automated_sensors"
 }

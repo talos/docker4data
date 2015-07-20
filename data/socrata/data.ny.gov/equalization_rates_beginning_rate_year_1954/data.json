@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_equalization_rates_beginning_rate_year_1954/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/e6pv-77bh/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/e6pv-77bh/rows.csv", 
   "description": "The Department of Taxation and Finance annually establishes an equalization rate for assessing taxing jurisdictions to determine at what level of market value those jurisdictions are assessing.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "Equalization Rates:  Beginning Rate Year 1954", 
-  "schema": {
-    "columns": [
-      {
-        "name": "rate_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "swis_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "type", 
-        "type": "text"
-      }, 
-      {
-        "name": "county_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "municipality_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "village_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "equalization_rate", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "equalization_rates_beginning_rate_year_1954"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "equalization_rates_beginning_rate_year_1954"
 }

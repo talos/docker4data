@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_ides_labor_force_estimates_annual_averages/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/788k-bkk7/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/788k-bkk7/rows.csv", 
   "description": "Illinois Labor Force Estimates, annual averages", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "IDES - Labor Force Estimates, annual averages", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "text"
-      }, 
-      {
-        "name": "labor_force", 
-        "type": "text"
-      }, 
-      {
-        "name": "employed", 
-        "type": "text"
-      }, 
-      {
-        "name": "unemployed_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "unemployed_rate", 
-        "type": "text"
-      }, 
-      {
-        "name": "u_s_rate", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "ides_labor_force_estimates_annual_averages"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "ides_labor_force_estimates_annual_averages"
 }

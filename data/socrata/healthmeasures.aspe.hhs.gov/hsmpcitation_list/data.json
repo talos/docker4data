@@ -1,9 +1,6 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/hsmpcitation_list/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/download/edar-pmrfapplication/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/download/edar-pmrf/application/pdf", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,7 +10,7 @@
     }
   }, 
   "name": "HSMPCitation List", 
-  "schema": {}, 
-  "schemaName": "socrata/healthmeasures.aspe.hhs.gov", 
-  "tableName": "hsmpcitation_list"
+  "schema": "socrata/healthmeasures.aspe.hhs.gov", 
+  "status": "needs review", 
+  "table": "hsmpcitation_list"
 }

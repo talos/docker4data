@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_tif_district_programming_2014_2018/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/ycd5-punx/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/ycd5-punx/rows.csv", 
   "description": "The TIF District Programming dataset contains amounts shown in the TIF District Programming 2014-2018 reports. The report and corresponding dataset show estimated fund and project balances through the end of FY 2013. Amounts shown in columns 2014 through 2018 reflect known obligations and proposed projects at the time of publishing as well as estimates of revenue based on the most recent data available from the Cook County Clerk.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "TIF District Programming 2014-2018", 
-  "schema": {
-    "columns": [
-      {
-        "name": "tif_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "tif_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "time_period", 
-        "type": "text"
-      }, 
-      {
-        "name": "type", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "amount", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "tif_district_programming_2014_2018"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "tif_district_programming_2014_2018"
 }

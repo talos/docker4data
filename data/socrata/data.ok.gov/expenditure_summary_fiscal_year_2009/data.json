@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_expenditure_summary_fiscal_year_2009/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/hdrp-he47/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/hdrp-he47/rows.csv", 
   "description": "Provides expenditure data summarized by each agency and general ledger account.  The general ledger account may be viewed by major class, sub-class or detail expenditure code.  Examples of the major class expenditure category include:\r\n\u2022\tPersonal Services \r\n\u2022\tTravel Expenses \r\n\u2022\tAdministrative Expense \r\n\u2022\tProperty, Furniture, Equipment and Related Debt \r\n\u2022\tGeneral Assistance, Awards, Grants, & Other \r\n\u2022\tProgram-Directed Payments \r\n\u2022\tTransfers and Other Disbursements", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,54 +13,7 @@
     }
   }, 
   "name": "Expenditure Summary - Fiscal Year 2009", 
-  "schema": {
-    "columns": [
-      {
-        "name": "agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "ocp_agncy_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "account_major_class", 
-        "type": "text"
-      }, 
-      {
-        "name": "account_description_major_class", 
-        "type": "text"
-      }, 
-      {
-        "name": "account_sub_class", 
-        "type": "text"
-      }, 
-      {
-        "name": "account_description_sub_class", 
-        "type": "text"
-      }, 
-      {
-        "name": "account", 
-        "type": "text"
-      }, 
-      {
-        "name": "account_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "fiscal_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "accounting_period", 
-        "type": "real"
-      }, 
-      {
-        "name": "amount", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "expenditure_summary_fiscal_year_2009"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "expenditure_summary_fiscal_year_2009"
 }

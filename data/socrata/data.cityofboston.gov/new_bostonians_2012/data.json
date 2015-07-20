@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/new_bostonians_2012/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/download/wxg8-3bbqapplication/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/download/wxg8-3bbq/application/pdf", 
   "description": "New Bostonians 2012 is the BRA's latest overview of the foreign-born population in Boston. This report provides a demographic and economic snapshot of Boston\u2019s foreign-born population. This recent update contains new data and calculations using the most recent American Community Survey, a yearly survey by the U.S. Census Bureau to allow communities to see how they are changing in the years between decennial censuses.", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,9 +13,7 @@
     }
   }, 
   "name": "New Bostonians 2012", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "new_bostonians_2012"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "new_bostonians_2012"
 }

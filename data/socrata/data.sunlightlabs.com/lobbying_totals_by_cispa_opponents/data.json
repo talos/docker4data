@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sunlightlabs_lobbying_totals_by_cispa_opponents/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sunlightlabs.com/api/views/jhe8-cki6/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sunlightlabs.com/api/views/jhe8-cki6/rows.csv", 
   "description": "Lobbying totals from 2011 - 2012 (through third quarter of 2012). Data provided by Influence Explorer, Maplight", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,18 +12,7 @@
     }
   }, 
   "name": "Lobbying totals by CISPA opponents", 
-  "schema": {
-    "columns": [
-      {
-        "name": "organization", 
-        "type": "text"
-      }, 
-      {
-        "name": "amount", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sunlightlabs.com", 
-  "tableName": "lobbying_totals_by_cispa_opponents"
+  "schema": "socrata/data.sunlightlabs.com", 
+  "status": "needs review", 
+  "table": "lobbying_totals_by_cispa_opponents"
 }

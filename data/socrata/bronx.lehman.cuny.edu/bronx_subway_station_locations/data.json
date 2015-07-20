@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/bronx_subway_station_locations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/s5sh-5br4/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/s5sh-5br4/rows.csv", 
   "description": "Bronx Subway Station Locations", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,6 @@
     }
   }, 
   "name": "Bronx Subway Station Locations", 
-  "schema": {
-    "columns": [
-      {
-        "name": "name_cur", 
-        "type": "text"
-      }, 
-      {
-        "name": "stop_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "stop_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "stop_lat", 
-        "type": "text"
-      }, 
-      {
-        "name": "routes_wkd", 
-        "type": "text"
-      }, 
-      {
-        "name": "routes_off", 
-        "type": "text"
-      }, 
-      {
-        "name": "routes_all", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/bronx.lehman.cuny.edu", 
-  "tableName": "bronx_subway_station_locations"
+  "schema": "socrata/bronx.lehman.cuny.edu", 
+  "table": "bronx_subway_station_locations"
 }

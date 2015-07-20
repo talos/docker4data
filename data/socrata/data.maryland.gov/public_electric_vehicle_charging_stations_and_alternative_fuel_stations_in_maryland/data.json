@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/public_electric_vehicle_charging_stations_and_alternative_fuel_stations_in_maryland/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/843n-d2np/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/843n-d2np/rows.csv", 
   "description": "It takes a lot of fuel to move Marylanders from point \u201cA\u201d to point \u201cB.\u201d The Maryland Energy Administration (MEA) offers incentives to reduce the amount of energy residents expend on travel. This table includes information about electric vehicle charging stations and alternative refueling stations that received funding by MEA as well as those that did not. Data on non-MEA funding projects in Maryland is from the U.S. Department of Energy: http://1.usa.gov/13VN2Vi. For more information on Maryland's transportation programs, visit: http://energy.maryland.gov/Transportation/index.html", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,50 +12,7 @@
     }
   }, 
   "name": "Public Electric Vehicle Charging Stations and Alternative Fuel Stations in Maryland", 
-  "schema": {
-    "columns": [
-      {
-        "name": "program", 
-        "type": "text"
-      }, 
-      {
-        "name": "program_link", 
-        "type": "text"
-      }, 
-      {
-        "name": "station_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "mea_contribution", 
-        "type": "real"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zipcode", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "available_to_the_public", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "public_electric_vehicle_charging_stations_and_alternative_fuel_stations_in_maryland"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "public_electric_vehicle_charging_stations_and_alternative_fuel_stations_in_maryland"
 }

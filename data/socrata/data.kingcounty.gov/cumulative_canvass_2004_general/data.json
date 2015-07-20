@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_kingcounty_cumulative_canvass_2004_general/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/y923-fti2/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.kingcounty.gov/api/views/y923-fti2/rows.csv", 
   "description": "Cumulative Canvass for King County WA, 2004 General Election", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "Cumulative Canvass : 2004 General", 
-  "schema": {
-    "columns": [
-      {
-        "name": "leg", 
-        "type": "real"
-      }, 
-      {
-        "name": "cc", 
-        "type": "real"
-      }, 
-      {
-        "name": "precinct", 
-        "type": "text"
-      }, 
-      {
-        "name": "race", 
-        "type": "text"
-      }, 
-      {
-        "name": "counttype", 
-        "type": "text"
-      }, 
-      {
-        "name": "countergroup", 
-        "type": "text"
-      }, 
-      {
-        "name": "count", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.kingcounty.gov", 
-  "tableName": "cumulative_canvass_2004_general"
+  "schema": "socrata/data.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "cumulative_canvass_2004_general"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/google_analytics_sessions_on_austintexas_gov/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/dcfk-vk6w/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/views/dcfk-vk6w/rows.csv", 
   "description": "This data, exported from Google Analytics, demonstrates group of interactions that took place on Austintexas.gov pages within a one-month time frame. A single session can contain multiple screen or page views, events, social interactions, and ecommerce transactions.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,18 +12,7 @@
     }
   }, 
   "name": "Google Analytics Sessions on Austintexas.gov", 
-  "schema": {
-    "columns": [
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "sessions", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "google_analytics_sessions_on_austintexas_gov"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "google_analytics_sessions_on_austintexas_gov"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_nyc_open_data_plan_dashboard_values/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/fwt3-keqw/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/fwt3-keqw/rows.csv", 
   "description": "A listing of all available and planned datasets for use in feeding API calls and embedded lists on the NYC Open Data Compliance Plan Dashboard", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,42 +12,7 @@
     }
   }, 
   "name": "NYC Open Data Plan Dashboard Values", 
-  "schema": {
-    "columns": [
-      {
-        "name": "agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "dataset", 
-        "type": "text"
-      }, 
-      {
-        "name": "dataset_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "update_frequency", 
-        "type": "text"
-      }, 
-      {
-        "name": "planned_release_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "available", 
-        "type": "text"
-      }, 
-      {
-        "name": "link", 
-        "type": "text"
-      }, 
-      {
-        "name": "behind_schedule", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "nyc_open_data_plan_dashboard_values"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "nyc_open_data_plan_dashboard_values"
 }

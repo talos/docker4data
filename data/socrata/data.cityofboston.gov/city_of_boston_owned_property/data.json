@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/city_of_boston_owned_property/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/geospatial/rsyv-u23m", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/api/geospatial/rsyv-u23m", 
   "description": "Buildings and space owned by the City of Boston", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,9 +14,7 @@
     }
   }, 
   "name": "City of Boston Owned Property", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "city_of_boston_owned_property"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "city_of_boston_owned_property"
 }

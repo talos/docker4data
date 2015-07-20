@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_children_in_foster_care_annually_beginning_1994/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/hfc5-3hsu/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/hfc5-3hsu/rows.csv", 
   "description": "The purpose of this data set is to provide information on the total number of admissions, discharges, and children in foster care, the type of care, and total Child Protective Services (CPS) reports indicated during period.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,78 +13,7 @@
     }
   }, 
   "name": "Children in Foster Care Annually:  Beginning 1994", 
-  "schema": {
-    "columns": [
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "adoptive_home", 
-        "type": "real"
-      }, 
-      {
-        "name": "agency_operated_boarding_home", 
-        "type": "real"
-      }, 
-      {
-        "name": "approved_relative_home", 
-        "type": "real"
-      }, 
-      {
-        "name": "foster_boarding_home", 
-        "type": "real"
-      }, 
-      {
-        "name": "group_home", 
-        "type": "real"
-      }, 
-      {
-        "name": "group_residence", 
-        "type": "real"
-      }, 
-      {
-        "name": "institution", 
-        "type": "real"
-      }, 
-      {
-        "name": "supervised_independent_living", 
-        "type": "real"
-      }, 
-      {
-        "name": "other", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_days_in_care", 
-        "type": "real"
-      }, 
-      {
-        "name": "admissions", 
-        "type": "real"
-      }, 
-      {
-        "name": "discharges", 
-        "type": "real"
-      }, 
-      {
-        "name": "children_in_care", 
-        "type": "real"
-      }, 
-      {
-        "name": "number_of_children_served", 
-        "type": "real"
-      }, 
-      {
-        "name": "indicated_cps_reports", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "children_in_foster_care_annually_beginning_1994"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "children_in_foster_care_annually_beginning_1994"
 }

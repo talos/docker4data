@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_montgomerycountymd_cip_project_phase_list/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/79k8-wsem/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/79k8-wsem/rows.csv", 
   "description": "A list of Project Phases the County employs in managing and tracking its capital projects.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,26 +12,7 @@
     }
   }, 
   "name": "CIP Project Phase List", 
-  "schema": {
-    "columns": [
-      {
-        "name": "phase_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "phase_step_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "phase_step_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "phase_step_description", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.montgomerycountymd.gov", 
-  "tableName": "cip_project_phase_list"
+  "schema": "socrata/data.montgomerycountymd.gov", 
+  "status": "needs review", 
+  "table": "cip_project_phase_list"
 }

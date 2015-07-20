@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/medicaid_beneficiaries_inpatient_admissions_and_emergency_room_visits_by_zip_code_beginning_2012/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/m2wt-pje4/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/health.data.ny.gov/api/views/m2wt-pje4/rows.csv", 
   "description": "This data set contains statewide Medicaid beneficiary counts by valid NYS five digit zip code. Also in this file are counts of beneficiaries who are dual eligible for Medicaid and Medicare, total inpatient admissions, total emergency room visits, and Prevention Quality Indicator-Adult (PQI) admissions.  \r\n\r\nFor more information, go to http://www.health.ny.gov/health_care/medicaid/, or go to the \"About\" tab.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,114 +13,7 @@
     }
   }, 
   "name": "Medicaid Beneficiaries, Inpatient Admissions and Emergency Room Visits by Zip Code: Beginning 2012", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "total_n", 
-        "type": "real"
-      }, 
-      {
-        "name": "dual_n", 
-        "type": "real"
-      }, 
-      {
-        "name": "nondual_n", 
-        "type": "real"
-      }, 
-      {
-        "name": "child_n", 
-        "type": "real"
-      }, 
-      {
-        "name": "adult_n", 
-        "type": "real"
-      }, 
-      {
-        "name": "dual_recip_admit", 
-        "type": "real"
-      }, 
-      {
-        "name": "dual_admits", 
-        "type": "real"
-      }, 
-      {
-        "name": "nondual_recip_admit", 
-        "type": "real"
-      }, 
-      {
-        "name": "nondual_admits", 
-        "type": "real"
-      }, 
-      {
-        "name": "recip_admit", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_admits", 
-        "type": "real"
-      }, 
-      {
-        "name": "dual_er_recip", 
-        "type": "real"
-      }, 
-      {
-        "name": "dual_er_visits", 
-        "type": "real"
-      }, 
-      {
-        "name": "nondual_er_recip", 
-        "type": "real"
-      }, 
-      {
-        "name": "nondual_er_visits", 
-        "type": "real"
-      }, 
-      {
-        "name": "all_er_recip", 
-        "type": "real"
-      }, 
-      {
-        "name": "all_er_visits", 
-        "type": "real"
-      }, 
-      {
-        "name": "dual_pqi_adults", 
-        "type": "real"
-      }, 
-      {
-        "name": "dual_pqis", 
-        "type": "real"
-      }, 
-      {
-        "name": "nondual_pqi_adults", 
-        "type": "real"
-      }, 
-      {
-        "name": "nondual_pqis", 
-        "type": "real"
-      }, 
-      {
-        "name": "all_pqi_adults", 
-        "type": "real"
-      }, 
-      {
-        "name": "all_pqis", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/health.data.ny.gov", 
-  "tableName": "medicaid_beneficiaries_inpatient_admissions_and_emergency_room_visits_by_zip_code_beginning_2012"
+  "schema": "socrata/health.data.ny.gov", 
+  "status": "needs review", 
+  "table": "medicaid_beneficiaries_inpatient_admissions_and_emergency_room_visits_by_zip_code_beginning_2012"
 }

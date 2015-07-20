@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_nola_library_cardholders_2012_present_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.nola.gov/api/views/vsuc-xd5b/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.nola.gov/api/views/vsuc-xd5b/rows.csv", 
   "description": "This data set includes data on library cardholders by month, including new registrants, the number who used their card in the last month, and the number who used their card in the last three years for the New Orleans Public Library system. After three years, users are dropped from the database, so this is considered the total library cardholders count. This data also includes the annual population estimate as of July 1 for the previous year (unrevised) from the U.S. Census Bureau, Population Division. The percent of the population who used a library card in the last 3 years for the current month (monthly #/population estimate) and year-to-date (average of monthly #s for the months so far in the year / population estimate) are calculated using this  population estimate and included as well.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "Library Cardholders (2012 - Present)", 
-  "schema": {
-    "columns": [
-      {
-        "name": "rowid", 
-        "type": "text"
-      }, 
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "month", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "indicatorname", 
-        "type": "text"
-      }, 
-      {
-        "name": "indicatorvalue", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.nola.gov", 
-  "tableName": "library_cardholders_2012_present_"
+  "schema": "socrata/data.nola.gov", 
+  "status": "needs review", 
+  "table": "library_cardholders_2012_present_"
 }

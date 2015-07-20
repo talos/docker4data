@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/election_results_november_4_2008_general_cumulative/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/7x99-befe/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.kingcounty.gov/api/views/7x99-befe/rows.csv", 
   "description": "Detailed cumulative results for November 4, 2008 General Election. Tutorial available here: http://www.kingcounty.gov/elections/results/opendatatutorial.aspx", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "Election results - November 4, 2008 General  - Cumulative", 
-  "schema": {
-    "columns": [
-      {
-        "name": "race", 
-        "type": "text"
-      }, 
-      {
-        "name": "precinct", 
-        "type": "text"
-      }, 
-      {
-        "name": "cc", 
-        "type": "real"
-      }, 
-      {
-        "name": "leg", 
-        "type": "real"
-      }, 
-      {
-        "name": "cong", 
-        "type": "real"
-      }, 
-      {
-        "name": "party", 
-        "type": "text"
-      }, 
-      {
-        "name": "countertype", 
-        "type": "text"
-      }, 
-      {
-        "name": "countergroup", 
-        "type": "text"
-      }, 
-      {
-        "name": "count", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.kingcounty.gov", 
-  "tableName": "election_results_november_4_2008_general_cumulative"
+  "schema": "socrata/data.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "election_results_november_4_2008_general_cumulative"
 }

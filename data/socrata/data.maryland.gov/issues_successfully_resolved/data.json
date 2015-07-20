@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_issues_successfully_resolved/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/4upk-ng23/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/4upk-ng23/rows.csv", 
   "description": "When DBED successfully delivers a service that has been requested by an Account.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,38 +12,7 @@
     }
   }, 
   "name": "Issues Successfully Resolved", 
-  "schema": {
-    "columns": [
-      {
-        "name": "account_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "description_goal", 
-        "type": "text"
-      }, 
-      {
-        "name": "status_outcome", 
-        "type": "text"
-      }, 
-      {
-        "name": "account_county", 
-        "type": "text"
-      }, 
-      {
-        "name": "new_jobs", 
-        "type": "text"
-      }, 
-      {
-        "name": "at_risk_jobs", 
-        "type": "text"
-      }, 
-      {
-        "name": "close_date", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "issues_successfully_resolved"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "issues_successfully_resolved"
 }

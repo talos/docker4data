@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_911_addressing_street_name_master_list/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/kumu-nbtd/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/views/kumu-nbtd/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -14,30 +10,7 @@
     }
   }, 
   "name": "911 Addressing - Street Name Master List", 
-  "schema": {
-    "columns": [
-      {
-        "name": "direction", 
-        "type": "text"
-      }, 
-      {
-        "name": "pre_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "status", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "911_addressing_street_name_master_list"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "911_addressing_street_name_master_list"
 }

@@ -1,9 +1,6 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/energy_star_certified_non_ahri_central_air_conditioner_equipme/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.energystar.gov/api/views/cker-n33t/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.energystar.gov/api/views/cker-n33t/rows.csv", 
   "description": "Certified models meet all ENERGY STAR requirements as listed in the Version 4.1 ENERGY STAR Program Requirements for Air Source Heat Pump and Central Air Conditioner Equipment that are effective as of January 1, 2009. A detailed listing of key efficiency criteria are available at http://www.energystar.gov/index.cfm?c=airsrc_heat.pr_crit_as_heat_pumps Listed products have been submitted to EPA by ENERGY STAR partners that do not participate in the AHRI certification program. EPA will continue to update this list with products that are certified by EPA-recognized certification bodies other than AHRI. The majority of ENERGY STAR products, certified by AHRI, can be found on the CEE/AHRI Verified Directory at http://www.ceedirectory.org/", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,90 +13,7 @@
     }
   }, 
   "name": "ENERGY STAR Certified Non-AHRI Central Air Conditioner Equipment and Air Source Heat Pump", 
-  "schema": {
-    "columns": [
-      {
-        "name": "pd_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "manufacturer_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "energy_star_partner", 
-        "type": "text"
-      }, 
-      {
-        "name": "brand_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "outdoor_unit_manufacturer", 
-        "type": "text"
-      }, 
-      {
-        "name": "outdoor_model_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "model_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "model_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "indoor_unit_model_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "additional_model_information", 
-        "type": "text"
-      }, 
-      {
-        "name": "product_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "seer_btu_wh", 
-        "type": "real"
-      }, 
-      {
-        "name": "eer_btu_wh", 
-        "type": "real"
-      }, 
-      {
-        "name": "hspf_btu_wh", 
-        "type": "real"
-      }, 
-      {
-        "name": "capacity_btu_h", 
-        "type": "real"
-      }, 
-      {
-        "name": "date_available_on_market", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "date_qualified", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "markets", 
-        "type": "text"
-      }, 
-      {
-        "name": "energy_star_model_identifier", 
-        "type": "text"
-      }, 
-      {
-        "name": "meets_most_efficient_criteria", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.energystar.gov", 
-  "tableName": "energy_star_certified_non_ahri_central_air_conditioner_equipme"
+  "schema": "socrata/data.energystar.gov", 
+  "status": "needs review", 
+  "table": "energy_star_certified_non_ahri_central_air_conditioner_equipme"
 }

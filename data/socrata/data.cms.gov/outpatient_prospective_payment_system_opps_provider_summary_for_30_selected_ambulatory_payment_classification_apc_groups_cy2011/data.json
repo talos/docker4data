@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/outpatient_prospective_payment_system_opps_provider_summary_for_30_selected_ambulatory_payment_classification_apc_groups_cy2011/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cms.gov/api/views/sq7j-n2ta/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cms.gov/api/views/sq7j-n2ta/rows.csv", 
   "description": "A provider level summary of Outpatient Prospective Payment System (OPPS) average estimated submitted charges and average Medicare Payments for 30 selected Ambulatory Payment Classification  (APC) Groups.\r\n9/04/2013 UPDATE: As a result of using the OPPS ratesetting process to develop the summary of outpatient charge and payment data, we inadvertently excluded claims data for visit APCs 0604 (\u201cLevel 1 Hospital Clinic Visits\u201d) and 0607 (\u201cLevel 4 Hospital Clinic Visits\u201d).  The revised outpatient data reflects changes to correct this, with volume increases in the summarized data for APCs 0604 and 0607.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,54 +13,7 @@
     }
   }, 
   "name": "Outpatient Prospective Payment System (OPPS) Provider Summary for 30 Selected Ambulatory Payment Classification  (APC) Groups  - CY2011", 
-  "schema": {
-    "columns": [
-      {
-        "name": "apc", 
-        "type": "text"
-      }, 
-      {
-        "name": "provider_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "provider_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "provider_street_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "provider_city", 
-        "type": "text"
-      }, 
-      {
-        "name": "provider_state", 
-        "type": "text"
-      }, 
-      {
-        "name": "provider_zip_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "hospital_referral_region_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "outpatient_services", 
-        "type": "real"
-      }, 
-      {
-        "name": "average_estimated_submitted_charges", 
-        "type": "real"
-      }, 
-      {
-        "name": "average_medicare_payments", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cms.gov", 
-  "tableName": "outpatient_prospective_payment_system_opps_provider_summary_for_30_selected_ambulatory_payment_classification_apc_groups_cy2011"
+  "schema": "socrata/data.cms.gov", 
+  "status": "needs review", 
+  "table": "outpatient_prospective_payment_system_opps_provider_summary_for_30_selected_ambulatory_payment_classification_apc_groups_cy2011"
 }

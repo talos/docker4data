@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_law_press_releases/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/kewa-q4dq/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/kewa-q4dq/rows.csv", 
   "description": "The Law Department issues press releases on major cases as a service to the media and the public.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "LAW Press Releases", 
-  "schema": {
-    "columns": [
-      {
-        "name": "press_release_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "press_release_title", 
-        "type": "text"
-      }, 
-      {
-        "name": "link_to_pdf_file", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "law_press_releases"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "law_press_releases"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/measure_13_percentage_of_the_nonelderly_population_with_health_insurance_coverage_employer_size/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/bv8a-4khg/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/bv8a-4khg/rows.csv", 
   "description": "Individuals are assigned to a firm size according to the largest number of workers based on either their primary employer, their spouse\u2019s primary employer or (in the case of children) each parent\u2019s primary employer.\u00a0 Individuals with no workers in their immediate family (health insurance unit) are excluded from this analysis.\r\n\r\nThe uninsured includes individuals with no coverage other than access to the Indian Health Service.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,22 +11,7 @@
     }
   }, 
   "name": "Measure 13  Percentage Of The Nonelderly Population With Health Insurance Coverage | Employer Size", 
-  "schema": {
-    "columns": [
-      {
-        "name": "measure_value", 
-        "type": "real"
-      }, 
-      {
-        "name": "calendar_year", 
-        "type": "text"
-      }, 
-      {
-        "name": "number_of_employees", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/healthmeasures.aspe.hhs.gov", 
-  "tableName": "measure_13_percentage_of_the_nonelderly_population_with_health_insurance_coverage_employer_size"
+  "schema": "socrata/healthmeasures.aspe.hhs.gov", 
+  "status": "needs review", 
+  "table": "measure_13_percentage_of_the_nonelderly_population_with_health_insurance_coverage_employer_size"
 }

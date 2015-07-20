@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/facilities_licensed_by_the_department_of_motor_vehicles_dmv_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/nhjr-rpi2/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/nhjr-rpi2/rows.csv", 
   "description": "Data set containing information on the facilities licensed by DMV in accordance with Vehicle and Traffic Law.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,70 +13,7 @@
     }
   }, 
   "name": "Facilities Licensed by the Department of Motor Vehicles (DMV)", 
-  "schema": {
-    "columns": [
-      {
-        "name": "facility", 
-        "type": "real"
-      }, 
-      {
-        "name": "facility_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "facility_name_overflow", 
-        "type": "text"
-      }, 
-      {
-        "name": "facility_street", 
-        "type": "text"
-      }, 
-      {
-        "name": "facility_city", 
-        "type": "text"
-      }, 
-      {
-        "name": "facility_state", 
-        "type": "text"
-      }, 
-      {
-        "name": "facility_zip_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "facility_county", 
-        "type": "text"
-      }, 
-      {
-        "name": "owner_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "owner_name_overflow", 
-        "type": "text"
-      }, 
-      {
-        "name": "business_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "origional_issuance_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "last_renewal_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "expiration_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "facilities_licensed_by_the_department_of_motor_vehicles_dmv_"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "facilities_licensed_by_the_department_of_motor_vehicles_dmv_"
 }

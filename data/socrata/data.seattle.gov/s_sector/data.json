@@ -1,9 +1,6 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/s_sector/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/geospatial/smx5-ru5e", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/geospatial/smx5-ru5e", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,7 +10,7 @@
     }
   }, 
   "name": "S Sector", 
-  "schema": {}, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "s_sector"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "s_sector"
 }

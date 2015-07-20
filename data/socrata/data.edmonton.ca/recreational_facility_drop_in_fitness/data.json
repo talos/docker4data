@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/recreational_facility_drop_in_fitness/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/u6tw-de8t/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.edmonton.ca/api/views/u6tw-de8t/rows.csv", 
   "description": "Information about a fitness activity that has been scheduled at a particular recreational facility. Data is extracted from CLASS.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,50 +12,7 @@
     }
   }, 
   "name": "Recreational Facility - Drop In Fitness", 
-  "schema": {
-    "columns": [
-      {
-        "name": "facility_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "facility_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "booking_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "activity_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "day", 
-        "type": "text"
-      }, 
-      {
-        "name": "start_time", 
-        "type": "text"
-      }, 
-      {
-        "name": "end_time", 
-        "type": "text"
-      }, 
-      {
-        "name": "activity", 
-        "type": "text"
-      }, 
-      {
-        "name": "abbreviation", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.edmonton.ca", 
-  "tableName": "recreational_facility_drop_in_fitness"
+  "schema": "socrata/data.edmonton.ca", 
+  "status": "needs review", 
+  "table": "recreational_facility_drop_in_fitness"
 }

@@ -1,0 +1,20 @@
+CREATE TABLE "contracts" (
+	"purchase_order_description"	text,
+	"purchase_order_contract_number"	text,
+	"revision_number"	text,
+	"specification_number"	text,
+	"contract_type"	text,
+	"start_date"	timestamp,
+	"end_date"	timestamp,
+	"approval_date"	timestamp,
+	"department"	text,
+	"vendor_name"	text,
+	"vendor_id"	text,
+	"address_1"	text,
+	"address_2"	text,
+	"city"	text,
+	"state"	text,
+	"zip"	text,
+	"award_amount"	text,
+	"procurement_type"	text
+);

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/seattle_police_department_police_report_offense/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/m2gk-mysw/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/m2gk-mysw/rows.csv", 
   "description": "These offenses correspond to the Police Report Incidents\r\nhttp://data.seattle.gov/dataset/Seattle-Police-Department-Police-Report-Incident/7ais-f98f", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "Seattle Police Department Police Report Offense", 
-  "schema": {
-    "columns": [
-      {
-        "name": "cdw_offense_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "cdw_incident_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "offense_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "offense_code_extension", 
-        "type": "text"
-      }, 
-      {
-        "name": "crime_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "summary_offense_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "summary_crime_type", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "seattle_police_department_police_report_offense"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "seattle_police_department_police_report_offense"
 }

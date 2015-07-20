@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_choose_maryland_compare_states_utilities/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/su2w-hm7s/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/su2w-hm7s/rows.csv", 
   "description": "Average industrial and commercial unit prices for natural gas and electric energy.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Choose Maryland:  Compare States - Utilities", 
-  "schema": {
-    "columns": [
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "electric_commercial", 
-        "type": "real"
-      }, 
-      {
-        "name": "electric_industrial", 
-        "type": "real"
-      }, 
-      {
-        "name": "natural_gas_commercial", 
-        "type": "real"
-      }, 
-      {
-        "name": "natural_gas_industrial", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "choose_maryland_compare_states_utilities"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "choose_maryland_compare_states_utilities"
 }

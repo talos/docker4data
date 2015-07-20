@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/bronx_population_2000_2010/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/vewk-q9dj/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/vewk-q9dj/rows.csv", 
   "description": "American Fact Finder data compiled to illustrate population and population density changes in the Bronx from 2000 to 2010", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,66 +13,6 @@
     }
   }, 
   "name": "Bronx Population 2000 - 2010", 
-  "schema": {
-    "columns": [
-      {
-        "name": "censustrac", 
-        "type": "real"
-      }, 
-      {
-        "name": "puma", 
-        "type": "real"
-      }, 
-      {
-        "name": "ntaname", 
-        "type": "text"
-      }, 
-      {
-        "name": "ntacode", 
-        "type": "text"
-      }, 
-      {
-        "name": "shape_leng", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape_area", 
-        "type": "real"
-      }, 
-      {
-        "name": "pop2000", 
-        "type": "real"
-      }, 
-      {
-        "name": "pop2010", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2000density", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2010density", 
-        "type": "real"
-      }, 
-      {
-        "name": "popddiff", 
-        "type": "real"
-      }, 
-      {
-        "name": "popdiff", 
-        "type": "real"
-      }, 
-      {
-        "name": "point_x", 
-        "type": "text"
-      }, 
-      {
-        "name": "point_y", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/bronx.lehman.cuny.edu", 
-  "tableName": "bronx_population_2000_2010"
+  "schema": "socrata/bronx.lehman.cuny.edu", 
+  "table": "bronx_population_2000_2010"
 }

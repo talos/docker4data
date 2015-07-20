@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_mo_asbestos_inspectors/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.mo.gov/api/views/982a-gpg9/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.mo.gov/api/views/982a-gpg9/rows.csv", 
   "description": "Building Inspectors", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "Asbestos-inspectors", 
-  "schema": {
-    "columns": [
-      {
-        "name": "wkr_no", 
-        "type": "real"
-      }, 
-      {
-        "name": "fname", 
-        "type": "text"
-      }, 
-      {
-        "name": "lname", 
-        "type": "text"
-      }, 
-      {
-        "name": "homephone", 
-        "type": "text"
-      }, 
-      {
-        "name": "expiredate", 
-        "type": "text"
-      }, 
-      {
-        "name": "status", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.mo.gov", 
-  "tableName": "asbestos_inspectors"
+  "schema": "socrata/data.mo.gov", 
+  "status": "needs review", 
+  "table": "asbestos_inspectors"
 }

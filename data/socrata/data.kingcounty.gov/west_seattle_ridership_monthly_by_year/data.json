@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_kingcounty_west_seattle_ridership_monthly_by_year/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/fchw-7nhb/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.kingcounty.gov/api/views/fchw-7nhb/rows.csv", 
   "description": "King County Ferry District, West Seattle ridership monthly, by year", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "West Seattle ridership monthly, by year", 
-  "schema": {
-    "columns": [
-      {
-        "name": "_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "passengers_1", 
-        "type": "real"
-      }, 
-      {
-        "name": "passengers_2", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2013", 
-        "type": "real"
-      }, 
-      {
-        "name": "percent_change_from_previous_year", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.kingcounty.gov", 
-  "tableName": "west_seattle_ridership_monthly_by_year"
+  "schema": "socrata/data.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "west_seattle_ridership_monthly_by_year"
 }

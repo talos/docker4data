@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/act_sample_geographic_data_gungahlin_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/www.data.act.gov.au/api/geospatial/vvjz-s9u4", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/www.data.act.gov.au/api/geospatial/vvjz-s9u4", 
   "description": "The Gungahlin sample data consists of the core spatial themes managed by the ACT Environment and Sustainable Development Directorate and is provided as a sample only.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "ACT Sample Geographic Data (Gungahlin)", 
-  "schema": {}, 
-  "schemaName": "socrata/www.data.act.gov.au", 
-  "tableName": "act_sample_geographic_data_gungahlin_"
+  "schema": "socrata/www.data.act.gov.au", 
+  "status": "needs review", 
+  "table": "act_sample_geographic_data_gungahlin_"
 }

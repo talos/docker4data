@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_public_information_of_open_sites/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/23t6-xzcc/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/23t6-xzcc/rows.csv", 
   "description": "Public meal programs in Seattle", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "Public Information of Open Sites", 
-  "schema": {
-    "columns": [
-      {
-        "name": "geographic_area", 
-        "type": "text"
-      }, 
-      {
-        "name": "program_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "website", 
-        "type": "text"
-      }, 
-      {
-        "name": "meal_information", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "public_information_of_open_sites"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "public_information_of_open_sites"
 }

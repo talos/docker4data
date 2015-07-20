@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_lobbyist_data_lobbyist_registry_2011/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/tpf5-fgtw/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/tpf5-fgtw/rows.csv", 
   "description": "All lobbyist registration fillings submitted to the Board of Ethics during the 2011 reporting period. / All lobbyists must register with the City of Chicago Board of Ethics by filing a Statement of Registration within five business days of engaging in lobbying activity and annually thereafter by January 20th. Lobbyist registration information is submitted to the Board of Ethics in paper form and is available in its entirety in the Board's offices. \r\nData Owner:  Board of Ethics \r\n[http://j.mp/mbH9BN] /\r\nTime Period: January 1, 2011 to present /\r\nRelated Applications:  Registered Lobbyist List [http://bit.ly/FOctNY]\r\n2010 Lobbyist Registry \r\n[http://j.mp/kyZ4HP]", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "Lobbyist Data - Lobbyist Registry - 2011", 
-  "schema": {
-    "columns": [
-      {
-        "name": "filing_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "lobbyist_last_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "lobbyist_first_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "lobbyist_middle_initial", 
-        "type": "text"
-      }, 
-      {
-        "name": "lobbyist_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "lobbyist_city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "lobbyist_zip", 
-        "type": "real"
-      }, 
-      {
-        "name": "registered_employers_names", 
-        "type": "text"
-      }, 
-      {
-        "name": "lobbying_clients_name", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "lobbyist_data_lobbyist_registry_2011"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "lobbyist_data_lobbyist_registry_2011"
 }

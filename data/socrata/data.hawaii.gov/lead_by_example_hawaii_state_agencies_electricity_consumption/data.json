@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/lead_by_example_hawaii_state_agencies_electricity_consumption/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/xpcc-ct2d/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/xpcc-ct2d/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,22 +9,7 @@
     }
   }, 
   "name": "Lead By Example Hawaii State Agencies Electricity Consumption", 
-  "schema": {
-    "columns": [
-      {
-        "name": "fiscal_year", 
-        "type": "text"
-      }, 
-      {
-        "name": "electrical_consumption_gwhs", 
-        "type": "real"
-      }, 
-      {
-        "name": "cost_of_electricity_millions", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "lead_by_example_hawaii_state_agencies_electricity_consumption"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "lead_by_example_hawaii_state_agencies_electricity_consumption"
 }

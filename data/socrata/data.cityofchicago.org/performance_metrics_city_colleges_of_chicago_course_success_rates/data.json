@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/performance_metrics_city_colleges_of_chicago_course_success_rates/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/vz8e-347q/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/vz8e-347q/rows.csv", 
   "description": "Course Success rate is the percent of students obtaining grades A\u2010C and P out of the total number of students enrolled at the beginning of the term.\r\nCourse success is the building block toward student program completion. Without successful completion of courses, City Colleges of Chicago students will not be able to earn credits toward a degree or certificate, nor will they progress from remedial to college-level coursework.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,62 +13,7 @@
     }
   }, 
   "name": "Performance Metrics - City Colleges of Chicago - Course Success Rates", 
-  "schema": {
-    "columns": [
-      {
-        "name": "sort", 
-        "type": "real"
-      }, 
-      {
-        "name": "year", 
-        "type": "text"
-      }, 
-      {
-        "name": "term", 
-        "type": "text"
-      }, 
-      {
-        "name": "remedial_number_successfully_completing_courses", 
-        "type": "real"
-      }, 
-      {
-        "name": "remedial_total_enrollment", 
-        "type": "real"
-      }, 
-      {
-        "name": "remedial_course_success_rate", 
-        "type": "text"
-      }, 
-      {
-        "name": "occupational_workforce_number_successfully_completing_courses", 
-        "type": "real"
-      }, 
-      {
-        "name": "occupational_workforce_total_enrollment", 
-        "type": "real"
-      }, 
-      {
-        "name": "occupational_workforce_course_success_rate", 
-        "type": "text"
-      }, 
-      {
-        "name": "baccalaureate_transfer_number_successfully_completing_courses", 
-        "type": "real"
-      }, 
-      {
-        "name": "baccalaureate_transfer_total_enrollment", 
-        "type": "real"
-      }, 
-      {
-        "name": "baccalaureate_transfer_course_success_rate", 
-        "type": "text"
-      }, 
-      {
-        "name": "row_order", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "performance_metrics_city_colleges_of_chicago_course_success_rates"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "performance_metrics_city_colleges_of_chicago_course_success_rates"
 }

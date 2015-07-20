@@ -1,0 +1,20 @@
+CREATE TABLE "population_by_type_of_disability_and_district" (
+	"district"	text,
+	"_of_people_with_a_visual_disability"	real,
+	"_of_people_with_hearing_disability"	real,
+	"_of_people_with_a_speech_disability"	real,
+	"_physical_self_care"	real,
+	"mental"	real,
+	"_with_other_disability"	real,
+	"_with_no_disability"	real,
+	"no_of_people_in_district_who_responded"	real,
+	"no_of_people_with_a_visual_disability"	real,
+	"no_of_people_with_hearing_disability"	real,
+	"no_of_people_with_a_speech_disability"	real,
+	"no_of_people_with_physical_self_care_disability"	real,
+	"no_of_people_with_mental_disability"	real,
+	"no_of_people_with_other_disablity"	real,
+	"none"	real,
+	"county"	text,
+	"location_1"	text
+);

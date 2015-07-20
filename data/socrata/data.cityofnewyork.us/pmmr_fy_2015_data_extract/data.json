@@ -1,111 +1,17 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_pmmr_fy_2015_data_extract/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/ruce-cnp6/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/ruce-cnp6/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
+    "attribution": "Department of Information Technology & Telecommunications (DoITT)", 
     "category": "City Government", 
     "socrata": {
       "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/ruce-cnp6.json"
     }
   }, 
   "name": "PMMR FY 2015 Data Extract", 
-  "schema": {
-    "columns": [
-      {
-        "name": "agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "indicator_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "indicator_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "indicator_sequence", 
-        "type": "real"
-      }, 
-      {
-        "name": "sub_indicator", 
-        "type": "text"
-      }, 
-      {
-        "name": "subindicator_sequence", 
-        "type": "real"
-      }, 
-      {
-        "name": "record_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "desired_direction", 
-        "type": "text"
-      }, 
-      {
-        "name": "critical_flag", 
-        "type": "text"
-      }, 
-      {
-        "name": "geography", 
-        "type": "text"
-      }, 
-      {
-        "name": "measure_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "fiscal_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "conditional_format", 
-        "type": "text"
-      }, 
-      {
-        "name": "raw_value", 
-        "type": "real"
-      }, 
-      {
-        "name": "format_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "value_percent", 
-        "type": "text"
-      }, 
-      {
-        "name": "value_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "value_currency", 
-        "type": "real"
-      }, 
-      {
-        "name": "value_time", 
-        "type": "text"
-      }, 
-      {
-        "name": "value_ratio", 
-        "type": "text"
-      }, 
-      {
-        "name": "service_sequence", 
-        "type": "real"
-      }, 
-      {
-        "name": "goal_sequence", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "pmmr_fy_2015_data_extract"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "pmmr_fy_2015_data_extract"
 }

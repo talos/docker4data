@@ -1,0 +1,23 @@
+CREATE TABLE "nys_attorney_registrations" (
+	"registration_number"	real,
+	"first_name"	text,
+	"middle_name"	text,
+	"last_name"	text,
+	"suffix"	text,
+	"company_name"	text,
+	"street_1"	text,
+	"street_2"	text,
+	"city"	text,
+	"state"	text,
+	"zip"	text,
+	"zip_plus_four"	text,
+	"country"	text,
+	"county"	text,
+	"phone_number"	text,
+	"email_address"	text,
+	"year_admitted"	real,
+	"judicial_department_of_admission"	real,
+	"law_school"	text,
+	"status"	text,
+	"next_registration"	text
+);

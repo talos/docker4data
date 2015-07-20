@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_demolition_permits/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/x8r5-vr4m/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/x8r5-vr4m/rows.csv", 
   "description": "City of Rockford Demolition Permits", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,30 +12,7 @@
     }
   }, 
   "name": "Demolition Permits", 
-  "schema": {
-    "columns": [
-      {
-        "name": "case", 
-        "type": "real"
-      }, 
-      {
-        "name": "case_group", 
-        "type": "text"
-      }, 
-      {
-        "name": "case_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "processed_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "demolition_permits"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "demolition_permits"
 }

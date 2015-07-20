@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oregon_oregon_hospitals_2008_09_20/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/s2vy-pvyp/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/api/views/s2vy-pvyp/rows.csv", 
   "description": "Hospitals in Oregon\nThe term \"hospital\" ... means an institution which-\n(1) is primarily engaged in providing, by or under the supervision of physicians, to inpatients\n\n\t(A) diagnostic services and therapeutic services for medical diagnosis, treatment, and care of injured, disabled, or sick persons, or \n\t(B) rehabilitation services for the rehabilitation of injured, disabled, or sick persons; \n\n(...)\n(5) provides 24-hour nursing service rendered or supervised by a registered professional nurse, and has a licensed practical nurse or registered professional nurse on duty at all times; ...\n(...)\n(7) in the case of an institution in any State in which State or applicable local law provides for the licensing of hospitals,\n\n\t(A) is licensed pursuant to such law or \n\t(B) is approved, by the agency of such State or locality responsible for licensing hospitals, as meeting the standards established for such licensing; \n\n(Excerpt from Title XVIII of the Social Security Act [42 U.S.C. \u00a7 1395x(e)], <http://www4.law.cornell.edu/uscode/html/uscode42/usc_sec_42_00001395---x000-.html>)\nIncluded in this dataset are General Medical and Surgical Hospitals, Psychiatric and Substance Abuse Hospitals, and Specialty Hospitals (e.g., Children's Hospitals, Cancer Hospitals, Maternity Hospitals, Rehabilitation Hospitals, etc.).\nTGS has made a concerted effort to include all general medical/surgical hospitals in Oregon. Other types of hospitals are included if they were represented in datasets sent by the state. Therefore, not all of the specialty hospitals in Oregon are represented in this dataset.\nHospitals operated by the Veterans Administration (VA) are included, even if the state they are located in does not license VA Hospitals.\nNursing homes and Urgent Care facilities are excluded because they are included in a separate dataset. Locations that are administrative offices only are excluded from the dataset.\nRecords with \"-DOD\" appended to the end of the [NAME] value are located on a military base, as defined by the Defense Installation Spatial Data Infrastructure (DISDI) military installations and military range boundaries.\nText fields in this dataset have been set to all upper case to facilitate consistent database engine search results.\nAll diacritics (e.g., the German umlaut or the Spanish tilde) have been replaced with their closest equivalent English character to facilitate use with database systems that may not support diacritics.\nThe currentness of this dataset is indicated by the [CONTDATE] field. Based upon this field, the oldest record dates from 08/23/2006 and the newest record dates from 05/28/2008 \n\nFor full metadata record, please refer to the Oregon Geospatial Library: http://gis.oregon.gov/DAS/EISPD/GEO/sdlibrary.shtml", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,70 +12,7 @@
     }
   }, 
   "name": "Oregon Hospitals 2008-09-20", 
-  "schema": {
-    "columns": [
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "address2", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_4", 
-        "type": "real"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "directions", 
-        "type": "text"
-      }, 
-      {
-        "name": "naicsdescr", 
-        "type": "text"
-      }, 
-      {
-        "name": "x", 
-        "type": "real"
-      }, 
-      {
-        "name": "y", 
-        "type": "real"
-      }, 
-      {
-        "name": "numbeds", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "oregon_hospitals_2008_09_20"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "oregon_hospitals_2008_09_20"
 }

@@ -1,0 +1,22 @@
+CREATE TABLE "summary_of_real_property_tax_exemptions_by_municipality_beginning_roll_year_1999" (
+	"roll_year"	real,
+	"swis_code"	text,
+	"municipality_name"	text,
+	"county_name"	text,
+	"wholly_exempt_publicly_owned_exemption_count"	real,
+	"wholly_exempt_publicly_owned_exemption_full_value"	real,
+	"wholly_exempt_privately_owned_exemption_count"	real,
+	"wholly_exempt_privately_owned_exemption_full_value"	real,
+	"partially_exempt_publicly_owned_exemption_count"	real,
+	"partially_exempt_publicly_owned_exemption_full_value"	real,
+	"partially_exempt_privately_owned_exemption_count"	real,
+	"partially_exempt_privately_owned_exemption_full_value"	real,
+	"invalidly_coded_exemption_count"	real,
+	"invalidly_coded_exemption_full_value"	real,
+	"exempt_for_county_purposes_exemption_count"	real,
+	"exempt_for_county_purposes_exemption_full_value"	real,
+	"exempt_for_city_town_purposes_exemption_count"	real,
+	"exempt_for_city_town_purposes_exemption_full_value"	real,
+	"exempt_for_school_purposes_exemption_count"	real,
+	"exempt_for_school_purposes_exemption_value"	real
+);

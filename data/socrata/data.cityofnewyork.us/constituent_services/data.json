@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_constituent_services/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/kpjg-ubxi/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/kpjg-ubxi/rows.csv", 
   "description": "This list contains information on the number and nature of constituent services handled by the Borough President's Office.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "Constituent Services", 
-  "schema": {
-    "columns": [
-      {
-        "name": "initial_contact", 
-        "type": "text"
-      }, 
-      {
-        "name": "language_if_blank_english", 
-        "type": "text"
-      }, 
-      {
-        "name": "issue", 
-        "type": "text"
-      }, 
-      {
-        "name": "date", 
-        "type": "text"
-      }, 
-      {
-        "name": "city_state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip", 
-        "type": "text"
-      }, 
-      {
-        "name": "cb", 
-        "type": "real"
-      }, 
-      {
-        "name": "council_member", 
-        "type": "text"
-      }, 
-      {
-        "name": "letter_drafted", 
-        "type": "text"
-      }, 
-      {
-        "name": "status", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "constituent_services"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "constituent_services"
 }

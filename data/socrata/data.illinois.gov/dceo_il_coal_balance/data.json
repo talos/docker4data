@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_dceo_il_coal_balance/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/qiga-cy5v/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/qiga-cy5v/rows.csv", 
   "description": "Illinois Coal Balance", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,22 +12,7 @@
     }
   }, 
   "name": "DCEO IL Coal Balance", 
-  "schema": {
-    "columns": [
-      {
-        "name": "coal_balance_million_tons_", 
-        "type": "text"
-      }, 
-      {
-        "name": "_1", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "dceo_il_coal_balance"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "dceo_il_coal_balance"
 }

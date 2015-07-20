@@ -1,0 +1,21 @@
+CREATE TABLE "missouri_county_geography" (
+	"the_geom"	text,
+	"statefp"	text,
+	"countyfp"	text,
+	"countyns"	text,
+	"cntyidfp"	text,
+	"name"	text,
+	"namelsad"	text,
+	"lsad"	text,
+	"classfp"	text,
+	"mtfcc"	text,
+	"csafp"	text,
+	"cbsafp"	text,
+	"metdivfp"	text,
+	"funcstat"	text,
+	"aland"	text,
+	"awater"	text,
+	"intptlat"	text,
+	"intptlon"	text,
+	"centroid"	text
+);

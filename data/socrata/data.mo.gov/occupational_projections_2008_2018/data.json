@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_mo_occupational_projections_2008_2018/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.mo.gov/api/views/d62n-mfxz/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.mo.gov/api/views/d62n-mfxz/rows.csv", 
   "description": "Occupational Projections 2008-2018", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,82 +12,7 @@
     }
   }, 
   "name": "Occupational Projections 2008-2018", 
-  "schema": {
-    "columns": [
-      {
-        "name": "occupationalgrade", 
-        "type": "text"
-      }, 
-      {
-        "name": "occupationalcode", 
-        "type": "text"
-      }, 
-      {
-        "name": "occupationaltitle", 
-        "type": "text"
-      }, 
-      {
-        "name": "estimatedemployment2008", 
-        "type": "real"
-      }, 
-      {
-        "name": "projectedemployment2018", 
-        "type": "real"
-      }, 
-      {
-        "name": "netchange20082018", 
-        "type": "real"
-      }, 
-      {
-        "name": "percentchange20082018", 
-        "type": "text"
-      }, 
-      {
-        "name": "meanannualwages2008", 
-        "type": "real"
-      }, 
-      {
-        "name": "entryannualwages2008", 
-        "type": "real"
-      }, 
-      {
-        "name": "experiencedannualwages2008", 
-        "type": "real"
-      }, 
-      {
-        "name": "openingsgrowth", 
-        "type": "real"
-      }, 
-      {
-        "name": "openingsreplacement", 
-        "type": "real"
-      }, 
-      {
-        "name": "openingstotal", 
-        "type": "real"
-      }, 
-      {
-        "name": "annualopeningsgrowth", 
-        "type": "real"
-      }, 
-      {
-        "name": "annualopeningsreplacement", 
-        "type": "real"
-      }, 
-      {
-        "name": "annualopeningstotal", 
-        "type": "real"
-      }, 
-      {
-        "name": "educationtrainingrequired", 
-        "type": "text"
-      }, 
-      {
-        "name": "wiaregion", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.mo.gov", 
-  "tableName": "occupational_projections_2008_2018"
+  "schema": "socrata/data.mo.gov", 
+  "status": "needs review", 
+  "table": "occupational_projections_2008_2018"
 }

@@ -1,8 +1,6 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_bronx_lehman_cuny_bronx_city_council_district/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/p77g-y2hc/rows.csv"
-  }, 
+  "data": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/p77g-y2hc/rows.csv", 
   "description": "Bronx City Council districts, including councilman and their website information", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,29 +14,5 @@
     }
   }, 
   "name": "Bronx City Council District", 
-  "schema": {
-    "columns": [
-      {
-        "name": "council_district", 
-        "type": "real"
-      }, 
-      {
-        "name": "councilman", 
-        "type": "text"
-      }, 
-      {
-        "name": "website", 
-        "type": "text"
-      }, 
-      {
-        "name": "point_x", 
-        "type": "text"
-      }, 
-      {
-        "name": "point_y", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "tableName": "socrata_bronx_lehman_cuny_bronx_city_council_district"
+  "table": "socrata_bronx_lehman_cuny_bronx_city_council_district"
 }

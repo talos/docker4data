@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wa_wdfw_salmon_stock_inventory_sub_populations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/a262-e2bp/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.wa.gov/api/views/a262-e2bp/rows.csv", 
   "description": "List of Salmon sub-populations. Used to associate sub populations with their respective parent populations in the state of salmon report.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "WDFW- Salmon Stock Inventory Sub-Populations", 
-  "schema": {
-    "columns": [
-      {
-        "name": "stock_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "parent_population_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "sub_population_name", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.wa.gov", 
-  "tableName": "wdfw_salmon_stock_inventory_sub_populations"
+  "schema": "socrata/data.wa.gov", 
+  "status": "needs review", 
+  "table": "wdfw_salmon_stock_inventory_sub_populations"
 }

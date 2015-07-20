@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_election_maps_statewide/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/qjpr-gyut/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/qjpr-gyut/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,18 +9,7 @@
     }
   }, 
   "name": "Election Maps - Statewide", 
-  "schema": {
-    "columns": [
-      {
-        "name": "map_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "election_maps_statewide"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "election_maps_statewide"
 }

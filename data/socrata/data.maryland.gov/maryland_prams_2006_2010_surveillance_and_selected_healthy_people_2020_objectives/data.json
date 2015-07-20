@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/maryland_prams_2006_2010_surveillance_and_selected_healthy_people_2020_objectives/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/6xrd-g6h3/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/6xrd-g6h3/rows.csv", 
   "description": "Results from the Maryland Pregnancy Risk Assessment Monitoring System (PRAMS) survey of new mothers who delivered live births in the years 2006 through 2010 for selected Healthy People 2020 objectives. The two missing values for \"Increase abstinence from binge drinking*** among pregnant women.\" are <100%. [*PRAMS data includes only information on pregnancies that end in live birth. **First trimester defined by PRAMS as <13 weeks. ***Binge drinking = 4 or more drinks in a two hour sitting, starting 2009 births.  Prior to 2009, binge drinking = 5 or more drinks in one episode.]", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "Maryland PRAMS 2006-2010 Surveillance and Selected Healthy People 2020 Objectives", 
-  "schema": {
-    "columns": [
-      {
-        "name": "healthy_people_2020_objective", 
-        "type": "text"
-      }, 
-      {
-        "name": "maryland_prams_2006_births", 
-        "type": "real"
-      }, 
-      {
-        "name": "maryland_prams_2007_births", 
-        "type": "real"
-      }, 
-      {
-        "name": "maryland_prams_2008_births", 
-        "type": "real"
-      }, 
-      {
-        "name": "maryland_prams_2009_births", 
-        "type": "real"
-      }, 
-      {
-        "name": "maryland_prams_2010_births", 
-        "type": "real"
-      }, 
-      {
-        "name": "healthy_people_2020_target", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "maryland_prams_2006_2010_surveillance_and_selected_healthy_people_2020_objectives"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "maryland_prams_2006_2010_surveillance_and_selected_healthy_people_2020_objectives"
 }

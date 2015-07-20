@@ -1,0 +1,20 @@
+CREATE TABLE "ssmma_community_anchor_institutions" (
+	"objectid_1"	text,
+	"objectid"	text,
+	"anchorname"	text,
+	"bldgnbr"	text,
+	"predir"	text,
+	"suffdir"	text,
+	"caicat"	text,
+	"bbservice"	text,
+	"publicwifi"	text,
+	"url"	text,
+	"transtech"	text,
+	"fullfipsid"	text,
+	"caiid"	text,
+	"subscrbdow"	text,
+	"subsrbup"	text,
+	"location_1"	text,
+	"location_2"	text,
+	"location_3"	text
+);

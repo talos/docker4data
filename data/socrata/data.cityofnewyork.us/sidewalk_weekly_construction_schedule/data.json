@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_sidewalk_weekly_construction_schedule/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/r528-jcks/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/r528-jcks/rows.csv", 
   "description": "Sidewalk schedule to install, maintain and repair sidewalks, curbs and pedestrian ramps.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "Sidewalk Weekly Construction Schedule", 
-  "schema": {
-    "columns": [
-      {
-        "name": "borough", 
-        "type": "text"
-      }, 
-      {
-        "name": "cb", 
-        "type": "text"
-      }, 
-      {
-        "name": "contract_no", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "sidewalk_weekly_construction_schedule"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "sidewalk_weekly_construction_schedule"
 }

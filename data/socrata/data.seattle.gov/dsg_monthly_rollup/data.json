@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/dsg_monthly_rollup/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/s5r9-s7xv/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/s5r9-s7xv/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,26 +9,7 @@
     }
   }, 
   "name": "DSG Monthly rollup", 
-  "schema": {
-    "columns": [
-      {
-        "name": "creation_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "date_text", 
-        "type": "text"
-      }, 
-      {
-        "name": "monthly_total", 
-        "type": "real"
-      }, 
-      {
-        "name": "monthly", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "dsg_monthly_rollup"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "dsg_monthly_rollup"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cms_2010_basic_stand_alone_carrier_line_items_puf/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cms.gov/api/views/4ypi-pds4/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cms.gov/api/views/4ypi-pds4/rows.csv", 
   "description": "The CMS 2010 BSA Carrier Line Items PUF originates from a 5% simple random sample of beneficiaries drawn (without replacement) from the 100% Beneficiary Summary File for reference year 2010.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,54 +13,7 @@
     }
   }, 
   "name": "2010 Basic Stand Alone Carrier Line Items PUF", 
-  "schema": {
-    "columns": [
-      {
-        "name": "bene_sex_ident_cd", 
-        "type": "text"
-      }, 
-      {
-        "name": "bene_age_cat_cd", 
-        "type": "text"
-      }, 
-      {
-        "name": "car_line_icd9_dgns_cd", 
-        "type": "text"
-      }, 
-      {
-        "name": "car_line_hcpcs_cd", 
-        "type": "text"
-      }, 
-      {
-        "name": "car_line_betos_cd", 
-        "type": "text"
-      }, 
-      {
-        "name": "car_line_srvc_cnt", 
-        "type": "real"
-      }, 
-      {
-        "name": "car_line_prvdr_type_cd", 
-        "type": "text"
-      }, 
-      {
-        "name": "car_line_cms_type_srvc_cd", 
-        "type": "text"
-      }, 
-      {
-        "name": "car_line_place_of_srvc_cd", 
-        "type": "text"
-      }, 
-      {
-        "name": "car_hcps_pmt_amt", 
-        "type": "real"
-      }, 
-      {
-        "name": "car_line_cnt", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cms.gov", 
-  "tableName": "2010_basic_stand_alone_carrier_line_items_puf"
+  "schema": "socrata/data.cms.gov", 
+  "status": "needs review", 
+  "table": "2010_basic_stand_alone_carrier_line_items_puf"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/2013_edmonton_election_official_results/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/b6ng-fzk2/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.edmonton.ca/api/views/b6ng-fzk2/rows.csv", 
   "description": "Official Results from the 2013 Edmonton Municipal and School Board Elections (October 21st, 2013).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,58 +13,7 @@
     }
   }, 
   "name": "2013 Edmonton Election - Official Results", 
-  "schema": {
-    "columns": [
-      {
-        "name": "reported_at", 
-        "type": "text"
-      }, 
-      {
-        "name": "race_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "contest", 
-        "type": "text"
-      }, 
-      {
-        "name": "ward_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "acclaimed", 
-        "type": "text"
-      }, 
-      {
-        "name": "reporting", 
-        "type": "real"
-      }, 
-      {
-        "name": "out_of", 
-        "type": "real"
-      }, 
-      {
-        "name": "votes_cast", 
-        "type": "real"
-      }, 
-      {
-        "name": "race", 
-        "type": "real"
-      }, 
-      {
-        "name": "candidate_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "votes_received", 
-        "type": "real"
-      }, 
-      {
-        "name": "percentage", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.edmonton.ca", 
-  "tableName": "2013_edmonton_election_official_results"
+  "schema": "socrata/data.edmonton.ca", 
+  "status": "needs review", 
+  "table": "2013_edmonton_election_official_results"
 }

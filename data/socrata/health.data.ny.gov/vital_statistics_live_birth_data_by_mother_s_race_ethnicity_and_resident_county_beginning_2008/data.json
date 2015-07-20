@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/vital_statistics_live_birth_data_by_mother_s_race_ethnicity_and_resident_county_beginning_2008/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/4fif-7t9y/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/health.data.ny.gov/api/views/4fif-7t9y/rows.csv", 
   "description": "This dataset contains the number of New York State live births stratified by the mother's race/ethnicity and county of residence. The data presented here may not be the same as the Vital Statistics tables on the DOH public web due to data updates. For more information, check out: : http://www.health.ny.gov/statistics/vital_statistics/ or go to the \"About\" tab.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Vital Statistics Live Birth Data by Mother's Race/Ethnicity and Resident County: Beginning 2008", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "table", 
-        "type": "real"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "category_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "value", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/health.data.ny.gov", 
-  "tableName": "vital_statistics_live_birth_data_by_mother_s_race_ethnicity_and_resident_county_beginning_2008"
+  "schema": "socrata/health.data.ny.gov", 
+  "status": "needs review", 
+  "table": "vital_statistics_live_birth_data_by_mother_s_race_ethnicity_and_resident_county_beginning_2008"
 }

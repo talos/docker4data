@@ -1,0 +1,21 @@
+CREATE TABLE "hawaii_public_electric_vehicle_charging_stations" (
+	"station_id"	real,
+	"property_business_name"	text,
+	"street_address"	text,
+	"city"	text,
+	"zip_code"	text,
+	"island"	text,
+	"charge_fees"	text,
+	"charger_location"	text,
+	"hours_of_operation"	text,
+	"number_of_chargers"	real,
+	"number_of_ports"	real,
+	"charger_level_s"	text,
+	"charger_fee"	text,
+	"parking_fee"	text,
+	"manufacturer_s"	text,
+	"notes"	text,
+	"latitude"	real,
+	"logitude"	real,
+	"location"	text
+);

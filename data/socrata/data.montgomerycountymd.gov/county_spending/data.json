@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_montgomerycountymd_county_spending/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/vpf9-6irq/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/vpf9-6irq/rows.csv", 
   "description": "This dataset includes County spending data for Montgomery County government. It does not include agency spending. Data considered sensitive or confidential and will be encrypted before it is posted.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,110 +12,7 @@
     }
   }, 
   "name": "County Spending", 
-  "schema": {
-    "columns": [
-      {
-        "name": "fiscal_year_period", 
-        "type": "real"
-      }, 
-      {
-        "name": "fiscal_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "service", 
-        "type": "text"
-      }, 
-      {
-        "name": "department", 
-        "type": "text"
-      }, 
-      {
-        "name": "program", 
-        "type": "text"
-      }, 
-      {
-        "name": "fund", 
-        "type": "text"
-      }, 
-      {
-        "name": "category", 
-        "type": "text"
-      }, 
-      {
-        "name": "expense_category", 
-        "type": "text"
-      }, 
-      {
-        "name": "account_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendor", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendor_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendor_zip", 
-        "type": "text"
-      }, 
-      {
-        "name": "contract_num", 
-        "type": "text"
-      }, 
-      {
-        "name": "po_num", 
-        "type": "text"
-      }, 
-      {
-        "name": "po_line", 
-        "type": "text"
-      }, 
-      {
-        "name": "invoice_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "invoice_line", 
-        "type": "text"
-      }, 
-      {
-        "name": "invoice_distribution_line", 
-        "type": "text"
-      }, 
-      {
-        "name": "amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "inv_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "payment_method", 
-        "type": "text"
-      }, 
-      {
-        "name": "payment_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "payment_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "payment_status", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.montgomerycountymd.gov", 
-  "tableName": "county_spending"
+  "schema": "socrata/data.montgomerycountymd.gov", 
+  "status": "needs review", 
+  "table": "county_spending"
 }

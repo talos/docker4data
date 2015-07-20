@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/colorado_counties/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/geospatial/67vn-ijga", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/api/geospatial/67vn-ijga", 
   "description": "Boundaries for 64 counties in the state of Colorado. Includes FIPS code, population and household counts from 2010 Census data. Also contains perimeter and size for all counties. Produced by CDOT.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Colorado Counties", 
-  "schema": {}, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "colorado_counties"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "colorado_counties"
 }

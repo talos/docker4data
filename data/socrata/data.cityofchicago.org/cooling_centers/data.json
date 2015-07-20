@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_cooling_centers/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/msrk-w9ih/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/msrk-w9ih/rows.csv", 
   "description": "Cooling Centers offer residents air-conditioned refuge from oppressive summer heat. The Chicago Department of Family and Support Services operates six Cooling \r\nCenters during the summer months.  Additional facilities are opened as needed in \r\nlibraries, Park District buildings, senior centers and other community venues.\r\nYou may call 311 to locate a Cooling Center in your area, or go to http://bit.ly/kIhHPj for more information.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "Cooling Centers", 
-  "schema": {
-    "columns": [
-      {
-        "name": "site_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "site_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "hours_of_operation", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip", 
-        "type": "real"
-      }, 
-      {
-        "name": "phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "cooling_centers"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "cooling_centers"
 }

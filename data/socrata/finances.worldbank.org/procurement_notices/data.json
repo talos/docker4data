@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/procurement_notices/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/3y7n-xmbj/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/finances.worldbank.org/api/views/3y7n-xmbj/rows.csv", 
   "description": "This dataset includes procurement tender notices for World Bank financed projects. Learn more about the World Bank Group's operations in procurement at http://go.worldbank.org/9KQZWXNOI0.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,54 +13,7 @@
     }
   }, 
   "name": "Procurement Notices", 
-  "schema": {
-    "columns": [
-      {
-        "name": "id", 
-        "type": "real"
-      }, 
-      {
-        "name": "url", 
-        "type": "text"
-      }, 
-      {
-        "name": "notice_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "publication_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "project_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "bid_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "procurement_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "deadline_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "country_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "country_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "major_sector", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/finances.worldbank.org", 
-  "tableName": "procurement_notices"
+  "schema": "socrata/finances.worldbank.org", 
+  "status": "needs review", 
+  "table": "procurement_notices"
 }

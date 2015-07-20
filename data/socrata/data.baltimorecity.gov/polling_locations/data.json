@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_baltimorecity_polling_locations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/u7bw-gha5/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/u7bw-gha5/rows.csv", 
   "description": "City of Baltimore polling locations", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,58 +13,7 @@
     }
   }, 
   "name": "Polling Locations", 
-  "schema": {
-    "columns": [
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "altname", 
-        "type": "text"
-      }, 
-      {
-        "name": "precinct", 
-        "type": "real"
-      }, 
-      {
-        "name": "zipcode", 
-        "type": "text"
-      }, 
-      {
-        "name": "legislative", 
-        "type": "text"
-      }, 
-      {
-        "name": "congressional", 
-        "type": "text"
-      }, 
-      {
-        "name": "judicial", 
-        "type": "text"
-      }, 
-      {
-        "name": "appellate", 
-        "type": "text"
-      }, 
-      {
-        "name": "councilman", 
-        "type": "text"
-      }, 
-      {
-        "name": "ispublic", 
-        "type": "real"
-      }, 
-      {
-        "name": "snowroute", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.baltimorecity.gov", 
-  "tableName": "polling_locations"
+  "schema": "socrata/data.baltimorecity.gov", 
+  "status": "needs review", 
+  "table": "polling_locations"
 }

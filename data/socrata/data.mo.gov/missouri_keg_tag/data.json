@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_mo_missouri_keg_tag/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.mo.gov/api/views/7fmu-y7e8/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.mo.gov/api/views/7fmu-y7e8/rows.csv", 
   "description": "List of keg tags assigned to distributors", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,54 +12,7 @@
     }
   }, 
   "name": "Missouri Keg Tag", 
-  "schema": {
-    "columns": [
-      {
-        "name": "kegnum", 
-        "type": "text"
-      }, 
-      {
-        "name": "licensee_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "dba_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "first_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "last_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "building_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "street", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zipcode", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.mo.gov", 
-  "tableName": "missouri_keg_tag"
+  "schema": "socrata/data.mo.gov", 
+  "status": "needs review", 
+  "table": "missouri_keg_tag"
 }

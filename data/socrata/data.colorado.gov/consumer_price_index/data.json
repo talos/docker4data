@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_consumer_price_index/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/bynd-i2hj/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/api/views/bynd-i2hj/rows.csv", 
   "description": "The Consumer Price Indexes (CPI) program produces monthly data on changes in the prices paid by urban consumers for a representative basket of goods and services.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,78 +13,7 @@
     }
   }, 
   "name": "Consumer Price Index", 
-  "schema": {
-    "columns": [
-      {
-        "name": "statefips", 
-        "type": "real"
-      }, 
-      {
-        "name": "area", 
-        "type": "real"
-      }, 
-      {
-        "name": "areatype", 
-        "type": "real"
-      }, 
-      {
-        "name": "period", 
-        "type": "real"
-      }, 
-      {
-        "name": "periodyear", 
-        "type": "real"
-      }, 
-      {
-        "name": "periodtype", 
-        "type": "real"
-      }, 
-      {
-        "name": "periodtypedescription", 
-        "type": "text"
-      }, 
-      {
-        "name": "cpi", 
-        "type": "real"
-      }, 
-      {
-        "name": "title", 
-        "type": "text"
-      }, 
-      {
-        "name": "type", 
-        "type": "real"
-      }, 
-      {
-        "name": "source", 
-        "type": "real"
-      }, 
-      {
-        "name": "cpisourcedescription", 
-        "type": "text"
-      }, 
-      {
-        "name": "percentchangeyear", 
-        "type": "real"
-      }, 
-      {
-        "name": "percentchangemonth", 
-        "type": "real"
-      }, 
-      {
-        "name": "dataregion", 
-        "type": "text"
-      }, 
-      {
-        "name": "areaname", 
-        "type": "text"
-      }, 
-      {
-        "name": "areadescription", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "consumer_price_index"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "consumer_price_index"
 }

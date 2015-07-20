@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/colorado_counties_colors/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/geospatial/434q-2p8p", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/api/geospatial/434q-2p8p", 
   "description": "Counties and All-Hazards Regions", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -15,7 +12,7 @@
     }
   }, 
   "name": "Colorado Counties Colors", 
-  "schema": {}, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "colorado_counties_colors"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "colorado_counties_colors"
 }

@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/chapter_66_target_neighborhoods/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.nola.gov/api/geospatial/e2up-n9g3", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.nola.gov/api/geospatial/e2up-n9g3", 
   "description": "Boundaries of neighborhoods of Chapter 66 Lot Maintenance Fight the Blight program; St Roch, Central City, Hollygrove, Little Woods, Behrman-Algiers, and Lower Ninth Ward", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Chapter 66 Target Neighborhoods", 
-  "schema": {}, 
-  "schemaName": "socrata/data.nola.gov", 
-  "tableName": "chapter_66_target_neighborhoods"
+  "schema": "socrata/data.nola.gov", 
+  "status": "needs review", 
+  "table": "chapter_66_target_neighborhoods"
 }

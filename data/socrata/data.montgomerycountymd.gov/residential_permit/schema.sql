@@ -1,0 +1,22 @@
+CREATE TABLE "residential_permit" (
+	"permitno"	text,
+	"status"	text,
+	"stno"	text,
+	"stname"	text,
+	"suffix"	text,
+	"postdir"	text,
+	"city"	text,
+	"state"	text,
+	"zip"	text,
+	"addeddate"	timestamp,
+	"issueddate"	timestamp,
+	"finaleddate"	timestamp,
+	"buildingarea"	real,
+	"declaredvaluation"	text,
+	"description"	text,
+	"applicationtype"	text,
+	"worktype"	text,
+	"usecode"	text,
+	"predir"	text,
+	"location"	text
+);

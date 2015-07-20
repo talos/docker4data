@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_complaints_per_uniformed_officer/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/js82-9nvz/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/js82-9nvz/rows.csv", 
   "description": "This table represents complaints per uniformed officer", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Complaints per Uniformed Officer", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "text"
-      }, 
-      {
-        "name": "ranking", 
-        "type": "text"
-      }, 
-      {
-        "name": "precinct_command", 
-        "type": "text"
-      }, 
-      {
-        "name": "complaints_count", 
-        "type": "text"
-      }, 
-      {
-        "name": "number_of_subject_officers", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "complaints_per_uniformed_officer"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "complaints_per_uniformed_officer"
 }

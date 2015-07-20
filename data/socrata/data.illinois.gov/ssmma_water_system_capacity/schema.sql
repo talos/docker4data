@@ -1,0 +1,20 @@
+CREATE TABLE "ssmma_water_system_capacity" (
+	"objectid"	real,
+	"municipali"	text,
+	"county"	text,
+	"type"	text,
+	"water_serv"	text,
+	"contact_pe"	text,
+	"contact_1"	text,
+	"contact_2"	text,
+	"storage_ca"	real,
+	"treatment"	real,
+	"average_da"	real,
+	"water_repo"	text,
+	"year_updat"	real,
+	"editor"	text,
+	"propreitar"	real,
+	"universal"	text,
+	"future_202"	real,
+	"future_203"	real
+);

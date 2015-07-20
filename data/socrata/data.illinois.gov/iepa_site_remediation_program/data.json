@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_iepa_site_remediation_program/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/viug-8kkr/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/viug-8kkr/rows.csv", 
   "description": "Data extracted from the Bureau of Land's Site Remediation Program Database which identifies the status of all voluntary remediation projects enrolled in the Pre-Notice Site Cleanup Program (1989 to 1995) and the Site Remediation Program (1996 to the present).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,86 +13,7 @@
     }
   }, 
   "name": "IEPA Site Remediation Program", 
-  "schema": {
-    "columns": [
-      {
-        "name": "lpc", 
-        "type": "text"
-      }, 
-      {
-        "name": "usepa_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "site_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "applicant_company", 
-        "type": "text"
-      }, 
-      {
-        "name": "applicant_title", 
-        "type": "text"
-      }, 
-      {
-        "name": "applicant_first_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "applicant_last_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "applicant_phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "application_receipt_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "consultant", 
-        "type": "text"
-      }, 
-      {
-        "name": "point_of_contact", 
-        "type": "text"
-      }, 
-      {
-        "name": "consultant_phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "iepa_project_manager", 
-        "type": "text"
-      }, 
-      {
-        "name": "section_4_y_letter", 
-        "type": "text"
-      }, 
-      {
-        "name": "nfr_letter", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "date_nfr_letter_recorded", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "active_in_srp", 
-        "type": "text"
-      }, 
-      {
-        "name": "acres", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "iepa_site_remediation_program"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "iepa_site_remediation_program"
 }

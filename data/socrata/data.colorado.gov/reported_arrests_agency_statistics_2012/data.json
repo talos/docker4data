@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_reported_arrests_agency_statistics_2012/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/yf5z-ktcw/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/api/views/yf5z-ktcw/rows.csv", 
   "description": "The reported arrests for 2012", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,26 +12,7 @@
     }
   }, 
   "name": "Reported Arrests Agency Statistics 2012", 
-  "schema": {
-    "columns": [
-      {
-        "name": "arrest_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "adult", 
-        "type": "real"
-      }, 
-      {
-        "name": "juvenile", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "reported_arrests_agency_statistics_2012"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "reported_arrests_agency_statistics_2012"
 }

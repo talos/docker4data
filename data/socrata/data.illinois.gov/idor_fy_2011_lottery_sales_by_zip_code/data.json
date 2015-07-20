@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_idor_fy_2011_lottery_sales_by_zip_code/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/r9kx-zjnk/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/r9kx-zjnk/rows.csv", 
   "description": "Sales report SLS989-01 reflects all Lottery sales for fiscal year 2011 (current). The games are Instant, Pic 3, Pic 4, Subscription, Mega, Lotto, Little Lotto, Powerball, Pick-n-Play and Raffle.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,18 +13,7 @@
     }
   }, 
   "name": "IDOR FY 2011 Lottery Sales by Zip Code", 
-  "schema": {
-    "columns": [
-      {
-        "name": "sales_amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "idor_fy_2011_lottery_sales_by_zip_code"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "idor_fy_2011_lottery_sales_by_zip_code"
 }

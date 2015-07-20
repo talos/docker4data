@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/census_tracts_2010_geographic_data_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/geospatial/g3te-25bn", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/geospatial/g3te-25bn", 
   "description": "Census Tracts from 2010 census, from US Census Bureau", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,7 +13,7 @@
     }
   }, 
   "name": "Census Tracts 2010 (geographic data)", 
-  "schema": {}, 
-  "schemaName": "socrata/data.montgomerycountymd.gov", 
-  "tableName": "census_tracts_2010_geographic_data_"
+  "schema": "socrata/data.montgomerycountymd.gov", 
+  "status": "needs review", 
+  "table": "census_tracts_2010_geographic_data_"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_poverty_rate_with_margin_of_error_2006_2012/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/qnk2-m5pz/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/qnk2-m5pz/rows.csv", 
   "description": "The data consist of the poverty rate by the year in Maryland and the margin of error of the poverty rate from 2006 to 2012. MOE= Margin of Error for the 90% confidence interval. Source from the U.S. Census Bureau, Small Area Income and Poverty Estimates, July 2014.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,70 +13,7 @@
     }
   }, 
   "name": "Poverty Rate With Margin Of Error, 2006-2012", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "text"
-      }, 
-      {
-        "name": "poverty_rate_2006", 
-        "type": "text"
-      }, 
-      {
-        "name": "margin_of_error_2006", 
-        "type": "text"
-      }, 
-      {
-        "name": "poverty_rate_2007", 
-        "type": "text"
-      }, 
-      {
-        "name": "margin_of_error_2007", 
-        "type": "text"
-      }, 
-      {
-        "name": "poverty_rate_2008", 
-        "type": "text"
-      }, 
-      {
-        "name": "margin_of_error_2008", 
-        "type": "text"
-      }, 
-      {
-        "name": "poverty_rate_2009", 
-        "type": "text"
-      }, 
-      {
-        "name": "margin_of_error_2009", 
-        "type": "text"
-      }, 
-      {
-        "name": "poverty_rate_2010", 
-        "type": "text"
-      }, 
-      {
-        "name": "margin_of_error_2010", 
-        "type": "text"
-      }, 
-      {
-        "name": "poverty_rate_2011", 
-        "type": "text"
-      }, 
-      {
-        "name": "margin_of_error_2011", 
-        "type": "text"
-      }, 
-      {
-        "name": "poverty_rate_2012", 
-        "type": "text"
-      }, 
-      {
-        "name": "margin_of_error_2012", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "poverty_rate_with_margin_of_error_2006_2012"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "poverty_rate_with_margin_of_error_2006_2012"
 }

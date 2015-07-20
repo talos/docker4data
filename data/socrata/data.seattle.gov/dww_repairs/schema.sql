@@ -1,0 +1,23 @@
+CREATE TABLE "dww_repairs" (
+	"objectid"	real,
+	"shape"	text,
+	"rep_key"	real,
+	"rep_feature_key"	real,
+	"rep_ups_endpt_id"	text,
+	"rep_dns_endpt_id"	text,
+	"rep_map_area_id"	text,
+	"rep_permit_id"	text,
+	"rep_sketch_id"	text,
+	"rep_work_order_id"	text,
+	"rep_featype_code"	text,
+	"rep_featype_text"	text,
+	"rep_material_code"	text,
+	"rep_material_type"	text,
+	"rep_length_ft_nbr"	real,
+	"rep_start_stn_nbr"	real,
+	"rep_end_stn_nbr"	real,
+	"rep_repair_date"	text,
+	"rep_lst_updt_date"	text,
+	"len"	real,
+	"shape_length"	real
+);

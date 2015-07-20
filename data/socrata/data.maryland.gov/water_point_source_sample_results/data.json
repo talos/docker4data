@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_water_point_source_sample_results/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/eqs6-savc/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/eqs6-savc/rows.csv", 
   "description": "Discharge monitoring reports (DMRs) and monthly operating reports (MORs) for the 58 major WWTPs, 215 minor WWTPs, and 10 major industrial point sources within the State of Maryland and are stored in MDE\u2019s point source database.  This data set contains results for nutrients such as phosphorous and nitrogen that may impact water quality in the Chesapeake Bay.   This dataset covers the time period from 2008 to 2013.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,82 +12,7 @@
     }
   }, 
   "name": "Water Point Source Sample Results", 
-  "schema": {
-    "columns": [
-      {
-        "name": "org_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "station_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "huc", 
-        "type": "real"
-      }, 
-      {
-        "name": "station_horizontal_datum", 
-        "type": "text"
-      }, 
-      {
-        "name": "activity_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "activity_start", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "activity_medium", 
-        "type": "text"
-      }, 
-      {
-        "name": "activity_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "activity_category_rep_num", 
-        "type": "text"
-      }, 
-      {
-        "name": "characteristic_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "sample_fraction", 
-        "type": "text"
-      }, 
-      {
-        "name": "value_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "result_value_status", 
-        "type": "text"
-      }, 
-      {
-        "name": "result_value", 
-        "type": "real"
-      }, 
-      {
-        "name": "units", 
-        "type": "text"
-      }, 
-      {
-        "name": "analytical_proc_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "water_point_source_sample_results"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "water_point_source_sample_results"
 }

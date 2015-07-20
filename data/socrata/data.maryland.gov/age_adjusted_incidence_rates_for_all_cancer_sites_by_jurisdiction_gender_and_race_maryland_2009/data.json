@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/age_adjusted_incidence_rates_for_all_cancer_sites_by_jurisdiction_gender_and_race_maryland_2009/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/yg8i-6p9m/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/yg8i-6p9m/rows.csv", 
   "description": "Definition of \"All Cancer Sites\": ICD-O-3 Topography (Site) Codes  C00.0 \u2013 C80.9  with histology codes including all invasive cancers of all sites except basal and squamous cell skin cancers, and in situ cancer cases of the urinary bladder.  Rates are per 100,000 population and are age-adjusted to 2000 U.S. standard population. Rates based on case counts of 1-15 are suppressed per DHMH/MCR Data Use Policy and Procedures.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "Age-Adjusted Incidence Rates for All Cancer Sites by Jurisdiction, Gender, and Race, Maryland 2009", 
-  "schema": {
-    "columns": [
-      {
-        "name": "jurisdiction", 
-        "type": "text"
-      }, 
-      {
-        "name": "total", 
-        "type": "real"
-      }, 
-      {
-        "name": "males", 
-        "type": "real"
-      }, 
-      {
-        "name": "females", 
-        "type": "real"
-      }, 
-      {
-        "name": "whites", 
-        "type": "real"
-      }, 
-      {
-        "name": "blacks", 
-        "type": "real"
-      }, 
-      {
-        "name": "other_race", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "age_adjusted_incidence_rates_for_all_cancer_sites_by_jurisdiction_gender_and_race_maryland_2009"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "age_adjusted_incidence_rates_for_all_cancer_sites_by_jurisdiction_gender_and_race_maryland_2009"
 }

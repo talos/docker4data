@@ -1,0 +1,21 @@
+CREATE TABLE "quality_assurance_reporting_requirements_beginning_2008" (
+	"measurement_year"	real,
+	"payer"	text,
+	"plan_id"	text,
+	"plan_name"	text,
+	"domain"	text,
+	"sub_domain"	text,
+	"measure_description"	text,
+	"measure"	text,
+	"method_of_data_collection"	text,
+	"eligible_population"	real,
+	"denominator"	real,
+	"numerator"	real,
+	"rate"	real,
+	"level_of_significance"	text,
+	"percentile_90th"	real,
+	"percentile_75th"	real,
+	"percentile_50th"	real,
+	"percentile_25th"	real,
+	"percentile_10th"	real
+);

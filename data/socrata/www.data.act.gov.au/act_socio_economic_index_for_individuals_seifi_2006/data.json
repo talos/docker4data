@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/act_socio_economic_index_for_individuals_seifi_2006/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/www.data.act.gov.au/api/views/3if8-4tcz/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/www.data.act.gov.au/api/views/3if8-4tcz/rows.csv", 
   "description": "This spread sheet shows all of the State Suburbs for the ACT and the % of the 15-64 year old population  within each Socio-Economic Indexes for Individuals (SEIFI) IRSD group.  The data used to create this information was the same as used in the research paper \u201cSocio-Economic Indexes for Areas: Getting a handle on individual diversity within areas\u201d by Phillip Wise and Rosalynn Mathews. It is advised that this paper is read to further develop an understanding of the concepts and caveats associated with the analytical output contained in the spreadsheet.\r\n\r\nGroup 1 \u2013 Approx. most disadvantage  20% of the 15-64 year old population \r\nGroup 2 \u2013 Approx. second most disadvantaged 20% of the 15- 64 population \r\nGroup 3 \u2013 Approx. second least disadvantaged 30% of the 15-64 year old population\r\nGroup 4 \u2013 Approx. least disadvantaged 30% of the 15-64 year old population \r\n\r\nPlease also note that not all ACT CDs have been included as their populations are below the ABS population count threshold (<3), those removed are:\r\n- 8013801 in Reid \r\n- 8012805 in Turner\r\n- 8014302 in Kingston\r\n- 8021701 in Unclassified ACT\r\n- 8010110 in Bonner\r\n- 8023401 in Tharwa\r\n- 8010103 in Unclassified ACT\r\n- 8014305 in Kingston\r\n- 8014803 in Forrest\r\n\r\nIt should be noted that multiple Compact Discs of data make up this dataset, as a result the data for each suburb is distributed across several discs. This cccounts for the multiple rows of data that appear for each suburb.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "ACT Socio-economic Index for Individuals (SEIFI) 2006", 
-  "schema": {
-    "columns": [
-      {
-        "name": "cd", 
-        "type": "real"
-      }, 
-      {
-        "name": "group_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "group_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "group_3", 
-        "type": "text"
-      }, 
-      {
-        "name": "group_4", 
-        "type": "text"
-      }, 
-      {
-        "name": "seifa_2006_irsd_score", 
-        "type": "real"
-      }, 
-      {
-        "name": "seifa_2006_irsd_decile", 
-        "type": "real"
-      }, 
-      {
-        "name": "usual_resident_population_all_ages", 
-        "type": "real"
-      }, 
-      {
-        "name": "state_suburb_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "suburb", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/www.data.act.gov.au", 
-  "tableName": "act_socio_economic_index_for_individuals_seifi_2006"
+  "schema": "socrata/www.data.act.gov.au", 
+  "status": "needs review", 
+  "table": "act_socio_economic_index_for_individuals_seifi_2006"
 }

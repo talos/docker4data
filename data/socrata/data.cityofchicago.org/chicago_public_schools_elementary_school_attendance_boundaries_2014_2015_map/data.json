@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/chicago_public_schools_elementary_school_attendance_boundaries_2014_2015_map/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/geospatial/e75y-e6uw", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/geospatial/e75y-e6uw", 
   "description": "Attendance boundaries for elementary schools in the Chicago Public Schools district. Each CPS neighborhood school has an attendance boundary. Generally, all students who live within this area may attend the school. To view or use these shapefiles, compression software, such as 7-Zip, and special GIS software, such as ESRI ArcGIS or QGIS, are required. To download this file, right-click the \"Download\" link above and choose \"Save link as.\"", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Chicago Public Schools - Elementary School Attendance Boundaries (2014-2015) - Map", 
-  "schema": {}, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "chicago_public_schools_elementary_school_attendance_boundaries_2014_2015_map"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "chicago_public_schools_elementary_school_attendance_boundaries_2014_2015_map"
 }

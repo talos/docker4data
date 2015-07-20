@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_ssmma_tif_district/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/fzqr-ukfe/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/fzqr-ukfe/rows.csv", 
   "description": "This dataset contains a listing of all TIF Districts in the Chicago Southland region.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,78 +13,7 @@
     }
   }, 
   "name": "SSMMA TIF District", 
-  "schema": {
-    "columns": [
-      {
-        "name": "objectid", 
-        "type": "real"
-      }, 
-      {
-        "name": "agency", 
-        "type": "real"
-      }, 
-      {
-        "name": "agency_des", 
-        "type": "text"
-      }, 
-      {
-        "name": "agencynum", 
-        "type": "real"
-      }, 
-      {
-        "name": "first_tax", 
-        "type": "real"
-      }, 
-      {
-        "name": "current_ye", 
-        "type": "real"
-      }, 
-      {
-        "name": "past_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "difference", 
-        "type": "text"
-      }, 
-      {
-        "name": "municipali", 
-        "type": "text"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "editor", 
-        "type": "text"
-      }, 
-      {
-        "name": "propreitar", 
-        "type": "real"
-      }, 
-      {
-        "name": "universal", 
-        "type": "text"
-      }, 
-      {
-        "name": "shape_leng", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape_area", 
-        "type": "real"
-      }, 
-      {
-        "name": "contact_na", 
-        "type": "text"
-      }, 
-      {
-        "name": "website", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "ssmma_tif_district"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "ssmma_tif_district"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_capital_grants/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/9umc-3b2y/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/9umc-3b2y/rows.csv", 
   "description": "This list contains information on capital grants", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,66 +13,7 @@
     }
   }, 
   "name": "Capital Grants", 
-  "schema": {
-    "columns": [
-      {
-        "name": "agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "organization_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "organization_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip", 
-        "type": "text"
-      }, 
-      {
-        "name": "building_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "school_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "community_board", 
-        "type": "text"
-      }, 
-      {
-        "name": "council_district", 
-        "type": "text"
-      }, 
-      {
-        "name": "project_title", 
-        "type": "text"
-      }, 
-      {
-        "name": "project_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "amnt_requested", 
-        "type": "text"
-      }, 
-      {
-        "name": "funded_amount", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "capital_grants"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "capital_grants"
 }

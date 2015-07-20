@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/regulating_plan_subdistrict/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/geospatial/m977-demj", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/geospatial/m977-demj", 
   "description": "To provide information about the Specific Regulating Districts that include the regulating plans for the station areas (aka Transit Oriented Development Districts).", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,9 +14,7 @@
     }
   }, 
   "name": "Regulating Plan Subdistrict", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "regulating_plan_subdistrict"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "regulating_plan_subdistrict"
 }

@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/austin_energy_service_area/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/geospatial/5t3j-7u8t", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/geospatial/5t3j-7u8t", 
   "description": "City of Austin Electric Utility Service Area. This layer should not be considered the definition of source for a utility service provider. Further research should be conducted to determine the responsible entity for electric service. This data has been produced by the City of Austin for the sole purpose of aiding internal processes and is not warranted for any other use. No warranty is made by the City of Austin regarding its accuracy or completeness. Acknowledgment of the City of Austin Communications and Technology Management GIS Division and Austin Energy would be appreciated in products derived from these data.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,9 +14,7 @@
     }
   }, 
   "name": "Austin Energy Service Area", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "austin_energy_service_area"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "austin_energy_service_area"
 }

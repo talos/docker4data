@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_harbor_water_quality/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/5uug-f49n/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/5uug-f49n/rows.csv", 
   "description": "Harbor water sampling information", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,54 +13,7 @@
     }
   }, 
   "name": "Harbor Water Quality", 
-  "schema": {
-    "columns": [
-      {
-        "name": "site", 
-        "type": "text"
-      }, 
-      {
-        "name": "nys_dec_waterbody_class", 
-        "type": "text"
-      }, 
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "do_mg_l_top", 
-        "type": "text"
-      }, 
-      {
-        "name": "do_mg_l_bot", 
-        "type": "text"
-      }, 
-      {
-        "name": "fecal_coliform_100_ml_top", 
-        "type": "text"
-      }, 
-      {
-        "name": "fecal_coliform_100_ml_bot", 
-        "type": "text"
-      }, 
-      {
-        "name": "enterococcus_100_ml_top", 
-        "type": "text"
-      }, 
-      {
-        "name": "enterococcus_100_ml_bot", 
-        "type": "text"
-      }, 
-      {
-        "name": "transparency_secchi_ft", 
-        "type": "text"
-      }, 
-      {
-        "name": "weather_dry_wet_d_w", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "harbor_water_quality"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "harbor_water_quality"
 }

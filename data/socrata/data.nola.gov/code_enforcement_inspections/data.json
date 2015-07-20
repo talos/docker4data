@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_nola_code_enforcement_inspections/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.nola.gov/api/views/2mq3-p3xc/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.nola.gov/api/views/2mq3-p3xc/rows.csv", 
   "description": "Lists all inspections of private property completed by the New Orleans Code Enforcement and Hearings Bureau, with dates, case numbers, addresses, type and result of inspections. Each address has been assigned additional geographic attributes: council district, police district, census tract, inspection district, and neighborhood attributes.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,90 +13,7 @@
     }
   }, 
   "name": "Code Enforcement Inspections", 
-  "schema": {
-    "columns": [
-      {
-        "name": "case_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "property_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "inspection_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "inspection_result", 
-        "type": "text"
-      }, 
-      {
-        "name": "scheduled_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "inspection_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "geopin", 
-        "type": "real"
-      }, 
-      {
-        "name": "taxbill", 
-        "type": "text"
-      }, 
-      {
-        "name": "mdist", 
-        "type": "real"
-      }, 
-      {
-        "name": "square", 
-        "type": "text"
-      }, 
-      {
-        "name": "lot", 
-        "type": "text"
-      }, 
-      {
-        "name": "tractce10", 
-        "type": "real"
-      }, 
-      {
-        "name": "lup_lab", 
-        "type": "text"
-      }, 
-      {
-        "name": "pd_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "nopd_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "councildis", 
-        "type": "text"
-      }, 
-      {
-        "name": "cehb_district", 
-        "type": "real"
-      }, 
-      {
-        "name": "x", 
-        "type": "real"
-      }, 
-      {
-        "name": "y", 
-        "type": "real"
-      }, 
-      {
-        "name": "geolocation", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.nola.gov", 
-  "tableName": "code_enforcement_inspections"
+  "schema": "socrata/data.nola.gov", 
+  "status": "needs review", 
+  "table": "code_enforcement_inspections"
 }

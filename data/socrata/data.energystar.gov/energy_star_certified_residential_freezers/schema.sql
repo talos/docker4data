@@ -1,0 +1,22 @@
+CREATE TABLE "energy_star_certified_residential_freezers" (
+	"pd_id"	real,
+	"brand_name"	text,
+	"model_number"	text,
+	"additional_model_information"	text,
+	"type"	text,
+	"defrost_type"	text,
+	"compact"	text,
+	"built_in"	text,
+	"thru_the_door_dispenser"	text,
+	"ice_maker"	text,
+	"capacity_total_volume_ft3"	real,
+	"adjusted_volume_ft3"	real,
+	"annual_energy_use_kwh_yr"	real,
+	"us_federal_standard_kwh_yr"	real,
+	"percent_less_energy_use_than_us_federal_standard"	text,
+	"connected_functionality"	text,
+	"date_available_on_market"	timestamp,
+	"date_qualified"	timestamp,
+	"markets"	text,
+	"energy_star_model_identifier"	text
+);

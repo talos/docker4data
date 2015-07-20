@@ -1,0 +1,20 @@
+CREATE TABLE "baltimore_operating_budget" (
+	"fiscal_year"	real,
+	"department"	text,
+	"fund_id"	real,
+	"fund"	text,
+	"fund_type"	text,
+	"detailed_fund_id"	real,
+	"detailed_fund_description"	text,
+	"program_id"	real,
+	"service"	text,
+	"program"	text,
+	"activity_id"	real,
+	"description"	text,
+	"obj"	real,
+	"expense_category"	text,
+	"sub_object_id"	real,
+	"expense_type"	text,
+	"approved_amount"	real,
+	"recommended_amount"	real
+);

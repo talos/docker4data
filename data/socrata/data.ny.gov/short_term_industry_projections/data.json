@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_short_term_industry_projections/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/mx4v-8962/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/mx4v-8962/rows.csv", 
   "description": "Short-term Industry Projections for a 2 year time horizon are provided for the state and 10 labor market regions to provide individuals and organizations with an industry outlook.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "Short-term Industry Projections", 
-  "schema": {
-    "columns": [
-      {
-        "name": "area", 
-        "type": "text"
-      }, 
-      {
-        "name": "period", 
-        "type": "text"
-      }, 
-      {
-        "name": "industry_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "industry_title", 
-        "type": "text"
-      }, 
-      {
-        "name": "base_year_employment_estimate", 
-        "type": "real"
-      }, 
-      {
-        "name": "projected_year_employment_estimate", 
-        "type": "real"
-      }, 
-      {
-        "name": "net_change", 
-        "type": "real"
-      }, 
-      {
-        "name": "annual_growth_rate", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "short_term_industry_projections"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "short_term_industry_projections"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_mdta_accidents/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/rqid-652u/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/rqid-652u/rows.csv", 
   "description": "Includes accidents that occured on MD Transportation Authority (MDTA) facilities, or were within a concurrent jurisdiction and were responded to by MDTA Police. MDTA facilities are the Francis Scott Key Bridge (I-695), John F. Kennedy Memorial Highway (I-95), Thomas J. Hatem Memorial Bridge (US 40), Fort McHenry Tunnel (I-95), Baltimore Harbor Tunnel (I-895), the Bay Bridge (US 50/301), Governor Harry W. Nice Memorial Bridge (US 301), and Intercounty Connector (ICC/MD200). MDTA Police are also responsible for accidents at BWI Airport and the Port of Baltimore.  This dataset will be updated monthly by the MD Transportation Authority", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,30 +12,7 @@
     }
   }, 
   "name": "MDTA Accidents", 
-  "schema": {
-    "columns": [
-      {
-        "name": "cc_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "time", 
-        "type": "real"
-      }, 
-      {
-        "name": "accident_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "mdta_accidents"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "mdta_accidents"
 }

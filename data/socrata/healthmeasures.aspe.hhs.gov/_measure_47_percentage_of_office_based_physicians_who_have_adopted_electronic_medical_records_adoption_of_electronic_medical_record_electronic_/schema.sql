@@ -1,0 +1,5 @@
+CREATE TABLE "_measure_47_percentage_of_office_based_physicians_who_have_adopted_electronic_medical_records_adoption_of_electronic_medical_record_electronic_health_record_functional_level" (
+	"measure_value"	text,
+	"year"	real,
+	"adoption_of_electronic_medical_record_electronic_health_record_functional_level"	text
+);

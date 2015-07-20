@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_law_enforcement_personnel_by_agency_beginning_2007/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/khn9-hhpq/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/khn9-hhpq/rows.csv", 
   "description": "The Division of Criminal Justice Services (DCJS) collects personnel statistics from more than 500 New York State police and sheriffs\u2019 departments. In New York State, law enforcement agencies use the Uniform Crime Reporting (UCR) system to report their annual personnel counts to DCJS.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,58 +13,7 @@
     }
   }, 
   "name": "Law Enforcement Personnel by Agency:  Beginning 2007", 
-  "schema": {
-    "columns": [
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "pd", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "sworn_full_time", 
-        "type": "real"
-      }, 
-      {
-        "name": "sworn_part_time", 
-        "type": "real"
-      }, 
-      {
-        "name": "sworn_total", 
-        "type": "real"
-      }, 
-      {
-        "name": "civilian_full_time", 
-        "type": "real"
-      }, 
-      {
-        "name": "civilian_park_time", 
-        "type": "real"
-      }, 
-      {
-        "name": "civilian_total", 
-        "type": "real"
-      }, 
-      {
-        "name": "full_time_total", 
-        "type": "real"
-      }, 
-      {
-        "name": "part_time_total", 
-        "type": "real"
-      }, 
-      {
-        "name": "grand_total", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "law_enforcement_personnel_by_agency_beginning_2007"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "law_enforcement_personnel_by_agency_beginning_2007"
 }

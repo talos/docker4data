@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/vegetated_area/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/geospatial/rqna-ikwn", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.baltimorecity.gov/api/geospatial/rqna-ikwn", 
   "description": "Polygon feature representing photogrammetrically captured vegetation features such as wooded/brush areas, tree rows of 50ft or greater in length. Last Updated 2008", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Vegetated Area", 
-  "schema": {}, 
-  "schemaName": "socrata/data.baltimorecity.gov", 
-  "tableName": "vegetated_area"
+  "schema": "socrata/data.baltimorecity.gov", 
+  "status": "needs review", 
+  "table": "vegetated_area"
 }

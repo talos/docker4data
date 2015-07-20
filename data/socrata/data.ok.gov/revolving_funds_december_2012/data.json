@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_revolving_funds_december_2012/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/qv5a-x5vw/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/qv5a-x5vw/rows.csv", 
   "description": "A detailed listing of all state revolving funds and the amount contained in each fund to be updated on a monthly basis", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "Revolving Funds - December 2012", 
-  "schema": {
-    "columns": [
-      {
-        "name": "agency_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "agency_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "class_field", 
-        "type": "real"
-      }, 
-      {
-        "name": "class_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "statutory_reference", 
-        "type": "text"
-      }, 
-      {
-        "name": "calendar_year", 
-        "type": "text"
-      }, 
-      {
-        "name": "month", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_amount", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "revolving_funds_december_2012"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "revolving_funds_december_2012"
 }

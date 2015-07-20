@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_oit_standards_technology_standards_catalog/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/59yk-kunn/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/api/views/59yk-kunn/rows.csv", 
   "description": "A listing of the State of Colorado Office of Information Technology - Technology Standards", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "OIT Standards - Technology Standards Catalog", 
-  "schema": {
-    "columns": [
-      {
-        "name": "project_title", 
-        "type": "text"
-      }, 
-      {
-        "name": "status", 
-        "type": "text"
-      }, 
-      {
-        "name": "product_technology_standards", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "oit_standards_technology_standards_catalog"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "oit_standards_technology_standards_catalog"
 }

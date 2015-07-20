@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_cnn_changes/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/amiw-iisi/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sfgov.org/api/views/amiw-iisi/rows.csv", 
   "description": "a list of Street Segment (CNN) changes including new, dropped, realigned, divided and split records.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "CNN Changes", 
-  "schema": {
-    "columns": [
-      {
-        "name": "changeid", 
-        "type": "text"
-      }, 
-      {
-        "name": "oldcnn", 
-        "type": "real"
-      }, 
-      {
-        "name": "newcnn", 
-        "type": "real"
-      }, 
-      {
-        "name": "dateofupdate", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "changetype", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sfgov.org", 
-  "tableName": "cnn_changes"
+  "schema": "socrata/data.sfgov.org", 
+  "status": "needs review", 
+  "table": "cnn_changes"
 }

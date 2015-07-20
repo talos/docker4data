@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_idph_migrant_labor_camps/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/sqn7-6vr2/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/sqn7-6vr2/rows.csv", 
   "description": "Updated August 2014", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,74 +13,7 @@
     }
   }, 
   "name": "IDPH Migrant Labor Camps", 
-  "schema": {
-    "columns": [
-      {
-        "name": "facilty_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "occupancy", 
-        "type": "real"
-      }, 
-      {
-        "name": "from", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "to", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "facility_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "facility_city", 
-        "type": "text"
-      }, 
-      {
-        "name": "facility_state", 
-        "type": "text"
-      }, 
-      {
-        "name": "facility_zip", 
-        "type": "real"
-      }, 
-      {
-        "name": "facility_phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "facility_county", 
-        "type": "text"
-      }, 
-      {
-        "name": "company_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "company_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "company_city", 
-        "type": "text"
-      }, 
-      {
-        "name": "company_state", 
-        "type": "text"
-      }, 
-      {
-        "name": "company_zip", 
-        "type": "real"
-      }, 
-      {
-        "name": "company_phone", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "idph_migrant_labor_camps"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "idph_migrant_labor_camps"
 }

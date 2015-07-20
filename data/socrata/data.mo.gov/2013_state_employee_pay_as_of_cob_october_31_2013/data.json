@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_mo_2013_state_employee_pay_as_of_cob_october_31_2013/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.mo.gov/api/views/32nm-z4s4/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.mo.gov/api/views/32nm-z4s4/rows.csv", 
   "description": "Pay information for calendar year 2013(January 1 - close of business December 31) for the employees of the State of Missouri by their Agency of Employment, Position Title or Employee Name.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,30 +12,7 @@
     }
   }, 
   "name": "2013 State Employee Pay As Of COB October 31, 2013", 
-  "schema": {
-    "columns": [
-      {
-        "name": "calendar_year", 
-        "type": "text"
-      }, 
-      {
-        "name": "agency_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "position_title", 
-        "type": "text"
-      }, 
-      {
-        "name": "employee_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "ytd_gross_pay", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.mo.gov", 
-  "tableName": "2013_state_employee_pay_as_of_cob_october_31_2013"
+  "schema": "socrata/data.mo.gov", 
+  "status": "needs review", 
+  "table": "2013_state_employee_pay_as_of_cob_october_31_2013"
 }

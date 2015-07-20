@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_fy2016_capital_improvement_recommendations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/cgdx-krsq/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/cgdx-krsq/rows.csv", 
   "description": "List of capital improvements recommended for Fiscal Year 2016.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,34 +12,7 @@
     }
   }, 
   "name": "FY2016 Capital Improvement Recommendations", 
-  "schema": {
-    "columns": [
-      {
-        "name": "cippriority", 
-        "type": "real"
-      }, 
-      {
-        "name": "project_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "project_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "description_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "_2016_recommendation", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "fy2016_capital_improvement_recommendations"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "fy2016_capital_improvement_recommendations"
 }

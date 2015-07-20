@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/2009_recidivism_pdf/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/download/ym4e-u79dapplication/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/download/ym4e-u79d/application/pdf", 
   "description": "Statewide recidivism rates of youth referred in 2009. Recidivism is a new referral within 12 months of the youth's first referral in the calendar year.", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "2009_Recidivism.pdf", 
-  "schema": {}, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "2009_recidivism_pdf"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "2009_recidivism_pdf"
 }

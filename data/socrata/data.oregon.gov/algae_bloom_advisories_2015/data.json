@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oregon_algae_bloom_advisories_2015/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/yi2t-hupz/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/api/views/yi2t-hupz/rows.csv", 
   "description": "Only a fraction of all waterbodies in Oregon are monitored due to limited physical and monetary resources.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,58 +13,7 @@
     }
   }, 
   "name": "Algae Bloom Advisories 2015", 
-  "schema": {
-    "columns": [
-      {
-        "name": "waterbody", 
-        "type": "text"
-      }, 
-      {
-        "name": "issued", 
-        "type": "text"
-      }, 
-      {
-        "name": "lifted", 
-        "type": "text"
-      }, 
-      {
-        "name": "image", 
-        "type": "text"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "region", 
-        "type": "text"
-      }, 
-      {
-        "name": "dominant_species_toxin", 
-        "type": "text"
-      }, 
-      {
-        "name": "cell_count_toxin", 
-        "type": "text"
-      }, 
-      {
-        "name": "duration_days", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "icon", 
-        "type": "text"
-      }, 
-      {
-        "name": "photo_credit", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "algae_bloom_advisories_2015"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "algae_bloom_advisories_2015"
 }

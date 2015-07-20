@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_healthny_radon_test_results_by_town_beginning_1987/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/hbu9-xsrx/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/health.data.ny.gov/api/views/hbu9-xsrx/rows.csv", 
   "description": "The DOH Radon Program contracts with a radon testing laboratory to provide short-term charcoal radon test kits, radon test kit analysis and results to residents.   The contract laboratory provides the radon test results to the individual home owner and the DOH Radon Program. All testing data is entered into our database. From this database, we are able to create radon prevalence maps, design special outreach activities and campaigns, and track the location in the home where the detector was placed.  \r\n\r\nThe radon test results obtained from this database may not be reflective of all radon tests completed in New York State. There are approximately 30,000-40,000 radon tests completed each year in New York State that are not purchased through the NYSDOH Radon Program. These tests are completed by resident home owners, inspectors, schools, etc. across the state.  A map by town is currently not available, but users can view a map by county.  The county map is Radon Test Results By County: Beginning 1987 and can be accessed from the main catalog.\r\n\r\nFor more information, check out http://www.health.ny.gov/environmental/radiological/radon/radon.htm or go to the \"About\" tab.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,54 +13,7 @@
     }
   }, 
   "name": "Radon Test Results By Town: Beginning 1987", 
-  "schema": {
-    "columns": [
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "town_village_city", 
-        "type": "text"
-      }, 
-      {
-        "name": "test_location_in_home", 
-        "type": "text"
-      }, 
-      {
-        "name": "of_homes_tested", 
-        "type": "real"
-      }, 
-      {
-        "name": "average_radon_pci_l", 
-        "type": "real"
-      }, 
-      {
-        "name": "geo_mean", 
-        "type": "real"
-      }, 
-      {
-        "name": "geo_s_d", 
-        "type": "real"
-      }, 
-      {
-        "name": "highest_pci_l", 
-        "type": "real"
-      }, 
-      {
-        "name": "_4_0_pci_l", 
-        "type": "real"
-      }, 
-      {
-        "name": "_4_and_20pci_l", 
-        "type": "real"
-      }, 
-      {
-        "name": "_20pci_l", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/health.data.ny.gov", 
-  "tableName": "radon_test_results_by_town_beginning_1987"
+  "schema": "socrata/health.data.ny.gov", 
+  "status": "needs review", 
+  "table": "radon_test_results_by_town_beginning_1987"
 }

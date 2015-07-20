@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_parcel_data_updated_12_4_12_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/w62r-cuiw/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/w62r-cuiw/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -15,30 +11,7 @@
     }
   }, 
   "name": "Parcel Data ( Updated 12-4-12)", 
-  "schema": {
-    "columns": [
-      {
-        "name": "project_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "site_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "site_apn", 
-        "type": "real"
-      }, 
-      {
-        "name": "record_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_record_id", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "parcel_data_updated_12_4_12_"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "parcel_data_updated_12_4_12_"
 }

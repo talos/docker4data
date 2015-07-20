@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_ethics_commission_enforcement_summaries/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/yre9-mzkb/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sfgov.org/api/views/yre9-mzkb/rows.csv", 
   "description": "Summaries of closed complaints within the Ethics Commission's jurisdiction", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "Ethics Commission Enforcement Summaries", 
-  "schema": {
-    "columns": [
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "allegation_s", 
-        "type": "text"
-      }, 
-      {
-        "name": "disposition", 
-        "type": "text"
-      }, 
-      {
-        "name": "supporting_documents_url", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sfgov.org", 
-  "tableName": "ethics_commission_enforcement_summaries"
+  "schema": "socrata/data.sfgov.org", 
+  "status": "needs review", 
+  "table": "ethics_commission_enforcement_summaries"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_acute_poisioning_hospitalization/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/batu-q26p/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/batu-q26p/rows.csv", 
   "description": "Decrease the rate of inpatient hospitalization discharges for acute poisoning from 115.4 per 100,000 in 2011 to 95.6 per 100,000 by 2017.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "Acute Poisioning Hospitalization", 
-  "schema": {
-    "columns": [
-      {
-        "name": "years", 
-        "type": "text"
-      }, 
-      {
-        "name": "historical_data", 
-        "type": "real"
-      }, 
-      {
-        "name": "target", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "acute_poisioning_hospitalization"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "acute_poisioning_hospitalization"
 }

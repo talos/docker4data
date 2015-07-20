@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/parks_chicago_park_district_artworks/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/geospatial/e9ef-hrzb", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/geospatial/e9ef-hrzb", 
   "description": "Inventory of public art located on Chicago Park District premises as of March 19, 2015", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,9 +14,7 @@
     }
   }, 
   "name": "Parks - Chicago Park District Artworks", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "parks_chicago_park_district_artworks"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "parks_chicago_park_district_artworks"
 }

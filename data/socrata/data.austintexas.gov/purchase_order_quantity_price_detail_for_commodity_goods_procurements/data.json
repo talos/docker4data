@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/purchase_order_quantity_price_detail_for_commodity_goods_procurements/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/3ebq-e9iz/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/views/3ebq-e9iz/rows.csv", 
   "description": "Purchase Order commodity line level detail for City of Austin Commodities/Goods purchases dating back to October 1st, 2009.  Each line includes the NIGP Commodity Code/COA Inventory Code, commodity description, quantity, unit of measure, unit price, total amount, referenced Master Agreement if applicable, the contract name, purchase order, award date, and vendor information.  The data contained in this data set is for informational purposes only.  Certain Austin Energy transactions have been excluded as competitive matters under Texas Government Code Section 552.133 and City Council Resolution 20051201-002.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,94 +13,7 @@
     }
   }, 
   "name": "Purchase Order Quantity Price detail for Commodity/Goods procurements", 
-  "schema": {
-    "columns": [
-      {
-        "name": "commodity", 
-        "type": "text"
-      }, 
-      {
-        "name": "commodity_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "extended_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "quantity", 
-        "type": "real"
-      }, 
-      {
-        "name": "unit_of_measure", 
-        "type": "text"
-      }, 
-      {
-        "name": "unit_of_meas_desc", 
-        "type": "text"
-      }, 
-      {
-        "name": "unit_price", 
-        "type": "real"
-      }, 
-      {
-        "name": "itm_tot_am", 
-        "type": "real"
-      }, 
-      {
-        "name": "master_agreement", 
-        "type": "text"
-      }, 
-      {
-        "name": "contract_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "purchase_order", 
-        "type": "text"
-      }, 
-      {
-        "name": "award_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "vendor_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "lgl_nm", 
-        "type": "text"
-      }, 
-      {
-        "name": "ad_ln_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "ad_ln_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "st", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip", 
-        "type": "text"
-      }, 
-      {
-        "name": "ctry", 
-        "type": "text"
-      }, 
-      {
-        "name": "data_build_date", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "purchase_order_quantity_price_detail_for_commodity_goods_procurements"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "purchase_order_quantity_price_detail_for_commodity_goods_procurements"
 }

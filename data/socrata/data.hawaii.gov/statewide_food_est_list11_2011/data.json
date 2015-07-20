@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_statewide_food_est_list11_2011/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/9ekn-r3cm/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/9ekn-r3cm/rows.csv", 
   "description": "Statewide dbase as of the end of 2011.\nall of the permitted Food Establishments.  These include everything from Restaurants, take out, Fast-food, Convenience stores, Mom and Pop Markets, shave ice stands, supermarkets, Mega markets like Costco-Sam\u2019s-Walmart, lunch wagons, food manufacturers, etc", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,54 +13,7 @@
     }
   }, 
   "name": "Statewide Food Est List11-2011", 
-  "schema": {
-    "columns": [
-      {
-        "name": "estname", 
-        "type": "text"
-      }, 
-      {
-        "name": "phonenoest", 
-        "type": "text"
-      }, 
-      {
-        "name": "email", 
-        "type": "text"
-      }, 
-      {
-        "name": "owner", 
-        "type": "text"
-      }, 
-      {
-        "name": "mailaddr1", 
-        "type": "text"
-      }, 
-      {
-        "name": "mailaddr2", 
-        "type": "text"
-      }, 
-      {
-        "name": "mailcity", 
-        "type": "text"
-      }, 
-      {
-        "name": "mailzip", 
-        "type": "real"
-      }, 
-      {
-        "name": "esttype1", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "statewide_food_est_list11_2011"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "statewide_food_est_list11_2011"
 }

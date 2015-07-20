@@ -1,0 +1,20 @@
+CREATE TABLE "block_watch" (
+	"name"	text,
+	"categories"	text,
+	"type_of_group"	text,
+	"audience_size"	text,
+	"activity_level"	text,
+	"contact"	text,
+	"url"	text,
+	"description"	text,
+	"email"	text,
+	"source"	text,
+	"neighborhood"	text,
+	"city"	text,
+	"zipcode"	text,
+	"county"	text,
+	"state"	text,
+	"latitude"	real,
+	"longitude"	real,
+	"location"	text
+);

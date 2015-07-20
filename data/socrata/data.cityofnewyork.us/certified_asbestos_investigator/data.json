@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_certified_asbestos_investigator/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/m64p-r9hk/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/m64p-r9hk/rows.csv", 
   "description": "List of Certified Asbestos Investigators (CAI)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Certified Asbestos Investigator", 
-  "schema": {
-    "columns": [
-      {
-        "name": "last_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "first_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "certification_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "expiration_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "telephone", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "certified_asbestos_investigator"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "certified_asbestos_investigator"
 }

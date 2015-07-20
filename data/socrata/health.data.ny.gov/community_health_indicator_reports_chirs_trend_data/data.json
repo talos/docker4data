@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/community_health_indicator_reports_chirs_trend_data/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/jb5s-mei3/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/health.data.ny.gov/api/views/jb5s-mei3/rows.csv", 
   "description": "New York State Community Health Indicator Reports (CHIRS) were developed in 2012, and are updated annually to consolidate and improve data linkages for the health indicators included in the County Health Assessment Indicators (CHAI) for all communities in New York. The CHIRS trend data table presents data for close to 300 health indicators and are provided for all 62 counties, for New York State, for New York City, and Rest of State. For more information, check out: http://www.health.ny.gov/statistics/chac/indicators/, or go to the \"About\" tab.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,66 +13,7 @@
     }
   }, 
   "name": "Community Health Indicator Reports (CHIRS): Trend Data", 
-  "schema": {
-    "columns": [
-      {
-        "name": "county_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "county_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "health_topic_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "health_topic", 
-        "type": "text"
-      }, 
-      {
-        "name": "indicator_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "indicator_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "date_years", 
-        "type": "text"
-      }, 
-      {
-        "name": "trend_data_county_value", 
-        "type": "real"
-      }, 
-      {
-        "name": "comment_for_trend_data_county_value", 
-        "type": "text"
-      }, 
-      {
-        "name": "trend_data_nyc_value", 
-        "type": "real"
-      }, 
-      {
-        "name": "trend_data_nys_exc_nyc_value", 
-        "type": "real"
-      }, 
-      {
-        "name": "three_year_average_county_value", 
-        "type": "real"
-      }, 
-      {
-        "name": "comment_for_three_year_average_county_value", 
-        "type": "text"
-      }, 
-      {
-        "name": "data_source", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/health.data.ny.gov", 
-  "tableName": "community_health_indicator_reports_chirs_trend_data"
+  "schema": "socrata/health.data.ny.gov", 
+  "status": "needs review", 
+  "table": "community_health_indicator_reports_chirs_trend_data"
 }

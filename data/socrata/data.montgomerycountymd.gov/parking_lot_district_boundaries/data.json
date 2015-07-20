@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/parking_lot_district_boundaries/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/geospatial/y4yx-gcwh", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/geospatial/y4yx-gcwh", 
   "description": "Map of Parking Districts", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,7 +13,7 @@
     }
   }, 
   "name": "Parking Lot District Boundaries", 
-  "schema": {}, 
-  "schemaName": "socrata/data.montgomerycountymd.gov", 
-  "tableName": "parking_lot_district_boundaries"
+  "schema": "socrata/data.montgomerycountymd.gov", 
+  "status": "needs review", 
+  "table": "parking_lot_district_boundaries"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/melbourne_public_artwork/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/views/6fzs-45an/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/views/6fzs-45an/rows.csv", 
   "description": "The City of Melbourne maintains a register of all public artwork, fountains and monuments located within the City. This dataset contains various information regarding the type, category and geographical location of the artwork.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,66 +13,7 @@
     }
   }, 
   "name": "Melbourne Public Artwork", 
-  "schema": {
-    "columns": [
-      {
-        "name": "asset_typ", 
-        "type": "text"
-      }, 
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "xorg", 
-        "type": "text"
-      }, 
-      {
-        "name": "xsource", 
-        "type": "text"
-      }, 
-      {
-        "name": "addresspt", 
-        "type": "text"
-      }, 
-      {
-        "name": "artist", 
-        "type": "text"
-      }, 
-      {
-        "name": "altname", 
-        "type": "text"
-      }, 
-      {
-        "name": "artdate", 
-        "type": "text"
-      }, 
-      {
-        "name": "melwayref", 
-        "type": "text"
-      }, 
-      {
-        "name": "respauthor", 
-        "type": "text"
-      }, 
-      {
-        "name": "structure_", 
-        "type": "text"
-      }, 
-      {
-        "name": "geom", 
-        "type": "text"
-      }, 
-      {
-        "name": "easting", 
-        "type": "real"
-      }, 
-      {
-        "name": "northing", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.melbourne.vic.gov.au", 
-  "tableName": "melbourne_public_artwork"
+  "schema": "socrata/data.melbourne.vic.gov.au", 
+  "status": "needs review", 
+  "table": "melbourne_public_artwork"
 }

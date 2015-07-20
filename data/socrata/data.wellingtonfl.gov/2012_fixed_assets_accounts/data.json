@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wellingtonfl_2012_fixed_assets_accounts/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wellingtonfl.gov/api/views/sxvy-f7ph/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.wellingtonfl.gov/api/views/sxvy-f7ph/rows.csv", 
   "description": "Listing of budgeted fixed asset items for the 2012/2013 budget.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "2012 Fixed Assets Accounts", 
-  "schema": {
-    "columns": [
-      {
-        "name": "fiscal_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "account_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "miscellaneous_data", 
-        "type": "text"
-      }, 
-      {
-        "name": "budget_amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "division", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.wellingtonfl.gov", 
-  "tableName": "2012_fixed_assets_accounts"
+  "schema": "socrata/data.wellingtonfl.gov", 
+  "status": "needs review", 
+  "table": "2012_fixed_assets_accounts"
 }

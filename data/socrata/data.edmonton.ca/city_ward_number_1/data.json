@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/city_ward_number_1/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/geospatial/g76x-u8ar", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.edmonton.ca/api/geospatial/g76x-u8ar", 
   "description": "Spatial view of current City of Edmonton's twelve (12) political Ward boundaries", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "City Ward - Number 1", 
-  "schema": {}, 
-  "schemaName": "socrata/data.edmonton.ca", 
-  "tableName": "city_ward_number_1"
+  "schema": "socrata/data.edmonton.ca", 
+  "status": "needs review", 
+  "table": "city_ward_number_1"
 }

@@ -1,0 +1,21 @@
+CREATE TABLE "party_time_pre_recess_dc_fundraisers" (
+	"cook_report_rating"	text,
+	"event_url"	text,
+	"beneficiary"	text,
+	"host"	text,
+	"other_members"	text,
+	"start_date"	timestamp,
+	"entertainment"	text,
+	"venue_name"	text,
+	"venue_address1"	text,
+	"venue_address2"	text,
+	"venue_city"	text,
+	"venue_state"	text,
+	"venue_zipcode"	real,
+	"venue_website"	text,
+	"contributions_info"	text,
+	"make_checks_payable_to"	text,
+	"checks_payable_to_address"	text,
+	"rsvp_info"	text,
+	"distribution_paid_for_by"	text
+);

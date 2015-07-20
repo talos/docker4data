@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_kingcounty_total_expenditures_by_fund/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/36w9-7hpi/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.kingcounty.gov/api/views/36w9-7hpi/rows.csv", 
   "description": "King County Executive's proposed budget, 2014, total expenditures by fund. This amount includes double counts which are transfers between funds for GF Transfers, CFS Transfers, Airport and Road Construction Transfers and Capital Transfers that are material of approximately $400 million. Adjusted Budget includes the sum of annual budgets for 2013 and 2014, the 2013/2014 biennial budget and mid-biennial adjustments to the 2013/2014 biennial budget.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "Total Expenditures By Fund", 
-  "schema": {
-    "columns": [
-      {
-        "name": "fund_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "fund", 
-        "type": "text"
-      }, 
-      {
-        "name": "adjusted_budget_2013_2014", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.kingcounty.gov", 
-  "tableName": "total_expenditures_by_fund"
+  "schema": "socrata/data.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "total_expenditures_by_fund"
 }

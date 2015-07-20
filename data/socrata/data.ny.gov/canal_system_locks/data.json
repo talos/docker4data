@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_canal_system_locks/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/ta83-js48/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/ta83-js48/rows.csv", 
   "description": "The New York State Canal System is a 524 mile inland waterway that includes 57 locks, which are used to transfer vessels from a navigation pool at one elevation to another. Information provided in this data set includes the name of each lock, its phone number and specific location by mileage along the canal and geographic coordinates. This dataset excludes the Utica Harbor Lock because at this time it is not open to the public.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "Canal System Locks", 
-  "schema": {
-    "columns": [
-      {
-        "name": "canal_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "mile", 
-        "type": "real"
-      }, 
-      {
-        "name": "name_location", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "notes", 
-        "type": "text"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "canal_system_locks"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "canal_system_locks"
 }

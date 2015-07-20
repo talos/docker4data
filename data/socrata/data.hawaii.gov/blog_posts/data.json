@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_blog_posts/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/53b5-749p/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/53b5-749p/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,50 +9,7 @@
     }
   }, 
   "name": "Blog Posts", 
-  "schema": {
-    "columns": [
-      {
-        "name": "id", 
-        "type": "real"
-      }, 
-      {
-        "name": "title", 
-        "type": "text"
-      }, 
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "body", 
-        "type": "text"
-      }, 
-      {
-        "name": "user_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "user_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "visualization_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "slug", 
-        "type": "text"
-      }, 
-      {
-        "name": "agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "category", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "blog_posts"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "blog_posts"
 }

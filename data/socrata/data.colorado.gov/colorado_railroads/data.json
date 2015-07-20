@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/colorado_railroads/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/geospatial/hpem-wb68", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/api/geospatial/hpem-wb68", 
   "description": "CDOT data of railroad locations with associated data (in service, types of passenger, etc). Updated annually.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Colorado Railroads", 
-  "schema": {}, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "colorado_railroads"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "colorado_railroads"
 }

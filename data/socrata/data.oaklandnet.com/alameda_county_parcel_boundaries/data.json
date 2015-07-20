@@ -1,9 +1,6 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/alameda_county_parcel_boundaries/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oaklandnet.com/api/geospatial/dnp4-5zvt", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.oaklandnet.com/api/geospatial/dnp4-5zvt", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -14,7 +11,7 @@
     }
   }, 
   "name": "Alameda County Parcel Boundaries", 
-  "schema": {}, 
-  "schemaName": "socrata/data.oaklandnet.com", 
-  "tableName": "alameda_county_parcel_boundaries"
+  "schema": "socrata/data.oaklandnet.com", 
+  "status": "needs review", 
+  "table": "alameda_county_parcel_boundaries"
 }

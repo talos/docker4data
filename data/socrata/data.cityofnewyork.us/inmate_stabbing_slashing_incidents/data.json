@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_inmate_stabbing_slashing_incidents/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/hve5-8z68/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/hve5-8z68/rows.csv", 
   "description": "Inmate stabbing/slashing incidents*\n\n*  Inmate Stabbing/Slashing Incidents: The number of incidents involving a stabbing and/or slashing. Though rare, a single incident may involve multiple stabbing and/or slashing inmate victims.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,18 +13,7 @@
     }
   }, 
   "name": "Inmate Stabbing. Slashing Incidents", 
-  "schema": {
-    "columns": [
-      {
-        "name": "fiscal_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "number_of_incidents", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "inmate_stabbing_slashing_incidents"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "inmate_stabbing_slashing_incidents"
 }

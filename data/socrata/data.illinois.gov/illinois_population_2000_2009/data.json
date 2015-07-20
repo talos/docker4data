@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_illinois_population_2000_2009/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/qcyd-8efc/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/qcyd-8efc/rows.csv", 
   "description": "Data provided by the IL Center for Health Statistics.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,54 +13,7 @@
     }
   }, 
   "name": "Illinois Population, 2000-2009", 
-  "schema": {
-    "columns": [
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "_2000", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2001", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2002", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2003", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2004", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2005", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2006", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2007", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2008", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2009", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "illinois_population_2000_2009"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "illinois_population_2000_2009"
 }

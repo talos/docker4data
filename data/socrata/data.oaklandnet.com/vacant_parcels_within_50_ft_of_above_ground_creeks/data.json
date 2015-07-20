@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/vacant_parcels_within_50_ft_of_above_ground_creeks/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oaklandnet.com/api/geospatial/7j7p-u9ez", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.oaklandnet.com/api/geospatial/7j7p-u9ez", 
   "description": "Vacant Parcels north of 580 within 50 ft of an above ground creek", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Vacant Parcels Within 50 ft of Above Ground Creeks", 
-  "schema": {}, 
-  "schemaName": "socrata/data.oaklandnet.com", 
-  "tableName": "vacant_parcels_within_50_ft_of_above_ground_creeks"
+  "schema": "socrata/data.oaklandnet.com", 
+  "status": "needs review", 
+  "table": "vacant_parcels_within_50_ft_of_above_ground_creeks"
 }

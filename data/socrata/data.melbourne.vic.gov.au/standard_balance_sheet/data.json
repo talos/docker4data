@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/standard_balance_sheet/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/views/99qa-f55d/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/views/99qa-f55d/rows.csv", 
   "description": "The Balance Sheet is a representation of the Assets and Liabilities of the Council as at each financial year ending (30 June). While all due care has been taken in providing these figures, some errors and discrepancies may be present.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "Standard Balance Sheet", 
-  "schema": {
-    "columns": [
-      {
-        "name": "as_at_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "text"
-      }, 
-      {
-        "name": "actual_budget_plan", 
-        "type": "text"
-      }, 
-      {
-        "name": "category", 
-        "type": "text"
-      }, 
-      {
-        "name": "sub_category", 
-        "type": "text"
-      }, 
-      {
-        "name": "type", 
-        "type": "text"
-      }, 
-      {
-        "name": "value_000", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.melbourne.vic.gov.au", 
-  "tableName": "standard_balance_sheet"
+  "schema": "socrata/data.melbourne.vic.gov.au", 
+  "status": "needs review", 
+  "table": "standard_balance_sheet"
 }

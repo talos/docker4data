@@ -1,0 +1,21 @@
+CREATE TABLE "directory_of_programs_list_mayor_s_office" (
+	"program"	text,
+	"program_name"	text,
+	"provider"	text,
+	"site_name"	text,
+	"site_address"	text,
+	"borough"	text,
+	"zip"	real,
+	"contact_number"	text,
+	"website"	text,
+	"community_board"	text,
+	"for_in_school_youth_only"	text,
+	"for_court_involved_only"	text,
+	"min_age"	text,
+	"max_age"	text,
+	"ged_help_yes_or_no"	text,
+	"job_readiness_help_yes_or_no"	text,
+	"college_readiness_help_yes_or_no"	text,
+	"for_dads_only_yes_or_no"	text,
+	"catchment_area_requirment_yes_or_no"	text
+);

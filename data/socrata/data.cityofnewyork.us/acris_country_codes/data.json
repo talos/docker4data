@@ -1,9 +1,6 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_acris_country_codes/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/j2iz-mwzu/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/j2iz-mwzu/rows.csv", 
   "description": "ACRIS Countries mapping for Codes in the ACRIS Real and Personal Parties Property Datasets", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +14,6 @@
     }
   }, 
   "name": "ACRIS - Country Codes", 
-  "schema": {
-    "columns": [
-      {
-        "name": "record_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "country_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "acris_country_codes"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "table": "acris_country_codes"
 }

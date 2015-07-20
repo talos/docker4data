@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/statewide_snowmobile_trail_system/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/geospatial/dqg7-5njk", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/geospatial/dqg7-5njk", 
   "description": "This dataset includes GIS coordinates for approximately 10,000 miles of funded snowmobile trails in New York State.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Statewide Snowmobile Trail System", 
-  "schema": {}, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "statewide_snowmobile_trail_system"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "statewide_snowmobile_trail_system"
 }

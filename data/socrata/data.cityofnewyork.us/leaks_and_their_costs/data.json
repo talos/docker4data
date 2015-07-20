@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_leaks_and_their_costs/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/3nm4-g97k/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/3nm4-g97k/rows.csv", 
   "description": "Leaks and Their Cost Fact Sheet", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "Leaks And Their Costs", 
-  "schema": {
-    "columns": [
-      {
-        "name": "leaking_fixture", 
-        "type": "text"
-      }, 
-      {
-        "name": "leak_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "water_wasted_gallons", 
-        "type": "real"
-      }, 
-      {
-        "name": "water_charge_per_day", 
-        "type": "real"
-      }, 
-      {
-        "name": "sewer_charge_per_day", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_cost_per_day", 
-        "type": "real"
-      }, 
-      {
-        "name": "water_charge_per_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "sewer_charge_per_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_cost_per_year", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "leaks_and_their_costs"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "leaks_and_their_costs"
 }

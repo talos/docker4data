@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/epsb_ward_boundaries/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/geospatial/f9ip-2tud", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.edmonton.ca/api/geospatial/f9ip-2tud", 
   "description": "Spatial view of all current Public School Wards in the City of Edmonton", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,7 +13,7 @@
     }
   }, 
   "name": "EPSB Ward Boundaries", 
-  "schema": {}, 
-  "schemaName": "socrata/data.edmonton.ca", 
-  "tableName": "epsb_ward_boundaries"
+  "schema": "socrata/data.edmonton.ca", 
+  "status": "needs review", 
+  "table": "epsb_ward_boundaries"
 }

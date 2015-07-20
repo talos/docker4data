@@ -1,0 +1,21 @@
+CREATE TABLE "iepa_site_remediation_program" (
+	"lpc"	text,
+	"usepa_id"	text,
+	"site_name"	text,
+	"county"	text,
+	"applicant_company"	text,
+	"applicant_title"	text,
+	"applicant_first_name"	text,
+	"applicant_last_name"	text,
+	"applicant_phone"	text,
+	"application_receipt_date"	timestamp,
+	"consultant"	text,
+	"point_of_contact"	text,
+	"consultant_phone"	text,
+	"iepa_project_manager"	text,
+	"section_4_y_letter"	text,
+	"nfr_letter"	timestamp,
+	"date_nfr_letter_recorded"	timestamp,
+	"active_in_srp"	text,
+	"acres"	real
+);

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_citizen_emergency_response_team_cert_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/b2gb-nkrq/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/b2gb-nkrq/rows.csv", 
   "description": "List of Citizen Emergency Response Teams (CERT)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "Citizen Emergency Response Team (CERT)", 
-  "schema": {
-    "columns": [
-      {
-        "name": "borocd", 
-        "type": "real"
-      }, 
-      {
-        "name": "label_cd", 
-        "type": "text"
-      }, 
-      {
-        "name": "team_total", 
-        "type": "real"
-      }, 
-      {
-        "name": "notes", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "citizen_emergency_response_team_cert_"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "citizen_emergency_response_team_cert_"
 }

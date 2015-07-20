@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofmadison_police_incident_reports/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofmadison.com/api/views/d686-rvcw/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofmadison.com/api/views/d686-rvcw/rows.csv", 
   "description": "Incidents listed are selected by the Officer In Charge of each shift that may have significant public interest. Incidents listed are not inclusive of all incidents.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,54 +13,7 @@
     }
   }, 
   "name": "Police Incident Reports", 
-  "schema": {
-    "columns": [
-      {
-        "name": "incident_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "incident_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "case_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "incident_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "suspect", 
-        "type": "text"
-      }, 
-      {
-        "name": "arrested", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "victim", 
-        "type": "text"
-      }, 
-      {
-        "name": "details", 
-        "type": "text"
-      }, 
-      {
-        "name": "released_by", 
-        "type": "text"
-      }, 
-      {
-        "name": "date_modified", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofmadison.com", 
-  "tableName": "police_incident_reports"
+  "schema": "socrata/data.cityofmadison.com", 
+  "status": "needs review", 
+  "table": "police_incident_reports"
 }

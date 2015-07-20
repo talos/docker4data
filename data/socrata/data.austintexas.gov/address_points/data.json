@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/address_points/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/geospatial/bpa2-q2tj", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/geospatial/bpa2-q2tj", 
   "description": "Address assignments for properties, structures, and other. This data has been produced by the City of Austin for the sole purpose of aiding regional planning and is not warranted for any other use. No warranty is made by the City regarding its accuracy or completeness.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,9 +14,7 @@
     }
   }, 
   "name": "Address Points", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "address_points"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "address_points"
 }

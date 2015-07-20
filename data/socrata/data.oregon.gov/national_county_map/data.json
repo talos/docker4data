@@ -1,9 +1,6 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/national_county_map/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/geospatial/2dg4-a98z", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/api/geospatial/2dg4-a98z", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -14,7 +11,7 @@
     }
   }, 
   "name": "National County Map", 
-  "schema": {}, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "national_county_map"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "national_county_map"
 }

@@ -1,0 +1,22 @@
+CREATE TABLE "major_contract_awards" (
+	"as_of_date"	timestamp,
+	"fiscal_year"	real,
+	"region"	text,
+	"borrower_country"	text,
+	"borrower_country_code"	text,
+	"project_id"	text,
+	"project_name"	text,
+	"procurement_type"	text,
+	"procurement_category"	text,
+	"procurement_method"	text,
+	"product_line"	text,
+	"major_sector"	text,
+	"wb_contract_number"	text,
+	"contract_description"	text,
+	"contract_signing_date"	timestamp,
+	"supplier"	text,
+	"supplier_country"	text,
+	"supplier_country_code"	text,
+	"supplier_contract_amount_usd"	text,
+	"borrower_contract_reference_number"	text
+);

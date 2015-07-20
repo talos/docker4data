@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wa_better_brakes_tracking_progress/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/wdb7-jbuv/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.wa.gov/api/views/wdb7-jbuv/rows.csv", 
   "description": "This dataset contains information reported as part the Better Brakes Law, Chapter 70.285 RCW. It contains data tracking the concentrations of copper, nickel, zinc, and antimony in certified brake friction materials.  It will first be updated in 2014 and then ever quarter thereafter.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Better Brakes - Tracking Progress", 
-  "schema": {
-    "columns": [
-      {
-        "name": "date", 
-        "type": "text"
-      }, 
-      {
-        "name": "avg_cu_concentration", 
-        "type": "real"
-      }, 
-      {
-        "name": "avg_ni_concentration", 
-        "type": "real"
-      }, 
-      {
-        "name": "avg_zn_concetration", 
-        "type": "real"
-      }, 
-      {
-        "name": "avg_sb_concetration", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.wa.gov", 
-  "tableName": "better_brakes_tracking_progress"
+  "schema": "socrata/data.wa.gov", 
+  "status": "needs review", 
+  "table": "better_brakes_tracking_progress"
 }

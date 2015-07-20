@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/census_data_for_all_act_schools/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/www.data.act.gov.au/api/views/8mi2-3658/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/www.data.act.gov.au/api/views/8mi2-3658/rows.csv", 
   "description": "School enrollment data for each public school in the ACT. The number of students in each class is reported in February and August each year. Non-Government schools are only reported in February.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Census Data for all ACT Schools", 
-  "schema": {
-    "columns": [
-      {
-        "name": "census", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "school_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "category", 
-        "type": "text"
-      }, 
-      {
-        "name": "year_level", 
-        "type": "text"
-      }, 
-      {
-        "name": "students", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/www.data.act.gov.au", 
-  "tableName": "census_data_for_all_act_schools"
+  "schema": "socrata/www.data.act.gov.au", 
+  "status": "needs review", 
+  "table": "census_data_for_all_act_schools"
 }

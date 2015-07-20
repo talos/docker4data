@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ccgismap_area_08_elk_grove_and_jefferson_township/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/download/tczc-idgvapplication/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/download/tczc-idgv/application/pdf", 
   "description": "Cook County GIS Dept map of Elk Grove and Jefferson Township in a pdf format.  Includes streets and municipalities.", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "ccgismap - Area 08 Elk Grove and Jefferson Township", 
-  "schema": {}, 
-  "schemaName": "socrata/datacatalog.cookcountyil.gov", 
-  "tableName": "ccgismap_area_08_elk_grove_and_jefferson_township"
+  "schema": "socrata/datacatalog.cookcountyil.gov", 
+  "status": "needs review", 
+  "table": "ccgismap_area_08_elk_grove_and_jefferson_township"
 }

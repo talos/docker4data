@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oregon_oregon_prisons/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/dsje-kuhw/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/api/views/dsje-kuhw/rows.csv", 
   "description": "Names and addresses of Oregon State Prisons", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "Oregon Prisons", 
-  "schema": {
-    "columns": [
-      {
-        "name": "prison_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "prison_full_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "prison_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "address_line_one", 
-        "type": "text"
-      }, 
-      {
-        "name": "address_line_two", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "oregon_prisons"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "oregon_prisons"
 }

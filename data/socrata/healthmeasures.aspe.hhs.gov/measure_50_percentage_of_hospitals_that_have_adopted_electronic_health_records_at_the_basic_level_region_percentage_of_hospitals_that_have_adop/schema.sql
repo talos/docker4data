@@ -1,0 +1,5 @@
+CREATE TABLE "measure_50_percentage_of_hospitals_that_have_adopted_electronic_health_records_at_the_basic_level_region_percentage_of_hospitals_that_have_adopted_electronic_health_records_at_the_basic_level_by_region" (
+	"measure_value"	text,
+	"region"	text,
+	"year"	real
+);

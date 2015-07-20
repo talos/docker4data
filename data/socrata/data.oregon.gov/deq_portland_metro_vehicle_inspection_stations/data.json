@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oregon_deq_portland_metro_vehicle_inspection_stations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/9x7t-w4u8/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/api/views/9x7t-w4u8/rows.csv", 
   "description": "DEQ VIP Station Location", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,26 +11,7 @@
     }
   }, 
   "name": "DEQ Portland Metro Vehicle Inspection Stations", 
-  "schema": {
-    "columns": [
-      {
-        "name": "station_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "details", 
-        "type": "text"
-      }, 
-      {
-        "name": "icon", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "deq_portland_metro_vehicle_inspection_stations"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "deq_portland_metro_vehicle_inspection_stations"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_baltimorecity_parking_citations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/n4ma-fj3m/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/n4ma-fj3m/rows.csv", 
   "description": "Information on parking citations issued within the City of Baltimore. Data represents 2 rolling years of citations and any older citations with outstanding balances", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,78 +13,7 @@
     }
   }, 
   "name": "Parking Citations", 
-  "schema": {
-    "columns": [
-      {
-        "name": "tag", 
-        "type": "text"
-      }, 
-      {
-        "name": "citation", 
-        "type": "text"
-      }, 
-      {
-        "name": "expmm", 
-        "type": "text"
-      }, 
-      {
-        "name": "expyy", 
-        "type": "real"
-      }, 
-      {
-        "name": "make", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "violcode", 
-        "type": "real"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "violfine", 
-        "type": "real"
-      }, 
-      {
-        "name": "violdate", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "balance", 
-        "type": "real"
-      }, 
-      {
-        "name": "penaltydate", 
-        "type": "text"
-      }, 
-      {
-        "name": "openfine", 
-        "type": "real"
-      }, 
-      {
-        "name": "openpenalty", 
-        "type": "real"
-      }, 
-      {
-        "name": "noticedate", 
-        "type": "text"
-      }, 
-      {
-        "name": "importdate", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.baltimorecity.gov", 
-  "tableName": "parking_citations"
+  "schema": "socrata/data.baltimorecity.gov", 
+  "status": "needs review", 
+  "table": "parking_citations"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/eastbound_tunnel_and_bridge_traffic_monthly_volume_port_authority_of_ny_nj_beginning_2011/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/5uvq-7ebw/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/5uvq-7ebw/rows.csv", 
   "description": "The Port Authority collects eastbound vehicle traffic volumes from its toll plazas at the six Port Authority vehicular crossings (i.e., George Washington Bridge, Holland Tunnel, Lincoln Tunnel, Goethals Bridge, Outerbridge Crossing and Bayonne Bridge).  This dataset contains monthly eastbound traffic volumes for each crossing and for all Port Authority crossings combined, based on vehicles passing through Authority\u2019s toll plazas, for each month starting in January 2011 through December 2012.  The dataset contains traffic volumes for three types of vehicles (autos, buses, trucks) for each month.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Eastbound Tunnel and Bridge Traffic Monthly Volume, Port Authority of NY NJ:  Beginning 2011", 
-  "schema": {
-    "columns": [
-      {
-        "name": "bridge_tunnel", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "month", 
-        "type": "text"
-      }, 
-      {
-        "name": "vehicles_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "eastbound_volume", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "eastbound_tunnel_and_bridge_traffic_monthly_volume_port_authority_of_ny_nj_beginning_2011"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "eastbound_tunnel_and_bridge_traffic_monthly_volume_port_authority_of_ny_nj_beginning_2011"
 }

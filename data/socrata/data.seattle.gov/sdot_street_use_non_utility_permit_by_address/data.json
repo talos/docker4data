@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_sdot_street_use_non_utility_permit_by_address/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/3hk9-b4rq/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/3hk9-b4rq/rows.csv", 
   "description": "Permit use, start and end dates mapped to the permit address.  This dataset does not include utility permits.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,70 +13,7 @@
     }
   }, 
   "name": "SDOT - Street Use Non-Utility Permit - by Address", 
-  "schema": {
-    "columns": [
-      {
-        "name": "objectid", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape", 
-        "type": "text"
-      }, 
-      {
-        "name": "permit_no_num", 
-        "type": "text"
-      }, 
-      {
-        "name": "permit_address_text", 
-        "type": "text"
-      }, 
-      {
-        "name": "use_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "use_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "use_space_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "use_start_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "use_exp_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "use_sqft_nbr", 
-        "type": "real"
-      }, 
-      {
-        "name": "mobility_impact_text", 
-        "type": "text"
-      }, 
-      {
-        "name": "permit_aptype", 
-        "type": "text"
-      }, 
-      {
-        "name": "permit_category", 
-        "type": "text"
-      }, 
-      {
-        "name": "permit_status", 
-        "type": "text"
-      }, 
-      {
-        "name": "permit_key", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "sdot_street_use_non_utility_permit_by_address"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "sdot_street_use_non_utility_permit_by_address"
 }

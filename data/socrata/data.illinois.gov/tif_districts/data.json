@@ -1,9 +1,6 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/tif_districts/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/geospatial/9neu-ceyc", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/geospatial/9neu-ceyc", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -15,7 +12,7 @@
     }
   }, 
   "name": "TIF Districts", 
-  "schema": {}, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "tif_districts"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "tif_districts"
 }

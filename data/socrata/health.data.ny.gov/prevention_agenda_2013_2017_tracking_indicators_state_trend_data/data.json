@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/prevention_agenda_2013_2017_tracking_indicators_state_trend_data/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/m42a-gkda/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/health.data.ny.gov/api/views/m42a-gkda/rows.csv", 
   "description": "This is one of the three datasets related to the Prevention Agenda Tracking Indicators state level data posted on this site. Each dataset consists of 58 state-level health tracking indicators and 31 sub-indicators for the Prevention Agenda 2013-2017: New York State\u2019s Health Improvement Plan.  A health tracking indicator is a metric through which progress on a certain area of health improvement can be assessed.  The indicators are organized by the Priority Area of the Prevention Agenda as well as the Focus Area under each Priority Area.  Priority areas include Chronic Disease; Health and Safe Environment; Healthy Women, Infants and Children; Mental Health and Substance Abuse; and HIV, STDs, Vaccine Preventable Diseases and Healthcare Associated Infections.  The most recent year dataset includes the most recent state level data for all indicators. The trend dataset includes the most recent state level data and historical data, where available. Each dataset also includes the Prevention Agenda 2017 state targets for the indicators. Sub-indicators are included in these datasets to measure health disparities among racial, ethnic, and socioeconomic groups and persons with disabilities. For more information, check out: http://www.health.ny.gov/prevention/prevention_agenda/2013-2017/ and https://www.health.ny.gov/PreventionAgendaDashboard, or go to the \u201cAbout\u201d tab.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,78 +13,7 @@
     }
   }, 
   "name": "Prevention Agenda 2013 -2017 Tracking Indicators: State Trend Data", 
-  "schema": {
-    "columns": [
-      {
-        "name": "priority_area_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "priority_area", 
-        "type": "text"
-      }, 
-      {
-        "name": "focus_area_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "focus_area", 
-        "type": "text"
-      }, 
-      {
-        "name": "indicator_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "indicator", 
-        "type": "text"
-      }, 
-      {
-        "name": "disparity", 
-        "type": "text"
-      }, 
-      {
-        "name": "event_count_rate", 
-        "type": "real"
-      }, 
-      {
-        "name": "average_number_of_denominator_rate", 
-        "type": "real"
-      }, 
-      {
-        "name": "measure_unit", 
-        "type": "text"
-      }, 
-      {
-        "name": "percentage_rate_ratio", 
-        "type": "real"
-      }, 
-      {
-        "name": "lower_limit_of_95_ci", 
-        "type": "text"
-      }, 
-      {
-        "name": "upper_limit_of_95_ci", 
-        "type": "text"
-      }, 
-      {
-        "name": "_2017_objective", 
-        "type": "real"
-      }, 
-      {
-        "name": "objective_region", 
-        "type": "text"
-      }, 
-      {
-        "name": "data_years", 
-        "type": "text"
-      }, 
-      {
-        "name": "date_source", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/health.data.ny.gov", 
-  "tableName": "prevention_agenda_2013_2017_tracking_indicators_state_trend_data"
+  "schema": "socrata/health.data.ny.gov", 
+  "status": "needs review", 
+  "table": "prevention_agenda_2013_2017_tracking_indicators_state_trend_data"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/tweets_sent_from_notifyboston_from_march_2014_march_2015/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/7biv-vu3q/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/api/views/7biv-vu3q/rows.csv", 
   "description": "This file contains all tweets sent from the @NotifyBoston twitter account from March 1, 2014 through March 1, 2015, including time stamp, tweet content, and engagement (i.e. retweets, favorites)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "Tweets sent from @NotifyBoston from March 2014 - March 2015", 
-  "schema": {
-    "columns": [
-      {
-        "name": "username", 
-        "type": "text"
-      }, 
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "tweet", 
-        "type": "text"
-      }, 
-      {
-        "name": "link", 
-        "type": "text"
-      }, 
-      {
-        "name": "type", 
-        "type": "text"
-      }, 
-      {
-        "name": "time", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "retweets", 
-        "type": "real"
-      }, 
-      {
-        "name": "replies", 
-        "type": "real"
-      }, 
-      {
-        "name": "favorites", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "tweets_sent_from_notifyboston_from_march_2014_march_2015"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "tweets_sent_from_notifyboston_from_march_2014_march_2015"
 }

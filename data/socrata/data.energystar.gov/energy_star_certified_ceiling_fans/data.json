@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_energystar_energy_star_certified_ceiling_fans/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.energystar.gov/api/views/mj8j-2jhz/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.energystar.gov/api/views/mj8j-2jhz/rows.csv", 
   "description": "Certified models meet all ENERGY STAR requirements as listed in the Version 3.0 ENERGY STAR Program Requirements for Ceiling Fans that are effective as of April 1, 2012. A detailed listing of key efficiency criteria are available at http://www.energystar.gov/index.cfm?c=ceiling_fans.pr_crit_ceiling_fans", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,122 +12,7 @@
     }
   }, 
   "name": "ENERGY STAR Certified Ceiling Fans", 
-  "schema": {
-    "columns": [
-      {
-        "name": "pd_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "energy_star_partner", 
-        "type": "text"
-      }, 
-      {
-        "name": "brand_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "model_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "model_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "additional_model_information", 
-        "type": "text"
-      }, 
-      {
-        "name": "product_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "ceiling_fan_size_diameters_in_inches", 
-        "type": "real"
-      }, 
-      {
-        "name": "airflow_efficiency_cfm_watt_low", 
-        "type": "real"
-      }, 
-      {
-        "name": "airflow_efficiency_cfm_watt_medium", 
-        "type": "real"
-      }, 
-      {
-        "name": "airflow_efficiency_cfm_watt_high", 
-        "type": "real"
-      }, 
-      {
-        "name": "ceiling_fan_motor_warranty_years", 
-        "type": "text"
-      }, 
-      {
-        "name": "ceiling_fan_components_warranty_years", 
-        "type": "text"
-      }, 
-      {
-        "name": "lighting_technology_used", 
-        "type": "text"
-      }, 
-      {
-        "name": "light_output_lumens", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_input_power_watts", 
-        "type": "real"
-      }, 
-      {
-        "name": "luminaire_efficacy", 
-        "type": "real"
-      }, 
-      {
-        "name": "power_factor", 
-        "type": "real"
-      }, 
-      {
-        "name": "correlated_color_temperature_kelvin", 
-        "type": "text"
-      }, 
-      {
-        "name": "color_rendering_index_cri", 
-        "type": "real"
-      }, 
-      {
-        "name": "life_source_life_hours", 
-        "type": "real"
-      }, 
-      {
-        "name": "special_features_dimming_motion_sensing_etc", 
-        "type": "text"
-      }, 
-      {
-        "name": "notes", 
-        "type": "text"
-      }, 
-      {
-        "name": "date_available_on_market", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "date_qualified", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "markets", 
-        "type": "text"
-      }, 
-      {
-        "name": "energy_star_model_identifier", 
-        "type": "text"
-      }, 
-      {
-        "name": "meets_most_efficient_criteria", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.energystar.gov", 
-  "tableName": "energy_star_certified_ceiling_fans"
+  "schema": "socrata/data.energystar.gov", 
+  "status": "needs review", 
+  "table": "energy_star_certified_ceiling_fans"
 }

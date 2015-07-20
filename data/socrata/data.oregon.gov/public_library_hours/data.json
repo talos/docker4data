@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oregon_public_library_hours/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/p8m3-6eqk/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/api/views/p8m3-6eqk/rows.csv", 
   "description": "Open hours of Oregon Public Libraries (created from the 2009-2010 public library statistics report)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,70 +13,7 @@
     }
   }, 
   "name": "Public Library Hours", 
-  "schema": {
-    "columns": [
-      {
-        "name": "public_library", 
-        "type": "text"
-      }, 
-      {
-        "name": "mon_start_", 
-        "type": "text"
-      }, 
-      {
-        "name": "mon_end_", 
-        "type": "text"
-      }, 
-      {
-        "name": "tue_start_", 
-        "type": "text"
-      }, 
-      {
-        "name": "tue_end_", 
-        "type": "text"
-      }, 
-      {
-        "name": "weds_start_", 
-        "type": "text"
-      }, 
-      {
-        "name": "weds_end_", 
-        "type": "text"
-      }, 
-      {
-        "name": "thurs_start_", 
-        "type": "text"
-      }, 
-      {
-        "name": "thurs_end_", 
-        "type": "text"
-      }, 
-      {
-        "name": "fri_start_", 
-        "type": "text"
-      }, 
-      {
-        "name": "fri_end_", 
-        "type": "text"
-      }, 
-      {
-        "name": "sat_start_", 
-        "type": "text"
-      }, 
-      {
-        "name": "sat_end_", 
-        "type": "text"
-      }, 
-      {
-        "name": "sun_start_", 
-        "type": "text"
-      }, 
-      {
-        "name": "sun_end_", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "public_library_hours"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "public_library_hours"
 }

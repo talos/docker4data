@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/leather_district_neighborhood_2010_census/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/download/mhgc-4bbwapplication/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/download/mhgc-4bbw/application/pdf", 
   "description": "A report featuring data on all people and households in the Leather District from the 2010 Census Summary Files (SF-1).", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,7 +13,7 @@
     }
   }, 
   "name": "Leather District, neighborhood: 2010 Census", 
-  "schema": {}, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "leather_district_neighborhood_2010_census"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "leather_district_neighborhood_2010_census"
 }

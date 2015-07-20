@@ -1,0 +1,20 @@
+CREATE TABLE "vol_ii_jedwali_14_idadi_ya_watu_kulingana_na_aina_ya_ulemavu_na_kaunti_2009" (
+	"kaunti"	text,
+	"asilimia_ya_walio_na_ulemavu_wa_kuona"	text,
+	"asilimia_ya_walio_na_ulemavu_wa_kusikia"	text,
+	"asilimi_ya_walio_na_ulemavu_wa_kuongea"	text,
+	"asilimia_ya_walio_na_ulemavu_wa_kimwili"	text,
+	"asilimia_ya_walio_na_ulemavu_wa_kiakili"	text,
+	"asilimia_ya_walio_na_ulemavu_mwingine"	text,
+	"asilimia_ya_wasiokuwa_na_ulemavu"	text,
+	"idadi_ya_watu_waliojibu_sensa"	real,
+	"idadi_ya_walio_na_ulemavu_wa_kuona"	real,
+	"idadi_ya_walio_na_ulemavu_wa_kusikia"	real,
+	"idadi_ya_walio_na_ulemavu_wa_kuongea"	real,
+	"idadi_ya_walio_na_ulemavu_wa_kimwili"	real,
+	"idadi_ya_walio_na_ulemavu_wa_kiakili"	real,
+	"idadi_ya_walio_na_ulemavu_mwingine"	real,
+	"idadi_ya_wasiokuwa_na_ulemavu"	real,
+	"mkoa"	text,
+	"location_1"	text
+);

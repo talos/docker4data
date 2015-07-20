@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/2014_endorsed_budget_expenditure_allowance_by_budget_control_level_bcl_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/nrfc-hypb/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/nrfc-hypb/rows.csv", 
   "description": "The City of Seattle implements biennial budgeting through the sequential adoption\nof two one-year budgets. When adopting the budget for the first year of the biennium, the Council endorses a budget for the second year. \n\nThe Endorsed Budget is the basis for a Proposed Budget for the second year of the biennium, and is reviewed and adopted in the fall of the first year of the biennium.\n\nThis data reflects all appropriations (by budget control level) included in the 2014 Endorsed Budget.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "2014 Endorsed Budget - Expenditure Allowance by Budget Control Level (BCL)", 
-  "schema": {
-    "columns": [
-      {
-        "name": "fund", 
-        "type": "text"
-      }, 
-      {
-        "name": "department", 
-        "type": "text"
-      }, 
-      {
-        "name": "bcl_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "bcl_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "bcl_purpose", 
-        "type": "text"
-      }, 
-      {
-        "name": "_2014_expenditure_allowance", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "2014_endorsed_budget_expenditure_allowance_by_budget_control_level_bcl_"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "2014_endorsed_budget_expenditure_allowance_by_budget_control_level_bcl_"
 }

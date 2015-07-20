@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/tmdl_effectiveness_monitoring_projects/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/geospatial/3rgj-95q8", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.wa.gov/api/geospatial/3rgj-95q8", 
   "description": "Map of Post-TMDL, or TMDL effectiveness monitoring studies and data.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "TMDL Effectiveness Monitoring projects", 
-  "schema": {}, 
-  "schemaName": "socrata/data.wa.gov", 
-  "tableName": "tmdl_effectiveness_monitoring_projects"
+  "schema": "socrata/data.wa.gov", 
+  "status": "needs review", 
+  "table": "tmdl_effectiveness_monitoring_projects"
 }

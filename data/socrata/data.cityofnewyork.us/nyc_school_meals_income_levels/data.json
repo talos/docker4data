@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_nyc_school_meals_income_levels/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/h7mf-hrsw/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/h7mf-hrsw/rows.csv", 
   "description": "The National School Lunch Program (NSLP), School Breakfast Program (SBP) and Summer Food Service Program (SFSP) provide nutritious meals to children in New York City Public Schools. All children attending schools that offer these programs can receive breakfast and lunch. Breakfast is free for all students. Some children will qualify for free or reduced price lunch, and others pay the full cost of meals, depending on family and income. This income chart sets forth the different meal costs.This chart is only a guide. Individuals should see school office personnel for assistance. \r\nNOTE: Chart effective July 1, 2012 to June 30, 2013. Subject to annual income updates.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "NYC School meals income levels", 
-  "schema": {
-    "columns": [
-      {
-        "name": "meal_cost", 
-        "type": "text"
-      }, 
-      {
-        "name": "monthly_income_for_family_size_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "monthly_income_for_family_size_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "monthly_income_for_family_size_3", 
-        "type": "text"
-      }, 
-      {
-        "name": "monthly_income_for_family_size_4", 
-        "type": "text"
-      }, 
-      {
-        "name": "monthly_income_for_family_size_5", 
-        "type": "text"
-      }, 
-      {
-        "name": "each_extra_person_add_", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "nyc_school_meals_income_levels"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "nyc_school_meals_income_levels"
 }

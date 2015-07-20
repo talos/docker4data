@@ -1,0 +1,21 @@
+CREATE TABLE "red_light_cameras_arcgis_rest_services_services_opendata_mapserver_8_" (
+	"objectid"	real,
+	"route"	text,
+	"int_id"	real,
+	"rahead"	text,
+	"rbehind"	text,
+	"dahead"	real,
+	"dbehind"	real,
+	"iahead"	real,
+	"ibehind"	real,
+	"offset"	real,
+	"uniqueid"	real,
+	"mp"	real,
+	"xco"	real,
+	"yco"	real,
+	"zco"	real,
+	"survey"	text,
+	"imagenum"	real,
+	"shape"	text,
+	"inst_wo"	text
+);

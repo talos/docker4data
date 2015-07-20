@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_pmmr_raw_data_fy_2013/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/4fnu-iufz/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/4fnu-iufz/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -15,90 +11,7 @@
     }
   }, 
   "name": "PMMR Raw Data - FY 2013", 
-  "schema": {
-    "columns": [
-      {
-        "name": "agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "indicator_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "indicator_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "indicator_sequence", 
-        "type": "real"
-      }, 
-      {
-        "name": "sub_indicator", 
-        "type": "text"
-      }, 
-      {
-        "name": "subindicator_sequence", 
-        "type": "real"
-      }, 
-      {
-        "name": "record_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "desired_direction", 
-        "type": "text"
-      }, 
-      {
-        "name": "critical_flag", 
-        "type": "text"
-      }, 
-      {
-        "name": "geography", 
-        "type": "text"
-      }, 
-      {
-        "name": "measure_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "fiscal_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "conditional_format", 
-        "type": "text"
-      }, 
-      {
-        "name": "raw_value", 
-        "type": "real"
-      }, 
-      {
-        "name": "format_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "value_percent", 
-        "type": "text"
-      }, 
-      {
-        "name": "value_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "value_currency", 
-        "type": "real"
-      }, 
-      {
-        "name": "value_time", 
-        "type": "text"
-      }, 
-      {
-        "name": "value_ratio", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "pmmr_raw_data_fy_2013"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "pmmr_raw_data_fy_2013"
 }

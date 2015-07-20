@@ -1,0 +1,20 @@
+CREATE TABLE "student_weight_status_category_reporting_results_beginning_2010" (
+	"location_code"	text,
+	"county"	text,
+	"area_name"	text,
+	"region"	text,
+	"school_years"	text,
+	"overweight_1"	real,
+	"overweight_2"	text,
+	"obese_1"	real,
+	"obese_2"	text,
+	"overweight_or_obese_1"	real,
+	"overweight_or_obese_2"	text,
+	"grade_category"	text,
+	"area_type"	text,
+	"street_address"	text,
+	"city"	text,
+	"state"	text,
+	"zip_code"	text,
+	"location_1"	text
+);

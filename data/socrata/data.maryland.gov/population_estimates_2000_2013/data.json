@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_population_estimates_2000_2013/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/7dvm-92bt/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/7dvm-92bt/rows.csv", 
   "description": "Maryland Total Resident Population from 2000 to 2013 based on US Census data.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,70 +13,7 @@
     }
   }, 
   "name": "Population Estimates 2000-2013", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "text"
-      }, 
-      {
-        "name": "population_2000", 
-        "type": "real"
-      }, 
-      {
-        "name": "population_2001", 
-        "type": "real"
-      }, 
-      {
-        "name": "population_2002", 
-        "type": "real"
-      }, 
-      {
-        "name": "population_2003", 
-        "type": "real"
-      }, 
-      {
-        "name": "population_2004", 
-        "type": "real"
-      }, 
-      {
-        "name": "population_2005", 
-        "type": "real"
-      }, 
-      {
-        "name": "population_2006", 
-        "type": "real"
-      }, 
-      {
-        "name": "population_2007", 
-        "type": "real"
-      }, 
-      {
-        "name": "population_2008", 
-        "type": "real"
-      }, 
-      {
-        "name": "population_2009", 
-        "type": "real"
-      }, 
-      {
-        "name": "population_2010", 
-        "type": "real"
-      }, 
-      {
-        "name": "population_2011", 
-        "type": "real"
-      }, 
-      {
-        "name": "population_2012", 
-        "type": "real"
-      }, 
-      {
-        "name": "population_2013", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "population_estimates_2000_2013"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "population_estimates_2000_2013"
 }

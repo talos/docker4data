@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_drought_regulation_penalty_schedule/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/yti5-bbws/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/yti5-bbws/rows.csv", 
   "description": "Schedule of penalties for violating the Drought Regulations during the stages of a drought emergency.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Drought Regulation Penalty Schedule", 
-  "schema": {
-    "columns": [
-      {
-        "name": "code", 
-        "type": "text"
-      }, 
-      {
-        "name": "rcny", 
-        "type": "text"
-      }, 
-      {
-        "name": "section_subdivision_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "penalty", 
-        "type": "real"
-      }, 
-      {
-        "name": "default", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "drought_regulation_penalty_schedule"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "drought_regulation_penalty_schedule"
 }

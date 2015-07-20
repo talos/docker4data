@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_tax_12_2012_liquid_fuel_collections/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/36ik-4uk9/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/36ik-4uk9/rows.csv", 
   "description": "*Effective 7-1-93 (per barrel). \"Barrel\" means 42 U.S. Gallons of Petroleum Products.\t\t\t\t\n***Other fuel includes Ethanol, Methanol, Biodiesel, Naphtha, Compressed Natural Gas, and Liquefied Natural Gas.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "TAX 12 2012  Liquid Fuel Collections", 
-  "schema": {
-    "columns": [
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "source_of_revenue", 
-        "type": "text"
-      }, 
-      {
-        "name": "gallons", 
-        "type": "real"
-      }, 
-      {
-        "name": "cty_fuel_tax", 
-        "type": "real"
-      }, 
-      {
-        "name": "state_tax", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "tax_12_2012_liquid_fuel_collections"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "tax_12_2012_liquid_fuel_collections"
 }

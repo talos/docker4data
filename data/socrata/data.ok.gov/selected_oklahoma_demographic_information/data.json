@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_selected_oklahoma_demographic_information/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/kcez-t9yx/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/kcez-t9yx/rows.csv", 
   "description": "Three-year trend of selected demographic information for the State of Oklahoma, including population, unemployment rate, and per capita income.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "Selected Oklahoma Demographic Information", 
-  "schema": {
-    "columns": [
-      {
-        "name": "period", 
-        "type": "text"
-      }, 
-      {
-        "name": "population", 
-        "type": "real"
-      }, 
-      {
-        "name": "per_capita_income", 
-        "type": "real"
-      }, 
-      {
-        "name": "unemployment_rate", 
-        "type": "text"
-      }, 
-      {
-        "name": "total_workforce_in_state_government", 
-        "type": "text"
-      }, 
-      {
-        "name": "public_school_enrollment", 
-        "type": "real"
-      }, 
-      {
-        "name": "tax_collections_per_capita", 
-        "type": "real"
-      }, 
-      {
-        "name": "primary_government_debt_per_capita", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "selected_oklahoma_demographic_information"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "selected_oklahoma_demographic_information"
 }

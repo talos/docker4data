@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_state_collected_colorado_county_sales_tax/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/h5yt-egtp/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/api/views/h5yt-egtp/rows.csv", 
   "description": "Information was extracted from the dr1002.pdf document and presented in a tabular format.  Please refer to the PDF for details on footnotes and additional information.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,58 +13,7 @@
     }
   }, 
   "name": "State-Collected Colorado County Sales Tax", 
-  "schema": {
-    "columns": [
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "countysalestaxrate", 
-        "type": "text"
-      }, 
-      {
-        "name": "countysalestaxrateverbatim", 
-        "type": "text"
-      }, 
-      {
-        "name": "countysalestaxratefootnote", 
-        "type": "text"
-      }, 
-      {
-        "name": "servicefeeallowed", 
-        "type": "text"
-      }, 
-      {
-        "name": "servicefeeallowedverbatim", 
-        "type": "text"
-      }, 
-      {
-        "name": "servicefeeallowedfootnote", 
-        "type": "text"
-      }, 
-      {
-        "name": "exemptions", 
-        "type": "text"
-      }, 
-      {
-        "name": "usetaxrate", 
-        "type": "text"
-      }, 
-      {
-        "name": "usetaxrateverbatim", 
-        "type": "text"
-      }, 
-      {
-        "name": "usetaxratefootnote", 
-        "type": "text"
-      }, 
-      {
-        "name": "usetaxappliesto", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "state_collected_colorado_county_sales_tax"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "state_collected_colorado_county_sales_tax"
 }

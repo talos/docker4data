@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_full_time_employees_by_job_classification/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/uk3k-9ai5/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sfgov.org/api/views/uk3k-9ai5/rows.csv", 
   "description": "Shows Full Time Employees by Classification. \r\nUsed with the Salary Ranges by Classification and Job Titles by Classification", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "Full Time Employees By Job Classification", 
-  "schema": {
-    "columns": [
-      {
-        "name": "fy", 
-        "type": "real"
-      }, 
-      {
-        "name": "dept_level", 
-        "type": "text"
-      }, 
-      {
-        "name": "job_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "job_title", 
-        "type": "text"
-      }, 
-      {
-        "name": "sum_fte", 
-        "type": "real"
-      }, 
-      {
-        "name": "biweekly_low_rate", 
-        "type": "real"
-      }, 
-      {
-        "name": "biweekly_high_rate", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sfgov.org", 
-  "tableName": "full_time_employees_by_job_classification"
+  "schema": "socrata/data.sfgov.org", 
+  "status": "needs review", 
+  "table": "full_time_employees_by_job_classification"
 }

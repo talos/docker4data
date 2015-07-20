@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_payments/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/s4vu-giwb/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/s4vu-giwb/rows.csv", 
   "description": "All vendor payments made by the City of Chicago from 1996 to present. Payments from 1996 through 2002 have been rolled-up and appear as \"2002.\" Total payment information is summarized for each vendor and contract number for data older than two years. These data are extracted from the City\u2019s Vendor, Contract, and Payment Search.\r\n\r\nTime Period: 1996 to present.\r\n\r\nFrequency: Data is updated daily.\r\n\r\nRelated Applications: City of Chicago Vendor, Contract, and Payments Search (http://webapps.cityofchicago.org/VCSearchWeb/org/cityofchicago/vcsearch/controller/payments/begin.do?agencyId=city).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "Payments", 
-  "schema": {
-    "columns": [
-      {
-        "name": "voucher_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "check_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "department_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "contract_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendor_name", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "payments"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "payments"
 }

@@ -1,9 +1,6 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/streetlights_uploaded_12_7_2012_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/geospatial/ajid-rwxj", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/geospatial/ajid-rwxj", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -15,7 +12,7 @@
     }
   }, 
   "name": "Streetlights (Uploaded 12/7/2012)", 
-  "schema": {}, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "streetlights_uploaded_12_7_2012_"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "streetlights_uploaded_12_7_2012_"
 }

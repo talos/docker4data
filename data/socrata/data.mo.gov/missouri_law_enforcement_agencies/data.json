@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/missouri_law_enforcement_agencies/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.mo.gov/api/views/cgbu-k38b/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.mo.gov/api/views/cgbu-k38b/rows.csv", 
   "description": "List of Active law enforcement agencies (Sheriff, Municipal, University, Court, etc)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,54 +13,7 @@
     }
   }, 
   "name": "Missouri Law Enforcement Agencies", 
-  "schema": {
-    "columns": [
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "ceo_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "ceo_title", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_address_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip", 
-        "type": "text"
-      }, 
-      {
-        "name": "county_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "voice_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "fax_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "agency_type", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.mo.gov", 
-  "tableName": "missouri_law_enforcement_agencies"
+  "schema": "socrata/data.mo.gov", 
+  "status": "needs review", 
+  "table": "missouri_law_enforcement_agencies"
 }

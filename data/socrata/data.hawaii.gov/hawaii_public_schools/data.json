@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_hawaii_public_schools/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/6r5m-ppsj/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/6r5m-ppsj/rows.csv", 
   "description": "Data about all public schools in Hawaii", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,74 +12,7 @@
     }
   }, 
   "name": "Hawaii Public Schools", 
-  "schema": {
-    "columns": [
-      {
-        "name": "districtname", 
-        "type": "text"
-      }, 
-      {
-        "name": "complexareaname", 
-        "type": "text"
-      }, 
-      {
-        "name": "complexname", 
-        "type": "text"
-      }, 
-      {
-        "name": "schoolcode", 
-        "type": "real"
-      }, 
-      {
-        "name": "schoolname", 
-        "type": "text"
-      }, 
-      {
-        "name": "schoolnameshort", 
-        "type": "text"
-      }, 
-      {
-        "name": "island", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "fax", 
-        "type": "text"
-      }, 
-      {
-        "name": "principal", 
-        "type": "text"
-      }, 
-      {
-        "name": "gradefrom", 
-        "type": "text"
-      }, 
-      {
-        "name": "gradeto", 
-        "type": "real"
-      }, 
-      {
-        "name": "enrollment_2011_2012_not_incl_pre_k", 
-        "type": "real"
-      }, 
-      {
-        "name": "type", 
-        "type": "text"
-      }, 
-      {
-        "name": "url_home", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "hawaii_public_schools"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "hawaii_public_schools"
 }

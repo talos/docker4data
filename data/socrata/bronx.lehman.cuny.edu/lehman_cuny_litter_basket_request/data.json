@@ -1,8 +1,6 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_bronx_lehman_cuny_litter_basket_request/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/nh74-y3a7/rows.csv"
-  }, 
+  "data": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/nh74-y3a7/rows.csv", 
   "description": "from NYC 311. Raw data updated daily", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,69 +13,5 @@
     }
   }, 
   "name": "Litter Basket Request", 
-  "schema": {
-    "columns": [
-      {
-        "name": "uniquekey", 
-        "type": "real"
-      }, 
-      {
-        "name": "createddat", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "closeddate", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "complaintt", 
-        "type": "text"
-      }, 
-      {
-        "name": "descriptor", 
-        "type": "text"
-      }, 
-      {
-        "name": "incidentaddress", 
-        "type": "text"
-      }, 
-      {
-        "name": "crossstree", 
-        "type": "text"
-      }, 
-      {
-        "name": "crossstr_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "intersecti", 
-        "type": "text"
-      }, 
-      {
-        "name": "intersec_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "status", 
-        "type": "text"
-      }, 
-      {
-        "name": "communityb", 
-        "type": "text"
-      }, 
-      {
-        "name": "borough", 
-        "type": "text"
-      }, 
-      {
-        "name": "zipcode", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "tableName": "socrata_bronx_lehman_cuny_litter_basket_request"
+  "table": "socrata_bronx_lehman_cuny_litter_basket_request"
 }

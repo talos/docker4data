@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_sex_offenders/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/vc9r-bqvy/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/vc9r-bqvy/rows.csv", 
   "description": "Description: Pursuant to the Sex Offender and Child Murderer Community Notification Law, 730 ILCS 152/101,et seq., the Chicago Police Department maintains a list of sex offenders residing in the City of Chicago who are required to register under the Sex Offender Registration Act, 730 ILCS 150/2, et seq. To protect the privacy of the individuals, addresses are shown at the block level only and specific locations are not identified. The data are extracted from the CLEAR (Citizen Law Enforcement Analysis and Reporting) system developed by the Department.\r\nAlthough every effort is made to keep this list accurate and current, the city cannot guarantee the accuracy of this information. Offenders may have moved and failed to notify the Chicago Police Department as required by law. If any information presented in this web site is known to be outdated, please contact the Chicago Police Department at srwbmstr@chicagopolice.org, or mail to Sex Registration Unit, 3510 S Michigan Ave, Chicago, IL 60653.\r\nDisclaimer: This registry is based upon the legislature's decision to facilitate access to publicly available information about persons convicted of specific sexual offenses. The Chicago Police Department has not considered or assessed the specific risk of re-offense with regard to any individual prior to his or her inclusion within this registry, and has made no determination that any individual included within the registry is currently dangerous. Individuals included within this registry are included solely by virtue of their conviction record and Illinois law. The main purpose of providing this data on the internet is to make the information more available and accessible, not to warn about any specific individual. \r\n\r\nAnyone who uses information contained in the Sex Offender Database to commit a criminal act against another person is subject to criminal prosecution.\r\nData Owner: Chicago Police Department.\r\nFrequency: Data is updated daily.\r\nRelated Applications: CLEARMAP (http://j.mp/lLluSa).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "Sex Offenders", 
-  "schema": {
-    "columns": [
-      {
-        "name": "last", 
-        "type": "text"
-      }, 
-      {
-        "name": "first", 
-        "type": "text"
-      }, 
-      {
-        "name": "block", 
-        "type": "text"
-      }, 
-      {
-        "name": "gender", 
-        "type": "text"
-      }, 
-      {
-        "name": "race", 
-        "type": "text"
-      }, 
-      {
-        "name": "birth_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "age", 
-        "type": "text"
-      }, 
-      {
-        "name": "height", 
-        "type": "text"
-      }, 
-      {
-        "name": "weight", 
-        "type": "text"
-      }, 
-      {
-        "name": "victim_minor", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "sex_offenders"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "sex_offenders"
 }

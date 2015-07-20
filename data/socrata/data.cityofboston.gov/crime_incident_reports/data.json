@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofboston_crime_incident_reports/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/7cdf-6fgx/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/api/views/7cdf-6fgx/rows.csv", 
   "description": "Crime Incident Reports provided by Boston Police Department", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,90 +13,7 @@
     }
   }, 
   "name": "Crime Incident Reports", 
-  "schema": {
-    "columns": [
-      {
-        "name": "compnos", 
-        "type": "real"
-      }, 
-      {
-        "name": "naturecode", 
-        "type": "text"
-      }, 
-      {
-        "name": "incident_type_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "main_crimecode", 
-        "type": "text"
-      }, 
-      {
-        "name": "reptdistrict", 
-        "type": "text"
-      }, 
-      {
-        "name": "reportingarea", 
-        "type": "real"
-      }, 
-      {
-        "name": "fromdate", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "weapontype", 
-        "type": "text"
-      }, 
-      {
-        "name": "shooting", 
-        "type": "text"
-      }, 
-      {
-        "name": "domestic", 
-        "type": "text"
-      }, 
-      {
-        "name": "shift", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "month", 
-        "type": "real"
-      }, 
-      {
-        "name": "day_week", 
-        "type": "text"
-      }, 
-      {
-        "name": "ucrpart", 
-        "type": "text"
-      }, 
-      {
-        "name": "x", 
-        "type": "real"
-      }, 
-      {
-        "name": "y", 
-        "type": "real"
-      }, 
-      {
-        "name": "streetname", 
-        "type": "text"
-      }, 
-      {
-        "name": "xstreetname", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "crime_incident_reports"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "crime_incident_reports"
 }

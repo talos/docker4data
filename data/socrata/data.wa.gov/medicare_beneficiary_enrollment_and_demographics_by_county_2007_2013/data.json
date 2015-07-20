@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/medicare_beneficiary_enrollment_and_demographics_by_county_2007_2013/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/utvd-sddk/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.wa.gov/api/views/utvd-sddk/rows.csv", 
   "description": "Medicare enrollment (Part A and B), FFS, age, sex, and race/ethnicity for counties in Washington state, 2007-2013.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,78 +12,7 @@
     }
   }, 
   "name": "Medicare Beneficiary Enrollment and Demographics by County, 2007-2013", 
-  "schema": {
-    "columns": [
-      {
-        "name": "couny", 
-        "type": "text"
-      }, 
-      {
-        "name": "to_sort_by_county_and_year", 
-        "type": "text"
-      }, 
-      {
-        "name": "to_sort_by_year_and_county", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "text"
-      }, 
-      {
-        "name": "beneficiaries_with_part_a_and_part_b", 
-        "type": "real"
-      }, 
-      {
-        "name": "ffs_beneficiaries", 
-        "type": "real"
-      }, 
-      {
-        "name": "ma_beneficiaries", 
-        "type": "real"
-      }, 
-      {
-        "name": "ma_participation_rate", 
-        "type": "text"
-      }, 
-      {
-        "name": "average_age", 
-        "type": "real"
-      }, 
-      {
-        "name": "percent_female", 
-        "type": "text"
-      }, 
-      {
-        "name": "percent_male", 
-        "type": "text"
-      }, 
-      {
-        "name": "percent_non_hispanic_white", 
-        "type": "text"
-      }, 
-      {
-        "name": "percent_african_american", 
-        "type": "text"
-      }, 
-      {
-        "name": "percent_hispanic", 
-        "type": "text"
-      }, 
-      {
-        "name": "percent_other_unknown", 
-        "type": "text"
-      }, 
-      {
-        "name": "percent_eligible_for_medicaid", 
-        "type": "text"
-      }, 
-      {
-        "name": "average_hcc_score", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.wa.gov", 
-  "tableName": "medicare_beneficiary_enrollment_and_demographics_by_county_2007_2013"
+  "schema": "socrata/data.wa.gov", 
+  "status": "needs review", 
+  "table": "medicare_beneficiary_enrollment_and_demographics_by_county_2007_2013"
 }

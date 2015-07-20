@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/contribuciones_a_fondos_intermediarios_financieros/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/kc88-qg94/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/finances.worldbank.org/api/views/kc88-qg94/rows.csv", 
   "description": "Los fondos intermediarios financieros (FIF) son mecanismos financieros multilaterales a los que el Banco Mundial brinda servicios de depositario. Esto incluye comprometer y transferir fondos a los encargados de ejecutar los proyectos (por lo general, organismos internacionales como los bancos multilaterales de desarrollo o los organismos de las Naciones Unidas). En todos los casos, el Banco Mundial, en su calidad de depositario, debe actuar de conformidad con las instrucciones de los \u00f3rganos rectores independientes. \r\n\r\nComo parte de sus responsabilidades como depositario, el Banco Mundial cumple con todas las sanciones aplicables a sus operaciones.\r\n\r\nEl financiamiento innovador y los mecanismos de gesti\u00f3n de los FIF permiten reunir fondos de m\u00faltiples fuentes, ya sean soberanas o privadas. Las estructuras de los FIF son adaptables. Por ejemplo, los FIF se han modificado para recibir contribuciones en forma de pr\u00e9stamos en condiciones concesionarias adem\u00e1s de los fondos de donaciones tradicionales, y pueden proporcionar financiamiento a los receptores utilizando productos financieros adaptables a las necesidades.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,62 +13,7 @@
     }
   }, 
   "name": "Contribuciones a fondos intermediarios financieros", 
-  "schema": {
-    "columns": [
-      {
-        "name": "as_of_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "fund_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "donor_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "donor_country_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "receipt_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "receipt_quarter", 
-        "type": "text"
-      }, 
-      {
-        "name": "calendar_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "receipt_currency", 
-        "type": "text"
-      }, 
-      {
-        "name": "receipt_amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "contribution_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "sub_account", 
-        "type": "text"
-      }, 
-      {
-        "name": "amount_in_usd", 
-        "type": "real"
-      }, 
-      {
-        "name": "sector_theme", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/finances.worldbank.org", 
-  "tableName": "contribuciones_a_fondos_intermediarios_financieros"
+  "schema": "socrata/finances.worldbank.org", 
+  "status": "needs review", 
+  "table": "contribuciones_a_fondos_intermediarios_financieros"
 }

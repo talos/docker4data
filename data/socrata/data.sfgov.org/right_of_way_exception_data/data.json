@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_right_of_way_exception_data/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/yrgu-vakm/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sfgov.org/api/views/yrgu-vakm/rows.csv", 
   "description": "A table of restrictions and information about existing conditions in the public right of way.  including permits, moratorium streets, AWSS, SFMTA bluebook, 5 year plan, bike lanes, jurisdiction, monuments, etc.  AKA Street Restrictions, The Exception Table", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,66 +13,7 @@
     }
   }, 
   "name": "Right of Way Exception Data", 
-  "schema": {
-    "columns": [
-      {
-        "name": "ctrid", 
-        "type": "real"
-      }, 
-      {
-        "name": "cnn", 
-        "type": "real"
-      }, 
-      {
-        "name": "exceptioncode", 
-        "type": "text"
-      }, 
-      {
-        "name": "permittype", 
-        "type": "text"
-      }, 
-      {
-        "name": "jobordernum", 
-        "type": "text"
-      }, 
-      {
-        "name": "projectname", 
-        "type": "text"
-      }, 
-      {
-        "name": "effectivedate", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "expirationdate", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "contactname", 
-        "type": "text"
-      }, 
-      {
-        "name": "contactphonenumber", 
-        "type": "text"
-      }, 
-      {
-        "name": "restriction_tow", 
-        "type": "text"
-      }, 
-      {
-        "name": "modifieddate", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "block", 
-        "type": "text"
-      }, 
-      {
-        "name": "lot", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sfgov.org", 
-  "tableName": "right_of_way_exception_data"
+  "schema": "socrata/data.sfgov.org", 
+  "status": "needs review", 
+  "table": "right_of_way_exception_data"
 }

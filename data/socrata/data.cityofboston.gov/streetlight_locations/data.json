@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/streetlight_locations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/geospatial/7hu5-gg2y", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/api/geospatial/7hu5-gg2y", 
   "description": "Location of all streetlights in the city", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,9 +14,7 @@
     }
   }, 
   "name": "Streetlight Locations", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "streetlight_locations"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "streetlight_locations"
 }

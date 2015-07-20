@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/bicycle_routes_across_new_york_state_map/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/geospatial/9n3d-pfjs", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/geospatial/9n3d-pfjs", 
   "description": "Bicycle routes and recreational activities allowed on the route within New York State - https://www.dot.ny.gov/display/programs/bicycle.  This list includes both on- and off-road bicycle routes and even includes information on surface type as well as other \r\ntypes of recreational activities allowed on the route.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Bicycle Routes Across New York State: Map", 
-  "schema": {}, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "bicycle_routes_across_new_york_state_map"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "bicycle_routes_across_new_york_state_map"
 }

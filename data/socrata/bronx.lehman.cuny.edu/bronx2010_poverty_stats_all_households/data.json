@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/bronx2010_poverty_stats_all_households/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/9ibf-wmdi/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/9ibf-wmdi/rows.csv", 
   "description": "2010 Census data on the number of households per census tract that are receiving Foodstamp/SNAP (Supplimental Nutrition Assistance Program) assistance. Est = estimate, MOE = margin of error", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,6 @@
     }
   }, 
   "name": "Bronx2010 Poverty Stats All Households", 
-  "schema": {
-    "columns": [
-      {
-        "name": "censustract", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_est", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_moe", 
-        "type": "real"
-      }, 
-      {
-        "name": "est_households_receiving_food_stamps", 
-        "type": "real"
-      }, 
-      {
-        "name": "moe_households_receiving_food_stamps", 
-        "type": "real"
-      }, 
-      {
-        "name": "est_households_not_receiving_food_stamps", 
-        "type": "real"
-      }, 
-      {
-        "name": "moe_households_not_receiving_food_stamps", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/bronx.lehman.cuny.edu", 
-  "tableName": "bronx2010_poverty_stats_all_households"
+  "schema": "socrata/bronx.lehman.cuny.edu", 
+  "table": "bronx2010_poverty_stats_all_households"
 }

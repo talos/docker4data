@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_seattle_major_crimes_last_48_hours/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/vtr2-wp3r/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/vtr2-wp3r/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,86 +9,7 @@
     }
   }, 
   "name": "Seattle Major Crimes Last 48 Hours", 
-  "schema": {
-    "columns": [
-      {
-        "name": "__id", 
-        "type": "real"
-      }, 
-      {
-        "name": "rms_cdw_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "general_offense_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "offense_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "offense_code_extension", 
-        "type": "text"
-      }, 
-      {
-        "name": "offense_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "summary_offense_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "summarized_offense_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "date_reported", 
-        "type": "text"
-      }, 
-      {
-        "name": "occurred_date_or_date_range_start", 
-        "type": "text"
-      }, 
-      {
-        "name": "occurred_date_range_end", 
-        "type": "text"
-      }, 
-      {
-        "name": "hundred_block_location", 
-        "type": "text"
-      }, 
-      {
-        "name": "district_sector", 
-        "type": "text"
-      }, 
-      {
-        "name": "zone_beat", 
-        "type": "text"
-      }, 
-      {
-        "name": "census_tract_2000", 
-        "type": "text"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "relative_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "geom", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "seattle_major_crimes_last_48_hours"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "seattle_major_crimes_last_48_hours"
 }

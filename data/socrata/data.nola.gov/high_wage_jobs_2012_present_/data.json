@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_nola_high_wage_jobs_2012_present_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.nola.gov/api/views/7z59-iu3f/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.nola.gov/api/views/7z59-iu3f/rows.csv", 
   "description": "This dataset is created by the City's Office of Performance and Accountability using data on jobs and wages from the Bureau of Labor Statistics.  It includes data for New Orleans MSA and several benchmark MSAs including: Atlanta, Baton Rouge, Louisville, Memphis, Miami, Nashville/Davidson, Oklahoma City, Raleigh, and Tampa. The data is published annually beginning in 2012.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "High Wage Jobs (2012 - Present)", 
-  "schema": {
-    "columns": [
-      {
-        "name": "rowid", 
-        "type": "real"
-      }, 
-      {
-        "name": "msa", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "indicator", 
-        "type": "text"
-      }, 
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "indicatorvalue", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.nola.gov", 
-  "tableName": "high_wage_jobs_2012_present_"
+  "schema": "socrata/data.nola.gov", 
+  "status": "needs review", 
+  "table": "high_wage_jobs_2012_present_"
 }

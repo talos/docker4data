@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_ides_ui_claims_payments_2011/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/j8nk-ypur/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/j8nk-ypur/rows.csv", 
   "description": "Unemployment Insurance Regular Program Claims and Payments for 2011.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "IDES - UI Claims & Payments 2011", 
-  "schema": {
-    "columns": [
-      {
-        "name": "activity", 
-        "type": "text"
-      }, 
-      {
-        "name": "total_cy2011", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_cy2010", 
-        "type": "real"
-      }, 
-      {
-        "name": "netchange", 
-        "type": "real"
-      }, 
-      {
-        "name": "percentchange", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "ides_ui_claims_payments_2011"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "ides_ui_claims_payments_2011"
 }

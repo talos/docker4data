@@ -1,9 +1,6 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/city_limits/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.redmond.gov/api/geospatial/fhxi-6qwp", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.redmond.gov/api/geospatial/fhxi-6qwp", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -14,7 +11,7 @@
     }
   }, 
   "name": "City Limits", 
-  "schema": {}, 
-  "schemaName": "socrata/data.redmond.gov", 
-  "tableName": "city_limits"
+  "schema": "socrata/data.redmond.gov", 
+  "status": "needs review", 
+  "table": "city_limits"
 }

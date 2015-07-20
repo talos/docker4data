@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_baltimorecity_ecb_citations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/ywty-nmtg/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/ywty-nmtg/rows.csv", 
   "description": "The Environmental Control Board is a regulatory agency with an administrative court charged with the responsibility of adjudicating civil citations in accordance with Article 1, Section 40 of the Baltimore City Code.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,110 +13,7 @@
     }
   }, 
   "name": "ECB Citations", 
-  "schema": {
-    "columns": [
-      {
-        "name": "citation", 
-        "type": "text"
-      }, 
-      {
-        "name": "liencode", 
-        "type": "text"
-      }, 
-      {
-        "name": "violdate", 
-        "type": "text"
-      }, 
-      {
-        "name": "duedate", 
-        "type": "text"
-      }, 
-      {
-        "name": "agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "fineamount", 
-        "type": "real"
-      }, 
-      {
-        "name": "violdesc", 
-        "type": "text"
-      }, 
-      {
-        "name": "balance", 
-        "type": "real"
-      }, 
-      {
-        "name": "lastpaiddate", 
-        "type": "text"
-      }, 
-      {
-        "name": "lastpaidamount", 
-        "type": "real"
-      }, 
-      {
-        "name": "heardate", 
-        "type": "text"
-      }, 
-      {
-        "name": "hearingrequesteddate", 
-        "type": "text"
-      }, 
-      {
-        "name": "citationstatus", 
-        "type": "text"
-      }, 
-      {
-        "name": "violationarticle", 
-        "type": "text"
-      }, 
-      {
-        "name": "violationsection", 
-        "type": "text"
-      }, 
-      {
-        "name": "violationlocation", 
-        "type": "text"
-      }, 
-      {
-        "name": "block", 
-        "type": "text"
-      }, 
-      {
-        "name": "lot", 
-        "type": "text"
-      }, 
-      {
-        "name": "officerid", 
-        "type": "text"
-      }, 
-      {
-        "name": "officerpresencerequested", 
-        "type": "text"
-      }, 
-      {
-        "name": "hearingstatus", 
-        "type": "text"
-      }, 
-      {
-        "name": "heartime", 
-        "type": "text"
-      }, 
-      {
-        "name": "totalpaid", 
-        "type": "real"
-      }, 
-      {
-        "name": "totalabated", 
-        "type": "real"
-      }, 
-      {
-        "name": "totalvoided", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.baltimorecity.gov", 
-  "tableName": "ecb_citations"
+  "schema": "socrata/data.baltimorecity.gov", 
+  "status": "needs review", 
+  "table": "ecb_citations"
 }

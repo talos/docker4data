@@ -1,0 +1,22 @@
+CREATE TABLE "consolidated_fund_2009_10" (
+	"year"	text,
+	"admin1"	text,
+	"admin2"	text,
+	"admin3"	real,
+	"admin4"	real,
+	"admin5"	real,
+	"admin6"	real,
+	"county"	text,
+	"district"	text,
+	"mtef_sector"	text,
+	"sub_sector"	text,
+	"econ1"	text,
+	"econ2"	text,
+	"econ3"	text,
+	"estimates"	real,
+	"revised"	real,
+	"executed"	real,
+	"a_in_a"	real,
+	"budget_type"	text,
+	"location_1"	text
+);

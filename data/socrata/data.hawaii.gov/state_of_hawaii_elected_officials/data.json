@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_state_of_hawaii_elected_officials/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/m6cf-4bb7/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/m6cf-4bb7/rows.csv", 
   "description": "Legislators with contact info, district and location", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,58 +13,7 @@
     }
   }, 
   "name": "State of Hawaii Elected Officials", 
-  "schema": {
-    "columns": [
-      {
-        "name": "last_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "first_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "chamber", 
-        "type": "text"
-      }, 
-      {
-        "name": "distinct_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "party", 
-        "type": "text"
-      }, 
-      {
-        "name": "district_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "room_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "phone_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "fax_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "e_mail_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "description_of_district", 
-        "type": "text"
-      }, 
-      {
-        "name": "leadership_position", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "state_of_hawaii_elected_officials"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "state_of_hawaii_elected_officials"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_kingcounty_election_results_february_9_2010_special/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/d4y4-sjx2/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.kingcounty.gov/api/views/d4y4-sjx2/rows.csv", 
   "description": "Detailed results for February 9, 2010 special election.  Tutorial available here: http://www.kingcounty.gov/elections/results/opendatatutorial.aspx", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "Election results - February 9, 2010 special", 
-  "schema": {
-    "columns": [
-      {
-        "name": "race", 
-        "type": "text"
-      }, 
-      {
-        "name": "precinct", 
-        "type": "text"
-      }, 
-      {
-        "name": "leg", 
-        "type": "real"
-      }, 
-      {
-        "name": "cc", 
-        "type": "real"
-      }, 
-      {
-        "name": "cg", 
-        "type": "real"
-      }, 
-      {
-        "name": "countertype", 
-        "type": "text"
-      }, 
-      {
-        "name": "count", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.kingcounty.gov", 
-  "tableName": "election_results_february_9_2010_special"
+  "schema": "socrata/data.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "election_results_february_9_2010_special"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofboston_master_address_list/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/t85d-b449/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/api/views/t85d-b449/rows.csv", 
   "description": "The list of all property addresses in the city", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,98 +13,7 @@
     }
   }, 
   "name": "Master Address List", 
-  "schema": {
-    "columns": [
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "unit", 
-        "type": "text"
-      }, 
-      {
-        "name": "property_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "parcel_num", 
-        "type": "text"
-      }, 
-      {
-        "name": "fire_district", 
-        "type": "text"
-      }, 
-      {
-        "name": "pwd_district", 
-        "type": "text"
-      }, 
-      {
-        "name": "city_council_district", 
-        "type": "text"
-      }, 
-      {
-        "name": "police_district", 
-        "type": "text"
-      }, 
-      {
-        "name": "neighborhood", 
-        "type": "text"
-      }, 
-      {
-        "name": "neighborhood_services_district", 
-        "type": "text"
-      }, 
-      {
-        "name": "ward", 
-        "type": "text"
-      }, 
-      {
-        "name": "precinct", 
-        "type": "text"
-      }, 
-      {
-        "name": "land_usage", 
-        "type": "text"
-      }, 
-      {
-        "name": "p_streetnumber", 
-        "type": "text"
-      }, 
-      {
-        "name": "p_streetname", 
-        "type": "text"
-      }, 
-      {
-        "name": "p_city", 
-        "type": "text"
-      }, 
-      {
-        "name": "p_zipcode", 
-        "type": "text"
-      }, 
-      {
-        "name": "trash_day", 
-        "type": "text"
-      }, 
-      {
-        "name": "recycling_day", 
-        "type": "text"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "geocoded_location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "master_address_list"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "master_address_list"
 }

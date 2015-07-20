@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_annual_enplanements_in_nys_airports_beginning_1997/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/vpv5-zd4k/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/vpv5-zd4k/rows.csv", 
   "description": "The dataset lists the number of passengers boarding an aircraft at the NYS Airports.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "Annual Enplanements in NYS Airports: Beginning 1997", 
-  "schema": {
-    "columns": [
-      {
-        "name": "airport_group", 
-        "type": "text"
-      }, 
-      {
-        "name": "airport_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "enplanements", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "annual_enplanements_in_nys_airports_beginning_1997"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "annual_enplanements_in_nys_airports_beginning_1997"
 }

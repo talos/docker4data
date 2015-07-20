@@ -1,8 +1,6 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_bronx_lehman_cuny_bronx_311_consumer_complaints/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/kme9-en7m/rows.csv"
-  }, 
+  "data": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/kme9-en7m/rows.csv", 
   "description": "consumer complaints from Bronx 311 data, 2012 - Present", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,105 +14,5 @@
     }
   }, 
   "name": "Bronx 311 Consumer Complaints", 
-  "schema": {
-    "columns": [
-      {
-        "name": "unique_key", 
-        "type": "real"
-      }, 
-      {
-        "name": "created_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "closed_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "agency_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "complaint_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "descriptor", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "incident_zip", 
-        "type": "real"
-      }, 
-      {
-        "name": "incident_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "cross_street_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "cross_street_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "intersection_street_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "intersection_street_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "address_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "landmark", 
-        "type": "text"
-      }, 
-      {
-        "name": "facility_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "status", 
-        "type": "text"
-      }, 
-      {
-        "name": "due_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "resolution_action_updated_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "community_board", 
-        "type": "text"
-      }, 
-      {
-        "name": "park_facility_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "park_borough", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "tableName": "socrata_bronx_lehman_cuny_bronx_311_consumer_complaints"
+  "table": "socrata_bronx_lehman_cuny_bronx_311_consumer_complaints"
 }

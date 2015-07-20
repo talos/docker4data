@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_directory_of_bronx_future_parks/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/ssk8-4egt/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/ssk8-4egt/rows.csv", 
   "description": "List of Bronx Future Parks with their Categories and Nature of Activity", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "Directory Of Bronx Future Parks", 
-  "schema": {
-    "columns": [
-      {
-        "name": "park_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "description_of_work", 
-        "type": "text"
-      }, 
-      {
-        "name": "status", 
-        "type": "text"
-      }, 
-      {
-        "name": "category", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "directory_of_bronx_future_parks"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "directory_of_bronx_future_parks"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_campaign_consultants_client_payments/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/tc9q-72uj/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sfgov.org/api/views/tc9q-72uj/rows.csv", 
   "description": "Campaign Consultants are required to report \u201ceconomic consideration\u201d promised by or received from clients in exchange for campaign consulting services during the applicable reporting period.  Economic consideration includes payments, fees, commissions, and reimbursements for expenses, gifts or anything else of value.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "Campaign Consultants - Client Payments", 
-  "schema": {
-    "columns": [
-      {
-        "name": "campaign_consultant", 
-        "type": "text"
-      }, 
-      {
-        "name": "client", 
-        "type": "text"
-      }, 
-      {
-        "name": "services_performed", 
-        "type": "text"
-      }, 
-      {
-        "name": "total_payments_promised", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_payments_received", 
-        "type": "real"
-      }, 
-      {
-        "name": "quarter_start_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "quarter_end_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "quarter", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sfgov.org", 
-  "tableName": "campaign_consultants_client_payments"
+  "schema": "socrata/data.sfgov.org", 
+  "status": "needs review", 
+  "table": "campaign_consultants_client_payments"
 }

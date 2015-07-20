@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/bronx_311_sewer_complaints/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/iyux-4pck/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/iyux-4pck/rows.csv", 
   "description": "311 complaint calls about clogged water outflows and sewer catchments. This information is automatically updated daily.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,94 +13,6 @@
     }
   }, 
   "name": "Bronx 311 Sewer Complaints", 
-  "schema": {
-    "columns": [
-      {
-        "name": "unique_key", 
-        "type": "real"
-      }, 
-      {
-        "name": "created_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "closed_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "agency_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "complaint_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "descriptor", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "incident_zip", 
-        "type": "real"
-      }, 
-      {
-        "name": "incident_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "cross_street_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "cross_street_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "intersection_street_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "intersection_street_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "status", 
-        "type": "text"
-      }, 
-      {
-        "name": "resolution_action_updated_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "community_board", 
-        "type": "text"
-      }, 
-      {
-        "name": "borough", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_2", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/bronx.lehman.cuny.edu", 
-  "tableName": "bronx_311_sewer_complaints"
+  "schema": "socrata/bronx.lehman.cuny.edu", 
+  "table": "bronx_311_sewer_complaints"
 }

@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/cta_bus_stops_kml/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/download/84eu-bunyapplication/zip; charset=binary", 
-    "type": "application/zip; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/download/84eu-buny/application/zip", 
   "description": "CTA Bus Stops - Point data representing over 11,000 CTA bus stops. The Stop ID is used to get Bus Tracker information. \r\n\r\nProjected Coordinate System:\tNAD_1983_StatePlane_Illinois_East_FIPS_1201_Feet", 
+  "load": "TODO: zip", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,7 +13,7 @@
     }
   }, 
   "name": "CTA - Bus Stops - kml", 
-  "schema": {}, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "cta_bus_stops_kml"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "cta_bus_stops_kml"
 }

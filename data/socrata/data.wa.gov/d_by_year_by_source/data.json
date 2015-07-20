@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wa_d_by_year_by_source/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/sf64-aecy/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.wa.gov/api/views/sf64-aecy/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,58 +9,7 @@
     }
   }, 
   "name": "D -- $$ By Year By Source", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "state_general_obligation_bonds", 
-        "type": "real"
-      }, 
-      {
-        "name": "state_puget_sound_acquisitions_and_restoration_funds", 
-        "type": "real"
-      }, 
-      {
-        "name": "state_family_forest_fish_passage_program", 
-        "type": "real"
-      }, 
-      {
-        "name": "state_estuary_and_salmon_restoration_program", 
-        "type": "real"
-      }, 
-      {
-        "name": "local_match", 
-        "type": "real"
-      }, 
-      {
-        "name": "federal_pacific_coast_salmon_recovery_fund", 
-        "type": "real"
-      }, 
-      {
-        "name": "federal_pacific_states_marine_fisheries_commission", 
-        "type": "real"
-      }, 
-      {
-        "name": "federal_hatchery_reform", 
-        "type": "real"
-      }, 
-      {
-        "name": "federal_puget_sound_critical_stock", 
-        "type": "real"
-      }, 
-      {
-        "name": "federal_coded_wire_tags", 
-        "type": "real"
-      }, 
-      {
-        "name": "total", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.wa.gov", 
-  "tableName": "d_by_year_by_source"
+  "schema": "socrata/data.wa.gov", 
+  "status": "needs review", 
+  "table": "d_by_year_by_source"
 }

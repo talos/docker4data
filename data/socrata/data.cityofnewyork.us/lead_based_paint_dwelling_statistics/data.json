@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_lead_based_paint_dwelling_statistics/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/azyf-k3d6/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/azyf-k3d6/rows.csv", 
   "description": "Statistics of occupied units with Lead Based Paint", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "Lead Based Paint Dwelling Statistics", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year_built", 
-        "type": "text"
-      }, 
-      {
-        "name": "total_units", 
-        "type": "text"
-      }, 
-      {
-        "name": "estimate_of_percent_of_units_with_lbp", 
-        "type": "text"
-      }, 
-      {
-        "name": "estimated_units_with_lbp", 
-        "type": "text"
-      }, 
-      {
-        "name": "lbp_units_occupied_by_families_less_than_or_equal_to_50_of_median", 
-        "type": "text"
-      }, 
-      {
-        "name": "lbp_units_occupied_by_families_less_than_or_equal_to_80_of_median", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "lead_based_paint_dwelling_statistics"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "lead_based_paint_dwelling_statistics"
 }

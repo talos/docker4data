@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/missouri_national_guard_seeking_substance_abuse_services/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.mo.gov/download/kber-tgscapplication/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.mo.gov/download/kber-tgsc/application/pdf", 
   "description": "Explains how and where the Missouri National Guard can access assistance for substance use disorder.", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,7 +13,7 @@
     }
   }, 
   "name": "Missouri National Guard seeking substance abuse services", 
-  "schema": {}, 
-  "schemaName": "socrata/data.mo.gov", 
-  "tableName": "missouri_national_guard_seeking_substance_abuse_services"
+  "schema": "socrata/data.mo.gov", 
+  "status": "needs review", 
+  "table": "missouri_national_guard_seeking_substance_abuse_services"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_mo_arra_grant_expenditures_as_of_cob_december_31_2014/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.mo.gov/api/views/sx3s-zpte/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.mo.gov/api/views/sx3s-zpte/rows.csv", 
   "description": "Data that shows how every dollar received by the State of Missouri under the American Reinvestment and Recovery Act of 2009 has been spent including the name of the state agency that made the expenditure, category of expenditure and the names of vendors receiving payments.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,26 +12,7 @@
     }
   }, 
   "name": "ARRA Grant Expenditures As Of COB December 31, 2014", 
-  "schema": {
-    "columns": [
-      {
-        "name": "agency_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "program_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendor_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "payments_total", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.mo.gov", 
-  "tableName": "arra_grant_expenditures_as_of_cob_december_31_2014"
+  "schema": "socrata/data.mo.gov", 
+  "status": "needs review", 
+  "table": "arra_grant_expenditures_as_of_cob_december_31_2014"
 }

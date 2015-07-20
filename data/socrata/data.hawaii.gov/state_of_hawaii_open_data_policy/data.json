@@ -1,9 +1,6 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/state_of_hawaii_open_data_policy/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/download/nhp7-e9j6application/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/download/nhp7-e9j6/application/pdf", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,7 +10,7 @@
     }
   }, 
   "name": "State Of Hawaii Open Data Policy", 
-  "schema": {}, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "state_of_hawaii_open_data_policy"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "state_of_hawaii_open_data_policy"
 }

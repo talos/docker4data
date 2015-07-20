@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_fire_calls_for_service/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/tp88-ynix/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/tp88-ynix/rows.csv", 
   "description": "2000 - 2012 calls for service for Rockford Fire Departmetn", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "Fire Calls for Service", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "fire", 
-        "type": "real"
-      }, 
-      {
-        "name": "ems_amp_search_and_rescue", 
-        "type": "real"
-      }, 
-      {
-        "name": "hazardous_condition", 
-        "type": "real"
-      }, 
-      {
-        "name": "service_good_intent_call", 
-        "type": "real"
-      }, 
-      {
-        "name": "false_alarm_amp_false_call", 
-        "type": "real"
-      }, 
-      {
-        "name": "other_incident_type", 
-        "type": "real"
-      }, 
-      {
-        "name": "total", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "fire_calls_for_service"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "fire_calls_for_service"
 }

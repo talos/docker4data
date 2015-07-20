@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/city_of_edmonton_neighbourhood_boundaries_map_view_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/geospatial/jfvj-x253", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.edmonton.ca/api/geospatial/jfvj-x253", 
   "description": "Spatial view of current neighbourhood boundaries found within the boundaries of the City of Edmonton. Note - this map includes both residential and industrial neighbourhoods.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "City of Edmonton - Neighbourhood Boundaries (Map View)", 
-  "schema": {}, 
-  "schemaName": "socrata/data.edmonton.ca", 
-  "tableName": "city_of_edmonton_neighbourhood_boundaries_map_view_"
+  "schema": "socrata/data.edmonton.ca", 
+  "status": "needs review", 
+  "table": "city_of_edmonton_neighbourhood_boundaries_map_view_"
 }

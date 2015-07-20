@@ -1,0 +1,22 @@
+CREATE TABLE "schools" (
+	"school_name"	text,
+	"definition"	text,
+	"primary_address"	text,
+	"second_address"	text,
+	"grades"	text,
+	"school2_name"	text,
+	"school2_primary_address"	text,
+	"school2_secondary_address"	text,
+	"school2_grades"	text,
+	"school2_definition"	text,
+	"school3_name"	text,
+	"school3_primary_address"	text,
+	"school3_secondary_address"	text,
+	"school3_grades"	text,
+	"school3_definition"	text,
+	"school4_name"	text,
+	"school4_primary_address"	text,
+	"school4_secondary_address"	text,
+	"school4_grades"	text,
+	"school4_definition"	text
+);

@@ -1,0 +1,23 @@
+CREATE TABLE "approved_building_permits" (
+	"permitnumber"	text,
+	"worktype"	text,
+	"permittypedescr"	text,
+	"description"	text,
+	"comments"	text,
+	"applicant"	text,
+	"declared_valuation"	text,
+	"total_fees"	text,
+	"issued_date"	timestamp,
+	"expiration_date"	timestamp,
+	"status"	text,
+	"owner"	text,
+	"occupancytype"	text,
+	"sq_feet"	real,
+	"address"	text,
+	"city"	text,
+	"state"	text,
+	"zip"	text,
+	"property_id"	text,
+	"parcel_id"	text,
+	"location"	text
+);

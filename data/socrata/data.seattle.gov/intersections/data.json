@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_intersections/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/2az7-96yc/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/2az7-96yc/rows.csv", 
   "description": "City of Seattle road network intersections", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,62 +12,7 @@
     }
   }, 
   "name": "Intersections", 
-  "schema": {
-    "columns": [
-      {
-        "name": "objectid", 
-        "type": "real"
-      }, 
-      {
-        "name": "intr_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "gis_xcoord", 
-        "type": "real"
-      }, 
-      {
-        "name": "gis_ycoord", 
-        "type": "real"
-      }, 
-      {
-        "name": "compkey", 
-        "type": "real"
-      }, 
-      {
-        "name": "comptype", 
-        "type": "real"
-      }, 
-      {
-        "name": "unitid", 
-        "type": "text"
-      }, 
-      {
-        "name": "subarea", 
-        "type": "text"
-      }, 
-      {
-        "name": "unitdesc", 
-        "type": "text"
-      }, 
-      {
-        "name": "arterialclasscd", 
-        "type": "text"
-      }, 
-      {
-        "name": "shape", 
-        "type": "text"
-      }, 
-      {
-        "name": "signal_maint_dist", 
-        "type": "text"
-      }, 
-      {
-        "name": "signal_type", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "intersections"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "intersections"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_ides_laus_msas_annual_average_1976_2011/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/22pt-r2yq/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/22pt-r2yq/rows.csv", 
   "description": "Annual Average Unemployment Rates by Metropolitan Statistical Area.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "IDES - LAUS MSAs Annual Average 1976-2011", 
-  "schema": {
-    "columns": [
-      {
-        "name": "area", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "text"
-      }, 
-      {
-        "name": "labor_force", 
-        "type": "text"
-      }, 
-      {
-        "name": "employed", 
-        "type": "text"
-      }, 
-      {
-        "name": "unemployed_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "unemployed_rate", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "ides_laus_msas_annual_average_1976_2011"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "ides_laus_msas_annual_average_1976_2011"
 }

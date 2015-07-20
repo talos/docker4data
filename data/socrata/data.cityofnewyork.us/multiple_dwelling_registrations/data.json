@@ -1,15 +1,11 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_multiple_dwelling_registrations/data.json", 
   "after": [
     {
       "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_multiple_dwelling_registrations/index.sql", 
       "type": "postgres"
     }
   ], 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/tesw-yqqr/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/tesw-yqqr/rows.csv", 
   "description": "Pursuant to New York City\u2019s Housing Maintenance Code, the Department of Housing \r\nPreservation and Development (HPD) collects registration information from owners of \r\nresidential rental units. Owners are required to register if they own residential buildings \r\nwith three or more units or if they own one- or two-family homes and neither they nor \r\nmembers of their immediate family live there. Registrations are required upon taking \r\nownership of a qualifying building, and once a year thereafter.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -23,74 +19,7 @@
     }
   }, 
   "name": "Multiple Dwelling Registrations", 
-  "schema": {
-    "columns": [
-      {
-        "name": "registrationid", 
-        "type": "real"
-      }, 
-      {
-        "name": "buildingid", 
-        "type": "real"
-      }, 
-      {
-        "name": "boroid", 
-        "type": "real"
-      }, 
-      {
-        "name": "boro", 
-        "type": "text"
-      }, 
-      {
-        "name": "housenumber", 
-        "type": "text"
-      }, 
-      {
-        "name": "lowhousenumber", 
-        "type": "text"
-      }, 
-      {
-        "name": "highhousenumber", 
-        "type": "text"
-      }, 
-      {
-        "name": "streetname", 
-        "type": "text"
-      }, 
-      {
-        "name": "streetcode", 
-        "type": "real"
-      }, 
-      {
-        "name": "zip", 
-        "type": "text"
-      }, 
-      {
-        "name": "block", 
-        "type": "real"
-      }, 
-      {
-        "name": "lot", 
-        "type": "real"
-      }, 
-      {
-        "name": "bin", 
-        "type": "real"
-      }, 
-      {
-        "name": "communityboard", 
-        "type": "real"
-      }, 
-      {
-        "name": "lastregistrationdate", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "registrationenddate", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "multiple_dwelling_registrations"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "multiple_dwelling_registrations"
 }

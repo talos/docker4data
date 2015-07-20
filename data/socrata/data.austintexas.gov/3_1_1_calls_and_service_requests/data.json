@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_3_1_1_calls_and_service_requests/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/hut9-4n8t/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/views/hut9-4n8t/rows.csv", 
   "description": "Data came from Austin 3-1-1 and is used for planning, tracking, and budgeting. The information is frequently requested by the public.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,22 +12,7 @@
     }
   }, 
   "name": "3-1-1 Calls And Service Requests", 
-  "schema": {
-    "columns": [
-      {
-        "name": "fiscal_year", 
-        "type": "text"
-      }, 
-      {
-        "name": "calls_answered", 
-        "type": "real"
-      }, 
-      {
-        "name": "service_requests", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "3_1_1_calls_and_service_requests"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "3_1_1_calls_and_service_requests"
 }

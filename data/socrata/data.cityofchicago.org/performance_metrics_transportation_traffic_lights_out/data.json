@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/performance_metrics_transportation_traffic_lights_out/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/vfmv-4fbs/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/vfmv-4fbs/rows.csv", 
   "description": "The Chicago Department of Transportation (CDOT) receives reports from 311\u2019s Customer Service Requests (CSR) system of traffic light outages.  This metric tracks the average number of days CDOT takes to complete traffic light repair requests.  Total number of requests fulfilled per week is also available by mousing over columns Due to the public safety importance of traffic signals, the target time to respond to traffic light outages is within 1 day.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "Performance Metrics - Transportation - Traffic Lights Out", 
-  "schema": {
-    "columns": [
-      {
-        "name": "week", 
-        "type": "text"
-      }, 
-      {
-        "name": "average_days_to_complete_traffic_light_out_requests", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_completed_requests", 
-        "type": "real"
-      }, 
-      {
-        "name": "target_response_time_days_", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "performance_metrics_transportation_traffic_lights_out"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "performance_metrics_transportation_traffic_lights_out"
 }

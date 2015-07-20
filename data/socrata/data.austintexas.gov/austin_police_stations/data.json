@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_austin_police_stations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/jmp6-p8e2/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/views/jmp6-p8e2/rows.csv", 
   "description": "Location information for Austin Police stations", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "Austin Police Stations", 
-  "schema": {
-    "columns": [
-      {
-        "name": "station_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "x", 
-        "type": "text"
-      }, 
-      {
-        "name": "y", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "austin_police_stations"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "austin_police_stations"
 }

@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/enterprise_zones/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/geospatial/sqgr-ajkg", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.sfgov.org/api/geospatial/sqgr-ajkg", 
   "description": "Map of enterprise zone in San Francisco; to be sunsetted effective 1/1/2014.  For more information please see the below link:\r\n\r\nhttp://oewd.org/Enterprise-Zone.aspx", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,7 +13,7 @@
     }
   }, 
   "name": "Enterprise Zones", 
-  "schema": {}, 
-  "schemaName": "socrata/data.sfgov.org", 
-  "tableName": "enterprise_zones"
+  "schema": "socrata/data.sfgov.org", 
+  "status": "needs review", 
+  "table": "enterprise_zones"
 }

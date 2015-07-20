@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_energystar_energy_star_certified_displays/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.energystar.gov/api/views/2wic-jicu/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.energystar.gov/api/views/2wic-jicu/rows.csv", 
   "description": "Certified models meet all ENERGY STAR requirements as listed in the Version 6.0 ENERGY STAR Program Requirements for Displays that are effective as of June 1, 2013. A detailed listing of key efficiency criteria are available at https://www.energystar.gov/index.cfm?c=monitors.pr_crit_monitors.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,122 +12,7 @@
     }
   }, 
   "name": "ENERGY STAR Certified Displays", 
-  "schema": {
-    "columns": [
-      {
-        "name": "pd_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "energy_star_partner", 
-        "type": "text"
-      }, 
-      {
-        "name": "brand_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "model_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "model_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "additional_model_information", 
-        "type": "text"
-      }, 
-      {
-        "name": "display_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "panel_technology", 
-        "type": "text"
-      }, 
-      {
-        "name": "backlight_technology", 
-        "type": "text"
-      }, 
-      {
-        "name": "native_resolution_pixels", 
-        "type": "text"
-      }, 
-      {
-        "name": "maximum_resolution_pixels", 
-        "type": "text"
-      }, 
-      {
-        "name": "screen_size_inches", 
-        "type": "real"
-      }, 
-      {
-        "name": "screen_area_square_inches", 
-        "type": "real"
-      }, 
-      {
-        "name": "data_network_peripheral_ports", 
-        "type": "text"
-      }, 
-      {
-        "name": "data_network_connection", 
-        "type": "text"
-      }, 
-      {
-        "name": "power_consumed_in_on_mode_watts", 
-        "type": "real"
-      }, 
-      {
-        "name": "power_consumed_in_sleep_mode_watts", 
-        "type": "real"
-      }, 
-      {
-        "name": "off_mode_power_in_watts", 
-        "type": "real"
-      }, 
-      {
-        "name": "is_automatic_brightness_control_enabled_when_monitor_display_is_shipped", 
-        "type": "text"
-      }, 
-      {
-        "name": "on_mode_power_at_10_lux_watts", 
-        "type": "real"
-      }, 
-      {
-        "name": "on_mode_power_at_300_lux_watts", 
-        "type": "real"
-      }, 
-      {
-        "name": "maximum_luminance_candelas_per_square_meter", 
-        "type": "real"
-      }, 
-      {
-        "name": "enhanced_performance_display", 
-        "type": "text"
-      }, 
-      {
-        "name": "date_available_on_market", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "date_qualified", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "markets", 
-        "type": "text"
-      }, 
-      {
-        "name": "energy_star_model_identifier", 
-        "type": "text"
-      }, 
-      {
-        "name": "meets_most_efficient_criteria", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.energystar.gov", 
-  "tableName": "energy_star_certified_displays"
+  "schema": "socrata/data.energystar.gov", 
+  "status": "needs review", 
+  "table": "energy_star_certified_displays"
 }

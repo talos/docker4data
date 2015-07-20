@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_kingcounty_king_county_2012_events/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/6a64-xwmq/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.kingcounty.gov/api/views/6a64-xwmq/rows.csv", 
   "description": "Newsworthy King County events over the last year", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "King County 2012 events", 
-  "schema": {
-    "columns": [
-      {
-        "name": "label", 
-        "type": "text"
-      }, 
-      {
-        "name": "start_time", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "link", 
-        "type": "text"
-      }, 
-      {
-        "name": "notes", 
-        "type": "text"
-      }, 
-      {
-        "name": "image_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "movie", 
-        "type": "text"
-      }, 
-      {
-        "name": "tags", 
-        "type": "text"
-      }, 
-      {
-        "name": "image", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.kingcounty.gov", 
-  "tableName": "king_county_2012_events"
+  "schema": "socrata/data.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "king_county_2012_events"
 }

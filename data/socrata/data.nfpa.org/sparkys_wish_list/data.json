@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_nfpa_sparkys_wish_list/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.nfpa.org/api/views/tvpy-9n6m/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.nfpa.org/api/views/tvpy-9n6m/rows.csv", 
   "description": "Sparky's Wish List invites fire departments to create a Wish List of fire safety education materials for use during school visits and other community events. And then, community members, local businesses, and others can purchase requested materials which NFPA will send directly to the fire department.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "Sparkys Wish List", 
-  "schema": {
-    "columns": [
-      {
-        "name": "fire_department_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "website_url", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.nfpa.org", 
-  "tableName": "sparkys_wish_list"
+  "schema": "socrata/data.nfpa.org", 
+  "status": "needs review", 
+  "table": "sparkys_wish_list"
 }

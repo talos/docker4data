@@ -1,8 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_lottery_take_5_winning_numbers/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/dg63-4siq/rows.csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/dg63-4siq/rows.csv", 
   "description": "Go to http://on.ny.gov/1DYGlWJ on the New York Lottery website for past Take 5 results and payouts.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,21 +13,7 @@
     }
   }, 
   "name": "Lottery Take 5 Winning Numbers", 
-  "schema": {
-    "columns": [
-      {
-        "name": "draw_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "winning_numbers", 
-        "type": "text"
-      }, 
-      {
-        "name": "bonus", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "tableName": "socrata_ny_lottery_take_5_winning_numbers"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "lottery_take_5_winning_numbers"
 }

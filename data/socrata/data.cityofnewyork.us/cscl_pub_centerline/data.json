@@ -1,10 +1,8 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/cscl_pub_centerline/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/geospatial/exjm-f27b", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/geospatial/exjm-f27b", 
   "description": "CSCL PUB Centerline is a road-bed representation of New York City streets containing address ranges and other information such as traffic directions, road types, segment types", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,9 +15,7 @@
     }
   }, 
   "name": "CSCL PUB Centerline", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "cscl_pub_centerline"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "cscl_pub_centerline"
 }

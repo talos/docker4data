@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_combined_sewer_overflows_csos_beginning_2013/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/ephi-ffu6/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/ephi-ffu6/rows.csv", 
   "description": "The dataset represents the locations of combined sewer overflow (CSOs) outfall locations in NYS. It also includes overflow detection capabilities of CSO communities and overflow frequency data within a specified timeframe.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,78 +13,7 @@
     }
   }, 
   "name": "Combined Sewer Overflows (CSOs): Beginning 2013", 
-  "schema": {
-    "columns": [
-      {
-        "name": "spdes_permit_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "outfall_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "cso_identification_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "facility_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "facility_owner_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "receiving_waterbody_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "number_of_permitted_outfalls", 
-        "type": "real"
-      }, 
-      {
-        "name": "discharge_activation_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "number_of_overflow_events", 
-        "type": "text"
-      }, 
-      {
-        "name": "timeframe_of_overflow_events_information", 
-        "type": "text"
-      }, 
-      {
-        "name": "data_as_of", 
-        "type": "real"
-      }, 
-      {
-        "name": "link_to_real_time_information", 
-        "type": "text"
-      }, 
-      {
-        "name": "dec_region", 
-        "type": "real"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "longtitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "combined_sewer_overflows_csos_beginning_2013"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "combined_sewer_overflows_csos_beginning_2013"
 }

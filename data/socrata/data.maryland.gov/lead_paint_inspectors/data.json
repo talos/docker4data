@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_lead_paint_inspectors/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/djk4-5e3j/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/djk4-5e3j/rows.csv", 
   "description": "The Inspection Contractors (IC) listed have been accredited/licensed by the Maryland Department of the Environment to provide lead paint inspection services. The Inspection Contractors qualify to perform different types of inspections based on the accreditation category(ies) of the inspector(s) that work for the contractor. There are three kinds of lead paint inspectors. They qualify in the following ways:\r\nVisual Inspector (VI) - May perform Full or Modified Risk Reduction Inspections. This is done by a Dust Inspection or a Visual Inspection after unit has been prepared for inspection by an accredited lead paint abatement contractor. Visual Inspectors may also perform testing for Clearance.\r\nInspector Technician (IT) - May perform Lead Free Inspections. This is done by X-ray testing or paint chip analysis of all surfaces. Inspector Technicians may also perform testing for Clearance.\r\nRisk Assessor (RA) - May perform all the functions of a VI and IT. Risk Assessors may also perform Lead Hazard Screenings and Risk Assessments. Risk Assessors may identify lead hazards and make recommendations from analysis of X-ray testing, paint chips, dust, soil, water and questionnaires. Risk Assessors may also perform testing for Clearance.\r\nDisclaimer:\r\nFor your convenience MDE publishes this list of accredited lead contractors that meet Maryland\u2019s standards to perform abatement activities involving lead-based paint. The list is an information resource only. MDE does not endorse any of the contractors included on this list nor does MDE provide any warranty about their performance. Consumers are advised to request bids and conduct reference checks before hiring. Contact the individual contractors for information regarding services and fees. Verify with the contractor you are going to hire that the inspector is accredited by MDE. This accreditation and training does not satisfy the EPA Renovation, Repair and Painting (RRP) Rule.\r\nIf you have questions regarding official inspection or abatement work procedures call MDE at 410-537-3825.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,82 +13,7 @@
     }
   }, 
   "name": "Lead Paint Inspectors", 
-  "schema": {
-    "columns": [
-      {
-        "name": "accreditation_certificate_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "certificate_expiration_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "contractor_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "contractor_address_line_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "contractor_address_line_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "contractor_city", 
-        "type": "text"
-      }, 
-      {
-        "name": "contractor_state", 
-        "type": "text"
-      }, 
-      {
-        "name": "contractor_zip", 
-        "type": "real"
-      }, 
-      {
-        "name": "contractor_phone", 
-        "type": "real"
-      }, 
-      {
-        "name": "contractor_fax", 
-        "type": "real"
-      }, 
-      {
-        "name": "contact_first_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "contact_last_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "baltimore_region", 
-        "type": "text"
-      }, 
-      {
-        "name": "eastern_shore", 
-        "type": "text"
-      }, 
-      {
-        "name": "washington_dc_suburbs", 
-        "type": "text"
-      }, 
-      {
-        "name": "southern_maryland", 
-        "type": "text"
-      }, 
-      {
-        "name": "western_maryland", 
-        "type": "text"
-      }, 
-      {
-        "name": "statewide", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "lead_paint_inspectors"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "lead_paint_inspectors"
 }

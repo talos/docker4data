@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/cyclist_crashes/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/www.data.act.gov.au/api/views/n2kg-qkwj/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/www.data.act.gov.au/api/views/n2kg-qkwj/rows.csv", 
   "description": "On Road Cyclist Crashes, since 2012, which have been reported by the Police or the Public through the AFP Crash Report Form.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,54 +13,7 @@
     }
   }, 
   "name": "Cyclist Crashes", 
-  "schema": {
-    "columns": [
-      {
-        "name": "crash_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "crash_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "crash_time", 
-        "type": "text"
-      }, 
-      {
-        "name": "severity", 
-        "type": "text"
-      }, 
-      {
-        "name": "crash_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "cyclists", 
-        "type": "real"
-      }, 
-      {
-        "name": "cyclist_casualties", 
-        "type": "real"
-      }, 
-      {
-        "name": "reported_location", 
-        "type": "text"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/www.data.act.gov.au", 
-  "tableName": "cyclist_crashes"
+  "schema": "socrata/www.data.act.gov.au", 
+  "status": "needs review", 
+  "table": "cyclist_crashes"
 }

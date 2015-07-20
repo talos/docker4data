@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/trees_w_diameter_over_50cm_in_manhattan/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/nasw-3vh9/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/nasw-3vh9/rows.csv", 
   "description": "Data taken from the 2004-2005 Tree Census, filtered to isolate the largest trees in the database.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,82 +13,6 @@
     }
   }, 
   "name": "Trees w/ Diameter over 50cm in Manhattan", 
-  "schema": {
-    "columns": [
-      {
-        "name": "treeid", 
-        "type": "real"
-      }, 
-      {
-        "name": "objectid_1", 
-        "type": "real"
-      }, 
-      {
-        "name": "parity", 
-        "type": "text"
-      }, 
-      {
-        "name": "crossstree", 
-        "type": "text"
-      }, 
-      {
-        "name": "crossstr_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "buildingnu", 
-        "type": "real"
-      }, 
-      {
-        "name": "buildingst", 
-        "type": "text"
-      }, 
-      {
-        "name": "treelocati", 
-        "type": "real"
-      }, 
-      {
-        "name": "site", 
-        "type": "real"
-      }, 
-      {
-        "name": "treepit", 
-        "type": "real"
-      }, 
-      {
-        "name": "treecondit", 
-        "type": "real"
-      }, 
-      {
-        "name": "diameter", 
-        "type": "real"
-      }, 
-      {
-        "name": "species", 
-        "type": "text"
-      }, 
-      {
-        "name": "borough", 
-        "type": "text"
-      }, 
-      {
-        "name": "zipcode", 
-        "type": "real"
-      }, 
-      {
-        "name": "fid_1", 
-        "type": "real"
-      }, 
-      {
-        "name": "commdist", 
-        "type": "real"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/bronx.lehman.cuny.edu", 
-  "tableName": "trees_w_diameter_over_50cm_in_manhattan"
+  "schema": "socrata/bronx.lehman.cuny.edu", 
+  "table": "trees_w_diameter_over_50cm_in_manhattan"
 }

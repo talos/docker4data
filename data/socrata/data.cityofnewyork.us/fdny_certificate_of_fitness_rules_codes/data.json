@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_fdny_certificate_of_fitness_rules_codes/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/5vsp-htwz/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/5vsp-htwz/rows.csv", 
   "description": "Rules and Codes required for Certificate of Fitness - FDNY", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "FDNY Certificate Of Fitness Rules Codes", 
-  "schema": {
-    "columns": [
-      {
-        "name": "type_of_material_operation_or_facility", 
-        "type": "text"
-      }, 
-      {
-        "name": "supervision_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "fire_code_rule_section", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "fdny_certificate_of_fitness_rules_codes"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "fdny_certificate_of_fitness_rules_codes"
 }

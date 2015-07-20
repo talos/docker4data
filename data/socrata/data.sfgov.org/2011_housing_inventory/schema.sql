@@ -1,0 +1,21 @@
+CREATE TABLE "2011_housing_inventory" (
+	"appl_no"	real,
+	"form"	real,
+	"standardad"	text,
+	"block"	text,
+	"lot"	text,
+	"units"	real,
+	"netunits"	real,
+	"affordable"	text,
+	"description"	text,
+	"existuse"	text,
+	"propuse"	text,
+	"action"	text,
+	"actdate"	timestamp,
+	"staff"	text,
+	"zoning"	text,
+	"genzoning"	text,
+	"planningdistrict"	real,
+	"supedist"	real,
+	"type"	text
+);

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_cta_performance_unscheduled_days_off/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/spus-59r8/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/spus-59r8/rows.csv", 
   "description": "This report shows unscheduled absences for bargained for employees in the CTA\u2019s Rail and Bus divisions.  Unscheduled absences reflected in this report include Sick, FMLA, IOD, and AWOLs only.  It no longer includes Suspensions, which were included in earlier reports.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,30 +12,7 @@
     }
   }, 
   "name": "CTA - Performance - Unscheduled Days Off", 
-  "schema": {
-    "columns": [
-      {
-        "name": "mode", 
-        "type": "text"
-      }, 
-      {
-        "name": "days_lost_in_2010", 
-        "type": "real"
-      }, 
-      {
-        "name": "days_lost_2011_projected_", 
-        "type": "real"
-      }, 
-      {
-        "name": "days_lost_per_capita_2010", 
-        "type": "real"
-      }, 
-      {
-        "name": "days_lost_per_capita_jan_jun_2011", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "cta_performance_unscheduled_days_off"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "cta_performance_unscheduled_days_off"
 }

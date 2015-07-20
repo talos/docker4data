@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/post_code_areas/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/geospatial/m7yp-p495", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/geospatial/m7yp-p495", 
   "description": "This Shapefile defines the boundaries and locations of all postcodes with the City of Melbourne", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Post Code Areas", 
-  "schema": {}, 
-  "schemaName": "socrata/data.melbourne.vic.gov.au", 
-  "tableName": "post_code_areas"
+  "schema": "socrata/data.melbourne.vic.gov.au", 
+  "status": "needs review", 
+  "table": "post_code_areas"
 }

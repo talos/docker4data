@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_commissioners_regulations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/a6x3-4y2a/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/a6x3-4y2a/rows.csv", 
   "description": "Chapters of Title 24 of The Rules of The City of New York", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "Commissioners Regulations", 
-  "schema": {
-    "columns": [
-      {
-        "name": "chapter", 
-        "type": "real"
-      }, 
-      {
-        "name": "chapter_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "url", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "commissioners_regulations"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "commissioners_regulations"
 }

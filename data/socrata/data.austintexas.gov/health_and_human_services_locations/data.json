@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_health_and_human_services_locations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/6v78-dj3u/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/views/6v78-dj3u/rows.csv", 
   "description": "This dataset shows all locations for services provided by the Austin / Travis County Health and Human Services Department.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,42 +12,7 @@
     }
   }, 
   "name": "Health and Human Services Locations", 
-  "schema": {
-    "columns": [
-      {
-        "name": "facility_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "address_line_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "hours", 
-        "type": "text"
-      }, 
-      {
-        "name": "website", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "other_phone", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "health_and_human_services_locations"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "health_and_human_services_locations"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/organ_procurement_organizations_eye_banks_and_tissue_banks_information/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/8npw-hpyp/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/health.data.ny.gov/api/views/8npw-hpyp/rows.csv", 
   "description": "This dataset contains the names, contact information, and county location for the federally authorized Organ Procurement Organizations (OPOs), as well as the New York State regulated Eye Banks and Tissue Banks. These organizations work closely with the Department of Health (DOH) to educate the public regarding the need for organ and tissue donation and to facilitate the enrollment of individuals in the New York State Donate Life Organ and Tissue Donor Registry. The contact information and service areas provided in this dataset are subject to change without DOH\u2019s knowledge since the data is provided by independent OPOs, Eye Banks and Tissue Banks.  For more information please visit, http://www.health.ny.gov/professionals/patients/donation/organ/, or go to the \"About\" tab.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "Organ Procurement Organizations, Eye Banks and Tissue Banks Information", 
-  "schema": {
-    "columns": [
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "type", 
-        "type": "text"
-      }, 
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "website", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/health.data.ny.gov", 
-  "tableName": "organ_procurement_organizations_eye_banks_and_tissue_banks_information"
+  "schema": "socrata/health.data.ny.gov", 
+  "status": "needs review", 
+  "table": "organ_procurement_organizations_eye_banks_and_tissue_banks_information"
 }

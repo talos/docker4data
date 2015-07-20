@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_directory_of_competitive_bid/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/2eq2-trdu/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/2eq2-trdu/rows.csv", 
   "description": "This table displays currently advertised projects (type of work), estimated range ($) for project completion, bid date, time and projects description along with Project ID. It also provides link to plan holders information.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "Directory Of Competitive Bid", 
-  "schema": {
-    "columns": [
-      {
-        "name": "_", 
-        "type": "real"
-      }, 
-      {
-        "name": "type_of_work", 
-        "type": "text"
-      }, 
-      {
-        "name": "estimated_range", 
-        "type": "text"
-      }, 
-      {
-        "name": "bid_date_time", 
-        "type": "text"
-      }, 
-      {
-        "name": "pin", 
-        "type": "text"
-      }, 
-      {
-        "name": "proj_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "plan_holders", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "directory_of_competitive_bid"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "directory_of_competitive_bid"
 }

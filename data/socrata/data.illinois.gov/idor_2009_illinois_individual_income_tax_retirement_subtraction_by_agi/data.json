@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/idor_2009_illinois_individual_income_tax_retirement_subtraction_by_agi/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/rgqd-6732/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/rgqd-6732/rows.csv", 
   "description": "This report is created twice a year, usually in January as a PRELIMINARY reporting and then in August for a FINAL reporting.\r\n\r\nILLINOIS DEPARTMENT OF REVENUE\r\nILLINOIS INDIVIDUAL INCOME TAX:  RETIREMENT SUBTRACTION :  TAX YEAR 2009 - PRELIMINARY\r\n\"Source: Preliminary 1040 IIT Return File Dated Jan, 2011\r\n\r\nReport ID: TDWR-IITEOY-014\r\nData Source: 2009\r\nReport Date: 05/27/2011 11:31:30 AM", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "IDOR 2009 Illinois Individual Income Tax - Retirement Subtraction by AGI", 
-  "schema": {
-    "columns": [
-      {
-        "name": "adjusted_gross_income_class", 
-        "type": "text"
-      }, 
-      {
-        "name": "all_retirement_returns", 
-        "type": "real"
-      }, 
-      {
-        "name": "all_retirement_amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "all_retirement_average", 
-        "type": "real"
-      }, 
-      {
-        "name": "_65_or_over_returns", 
-        "type": "real"
-      }, 
-      {
-        "name": "_65_or_over_amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "_65_or_over_average", 
-        "type": "real"
-      }, 
-      {
-        "name": "under_65_returns", 
-        "type": "real"
-      }, 
-      {
-        "name": "under_65_amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "under_65_average", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "idor_2009_illinois_individual_income_tax_retirement_subtraction_by_agi"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "idor_2009_illinois_individual_income_tax_retirement_subtraction_by_agi"
 }

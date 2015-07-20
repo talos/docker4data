@@ -1,0 +1,20 @@
+CREATE TABLE "ssma_employment_centers" (
+	"objectid"	real,
+	"districtna"	text,
+	"districtty"	text,
+	"jobs"	text,
+	"municipali"	text,
+	"county"	text,
+	"zipcode"	text,
+	"editor"	text,
+	"propreitar"	real,
+	"urnumber"	text,
+	"shape_leng"	real,
+	"shape_area"	real,
+	"acres"	text,
+	"owner_name"	text,
+	"owner_addr"	text,
+	"owner_phon"	text,
+	"owner_emai"	text,
+	"location_1"	text
+);

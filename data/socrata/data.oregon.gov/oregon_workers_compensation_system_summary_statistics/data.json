@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/oregon_workers_compensation_system_summary_statistics/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/tmip-5b7m/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/api/views/tmip-5b7m/rows.csv", 
   "description": "In 1968, most Oregon employers became subject to Oregon\u2019s workers\u2019 compensation statute. The table provides some information for much of the life of the workers\u2019 compensation system. (Descriptions of the data series are provided in the document stored as an attachment under the \"About\" tab.)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,74 +13,7 @@
     }
   }, 
   "name": "Oregon Workers' Compensation System, Summary Statistics", 
-  "schema": {
-    "columns": [
-      {
-        "name": "calendar_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "wc_system_employers", 
-        "type": "real"
-      }, 
-      {
-        "name": "subject_employees", 
-        "type": "real"
-      }, 
-      {
-        "name": "accepted_disabling_claims", 
-        "type": "real"
-      }, 
-      {
-        "name": "denied_claims", 
-        "type": "real"
-      }, 
-      {
-        "name": "claims_closures_and_resolutions", 
-        "type": "real"
-      }, 
-      {
-        "name": "compensable_fatality_claims", 
-        "type": "real"
-      }, 
-      {
-        "name": "net_permanent_total_disability_claims", 
-        "type": "real"
-      }, 
-      {
-        "name": "administrative_dispute_requests", 
-        "type": "real"
-      }, 
-      {
-        "name": "hearing_requests_received", 
-        "type": "real"
-      }, 
-      {
-        "name": "board_review_requests_received", 
-        "type": "real"
-      }, 
-      {
-        "name": "claim_disposition_agreements", 
-        "type": "real"
-      }, 
-      {
-        "name": "court_of_appeals_requests_received", 
-        "type": "real"
-      }, 
-      {
-        "name": "vocational_assistance_eligibilities", 
-        "type": "real"
-      }, 
-      {
-        "name": "workers_compensation_premium_millions", 
-        "type": "real"
-      }, 
-      {
-        "name": "benefit_average_weekly_wage", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "oregon_workers_compensation_system_summary_statistics"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "oregon_workers_compensation_system_summary_statistics"
 }

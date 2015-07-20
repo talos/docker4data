@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_building_code_scofflaw_list/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/crg5-4zyp/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/crg5-4zyp/rows.csv", 
   "description": "The Chicago Building Scofflaw Ordinance (Section 2-92-416 of the Municipal Code of Chicago) is designed to prevent landlords that refuse or refrain from correcting ongoing building code violations from receiving city contracts, including those that subsidize housing. Building owners must have a least three residential buildings with uncorrected violations and have had three or more properties referred to Circuit Court within the applicable 12 month period to be eligible for the list. The building code scofflaw list is updated once a year on the first business day of December, and building owners may appeal being named on the list. Building owners with controlling interest in at least three residential properties that have habitual, extensive or serioues building code violations are now ineligible for any new city contracts in 2015. The following individuals or entities have been placed on the Building Code Scofflaw list for the entire calendar year.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,78 +13,7 @@
     }
   }, 
   "name": "Building Code Scofflaw List", 
-  "schema": {
-    "columns": [
-      {
-        "name": "respondent", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "secondary_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "tertiary_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "circuit_court_case_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "violation", 
-        "type": "text"
-      }, 
-      {
-        "name": "community_area", 
-        "type": "text"
-      }, 
-      {
-        "name": "community_area_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "ward", 
-        "type": "text"
-      }, 
-      {
-        "name": "census_tracts", 
-        "type": "text"
-      }, 
-      {
-        "name": "census_blocks", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_block_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "x_coordinate", 
-        "type": "real"
-      }, 
-      {
-        "name": "y_coordindate", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "building_code_scofflaw_list"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "building_code_scofflaw_list"
 }

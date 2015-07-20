@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/montgomery_county_boundary/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/geospatial/i65b-5sdz", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/geospatial/i65b-5sdz", 
   "description": "a geographic representation of Montgomery County Boundary", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,7 +13,7 @@
     }
   }, 
   "name": "Montgomery County Boundary", 
-  "schema": {}, 
-  "schemaName": "socrata/data.montgomerycountymd.gov", 
-  "tableName": "montgomery_county_boundary"
+  "schema": "socrata/data.montgomerycountymd.gov", 
+  "status": "needs review", 
+  "table": "montgomery_county_boundary"
 }

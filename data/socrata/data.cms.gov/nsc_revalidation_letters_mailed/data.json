@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cms_nsc_revalidation_letters_mailed/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cms.gov/api/views/22eb-yjgb/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cms.gov/api/views/22eb-yjgb/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -15,22 +11,7 @@
     }
   }, 
   "name": "NSC Revalidation Letters Mailed", 
-  "schema": {
-    "columns": [
-      {
-        "name": "npi", 
-        "type": "real"
-      }, 
-      {
-        "name": "legal_business_name_lbn", 
-        "type": "text"
-      }, 
-      {
-        "name": "date_revalidation_notice_sent", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cms.gov", 
-  "tableName": "nsc_revalidation_letters_mailed"
+  "schema": "socrata/data.cms.gov", 
+  "status": "needs review", 
+  "table": "nsc_revalidation_letters_mailed"
 }

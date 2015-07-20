@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_watersheds/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/ec78-i9z5/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/views/ec78-i9z5/rows.csv", 
   "description": "This is the official list of watersheds for the Drainage Criteria Manual in the City of Austin and whether or not development in the watershed is able to take advantage of the Regional Stormwater Managment Program. More: http://austintexas.gov/department/regional-stormwater-management-program", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Watersheds", 
-  "schema": {
-    "columns": [
-      {
-        "name": "code", 
-        "type": "text"
-      }, 
-      {
-        "name": "watershed_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "discharge_into", 
-        "type": "text"
-      }, 
-      {
-        "name": "rsmp", 
-        "type": "text"
-      }, 
-      {
-        "name": "watershed_id", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "watersheds"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "watersheds"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/derelict_vehicle_dispositions_tow/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/vr8p-8shw/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/vr8p-8shw/rows.csv", 
   "description": "Data for removing derelict vehicle operations from city streets, Gives disposition (complaints) of derelict vehicles reported to DSNY from 311.\r\n\r\nhttps://data.cityofnewyork.us/City-Government/Derelict-Vehicle-Dispositions-Vehicles/bjuu-44hx\r\nhttps://data.cityofnewyork.us/City-Government/Derelict-Vehicles-Dispositions-Complaints/pq5i-thsu\r\nhttps://data.cityofnewyork.us/City-Government/Derelict-Vehicles-Dispositions-Rentals/v6j6-k9uc", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,106 +13,7 @@
     }
   }, 
   "name": "Derelict Vehicle Dispositions - Tow", 
-  "schema": {
-    "columns": [
-      {
-        "name": "isn", 
-        "type": "real"
-      }, 
-      {
-        "name": "dvt_rotow_tagno", 
-        "type": "real"
-      }, 
-      {
-        "name": "dvt_district", 
-        "type": "text"
-      }, 
-      {
-        "name": "dvt_tagdt", 
-        "type": "text"
-      }, 
-      {
-        "name": "dvt_tagtm", 
-        "type": "text"
-      }, 
-      {
-        "name": "dvt_location", 
-        "type": "text"
-      }, 
-      {
-        "name": "dvt_between_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "dvt_between_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "dvt_make", 
-        "type": "text"
-      }, 
-      {
-        "name": "dvt_color", 
-        "type": "text"
-      }, 
-      {
-        "name": "dvt_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "dvt_tid_e", 
-        "type": "text"
-      }, 
-      {
-        "name": "dvt_timestmp_e", 
-        "type": "text"
-      }, 
-      {
-        "name": "dvt_operid_e", 
-        "type": "text"
-      }, 
-      {
-        "name": "dvt_status_cd", 
-        "type": "text"
-      }, 
-      {
-        "name": "dvt_fill_a", 
-        "type": "text"
-      }, 
-      {
-        "name": "dvt_final_disp_cd", 
-        "type": "text"
-      }, 
-      {
-        "name": "dvt_final_disp_dt", 
-        "type": "text"
-      }, 
-      {
-        "name": "dvt_final_disp_tm", 
-        "type": "text"
-      }, 
-      {
-        "name": "dvt_final_tid", 
-        "type": "text"
-      }, 
-      {
-        "name": "dvt_final_timestmp", 
-        "type": "text"
-      }, 
-      {
-        "name": "dvt_final_operid", 
-        "type": "text"
-      }, 
-      {
-        "name": "dvt_tag_no", 
-        "type": "text"
-      }, 
-      {
-        "name": "dvt_outstand_ind", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "derelict_vehicle_dispositions_tow"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "derelict_vehicle_dispositions_tow"
 }

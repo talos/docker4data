@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_vacant_lots_cleaned/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/u6gg-xejf/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/u6gg-xejf/rows.csv", 
   "description": "Gives address, Borough-Block-Lot of each vacant lot cleaned by DSNY forces during the report month.  Also gives the date cleaned.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "Vacant Lots Cleaned", 
-  "schema": {
-    "columns": [
-      {
-        "name": "boro", 
-        "type": "text"
-      }, 
-      {
-        "name": "district", 
-        "type": "real"
-      }, 
-      {
-        "name": "ccu", 
-        "type": "text"
-      }, 
-      {
-        "name": "block", 
-        "type": "real"
-      }, 
-      {
-        "name": "lot", 
-        "type": "real"
-      }, 
-      {
-        "name": "ownertype", 
-        "type": "text"
-      }, 
-      {
-        "name": "status_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "vacant_lots_cleaned"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "vacant_lots_cleaned"
 }

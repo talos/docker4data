@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_funding_summary_fiscal_year_2012/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/fjh8-nnc9/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/fjh8-nnc9/rows.csv", 
   "description": "The Funding dataset provides information for the current fiscal year (to-date) and the three prior fiscal years. The funding information is first presented by high-level funding categories including: \u2022 Assets Held for Others \u2022 Taxes and Interest Income \u2022 Licenses, Permits, Tuition, Fees and Other \u2022 Federal Grants \u2022 Appropriations Each Funding category (class) may be further viewed by sub-class and detail funding type.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,54 +13,7 @@
     }
   }, 
   "name": "Funding Summary - Fiscal Year 2012", 
-  "schema": {
-    "columns": [
-      {
-        "name": "agency_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "agency_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "account_major_class", 
-        "type": "real"
-      }, 
-      {
-        "name": "account_description_major_class", 
-        "type": "text"
-      }, 
-      {
-        "name": "account_sub_class", 
-        "type": "real"
-      }, 
-      {
-        "name": "account_description_sub_class", 
-        "type": "text"
-      }, 
-      {
-        "name": "account", 
-        "type": "real"
-      }, 
-      {
-        "name": "account_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "fiscal_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "accounting_period", 
-        "type": "real"
-      }, 
-      {
-        "name": "amount", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "funding_summary_fiscal_year_2012"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "funding_summary_fiscal_year_2012"
 }

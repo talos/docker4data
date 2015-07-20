@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_dceo_csbg_clients_served/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/x3mr-hcbn/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/x3mr-hcbn/rows.csv", 
   "description": "Community Service Block Grant - clients served", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,34 +12,7 @@
     }
   }, 
   "name": "DCEO CSBG Clients Served", 
-  "schema": {
-    "columns": [
-      {
-        "name": "acronym", 
-        "type": "text"
-      }, 
-      {
-        "name": "agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "servicename", 
-        "type": "text"
-      }, 
-      {
-        "name": "_servicecost_", 
-        "type": "text"
-      }, 
-      {
-        "name": "servicedate", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "clientstatus", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "dceo_csbg_clients_served"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "dceo_csbg_clients_served"
 }

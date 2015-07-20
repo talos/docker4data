@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_baltimorecity_street_vendors_merchants/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/uqwn-g6hs/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/uqwn-g6hs/rows.csv", 
   "description": "Street vendor locations of Merchants", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "Street Vendors - Merchants", 
-  "schema": {
-    "columns": [
-      {
-        "name": "id", 
-        "type": "real"
-      }, 
-      {
-        "name": "licensenum", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendorname", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendorhome", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendoraddr", 
-        "type": "text"
-      }, 
-      {
-        "name": "itemssold", 
-        "type": "text"
-      }, 
-      {
-        "name": "cartdescr", 
-        "type": "text"
-      }, 
-      {
-        "name": "st", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.baltimorecity.gov", 
-  "tableName": "street_vendors_merchants"
+  "schema": "socrata/data.baltimorecity.gov", 
+  "status": "needs review", 
+  "table": "street_vendors_merchants"
 }

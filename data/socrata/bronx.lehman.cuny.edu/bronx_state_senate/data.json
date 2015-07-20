@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/bronx_state_senate/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/geospatial/uab5-634z", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/geospatial/uab5-634z", 
   "description": "Central points of Bronx State Senate districts including senator and website information", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,6 @@
     }
   }, 
   "name": "Bronx State Senate", 
-  "schema": {
-    "columns": [
-      {
-        "name": "state_senate_district", 
-        "type": "real"
-      }, 
-      {
-        "name": "senator", 
-        "type": "text"
-      }, 
-      {
-        "name": "website", 
-        "type": "text"
-      }, 
-      {
-        "name": "point_x", 
-        "type": "text"
-      }, 
-      {
-        "name": "point_y", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/bronx.lehman.cuny.edu", 
-  "tableName": "bronx_state_senate"
+  "schema": "socrata/bronx.lehman.cuny.edu", 
+  "table": "bronx_state_senate"
 }

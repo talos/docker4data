@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_job_count_by_industry_state_of_hawaii/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/i9kr-y5ej/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/i9kr-y5ej/rows.csv", 
   "description": "This dataset shows the job counts by industry for the State of Hawaii and will be updated monthly with new data.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,102 +12,7 @@
     }
   }, 
   "name": "Job Count by Industry - State of Hawaii", 
-  "schema": {
-    "columns": [
-      {
-        "name": "industry", 
-        "type": "text"
-      }, 
-      {
-        "name": "industry_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "industry_sub_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "category", 
-        "type": "text"
-      }, 
-      {
-        "name": "sub_category", 
-        "type": "text"
-      }, 
-      {
-        "name": "sub_sub_category", 
-        "type": "text"
-      }, 
-      {
-        "name": "sub_sub_sub_category", 
-        "type": "text"
-      }, 
-      {
-        "name": "original_title", 
-        "type": "text"
-      }, 
-      {
-        "name": "jan", 
-        "type": "real"
-      }, 
-      {
-        "name": "feb", 
-        "type": "real"
-      }, 
-      {
-        "name": "mar", 
-        "type": "real"
-      }, 
-      {
-        "name": "apr", 
-        "type": "real"
-      }, 
-      {
-        "name": "may", 
-        "type": "real"
-      }, 
-      {
-        "name": "jun", 
-        "type": "real"
-      }, 
-      {
-        "name": "jul", 
-        "type": "real"
-      }, 
-      {
-        "name": "aug", 
-        "type": "real"
-      }, 
-      {
-        "name": "sep", 
-        "type": "real"
-      }, 
-      {
-        "name": "oct", 
-        "type": "real"
-      }, 
-      {
-        "name": "nov", 
-        "type": "real"
-      }, 
-      {
-        "name": "dec", 
-        "type": "real"
-      }, 
-      {
-        "name": "annual", 
-        "type": "real"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "year_date", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "job_count_by_industry_state_of_hawaii"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "job_count_by_industry_state_of_hawaii"
 }

@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/cal_enviroscreen_2_0_75th_percentile_shp/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oaklandnet.com/api/geospatial/q9h2-6kme", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.oaklandnet.com/api/geospatial/q9h2-6kme", 
   "description": "Census tracts within Oakland California that are in the upper 25th percentile statewide for CalEPA's Cal Enviroscreen 2.0, which compiled a series of socioeconomic and environmental indicators to determine \"environmentally disadvantaged communities\".\r\n\r\nMore information and methodology, plus the complete dataset available at http://oehha.ca.gov/ej/ces2.html", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,7 +13,7 @@
     }
   }, 
   "name": "CAL EnviroScreen 2.0 75th Percentile.shp", 
-  "schema": {}, 
-  "schemaName": "socrata/data.oaklandnet.com", 
-  "tableName": "cal_enviroscreen_2_0_75th_percentile_shp"
+  "schema": "socrata/data.oaklandnet.com", 
+  "status": "needs review", 
+  "table": "cal_enviroscreen_2_0_75th_percentile_shp"
 }

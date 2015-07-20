@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nola_addresses/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.nola.gov/download/div8-5v7iapplication/zip; charset=binary", 
-    "type": "application/zip; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.nola.gov/download/div8-5v7i/application/zip", 
   "description": "City of New Orleans commercial and residential addresses.  ESRI shapefile format, GIS software required for viewing geometry (http://www.esri.com/software/arcgis/arcreader/).  Tabular data (DBF), included as part of the shapefile, are viewable in Excel.  Scheduled update: weekly", 
+  "load": "TODO: zip", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "NOLA Addresses", 
-  "schema": {}, 
-  "schemaName": "socrata/data.nola.gov", 
-  "tableName": "nola_addresses"
+  "schema": "socrata/data.nola.gov", 
+  "status": "needs review", 
+  "table": "nola_addresses"
 }

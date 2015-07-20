@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/city_of_seattle_wages_comparison_by_gender_average_hourly_wage_by_department/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/j379-aghh/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/j379-aghh/rows.csv", 
   "description": "Average hourly wages for women and men sorted by City department and age range", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,54 +11,7 @@
     }
   }, 
   "name": "City of Seattle Wages: Comparison by Gender - Average Hourly Wage by Department", 
-  "schema": {
-    "columns": [
-      {
-        "name": "department", 
-        "type": "text"
-      }, 
-      {
-        "name": "jobtitle", 
-        "type": "text"
-      }, 
-      {
-        "name": "female_avg_hrly_rate", 
-        "type": "real"
-      }, 
-      {
-        "name": "no_female_empl", 
-        "type": "real"
-      }, 
-      {
-        "name": "male_avg_hrly_rate", 
-        "type": "real"
-      }, 
-      {
-        "name": "no_male_empl", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_avg_hrly_rate", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_no_empl", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_average_of_months_longevity_in_current_classification", 
-        "type": "real"
-      }, 
-      {
-        "name": "ratio_of_women_s_hourly_rate_to_men_s_hourly_rate_percentage", 
-        "type": "text"
-      }, 
-      {
-        "name": "notes", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "city_of_seattle_wages_comparison_by_gender_average_hourly_wage_by_department"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "city_of_seattle_wages_comparison_by_gender_average_hourly_wage_by_department"
 }

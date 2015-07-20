@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_kingcounty_website_issues/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/er52-nehu/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.kingcounty.gov/api/views/er52-nehu/rows.csv", 
   "description": "Report a Website problem", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,66 +13,7 @@
     }
   }, 
   "name": "Website issues", 
-  "schema": {
-    "columns": [
-      {
-        "name": "processed", 
-        "type": "text"
-      }, 
-      {
-        "name": "reported_by", 
-        "type": "text"
-      }, 
-      {
-        "name": "email", 
-        "type": "text"
-      }, 
-      {
-        "name": "organization", 
-        "type": "text"
-      }, 
-      {
-        "name": "url_of_page_with_issue", 
-        "type": "text"
-      }, 
-      {
-        "name": "priority", 
-        "type": "text"
-      }, 
-      {
-        "name": "type_of_problem", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "additional_pages_that_need_to_be_modified", 
-        "type": "text"
-      }, 
-      {
-        "name": "optional_who_are_the_target_users_and_what_task_are_they_trying_to_do_that_is_relevant_to_this_change", 
-        "type": "text"
-      }, 
-      {
-        "name": "attachment", 
-        "type": "text"
-      }, 
-      {
-        "name": "comments", 
-        "type": "text"
-      }, 
-      {
-        "name": "tfs_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "tfs", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.kingcounty.gov", 
-  "tableName": "website_issues"
+  "schema": "socrata/data.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "website_issues"
 }

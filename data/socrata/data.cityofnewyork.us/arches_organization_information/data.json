@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_arches_organization_information/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/jign-uhe6/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/jign-uhe6/rows.csv", 
   "description": "Contact details of Organizations determined eligible for Arches award.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "Arches Organization  Information", 
-  "schema": {
-    "columns": [
-      {
-        "name": "target_geographic_area", 
-        "type": "text"
-      }, 
-      {
-        "name": "organization_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "site_address", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "arches_organization_information"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "arches_organization_information"
 }

@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/city_of_edmonton_boundary_history/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/geospatial/c2af-9z9q", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.edmonton.ca/api/geospatial/c2af-9z9q", 
   "description": "History of changes of Edmonton's municipal  boundaries since 1892. A GeoJson File is provided as an attachment", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "City of Edmonton - Boundary History", 
-  "schema": {}, 
-  "schemaName": "socrata/data.edmonton.ca", 
-  "tableName": "city_of_edmonton_boundary_history"
+  "schema": "socrata/data.edmonton.ca", 
+  "status": "needs review", 
+  "table": "city_of_edmonton_boundary_history"
 }

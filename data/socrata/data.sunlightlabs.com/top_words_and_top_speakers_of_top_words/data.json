@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sunlightlabs_top_words_and_top_speakers_of_top_words/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sunlightlabs.com/api/views/mhfz-n9k8/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sunlightlabs.com/api/views/mhfz-n9k8/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,26 +9,7 @@
     }
   }, 
   "name": "Top Words and Top Speakers of Top Words", 
-  "schema": {
-    "columns": [
-      {
-        "name": "word", 
-        "type": "text"
-      }, 
-      {
-        "name": "total_count", 
-        "type": "real"
-      }, 
-      {
-        "name": "top_speaker", 
-        "type": "text"
-      }, 
-      {
-        "name": "top_speaker_count", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sunlightlabs.com", 
-  "tableName": "top_words_and_top_speakers_of_top_words"
+  "schema": "socrata/data.sunlightlabs.com", 
+  "status": "needs review", 
+  "table": "top_words_and_top_speakers_of_top_words"
 }

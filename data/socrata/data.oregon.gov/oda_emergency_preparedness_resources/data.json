@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oregon_oda_emergency_preparedness_resources/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/fqej-r8bz/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/api/views/fqej-r8bz/rows.csv", 
   "description": "Oregon Department of Agriculture Emergency Preparedness Resources Catalog", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,30 +11,7 @@
     }
   }, 
   "name": "ODA Emergency Preparedness Resources", 
-  "schema": {
-    "columns": [
-      {
-        "name": "program", 
-        "type": "text"
-      }, 
-      {
-        "name": "item_category", 
-        "type": "text"
-      }, 
-      {
-        "name": "item", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "oda_emergency_preparedness_resources"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "oda_emergency_preparedness_resources"
 }

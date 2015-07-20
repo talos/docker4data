@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_nyc_service_volunteer_opportunities/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/bquu-z2ht/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/bquu-z2ht/rows.csv", 
   "description": "A list of volunteer opportunities, organized by event, category of event type, organization and location.\r\nUpdate Frequency: As needed", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,118 +13,7 @@
     }
   }, 
   "name": "NYC Service: Volunteer Opportunities", 
-  "schema": {
-    "columns": [
-      {
-        "name": "opportunity_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "content_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "vol_requests", 
-        "type": "real"
-      }, 
-      {
-        "name": "event_time", 
-        "type": "real"
-      }, 
-      {
-        "name": "title", 
-        "type": "text"
-      }, 
-      {
-        "name": "hits", 
-        "type": "real"
-      }, 
-      {
-        "name": "summary", 
-        "type": "text"
-      }, 
-      {
-        "name": "is_priority", 
-        "type": "text"
-      }, 
-      {
-        "name": "category_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "category_desc", 
-        "type": "text"
-      }, 
-      {
-        "name": "amsl", 
-        "type": "text"
-      }, 
-      {
-        "name": "amsl_unit", 
-        "type": "text"
-      }, 
-      {
-        "name": "org_title", 
-        "type": "text"
-      }, 
-      {
-        "name": "org_content_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "addresses_count", 
-        "type": "real"
-      }, 
-      {
-        "name": "locality", 
-        "type": "text"
-      }, 
-      {
-        "name": "region", 
-        "type": "text"
-      }, 
-      {
-        "name": "postalcode", 
-        "type": "real"
-      }, 
-      {
-        "name": "primary_loc", 
-        "type": "text"
-      }, 
-      {
-        "name": "display_url", 
-        "type": "text"
-      }, 
-      {
-        "name": "recurrence_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "hours", 
-        "type": "real"
-      }, 
-      {
-        "name": "created_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "last_modified_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "start_date_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "end_date_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "status", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "nyc_service_volunteer_opportunities"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "nyc_service_volunteer_opportunities"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_ssmma_crime_free_housing/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/8z8r-msri/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/8z8r-msri/rows.csv", 
   "description": "This dataset is a list of all Chicago Southland communities which have Crime Free Housing Ordinances.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,70 +13,7 @@
     }
   }, 
   "name": "SSMMA Crime Free Housing", 
-  "schema": {
-    "columns": [
-      {
-        "name": "objectid", 
-        "type": "real"
-      }, 
-      {
-        "name": "municipali", 
-        "type": "text"
-      }, 
-      {
-        "name": "adopted", 
-        "type": "text"
-      }, 
-      {
-        "name": "date_of_ad", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "shape_leng", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape_area", 
-        "type": "real"
-      }, 
-      {
-        "name": "notes", 
-        "type": "text"
-      }, 
-      {
-        "name": "contact_pe", 
-        "type": "text"
-      }, 
-      {
-        "name": "contact_in", 
-        "type": "text"
-      }, 
-      {
-        "name": "ordinance", 
-        "type": "text"
-      }, 
-      {
-        "name": "website_li", 
-        "type": "text"
-      }, 
-      {
-        "name": "source", 
-        "type": "text"
-      }, 
-      {
-        "name": "propreitar", 
-        "type": "real"
-      }, 
-      {
-        "name": "universal", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "ssmma_crime_free_housing"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "ssmma_crime_free_housing"
 }

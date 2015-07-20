@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_nrel_pueblo_weather/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/ii3b-uafi/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/api/views/ii3b-uafi/rows.csv", 
   "description": "Weather data for the Pueblo station, from June 20, 2007 to June 16, 2011. Contains data on temperature, humidity, wind, precipitation, and irradiance. Recorded and provided by NREL.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,70 +13,7 @@
     }
   }, 
   "name": "NREL Pueblo Weather", 
-  "schema": {
-    "columns": [
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "globalhorizontal", 
-        "type": "real"
-      }, 
-      {
-        "name": "directnormal", 
-        "type": "real"
-      }, 
-      {
-        "name": "diffusehorizontal", 
-        "type": "real"
-      }, 
-      {
-        "name": "airtemperature", 
-        "type": "real"
-      }, 
-      {
-        "name": "stationpressure", 
-        "type": "real"
-      }, 
-      {
-        "name": "avgwindspeed10m", 
-        "type": "real"
-      }, 
-      {
-        "name": "avgwinddirection10m", 
-        "type": "real"
-      }, 
-      {
-        "name": "peakwindspeed10m", 
-        "type": "text"
-      }, 
-      {
-        "name": "zenithangle", 
-        "type": "real"
-      }, 
-      {
-        "name": "azimuthangle", 
-        "type": "real"
-      }, 
-      {
-        "name": "relhumidity", 
-        "type": "real"
-      }, 
-      {
-        "name": "precipitation", 
-        "type": "real"
-      }, 
-      {
-        "name": "precipitationaccumulated", 
-        "type": "text"
-      }, 
-      {
-        "name": "airmass", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "nrel_pueblo_weather"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "nrel_pueblo_weather"
 }

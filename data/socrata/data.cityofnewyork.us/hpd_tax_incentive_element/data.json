@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_hpd_tax_incentive_element/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/hpqs-rwfp/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/hpqs-rwfp/rows.csv", 
   "description": "Information on tax incentive Year 1 amounts, name and type for those tax exemptions or abatements that meet the definition of City Financial Assistance for each project.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "HPD Tax Incentive Element", 
-  "schema": {
-    "columns": [
-      {
-        "name": "taxincentive_dw_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "project_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "tax_incentive_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "year1_amount", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "hpd_tax_incentive_element"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "hpd_tax_incentive_element"
 }

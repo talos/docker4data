@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_scorecard_ratings/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/rqhp-hivt/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/rqhp-hivt/rows.csv", 
   "description": "Street and sidewalk cleanliness ratings.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,62 +13,7 @@
     }
   }, 
   "name": "Scorecard Ratings", 
-  "schema": {
-    "columns": [
-      {
-        "name": "borough", 
-        "type": "text"
-      }, 
-      {
-        "name": "zone", 
-        "type": "text"
-      }, 
-      {
-        "name": "district", 
-        "type": "text"
-      }, 
-      {
-        "name": "cleaning_section", 
-        "type": "text"
-      }, 
-      {
-        "name": "acceptable_streets_feb_2014", 
-        "type": "real"
-      }, 
-      {
-        "name": "previous_month_1", 
-        "type": "real"
-      }, 
-      {
-        "name": "same_month_prev_year_1", 
-        "type": "real"
-      }, 
-      {
-        "name": "filthy_streets_feb_2014", 
-        "type": "real"
-      }, 
-      {
-        "name": "previous_month_2", 
-        "type": "real"
-      }, 
-      {
-        "name": "same_month_prev_year_2", 
-        "type": "real"
-      }, 
-      {
-        "name": "avergage_street_cleanliness_feb_2014", 
-        "type": "real"
-      }, 
-      {
-        "name": "previous_month_3", 
-        "type": "real"
-      }, 
-      {
-        "name": "same_month_prev_year_3", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "scorecard_ratings"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "scorecard_ratings"
 }

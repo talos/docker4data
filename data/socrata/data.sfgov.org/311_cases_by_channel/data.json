@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_311_cases_by_channel/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/jz25-nkm4/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sfgov.org/api/views/jz25-nkm4/rows.csv", 
   "description": "These are the service requests created by 311, categorized by the channel on which they were submitted", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,30 +12,7 @@
     }
   }, 
   "name": "311 Cases by Channel", 
-  "schema": {
-    "columns": [
-      {
-        "name": "month", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "mobile", 
-        "type": "real"
-      }, 
-      {
-        "name": "web", 
-        "type": "real"
-      }, 
-      {
-        "name": "phone", 
-        "type": "real"
-      }, 
-      {
-        "name": "twitter", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sfgov.org", 
-  "tableName": "311_cases_by_channel"
+  "schema": "socrata/data.sfgov.org", 
+  "status": "needs review", 
+  "table": "311_cases_by_channel"
 }

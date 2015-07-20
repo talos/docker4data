@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_energystar_energy_star_certified_water_coolers/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.energystar.gov/api/views/x39k-wz7q/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.energystar.gov/api/views/x39k-wz7q/rows.csv", 
   "description": "Certified models meet all ENERGY STAR requirements as listed in the Version 2.0 ENERGY STAR Program Requirements for Water Coolers that are effective as of February 1, 2014. A detailed listing of key efficiency criteria are available at http://www.energystar.gov/index.cfm?fuseaction=find_a_product.showProductGroup&pgw_code=WA#specs", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,70 +12,7 @@
     }
   }, 
   "name": "ENERGY STAR Certified Water Coolers", 
-  "schema": {
-    "columns": [
-      {
-        "name": "pd_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "energy_star_partner", 
-        "type": "text"
-      }, 
-      {
-        "name": "brand_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "model_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "model_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "additional_model_information", 
-        "type": "text"
-      }, 
-      {
-        "name": "type", 
-        "type": "text"
-      }, 
-      {
-        "name": "water_source", 
-        "type": "text"
-      }, 
-      {
-        "name": "water_storage", 
-        "type": "text"
-      }, 
-      {
-        "name": "refrigerated_compartment", 
-        "type": "text"
-      }, 
-      {
-        "name": "energy_use_on_mode_with_no_water_draw_kwh_day", 
-        "type": "real"
-      }, 
-      {
-        "name": "date_available_on_market", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "date_qualified", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "markets", 
-        "type": "text"
-      }, 
-      {
-        "name": "energy_star_model_identifier", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.energystar.gov", 
-  "tableName": "energy_star_certified_water_coolers"
+  "schema": "socrata/data.energystar.gov", 
+  "status": "needs review", 
+  "table": "energy_star_certified_water_coolers"
 }

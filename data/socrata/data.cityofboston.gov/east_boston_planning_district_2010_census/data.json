@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/east_boston_planning_district_2010_census/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/download/ux3n-erx3application/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/download/ux3n-erx3/application/pdf", 
   "description": "A report featuring data on all people and households in East Boston from the 2010 Census Summary Files (SF-1).", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,7 +13,7 @@
     }
   }, 
   "name": "East Boston, planning district: 2010 Census", 
-  "schema": {}, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "east_boston_planning_district_2010_census"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "east_boston_planning_district_2010_census"
 }

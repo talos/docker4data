@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_lower_manhattan_retailers/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/cw88-qpsr/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/cw88-qpsr/rows.csv", 
   "description": "Listing of lower Manhattan retailers", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "Lower Manhattan Retailers", 
-  "schema": {
-    "columns": [
-      {
-        "name": "cnbio_org_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "cnadrprf_addrline1", 
-        "type": "text"
-      }, 
-      {
-        "name": "cnadrprf_addrline2", 
-        "type": "text"
-      }, 
-      {
-        "name": "cnadrprf_city", 
-        "type": "text"
-      }, 
-      {
-        "name": "cnadrprf_state", 
-        "type": "text"
-      }, 
-      {
-        "name": "cnadrprf_zip", 
-        "type": "real"
-      }, 
-      {
-        "name": "block_lot", 
-        "type": "text"
-      }, 
-      {
-        "name": "primary", 
-        "type": "text"
-      }, 
-      {
-        "name": "secondary", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "lower_manhattan_retailers"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "lower_manhattan_retailers"
 }

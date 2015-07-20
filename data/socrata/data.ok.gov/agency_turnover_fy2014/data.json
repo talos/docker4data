@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_agency_turnover_fy2014/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/q4ca-u9x3/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/q4ca-u9x3/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,70 +9,7 @@
     }
   }, 
   "name": "Agency Turnover FY2014", 
-  "schema": {
-    "columns": [
-      {
-        "name": "agency_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "start_headcount", 
-        "type": "real"
-      }, 
-      {
-        "name": "resignation", 
-        "type": "real"
-      }, 
-      {
-        "name": "retirement", 
-        "type": "real"
-      }, 
-      {
-        "name": "transferred", 
-        "type": "real"
-      }, 
-      {
-        "name": "voluntary", 
-        "type": "text"
-      }, 
-      {
-        "name": "discharge", 
-        "type": "real"
-      }, 
-      {
-        "name": "death", 
-        "type": "real"
-      }, 
-      {
-        "name": "terminated", 
-        "type": "real"
-      }, 
-      {
-        "name": "involuntary", 
-        "type": "text"
-      }, 
-      {
-        "name": "vobo_res", 
-        "type": "real"
-      }, 
-      {
-        "name": "vobo_ret", 
-        "type": "real"
-      }, 
-      {
-        "name": "vobo", 
-        "type": "text"
-      }, 
-      {
-        "name": "agency_turnover", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "agency_turnover_fy2014"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "agency_turnover_fy2014"
 }

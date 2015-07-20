@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofboston_community_gardens/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/cr3i-jj7v/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/api/views/cr3i-jj7v/rows.csv", 
   "description": "Community garden sites throughout Boston. Access may be restricted to community members. Inaccurate information? Contact us with corrections.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "Community Gardens", 
-  "schema": {
-    "columns": [
-      {
-        "name": "site", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "area", 
-        "type": "text"
-      }, 
-      {
-        "name": "coordinates", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "map_location", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "community_gardens"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "community_gardens"
 }

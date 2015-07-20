@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_ui_wc2009_to_present_odi/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/ps39-dra9/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/ps39-dra9/rows.csv", 
   "description": "Weeks claimed are requests for weekly unemployment payments, whether or not benefits are actually paid.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,66 +13,7 @@
     }
   }, 
   "name": "UI WC2009 To Present ODI", 
-  "schema": {
-    "columns": [
-      {
-        "name": "week_end_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "honolulu", 
-        "type": "real"
-      }, 
-      {
-        "name": "kaneohe", 
-        "type": "real"
-      }, 
-      {
-        "name": "waipahu", 
-        "type": "real"
-      }, 
-      {
-        "name": "oahu", 
-        "type": "real"
-      }, 
-      {
-        "name": "hilo", 
-        "type": "real"
-      }, 
-      {
-        "name": "kona", 
-        "type": "real"
-      }, 
-      {
-        "name": "hawaii", 
-        "type": "real"
-      }, 
-      {
-        "name": "wailuku", 
-        "type": "real"
-      }, 
-      {
-        "name": "molokai", 
-        "type": "real"
-      }, 
-      {
-        "name": "maui", 
-        "type": "real"
-      }, 
-      {
-        "name": "kauai", 
-        "type": "real"
-      }, 
-      {
-        "name": "agent", 
-        "type": "real"
-      }, 
-      {
-        "name": "all_islands", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "ui_wc2009_to_present_odi"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "ui_wc2009_to_present_odi"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_large_utility_excavation_permits/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/i926-ujnc/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sfgov.org/api/views/i926-ujnc/rows.csv", 
   "description": "Large utility excavation permits (>=1000 square feet total size) issued in the last year. Compiled for Dig Once program.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,78 +13,7 @@
     }
   }, 
   "name": "Large Utility Excavation Permits", 
-  "schema": {
-    "columns": [
-      {
-        "name": "permit_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "cross_street_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "cross_street_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "cnn", 
-        "type": "real"
-      }, 
-      {
-        "name": "agent", 
-        "type": "text"
-      }, 
-      {
-        "name": "permit_purpose", 
-        "type": "text"
-      }, 
-      {
-        "name": "permit_reason", 
-        "type": "text"
-      }, 
-      {
-        "name": "permit_status", 
-        "type": "text"
-      }, 
-      {
-        "name": "permit_start_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "permit_end_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "permit_renewed_from_permit_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "x", 
-        "type": "real"
-      }, 
-      {
-        "name": "y", 
-        "type": "real"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sfgov.org", 
-  "tableName": "large_utility_excavation_permits"
+  "schema": "socrata/data.sfgov.org", 
+  "status": "needs review", 
+  "table": "large_utility_excavation_permits"
 }

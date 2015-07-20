@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/revenue_esd_revenue_by_fund_and_source_by_esd_2011_12/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/4x2s-5ci8/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/api/views/4x2s-5ci8/rows.csv", 
   "description": "Revenues sorted by fund, source and ESD for FY 2011-2012", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,42 +12,7 @@
     }
   }, 
   "name": "Revenue: ESD: Revenue By Fund And Source-by ESD 2011-12", 
-  "schema": {
-    "columns": [
-      {
-        "name": "schoolyear", 
-        "type": "text"
-      }, 
-      {
-        "name": "esdid", 
-        "type": "real"
-      }, 
-      {
-        "name": "esdname", 
-        "type": "text"
-      }, 
-      {
-        "name": "fundcd", 
-        "type": "real"
-      }, 
-      {
-        "name": "funddesc", 
-        "type": "text"
-      }, 
-      {
-        "name": "sourcecd", 
-        "type": "real"
-      }, 
-      {
-        "name": "sourcedesc", 
-        "type": "text"
-      }, 
-      {
-        "name": "actualrevamt", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "revenue_esd_revenue_by_fund_and_source_by_esd_2011_12"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "revenue_esd_revenue_by_fund_and_source_by_esd_2011_12"
 }

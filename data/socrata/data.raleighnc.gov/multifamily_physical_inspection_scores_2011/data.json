@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_raleighnc_multifamily_physical_inspection_scores_2011/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.raleighnc.gov/api/views/dvmk-g2hp/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.raleighnc.gov/api/views/dvmk-g2hp/rows.csv", 
   "description": "HUD's Real Estate Assessment Center conducts physical property inspections of properties that are owned, insured or subsidized by HUD, including public housing and multifamily assisted housing. About 20,000 such inspections are conducted each year to ensure that assisted families have housing that is decent, safe, sanitary and in good repair.\n\nThis page provides a full historical view of the results of those inspections, providing point-in-time property scores. Separate datails available for public housing and for multifamily assisted properties.\n\nThe results represent the inspections conducted from 2001 through September 2009. The data includes property identifiers and location information. Detailed descriptions of the inspection processes can be found in Federal Register notices 66 FR 59084 for public housing and 65 FR77230 for Office of Housing programs. Making these inspection details available will enable researchers, advocacy groups and the general public to:\n\nbetter understand the physical condition of the HUD-assisted housing stock, as well as changes in the stock over time;\nhold providers accountable for housing quality; and\nplan for future affordable housing needs.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,54 +13,7 @@
     }
   }, 
   "name": "Multifamily Physical Inspection Scores 2011", 
-  "schema": {
-    "columns": [
-      {
-        "name": "property_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "property_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "cbsa_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "cbsa_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "county_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "county_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "state_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "state_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "inspection_score", 
-        "type": "real"
-      }, 
-      {
-        "name": "inspection_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.raleighnc.gov", 
-  "tableName": "multifamily_physical_inspection_scores_2011"
+  "schema": "socrata/data.raleighnc.gov", 
+  "status": "needs review", 
+  "table": "multifamily_physical_inspection_scores_2011"
 }

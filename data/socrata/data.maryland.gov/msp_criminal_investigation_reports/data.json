@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_msp_criminal_investigation_reports/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/44bh-83ki/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/44bh-83ki/rows.csv", 
   "description": "This dataset contains the total number of MSP Criminal Investigation Reports for CY 2014.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,18 +13,7 @@
     }
   }, 
   "name": "MSP Criminal Investigation Reports", 
-  "schema": {
-    "columns": [
-      {
-        "name": "_2014_year_to_dateby_month", 
-        "type": "text"
-      }, 
-      {
-        "name": "cirs", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "msp_criminal_investigation_reports"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "msp_criminal_investigation_reports"
 }

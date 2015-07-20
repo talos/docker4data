@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_raleighnc_nc_leed_certs_2_20_14/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.raleighnc.gov/api/views/b2zb-pgne/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.raleighnc.gov/api/views/b2zb-pgne/rows.csv", 
   "description": "561 LEED-certified projects in the state to date. This data set is to support the State's LEED award for square footage of LEED space per citizen.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,54 +13,7 @@
     }
   }, 
   "name": "NC LEED Certs 2-20-14", 
-  "schema": {
-    "columns": [
-      {
-        "name": "certification_level", 
-        "type": "text"
-      }, 
-      {
-        "name": "clean_owner_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "clean_space_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "private", 
-        "type": "text"
-      }, 
-      {
-        "name": "date_certified", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "gross_area", 
-        "type": "real"
-      }, 
-      {
-        "name": "library_rating_system", 
-        "type": "text"
-      }, 
-      {
-        "name": "library_version", 
-        "type": "text"
-      }, 
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "owner_organization", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.raleighnc.gov", 
-  "tableName": "nc_leed_certs_2_20_14"
+  "schema": "socrata/data.raleighnc.gov", 
+  "status": "needs review", 
+  "table": "nc_leed_certs_2_20_14"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cookcountycom_medical_examiner_indigent_cremations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/cookcounty.socrata.com/api/views/f9wk-2wb9/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/cookcounty.socrata.com/api/views/f9wk-2wb9/rows.csv", 
   "description": "The following page lists the unclaimed indigents cremated by the Cook County Medical Examiner\u2019s Office.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,38 +12,6 @@
     }
   }, 
   "name": "Medical Examiner Indigent Cremations", 
-  "schema": {
-    "columns": [
-      {
-        "name": "case", 
-        "type": "text"
-      }, 
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "age", 
-        "type": "real"
-      }, 
-      {
-        "name": "sex", 
-        "type": "text"
-      }, 
-      {
-        "name": "race", 
-        "type": "text"
-      }, 
-      {
-        "name": "date_of_death", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "cremation_date", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/cookcounty.socrata.com", 
-  "tableName": "medical_examiner_indigent_cremations"
+  "schema": "socrata/cookcounty.socrata.com", 
+  "table": "medical_examiner_indigent_cremations"
 }

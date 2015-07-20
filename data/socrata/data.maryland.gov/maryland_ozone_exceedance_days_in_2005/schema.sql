@@ -1,0 +1,20 @@
+CREATE TABLE "maryland_ozone_exceedance_days_in_2005" (
+	"date"	timestamp,
+	"aldino"	real,
+	"calvert_co_barstow"	real,
+	"davidsonville"	real,
+	"edgewood"	real,
+	"essex"	real,
+	"fairhill"	real,
+	"frederick_airport"	real,
+	"hagerstown"	real,
+	"hu_beltsville"	real,
+	"millington"	real,
+	"padonia"	real,
+	"pg_equestrian_center"	real,
+	"piney_run"	real,
+	"rockville"	real,
+	"south_carroll"	real,
+	"southern_maryland"	real,
+	"state_wide_max"	real
+);

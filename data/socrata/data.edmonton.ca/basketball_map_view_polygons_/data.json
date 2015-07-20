@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/basketball_map_view_polygons_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/geospatial/abeu-phu7", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.edmonton.ca/api/geospatial/abeu-phu7", 
   "description": "Spatial Display of all basketball courts in Edmonton - polygon format", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,7 +13,7 @@
     }
   }, 
   "name": "Basketball - Map View (Polygons)", 
-  "schema": {}, 
-  "schemaName": "socrata/data.edmonton.ca", 
-  "tableName": "basketball_map_view_polygons_"
+  "schema": "socrata/data.edmonton.ca", 
+  "status": "needs review", 
+  "table": "basketball_map_view_polygons_"
 }

@@ -1,0 +1,23 @@
+CREATE TABLE "new_york_city_locations_providing_seasonal_flu_vaccinations" (
+	"facilitypk"	real,
+	"facilityname"	text,
+	"facilitytypedesc"	text,
+	"facilitybuildingno"	text,
+	"facilitystreetname"	text,
+	"facilityaptno"	text,
+	"facilitycity"	text,
+	"facilitystate"	text,
+	"facilityzipcode"	text,
+	"latitude"	real,
+	"longitude"	real,
+	"facilityphone"	text,
+	"contactphone"	text,
+	"contactphoneext"	text,
+	"contactname"	text,
+	"additionalinfo"	text,
+	"pricingdesc1"	text,
+	"pricingdesc2"	text,
+	"pricingdesc3"	text,
+	"pricingdesc4"	text,
+	"pricingdesc5"	text
+);

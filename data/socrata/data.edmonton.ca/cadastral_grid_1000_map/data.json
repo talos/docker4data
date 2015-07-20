@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/cadastral_grid_1000_map/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/geospatial/2iq5-79ex", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.edmonton.ca/api/geospatial/2iq5-79ex", 
   "description": "A map view of the Cadastral Grid for the City of Edmonton and area at 1000 meters spacing.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Cadastral Grid 1000 - Map", 
-  "schema": {}, 
-  "schemaName": "socrata/data.edmonton.ca", 
-  "tableName": "cadastral_grid_1000_map"
+  "schema": "socrata/data.edmonton.ca", 
+  "status": "needs review", 
+  "table": "cadastral_grid_1000_map"
 }

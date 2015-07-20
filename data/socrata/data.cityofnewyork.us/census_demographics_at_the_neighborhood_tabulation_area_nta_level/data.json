@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/census_demographics_at_the_neighborhood_tabulation_area_nta_level/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/rnsn-acs2/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/rnsn-acs2/rows.csv", 
   "description": "Table of Census Demographics\nrepresented at the NTA level. NTAs\nare aggregations of census tracts that\nare subsets of New York City's 55\nPublic Use Micro data Areas (PUMAs)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "Census Demographics at the Neighborhood Tabulation Area (NTA) level", 
-  "schema": {
-    "columns": [
-      {
-        "name": "geographic_area_borough", 
-        "type": "text"
-      }, 
-      {
-        "name": "geographic_area_2010_census_fips_county_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "geographic_area_neighborhood_tabulation_area_nta_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "geographic_area_neighborhood_tabulation_area_nta_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "total_population_2000_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_population_2010_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_population_change_2000_2010_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_population_change_2000_2010_percent", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "census_demographics_at_the_neighborhood_tabulation_area_nta_level"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "census_demographics_at_the_neighborhood_tabulation_area_nta_level"
 }

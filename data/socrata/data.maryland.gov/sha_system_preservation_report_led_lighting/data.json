@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_sha_system_preservation_report_led_lighting/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/w2d7-mwg6/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/w2d7-mwg6/rows.csv", 
   "description": "An asterisk (*) indicates a month when a camera was not in use. All data are provided by the Maryland State Highway Administration (SHA) each month to StateStat.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,26 +12,7 @@
     }
   }, 
   "name": "SHA System Preservation Report: LED Lighting", 
-  "schema": {
-    "columns": [
-      {
-        "name": "quarter", 
-        "type": "text"
-      }, 
-      {
-        "name": "total_number_of_tcd_statewide", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_number_of_tcd_with_led", 
-        "type": "real"
-      }, 
-      {
-        "name": "percent_statewide_total_converted_to_led", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "sha_system_preservation_report_led_lighting"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "sha_system_preservation_report_led_lighting"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ifc_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/m9rv-dpe3/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/finances.worldbank.org/api/views/m9rv-dpe3/rows.csv", 
   "description": "IFC\u884c\u4e1a\uff08\u90e8\u95e8\uff09\u8d1f\u8d23\u627f\u62c5IFC\u7684\u4ea4\u6613\uff0c\u540c\u65f6\u4e5f\u4e3a\u5730\u533a\u90e8\u95e8\u8f93\u9001\u8fd0\u4f5c\u65b0\u9879\u76ee\u6240\u9700\u7684\u7ecf\u9a8c\u548c\u77e5\u8bc6\u3002\u66f4\u591a\u4fe1\u606f\uff0c\u8bf7\u8bbf\u95eehttp://www1.ifc.org/wps/wcm/connect/industry_ext_content/ifc_external_corporate_site/industries\u3002IFC\u4e8e11\u8d22\u5e74\u91cd\u7ec4\u4e86\u884c\u4e1a\u90e8\u95e8\u7684\u7ec4\u7ec7\u7ed3\u6784\uff0c\u56e0\u6b64\u5bf910\u8d22\u5e74\u7684\u6570\u636e\u505a\u4e86\u76f8\u5e94\u8c03\u6574\u4ee5\u53cd\u6620\u8fd9\u4e00\u53d8\u5316\u3002", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,70 +12,7 @@
     }
   }, 
   "name": "IFC\u54a8\u8be2\u670d\u52a1\u9879\u76ee", 
-  "schema": {
-    "columns": [
-      {
-        "name": "disclosure_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "project_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "project_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "project_url", 
-        "type": "text"
-      }, 
-      {
-        "name": "country", 
-        "type": "text"
-      }, 
-      {
-        "name": "ifc_country_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "ifc_region", 
-        "type": "text"
-      }, 
-      {
-        "name": "business_line", 
-        "type": "text"
-      }, 
-      {
-        "name": "estimated_total_budget", 
-        "type": "real"
-      }, 
-      {
-        "name": "department", 
-        "type": "text"
-      }, 
-      {
-        "name": "status", 
-        "type": "text"
-      }, 
-      {
-        "name": "ifc_approval_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "projected_start_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "wb_country_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "as_of_date", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/finances.worldbank.org", 
-  "tableName": "ifc_"
+  "schema": "socrata/finances.worldbank.org", 
+  "status": "needs review", 
+  "table": "ifc_"
 }

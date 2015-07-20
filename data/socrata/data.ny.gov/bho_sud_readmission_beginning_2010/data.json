@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_bho_sud_readmission_beginning_2010/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/mki6-ies9/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/mki6-ies9/rows.csv", 
   "description": "The Behavioral Health Organization (BHO) initiative oversees the transition to managed care for Medicaid recipients who receive mental health (MH) and substance use disorder (SUD) services in New York State. The metrics emphasize improving rates of timely follow-up treatment post discharge, timely filling of appropriate medication prescriptions post discharge, and reducing rates of readmission.\r\nThe BHO SUD Readmission dataset describes the rate of readmission for substance use disorder inpatient detoxification or chemical dependence inpatient rehabilitation within either 30 or 45 days of the last inpatient substance use disorder discharge for all discharges identified from paid fee-for-service Medicaid claims.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,66 +13,7 @@
     }
   }, 
   "name": "BHO SUD Readmission: Beginning 2010", 
-  "schema": {
-    "columns": [
-      {
-        "name": "row_created_date_time", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "metric_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "description_of_metric", 
-        "type": "text"
-      }, 
-      {
-        "name": "indicator_domain_group", 
-        "type": "text"
-      }, 
-      {
-        "name": "omh_region", 
-        "type": "text"
-      }, 
-      {
-        "name": "age_group", 
-        "type": "text"
-      }, 
-      {
-        "name": "numerator", 
-        "type": "real"
-      }, 
-      {
-        "name": "denominator", 
-        "type": "real"
-      }, 
-      {
-        "name": "rate", 
-        "type": "real"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "quarter", 
-        "type": "text"
-      }, 
-      {
-        "name": "year_to_date_numerator", 
-        "type": "real"
-      }, 
-      {
-        "name": "year_to_date_denominator", 
-        "type": "real"
-      }, 
-      {
-        "name": "year_to_date_rate", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "bho_sud_readmission_beginning_2010"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "bho_sud_readmission_beginning_2010"
 }

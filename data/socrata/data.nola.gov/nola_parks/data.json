@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nola_parks/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.nola.gov/download/gsin-etzyapplication/zip; charset=binary", 
-    "type": "application/zip; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.nola.gov/download/gsin-etzy/application/zip", 
   "description": "City of New Orleans Parks.  ESRI shapefile format, GIS software required for viewing geometry (http://www.esri.com/software/arcgis/arcreader/).  Tabular data (DBF), included as part of the shapefile, are viewable in Excel.  Update: As Needed", 
+  "load": "TODO: zip", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "NOLA Parks", 
-  "schema": {}, 
-  "schemaName": "socrata/data.nola.gov", 
-  "tableName": "nola_parks"
+  "schema": "socrata/data.nola.gov", 
+  "status": "needs review", 
+  "table": "nola_parks"
 }

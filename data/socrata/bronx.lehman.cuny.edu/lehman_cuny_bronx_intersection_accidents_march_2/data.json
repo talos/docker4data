@@ -1,8 +1,6 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_bronx_lehman_cuny_bronx_intersection_accidents_march_2/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/kum9-26yg/rows.csv"
-  }, 
+  "data": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/kum9-26yg/rows.csv", 
   "description": "A spreadsheet of all the reported auto accidents in the Bronx during March 2013. Includes casualty and fatality counts, auto types, as well as contributing factors", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,49 +14,5 @@
     }
   }, 
   "name": "Bronx Intersection Accidents March 2013", 
-  "schema": {
-    "columns": [
-      {
-        "name": "original_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "number_of_accidents", 
-        "type": "real"
-      }, 
-      {
-        "name": "personsinvolved", 
-        "type": "real"
-      }, 
-      {
-        "name": "accidents_with_injuries", 
-        "type": "real"
-      }, 
-      {
-        "name": "category", 
-        "type": "text"
-      }, 
-      {
-        "name": "injured", 
-        "type": "real"
-      }, 
-      {
-        "name": "killed", 
-        "type": "real"
-      }, 
-      {
-        "name": "vehicle_types", 
-        "type": "text"
-      }, 
-      {
-        "name": "contributing_factors", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "tableName": "socrata_bronx_lehman_cuny_bronx_intersection_accidents_march_2"
+  "table": "socrata_bronx_lehman_cuny_bronx_intersection_accidents_march_2"
 }

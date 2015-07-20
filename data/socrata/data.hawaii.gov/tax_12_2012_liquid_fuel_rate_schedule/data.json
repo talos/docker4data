@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_tax_12_2012_liquid_fuel_rate_schedule/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/ap2e-c6eb/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/ap2e-c6eb/rows.csv", 
   "description": "SCHEDULE OF TAX RATES PER GALLON\t\t\t\t\n(Effective July 1, 2010)\t\t\t\t\n(Fuel Tax rates in cents per gallon)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "TAX 12-2012 LIQUID FUEL RATE SCHEDULE", 
-  "schema": {
-    "columns": [
-      {
-        "name": "rate_and_fuel_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "county_fuel_tax", 
-        "type": "real"
-      }, 
-      {
-        "name": "state_tax", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "tax_12_2012_liquid_fuel_rate_schedule"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "tax_12_2012_liquid_fuel_rate_schedule"
 }

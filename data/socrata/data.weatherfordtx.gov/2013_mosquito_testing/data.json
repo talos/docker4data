@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_weatherfordtx_2013_mosquito_testing/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/rmvj-bpp5/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/rmvj-bpp5/rows.csv", 
   "description": "Logging mosquito traps and results of testing for the 2013 mosquito season", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,30 +12,7 @@
     }
   }, 
   "name": "2013 Mosquito Testing", 
-  "schema": {
-    "columns": [
-      {
-        "name": "date_placed", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "date_collected", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "test_results", 
-        "type": "text"
-      }, 
-      {
-        "name": "geolocation", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.weatherfordtx.gov", 
-  "tableName": "2013_mosquito_testing"
+  "schema": "socrata/data.weatherfordtx.gov", 
+  "status": "needs review", 
+  "table": "2013_mosquito_testing"
 }

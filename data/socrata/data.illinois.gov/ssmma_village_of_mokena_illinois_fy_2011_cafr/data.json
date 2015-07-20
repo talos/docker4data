@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ssmma_village_of_mokena_illinois_fy_2011_cafr/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/download/wmdf-xjdsapplication/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/download/wmdf-xjds/application/pdf", 
   "description": "This is the FY 2011 CAFR for the Village of Mokena, Illinois", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "SSMMA Village of Mokena, Illinois: FY 2011 CAFR", 
-  "schema": {}, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "ssmma_village_of_mokena_illinois_fy_2011_cafr"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "ssmma_village_of_mokena_illinois_fy_2011_cafr"
 }

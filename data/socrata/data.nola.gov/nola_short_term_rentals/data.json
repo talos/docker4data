@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nola_short_term_rentals/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.nola.gov/api/geospatial/4d3h-2ehm", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.nola.gov/api/geospatial/4d3h-2ehm", 
   "description": "Trade Names and Addresses of facilities within the City of New Orleans offering short term rental. Facilities include hotels, motels, bed and breakfasts and room and board houses.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,7 +13,7 @@
     }
   }, 
   "name": "NOLA Short Term Rentals", 
-  "schema": {}, 
-  "schemaName": "socrata/data.nola.gov", 
-  "tableName": "nola_short_term_rentals"
+  "schema": "socrata/data.nola.gov", 
+  "status": "needs review", 
+  "table": "nola_short_term_rentals"
 }

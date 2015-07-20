@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_home_page_stories/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/v2k9-msid/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/v2k9-msid/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,38 +9,7 @@
     }
   }, 
   "name": "Home Page Stories", 
-  "schema": {
-    "columns": [
-      {
-        "name": "title", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "data_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "link", 
-        "type": "text"
-      }, 
-      {
-        "name": "image", 
-        "type": "text"
-      }, 
-      {
-        "name": "show", 
-        "type": "text"
-      }, 
-      {
-        "name": "sort_order", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "home_page_stories"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "home_page_stories"
 }

@@ -1,0 +1,21 @@
+CREATE TABLE "facilities" (
+	"facility_name"	text,
+	"epa_id"	text,
+	"tsduniverse"	real,
+	"rruniverse"	real,
+	"code_descq"	text,
+	"class"	text,
+	"class_short"	text,
+	"process"	text,
+	"facilitystatus"	text,
+	"morepdist1"	real,
+	"mosenatedist1"	real,
+	"usrep"	real,
+	"countyname"	text,
+	"facility_address"	text,
+	"region"	text,
+	"facility_city"	text,
+	"facility_state"	text,
+	"facility_zipcode"	real,
+	"facility_phone"	real
+);

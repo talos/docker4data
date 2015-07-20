@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/permitted_medical_cannabis_dispensaries/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/geospatial/46p7-cb56", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.sfgov.org/api/geospatial/46p7-cb56", 
   "description": "As of December 31st, 2014, there were 28 Permitted Medical Cannabis Dispensaries (MCD) operating in the City and County of San Francisco. SFDPH issues a permit to operate an MCD once approvals are granted by the Department of Building Inspection, Planning Department, Fire Department and The Mayor\u2019s Office of Disability. A permit does not overrule state and federal laws regarding cannabis enforcement. For more information and details see attachments.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Permitted Medical Cannabis Dispensaries", 
-  "schema": {}, 
-  "schemaName": "socrata/data.sfgov.org", 
-  "tableName": "permitted_medical_cannabis_dispensaries"
+  "schema": "socrata/data.sfgov.org", 
+  "status": "needs review", 
+  "table": "permitted_medical_cannabis_dispensaries"
 }

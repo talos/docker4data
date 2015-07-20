@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/bay_area_bike_share_pilot_stations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/geospatial/kszk-dd2f", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.sfgov.org/api/geospatial/kszk-dd2f", 
   "description": "This shapefile contains information about the pilot stations of the Bay Area Bike Share program, including the type of location. This data is subject to change and the SFMTA does not assume any responsibility or liability for any property damage, injury, or other adverse circumstances that may arise while using this mapping data.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Bay Area Bike Share Pilot Stations", 
-  "schema": {}, 
-  "schemaName": "socrata/data.sfgov.org", 
-  "tableName": "bay_area_bike_share_pilot_stations"
+  "schema": "socrata/data.sfgov.org", 
+  "status": "needs review", 
+  "table": "bay_area_bike_share_pilot_stations"
 }

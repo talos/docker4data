@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/municipal_boundary/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/geospatial/ck33-yh8z", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/geospatial/ck33-yh8z", 
   "description": "This shapefile shows the boundary of the City of Melbourne municipality.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Municipal Boundary", 
-  "schema": {}, 
-  "schemaName": "socrata/data.melbourne.vic.gov.au", 
-  "tableName": "municipal_boundary"
+  "schema": "socrata/data.melbourne.vic.gov.au", 
+  "status": "needs review", 
+  "table": "municipal_boundary"
 }

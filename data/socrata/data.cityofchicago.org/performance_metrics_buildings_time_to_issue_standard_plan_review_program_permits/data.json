@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/performance_metrics_buildings_time_to_issue_standard_plan_review_program_permits/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/4ygs-9x34/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/4ygs-9x34/rows.csv", 
   "description": "The Department of Building (DOB) issues building permits to give individuals, insurance companies, neighbors and the City assurance that specific minimum standards are met in constructing, repairing or altering buildings by complying with the Chicago Building Code.  This metric tracks the average number of days DOB takes to process Standard Plan Review Program building permits, grouped by the week the permit was processed. The target process time is within 53 days. The Standard Plan Review Program is designed for small to mid-sized construction or renovation projects requiring drawings. Eligible projects include buildings up to 80 feet high, institutional or mercantile properties under 100,000 square feet, residential properties of up to 12 units, and foundations no deeper than 12 feet. For more information, go to http://www.cityofchicago.org/city/en/depts/bldgs/supp_info/overview_of_the_standardplanreviewpermitprogram.html.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "Performance Metrics - Buildings - Time to Issue Standard Plan Review Program Permits", 
-  "schema": {
-    "columns": [
-      {
-        "name": "week", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "week_text", 
-        "type": "text"
-      }, 
-      {
-        "name": "average_days_to_permit", 
-        "type": "real"
-      }, 
-      {
-        "name": "target", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "performance_metrics_buildings_time_to_issue_standard_plan_review_program_permits"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "performance_metrics_buildings_time_to_issue_standard_plan_review_program_permits"
 }

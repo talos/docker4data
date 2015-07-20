@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_mta_average_weekday_ridership_by_month/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/ub96-xxqw/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/ub96-xxqw/rows.csv", 
   "description": "The average weekday ridership is indicative of the number of transit patrons making a one-way trip on any mode per weekday. This number is estimated and excludes holidays.\r\n\r\nIn FY2014, the MTA  upgraded its bus ridership counting system to enhance its service planning and scheduling functions. This new Automatic Passenger Count (APC) system uses computerized sensors to count passengers as they board and leave the vehicle. The APCs provide the most accurate estimates of bus ridership to date and the most robust data for ridership on particular routes, which will help drive planning decisions. In order to maintain the integrity of historical comparisons for the Transit Ridership Goal, the MTA used ridership estimate differences between the new APC system and previous counting estimates for its Bus Service to allow for apples-to-apples comparisons between fiscal years.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,70 +13,7 @@
     }
   }, 
   "name": "MTA Average Weekday Ridership - by Month", 
-  "schema": {
-    "columns": [
-      {
-        "name": "average_weekday_ridership", 
-        "type": "text"
-      }, 
-      {
-        "name": "bus", 
-        "type": "real"
-      }, 
-      {
-        "name": "metro", 
-        "type": "real"
-      }, 
-      {
-        "name": "light_rail", 
-        "type": "real"
-      }, 
-      {
-        "name": "mobility", 
-        "type": "real"
-      }, 
-      {
-        "name": "taxi_access", 
-        "type": "real"
-      }, 
-      {
-        "name": "marc_average", 
-        "type": "real"
-      }, 
-      {
-        "name": "marc_brunswick", 
-        "type": "real"
-      }, 
-      {
-        "name": "marc_camden", 
-        "type": "real"
-      }, 
-      {
-        "name": "marc_penn", 
-        "type": "real"
-      }, 
-      {
-        "name": "commuter_bus_total", 
-        "type": "real"
-      }, 
-      {
-        "name": "baltimore", 
-        "type": "real"
-      }, 
-      {
-        "name": "washington", 
-        "type": "real"
-      }, 
-      {
-        "name": "icc", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_average_weekday_ridership", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "mta_average_weekday_ridership_by_month"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "mta_average_weekday_ridership_by_month"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_baltimorecity_charm_city_circulator_headways/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/hzrz-cfzs/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/hzrz-cfzs/rows.csv", 
   "description": "The City of Baltimore is constantly seeking innovative and creative ways to alleviate traffic congestion and green house gases in our great city. A new fleet of eco-friendly buses will provide everyone with a faster, more convenient, greener way to move about Baltimore's busy downtown neighborhoods. \r\nA headway is the amount of time that passes between two buses.  The goal for the Charm City Circulator headways is a bus every ten minutes. Morning and evening peak times for each route are(7 am \u2013 9 am and 4 pm \u2013 6 pm.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,66 +13,7 @@
     }
   }, 
   "name": "Charm City Circulator Headways", 
-  "schema": {
-    "columns": [
-      {
-        "name": "day", 
-        "type": "text"
-      }, 
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "orangeheadway", 
-        "type": "text"
-      }, 
-      {
-        "name": "orangemorningpeak", 
-        "type": "text"
-      }, 
-      {
-        "name": "orangeeveningpeak", 
-        "type": "text"
-      }, 
-      {
-        "name": "purpleheadway", 
-        "type": "text"
-      }, 
-      {
-        "name": "purplemorningpeak", 
-        "type": "text"
-      }, 
-      {
-        "name": "purpleeveningpeak", 
-        "type": "text"
-      }, 
-      {
-        "name": "greenheadway", 
-        "type": "text"
-      }, 
-      {
-        "name": "greenmorningpeak", 
-        "type": "text"
-      }, 
-      {
-        "name": "greeneveningpeak", 
-        "type": "text"
-      }, 
-      {
-        "name": "bannerheadway", 
-        "type": "text"
-      }, 
-      {
-        "name": "bannermorningpeak", 
-        "type": "text"
-      }, 
-      {
-        "name": "bannereveningpeak", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.baltimorecity.gov", 
-  "tableName": "charm_city_circulator_headways"
+  "schema": "socrata/data.baltimorecity.gov", 
+  "status": "needs review", 
+  "table": "charm_city_circulator_headways"
 }

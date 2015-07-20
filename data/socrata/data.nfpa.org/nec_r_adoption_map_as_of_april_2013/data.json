@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_nfpa_nec_r_adoption_map_as_of_april_2013/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.nfpa.org/api/views/6byn-mdj5/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.nfpa.org/api/views/6byn-mdj5/rows.csv", 
   "description": "Map showing if each state is up to date in its NEC(R) adoption", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,42 +12,7 @@
     }
   }, 
   "name": "NEC(R) Adoption Map as of April 2013", 
-  "schema": {
-    "columns": [
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "full_code_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "edition", 
-        "type": "text"
-      }, 
-      {
-        "name": "editions_behind", 
-        "type": "real"
-      }, 
-      {
-        "name": "purchase_the_nec", 
-        "type": "text"
-      }, 
-      {
-        "name": "more_about_the_nec_in_this_state", 
-        "type": "text"
-      }, 
-      {
-        "name": "free_access_to_the_nec", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.nfpa.org", 
-  "tableName": "nec_r_adoption_map_as_of_april_2013"
+  "schema": "socrata/data.nfpa.org", 
+  "status": "needs review", 
+  "table": "nec_r_adoption_map_as_of_april_2013"
 }

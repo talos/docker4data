@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/colorado_farmers_markets_2013/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/download/v3x3-8uwsapplication/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/download/v3x3-8uws/application/pdf", 
   "description": "Colorado Farmers' Markets Locations", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Colorado Farmers' Markets 2013", 
-  "schema": {}, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "colorado_farmers_markets_2013"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "colorado_farmers_markets_2013"
 }

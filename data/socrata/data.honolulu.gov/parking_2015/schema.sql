@@ -1,0 +1,22 @@
+CREATE TABLE "parking_2015" (
+	"description"	text,
+	"address"	text,
+	"latitude_longitude"	text,
+	"entrance"	text,
+	"phone"	text,
+	"operator"	text,
+	"hourly"	text,
+	"daily_max"	text,
+	"earlybird"	text,
+	"after_hours_flat_rate"	text,
+	"weekendrate"	text,
+	"monthly_rate"	text,
+	"hours_of_operation"	text,
+	"indoors_outdoors"	text,
+	"service_type"	text,
+	"motorcyles_allowed"	text,
+	"vehicle_types"	text,
+	"height_restriction"	text,
+	"note"	text,
+	"location_1"	text
+);

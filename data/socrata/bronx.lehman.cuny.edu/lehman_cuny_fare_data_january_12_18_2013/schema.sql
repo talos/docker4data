@@ -1,0 +1,23 @@
+CREATE TABLE "socrata_bronx_lehman_cuny_fare_data_january_12_18_2013" (
+	"remote"	real,
+	"routes"	real,
+	"transfers"	real,
+	"color"	text,
+	"express"	text,
+	"closed"	real,
+	"point_x"	text,
+	"point_y"	real,
+	"full_fare"	real,
+	"senoir_discount"	real,
+	"_7_day_afas_unlimited"	real,
+	"_30_d_afas_rmf_unlimited"	real,
+	"joint_railroad_ticket"	real,
+	"_7_day_unlimited"	real,
+	"_30_day_unlimited"	real,
+	"transitcheck_metrocard"	real,
+	"railroad_unlimited_no_trade"	real,
+	"annual_transitcheck_metrocard"	real,
+	"mail_ride_ezpay_express"	real,
+	"mail_ride_ezpay_unlimited"	real,
+	"airtrain_full_fare"	real
+);

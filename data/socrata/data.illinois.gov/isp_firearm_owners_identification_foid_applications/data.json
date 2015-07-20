@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/isp_firearm_owners_identification_foid_applications/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/vvq4-faea/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/vvq4-faea/rows.csv", 
   "description": "FOID Card Applications -- 10 Year History -- 2002 through 2011", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,18 +13,7 @@
     }
   }, 
   "name": "ISP - Firearm Owners' Identification (FOID) Applications", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "text"
-      }, 
-      {
-        "name": "foid_applications_received_by_year", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "isp_firearm_owners_identification_foid_applications"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "isp_firearm_owners_identification_foid_applications"
 }

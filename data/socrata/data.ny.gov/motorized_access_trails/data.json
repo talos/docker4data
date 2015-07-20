@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_motorized_access_trails/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/qugt-5hi9/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/qugt-5hi9/rows.csv", 
   "description": "This data shows the location of transportation corridors on state lands that are open to motor vehicle use by people with certain mobility impairment disabilities who possess a valid Department of Environmental Conservation -issued \"Motorized Access Program for People with Disabilities\" permit.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,58 +13,7 @@
     }
   }, 
   "name": "Motorized Access Trails", 
-  "schema": {
-    "columns": [
-      {
-        "name": "facility", 
-        "type": "text"
-      }, 
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "foot", 
-        "type": "text"
-      }, 
-      {
-        "name": "horse", 
-        "type": "text"
-      }, 
-      {
-        "name": "bike", 
-        "type": "text"
-      }, 
-      {
-        "name": "snowmb", 
-        "type": "text"
-      }, 
-      {
-        "name": "accessible", 
-        "type": "text"
-      }, 
-      {
-        "name": "mappwd", 
-        "type": "text"
-      }, 
-      {
-        "name": "fac_url", 
-        "type": "text"
-      }, 
-      {
-        "name": "x", 
-        "type": "real"
-      }, 
-      {
-        "name": "y", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "motorized_access_trails"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "motorized_access_trails"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_paving_pci_scores/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/5aye-4rtt/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sfgov.org/api/views/5aye-4rtt/rows.csv", 
   "description": "Pavement Condition Index Rating Scores by location.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "Paving PCI Scores", 
-  "schema": {
-    "columns": [
-      {
-        "name": "cnn", 
-        "type": "real"
-      }, 
-      {
-        "name": "street_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "pci_score", 
-        "type": "real"
-      }, 
-      {
-        "name": "from_street", 
-        "type": "text"
-      }, 
-      {
-        "name": "to_street", 
-        "type": "text"
-      }, 
-      {
-        "name": "pci_change_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "treatment_or_survey", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_accepted_for_maintenance", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sfgov.org", 
-  "tableName": "paving_pci_scores"
+  "schema": "socrata/data.sfgov.org", 
+  "status": "needs review", 
+  "table": "paving_pci_scores"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/cook_county_clerk_tax_codes_agencies_and_rates/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/cookcounty.socrata.com/api/views/9sqg-vznj/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/cookcounty.socrata.com/api/views/9sqg-vznj/rows.csv", 
   "description": "This dataset shows what agencies are in a tax code for each tax year along with the agency and tax code rates. Data is updated yearly. For more information on Tax codes and Tax agencies visit the Cook County Clerk's website at: http://www.cookcountyclerk.com/tsd/Pages/default.aspx", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,6 @@
     }
   }, 
   "name": "Cook County Clerk - Tax codes, agencies, and rates", 
-  "schema": {
-    "columns": [
-      {
-        "name": "tax_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "tax_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "agency_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "agency_rate", 
-        "type": "real"
-      }, 
-      {
-        "name": "tax_code_rate", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/cookcounty.socrata.com", 
-  "tableName": "cook_county_clerk_tax_codes_agencies_and_rates"
+  "schema": "socrata/cookcounty.socrata.com", 
+  "table": "cook_county_clerk_tax_codes_agencies_and_rates"
 }

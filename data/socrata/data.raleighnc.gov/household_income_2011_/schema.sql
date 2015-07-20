@@ -1,0 +1,20 @@
+CREATE TABLE "household_income_2011_" (
+	"ethnicity"	text,
+	"total"	real,
+	"less_than_10_000"	real,
+	"_10_000_to_14_999"	real,
+	"_15_000_to_19_999"	real,
+	"_20_000_to_24_999"	real,
+	"_25_000_to_29_999"	real,
+	"_30_000_to_34_999"	real,
+	"_35_000_to_39_999"	real,
+	"_40_000_to_44_999"	real,
+	"_45_000_to_49_999"	real,
+	"_50_000_to_59_999"	real,
+	"_60_000_to_74_999"	real,
+	"_75_000_to_99_999"	real,
+	"_100_000_to_124_999"	real,
+	"_125_000_to_149_999"	real,
+	"_150_000_to_199_999"	real,
+	"_200_000_or_more"	real
+);

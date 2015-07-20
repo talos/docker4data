@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_homeland_security_grant_awards/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/sw28-ginq/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/sw28-ginq/rows.csv", 
   "description": "This data set shows four sources of grant funding for the Governor's Office of Homeland Security (GOHS) and respective awards from 2003 to present.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Homeland Security Grant Awards", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "text"
-      }, 
-      {
-        "name": "urban_area_security_initiative", 
-        "type": "real"
-      }, 
-      {
-        "name": "state_homeland_security_grant_program", 
-        "type": "real"
-      }, 
-      {
-        "name": "baltimore_uasi", 
-        "type": "real"
-      }, 
-      {
-        "name": "maryland_shsgp", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "homeland_security_grant_awards"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "homeland_security_grant_awards"
 }

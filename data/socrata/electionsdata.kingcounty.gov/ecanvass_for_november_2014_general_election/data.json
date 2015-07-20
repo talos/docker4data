@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ecanvass_for_november_2014_general_election/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/electionsdata.kingcounty.gov/api/views/yugf-mkxn/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/electionsdata.kingcounty.gov/api/views/yugf-mkxn/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -14,46 +10,7 @@
     }
   }, 
   "name": "ecanvass for November 2014 General Election", 
-  "schema": {
-    "columns": [
-      {
-        "name": "precinct", 
-        "type": "text"
-      }, 
-      {
-        "name": "race", 
-        "type": "text"
-      }, 
-      {
-        "name": "leg", 
-        "type": "real"
-      }, 
-      {
-        "name": "cc", 
-        "type": "real"
-      }, 
-      {
-        "name": "cg", 
-        "type": "real"
-      }, 
-      {
-        "name": "countergroup", 
-        "type": "text"
-      }, 
-      {
-        "name": "party", 
-        "type": "text"
-      }, 
-      {
-        "name": "countertype", 
-        "type": "text"
-      }, 
-      {
-        "name": "sumofcount", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/electionsdata.kingcounty.gov", 
-  "tableName": "ecanvass_for_november_2014_general_election"
+  "schema": "socrata/electionsdata.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "ecanvass_for_november_2014_general_election"
 }

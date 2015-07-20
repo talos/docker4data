@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/chemical_dependence_treatment_program_admissions_beginning_2007/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/ngbt-9rwf/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/ngbt-9rwf/rows.csv", 
   "description": "More than 900 NYS OASAS certified chemical dependence treatment programs report approximately 300,000 admissions annually and serve more than 240,000 unique individuals each year. This dataset includes the number of admissions to NYS OASAS certified treatment programs aggregated by the program category, county of the program location, age group of client at admission, and the primary substance of abuse group.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "Chemical Dependence Treatment Program Admissions: Beginning 2007", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "county_of_program_location", 
-        "type": "text"
-      }, 
-      {
-        "name": "program_category", 
-        "type": "text"
-      }, 
-      {
-        "name": "service_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "age_group", 
-        "type": "text"
-      }, 
-      {
-        "name": "primary_substance_group", 
-        "type": "text"
-      }, 
-      {
-        "name": "admissions", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "chemical_dependence_treatment_program_admissions_beginning_2007"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "chemical_dependence_treatment_program_admissions_beginning_2007"
 }

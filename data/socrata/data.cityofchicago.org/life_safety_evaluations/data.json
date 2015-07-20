@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_life_safety_evaluations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/qqqh-hgyw/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/qqqh-hgyw/rows.csv", 
   "description": "This dataset is a listing of the report status of all residential buildings required to submit a Life Safety Evaluation under city ordinance. Because the Chicago building code has since 1975 required new high-rise residential buildings to be constructed with sprinkler systems, the Life Safety Ordinance mostly impacted high-rise residential buildings constructed prior to 1975.  This dataset does not describe the overall safety of a building, only whether or not the life safety evaluation was submitted and approved by the City of Chicago. Please note that the majority of reports \u201cfailed\u201d initially as a result of a new reporting process and changes to building standards. For more information on the City\u2019s life safety ordinance, visit http://bit.ly/ygORcq. Data Owner: Buildings. Frequency: Data is updated monthly.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,62 +13,7 @@
     }
   }, 
   "name": "Life Safety Evaluations", 
-  "schema": {
-    "columns": [
-      {
-        "name": "building_street_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "building_street_direction", 
-        "type": "text"
-      }, 
-      {
-        "name": "building_street", 
-        "type": "text"
-      }, 
-      {
-        "name": "building_street_type_i", 
-        "type": "text"
-      }, 
-      {
-        "name": "original_lse_report_approved", 
-        "type": "text"
-      }, 
-      {
-        "name": "lse_report_submitted", 
-        "type": "text"
-      }, 
-      {
-        "name": "resubmitted_report_approved", 
-        "type": "text"
-      }, 
-      {
-        "name": "self_reported_by_building_representative", 
-        "type": "text"
-      }, 
-      {
-        "name": "installing_a_full_sprinkler_system_instead_of_an_alternative_lse_compliance_scope_of_work_self_reported_by_building_representative", 
-        "type": "text"
-      }, 
-      {
-        "name": "results_of_lse_committee_review", 
-        "type": "text"
-      }, 
-      {
-        "name": "lse_report_reviewed_on_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "scheduled_inspection_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "rescheduled_inspection_date", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "life_safety_evaluations"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "life_safety_evaluations"
 }

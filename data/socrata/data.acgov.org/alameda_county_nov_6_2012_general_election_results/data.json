@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/alameda_county_nov_6_2012_general_election_results/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.acgov.org/api/views/37xj-sa6z/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.acgov.org/api/views/37xj-sa6z/rows.csv", 
   "description": "Election results for Nov. 6 2012 General Election for Presidential race, proposition 30 and proposition 31", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "Alameda County Nov 6, 2012 General Election results", 
-  "schema": {
-    "columns": [
-      {
-        "name": "precinct_name", 
-        "type": "real"
-      }, 
-      {
-        "name": "candidate_full_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "contest_full_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "total", 
-        "type": "real"
-      }, 
-      {
-        "name": "contest_vote_for", 
-        "type": "real"
-      }, 
-      {
-        "name": "contest_total", 
-        "type": "real"
-      }, 
-      {
-        "name": "undervote", 
-        "type": "real"
-      }, 
-      {
-        "name": "overvote", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.acgov.org", 
-  "tableName": "alameda_county_nov_6_2012_general_election_results"
+  "schema": "socrata/data.acgov.org", 
+  "status": "needs review", 
+  "table": "alameda_county_nov_6_2012_general_election_results"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_kingcounty_assessor/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/d665-vvmd/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.kingcounty.gov/api/views/d665-vvmd/rows.csv", 
   "description": "King County Assessor's data is at http://info.kingcounty.gov/assessor/DataDownload/", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,18 +13,7 @@
     }
   }, 
   "name": "Assessor", 
-  "schema": {
-    "columns": [
-      {
-        "name": "king_county_assessor_data_is_stored_on_another_site", 
-        "type": "text"
-      }, 
-      {
-        "name": "assessor_data_portal", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.kingcounty.gov", 
-  "tableName": "assessor"
+  "schema": "socrata/data.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "assessor"
 }

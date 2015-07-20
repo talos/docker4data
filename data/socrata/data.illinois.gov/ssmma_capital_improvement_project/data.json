@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_ssmma_capital_improvement_project/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/4wsa-83m3/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/4wsa-83m3/rows.csv", 
   "description": "This dataset details Capital Improvement Projects in the Chicago Southland region. It is a aggregation of Capital Improvement data from SSMMA, CMAP, IDOT, and Cook County.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,102 +13,7 @@
     }
   }, 
   "name": "SSMMA Capital Improvement Project", 
-  "schema": {
-    "columns": [
-      {
-        "name": "objectid", 
-        "type": "real"
-      }, 
-      {
-        "name": "idnumber", 
-        "type": "text"
-      }, 
-      {
-        "name": "municipali", 
-        "type": "text"
-      }, 
-      {
-        "name": "limits", 
-        "type": "text"
-      }, 
-      {
-        "name": "typeimprov", 
-        "type": "text"
-      }, 
-      {
-        "name": "fedshare10", 
-        "type": "real"
-      }, 
-      {
-        "name": "totalcost1", 
-        "type": "real"
-      }, 
-      {
-        "name": "fundingrat", 
-        "type": "text"
-      }, 
-      {
-        "name": "onschedule", 
-        "type": "text"
-      }, 
-      {
-        "name": "consultant", 
-        "type": "text"
-      }, 
-      {
-        "name": "targetlet", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "fiscalyear", 
-        "type": "text"
-      }, 
-      {
-        "name": "fiscalye_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "arra", 
-        "type": "text"
-      }, 
-      {
-        "name": "shape_leng", 
-        "type": "real"
-      }, 
-      {
-        "name": "row_req", 
-        "type": "text"
-      }, 
-      {
-        "name": "cost", 
-        "type": "real"
-      }, 
-      {
-        "name": "project_cl", 
-        "type": "text"
-      }, 
-      {
-        "name": "type", 
-        "type": "text"
-      }, 
-      {
-        "name": "editor", 
-        "type": "text"
-      }, 
-      {
-        "name": "propreitar", 
-        "type": "real"
-      }, 
-      {
-        "name": "universali", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "ssmma_capital_improvement_project"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "ssmma_capital_improvement_project"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_libraries_material_inventory_2005_2012/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/cip4-gcsk/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/cip4-gcsk/rows.csv", 
   "description": "Inventory of materials and their value for all libraries statewide", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "Libraries Material Inventory 2005 - 2012", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "island", 
-        "type": "text"
-      }, 
-      {
-        "name": "library", 
-        "type": "text"
-      }, 
-      {
-        "name": "inventory_descriptor", 
-        "type": "text"
-      }, 
-      {
-        "name": "items", 
-        "type": "real"
-      }, 
-      {
-        "name": "sum_price", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "libraries_material_inventory_2005_2012"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "libraries_material_inventory_2005_2012"
 }

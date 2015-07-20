@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/environmental_radiation_surveillance_nine_mile_point_and_james_a_fitzpatrick_readings_beginning_2009/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/x67s-agqg/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/health.data.ny.gov/api/views/x67s-agqg/rows.csv", 
   "description": "This dataset measures the air, water, milk, fish, sediment, fruit/veg, and vegetation at Nine Mile Point and James A Fitzpatrick and other locations(background) around NYS to determine the normal levels of radioactivity and monitors the influence of human activities on these levels. The site numbers represent the location from which samples are collected. This dataset is not designed, or intended to monitor releases from discharge points at a specific facility (e.g., a stack). The facility operator performs this type of monitoring to meet the requirements of its licensing agency (e.g., a federal agency or the New York State Department of Environmental Conservation). A column has been added for values which can be graphed. Readings where a less than value is displayed show a value that is less than the detection limit of the measurement method and are essentially equivalent to 0. Variations in detection limit are due to variations in sample collection and measurement instrument performance. For more information check out: http://www.health.ny.gov/environmental/radiological/radon/  or go to the \"About\" tab.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "Environmental Radiation Surveillance Nine Mile Point and James A Fitzpatrick Readings: Beginning 2009", 
-  "schema": {
-    "columns": [
-      {
-        "name": "location_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "sample_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "sample_location", 
-        "type": "text"
-      }, 
-      {
-        "name": "sampling_frequency", 
-        "type": "text"
-      }, 
-      {
-        "name": "sampling_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "isotope_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "value", 
-        "type": "text"
-      }, 
-      {
-        "name": "units", 
-        "type": "text"
-      }, 
-      {
-        "name": "graph_value", 
-        "type": "real"
-      }, 
-      {
-        "name": "comment", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/health.data.ny.gov", 
-  "tableName": "environmental_radiation_surveillance_nine_mile_point_and_james_a_fitzpatrick_readings_beginning_2009"
+  "schema": "socrata/health.data.ny.gov", 
+  "status": "needs review", 
+  "table": "environmental_radiation_surveillance_nine_mile_point_and_james_a_fitzpatrick_readings_beginning_2009"
 }

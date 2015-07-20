@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_one_stop/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/qswz-v9jx/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/qswz-v9jx/rows.csv", 
   "description": "DLLR Maryland One-Stop Locations", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,58 +12,7 @@
     }
   }, 
   "name": "One Stop", 
-  "schema": {
-    "columns": [
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "code", 
-        "type": "text"
-      }, 
-      {
-        "name": "services_offered", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "hours", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "fax", 
-        "type": "text"
-      }, 
-      {
-        "name": "espa_ol", 
-        "type": "text"
-      }, 
-      {
-        "name": "tty", 
-        "type": "text"
-      }, 
-      {
-        "name": "email", 
-        "type": "text"
-      }, 
-      {
-        "name": "website", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "one_stop"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "one_stop"
 }

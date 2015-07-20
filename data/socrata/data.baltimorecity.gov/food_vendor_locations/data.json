@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_baltimorecity_food_vendor_locations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/bqw3-z52q/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/bqw3-z52q/rows.csv", 
   "description": "Street Food Vendors", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "Food Vendor Locations", 
-  "schema": {
-    "columns": [
-      {
-        "name": "id", 
-        "type": "real"
-      }, 
-      {
-        "name": "licensenum", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendorname", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendoraddr", 
-        "type": "text"
-      }, 
-      {
-        "name": "itemssold", 
-        "type": "text"
-      }, 
-      {
-        "name": "cart_descr", 
-        "type": "text"
-      }, 
-      {
-        "name": "st", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.baltimorecity.gov", 
-  "tableName": "food_vendor_locations"
+  "schema": "socrata/data.baltimorecity.gov", 
+  "status": "needs review", 
+  "table": "food_vendor_locations"
 }

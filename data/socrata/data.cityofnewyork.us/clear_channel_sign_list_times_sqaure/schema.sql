@@ -1,0 +1,20 @@
+CREATE TABLE "clear_channel_sign_list_times_sqaure" (
+	"analysed_"	text,
+	"description"	text,
+	"photo"	text,
+	"note"	text,
+	"type"	text,
+	"height"	text,
+	"size"	text,
+	"_of_signs_panel_a_"	real,
+	"width_panel_a_"	real,
+	"height_panel_a_"	real,
+	"area_panel_a_"	real,
+	"_of_signs_panel_b_"	real,
+	"width_panel_b_"	real,
+	"height_panel_b_"	real,
+	"area_panel_b_"	real,
+	"total_of_signs"	real,
+	"total_area"	real,
+	"location_1"	text
+);

@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/waofm_gis_county_boundary/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/geospatial/sep2-mdr8", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.wa.gov/api/geospatial/sep2-mdr8", 
   "description": "Generalized county boundary from the Census 2010 TIGER/Line files.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "WAOFM - GIS - County Boundary", 
-  "schema": {}, 
-  "schemaName": "socrata/data.wa.gov", 
-  "tableName": "waofm_gis_county_boundary"
+  "schema": "socrata/data.wa.gov", 
+  "status": "needs review", 
+  "table": "waofm_gis_county_boundary"
 }

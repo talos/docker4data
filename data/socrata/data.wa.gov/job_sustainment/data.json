@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wa_job_sustainment/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/79vd-sdqn/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.wa.gov/api/views/79vd-sdqn/rows.csv", 
   "description": "Jobs sustained from the expendatures or loans from the Public Works Board from 2000 to present, just using the main three programs", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "Job Sustainment", 
-  "schema": {
-    "columns": [
-      {
-        "name": "program", 
-        "type": "text"
-      }, 
-      {
-        "name": "jobs", 
-        "type": "real"
-      }, 
-      {
-        "name": "other_funding", 
-        "type": "real"
-      }, 
-      {
-        "name": "program_money", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.wa.gov", 
-  "tableName": "job_sustainment"
+  "schema": "socrata/data.wa.gov", 
+  "status": "needs review", 
+  "table": "job_sustainment"
 }

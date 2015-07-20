@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_water_consumption_in_the_new_york_city/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/ia2d-e54m/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/ia2d-e54m/rows.csv", 
   "description": "A brief history of water consumption in the New York City Water Supply System (Based on New York City Census population)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "Water Consumption In The New York City", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "nyc_consumption_million_gallons_per_day", 
-        "type": "real"
-      }, 
-      {
-        "name": "per_capita_gallons_per_person_per_day", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "water_consumption_in_the_new_york_city"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "water_consumption_in_the_new_york_city"
 }

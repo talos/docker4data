@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_food_inspections/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/4ijn-s7e5/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/4ijn-s7e5/rows.csv", 
   "description": "This information is derived from inspections of restaurants and other food establishments in Chicago from January 1, 2010 to the present. Inspections are performed by staff from the Chicago Department of Public Health\u2019s Food Protection Program using a standardized procedure. The results of the inspection are inputted into a database, then reviewed and approved by a State of Illinois Licensed Environmental Health Practitioner (LEHP). For descriptions of the data elements included in this set, go to http://bit.ly/tS9IE8  \r\nDisclaimer: Attempts have been made to minimize any and all duplicate inspection reports. However, the dataset may still contain such duplicates and the appropriate precautions should be exercised when viewing or analyzing these data. The result of the inspections (pass, pass with conditions or fail) as well as the violations noted are based on the findings identified and reported by the inspector at the time of the inspection, and may not reflect the findings noted at other times. For more information about Food Inspections, go to http://bit.ly/tD91Sb.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,78 +13,7 @@
     }
   }, 
   "name": "Food Inspections", 
-  "schema": {
-    "columns": [
-      {
-        "name": "inspection_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "dba_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "aka_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "license_", 
-        "type": "real"
-      }, 
-      {
-        "name": "facility_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "risk", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip", 
-        "type": "real"
-      }, 
-      {
-        "name": "inspection_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "inspection_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "results", 
-        "type": "text"
-      }, 
-      {
-        "name": "violations", 
-        "type": "text"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "food_inspections"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "food_inspections"
 }

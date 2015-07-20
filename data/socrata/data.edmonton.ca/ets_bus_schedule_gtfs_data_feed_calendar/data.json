@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ets_bus_schedule_gtfs_data_feed_calendar/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/x8j3-j3q3/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.edmonton.ca/api/views/x8j3-j3q3/rows.csv", 
   "description": "This dataset defines dates for service IDs using a weekly schedule for Edmonton. It also specifies when service starts and ends, as well as days of the week where service is available.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "ETS Bus Schedule GTFS Data Feed - Calendar", 
-  "schema": {
-    "columns": [
-      {
-        "name": "service_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "monday", 
-        "type": "real"
-      }, 
-      {
-        "name": "tuesday", 
-        "type": "real"
-      }, 
-      {
-        "name": "wednesday", 
-        "type": "real"
-      }, 
-      {
-        "name": "thursday", 
-        "type": "real"
-      }, 
-      {
-        "name": "friday", 
-        "type": "real"
-      }, 
-      {
-        "name": "saturday", 
-        "type": "real"
-      }, 
-      {
-        "name": "sunday", 
-        "type": "real"
-      }, 
-      {
-        "name": "start_date", 
-        "type": "real"
-      }, 
-      {
-        "name": "end_date", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.edmonton.ca", 
-  "tableName": "ets_bus_schedule_gtfs_data_feed_calendar"
+  "schema": "socrata/data.edmonton.ca", 
+  "status": "needs review", 
+  "table": "ets_bus_schedule_gtfs_data_feed_calendar"
 }

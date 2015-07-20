@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_raleighnc_city_manager/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.raleighnc.gov/api/views/pjt5-hg2x/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.raleighnc.gov/api/views/pjt5-hg2x/rows.csv", 
   "description": "City Manager FY13 Adopted And FY14 Proposed Budgets", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "City Manager", 
-  "schema": {
-    "columns": [
-      {
-        "name": "account_level_6", 
-        "type": "text"
-      }, 
-      {
-        "name": "fund_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "deptid_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "account_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "budget_amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "budget_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "account_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "program_description", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.raleighnc.gov", 
-  "tableName": "city_manager"
+  "schema": "socrata/data.raleighnc.gov", 
+  "status": "needs review", 
+  "table": "city_manager"
 }

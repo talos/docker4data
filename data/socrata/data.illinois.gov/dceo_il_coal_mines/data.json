@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_dceo_il_coal_mines/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/ws4h-cuji/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/ws4h-cuji/rows.csv", 
   "description": "Illinois Coal Mines", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,38 +12,7 @@
     }
   }, 
   "name": "DCEO IL Coal Mines", 
-  "schema": {
-    "columns": [
-      {
-        "name": "mine_operating_company", 
-        "type": "text"
-      }, 
-      {
-        "name": "mine_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "seam_mined", 
-        "type": "text"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "year_opened", 
-        "type": "text"
-      }, 
-      {
-        "name": "_production", 
-        "type": "real"
-      }, 
-      {
-        "name": "possible_transportation", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "dceo_il_coal_mines"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "dceo_il_coal_mines"
 }

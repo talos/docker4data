@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/libraries_locations_hours_and_contact_information/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/x8fc-8rcq/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/x8fc-8rcq/rows.csv", 
   "description": "Chicago Public Library locations, contact information, and hours of operation.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,54 +13,7 @@
     }
   }, 
   "name": "Libraries - Locations, Hours and Contact Information", 
-  "schema": {
-    "columns": [
-      {
-        "name": "name_", 
-        "type": "text"
-      }, 
-      {
-        "name": "hours_of_operation", 
-        "type": "text"
-      }, 
-      {
-        "name": "cybernavigator", 
-        "type": "text"
-      }, 
-      {
-        "name": "teacher_in_the_library", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "website", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "libraries_locations_hours_and_contact_information"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "libraries_locations_hours_and_contact_information"
 }

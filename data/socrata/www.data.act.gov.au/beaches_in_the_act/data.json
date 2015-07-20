@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/beaches_in_the_act/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/www.data.act.gov.au/api/geospatial/qssv-b7vv", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/www.data.act.gov.au/api/geospatial/qssv-b7vv", 
   "description": "This map displays the beaches in the ACT.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Beaches in the ACT", 
-  "schema": {}, 
-  "schemaName": "socrata/www.data.act.gov.au", 
-  "tableName": "beaches_in_the_act"
+  "schema": "socrata/www.data.act.gov.au", 
+  "status": "needs review", 
+  "table": "beaches_in_the_act"
 }

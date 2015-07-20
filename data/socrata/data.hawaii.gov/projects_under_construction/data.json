@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_projects_under_construction/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/2d7w-77um/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/2d7w-77um/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,30 +9,7 @@
     }
   }, 
   "name": "Projects Under Construction", 
-  "schema": {
-    "columns": [
-      {
-        "name": "job_no", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "ntp", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "estimated_completion", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "projects_under_construction"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "projects_under_construction"
 }

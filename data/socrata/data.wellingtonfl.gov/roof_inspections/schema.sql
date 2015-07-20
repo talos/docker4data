@@ -1,0 +1,23 @@
+CREATE TABLE "roof_inspections" (
+	"permit_type_code"	text,
+	"permit_code_description"	text,
+	"inspection_type_code_description"	text,
+	"inspector_name"	text,
+	"inspection_status_code"	text,
+	"inspection_results_date"	timestamp,
+	"inspection_results_description"	text,
+	"application_type_code"	text,
+	"application_type_description"	text,
+	"application_status_code"	text,
+	"appl_status_date"	timestamp,
+	"application_date"	timestamp,
+	"street_address"	text,
+	"street_suffix"	text,
+	"street_apartment_number"	text,
+	"location_id"	real,
+	"pcn"	real,
+	"application_number"	text,
+	"name_type_code"	text,
+	"name"	text,
+	"location_1"	text
+);

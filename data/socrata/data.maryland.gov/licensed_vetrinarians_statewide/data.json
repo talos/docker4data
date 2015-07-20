@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_licensed_vetrinarians_statewide/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/pmz2-98jc/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/pmz2-98jc/rows.csv", 
   "description": "The data set shows all licensed veterinarians in maryland for FY 2015 as of 11/07/2014.  Data are provided by MDA.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,34 +12,7 @@
     }
   }, 
   "name": "Licensed Vetrinarians Statewide", 
-  "schema": {
-    "columns": [
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "contact_fname_contact_lna", 
-        "type": "text"
-      }, 
-      {
-        "name": "lic_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "lic_no", 
-        "type": "text"
-      }, 
-      {
-        "name": "contact_bus_addr1_contact", 
-        "type": "text"
-      }, 
-      {
-        "name": "bus_phone", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "licensed_vetrinarians_statewide"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "licensed_vetrinarians_statewide"
 }

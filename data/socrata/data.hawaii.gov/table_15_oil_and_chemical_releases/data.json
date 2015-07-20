@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_table_15_oil_and_chemical_releases/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/yqmp-94ap/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/yqmp-94ap/rows.csv", 
   "description": "DOH Environmental Indicators", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "Table 15: Oil and Chemical Releases", 
-  "schema": {
-    "columns": [
-      {
-        "name": "_", 
-        "type": "real"
-      }, 
-      {
-        "name": "calendar_year", 
-        "type": "text"
-      }, 
-      {
-        "name": "oil_releases_to_land", 
-        "type": "real"
-      }, 
-      {
-        "name": "oil_releases_to_water", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_oil_releases", 
-        "type": "real"
-      }, 
-      {
-        "name": "chemical_releases_to_water", 
-        "type": "real"
-      }, 
-      {
-        "name": "chemical_releases_to_land", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_chemical_releases", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_chemical_releasestotal_oil_chemical_releases", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "table_15_oil_and_chemical_releases"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "table_15_oil_and_chemical_releases"
 }

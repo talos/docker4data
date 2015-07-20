@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofboston_911_daily_dispatch_count_by_agency/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/9rag-2mng/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/api/views/9rag-2mng/rows.csv", 
   "description": "represents the non-administrative dispatches for public safety agencies", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "911 Daily Dispatch Count By Agency", 
-  "schema": {
-    "columns": [
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "month", 
-        "type": "real"
-      }, 
-      {
-        "name": "dayofyear", 
-        "type": "real"
-      }, 
-      {
-        "name": "total", 
-        "type": "real"
-      }, 
-      {
-        "name": "bpd", 
-        "type": "real"
-      }, 
-      {
-        "name": "bfd", 
-        "type": "real"
-      }, 
-      {
-        "name": "ems", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "911_daily_dispatch_count_by_agency"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "911_daily_dispatch_count_by_agency"
 }

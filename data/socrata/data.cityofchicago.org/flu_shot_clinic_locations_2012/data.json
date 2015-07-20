@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_flu_shot_clinic_locations_2012/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/4jy7-7m68/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/4jy7-7m68/rows.csv", 
   "description": "List of Chicago Department of Public Health free flu clinics offered throughout the city. For more information about the flu, go to http://bit.ly/9uNhqG.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,74 +13,7 @@
     }
   }, 
   "name": "Flu Shot Clinic Locations - 2012", 
-  "schema": {
-    "columns": [
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "day", 
-        "type": "text"
-      }, 
-      {
-        "name": "event", 
-        "type": "text"
-      }, 
-      {
-        "name": "time", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "fax", 
-        "type": "text"
-      }, 
-      {
-        "name": "community_area_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "ward", 
-        "type": "real"
-      }, 
-      {
-        "name": "police_district", 
-        "type": "real"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "flu_shot_clinic_locations_2012"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "flu_shot_clinic_locations_2012"
 }

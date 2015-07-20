@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_maryland_port_administration_general_cargo/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/2ir4-626w/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/2ir4-626w/rows.csv", 
   "description": "Maryland Port Administration General Cargo Monthly Data for the MPA's public terminals (Souce: Internal MPA data)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,102 +13,7 @@
     }
   }, 
   "name": "Maryland Port Administration General Cargo", 
-  "schema": {
-    "columns": [
-      {
-        "name": "month", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "total_lumber_tons", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_paper_tons", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_pulp_tons", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_container_tons", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_automobile_tons", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_ro_ro_tons", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_breakbulk_tons", 
-        "type": "real"
-      }, 
-      {
-        "name": "steel_amp_other_metals_tons", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_general_cargo_tons", 
-        "type": "real"
-      }, 
-      {
-        "name": "imported_loaded_teus", 
-        "type": "real"
-      }, 
-      {
-        "name": "export_loaded_teus", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_loaded_teus", 
-        "type": "real"
-      }, 
-      {
-        "name": "import_empty_teus", 
-        "type": "real"
-      }, 
-      {
-        "name": "export_empty_teus", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_empty_teus", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_teus", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_containers", 
-        "type": "real"
-      }, 
-      {
-        "name": "import_auto_units", 
-        "type": "real"
-      }, 
-      {
-        "name": "export_auto_units", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_auto_units", 
-        "type": "real"
-      }, 
-      {
-        "name": "import_ro_ro_tons", 
-        "type": "real"
-      }, 
-      {
-        "name": "export_ro_ro_tons", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "maryland_port_administration_general_cargo"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "maryland_port_administration_general_cargo"
 }

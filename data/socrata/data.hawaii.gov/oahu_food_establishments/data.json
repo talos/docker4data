@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_oahu_food_establishments/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/qkvm-skze/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/qkvm-skze/rows.csv", 
   "description": "lists represent all of the permitted Food Establishments.  These include everything from Restaurants, take out, Fast-food, Convenience stores, Mom and Pop Markets, shave ice stands, supermarkets, Mega markets like Costco-Sam\u2019s-Walmart, lunch wagons, food manufacturers, etc", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,122 +13,7 @@
     }
   }, 
   "name": "OAHU Food Establishments", 
-  "schema": {
-    "columns": [
-      {
-        "name": "establishment", 
-        "type": "text"
-      }, 
-      {
-        "name": "permit_holder", 
-        "type": "text"
-      }, 
-      {
-        "name": "telephone", 
-        "type": "text"
-      }, 
-      {
-        "name": "establishment_permit", 
-        "type": "real"
-      }, 
-      {
-        "name": "establishment_address_street", 
-        "type": "text"
-      }, 
-      {
-        "name": "establishment_address_street_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "establishment_address_unit", 
-        "type": "text"
-      }, 
-      {
-        "name": "establishment_address_city", 
-        "type": "text"
-      }, 
-      {
-        "name": "establishment_address_state", 
-        "type": "text"
-      }, 
-      {
-        "name": "establishment_address_zip_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "mailing_address_street", 
-        "type": "text"
-      }, 
-      {
-        "name": "mailing_address_street_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "mailing_address_unit", 
-        "type": "text"
-      }, 
-      {
-        "name": "mailing_address_city", 
-        "type": "text"
-      }, 
-      {
-        "name": "mailing_address_state", 
-        "type": "text"
-      }, 
-      {
-        "name": "mailing_address_zip_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "mailing_care_of", 
-        "type": "text"
-      }, 
-      {
-        "name": "po_box", 
-        "type": "real"
-      }, 
-      {
-        "name": "facility_permit", 
-        "type": "real"
-      }, 
-      {
-        "name": "business_status", 
-        "type": "text"
-      }, 
-      {
-        "name": "facility_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "risk_category", 
-        "type": "text"
-      }, 
-      {
-        "name": "st_inspection", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "tmkzone", 
-        "type": "real"
-      }, 
-      {
-        "name": "tmksection", 
-        "type": "real"
-      }, 
-      {
-        "name": "tmkplat", 
-        "type": "real"
-      }, 
-      {
-        "name": "tmkparcel", 
-        "type": "real"
-      }, 
-      {
-        "name": "permit_expire_date", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "oahu_food_establishments"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "oahu_food_establishments"
 }

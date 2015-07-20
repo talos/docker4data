@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_austintexas_gov_social_network_referrals/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/55ji-8nqx/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/views/55ji-8nqx/rows.csv", 
   "description": "This data, exported from Google Analytics, demonstrates group of interactions that took place on Austintexas.gov pages. A single session can contain multiple screen or page views, events, social interactions, and ecommerce transactions. Pageviews represent a view of a single page. The session duration is the length of time that a visitor remained on Austintexas.gov, and the pages per session show the number of pages they visited during that time.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -11,36 +7,13 @@
   "metadata": {
     "attribution": "City of Austin", 
     "category": "Government", 
-    "description": "This data, exported from Google Analytics, demonstrates group of interactions that took place on Austintexas.gov pages. A single session can contain multiple screen or page views, events, social interactions, and ecommerce transactions. Pageviews represent a view of a single page. The session duration is the length of time that a visitor remained on Austintexas.gov, and the pages per session show the number of pages they visited during that time.", 
+    "description": "This data, exported from Google Analytics, demonstrates group of interactions that took place on Austintexas.gov pages. A single session can contain multiple screen or page views, events, social interactions, and ecommerce transactions. Pageviews represent a view of a single page. The session duration is the length of time that a visitor remained on Austintexas.gov, and the pages per session show the number of pages they visited during that time. This data represents April 5, 2015 to July 5, 2015.", 
     "socrata": {
       "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/55ji-8nqx.json"
     }
   }, 
   "name": "Austintexas.gov Social Network Referrals", 
-  "schema": {
-    "columns": [
-      {
-        "name": "social_network_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "sessions", 
-        "type": "real"
-      }, 
-      {
-        "name": "pageviews", 
-        "type": "real"
-      }, 
-      {
-        "name": "average_session_duration", 
-        "type": "text"
-      }, 
-      {
-        "name": "pages_session", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "austintexas_gov_social_network_referrals"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "austintexas_gov_social_network_referrals"
 }

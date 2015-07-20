@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/seasonally_adjusted_non_agriculture_employment_by_industry/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/bkb3-qeda/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.wa.gov/api/views/bkb3-qeda/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,42 +9,7 @@
     }
   }, 
   "name": "Seasonally Adjusted Non-Agriculture Employment, By Industry", 
-  "schema": {
-    "columns": [
-      {
-        "name": "in_thousands", 
-        "type": "text"
-      }, 
-      {
-        "name": "june_2010_preliminary", 
-        "type": "real"
-      }, 
-      {
-        "name": "may_2010_revised", 
-        "type": "real"
-      }, 
-      {
-        "name": "june_2009_revised", 
-        "type": "real"
-      }, 
-      {
-        "name": "may_2009_revised", 
-        "type": "real"
-      }, 
-      {
-        "name": "may_2010_june_2010", 
-        "type": "real"
-      }, 
-      {
-        "name": "june_2009_to_june_2010", 
-        "type": "real"
-      }, 
-      {
-        "name": "may_2009_to_june_2009", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.wa.gov", 
-  "tableName": "seasonally_adjusted_non_agriculture_employment_by_industry"
+  "schema": "socrata/data.wa.gov", 
+  "status": "needs review", 
+  "table": "seasonally_adjusted_non_agriculture_employment_by_industry"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oregon_ohla_board_members/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/x7pc-5mrn/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/api/views/x7pc-5mrn/rows.csv", 
   "description": "Members of citizen boards managed by the Oregon Health Licensing Agency.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,58 +13,7 @@
     }
   }, 
   "name": "OHLA Board Members", 
-  "schema": {
-    "columns": [
-      {
-        "name": "board_council", 
-        "type": "text"
-      }, 
-      {
-        "name": "member_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "member_first_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "member_last_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "chair_vice_chair", 
-        "type": "text"
-      }, 
-      {
-        "name": "photo", 
-        "type": "text"
-      }, 
-      {
-        "name": "bio", 
-        "type": "text"
-      }, 
-      {
-        "name": "start_of_term", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "term_expiration", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "recruiting", 
-        "type": "text"
-      }, 
-      {
-        "name": "term", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "ohla_board_members"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "ohla_board_members"
 }

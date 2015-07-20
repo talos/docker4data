@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_case_data_from_san_francisco_311_sf311_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/vw6y-z8j6/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sfgov.org/api/views/vw6y-z8j6/rows.csv", 
   "description": "SF311 cases created since 7/1/2008 with location information", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,70 +13,7 @@
     }
   }, 
   "name": "Case Data from San Francisco 311 (SF311)", 
-  "schema": {
-    "columns": [
-      {
-        "name": "case_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "opened", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "closed", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "updated", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "status", 
-        "type": "text"
-      }, 
-      {
-        "name": "responsible_agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "category", 
-        "type": "text"
-      }, 
-      {
-        "name": "request_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "request_details", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "supervisor_district", 
-        "type": "real"
-      }, 
-      {
-        "name": "neighborhood", 
-        "type": "text"
-      }, 
-      {
-        "name": "point", 
-        "type": "text"
-      }, 
-      {
-        "name": "source", 
-        "type": "text"
-      }, 
-      {
-        "name": "media_url", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sfgov.org", 
-  "tableName": "case_data_from_san_francisco_311_sf311_"
+  "schema": "socrata/data.sfgov.org", 
+  "status": "needs review", 
+  "table": "case_data_from_san_francisco_311_sf311_"
 }

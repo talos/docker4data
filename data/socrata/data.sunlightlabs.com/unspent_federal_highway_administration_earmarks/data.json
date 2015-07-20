@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/unspent_federal_highway_administration_earmarks/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sunlightlabs.com/api/views/tsqz-r7ui/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sunlightlabs.com/api/views/tsqz-r7ui/rows.csv", 
   "description": "Unspent highway earmarks from the last three federal transportation bills. All the projects from the 1991 ISTEA Act that have remaining unobligated funds are included. Projects earmarked in the TEA-21 Act (1998) have had 10 percent or less of their funds obligated, according to the FHWA. Projects from 2005's SAFETEA-LU Act have had 10 percent or less of their earmarked funds obligated as of March 2010, according to the FHWA.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "Unspent Federal Highway Administration Earmarks", 
-  "schema": {
-    "columns": [
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "demo_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "public_law", 
-        "type": "text"
-      }, 
-      {
-        "name": "section", 
-        "type": "text"
-      }, 
-      {
-        "name": "unobligated_amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "federal_funds_allocated_total_earmarked", 
-        "type": "text"
-      }, 
-      {
-        "name": "federal_funds_obligated", 
-        "type": "text"
-      }, 
-      {
-        "name": "percent_obligated", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sunlightlabs.com", 
-  "tableName": "unspent_federal_highway_administration_earmarks"
+  "schema": "socrata/data.sunlightlabs.com", 
+  "status": "needs review", 
+  "table": "unspent_federal_highway_administration_earmarks"
 }

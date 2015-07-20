@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/cook_county_clerk_tax_code_rates/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/8vrk-e2ck/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/8vrk-e2ck/rows.csv", 
   "description": "Tax code rates for Tax Years 2006 through 2013. Data is updated yearly. For more information on Tax codes visit the Cook County Clerk's website at: http://www.cookcountyclerk.com/tsd/Pages/default.aspx", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "Cook County Clerk - Tax code Rates", 
-  "schema": {
-    "columns": [
-      {
-        "name": "tax_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "tax_code_rate_2006", 
-        "type": "real"
-      }, 
-      {
-        "name": "tax_code_rate_2007", 
-        "type": "real"
-      }, 
-      {
-        "name": "tax_code_rate_2008", 
-        "type": "real"
-      }, 
-      {
-        "name": "tax_code_rate_2009", 
-        "type": "real"
-      }, 
-      {
-        "name": "tax_code_rate_2010", 
-        "type": "real"
-      }, 
-      {
-        "name": "tax_code_rate_2011", 
-        "type": "real"
-      }, 
-      {
-        "name": "tax_code_rate_2012", 
-        "type": "real"
-      }, 
-      {
-        "name": "tax_code_rate_2013", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/datacatalog.cookcountyil.gov", 
-  "tableName": "cook_county_clerk_tax_code_rates"
+  "schema": "socrata/datacatalog.cookcountyil.gov", 
+  "status": "needs review", 
+  "table": "cook_county_clerk_tax_code_rates"
 }

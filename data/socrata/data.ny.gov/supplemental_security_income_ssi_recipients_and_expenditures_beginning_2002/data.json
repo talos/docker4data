@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/supplemental_security_income_ssi_recipients_and_expenditures_beginning_2002/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/kym4-b5dg/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/kym4-b5dg/rows.csv", 
   "description": "These data are monthly listings of recipients and expenditures for the Supplemental Security Income Program.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "Supplemental Security Income (SSI) Recipients and Expenditures: Beginning 2002", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "month", 
-        "type": "text"
-      }, 
-      {
-        "name": "monthcode", 
-        "type": "real"
-      }, 
-      {
-        "name": "districtcode", 
-        "type": "real"
-      }, 
-      {
-        "name": "district", 
-        "type": "text"
-      }, 
-      {
-        "name": "ssi_recipients", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_ssi_expenditures", 
-        "type": "real"
-      }, 
-      {
-        "name": "federal_ssi_expenditures", 
-        "type": "real"
-      }, 
-      {
-        "name": "state_ssi_expenditures", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "supplemental_security_income_ssi_recipients_and_expenditures_beginning_2002"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "supplemental_security_income_ssi_recipients_and_expenditures_beginning_2002"
 }

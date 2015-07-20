@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/msme_country_indicators_data_sources/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/b4ku-nmqr/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/finances.worldbank.org/api/views/b4ku-nmqr/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,38 +9,7 @@
     }
   }, 
   "name": "MSME Country Indicators Data Sources", 
-  "schema": {
-    "columns": [
-      {
-        "name": "economy_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "economy", 
-        "type": "text"
-      }, 
-      {
-        "name": "frequency_of_data_reporting", 
-        "type": "text"
-      }, 
-      {
-        "name": "msme_data_definition_source", 
-        "type": "text"
-      }, 
-      {
-        "name": "data_sources", 
-        "type": "text"
-      }, 
-      {
-        "name": "definition_of_micro_small_and_medium_size_enterprise", 
-        "type": "text"
-      }, 
-      {
-        "name": "msme_employment", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/finances.worldbank.org", 
-  "tableName": "msme_country_indicators_data_sources"
+  "schema": "socrata/finances.worldbank.org", 
+  "status": "needs review", 
+  "table": "msme_country_indicators_data_sources"
 }

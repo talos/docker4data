@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_fy12_day_labor_placements/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/utnt-hag5/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/views/utnt-hag5/rows.csv", 
   "description": "This data includes hourly numbers of persons successfully negotiating temporary, daily work with contractors at the First Workers' Day Labor Center for fiscal year 2012. The purpose is to provide the general public with relevant information about the center's daily operations.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,70 +13,7 @@
     }
   }, 
   "name": "FY12 Day Labor Placements", 
-  "schema": {
-    "columns": [
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "day_of_week", 
-        "type": "text"
-      }, 
-      {
-        "name": "log_out_6_6_59am", 
-        "type": "real"
-      }, 
-      {
-        "name": "log_out_7_7_59am", 
-        "type": "real"
-      }, 
-      {
-        "name": "log_out_8_8_59am", 
-        "type": "real"
-      }, 
-      {
-        "name": "log_out_9_9_59am", 
-        "type": "real"
-      }, 
-      {
-        "name": "log_out_10_10_59am", 
-        "type": "real"
-      }, 
-      {
-        "name": "log_out_11_11_59am", 
-        "type": "real"
-      }, 
-      {
-        "name": "log_out_12_12_59pm", 
-        "type": "real"
-      }, 
-      {
-        "name": "log_out_1_1_59pm", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_signed_out", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_contractors", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_signed_in", 
-        "type": "real"
-      }, 
-      {
-        "name": "stayed_until_close", 
-        "type": "real"
-      }, 
-      {
-        "name": "weather_holiday", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "fy12_day_labor_placements"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "fy12_day_labor_placements"
 }

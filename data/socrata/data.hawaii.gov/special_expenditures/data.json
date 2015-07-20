@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_special_expenditures/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/eunp-e6k4/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/eunp-e6k4/rows.csv", 
   "description": "FY 13 - 01-12", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,26 +12,7 @@
     }
   }, 
   "name": "Special Expenditures", 
-  "schema": {
-    "columns": [
-      {
-        "name": "dept", 
-        "type": "text"
-      }, 
-      {
-        "name": "pgm_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "obj_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "amount", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "special_expenditures"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "special_expenditures"
 }

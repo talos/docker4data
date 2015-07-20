@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_fy_12_fy_13_cip_budget/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/dkm3-39id/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/dkm3-39id/rows.csv", 
   "description": "STATE OF HAWAII\t\t\t\t\t\t\t\t\t\t\t\t\t\nFY 12 & FY 13 CAPITAL IMPROVEMENT PROJECTS - ACT 164, SLH 2011, AS AMENDED BY ACT 106, SLH 2012\t\t\t\t\t\t\t\t\t\t\t\t\t\nNote:  Senate and Rep District information for some projects was not available at time of download.  Also, Item Numbers do not include program area alpha designations (e.g., AGR project P12000 is A-1.02).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,66 +13,7 @@
     }
   }, 
   "name": "FY 12 & FY 13 CIP Budget", 
-  "schema": {
-    "columns": [
-      {
-        "name": "dept", 
-        "type": "text"
-      }, 
-      {
-        "name": "pgm_no", 
-        "type": "real"
-      }, 
-      {
-        "name": "cap_proj", 
-        "type": "text"
-      }, 
-      {
-        "name": "senate_district", 
-        "type": "real"
-      }, 
-      {
-        "name": "island", 
-        "type": "real"
-      }, 
-      {
-        "name": "rep_district", 
-        "type": "real"
-      }, 
-      {
-        "name": "project_scope", 
-        "type": "text"
-      }, 
-      {
-        "name": "item_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "expending_agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "project_title", 
-        "type": "text"
-      }, 
-      {
-        "name": "project_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "mof", 
-        "type": "text"
-      }, 
-      {
-        "name": "fy_2011_2012", 
-        "type": "real"
-      }, 
-      {
-        "name": "fy_2012_2013", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "fy_12_fy_13_cip_budget"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "fy_12_fy_13_cip_budget"
 }

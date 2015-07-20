@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_acceptable_double_check_valve_assemblies/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/5e35-afph/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/5e35-afph/rows.csv", 
   "description": "List of acceptable double check valve assemblies.  For more information refer to the manual located at the following link http://www.nyc.gov/html/dep/pdf/water_sewer/42_doh_supplement.pdf", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,18 +13,7 @@
     }
   }, 
   "name": "Acceptable Double Check Valve Assemblies", 
-  "schema": {
-    "columns": [
-      {
-        "name": "company", 
-        "type": "text"
-      }, 
-      {
-        "name": "model_series", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "acceptable_double_check_valve_assemblies"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "acceptable_double_check_valve_assemblies"
 }

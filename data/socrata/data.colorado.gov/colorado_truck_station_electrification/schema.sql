@@ -1,0 +1,22 @@
+CREATE TABLE "colorado_truck_station_electrification" (
+	"businesshours"	text,
+	"latitude"	real,
+	"longitude"	real,
+	"name"	text,
+	"phone"	text,
+	"streetaddress"	text,
+	"city"	text,
+	"state"	text,
+	"zip"	real,
+	"intersectiondirections"	text,
+	"createdat"	timestamp,
+	"updatedat"	timestamp,
+	"datelastconfirmed"	timestamp,
+	"id"	real,
+	"publicnotes"	text,
+	"geocodestatus"	text,
+	"manufacturerkeys"	text,
+	"paymentkeys"	text,
+	"mediakeys"	text,
+	"location"	text
+);

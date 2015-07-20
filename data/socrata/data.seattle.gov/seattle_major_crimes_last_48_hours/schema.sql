@@ -1,0 +1,21 @@
+CREATE TABLE "seattle_major_crimes_last_48_hours" (
+	"__id"	real,
+	"rms_cdw_id"	text,
+	"general_offense_number"	text,
+	"offense_code"	text,
+	"offense_code_extension"	text,
+	"offense_type"	text,
+	"summary_offense_code"	text,
+	"summarized_offense_description"	text,
+	"date_reported"	text,
+	"occurred_date_or_date_range_start"	text,
+	"occurred_date_range_end"	text,
+	"hundred_block_location"	text,
+	"district_sector"	text,
+	"zone_beat"	text,
+	"census_tract_2000"	text,
+	"longitude"	real,
+	"latitude"	real,
+	"relative_date"	text,
+	"geom"	text
+);

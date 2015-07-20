@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/code_enforcement_building_and_property_violations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/8sq6-p7et/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/api/views/8sq6-p7et/rows.csv", 
   "description": "Inspectional Services violations found by Code Enforcement with citations issued", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,78 +13,7 @@
     }
   }, 
   "name": "Code Enforcement - Building and Property Violations", 
-  "schema": {
-    "columns": [
-      {
-        "name": "ticket_no", 
-        "type": "text"
-      }, 
-      {
-        "name": "status_dttm", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "status", 
-        "type": "text"
-      }, 
-      {
-        "name": "code", 
-        "type": "text"
-      }, 
-      {
-        "name": "value", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "stno", 
-        "type": "text"
-      }, 
-      {
-        "name": "sthigh", 
-        "type": "text"
-      }, 
-      {
-        "name": "street", 
-        "type": "text"
-      }, 
-      {
-        "name": "suffix", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip", 
-        "type": "text"
-      }, 
-      {
-        "name": "property_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "code_enforcement_building_and_property_violations"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "code_enforcement_building_and_property_violations"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/minority_and_women_owned_business_enterprise_statistics/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/svyi-maaj/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/svyi-maaj/rows.csv", 
   "description": "New York City's \"MWBE\" program, enacted by the City Council and signed by the Mayor as Local Law 129 of 2005, is designed to promote government contracting opportunities for businesses owned by minorities and women. Our \"Emerging Business Enterprise\" program, enacted by the City Council and signed by the Mayor as Local Law 12 of 2006, is designed to promote such opportunities for businesses owned by persons who are \"socially and economically disadvantaged.\" Together, the programs establish the following Citywide goals for contracts and subcontracts in amounts under $1 million.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "Minority and Women-Owned  Business Enterprise Statistics", 
-  "schema": {
-    "columns": [
-      {
-        "name": "mwbe_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "prime_contracts_professional_services", 
-        "type": "text"
-      }, 
-      {
-        "name": "prime_contracts_standard_services", 
-        "type": "text"
-      }, 
-      {
-        "name": "prime_contracts_goods", 
-        "type": "text"
-      }, 
-      {
-        "name": "prime_contracts_construction", 
-        "type": "text"
-      }, 
-      {
-        "name": "subcontracts_professional_services", 
-        "type": "text"
-      }, 
-      {
-        "name": "subcontracts_construction", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "minority_and_women_owned_business_enterprise_statistics"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "minority_and_women_owned_business_enterprise_statistics"
 }

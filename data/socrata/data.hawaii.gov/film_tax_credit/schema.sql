@@ -1,0 +1,20 @@
+CREATE TABLE "film_tax_credit" (
+	"effective_date"	timestamp,
+	"production"	text,
+	"prod_year"	text,
+	"type"	text,
+	"total_qualified_expend"	real,
+	"total_estimated_rebate"	real,
+	"total_estimated_tax_generated"	real,
+	"sales_geerated_into_economy"	real,
+	"household_income_generated"	real,
+	"oahu_expend"	real,
+	"neighbor_isle_total"	real,
+	"big_island_expend"	real,
+	"kauai_expend"	real,
+	"maui_epend"	real,
+	"molokai_expend"	text,
+	"lanai_expend"	text,
+	"local_hawaii_hires"	real,
+	"out_of_state_hires"	real
+);

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_med_quest_offices/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/fek4-ym6q/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/fek4-ym6q/rows.csv", 
   "description": "Locations", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,34 +12,7 @@
     }
   }, 
   "name": "Med-QUEST Offices", 
-  "schema": {
-    "columns": [
-      {
-        "name": "unit", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "room", 
-        "type": "text"
-      }, 
-      {
-        "name": "telephone1", 
-        "type": "text"
-      }, 
-      {
-        "name": "telephone2", 
-        "type": "text"
-      }, 
-      {
-        "name": "fax", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "med_quest_offices"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "med_quest_offices"
 }

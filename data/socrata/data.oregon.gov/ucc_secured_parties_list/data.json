@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oregon_ucc_secured_parties_list/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/2kf7-i54h/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/api/views/2kf7-i54h/rows.csv", 
   "description": "List of All Active Filings and their associated Secured Parties. \r\nThis Dataset will be updated monthly by the 9th of each month.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,58 +12,7 @@
     }
   }, 
   "name": "UCC Secured Parties List", 
-  "schema": {
-    "columns": [
-      {
-        "name": "lt_cd", 
-        "type": "text"
-      }, 
-      {
-        "name": "filenumber", 
-        "type": "text"
-      }, 
-      {
-        "name": "filing_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "lapse_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "secured_party", 
-        "type": "text"
-      }, 
-      {
-        "name": "addr1", 
-        "type": "text"
-      }, 
-      {
-        "name": "addr2", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "postalcode", 
-        "type": "text"
-      }, 
-      {
-        "name": "country", 
-        "type": "text"
-      }, 
-      {
-        "name": "image_link", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "ucc_secured_parties_list"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "ucc_secured_parties_list"
 }

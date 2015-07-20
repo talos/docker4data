@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_libraries_computers_available/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/tkwq-e4vi/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/tkwq-e4vi/rows.csv", 
   "description": "Number of desktop coputers and laptops available in Hawaii Libraries", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "Libraries Computers Available", 
-  "schema": {
-    "columns": [
-      {
-        "name": "island", 
-        "type": "text"
-      }, 
-      {
-        "name": "library_location", 
-        "type": "text"
-      }, 
-      {
-        "name": "library_staff_desktop_pcs", 
-        "type": "real"
-      }, 
-      {
-        "name": "public_desktop_pc", 
-        "type": "real"
-      }, 
-      {
-        "name": "public_laptops", 
-        "type": "text"
-      }, 
-      {
-        "name": "line_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "road_runner_line", 
-        "type": "text"
-      }, 
-      {
-        "name": "installation_date_line", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "installation_date_active", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "libraries_computers_available"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "libraries_computers_available"
 }

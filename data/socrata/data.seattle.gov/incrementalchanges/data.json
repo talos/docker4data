@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_incrementalchanges/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/2qmq-fcpi/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/2qmq-fcpi/rows.csv", 
   "description": "Incremental changes", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,38 +12,7 @@
     }
   }, 
   "name": "Incrementalchanges", 
-  "schema": {
-    "columns": [
-      {
-        "name": "inc_change_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "dept_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "report_section", 
-        "type": "text"
-      }, 
-      {
-        "name": "icchange_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "inc_change_descr", 
-        "type": "text"
-      }, 
-      {
-        "name": "sum_of_amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "sum_of_fte", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "incrementalchanges"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "incrementalchanges"
 }

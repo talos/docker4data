@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/county_boundary/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.acgov.org/api/geospatial/rygg-x9nr", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.acgov.org/api/geospatial/rygg-x9nr", 
   "description": "Alameda County Boundary", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,9 +14,7 @@
     }
   }, 
   "name": "County Boundary", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.acgov.org", 
-  "tableName": "county_boundary"
+  "schema": "socrata/data.acgov.org", 
+  "status": "needs review", 
+  "table": "county_boundary"
 }

@@ -1,0 +1,21 @@
+CREATE TABLE "asbestos_training_providers" (
+	"trainer"	text,
+	"trainer_name"	text,
+	"expiration"	text,
+	"contact_1"	text,
+	"company_phone"	text,
+	"web_page"	text,
+	"worker_initial"	real,
+	"worker_refresher"	real,
+	"non_english_courses"	text,
+	"supervisor_initial"	real,
+	"supervisor_refresher"	real,
+	"inspectorinitial"	real,
+	"inspector_refresher"	real,
+	"management_plan_initial"	real,
+	"management_plan_refresher"	real,
+	"project_designer_initial"	real,
+	"project_designer_refresher"	real,
+	"status"	text,
+	"location_1"	text
+);

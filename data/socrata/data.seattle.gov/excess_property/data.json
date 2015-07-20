@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_excess_property/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/yenx-5x5h/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/yenx-5x5h/rows.csv", 
   "description": "List of  properties in the reuse and disposition review process", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,110 +12,7 @@
     }
   }, 
   "name": "Excess Property", 
-  "schema": {
-    "columns": [
-      {
-        "name": "pma", 
-        "type": "real"
-      }, 
-      {
-        "name": "status", 
-        "type": "text"
-      }, 
-      {
-        "name": "more_information", 
-        "type": "text"
-      }, 
-      {
-        "name": "review_stage", 
-        "type": "text"
-      }, 
-      {
-        "name": "property_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "type", 
-        "type": "text"
-      }, 
-      {
-        "name": "department", 
-        "type": "text"
-      }, 
-      {
-        "name": "neighborhood", 
-        "type": "real"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "e_property_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "e_property_notice", 
-        "type": "text"
-      }, 
-      {
-        "name": "map", 
-        "type": "text"
-      }, 
-      {
-        "name": "picture", 
-        "type": "text"
-      }, 
-      {
-        "name": "tmbpictures", 
-        "type": "text"
-      }, 
-      {
-        "name": "pma_detail_report", 
-        "type": "text"
-      }, 
-      {
-        "name": "ordinances", 
-        "type": "text"
-      }, 
-      {
-        "name": "documents", 
-        "type": "text"
-      }, 
-      {
-        "name": "ordinance_3", 
-        "type": "text"
-      }, 
-      {
-        "name": "ordinance_4", 
-        "type": "text"
-      }, 
-      {
-        "name": "ordinance_5", 
-        "type": "text"
-      }, 
-      {
-        "name": "cma", 
-        "type": "text"
-      }, 
-      {
-        "name": "preliminary_report", 
-        "type": "text"
-      }, 
-      {
-        "name": "public_notice_prelimreport", 
-        "type": "text"
-      }, 
-      {
-        "name": "page_type_select", 
-        "type": "text"
-      }, 
-      {
-        "name": "plans", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "excess_property"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "excess_property"
 }

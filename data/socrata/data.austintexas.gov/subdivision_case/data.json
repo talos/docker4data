@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/subdivision_case/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/geospatial/6iyu-tp87", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/geospatial/6iyu-tp87", 
   "description": "This feature class consists of locations of subdivision review case boundaries in support of the City of Austin's Development Review process.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,9 +14,7 @@
     }
   }, 
   "name": "Subdivision Case", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "subdivision_case"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "subdivision_case"
 }

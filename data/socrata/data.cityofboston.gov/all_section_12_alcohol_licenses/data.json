@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofboston_all_section_12_alcohol_licenses/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/qr2t-2k7s/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/api/views/qr2t-2k7s/rows.csv", 
   "description": "Establishments licensed by the Boston Licensing Board", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,74 +13,7 @@
     }
   }, 
   "name": "All Section 12 Alcohol Licenses", 
-  "schema": {
-    "columns": [
-      {
-        "name": "license_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "historicallicensenum", 
-        "type": "text"
-      }, 
-      {
-        "name": "license_category", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "business_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "dba", 
-        "type": "text"
-      }, 
-      {
-        "name": "opening", 
-        "type": "text"
-      }, 
-      {
-        "name": "closing", 
-        "type": "text"
-      }, 
-      {
-        "name": "capacity", 
-        "type": "real"
-      }, 
-      {
-        "name": "day_phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "evening_phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "suffix", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "all_section_12_alcohol_licenses"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "all_section_12_alcohol_licenses"
 }

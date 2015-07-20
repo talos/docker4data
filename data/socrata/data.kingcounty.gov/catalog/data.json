@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_kingcounty_catalog/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/d9gc-nfaw/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.kingcounty.gov/api/views/d9gc-nfaw/rows.csv", 
   "description": "Catalog of all data.kingcounty.gov datasets", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,46 +12,7 @@
     }
   }, 
   "name": "Catalog", 
-  "schema": {
-    "columns": [
-      {
-        "name": "type", 
-        "type": "text"
-      }, 
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "category", 
-        "type": "text"
-      }, 
-      {
-        "name": "keywords", 
-        "type": "text"
-      }, 
-      {
-        "name": "id", 
-        "type": "text"
-      }, 
-      {
-        "name": "custom_metadata", 
-        "type": "text"
-      }, 
-      {
-        "name": "owner", 
-        "type": "text"
-      }, 
-      {
-        "name": "permissions", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.kingcounty.gov", 
-  "tableName": "catalog"
+  "schema": "socrata/data.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "catalog"
 }

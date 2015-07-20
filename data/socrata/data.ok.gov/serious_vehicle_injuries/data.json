@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_serious_vehicle_injuries/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/9u4d-5bg7/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/9u4d-5bg7/rows.csv", 
   "description": "Decrease the rate of serious injuries per 100,000,000 vehicle miles traveled from 33.9 in 2012 to 30.9 by 2017.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "Serious Vehicle Injuries", 
-  "schema": {
-    "columns": [
-      {
-        "name": "years", 
-        "type": "text"
-      }, 
-      {
-        "name": "historical_data", 
-        "type": "real"
-      }, 
-      {
-        "name": "target", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "serious_vehicle_injuries"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "serious_vehicle_injuries"
 }

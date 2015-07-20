@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/performance_metrics_streets_sanitation_tree_debris/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/hwpp-nx6b/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/hwpp-nx6b/rows.csv", 
   "description": "After extreme weather events, the Bureau of Forestry Tree Emergency is deployed to remove plant debris blocking or cluttering the public way. This metric tracks the average number of days the Department of Streets and Sanitation (DSS) takes to complete tree debris removal requests per week. Median days to complete requests as well as total number of requests fulfilled per week are also available by mousing over columns. The Department of Streets & Sanitation responds to emergency tree debris removal requests logged by 311\u2019s Customer Service Requests (CSR) system. The target response time for Tree Debris Removal is 1 day. For more information on open tree debris removal requests, see https://data.cityofchicago.org/d/mab8-y9h3", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Performance Metrics - Streets & Sanitation - Tree Debris", 
-  "schema": {
-    "columns": [
-      {
-        "name": "week", 
-        "type": "text"
-      }, 
-      {
-        "name": "average_days_to_complete_tree_debris_requests", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_completed_requests", 
-        "type": "real"
-      }, 
-      {
-        "name": "median_days_to_repond_to_tree_debris_removal_request", 
-        "type": "real"
-      }, 
-      {
-        "name": "target_response_time_days_", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "performance_metrics_streets_sanitation_tree_debris"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "performance_metrics_streets_sanitation_tree_debris"
 }

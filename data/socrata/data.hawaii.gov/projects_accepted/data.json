@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_projects_accepted/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/4apz-zc66/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/4apz-zc66/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,34 +9,7 @@
     }
   }, 
   "name": "Projects Accepted", 
-  "schema": {
-    "columns": [
-      {
-        "name": "job_no", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "ntp", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "project_acceptance", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "final_inspection", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "amount", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "projects_accepted"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "projects_accepted"
 }

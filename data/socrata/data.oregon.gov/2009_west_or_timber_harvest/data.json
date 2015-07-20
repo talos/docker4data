@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oregon_2009_west_or_timber_harvest/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/qpia-gdhx/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/api/views/qpia-gdhx/rows.csv", 
   "description": "Timber harvest statistics for 2009 in western Oregon", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "2009 West OR Timber Harvest", 
-  "schema": {
-    "columns": [
-      {
-        "name": "county_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "industry", 
-        "type": "real"
-      }, 
-      {
-        "name": "nip", 
-        "type": "real"
-      }, 
-      {
-        "name": "native", 
-        "type": "real"
-      }, 
-      {
-        "name": "state", 
-        "type": "real"
-      }, 
-      {
-        "name": "blm", 
-        "type": "real"
-      }, 
-      {
-        "name": "usfs", 
-        "type": "real"
-      }, 
-      {
-        "name": "county_2", 
-        "type": "real"
-      }, 
-      {
-        "name": "total", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "2009_west_or_timber_harvest"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "2009_west_or_timber_harvest"
 }

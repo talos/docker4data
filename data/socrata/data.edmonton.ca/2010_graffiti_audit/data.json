@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/2010_graffiti_audit/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/x7r5-d4hj/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.edmonton.ca/api/views/x7r5-d4hj/rows.csv", 
   "description": "In 2010, Capital City Clean Up initiated a Graffiti Vandalism Audit to assess the amount of graffiti vandalism found in the neighbourhoods in Edmonton with the highest reported incidences of graffiti.  A follow-up audit was completed in 2011 to determine if there were significant changes to the amount of graffiti found.  This data set is result of the 2010 Graffiti Vandalism Audit.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "2010 Graffiti Audit", 
-  "schema": {
-    "columns": [
-      {
-        "name": "neighbourhood", 
-        "type": "text"
-      }, 
-      {
-        "name": "site_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "category", 
-        "type": "text"
-      }, 
-      {
-        "name": "target", 
-        "type": "text"
-      }, 
-      {
-        "name": "size", 
-        "type": "text"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "icon", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.edmonton.ca", 
-  "tableName": "2010_graffiti_audit"
+  "schema": "socrata/data.edmonton.ca", 
+  "status": "needs review", 
+  "table": "2010_graffiti_audit"
 }

@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/eastern_watersheds_erosion_hazard_zones/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/geospatial/33sj-9y9z", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/geospatial/33sj-9y9z", 
   "description": "Watershed Protection Department sponsored study of areas prone to channel erosion/migration in Gilleland, Harris, Decker, and Elm Creeks.  Report attached.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,9 +13,7 @@
     }
   }, 
   "name": "Eastern Watersheds Erosion Hazard Zones", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "eastern_watersheds_erosion_hazard_zones"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "eastern_watersheds_erosion_hazard_zones"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_energy_star_portfolio_state_managed_buildings_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/k3uz-3cuw/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/k3uz-3cuw/rows.csv", 
   "description": "Energy Star rankings for buildings managed by the Office of Management and Enterprise Services (OMES) Division of Capital Assets Management (DCAM).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "Energy Star Portfolio (State-Managed Buildings)", 
-  "schema": {
-    "columns": [
-      {
-        "name": "building", 
-        "type": "text"
-      }, 
-      {
-        "name": "energy_star_certified_building", 
-        "type": "text"
-      }, 
-      {
-        "name": "july_2012_rating", 
-        "type": "real"
-      }, 
-      {
-        "name": "july_2011_rating", 
-        "type": "real"
-      }, 
-      {
-        "name": "july_2010_rating", 
-        "type": "real"
-      }, 
-      {
-        "name": "july_2009_rating", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "energy_star_portfolio_state_managed_buildings_"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "energy_star_portfolio_state_managed_buildings_"
 }

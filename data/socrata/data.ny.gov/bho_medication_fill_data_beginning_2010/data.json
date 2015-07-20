@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_bho_medication_fill_data_beginning_2010/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/cc9j-4ujx/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/cc9j-4ujx/rows.csv", 
   "description": "The Behavioral Health Organization (BHO) initiative oversees the transition to managed care for Medicaid recipients who receive mental health (MH) and substance use disorder (SUD) services in New York State. The metrics emphasize improving rates of timely follow-up treatment post discharge, timely filling of appropriate medication prescriptions post discharge, and reducing rates of readmission.\r\nThe BHO Medication Fill dataset is designed to assess the frequency with which individuals receiving Mental Health or SUD treatment fill an initial prescription for a mood stabilizer, anti-psychotic, psychotropic, or anti-addition medication within 30 days of discharge from a mental health inpatient hospitalization or SUD inpatient stay and refill those prescriptions within 100 days of discharge.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,66 +13,7 @@
     }
   }, 
   "name": "BHO Medication Fill Data: Beginning 2010", 
-  "schema": {
-    "columns": [
-      {
-        "name": "row_created_date_time", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "metric_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "description_of_metric", 
-        "type": "text"
-      }, 
-      {
-        "name": "indicator_domain_group", 
-        "type": "text"
-      }, 
-      {
-        "name": "omh_region", 
-        "type": "text"
-      }, 
-      {
-        "name": "age_group", 
-        "type": "text"
-      }, 
-      {
-        "name": "numerator", 
-        "type": "real"
-      }, 
-      {
-        "name": "denominator", 
-        "type": "real"
-      }, 
-      {
-        "name": "rate", 
-        "type": "real"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "quarter", 
-        "type": "text"
-      }, 
-      {
-        "name": "year_to_date_numerator", 
-        "type": "real"
-      }, 
-      {
-        "name": "year_to_date_denominator", 
-        "type": "real"
-      }, 
-      {
-        "name": "year_to_date_rate", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "bho_medication_fill_data_beginning_2010"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "bho_medication_fill_data_beginning_2010"
 }

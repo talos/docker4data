@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_libraries_2012_visitors_by_location/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/zh3n-jtnt/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/zh3n-jtnt/rows.csv", 
   "description": "The Chicago Public Library has more than 70 locations.   In January all branch locations were closed on Monday, January 9, Monday, January 23 and Monday, January 30. Beginning in February, all branch locations restored partial Monday hours, from 2 p.m. to 6 p.m. On June 18, all branch locations restored full Monday hours. Edgewater closed 6/16/11 for construction of a new branch scheduled to open in mid-2013. The library\u2019s bookmobile opened 6/24/11 for Edgewater holds pickup and returns. Douglass closed for 10 days in February for roof repairs. Humboldt Park closed 3/26/12 for facility improvements and expansion. Lincoln Park closed for four days in August for replacement of the air conditioning system. Many locations experienced sporadic closures in summer 2012 due to air conditioning issues and area power outages. Albany Park closed 9/22/12 for construction of a new branch and will remain closed until 2014. Brighton Park, Jefferson Park and Portage Cragin were closed 11/26/12-12/7/12 for replacement of their HVAC systems.\r\n\t\r\n* Count does not reflect the total building visitor count due to location of traffic counter. Community room and program traffic are not included in totals.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,78 +13,7 @@
     }
   }, 
   "name": "Libraries - 2012 Visitors by Location", 
-  "schema": {
-    "columns": [
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip", 
-        "type": "text"
-      }, 
-      {
-        "name": "january", 
-        "type": "real"
-      }, 
-      {
-        "name": "february", 
-        "type": "real"
-      }, 
-      {
-        "name": "march", 
-        "type": "real"
-      }, 
-      {
-        "name": "april", 
-        "type": "real"
-      }, 
-      {
-        "name": "may", 
-        "type": "real"
-      }, 
-      {
-        "name": "june", 
-        "type": "real"
-      }, 
-      {
-        "name": "july", 
-        "type": "real"
-      }, 
-      {
-        "name": "august", 
-        "type": "real"
-      }, 
-      {
-        "name": "september", 
-        "type": "real"
-      }, 
-      {
-        "name": "october", 
-        "type": "real"
-      }, 
-      {
-        "name": "november", 
-        "type": "real"
-      }, 
-      {
-        "name": "december", 
-        "type": "real"
-      }, 
-      {
-        "name": "ytd", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "libraries_2012_visitors_by_location"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "libraries_2012_visitors_by_location"
 }

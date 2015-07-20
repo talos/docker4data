@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_idph_leading_causes_of_death_all_ages_2008/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/ukeb-2mep/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/ukeb-2mep/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -15,18 +11,7 @@
     }
   }, 
   "name": "IDPH Leading Causes of Death, All Ages, 2008", 
-  "schema": {
-    "columns": [
-      {
-        "name": "cause_of_death", 
-        "type": "text"
-      }, 
-      {
-        "name": "count", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "idph_leading_causes_of_death_all_ages_2008"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "idph_leading_causes_of_death_all_ages_2008"
 }

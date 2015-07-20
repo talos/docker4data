@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_prison_admissions_beginning_2008/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/m2rg-xjan/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/m2rg-xjan/rows.csv", 
   "description": "Represents inmate admissions to the NYS Department of Corrections and Community Supervision for a new offense or for a parole violation by month of admission.  Includes data about admission type, county, gender, age, and crime.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "Prison Admissions: Beginning 2008", 
-  "schema": {
-    "columns": [
-      {
-        "name": "admission_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "admission_month", 
-        "type": "text"
-      }, 
-      {
-        "name": "month_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "latest_admission_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "county_of_commitment", 
-        "type": "text"
-      }, 
-      {
-        "name": "last_known_residence_county", 
-        "type": "text"
-      }, 
-      {
-        "name": "gender", 
-        "type": "text"
-      }, 
-      {
-        "name": "age_at_admission", 
-        "type": "real"
-      }, 
-      {
-        "name": "most_serious_crime", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "prison_admissions_beginning_2008"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "prison_admissions_beginning_2008"
 }

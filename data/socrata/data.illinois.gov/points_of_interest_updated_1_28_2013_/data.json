@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/points_of_interest_updated_1_28_2013_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/geospatial/wb9c-v9ps", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/geospatial/wb9c-v9ps", 
   "description": "Points of Interest in Champaign, IL", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Points of Interest (Updated 1-28-2013)", 
-  "schema": {}, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "points_of_interest_updated_1_28_2013_"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "points_of_interest_updated_1_28_2013_"
 }

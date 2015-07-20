@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/canberra_centenary_trail/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/www.data.act.gov.au/api/geospatial/86di-ncd5", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/www.data.act.gov.au/api/geospatial/86di-ncd5", 
   "description": "A map of the Canberra Centenary Trail, a 145 kilometre selfguided loop trail for walkers and touring cyclists. The trail showcases Canberra and takes users on a\r\njourney between urban and rural environments.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Canberra Centenary Trail", 
-  "schema": {}, 
-  "schemaName": "socrata/www.data.act.gov.au", 
-  "tableName": "canberra_centenary_trail"
+  "schema": "socrata/www.data.act.gov.au", 
+  "status": "needs review", 
+  "table": "canberra_centenary_trail"
 }

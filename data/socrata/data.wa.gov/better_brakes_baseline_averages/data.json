@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wa_better_brakes_baseline_averages/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/7kgt-33mc/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.wa.gov/api/views/7kgt-33mc/rows.csv", 
   "description": "This dataset contains information reported by manufacturers of brake friction materials as part the Better Brakes Law, Chapter 70.285 RCW. It contains the average concentrations of copper, nickel, zinc, and antimony in brake friction materials.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "Better Brakes - Baseline Averages", 
-  "schema": {
-    "columns": [
-      {
-        "name": "element", 
-        "type": "text"
-      }, 
-      {
-        "name": "vehicle_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "average_reported_concentration", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.wa.gov", 
-  "tableName": "better_brakes_baseline_averages"
+  "schema": "socrata/data.wa.gov", 
+  "status": "needs review", 
+  "table": "better_brakes_baseline_averages"
 }

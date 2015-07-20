@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_film_locations_in_san_francisco/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/yitu-d5am/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sfgov.org/api/views/yitu-d5am/rows.csv", 
   "description": "If you love movies, and you love San Francisco, you're bound to love this -- a listing of filming locations of movies shot in San Francisco from 1924 - 2010. You'll find the titles, locations, fun facts, names of the director, writer, actors, and studio for most of these films.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,54 +13,7 @@
     }
   }, 
   "name": "Film Locations in San Francisco", 
-  "schema": {
-    "columns": [
-      {
-        "name": "title", 
-        "type": "text"
-      }, 
-      {
-        "name": "release_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "locations", 
-        "type": "text"
-      }, 
-      {
-        "name": "fun_facts", 
-        "type": "text"
-      }, 
-      {
-        "name": "production_company", 
-        "type": "text"
-      }, 
-      {
-        "name": "distributor", 
-        "type": "text"
-      }, 
-      {
-        "name": "director", 
-        "type": "text"
-      }, 
-      {
-        "name": "writer", 
-        "type": "text"
-      }, 
-      {
-        "name": "actor_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "actor_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "actor_3", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sfgov.org", 
-  "tableName": "film_locations_in_san_francisco"
+  "schema": "socrata/data.sfgov.org", 
+  "status": "needs review", 
+  "table": "film_locations_in_san_francisco"
 }

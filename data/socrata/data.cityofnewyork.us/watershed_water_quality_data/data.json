@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_watershed_water_quality_data/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/y43c-5n92/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/y43c-5n92/rows.csv", 
   "description": "Results of daily source water monitoring for turbiditiy and fecal coliform at Delaware Aqueduct Shaft 18.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "Watershed Water Quality Data", 
-  "schema": {
-    "columns": [
-      {
-        "name": "site", 
-        "type": "text"
-      }, 
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "turbidity_ntu_at_12am", 
-        "type": "real"
-      }, 
-      {
-        "name": "turbidity_ntu_at_4am", 
-        "type": "real"
-      }, 
-      {
-        "name": "turbidity_ntu_at_8am", 
-        "type": "real"
-      }, 
-      {
-        "name": "turbidity_ntu_at_12pm", 
-        "type": "real"
-      }, 
-      {
-        "name": "turbidity_ntu_at_4pm", 
-        "type": "real"
-      }, 
-      {
-        "name": "turbidity_ntu_at_8pm", 
-        "type": "real"
-      }, 
-      {
-        "name": "average_24hrturbidity_ntu", 
-        "type": "real"
-      }, 
-      {
-        "name": "coliform_fecal_fc_100ml", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "watershed_water_quality_data"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "watershed_water_quality_data"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_ssmma_social_services/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/c2pa-9a2v/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/c2pa-9a2v/rows.csv", 
   "description": "This dataset is a listing of social service agencies in the Chicago Southland region.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,74 +13,7 @@
     }
   }, 
   "name": "SSMMA Social Services", 
-  "schema": {
-    "columns": [
-      {
-        "name": "objectid", 
-        "type": "real"
-      }, 
-      {
-        "name": "x", 
-        "type": "real"
-      }, 
-      {
-        "name": "y", 
-        "type": "real"
-      }, 
-      {
-        "name": "match_addr", 
-        "type": "text"
-      }, 
-      {
-        "name": "agency_nam", 
-        "type": "text"
-      }, 
-      {
-        "name": "category", 
-        "type": "text"
-      }, 
-      {
-        "name": "website", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone_numb", 
-        "type": "text"
-      }, 
-      {
-        "name": "add_num", 
-        "type": "real"
-      }, 
-      {
-        "name": "municipali", 
-        "type": "text"
-      }, 
-      {
-        "name": "editor", 
-        "type": "text"
-      }, 
-      {
-        "name": "propreitar", 
-        "type": "text"
-      }, 
-      {
-        "name": "universal", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_3", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "ssmma_social_services"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "ssmma_social_services"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_average_total_pumpage_per_capita/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/hh3n-3s7c/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/views/hh3n-3s7c/rows.csv", 
   "description": "Per capita water use based on total water pumped from treatment plants.  This indicator includes water sold to all user classes (including industrial and wholesale) as well as unaccounted for water.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "Average total pumpage per capita", 
-  "schema": {
-    "columns": [
-      {
-        "name": "fiscalyear", 
-        "type": "real"
-      }, 
-      {
-        "name": "pumpage", 
-        "type": "real"
-      }, 
-      {
-        "name": "water_service_population", 
-        "type": "real"
-      }, 
-      {
-        "name": "pumpage_per_capita", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "average_total_pumpage_per_capita"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "average_total_pumpage_per_capita"
 }

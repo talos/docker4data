@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_don_neighdis/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/q7ue-prx8/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/q7ue-prx8/rows.csv", 
   "description": "Current neighborhood district alignment", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,86 +13,7 @@
     }
   }, 
   "name": "DON.NEIGHDIS", 
-  "schema": {
-    "columns": [
-      {
-        "name": "objectid", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape", 
-        "type": "text"
-      }, 
-      {
-        "name": "area", 
-        "type": "real"
-      }, 
-      {
-        "name": "perimeter", 
-        "type": "real"
-      }, 
-      {
-        "name": "neighdis_", 
-        "type": "real"
-      }, 
-      {
-        "name": "neighdis_i", 
-        "type": "real"
-      }, 
-      {
-        "name": "poly_", 
-        "type": "real"
-      }, 
-      {
-        "name": "subclass", 
-        "type": "text"
-      }, 
-      {
-        "name": "subclass_", 
-        "type": "real"
-      }, 
-      {
-        "name": "rings_ok", 
-        "type": "real"
-      }, 
-      {
-        "name": "rings_nok", 
-        "type": "real"
-      }, 
-      {
-        "name": "offcl_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "symbol", 
-        "type": "real"
-      }, 
-      {
-        "name": "nbhood", 
-        "type": "text"
-      }, 
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "area_1", 
-        "type": "real"
-      }, 
-      {
-        "name": "len", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape_length", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape_area", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "don_neighdis"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "don_neighdis"
 }

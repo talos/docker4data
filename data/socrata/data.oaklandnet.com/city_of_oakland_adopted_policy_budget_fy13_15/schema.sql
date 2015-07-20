@@ -1,0 +1,21 @@
+CREATE TABLE "city_of_oakland_adopted_policy_budget_fy13_15" (
+	"budget"	text,
+	"department"	text,
+	"division"	text,
+	"org_code"	real,
+	"org_description"	text,
+	"fund_code"	real,
+	"fund_description"	text,
+	"project_code"	text,
+	"project_description"	text,
+	"program_code"	text,
+	"program_description"	text,
+	"account_type"	text,
+	"account_category"	text,
+	"account_code"	real,
+	"account_description"	text,
+	"amount"	text,
+	"child_project_and_desc"	text,
+	"blank"	text,
+	"none"	text
+);

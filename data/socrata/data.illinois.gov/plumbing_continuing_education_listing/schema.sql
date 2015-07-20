@@ -1,0 +1,20 @@
+CREATE TABLE "plumbing_continuing_education_listing" (
+	"training_type"	text,
+	"date"	timestamp,
+	"time"	text,
+	"location"	text,
+	"location_address"	text,
+	"location_city"	text,
+	"location_state"	text,
+	"location_zip_code"	real,
+	"contact_name"	text,
+	"contact_phone"	text,
+	"contact_email"	text,
+	"contact_website"	text,
+	"maximum_seating"	text,
+	"fee"	text,
+	"credit_hours"	real,
+	"state_sponsored"	text,
+	"comments_special_criteria"	text,
+	"location1"	text
+);

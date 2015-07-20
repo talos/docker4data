@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_medicare_hospital_acquired_condition_reduction_program/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/yq43-i98g/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.medicare.gov/api/views/yq43-i98g/rows.csv", 
   "description": "In October 2014, CMS began reducing Medicare payments for subsection (d) hospitals that rank in the worst performing quartile with respect to hospital-acquired conditions (HACs). Hospitals with a Total HAC Score above the 75th percentile of the Total HAC Score distribution may be subject to the payment reduction. This table contains a hospital\u2019s measure, domain and Total HAC scores. The measure and domain scores comprise the Total HAC Score.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,70 +12,7 @@
     }
   }, 
   "name": "Hospital-Acquired Condition Reduction Program", 
-  "schema": {
-    "columns": [
-      {
-        "name": "hospital_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "provider_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "fiscal_year", 
-        "type": "text"
-      }, 
-      {
-        "name": "domain_1_score", 
-        "type": "text"
-      }, 
-      {
-        "name": "ahrq_psi_90_score", 
-        "type": "text"
-      }, 
-      {
-        "name": "domain_1_start_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "domain_1_end_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "domain_2_score", 
-        "type": "text"
-      }, 
-      {
-        "name": "clabsi_score", 
-        "type": "text"
-      }, 
-      {
-        "name": "cauti_score", 
-        "type": "text"
-      }, 
-      {
-        "name": "domain_2_start_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "domain_2_end_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "total_hac_score", 
-        "type": "text"
-      }, 
-      {
-        "name": "footnotes", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.medicare.gov", 
-  "tableName": "hospital_acquired_condition_reduction_program"
+  "schema": "socrata/data.medicare.gov", 
+  "status": "needs review", 
+  "table": "hospital_acquired_condition_reduction_program"
 }

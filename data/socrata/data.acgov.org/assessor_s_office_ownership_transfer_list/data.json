@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_acgov_assessor_s_office_ownership_transfer_list/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.acgov.org/api/views/x2sn-ehce/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.acgov.org/api/views/x2sn-ehce/rows.csv", 
   "description": "Two Year Transfer List As Of March 8, 2015\r\nOwnership transfer records for Alameda County residential and commercial properties for the past 2 years.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,94 +13,7 @@
     }
   }, 
   "name": "Assessor's Office Ownership Transfer List", 
-  "schema": {
-    "columns": [
-      {
-        "name": "sort_parcel", 
-        "type": "text"
-      }, 
-      {
-        "name": "print_parcel", 
-        "type": "text"
-      }, 
-      {
-        "name": "use_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "use_code_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "pre_dir", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_suffix", 
-        "type": "text"
-      }, 
-      {
-        "name": "post_dir", 
-        "type": "text"
-      }, 
-      {
-        "name": "unit_desig", 
-        "type": "text"
-      }, 
-      {
-        "name": "unit_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "city_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "state_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "zip_code_plus_4", 
-        "type": "real"
-      }, 
-      {
-        "name": "doc_dt", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "transfer_dt", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "doc_prefix", 
-        "type": "real"
-      }, 
-      {
-        "name": "doc_series", 
-        "type": "real"
-      }, 
-      {
-        "name": "value_from_trans_tax", 
-        "type": "real"
-      }, 
-      {
-        "name": "doc_parcel_count", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.acgov.org", 
-  "tableName": "assessor_s_office_ownership_transfer_list"
+  "schema": "socrata/data.acgov.org", 
+  "status": "needs review", 
+  "table": "assessor_s_office_ownership_transfer_list"
 }

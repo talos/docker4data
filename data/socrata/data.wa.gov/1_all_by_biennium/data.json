@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wa_1_all_by_biennium/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/vsr8-3iup/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.wa.gov/api/views/vsr8-3iup/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,22 +9,7 @@
     }
   }, 
   "name": "1 -- All $$ By Biennium", 
-  "schema": {
-    "columns": [
-      {
-        "name": "biennium", 
-        "type": "text"
-      }, 
-      {
-        "name": "all", 
-        "type": "real"
-      }, 
-      {
-        "name": "cumulative_total", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.wa.gov", 
-  "tableName": "1_all_by_biennium"
+  "schema": "socrata/data.wa.gov", 
+  "status": "needs review", 
+  "table": "1_all_by_biennium"
 }

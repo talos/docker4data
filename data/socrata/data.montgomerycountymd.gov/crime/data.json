@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/crime/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/icn6-v9z3/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/icn6-v9z3/rows.csv", 
   "description": "**See the Attachment section in the About menu for a quick start guide***Updated daily postings on Montgomery County\u2019s open data website, dataMontgomery, provide the public with direct access to crime statistic databases - including raw data, mapping and search functions \u2013 of reported County crime. The data presented is derived from reported crimes classified according to Maryland criminal code and documented by approved police incident reports. The data is compiled by \u201cEJustice\u201d, a respected law enforcement records-management system used by the Montgomery County Police Department and many other law enforcement agencies. To protect victims\u2019 privacy, no names or other personal information are released. Residential addresses are rounded to the nearest hundred block. All data is refreshed on a quarterly basis to reflect any changes in status due to on-going police investigation.  Update Frequency : Daily.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,90 +12,7 @@
     }
   }, 
   "name": "Crime", 
-  "schema": {
-    "columns": [
-      {
-        "name": "case_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "incident_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "narrative", 
-        "type": "text"
-      }, 
-      {
-        "name": "district", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "place", 
-        "type": "text"
-      }, 
-      {
-        "name": "sector", 
-        "type": "text"
-      }, 
-      {
-        "name": "beat", 
-        "type": "text"
-      }, 
-      {
-        "name": "pra", 
-        "type": "text"
-      }, 
-      {
-        "name": "start_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "end_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "police_district_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "geolocation", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.montgomerycountymd.gov", 
-  "tableName": "crime"
+  "schema": "socrata/data.montgomerycountymd.gov", 
+  "status": "needs review", 
+  "table": "crime"
 }

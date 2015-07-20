@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_short_term_occupational_projections/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/dyxu-i752/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/dyxu-i752/rows.csv", 
   "description": "Short-term Occupational Projections for a 2 year time horizon are provided for the state and 10 labor market regions to provide individuals and organizations with an occupational outlook to make informed decisions.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,54 +13,7 @@
     }
   }, 
   "name": "Short-term Occupational Projections", 
-  "schema": {
-    "columns": [
-      {
-        "name": "area", 
-        "type": "text"
-      }, 
-      {
-        "name": "period", 
-        "type": "text"
-      }, 
-      {
-        "name": "occupation_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "occupation_title", 
-        "type": "text"
-      }, 
-      {
-        "name": "base_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "projected_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "net_change", 
-        "type": "real"
-      }, 
-      {
-        "name": "percent_change", 
-        "type": "text"
-      }, 
-      {
-        "name": "total_annual_openings", 
-        "type": "real"
-      }, 
-      {
-        "name": "growth_annual_openings", 
-        "type": "real"
-      }, 
-      {
-        "name": "replacement_annual_openings", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "short_term_occupational_projections"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "short_term_occupational_projections"
 }

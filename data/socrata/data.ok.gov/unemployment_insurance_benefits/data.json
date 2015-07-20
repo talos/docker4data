@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_unemployment_insurance_benefits/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/cunp-bkg2/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/cunp-bkg2/rows.csv", 
   "description": "Decrease the average number of weeks that recipients receive state unemployment insurance benefits from 16.58 weeks in 2013 to 13.9 weeks by 2018.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "Unemployment Insurance Benefits", 
-  "schema": {
-    "columns": [
-      {
-        "name": "years", 
-        "type": "text"
-      }, 
-      {
-        "name": "historical_data", 
-        "type": "real"
-      }, 
-      {
-        "name": "target", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "unemployment_insurance_benefits"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "unemployment_insurance_benefits"
 }

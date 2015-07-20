@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/public_health_statistics_selected_underlying_causes_of_death_in_chicago_2006_2010/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/j6cj-r444/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/j6cj-r444/rows.csv", 
   "description": "This dataset contains the cumulative number of deaths, average number of deaths annually, average annual crude and adjusted death rates with corresponding 95% confidence intervals, and average annual years of potential life lost per 100,000 residents aged 75 and younger due to selected causes of death, by Chicago community area, for the years 2006 \u2013 2010. A ranking for each measure is also provided, with the highest value indicated with a ranking of 1.  See the full description at: https://data.cityofchicago.org/api/views/6vw3-8p6f/files/CqPqfHSv8UUAoXCBjn4_tLqcQHhb36Ih4-meM-4zNzs?download=true&filename=P:\\EPI\\OEPHI\\MATERIALS\\REFERENCES\\MORTALITY\\Dataset_Description_06_10_PORTAL_ONLY.pdf", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,78 +13,7 @@
     }
   }, 
   "name": "Public Health Statistics- Selected underlying causes of death in Chicago, 2006 \u2013 2010", 
-  "schema": {
-    "columns": [
-      {
-        "name": "cause_of_death", 
-        "type": "text"
-      }, 
-      {
-        "name": "community_area", 
-        "type": "real"
-      }, 
-      {
-        "name": "community_area_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "cumulative_deaths_2004_2008", 
-        "type": "real"
-      }, 
-      {
-        "name": "cumulative_deaths_rank", 
-        "type": "real"
-      }, 
-      {
-        "name": "average_annual_deaths_2004_2008", 
-        "type": "real"
-      }, 
-      {
-        "name": "average_crude_rate_2004_2008", 
-        "type": "real"
-      }, 
-      {
-        "name": "crude_rate_lower_ci", 
-        "type": "real"
-      }, 
-      {
-        "name": "crude_rate_upper_ci", 
-        "type": "real"
-      }, 
-      {
-        "name": "crude_rate_rank", 
-        "type": "real"
-      }, 
-      {
-        "name": "average_adjusted_rate_2004_2008", 
-        "type": "real"
-      }, 
-      {
-        "name": "adjusted_rate_lower_ci", 
-        "type": "real"
-      }, 
-      {
-        "name": "adjusted_rate_upper_ci", 
-        "type": "real"
-      }, 
-      {
-        "name": "adjusted_rate_rank", 
-        "type": "real"
-      }, 
-      {
-        "name": "average_annual_years_of_potential_life_lost_rate_2004_2008", 
-        "type": "real"
-      }, 
-      {
-        "name": "ypll_rate_rank", 
-        "type": "real"
-      }, 
-      {
-        "name": "warning", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "public_health_statistics_selected_underlying_causes_of_death_in_chicago_2006_2010"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "public_health_statistics_selected_underlying_causes_of_death_in_chicago_2006_2010"
 }

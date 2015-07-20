@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_canal_system_lift_bridges/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/pe3j-9bkg/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/pe3j-9bkg/rows.csv", 
   "description": "The New York State Canal System is a 524 mile inland waterway that includes 16 lift bridges, which are operationally left in the down position to allow vehicular road traffic to pass over the canal, but then are lifted on demand to allow vessels to pass beneath. Information provided in this dataset includes the name of each lift bridge, its phone number, and specific location by mileage along the canal and geographic coordinates.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "Canal System Lift Bridges", 
-  "schema": {
-    "columns": [
-      {
-        "name": "canal_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "mile", 
-        "type": "real"
-      }, 
-      {
-        "name": "name_location", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "notes", 
-        "type": "text"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "canal_system_lift_bridges"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "canal_system_lift_bridges"
 }

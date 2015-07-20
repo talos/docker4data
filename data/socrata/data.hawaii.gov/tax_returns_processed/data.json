@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_tax_returns_processed/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/xwuk-s2i8/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/xwuk-s2i8/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,34 +9,7 @@
     }
   }, 
   "name": "Tax Returns Processed", 
-  "schema": {
-    "columns": [
-      {
-        "name": "mo", 
-        "type": "real"
-      }, 
-      {
-        "name": "wk", 
-        "type": "real"
-      }, 
-      {
-        "name": "yr", 
-        "type": "real"
-      }, 
-      {
-        "name": "type", 
-        "type": "text"
-      }, 
-      {
-        "name": "paper", 
-        "type": "real"
-      }, 
-      {
-        "name": "electronic", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "tax_returns_processed"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "tax_returns_processed"
 }

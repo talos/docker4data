@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/new_york_power_authority_nypa_electric_supply_rates_governmental_entities_beginning_2012/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/tj6m-a24c/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/tj6m-a24c/rows.csv", 
   "description": "The New York Power Authority provides low-cost power to help support jobs statewide while reducing public-sector costs. The Authority\u2019s customer base includes large and small businesses, not-for-profit organizations, community-owned electric systems and rural electric cooperatives and government entities. This data includes the electric supply rates that the Authority offers to its Governmental Customers.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "New York Power Authority (NYPA) Electric Supply Rates \u2013 Governmental Entities: Beginning 2012", 
-  "schema": {
-    "columns": [
-      {
-        "name": "govermental_entity", 
-        "type": "text"
-      }, 
-      {
-        "name": "service_classification", 
-        "type": "text"
-      }, 
-      {
-        "name": "ratetype", 
-        "type": "text"
-      }, 
-      {
-        "name": "period", 
-        "type": "text"
-      }, 
-      {
-        "name": "production_demand_price_kw", 
-        "type": "real"
-      }, 
-      {
-        "name": "production_energy_price_mills_kwh", 
-        "type": "real"
-      }, 
-      {
-        "name": "production_on_peak_energy_price_mills_kwh", 
-        "type": "real"
-      }, 
-      {
-        "name": "production_offpeak_energy_price_mills_kwh", 
-        "type": "real"
-      }, 
-      {
-        "name": "data_as_of", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "new_york_power_authority_nypa_electric_supply_rates_governmental_entities_beginning_2012"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "new_york_power_authority_nypa_electric_supply_rates_governmental_entities_beginning_2012"
 }

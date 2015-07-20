@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/hurricane_evacuation_zones/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/geospatial/dxwc-w32c", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/geospatial/uihr-hn7s", 
   "description": "This dataset shows hurricane evacuation zones. Hurricane evacuation zones are the areas of the city that may need to be evacuated due to life safety-related threats from hurricane storm surge. These areas may be inundated by storm surge or isolated by storm surge waters. There are six zones, ranked by the risk of storm surge impact, with zone 1 being the most likely to flood. In the event of a hurricane or tropical storm, residents in these zones may be ordered to evacuate. Areas with a zone value of 'X' are not in any evacuation zone. Areas with a zone value of '0' are either water, small piers, or uninhabited islands.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,13 +10,11 @@
     "category": "Public Safety", 
     "description": "Hurricane Evacuation Zones are determined by New York City Emergency Management and represent varying threat levels of coastal flooding resulting from storm surge. Hurricane evacuation zones should not be confused with flood insurance risk zones, which are designated by FEMA and available in the form of Flood Insurance Rate Maps (FIRMs).", 
     "socrata": {
-      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/dxwc-w32c.json"
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/uihr-hn7s.json"
     }
   }, 
   "name": "Hurricane Evacuation Zones", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "hurricane_evacuation_zones"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "hurricane_evacuation_zones"
 }

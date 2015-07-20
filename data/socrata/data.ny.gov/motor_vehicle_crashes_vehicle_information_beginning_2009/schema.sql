@@ -1,0 +1,20 @@
+CREATE TABLE "motor_vehicle_crashes_vehicle_information_beginning_2009" (
+	"year"	real,
+	"case_vehicle_id"	real,
+	"vehicle_body_type"	text,
+	"registration_class"	text,
+	"action_prior_to_accident"	text,
+	"type_axles_of_truck_or_bus"	text,
+	"direction_of_travel"	text,
+	"fuel_type"	text,
+	"vehicle_year"	text,
+	"state_of_registration"	text,
+	"number_of_occupants"	text,
+	"engine_cylinders"	text,
+	"vehicle_make"	text,
+	"contributing_factor_1"	text,
+	"contributing_factor_1_description"	text,
+	"contributing_factor_2"	text,
+	"contributing_factor_2_description"	text,
+	"event_type"	text
+);

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_technology_matching_funds/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/jxdj-yj7q/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/jxdj-yj7q/rows.csv", 
   "description": "All awarded Technology Matching Fund projects from 1998-2013.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "Technology Matching Funds", 
-  "schema": {
-    "columns": [
-      {
-        "name": "organization_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "project_title", 
-        "type": "text"
-      }, 
-      {
-        "name": "project_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "type", 
-        "type": "text"
-      }, 
-      {
-        "name": "award_amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "match_amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "award_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip", 
-        "type": "real"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "technology_matching_funds"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "technology_matching_funds"
 }

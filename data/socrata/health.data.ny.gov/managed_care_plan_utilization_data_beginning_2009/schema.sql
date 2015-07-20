@@ -1,0 +1,20 @@
+CREATE TABLE "managed_care_plan_utilization_data_beginning_2009" (
+	"measurement_year"	text,
+	"payer"	text,
+	"plan_id"	text,
+	"plan_name"	text,
+	"measure"	text,
+	"measure_description"	text,
+	"age_category"	text,
+	"gender"	text,
+	"rate"	real,
+	"percentile_10th"	real,
+	"percentile_25th"	real,
+	"percentile_50th"	real,
+	"percentile_75th"	real,
+	"percentile_90th"	real,
+	"level_of_significance"	text,
+	"membermonths"	real,
+	"events"	real,
+	"days"	real
+);

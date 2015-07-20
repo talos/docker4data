@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/raleigh_parking_decks/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.raleighnc.gov/api/geospatial/e57b-j4y7", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.raleighnc.gov/api/geospatial/e57b-j4y7", 
   "description": "A KML file of City of Raleigh maintained parking decks.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Raleigh Parking Decks", 
-  "schema": {}, 
-  "schemaName": "socrata/data.raleighnc.gov", 
-  "tableName": "raleigh_parking_decks"
+  "schema": "socrata/data.raleighnc.gov", 
+  "status": "needs review", 
+  "table": "raleigh_parking_decks"
 }

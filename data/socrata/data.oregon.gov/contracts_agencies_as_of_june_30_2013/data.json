@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oregon_contracts_agencies_as_of_june_30_2013/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/ef3h-wxwx/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/api/views/ef3h-wxwx/rows.csv", 
   "description": "This report provides information on contracts and amendments to contracts issued from July 1, 2012 - June 30, 2013, for state agencies who are subject to DAS contracting authority. These agencies must report their contracting activity through the Oregon Procurement Information Network (ORPIN) system. The contract values reflected in this report are estimates.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,66 +12,7 @@
     }
   }, 
   "name": "Contracts: Agencies: As of June 30, 2013", 
-  "schema": {
-    "columns": [
-      {
-        "name": "agency_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "agency_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "award_number_w_amendments", 
-        "type": "text"
-      }, 
-      {
-        "name": "award_title", 
-        "type": "text"
-      }, 
-      {
-        "name": "award_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "contractor_information", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "original_start_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "amendment_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "expiration_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "original_award_value", 
-        "type": "real"
-      }, 
-      {
-        "name": "amendment_value", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_award_value_w_amendments", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "contracts_agencies_as_of_june_30_2013"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "contracts_agencies_as_of_june_30_2013"
 }

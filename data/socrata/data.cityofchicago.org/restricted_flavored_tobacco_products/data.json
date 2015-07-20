@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_restricted_flavored_tobacco_products/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/5wce-bks2/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/5wce-bks2/rows.csv", 
   "description": "A list of flavored tobacco products that may not be sold within 500 feet of a school in Chicago.  See http://www.cityofchicago.org/health/tobacco for the specifics of the regulation.  This list will be updated at the beginning of March, June, September, and December, each year.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "Restricted Flavored Tobacco Products", 
-  "schema": {
-    "columns": [
-      {
-        "name": "upc", 
-        "type": "text"
-      }, 
-      {
-        "name": "brand", 
-        "type": "text"
-      }, 
-      {
-        "name": "product", 
-        "type": "text"
-      }, 
-      {
-        "name": "flavor", 
-        "type": "text"
-      }, 
-      {
-        "name": "published_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "effective_date", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "restricted_flavored_tobacco_products"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "restricted_flavored_tobacco_products"
 }

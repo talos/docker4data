@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/sfpark_on_street_parking_census_201404/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/geospatial/unsu-istx", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.sfgov.org/api/geospatial/unsu-istx", 
   "description": "On street parking supply for San Francisco, 2008-2014. Please direct any data inquiries to info@sfpark.org", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Sfpark On Street Parking Census 201404", 
-  "schema": {}, 
-  "schemaName": "socrata/data.sfgov.org", 
-  "tableName": "sfpark_on_street_parking_census_201404"
+  "schema": "socrata/data.sfgov.org", 
+  "status": "needs review", 
+  "table": "sfpark_on_street_parking_census_201404"
 }

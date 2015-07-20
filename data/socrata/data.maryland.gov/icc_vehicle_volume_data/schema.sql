@@ -1,0 +1,21 @@
+CREATE TABLE "icc_vehicle_volume_data" (
+	"date"	timestamp,
+	"i_370_md_97"	real,
+	"_1_370_md_97"	real,
+	"i_370_md_97_total"	real,
+	"md_97_md_182"	real,
+	"md_97_md182"	real,
+	"md_97_md_182_total"	real,
+	"md_182_md_650_1"	real,
+	"md_182_md_650_2"	real,
+	"md_182_md_650_total"	real,
+	"md_650_us_29_1"	real,
+	"md_650_us_29_2"	real,
+	"md_650_us_29_total"	real,
+	"bc_rd_i_95_1"	real,
+	"bc_rd_i_95_2"	real,
+	"bc_rd_i_95_total"	real,
+	"konterra_dr_us_1_i17"	real,
+	"konterra_dr_us_1_i18"	real,
+	"konterra_dr_us_1_total"	real
+);

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_mo_completed_fafsas_reported_to_mdhe/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.mo.gov/api/views/t9f4-ncza/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.mo.gov/api/views/t9f4-ncza/rows.csv", 
   "description": "The Number of FAFSAs Completed column is updated daily.\r\nIf no seniors are reported for a school, the school will not be listed.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "Completed FAFSAs Reported to MDHE", 
-  "schema": {
-    "columns": [
-      {
-        "name": "ncessch", 
-        "type": "text"
-      }, 
-      {
-        "name": "school_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "school_year", 
-        "type": "text"
-      }, 
-      {
-        "name": "number_of_applications", 
-        "type": "text"
-      }, 
-      {
-        "name": "lastupdated", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "recordid", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.mo.gov", 
-  "tableName": "completed_fafsas_reported_to_mdhe"
+  "schema": "socrata/data.mo.gov", 
+  "status": "needs review", 
+  "table": "completed_fafsas_reported_to_mdhe"
 }

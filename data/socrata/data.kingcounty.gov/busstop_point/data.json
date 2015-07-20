@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/busstop_point/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/geospatial/5g8w-xc46", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.kingcounty.gov/api/geospatial/5g8w-xc46", 
   "description": "Metro Bus Stops in King County", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Busstop Point", 
-  "schema": {}, 
-  "schemaName": "socrata/data.kingcounty.gov", 
-  "tableName": "busstop_point"
+  "schema": "socrata/data.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "busstop_point"
 }

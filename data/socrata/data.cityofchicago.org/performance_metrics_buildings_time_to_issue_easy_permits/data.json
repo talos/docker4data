@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/performance_metrics_buildings_time_to_issue_easy_permits/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/7ray-xvet/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/7ray-xvet/rows.csv", 
   "description": "The Easy Permit Process allows home and building owners to obtain a permit to repair or replace the same or existing elements of a building, without making any changes to the structure of the building. Eligible projects include repairing or replacing drywall, flooring, fences, sheds or garages. This metric tracks the average number of days DOB takes to process individual Easy Permits, grouped by the week the permit was processed. The target process time is within 1.3 days. For more information about the Easy Permitting process, go to http://www.cityofchicago.org/city/en/depts/bldgs/provdrs/permit_proc.html.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "Performance Metrics - Buildings - Time to Issue Easy Permits", 
-  "schema": {
-    "columns": [
-      {
-        "name": "week", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "week_text", 
-        "type": "text"
-      }, 
-      {
-        "name": "average_days_to_permit", 
-        "type": "real"
-      }, 
-      {
-        "name": "target", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "performance_metrics_buildings_time_to_issue_easy_permits"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "performance_metrics_buildings_time_to_issue_easy_permits"
 }

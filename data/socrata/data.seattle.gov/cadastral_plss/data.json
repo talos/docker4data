@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_cadastral_plss/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/42vt-uxpy/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/42vt-uxpy/rows.csv", 
   "description": "Public Land Survey System for Seattle", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,70 +13,7 @@
     }
   }, 
   "name": "CADASTRAL_PLSS", 
-  "schema": {
-    "columns": [
-      {
-        "name": "objectid", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape", 
-        "type": "text"
-      }, 
-      {
-        "name": "p_area", 
-        "type": "real"
-      }, 
-      {
-        "name": "p_prmtr", 
-        "type": "real"
-      }, 
-      {
-        "name": "p_meridian", 
-        "type": "text"
-      }, 
-      {
-        "name": "p_township", 
-        "type": "real"
-      }, 
-      {
-        "name": "p_range", 
-        "type": "real"
-      }, 
-      {
-        "name": "p_section", 
-        "type": "real"
-      }, 
-      {
-        "name": "p_quarter", 
-        "type": "text"
-      }, 
-      {
-        "name": "p_sixteenth", 
-        "type": "text"
-      }, 
-      {
-        "name": "p_govtlot", 
-        "type": "real"
-      }, 
-      {
-        "name": "area", 
-        "type": "real"
-      }, 
-      {
-        "name": "len", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape_length", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape_area", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "cadastral_plss"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "cadastral_plss"
 }

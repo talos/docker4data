@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/boston_by_the_numbers_taxes_local_aid_and_fiscal_conditions/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/download/8362-4hzzapplication/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/download/8362-4hzz/application/pdf", 
   "description": "Boston by the Numbers is a series created by the BRA Research Division that highlights the characteristics of Boston's population and economy. This report highlights Boston's fiscal conditions and tax generation.", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,9 +13,7 @@
     }
   }, 
   "name": "Boston by the Numbers: Taxes, Local Aid and Fiscal Conditions", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "boston_by_the_numbers_taxes_local_aid_and_fiscal_conditions"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "boston_by_the_numbers_taxes_local_aid_and_fiscal_conditions"
 }

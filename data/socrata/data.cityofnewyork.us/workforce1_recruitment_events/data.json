@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_workforce1_recruitment_events/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/2rtd-7xur/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/kf2b-aeh5/rows.csv", 
   "description": "This is the list of the job recruitment events to help individuals to find the job in their particular field of interest", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -11,32 +7,13 @@
   "metadata": {
     "attribution": "Department of Small Business Services (SBS)", 
     "category": "Business", 
-    "description": "This is the list of the job recruitment events to help individuals to find the job in their particular field of interest", 
+    "description": "Schedule of recruitment events offered by Workforce1 Center", 
     "socrata": {
-      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/2rtd-7xur.json"
+      "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/kf2b-aeh5.json"
     }
   }, 
   "name": "Workforce1 Recruitment Events", 
-  "schema": {
-    "columns": [
-      {
-        "name": "position", 
-        "type": "text"
-      }, 
-      {
-        "name": "event_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "check_in_time", 
-        "type": "text"
-      }, 
-      {
-        "name": "event_location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "workforce1_recruitment_events"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "workforce1_recruitment_events"
 }

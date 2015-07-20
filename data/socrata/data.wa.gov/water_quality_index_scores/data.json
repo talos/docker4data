@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/water_quality_index_scores/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/u7ez-d8rb/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.wa.gov/api/views/u7ez-d8rb/rows.csv", 
   "description": "Water Quality Index scores by station. Used in conjunction with the WRIA_Stations dataset to produce the water quality tables for the bi-annual state of salmon report. (stateofsalmon.wa.gov)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Water Quality Index Scores", 
-  "schema": {
-    "columns": [
-      {
-        "name": "station", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "temperature", 
-        "type": "real"
-      }, 
-      {
-        "name": "average", 
-        "type": "real"
-      }, 
-      {
-        "name": "comment", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.wa.gov", 
-  "tableName": "water_quality_index_scores"
+  "schema": "socrata/data.wa.gov", 
+  "status": "needs review", 
+  "table": "water_quality_index_scores"
 }

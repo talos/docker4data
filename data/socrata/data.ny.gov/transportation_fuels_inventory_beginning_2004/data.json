@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_transportation_fuels_inventory_beginning_2004/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/7rev-x3j5/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/7rev-x3j5/rows.csv", 
   "description": "The Transportation Fuels Inventory dataset contains weekly stock amounts of  Central Atlantic diesel as well as gasoline from the Central Atlantic region (PADD 1B), East Coast (PADD 1) and the total U.S.  The dataset also contains fuel ethanol stocks for the East Coast and U.S. crude oil stocks. The data is collected on a weekly basis and measured in terms of thousands of barrels beginning in April 2004.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "Transportation Fuels Inventory: Beginning 2004", 
-  "schema": {
-    "columns": [
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "mid_atlantic_uls_diesel_stocks_thousand_barrels", 
-        "type": "real"
-      }, 
-      {
-        "name": "mid_atlantic_gasoline_stocks_thousand_barrels", 
-        "type": "real"
-      }, 
-      {
-        "name": "east_coast_gasoline_stocks_thousand_barrels", 
-        "type": "real"
-      }, 
-      {
-        "name": "east_coast_ethanol_stocks_thousand_barrels", 
-        "type": "real"
-      }, 
-      {
-        "name": "u_s_gasoline_stocks_thousand_barrels", 
-        "type": "real"
-      }, 
-      {
-        "name": "u_s_crude_oil_stocks_thousand_barrels", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "transportation_fuels_inventory_beginning_2004"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "transportation_fuels_inventory_beginning_2004"
 }

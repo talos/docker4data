@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_transportation_fuels_spot_prices_beginning_2006/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/k7gz-mn77/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/k7gz-mn77/rows.csv", 
   "description": "Transportation Fuels Spot Prices dataset provides weekly average spot price information for New York Harbor Conventional Gasoline, New York Harbor Ultra-Low Sulfur Diesel as well as Western Texas Intermediate (WTI) and Brent crude oil. The data is presented as a weekly average from June 2006 through current.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Transportation Fuels Spot Prices: Beginning 2006", 
-  "schema": {
-    "columns": [
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "ny_conventional_gasoline_spot_price_gal", 
-        "type": "real"
-      }, 
-      {
-        "name": "ny_ultra_low_sulfur_diesel_spot_price_gal", 
-        "type": "real"
-      }, 
-      {
-        "name": "wti_crude_oil_spot_price_barrel", 
-        "type": "real"
-      }, 
-      {
-        "name": "brent_crude_oil_spot_price_barrel", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "transportation_fuels_spot_prices_beginning_2006"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "transportation_fuels_spot_prices_beginning_2006"
 }

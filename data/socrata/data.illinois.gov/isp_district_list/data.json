@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_isp_district_list/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/n3g8-97x9/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/n3g8-97x9/rows.csv", 
   "description": "Includes Illinois State Police District Office designation, address, telephone number, and counties served.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,26 +12,7 @@
     }
   }, 
   "name": "ISP District List", 
-  "schema": {
-    "columns": [
-      {
-        "name": "district", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "telephone", 
-        "type": "text"
-      }, 
-      {
-        "name": "counties_served", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "isp_district_list"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "isp_district_list"
 }

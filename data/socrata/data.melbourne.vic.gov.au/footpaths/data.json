@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/footpaths/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/geospatial/tqjk-32d9", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/geospatial/tqjk-32d9", 
   "description": "This map shows the locations and outlines of all footpaths located within the city of Melbourne", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Footpaths", 
-  "schema": {}, 
-  "schemaName": "socrata/data.melbourne.vic.gov.au", 
-  "tableName": "footpaths"
+  "schema": "socrata/data.melbourne.vic.gov.au", 
+  "status": "needs review", 
+  "table": "footpaths"
 }

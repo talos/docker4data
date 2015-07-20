@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/water_resource_inventory_areas_wria_washington_state/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/geospatial/fwgq-q5ti", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.wa.gov/api/geospatial/fwgq-q5ti", 
   "description": "Areas for state water resource planning and administration.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Water Resource Inventory Areas (WRIA)  -- Washington State", 
-  "schema": {}, 
-  "schemaName": "socrata/data.wa.gov", 
-  "tableName": "water_resource_inventory_areas_wria_washington_state"
+  "schema": "socrata/data.wa.gov", 
+  "status": "needs review", 
+  "table": "water_resource_inventory_areas_wria_washington_state"
 }

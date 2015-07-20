@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/outdoor_furniture/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/views/8fgn-5q6t/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/views/8fgn-5q6t/rows.csv", 
   "description": "The City of Melbourne owns and maintains various objects and pieces of equipment installed on streets and roads for various purposes. This dataset includes Barbeques, Bicycle Rails, Bin Corrals, Bollards, Drinking Fountains, Floral Crate/Planter Boxs, Hoops, Horse Troughs, Information Pillars, Litter Bins, Picnic Setting, Seats.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,62 +13,7 @@
     }
   }, 
   "name": "Outdoor Furniture", 
-  "schema": {
-    "columns": [
-      {
-        "name": "gis_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "asset_class", 
-        "type": "text"
-      }, 
-      {
-        "name": "asset_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "model_no", 
-        "type": "text"
-      }, 
-      {
-        "name": "model_descr", 
-        "type": "text"
-      }, 
-      {
-        "name": "division", 
-        "type": "text"
-      }, 
-      {
-        "name": "company", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_desc", 
-        "type": "text"
-      }, 
-      {
-        "name": "condition_rating", 
-        "type": "real"
-      }, 
-      {
-        "name": "evaluation_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "upload_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "geometry", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.melbourne.vic.gov.au", 
-  "tableName": "outdoor_furniture"
+  "schema": "socrata/data.melbourne.vic.gov.au", 
+  "status": "needs review", 
+  "table": "outdoor_furniture"
 }

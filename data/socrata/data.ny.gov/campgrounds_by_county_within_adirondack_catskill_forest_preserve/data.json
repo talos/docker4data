@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/campgrounds_by_county_within_adirondack_catskill_forest_preserve/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/tnqf-vydw/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/tnqf-vydw/rows.csv", 
   "description": "The Department of Environmental Conservation operates 51 campgrounds located in the Adirondack and Catskill Parks. The campgrounds provide a wide variety of experiences, including island camping, tent and trailer camping, boat launching facilities, hiking trails, beaches and day use areas with picnic tables and grills. Fishing licenses are no longer being sold at any of our campground facilities. This data set provides a listing of the campgrounds, with direct links to individual web pages containing additional information for each campground.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "Campgrounds by County Within Adirondack & Catskill Forest Preserve", 
-  "schema": {
-    "columns": [
-      {
-        "name": "campground", 
-        "type": "text"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "url", 
-        "type": "text"
-      }, 
-      {
-        "name": "y", 
-        "type": "real"
-      }, 
-      {
-        "name": "x", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "campgrounds_by_county_within_adirondack_catskill_forest_preserve"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "campgrounds_by_county_within_adirondack_catskill_forest_preserve"
 }

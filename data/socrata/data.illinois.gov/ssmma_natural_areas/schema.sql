@@ -1,0 +1,22 @@
+CREATE TABLE "ssmma_natural_areas" (
+	"name"	text,
+	"ownership"	text,
+	"type"	text,
+	"acres"	real,
+	"description"	text,
+	"municipality"	text,
+	"county"	text,
+	"contact_na"	text,
+	"contact_ph"	text,
+	"contact_em"	text,
+	"contaminan"	text,
+	"editor"	text,
+	"propreitar"	real,
+	"universali"	text,
+	"shape_leng"	real,
+	"shape_area"	real,
+	"id"	real,
+	"point_x"	real,
+	"point_y"	real,
+	"location_1"	text
+);

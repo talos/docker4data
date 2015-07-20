@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_belleville_businesses_by_sector/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/a22h-ivbt/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/a22h-ivbt/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -15,22 +11,7 @@
     }
   }, 
   "name": "Belleville Businesses by Sector", 
-  "schema": {
-    "columns": [
-      {
-        "name": "business_sector", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "number_of_estabilshments", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "belleville_businesses_by_sector"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "belleville_businesses_by_sector"
 }

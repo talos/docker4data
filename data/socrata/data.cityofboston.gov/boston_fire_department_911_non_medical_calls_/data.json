@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/boston_fire_department_911_non_medical_calls_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/x67n-nzcu/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/api/views/x67n-nzcu/rows.csv", 
   "description": "extract for 2/21/2015-3/1/2015 for fire department, non-medical calls only", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,46 +12,7 @@
     }
   }, 
   "name": "Boston Fire Department 911 (Non-Medical Calls)", 
-  "schema": {
-    "columns": [
-      {
-        "name": "start_calendar_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "cad_agency_identifier", 
-        "type": "text"
-      }, 
-      {
-        "name": "measure_by_cad_event_type_cad_event_type_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "cad_event_type_case_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "cad_event_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "cad_event_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "udo_event_location_full_street_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "udo_sam_neighborhood", 
-        "type": "text"
-      }, 
-      {
-        "name": "start_standard_time", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "boston_fire_department_911_non_medical_calls_"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "boston_fire_department_911_non_medical_calls_"
 }

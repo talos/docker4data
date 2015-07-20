@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ccgisdata_commissioner_districts_historical_2000/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/geospatial/26nm-wd5q", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/geospatial/26nm-wd5q", 
   "description": "Historical data. For current boundaries see https://datacatalog.cookcountyil.gov/id/vx2u-6dxj. The purpose of this dataset is to indicate the boundary of each Commissioner district in Cook County, Illinois. These boundaries are based off of Census 2000 geographies and were in effect until the December 2014 County Commissioner elections.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "ccgisdata - Commissioner Districts - Historical - 2000", 
-  "schema": {}, 
-  "schemaName": "socrata/datacatalog.cookcountyil.gov", 
-  "tableName": "ccgisdata_commissioner_districts_historical_2000"
+  "schema": "socrata/datacatalog.cookcountyil.gov", 
+  "status": "needs review", 
+  "table": "ccgisdata_commissioner_districts_historical_2000"
 }

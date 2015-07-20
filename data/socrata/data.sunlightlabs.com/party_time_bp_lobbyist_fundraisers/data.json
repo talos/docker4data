@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sunlightlabs_party_time_bp_lobbyist_fundraisers/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sunlightlabs.com/api/views/2gh7-s5nn/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sunlightlabs.com/api/views/2gh7-s5nn/rows.csv", 
   "description": "BP lobbyists who have hosted congressional fundraisers since 2008, derived from Party Time (politicalpartytime.org) and OpenSecrets.org", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,26 +12,7 @@
     }
   }, 
   "name": "Party Time: BP Lobbyist Fundraisers", 
-  "schema": {
-    "columns": [
-      {
-        "name": "party_time_politicalpartytime_org_link", 
-        "type": "text"
-      }, 
-      {
-        "name": "beneficiary", 
-        "type": "text"
-      }, 
-      {
-        "name": "host_bolded_are_bp_lobbyists", 
-        "type": "text"
-      }, 
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sunlightlabs.com", 
-  "tableName": "party_time_bp_lobbyist_fundraisers"
+  "schema": "socrata/data.sunlightlabs.com", 
+  "status": "needs review", 
+  "table": "party_time_bp_lobbyist_fundraisers"
 }

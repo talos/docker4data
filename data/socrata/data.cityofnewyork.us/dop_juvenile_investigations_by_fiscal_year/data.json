@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/dop_juvenile_investigations_by_fiscal_year/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/3mji-gpg5/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/3mji-gpg5/rows.csv", 
   "description": "The number of presentence investigation reports completed for juveniles during the reporting period.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "DOP Juvenile Investigations by Fiscal Year", 
-  "schema": {
-    "columns": [
-      {
-        "name": "borough", 
-        "type": "text"
-      }, 
-      {
-        "name": "fiscal_year_ending_in_june_", 
-        "type": "real"
-      }, 
-      {
-        "name": "invenstigation_count", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "dop_juvenile_investigations_by_fiscal_year"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "dop_juvenile_investigations_by_fiscal_year"
 }

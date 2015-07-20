@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_raleighnc_adopted_budget_and_proposed_budget/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.raleighnc.gov/api/views/j4zz-52bc/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.raleighnc.gov/api/views/j4zz-52bc/rows.csv", 
   "description": "The published data set shows the FY2012-13 Adopted and FY2013-14 Proposed Operating Budget detail at the division and line-item level. See the attached documentation for a complete description of the data set and the budget reporting process.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "Adopted Budget and Proposed Budget", 
-  "schema": {
-    "columns": [
-      {
-        "name": "deptid_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "fund_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "account_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "budget_amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "budget_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "account_type", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.raleighnc.gov", 
-  "tableName": "adopted_budget_and_proposed_budget"
+  "schema": "socrata/data.raleighnc.gov", 
+  "status": "needs review", 
+  "table": "adopted_budget_and_proposed_budget"
 }

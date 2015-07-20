@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/measure_36a_percentage_of_children_with_a_healthy_weight_income_level/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/hjwi-gh3u/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/hjwi-gh3u/rows.csv", 
   "description": "Poverty is defined by the Health and Human Services poverty guidelines. For more information on the definition of poverty, please see the <a href=\"/help/glossary#P\" rel=\"external\">Glossary</a> under Help.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,30 +11,7 @@
     }
   }, 
   "name": "Measure 36a : Percentage of Children with a Healthy Weight | Income Level", 
-  "schema": {
-    "columns": [
-      {
-        "name": "measure_value", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "text"
-      }, 
-      {
-        "name": "income_level", 
-        "type": "text"
-      }, 
-      {
-        "name": "lower_ci", 
-        "type": "real"
-      }, 
-      {
-        "name": "upper_ci", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/healthmeasures.aspe.hhs.gov", 
-  "tableName": "measure_36a_percentage_of_children_with_a_healthy_weight_income_level"
+  "schema": "socrata/healthmeasures.aspe.hhs.gov", 
+  "status": "needs review", 
+  "table": "measure_36a_percentage_of_children_with_a_healthy_weight_income_level"
 }

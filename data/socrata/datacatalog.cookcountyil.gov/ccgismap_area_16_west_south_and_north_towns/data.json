@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ccgismap_area_16_west_south_and_north_towns/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/download/yekx-izpjapplication/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/download/yekx-izpj/application/pdf", 
   "description": "Cook County GIS Dept map of West, South and North Towns in a pdf format.  Includes streets and municipalities.", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "ccgismap - Area 16 West, South and North Towns", 
-  "schema": {}, 
-  "schemaName": "socrata/datacatalog.cookcountyil.gov", 
-  "tableName": "ccgismap_area_16_west_south_and_north_towns"
+  "schema": "socrata/datacatalog.cookcountyil.gov", 
+  "status": "needs review", 
+  "table": "ccgismap_area_16_west_south_and_north_towns"
 }

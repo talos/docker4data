@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/hospital_inpatient_potentially_preventable_complication_ppc_rates_by_hospital_sparcs_beginning_2009/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/s3du-3m47/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/health.data.ny.gov/api/views/s3du-3m47/rows.csv", 
   "description": "The dataset contains Potentially Preventable Complications\r\n(PPC) observed, expected, and risk\u2010adjusted rates for all payer\r\nbeneficiaries by hospital beginning in 2009.\r\nThe Potentially Preventable Complications (PPC), obtained from\r\nsoftware created by 3M Health Information Systems, are\r\nharmful events or negative outcomes that develop after hospital\r\nadmission and may result from processes of care and treatment\r\nrather than from natural progression of the underlying illness\r\nand are therefore potentially preventable.\r\nThe rates were calculated using Statewide Planning and\r\nResearch Cooperative System (SPARCS) inpatient data.\r\nThe observed, expected and risk adjusted rates for PPC are\r\npresented by hospital (including a statewide total).\r\n\r\n\r\nFor more information, check out: \r\nhttp://www.health.ny.gov/statistics/sparcs/ or go to the \"About\" tab.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "Hospital Inpatient Potentially Preventable Complication (PPC) Rates by Hospital (SPARCS): Beginning 2009", 
-  "schema": {
-    "columns": [
-      {
-        "name": "discharge_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "facility_id_2_2", 
-        "type": "real"
-      }, 
-      {
-        "name": "hospital_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "major_ppc_discharges", 
-        "type": "real"
-      }, 
-      {
-        "name": "at_risk_ppc_discharges", 
-        "type": "real"
-      }, 
-      {
-        "name": "observed_rate_per_10_000_discharges", 
-        "type": "real"
-      }, 
-      {
-        "name": "expected_major_ppc_discharges", 
-        "type": "real"
-      }, 
-      {
-        "name": "expected_rate_per_10_000_discharges", 
-        "type": "real"
-      }, 
-      {
-        "name": "risk_adjusted_rate_per_10_000_discharges", 
-        "type": "real"
-      }, 
-      {
-        "name": "difference_in_discharges", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/health.data.ny.gov", 
-  "tableName": "hospital_inpatient_potentially_preventable_complication_ppc_rates_by_hospital_sparcs_beginning_2009"
+  "schema": "socrata/health.data.ny.gov", 
+  "status": "needs review", 
+  "table": "hospital_inpatient_potentially_preventable_complication_ppc_rates_by_hospital_sparcs_beginning_2009"
 }

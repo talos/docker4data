@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_kingcounty_vashon_ridership_monthly/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/3v2f-it2c/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.kingcounty.gov/api/views/3v2f-it2c/rows.csv", 
   "description": "King County Ferry District, monthly ridership on Vashon Island ferry", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Vashon ridership monthly", 
-  "schema": {
-    "columns": [
-      {
-        "name": "month", 
-        "type": "text"
-      }, 
-      {
-        "name": "_1", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2013", 
-        "type": "real"
-      }, 
-      {
-        "name": "percent_change", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.kingcounty.gov", 
-  "tableName": "vashon_ridership_monthly"
+  "schema": "socrata/data.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "vashon_ridership_monthly"
 }

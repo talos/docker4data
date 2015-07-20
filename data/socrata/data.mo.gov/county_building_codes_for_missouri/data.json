@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_mo_county_building_codes_for_missouri/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.mo.gov/api/views/iq7s-izvt/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.mo.gov/api/views/iq7s-izvt/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -15,34 +11,7 @@
     }
   }, 
   "name": "County Building Codes for Missouri", 
-  "schema": {
-    "columns": [
-      {
-        "name": "fips", 
-        "type": "real"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "energy_building_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "residential_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "commercial_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "population", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.mo.gov", 
-  "tableName": "county_building_codes_for_missouri"
+  "schema": "socrata/data.mo.gov", 
+  "status": "needs review", 
+  "table": "county_building_codes_for_missouri"
 }

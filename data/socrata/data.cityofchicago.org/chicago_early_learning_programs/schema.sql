@@ -1,0 +1,23 @@
+CREATE TABLE "chicago_early_learning_programs" (
+	"key"	real,
+	"site_name"	text,
+	"description"	text,
+	"address"	text,
+	"city"	text,
+	"state"	text,
+	"zip"	text,
+	"phone_number"	text,
+	"url"	text,
+	"ages_served"	text,
+	"weekday_availability"	text,
+	"duration_hours"	text,
+	"program_information"	text,
+	"languages_other_than_english"	text,
+	"other_features"	text,
+	"accreditation"	text,
+	"quality"	text,
+	"quality_rating"	text,
+	"latitude"	real,
+	"longitude"	real,
+	"location"	text
+);

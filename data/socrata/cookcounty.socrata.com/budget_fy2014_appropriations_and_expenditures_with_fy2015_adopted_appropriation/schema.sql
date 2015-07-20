@@ -1,0 +1,21 @@
+CREATE TABLE "budget_fy2014_appropriations_and_expenditures_with_fy2015_adopted_appropriation" (
+	"office"	text,
+	"control_officer"	text,
+	"fund"	text,
+	"fund_type"	text,
+	"general_fund_type"	text,
+	"bureau"	text,
+	"tabcode"	text,
+	"tab"	text,
+	"department_number"	text,
+	"department_name"	text,
+	"object_class"	real,
+	"object_class_title"	text,
+	"account"	real,
+	"object_account"	real,
+	"object_account_description"	text,
+	"fy2014_adopted"	text,
+	"fy2014_adjusted"	text,
+	"fy2014_expenditures"	text,
+	"fy2015_adopted"	text
+);

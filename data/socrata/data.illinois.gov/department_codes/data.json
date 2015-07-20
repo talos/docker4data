@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_department_codes/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/wyic-g7r7/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/wyic-g7r7/rows.csv", 
   "description": "City of Rockford Finance Department Codes", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,26 +12,7 @@
     }
   }, 
   "name": "Department Codes", 
-  "schema": {
-    "columns": [
-      {
-        "name": "seg_no", 
-        "type": "real"
-      }, 
-      {
-        "name": "seg_desc", 
-        "type": "text"
-      }, 
-      {
-        "name": "code", 
-        "type": "real"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "department_codes"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "department_codes"
 }

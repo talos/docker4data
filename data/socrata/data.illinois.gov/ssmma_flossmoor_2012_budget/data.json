@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ssmma_flossmoor_2012_budget/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/download/gb7k-3diaapplication/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/download/gb7k-3dia/application/pdf", 
   "description": "This is the budget for FY 12 for the Village of Flossmoor", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "SSMMA Flossmoor 2012 Budget", 
-  "schema": {}, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "ssmma_flossmoor_2012_budget"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "ssmma_flossmoor_2012_budget"
 }

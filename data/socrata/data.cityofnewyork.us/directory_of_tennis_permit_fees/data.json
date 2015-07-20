@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_directory_of_tennis_permit_fees/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/9n2n-hkug/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/9n2n-hkug/rows.csv", 
   "description": "Fee details for obtaining Tennis Permits", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "Directory of Tennis Permit Fees", 
-  "schema": {
-    "columns": [
-      {
-        "name": "age", 
-        "type": "text"
-      }, 
-      {
-        "name": "fee", 
-        "type": "text"
-      }, 
-      {
-        "name": "duplicate_permit_fee", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "directory_of_tennis_permit_fees"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "directory_of_tennis_permit_fees"
 }

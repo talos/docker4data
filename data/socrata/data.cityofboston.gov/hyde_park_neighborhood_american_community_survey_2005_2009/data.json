@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/hyde_park_neighborhood_american_community_survey_2005_2009/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/download/jmi4-qjfnapplication/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/download/jmi4-qjfn/application/pdf", 
   "description": "A detailed look into the demographic, economic and housing characteristics of Hyde Park using data gathered from the American Community Survey 2005-2009.", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,9 +13,7 @@
     }
   }, 
   "name": "Hyde Park, neighborhood: American Community Survey 2005-2009", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "hyde_park_neighborhood_american_community_survey_2005_2009"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "hyde_park_neighborhood_american_community_survey_2005_2009"
 }

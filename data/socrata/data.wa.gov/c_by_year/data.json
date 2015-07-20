@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wa_c_by_year/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/t9jv-eu3s/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.wa.gov/api/views/t9jv-eu3s/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,30 +9,7 @@
     }
   }, 
   "name": "C -- $$ By Year", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "state", 
-        "type": "real"
-      }, 
-      {
-        "name": "federal", 
-        "type": "real"
-      }, 
-      {
-        "name": "local_match", 
-        "type": "real"
-      }, 
-      {
-        "name": "total", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.wa.gov", 
-  "tableName": "c_by_year"
+  "schema": "socrata/data.wa.gov", 
+  "status": "needs review", 
+  "table": "c_by_year"
 }

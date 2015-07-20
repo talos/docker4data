@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_tax_credits_fiscal_year_2011/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/jt2d-fkhg/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/jt2d-fkhg/rows.csv", 
   "description": "Tax credit information represents a credit pursuant to the Oklahoma Income Tax Act against tax liability which is taken by a taxpayer.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Tax Credits - Fiscal Year 2011", 
-  "schema": {
-    "columns": [
-      {
-        "name": "fiscal_year", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "credit_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "credit_amount", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "tax_credits_fiscal_year_2011"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "tax_credits_fiscal_year_2011"
 }

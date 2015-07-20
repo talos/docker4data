@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_acgov_secured_properties_top_25_tax_payers_by_value/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.acgov.org/api/views/8muc-iafh/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.acgov.org/api/views/8muc-iafh/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -14,26 +10,7 @@
     }
   }, 
   "name": "Secured Properties TOP 25 Tax Payers By Value", 
-  "schema": {
-    "columns": [
-      {
-        "name": "assessee", 
-        "type": "text"
-      }, 
-      {
-        "name": "situs_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "assessed_value", 
-        "type": "real"
-      }, 
-      {
-        "name": "tax_due_amount", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.acgov.org", 
-  "tableName": "secured_properties_top_25_tax_payers_by_value"
+  "schema": "socrata/data.acgov.org", 
+  "status": "needs review", 
+  "table": "secured_properties_top_25_tax_payers_by_value"
 }

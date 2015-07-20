@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_sti_speciality_clinics/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/ajzs-akmm/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/ajzs-akmm/rows.csv", 
   "description": "Sexually Transmitted Infection (STI) Specialty Clinic locations, hours of operation and contact information.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "STI Speciality Clinics", 
-  "schema": {
-    "columns": [
-      {
-        "name": "site_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "hours_of_operation", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "fax", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "sti_speciality_clinics"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "sti_speciality_clinics"
 }

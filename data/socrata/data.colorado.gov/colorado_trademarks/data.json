@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_colorado_trademarks/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/d3m2-b6we/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/api/views/d3m2-b6we/rows.csv", 
   "description": "This is a dataset of trademarks registered with the Colorado Secretary of State. A trademark is any word, name, symbol, or device, or any combination used to identify and distinguish goods or services.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Colorado Trademarks", 
-  "schema": {
-    "columns": [
-      {
-        "name": "mastertrademarkid", 
-        "type": "real"
-      }, 
-      {
-        "name": "entityid", 
-        "type": "real"
-      }, 
-      {
-        "name": "entityname", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "trademarkform", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "colorado_trademarks"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "colorado_trademarks"
 }

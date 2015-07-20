@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/reported_visitor_arrivals_and_departures_by_reason_for_travel_between_1991_2014/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/opendata.go.ke/api/views/t3qm-egrt/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/opendata.go.ke/api/views/t3qm-egrt/rows.csv", 
   "description": "Chart looks at the Number of Visitors to the country according to their purpose of Visit.. The Main categories are arrivals that are centers on Persons, on Holiday or arriving for Business, Persons in Transit and Other Reasons for entry into the county.\r\n\r\n(Reported visitor arrivals by Purpose)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "Reported Visitor Arrivals and Departures by Reason for Travel between 1991 - 2014", 
-  "schema": {
-    "columns": [
-      {
-        "name": "travel_route", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "year_text", 
-        "type": "text"
-      }, 
-      {
-        "name": "visitors_on_holiday_business", 
-        "type": "real"
-      }, 
-      {
-        "name": "visitors_on_business", 
-        "type": "real"
-      }, 
-      {
-        "name": "visitors_in_transit", 
-        "type": "real"
-      }, 
-      {
-        "name": "other_visitors", 
-        "type": "real"
-      }, 
-      {
-        "name": "quater", 
-        "type": "text"
-      }, 
-      {
-        "name": "results_status", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/opendata.go.ke", 
-  "tableName": "reported_visitor_arrivals_and_departures_by_reason_for_travel_between_1991_2014"
+  "schema": "socrata/opendata.go.ke", 
+  "status": "needs review", 
+  "table": "reported_visitor_arrivals_and_departures_by_reason_for_travel_between_1991_2014"
 }

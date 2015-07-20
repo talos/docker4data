@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_nyc_fire_department_building_vacate_list/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/n5xc-7jfa/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/n5xc-7jfa/rows.csv", 
   "description": "List of Buildings declared unsafe and off-limits", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "NYC Fire Department Building Vacate List", 
-  "schema": {
-    "columns": [
-      {
-        "name": "vac_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "num", 
-        "type": "text"
-      }, 
-      {
-        "name": "pf", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "typ", 
-        "type": "text"
-      }, 
-      {
-        "name": "sf", 
-        "type": "text"
-      }, 
-      {
-        "name": "bor", 
-        "type": "text"
-      }, 
-      {
-        "name": "date_of_lif", 
-        "type": "text"
-      }, 
-      {
-        "name": "area_vac", 
-        "type": "text"
-      }, 
-      {
-        "name": "div", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "nyc_fire_department_building_vacate_list"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "nyc_fire_department_building_vacate_list"
 }

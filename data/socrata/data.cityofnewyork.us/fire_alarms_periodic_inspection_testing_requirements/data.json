@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/fire_alarms_periodic_inspection_testing_requirements/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/g84i-fugu/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/g84i-fugu/rows.csv", 
   "description": "FIRE PROTECTION PERIODIC INSPECTION AND TESTING REQUIREMENTS \r\nSPRINKLER SYSTEM (Excerpt from NFPA 25 Table 5.1)\r\nSTANDPIPE SYSTEM (Excerpt from NFPA 25 Table 6.1)\r\nWATER STORAGE TANK (Excerpt from NFPA 25 Table 9.1)\r\nFIRE ALARM SYSTEM (Excerpt from NFPA 72 Table 10.3.1)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "Fire Alarms Periodic Inspection Testing Requirements", 
-  "schema": {
-    "columns": [
-      {
-        "name": "component_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "required_inspection_test_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "required_inspection_frequency", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "fire_alarms_periodic_inspection_testing_requirements"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "fire_alarms_periodic_inspection_testing_requirements"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_adult_arrests_by_county_beginning_1970/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/rikd-mt35/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/rikd-mt35/rows.csv", 
   "description": "The counts of arrests are derived from information transmitted from law enforcement agencies to the Division of Criminal Justice Services Computerized Criminal History database for fingerprintable offenses.\r\nAn adult arrest is defined as an arrest of a person 16 years old or older or a juvenile offender prosecuted in adult court.  Fingerprintable offenses (defined in Criminal Procedure Law \u00a7160.10) include any felony, a misdemeanor defined in the penal law, a misdemeanor defined outside the penal law which would constitute a felony if such a person had a previous judgment of conviction for a crime, or loitering for the purpose of engaging in prostitution as defined in subdivision two of Penal Law \u00a7240.37.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,62 +13,7 @@
     }
   }, 
   "name": "Adult Arrests by County:  Beginning 1970", 
-  "schema": {
-    "columns": [
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "total", 
-        "type": "real"
-      }, 
-      {
-        "name": "felony_total", 
-        "type": "real"
-      }, 
-      {
-        "name": "drug_felony", 
-        "type": "real"
-      }, 
-      {
-        "name": "violent_felony", 
-        "type": "real"
-      }, 
-      {
-        "name": "dwi_felony", 
-        "type": "real"
-      }, 
-      {
-        "name": "other_felony", 
-        "type": "real"
-      }, 
-      {
-        "name": "misdemeanor_total", 
-        "type": "real"
-      }, 
-      {
-        "name": "drug_misd", 
-        "type": "real"
-      }, 
-      {
-        "name": "dwi_misd", 
-        "type": "real"
-      }, 
-      {
-        "name": "property_misd", 
-        "type": "real"
-      }, 
-      {
-        "name": "other_misd", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "adult_arrests_by_county_beginning_1970"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "adult_arrests_by_county_beginning_1970"
 }

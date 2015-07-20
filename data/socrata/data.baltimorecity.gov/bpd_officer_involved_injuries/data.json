@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_baltimorecity_bpd_officer_involved_injuries/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/3w4d-kckv/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/3w4d-kckv/rows.csv", 
   "description": "This data set contains the date, incident #, and location of officer involved use of force incidents that are investigated by the BPD Force Investigation Team (FIT).  The data, ranging from 2013 through 2015, is used to keep up to date a map displayed on the department's website.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "BPD Officer Involved Injuries", 
-  "schema": {
-    "columns": [
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "cc", 
-        "type": "text"
-      }, 
-      {
-        "name": "district", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "type", 
-        "type": "text"
-      }, 
-      {
-        "name": "x_long", 
-        "type": "real"
-      }, 
-      {
-        "name": "y_lat", 
-        "type": "real"
-      }, 
-      {
-        "name": "coordinates", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.baltimorecity.gov", 
-  "tableName": "bpd_officer_involved_injuries"
+  "schema": "socrata/data.baltimorecity.gov", 
+  "status": "needs review", 
+  "table": "bpd_officer_involved_injuries"
 }

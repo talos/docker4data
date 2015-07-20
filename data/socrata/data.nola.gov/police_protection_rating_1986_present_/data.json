@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_nola_police_protection_rating_1986_present_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.nola.gov/api/views/e74a-fwt5/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.nola.gov/api/views/e74a-fwt5/rows.csv", 
   "description": "This data comes from the Quality of Life Survey conducted by the University of New Orleans Survey Research Center. The Center began its Quality of Life series in 1986. Since then the quality of life and government services in Jefferson and Orleans parishes have been assessed roughly every other year. The results of the Quality of Life surveys represent the perceptions and opinions of the registered voters of the two parishes. The results are not objective measures of the quality of services.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "Police Protection Rating (1986 - Present)", 
-  "schema": {
-    "columns": [
-      {
-        "name": "row_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "parish", 
-        "type": "text"
-      }, 
-      {
-        "name": "very_good", 
-        "type": "text"
-      }, 
-      {
-        "name": "good", 
-        "type": "text"
-      }, 
-      {
-        "name": "fair", 
-        "type": "text"
-      }, 
-      {
-        "name": "poor", 
-        "type": "text"
-      }, 
-      {
-        "name": "very_poor", 
-        "type": "text"
-      }, 
-      {
-        "name": "total_verygood_good_fair", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.nola.gov", 
-  "tableName": "police_protection_rating_1986_present_"
+  "schema": "socrata/data.nola.gov", 
+  "status": "needs review", 
+  "table": "police_protection_rating_1986_present_"
 }

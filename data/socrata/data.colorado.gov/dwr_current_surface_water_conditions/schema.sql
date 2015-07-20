@@ -1,0 +1,22 @@
+CREATE TABLE "dwr_current_surface_water_conditions" (
+	"div"	real,
+	"wd"	real,
+	"county"	text,
+	"station_name"	text,
+	"data_source"	text,
+	"dwr_abbrev"	text,
+	"usgs_station_id"	text,
+	"station_status"	text,
+	"station_type"	text,
+	"date_time"	timestamp,
+	"variable"	text,
+	"stage"	text,
+	"amount"	text,
+	"units"	text,
+	"flag"	text,
+	"http_linkage"	text,
+	"location"	text,
+	"utm_x"	real,
+	"utm_y"	real,
+	"location_accuracy"	text
+);

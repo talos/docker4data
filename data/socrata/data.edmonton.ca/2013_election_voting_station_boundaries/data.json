@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/2013_election_voting_station_boundaries/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/geospatial/92k9-9b38", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.edmonton.ca/api/geospatial/92k9-9b38", 
   "description": "Distribution of voting station boundaries for 2013 Municipal election (October 21, 2013)", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "2013 Election Voting Station Boundaries", 
-  "schema": {}, 
-  "schemaName": "socrata/data.edmonton.ca", 
-  "tableName": "2013_election_voting_station_boundaries"
+  "schema": "socrata/data.edmonton.ca", 
+  "status": "needs review", 
+  "table": "2013_election_voting_station_boundaries"
 }

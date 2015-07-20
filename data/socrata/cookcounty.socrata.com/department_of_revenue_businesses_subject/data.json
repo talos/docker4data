@@ -1,8 +1,6 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cookcountycom_department_of_revenue_businesses_subject/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/cookcounty.socrata.com/api/views/cpgn-z9js/rows.csv"
-  }, 
+  "data": "http://www.opendatacache.com/cookcounty.socrata.com/api/views/cpgn-z9js/rows.csv", 
   "description": "A listing of the businesses in unincorporated Cook County subject to Liquor, Gasoline, New Motor Vehicle, Dealer Use, Diesel, Amusement, and Parking Home Rule Taxes. Data last updated September 08, 2011", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,37 +14,5 @@
     }
   }, 
   "name": "Department of Revenue - Businesses Subject to Home Rule Taxes - 2011 through September 8th", 
-  "schema": {
-    "columns": [
-      {
-        "name": "ret_type", 
-        "type": "real"
-      }, 
-      {
-        "name": "return_type_desc", 
-        "type": "text"
-      }, 
-      {
-        "name": "business_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "address_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "address_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "tableName": "socrata_cookcountycom_department_of_revenue_businesses_subject"
+  "table": "socrata_cookcountycom_department_of_revenue_businesses_subject"
 }

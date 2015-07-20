@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oaklandnet_crimewatch_data_2013/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oaklandnet.com/api/views/4yez-5h4p/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.oaklandnet.com/api/views/4yez-5h4p/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -15,34 +11,7 @@
     }
   }, 
   "name": "Crimewatch Data 2013", 
-  "schema": {
-    "columns": [
-      {
-        "name": "crimetype", 
-        "type": "text"
-      }, 
-      {
-        "name": "datetime", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "casenumber", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "policebeat", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.oaklandnet.com", 
-  "tableName": "crimewatch_data_2013"
+  "schema": "socrata/data.oaklandnet.com", 
+  "status": "needs review", 
+  "table": "crimewatch_data_2013"
 }

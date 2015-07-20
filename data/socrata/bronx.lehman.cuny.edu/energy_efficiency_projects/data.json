@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/energy_efficiency_projects/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/vmqj-febq/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/vmqj-febq/rows.csv", 
   "description": "The City\u2019s Long-Term Sustainability Plan, PlaNYC, calls for City government to reduce greenhouse gas emissions produced by municipal operations 30% by 2017. A large part of this effort is retrofitting municipal buildings to become more energy efficient. This dataset lists energy efficiency projects at City buildings that are complete or in progress. Projects are listed by address, building name, and agency, and the dataset includes the estimated reduction in tons of GHG emissions associated with the project.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,6 @@
     }
   }, 
   "name": "Energy Efficiency Projects", 
-  "schema": {
-    "columns": [
-      {
-        "name": "primaryprojecttype", 
-        "type": "text"
-      }, 
-      {
-        "name": "subtype", 
-        "type": "text"
-      }, 
-      {
-        "name": "projectstatus", 
-        "type": "text"
-      }, 
-      {
-        "name": "startdateactual", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "finishdateactual", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "projectsitename", 
-        "type": "text"
-      }, 
-      {
-        "name": "projectsiteaddress", 
-        "type": "text"
-      }, 
-      {
-        "name": "acronym", 
-        "type": "text"
-      }, 
-      {
-        "name": "co2e_mt_calculated", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/bronx.lehman.cuny.edu", 
-  "tableName": "energy_efficiency_projects"
+  "schema": "socrata/bronx.lehman.cuny.edu", 
+  "table": "energy_efficiency_projects"
 }

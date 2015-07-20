@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cookcountycom_animal_control_species_by_year/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/cookcounty.socrata.com/api/views/nax4-xa7j/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/cookcounty.socrata.com/api/views/nax4-xa7j/rows.csv", 
   "description": "Data covers 2010 and part of 2011. Data last updated in September 2011", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,6 @@
     }
   }, 
   "name": "Animal Control - Species, by Year", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "text"
-      }, 
-      {
-        "name": "cat", 
-        "type": "real"
-      }, 
-      {
-        "name": "cow", 
-        "type": "real"
-      }, 
-      {
-        "name": "dog", 
-        "type": "real"
-      }, 
-      {
-        "name": "ferret", 
-        "type": "real"
-      }, 
-      {
-        "name": "guard_dog", 
-        "type": "real"
-      }, 
-      {
-        "name": "rabbit", 
-        "type": "real"
-      }, 
-      {
-        "name": "unknown", 
-        "type": "real"
-      }, 
-      {
-        "name": "totals", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/cookcounty.socrata.com", 
-  "tableName": "animal_control_species_by_year"
+  "schema": "socrata/cookcounty.socrata.com", 
+  "table": "animal_control_species_by_year"
 }

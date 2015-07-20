@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_redmond_transportation_facilities_plan/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.redmond.gov/api/views/gdzn-64j8/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.redmond.gov/api/views/gdzn-64j8/rows.csv", 
   "description": "The list of transportation projects and programs that the City of Redmond expects to deliver between 2013 and 2030: http://www.redmond.gov/tmp.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,62 +11,7 @@
     }
   }, 
   "name": "Transportation Facilities Plan", 
-  "schema": {
-    "columns": [
-      {
-        "name": "project_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "expected_implementation_time_period", 
-        "type": "text"
-      }, 
-      {
-        "name": "status", 
-        "type": "text"
-      }, 
-      {
-        "name": "geographic_area", 
-        "type": "text"
-      }, 
-      {
-        "name": "area_map_pdf", 
-        "type": "text"
-      }, 
-      {
-        "name": "cost_estimate", 
-        "type": "real"
-      }, 
-      {
-        "name": "additional_project_information", 
-        "type": "text"
-      }, 
-      {
-        "name": "project_history", 
-        "type": "text"
-      }, 
-      {
-        "name": "staff_contact", 
-        "type": "text"
-      }, 
-      {
-        "name": "staff_contact_email", 
-        "type": "text"
-      }, 
-      {
-        "name": "last_updated", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.redmond.gov", 
-  "tableName": "transportation_facilities_plan"
+  "schema": "socrata/data.redmond.gov", 
+  "status": "needs review", 
+  "table": "transportation_facilities_plan"
 }

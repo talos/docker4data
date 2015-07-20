@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wa_b_by_biennium_by_level_of_government/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/dh7f-nd7p/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.wa.gov/api/views/dh7f-nd7p/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,30 +9,7 @@
     }
   }, 
   "name": "B -- $$ By Biennium By Level Of Government", 
-  "schema": {
-    "columns": [
-      {
-        "name": "biennium", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "real"
-      }, 
-      {
-        "name": "federal", 
-        "type": "real"
-      }, 
-      {
-        "name": "local_match", 
-        "type": "real"
-      }, 
-      {
-        "name": "total", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.wa.gov", 
-  "tableName": "b_by_biennium_by_level_of_government"
+  "schema": "socrata/data.wa.gov", 
+  "status": "needs review", 
+  "table": "b_by_biennium_by_level_of_government"
 }

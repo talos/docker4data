@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/individual_landmarks/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/tdab-kixi/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/tdab-kixi/rows.csv", 
   "description": "Individual landmarks in Chicago. The data can be viewed on the Chicago Data Portal with a web browser. However, to view or use the files outside of a web browser, you will need to use compression software and special GIS software, such as ESRI ArcGIS (shapefile) or Google Earth (KML or KMZ).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "Individual Landmarks", 
-  "schema": {
-    "columns": [
-      {
-        "name": "landmark_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "id", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "date_built", 
-        "type": "text"
-      }, 
-      {
-        "name": "architect", 
-        "type": "text"
-      }, 
-      {
-        "name": "landmark_designation_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "individual_landmarks"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "individual_landmarks"
 }

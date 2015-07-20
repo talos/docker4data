@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/medicaid_inpatient_prevention_quality_indicator_pqi_newborn_low_birth_weight_rates_by_county_beginning_2012/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/aapx-etcg/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/health.data.ny.gov/api/views/aapx-etcg/rows.csv", 
   "description": "The dataset contains the number of Medicaid Low Birth Weight newborns (numerator), the number of county Medicaid newborns (denominator), and observed rate for Agency for Healthcare Research and Quality Prevention Quality Indicator 9 (PQI 9) \u2013 Newborn Low Birth Weight Rate for Medicaid enrollees beginning in 2012. \r\nThe Agency for Healthcare Research and Quality (AHRQ) Prevention Quality Indicators (PQIs) are a set of population based measures that can be used with hospital inpatient discharge data to identify ambulatory care sensitive conditions. These are conditions where 1) the need for hospitalization is potentially preventable with appropriate outpatient care, or 2) conditions that could be less severe if treated early and appropriately. \r\nThe observed rate for Low Birth Weight is presented by resident county (including a statewide total). The observed rate for low birth weight by resident zip code (including a statewide total) can be found here: https://health.data.ny.gov/Health/Medicaid-Inpatient-Prevention-Quality-Indicators-P/vk5f-rgqm/. For more information, check out: http://www.health.ny.gov/health_care/medicaid/ or go to the \u201cAbout\u201d tab.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Medicaid Inpatient Prevention Quality Indicator (PQI) Newborn Low Birth Weight Rates by County: Beginning 2012", 
-  "schema": {
-    "columns": [
-      {
-        "name": "discharge_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "medicaid_low_birth_weight_newborns", 
-        "type": "real"
-      }, 
-      {
-        "name": "county_medicaid_newborn_population", 
-        "type": "real"
-      }, 
-      {
-        "name": "rate_per_1_000_births", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/health.data.ny.gov", 
-  "tableName": "medicaid_inpatient_prevention_quality_indicator_pqi_newborn_low_birth_weight_rates_by_county_beginning_2012"
+  "schema": "socrata/health.data.ny.gov", 
+  "status": "needs review", 
+  "table": "medicaid_inpatient_prevention_quality_indicator_pqi_newborn_low_birth_weight_rates_by_county_beginning_2012"
 }

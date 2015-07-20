@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/campaign_finance_status_of_voluntary_expenditure_ceiling_vecs_in_november_6_2012_election/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/bmnx-cibx/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sfgov.org/api/views/bmnx-cibx/rows.csv", 
   "description": "Under S.F. Campaign and Governmental Conduct Code 1.128, a candidate who wishes to accept the voluntary expenditure ceiling must file Form SFEC-128 no later than the August 10, 2012 deadline for filing nomination papers.\r\n\r\nIn a race where at least one candidate has accepted the VEC, all candidates running for office in the same race must file Form SFEC 134(b) within 24 hours of receiving contributions, making expenditures, or having funds that exceed 100 percent of the applicable VEC.\r\n\r\nIn addition, any person other than a candidate committee who makes or incurs expenditures for the purpose of distributing independent expenditures, electioneering communications, or member communications that clearly identify any candidate that equals or exceeds $5,000 per candidate, must within 24 hours of each time it reaches the $5,000 threshold file a Third Party Disclosure Form.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "Campaign Finance - Status of Voluntary Expenditure Ceiling (VECs) in November 6, 2012 Election", 
-  "schema": {
-    "columns": [
-      {
-        "name": "city_elective_office", 
-        "type": "text"
-      }, 
-      {
-        "name": "amount_of_vec", 
-        "type": "real"
-      }, 
-      {
-        "name": "status_of_vec", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sfgov.org", 
-  "tableName": "campaign_finance_status_of_voluntary_expenditure_ceiling_vecs_in_november_6_2012_election"
+  "schema": "socrata/data.sfgov.org", 
+  "status": "needs review", 
+  "table": "campaign_finance_status_of_voluntary_expenditure_ceiling_vecs_in_november_6_2012_election"
 }

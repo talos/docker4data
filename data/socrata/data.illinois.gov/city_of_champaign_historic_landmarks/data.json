@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_city_of_champaign_historic_landmarks/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/pwzm-4yz8/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/pwzm-4yz8/rows.csv", 
   "description": "Historic Landmarks in the City of Champaign", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "City of Champaign Historic Landmarks", 
-  "schema": {
-    "columns": [
-      {
-        "name": "landmark_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "date_designated", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "ownership", 
-        "type": "text"
-      }, 
-      {
-        "name": "notes", 
-        "type": "text"
-      }, 
-      {
-        "name": "type_of_landmark", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "city_of_champaign_historic_landmarks"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "city_of_champaign_historic_landmarks"
 }

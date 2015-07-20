@@ -1,0 +1,23 @@
+CREATE TABLE "age_adjusted_death_rates_by_selected_causes_of_death_among_maryland_residents_1992_2011" (
+	"selected_causes_of_death"	text,
+	"_1"	real,
+	"_2"	real,
+	"_3"	real,
+	"_4"	real,
+	"_5"	real,
+	"_6"	real,
+	"_7"	real,
+	"_8"	real,
+	"_9"	real,
+	"_10"	real,
+	"_11"	real,
+	"_12"	real,
+	"_13"	real,
+	"_14"	real,
+	"_15"	real,
+	"_16"	real,
+	"_17"	real,
+	"_18"	real,
+	"_19"	real,
+	"_20"	real
+);

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_dww_stream_ln_pv/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/quhi-bx98/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/quhi-bx98/rows.csv", 
   "description": "Streams in Seattle. Represented as line segments", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,106 +13,7 @@
     }
   }, 
   "name": "DWW.STREAM_LN_PV", 
-  "schema": {
-    "columns": [
-      {
-        "name": "objectid", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape", 
-        "type": "text"
-      }, 
-      {
-        "name": "strm_key", 
-        "type": "real"
-      }, 
-      {
-        "name": "strm_rt_key", 
-        "type": "real"
-      }, 
-      {
-        "name": "strm_feature_key", 
-        "type": "real"
-      }, 
-      {
-        "name": "strm_sims_site_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "strm_featype_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "strm_featype_text", 
-        "type": "text"
-      }, 
-      {
-        "name": "strm_typing_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "strm_typing_text", 
-        "type": "text"
-      }, 
-      {
-        "name": "strm_wria_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "strm_wria_text", 
-        "type": "text"
-      }, 
-      {
-        "name": "strm_sims_rch_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "strm_strm_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "strm_short_name_text", 
-        "type": "text"
-      }, 
-      {
-        "name": "strm_full_name_text", 
-        "type": "text"
-      }, 
-      {
-        "name": "strm_comments_text", 
-        "type": "text"
-      }, 
-      {
-        "name": "strm_rec_wtrbdy_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "strm_length_ft_nbr", 
-        "type": "real"
-      }, 
-      {
-        "name": "strm_effective_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "strm_expiration_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "strm_mxm_lctn_key", 
-        "type": "text"
-      }, 
-      {
-        "name": "len", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape_length", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "dww_stream_ln_pv"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "dww_stream_ln_pv"
 }

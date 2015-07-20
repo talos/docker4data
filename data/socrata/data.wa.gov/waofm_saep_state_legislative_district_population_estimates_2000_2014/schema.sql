@@ -1,0 +1,23 @@
+CREATE TABLE "waofm_saep_state_legislative_district_population_estimates_2000_2014" (
+	"legislative_district"	text,
+	"estimated_total_population_2000"	real,
+	"estimated_total_population_2001"	real,
+	"estimated_total_population_2002"	real,
+	"estimated_total_population_2003"	real,
+	"estimated_total_population_2004"	real,
+	"estimated_total_population_2005"	real,
+	"estimated_total_population_2006"	real,
+	"estimated_total_population_2007"	real,
+	"estimated_total_population_2008"	real,
+	"estimated_total_population_2009"	real,
+	"estimated_total_population_2010"	real,
+	"estimated_total_population_2011"	real,
+	"estimated_total_population_2012"	real,
+	"estimated_total_population_2013"	real,
+	"estimated_total_population_2014"	real,
+	"numeric_change_in_population_2000_to_2010"	real,
+	"percent_change_in_population_2000_to_2010"	text,
+	"numeric_change_in_population_2010_to_2014"	real,
+	"percent_change_in_population_2010_to_2014"	text,
+	"saep_version"	text
+);

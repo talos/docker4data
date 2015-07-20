@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_baltimorecity_liquor_licenses/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/xv8d-bwgi/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/xv8d-bwgi/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -15,86 +11,7 @@
     }
   }, 
   "name": "Liquor Licenses", 
-  "schema": {
-    "columns": [
-      {
-        "name": "licenseclass", 
-        "type": "text"
-      }, 
-      {
-        "name": "subclass", 
-        "type": "text"
-      }, 
-      {
-        "name": "licensenumber", 
-        "type": "text"
-      }, 
-      {
-        "name": "licensedate", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "licenseenddate", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "licenseyear", 
-        "type": "text"
-      }, 
-      {
-        "name": "licensefee", 
-        "type": "real"
-      }, 
-      {
-        "name": "certificatenumber", 
-        "type": "text"
-      }, 
-      {
-        "name": "licensestatus", 
-        "type": "text"
-      }, 
-      {
-        "name": "licenseefirstname", 
-        "type": "text"
-      }, 
-      {
-        "name": "licenseelastname", 
-        "type": "text"
-      }, 
-      {
-        "name": "tradename", 
-        "type": "text"
-      }, 
-      {
-        "name": "corpname", 
-        "type": "text"
-      }, 
-      {
-        "name": "establishmentdesc", 
-        "type": "text"
-      }, 
-      {
-        "name": "dayperweek", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "addrstreet", 
-        "type": "text"
-      }, 
-      {
-        "name": "addrzip", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.baltimorecity.gov", 
-  "tableName": "liquor_licenses"
+  "schema": "socrata/data.baltimorecity.gov", 
+  "status": "needs review", 
+  "table": "liquor_licenses"
 }

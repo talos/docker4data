@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/projected_new_housing_starts_as_used_in_enrollment_projection/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/pa5t-ktd3/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/pa5t-ktd3/rows.csv", 
   "description": "# of units from projected future housing growth in the City", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "Projected New Housing Starts - as Used in Enrollment Projection", 
-  "schema": {
-    "columns": [
-      {
-        "name": "district", 
-        "type": "text"
-      }, 
-      {
-        "name": "five_year_housing_units", 
-        "type": "real"
-      }, 
-      {
-        "name": "ten_year_housing_units", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "projected_new_housing_starts_as_used_in_enrollment_projection"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "projected_new_housing_starts_as_used_in_enrollment_projection"
 }

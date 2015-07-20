@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/2008_basic_stand_alone_home_health_agency_beneficiary_puf/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cms.gov/api/views/vdp8-ayy6/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cms.gov/api/views/vdp8-ayy6/rows.csv", 
   "description": "The CMS 2008 BSA HHA Beneficiary PUF originates from a 5% simple random sample of beneficiaries drawn (without replacement) from the 100% Beneficiary Summary File for reference year 2008. The sample that is used for the CMS 2008 BSA HHA Beneficiary PUF is disjoint from the existing 5% CMS research sample in the sense that there is no overlap in terms of the beneficiaries in the CMS 2008 BSA HHA Beneficiary PUF and the 5% CMS research sample.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "2008 Basic Stand Alone Home Health Agency Beneficiary PUF", 
-  "schema": {
-    "columns": [
-      {
-        "name": "hha_bene_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "bene_sex_ident_cd", 
-        "type": "text"
-      }, 
-      {
-        "name": "bene_age_cat_cd", 
-        "type": "text"
-      }, 
-      {
-        "name": "hha_adm_cd", 
-        "type": "text"
-      }, 
-      {
-        "name": "hha_ther_vst_cd", 
-        "type": "text"
-      }, 
-      {
-        "name": "hha_snc_vst_cd", 
-        "type": "text"
-      }, 
-      {
-        "name": "hha_hha_vst_cd", 
-        "type": "text"
-      }, 
-      {
-        "name": "hha_pmt_amt", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cms.gov", 
-  "tableName": "2008_basic_stand_alone_home_health_agency_beneficiary_puf"
+  "schema": "socrata/data.cms.gov", 
+  "status": "needs review", 
+  "table": "2008_basic_stand_alone_home_health_agency_beneficiary_puf"
 }

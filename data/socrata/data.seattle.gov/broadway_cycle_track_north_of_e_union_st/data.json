@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_broadway_cycle_track_north_of_e_union_st/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/j4vh-b42a/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/j4vh-b42a/rows.csv", 
   "description": "The counters consist of two small tube sensors stretching across the street, which are attached to a small metal counting box made by Eco-Counter. The tubes only count people riding bikes. They are very accurate and designed to be used on greenways and cycle tracks.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "Broadway Cycle Track North Of E Union St", 
-  "schema": {
-    "columns": [
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "broadway_cycle_track_north_of_e_union_st_total", 
-        "type": "real"
-      }, 
-      {
-        "name": "nb", 
-        "type": "real"
-      }, 
-      {
-        "name": "sb", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "broadway_cycle_track_north_of_e_union_st"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "broadway_cycle_track_north_of_e_union_st"
 }

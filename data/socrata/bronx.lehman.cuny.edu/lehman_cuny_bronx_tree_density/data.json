@@ -1,8 +1,6 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_bronx_lehman_cuny_bronx_tree_density/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/yc9r-kugx/rows.csv"
-  }, 
+  "data": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/yc9r-kugx/rows.csv", 
   "description": "Hexagonal representation of tree density in the Bronx", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,37 +14,5 @@
     }
   }, 
   "name": "Bronx Tree Density", 
-  "schema": {
-    "columns": [
-      {
-        "name": "bxtreespecieshexsum_oid", 
-        "type": "real"
-      }, 
-      {
-        "name": "bxtreespecieshexsum_hexagonid", 
-        "type": "real"
-      }, 
-      {
-        "name": "bxtreespecieshexsum_cnt_hexago", 
-        "type": "real"
-      }, 
-      {
-        "name": "bxtreespecieshexsum_first_spec", 
-        "type": "text"
-      }, 
-      {
-        "name": "bxtreespecieshexsum_last_speci", 
-        "type": "text"
-      }, 
-      {
-        "name": "point_x", 
-        "type": "text"
-      }, 
-      {
-        "name": "point_y", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "tableName": "socrata_bronx_lehman_cuny_bronx_tree_density"
+  "table": "socrata_bronx_lehman_cuny_bronx_tree_density"
 }

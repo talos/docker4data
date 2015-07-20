@@ -1,0 +1,22 @@
+CREATE TABLE "dataset_catalog_new" (
+	"u_id"	text,
+	"derived_view"	text,
+	"type"	text,
+	"name"	text,
+	"description"	text,
+	"department_name"	text,
+	"creation_date"	text,
+	"last_update_date_data"	text,
+	"publishing_frequency"	text,
+	"category"	text,
+	"keywords"	text,
+	"visits"	real,
+	"downloads"	real,
+	"division"	text,
+	"geographic_coverage"	text,
+	"geographic_unit"	text,
+	"data_steward_name"	text,
+	"data_steward_email"	text,
+	"data_tech_name"	text,
+	"data_tech_email"	text
+);

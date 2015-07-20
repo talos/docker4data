@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/child_and_adult_care_food_program_participation/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/dmn7-mpa8/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/health.data.ny.gov/api/views/dmn7-mpa8/rows.csv", 
   "description": "The Child and Adult Care Food Program (CACFP) is a nutrition education and meal reimbursement program helping providers serve nutritious and safely prepared meals and snacks to children and adults in day care settings. This dataset includes the names and locations of participating day care sites and whether or not the site is Breastfeeding Friendly Certified with CACFP, participating in the Eat Well Play Hard in Child Care Settings (EWPHCCS) project, or participating in the Eat Well Play Hard in Day Care Homes (EWPHDCH) project.   This dataset excludes Child and Adult Care Food Program participation provided at homeless shelters and legally-exempt day care home providers.  \r\n\r\nNot all counties in NYS are serviced by the grantees implementing the project EWPHCSS. \r\n\r\nThe EWPHDCH project is currently limited to the areas served by the contracted agencies. \r\n\r\nThe Child and Adult Care Food Program dataset is related to the Child Care Related Programs dataset on the www.Open.ny.gov website, however this dataset includes additional nutrition information.  The Office of Children and Family Services (OCFS) is currently working to update the Child Care Related Programs dataset on a more frequent schedule with the OPEN NY team.  OCFS and DOH will then be able to synchronize in the near future.  Temporarily, DOH has omitted addresses for regulated child care providers that provide home care since this information is available on www.Open.ny.gov by using this link: https://data.ny.gov/Human-Services/Child-Care-Regulated-Programs/cb42-qumz.   \r\n\r\n For more information, please visit http://www.health.ny.gov/prevention/nutrition/cacfp/ or go to the \"About\" tab.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,78 +13,7 @@
     }
   }, 
   "name": "Child And Adult Care Food Program Participation", 
-  "schema": {
-    "columns": [
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "site_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "address_omitted", 
-        "type": "text"
-      }, 
-      {
-        "name": "street1", 
-        "type": "text"
-      }, 
-      {
-        "name": "street2", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zipcode", 
-        "type": "text"
-      }, 
-      {
-        "name": "program_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "approval_license_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "site_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "breastfeeding_friendly_certified", 
-        "type": "text"
-      }, 
-      {
-        "name": "eat_well_play_hard_ccs_participant", 
-        "type": "text"
-      }, 
-      {
-        "name": "last_ewphccs_participation", 
-        "type": "text"
-      }, 
-      {
-        "name": "eat_well_play_hard_dch_participant", 
-        "type": "text"
-      }, 
-      {
-        "name": "last_ewphdch_participation", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/health.data.ny.gov", 
-  "tableName": "child_and_adult_care_food_program_participation"
+  "schema": "socrata/health.data.ny.gov", 
+  "status": "needs review", 
+  "table": "child_and_adult_care_food_program_participation"
 }

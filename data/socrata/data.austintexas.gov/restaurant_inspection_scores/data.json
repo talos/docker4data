@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_restaurant_inspection_scores/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/ecmv-9xxi/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/views/ecmv-9xxi/rows.csv", 
   "description": "Provides restaurant scores for inspections performed within the last three years. Online search of this data set also available at: http://www.ci.austin.tx.us/health/restaurant/search.cfm", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,38 +12,7 @@
     }
   }, 
   "name": "Restaurant Inspection Scores", 
-  "schema": {
-    "columns": [
-      {
-        "name": "restaurant_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "inspection_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "score", 
-        "type": "real"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "facility_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "process_description", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "restaurant_inspection_scores"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "restaurant_inspection_scores"
 }

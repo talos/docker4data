@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_class_specification_and_minimum_qualification/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/b6h2-ri5e/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/b6h2-ri5e/rows.csv", 
   "description": "Department of Human Resources information regarding class specs and minimum qualifications for State positions", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "Class Specification And Minimum Qualification", 
-  "schema": {
-    "columns": [
-      {
-        "name": "class_title", 
-        "type": "text"
-      }, 
-      {
-        "name": "code", 
-        "type": "real"
-      }, 
-      {
-        "name": "class_specifications", 
-        "type": "text"
-      }, 
-      {
-        "name": "minimum_qualifications", 
-        "type": "text"
-      }, 
-      {
-        "name": "other", 
-        "type": "text"
-      }, 
-      {
-        "name": "bu", 
-        "type": "real"
-      }, 
-      {
-        "name": "bu_salary_schedule", 
-        "type": "text"
-      }, 
-      {
-        "name": "grade", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "class_specification_and_minimum_qualification"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "class_specification_and_minimum_qualification"
 }

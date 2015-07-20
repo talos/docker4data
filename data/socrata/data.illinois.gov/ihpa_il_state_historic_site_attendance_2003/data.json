@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_ihpa_il_state_historic_site_attendance_2003/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/6ny2-2cnf/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/6ny2-2cnf/rows.csv", 
   "description": "2003 Attendance Figures for Illinois State Historic Sites", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,18 +12,7 @@
     }
   }, 
   "name": "IHPA - IL State Historic Site Attendance 2003", 
-  "schema": {
-    "columns": [
-      {
-        "name": "state_of_illinois_historic_site_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "attendance", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "ihpa_il_state_historic_site_attendance_2003"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "ihpa_il_state_historic_site_attendance_2003"
 }

@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/historic_creeks_urbanforest/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/geospatial/rpdm-je7s", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/geospatial/rpdm-je7s", 
   "description": "This shapefile delineates historic creek lines digitised from the 1855 map \ufffdMelbourne and its Suburbs\" compiled by James Kearney, draughtsman ; engraved by David Tulloch and James D. Brown. http://handle.slv.vic.gov.au/10381/89107. The Elizabeth Street, Swanston Street and Fitzroy Garden creek alignments are included based on descriptions in: \n \n 1. Presland, Gary. 2009. Place for Village. \n \n 2. Burchett, Winston. 1978. East Melbourne, 1837-1977.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Historic Creeks - #Urbanforest", 
-  "schema": {}, 
-  "schemaName": "socrata/data.melbourne.vic.gov.au", 
-  "tableName": "historic_creeks_urbanforest"
+  "schema": "socrata/data.melbourne.vic.gov.au", 
+  "status": "needs review", 
+  "table": "historic_creeks_urbanforest"
 }

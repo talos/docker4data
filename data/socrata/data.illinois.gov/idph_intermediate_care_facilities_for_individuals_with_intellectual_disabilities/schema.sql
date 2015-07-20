@@ -1,0 +1,22 @@
+CREATE TABLE "idph_intermediate_care_facilities_for_individuals_with_intellectual_disabilities" (
+	"facility_name"	text,
+	"licensee_id"	text,
+	"facility_id"	text,
+	"certification_number"	text,
+	"location"	text,
+	"region"	text,
+	"county"	text,
+	"telephone"	text,
+	"fax"	text,
+	"ownership_desc"	text,
+	"facility_status"	text,
+	"license_status"	text,
+	"expiration_date"	timestamp,
+	"last_survey_date"	timestamp,
+	"skilled_beds"	text,
+	"under_22_beds"	text,
+	"intermediate_beds"	text,
+	"icf_dd_beds"	text,
+	"sheltered_care_beds"	text,
+	"community_living_beds"	text
+);

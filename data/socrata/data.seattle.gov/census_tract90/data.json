@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_census_tract90/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/8t5t-75fx/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/8t5t-75fx/rows.csv", 
   "description": "US Census tracts for 1990 US Census", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,62 +13,7 @@
     }
   }, 
   "name": "CENSUS_TRACT90", 
-  "schema": {
-    "columns": [
-      {
-        "name": "objectid", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape", 
-        "type": "text"
-      }, 
-      {
-        "name": "tract", 
-        "type": "real"
-      }, 
-      {
-        "name": "acres", 
-        "type": "real"
-      }, 
-      {
-        "name": "tractlab", 
-        "type": "real"
-      }, 
-      {
-        "name": "logrecnosf3", 
-        "type": "text"
-      }, 
-      {
-        "name": "logrecnosf1", 
-        "type": "text"
-      }, 
-      {
-        "name": "area_sqft", 
-        "type": "real"
-      }, 
-      {
-        "name": "perimeter_ft", 
-        "type": "real"
-      }, 
-      {
-        "name": "area", 
-        "type": "real"
-      }, 
-      {
-        "name": "len", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape_length", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape_area", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "census_tract90"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "census_tract90"
 }

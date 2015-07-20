@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_cta_ridership_daily_boarding_totals/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/6iiy-9s97/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/6iiy-9s97/rows.csv", 
   "description": "This dataset shows systemwide boardings for both bus and rail services provided by CTA, dating back to 2001. Daytypes are as follows: W = Weekday, A = Saturday, U = Sunday/Holiday. See attached readme file for information on how these numbers are calculated.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "CTA - Ridership - Daily Boarding Totals", 
-  "schema": {
-    "columns": [
-      {
-        "name": "service_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "day_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "bus", 
-        "type": "real"
-      }, 
-      {
-        "name": "rail_boardings", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_rides", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "cta_ridership_daily_boarding_totals"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "cta_ridership_daily_boarding_totals"
 }

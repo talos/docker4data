@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/edmonton_in_bloom_awards/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/k5sh-vdtn/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.edmonton.ca/api/views/k5sh-vdtn/rows.csv", 
   "description": "Results of the annual Edmonton in Bloom Awards.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "Edmonton In Bloom Awards", 
-  "schema": {
-    "columns": [
-      {
-        "name": "category", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "results", 
-        "type": "text"
-      }, 
-      {
-        "name": "recipient", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "neighbourhood", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.edmonton.ca", 
-  "tableName": "edmonton_in_bloom_awards"
+  "schema": "socrata/data.edmonton.ca", 
+  "status": "needs review", 
+  "table": "edmonton_in_bloom_awards"
 }

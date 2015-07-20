@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_electronics_stores/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/xszr-btpb/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/xszr-btpb/rows.csv", 
   "description": "A list of electronics stores that have a current DCA license as of the run date.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,58 +13,7 @@
     }
   }, 
   "name": "Electronics Stores", 
-  "schema": {
-    "columns": [
-      {
-        "name": "entity_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "license_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "entity_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "camis_trade_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "address_bldg", 
-        "type": "text"
-      }, 
-      {
-        "name": "address_street_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "address_location", 
-        "type": "text"
-      }, 
-      {
-        "name": "address_city", 
-        "type": "text"
-      }, 
-      {
-        "name": "address_state", 
-        "type": "text"
-      }, 
-      {
-        "name": "address_zip_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "telephone_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "electronics_stores"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "electronics_stores"
 }

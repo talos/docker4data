@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_baltimorecity_2011_housing_market_typology/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/782b-zpd7/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/782b-zpd7/rows.csv", 
   "description": "The Typology will assist city government, local foundations and non-profits to understand local market strengths and to appropriately match neighborhood strategies to market conditions, for the best use of public and private resources. In addition, the typology will inform neighborhood level planning efforts and provide residents with an understanding of the local housing market conditions in their communities. Regional Choice: Competitive housing markets with high owner-occupancy rates and high property values in comparison to all other market types. Foreclosure, vacancy and abandonment rates are low.  Middle Market Choice: Housing prices above the city\u2019s average with strong ownership rates, and low vacancies, but with slightly increased foreclosure rates.  Middle Market:  Median sales values of $91,000 (above the City\u2019s average of $65,000) as well as high homeownership rates. These markets experienced higher foreclosure rates when compared to higher value markets, with slight population loss.  Middle Market Stressed: Slightly lower home sale values than the City\u2019s average, and have not shown significant sales price appreciation. Vacancies and foreclosure rates are high, and the rate of population loss has increased in this market type, according to the 2010 Census data.  Distressed Market: , Have experienced significant deterioration of the housing stock. This market category contains the highest vacancy rates and the lowest homeownership rates, compared to the other market types.  It also has experienced some of the most substantial population losses in the City during the past decade.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,58 +13,7 @@
     }
   }, 
   "name": "2011 Housing Market Typology", 
-  "schema": {
-    "columns": [
-      {
-        "name": "blockgroup", 
-        "type": "text"
-      }, 
-      {
-        "name": "marketcategory", 
-        "type": "text"
-      }, 
-      {
-        "name": "sales20092010", 
-        "type": "real"
-      }, 
-      {
-        "name": "salespricecoefficientvariance", 
-        "type": "real"
-      }, 
-      {
-        "name": "commercialresidentiallandratio", 
-        "type": "real"
-      }, 
-      {
-        "name": "unitspersquaremile", 
-        "type": "real"
-      }, 
-      {
-        "name": "residentialpermits", 
-        "type": "text"
-      }, 
-      {
-        "name": "vacantlots", 
-        "type": "text"
-      }, 
-      {
-        "name": "vacanthousenotices", 
-        "type": "text"
-      }, 
-      {
-        "name": "foreclosurefilings", 
-        "type": "text"
-      }, 
-      {
-        "name": "mediansalesprice20092010", 
-        "type": "real"
-      }, 
-      {
-        "name": "owneroccupied", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.baltimorecity.gov", 
-  "tableName": "2011_housing_market_typology"
+  "schema": "socrata/data.baltimorecity.gov", 
+  "status": "needs review", 
+  "table": "2011_housing_market_typology"
 }

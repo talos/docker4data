@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_fdny_monthly_response_times/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/j34j-vqvt/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/j34j-vqvt/rows.csv", 
   "description": "Average response times to incidents by Year, Month, Incident classification and borough.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "FDNY Monthly Response Times", 
-  "schema": {
-    "columns": [
-      {
-        "name": "yearmonth", 
-        "type": "real"
-      }, 
-      {
-        "name": "incidentclassification", 
-        "type": "text"
-      }, 
-      {
-        "name": "incidentborough", 
-        "type": "text"
-      }, 
-      {
-        "name": "incidentcount", 
-        "type": "real"
-      }, 
-      {
-        "name": "averageresponsetime", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "fdny_monthly_response_times"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "fdny_monthly_response_times"
 }

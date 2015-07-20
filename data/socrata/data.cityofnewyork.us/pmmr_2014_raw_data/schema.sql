@@ -1,0 +1,22 @@
+CREATE TABLE "pmmr_2014_raw_data" (
+	"agency"	text,
+	"indicator_id"	text,
+	"indicator_name"	text,
+	"indicator_sequence"	real,
+	"sub_indicator"	text,
+	"subindicator_sequence"	real,
+	"record_type"	text,
+	"desired_direction"	text,
+	"critical_flag"	text,
+	"geography"	text,
+	"measure_type"	text,
+	"fiscal_year"	real,
+	"conditional_format"	text,
+	"raw_value"	real,
+	"format_type"	text,
+	"value_percent"	text,
+	"value_number"	real,
+	"value_currency"	text,
+	"value_time"	text,
+	"value_ratio"	text
+);

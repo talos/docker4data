@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/contributions_vers_es_aux_fonds_fiduciaires_bird_ida_ifc_selon_l_exercice/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/n8ah-e3uu/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/finances.worldbank.org/api/views/n8ah-e3uu/rows.csv", 
   "description": "Cette s\u00e9rie de donn\u00e9es pr\u00e9sente un r\u00e9capitulatif de l\u2019ensemble des fonds vers\u00e9s par les donateurs contribuant aux fonds fiduciaires en esp\u00e8ces ou sous forme de billets \u00e0 ordre ou autre instruments jug\u00e9s acceptables par l\u2019entit\u00e9 du Groupe de la Banque mondiale administrant le fonds consid\u00e9r\u00e9. Le r\u00e9capitulatif est \u00e9tabli sur la base de l\u2019exercice de versement, et les donn\u00e9es sont fournies au niveau de chaque fonds pris individuellement. Les d\u00e9finitions figurant ici sont \u00e0 consid\u00e9rer comme provisoires, non d\u00e9finitives et susceptibles d\u2019\u00eatre revues et corrig\u00e9es ult\u00e9rieurement. Nous vous invitons \u00e0 vous reporer aussi au glossaire des fonds fiduciaires (http://www.cfpto.org/TFGlossary2012/). Dans l\u2019exercice de ses responsabilit\u00e9s d\u2019administrateur, la Banque mondiale veille en outre au respect de toutes sanctions pouvant s\u2019appliquer \u00e0 ses transactions.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "Contributions vers\u00e9es aux fonds fiduciaires BIRD/IDA/IFC, selon l\u2019exercice", 
-  "schema": {
-    "columns": [
-      {
-        "name": "as_of_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "fund", 
-        "type": "text"
-      }, 
-      {
-        "name": "trustee_fund_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "trustee_fund_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "donor_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "donor_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "donor_agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "fiscal_year_of_receipt", 
-        "type": "real"
-      }, 
-      {
-        "name": "contributions_paid_in_usd", 
-        "type": "real"
-      }, 
-      {
-        "name": "status", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/finances.worldbank.org", 
-  "tableName": "contributions_vers_es_aux_fonds_fiduciaires_bird_ida_ifc_selon_l_exercice"
+  "schema": "socrata/finances.worldbank.org", 
+  "status": "needs review", 
+  "table": "contributions_vers_es_aux_fonds_fiduciaires_bird_ida_ifc_selon_l_exercice"
 }

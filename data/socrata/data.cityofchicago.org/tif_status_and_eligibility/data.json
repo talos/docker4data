@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_tif_status_and_eligibility/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/3qsz-jemf/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/3qsz-jemf/rows.csv", 
   "description": "Total number of TIF districts with creation and end dates, and summary of eligibility factors.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "TIF Status and Eligibility", 
-  "schema": {
-    "columns": [
-      {
-        "name": "status", 
-        "type": "text"
-      }, 
-      {
-        "name": "ref_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "tif_district_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "designation_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "designation_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "end_expiration_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "expiration_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "blighting_factors", 
-        "type": "text"
-      }, 
-      {
-        "name": "conservation_factors", 
-        "type": "text"
-      }, 
-      {
-        "name": "tif_eligiblity_study_plan", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "tif_status_and_eligibility"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "tif_status_and_eligibility"
 }

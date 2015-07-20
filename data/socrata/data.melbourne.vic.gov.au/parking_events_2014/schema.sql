@@ -1,0 +1,23 @@
+CREATE TABLE "parking_events_2014" (
+	"eventid"	real,
+	"deviceid"	real,
+	"arrivaltime"	text,
+	"departuretime"	text,
+	"durationseconds"	real,
+	"streetmarker"	text,
+	"signplateid"	real,
+	"sign"	text,
+	"area"	real,
+	"areaname"	text,
+	"streetid"	real,
+	"streetname"	text,
+	"lkp_bay_location_betweenstreet1"	real,
+	"lkp_between_street_1_betweenstreet1"	text,
+	"lkp_bay_location_betweenstreet2"	real,
+	"lkp_between_street_2_betweenstreet2"	text,
+	"sideofstreet"	real,
+	"sidecode"	text,
+	"sidename"	text,
+	"bayid"	real,
+	"inviolation"	text
+);

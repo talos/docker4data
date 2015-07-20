@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/unified_school_district_boundaries/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.acgov.org/api/geospatial/b4ug-2x6q", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.acgov.org/api/geospatial/b4ug-2x6q", 
   "description": "Alameda County Unified School District Boundaries", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,9 +13,7 @@
     }
   }, 
   "name": "Unified School District Boundaries", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.acgov.org", 
-  "tableName": "unified_school_district_boundaries"
+  "schema": "socrata/data.acgov.org", 
+  "status": "needs review", 
+  "table": "unified_school_district_boundaries"
 }

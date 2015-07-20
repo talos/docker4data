@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_weatherfordtx_other_funds_history/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/5t7p-7njb/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/5t7p-7njb/rows.csv", 
   "description": "Solid Waste Fund, Chandor Gardens Fund, and the Hotel Tax Fund history of budget and expenses.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,78 +11,7 @@
     }
   }, 
   "name": "Other Funds History", 
-  "schema": {
-    "columns": [
-      {
-        "name": "full", 
-        "type": "text"
-      }, 
-      {
-        "name": "fiscal_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "fiscal_month", 
-        "type": "real"
-      }, 
-      {
-        "name": "fund", 
-        "type": "text"
-      }, 
-      {
-        "name": "account_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "division_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "division_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "department_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "revenue_category", 
-        "type": "text"
-      }, 
-      {
-        "name": "expense_category", 
-        "type": "text"
-      }, 
-      {
-        "name": "account_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "full_account", 
-        "type": "text"
-      }, 
-      {
-        "name": "account_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "budget", 
-        "type": "real"
-      }, 
-      {
-        "name": "mtd", 
-        "type": "real"
-      }, 
-      {
-        "name": "ytd", 
-        "type": "real"
-      }, 
-      {
-        "name": "encumbrances", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.weatherfordtx.gov", 
-  "tableName": "other_funds_history"
+  "schema": "socrata/data.weatherfordtx.gov", 
+  "status": "needs review", 
+  "table": "other_funds_history"
 }

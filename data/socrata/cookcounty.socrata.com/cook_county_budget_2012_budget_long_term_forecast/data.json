@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/cook_county_budget_2012_budget_long_term_forecast/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/cookcounty.socrata.com/api/views/sjam-cggc/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/cookcounty.socrata.com/api/views/sjam-cggc/rows.csv", 
   "description": "\u00b9 Includes Sales Tax previously allocated to JTDC for FY08--9.  Reflects rate reduction for last 2 months of FY10, last 8 months of FY12 and FY13\r\n \u00b2 Provided for comparison purposes to revenues as shown in Revenue Estimate\r\n \u00b3 Sources: FY07-FY11 from Budget Citizen's Summary, Q-1 Total General Fund Expenditures.   FY13-16 based on FY12 with 3.2% annual growth (10 year CPI-U-2.44%/Health-8%).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,54 +13,6 @@
     }
   }, 
   "name": "Cook County Budget - 2012 - Budget Long-term Forecast", 
-  "schema": {
-    "columns": [
-      {
-        "name": "revenues_and_fees", 
-        "type": "text"
-      }, 
-      {
-        "name": "actual_fy07", 
-        "type": "real"
-      }, 
-      {
-        "name": "actual_fy08", 
-        "type": "real"
-      }, 
-      {
-        "name": "actual_fy09", 
-        "type": "real"
-      }, 
-      {
-        "name": "actual_fy10", 
-        "type": "real"
-      }, 
-      {
-        "name": "proj_actual_fy11", 
-        "type": "real"
-      }, 
-      {
-        "name": "ept_est_fy12", 
-        "type": "real"
-      }, 
-      {
-        "name": "proj_fy13", 
-        "type": "real"
-      }, 
-      {
-        "name": "proj_fy14", 
-        "type": "real"
-      }, 
-      {
-        "name": "proj_fy15", 
-        "type": "real"
-      }, 
-      {
-        "name": "proj_fy16", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/cookcounty.socrata.com", 
-  "tableName": "cook_county_budget_2012_budget_long_term_forecast"
+  "schema": "socrata/cookcounty.socrata.com", 
+  "table": "cook_county_budget_2012_budget_long_term_forecast"
 }

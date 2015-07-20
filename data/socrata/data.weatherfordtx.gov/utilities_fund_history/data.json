@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_weatherfordtx_utilities_fund_history/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/cdyu-igpi/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/cdyu-igpi/rows.csv", 
   "description": "A history of Utilities Fund Revenues, Expenditures, and Encumbrances (both Budget and Actual, YTD and MTD)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,78 +12,7 @@
     }
   }, 
   "name": "Utilities Fund History", 
-  "schema": {
-    "columns": [
-      {
-        "name": "full", 
-        "type": "text"
-      }, 
-      {
-        "name": "fiscal_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "fiscal_month", 
-        "type": "real"
-      }, 
-      {
-        "name": "fund", 
-        "type": "text"
-      }, 
-      {
-        "name": "account_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "division_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "division_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "department_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "revenue_category", 
-        "type": "text"
-      }, 
-      {
-        "name": "expense_category", 
-        "type": "text"
-      }, 
-      {
-        "name": "account_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "full_account", 
-        "type": "text"
-      }, 
-      {
-        "name": "account_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "budget", 
-        "type": "real"
-      }, 
-      {
-        "name": "mtd", 
-        "type": "real"
-      }, 
-      {
-        "name": "ytd", 
-        "type": "real"
-      }, 
-      {
-        "name": "enc", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.weatherfordtx.gov", 
-  "tableName": "utilities_fund_history"
+  "schema": "socrata/data.weatherfordtx.gov", 
+  "status": "needs review", 
+  "table": "utilities_fund_history"
 }

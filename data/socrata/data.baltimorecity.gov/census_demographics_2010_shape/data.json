@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/census_demographics_2010_shape/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/geospatial/v5un-pb4e", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.baltimorecity.gov/api/geospatial/v5un-pb4e", 
   "description": "BNIA-JFI analyzed data from the Census to provide greater understanding of the socioeconomic and demographic characteristics of the residents of the City and its neighborhoods . BNIA-JFI also used this data as denominators for many of the Vital Signs indicators allowing for data to be normalized and rates to be computed. Census data analyzed by BNIA-JFI is grouped into the following categories: population, race and ethnicity; households and families; and income.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,9 +14,7 @@
     }
   }, 
   "name": "Census Demographics 2010 - Shape", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.baltimorecity.gov", 
-  "tableName": "census_demographics_2010_shape"
+  "schema": "socrata/data.baltimorecity.gov", 
+  "status": "needs review", 
+  "table": "census_demographics_2010_shape"
 }

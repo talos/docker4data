@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_weatherfordtx_tpw_2006_street_condition_survey/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/idj9-c9dm/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/idj9-c9dm/rows.csv", 
   "description": "Original 2006 street condition survey conducted by IMS.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,98 +13,7 @@
     }
   }, 
   "name": "TPW - 2006 Street Condition Survey", 
-  "schema": {
-    "columns": [
-      {
-        "name": "cgid", 
-        "type": "text"
-      }, 
-      {
-        "name": "street", 
-        "type": "text"
-      }, 
-      {
-        "name": "hundred_block", 
-        "type": "text"
-      }, 
-      {
-        "name": "length_ft", 
-        "type": "real"
-      }, 
-      {
-        "name": "width_ft", 
-        "type": "real"
-      }, 
-      {
-        "name": "area_sq_yd", 
-        "type": "real"
-      }, 
-      {
-        "name": "surface_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "direction", 
-        "type": "text"
-      }, 
-      {
-        "name": "classification", 
-        "type": "text"
-      }, 
-      {
-        "name": "pci", 
-        "type": "real"
-      }, 
-      {
-        "name": "roughness_index", 
-        "type": "real"
-      }, 
-      {
-        "name": "rut_t_profile_index", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitudinal_crack_index", 
-        "type": "real"
-      }, 
-      {
-        "name": "transverse_crack_index", 
-        "type": "real"
-      }, 
-      {
-        "name": "alligator_crack_index", 
-        "type": "real"
-      }, 
-      {
-        "name": "map_block_crack_index", 
-        "type": "real"
-      }, 
-      {
-        "name": "raveling_scaling_index", 
-        "type": "real"
-      }, 
-      {
-        "name": "bleeding_polishing_index", 
-        "type": "real"
-      }, 
-      {
-        "name": "patching_index", 
-        "type": "real"
-      }, 
-      {
-        "name": "distortion_heaving_index", 
-        "type": "real"
-      }, 
-      {
-        "name": "delamination_index", 
-        "type": "real"
-      }, 
-      {
-        "name": "center_point", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.weatherfordtx.gov", 
-  "tableName": "tpw_2006_street_condition_survey"
+  "schema": "socrata/data.weatherfordtx.gov", 
+  "status": "needs review", 
+  "table": "tpw_2006_street_condition_survey"
 }

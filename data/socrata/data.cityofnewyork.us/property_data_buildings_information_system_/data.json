@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/property_data_buildings_information_system_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/e98g-f8hy/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/e98g-f8hy/rows.csv", 
   "description": "List of NYC Properties under DOB jurisdiction", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,54 +13,7 @@
     }
   }, 
   "name": "Property Data (Buildings Information System)", 
-  "schema": {
-    "columns": [
-      {
-        "name": "permit_bin", 
-        "type": "real"
-      }, 
-      {
-        "name": "permit_application_job_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "permit_application_document_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "permit_application_job_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "permit_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "permit_subtype", 
-        "type": "text"
-      }, 
-      {
-        "name": "permit_status_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "permit_sequence_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "permit_status_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "permit_issuance_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "permit_experation_date", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "property_data_buildings_information_system_"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "property_data_buildings_information_system_"
 }

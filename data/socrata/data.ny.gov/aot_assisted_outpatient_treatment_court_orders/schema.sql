@@ -1,0 +1,20 @@
+CREATE TABLE "aot_assisted_outpatient_treatment_court_orders" (
+	"row_created_date_time"	timestamp,
+	"data_level_indicator"	text,
+	"county"	text,
+	"omh_region"	text,
+	"number_of_petitions_filed"	real,
+	"number_of_petitions_granted"	real,
+	"percent_of_petitions_granted"	text,
+	"court_ordered_since_1999"	real,
+	"court_ordered_year_to_date"	real,
+	"currently_under_court_order"	real,
+	"renewed_court_orders"	real,
+	"eligible_for_court_order_renewel"	real,
+	"percent_of_orders_renewed"	text,
+	"percent_0_to_6_months_in_aot"	text,
+	"percent_6_to_12_months_in_aot"	text,
+	"percent_12_to_18_months_in_aot"	text,
+	"percent_18_to_30_months_in_aot"	text,
+	"percent_over_30_months_in_aot"	text
+);

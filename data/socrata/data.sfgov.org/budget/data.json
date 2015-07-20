@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/budget/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/xdgd-c79v/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sfgov.org/api/views/xdgd-c79v/rows.csv", 
   "description": "The San Francisco Controller's Office maintains a database of budgetary data that appears in summarized form in each Annual Appropriation Ordinance (AAO). This data is presented on the Budget report hosted at http://openbook.sfgov.org, and is also available in this dataset in CSV format. New data is added on an annual basis when the AAO is published for each new fiscal year. Data is available from fiscal year 2010 forward.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,98 +13,7 @@
     }
   }, 
   "name": "Budget", 
-  "schema": {
-    "columns": [
-      {
-        "name": "fiscal_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "revenue_or_spending", 
-        "type": "text"
-      }, 
-      {
-        "name": "related_gov_t_unit", 
-        "type": "text"
-      }, 
-      {
-        "name": "organization_group_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "organization_group", 
-        "type": "text"
-      }, 
-      {
-        "name": "department_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "department", 
-        "type": "text"
-      }, 
-      {
-        "name": "program_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "program", 
-        "type": "text"
-      }, 
-      {
-        "name": "character_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "character", 
-        "type": "text"
-      }, 
-      {
-        "name": "object_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "object", 
-        "type": "text"
-      }, 
-      {
-        "name": "sub_object_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "sub_object", 
-        "type": "text"
-      }, 
-      {
-        "name": "fund_type_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "fund_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "fund_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "fund", 
-        "type": "text"
-      }, 
-      {
-        "name": "fund_category_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "fund_category", 
-        "type": "text"
-      }, 
-      {
-        "name": "amount", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sfgov.org", 
-  "tableName": "budget"
+  "schema": "socrata/data.sfgov.org", 
+  "status": "needs review", 
+  "table": "budget"
 }

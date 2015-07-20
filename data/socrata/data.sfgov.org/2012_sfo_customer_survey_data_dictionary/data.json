@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/2012_sfo_customer_survey_data_dictionary/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/download/3a64-777gapplication/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.sfgov.org/download/3a64-777g/application/pdf", 
   "description": "Data Dictionary for use with SFO 2012 customer Survey", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "2012 SFO Customer Survey Data Dictionary", 
-  "schema": {}, 
-  "schemaName": "socrata/data.sfgov.org", 
-  "tableName": "2012_sfo_customer_survey_data_dictionary"
+  "schema": "socrata/data.sfgov.org", 
+  "status": "needs review", 
+  "table": "2012_sfo_customer_survey_data_dictionary"
 }

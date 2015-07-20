@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_acgov_alameda_county_sheriff_crime_reports/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.acgov.org/api/views/8khs-56kk/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.acgov.org/api/views/8khs-56kk/rows.csv", 
   "description": "Alameda County Sheriff Crime Reports from January 1, 2012 to present", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "Alameda County Sheriff Crime Reports", 
-  "schema": {
-    "columns": [
-      {
-        "name": "datetime", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "block", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip", 
-        "type": "real"
-      }, 
-      {
-        "name": "crimecode", 
-        "type": "text"
-      }, 
-      {
-        "name": "crimedescription", 
-        "type": "text"
-      }, 
-      {
-        "name": "agencyid", 
-        "type": "text"
-      }, 
-      {
-        "name": "crimeid", 
-        "type": "real"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.acgov.org", 
-  "tableName": "alameda_county_sheriff_crime_reports"
+  "schema": "socrata/data.acgov.org", 
+  "status": "needs review", 
+  "table": "alameda_county_sheriff_crime_reports"
 }

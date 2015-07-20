@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_baltimorecity_parking_facilities/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/e29s-jddm/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/e29s-jddm/rows.csv", 
   "description": "Parking Facilities throughout the City of Baltimore.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "Parking Facilities", 
-  "schema": {
-    "columns": [
-      {
-        "name": "operator", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "street", 
-        "type": "text"
-      }, 
-      {
-        "name": "hoursofoperation", 
-        "type": "text"
-      }, 
-      {
-        "name": "dailymaximumrate", 
-        "type": "text"
-      }, 
-      {
-        "name": "earlybird", 
-        "type": "text"
-      }, 
-      {
-        "name": "eveningweekend", 
-        "type": "text"
-      }, 
-      {
-        "name": "weekendrate", 
-        "type": "text"
-      }, 
-      {
-        "name": "monthlyrate", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.baltimorecity.gov", 
-  "tableName": "parking_facilities"
+  "schema": "socrata/data.baltimorecity.gov", 
+  "status": "needs review", 
+  "table": "parking_facilities"
 }

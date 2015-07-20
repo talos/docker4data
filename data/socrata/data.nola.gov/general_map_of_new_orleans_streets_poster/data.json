@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/general_map_of_new_orleans_streets_poster/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.nola.gov/download/vu74-j8jpapplication/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.nola.gov/download/vu74-j8jp/application/pdf", 
   "description": "Poster-sized street map of New Orleans with New Orleans East inset. PDF format. Next update: July 2012.", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "General Map of New Orleans Streets -- Poster", 
-  "schema": {}, 
-  "schemaName": "socrata/data.nola.gov", 
-  "tableName": "general_map_of_new_orleans_streets_poster"
+  "schema": "socrata/data.nola.gov", 
+  "status": "needs review", 
+  "table": "general_map_of_new_orleans_streets_poster"
 }

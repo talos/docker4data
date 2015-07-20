@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_traffic_tickets_issued_five_year_window/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/q4hy-kbtf/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/q4hy-kbtf/rows.csv", 
   "description": "Data extracted from records of tickets on file with NYS DMV. The tickets were issued to motorists for violations of:\r\n\uf0b7 NYS Vehicle & Traffic Law (VTL),\r\n\uf0b7 Thruway Rules and Regulations\r\n\uf0b7 Tax Law\r\n\uf0b7 Transportation Law\r\n\uf0b7 Parks and Recreation Regulations\r\n\uf0b7 Local New York City Traffic Ordinances and\r\n\uf0b7 NYS Penal Law pertaining to the involvement of a motor vehicle in acts of assault, homicide, manslaughter and criminal negligence resulting in injury or death.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,54 +13,7 @@
     }
   }, 
   "name": "Traffic Tickets Issued: Five Year Window", 
-  "schema": {
-    "columns": [
-      {
-        "name": "violation_charged_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "violation_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "violation_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "violation_month", 
-        "type": "real"
-      }, 
-      {
-        "name": "violation_time", 
-        "type": "text"
-      }, 
-      {
-        "name": "age_at_violation", 
-        "type": "real"
-      }, 
-      {
-        "name": "state_of_license", 
-        "type": "text"
-      }, 
-      {
-        "name": "gender", 
-        "type": "text"
-      }, 
-      {
-        "name": "police_agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "court", 
-        "type": "text"
-      }, 
-      {
-        "name": "source", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "traffic_tickets_issued_five_year_window"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "traffic_tickets_issued_five_year_window"
 }

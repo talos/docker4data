@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/idph_water_systems_population_served_by_county/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/download/cu5d-8fijapplication/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/download/cu5d-8fij/application/pdf", 
   "description": "List of Illinois' water systems, and the number of population served, listed by county.", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "IDPH Water Systems' Population Served by County", 
-  "schema": {}, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "idph_water_systems_population_served_by_county"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "idph_water_systems_population_served_by_county"
 }

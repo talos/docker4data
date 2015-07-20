@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_msp_criminal_apprehensions_cy_2014/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/fdgq-64x7/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/fdgq-64x7/rows.csv", 
   "description": "This dataset shows the total number of Maryland State Police Criminal Apprehensions for CY 2014.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "MSP Criminal Apprehensions CY 2014", 
-  "schema": {
-    "columns": [
-      {
-        "name": "_2014_year_to_dateby_month", 
-        "type": "text"
-      }, 
-      {
-        "name": "dui_arrests", 
-        "type": "real"
-      }, 
-      {
-        "name": "adult_non_cds_arrests", 
-        "type": "real"
-      }, 
-      {
-        "name": "juvenile_non_cds_arrests", 
-        "type": "real"
-      }, 
-      {
-        "name": "adult_cds_arrests", 
-        "type": "real"
-      }, 
-      {
-        "name": "juvenile_cds_arrests", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "msp_criminal_apprehensions_cy_2014"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "msp_criminal_apprehensions_cy_2014"
 }

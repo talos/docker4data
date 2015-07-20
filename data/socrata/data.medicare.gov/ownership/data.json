@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_medicare_ownership/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/y2hd-n93e/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.medicare.gov/api/views/y2hd-n93e/rows.csv", 
   "description": "A list of ownership information for currently active nursing homes.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,62 +12,7 @@
     }
   }, 
   "name": "Ownership", 
-  "schema": {
-    "columns": [
-      {
-        "name": "federal_provider_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "provider_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "provider_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "provider_city", 
-        "type": "text"
-      }, 
-      {
-        "name": "provider_state", 
-        "type": "text"
-      }, 
-      {
-        "name": "provider_zip_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "role_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "owner_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "owner_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "ownership_percentage", 
-        "type": "text"
-      }, 
-      {
-        "name": "association_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "processing_date", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.medicare.gov", 
-  "tableName": "ownership"
+  "schema": "socrata/data.medicare.gov", 
+  "status": "needs review", 
+  "table": "ownership"
 }

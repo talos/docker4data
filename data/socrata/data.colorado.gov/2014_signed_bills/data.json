@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_2014_signed_bills/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/nzfe-fdbi/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/api/views/nzfe-fdbi/rows.csv", 
   "description": "A Comprehensive list of all bills signed by Governor Hickenlooper the 2014 Legislative Session", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "2014 Signed Bills", 
-  "schema": {
-    "columns": [
-      {
-        "name": "bill_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "title", 
-        "type": "text"
-      }, 
-      {
-        "name": "sponsors", 
-        "type": "text"
-      }, 
-      {
-        "name": "action_taken_by_the_governor", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "2014_signed_bills"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "2014_signed_bills"
 }

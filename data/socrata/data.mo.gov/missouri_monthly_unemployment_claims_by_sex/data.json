@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_mo_missouri_monthly_unemployment_claims_by_sex/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.mo.gov/api/views/4v5t-4kqk/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.mo.gov/api/views/4v5t-4kqk/rows.csv", 
   "description": "Demographic data of Missouri Unemployment claims by sex", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,30 +12,7 @@
     }
   }, 
   "name": "Missouri Monthly Unemployment Claims By Sex", 
-  "schema": {
-    "columns": [
-      {
-        "name": "record_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "ina", 
-        "type": "real"
-      }, 
-      {
-        "name": "female", 
-        "type": "real"
-      }, 
-      {
-        "name": "male", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.mo.gov", 
-  "tableName": "missouri_monthly_unemployment_claims_by_sex"
+  "schema": "socrata/data.mo.gov", 
+  "status": "needs review", 
+  "table": "missouri_monthly_unemployment_claims_by_sex"
 }

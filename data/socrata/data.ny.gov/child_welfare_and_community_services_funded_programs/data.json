@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/child_welfare_and_community_services_funded_programs/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/ahjq-dbec/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/ahjq-dbec/rows.csv", 
   "description": "Included in this data set are data elements that will help the public identify all the programs currently funded by the New York State Office of Children and Family Services' (OCFS) Division of Child Welfare and Community Services (CWCS).  Data elements include the name of the provider agency, the business address and phone number, the county served, type of program, funding source, description of services, contract dates, contract number, funding level and the agencies website, where available", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,70 +13,7 @@
     }
   }, 
   "name": "Child Welfare and Community Services Funded Programs", 
-  "schema": {
-    "columns": [
-      {
-        "name": "agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip", 
-        "type": "real"
-      }, 
-      {
-        "name": "phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "counties_served", 
-        "type": "text"
-      }, 
-      {
-        "name": "program_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "funding_source", 
-        "type": "text"
-      }, 
-      {
-        "name": "program_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "contract_dates", 
-        "type": "text"
-      }, 
-      {
-        "name": "contract_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "funding_level", 
-        "type": "real"
-      }, 
-      {
-        "name": "website", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "child_welfare_and_community_services_funded_programs"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "child_welfare_and_community_services_funded_programs"
 }

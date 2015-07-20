@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_open_budget_application_content_configurations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/kj6s-3vrw/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/kj6s-3vrw/rows.csv", 
   "description": "data powering openbudget.seattle.gov", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,18 +11,7 @@
     }
   }, 
   "name": "Open Budget Application: Content Configurations", 
-  "schema": {
-    "columns": [
-      {
-        "name": "homepage", 
-        "type": "text"
-      }, 
-      {
-        "name": "about_page", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "open_budget_application_content_configurations"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "open_budget_application_content_configurations"
 }

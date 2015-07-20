@@ -1,0 +1,22 @@
+CREATE TABLE "ifc_investment_services_projects" (
+	"date_disclosed"	timestamp,
+	"project_name"	text,
+	"document_type"	text,
+	"project_number"	text,
+	"product_line"	text,
+	"company_name"	text,
+	"country"	text,
+	"ifc_country_code"	text,
+	"sector"	text,
+	"environmental_category"	text,
+	"department"	text,
+	"status"	text,
+	"project_board_date"	timestamp,
+	"ifc_investment_for_risk_management_million_usd"	real,
+	"ifc_investment_for_guarantee_million_usd"	real,
+	"ifc_investment_for_loan_million_usd"	real,
+	"ifc_investment_for_equity_million_usd"	real,
+	"total_ifc_investment_as_approved_by_board_million_usd"	real,
+	"country_code"	text,
+	"as_of_date"	timestamp
+);

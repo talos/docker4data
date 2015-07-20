@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/statewide_wq/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/rfgs-5ued/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.wa.gov/api/views/rfgs-5ued/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,22 +9,7 @@
     }
   }, 
   "name": "Statewide WQ", 
-  "schema": {
-    "columns": [
-      {
-        "name": "region", 
-        "type": "text"
-      }, 
-      {
-        "name": "water_quality_condition", 
-        "type": "text"
-      }, 
-      {
-        "name": "_", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.wa.gov", 
-  "tableName": "statewide_wq"
+  "schema": "socrata/data.wa.gov", 
+  "status": "needs review", 
+  "table": "statewide_wq"
 }

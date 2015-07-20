@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/colorado_information_marketplace_powerpoint/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/download/58qm-6mm5application/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/download/58qm-6mm5/application/pdf", 
   "description": "The Colorado Information Marketplace is a platform for data sharing and the transparency of public information.", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Colorado Information Marketplace Powerpoint", 
-  "schema": {}, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "colorado_information_marketplace_powerpoint"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "colorado_information_marketplace_powerpoint"
 }

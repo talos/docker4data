@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_parking_permit_zones/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/u9xt-hiju/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/u9xt-hiju/rows.csv", 
   "description": "This dataset contains all those street segments (individually uniquely identified by Record ID) that have been designated as belonging to a \u201cResidential Parking Zone.\u201d  Residential Parking Zones are established by passage of legislation through the Chicago City Council; this data set is updated daily, but major update installments typically occur shortly after City Council Meetings (where/when legislation affecting zones \u2013 such as zone creation or zone modification \u2013 occurs).   (See City Council Meeting schedule: https://chicago.legistar.com/Calendar.aspx.)  The collection of street segments for a single zone (collectively identified by Zone number) are not required to constitute a seamless polygon; however, they must be contiguous; in this sense, \u201cZones\u201d often closer resemble a collection of intersecting segments rather than an unbroken area. Segments are commonly categorized as being either \u201cStandard\u201d or \u201cBuffer\u201d: Standard means that signs exist on the street segment beginning at the low-point and ending at the high-point; Buffer means that physical signs do not exist for that zone on that physical street, but residents of addresses within that segment shall have the privilege to purchase zone products (daily permits and annual passes) for that zone, as if physical signs were installed.  (In this way, segments designated as \u2018Buffer\u2019 can in fact overlap with either other buffers and/or standard segments.)  Physical signs will display the zone number and the day/times when the zone restriction is in effect, e.g., \u201cAll Times\u201d / \u201cAnytime\u201d; \u201cMonday through Friday\u201d; \u201c6am \u2013 6pm All Days.\u201d  During restricted days/times, any vehicle parked in the zone which does not display a valid unexpired zone product (either a daily permit or an annual pass printed on the City Vehicle Sticker) is subject to ticketing/enforcement.  Read more about Residential Zone Parking and eligibility to purchase zoned products: http://chicityclerk.com/city-stickers-parking/about-residential-parking.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,62 +13,7 @@
     }
   }, 
   "name": "Parking Permit Zones", 
-  "schema": {
-    "columns": [
-      {
-        "name": "row_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "status", 
-        "type": "text"
-      }, 
-      {
-        "name": "zone", 
-        "type": "text"
-      }, 
-      {
-        "name": "odd_even", 
-        "type": "text"
-      }, 
-      {
-        "name": "address_range_low", 
-        "type": "real"
-      }, 
-      {
-        "name": "address_range_high", 
-        "type": "real"
-      }, 
-      {
-        "name": "street_direction", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "second_street_direction", 
-        "type": "text"
-      }, 
-      {
-        "name": "buffer", 
-        "type": "text"
-      }, 
-      {
-        "name": "ward_low", 
-        "type": "real"
-      }, 
-      {
-        "name": "ward_high", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "parking_permit_zones"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "parking_permit_zones"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_aot_assisted_outpatient_treatment_court_orders/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/r4sv-k333/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/r4sv-k333/rows.csv", 
   "description": "This dataset contains the number recipients with AOT petitions and court orders and their length of time on court order, by county, region and statewide.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,82 +13,7 @@
     }
   }, 
   "name": "AOT (Assisted Outpatient Treatment) Court Orders", 
-  "schema": {
-    "columns": [
-      {
-        "name": "row_created_date_time", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "data_level_indicator", 
-        "type": "text"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "omh_region", 
-        "type": "text"
-      }, 
-      {
-        "name": "number_of_petitions_filed", 
-        "type": "real"
-      }, 
-      {
-        "name": "number_of_petitions_granted", 
-        "type": "real"
-      }, 
-      {
-        "name": "percent_of_petitions_granted", 
-        "type": "text"
-      }, 
-      {
-        "name": "court_ordered_since_1999", 
-        "type": "real"
-      }, 
-      {
-        "name": "court_ordered_year_to_date", 
-        "type": "real"
-      }, 
-      {
-        "name": "currently_under_court_order", 
-        "type": "real"
-      }, 
-      {
-        "name": "renewed_court_orders", 
-        "type": "real"
-      }, 
-      {
-        "name": "eligible_for_court_order_renewel", 
-        "type": "real"
-      }, 
-      {
-        "name": "percent_of_orders_renewed", 
-        "type": "text"
-      }, 
-      {
-        "name": "percent_0_to_6_months_in_aot", 
-        "type": "text"
-      }, 
-      {
-        "name": "percent_6_to_12_months_in_aot", 
-        "type": "text"
-      }, 
-      {
-        "name": "percent_12_to_18_months_in_aot", 
-        "type": "text"
-      }, 
-      {
-        "name": "percent_18_to_30_months_in_aot", 
-        "type": "text"
-      }, 
-      {
-        "name": "percent_over_30_months_in_aot", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "aot_assisted_outpatient_treatment_court_orders"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "aot_assisted_outpatient_treatment_court_orders"
 }

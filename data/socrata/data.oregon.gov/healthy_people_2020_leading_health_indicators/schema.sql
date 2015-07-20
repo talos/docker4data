@@ -1,0 +1,21 @@
+CREATE TABLE "healthy_people_2020_leading_health_indicators" (
+	"objective_number"	text,
+	"objective_title"	text,
+	"state_name"	text,
+	"subpopulation_title"	text,
+	"base_line_year"	real,
+	"base_line"	text,
+	"_1998_value"	text,
+	"_1999_value"	text,
+	"_2000_value"	text,
+	"_2001_value"	text,
+	"_2002_value"	text,
+	"_2003"	text,
+	"_2004"	text,
+	"_2005"	text,
+	"_2006"	text,
+	"_2007"	text,
+	"_2008"	text,
+	"_2009"	text,
+	"targ_2010"	real
+);

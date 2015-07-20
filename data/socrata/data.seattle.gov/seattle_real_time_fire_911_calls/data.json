@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_seattle_real_time_fire_911_calls/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/kzjm-xkqj/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/kzjm-xkqj/rows.csv", 
   "description": "Provides Seattle Fire Department 911 dispatches. Updated every 5 minutes.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "Seattle Real Time Fire 911 Calls", 
-  "schema": {
-    "columns": [
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "type", 
-        "type": "text"
-      }, 
-      {
-        "name": "datetime", 
-        "type": "text"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "report_location", 
-        "type": "text"
-      }, 
-      {
-        "name": "incident_number", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "seattle_real_time_fire_911_calls"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "seattle_real_time_fire_911_calls"
 }

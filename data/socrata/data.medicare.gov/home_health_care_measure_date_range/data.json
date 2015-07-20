@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_medicare_home_health_care_measure_date_range/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/c886-nwpj/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.medicare.gov/api/views/c886-nwpj/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -14,18 +10,7 @@
     }
   }, 
   "name": "Home Health Care - Measure Date Range", 
-  "schema": {
-    "columns": [
-      {
-        "name": "measure_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "measure_date_range", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.medicare.gov", 
-  "tableName": "home_health_care_measure_date_range"
+  "schema": "socrata/data.medicare.gov", 
+  "status": "needs review", 
+  "table": "home_health_care_measure_date_range"
 }

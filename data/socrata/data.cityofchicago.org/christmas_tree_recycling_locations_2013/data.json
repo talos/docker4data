@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_christmas_tree_recycling_locations_2013/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/spxm-tnai/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/spxm-tnai/rows.csv", 
   "description": "Locations provided by the city to recycle Christmas trees from January 5-18, 2013. For more information, see http://www.cityofchicago.org/city/en/depts/streets/provdrs/streets_san/news/2012/dec/city_of_chicago_toofferchristmastreerecyclingat.html", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,66 +13,7 @@
     }
   }, 
   "name": "Christmas Tree Recycling Locations 2013", 
-  "schema": {
-    "columns": [
-      {
-        "name": "community_area_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "house_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "street_direction", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "community_area", 
-        "type": "real"
-      }, 
-      {
-        "name": "ward", 
-        "type": "real"
-      }, 
-      {
-        "name": "x_coord", 
-        "type": "real"
-      }, 
-      {
-        "name": "y_coord", 
-        "type": "real"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "christmas_tree_recycling_locations_2013"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "christmas_tree_recycling_locations_2013"
 }

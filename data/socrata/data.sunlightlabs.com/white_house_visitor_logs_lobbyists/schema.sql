@@ -1,0 +1,20 @@
+CREATE TABLE "white_house_visitor_logs_lobbyists" (
+	"visitor"	text,
+	"toa"	text,
+	"tod"	text,
+	"appt_made_date"	text,
+	"appt_start_date"	text,
+	"appt_end_date"	text,
+	"appt_cancel_date"	text,
+	"visited"	text,
+	"description"	text,
+	"release_date"	text,
+	"firms"	text,
+	"clients"	text,
+	"crp"	text,
+	"google"	text,
+	"linkedin"	text,
+	"littlesis"	text,
+	"nimsp"	text,
+	"wikipedia"	text
+);

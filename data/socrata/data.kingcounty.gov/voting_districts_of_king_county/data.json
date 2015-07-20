@@ -1,9 +1,6 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/voting_districts_of_king_county/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/geospatial/4eex-7357", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.kingcounty.gov/api/geospatial/4eex-7357", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -14,7 +11,7 @@
     }
   }, 
   "name": "Voting Districts of King County", 
-  "schema": {}, 
-  "schemaName": "socrata/data.kingcounty.gov", 
-  "tableName": "voting_districts_of_king_county"
+  "schema": "socrata/data.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "voting_districts_of_king_county"
 }

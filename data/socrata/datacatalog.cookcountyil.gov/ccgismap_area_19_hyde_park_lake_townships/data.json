@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ccgismap_area_19_hyde_park_lake_townships/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/download/qr3k-zmxcapplication/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/download/qr3k-zmxc/application/pdf", 
   "description": "Cook County GIS Dept map of Hyde Park & Lake Townships in a pdf format.  Includes streets and municipalities.", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "ccgismap - Area 19 Hyde Park & Lake Townships", 
-  "schema": {}, 
-  "schemaName": "socrata/datacatalog.cookcountyil.gov", 
-  "tableName": "ccgismap_area_19_hyde_park_lake_townships"
+  "schema": "socrata/datacatalog.cookcountyil.gov", 
+  "status": "needs review", 
+  "table": "ccgismap_area_19_hyde_park_lake_townships"
 }

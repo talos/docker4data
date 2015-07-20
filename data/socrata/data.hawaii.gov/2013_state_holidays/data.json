@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_2013_state_holidays/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/epj5-jxdm/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/epj5-jxdm/rows.csv", 
   "description": "State Holidays for calendar year 2013", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "2013 State Holidays", 
-  "schema": {
-    "columns": [
-      {
-        "name": "holiday", 
-        "type": "text"
-      }, 
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "day_of_week", 
-        "type": "text"
-      }, 
-      {
-        "name": "official_date", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "2013_state_holidays"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "2013_state_holidays"
 }

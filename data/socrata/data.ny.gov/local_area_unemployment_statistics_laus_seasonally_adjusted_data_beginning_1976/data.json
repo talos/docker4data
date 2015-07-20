@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/local_area_unemployment_statistics_laus_seasonally_adjusted_data_beginning_1976/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/dh9m-5v4d/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/dh9m-5v4d/rows.csv", 
   "description": "The Local Area Unemployment Statistics program estimates labor force statistics (labor force, employed, unemployment, unemployment rate) for New York State civilian labor force aged 16 and up. Seasonally adjusted estimates are provided for New York State, New York City, Balance of State.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "Local Area Unemployment Statistics (LAUS), Seasonally Adjusted Data: Beginning 1976", 
-  "schema": {
-    "columns": [
-      {
-        "name": "area", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "month", 
-        "type": "real"
-      }, 
-      {
-        "name": "labor_force", 
-        "type": "real"
-      }, 
-      {
-        "name": "employed", 
-        "type": "real"
-      }, 
-      {
-        "name": "unemployed", 
-        "type": "real"
-      }, 
-      {
-        "name": "unemployment_rate", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "local_area_unemployment_statistics_laus_seasonally_adjusted_data_beginning_1976"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "local_area_unemployment_statistics_laus_seasonally_adjusted_data_beginning_1976"
 }

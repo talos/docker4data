@@ -1,0 +1,23 @@
+CREATE TABLE "residential_projects_with_inclusionary_requirements" (
+	"id"	real,
+	"status_of_project"	text,
+	"building_name"	text,
+	"planning_approval_street_no"	text,
+	"planning_approval_street_name"	text,
+	"zip"	text,
+	"section_415_declaration_of_intent"	text,
+	"section_415_declaration_label"	text,
+	"tenure"	text,
+	"total_units_in_building_or_phase"	real,
+	"final_bmr_on_site"	real,
+	"final_bmr_off_site"	real,
+	"off_site_units_at_this_site"	real,
+	"total_bmr_s_in_this_building_or_phase"	real,
+	"principal_project_address"	text,
+	"off_site_address"	text,
+	"lottery_date"	timestamp,
+	"entitlement_yr"	real,
+	"building_completion_calendar_year"	real,
+	"mapping_address"	text,
+	"location"	text
+);

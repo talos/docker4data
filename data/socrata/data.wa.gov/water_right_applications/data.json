@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wa_water_right_applications/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/9ubz-5r4b/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.wa.gov/api/views/9ubz-5r4b/rows.csv", 
   "description": "Pending Water Right Applications in Washington State. Includes both applications for new water rights and to change existing water rights. Updated weekly.    Live data available at: https://fortress.wa.gov/ecy/waterresources/map/QuantityReport.aspx and https://fortress.wa.gov/ecy/waterresources/map/WaterResourcesExplorer.aspx.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,110 +13,7 @@
     }
   }, 
   "name": "Water Right Applications", 
-  "schema": {
-    "columns": [
-      {
-        "name": "wr_doc_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "document_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "document_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "purpose_code_list", 
-        "type": "text"
-      }, 
-      {
-        "name": "person_last_or_organization_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "priority_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "year_applied", 
-        "type": "real"
-      }, 
-      {
-        "name": "cfs", 
-        "type": "real"
-      }, 
-      {
-        "name": "gpm", 
-        "type": "real"
-      }, 
-      {
-        "name": "domestic_units", 
-        "type": "real"
-      }, 
-      {
-        "name": "acre_feet", 
-        "type": "real"
-      }, 
-      {
-        "name": "acre_irr", 
-        "type": "real"
-      }, 
-      {
-        "name": "county_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "wria", 
-        "type": "real"
-      }, 
-      {
-        "name": "wria_nm", 
-        "type": "text"
-      }, 
-      {
-        "name": "cert_num", 
-        "type": "text"
-      }, 
-      {
-        "name": "trs", 
-        "type": "text"
-      }, 
-      {
-        "name": "quad_designation", 
-        "type": "text"
-      }, 
-      {
-        "name": "source_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "tributary_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "image_url", 
-        "type": "text"
-      }, 
-      {
-        "name": "map_url", 
-        "type": "text"
-      }, 
-      {
-        "name": "latitude1", 
-        "type": "text"
-      }, 
-      {
-        "name": "longitude1", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.wa.gov", 
-  "tableName": "water_right_applications"
+  "schema": "socrata/data.wa.gov", 
+  "status": "needs review", 
+  "table": "water_right_applications"
 }

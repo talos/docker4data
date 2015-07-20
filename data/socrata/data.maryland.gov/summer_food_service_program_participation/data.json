@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_summer_food_service_program_participation/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/adfi-nfw7/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/adfi-nfw7/rows.csv", 
   "description": "This dataset tracks participation in the summer food service program by year. Data provided by DHR as part of the Partnership to End Childhood Hunger.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Summer Food Service Program, Participation", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "text"
-      }, 
-      {
-        "name": "summer_food_service_program_adp", 
-        "type": "real"
-      }, 
-      {
-        "name": "free_reduced_lunch_participation", 
-        "type": "real"
-      }, 
-      {
-        "name": "of_f_r_lunch_participants_that_eat_summer_meals", 
-        "type": "text"
-      }, 
-      {
-        "name": "summer_food_service_program_2015_participation_goal", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "summer_food_service_program_participation"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "summer_food_service_program_participation"
 }

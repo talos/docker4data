@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_baltimorecity_bnia_vital_signs_codebook/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/ryvy-9zw6/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/ryvy-9zw6/rows.csv", 
   "description": "Lists the short variable names and their corresponding full names, along with their sources. - See more at: http://bniajfi.org/data_downloads", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "BNIA Vital Signs Codebook", 
-  "schema": {
-    "columns": [
-      {
-        "name": "section", 
-        "type": "text"
-      }, 
-      {
-        "name": "variable_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "indicator", 
-        "type": "text"
-      }, 
-      {
-        "name": "full_source", 
-        "type": "text"
-      }, 
-      {
-        "name": "years_available", 
-        "type": "text"
-      }, 
-      {
-        "name": "normalization_source", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.baltimorecity.gov", 
-  "tableName": "bnia_vital_signs_codebook"
+  "schema": "socrata/data.baltimorecity.gov", 
+  "status": "needs review", 
+  "table": "bnia_vital_signs_codebook"
 }

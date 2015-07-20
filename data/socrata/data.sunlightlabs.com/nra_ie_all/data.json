@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sunlightlabs_nra_ie_all/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sunlightlabs.com/api/views/ggsb-243d/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sunlightlabs.com/api/views/ggsb-243d/rows.csv", 
   "description": "Independent Expenditures made by either of the NRA's subsidiary Organizations during the 2012 cycle", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,26 +12,7 @@
     }
   }, 
   "name": "NRA IE All", 
-  "schema": {
-    "columns": [
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "fec_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "supporting_ie", 
-        "type": "real"
-      }, 
-      {
-        "name": "opposing_ie", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sunlightlabs.com", 
-  "tableName": "nra_ie_all"
+  "schema": "socrata/data.sunlightlabs.com", 
+  "status": "needs review", 
+  "table": "nra_ie_all"
 }

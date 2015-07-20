@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/missouri_beer_wine_and_liquor_solicitor_list_with_zip_code/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.mo.gov/api/views/mmn5-wy78/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.mo.gov/api/views/mmn5-wy78/rows.csv", 
   "description": "Listing of all current beer, wine and liquor solicitors and their associated zip code.  This is updated daily", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Missouri Beer, Wine and Liquor Solicitor List with Zip Code", 
-  "schema": {
-    "columns": [
-      {
-        "name": "business_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "license_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "license_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.mo.gov", 
-  "tableName": "missouri_beer_wine_and_liquor_solicitor_list_with_zip_code"
+  "schema": "socrata/data.mo.gov", 
+  "status": "needs review", 
+  "table": "missouri_beer_wine_and_liquor_solicitor_list_with_zip_code"
 }

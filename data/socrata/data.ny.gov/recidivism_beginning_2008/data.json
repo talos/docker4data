@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_recidivism_beginning_2008/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/y7pw-wrny/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/y7pw-wrny/rows.csv", 
   "description": "Represents return status within three years of release among inmates released to the community during a particular calendar year.  Each data record represents a release to the community as a result of completing maximum sentence, reaching conditional release date, or being approved for release by the Board of Parole.  The dataset includes data about release year, county of indictment, gender, age at release, and return status.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Recidivism: Beginning 2008", 
-  "schema": {
-    "columns": [
-      {
-        "name": "release_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "county_of_indictment", 
-        "type": "text"
-      }, 
-      {
-        "name": "gender", 
-        "type": "text"
-      }, 
-      {
-        "name": "age_at_release", 
-        "type": "real"
-      }, 
-      {
-        "name": "return_status", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "recidivism_beginning_2008"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "recidivism_beginning_2008"
 }

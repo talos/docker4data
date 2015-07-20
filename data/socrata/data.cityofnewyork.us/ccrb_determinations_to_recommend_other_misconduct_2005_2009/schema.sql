@@ -1,0 +1,14 @@
+CREATE TABLE "ccrb_determinations_to_recommend_other_misconduct_2005_2009" (
+	"category"	text,
+	"_2005_number_of_allegations_against_officers_with_subbed_fado_allegation"	real,
+	"_2005_number_of_allegations_against_officers_without_subbed_fado_allegation"	real,
+	"_2006_number_of_allegations_against_officers_with_subbed_fado_allegation"	real,
+	"_2006_number_of_allegations_against_officers_without_subbed_fado_allegation"	real,
+	"_2007_number_of_allegations_against_officers_with_subbed_fado_allegation"	real,
+	"_2007_number_of_allegations_against_officers_without_subbed_fado_allegation"	real,
+	"_2008_number_of_allegations_against_officers_with_subbed_fado_allegation"	real,
+	"_2008_number_of_allegations_against_officers_without_subbed_fado_allegation"	real,
+	"_2009_number_of_allegations_against_officers_with_subbed_fado_allegation"	real,
+	"_2009_number_of_allegations_against_officers_without_subbed_fado_allegation"	real,
+	"total"	real
+);

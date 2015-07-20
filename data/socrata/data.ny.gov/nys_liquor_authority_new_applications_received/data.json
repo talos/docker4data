@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_nys_liquor_authority_new_applications_received/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/2kid-jvyk/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/2kid-jvyk/rows.csv", 
   "description": "Liquor License applications received", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,78 +13,7 @@
     }
   }, 
   "name": "NYS Liquor Authority New Applications Received", 
-  "schema": {
-    "columns": [
-      {
-        "name": "license_serial_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "license_type_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "license_class_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "license_type_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "agency_zone_office_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "agency_zone_office_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "county_name_licensee", 
-        "type": "text"
-      }, 
-      {
-        "name": "premises_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "doing_business_as_dba", 
-        "type": "text"
-      }, 
-      {
-        "name": "actual_address_of_premises_address1", 
-        "type": "text"
-      }, 
-      {
-        "name": "additional_address_information_address2", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip", 
-        "type": "real"
-      }, 
-      {
-        "name": "license_certificate_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "license_received_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "nys_liquor_authority_new_applications_received"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "nys_liquor_authority_new_applications_received"
 }

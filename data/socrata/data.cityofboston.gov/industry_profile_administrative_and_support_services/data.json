@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/industry_profile_administrative_and_support_services/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/download/xyka-9ti9application/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/download/xyka-9ti9/application/pdf", 
   "description": "\"Industry Profiles\" is a series on the largest industries in Boston. They contain facts on employment, major employers, education, and more. This report highlights Boston's Administrative and Support Services industry. This industry includes facility support services, office administrative services, waste collection and waste treatment.", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,9 +13,7 @@
     }
   }, 
   "name": "Industry Profile: Administrative and Support Services", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "industry_profile_administrative_and_support_services"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "industry_profile_administrative_and_support_services"
 }

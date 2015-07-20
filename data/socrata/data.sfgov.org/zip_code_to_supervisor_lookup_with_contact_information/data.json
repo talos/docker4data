@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/zip_code_to_supervisor_lookup_with_contact_information/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/ujme-i5np/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sfgov.org/api/views/ujme-i5np/rows.csv", 
   "description": "Lists intersecting Supervisor Districts and ZIP Codes for City and County of San Francisco, and provides contact information for the corresponding supervisor.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,54 +13,7 @@
     }
   }, 
   "name": "Zip Code to Supervisor Lookup with Contact Information", 
-  "schema": {
-    "columns": [
-      {
-        "name": "zip_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "district", 
-        "type": "real"
-      }, 
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "facebook", 
-        "type": "text"
-      }, 
-      {
-        "name": "email", 
-        "type": "text"
-      }, 
-      {
-        "name": "website", 
-        "type": "text"
-      }, 
-      {
-        "name": "twitter", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "aides_url", 
-        "type": "text"
-      }, 
-      {
-        "name": "aides_json", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sfgov.org", 
-  "tableName": "zip_code_to_supervisor_lookup_with_contact_information"
+  "schema": "socrata/data.sfgov.org", 
+  "status": "needs review", 
+  "table": "zip_code_to_supervisor_lookup_with_contact_information"
 }

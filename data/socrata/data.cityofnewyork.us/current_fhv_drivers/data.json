@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_current_fhv_drivers/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/9fg9-grkj/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/9fg9-grkj/rows.csv", 
   "description": "Spreadsheet of all TLC FHV drivers", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "Current Fhv Drivers", 
-  "schema": {
-    "columns": [
-      {
-        "name": "license_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "name_of_licensee", 
-        "type": "text"
-      }, 
-      {
-        "name": "license_expiration_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "license_type", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "current_fhv_drivers"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "current_fhv_drivers"
 }

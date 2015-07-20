@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_dwr_calls_history/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/t7na-sz5k/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/api/views/t7na-sz5k/rows.csv", 
   "description": "Division of Water Resources (DWR) Call History. The Call is a term used by the state engineer to effectively communicate the administrative status of the natural stream. The Call communicates the priority required during a specified period of time for a water right located within a specific stream or stream segment to divert under the Prior Appropriation Doctrine. The basic purpose of the Call is to \u201ccall out\u201d water rights that are not in priority in order to make water available to the senior water right that is diverting less than its decreed amount of water that it could beneficially use.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,114 +13,7 @@
     }
   }, 
   "name": "DWR Calls History", 
-  "schema": {
-    "columns": [
-      {
-        "name": "call_scenario", 
-        "type": "text"
-      }, 
-      {
-        "name": "date_time_set", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "date_time_released", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "water_source_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_wdid", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_structure_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "priority_wdid", 
-        "type": "text"
-      }, 
-      {
-        "name": "priority_structure_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "priority_admin_no", 
-        "type": "text"
-      }, 
-      {
-        "name": "priority_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "priority_no", 
-        "type": "text"
-      }, 
-      {
-        "name": "priority_amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "priority_units", 
-        "type": "text"
-      }, 
-      {
-        "name": "bounding_wdid", 
-        "type": "text"
-      }, 
-      {
-        "name": "bounding_structure", 
-        "type": "text"
-      }, 
-      {
-        "name": "set_comments", 
-        "type": "text"
-      }, 
-      {
-        "name": "release_comments", 
-        "type": "text"
-      }, 
-      {
-        "name": "more_information", 
-        "type": "text"
-      }, 
-      {
-        "name": "utm_x", 
-        "type": "real"
-      }, 
-      {
-        "name": "utm_y", 
-        "type": "real"
-      }, 
-      {
-        "name": "location_accuracy", 
-        "type": "text"
-      }, 
-      {
-        "name": "latdecdeg", 
-        "type": "real"
-      }, 
-      {
-        "name": "longdecdeg", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "div", 
-        "type": "real"
-      }, 
-      {
-        "name": "wd", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "dwr_calls_history"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "dwr_calls_history"
 }

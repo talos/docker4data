@@ -1,9 +1,6 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/oregon_counties_map/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/geospatial/djry-8qn8", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/api/geospatial/djry-8qn8", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -15,7 +12,7 @@
     }
   }, 
   "name": "Oregon counties map", 
-  "schema": {}, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "oregon_counties_map"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "oregon_counties_map"
 }

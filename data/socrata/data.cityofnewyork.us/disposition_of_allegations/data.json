@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_disposition_of_allegations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/rnf5-jwk6/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/rnf5-jwk6/rows.csv", 
   "description": "This table represents the disposition of allegations", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "Disposition of Allegations", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "text"
-      }, 
-      {
-        "name": "full_investigations_dispositions_and_disciplinary_recommendations", 
-        "type": "text"
-      }, 
-      {
-        "name": "alternative_dispute_resolution_closures", 
-        "type": "text"
-      }, 
-      {
-        "name": "truncated_investigations", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "disposition_of_allegations"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "disposition_of_allegations"
 }

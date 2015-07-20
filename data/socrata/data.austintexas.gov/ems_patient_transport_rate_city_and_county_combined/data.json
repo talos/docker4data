@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ems_patient_transport_rate_city_and_county_combined/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/gyhm-zak6/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/views/gyhm-zak6/rows.csv", 
   "description": "This is the percentage of patients who are transported after a patient contact is made", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,30 +12,7 @@
     }
   }, 
   "name": "EMS Patient Transport Rate  City And County Combined", 
-  "schema": {
-    "columns": [
-      {
-        "name": "month_year", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "combined_coa_and_tc_patient_contacts", 
-        "type": "real"
-      }, 
-      {
-        "name": "combined_coa_and_tc_patient_transports", 
-        "type": "real"
-      }, 
-      {
-        "name": "combined_coa_and_tc_patient_transport_rate", 
-        "type": "text"
-      }, 
-      {
-        "name": "patient_transport_rate_target", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "ems_patient_transport_rate_city_and_county_combined"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "ems_patient_transport_rate_city_and_county_combined"
 }

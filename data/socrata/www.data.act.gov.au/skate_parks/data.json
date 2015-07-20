@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/skate_parks/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/www.data.act.gov.au/api/views/3np9-m3i7/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/www.data.act.gov.au/api/views/3np9-m3i7/rows.csv", 
   "description": "There are seven major skate parks in Canberra suitable for all levels of use, with a further 12 parks offering skate features. Canberra's skate parks are available for use by all skateboarders, cyclists, scooters, rollerbladers and roller skaters.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "Skate Parks", 
-  "schema": {
-    "columns": [
-      {
-        "name": "id", 
-        "type": "text"
-      }, 
-      {
-        "name": "division", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "image_link", 
-        "type": "text"
-      }, 
-      {
-        "name": "video_link", 
-        "type": "text"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/www.data.act.gov.au", 
-  "tableName": "skate_parks"
+  "schema": "socrata/www.data.act.gov.au", 
+  "status": "needs review", 
+  "table": "skate_parks"
 }

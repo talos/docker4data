@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_grand_street_bid_business_directory/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/656a-faqy/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/656a-faqy/rows.csv", 
   "description": "Business Directory for the Grand Street (East Williamsburg) Business Improvement District (BID).  \r\nA BID delivers supplemental services, public safety, visitor services, marketing and promotional programs, capital improvements and beautification to a designated area.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "Grand Street BID Business Directory", 
-  "schema": {
-    "columns": [
-      {
-        "name": "business_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "tel", 
-        "type": "text"
-      }, 
-      {
-        "name": "website", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "grand_street_bid_business_directory"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "grand_street_bid_business_directory"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/health_and_hospitals_corporation_hhc_facilities/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/f7b6-v6v3/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/f7b6-v6v3/rows.csv", 
   "description": "This is a list of the 11 acute care hospitals, four skilled nursing facilities, six large diagnostic and treatment centers and community-based clinics that make up the New York City Health and Hospitals Corporation, NYC's public hospital system. HHC is a $6.7 billion integrated healthcare delivery system which serves 1.3 million New Yorkers every year and more than 450,000 are uninsured. It provides medical, mental health and substance abuse services.\r\nUpdate Frequency: As needed", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "Health and Hospitals Corporation (HHC) Facilities", 
-  "schema": {
-    "columns": [
-      {
-        "name": "facility_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "borough", 
-        "type": "text"
-      }, 
-      {
-        "name": "facility_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "cross_streets", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "health_and_hospitals_corporation_hhc_facilities"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "health_and_hospitals_corporation_hhc_facilities"
 }

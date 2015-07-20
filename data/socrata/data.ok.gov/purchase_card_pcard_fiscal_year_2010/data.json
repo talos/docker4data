@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_purchase_card_pcard_fiscal_year_2010/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/vxds-7vhi/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/vxds-7vhi/rows.csv", 
   "description": "This dataset contains information on purchases made through the purchase card programs administered by the state and higher ed institutions.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,54 +12,7 @@
     }
   }, 
   "name": "Purchase Card (PCard) - Fiscal Year 2010", 
-  "schema": {
-    "columns": [
-      {
-        "name": "report_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "agency_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "agency_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "last_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "first_initial", 
-        "type": "text"
-      }, 
-      {
-        "name": "item_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "merchant", 
-        "type": "text"
-      }, 
-      {
-        "name": "transaction_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "post_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "purchase_description", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "purchase_card_pcard_fiscal_year_2010"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "purchase_card_pcard_fiscal_year_2010"
 }

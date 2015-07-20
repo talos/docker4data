@@ -1,0 +1,21 @@
+CREATE TABLE "results_of_preliminary_street_funding_study" (
+	"scenario"	text,
+	"simulation_year"	real,
+	"segments_prevented"	real,
+	"preventive_budget"	text,
+	"preventive_cost"	text,
+	"segments_rehabbed"	real,
+	"rehab_budget"	text,
+	"rehab_cost"	text,
+	"average_pci"	real,
+	"standard_deviation"	real,
+	"total_budget"	text,
+	"total_spent"	text,
+	"current_repair_costs"	text,
+	"unacceptable"	real,
+	"poor"	real,
+	"fair"	real,
+	"acceptable"	real,
+	"good"	real,
+	"very_good"	real
+);

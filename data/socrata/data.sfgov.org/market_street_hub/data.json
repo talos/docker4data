@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_market_street_hub/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/iuf4-zubm/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sfgov.org/api/views/iuf4-zubm/rows.csv", 
   "description": "311 Service Requests in the Market Street  Hub (Centered on 6th Street and Market)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "Market Street Hub", 
-  "schema": {
-    "columns": [
-      {
-        "name": "case_reference", 
-        "type": "real"
-      }, 
-      {
-        "name": "open_dt", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "closed_dt", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "status", 
-        "type": "text"
-      }, 
-      {
-        "name": "eform", 
-        "type": "text"
-      }, 
-      {
-        "name": "nature_of_request", 
-        "type": "text"
-      }, 
-      {
-        "name": "details", 
-        "type": "text"
-      }, 
-      {
-        "name": "full_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "queue_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "position", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sfgov.org", 
-  "tableName": "market_street_hub"
+  "schema": "socrata/data.sfgov.org", 
+  "status": "needs review", 
+  "table": "market_street_hub"
 }

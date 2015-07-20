@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/hda_illinois_housing_dev_auth_homeownership_fy2012/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/spg7-snr5/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/spg7-snr5/rows.csv", 
   "description": "Data reported is for projects that have been Board approved, not closed or placed in service", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,50 +12,7 @@
     }
   }, 
   "name": "HDA - Illinois Housing Dev Auth - HomeOwnership - FY2012", 
-  "schema": {
-    "columns": [
-      {
-        "name": "development_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "board_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "total_units", 
-        "type": "real"
-      }, 
-      {
-        "name": "tenant_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "total_ihda_dollars", 
-        "type": "real"
-      }, 
-      {
-        "name": "leveraged_dollars", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_project_cost", 
-        "type": "real"
-      }, 
-      {
-        "name": "fiscal_year", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "hda_illinois_housing_dev_auth_homeownership_fy2012"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "hda_illinois_housing_dev_auth_homeownership_fy2012"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_school_counselor_student_ratio/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/2jsz-jc8z/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/2jsz-jc8z/rows.csv", 
   "description": "Increase the school counselor to student ratio from 1 counselor per 421 students in 2013 to 1 counselor per 250 students by 2018.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "School Counselor - Student Ratio", 
-  "schema": {
-    "columns": [
-      {
-        "name": "years", 
-        "type": "text"
-      }, 
-      {
-        "name": "historical_data", 
-        "type": "real"
-      }, 
-      {
-        "name": "target", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "school_counselor_student_ratio"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "school_counselor_student_ratio"
 }

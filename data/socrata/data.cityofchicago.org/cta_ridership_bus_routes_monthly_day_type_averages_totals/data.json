@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/cta_ridership_bus_routes_monthly_day_type_averages_totals/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/bynn-gwxy/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/bynn-gwxy/rows.csv", 
   "description": "This dataset shows monthly averages, by day type (weekday, Saturday or Sunday/Holiday) and monthly totals for all CTA bus routes, back to 2001. See attached readme file for information on how these numbers are calculated.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "CTA - Ridership - Bus Routes - Monthly Day-Type Averages & Totals", 
-  "schema": {
-    "columns": [
-      {
-        "name": "route", 
-        "type": "text"
-      }, 
-      {
-        "name": "routename", 
-        "type": "text"
-      }, 
-      {
-        "name": "month_beginning", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "avg_weekday_rides", 
-        "type": "real"
-      }, 
-      {
-        "name": "avg_saturday_rides", 
-        "type": "real"
-      }, 
-      {
-        "name": "avg_sunday_holiday_rides", 
-        "type": "real"
-      }, 
-      {
-        "name": "monthtotal", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "cta_ridership_bus_routes_monthly_day_type_averages_totals"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "cta_ridership_bus_routes_monthly_day_type_averages_totals"
 }

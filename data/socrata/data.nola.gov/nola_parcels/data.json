@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nola_parcels/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.nola.gov/api/geospatial/e962-egyh", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.nola.gov/api/geospatial/e962-egyh", 
   "description": "City of New Orleans ownership parcels.  ESRI shapefile may be downloaded by selecting 'Export', then 'Download as: Shapefile'.  Free GIS software for viewing geometry may be downloaded from ESRI (http://www.esri.com/software/arcgis/arcreader/).  For KMZ format, please download .kmz attached.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "NOLA Parcels", 
-  "schema": {}, 
-  "schemaName": "socrata/data.nola.gov", 
-  "tableName": "nola_parcels"
+  "schema": "socrata/data.nola.gov", 
+  "status": "needs review", 
+  "table": "nola_parcels"
 }

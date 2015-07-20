@@ -1,0 +1,21 @@
+CREATE TABLE "deficiencies" (
+	"federal_provider_number"	text,
+	"provider_name"	text,
+	"provider_address"	text,
+	"provider_city"	text,
+	"provider_state"	text,
+	"provider_zip_code"	text,
+	"survey_date"	timestamp,
+	"survey_type"	text,
+	"deficiency_prefix"	text,
+	"deficiency_tag_number"	text,
+	"deficiency_description"	text,
+	"scope_severity_code"	text,
+	"deficiency_corrected"	text,
+	"correction_date"	timestamp,
+	"inspection_cycle"	real,
+	"standard_deficiency"	text,
+	"complaint_deficiency"	text,
+	"location"	text,
+	"processing_date"	timestamp
+);

@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/october_2012_board_report/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/download/6udk-twvkapplication/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/download/6udk-twvk/application/pdf", 
   "description": "Staff reports for the October 23 Board Meeting scheduled in Maupin from 9 am to 1 pm.", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "October 2012 Board Report", 
-  "schema": {}, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "october_2012_board_report"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "october_2012_board_report"
 }

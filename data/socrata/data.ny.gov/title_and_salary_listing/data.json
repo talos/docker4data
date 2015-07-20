@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_title_and_salary_listing/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/t3vp-5tka/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/t3vp-5tka/rows.csv", 
   "description": "The Title and Salary Listing is a compilation of job titles under the jurisdiction of the Department of Civil Service.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,74 +13,7 @@
     }
   }, 
   "name": "Title and Salary Listing", 
-  "schema": {
-    "columns": [
-      {
-        "name": "title_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "title_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "grade", 
-        "type": "text"
-      }, 
-      {
-        "name": "jurisdictional_classification", 
-        "type": "real"
-      }, 
-      {
-        "name": "jurisdictional_classification_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "negotiating_unit", 
-        "type": "text"
-      }, 
-      {
-        "name": "negotiating_unit_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "federal_occupational_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "federal_occupational_code_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "level", 
-        "type": "text"
-      }, 
-      {
-        "name": "level_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "standard_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "agency_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "agency_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "filled_positions", 
-        "type": "real"
-      }, 
-      {
-        "name": "effective_date", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "title_and_salary_listing"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "title_and_salary_listing"
 }

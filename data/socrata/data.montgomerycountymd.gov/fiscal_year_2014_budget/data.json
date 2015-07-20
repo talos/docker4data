@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_montgomerycountymd_fiscal_year_2014_budget/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/85n2-q296/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/85n2-q296/rows.csv", 
   "description": "This dataset includes the Fiscal Year* 2014 Council-approved operating budget for Montgomery County. The dataset does not include revenues and agency budget information; each agency, such as Montgomery County Public Schools, maintain their individual budget information. The data can be sorted, filtered, and exported by the following elements: Function (grouping, such as \u201cPublic Safety\u201d), Department, Program, Cost Center (activity within a program), Fund Type , Fund Subtype, Fund Name, Subfund Name, Personnel & Operating Expenses, Object Name, and Account Name. *The 12-month period to which the annual operating and capital budgets and their respective appropriations apply. The Montgomery County fiscal year starts on July 1st and ends on June 30th. Update Frequency: Annually", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,58 +12,7 @@
     }
   }, 
   "name": "Fiscal Year 2014 Budget", 
-  "schema": {
-    "columns": [
-      {
-        "name": "function", 
-        "type": "text"
-      }, 
-      {
-        "name": "department", 
-        "type": "text"
-      }, 
-      {
-        "name": "program_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "cost_center_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "fund_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "fund_subtype", 
-        "type": "text"
-      }, 
-      {
-        "name": "subfund_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "fund_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "personnel_costs_operating_expenses", 
-        "type": "text"
-      }, 
-      {
-        "name": "object_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "account_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "amount", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.montgomerycountymd.gov", 
-  "tableName": "fiscal_year_2014_budget"
+  "schema": "socrata/data.montgomerycountymd.gov", 
+  "status": "needs review", 
+  "table": "fiscal_year_2014_budget"
 }

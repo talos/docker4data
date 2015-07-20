@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_facility_location_decisions/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/2my4-6ddb/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/2my4-6ddb/rows.csv", 
   "description": "A facility location decision is where DBED assisted an Account to make a good faith decision to establish a new facility in Maryland or expand an existing facility.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,42 +12,7 @@
     }
   }, 
   "name": "Facility Location Decisions", 
-  "schema": {
-    "columns": [
-      {
-        "name": "account_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "description_goal", 
-        "type": "text"
-      }, 
-      {
-        "name": "status_outcome", 
-        "type": "text"
-      }, 
-      {
-        "name": "account_county", 
-        "type": "text"
-      }, 
-      {
-        "name": "decision_region", 
-        "type": "text"
-      }, 
-      {
-        "name": "new_jobs", 
-        "type": "text"
-      }, 
-      {
-        "name": "at_risk_jobs", 
-        "type": "text"
-      }, 
-      {
-        "name": "close_date", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "facility_location_decisions"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "facility_location_decisions"
 }

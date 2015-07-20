@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_state_tax_revenue_on_international_study/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/6c5h-urdb/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/6c5h-urdb/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,18 +9,7 @@
     }
   }, 
   "name": "State Tax Revenue On International Study", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "text"
-      }, 
-      {
-        "name": "tax_revenue", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "state_tax_revenue_on_international_study"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "state_tax_revenue_on_international_study"
 }

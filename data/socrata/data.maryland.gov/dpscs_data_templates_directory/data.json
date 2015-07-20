@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_dpscs_data_templates_directory/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/52m3-t5qr/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/52m3-t5qr/rows.csv", 
   "description": "Shows links to datasets and graphs which contain Department of Public Safety and Correctional Services (DPSCS) data from its Facilities, Facility-Specific, and Community Supervision reports. These three reports, or \"data templates\", are submitted monthly to the Governor's Office. The Department of Information Technology (DoIT) has uploaded these data and graphs to data.maryland.gov.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "DPSCS Data Templates: Directory", 
-  "schema": {
-    "columns": [
-      {
-        "name": "template_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "section_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "dpscs_region", 
-        "type": "text"
-      }, 
-      {
-        "name": "section_contents", 
-        "type": "text"
-      }, 
-      {
-        "name": "dataset_link", 
-        "type": "text"
-      }, 
-      {
-        "name": "single_month_view_link", 
-        "type": "text"
-      }, 
-      {
-        "name": "graphs_link", 
-        "type": "text"
-      }, 
-      {
-        "name": "data_fully_uploaded", 
-        "type": "text"
-      }, 
-      {
-        "name": "etls_fully_automated", 
-        "type": "text"
-      }, 
-      {
-        "name": "graphs_completed", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "dpscs_data_templates_directory"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "dpscs_data_templates_directory"
 }

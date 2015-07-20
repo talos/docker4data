@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/2013_2017_council_and_committee_meetings_attendance/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/prdj-dgnz/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.edmonton.ca/api/views/prdj-dgnz/rows.csv", 
   "description": "Roll call for Council and Committee meetings. If a member of Council or the Committee attends for any portion of the meeting, they will be show as \u2018present\u2019. Only if a Councillor or member of Committee is not present for any portion of the meeting will they be shown as \u2018absent\u2019. For Committees, only the members of the Committee are listed as \u2018present\u2019 or \u2018absent\u2019. Other Councillors attending the meeting are shown as \u2018Others Attending\u2019 in the minutes.\r\n(Information Subject to Change. While every effort is taken to ensure its accuracy, the data presented here is for informational purposes only.  The official record of the Council and Committee meetings shall be the Agendas, Minutes and supporting documents approved by and filed with the City Clerk.)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "2013-2017 Council And Committee Meetings - Attendance", 
-  "schema": {
-    "columns": [
-      {
-        "name": "meeting_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "item_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "attendee", 
-        "type": "text"
-      }, 
-      {
-        "name": "status", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.edmonton.ca", 
-  "tableName": "2013_2017_council_and_committee_meetings_attendance"
+  "schema": "socrata/data.edmonton.ca", 
+  "status": "needs review", 
+  "table": "2013_2017_council_and_committee_meetings_attendance"
 }

@@ -1,0 +1,21 @@
+CREATE TABLE "vol_ii_jedwali_9_kaya_kulingana_na_aina_kuu_ya_kutupa_taka_za_binadamu_kinyesi_na_kaunti_2009" (
+	"kaunti"	text,
+	"asilimia_ya_kaya_zinazotumia_mfereji_wa_maji_takaa_tangi"	text,
+	"asilimia_ya_kaya_zinazotumia_tangi"	text,
+	"asilimia_ya_kaya_zinazotumia_shimo_la_maji_machafu"	text,
+	"asilimia_ya_kaya_zinazotumia_vyoo_vya_shimo_vyenye_faragha_na_vilivyo_na_hewa"	text,
+	"asilimia_ya_kaya_zinazotumia_vyoo_vya_shimo_vilivyofunikwa_visivyofunikwa"	text,
+	"asilimia_ya_kaya_zinazotumia_ndoo"	text,
+	"asilimia_ya_kaya_zinazotumia_kichaka"	text,
+	"asilimia_ya_kaya_zinazotumia_aina_nyingine"	text,
+	"jumla_ya_kaya"	real,
+	"idadi_ya_kaya_zinazotumia_mfereji_wa_maji_takaa_tangi"	real,
+	"idadi_ya_kaya_zinazotumia_tangi"	real,
+	"idadi_ya_kaya_zinazotumia_shimo_la_maji_machafu"	real,
+	"idadi_ya_kaya_zinazotumia_vyoo_vya_shimo_vyenye_faragha_na_vilivyo_na_hewa"	real,
+	"idadi_ya_kaya_zinazotumia_vyoo_vya_shimo_vilivyofunikwa_visivyofunikwa"	real,
+	"idadi_ya_kaya_zinazotumia_ndoo"	real,
+	"idadi_ya_kaya_zinazotumia_kichaka"	real,
+	"idadi_ya_kaya_zinazotumia_aina_nyingine"	real,
+	"location_1"	text
+);

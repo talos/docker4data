@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_draft_imagine_austin_indicators/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/d7k5-jyb8/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/views/d7k5-jyb8/rows.csv", 
   "description": "The Imagine Austin comprehensive plan calls for an analysis and assessment of indicators or metrics that can be used to measure progress after the plan's fifth year.  Many of the indicators were suggested and not completely scoped, and some were aspirational, or not measurable at the time.  The indicators presented here are those that staff proposes for intense analysis after year five.  The associated data was the most current at the time collected, and serves as a baseline to compare to future numbers.  The \"Additional Indicators\" available at https://data.austintexas.gov/Government/Draft-Additional-Imagine-Austin-Indicators/7dis-buys includes many of the other indicators in the plan.  These are primarily tracked by other entities, or not deemed as highly relevant and therefore may not receive the same level of analysis.  Indicators may be revised as new techniques or data become available.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,62 +13,7 @@
     }
   }, 
   "name": "Draft Imagine Austin Indicators", 
-  "schema": {
-    "columns": [
-      {
-        "name": "no", 
-        "type": "real"
-      }, 
-      {
-        "name": "indicator", 
-        "type": "text"
-      }, 
-      {
-        "name": "definition", 
-        "type": "text"
-      }, 
-      {
-        "name": "importance", 
-        "type": "text"
-      }, 
-      {
-        "name": "analysis", 
-        "type": "text"
-      }, 
-      {
-        "name": "ia_theme", 
-        "type": "text"
-      }, 
-      {
-        "name": "data", 
-        "type": "text"
-      }, 
-      {
-        "name": "units", 
-        "type": "text"
-      }, 
-      {
-        "name": "primary_source", 
-        "type": "text"
-      }, 
-      {
-        "name": "source_year", 
-        "type": "text"
-      }, 
-      {
-        "name": "primary_source_link", 
-        "type": "text"
-      }, 
-      {
-        "name": "second_source", 
-        "type": "text"
-      }, 
-      {
-        "name": "third_source", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "draft_imagine_austin_indicators"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "draft_imagine_austin_indicators"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_ems_system_response_time/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/ig6i-wwx7/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/views/ig6i-wwx7/rows.csv", 
   "description": "Shows the percentage of response time goals met by month for both City and County areas.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "EMS - System Response Time", 
-  "schema": {
-    "columns": [
-      {
-        "name": "month_key", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "incident_count", 
-        "type": "real"
-      }, 
-      {
-        "name": "goal_met_count", 
-        "type": "real"
-      }, 
-      {
-        "name": "goal_met_percentage", 
-        "type": "text"
-      }, 
-      {
-        "name": "target_percentage", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "ems_system_response_time"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "ems_system_response_time"
 }

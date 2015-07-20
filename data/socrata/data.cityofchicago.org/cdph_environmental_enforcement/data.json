@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_cdph_environmental_enforcement/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/yqn4-3th2/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/yqn4-3th2/rows.csv", 
   "description": "Municipal and State code violation notices issued by the Department of Environment (DOE) from January, 1993 to December 31, 2012 and by the Department of Public Health (CDPH) Permitting and Inspections unit since January 1, 2012. On January 1, 2012, the DOE was disbanded and all its inspection, permitting, and enforcement authorities were transferred to the CDPH.   \r\nData fields requiring description are detailed below. \r\nMAPPED LOCATION: Contains latitude/longitude coordinates of the site as determined through the Chicago Open Data Portal\u2019s geocoding engine. In instances where the facility address is a range, the lower number (the value in the \u201cStreet Number From\u201d column) is used for geocoding. For example, for the range address 1000-1005 S Wabash Ave, the Mapped Location would be the coordinates for 1000 S Wabash Ave. \r\n DOCKET NO:  This the unique identifier assigned to the case. A docket number can contain multiple tickets. \r\nTICKET NO: This is the unique identifier of the issued ticket. A ticket can contain up to two code violations.\r\nRESPONDENT: The name of the entity issued the code violation notice.  \r\nCASE TYPE: The Case Types are historic 3-Day Notice, Air Pollution Defect Notice, Administrative Hearing, Summary Abatement, Chicago Storage Tank NOV, State Administrative Citation, State Violation Notice, historic Pre Enforcement Conference, and historic Ticket-Municipal Prosecution.\t\r\nVIOLATION DATE: The date of the code violation.  \r\nCODE VIOLATION: The municipal or state code being cited in the ticket. \r\nDISPOSITION: The outcome of the individual code violation. \r\nCASE STATUS: The final or most current status of the case.   \r\nFINE AMONT: This is the total fine assessed for the case not including court fees. Note that this value is not unique to the record but applies to the entire case. For example, the case with a Docket No of 07DE000171 has two records with a Fine Amount of $350 in each record. The total fine on the case is $350, not the sum of $700.\r\nCOMMENT: Additional information relating to the violation or case. \r\nDATA SOURCE: The city department that collected the data.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,78 +13,7 @@
     }
   }, 
   "name": "CDPH Environmental Enforcement", 
-  "schema": {
-    "columns": [
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "street_number_to", 
-        "type": "real"
-      }, 
-      {
-        "name": "direction", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "case_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "ticket_no", 
-        "type": "text"
-      }, 
-      {
-        "name": "respondent", 
-        "type": "text"
-      }, 
-      {
-        "name": "case_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "violation_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "code_violation", 
-        "type": "text"
-      }, 
-      {
-        "name": "disposition", 
-        "type": "text"
-      }, 
-      {
-        "name": "case_status", 
-        "type": "text"
-      }, 
-      {
-        "name": "fine_amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "comment", 
-        "type": "text"
-      }, 
-      {
-        "name": "data_source", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "cdph_environmental_enforcement"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "cdph_environmental_enforcement"
 }

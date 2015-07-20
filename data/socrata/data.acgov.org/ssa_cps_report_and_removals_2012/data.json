@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_acgov_ssa_cps_report_and_removals_2012/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.acgov.org/api/views/sarn-h2py/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.acgov.org/api/views/sarn-h2py/rows.csv", 
   "description": "Child Protective Services Report And Removals for 2012.  This file shows by city and zipcode the number of child abuse reports received by Alameda County Social Services Agency, and how many children were removed from their homes and place into foster care in calendar year 2012.  Rates per 1,000 children who live in the zipcode are also included.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "SSA CPS Report And Removals 2012", 
-  "schema": {
-    "columns": [
-      {
-        "name": "zip_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "child_population", 
-        "type": "real"
-      }, 
-      {
-        "name": "allegations_received", 
-        "type": "real"
-      }, 
-      {
-        "name": "allegation_rate", 
-        "type": "real"
-      }, 
-      {
-        "name": "foster_care_entries", 
-        "type": "real"
-      }, 
-      {
-        "name": "foster_care_entry_rate", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.acgov.org", 
-  "tableName": "ssa_cps_report_and_removals_2012"
+  "schema": "socrata/data.acgov.org", 
+  "status": "needs review", 
+  "table": "ssa_cps_report_and_removals_2012"
 }

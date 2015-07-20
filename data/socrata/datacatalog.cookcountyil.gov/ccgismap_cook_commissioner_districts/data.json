@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ccgismap_cook_commissioner_districts/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/download/ehgp-m9twapplication/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/download/ehgp-m9tw/application/pdf", 
   "description": "Cook County GIS Department map of Cook County Commissioner Districts in PDF format.  Includes major streets, waterbodies, rail, and Cook County Commissioner District boundaries.", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "ccgismap - Cook Commissioner Districts", 
-  "schema": {}, 
-  "schemaName": "socrata/datacatalog.cookcountyil.gov", 
-  "tableName": "ccgismap_cook_commissioner_districts"
+  "schema": "socrata/datacatalog.cookcountyil.gov", 
+  "status": "needs review", 
+  "table": "ccgismap_cook_commissioner_districts"
 }

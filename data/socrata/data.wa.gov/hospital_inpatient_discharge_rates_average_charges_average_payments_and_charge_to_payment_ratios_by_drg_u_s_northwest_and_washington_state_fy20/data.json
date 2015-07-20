@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/hospital_inpatient_discharge_rates_average_charges_average_payments_and_charge_to_payment_ratios_by_drg_u_s_northwest_and_washington_state_fy2011/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/xupn-4ych/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.wa.gov/api/views/xupn-4ych/rows.csv", 
   "description": "The dataset contains hospital inpatient discharge rates, charges, covered payments, charge-to-payment ratios for the 100 most common DRGs among hospitals in the Medicare Prospective Payment System.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,62 +12,7 @@
     }
   }, 
   "name": "Hospital Inpatient Discharge Rates, Average Charges, Average Payments, and Charge-to-Payment Ratios by DRG - U.S., Northwest, and Washington State - FY2011", 
-  "schema": {
-    "columns": [
-      {
-        "name": "drg_definiton", 
-        "type": "text"
-      }, 
-      {
-        "name": "u_s_discharges_per_100_000", 
-        "type": "real"
-      }, 
-      {
-        "name": "u_s_average_charges", 
-        "type": "real"
-      }, 
-      {
-        "name": "u_s_average_covered_payments", 
-        "type": "real"
-      }, 
-      {
-        "name": "u_s_charge_to_payment_ratio", 
-        "type": "real"
-      }, 
-      {
-        "name": "nw_discharges_per_100_000", 
-        "type": "real"
-      }, 
-      {
-        "name": "nw_average_charges", 
-        "type": "real"
-      }, 
-      {
-        "name": "nw_average_covered_payments", 
-        "type": "real"
-      }, 
-      {
-        "name": "nw_charge_to_payment_ratio", 
-        "type": "real"
-      }, 
-      {
-        "name": "wa_discharges_per_100_000", 
-        "type": "real"
-      }, 
-      {
-        "name": "wa_average_charges", 
-        "type": "real"
-      }, 
-      {
-        "name": "wa_average_covered_payments", 
-        "type": "real"
-      }, 
-      {
-        "name": "wa_charge_to_payment_ratio", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.wa.gov", 
-  "tableName": "hospital_inpatient_discharge_rates_average_charges_average_payments_and_charge_to_payment_ratios_by_drg_u_s_northwest_and_washington_state_fy2011"
+  "schema": "socrata/data.wa.gov", 
+  "status": "needs review", 
+  "table": "hospital_inpatient_discharge_rates_average_charges_average_payments_and_charge_to_payment_ratios_by_drg_u_s_northwest_and_washington_state_fy2011"
 }

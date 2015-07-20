@@ -1,0 +1,22 @@
+CREATE TABLE "2009_census_volume_ii_table_3_population_3_years_and_above_attending_school_by_sex_and_highest_level_of_education_reached_county_estimates" (
+	"county"	text,
+	"with_pre_primary_education"	text,
+	"with_primary_education"	text,
+	"with_secondary_education"	text,
+	"with_tertiary_education"	text,
+	"in_university"	text,
+	"in_youth_polytechnic"	text,
+	"with_basic_literacy"	text,
+	"in_madrassa_school"	text,
+	"no_in_school_with_pre_primary_education"	real,
+	"no_in_school_with_primary_education"	real,
+	"no_in_school_with_secondary_education"	real,
+	"no_with_tertiary_education"	real,
+	"no_in_university"	real,
+	"no_in_youth_polytechnic"	real,
+	"no_with_basic_literacy"	real,
+	"no_in_madrassa_school"	real,
+	"location_1"	text,
+	"total_population"	real,
+	"province"	text
+);

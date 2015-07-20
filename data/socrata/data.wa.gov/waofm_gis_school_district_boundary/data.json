@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/waofm_gis_school_district_boundary/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/geospatial/i4fy-m44m", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.wa.gov/api/geospatial/i4fy-m44m", 
   "description": "Generalized school district boundary from the Census 2010 TIGER/Line files.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "WAOFM - GIS - School District Boundary", 
-  "schema": {}, 
-  "schemaName": "socrata/data.wa.gov", 
-  "tableName": "waofm_gis_school_district_boundary"
+  "schema": "socrata/data.wa.gov", 
+  "status": "needs review", 
+  "table": "waofm_gis_school_district_boundary"
 }

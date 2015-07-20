@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_libraries_state_of_hawaii/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/jx86-2vch/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/jx86-2vch/rows.csv", 
   "description": "Listing of the Public Libraries in the State of Hawaii", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "Libraries State Of Hawaii", 
-  "schema": {
-    "columns": [
-      {
-        "name": "library_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone", 
-        "type": "real"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "libraries_state_of_hawaii"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "libraries_state_of_hawaii"
 }

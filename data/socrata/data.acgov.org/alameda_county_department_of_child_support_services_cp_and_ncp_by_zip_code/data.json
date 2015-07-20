@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/alameda_county_department_of_child_support_services_cp_and_ncp_by_zip_code/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.acgov.org/api/views/uweu-u2c7/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.acgov.org/api/views/uweu-u2c7/rows.csv", 
   "description": "The Department of Child Support Services deals with cases involving the child support payments of one parent to the other.  \r\n\r\nThe data contained in the data set includes the role a parent plays in a child support case and the zip code they reside in. There are two rows in every case.  The first column indicates the parent\u2019s role in a case as a Custodial Parent (CUS - the parent receiving support for the child) or the Non-Custodial Parent ( NCP \u2013 the parent providing support for the child).  The second column contains the zip code of that related parent.  Either parent may reside outside the county and at least one of the parents must reside in Alameda County.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,18 +13,7 @@
     }
   }, 
   "name": "Alameda County Department of Child Support Services - CP And NCP By ZIP Code", 
-  "schema": {
-    "columns": [
-      {
-        "name": "cp_role_cd", 
-        "type": "text"
-      }, 
-      {
-        "name": "a_phys_addr_zip_cd", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.acgov.org", 
-  "tableName": "alameda_county_department_of_child_support_services_cp_and_ncp_by_zip_code"
+  "schema": "socrata/data.acgov.org", 
+  "status": "needs review", 
+  "table": "alameda_county_department_of_child_support_services_cp_and_ncp_by_zip_code"
 }

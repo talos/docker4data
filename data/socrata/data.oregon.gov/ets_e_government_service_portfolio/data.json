@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oregon_ets_e_government_service_portfolio/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/9g5a-r9zs/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/api/views/9g5a-r9zs/rows.csv", 
   "description": "List of services provided by the Oregon E-Government Program.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,34 +12,7 @@
     }
   }, 
   "name": "ETS E-Government Service Portfolio", 
-  "schema": {
-    "columns": [
-      {
-        "name": "website_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "service_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "url", 
-        "type": "text"
-      }, 
-      {
-        "name": "funding_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "licensing", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "ets_e_government_service_portfolio"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "ets_e_government_service_portfolio"
 }

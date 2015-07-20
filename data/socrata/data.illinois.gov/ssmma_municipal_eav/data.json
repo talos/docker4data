@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_ssmma_municipal_eav/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/a8zr-68i9/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/a8zr-68i9/rows.csv", 
   "description": "This dataset represents municipal equalized assessed value. SSMMA queried multiple reports from the Illinois Department of Revenue database. This dataset shows 2005-2009", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,54 +13,7 @@
     }
   }, 
   "name": "SSMMA Municipal EAV", 
-  "schema": {
-    "columns": [
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "district_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "district_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "text"
-      }, 
-      {
-        "name": "total_eav", 
-        "type": "real"
-      }, 
-      {
-        "name": "residential_eav", 
-        "type": "real"
-      }, 
-      {
-        "name": "farm_eav", 
-        "type": "real"
-      }, 
-      {
-        "name": "commercial_eav", 
-        "type": "real"
-      }, 
-      {
-        "name": "industrial_eav", 
-        "type": "real"
-      }, 
-      {
-        "name": "railroad_eav", 
-        "type": "real"
-      }, 
-      {
-        "name": "mineral_eav", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "ssmma_municipal_eav"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "ssmma_municipal_eav"
 }

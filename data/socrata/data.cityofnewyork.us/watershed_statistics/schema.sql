@@ -1,0 +1,22 @@
+CREATE TABLE "watershed_statistics" (
+	"town"	text,
+	"amawalk"	real,
+	"bog_brook"	real,
+	"boyds_corner"	real,
+	"cross_river"	real,
+	"croton_falls"	real,
+	"diverting"	real,
+	"east_branch"	real,
+	"kensico"	real,
+	"lake_gilead"	real,
+	"lake_gleneida"	text,
+	"middle_branch"	real,
+	"muscoot"	real,
+	"new_croton"	real,
+	"titicus"	real,
+	"west_branch"	real,
+	"sub_total_town_acres_inside_nyc_watershed"	real,
+	"town_acres_outside_nyc_watershed"	real,
+	"total_town_acreage"	real,
+	"of_each_town_in_nyc_watershed"	text
+);

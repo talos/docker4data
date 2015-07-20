@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_aaa_fuel_prices/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/dqp6-3idi/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/dqp6-3idi/rows.csv", 
   "description": "AAA Monthly Fuel Prices", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "AAA Fuel Prices", 
-  "schema": {
-    "columns": [
-      {
-        "name": "month_of_price", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "fuel", 
-        "type": "text"
-      }, 
-      {
-        "name": "price", 
-        "type": "real"
-      }, 
-      {
-        "name": "physicalunit", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "aaa_fuel_prices"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "aaa_fuel_prices"
 }

@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/conservation_lands_network_2011/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oaklandnet.com/api/geospatial/qcpe-xffr", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.oaklandnet.com/api/geospatial/qcpe-xffr", 
   "description": "The Conservation Lands Network is the make-up of the types, amount and distribution of habitats that comprise the most essential lands needed to sustain the biodiversity of the San Francisco Bay Area.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,7 +13,7 @@
     }
   }, 
   "name": "Conservation Lands Network 2011", 
-  "schema": {}, 
-  "schemaName": "socrata/data.oaklandnet.com", 
-  "tableName": "conservation_lands_network_2011"
+  "schema": "socrata/data.oaklandnet.com", 
+  "status": "needs review", 
+  "table": "conservation_lands_network_2011"
 }

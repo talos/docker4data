@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_ssmma_combined_sewer_overflow/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/5yuf-j7kn/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/5yuf-j7kn/rows.csv", 
   "description": "This dataset details combined sewer overflows in the Chicago Southland area.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "SSMMA Combined Sewer Overflow", 
-  "schema": {
-    "columns": [
-      {
-        "name": "pipe_desc", 
-        "type": "text"
-      }, 
-      {
-        "name": "pipe_inact", 
-        "type": "text"
-      }, 
-      {
-        "name": "pipe_ina_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "county_nam", 
-        "type": "text"
-      }, 
-      {
-        "name": "name_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "lat_dec", 
-        "type": "real"
-      }, 
-      {
-        "name": "lon_conv", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "ssmma_combined_sewer_overflow"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "ssmma_combined_sewer_overflow"
 }

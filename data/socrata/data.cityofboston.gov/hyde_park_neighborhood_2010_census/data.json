@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/hyde_park_neighborhood_2010_census/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/download/5hsn-5ziiapplication/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/download/5hsn-5zii/application/pdf", 
   "description": "A report featuring data on all people and households in Hyde Park from the 2010 Census Summary Files (SF-1).", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,7 +13,7 @@
     }
   }, 
   "name": "Hyde Park, neighborhood: 2010 Census", 
-  "schema": {}, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "hyde_park_neighborhood_2010_census"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "hyde_park_neighborhood_2010_census"
 }

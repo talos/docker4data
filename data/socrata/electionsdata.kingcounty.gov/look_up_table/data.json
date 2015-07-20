@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/look_up_table/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/electionsdata.kingcounty.gov/api/views/mdgb-yanj/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/electionsdata.kingcounty.gov/api/views/mdgb-yanj/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -14,18 +10,7 @@
     }
   }, 
   "name": "Look-up-table", 
-  "schema": {
-    "columns": [
-      {
-        "name": "contname", 
-        "type": "text"
-      }, 
-      {
-        "name": "top_level_link", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/electionsdata.kingcounty.gov", 
-  "tableName": "look_up_table"
+  "schema": "socrata/electionsdata.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "look_up_table"
 }

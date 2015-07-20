@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/bronx_bus_stops/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/eqmj-6b8d/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/eqmj-6b8d/rows.csv", 
   "description": "Bronx Transit Bus Stops", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,6 @@
     }
   }, 
   "name": "Bronx Bus Stops", 
-  "schema": {
-    "columns": [
-      {
-        "name": "stop_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "stop_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/bronx.lehman.cuny.edu", 
-  "tableName": "bronx_bus_stops"
+  "schema": "socrata/bronx.lehman.cuny.edu", 
+  "table": "bronx_bus_stops"
 }

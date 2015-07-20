@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofboston_waze_point_data/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/b38s-xmkq/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/api/views/b38s-xmkq/rows.csv", 
   "description": "2/21/2015-3/1/2015 Waze point data to use with Jam and Alert datasets. Join by UUID column", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,26 +12,7 @@
     }
   }, 
   "name": "Waze Point Data", 
-  "schema": {
-    "columns": [
-      {
-        "name": "inject_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "uuid", 
-        "type": "text"
-      }, 
-      {
-        "name": "y", 
-        "type": "real"
-      }, 
-      {
-        "name": "x", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "waze_point_data"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "waze_point_data"
 }

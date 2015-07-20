@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ccgismap_area_13_lake_view_north_west_townships/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/download/c4ti-qc59application/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/download/c4ti-qc59/application/pdf", 
   "description": "Cook County GIS Dept map of Lake View, North & West Townships in a pdf format.  Includes streets and municipalities.", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "ccgismap - Area 13 Lake View, North & West Townships", 
-  "schema": {}, 
-  "schemaName": "socrata/datacatalog.cookcountyil.gov", 
-  "tableName": "ccgismap_area_13_lake_view_north_west_townships"
+  "schema": "socrata/datacatalog.cookcountyil.gov", 
+  "status": "needs review", 
+  "table": "ccgismap_area_13_lake_view_north_west_townships"
 }

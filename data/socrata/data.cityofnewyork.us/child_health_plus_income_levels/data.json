@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_child_health_plus_income_levels/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/vpb3-uf7s/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/vpb3-uf7s/rows.csv", 
   "description": "This table represents details of CHP (Child Health Plus) insurance. Child Health Plus provides free or low-cost health insurance for children under the age of 19 who are not eligible for Medicaid, coverage for children. All children receive their health care through a managed care plan. There are no immigration requirements for Child Health Plus.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "Child health plus income levels", 
-  "schema": {
-    "columns": [
-      {
-        "name": "premium_categories", 
-        "type": "text"
-      }, 
-      {
-        "name": "family_size__1_ind___monthly_income", 
-        "type": "text"
-      }, 
-      {
-        "name": "family_size__2_nos___monthly_income", 
-        "type": "text"
-      }, 
-      {
-        "name": "family_size__3_nos___monthly_income", 
-        "type": "text"
-      }, 
-      {
-        "name": "family_size__4_nos___monthly_income", 
-        "type": "text"
-      }, 
-      {
-        "name": "family_size__5_nos___monthly_income", 
-        "type": "text"
-      }, 
-      {
-        "name": "each_additional_person_add", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "child_health_plus_income_levels"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "child_health_plus_income_levels"
 }

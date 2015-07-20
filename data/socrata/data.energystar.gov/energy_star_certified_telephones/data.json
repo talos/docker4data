@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_energystar_energy_star_certified_telephones/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.energystar.gov/api/views/bpzy-9tg8/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.energystar.gov/api/views/bpzy-9tg8/rows.csv", 
   "description": "Certified models meet all ENERGY STAR requirements as listed in the Version 3.0 ENERGY STAR Program Requirements for Telephony (cordless telephones and VoIP telephones) that are effective as of October 1, 2014. A detailed listing of key efficiency criteria are available at http://www.energystar.gov/index.cfm?c=phones.pr_crit_phones", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,114 +12,7 @@
     }
   }, 
   "name": "ENERGY STAR Certified Telephones", 
-  "schema": {
-    "columns": [
-      {
-        "name": "pd_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "energy_star_partner", 
-        "type": "text"
-      }, 
-      {
-        "name": "brand_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "model_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "model_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "additional_model_information", 
-        "type": "text"
-      }, 
-      {
-        "name": "product_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "configuration", 
-        "type": "text"
-      }, 
-      {
-        "name": "additional_handset_telephones_supported", 
-        "type": "real"
-      }, 
-      {
-        "name": "frequency", 
-        "type": "text"
-      }, 
-      {
-        "name": "standby_power_w", 
-        "type": "real"
-      }, 
-      {
-        "name": "off_mode_power_w", 
-        "type": "real"
-      }, 
-      {
-        "name": "external_proxy_capability", 
-        "type": "text"
-      }, 
-      {
-        "name": "physical_data_ports", 
-        "type": "text"
-      }, 
-      {
-        "name": "low_power_wireless_technologies", 
-        "type": "text"
-      }, 
-      {
-        "name": "gigabit_ethernet_ports", 
-        "type": "real"
-      }, 
-      {
-        "name": "fast_ethernet_ports", 
-        "type": "real"
-      }, 
-      {
-        "name": "energy_efficient_ethernet_gigabit", 
-        "type": "real"
-      }, 
-      {
-        "name": "energy_efficient_ethernet_fast", 
-        "type": "real"
-      }, 
-      {
-        "name": "display_resolution_pixels", 
-        "type": "text"
-      }, 
-      {
-        "name": "power_over_ethernet_class", 
-        "type": "text"
-      }, 
-      {
-        "name": "external_power_supply", 
-        "type": "text"
-      }, 
-      {
-        "name": "date_available_on_market", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "date_qualified", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "markets", 
-        "type": "text"
-      }, 
-      {
-        "name": "energy_star_model_identifier", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.energystar.gov", 
-  "tableName": "energy_star_certified_telephones"
+  "schema": "socrata/data.energystar.gov", 
+  "status": "needs review", 
+  "table": "energy_star_certified_telephones"
 }

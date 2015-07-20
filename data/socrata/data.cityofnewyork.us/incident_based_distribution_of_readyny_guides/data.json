@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/incident_based_distribution_of_readyny_guides/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/mqd6-mvf7/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/mqd6-mvf7/rows.csv", 
   "description": "Areas targeted for ReadyNY guide distribution following a nearby incident, such as a large fire or water main break", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "Incident based distribution of ReadyNY guides", 
-  "schema": {
-    "columns": [
-      {
-        "name": "date_of_occurrence", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "incident_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "street", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "guide_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "amount_sent", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "incident_based_distribution_of_readyny_guides"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "incident_based_distribution_of_readyny_guides"
 }

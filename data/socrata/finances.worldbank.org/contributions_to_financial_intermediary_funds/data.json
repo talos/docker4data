@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/contributions_to_financial_intermediary_funds/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/536v-dxib/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/finances.worldbank.org/api/views/536v-dxib/rows.csv", 
   "description": "Financial Intermediary Funds (FIFs) are multilateral financing arrangements for which the World Bank provides Trustee services that include committing and transferring funds to project       implementers (generally international organizations such as multilateral development banks or UN agencies).  In all cases the World Bank as Trustee is required to act in accordance with instructions of independent governing bodies. \r\n\r\nIn fulfilling its responsibilities, the World Bank as Trustee complies with all sanctions applicable to  World Bank transactions.\r\n\r\n\r\nThe innovative financing and governance arrangements of FIFs enable funds to be raised from multiple sources, including from sovereign and private sources. FIF structures are customizable. For instance FIFs have been customized to receive contributions in the form of concessional loans in addition to traditional grant funds, and can provide funding to recipients using customized financial products.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,62 +13,7 @@
     }
   }, 
   "name": "Contributions to Financial Intermediary Funds", 
-  "schema": {
-    "columns": [
-      {
-        "name": "as_of_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "fund_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "donor_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "donor_country_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "receipt_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "receipt_quarter", 
-        "type": "text"
-      }, 
-      {
-        "name": "calendar_year", 
-        "type": "text"
-      }, 
-      {
-        "name": "receipt_currency", 
-        "type": "text"
-      }, 
-      {
-        "name": "receipt_amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "contribution_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "sub_account", 
-        "type": "text"
-      }, 
-      {
-        "name": "amount_in_usd", 
-        "type": "real"
-      }, 
-      {
-        "name": "sector_theme", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/finances.worldbank.org", 
-  "tableName": "contributions_to_financial_intermediary_funds"
+  "schema": "socrata/finances.worldbank.org", 
+  "status": "needs review", 
+  "table": "contributions_to_financial_intermediary_funds"
 }

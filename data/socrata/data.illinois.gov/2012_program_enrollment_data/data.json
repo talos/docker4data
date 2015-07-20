@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_2012_program_enrollment_data/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/9nmq-76s4/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/9nmq-76s4/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -14,50 +10,7 @@
     }
   }, 
   "name": "2012 Program Enrollment Data", 
-  "schema": {
-    "columns": [
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "cookzip", 
-        "type": "text"
-      }, 
-      {
-        "name": "category", 
-        "type": "text"
-      }, 
-      {
-        "name": "newracecd", 
-        "type": "text"
-      }, 
-      {
-        "name": "ethnicitycd", 
-        "type": "text"
-      }, 
-      {
-        "name": "gendercd", 
-        "type": "real"
-      }, 
-      {
-        "name": "undocind", 
-        "type": "real"
-      }, 
-      {
-        "name": "enrollmenthighlevelgroupdesc", 
-        "type": "text"
-      }, 
-      {
-        "name": "enrollmentdetailrptgroupdesc", 
-        "type": "text"
-      }, 
-      {
-        "name": "hipaarecipients", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "2012_program_enrollment_data"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "2012_program_enrollment_data"
 }

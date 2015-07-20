@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oregon_public_meeting_task_force_on_school_safety/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/5tb6-7zmc/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/api/views/5tb6-7zmc/rows.csv", 
   "description": "This is the public meeting calendar for the Task Force on School Safety", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,34 +12,7 @@
     }
   }, 
   "name": "Public Meeting Task Force on School Safety", 
-  "schema": {
-    "columns": [
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "end_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "meeting_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "weblink", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "public_meeting_task_force_on_school_safety"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "public_meeting_task_force_on_school_safety"
 }

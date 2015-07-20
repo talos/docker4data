@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_campaign_consultants_vendor_payments/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/ewuz-v3y2/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sfgov.org/api/views/ewuz-v3y2/rows.csv", 
   "description": "Campaign consultants must report economic consideration promised to or received by the filer during the reporting period from vendors and sub-vendors who provide campaign-related goods or services to the filer\u2019s current clients.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "Campaign Consultants - Vendor Payments", 
-  "schema": {
-    "columns": [
-      {
-        "name": "consultant", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendor_sub_vendor_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "payments_promised", 
-        "type": "real"
-      }, 
-      {
-        "name": "payments_received", 
-        "type": "real"
-      }, 
-      {
-        "name": "quarter_start_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "quarter_end_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "quarter", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sfgov.org", 
-  "tableName": "campaign_consultants_vendor_payments"
+  "schema": "socrata/data.sfgov.org", 
+  "status": "needs review", 
+  "table": "campaign_consultants_vendor_payments"
 }

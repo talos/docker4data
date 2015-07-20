@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/2015_health_insurance_marketplace_plan_selections_by_zip_code_as_of_jan_16_2015/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cms.gov/api/views/e6ik-bnz3/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cms.gov/api/views/e6ik-bnz3/rows.csv", 
   "description": "The dataset provides the total number of health plan selections by ZIP Code for the 37 states that use the HealthCare.gov platform, including the Federally-facilitated Marketplace, State Partnership Marketplaces and supported State-based Marketplaces. These data reflect the total number of consumers who selected a plan or were automatically re-enrolled for the 2015 coverage year as of January 16, 2015.\r\n\r\nThe dataset does not include plan selections from the District of Columbia and 13 other states that have State-based Marketplaces.\r\n\r\nData for ZIP Codes with 50 or fewer plan selections are not included to protect individuals' privacy. A total of 13,725 ZIP Codes with at least 51 plan selections per ZIP Code are included in the table. These data account for 97 percent of the total 7.16 million overall plan selections in the 37 states as of January 16, 2015.\r\n\r\n The sum of plan selections among ZIP Codes within a state using this dataset may not be equal to state-level totals provided in the state level snapshots. This is because ZIP Code-level data does not appear for ZIP Codes with 50 or fewer plan selections, and as a result the dataset does not include all plan selections within a state.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "2015 Health Insurance Marketplace Plan Selections by ZIP Code as of Jan. 16, 2015", 
-  "schema": {
-    "columns": [
-      {
-        "name": "zip_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "state_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "plan_selections", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cms.gov", 
-  "tableName": "2015_health_insurance_marketplace_plan_selections_by_zip_code_as_of_jan_16_2015"
+  "schema": "socrata/data.cms.gov", 
+  "status": "needs review", 
+  "table": "2015_health_insurance_marketplace_plan_selections_by_zip_code_as_of_jan_16_2015"
 }

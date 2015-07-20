@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_idol_2012_amusement_ride_inspections/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/siu5-cumg/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/siu5-cumg/rows.csv", 
   "description": "The following is a list of amusement rides and attractions inspected in 2012.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "IDOL 2012 Amusement Ride Inspections", 
-  "schema": {
-    "columns": [
-      {
-        "name": "company", 
-        "type": "text"
-      }, 
-      {
-        "name": "ridename", 
-        "type": "text"
-      }, 
-      {
-        "name": "inspector", 
-        "type": "text"
-      }, 
-      {
-        "name": "inspected", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "permit", 
-        "type": "text"
-      }, 
-      {
-        "name": "stoporder_1", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "stoporder_2", 
-        "type": "real"
-      }, 
-      {
-        "name": "comments", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "idol_2012_amusement_ride_inspections"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "idol_2012_amusement_ride_inspections"
 }

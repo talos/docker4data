@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_active_projects_under_construction/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/2xh6-psuq/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/2xh6-psuq/rows.csv", 
   "description": "New school projects (Capacity) and Capital Improvement Projects (CIP) currently under Construction.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,66 +13,7 @@
     }
   }, 
   "name": "Active Projects Under Construction", 
-  "schema": {
-    "columns": [
-      {
-        "name": "project_geographic_district_", 
-        "type": "text"
-      }, 
-      {
-        "name": "project_building_identifier", 
-        "type": "text"
-      }, 
-      {
-        "name": "project_school_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "project_type_", 
-        "type": "text"
-      }, 
-      {
-        "name": "project_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "project_phase_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "project_status_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "project_phase_actual_start_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "project_phase_planned_end_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "project_phase_actual_end_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "project_budget_amount", 
-        "type": "text"
-      }, 
-      {
-        "name": "final_estimate_of_actual_costs_through_end_of_phase_amount", 
-        "type": "text"
-      }, 
-      {
-        "name": "total_phase_actual_spending_amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "dsf_number_s_", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "active_projects_under_construction"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "active_projects_under_construction"
 }

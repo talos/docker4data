@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/bicycle_corridors_2035/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/geospatial/7c7x-7yp9", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/geospatial/7c7x-7yp9", 
   "description": "This file prioritizes general improvements to regional on and off-street bicycle corridors in the CAMPO 2035 Regional Transportation Plan.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,9 +13,7 @@
     }
   }, 
   "name": "Bicycle Corridors 2035", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "bicycle_corridors_2035"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "bicycle_corridors_2035"
 }

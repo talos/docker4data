@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ccgismap_area_10_niles_evanston_rogers_park_jefferson_townships/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/cookcounty.socrata.com/download/bxnt-qvhkapplication/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/cookcounty.socrata.com/download/bxnt-qvhk/application/pdf", 
   "description": "Cook County GIS Dept map of Niles, Evanston, Rogers Park & Jefferson Townships in a pdf format.  Includes streets and municipalities.", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,6 @@
     }
   }, 
   "name": "ccgismap - Area 10 Niles, Evanston, Rogers Park & Jefferson Townships", 
-  "schema": {}, 
-  "schemaName": "socrata/cookcounty.socrata.com", 
-  "tableName": "ccgismap_area_10_niles_evanston_rogers_park_jefferson_townships"
+  "schema": "socrata/cookcounty.socrata.com", 
+  "table": "ccgismap_area_10_niles_evanston_rogers_park_jefferson_townships"
 }

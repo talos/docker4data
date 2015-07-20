@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/2014_census_previous_residence_if_less_than_one_year_citywide_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/9yfd-ugpc/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.edmonton.ca/api/views/9yfd-ugpc/rows.csv", 
   "description": "All Census information is as of April 1, 2014. No data on any individual residence will be released.  To protect the privacy of individuals, data is compiled and presented at the city, ward and neighbourhood level only.  Neighbourhood results with a population under 49 are not posted to protect the information collected.  The designation of \u201cNo Response\u201d includes households from which no census data could be collected or only partial data was available.  \u201cOther Residential\u201d includes dwelling units not covered by the other categories, such as a unit attached to a non-residential structure (e.g. an apartment in a store or church) or a movable structure (e.g. recreational vehicle, tent, etc.).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,18 +13,7 @@
     }
   }, 
   "name": "2014 Census - Previous Residence If Less Than One Year (Citywide)", 
-  "schema": {
-    "columns": [
-      {
-        "name": "previous_residence_if_living_in_dwelling_for_less_than_1_year", 
-        "type": "text"
-      }, 
-      {
-        "name": "population", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.edmonton.ca", 
-  "tableName": "2014_census_previous_residence_if_less_than_one_year_citywide_"
+  "schema": "socrata/data.edmonton.ca", 
+  "status": "needs review", 
+  "table": "2014_census_previous_residence_if_less_than_one_year_citywide_"
 }

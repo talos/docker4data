@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_state_nature_centers/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/7gdv-fq7n/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/7gdv-fq7n/rows.csv", 
   "description": "The New York State Office of Parks, Recreation and Historic Preservation (OPRHP) oversees more than 214 state parks and historic sites, encompassing nearly 335,000 acres, that are visited by 60 million people annually. These facilities contribute to the economic vitality and quality of life of local communities and directly support New York\u2019s tourism industry. Parks also provide a place for families and children to be active and exercise, promoting healthy lifestyles. The agency is responsible for the operation and stewardship of the state park system as well as advancing a statewide parks, historic preservation, and open space mission.\r\nThe New York State Office of Parks, Recreation and Historic Preservation operates several nature centers throughout the state. Visitors to our nature centers learn about the abundance of natural resources to be found in state parks. Our state parks and historic sites are hosts to scenic viewsheds, geologic features and both common and rare flora and fauna. For more information, visit http://nysparks.com/environment/nature-centers/default.aspx", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "State Nature Centers", 
-  "schema": {
-    "columns": [
-      {
-        "name": "state_park_facility", 
-        "type": "text"
-      }, 
-      {
-        "name": "nature_center", 
-        "type": "text"
-      }, 
-      {
-        "name": "region", 
-        "type": "real"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "facility_url", 
-        "type": "text"
-      }, 
-      {
-        "name": "nature_center_url", 
-        "type": "text"
-      }, 
-      {
-        "name": "x", 
-        "type": "real"
-      }, 
-      {
-        "name": "y", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "state_nature_centers"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "state_nature_centers"
 }

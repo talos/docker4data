@@ -1,0 +1,22 @@
+CREATE TABLE "new_york_s_great_appliance_swap_out" (
+	"program_name"	text,
+	"program_launch_date"	timestamp,
+	"program_close_date"	timestamp,
+	"rebate_application_id"	text,
+	"rebate_applicant_county"	text,
+	"rebate_applicant_zip_code"	text,
+	"rebate_application_date"	timestamp,
+	"rebate_applicant_electric_utility"	text,
+	"rebate_option_number"	text,
+	"rebate_option_description"	text,
+	"appliance_type"	text,
+	"appliance_make"	text,
+	"appliance_model"	text,
+	"rebate_amount"	real,
+	"existing_appliance_removed_and_recycled_y_n"	text,
+	"recycled_appliance_make"	text,
+	"recycled_appliance_model"	text,
+	"estimated_age_of_recycled_appliance"	real,
+	"date_appliance_was_picked_up_for_recycling"	timestamp,
+	"location"	text
+);

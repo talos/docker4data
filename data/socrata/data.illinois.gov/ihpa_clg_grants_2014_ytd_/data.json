@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_ihpa_clg_grants_2014_ytd_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/qycd-888m/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/qycd-888m/rows.csv", 
   "description": "Dataset listing grants to certified local governments.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "IHPA - CLG Grants 2014 (YTD)", 
-  "schema": {
-    "columns": [
-      {
-        "name": "grantee_name_clg", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "discription_of_project", 
-        "type": "text"
-      }, 
-      {
-        "name": "amount_of_award", 
-        "type": "real"
-      }, 
-      {
-        "name": "date_of_award", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "duration", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "ihpa_clg_grants_2014_ytd_"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "ihpa_clg_grants_2014_ytd_"
 }

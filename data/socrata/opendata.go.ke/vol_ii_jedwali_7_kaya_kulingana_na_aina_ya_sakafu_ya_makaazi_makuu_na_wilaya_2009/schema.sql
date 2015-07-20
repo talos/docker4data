@@ -1,0 +1,21 @@
+CREATE TABLE "vol_ii_jedwali_7_kaya_kulingana_na_aina_ya_sakafu_ya_makaazi_makuu_na_wilaya_2009" (
+	"wilaya"	text,
+	"kijijini_mjini"	text,
+	"asilimia_ya_kaya_zenye_sakafu_za_saruji"	text,
+	"asilimia_ya_kaya_zenye_sakafu_za_vigae"	text,
+	"asilimia_ya_kaya_zenye_sakafu_za_mbao"	text,
+	"asilimia_ya_kaya_zenye_sakafu_za_tope_udongo"	text,
+	"asilimia_ya_kaya_zenye_sakafu_nyingine"	text,
+	"idadi_ya_kaya_zenye_sakafu_za_saruji"	real,
+	"idadi_ya_kaya_zenye_sakafu_za_vigae"	real,
+	"idadi_ya_kaya_zenye_sakafu_za_mbao"	real,
+	"idadi_ya_kaya_zenye_sakafu_za_tope_udongo"	real,
+	"idadi_ya_kaya_zenye_sakafu_nyingine"	real,
+	"jumla_ya_kaya"	real,
+	"mkoa"	text,
+	"kaunti"	text,
+	"swali_la_sensa"	text,
+	"mtef"	text,
+	"mtp"	text,
+	"location_1"	text
+);

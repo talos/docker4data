@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_seattle_police_department_beats/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/nnxn-434b/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/nnxn-434b/rows.csv", 
   "description": "Spatial data files of City of Seatle Police precincts and beats. Coordinate system is WGS84", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "Seattle Police Department Beats", 
-  "schema": {
-    "columns": [
-      {
-        "name": "file_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "file", 
-        "type": "text"
-      }, 
-      {
-        "name": "applicable_years", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "seattle_police_department_beats"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "seattle_police_department_beats"
 }

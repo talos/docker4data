@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_agr_eab_compliant_vendors/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/3wtv-chmn/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/3wtv-chmn/rows.csv", 
   "description": "Emerald Ash Borer Complaint Vendors", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,34 +12,7 @@
     }
   }, 
   "name": "AGR-EAB Compliant Vendors", 
-  "schema": {
-    "columns": [
-      {
-        "name": "compliance_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "company_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "street", 
-        "type": "text"
-      }, 
-      {
-        "name": "city_state_zip", 
-        "type": "text"
-      }, 
-      {
-        "name": "telephone", 
-        "type": "text"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "agr_eab_compliant_vendors"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "agr_eab_compliant_vendors"
 }

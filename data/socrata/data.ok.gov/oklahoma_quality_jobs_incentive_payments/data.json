@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_oklahoma_quality_jobs_incentive_payments/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/nepp-r4x3/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/nepp-r4x3/rows.csv", 
   "description": "This cash-back job creation incentive has moved the State of Oklahoma to the forefront as a location for new manufacturing and service industry investment. The innovative Oklahoma Quality Jobs Program allows qualifying businesses creating new, quality jobs to receive a special incentive to locate or expand in Oklahoma.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,54 +13,7 @@
     }
   }, 
   "name": "Oklahoma Quality Jobs Incentive Payments", 
-  "schema": {
-    "columns": [
-      {
-        "name": "fiscal_year", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendor_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendor_address_city", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendor_address_state", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendor_address_zip_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "issue_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "payment_amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "department_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "business_unit", 
-        "type": "text"
-      }, 
-      {
-        "name": "account_description", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "oklahoma_quality_jobs_incentive_payments"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "oklahoma_quality_jobs_incentive_payments"
 }

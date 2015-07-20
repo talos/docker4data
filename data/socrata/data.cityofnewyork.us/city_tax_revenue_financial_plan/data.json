@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_city_tax_revenue_financial_plan/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/ye26-g8nx/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/ye26-g8nx/rows.csv", 
   "description": "The table presents records of the source for City Tax Revenue generated from the year 2013 thro 2017.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "City Tax Revenue Financial Plan", 
-  "schema": {
-    "columns": [
-      {
-        "name": "tax_type_year", 
-        "type": "text"
-      }, 
-      {
-        "name": "property_tax", 
-        "type": "real"
-      }, 
-      {
-        "name": "economically_sensitive_taxes", 
-        "type": "real"
-      }, 
-      {
-        "name": "non_tax_revenue", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "city_tax_revenue_financial_plan"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "city_tax_revenue_financial_plan"
 }

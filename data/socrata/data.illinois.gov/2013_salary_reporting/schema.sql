@@ -1,0 +1,20 @@
+CREATE TABLE "2013_salary_reporting" (
+	"last_name"	text,
+	"first_name"	text,
+	"current_job_title"	text,
+	"department_location"	text,
+	"_2012_pay"	real,
+	"_2012_overtime_pay"	real,
+	"_2012_total_pay"	real,
+	"_2013_budgeted_salary"	real,
+	"health_ins"	real,
+	"imrf"	real,
+	"fica_med"	real,
+	"police_pension"	real,
+	"fire_pension"	real,
+	"workers_comp"	real,
+	"unemp"	real,
+	"life_ins"	real,
+	"parking"	real,
+	"_2013_grand_total_salaries_and_benefits"	real
+);

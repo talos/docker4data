@@ -1,9 +1,6 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/oakland_public_housing_2014_geocode/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oaklandnet.com/api/geospatial/mv3e-pwbx", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.oaklandnet.com/api/geospatial/mv3e-pwbx", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -14,7 +11,7 @@
     }
   }, 
   "name": "Oakland Public Housing 2014 Geocode", 
-  "schema": {}, 
-  "schemaName": "socrata/data.oaklandnet.com", 
-  "tableName": "oakland_public_housing_2014_geocode"
+  "schema": "socrata/data.oaklandnet.com", 
+  "status": "needs review", 
+  "table": "oakland_public_housing_2014_geocode"
 }

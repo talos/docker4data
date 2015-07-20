@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_weatherfordtx_monthly_sales_tax_collections/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/c4zr-3y7x/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/c4zr-3y7x/rows.csv", 
   "description": "Monthly sales tax collections since 1990. Taxes collected by the city are shown separately beginning around 2007.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,26 +12,7 @@
     }
   }, 
   "name": "Monthly Sales Tax Collections", 
-  "schema": {
-    "columns": [
-      {
-        "name": "month_remitted", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "month_collected", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "state_allocation", 
-        "type": "real"
-      }, 
-      {
-        "name": "city_allocation", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.weatherfordtx.gov", 
-  "tableName": "monthly_sales_tax_collections"
+  "schema": "socrata/data.weatherfordtx.gov", 
+  "status": "needs review", 
+  "table": "monthly_sales_tax_collections"
 }

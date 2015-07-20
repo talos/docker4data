@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/2013_state_of_oklahoma_personal_property_inventory_list/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/f679-ijkp/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/f679-ijkp/rows.csv", 
   "description": "The Personal Property List contains information on all personal property owned by the State of Oklahoma as reported to the OMES.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "2013 State of Oklahoma Personal Property Inventory List", 
-  "schema": {
-    "columns": [
-      {
-        "name": "agency_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "state_agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "property_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "property_classification", 
-        "type": "text"
-      }, 
-      {
-        "name": "property_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "date_property_acquired_install_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "list_value_acquisition_cost", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "2013_state_of_oklahoma_personal_property_inventory_list"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "2013_state_of_oklahoma_personal_property_inventory_list"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/2010_basic_stand_alone_durable_medical_equipment_line_items_puf/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cms.gov/api/views/5b3y-9vj6/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cms.gov/api/views/5b3y-9vj6/rows.csv", 
   "description": "This release contains the Basic Stand Alone (BSA) Durable Medical Equipment (DME) Line Items Public Use Files (PUF) with information from Medicare DME claims. The CMS BSA DME Line Items PUF is a line item level file in which each record is a line item of a DME claim incurred by a 5% sample of Medicare beneficiaries (each claim is comprised of up to 13 line item services). Some demographic and line item related variables are provided in this PUF. However, as beneficiary identities are not provided, it is not possible to link claims that belong to the same beneficiary in the CMS BSA DME Line Items PUF. It is also not possible to link line item services that belong to the same claim.\r\n\r\nThe CMS BSA DME Line Items PUF originates from a 5% simple random sample of beneficiaries drawn (without replacement) from the 100% Beneficiary Summary File for the reference year. The sample that is used for the CMS BSA DME Line Items PUF is disjoint from the existing 5% CMS research sample in the sense that there is no overlap in terms of the beneficiaries in the CMS BSA DME Line Items PUF and the 5% CMS research sample. It is also disjoint from the other BSA PUFs that have been released so far. This property prevents users from linking data across multiple files for identification purposes.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "2010 Basic Stand Alone Durable Medical Equipment Line Items PUF", 
-  "schema": {
-    "columns": [
-      {
-        "name": "bene_sex_ident_cd", 
-        "type": "real"
-      }, 
-      {
-        "name": "bene_age_cat_cd", 
-        "type": "text"
-      }, 
-      {
-        "name": "dme_line_icd_dgns_cd", 
-        "type": "text"
-      }, 
-      {
-        "name": "dme_line_hcpcs_cd", 
-        "type": "text"
-      }, 
-      {
-        "name": "dme_line_srvc_cnt", 
-        "type": "real"
-      }, 
-      {
-        "name": "dme_line_pmt_amt", 
-        "type": "real"
-      }, 
-      {
-        "name": "line_item_cnt", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cms.gov", 
-  "tableName": "2010_basic_stand_alone_durable_medical_equipment_line_items_puf"
+  "schema": "socrata/data.cms.gov", 
+  "status": "needs review", 
+  "table": "2010_basic_stand_alone_durable_medical_equipment_line_items_puf"
 }

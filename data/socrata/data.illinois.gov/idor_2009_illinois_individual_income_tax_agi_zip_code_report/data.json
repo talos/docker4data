@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/idor_2009_illinois_individual_income_tax_agi_zip_code_report/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/gsp6-dpce/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/gsp6-dpce/rows.csv", 
   "description": "This report is created twice a year, usually in January as a PRELIMINARY reporting and then in August for a FINAL reporting.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,66 +13,7 @@
     }
   }, 
   "name": "IDOR 2009 Illinois Individual Income Tax - AGI Zip Code Report", 
-  "schema": {
-    "columns": [
-      {
-        "name": "zip_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "returns", 
-        "type": "real"
-      }, 
-      {
-        "name": "adjusted_gross_income", 
-        "type": "real"
-      }, 
-      {
-        "name": "basic_exemptions", 
-        "type": "real"
-      }, 
-      {
-        "name": "_65_exemptions", 
-        "type": "real"
-      }, 
-      {
-        "name": "blind_exemptions", 
-        "type": "real"
-      }, 
-      {
-        "name": "reported_liability", 
-        "type": "real"
-      }, 
-      {
-        "name": "prop_tax_returns", 
-        "type": "real"
-      }, 
-      {
-        "name": "prop_tax_credits", 
-        "type": "real"
-      }, 
-      {
-        "name": "earn_income_returns", 
-        "type": "real"
-      }, 
-      {
-        "name": "earn_income_credits", 
-        "type": "real"
-      }, 
-      {
-        "name": "education_returns", 
-        "type": "real"
-      }, 
-      {
-        "name": "education_credits", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "idor_2009_illinois_individual_income_tax_agi_zip_code_report"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "idor_2009_illinois_individual_income_tax_agi_zip_code_report"
 }

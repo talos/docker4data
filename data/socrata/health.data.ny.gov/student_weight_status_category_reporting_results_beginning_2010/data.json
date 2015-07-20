@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/student_weight_status_category_reporting_results_beginning_2010/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/es3k-2aus/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/health.data.ny.gov/api/views/es3k-2aus/rows.csv", 
   "description": "The Student Weight Status Category Reporting System (SWSCR) collects weight status category data (underweight, healthy weight, overweight or obese, based on BMI-for-age percentile).  The dataset includes separate estimates of the percent of students overweight, obese and overweight or obese for all reportable grades within the county and/or region and by grade groups (elementary and middle/high).   The rates of overweight and obesity reported are percentages based on counts of students in selected grades (Pre-K, K, 2, 4, 7, 10) reported to the NYSDOH. Because these rates reflect a broad range of factors that vary by school district, to make comparisons about observed differences in the rates of obesity and overweight between school districts requires the use of multivariate statistics. County, regional and statewide estimates will only be provided biennially, District estimates will be updated annually. For more information check out http://www.health.ny.gov/prevention/obesity/, see our Instruction Guide on How to Create Visualizations https://health.data.ny.gov/api/assets/6490BDA9-AE4D-406F-BA5A-703793526B9F or go to the \"About\" tab.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,82 +13,7 @@
     }
   }, 
   "name": "Student Weight Status Category Reporting Results: Beginning 2010", 
-  "schema": {
-    "columns": [
-      {
-        "name": "location_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "area_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "region", 
-        "type": "text"
-      }, 
-      {
-        "name": "school_years", 
-        "type": "text"
-      }, 
-      {
-        "name": "overweight_1", 
-        "type": "real"
-      }, 
-      {
-        "name": "overweight_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "obese_1", 
-        "type": "real"
-      }, 
-      {
-        "name": "obese_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "overweight_or_obese_1", 
-        "type": "real"
-      }, 
-      {
-        "name": "overweight_or_obese_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "grade_category", 
-        "type": "text"
-      }, 
-      {
-        "name": "area_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/health.data.ny.gov", 
-  "tableName": "student_weight_status_category_reporting_results_beginning_2010"
+  "schema": "socrata/health.data.ny.gov", 
+  "status": "needs review", 
+  "table": "student_weight_status_category_reporting_results_beginning_2010"
 }

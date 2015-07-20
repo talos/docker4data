@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oregon_alternate_transportation_miles_traveled/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/mmpn-adtj/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/api/views/mmpn-adtj/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -14,34 +10,7 @@
     }
   }, 
   "name": "Alternate Transportation Miles Traveled", 
-  "schema": {
-    "columns": [
-      {
-        "name": "month", 
-        "type": "text"
-      }, 
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "how_many_miles_traveled", 
-        "type": "real"
-      }, 
-      {
-        "name": "how_days_using_alternate_transportation", 
-        "type": "real"
-      }, 
-      {
-        "name": "transport_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "division", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "alternate_transportation_miles_traveled"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "alternate_transportation_miles_traveled"
 }

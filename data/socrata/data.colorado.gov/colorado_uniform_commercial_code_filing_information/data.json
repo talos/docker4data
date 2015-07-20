@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/colorado_uniform_commercial_code_filing_information/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/wffy-3uut/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/api/views/wffy-3uut/rows.csv", 
   "description": "Uniform Commercial Code (UCC) filing information on record with the Secretary of State.  This dataset includes UCC financing statements, effective financing statements (EFS), and liens. This datasets includes information on the entity id and transaction id, the filing date, filing type, lapse date, financial statement type and a mobile home flag column. The Business Division files financing statements and notices of security interests in agricultural products pursuant to the Uniform Commercial Code, federal tax liens and other miscellaneous statutory liens.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,58 +13,7 @@
     }
   }, 
   "name": "Colorado Uniform Commercial Code Filing Information", 
-  "schema": {
-    "columns": [
-      {
-        "name": "transactionid", 
-        "type": "text"
-      }, 
-      {
-        "name": "masterdocumentid", 
-        "type": "text"
-      }, 
-      {
-        "name": "transactiontype", 
-        "type": "text"
-      }, 
-      {
-        "name": "filingdate", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "lapsedate", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "filingtype", 
-        "type": "text"
-      }, 
-      {
-        "name": "documenttype", 
-        "type": "text"
-      }, 
-      {
-        "name": "continuation", 
-        "type": "text"
-      }, 
-      {
-        "name": "terminationflag", 
-        "type": "text"
-      }, 
-      {
-        "name": "financialstatementtype", 
-        "type": "text"
-      }, 
-      {
-        "name": "manufacturedhometransactions", 
-        "type": "text"
-      }, 
-      {
-        "name": "fileid", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "colorado_uniform_commercial_code_filing_information"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "colorado_uniform_commercial_code_filing_information"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_mo_missourians_receiving_unemployment_benefits/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.mo.gov/api/views/uite-mset/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.mo.gov/api/views/uite-mset/rows.csv", 
   "description": "This data represents the number of Missourians currently receiving unemployment benefits.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,30 +12,7 @@
     }
   }, 
   "name": "Missourians Receiving Unemployment Benefits", 
-  "schema": {
-    "columns": [
-      {
-        "name": "date", 
-        "type": "text"
-      }, 
-      {
-        "name": "eb", 
-        "type": "real"
-      }, 
-      {
-        "name": "euc", 
-        "type": "real"
-      }, 
-      {
-        "name": "regular", 
-        "type": "real"
-      }, 
-      {
-        "name": "total", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.mo.gov", 
-  "tableName": "missourians_receiving_unemployment_benefits"
+  "schema": "socrata/data.mo.gov", 
+  "status": "needs review", 
+  "table": "missourians_receiving_unemployment_benefits"
 }

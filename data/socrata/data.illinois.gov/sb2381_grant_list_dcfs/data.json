@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_sb2381_grant_list_dcfs/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/rmie-53h2/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/rmie-53h2/rows.csv", 
   "description": "Grants Awarded by DCFS FY14", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,50 +12,7 @@
     }
   }, 
   "name": "SB2381 Grant List - DCFS", 
-  "schema": {
-    "columns": [
-      {
-        "name": "oblgid", 
-        "type": "text"
-      }, 
-      {
-        "name": "descd", 
-        "type": "text"
-      }, 
-      {
-        "name": "comptnm", 
-        "type": "text"
-      }, 
-      {
-        "name": "locstr", 
-        "type": "text"
-      }, 
-      {
-        "name": "loccsz", 
-        "type": "text"
-      }, 
-      {
-        "name": "prog", 
-        "type": "text"
-      }, 
-      {
-        "name": "totalob_fy14", 
-        "type": "real"
-      }, 
-      {
-        "name": "oblgbegdt", 
-        "type": "text"
-      }, 
-      {
-        "name": "oblgenddt", 
-        "type": "text"
-      }, 
-      {
-        "name": "code", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "sb2381_grant_list_dcfs"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "sb2381_grant_list_dcfs"
 }

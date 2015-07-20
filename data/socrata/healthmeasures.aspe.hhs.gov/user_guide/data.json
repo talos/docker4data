@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/user_guide/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/download/8wsm-y3swapplication/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/download/8wsm-y3sw/application/pdf", 
   "description": "Download User Guide Here", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -15,7 +12,7 @@
     }
   }, 
   "name": "User Guide", 
-  "schema": {}, 
-  "schemaName": "socrata/healthmeasures.aspe.hhs.gov", 
-  "tableName": "user_guide"
+  "schema": "socrata/healthmeasures.aspe.hhs.gov", 
+  "status": "needs review", 
+  "table": "user_guide"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/youth_services_directory/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/px79-vegt/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.edmonton.ca/api/views/px79-vegt/rows.csv", 
   "description": "Directory of agencies that provide services to youth in the Greater Edmonton Area.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,62 +13,7 @@
     }
   }, 
   "name": "Youth Services - Directory", 
-  "schema": {
-    "columns": [
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "primary", 
-        "type": "text"
-      }, 
-      {
-        "name": "minor_category", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "province", 
-        "type": "text"
-      }, 
-      {
-        "name": "country", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone_no", 
-        "type": "text"
-      }, 
-      {
-        "name": "email_add", 
-        "type": "text"
-      }, 
-      {
-        "name": "website", 
-        "type": "text"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.edmonton.ca", 
-  "tableName": "youth_services_directory"
+  "schema": "socrata/data.edmonton.ca", 
+  "status": "needs review", 
+  "table": "youth_services_directory"
 }

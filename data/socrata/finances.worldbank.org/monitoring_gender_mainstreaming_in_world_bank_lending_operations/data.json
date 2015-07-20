@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/monitoring_gender_mainstreaming_in_world_bank_lending_operations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/cfwt-ypej/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/finances.worldbank.org/api/views/cfwt-ypej/rows.csv", 
   "description": "This dataset determines the extent to which lending operations are gender-informed on three dimensions: analysis, actions and monitoring and evaluation. It is updated on an annual basis. (See Documents:  Methodology Guidance note with Checklist and Examples https://databox.worldbank.org/api/assets/D55E8B5A-4A57-48F6-AB35-216B4DA9305B ; and Glossary & Acronyms https://databox.worldbank.org/api/assets/D1BC5724-908B-4255-9195-EE4133CC0655).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,106 +12,7 @@
     }
   }, 
   "name": "Monitoring Gender Mainstreaming In World Bank Lending Operations", 
-  "schema": {
-    "columns": [
-      {
-        "name": "project_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "approval_fiscal_year", 
-        "type": "text"
-      }, 
-      {
-        "name": "project_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "region", 
-        "type": "text"
-      }, 
-      {
-        "name": "country", 
-        "type": "text"
-      }, 
-      {
-        "name": "dimension_1_analysis_code_1_yes", 
-        "type": "real"
-      }, 
-      {
-        "name": "dimension_2_actions_code_1_yes", 
-        "type": "real"
-      }, 
-      {
-        "name": "dimension_3_m_e_code_1_yes", 
-        "type": "real"
-      }, 
-      {
-        "name": "overall_score", 
-        "type": "real"
-      }, 
-      {
-        "name": "gender_informed_project", 
-        "type": "text"
-      }, 
-      {
-        "name": "gender_theme", 
-        "type": "text"
-      }, 
-      {
-        "name": "sector_board", 
-        "type": "text"
-      }, 
-      {
-        "name": "network", 
-        "type": "text"
-      }, 
-      {
-        "name": "lending_instrument", 
-        "type": "text"
-      }, 
-      {
-        "name": "investment_or_policy_lending", 
-        "type": "text"
-      }, 
-      {
-        "name": "ida_country", 
-        "type": "text"
-      }, 
-      {
-        "name": "ibrd_country", 
-        "type": "text"
-      }, 
-      {
-        "name": "post_conflict_or_fragile", 
-        "type": "text"
-      }, 
-      {
-        "name": "total_commitment_amount_ibrd_ida_usd_mill", 
-        "type": "real"
-      }, 
-      {
-        "name": "ibrd_comm_amt_usd_mill", 
-        "type": "real"
-      }, 
-      {
-        "name": "ida_comm_amt_usd_mill", 
-        "type": "real"
-      }, 
-      {
-        "name": "approval_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "closing_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "url", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/finances.worldbank.org", 
-  "tableName": "monitoring_gender_mainstreaming_in_world_bank_lending_operations"
+  "schema": "socrata/finances.worldbank.org", 
+  "status": "needs review", 
+  "table": "monitoring_gender_mainstreaming_in_world_bank_lending_operations"
 }

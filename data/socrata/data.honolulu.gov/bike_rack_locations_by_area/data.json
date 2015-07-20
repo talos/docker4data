@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_honolulu_bike_rack_locations_by_area/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.honolulu.gov/api/views/ab7c-s2jr/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.honolulu.gov/api/views/ab7c-s2jr/rows.csv", 
   "description": "Bike Rack Data", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,18 +13,7 @@
     }
   }, 
   "name": "Bike Rack Locations By Area", 
-  "schema": {
-    "columns": [
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "area", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.honolulu.gov", 
-  "tableName": "bike_rack_locations_by_area"
+  "schema": "socrata/data.honolulu.gov", 
+  "status": "needs review", 
+  "table": "bike_rack_locations_by_area"
 }

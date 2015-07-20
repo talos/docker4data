@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/odf_managed_lands/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/geospatial/db5g-ktdx", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/api/geospatial/db5g-ktdx", 
   "description": "Board of Forestry lands and Common School Lands Managed by the State Forests Program of the Oregon Department of Forestry.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "ODF Managed Lands", 
-  "schema": {}, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "odf_managed_lands"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "odf_managed_lands"
 }

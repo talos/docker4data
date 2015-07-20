@@ -1,0 +1,23 @@
+CREATE TABLE "house_of_representatives_2012_competitive_election_dataset" (
+	"race"	text,
+	"winner"	text,
+	"cook_rating_september_6th"	real,
+	"cook_partisan_voting_index"	real,
+	"total_spending"	real,
+	"total_democratic_spending"	real,
+	"total_republican_spending"	real,
+	"democratic_candidate_spending"	real,
+	"republican_total_spending_advantage"	real,
+	"total_outside_spending"	real,
+	"democratic_outside_spending"	real,
+	"republican_outside_spending"	real,
+	"total_dark_money_spending"	real,
+	"democratic_dark_money_spending"	real,
+	"republican_dark_money_spending"	real,
+	"total_super_pac_spending"	real,
+	"democratic_super_pac_spending"	real,
+	"republican_super_pac_spending"	real,
+	"democratic_vote_share"	real,
+	"republican_vote_share"	real,
+	"republican_vote_share_advantage"	real
+);

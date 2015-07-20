@@ -1,0 +1,20 @@
+CREATE TABLE "empire_zones_business_annual_reports_beginning_2001" (
+	"name_of_company"	text,
+	"zone_name"	text,
+	"report_year"	real,
+	"total_jobs"	real,
+	"full_time_jobs"	real,
+	"part_time_jobs"	real,
+	"full_time_equivalents"	real,
+	"gross_wages"	text,
+	"total_capital_investment"	text,
+	"wage_tax_credit_claimed"	text,
+	"wage_tax_credit_refunded"	text,
+	"investment_tax_credit_claimed"	text,
+	"investment_tax_credit_refunded"	text,
+	"employment_incentive_tax_credit_claimed"	text,
+	"tax_reduction_credit"	text,
+	"sales_tax_credit"	text,
+	"real_property_tax_credit"	text,
+	"real_property_tax_485_e_exemption"	text
+);

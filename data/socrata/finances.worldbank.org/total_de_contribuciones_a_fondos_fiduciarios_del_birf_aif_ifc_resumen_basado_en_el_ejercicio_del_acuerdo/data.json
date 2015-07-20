@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/total_de_contribuciones_a_fondos_fiduciarios_del_birf_aif_ifc_resumen_basado_en_el_ejercicio_del_acuerdo/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/t5xk-duyb/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/finances.worldbank.org/api/views/t5xk-duyb/rows.csv", 
   "description": "Un fondo fiduciario es un acuerdo de financiamiento establecido con contribuciones de uno o m\u00e1s donantes y en algunos casos, del Grupo del Banco Mundial. Un fondo fiduciario puede tener un alcance geogr\u00e1fico espec\u00edfico a un pa\u00eds, regi\u00f3n o mundial y puede ser independiente o program\u00e1tico.  Como parte de sus responsabilidades como depositario, el Banco Mundial cumple con todas las sanciones aplicables a sus operaciones. Este conjunto de datos ofrece un resumen de las contribuciones por ejercicio a nivel de cada fondo fiduciario. Todas las actuales definiciones se deben considerar provisionales y no definitivas, y est\u00e1n sujetas a revisi\u00f3n constante. Consulte el glosario de fondos fiduciarios en: http://www.cfpto.org/TFGlossary2012. (i)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,58 +13,7 @@
     }
   }, 
   "name": "Total de contribuciones a fondos fiduciarios del BIRF/AIF/IFC \u2013 Resumen basado en el ejercicio del acuerdo", 
-  "schema": {
-    "columns": [
-      {
-        "name": "as_of_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "fund", 
-        "type": "text"
-      }, 
-      {
-        "name": "trustee_fund_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "trustee_fund_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "donor_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "donor_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "donor_agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "fiscal_year_of_agreement", 
-        "type": "real"
-      }, 
-      {
-        "name": "contributions_paid_in_usd", 
-        "type": "real"
-      }, 
-      {
-        "name": "contributions_outstanding_usd", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_contribution_usd", 
-        "type": "real"
-      }, 
-      {
-        "name": "status", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/finances.worldbank.org", 
-  "tableName": "total_de_contribuciones_a_fondos_fiduciarios_del_birf_aif_ifc_resumen_basado_en_el_ejercicio_del_acuerdo"
+  "schema": "socrata/finances.worldbank.org", 
+  "status": "needs review", 
+  "table": "total_de_contribuciones_a_fondos_fiduciarios_del_birf_aif_ifc_resumen_basado_en_el_ejercicio_del_acuerdo"
 }

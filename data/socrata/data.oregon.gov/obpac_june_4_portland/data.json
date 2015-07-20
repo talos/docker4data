@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/obpac_june_4_portland/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/download/g4kk-43maapplication/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/download/g4kk-43ma/application/pdf", 
   "description": "Oregon Bicycle and Pedestrian Advisory Committee (OBPAC) will meet at the ODOT building in Portland June 4th for the monthly committee meeting. Please review the attached agenda for public comment", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,7 +13,7 @@
     }
   }, 
   "name": "OBPAC June 4 Portland", 
-  "schema": {}, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "obpac_june_4_portland"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "obpac_june_4_portland"
 }

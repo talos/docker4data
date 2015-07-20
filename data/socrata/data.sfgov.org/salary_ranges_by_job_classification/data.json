@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_salary_ranges_by_job_classification/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/7h4w-reyq/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sfgov.org/api/views/7h4w-reyq/rows.csv", 
   "description": "Shows the job titles associated with job classifications. \r\nUsed with the Job Titles by Classification and Employees by Classification", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,62 +13,7 @@
     }
   }, 
   "name": "Salary Ranges by Job Classification", 
-  "schema": {
-    "columns": [
-      {
-        "name": "setid", 
-        "type": "text"
-      }, 
-      {
-        "name": "job_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "eff_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "sal_end_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "salary_setid", 
-        "type": "text"
-      }, 
-      {
-        "name": "sal_plan", 
-        "type": "text"
-      }, 
-      {
-        "name": "grade", 
-        "type": "text"
-      }, 
-      {
-        "name": "step", 
-        "type": "real"
-      }, 
-      {
-        "name": "biweekly_high_rate", 
-        "type": "real"
-      }, 
-      {
-        "name": "biweekly_low_rate", 
-        "type": "real"
-      }, 
-      {
-        "name": "union_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "extended_step", 
-        "type": "real"
-      }, 
-      {
-        "name": "pay_type", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sfgov.org", 
-  "tableName": "salary_ranges_by_job_classification"
+  "schema": "socrata/data.sfgov.org", 
+  "status": "needs review", 
+  "table": "salary_ranges_by_job_classification"
 }

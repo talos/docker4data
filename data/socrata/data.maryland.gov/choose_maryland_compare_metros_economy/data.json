@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_choose_maryland_compare_metros_economy/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/evyv-ezm8/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/evyv-ezm8/rows.csv", 
   "description": "Economic production - GDP", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,18 +13,7 @@
     }
   }, 
   "name": "Choose Maryland:  Compare Metros - Economy", 
-  "schema": {
-    "columns": [
-      {
-        "name": "metro", 
-        "type": "text"
-      }, 
-      {
-        "name": "gdp", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "choose_maryland_compare_metros_economy"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "choose_maryland_compare_metros_economy"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_2012_nyc_farmers_market_list/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/b7kx-qikm/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/b7kx-qikm/rows.csv", 
   "description": "Listing of NYC farmers markets.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "2012 NYC Farmers Market List", 
-  "schema": {
-    "columns": [
-      {
-        "name": "borough", 
-        "type": "text"
-      }, 
-      {
-        "name": "market_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "day_s", 
-        "type": "text"
-      }, 
-      {
-        "name": "hours", 
-        "type": "text"
-      }, 
-      {
-        "name": "distribute_health_bucks", 
-        "type": "real"
-      }, 
-      {
-        "name": "accepts_health_bucks", 
-        "type": "real"
-      }, 
-      {
-        "name": "ebt", 
-        "type": "real"
-      }, 
-      {
-        "name": "stellar", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "2012_nyc_farmers_market_list"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "2012_nyc_farmers_market_list"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_occupational_employment_statistics/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/gkgz-nw24/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/gkgz-nw24/rows.csv", 
   "description": "The Occupational Employment Statistics (OES) survey is a semiannual mail survey of employers that measures occupational employment and occupational wage rates for wage and salary workers in nonfarm establishments, by industry. OES estimates are constructed from a sample of about 52,000 establishments. Each year, forms are mailed to two semiannual panels of approximately 8,500 sampled establishments, one panel in May and the other in November. Estimates are a snapshot in time and cannot be used as a time series.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "Occupational Employment Statistics", 
-  "schema": {
-    "columns": [
-      {
-        "name": "area_type", 
-        "type": "real"
-      }, 
-      {
-        "name": "area", 
-        "type": "real"
-      }, 
-      {
-        "name": "area_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "standard_occupational_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "occupational_title", 
-        "type": "text"
-      }, 
-      {
-        "name": "employment", 
-        "type": "text"
-      }, 
-      {
-        "name": "mean", 
-        "type": "real"
-      }, 
-      {
-        "name": "median", 
-        "type": "real"
-      }, 
-      {
-        "name": "entry_wage", 
-        "type": "real"
-      }, 
-      {
-        "name": "experienced_wage", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "occupational_employment_statistics"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "occupational_employment_statistics"
 }

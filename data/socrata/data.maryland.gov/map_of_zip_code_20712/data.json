@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/map_of_zip_code_20712/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/geospatial/cdet-mmji", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/geospatial/cdet-mmji", 
   "description": "This map shows zip code's 20712 boundaries. Zip code 20712 approximately aligns with the boundaries of the municipality of Mount Rainier, but not exactly.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Map of Zip Code 20712", 
-  "schema": {}, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "map_of_zip_code_20712"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "map_of_zip_code_20712"
 }

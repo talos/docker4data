@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_civil_unions_ytd_2012/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/jjmh-uh4q/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/jjmh-uh4q/rows.csv", 
   "description": "Statistics on Civil Unions", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "Civil Unions YTD 2012", 
-  "schema": {
-    "columns": [
-      {
-        "name": "gender", 
-        "type": "text"
-      }, 
-      {
-        "name": "oahu", 
-        "type": "real"
-      }, 
-      {
-        "name": "hawaii", 
-        "type": "real"
-      }, 
-      {
-        "name": "maui", 
-        "type": "real"
-      }, 
-      {
-        "name": "kauai", 
-        "type": "real"
-      }, 
-      {
-        "name": "total", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "civil_unions_ytd_2012"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "civil_unions_ytd_2012"
 }

@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/jamaica_plain_sf1_pd/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/download/86tv-px5sapplication/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/download/86tv-px5s/application/pdf", 
   "description": "A report featuring data on all people and households in Jamaica Plain from the 2010 Census Summary Files (SF-1).", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,9 +13,7 @@
     }
   }, 
   "name": "Jamaica Plain SF1 PD", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "jamaica_plain_sf1_pd"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "jamaica_plain_sf1_pd"
 }

@@ -1,0 +1,20 @@
+CREATE TABLE "waze_alert_data" (
+	"inject_date"	timestamp,
+	"street"	text,
+	"city"	text,
+	"roadtype"	real,
+	"pubmillis"	real,
+	"locy"	real,
+	"locx"	real,
+	"subtype"	text,
+	"reliability"	real,
+	"uuid"	text,
+	"type"	text,
+	"reportrating"	real,
+	"magvar"	real,
+	"country"	text,
+	"starttime"	timestamp,
+	"starttimemillis"	real,
+	"endtime"	timestamp,
+	"endtimemillis"	real
+);

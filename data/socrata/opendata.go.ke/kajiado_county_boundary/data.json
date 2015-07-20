@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/kajiado_county_boundary/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/opendata.go.ke/api/geospatial/mua6-q6g4", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/opendata.go.ke/api/geospatial/mua6-q6g4", 
   "description": "Proposed Kajiado County Boundary", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Kajiado County Boundary", 
-  "schema": {}, 
-  "schemaName": "socrata/opendata.go.ke", 
-  "tableName": "kajiado_county_boundary"
+  "schema": "socrata/opendata.go.ke", 
+  "status": "needs review", 
+  "table": "kajiado_county_boundary"
 }

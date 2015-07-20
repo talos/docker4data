@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/bronx_police_precinct_points/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/hzzz-eg3r/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/hzzz-eg3r/rows.csv", 
   "description": "Central points of police precincts in the Bronx", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,6 @@
     }
   }, 
   "name": "Bronx Police Precinct Points", 
-  "schema": {
-    "columns": [
-      {
-        "name": "fid", 
-        "type": "text"
-      }, 
-      {
-        "name": "precinct", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape_leng", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape_area", 
-        "type": "real"
-      }, 
-      {
-        "name": "point_x", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/bronx.lehman.cuny.edu", 
-  "tableName": "bronx_police_precinct_points"
+  "schema": "socrata/bronx.lehman.cuny.edu", 
+  "table": "bronx_police_precinct_points"
 }

@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/colorado_wind_turbines/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/geospatial/knn6-7fy9", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/api/geospatial/knn6-7fy9", 
   "description": "Industrial-scale onshore wind turbine locations in the United States through July 22, 2013, corresponding facility information, and turbine technical specifications. Verification of the turbine position was done by visual interpretation using high-resolution aerial imagery. Wind farm facility location data from various sources were collected and used to search for and digitize turbines.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Colorado Wind Turbines", 
-  "schema": {}, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "colorado_wind_turbines"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "colorado_wind_turbines"
 }

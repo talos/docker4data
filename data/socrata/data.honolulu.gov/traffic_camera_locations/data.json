@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_honolulu_traffic_camera_locations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.honolulu.gov/api/views/cat5-2v98/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.honolulu.gov/api/views/cat5-2v98/rows.csv", 
   "description": "Traffic camera locations as of June 5, 2015", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,22 +12,7 @@
     }
   }, 
   "name": "Traffic Camera Locations", 
-  "schema": {
-    "columns": [
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "cameraimageurl", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.honolulu.gov", 
-  "tableName": "traffic_camera_locations"
+  "schema": "socrata/data.honolulu.gov", 
+  "status": "needs review", 
+  "table": "traffic_camera_locations"
 }

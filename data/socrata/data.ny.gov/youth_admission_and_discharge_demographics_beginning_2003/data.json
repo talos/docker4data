@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/youth_admission_and_discharge_demographics_beginning_2003/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/9vgs-jnha/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/9vgs-jnha/rows.csv", 
   "description": "This dataset provides county\u2010level demographic data (sex, adjudication, age, race/ethnicity, and service setting) for youth admitted to and discharged from the care and custody of the Office of Children and Family Services (OCFS) each year. Data are counted using a youth\u2019s first admission or discharge in a calendar year. Admissions data are aggregate based on the responsible (court) county. Discharges data are aggregate based on the county of residence.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,98 +13,7 @@
     }
   }, 
   "name": "Youth Admission and Discharge Demographics:  Beginning 2003", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "transaction", 
-        "type": "text"
-      }, 
-      {
-        "name": "total_youth", 
-        "type": "real"
-      }, 
-      {
-        "name": "male", 
-        "type": "real"
-      }, 
-      {
-        "name": "female", 
-        "type": "real"
-      }, 
-      {
-        "name": "juvenile_offender", 
-        "type": "real"
-      }, 
-      {
-        "name": "juvenile_delinquent", 
-        "type": "real"
-      }, 
-      {
-        "name": "age_under_15", 
-        "type": "real"
-      }, 
-      {
-        "name": "age_15", 
-        "type": "real"
-      }, 
-      {
-        "name": "age_over_15", 
-        "type": "real"
-      }, 
-      {
-        "name": "black", 
-        "type": "real"
-      }, 
-      {
-        "name": "white", 
-        "type": "real"
-      }, 
-      {
-        "name": "hispanic", 
-        "type": "real"
-      }, 
-      {
-        "name": "other", 
-        "type": "real"
-      }, 
-      {
-        "name": "secure", 
-        "type": "real"
-      }, 
-      {
-        "name": "limited_secure", 
-        "type": "real"
-      }, 
-      {
-        "name": "non_secure_center", 
-        "type": "real"
-      }, 
-      {
-        "name": "non_secure_home", 
-        "type": "real"
-      }, 
-      {
-        "name": "voluntary_agency", 
-        "type": "real"
-      }, 
-      {
-        "name": "foster_care", 
-        "type": "real"
-      }, 
-      {
-        "name": "community", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "youth_admission_and_discharge_demographics_beginning_2003"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "youth_admission_and_discharge_demographics_beginning_2003"
 }

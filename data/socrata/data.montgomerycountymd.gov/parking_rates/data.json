@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/parking_rates/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/dh8t-aq6g/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/dh8t-aq6g/rows.csv", 
   "description": "Montgomery County Public Parking Rates", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,62 +12,7 @@
     }
   }, 
   "name": "Parking Rates", 
-  "schema": {
-    "columns": [
-      {
-        "name": "district", 
-        "type": "text"
-      }, 
-      {
-        "name": "parking_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "located_at", 
-        "type": "text"
-      }, 
-      {
-        "name": "near_lat", 
-        "type": "text"
-      }, 
-      {
-        "name": "near_lng", 
-        "type": "text"
-      }, 
-      {
-        "name": "hours_requiring_payment", 
-        "type": "text"
-      }, 
-      {
-        "name": "rate", 
-        "type": "text"
-      }, 
-      {
-        "name": "duration", 
-        "type": "text"
-      }, 
-      {
-        "name": "who_can_park", 
-        "type": "text"
-      }, 
-      {
-        "name": "payment_options", 
-        "type": "text"
-      }, 
-      {
-        "name": "address1", 
-        "type": "text"
-      }, 
-      {
-        "name": "address2", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.montgomerycountymd.gov", 
-  "tableName": "parking_rates"
+  "schema": "socrata/data.montgomerycountymd.gov", 
+  "status": "needs review", 
+  "table": "parking_rates"
 }

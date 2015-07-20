@@ -1,0 +1,22 @@
+CREATE TABLE "energy_star_certified_non_ahri_central_air_conditioner_equipme" (
+	"pd_id"	real,
+	"manufacturer_type"	text,
+	"energy_star_partner"	text,
+	"brand_name"	text,
+	"outdoor_unit_manufacturer"	text,
+	"outdoor_model_name"	text,
+	"model_number"	text,
+	"model_name"	text,
+	"indoor_unit_model_number"	text,
+	"additional_model_information"	text,
+	"product_type"	text,
+	"seer_btu_wh"	real,
+	"eer_btu_wh"	real,
+	"hspf_btu_wh"	real,
+	"capacity_btu_h"	real,
+	"date_available_on_market"	timestamp,
+	"date_qualified"	timestamp,
+	"markets"	text,
+	"energy_star_model_identifier"	text,
+	"meets_most_efficient_criteria"	text
+);

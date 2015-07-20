@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_iepa_no_further_remediation_sites/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/fy8n-6wdi/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/fy8n-6wdi/rows.csv", 
   "description": "Data extracted from the Bureau of Land's Site Remediation Program Database which identifies the terms and conditions of all \"No Further Remediation \" (NFR) Letters issued for all voluntary remediation projects administered through the Pre-Notice Site Cleanup Program (1989 to 1995) and the Site Remediation Program (1996 to the present).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,66 +13,7 @@
     }
   }, 
   "name": "IEPA No Further Remediation Sites", 
-  "schema": {
-    "columns": [
-      {
-        "name": "lpc", 
-        "type": "text"
-      }, 
-      {
-        "name": "site_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "nfr_letter_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "date_recorded", 
-        "type": "text"
-      }, 
-      {
-        "name": "remediation_standard", 
-        "type": "text"
-      }, 
-      {
-        "name": "comprehensive_focused", 
-        "type": "text"
-      }, 
-      {
-        "name": "applicant_title", 
-        "type": "text"
-      }, 
-      {
-        "name": "applicant_first_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "applicant_last_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "applicant_company", 
-        "type": "text"
-      }, 
-      {
-        "name": "institutional_controls", 
-        "type": "text"
-      }, 
-      {
-        "name": "engineered_barriers", 
-        "type": "text"
-      }, 
-      {
-        "name": "worker_caution", 
-        "type": "text"
-      }, 
-      {
-        "name": "acres", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "iepa_no_further_remediation_sites"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "iepa_no_further_remediation_sites"
 }

@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/bronx_zoning/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/geospatial/m423-f3n6", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/geospatial/m423-f3n6", 
   "description": "nyzd: Polygon features representing the zoning districts. These features are continuous over the entire city. They extend to the city limits on land and out to the US Army Corps of Engineers Pierhead lines over water. Zoning district designations are indicated in the ZONEDIST attribute.\r\n\r\nnyco: Polygon features representing the within-tax-block limits for commercial overlay districts, as shown on the DCP zoning maps. Commercial overlay district designations are indicated in the OVERLAY attribute.\r\n\r\nnysp: Polygon features representing the Special Purpose Districts and their associated sub-districts. The main district designation is indicated in the SDNAME attribute. The abbreviation as shown on the zoning map is indicated in the SDLBL attribute.\r\n\r\nnylh: Polygon features representing the Limited Height Districts. The main district designation is indicated in the LHNAME attribute. The abbreviation as shown on the zoning map is indicated in the LHLBL attribute.\r\n\r\nnysp_sd: This feature class contains only the internal subdistricts of any special purpose districts that are so subdivided. The main special purpose district name is indicated by the SPNAME attribute, the SUBDIST attribute contains the subdistrict name. Any further subdistrict divisions are named in the SUBSUB attribute.\r\n\r\nnyzma: Polygon features representing the boundaries for all rezonings adopted since January 1, 2002 (STATUS = \"Adopted\") and current proposed rezonings (STATUS = \"Certified\"). Selected city-initiated text amendments to the Zoning Resolution since 2002 that have discrete geographical boundaries may be included.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,6 @@
     }
   }, 
   "name": "Bronx Zoning", 
-  "schema": {}, 
-  "schemaName": "socrata/bronx.lehman.cuny.edu", 
-  "tableName": "bronx_zoning"
+  "schema": "socrata/bronx.lehman.cuny.edu", 
+  "table": "bronx_zoning"
 }

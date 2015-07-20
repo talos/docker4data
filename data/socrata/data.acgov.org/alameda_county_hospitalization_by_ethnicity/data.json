@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_acgov_alameda_county_hospitalization_by_ethnicity/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.acgov.org/api/views/aaq4-6mb9/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.acgov.org/api/views/aaq4-6mb9/rows.csv", 
   "description": "Data for period 2009 - 2012.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,50 +12,7 @@
     }
   }, 
   "name": "Alameda County Hospitalization By Ethnicity", 
-  "schema": {
-    "columns": [
-      {
-        "name": "indicator", 
-        "type": "text"
-      }, 
-      {
-        "name": "localetype", 
-        "type": "text"
-      }, 
-      {
-        "name": "locale", 
-        "type": "text"
-      }, 
-      {
-        "name": "rate_per_100_000", 
-        "type": "real"
-      }, 
-      {
-        "name": "lower_95_confidence_interval", 
-        "type": "real"
-      }, 
-      {
-        "name": "upper_95_confidence_interval", 
-        "type": "real"
-      }, 
-      {
-        "name": "period", 
-        "type": "text"
-      }, 
-      {
-        "name": "category", 
-        "type": "text"
-      }, 
-      {
-        "name": "subcategory", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.acgov.org", 
-  "tableName": "alameda_county_hospitalization_by_ethnicity"
+  "schema": "socrata/data.acgov.org", 
+  "status": "needs review", 
+  "table": "alameda_county_hospitalization_by_ethnicity"
 }

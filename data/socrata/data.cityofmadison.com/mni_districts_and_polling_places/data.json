@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofmadison_mni_districts_and_polling_places/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofmadison.com/api/views/va6x-khwv/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofmadison.com/api/views/va6x-khwv/rows.csv", 
   "description": "The purpose of this spreadsheet is to help answer questions typically asked by Madison Newspapers, Inc., before each election.  Data will be refreshed 30 days before each election.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,58 +13,7 @@
     }
   }, 
   "name": "MNI Districts And Polling Places", 
-  "schema": {
-    "columns": [
-      {
-        "name": "ward", 
-        "type": "real"
-      }, 
-      {
-        "name": "alder", 
-        "type": "real"
-      }, 
-      {
-        "name": "supervisor", 
-        "type": "real"
-      }, 
-      {
-        "name": "assembly", 
-        "type": "real"
-      }, 
-      {
-        "name": "senate", 
-        "type": "real"
-      }, 
-      {
-        "name": "school", 
-        "type": "real"
-      }, 
-      {
-        "name": "school_board", 
-        "type": "text"
-      }, 
-      {
-        "name": "polling_place", 
-        "type": "text"
-      }, 
-      {
-        "name": "polling_place_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "polling_place_june_aug", 
-        "type": "text"
-      }, 
-      {
-        "name": "changed_since_last_election_1_yes", 
-        "type": "real"
-      }, 
-      {
-        "name": "ward_with_no_voters_1_yes", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofmadison.com", 
-  "tableName": "mni_districts_and_polling_places"
+  "schema": "socrata/data.cityofmadison.com", 
+  "status": "needs review", 
+  "table": "mni_districts_and_polling_places"
 }

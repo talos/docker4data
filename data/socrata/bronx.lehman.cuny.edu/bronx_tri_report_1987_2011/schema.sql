@@ -1,0 +1,23 @@
+CREATE TABLE "bronx_tri_report_1987_2011" (
+	"_tri_facility_id"	text,
+	"facility_name"	text,
+	"doc_ctrl_num"	real,
+	"reporting_year"	real,
+	"chem_name"	text,
+	"cas_num"	text,
+	"rel_est_amt"	real,
+	"carcinogen"	text,
+	"clean_air"	text,
+	"street_address"	text,
+	"city_name"	text,
+	"state_abbr"	text,
+	"zip_code"	real,
+	"asgn_federal_ind"	text,
+	"parent_co_db_num"	text,
+	"parent_co_name"	text,
+	"trade_secret_ind"	real,
+	"environmental_medium"	text,
+	"release_range_code"	real,
+	"total_release"	real,
+	"location_1"	text
+);

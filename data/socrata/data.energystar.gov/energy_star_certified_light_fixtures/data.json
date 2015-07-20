@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_energystar_energy_star_certified_light_fixtures/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.energystar.gov/api/views/wyt9-72bp/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.energystar.gov/api/views/wyt9-72bp/rows.csv", 
   "description": "Certified models meet all ENERGY STAR requirements as listed in the Version 1.2 ENERGY STAR Program Requirements for Luminaires. A detailed listing of key efficiency criteria are available at http://www.energystar.gov/index.cfm?fuseaction=find_a_product.showProductGroup&pgw_code=LU#specs", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,110 +12,7 @@
     }
   }, 
   "name": "ENERGY STAR Certified Light Fixtures", 
-  "schema": {
-    "columns": [
-      {
-        "name": "pd_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "energy_star_partner", 
-        "type": "text"
-      }, 
-      {
-        "name": "brand_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "model_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "model_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "additional_model_information", 
-        "type": "text"
-      }, 
-      {
-        "name": "intended_use", 
-        "type": "text"
-      }, 
-      {
-        "name": "lighting_technology_used", 
-        "type": "text"
-      }, 
-      {
-        "name": "fixture_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "light_output_lumens", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_input_power_watts", 
-        "type": "real"
-      }, 
-      {
-        "name": "source_efficacy", 
-        "type": "real"
-      }, 
-      {
-        "name": "luminaire_efficacy", 
-        "type": "real"
-      }, 
-      {
-        "name": "power_factor", 
-        "type": "real"
-      }, 
-      {
-        "name": "correlated_color_temperature_kelvin", 
-        "type": "text"
-      }, 
-      {
-        "name": "color_rendering_index_cri", 
-        "type": "text"
-      }, 
-      {
-        "name": "light_source_life_hours", 
-        "type": "real"
-      }, 
-      {
-        "name": "special_features_dimming_motion_sensing_etc", 
-        "type": "text"
-      }, 
-      {
-        "name": "notes", 
-        "type": "text"
-      }, 
-      {
-        "name": "date_available_on_market", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "date_qualified", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "markets", 
-        "type": "text"
-      }, 
-      {
-        "name": "energy_star_model_identifier", 
-        "type": "text"
-      }, 
-      {
-        "name": "indoor_outdoor", 
-        "type": "text"
-      }, 
-      {
-        "name": "json_additional_model_information", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.energystar.gov", 
-  "tableName": "energy_star_certified_light_fixtures"
+  "schema": "socrata/data.energystar.gov", 
+  "status": "needs review", 
+  "table": "energy_star_certified_light_fixtures"
 }

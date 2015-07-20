@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofboston_vehicle_excise_tax_2014/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/ytub-etic/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/api/views/ytub-etic/rows.csv", 
   "description": "vehicle tax bills for Boston residents for 2014", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "Vehicle Excise Tax 2014", 
-  "schema": {
-    "columns": [
-      {
-        "name": "tax_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "bill", 
-        "type": "real"
-      }, 
-      {
-        "name": "zip", 
-        "type": "text"
-      }, 
-      {
-        "name": "make", 
-        "type": "text"
-      }, 
-      {
-        "name": "vehicle_yr", 
-        "type": "real"
-      }, 
-      {
-        "name": "value", 
-        "type": "real"
-      }, 
-      {
-        "name": "tax", 
-        "type": "real"
-      }, 
-      {
-        "name": "tax_paid", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "vehicle_excise_tax_2014"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "vehicle_excise_tax_2014"
 }

@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nola_local_landmarks_12_06_2012/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.nola.gov/api/geospatial/srrj-xwma", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.nola.gov/api/geospatial/srrj-xwma", 
   "description": "City of New Orleans Local Historic Landmarks. Landmarks and/or Landmark Sites represent particular historic, architectural, or cultural significance and are subject to the jurisdiction of the Historic District Landmarks Commission (HDLC). Points shown have been either nominated or designated, by HDLC, for landmark status. Parcels shown are ownership parcels (Orleans Parish Assessor) associated with nominated or designated landmarks. Note: To access detailed information on individual landmark points, go to 'Layer Summary' and uncheck Parcel layer.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "NOLA Local Landmarks - 12/06/2012", 
-  "schema": {}, 
-  "schemaName": "socrata/data.nola.gov", 
-  "tableName": "nola_local_landmarks_12_06_2012"
+  "schema": "socrata/data.nola.gov", 
+  "status": "needs review", 
+  "table": "nola_local_landmarks_12_06_2012"
 }

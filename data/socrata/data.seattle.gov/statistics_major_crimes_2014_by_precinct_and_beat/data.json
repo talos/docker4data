@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/statistics_major_crimes_2014_by_precinct_and_beat/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/88ys-gyb4/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/88ys-gyb4/rows.csv", 
   "description": "2014 major crime statistics by precinct and beat.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,62 +13,7 @@
     }
   }, 
   "name": "Statistics,Major Crimes, 2014, by Precinct and Beat", 
-  "schema": {
-    "columns": [
-      {
-        "name": "precinct", 
-        "type": "text"
-      }, 
-      {
-        "name": "beat", 
-        "type": "text"
-      }, 
-      {
-        "name": "homicide", 
-        "type": "real"
-      }, 
-      {
-        "name": "rape", 
-        "type": "real"
-      }, 
-      {
-        "name": "robbery", 
-        "type": "real"
-      }, 
-      {
-        "name": "assault", 
-        "type": "real"
-      }, 
-      {
-        "name": "violent_crimes_total", 
-        "type": "real"
-      }, 
-      {
-        "name": "burglary", 
-        "type": "real"
-      }, 
-      {
-        "name": "larceny_theft", 
-        "type": "real"
-      }, 
-      {
-        "name": "vehicle_theft", 
-        "type": "real"
-      }, 
-      {
-        "name": "property_crimes_total", 
-        "type": "real"
-      }, 
-      {
-        "name": "major_crimes_total", 
-        "type": "real"
-      }, 
-      {
-        "name": "report_date", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "statistics_major_crimes_2014_by_precinct_and_beat"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "statistics_major_crimes_2014_by_precinct_and_beat"
 }

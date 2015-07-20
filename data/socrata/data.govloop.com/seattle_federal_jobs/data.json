@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_govloop_seattle_federal_jobs/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.govloop.com/api/views/sw5f-r7iy/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.govloop.com/api/views/sw5f-r7iy/rows.csv", 
   "description": "Top federal agencies and jobs in Seattle", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,18 +12,7 @@
     }
   }, 
   "name": "Seattle Federal Jobs", 
-  "schema": {
-    "columns": [
-      {
-        "name": "agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.govloop.com", 
-  "tableName": "seattle_federal_jobs"
+  "schema": "socrata/data.govloop.com", 
+  "status": "needs review", 
+  "table": "seattle_federal_jobs"
 }

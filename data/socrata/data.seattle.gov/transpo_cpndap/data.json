@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_transpo_cpndap/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/ga9h-kdqv/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/ga9h-kdqv/rows.csv", 
   "description": "Transportation derived Common Place Names Discrete Address Point. A list of common place names with corresponding point locations.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "TRANSPO_CPNDAP", 
-  "schema": {
-    "columns": [
-      {
-        "name": "objectid", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape", 
-        "type": "text"
-      }, 
-      {
-        "name": "cpn_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "cpn_placename", 
-        "type": "text"
-      }, 
-      {
-        "name": "cpn_adrs", 
-        "type": "text"
-      }, 
-      {
-        "name": "cpn_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "cpn_cat", 
-        "type": "text"
-      }, 
-      {
-        "name": "sourcename", 
-        "type": "text"
-      }, 
-      {
-        "name": "dap_id", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "transpo_cpndap"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "transpo_cpndap"
 }

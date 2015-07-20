@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_special_loans_closed_by_county_fy10_fy13/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/8i2z-3urs/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/8i2z-3urs/rows.csv", 
   "description": "The Special Loans Program rehabilitates homes of moderate income maryland homeowners across the state in cooperation with the Local Government agencies\nTypes of rehabilitation include accessibility modifications for senior and disabled occupants, bringing electrical and/or plumbing systems to state and local codes, \nmaking roof and structural repairs, and in exceptional cases replacing an uninhabitable dwelling with a modest living structure.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "Special Loans Closed By County FY10- FY13", 
-  "schema": {
-    "columns": [
-      {
-        "name": "county_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "fy10_loans_closed", 
-        "type": "real"
-      }, 
-      {
-        "name": "fy10_amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "fy11_loans_closed", 
-        "type": "real"
-      }, 
-      {
-        "name": "fy11_amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "fy12_loans_closed", 
-        "type": "real"
-      }, 
-      {
-        "name": "fy12_amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "fy13_loans_closed", 
-        "type": "real"
-      }, 
-      {
-        "name": "fy13_amount", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "special_loans_closed_by_county_fy10_fy13"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "special_loans_closed_by_county_fy10_fy13"
 }

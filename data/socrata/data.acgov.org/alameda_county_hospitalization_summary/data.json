@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_acgov_alameda_county_hospitalization_summary/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.acgov.org/api/views/3bms-qehk/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.acgov.org/api/views/3bms-qehk/rows.csv", 
   "description": "Data for period 2009 - 2012.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,46 +12,7 @@
     }
   }, 
   "name": "Alameda County Hospitalization Summary", 
-  "schema": {
-    "columns": [
-      {
-        "name": "indicator", 
-        "type": "text"
-      }, 
-      {
-        "name": "localetype", 
-        "type": "text"
-      }, 
-      {
-        "name": "locale", 
-        "type": "text"
-      }, 
-      {
-        "name": "rate_per_100_000", 
-        "type": "real"
-      }, 
-      {
-        "name": "lower_95_confidence_interval", 
-        "type": "text"
-      }, 
-      {
-        "name": "upper_95_confidence_interval", 
-        "type": "real"
-      }, 
-      {
-        "name": "period", 
-        "type": "text"
-      }, 
-      {
-        "name": "technicalnoteaddon", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.acgov.org", 
-  "tableName": "alameda_county_hospitalization_summary"
+  "schema": "socrata/data.acgov.org", 
+  "status": "needs review", 
+  "table": "alameda_county_hospitalization_summary"
 }

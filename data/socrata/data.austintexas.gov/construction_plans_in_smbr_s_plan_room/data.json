@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_construction_plans_in_smbr_s_plan_room/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/x442-h34c/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/views/x442-h34c/rows.csv", 
   "description": "Hard copies of plans and drawings from the City of Austin, Austin Independent School District, Travis County, University of Texas at Austin, University of Texas Systems, and Capital Metro available in SMBR's Plan Room.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "Construction Plans in SMBR's Plan Room", 
-  "schema": {
-    "columns": [
-      {
-        "name": "bid_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "pre_bid_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "organization", 
-        "type": "text"
-      }, 
-      {
-        "name": "cip_project_no", 
-        "type": "text"
-      }, 
-      {
-        "name": "department", 
-        "type": "text"
-      }, 
-      {
-        "name": "project_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "addendum", 
-        "type": "text"
-      }, 
-      {
-        "name": "rec_d_date", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "construction_plans_in_smbr_s_plan_room"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "construction_plans_in_smbr_s_plan_room"
 }

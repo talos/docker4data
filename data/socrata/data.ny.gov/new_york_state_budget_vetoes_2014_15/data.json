@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_new_york_state_budget_vetoes_2014_15/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/pxeu-88bw/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/pxeu-88bw/rows.csv", 
   "description": "This data set includes vetoed reappropriation items from the 2014-15 enacted budget bills by veto number, agency, bill, fund type and justification.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,54 +13,7 @@
     }
   }, 
   "name": "New York State Budget Vetoes: 2014-15", 
-  "schema": {
-    "columns": [
-      {
-        "name": "veto", 
-        "type": "real"
-      }, 
-      {
-        "name": "agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "bill", 
-        "type": "text"
-      }, 
-      {
-        "name": "page_from", 
-        "type": "real"
-      }, 
-      {
-        "name": "page_to", 
-        "type": "real"
-      }, 
-      {
-        "name": "line_from", 
-        "type": "real"
-      }, 
-      {
-        "name": "line_to", 
-        "type": "real"
-      }, 
-      {
-        "name": "fund_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "purpose", 
-        "type": "text"
-      }, 
-      {
-        "name": "reappropriation_amount_may_not_equal_available_funding", 
-        "type": "real"
-      }, 
-      {
-        "name": "justification", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "new_york_state_budget_vetoes_2014_15"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "new_york_state_budget_vetoes_2014_15"
 }

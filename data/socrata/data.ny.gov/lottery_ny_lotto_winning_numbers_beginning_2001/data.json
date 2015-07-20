@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_lottery_ny_lotto_winning_numbers_beginning_2001/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/6nbc-h7bj/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/6nbc-h7bj/rows.csv", 
   "description": "Go to http://on.ny.gov/1BbsR6n on the New York Lottery website for past NY Lotto results and payouts.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "Lottery NY Lotto Winning Numbers: Beginning 2001", 
-  "schema": {
-    "columns": [
-      {
-        "name": "draw_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "winning_numbers", 
-        "type": "text"
-      }, 
-      {
-        "name": "bonus", 
-        "type": "real"
-      }, 
-      {
-        "name": "extra", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "lottery_ny_lotto_winning_numbers_beginning_2001"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "lottery_ny_lotto_winning_numbers_beginning_2001"
 }

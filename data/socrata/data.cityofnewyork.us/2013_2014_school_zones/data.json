@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/2013_2014_school_zones/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/geospatial/pp5b-95kq", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/geospatial/pp5b-95kq", 
   "description": "2013-2014 School Zones (as of May 8, 2013).  Files are in a GIS Shapefile format.  They are broken down by elementary school zones (ES_Zones), middle school zones (MS_Zones) and high school zones (HS_Zones).", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,9 +14,7 @@
     }
   }, 
   "name": "2013-2014 School Zones", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "2013_2014_school_zones"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "2013_2014_school_zones"
 }

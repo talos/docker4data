@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_acgov_propertytax_rates/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.acgov.org/api/views/q8tt-ukmk/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.acgov.org/api/views/q8tt-ukmk/rows.csv", 
   "description": "Property Tax Rates by Tax Year, TaxRateArea. Loaded with current year data about October 15th.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,38 +12,7 @@
     }
   }, 
   "name": "PropertyTax Rates", 
-  "schema": {
-    "columns": [
-      {
-        "name": "tax_rate_year", 
-        "type": "text"
-      }, 
-      {
-        "name": "tra_prim", 
-        "type": "text"
-      }, 
-      {
-        "name": "tra_sec", 
-        "type": "text"
-      }, 
-      {
-        "name": "tax_rate", 
-        "type": "real"
-      }, 
-      {
-        "name": "legacy_fund_no", 
-        "type": "text"
-      }, 
-      {
-        "name": "legacy_fund_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "tra_long_desc", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.acgov.org", 
-  "tableName": "propertytax_rates"
+  "schema": "socrata/data.acgov.org", 
+  "status": "needs review", 
+  "table": "propertytax_rates"
 }

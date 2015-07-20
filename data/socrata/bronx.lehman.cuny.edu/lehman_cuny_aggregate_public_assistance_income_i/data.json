@@ -1,8 +1,6 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_bronx_lehman_cuny_aggregate_public_assistance_income_i/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/mau6-ynnx/rows.csv"
-  }, 
+  "data": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/mau6-ynnx/rows.csv", 
   "description": "Data per census tract of the aggregate public assistance income for those who use public assistance. This is not per person, this is the combined total public assistance expenditure per census tract.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,21 +14,5 @@
     }
   }, 
   "name": "AGGREGATE PUBLIC ASSISTANCE INCOME IN THE PAST 12 MONTHS (IN 2010 INFLATION-ADJUSTED DOLLARS) FOR HOUSEHOLDS", 
-  "schema": {
-    "columns": [
-      {
-        "name": "censustract", 
-        "type": "real"
-      }, 
-      {
-        "name": "estimate_aggregate_public_assistance_income_in_the_past_12_months_in_2010_inflation_adjusted_dollars", 
-        "type": "real"
-      }, 
-      {
-        "name": "margin_of_error_aggregate_public_assistance_income_in_the_past_12_months_in_2010_inflation_adjusted_dollars", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "tableName": "socrata_bronx_lehman_cuny_aggregate_public_assistance_income_i"
+  "table": "socrata_bronx_lehman_cuny_aggregate_public_assistance_income_i"
 }

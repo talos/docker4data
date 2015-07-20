@@ -1,0 +1,20 @@
+CREATE TABLE "government_appointments_to_state_parastatal_agencies_" (
+	"gazette_notice_no"	real,
+	"year"	timestamp,
+	"act"	text,
+	"cap"	real,
+	"persons_appointed"	text,
+	"position"	text,
+	"date_appointed"	timestamp,
+	"start_date"	timestamp,
+	"end_date"	timestamp,
+	"person_appointing"	text,
+	"apointers_position"	text,
+	"ministry"	text,
+	"parastatle_appointed_to"	text,
+	"duration_months"	real,
+	"status"	text,
+	"gender"	text,
+	"original_gn"	real,
+	"original_gn_year"	text
+);

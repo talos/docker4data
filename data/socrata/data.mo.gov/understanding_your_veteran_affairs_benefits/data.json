@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/understanding_your_veteran_affairs_benefits/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.mo.gov/download/54xe-inhcapplication/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.mo.gov/download/54xe-inhc/application/pdf", 
   "description": "Resource sheet to understand VA benefits", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,7 +13,7 @@
     }
   }, 
   "name": "Understanding Your Veteran Affairs Benefits", 
-  "schema": {}, 
-  "schemaName": "socrata/data.mo.gov", 
-  "tableName": "understanding_your_veteran_affairs_benefits"
+  "schema": "socrata/data.mo.gov", 
+  "status": "needs review", 
+  "table": "understanding_your_veteran_affairs_benefits"
 }

@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/elementary_school_service_areas/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/geospatial/xqhf-y3rt", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/geospatial/xqhf-y3rt", 
   "description": "This dataset delineates the service areas for every elementary school in the Montgomery County Public School system.  Source: MCPS", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Elementary School Service Areas", 
-  "schema": {}, 
-  "schemaName": "socrata/data.montgomerycountymd.gov", 
-  "tableName": "elementary_school_service_areas"
+  "schema": "socrata/data.montgomerycountymd.gov", 
+  "status": "needs review", 
+  "table": "elementary_school_service_areas"
 }

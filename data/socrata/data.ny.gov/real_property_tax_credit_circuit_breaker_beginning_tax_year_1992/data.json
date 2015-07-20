@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/real_property_tax_credit_circuit_breaker_beginning_tax_year_1992/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/txbw-4i3t/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/txbw-4i3t/rows.csv", 
   "description": "The Department of Taxation and Finance annually publishes statistical information on the New York State real property tax credit (RPTC).  Summary data are presented for taxpayers who were full-year New York state residents.  Taxpayers may claim the credit even if they had no New York State personal income tax liability and, therefore, were not required to file an income tax return.   Data are shown for the total number of claimants and credit claimed by county, age under and over 65, type of residence, filing category, and household gross income.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,62 +13,7 @@
     }
   }, 
   "name": "Real Property Tax Credit (Circuit Breaker): Beginning Tax Year 1992", 
-  "schema": {
-    "columns": [
-      {
-        "name": "tax_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "credit_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "place_of_residence", 
-        "type": "text"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "item", 
-        "type": "text"
-      }, 
-      {
-        "name": "notes", 
-        "type": "text"
-      }, 
-      {
-        "name": "number_of_credits", 
-        "type": "real"
-      }, 
-      {
-        "name": "amount_of_credits_000", 
-        "type": "real"
-      }, 
-      {
-        "name": "average_credit", 
-        "type": "real"
-      }, 
-      {
-        "name": "place_of_residence_sort_order", 
-        "type": "real"
-      }, 
-      {
-        "name": "item_sort_order", 
-        "type": "real"
-      }, 
-      {
-        "name": "age_sort_order", 
-        "type": "real"
-      }, 
-      {
-        "name": "houshold_gross_income_sort_order", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "real_property_tax_credit_circuit_breaker_beginning_tax_year_1992"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "real_property_tax_credit_circuit_breaker_beginning_tax_year_1992"
 }

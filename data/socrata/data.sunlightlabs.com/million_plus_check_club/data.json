@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sunlightlabs_million_plus_check_club/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sunlightlabs.com/api/views/75t4-c6we/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sunlightlabs.com/api/views/75t4-c6we/rows.csv", 
   "description": "Donors who have written checks for $1 million and up to super PACs as of April 30, 2012", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "Million_plus_check_club", 
-  "schema": {
-    "columns": [
-      {
-        "name": "receiving_super_pac", 
-        "type": "text"
-      }, 
-      {
-        "name": "donating_organization", 
-        "type": "text"
-      }, 
-      {
-        "name": "donor_last", 
-        "type": "text"
-      }, 
-      {
-        "name": "donor_first", 
-        "type": "text"
-      }, 
-      {
-        "name": "donor_city", 
-        "type": "text"
-      }, 
-      {
-        "name": "donor_state", 
-        "type": "text"
-      }, 
-      {
-        "name": "donor_occupation", 
-        "type": "text"
-      }, 
-      {
-        "name": "employer", 
-        "type": "text"
-      }, 
-      {
-        "name": "amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sunlightlabs.com", 
-  "tableName": "million_plus_check_club"
+  "schema": "socrata/data.sunlightlabs.com", 
+  "status": "needs review", 
+  "table": "million_plus_check_club"
 }

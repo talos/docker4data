@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/early_voting_grace_period_registration_and_voting_2014_november_4_gubernatorial_election/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/cookcounty.socrata.com/api/views/mzmn-fvgv/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/cookcounty.socrata.com/api/views/mzmn-fvgv/rows.csv", 
   "description": "This dataset details the hours and locations for voter registration and voting in\nsuburban Cook County between Oct. 8 and election day, Nov. 4, 2014. Voters may\nvisit one of the 18 election day registration sites if they are not already registered \nand eligible to vote in their precinct. For more information on Early Voting see http://www.cookcountyclerk.com/elections/earlyvoting/Pages/default.aspx , For more information on Grace Period Registration and Voting see http://www.cookcountyclerk.com/elections/registertovote/Pages/GracePeriod.aspx . For more information on Election Day Registration and Voting see http://www.cookcountyclerk.com/elections/registertovote/Pages/ElectionDayRegistration.aspx .", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,6 @@
     }
   }, 
   "name": "Early Voting & Grace Period Registration and Voting - 2014 November 4 Gubernatorial Election", 
-  "schema": {
-    "columns": [
-      {
-        "name": "site", 
-        "type": "text"
-      }, 
-      {
-        "name": "early_voting_weekdays", 
-        "type": "text"
-      }, 
-      {
-        "name": "early_voting_saturday", 
-        "type": "text"
-      }, 
-      {
-        "name": "early_voting_sunday", 
-        "type": "text"
-      }, 
-      {
-        "name": "grace_period_registration_voting", 
-        "type": "text"
-      }, 
-      {
-        "name": "grace_period_in_person_absentee", 
-        "type": "text"
-      }, 
-      {
-        "name": "election_day_registration_voting", 
-        "type": "text"
-      }, 
-      {
-        "name": "street", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/cookcounty.socrata.com", 
-  "tableName": "early_voting_grace_period_registration_and_voting_2014_november_4_gubernatorial_election"
+  "schema": "socrata/cookcounty.socrata.com", 
+  "table": "early_voting_grace_period_registration_and_voting_2014_november_4_gubernatorial_election"
 }

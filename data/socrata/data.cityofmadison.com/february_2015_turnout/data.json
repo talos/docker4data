@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofmadison_february_2015_turnout/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofmadison.com/api/views/j6vk-h5v5/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofmadison.com/api/views/j6vk-h5v5/rows.csv", 
   "description": "City of Madison turnout by ward for the 2015 Spring Primary Election.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,46 +12,7 @@
     }
   }, 
   "name": "February 2015 Turnout", 
-  "schema": {
-    "columns": [
-      {
-        "name": "ward", 
-        "type": "real"
-      }, 
-      {
-        "name": "polling_place", 
-        "type": "text"
-      }, 
-      {
-        "name": "_11_00_voters", 
-        "type": "real"
-      }, 
-      {
-        "name": "_11_00_turnout", 
-        "type": "text"
-      }, 
-      {
-        "name": "_4_00_voters", 
-        "type": "real"
-      }, 
-      {
-        "name": "_4_00_turnout", 
-        "type": "real"
-      }, 
-      {
-        "name": "_8_00_voters", 
-        "type": "real"
-      }, 
-      {
-        "name": "final_turnout", 
-        "type": "real"
-      }, 
-      {
-        "name": "pre_registered_voters", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofmadison.com", 
-  "tableName": "february_2015_turnout"
+  "schema": "socrata/data.cityofmadison.com", 
+  "status": "needs review", 
+  "table": "february_2015_turnout"
 }

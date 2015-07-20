@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/medical_examiner_2009_manner_death_by_race/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/cookcounty.socrata.com/api/views/inn8-xwuw/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/cookcounty.socrata.com/api/views/inn8-xwuw/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -15,22 +11,6 @@
     }
   }, 
   "name": "Medical Examiner--2009 Manner Death, by Race", 
-  "schema": {
-    "columns": [
-      {
-        "name": "manner_of_death", 
-        "type": "text"
-      }, 
-      {
-        "name": "race_", 
-        "type": "text"
-      }, 
-      {
-        "name": "count", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/cookcounty.socrata.com", 
-  "tableName": "medical_examiner_2009_manner_death_by_race"
+  "schema": "socrata/cookcounty.socrata.com", 
+  "table": "medical_examiner_2009_manner_death_by_race"
 }

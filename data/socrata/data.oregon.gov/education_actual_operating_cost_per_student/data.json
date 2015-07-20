@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oregon_education_actual_operating_cost_per_student/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/c7av-ntdz/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/api/views/c7av-ntdz/rows.csv", 
   "description": "Actual expenditures for operating funds (General, Special Revenue, Enterprise and Food Services Funds) per student. Student count is enrollment as of October 1.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "Education: Actual Operating Cost Per Student", 
-  "schema": {
-    "columns": [
-      {
-        "name": "district_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "county_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "operating_cost_per_student", 
-        "type": "real"
-      }, 
-      {
-        "name": "district_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "school_year", 
-        "type": "text"
-      }, 
-      {
-        "name": "student_count", 
-        "type": "real"
-      }, 
-      {
-        "name": "state_student_count", 
-        "type": "real"
-      }, 
-      {
-        "name": "operating_cost", 
-        "type": "real"
-      }, 
-      {
-        "name": "state_operating_cost", 
-        "type": "real"
-      }, 
-      {
-        "name": "state_operating_cost_per_student", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "education_actual_operating_cost_per_student"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "education_actual_operating_cost_per_student"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_baltimorecity_baltimore_operating_budget/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/g5wn-pq7y/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/g5wn-pq7y/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,82 +9,7 @@
     }
   }, 
   "name": "Baltimore Operating Budget", 
-  "schema": {
-    "columns": [
-      {
-        "name": "fiscal_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "department", 
-        "type": "text"
-      }, 
-      {
-        "name": "fund_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "fund", 
-        "type": "text"
-      }, 
-      {
-        "name": "fund_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "detailed_fund_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "detailed_fund_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "program_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "service", 
-        "type": "text"
-      }, 
-      {
-        "name": "program", 
-        "type": "text"
-      }, 
-      {
-        "name": "activity_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "obj", 
-        "type": "real"
-      }, 
-      {
-        "name": "expense_category", 
-        "type": "text"
-      }, 
-      {
-        "name": "sub_object_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "expense_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "approved_amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "recommended_amount", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.baltimorecity.gov", 
-  "tableName": "baltimore_operating_budget"
+  "schema": "socrata/data.baltimorecity.gov", 
+  "status": "needs review", 
+  "table": "baltimore_operating_budget"
 }

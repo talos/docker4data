@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oregon_expenditures_state_agencies_fiscal_year_2014/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/fiq8-t94u/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/api/views/fiq8-t94u/rows.csv", 
   "description": "A list of expenditures for state agencies for Fiscal Year 2014. Sorted by Agency Number.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,38 +12,7 @@
     }
   }, 
   "name": "Expenditures: State Agencies: Fiscal Year 2014", 
-  "schema": {
-    "columns": [
-      {
-        "name": "agency_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "agency_title", 
-        "type": "text"
-      }, 
-      {
-        "name": "compt_obj_account_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "compt_obj_title_account_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendor_state", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendor_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "cash_expense", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "expenditures_state_agencies_fiscal_year_2014"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "expenditures_state_agencies_fiscal_year_2014"
 }

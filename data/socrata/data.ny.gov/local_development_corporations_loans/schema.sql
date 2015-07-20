@@ -1,0 +1,20 @@
+CREATE TABLE "local_development_corporations_loans" (
+	"authority_name"	text,
+	"fiscal_year_end_date"	timestamp,
+	"loans"	text,
+	"loan_fund_sources"	text,
+	"recipient_name"	text,
+	"recipient_city"	text,
+	"recipient_state"	text,
+	"recipient_postal_code"	text,
+	"date_loan_awarded"	timestamp,
+	"original_loan_amount"	text,
+	"interest_rate"	real,
+	"loan_length"	real,
+	"amount_repaid"	text,
+	"loan_purpose"	text,
+	"new_jobs"	text,
+	"jobs_planned"	real,
+	"jobs_created"	real,
+	"loan_terms_completed"	text
+);

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_acgov_assessor_s_office_deleted_parcel_list/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.acgov.org/api/views/fiwq-h2mb/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.acgov.org/api/views/fiwq-h2mb/rows.csv", 
   "description": "Deleted Parcel List - Roll Year 2014-2015.\r\nList of the parcels deleted from the Assessor records as a result of parcel splits and merges.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Assessor's Office Deleted Parcel List", 
-  "schema": {
-    "columns": [
-      {
-        "name": "parent_apn", 
-        "type": "text"
-      }, 
-      {
-        "name": "parent_sort_parcel", 
-        "type": "text"
-      }, 
-      {
-        "name": "child_apn", 
-        "type": "text"
-      }, 
-      {
-        "name": "effective_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "end_date", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.acgov.org", 
-  "tableName": "assessor_s_office_deleted_parcel_list"
+  "schema": "socrata/data.acgov.org", 
+  "status": "needs review", 
+  "table": "assessor_s_office_deleted_parcel_list"
 }

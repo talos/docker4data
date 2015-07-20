@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_lcr_90th_percentile_dataset/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/kdqv-qs7p/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/kdqv-qs7p/rows.csv", 
   "description": "At-the-tap LCR compliance 1st draw 90th percentile data.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "LCR 90th percentile dataset", 
-  "schema": {
-    "columns": [
-      {
-        "name": "kit_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "borough", 
-        "type": "text"
-      }, 
-      {
-        "name": "zipcode", 
-        "type": "real"
-      }, 
-      {
-        "name": "date_collected", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "lead_first_draw_mg_l", 
-        "type": "real"
-      }, 
-      {
-        "name": "copper_first_draw_mg_l", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "lcr_90th_percentile_dataset"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "lcr_90th_percentile_dataset"
 }

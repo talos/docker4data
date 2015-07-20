@@ -1,0 +1,23 @@
+CREATE TABLE "cdhe_degrees_awarded" (
+	"year"	real,
+	"institutionname"	text,
+	"institutionlevelid"	real,
+	"institutionlevel"	text,
+	"institutiontype"	text,
+	"taxtype"	text,
+	"cobased"	text,
+	"division"	text,
+	"agedesc"	text,
+	"agemin"	real,
+	"agemax"	real,
+	"gender"	text,
+	"ethnicity"	text,
+	"studentlevel"	text,
+	"degreelevel"	text,
+	"residencyid"	real,
+	"residency"	text,
+	"cip2"	real,
+	"cip"	real,
+	"programname"	text,
+	"recordcount"	real
+);

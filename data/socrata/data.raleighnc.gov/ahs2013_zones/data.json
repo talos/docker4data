@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ahs2013_zones/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.raleighnc.gov/api/geospatial/htxk-7q7d", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.raleighnc.gov/api/geospatial/htxk-7q7d", 
   "description": "American Housing Survey 2013 Zone Shape File", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "AHS2013 Zones", 
-  "schema": {}, 
-  "schemaName": "socrata/data.raleighnc.gov", 
-  "tableName": "ahs2013_zones"
+  "schema": "socrata/data.raleighnc.gov", 
+  "status": "needs review", 
+  "table": "ahs2013_zones"
 }

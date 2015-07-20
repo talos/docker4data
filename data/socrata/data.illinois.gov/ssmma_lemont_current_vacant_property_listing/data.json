@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_ssmma_lemont_current_vacant_property_listing/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/7cu5-qgzm/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/7cu5-qgzm/rows.csv", 
   "description": "This dataset is the current vacant property listing for the Village of Lemont", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "SSMMA Lemont Current Vacant Property Listing", 
-  "schema": {
-    "columns": [
-      {
-        "name": "pin", 
-        "type": "text"
-      }, 
-      {
-        "name": "owner_agent", 
-        "type": "text"
-      }, 
-      {
-        "name": "contact", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "ssmma_lemont_current_vacant_property_listing"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "ssmma_lemont_current_vacant_property_listing"
 }

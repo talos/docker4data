@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/2008_2010_bronx_zip_code_perinatal_data_profile/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/9zgq-ja76/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/9zgq-ja76/rows.csv", 
   "description": "pregnancy information based on 2008-2010 data from the NY State department of health. The last column (teenage pregnancy rate), although appears should be a percentage, was kept numerical due to the reported rate being over 100%. I find this questionable.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,78 +13,6 @@
     }
   }, 
   "name": "2008-2010 Bronx ZIP Code Perinatal Data Profile", 
-  "schema": {
-    "columns": [
-      {
-        "name": "zip_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "total_births_2008_2010", 
-        "type": "real"
-      }, 
-      {
-        "name": "percent_of_births", 
-        "type": "text"
-      }, 
-      {
-        "name": "premature_births", 
-        "type": "text"
-      }, 
-      {
-        "name": "low_birth_weight", 
-        "type": "text"
-      }, 
-      {
-        "name": "out_of_wedlock", 
-        "type": "text"
-      }, 
-      {
-        "name": "medicaid_or_self_pay", 
-        "type": "text"
-      }, 
-      {
-        "name": "late_or_no_prenatal_care", 
-        "type": "text"
-      }, 
-      {
-        "name": "infant_and_neonatal_deaths", 
-        "type": "text"
-      }, 
-      {
-        "name": "infant_deaths_2008_2010", 
-        "type": "real"
-      }, 
-      {
-        "name": "infant_deaths_rate", 
-        "type": "text"
-      }, 
-      {
-        "name": "neonatal_deaths_2008_2010", 
-        "type": "real"
-      }, 
-      {
-        "name": "neonatal_deaths_rate", 
-        "type": "text"
-      }, 
-      {
-        "name": "teens", 
-        "type": "text"
-      }, 
-      {
-        "name": "teen_birth_rate", 
-        "type": "real"
-      }, 
-      {
-        "name": "teen_pregnancy_rate", 
-        "type": "real"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/bronx.lehman.cuny.edu", 
-  "tableName": "2008_2010_bronx_zip_code_perinatal_data_profile"
+  "schema": "socrata/bronx.lehman.cuny.edu", 
+  "table": "2008_2010_bronx_zip_code_perinatal_data_profile"
 }

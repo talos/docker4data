@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/zoning/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/geospatial/5rzy-nm5e", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/geospatial/5rzy-nm5e", 
   "description": "This feature class consists of locations of zoning classification boundaries in the City of Austin. \nThis product is for informational purposes and may not have been prepared for or be suitable for legal, engineering, or surveying purposes. It does not represent an on-the-ground survey and represents only the approximate relative location of property boundaries. This product has been produced by the Communications and Technology Department for the sole purpose of geographic reference. No warranty is made by the City of Austin regarding specific accuracy or completeness.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Zoning", 
-  "schema": {}, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "zoning"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "zoning"
 }

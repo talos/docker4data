@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_nyc_city_hall_library_catalog/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/gysc-yn4h/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/gysc-yn4h/rows.csv", 
   "description": "The City Hall Library is New York City's official depository for all agency published reports and studies. More info can be found at http://nyc.gov/html/records/html/about/chlibrary.shtml", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,14 +13,7 @@
     }
   }, 
   "name": "NYC City Hall Library Catalog", 
-  "schema": {
-    "columns": [
-      {
-        "name": "corporate_name_subordinate_unit_title_remainder_of_title_remainder_of_title_page_date_of_publication_geographic_name_general_subdivision", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "nyc_city_hall_library_catalog"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "nyc_city_hall_library_catalog"
 }

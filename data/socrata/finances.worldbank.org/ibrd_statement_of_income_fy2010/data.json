@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ibrd_statement_of_income_fy2010/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/pyda-ktbg/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/finances.worldbank.org/api/views/pyda-ktbg/rows.csv", 
   "description": "Provides data from the IBRD Statement of Income for the fiscal years ended June 30, 2010, June 30, 2009 and June 30, 2008. The values are expressed in millions of U.S. Dollars.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "IBRD Statement of Income, FY2010", 
-  "schema": {
-    "columns": [
-      {
-        "name": "category", 
-        "type": "text"
-      }, 
-      {
-        "name": "line_item", 
-        "type": "text"
-      }, 
-      {
-        "name": "fiscal_year", 
-        "type": "text"
-      }, 
-      {
-        "name": "amount_us_millions", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/finances.worldbank.org", 
-  "tableName": "ibrd_statement_of_income_fy2010"
+  "schema": "socrata/finances.worldbank.org", 
+  "status": "needs review", 
+  "table": "ibrd_statement_of_income_fy2010"
 }

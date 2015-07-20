@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/broome_county_annual_employee_earnings_beginning_2009/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/jie5-3b37/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/jie5-3b37/rows.csv", 
   "description": "The County of Broome Personnel Department produces a\r\nreport annually containing the Name, Title, Department,\r\nBase Earnings and Over Time Earnings of each employee\r\nwho has held a position within the County anytime during\r\nthat year.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "Broome County Annual Employee Earnings: Beginning 2009", 
-  "schema": {
-    "columns": [
-      {
-        "name": "earnings_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "department", 
-        "type": "text"
-      }, 
-      {
-        "name": "employee_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "title", 
-        "type": "text"
-      }, 
-      {
-        "name": "union_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "regular_or_temporary", 
-        "type": "text"
-      }, 
-      {
-        "name": "full_or_part_time", 
-        "type": "text"
-      }, 
-      {
-        "name": "regular_earnings", 
-        "type": "real"
-      }, 
-      {
-        "name": "overtime_earnings", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_earnings", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "broome_county_annual_employee_earnings_beginning_2009"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "broome_county_annual_employee_earnings_beginning_2009"
 }

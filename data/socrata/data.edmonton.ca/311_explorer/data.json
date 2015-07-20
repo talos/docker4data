@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/311_explorer/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/ukww-xkmj/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.edmonton.ca/api/views/ukww-xkmj/rows.csv", 
   "description": "311 Explorer is a web-based mapping tool that uses the City\u2019s open data information to search, filter, and display 311 service requests on public property.  You will be able to:\r\n\r\nView the various types of service requests on public property that have been generated in a neighborhood, ward or across the city, see the status of service requests, use the map or charts for analysis of neighbourhoods", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,90 +13,7 @@
     }
   }, 
   "name": "311 Explorer", 
-  "schema": {
-    "columns": [
-      {
-        "name": "ticket_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "ticket_created_date_time", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "ticket_closed_date_time", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "ticket_status", 
-        "type": "text"
-      }, 
-      {
-        "name": "status_detail", 
-        "type": "text"
-      }, 
-      {
-        "name": "issue_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "issue_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "agency_responsible", 
-        "type": "text"
-      }, 
-      {
-        "name": "display_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "community_league", 
-        "type": "text"
-      }, 
-      {
-        "name": "neighborhood_district", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "lat", 
-        "type": "real"
-      }, 
-      {
-        "name": "long", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "ticket_source", 
-        "type": "text"
-      }, 
-      {
-        "name": "calendar_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "count", 
-        "type": "real"
-      }, 
-      {
-        "name": "posse_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "transit_ref_number", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.edmonton.ca", 
-  "tableName": "311_explorer"
+  "schema": "socrata/data.edmonton.ca", 
+  "status": "needs review", 
+  "table": "311_explorer"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_weatherfordtx_general_fund_history/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/88pd-2kqk/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/88pd-2kqk/rows.csv", 
   "description": "A history of General Fund budget and expenditures.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,78 +12,7 @@
     }
   }, 
   "name": "General Fund History", 
-  "schema": {
-    "columns": [
-      {
-        "name": "full", 
-        "type": "text"
-      }, 
-      {
-        "name": "fiscal_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "fiscal_month", 
-        "type": "real"
-      }, 
-      {
-        "name": "fund", 
-        "type": "text"
-      }, 
-      {
-        "name": "account_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "division_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "division_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "department_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "revenue_category", 
-        "type": "text"
-      }, 
-      {
-        "name": "expenditure_category", 
-        "type": "text"
-      }, 
-      {
-        "name": "account_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "full_account", 
-        "type": "text"
-      }, 
-      {
-        "name": "account_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "budget", 
-        "type": "real"
-      }, 
-      {
-        "name": "mtd", 
-        "type": "real"
-      }, 
-      {
-        "name": "ytd", 
-        "type": "real"
-      }, 
-      {
-        "name": "enc", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.weatherfordtx.gov", 
-  "tableName": "general_fund_history"
+  "schema": "socrata/data.weatherfordtx.gov", 
+  "status": "needs review", 
+  "table": "general_fund_history"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_cumulative_violent_crime_reduction_since_2006/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/rknb-wh47/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/rknb-wh47/rows.csv", 
   "description": "This dataset tracks the cumulative statewide reductions in violent crime since 2006. Data are reported each year by MSAC, the Maryland Statistical Analysis Center, within GOCCP, the Governor's Office of Crime Control and Prevention.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "Cumulative Violent Crime Reduction Since 2006", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "text"
-      }, 
-      {
-        "name": "total_violent_crime", 
-        "type": "real"
-      }, 
-      {
-        "name": "change_since_2006", 
-        "type": "text"
-      }, 
-      {
-        "name": "female_homicide_victims", 
-        "type": "real"
-      }, 
-      {
-        "name": "female_homicides_change_since_2006", 
-        "type": "text"
-      }, 
-      {
-        "name": "youth_homicide_victims", 
-        "type": "real"
-      }, 
-      {
-        "name": "youth_homicide_victims_change_since_2006", 
-        "type": "text"
-      }, 
-      {
-        "name": "female_homicide_victims_youth_homicide_victims", 
-        "type": "real"
-      }, 
-      {
-        "name": "female_homicide_victims_youth_homicide_victims_change_since_2006", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "cumulative_violent_crime_reduction_since_2006"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "cumulative_violent_crime_reduction_since_2006"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_cdph_environmental_inspections/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/i9rk-duva/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/i9rk-duva/rows.csv", 
   "description": "Inspections conducted by the Department of Environment (DOE) from April, 1997 to December 31, 2011 and by the Department of Public Health (CDPH) since January 1, 2012. On January 1, 2012, the Department of Environment was disbanded and all its inspection, permitting, and enforcement authorities were transferred to the CDPH.   \r\nData fields requiring description are detailed below. \r\nINSPECTION ID:  This is the unique identifier of the inspection. DOE inspection records are prefixed with \u201cDOEINS.\u201d CDPH inspections are numeric. \r\nINSPECTION NAME: This is the name of the site that was inspected. This is usually the company/owner name, address, or building name.  \r\nMAPPED LOCATION: Contains the latitude/longitude coordinates of the facility. The latitude/longitude coordinate is determined through the Chicago Open Data Portal\u2019s geocoding process.  \r\n INSPECTOR: Contains the name of the inspector or engineer who conducted the inspection. \r\nINSPECTION CATEGORY: Describes the type of inspection performed. Generally, inspection types can be organized into the following categories:\r\n\u201cCOMPLAINT RESPONSE\u201d Inspections conducted in response to citizen complaints. See CDPH Environmental Complaints dataset for type of environmental complaints. \r\n\u201cSOLID WASTE INSPECTIONS\u201d Inspections of permitted waste facilities and inspections conducted as part of a delegation agreement with the Illinois Environmental Protection Agency. These inspections include inspections of solid and liquid waste handling facilities, recycling facilities, junkyards, compost facilities, temporary and permanent rock crushing facilities and illegal dump sites.  \r\n\u201cAIR QUALITY INSPECTION\u201d: Inspections of all permitted industrial facilities with potential to emit pollutants into the air, including area sources such as dry cleaners, motor vehicle repair facilities and architectural surface cleaning.\r\n \u201cHAZMATS\u201d Inspections conducted in response to a hazardous material incident and typically conducted with the Fire Department\u2019s HAZMAT units. Also includes inspection audits of facilities subject to Tier II reporting under the Emergency Planning and Community Right-to-Know Act (EPCRA) .\r\n \u201cNOISE\u201d Inspections conducted in response to noise-related complaints. \r\n\u201cTANK INSPECTIONS\u201d Underground Storage Tank (UST) inspections conducted in conjunction with a UST permit and as part of a delegation agreement with the Illinois Office of the State of Fire Marshall (OSFM).These inspections include  including UST Removal, UST Abandon, UST Install, UST Upgrade, UST Reline, UST Repair, Stage II and UST Green Decal. This Inspection Type also includes non-OSFM inspections for Aboveground Storage Tank (AST) permits, Abandoned Gas Stations, Leaking Underground Storage Tanks (LUST), UST Emergency Response, historic Filling Station Licenses, and miscellaneous tank inspections.  \r\n\u201cDEMOLITION/ASBESTOS\u201d Inspections associated with Demolition or NESHAP Notice of Intents (NOIs). See Chapter 11-4 Article XVIII (see http://tinyurl.com/crvyb29).\r\n\u201cMISC INSPECTIONS\u201d Other inspections including but not limited  Water Pollution, Site Assessment, historic Bus Facility and historic Invasive Species inspections per Chapter 11-4 Article XXII (see http://tinyurl.com/crvyb29) of the Municipal Code.  \r\nINSPECTION SUB CATEGORY: More specific inspection type under an Inspection Category.\r\nINSPECTION DATE: Date when inspection occurred. \r\nNARRATIVE: Contains the inspector\u2019s narrative log of the inspection.  \r\nDATA SOURCE: The city department that collected the data.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,70 +13,7 @@
     }
   }, 
   "name": "CDPH Environmental Inspections", 
-  "schema": {
-    "columns": [
-      {
-        "name": "inspection_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "modified_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "site_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "street_number_to", 
-        "type": "real"
-      }, 
-      {
-        "name": "direction", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "inspection_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "inspection_sub_category", 
-        "type": "text"
-      }, 
-      {
-        "name": "inspector", 
-        "type": "text"
-      }, 
-      {
-        "name": "inspection_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "narrative", 
-        "type": "text"
-      }, 
-      {
-        "name": "data_source", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "cdph_environmental_inspections"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "cdph_environmental_inspections"
 }

@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/racial_and_ethnic_distribution_by_wards/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/download/nanx-c2xgapplication/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/download/nanx-c2xg/application/pdf", 
   "description": "Race and Ethnic Distribution by Wards Population Census 2010", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,9 +13,7 @@
     }
   }, 
   "name": "Racial And Ethnic Distribution By Wards", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "racial_and_ethnic_distribution_by_wards"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "racial_and_ethnic_distribution_by_wards"
 }

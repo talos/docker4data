@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_nola_blightstatus_lien_foreclosures/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.nola.gov/api/views/aan2-bb5y/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.nola.gov/api/views/aan2-bb5y/rows.csv", 
   "description": "Lien foreclosures, current as of 9/22/2014. 'Status Key' is available as attachment.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "BlightStatus Lien Foreclosures", 
-  "schema": {
-    "columns": [
-      {
-        "name": "cdc_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "report_status", 
-        "type": "text"
-      }, 
-      {
-        "name": "future_sale", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.nola.gov", 
-  "tableName": "blightstatus_lien_foreclosures"
+  "schema": "socrata/data.nola.gov", 
+  "status": "needs review", 
+  "table": "blightstatus_lien_foreclosures"
 }

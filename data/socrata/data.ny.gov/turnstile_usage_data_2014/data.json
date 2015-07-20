@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_turnstile_usage_data_2014/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/i55r-43gk/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/i55r-43gk/rows.csv", 
   "description": "Data file contains information on entry/exit register values for individual control areas.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,54 +13,7 @@
     }
   }, 
   "name": "Turnstile Usage Data: 2014", 
-  "schema": {
-    "columns": [
-      {
-        "name": "c_a", 
-        "type": "text"
-      }, 
-      {
-        "name": "unit", 
-        "type": "text"
-      }, 
-      {
-        "name": "scp", 
-        "type": "text"
-      }, 
-      {
-        "name": "station", 
-        "type": "text"
-      }, 
-      {
-        "name": "linename", 
-        "type": "text"
-      }, 
-      {
-        "name": "division", 
-        "type": "text"
-      }, 
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "time", 
-        "type": "text"
-      }, 
-      {
-        "name": "desc", 
-        "type": "text"
-      }, 
-      {
-        "name": "entries", 
-        "type": "real"
-      }, 
-      {
-        "name": "exits", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "turnstile_usage_data_2014"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "turnstile_usage_data_2014"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ibrd_ida_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/9f7j-kbb4/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/finances.worldbank.org/api/views/9f7j-kbb4/rows.csv", 
   "description": "\u5305\u62ecIBRD\u548cIDA\u627f\u8bfa\u989d\u3001\u652f\u4ed8\u989d\u3001\u8d37\u6b3e\u548c\u5176\u4ed6\u8d22\u52a1\u6307\u6807\u7684\u6570\u636e\u6458\u8981\uff0c\u6b64\u5904\u4e3a2006-2013\u8d22\u5e74\u7684\u6570\u636e\u3002", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,78 +12,7 @@
     }
   }, 
   "name": "IBRD\u548cIDA\u4e1a\u52a1\u6458\u8981", 
-  "schema": {
-    "columns": [
-      {
-        "name": "organization", 
-        "type": "text"
-      }, 
-      {
-        "name": "fiscal_year", 
-        "type": "text"
-      }, 
-      {
-        "name": "commitments_total_us_millions", 
-        "type": "real"
-      }, 
-      {
-        "name": "commitments_development_policy_lending_us_millions", 
-        "type": "real"
-      }, 
-      {
-        "name": "gross_disbursements_total_us_millions", 
-        "type": "real"
-      }, 
-      {
-        "name": "gross_disbursements_development_policy_lending_us_millions", 
-        "type": "real"
-      }, 
-      {
-        "name": "principal_repayments_including_prepayments_us_millions", 
-        "type": "real"
-      }, 
-      {
-        "name": "net_disbursements_us_millions", 
-        "type": "real"
-      }, 
-      {
-        "name": "loans_outstanding_us_millions", 
-        "type": "real"
-      }, 
-      {
-        "name": "undisbursed_loans_us_millions", 
-        "type": "real"
-      }, 
-      {
-        "name": "credits_outstanding_us_millions", 
-        "type": "real"
-      }, 
-      {
-        "name": "undisbursed_credits_us_millions", 
-        "type": "real"
-      }, 
-      {
-        "name": "undisbursed_grants_us_millions", 
-        "type": "real"
-      }, 
-      {
-        "name": "development_grant_expenses_us_millions", 
-        "type": "real"
-      }, 
-      {
-        "name": "operating_income_us_millions", 
-        "type": "real"
-      }, 
-      {
-        "name": "usable_capital_and_reserves_us_millions", 
-        "type": "real"
-      }, 
-      {
-        "name": "equity_to_loans_ratio", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/finances.worldbank.org", 
-  "tableName": "ibrd_ida_"
+  "schema": "socrata/finances.worldbank.org", 
+  "status": "needs review", 
+  "table": "ibrd_ida_"
 }

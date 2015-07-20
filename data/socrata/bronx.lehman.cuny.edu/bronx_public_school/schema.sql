@@ -1,0 +1,22 @@
+CREATE TABLE "bronx_public_school" (
+	"school_name"	text,
+	"district"	real,
+	"location_code"	text,
+	"address"	text,
+	"state"	text,
+	"zip_code"	real,
+	"accessibility_code"	text,
+	"accessibility_description"	text,
+	"website"	text,
+	"borough_number"	real,
+	"borough_name"	text,
+	"phone_number"	text,
+	"capacity"	real,
+	"grades"	text,
+	"campus"	text,
+	"neighborhood"	text,
+	"website_2"	text,
+	"esl"	text,
+	"concentrations"	text,
+	"location"	text
+);

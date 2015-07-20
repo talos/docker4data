@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofmadison_commercial_land_sales/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofmadison.com/api/views/7dbz-yi8h/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofmadison.com/api/views/7dbz-yi8h/rows.csv", 
   "description": "Improved Commercial Sales Determined to be Arms-Length and Verified by Assessor's Office Staff; Information is subject to change upon further review by appraisal staff; Area; Parcel Number; Situs; Grantor; Sale Date; Sale Price; Description of Sale", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,118 +13,7 @@
     }
   }, 
   "name": "Commercial Land Sales", 
-  "schema": {
-    "columns": [
-      {
-        "name": "sale", 
-        "type": "text"
-      }, 
-      {
-        "name": "area", 
-        "type": "text"
-      }, 
-      {
-        "name": "parcel_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "situs_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "grantor", 
-        "type": "text"
-      }, 
-      {
-        "name": "grantee", 
-        "type": "text"
-      }, 
-      {
-        "name": "document_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "conveyance", 
-        "type": "text"
-      }, 
-      {
-        "name": "sale_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "sale_price", 
-        "type": "real"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "primary_floor_area_pfa", 
-        "type": "real"
-      }, 
-      {
-        "name": "sale_price_primary_floor_area", 
-        "type": "real"
-      }, 
-      {
-        "name": "gross_floor_area_gfa", 
-        "type": "real"
-      }, 
-      {
-        "name": "sale_price_gross_floor_area", 
-        "type": "real"
-      }, 
-      {
-        "name": "units", 
-        "type": "real"
-      }, 
-      {
-        "name": "sale_price_unit", 
-        "type": "real"
-      }, 
-      {
-        "name": "land_sq_ft", 
-        "type": "real"
-      }, 
-      {
-        "name": "zoning", 
-        "type": "text"
-      }, 
-      {
-        "name": "use_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "condition", 
-        "type": "text"
-      }, 
-      {
-        "name": "year_built", 
-        "type": "text"
-      }, 
-      {
-        "name": "last_year_remodel", 
-        "type": "text"
-      }, 
-      {
-        "name": "exterior_wall", 
-        "type": "text"
-      }, 
-      {
-        "name": "frame_material", 
-        "type": "text"
-      }, 
-      {
-        "name": "stories", 
-        "type": "real"
-      }, 
-      {
-        "name": "comments", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofmadison.com", 
-  "tableName": "commercial_land_sales"
+  "schema": "socrata/data.cityofmadison.com", 
+  "status": "needs review", 
+  "table": "commercial_land_sales"
 }

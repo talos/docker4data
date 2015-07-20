@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_mo_2010_state_employee_pay/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.mo.gov/api/views/wij9-qu7c/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.mo.gov/api/views/wij9-qu7c/rows.csv", 
   "description": "Pay information for calendar year 2010 for the employees of the State of Missouri by their Agency of Employment, Position Title or Employee Name.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "2010 State Employee Pay", 
-  "schema": {
-    "columns": [
-      {
-        "name": "calendar_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "agency_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "position_title", 
-        "type": "text"
-      }, 
-      {
-        "name": "employee_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "ytd_gross_pay", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.mo.gov", 
-  "tableName": "2010_state_employee_pay"
+  "schema": "socrata/data.mo.gov", 
+  "status": "needs review", 
+  "table": "2010_state_employee_pay"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_bicycle_rack_requests/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/5tx2-pk4n/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/views/5tx2-pk4n/rows.csv", 
   "description": "This is a list of bicycle racks installed and/or distributed by the City of Austin Bicycle Program.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,82 +13,7 @@
     }
   }, 
   "name": "Bicycle Rack Requests", 
-  "schema": {
-    "columns": [
-      {
-        "name": "request_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "install", 
-        "type": "text"
-      }, 
-      {
-        "name": "requestor", 
-        "type": "text"
-      }, 
-      {
-        "name": "galv_1", 
-        "type": "real"
-      }, 
-      {
-        "name": "green_1", 
-        "type": "real"
-      }, 
-      {
-        "name": "cables_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "galv_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "green_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "cables_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "delivered", 
-        "type": "text"
-      }, 
-      {
-        "name": "installed", 
-        "type": "text"
-      }, 
-      {
-        "name": "central_buisness_district", 
-        "type": "text"
-      }, 
-      {
-        "name": "cbd_of_racks", 
-        "type": "real"
-      }, 
-      {
-        "name": "gis_id2", 
-        "type": "real"
-      }, 
-      {
-        "name": "x", 
-        "type": "real"
-      }, 
-      {
-        "name": "y", 
-        "type": "real"
-      }, 
-      {
-        "name": "geolocation", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "bicycle_rack_requests"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "bicycle_rack_requests"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cms_therapy_provider_phase_information/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cms.gov/api/views/ucun-6i4t/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cms.gov/api/views/ucun-6i4t/rows.csv", 
   "description": "The Therapy Provider Phase Information dataset is a tool for providers to search by their National Provider Identifier (NPI) number to determine their phase for manual medical review of therapy claims.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,18 +12,7 @@
     }
   }, 
   "name": "Therapy Provider Phase Information", 
-  "schema": {
-    "columns": [
-      {
-        "name": "national_provider_identifier", 
-        "type": "text"
-      }, 
-      {
-        "name": "therapy_phase", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cms.gov", 
-  "tableName": "therapy_provider_phase_information"
+  "schema": "socrata/data.cms.gov", 
+  "status": "needs review", 
+  "table": "therapy_provider_phase_information"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cms_pending_initial_l_and_ts_non_physicians/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cms.gov/api/views/n86y-dqck/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cms.gov/api/views/n86y-dqck/rows.csv", 
   "description": "The new Initial Non-Physician Applications Pending Contractor Review files are lists of applications pending contractor review. These pending applications have NOT been processed by the CMS contractors. These lists have been compiled to allow individuals the ability to verify that an application has been submitted and is awaiting processing.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "Pending Initial L and Ts Non Physicians", 
-  "schema": {
-    "columns": [
-      {
-        "name": "npi", 
-        "type": "real"
-      }, 
-      {
-        "name": "last_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "first_name", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cms.gov", 
-  "tableName": "pending_initial_l_and_ts_non_physicians"
+  "schema": "socrata/data.cms.gov", 
+  "status": "needs review", 
+  "table": "pending_initial_l_and_ts_non_physicians"
 }

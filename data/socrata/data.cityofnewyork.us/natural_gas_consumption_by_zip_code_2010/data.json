@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_natural_gas_consumption_by_zip_code_2010/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/uedp-fegm/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/uedp-fegm/rows.csv", 
   "description": "2010 Natural Gas consumption in therms and GJ, by ZIP code, building type, and utility company.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Natural Gas Consumption by ZIP Code - 2010", 
-  "schema": {
-    "columns": [
-      {
-        "name": "zip_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "building_type_service_class", 
-        "type": "text"
-      }, 
-      {
-        "name": "_consumption_therms_", 
-        "type": "real"
-      }, 
-      {
-        "name": "_consumption_gj_", 
-        "type": "real"
-      }, 
-      {
-        "name": "utility_data_source", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "natural_gas_consumption_by_zip_code_2010"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "natural_gas_consumption_by_zip_code_2010"
 }

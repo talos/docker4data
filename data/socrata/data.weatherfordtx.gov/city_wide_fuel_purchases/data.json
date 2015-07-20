@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_weatherfordtx_city_wide_fuel_purchases/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/v6eu-rt9x/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/v6eu-rt9x/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -15,94 +11,7 @@
     }
   }, 
   "name": "City Wide Fuel Purchases", 
-  "schema": {
-    "columns": [
-      {
-        "name": "fund", 
-        "type": "text"
-      }, 
-      {
-        "name": "department", 
-        "type": "text"
-      }, 
-      {
-        "name": "cost_center", 
-        "type": "real"
-      }, 
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "calendar_month", 
-        "type": "text"
-      }, 
-      {
-        "name": "calendar_year", 
-        "type": "text"
-      }, 
-      {
-        "name": "fiscal_month", 
-        "type": "text"
-      }, 
-      {
-        "name": "fiscal_year", 
-        "type": "text"
-      }, 
-      {
-        "name": "card", 
-        "type": "text"
-      }, 
-      {
-        "name": "tag", 
-        "type": "text"
-      }, 
-      {
-        "name": "vehicle_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "vehicle_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendor", 
-        "type": "text"
-      }, 
-      {
-        "name": "full_location", 
-        "type": "text"
-      }, 
-      {
-        "name": "odometer", 
-        "type": "real"
-      }, 
-      {
-        "name": "product", 
-        "type": "text"
-      }, 
-      {
-        "name": "quantity", 
-        "type": "real"
-      }, 
-      {
-        "name": "cost", 
-        "type": "real"
-      }, 
-      {
-        "name": "federal_taxes_subtracted", 
-        "type": "real"
-      }, 
-      {
-        "name": "price_per_gallon", 
-        "type": "real"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.weatherfordtx.gov", 
-  "tableName": "city_wide_fuel_purchases"
+  "schema": "socrata/data.weatherfordtx.gov", 
+  "status": "needs review", 
+  "table": "city_wide_fuel_purchases"
 }

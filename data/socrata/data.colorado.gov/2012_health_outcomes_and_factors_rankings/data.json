@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_2012_health_outcomes_and_factors_rankings/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/rhr5-4mx3/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/api/views/rhr5-4mx3/rows.csv", 
   "description": "This dataset ranks Colorado counties by health outcomes and factors for the year 2012.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "2012 Health Outcomes And Factors Rankings", 
-  "schema": {
-    "columns": [
-      {
-        "name": "fips", 
-        "type": "real"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "health_outcomes_z_score", 
-        "type": "real"
-      }, 
-      {
-        "name": "health_outcomes_rank", 
-        "type": "real"
-      }, 
-      {
-        "name": "health_factors_z_score", 
-        "type": "real"
-      }, 
-      {
-        "name": "health_factors_rank", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "2012_health_outcomes_and_factors_rankings"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "2012_health_outcomes_and_factors_rankings"
 }

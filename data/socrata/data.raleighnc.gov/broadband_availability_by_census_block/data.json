@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/broadband_availability_by_census_block/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.raleighnc.gov/api/geospatial/pkna-ymzi", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.raleighnc.gov/api/geospatial/pkna-ymzi", 
   "description": "Broadband availability data submitted to the National Telecommunications and Information  Administration (NTIA) on October 1, 2013 from State Broadband Initiative grantees in every state, Territory and the District of Columbia. This data is current as of June 30, 2013. For more information regarding the Grantees please visit http://www2.ntia.doc.gov/SBDD.\n\nCensus Blocks with an area less than 2 square miles.\n\nNOTES: The following are column headings for the shp file named StateAbbreviation-NBM-CBLOCK-SHP-June-2013.zip. This data was originally submitted to NTIA in a file geodatabase and was exported as a shapefile. \n\nPROVNAME - Provider Name\nDBANAME - Doing Business As Name\nFRN - FCC Registration Number\nTRANSTECH - Technology Code (See below for valid values)\nMAXADDOWN - Maximum Advertised Download Speed (see below for valid values) from record level\nMAXADUP - Maximum Advertised Upload Speed (see below for valid values) from record level\nTYPICDOWN - Typical Download Speed (see below for valid values)\nTYPICUP - Typical Upload Speed (see below for valid values)\nFID - These values are just a record count from the database and should be ignored", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Broadband Availability by Census Block", 
-  "schema": {}, 
-  "schemaName": "socrata/data.raleighnc.gov", 
-  "tableName": "broadband_availability_by_census_block"
+  "schema": "socrata/data.raleighnc.gov", 
+  "status": "needs review", 
+  "table": "broadband_availability_by_census_block"
 }

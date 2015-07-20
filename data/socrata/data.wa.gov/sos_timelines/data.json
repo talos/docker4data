@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wa_sos_timelines/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/tshj-72pu/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.wa.gov/api/views/tshj-72pu/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -14,54 +10,7 @@
     }
   }, 
   "name": "SOS Timelines", 
-  "schema": {
-    "columns": [
-      {
-        "name": "start_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "end_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "headline", 
-        "type": "text"
-      }, 
-      {
-        "name": "text", 
-        "type": "text"
-      }, 
-      {
-        "name": "media", 
-        "type": "text"
-      }, 
-      {
-        "name": "media_credit", 
-        "type": "text"
-      }, 
-      {
-        "name": "media_caption", 
-        "type": "text"
-      }, 
-      {
-        "name": "media_thumbnail", 
-        "type": "text"
-      }, 
-      {
-        "name": "type", 
-        "type": "text"
-      }, 
-      {
-        "name": "tag", 
-        "type": "text"
-      }, 
-      {
-        "name": "category", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.wa.gov", 
-  "tableName": "sos_timelines"
+  "schema": "socrata/data.wa.gov", 
+  "status": "needs review", 
+  "table": "sos_timelines"
 }

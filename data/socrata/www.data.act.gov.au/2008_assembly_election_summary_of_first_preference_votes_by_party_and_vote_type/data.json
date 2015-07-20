@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/2008_assembly_election_summary_of_first_preference_votes_by_party_and_vote_type/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/www.data.act.gov.au/api/views/b8tj-nsaa/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/www.data.act.gov.au/api/views/b8tj-nsaa/rows.csv", 
   "description": "A summary of votes by party and vote type in the 2008 Legislative Assembly Election", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "2008 Assembly Election - Summary of First Preference Votes by Party and Vote Type", 
-  "schema": {
-    "columns": [
-      {
-        "name": "party_group", 
-        "type": "text"
-      }, 
-      {
-        "name": "number_nominated", 
-        "type": "real"
-      }, 
-      {
-        "name": "number_elected", 
-        "type": "real"
-      }, 
-      {
-        "name": "ordinary_votes", 
-        "type": "real"
-      }, 
-      {
-        "name": "postal_votes", 
-        "type": "real"
-      }, 
-      {
-        "name": "pre_poll_votes", 
-        "type": "real"
-      }, 
-      {
-        "name": "declaration_votes", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_votes", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/www.data.act.gov.au", 
-  "tableName": "2008_assembly_election_summary_of_first_preference_votes_by_party_and_vote_type"
+  "schema": "socrata/www.data.act.gov.au", 
+  "status": "needs review", 
+  "table": "2008_assembly_election_summary_of_first_preference_votes_by_party_and_vote_type"
 }

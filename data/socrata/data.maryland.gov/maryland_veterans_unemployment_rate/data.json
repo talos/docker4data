@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_maryland_veterans_unemployment_rate/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/prxf-ppu5/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/prxf-ppu5/rows.csv", 
   "description": "The Governors Strategic Veterans Goal is to reduce the unemployment rate among veterans to 3 percent or lower by the end of 2015. This data set contains the veterans unemployment rate in Maryland. Figures come from the Bureau of Labor Statistics, and are subject to revision.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "Maryland Veterans Unemployment Rate", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "text"
-      }, 
-      {
-        "name": "maryland_veterans_unemployment_rate", 
-        "type": "text"
-      }, 
-      {
-        "name": "national_veterans_unemployment_rate", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "maryland_veterans_unemployment_rate"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "maryland_veterans_unemployment_rate"
 }

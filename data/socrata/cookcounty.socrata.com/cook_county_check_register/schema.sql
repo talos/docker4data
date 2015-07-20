@@ -1,0 +1,21 @@
+CREATE TABLE "cook_county_check_register" (
+	"service_type_id"	real,
+	"service_type_desc"	text,
+	"check_number"	real,
+	"check_date"	timestamp,
+	"payee_number"	real,
+	"payee_vendor_name"	text,
+	"payment_amount"	text,
+	"purchase_order"	real,
+	"pdmcu"	real,
+	"department_nbr"	real,
+	"department_name"	text,
+	"business_unit_code"	real,
+	"business_unit_name"	text,
+	"vendor_name"	text,
+	"vendor_address_1"	text,
+	"vendor_address_2"	text,
+	"city"	text,
+	"state_id"	text,
+	"zip_code"	text
+);

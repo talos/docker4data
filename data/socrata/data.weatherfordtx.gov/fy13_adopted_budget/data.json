@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_weatherfordtx_fy13_adopted_budget/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/scg7-wbcw/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/scg7-wbcw/rows.csv", 
   "description": "Line item budget for the fiscal year beginning October 1, 2012, and ending September 30, 2013, as approved in September 2012.\r\n\r\nMunicipal Utility Fund items are approved by the Municipal Utility Board. All other funds are approved by the City Council.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,78 +13,7 @@
     }
   }, 
   "name": "FY13 Adopted Budget", 
-  "schema": {
-    "columns": [
-      {
-        "name": "fund_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "fund_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "service_group", 
-        "type": "text"
-      }, 
-      {
-        "name": "department", 
-        "type": "text"
-      }, 
-      {
-        "name": "division", 
-        "type": "text"
-      }, 
-      {
-        "name": "account_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "account_category", 
-        "type": "text"
-      }, 
-      {
-        "name": "full_account_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "cost_center", 
-        "type": "text"
-      }, 
-      {
-        "name": "account", 
-        "type": "real"
-      }, 
-      {
-        "name": "account_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "fy09_actual", 
-        "type": "real"
-      }, 
-      {
-        "name": "fy10_actual", 
-        "type": "real"
-      }, 
-      {
-        "name": "fy11_actual", 
-        "type": "real"
-      }, 
-      {
-        "name": "fy12_budget", 
-        "type": "real"
-      }, 
-      {
-        "name": "fy12_projected", 
-        "type": "real"
-      }, 
-      {
-        "name": "fy13_approved", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.weatherfordtx.gov", 
-  "tableName": "fy13_adopted_budget"
+  "schema": "socrata/data.weatherfordtx.gov", 
+  "status": "needs review", 
+  "table": "fy13_adopted_budget"
 }

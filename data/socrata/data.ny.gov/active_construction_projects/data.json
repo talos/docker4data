@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_active_construction_projects/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/ekci-x6aq/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/ekci-x6aq/rows.csv", 
   "description": "Report includes a snapshot of active projects where DASNY\r\ndelivers some level of project management oversight.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "Active Construction Projects", 
-  "schema": {
-    "columns": [
-      {
-        "name": "snapshotdate", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "institution", 
-        "type": "text"
-      }, 
-      {
-        "name": "projectid", 
-        "type": "real"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "project_budget", 
-        "type": "real"
-      }, 
-      {
-        "name": "construction_start_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "construction_completion_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "architect", 
-        "type": "text"
-      }, 
-      {
-        "name": "construction_manager", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "active_construction_projects"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "active_construction_projects"
 }

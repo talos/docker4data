@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_essex_county_property_taxes_2013/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/u4z3-9gzj/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/u4z3-9gzj/rows.csv", 
   "description": "Essex County 2013 Property Taxes", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,54 +13,7 @@
     }
   }, 
   "name": "Essex County Property Taxes: 2013", 
-  "schema": {
-    "columns": [
-      {
-        "name": "town", 
-        "type": "text"
-      }, 
-      {
-        "name": "owner", 
-        "type": "text"
-      }, 
-      {
-        "name": "account", 
-        "type": "text"
-      }, 
-      {
-        "name": "swis", 
-        "type": "real"
-      }, 
-      {
-        "name": "tax_map", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "acreage", 
-        "type": "real"
-      }, 
-      {
-        "name": "property_class_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "base_tax", 
-        "type": "real"
-      }, 
-      {
-        "name": "assessment", 
-        "type": "real"
-      }, 
-      {
-        "name": "tax_year", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "essex_county_property_taxes_2013"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "essex_county_property_taxes_2013"
 }

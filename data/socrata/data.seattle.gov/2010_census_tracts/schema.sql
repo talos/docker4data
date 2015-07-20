@@ -1,0 +1,21 @@
+CREATE TABLE "2010_census_tracts" (
+	"_feature_id"	real,
+	"_feature_id_string"	text,
+	"the_geom"	text,
+	"objectid"	real,
+	"tract"	real,
+	"tractce10"	text,
+	"geoid10"	text,
+	"name10"	text,
+	"namelsad10"	text,
+	"intptlat10"	text,
+	"intptlon10"	text,
+	"acres_tota"	real,
+	"acres_land"	real,
+	"acres_wate"	real,
+	"water"	text,
+	"area"	real,
+	"len"	real,
+	"shape_leng"	real,
+	"shape_area"	real
+);

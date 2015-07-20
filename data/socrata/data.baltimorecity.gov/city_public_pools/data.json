@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/city_public_pools/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/geospatial/net7-jqhh", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.baltimorecity.gov/api/geospatial/net7-jqhh", 
   "description": "This data set shows the location of Baltimore City's Public Aquatic \"Pools\" Facilities. The data is broken down into categories: Wading, Walk-to, and Park Pools. Please find the definitions below: Wading Pools: are aquatic facilites that are no more than 24 inches in dept. These facilities are not chlorinated and has a turn over rate of approximately two hours. Walk-to Pools: are Aquatic facilities that are located within a neighborhood and not in a public park. These facilities are approximately 5ft in dept. Park Pools: are aquatic facilities that are located within the City's public parks. These facilities are more than 5ft in depth.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,9 +14,7 @@
     }
   }, 
   "name": "City Public Pools", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.baltimorecity.gov", 
-  "tableName": "city_public_pools"
+  "schema": "socrata/data.baltimorecity.gov", 
+  "status": "needs review", 
+  "table": "city_public_pools"
 }

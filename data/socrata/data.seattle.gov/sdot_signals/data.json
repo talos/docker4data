@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_sdot_signals/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/fy3x-rf3i/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/fy3x-rf3i/rows.csv", 
   "description": "SDOT maintained traffic signals in Seattle", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,98 +13,7 @@
     }
   }, 
   "name": "SDOT_SIGNALS", 
-  "schema": {
-    "columns": [
-      {
-        "name": "objectid_1", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape", 
-        "type": "text"
-      }, 
-      {
-        "name": "unitid", 
-        "type": "text"
-      }, 
-      {
-        "name": "compkey", 
-        "type": "real"
-      }, 
-      {
-        "name": "comptype", 
-        "type": "real"
-      }, 
-      {
-        "name": "intr_compkey", 
-        "type": "real"
-      }, 
-      {
-        "name": "intr_unitid", 
-        "type": "text"
-      }, 
-      {
-        "name": "intr_distance", 
-        "type": "real"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "seg_compkey", 
-        "type": "real"
-      }, 
-      {
-        "name": "objectid", 
-        "type": "real"
-      }, 
-      {
-        "name": "arterialclasscd", 
-        "type": "text"
-      }, 
-      {
-        "name": "compkey_1", 
-        "type": "real"
-      }, 
-      {
-        "name": "intersectiondetailkey", 
-        "type": "real"
-      }, 
-      {
-        "name": "signalmaintdistcd", 
-        "type": "text"
-      }, 
-      {
-        "name": "signaltypecd", 
-        "type": "text"
-      }, 
-      {
-        "name": "dgmapnbr", 
-        "type": "real"
-      }, 
-      {
-        "name": "dgnodenbr", 
-        "type": "real"
-      }, 
-      {
-        "name": "adddttm", 
-        "type": "text"
-      }, 
-      {
-        "name": "addby", 
-        "type": "text"
-      }, 
-      {
-        "name": "modby", 
-        "type": "text"
-      }, 
-      {
-        "name": "moddttm", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "sdot_signals"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "sdot_signals"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_new_york_s_great_appliance_swap_out/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/cg7p-tdy5/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/cg7p-tdy5/rows.csv", 
   "description": "As part of the American Recovery and Revetment Act, NYSERDA administered an $18.7 million residential high-efficiency appliance rebate program called New York's Great Appliance Swap Out. Under the approved U.S. Department of Energy plan, customers purchasing appliances qualified for a rebate of $75 ($105 with documented recycling) for ENERGY STAR qualified refrigerators, $75 ($100 with documented recycling) for clothes washers and $50 ($75 with documented recycling) for freezers. $500 rebate ($555 with documented recycling) were also available for high-efficiency dishwashers, clothes washers and refrigerators that meet CEE super efficiency levels when they were purchased as part of a three-appliance package. The plan was approved by the DOE on December 1, 2009. The program was launched February 12, 2010 and closed March 4, 2011 after processing over $16.58 million in rebates", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,90 +13,7 @@
     }
   }, 
   "name": "New York's Great Appliance Swap Out", 
-  "schema": {
-    "columns": [
-      {
-        "name": "program_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "program_launch_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "program_close_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "rebate_application_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "rebate_applicant_county", 
-        "type": "text"
-      }, 
-      {
-        "name": "rebate_applicant_zip_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "rebate_application_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "rebate_applicant_electric_utility", 
-        "type": "text"
-      }, 
-      {
-        "name": "rebate_option_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "rebate_option_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "appliance_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "appliance_make", 
-        "type": "text"
-      }, 
-      {
-        "name": "appliance_model", 
-        "type": "text"
-      }, 
-      {
-        "name": "rebate_amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "existing_appliance_removed_and_recycled_y_n", 
-        "type": "text"
-      }, 
-      {
-        "name": "recycled_appliance_make", 
-        "type": "text"
-      }, 
-      {
-        "name": "recycled_appliance_model", 
-        "type": "text"
-      }, 
-      {
-        "name": "estimated_age_of_recycled_appliance", 
-        "type": "real"
-      }, 
-      {
-        "name": "date_appliance_was_picked_up_for_recycling", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "new_york_s_great_appliance_swap_out"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "new_york_s_great_appliance_swap_out"
 }

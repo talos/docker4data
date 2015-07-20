@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_art_in_doe_buildings/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/8a4n-zmpj/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/8a4n-zmpj/rows.csv", 
   "description": "List of art, artist, medium and DOE\nbuilding that the art is located in\nschools.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "Art in DOE buildings", 
-  "schema": {
-    "columns": [
-      {
-        "name": "accession", 
-        "type": "real"
-      }, 
-      {
-        "name": "artwork_title", 
-        "type": "text"
-      }, 
-      {
-        "name": "artist_lastname", 
-        "type": "text"
-      }, 
-      {
-        "name": "artist_firstname", 
-        "type": "text"
-      }, 
-      {
-        "name": "medium", 
-        "type": "text"
-      }, 
-      {
-        "name": "artwork_year", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "dimension", 
-        "type": "text"
-      }, 
-      {
-        "name": "bldgid", 
-        "type": "text"
-      }, 
-      {
-        "name": "school_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "borough", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "art_in_doe_buildings"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "art_in_doe_buildings"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/opa_complaint_tracker/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/pafy-bfmu/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/pafy-bfmu/rows.csv", 
   "description": "OFFICE OF PROFESSIONAL ACCOUNTABILITY COMPLAINT TRACKER STATUS\r\nMaking the work of the OPA transparent promotes the confidence of both the public and the employees of the department. OPA provides data status of complaints filed and issues of community concern.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "OPA Complaint Tracker", 
-  "schema": {
-    "columns": [
-      {
-        "name": "opa_case_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "status_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "external_case_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "due_date_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "completed_date_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "task_creation_date_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "currentstatus", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "opa_complaint_tracker"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "opa_complaint_tracker"
 }

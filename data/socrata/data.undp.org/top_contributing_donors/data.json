@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_undp_top_contributing_donors/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.undp.org/api/views/n9tv-twcn/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.undp.org/api/views/n9tv-twcn/rows.csv", 
   "description": "List of top donors is based on total income received for regular and other resources in 2013 (as of September 30, 2013) -excluding contribution to local resources", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,30 +12,7 @@
     }
   }, 
   "name": "Top Contributing Donors", 
-  "schema": {
-    "columns": [
-      {
-        "name": "donor", 
-        "type": "text"
-      }, 
-      {
-        "name": "abbrev", 
-        "type": "text"
-      }, 
-      {
-        "name": "regular", 
-        "type": "real"
-      }, 
-      {
-        "name": "other", 
-        "type": "real"
-      }, 
-      {
-        "name": "total", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.undp.org", 
-  "tableName": "top_contributing_donors"
+  "schema": "socrata/data.undp.org", 
+  "status": "needs review", 
+  "table": "top_contributing_donors"
 }

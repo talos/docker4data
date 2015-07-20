@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/hospital_value_based_purchasing_hvbp_total_performance_score/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/ypbt-wvdk/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.medicare.gov/api/views/ypbt-wvdk/rows.csv", 
   "description": "A list of hospitals participating in the Hospital VBP Program and their Clinical Process of Care domain scores, Patient Experience of Care dimension scores, and Total Performance Scores.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,78 +12,7 @@
     }
   }, 
   "name": "Hospital Value-Based Purchasing (HVBP) \u2013 Total Performance Score", 
-  "schema": {
-    "columns": [
-      {
-        "name": "provider_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "hospital_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "county_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "unweighted_normalized_clinical_process_of_care_domain_score", 
-        "type": "real"
-      }, 
-      {
-        "name": "weighted_clinical_process_of_care_domain_score", 
-        "type": "real"
-      }, 
-      {
-        "name": "unweighted_patient_experience_of_care_domain_score", 
-        "type": "real"
-      }, 
-      {
-        "name": "weighted_patient_experience_of_care_domain_score", 
-        "type": "real"
-      }, 
-      {
-        "name": "unweighted_normalized_outcome_domain_score", 
-        "type": "real"
-      }, 
-      {
-        "name": "weighted_outcome_domain_score", 
-        "type": "real"
-      }, 
-      {
-        "name": "unweighted_normalized_efficiency_domain_score", 
-        "type": "real"
-      }, 
-      {
-        "name": "weighted_efficiency_domain_score", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_performance_score", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.medicare.gov", 
-  "tableName": "hospital_value_based_purchasing_hvbp_total_performance_score"
+  "schema": "socrata/data.medicare.gov", 
+  "status": "needs review", 
+  "table": "hospital_value_based_purchasing_hvbp_total_performance_score"
 }

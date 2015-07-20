@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_nola_nola_master_street_list_draft/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.nola.gov/api/views/vfmz-i6qp/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.nola.gov/api/views/vfmz-i6qp/rows.csv", 
   "description": "This lists replaces the previous version of the New Orleans street name file.  It is a work-in-progress and will be updated as needed.  This version updates column names and corrects spellings of several streets.  It represents an inventory of official street name spellings in the City of New Orleans.  Note:  This list may not represent what is currently displayed on street signs. City of New Orleans official street list is derived from New Orleans street centerline file, 9-1-1 centerline file, and CPC plat maps. Fields include the full street name and the parsed elements along with abbreviations using US Postal Standards.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "NOLA Master Street List - DRAFT", 
-  "schema": {
-    "columns": [
-      {
-        "name": "street_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "premodifier", 
-        "type": "text"
-      }, 
-      {
-        "name": "predirectional", 
-        "type": "text"
-      }, 
-      {
-        "name": "pretype", 
-        "type": "text"
-      }, 
-      {
-        "name": "root_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "suffix", 
-        "type": "text"
-      }, 
-      {
-        "name": "postdirectional", 
-        "type": "text"
-      }, 
-      {
-        "name": "status", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.nola.gov", 
-  "tableName": "nola_master_street_list_draft"
+  "schema": "socrata/data.nola.gov", 
+  "status": "needs review", 
+  "table": "nola_master_street_list_draft"
 }

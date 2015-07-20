@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nola_local_historic_districts/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.nola.gov/api/geospatial/6yxk-jztq", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.nola.gov/api/geospatial/6yxk-jztq", 
   "description": "City of New Orleans Local Historic Districts. There are 14 local historic districts within New Orleans/Orleans Parish, ten administered by the New Orleans Historic District Landmarks Commission and four by the Central Business District Historic District Landmarks Commission. Two of the districts administrated by HDLC are split between full and partial control.\r\n\r\nUpdate: As Needed", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "NOLA Local Historic Districts", 
-  "schema": {}, 
-  "schemaName": "socrata/data.nola.gov", 
-  "tableName": "nola_local_historic_districts"
+  "schema": "socrata/data.nola.gov", 
+  "status": "needs review", 
+  "table": "nola_local_historic_districts"
 }

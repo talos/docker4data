@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_2011_data_book_sections_and_tables/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/w28j-r29d/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/w28j-r29d/rows.csv", 
   "description": "Over 800 DatSets Avilable via the Department of Business Economic Development and Tourism Data Book links", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "2011 Data Book Sections And Tables", 
-  "schema": {
-    "columns": [
-      {
-        "name": "section", 
-        "type": "text"
-      }, 
-      {
-        "name": "table_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "available_data_table", 
-        "type": "text"
-      }, 
-      {
-        "name": "link_to_databook_section", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "2011_data_book_sections_and_tables"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "2011_data_book_sections_and_tables"
 }

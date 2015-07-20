@@ -1,0 +1,22 @@
+CREATE TABLE "nrel_aurora_weather" (
+	"date"	timestamp,
+	"globalhorizontal"	real,
+	"directnormal"	real,
+	"diffusehorizontal"	real,
+	"airtemperature"	real,
+	"stationpressure"	real,
+	"avgwindspeed10m"	real,
+	"avgwinddirection10m"	real,
+	"avgwinddirectionstddev10m"	real,
+	"avgwindspeedstddev10m"	real,
+	"peakwindspeed10m"	real,
+	"winddirectionpkws"	real,
+	"windchilltemp"	real,
+	"dewpointtemp"	real,
+	"zenithangle"	real,
+	"azimuthangle"	real,
+	"relhumidity"	real,
+	"precipitation"	real,
+	"precipitationaccumulated"	real,
+	"airmass"	real
+);

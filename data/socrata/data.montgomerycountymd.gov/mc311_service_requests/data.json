@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_montgomerycountymd_mc311_service_requests/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/xtyh-brr2/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/xtyh-brr2/rows.csv", 
   "description": "Information on all MC311 Service Requests received (via email or phone) since July 1, 2012.  This data is updated daily.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,94 +13,7 @@
     }
   }, 
   "name": "MC311 Service Requests", 
-  "schema": {
-    "columns": [
-      {
-        "name": "sr_num", 
-        "type": "text"
-      }, 
-      {
-        "name": "created", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "closed", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "sr_stat_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "department", 
-        "type": "text"
-      }, 
-      {
-        "name": "department_full_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "sr_area", 
-        "type": "text"
-      }, 
-      {
-        "name": "sr_sub_area", 
-        "type": "text"
-      }, 
-      {
-        "name": "faq_ques_text", 
-        "type": "text"
-      }, 
-      {
-        "name": "x_sla", 
-        "type": "real"
-      }, 
-      {
-        "name": "x_city", 
-        "type": "text"
-      }, 
-      {
-        "name": "x_state", 
-        "type": "text"
-      }, 
-      {
-        "name": "x_zipcode", 
-        "type": "text"
-      }, 
-      {
-        "name": "sr_subtype_cd", 
-        "type": "text"
-      }, 
-      {
-        "name": "x_electiondist", 
-        "type": "text"
-      }, 
-      {
-        "name": "x_mdstatedist", 
-        "type": "text"
-      }, 
-      {
-        "name": "x_congdist", 
-        "type": "text"
-      }, 
-      {
-        "name": "x_cong_memb", 
-        "type": "text"
-      }, 
-      {
-        "name": "x_councildist", 
-        "type": "text"
-      }, 
-      {
-        "name": "x_councilmbr", 
-        "type": "text"
-      }, 
-      {
-        "name": "last_upd", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.montgomerycountymd.gov", 
-  "tableName": "mc311_service_requests"
+  "schema": "socrata/data.montgomerycountymd.gov", 
+  "status": "needs review", 
+  "table": "mc311_service_requests"
 }

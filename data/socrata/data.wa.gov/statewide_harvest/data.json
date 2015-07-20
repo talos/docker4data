@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/statewide_harvest/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/wuut-92ju/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.wa.gov/api/views/wuut-92ju/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,18 +9,7 @@
     }
   }, 
   "name": "Statewide Harvest", 
-  "schema": {
-    "columns": [
-      {
-        "name": "esu", 
-        "type": "text"
-      }, 
-      {
-        "name": "success", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.wa.gov", 
-  "tableName": "statewide_harvest"
+  "schema": "socrata/data.wa.gov", 
+  "status": "needs review", 
+  "table": "statewide_harvest"
 }

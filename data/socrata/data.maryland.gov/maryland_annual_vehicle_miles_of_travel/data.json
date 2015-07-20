@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_maryland_annual_vehicle_miles_of_travel/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/exua-btti/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/exua-btti/rows.csv", 
   "description": "Annual Vehicle Miles of Travel (AVMT) represents the estimated number of miles driven on Maryland's public highways for a given year. There are two components used to estimate AVMT - traffic count data and highway mileage.\r\nTraffic count data is summarized and reported as Annual Average Daily Traffic (AADT).\r\n\r\nAADTs are calculated from short-term (48-hour) traffic counts performed on all publicly maintained roads in Maryland (including county and municipal).  These counts are factored to account for seasonal variation in traffic patterns and represent an \u201cAverage Day\u201d. \r\n\r\nFor planning purposes, AADT's are assigned to highway segments in order to provide a picture of traffic patterns is on the highway system on an average day.\r\nHighway mileage statistics are complied annually based on mileage reports from the local jurisdictions and SHA and MDTA offices.  Any mileage changes  are field verified by SHA's data collections crews.   \r\n\r\nAVMT is calculated by multiplying the AADT on a road segment by the segment length. Because AADT represents Daily traffic, the result is multiplied by 365 to represent Annual Vehicle Miles of Travel. (AVMT = AADT X SECTION LENGTH X365)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,18 +13,7 @@
     }
   }, 
   "name": "Maryland Annual Vehicle Miles of Travel", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "annual_vehicle_miles_of_travel_in_millions", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "maryland_annual_vehicle_miles_of_travel"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "maryland_annual_vehicle_miles_of_travel"
 }

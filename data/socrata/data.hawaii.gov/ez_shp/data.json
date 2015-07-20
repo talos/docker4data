@@ -1,9 +1,6 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ez_shp/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/geospatial/m3nj-x4qp", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/geospatial/m3nj-x4qp", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,7 +10,7 @@
     }
   }, 
   "name": "Ez.shp", 
-  "schema": {}, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "ez_shp"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "ez_shp"
 }

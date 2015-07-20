@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_redmond_three_year_action_plan/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.redmond.gov/api/views/wv5k-d6vv/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.redmond.gov/api/views/wv5k-d6vv/rows.csv", 
   "description": "A short term list of tasks needed to implement the Transportation Master Plan: http://www.redmond.gov/tmp.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,54 +11,7 @@
     }
   }, 
   "name": "Three Year Action Plan", 
-  "schema": {
-    "columns": [
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "type", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "start_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "status", 
-        "type": "text"
-      }, 
-      {
-        "name": "additional_project_information", 
-        "type": "text"
-      }, 
-      {
-        "name": "staff_contact", 
-        "type": "text"
-      }, 
-      {
-        "name": "staff_contact_email", 
-        "type": "text"
-      }, 
-      {
-        "name": "notes", 
-        "type": "text"
-      }, 
-      {
-        "name": "task_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "last_updated", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.redmond.gov", 
-  "tableName": "three_year_action_plan"
+  "schema": "socrata/data.redmond.gov", 
+  "status": "needs review", 
+  "table": "three_year_action_plan"
 }

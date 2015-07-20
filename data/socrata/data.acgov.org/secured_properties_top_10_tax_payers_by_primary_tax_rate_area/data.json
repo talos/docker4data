@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/secured_properties_top_10_tax_payers_by_primary_tax_rate_area/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.acgov.org/api/views/23c3-2ank/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.acgov.org/api/views/23c3-2ank/rows.csv", 
   "description": "Listing of top 10 Taxpayers in each Primary Tax Rate Area", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Secured Properties TOP 10 Tax Payers By Primary Tax Rate Area", 
-  "schema": {
-    "columns": [
-      {
-        "name": "primary_tax_rate_area", 
-        "type": "text"
-      }, 
-      {
-        "name": "assessee", 
-        "type": "text"
-      }, 
-      {
-        "name": "situs_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "assessed_value", 
-        "type": "real"
-      }, 
-      {
-        "name": "tax_due", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.acgov.org", 
-  "tableName": "secured_properties_top_10_tax_payers_by_primary_tax_rate_area"
+  "schema": "socrata/data.acgov.org", 
+  "status": "needs review", 
+  "table": "secured_properties_top_10_tax_payers_by_primary_tax_rate_area"
 }

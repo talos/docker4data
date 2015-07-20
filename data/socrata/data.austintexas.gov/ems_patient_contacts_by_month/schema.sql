@@ -1,0 +1,20 @@
+CREATE TABLE "ems_patient_contacts_by_month" (
+	"month_key"	real,
+	"month_start_date"	timestamp,
+	"count_patient_contacts_all"	real,
+	"count_patient_contacts_coa"	real,
+	"count_patient_contacts_tc"	real,
+	"count_patient_contacts_other"	real,
+	"count_patient_contacts_coa_and_tc"	real,
+	"count_patient_transports_all"	real,
+	"count_patient_transports_coa"	real,
+	"count_patient_transports_tc"	real,
+	"count_patient_transports_other"	real,
+	"count_patient_transports_coa_and_tc"	real,
+	"percent_patient_transports_all"	text,
+	"percent_patient_transports_coa"	text,
+	"percent_patient_transports_tc"	text,
+	"percent_patient_transports_other"	text,
+	"percent_patient_transports_coa_and_tc"	text,
+	"percent_patient_transports_target"	text
+);

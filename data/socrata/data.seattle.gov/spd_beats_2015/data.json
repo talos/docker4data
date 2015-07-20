@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/spd_beats_2015/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/geospatial/yutr-ryap", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/geospatial/yutr-ryap", 
   "description": "Current SPD beats", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Spd Beats 2015", 
-  "schema": {}, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "spd_beats_2015"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "spd_beats_2015"
 }

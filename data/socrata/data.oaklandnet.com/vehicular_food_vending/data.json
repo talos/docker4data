@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/vehicular_food_vending/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oaklandnet.com/api/geospatial/aww7-qe2x", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.oaklandnet.com/api/geospatial/aww7-qe2x", 
   "description": "Food Trucks Permitted Through O.M.C. Chapter 8.09 Vehicular Food Vending (on private property only)", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Vehicular Food Vending", 
-  "schema": {}, 
-  "schemaName": "socrata/data.oaklandnet.com", 
-  "tableName": "vehicular_food_vending"
+  "schema": "socrata/data.oaklandnet.com", 
+  "status": "needs review", 
+  "table": "vehicular_food_vending"
 }

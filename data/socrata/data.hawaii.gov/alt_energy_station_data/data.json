@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_alt_energy_station_data/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/36sn-6y6i/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/36sn-6y6i/rows.csv", 
   "description": "Alt Energy Refueling Station Data", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,114 +12,7 @@
     }
   }, 
   "name": "Alt Energy Station Data", 
-  "schema": {
-    "columns": [
-      {
-        "name": "fuel_type_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "station_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "intersection_directions", 
-        "type": "text"
-      }, 
-      {
-        "name": "station_phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "status_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "expected_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "groups_with_access_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "access_days_time", 
-        "type": "text"
-      }, 
-      {
-        "name": "cards_accepted", 
-        "type": "text"
-      }, 
-      {
-        "name": "bd_blends", 
-        "type": "text"
-      }, 
-      {
-        "name": "ng_fill_type_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "ng_psi", 
-        "type": "text"
-      }, 
-      {
-        "name": "ev_level1_evse_num", 
-        "type": "text"
-      }, 
-      {
-        "name": "ev_level2_evse_num", 
-        "type": "real"
-      }, 
-      {
-        "name": "ev_dc_fast_count", 
-        "type": "text"
-      }, 
-      {
-        "name": "ev_other_info", 
-        "type": "text"
-      }, 
-      {
-        "name": "ev_network", 
-        "type": "text"
-      }, 
-      {
-        "name": "ev_network_web", 
-        "type": "text"
-      }, 
-      {
-        "name": "geocode_status", 
-        "type": "text"
-      }, 
-      {
-        "name": "date_last_confirmed", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "id", 
-        "type": "real"
-      }, 
-      {
-        "name": "updated_at", 
-        "type": "text"
-      }, 
-      {
-        "name": "owner_type_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "open_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "hydrogen_status_link", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "alt_energy_station_data"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "alt_energy_station_data"
 }

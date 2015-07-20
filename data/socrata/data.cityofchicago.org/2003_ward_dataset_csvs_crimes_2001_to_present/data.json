@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/2003_ward_dataset_csvs_crimes_2001_to_present/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/download/5wdx-rdkpapplication/zip; charset=binary", 
-    "type": "application/zip; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/download/5wdx-rdkp/application/zip", 
   "description": "As discussed in http://bit.ly/wardpost, the City of Chicago changed to a new ward map on 5/18/2015, affecting some datasets.  This ZIP file contains a CSV export from 5/15/2015 of the \"Crimes - 2001 to present\" dataset.  Due to size limitations, this file had to be separated from the CSV exports of the other datasets, which are at https://data.cityofchicago.org/d/q6z8-94kn.  This CSV file contains a close-to-final version of the crimes dataset with the previous (\"2003\") ward values.", 
+  "load": "TODO: zip", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,9 +14,7 @@
     }
   }, 
   "name": "2003 Ward Dataset CSVs - Crimes - 2001 to present", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "2003_ward_dataset_csvs_crimes_2001_to_present"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "2003_ward_dataset_csvs_crimes_2001_to_present"
 }

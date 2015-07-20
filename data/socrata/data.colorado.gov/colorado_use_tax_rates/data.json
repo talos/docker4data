@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_colorado_use_tax_rates/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/kch9-6p6i/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/api/views/kch9-6p6i/rows.csv", 
   "description": "Information was extracted from the dr1002.pdf document and presented in a tabular format.  Please refer to the PDF for details on footnotes and additional information.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,58 +13,7 @@
     }
   }, 
   "name": "Colorado Use Tax Rates", 
-  "schema": {
-    "columns": [
-      {
-        "name": "taxtype", 
-        "type": "text"
-      }, 
-      {
-        "name": "taxname", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "boundary", 
-        "type": "text"
-      }, 
-      {
-        "name": "taxrate", 
-        "type": "text"
-      }, 
-      {
-        "name": "taxrateverbatim", 
-        "type": "text"
-      }, 
-      {
-        "name": "servicefee", 
-        "type": "text"
-      }, 
-      {
-        "name": "servicefeeverbatim", 
-        "type": "text"
-      }, 
-      {
-        "name": "appliesto", 
-        "type": "text"
-      }, 
-      {
-        "name": "exemptions", 
-        "type": "text"
-      }, 
-      {
-        "name": "usetaxrate", 
-        "type": "text"
-      }, 
-      {
-        "name": "usetaxrateverbatim", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "colorado_use_tax_rates"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "colorado_use_tax_rates"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_quality_of_life_indicators/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/8hkx-uppz/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/8hkx-uppz/rows.csv", 
   "description": "Statistics on NYC quality of life", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Quality Of Life Indicators", 
-  "schema": {
-    "columns": [
-      {
-        "name": "indicator", 
-        "type": "text"
-      }, 
-      {
-        "name": "q1_09", 
-        "type": "text"
-      }, 
-      {
-        "name": "q2_09", 
-        "type": "text"
-      }, 
-      {
-        "name": "q3_09", 
-        "type": "text"
-      }, 
-      {
-        "name": "q4_09", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "quality_of_life_indicators"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "quality_of_life_indicators"
 }

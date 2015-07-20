@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_average_salary_market_comparison_trend/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/52ak-m2d5/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/52ak-m2d5/rows.csv", 
   "description": "Comparison of the average salary of State of Oklahoma employees and the market average salary beginning in fiscaly year 2005.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Average Salary Market Comparison Trend", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "text"
-      }, 
-      {
-        "name": "state_of_oklahoma", 
-        "type": "real"
-      }, 
-      {
-        "name": "state_average_salary_increase_from_year_to_year", 
-        "type": "text"
-      }, 
-      {
-        "name": "market", 
-        "type": "real"
-      }, 
-      {
-        "name": "market_average_salary_increase_from_year_to_year", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "average_salary_market_comparison_trend"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "average_salary_market_comparison_trend"
 }

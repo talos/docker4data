@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_utility_payment_methods/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/cusd-m48y/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/views/cusd-m48y/rows.csv", 
   "description": "Since March of 2008, 100% of all City of Austin utility payments have been posted the same day received -- far exceeding the industry average of up to three days. This requires the daily posting of about 24,000 checks and payment stubs. In addition, the number of payments received electronically is exceptionally high and continues to increase. Part of that success is due to a Western Union wire program set up by Austin Energy to transfer customer payments to the utility. Utility bill payments can be made via Western Union at some 50 retail locations.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,54 +13,7 @@
     }
   }, 
   "name": "Utility Payment Methods", 
-  "schema": {
-    "columns": [
-      {
-        "name": "fiscal_year", 
-        "type": "text"
-      }, 
-      {
-        "name": "authorized_pay_stations_via_western_union_ex_ace_cash_express_heb_money_box_randalls_", 
-        "type": "text"
-      }, 
-      {
-        "name": "online_banking_via_customers_bank_", 
-        "type": "text"
-      }, 
-      {
-        "name": "bill_matrix_via_phone_or_austin_energy_website_credit_debit_e_check_", 
-        "type": "text"
-      }, 
-      {
-        "name": "austin_energy_website_registered_with_online_customer_care_e_check_", 
-        "type": "text"
-      }, 
-      {
-        "name": "electronic_fund_transfer_draft_by_ae_", 
-        "type": "text"
-      }, 
-      {
-        "name": "misc_ex_collections_irs_", 
-        "type": "text"
-      }, 
-      {
-        "name": "walk_in_payment_centers", 
-        "type": "text"
-      }, 
-      {
-        "name": "mail", 
-        "type": "text"
-      }, 
-      {
-        "name": "_manual_payments", 
-        "type": "text"
-      }, 
-      {
-        "name": "_electronic_payments", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "utility_payment_methods"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "utility_payment_methods"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/enrollment_capacity_and_utilization_reports_regular_hs/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/3mim-bd27/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/3mim-bd27/rows.csv", 
   "description": "This dataset is no longer maintained. Updated enrollment capacity and utilization data can be found at https://data.cityofnewyork.us/Education/Enrollment-Capacity-And-Utilization-Reports-Histor/hq56-zhrp\r\nhttps://data.cityofnewyork.us/Education/Enrollment-Capacity-And-Utilization-Reports-Histor/q9xk-w9iv\r\nhttps://data.cityofnewyork.us/Education/Enrollment-Capacity-And-Utilization-Reports-Target/gkd7-3vk7\r\nhttps://data.cityofnewyork.us/Education/Enrollment-Capacity-And-Utilization-Reports-Target/8b9a-pywy\r\n\r\nEnrollment, capacity and utilization data for every regular high school building and schools in those buildings.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,94 +13,7 @@
     }
   }, 
   "name": "Enrollment Capacity and Utilization Reports Regular HS", 
-  "schema": {
-    "columns": [
-      {
-        "name": "district", 
-        "type": "real"
-      }, 
-      {
-        "name": "bldg_i_d_", 
-        "type": "text"
-      }, 
-      {
-        "name": "building_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "bldg_enroll", 
-        "type": "real"
-      }, 
-      {
-        "name": "bldg_adjusted_capacity_historical_", 
-        "type": "real"
-      }, 
-      {
-        "name": "bldg_over_under_historical", 
-        "type": "real"
-      }, 
-      {
-        "name": "bldg_utilization_historical_", 
-        "type": "real"
-      }, 
-      {
-        "name": "bldg_capacity_target_", 
-        "type": "real"
-      }, 
-      {
-        "name": "bldg_over_under_target_", 
-        "type": "real"
-      }, 
-      {
-        "name": "bldg_utilization_target_", 
-        "type": "real"
-      }, 
-      {
-        "name": "org_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "organization_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "org_enroll", 
-        "type": "real"
-      }, 
-      {
-        "name": "org_adjusted_capacity_historical_", 
-        "type": "real"
-      }, 
-      {
-        "name": "org_over_under_historical_", 
-        "type": "real"
-      }, 
-      {
-        "name": "org_utilization_historical_", 
-        "type": "real"
-      }, 
-      {
-        "name": "org_adjusted_capacity_target_", 
-        "type": "real"
-      }, 
-      {
-        "name": "org_over_under_target_", 
-        "type": "real"
-      }, 
-      {
-        "name": "org_utilization_target_", 
-        "type": "real"
-      }, 
-      {
-        "name": "no_of_spec_rooms_used", 
-        "type": "real"
-      }, 
-      {
-        "name": "inclusionary", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "enrollment_capacity_and_utilization_reports_regular_hs"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "enrollment_capacity_and_utilization_reports_regular_hs"
 }

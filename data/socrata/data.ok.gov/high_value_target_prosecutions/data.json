@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_high_value_target_prosecutions/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/gfp9-3npm/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/gfp9-3npm/rows.csv", 
   "description": "Increase High Value Target (cartel-linked suppliers) prosecutions by 10% from the three-year average of 2011-2013 to the three-year average of 2015-2017 by 2017.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "High Value Target Prosecutions", 
-  "schema": {
-    "columns": [
-      {
-        "name": "years", 
-        "type": "text"
-      }, 
-      {
-        "name": "historical_data", 
-        "type": "real"
-      }, 
-      {
-        "name": "target", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "high_value_target_prosecutions"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "high_value_target_prosecutions"
 }

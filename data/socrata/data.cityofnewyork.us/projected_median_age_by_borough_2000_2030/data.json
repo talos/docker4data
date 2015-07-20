@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/projected_median_age_by_borough_2000_2030/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/miqs-rvtb/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/miqs-rvtb/rows.csv", 
   "description": "Median Age of the population of New York City in total and by Borough: unadjusted decennial census data from 1950-2000 and projected figures from 2010-2030.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "Projected Median Age By Borough 2000-2030", 
-  "schema": {
-    "columns": [
-      {
-        "name": "borough", 
-        "type": "text"
-      }, 
-      {
-        "name": "_1", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2", 
-        "type": "real"
-      }, 
-      {
-        "name": "_3", 
-        "type": "real"
-      }, 
-      {
-        "name": "_4", 
-        "type": "real"
-      }, 
-      {
-        "name": "_5", 
-        "type": "real"
-      }, 
-      {
-        "name": "_6", 
-        "type": "real"
-      }, 
-      {
-        "name": "_7", 
-        "type": "real"
-      }, 
-      {
-        "name": "_8", 
-        "type": "real"
-      }, 
-      {
-        "name": "_9", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "projected_median_age_by_borough_2000_2030"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "projected_median_age_by_borough_2000_2030"
 }

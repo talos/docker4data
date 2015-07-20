@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nola_lafitte_greenway_project/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.nola.gov/api/geospatial/qdze-iuzu", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.nola.gov/api/geospatial/qdze-iuzu", 
   "description": "The Lafitte Greenway, a major part of the Lafitte Greenway Corridor, is a 3.1-mile long strip of land bounded by Basin Street, Lafitte Avenue, N. Jefferson Davis Parkway, and St. Louis Street and including the entire St. Louis Street right-of-way between N. Jefferson Davis Parkway and Canal Boulevard. http://lafittecorridorconnection.com/", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "NOLA Lafitte Greenway Project", 
-  "schema": {}, 
-  "schemaName": "socrata/data.nola.gov", 
-  "tableName": "nola_lafitte_greenway_project"
+  "schema": "socrata/data.nola.gov", 
+  "status": "needs review", 
+  "table": "nola_lafitte_greenway_project"
 }

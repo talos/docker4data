@@ -1,0 +1,22 @@
+CREATE TABLE "crime_incident_reports" (
+	"compnos"	real,
+	"naturecode"	text,
+	"incident_type_description"	text,
+	"main_crimecode"	text,
+	"reptdistrict"	text,
+	"reportingarea"	real,
+	"fromdate"	timestamp,
+	"weapontype"	text,
+	"shooting"	text,
+	"domestic"	text,
+	"shift"	text,
+	"year"	real,
+	"month"	real,
+	"day_week"	text,
+	"ucrpart"	text,
+	"x"	real,
+	"y"	real,
+	"streetname"	text,
+	"xstreetname"	text,
+	"location"	text
+);

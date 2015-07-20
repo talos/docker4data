@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_cbms_release_dates/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/c86m-stcz/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/api/views/c86m-stcz/rows.csv", 
   "description": "This schedule provides deployment release dates for CBMS.  Releases are categorized as minor or major.  Minor releases primarily address help desk tickets (depending on complexity).  Major releases typically include deployments of specific projects that introduce new functionality or changes to existing functionality.  Major releases could also include infrastructure or performance improvement changes.  \r\n\r\nThe specific content of each release is planned with the Program Areas (specifically HCPF and CDHS) and the State. The release information and dates are communicated in advance to the impacted counties.  This is to ensure coordination across entities and provide awareness prior to any system change.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,22 +12,7 @@
     }
   }, 
   "name": "CBMS - Release Dates", 
-  "schema": {
-    "columns": [
-      {
-        "name": "monthly_release_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "day_of_the_week", 
-        "type": "text"
-      }, 
-      {
-        "name": "release_type", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "cbms_release_dates"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "cbms_release_dates"
 }

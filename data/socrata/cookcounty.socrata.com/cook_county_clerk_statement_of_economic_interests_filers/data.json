@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/cook_county_clerk_statement_of_economic_interests_filers/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/cookcounty.socrata.com/api/views/hr5r-c6db/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/cookcounty.socrata.com/api/views/hr5r-c6db/rows.csv", 
   "description": "The update script for this dataset is currently broken. Please see the Cook County Clerk SEI Search for recent filings. For extended information about Statements of Economic Interests in Cook County IL, visit the Cook County Clerk's SEI search: http://ethics.cookcountyclerk.com/PublicSearch/", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,46 +12,6 @@
     }
   }, 
   "name": "Cook County Clerk -- Statement of Economic Interests Filers", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "filingid", 
-        "type": "real"
-      }, 
-      {
-        "name": "filerid", 
-        "type": "real"
-      }, 
-      {
-        "name": "firstname", 
-        "type": "text"
-      }, 
-      {
-        "name": "lastname", 
-        "type": "text"
-      }, 
-      {
-        "name": "agencytype", 
-        "type": "text"
-      }, 
-      {
-        "name": "agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "filed", 
-        "type": "text"
-      }, 
-      {
-        "name": "title", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/cookcounty.socrata.com", 
-  "tableName": "cook_county_clerk_statement_of_economic_interests_filers"
+  "schema": "socrata/cookcounty.socrata.com", 
+  "table": "cook_county_clerk_statement_of_economic_interests_filers"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_bird_conservation_areas/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/9yjx-h3yi/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/9yjx-h3yi/rows.csv", 
   "description": "This data set shows point locations of Bird Conservation Areas. Bird Conservation Areas are New York State lands that have been officially designated for their value to bird conservation. Points are approximate locations and may represent large areas.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "Bird Conservation Areas", 
-  "schema": {
-    "columns": [
-      {
-        "name": "bcaname", 
-        "type": "text"
-      }, 
-      {
-        "name": "designated", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "picurl", 
-        "type": "text"
-      }, 
-      {
-        "name": "gewidth", 
-        "type": "real"
-      }, 
-      {
-        "name": "gmwidth", 
-        "type": "real"
-      }, 
-      {
-        "name": "gmheight", 
-        "type": "real"
-      }, 
-      {
-        "name": "url", 
-        "type": "text"
-      }, 
-      {
-        "name": "point_x", 
-        "type": "real"
-      }, 
-      {
-        "name": "point_y", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "bird_conservation_areas"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "bird_conservation_areas"
 }

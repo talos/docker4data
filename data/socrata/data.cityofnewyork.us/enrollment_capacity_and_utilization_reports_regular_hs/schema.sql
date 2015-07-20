@@ -1,0 +1,23 @@
+CREATE TABLE "enrollment_capacity_and_utilization_reports_regular_hs" (
+	"district"	real,
+	"bldg_i_d_"	text,
+	"building_name"	text,
+	"bldg_enroll"	real,
+	"bldg_adjusted_capacity_historical_"	real,
+	"bldg_over_under_historical"	real,
+	"bldg_utilization_historical_"	real,
+	"bldg_capacity_target_"	real,
+	"bldg_over_under_target_"	real,
+	"bldg_utilization_target_"	real,
+	"org_id"	text,
+	"organization_name"	text,
+	"org_enroll"	real,
+	"org_adjusted_capacity_historical_"	real,
+	"org_over_under_historical_"	real,
+	"org_utilization_historical_"	real,
+	"org_adjusted_capacity_target_"	real,
+	"org_over_under_target_"	real,
+	"org_utilization_target_"	real,
+	"no_of_spec_rooms_used"	real,
+	"inclusionary"	text
+);

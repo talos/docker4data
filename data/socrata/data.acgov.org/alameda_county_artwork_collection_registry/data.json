@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_acgov_alameda_county_artwork_collection_registry/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.acgov.org/api/views/jfz5-4uuc/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.acgov.org/api/views/jfz5-4uuc/rows.csv", 
   "description": "Artist\u2019s First Name, Artists Last Name, Artwork Title, Year Completed, Artwork Medium", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Alameda County Artwork Collection Registry", 
-  "schema": {
-    "columns": [
-      {
-        "name": "artist_s_first_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "artist_s_last_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "artwork_title", 
-        "type": "text"
-      }, 
-      {
-        "name": "year_completed", 
-        "type": "real"
-      }, 
-      {
-        "name": "artwork_medium", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.acgov.org", 
-  "tableName": "alameda_county_artwork_collection_registry"
+  "schema": "socrata/data.acgov.org", 
+  "status": "needs review", 
+  "table": "alameda_county_artwork_collection_registry"
 }

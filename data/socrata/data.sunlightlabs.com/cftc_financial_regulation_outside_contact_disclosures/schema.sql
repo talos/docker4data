@@ -1,0 +1,5 @@
+CREATE TABLE "cftc_financial_regulation_outside_contact_disclosures" (
+	"_08_03_2010"	timestamp,
+	"memorandum_from_the_division_of_trading_and_markets_regarding_an_august_3_2010_meeting_with_representatives_of_the_securities_industry_and_financial_markets_association"	text,
+	"securities_industry_and_financial_markets_association"	text
+);

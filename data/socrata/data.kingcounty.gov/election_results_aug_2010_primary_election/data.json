@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_kingcounty_election_results_aug_2010_primary_election/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/4h7u-3cfs/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.kingcounty.gov/api/views/4h7u-3cfs/rows.csv", 
   "description": "Complete results for the King County Aug. 2010 primary election", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "Election results - Aug. 2010 primary election", 
-  "schema": {
-    "columns": [
-      {
-        "name": "race", 
-        "type": "text"
-      }, 
-      {
-        "name": "precinct", 
-        "type": "text"
-      }, 
-      {
-        "name": "legislative_district", 
-        "type": "real"
-      }, 
-      {
-        "name": "county_council", 
-        "type": "real"
-      }, 
-      {
-        "name": "congressional", 
-        "type": "real"
-      }, 
-      {
-        "name": "candidate", 
-        "type": "text"
-      }, 
-      {
-        "name": "count", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.kingcounty.gov", 
-  "tableName": "election_results_aug_2010_primary_election"
+  "schema": "socrata/data.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "election_results_aug_2010_primary_election"
 }

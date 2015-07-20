@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_idhs_fy11_hsp_spending_by_county/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/mnfr-wxni/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/mnfr-wxni/rows.csv", 
   "description": "Spending on In-Home Care for People with Disabilities Through the Home Services Program by County in FY2011", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,18 +12,7 @@
     }
   }, 
   "name": "IDHS Fy11-hsp-spending-by-county", 
-  "schema": {
-    "columns": [
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "spending_on_in_home_care_services_for_people_with_disabilities", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "idhs_fy11_hsp_spending_by_county"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "idhs_fy11_hsp_spending_by_county"
 }

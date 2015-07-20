@@ -1,0 +1,20 @@
+CREATE TABLE "dgs_energy_competition_state_agency_energy_consumption_annual_totals" (
+	"energy_metric"	text,
+	"dhmh"	real,
+	"msde"	real,
+	"mdta"	real,
+	"sha"	real,
+	"maa"	real,
+	"dmil"	real,
+	"msa"	real,
+	"mde"	real,
+	"dnr"	real,
+	"mva"	real,
+	"dgs"	real,
+	"dmsp"	real,
+	"dpscs"	real,
+	"mpa"	real,
+	"djs"	real,
+	"mta"	real,
+	"total"	real
+);

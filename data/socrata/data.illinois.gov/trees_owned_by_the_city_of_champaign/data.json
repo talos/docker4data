@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_trees_owned_by_the_city_of_champaign/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/dzge-uybj/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/dzge-uybj/rows.csv", 
   "description": "Data current as of November 28, 2012", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "Trees Owned by the City of Champaign", 
-  "schema": {
-    "columns": [
-      {
-        "name": "tree_species", 
-        "type": "text"
-      }, 
-      {
-        "name": "common_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "diameter_at_breast_height", 
-        "type": "real"
-      }, 
-      {
-        "name": "number_of_trunks", 
-        "type": "real"
-      }, 
-      {
-        "name": "location_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "trees_owned_by_the_city_of_champaign"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "trees_owned_by_the_city_of_champaign"
 }

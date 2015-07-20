@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_ides_laus_lwa_s_annual_average_2000_2011/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/j4e8-4cec/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/j4e8-4cec/rows.csv", 
   "description": "Annual Average Unemployment Rates by Local Workforce Area's.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,34 +12,7 @@
     }
   }, 
   "name": "IDES - LAUS LWA's Annual Average 2000-2011", 
-  "schema": {
-    "columns": [
-      {
-        "name": "area", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "text"
-      }, 
-      {
-        "name": "labor_force", 
-        "type": "text"
-      }, 
-      {
-        "name": "employed", 
-        "type": "text"
-      }, 
-      {
-        "name": "unemployed_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "unemployed_rate", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "ides_laus_lwa_s_annual_average_2000_2011"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "ides_laus_lwa_s_annual_average_2000_2011"
 }

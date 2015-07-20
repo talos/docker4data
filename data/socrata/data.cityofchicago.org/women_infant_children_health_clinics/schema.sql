@@ -1,0 +1,22 @@
+CREATE TABLE "women_infant_children_health_clinics" (
+	"site_name"	text,
+	"site_number"	real,
+	"hours_of_operation"	text,
+	"street_address"	text,
+	"city"	text,
+	"state"	text,
+	"zipcode"	text,
+	"public_health_nursing"	text,
+	"family_case_management"	text,
+	"healthy_start_program"	text,
+	"healthy_families_program"	text,
+	"wic"	text,
+	"phone_1"	text,
+	"phone_2"	text,
+	"phone_3"	text,
+	"phone_4"	text,
+	"phone_5"	text,
+	"fax_1"	text,
+	"fax_2"	text,
+	"location"	text
+);

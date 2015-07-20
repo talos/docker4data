@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofboston_public_access_fishing_locations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/9tfg-3jic/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/api/views/9tfg-3jic/rows.csv", 
   "description": "Publicly-accessible fishing locations in and around the city of Boston. Accurate as of August 2012. Please contact with updates or corrections.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,42 +12,7 @@
     }
   }, 
   "name": "Public Access Fishing Locations", 
-  "schema": {
-    "columns": [
-      {
-        "name": "site", 
-        "type": "text"
-      }, 
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "area", 
-        "type": "text"
-      }, 
-      {
-        "name": "coordinates", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_codes", 
-        "type": "text"
-      }, 
-      {
-        "name": "map_location", 
-        "type": "text"
-      }, 
-      {
-        "name": "accessibility", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "public_access_fishing_locations"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "public_access_fishing_locations"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_thruway_travel_plazas_and_parking_rest_areas/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/mj5h-8ei4/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/mj5h-8ei4/rows.csv", 
   "description": "The Travel Plazas and Parking/Rest Areas is an informational aid for travelers along the Thruway System that provides patrons with a listing of travel plazas and parking/rest areas and their locations. The csv file contains the latitude and longitude, milepost, direction of the location of the travel plaza and parking/rest area and the route name along which they are located.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "Thruway Travel Plazas and Parking/Rest Areas", 
-  "schema": {
-    "columns": [
-      {
-        "name": "title", 
-        "type": "text"
-      }, 
-      {
-        "name": "milepost", 
-        "type": "real"
-      }, 
-      {
-        "name": "route_location", 
-        "type": "text"
-      }, 
-      {
-        "name": "direction", 
-        "type": "text"
-      }, 
-      {
-        "name": "route", 
-        "type": "text"
-      }, 
-      {
-        "name": "icon_anchor", 
-        "type": "real"
-      }, 
-      {
-        "name": "tp_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "thruway_travel_plazas_and_parking_rest_areas"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "thruway_travel_plazas_and_parking_rest_areas"
 }

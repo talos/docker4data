@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_contract_catalog/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/84ih-p28j/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/views/84ih-p28j/rows.csv", 
   "description": "Information about City's authorized spending limit, contract lifetime (called inception-to-date) ordering and spending.  Contracts are visible only while active.  For the purposes of the Online Contract Catalog Flat File, a contract is a long-term (multi-year) contract for goods and services, and contracts for Construction activity. Within the City, these are referred to as Master Agreements and Central Purchase Contracts.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,122 +13,7 @@
     }
   }, 
   "name": "Contract Catalog", 
-  "schema": {
-    "columns": [
-      {
-        "name": "doc_cd", 
-        "type": "text"
-      }, 
-      {
-        "name": "doc_dept_cd", 
-        "type": "text"
-      }, 
-      {
-        "name": "doc_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "doc_vers_no", 
-        "type": "real"
-      }, 
-      {
-        "name": "doc_dscr", 
-        "type": "text"
-      }, 
-      {
-        "name": "contract_synopsis", 
-        "type": "text"
-      }, 
-      {
-        "name": "contract_contact_nm", 
-        "type": "text"
-      }, 
-      {
-        "name": "contract_contact_voice_ph_no", 
-        "type": "text"
-      }, 
-      {
-        "name": "contract_contact_email_ad", 
-        "type": "text"
-      }, 
-      {
-        "name": "ma_prch_lmt_am", 
-        "type": "real"
-      }, 
-      {
-        "name": "ma_itd_ord_am", 
-        "type": "real"
-      }, 
-      {
-        "name": "ma_do_rfed_am", 
-        "type": "real"
-      }, 
-      {
-        "name": "efbgn_dt", 
-        "type": "text"
-      }, 
-      {
-        "name": "efend_dt", 
-        "type": "text"
-      }, 
-      {
-        "name": "gnrc_po_rpt_1", 
-        "type": "real"
-      }, 
-      {
-        "name": "rpt_dscr", 
-        "type": "text"
-      }, 
-      {
-        "name": "brd_awd_dt", 
-        "type": "text"
-      }, 
-      {
-        "name": "brd_awd_no", 
-        "type": "text"
-      }, 
-      {
-        "name": "cat_dscr", 
-        "type": "text"
-      }, 
-      {
-        "name": "doc_vend_ln_no", 
-        "type": "real"
-      }, 
-      {
-        "name": "vend_cust_cd", 
-        "type": "text"
-      }, 
-      {
-        "name": "lgl_nm", 
-        "type": "text"
-      }, 
-      {
-        "name": "alias_nm", 
-        "type": "text"
-      }, 
-      {
-        "name": "so_doc_cd", 
-        "type": "text"
-      }, 
-      {
-        "name": "so_doc_dept_cd", 
-        "type": "text"
-      }, 
-      {
-        "name": "so_doc_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "today", 
-        "type": "text"
-      }, 
-      {
-        "name": "row_key", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "contract_catalog"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "contract_catalog"
 }

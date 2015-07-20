@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofboston_cori_vendor_report/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/mp5y-4efk/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/api/views/mp5y-4efk/rows.csv", 
   "description": "The CORI Vendor Report is a report of Vendors that have Contracts for $5,000 or greater.\n\nVendors are listed more than once where the vendor has more than one contact.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,82 +13,7 @@
     }
   }, 
   "name": "CORI Vendor Report", 
-  "schema": {
-    "columns": [
-      {
-        "name": "vendor", 
-        "type": "text"
-      }, 
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "address_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "address_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "address_3", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "contact_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "contact_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "contact_title", 
-        "type": "text"
-      }, 
-      {
-        "name": "internet", 
-        "type": "text"
-      }, 
-      {
-        "name": "email_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone_type_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone_number_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone_extension_1", 
-        "type": "real"
-      }, 
-      {
-        "name": "phone_type_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone_number_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone_extension_2", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "cori_vendor_report"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "cori_vendor_report"
 }

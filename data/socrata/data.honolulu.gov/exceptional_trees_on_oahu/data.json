@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_honolulu_exceptional_trees_on_oahu/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.honolulu.gov/api/views/84fd-3fzf/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.honolulu.gov/api/views/84fd-3fzf/rows.csv", 
   "description": "City & County exceptional tree database", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "Exceptional Trees On Oahu", 
-  "schema": {
-    "columns": [
-      {
-        "name": "tmk", 
-        "type": "text"
-      }, 
-      {
-        "name": "species_and_number_of_trees", 
-        "type": "text"
-      }, 
-      {
-        "name": "common_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.honolulu.gov", 
-  "tableName": "exceptional_trees_on_oahu"
+  "schema": "socrata/data.honolulu.gov", 
+  "status": "needs review", 
+  "table": "exceptional_trees_on_oahu"
 }

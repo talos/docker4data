@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/estado_de_los_derechos_de_voto_y_las_suscripciones_y_contribuciones_de_la_aif/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/a4aj-xjwk/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/finances.worldbank.org/api/views/a4aj-xjwk/rows.csv", 
   "description": "Proporciona datos sobre las suscripciones y contribuciones de los miembros.. La informaci\u00f3n m\u00e1s reciente sobre derechos de voto est\u00e1 disponible en: http://go.worldbank.org/VKVDQDUC10. Antes de la entrada en vigor, solo una parte del valor correspondiente a instrumentos de compromiso recibidos \u2014seg\u00fan se especifica en la resoluci\u00f3n sobre la reposici\u00f3n\u2014 se registra como suscripciones y contribuciones comprometidas. El resto del valor de los instrumentos de compromiso recibidos se registrar\u00e1 como suscripciones y contribuciones comprometidas luego de la entrada en vigor.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Estado de los derechos de voto y las suscripciones y contribuciones de la AIF", 
-  "schema": {
-    "columns": [
-      {
-        "name": "member_country", 
-        "type": "text"
-      }, 
-      {
-        "name": "membership", 
-        "type": "text"
-      }, 
-      {
-        "name": "number_of_votes", 
-        "type": "real"
-      }, 
-      {
-        "name": "percentage_of_total_votes", 
-        "type": "real"
-      }, 
-      {
-        "name": "fecha_de_actualizaci_n", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/finances.worldbank.org", 
-  "tableName": "estado_de_los_derechos_de_voto_y_las_suscripciones_y_contribuciones_de_la_aif"
+  "schema": "socrata/finances.worldbank.org", 
+  "status": "needs review", 
+  "table": "estado_de_los_derechos_de_voto_y_las_suscripciones_y_contribuciones_de_la_aif"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_fee_charges/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/cp6j-7bjj/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/cp6j-7bjj/rows.csv", 
   "description": "Contains information about fees assessed against properties by HPD pursuant to the Housing Maintenance Code.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,86 +13,7 @@
     }
   }, 
   "name": "Fee Charges", 
-  "schema": {
-    "columns": [
-      {
-        "name": "feeid", 
-        "type": "real"
-      }, 
-      {
-        "name": "buildingid", 
-        "type": "real"
-      }, 
-      {
-        "name": "boroid", 
-        "type": "real"
-      }, 
-      {
-        "name": "boro", 
-        "type": "text"
-      }, 
-      {
-        "name": "housenumber", 
-        "type": "text"
-      }, 
-      {
-        "name": "streetname", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip", 
-        "type": "text"
-      }, 
-      {
-        "name": "block", 
-        "type": "real"
-      }, 
-      {
-        "name": "lot", 
-        "type": "real"
-      }, 
-      {
-        "name": "lifecycle", 
-        "type": "text"
-      }, 
-      {
-        "name": "feetypeid", 
-        "type": "real"
-      }, 
-      {
-        "name": "feetype", 
-        "type": "text"
-      }, 
-      {
-        "name": "feesourcetypeid", 
-        "type": "real"
-      }, 
-      {
-        "name": "feesourcetype", 
-        "type": "text"
-      }, 
-      {
-        "name": "feesourceid", 
-        "type": "real"
-      }, 
-      {
-        "name": "feeissueddate", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "feeamount", 
-        "type": "real"
-      }, 
-      {
-        "name": "dofaccounttype", 
-        "type": "text"
-      }, 
-      {
-        "name": "doftransferdate", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "fee_charges"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "fee_charges"
 }

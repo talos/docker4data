@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofboston_current_active_contracts/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/6yws-tqu3/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/api/views/6yws-tqu3/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -15,62 +11,7 @@
     }
   }, 
   "name": "Current Active Contracts", 
-  "schema": {
-    "columns": [
-      {
-        "name": "vendor_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "vendor_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "contract_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "contract_descr", 
-        "type": "text"
-      }, 
-      {
-        "name": "begin_dt", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "expire_dt", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "max_amt", 
-        "type": "real"
-      }, 
-      {
-        "name": "dept_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "dept_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendor_address_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "address_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "st", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "current_active_contracts"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "current_active_contracts"
 }

@@ -1,0 +1,23 @@
+CREATE TABLE "correctional_institutions" (
+	"name"	text,
+	"telephone"	text,
+	"address"	text,
+	"address2"	text,
+	"city"	text,
+	"state"	text,
+	"zip"	real,
+	"zipp4"	real,
+	"county"	text,
+	"fips"	real,
+	"directions"	text,
+	"naicsdescr"	text,
+	"x"	real,
+	"y"	real,
+	"factype"	text,
+	"agency"	text,
+	"inmate_men"	text,
+	"inmate_wom"	text,
+	"inmate_juv"	text,
+	"inmate_coe"	text,
+	"location"	text
+);

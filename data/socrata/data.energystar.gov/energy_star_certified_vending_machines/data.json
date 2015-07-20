@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_energystar_energy_star_certified_vending_machines/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.energystar.gov/api/views/j624-u8ux/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.energystar.gov/api/views/j624-u8ux/rows.csv", 
   "description": "Certified models meet all ENERGY STAR requirements as listed in the Version 3.0 ENERGY STAR Program Requirements for Refrigerated Beverage Vending Machines that are effective as of March 1, 2013. A detailed listing of key efficiency criteria are available at", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,94 +12,7 @@
     }
   }, 
   "name": "ENERGY STAR Certified Vending Machines", 
-  "schema": {
-    "columns": [
-      {
-        "name": "pd_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "energy_star_partner", 
-        "type": "text"
-      }, 
-      {
-        "name": "model_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "model_number_or_rebuilt_model_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "additional_model_information", 
-        "type": "text"
-      }, 
-      {
-        "name": "product_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "original_equipment_manufacturer_oem", 
-        "type": "text"
-      }, 
-      {
-        "name": "oem_model_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "oem_model_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "door_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "machine_use_designation", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendible_capacity", 
-        "type": "real"
-      }, 
-      {
-        "name": "energy_consumption_kwh_day", 
-        "type": "real"
-      }, 
-      {
-        "name": "refrigerated_volume_cubic_feet", 
-        "type": "real"
-      }, 
-      {
-        "name": "energy_saving_component_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "energy_saving_kit_or_component_oem", 
-        "type": "text"
-      }, 
-      {
-        "name": "energy_saving_kit_or_component_model_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "date_available_on_market", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "date_qualified", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "markets", 
-        "type": "text"
-      }, 
-      {
-        "name": "energy_star_model_identifier", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.energystar.gov", 
-  "tableName": "energy_star_certified_vending_machines"
+  "schema": "socrata/data.energystar.gov", 
+  "status": "needs review", 
+  "table": "energy_star_certified_vending_machines"
 }

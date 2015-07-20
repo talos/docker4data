@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/greenbook/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/mdcw-n682/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/mdcw-n682/rows.csv", 
   "description": "The Green Book Online is a fully searchable database which gives New Yorkers the opportunity to search for the agencies, offices, boards and commissions that keep our City running. It includes listings for New York City, County, Courts, and New York State government offices.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,102 +13,7 @@
     }
   }, 
   "name": "Greenbook", 
-  "schema": {
-    "columns": [
-      {
-        "name": "agency_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "agency_acronym", 
-        "type": "text"
-      }, 
-      {
-        "name": "agency_website", 
-        "type": "text"
-      }, 
-      {
-        "name": "first_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "last_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "m_i", 
-        "type": "text"
-      }, 
-      {
-        "name": "name_suffix", 
-        "type": "text"
-      }, 
-      {
-        "name": "office_title", 
-        "type": "text"
-      }, 
-      {
-        "name": "division_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "parent_division", 
-        "type": "text"
-      }, 
-      {
-        "name": "grand_parent_division", 
-        "type": "text"
-      }, 
-      {
-        "name": "great_grand_parentdivision", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "fax_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "fax_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "agency_primary_phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "division_primary_phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "section", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "greenbook"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "greenbook"
 }

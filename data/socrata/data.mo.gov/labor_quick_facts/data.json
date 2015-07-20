@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_mo_labor_quick_facts/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.mo.gov/api/views/ymz7-guyk/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.mo.gov/api/views/ymz7-guyk/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -14,34 +10,7 @@
     }
   }, 
   "name": "Labor Quick Facts", 
-  "schema": {
-    "columns": [
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "unemployment_rate", 
-        "type": "text"
-      }, 
-      {
-        "name": "initial_unemployment_claims_filed", 
-        "type": "real"
-      }, 
-      {
-        "name": "minimum_wage", 
-        "type": "real"
-      }, 
-      {
-        "name": "potential_osha_fines_avoided_by_missouri_businesses", 
-        "type": "real"
-      }, 
-      {
-        "name": "workers_compensation_injuries_filed", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.mo.gov", 
-  "tableName": "labor_quick_facts"
+  "schema": "socrata/data.mo.gov", 
+  "status": "needs review", 
+  "table": "labor_quick_facts"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_kingcounty_pet_data_2015_spay_neuter_surgeries/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/yrh9-psxs/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.kingcounty.gov/api/views/yrh9-psxs/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -14,18 +10,7 @@
     }
   }, 
   "name": "Pet Data - 2015 Spay/Neuter Surgeries", 
-  "schema": {
-    "columns": [
-      {
-        "name": "month", 
-        "type": "text"
-      }, 
-      {
-        "name": "animals_spayed_neutered", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.kingcounty.gov", 
-  "tableName": "pet_data_2015_spay_neuter_surgeries"
+  "schema": "socrata/data.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "pet_data_2015_spay_neuter_surgeries"
 }

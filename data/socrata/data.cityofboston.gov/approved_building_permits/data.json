@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofboston_approved_building_permits/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/msk6-43c6/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/api/views/msk6-43c6/rows.csv", 
   "description": "Data of approved building/construction permits", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,94 +13,7 @@
     }
   }, 
   "name": "Approved Building Permits", 
-  "schema": {
-    "columns": [
-      {
-        "name": "permitnumber", 
-        "type": "text"
-      }, 
-      {
-        "name": "worktype", 
-        "type": "text"
-      }, 
-      {
-        "name": "permittypedescr", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "comments", 
-        "type": "text"
-      }, 
-      {
-        "name": "applicant", 
-        "type": "text"
-      }, 
-      {
-        "name": "declared_valuation", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_fees", 
-        "type": "real"
-      }, 
-      {
-        "name": "issued_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "expiration_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "status", 
-        "type": "text"
-      }, 
-      {
-        "name": "owner", 
-        "type": "text"
-      }, 
-      {
-        "name": "occupancytype", 
-        "type": "text"
-      }, 
-      {
-        "name": "sq_feet", 
-        "type": "real"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip", 
-        "type": "text"
-      }, 
-      {
-        "name": "property_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "parcel_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "approved_building_permits"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "approved_building_permits"
 }

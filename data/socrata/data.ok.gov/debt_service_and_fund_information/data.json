@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_debt_service_and_fund_information/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/c3v4-6dr6/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/c3v4-6dr6/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -14,22 +10,7 @@
     }
   }, 
   "name": "Debt Service and Fund Information", 
-  "schema": {
-    "columns": [
-      {
-        "name": "bond_series", 
-        "type": "text"
-      }, 
-      {
-        "name": "agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "fund", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "debt_service_and_fund_information"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "debt_service_and_fund_information"
 }

@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/salmon_recovery_region_boundaries/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/geospatial/eavu-b2qa", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.wa.gov/api/geospatial/eavu-b2qa", 
   "description": "Washington State salmon recovery region boundaries.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Salmon Recovery Region Boundaries", 
-  "schema": {}, 
-  "schemaName": "socrata/data.wa.gov", 
-  "tableName": "salmon_recovery_region_boundaries"
+  "schema": "socrata/data.wa.gov", 
+  "status": "needs review", 
+  "table": "salmon_recovery_region_boundaries"
 }

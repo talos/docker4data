@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_energy_star_portfolio_average_rating/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/ts5i-3baw/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/ts5i-3baw/rows.csv", 
   "description": "The average Energy Star rating at the start of each fiscal year (beginning on July 1, 2008) for the buildings managed by the Office of Management and Enterprise Services (OMES) Division of Capital Assets Management (DCAM).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,18 +13,7 @@
     }
   }, 
   "name": "Energy Star Portfolio Average Rating", 
-  "schema": {
-    "columns": [
-      {
-        "name": "state_fiscal_year", 
-        "type": "text"
-      }, 
-      {
-        "name": "energy_star_rating", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "energy_star_portfolio_average_rating"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "energy_star_portfolio_average_rating"
 }

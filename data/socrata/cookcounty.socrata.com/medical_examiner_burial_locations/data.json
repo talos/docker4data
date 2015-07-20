@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cookcountycom_medical_examiner_burial_locations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/cookcounty.socrata.com/api/views/hc2f-evny/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/cookcounty.socrata.com/api/views/hc2f-evny/rows.csv", 
   "description": "The following page lists the final disposition sites of the indigents buried by the Cook County Medical Examiner\u2019s Office. Homewood Memorial Gardens Cemetery provides Latitude and Longitude coordinates. Mount Olivet provides Grave, Lot, and Block locations.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,66 +13,6 @@
     }
   }, 
   "name": "Medical Examiner - Burial Locations", 
-  "schema": {
-    "columns": [
-      {
-        "name": "case", 
-        "type": "text"
-      }, 
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "age", 
-        "type": "real"
-      }, 
-      {
-        "name": "sex", 
-        "type": "text"
-      }, 
-      {
-        "name": "race", 
-        "type": "text"
-      }, 
-      {
-        "name": "date_of_death", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "burial_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "cemetery", 
-        "type": "text"
-      }, 
-      {
-        "name": "cemetery_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "grave", 
-        "type": "real"
-      }, 
-      {
-        "name": "lot", 
-        "type": "real"
-      }, 
-      {
-        "name": "block", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/cookcounty.socrata.com", 
-  "tableName": "medical_examiner_burial_locations"
+  "schema": "socrata/cookcounty.socrata.com", 
+  "table": "medical_examiner_burial_locations"
 }

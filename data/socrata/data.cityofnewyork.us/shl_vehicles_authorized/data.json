@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_shl_vehicles_authorized/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/btfj-je3i/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/btfj-je3i/rows.csv", 
   "description": "This list contains information on the status of current SHL vehicles authorized to operate in New York City.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,58 +13,7 @@
     }
   }, 
   "name": "SHL Vehicles Authorized", 
-  "schema": {
-    "columns": [
-      {
-        "name": "license_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "name_of_licensee", 
-        "type": "text"
-      }, 
-      {
-        "name": "license_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "dmv_plate_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "affiliated_vehicle_license_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "affiliated_base_license_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "affiliated_base_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "base_phone_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "base_website", 
-        "type": "text"
-      }, 
-      {
-        "name": "base_location", 
-        "type": "text"
-      }, 
-      {
-        "name": "wav_non_wav", 
-        "type": "text"
-      }, 
-      {
-        "name": "certification_date", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "shl_vehicles_authorized"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "shl_vehicles_authorized"
 }

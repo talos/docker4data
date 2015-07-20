@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_community_submitted_events/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/t5mx-wchj/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/t5mx-wchj/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -14,74 +10,7 @@
     }
   }, 
   "name": "Community Submitted Events", 
-  "schema": {
-    "columns": [
-      {
-        "name": "event", 
-        "type": "text"
-      }, 
-      {
-        "name": "start_time", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "end_time", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "building_name_room_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "website", 
-        "type": "text"
-      }, 
-      {
-        "name": "event_description_agenda", 
-        "type": "text"
-      }, 
-      {
-        "name": "sponsoring_organization", 
-        "type": "text"
-      }, 
-      {
-        "name": "event_contact", 
-        "type": "text"
-      }, 
-      {
-        "name": "event_contact_position_department", 
-        "type": "text"
-      }, 
-      {
-        "name": "event_contact_phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "event_contact_email", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "event_info_url", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "community_submitted_events"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "community_submitted_events"
 }

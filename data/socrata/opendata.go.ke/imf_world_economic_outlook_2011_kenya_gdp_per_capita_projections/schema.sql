@@ -1,0 +1,20 @@
+CREATE TABLE "imf_world_economic_outlook_2011_kenya_gdp_per_capita_projections" (
+	"gdp_per_capita"	text,
+	"_2000"	real,
+	"_2001"	real,
+	"_2002"	real,
+	"_2003"	real,
+	"_2004"	real,
+	"_2005"	real,
+	"_2006"	real,
+	"_2007"	real,
+	"_2008"	real,
+	"_2009"	real,
+	"_2010"	real,
+	"_2011"	real,
+	"_2012"	real,
+	"_2013"	real,
+	"_2014"	real,
+	"_2015"	real,
+	"_2016"	real
+);

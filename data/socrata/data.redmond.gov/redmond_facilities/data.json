@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_redmond_redmond_facilities/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.redmond.gov/api/views/7zus-64fj/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.redmond.gov/api/views/7zus-64fj/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -14,22 +10,7 @@
     }
   }, 
   "name": "Redmond Facilities", 
-  "schema": {
-    "columns": [
-      {
-        "name": "building_names", 
-        "type": "text"
-      }, 
-      {
-        "name": "facility_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.redmond.gov", 
-  "tableName": "redmond_facilities"
+  "schema": "socrata/data.redmond.gov", 
+  "status": "needs review", 
+  "table": "redmond_facilities"
 }

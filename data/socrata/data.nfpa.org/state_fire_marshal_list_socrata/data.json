@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_nfpa_state_fire_marshal_list_socrata/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.nfpa.org/api/views/i85h-825d/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.nfpa.org/api/views/i85h-825d/rows.csv", 
   "description": "NFPA is providing customers with an easy to use graphical representation of the State Fire Marshals across North America.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "State Fire Marshal List- Socrata", 
-  "schema": {
-    "columns": [
-      {
-        "name": "title", 
-        "type": "text"
-      }, 
-      {
-        "name": "full_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "organization", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "fax", 
-        "type": "text"
-      }, 
-      {
-        "name": "email_address", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.nfpa.org", 
-  "tableName": "state_fire_marshal_list_socrata"
+  "schema": "socrata/data.nfpa.org", 
+  "status": "needs review", 
+  "table": "state_fire_marshal_list_socrata"
 }

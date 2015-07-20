@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_baltimorecity_one_day_liquor_licenses/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/bcxw-m234/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/bcxw-m234/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -15,58 +11,7 @@
     }
   }, 
   "name": "One Day Liquor Licenses", 
-  "schema": {
-    "columns": [
-      {
-        "name": "issuedate", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "startdate", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "enddate", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "certificatenumber", 
-        "type": "text"
-      }, 
-      {
-        "name": "fee", 
-        "type": "real"
-      }, 
-      {
-        "name": "nponame", 
-        "type": "text"
-      }, 
-      {
-        "name": "locname", 
-        "type": "text"
-      }, 
-      {
-        "name": "licenseclass", 
-        "type": "text"
-      }, 
-      {
-        "name": "subclass", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "addrstreet", 
-        "type": "text"
-      }, 
-      {
-        "name": "addrzip", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.baltimorecity.gov", 
-  "tableName": "one_day_liquor_licenses"
+  "schema": "socrata/data.baltimorecity.gov", 
+  "status": "needs review", 
+  "table": "one_day_liquor_licenses"
 }

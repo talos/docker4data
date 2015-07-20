@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sunlightlabs_eshelman_contributions/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sunlightlabs.com/api/views/e7y9-85kg/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sunlightlabs.com/api/views/e7y9-85kg/rows.csv", 
   "description": "Campaign contributions by Fred Eshelman", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,62 +13,7 @@
     }
   }, 
   "name": "Eshelman Contributions", 
-  "schema": {
-    "columns": [
-      {
-        "name": "cycle", 
-        "type": "real"
-      }, 
-      {
-        "name": "amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "contributor_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "contributor_occupation", 
-        "type": "text"
-      }, 
-      {
-        "name": "contributor_employer", 
-        "type": "text"
-      }, 
-      {
-        "name": "organization_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "parent_organization_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "recipient_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "recipient_party", 
-        "type": "text"
-      }, 
-      {
-        "name": "recipient_state", 
-        "type": "text"
-      }, 
-      {
-        "name": "seat", 
-        "type": "text"
-      }, 
-      {
-        "name": "seat_held", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sunlightlabs.com", 
-  "tableName": "eshelman_contributions"
+  "schema": "socrata/data.sunlightlabs.com", 
+  "status": "needs review", 
+  "table": "eshelman_contributions"
 }

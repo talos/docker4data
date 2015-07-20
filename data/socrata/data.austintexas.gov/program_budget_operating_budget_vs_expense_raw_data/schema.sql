@@ -1,0 +1,21 @@
+CREATE TABLE "program_budget_operating_budget_vs_expense_raw_data" (
+	"budget_fiscal_year"	real,
+	"thru_quarter"	text,
+	"dept_rollup"	real,
+	"dept_rollup_name"	text,
+	"department_code"	real,
+	"department_name"	text,
+	"fund_code"	text,
+	"fund_name"	text,
+	"program_code"	text,
+	"program_name"	text,
+	"activity_code"	text,
+	"activity_name"	text,
+	"unit_code"	text,
+	"unit_name"	text,
+	"expense_code"	text,
+	"expense_name"	text,
+	"budget"	text,
+	"expenditures"	text,
+	"key"	text
+);

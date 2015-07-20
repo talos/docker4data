@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/chicago_public_schools_school_locations_2014_2015_map/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/geospatial/3fhj-xtn5", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/geospatial/3fhj-xtn5", 
   "description": "Locations of schools in the Chicago Public Schools district for school year 2014-2015.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,9 +14,7 @@
     }
   }, 
   "name": "Chicago Public Schools - School Locations (2014- 2015) - Map", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "chicago_public_schools_school_locations_2014_2015_map"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "chicago_public_schools_school_locations_2014_2015_map"
 }

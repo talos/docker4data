@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_montgomerycountymd_2014_election_early_voting_centers/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/2bng-h6xm/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/2bng-h6xm/rows.csv", 
   "description": "2014 early voting locations in Montgomery County as selected October 21, 2013, subject to approval by the Maryland State Board of Elections. For more information, see www.777vote.org.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "2014 Election - Early Voting Centers", 
-  "schema": {
-    "columns": [
-      {
-        "name": "site_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "building_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.montgomerycountymd.gov", 
-  "tableName": "2014_election_early_voting_centers"
+  "schema": "socrata/data.montgomerycountymd.gov", 
+  "status": "needs review", 
+  "table": "2014_election_early_voting_centers"
 }

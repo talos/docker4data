@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_mo_local_severe_weather_warning_systems_in_missouri/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.mo.gov/api/views/n59h-ggai/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.mo.gov/api/views/n59h-ggai/rows.csv", 
   "description": "List of 'Severe Weather Alert Systems' throughout Missouri provided by local governments, media outlets, and other sources.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "Local Severe Weather Warning Systems in Missouri", 
-  "schema": {
-    "columns": [
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "web_site", 
-        "type": "text"
-      }, 
-      {
-        "name": "notifications", 
-        "type": "text"
-      }, 
-      {
-        "name": "user_fees", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.mo.gov", 
-  "tableName": "local_severe_weather_warning_systems_in_missouri"
+  "schema": "socrata/data.mo.gov", 
+  "status": "needs review", 
+  "table": "local_severe_weather_warning_systems_in_missouri"
 }

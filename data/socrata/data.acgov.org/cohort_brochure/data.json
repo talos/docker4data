@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/cohort_brochure/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.acgov.org/download/b5g4-yu5mapplication/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.acgov.org/download/b5g4-yu5m/application/pdf", 
   "description": "Supporting document for EMS Corps Cohorts 1-5.xlsx", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,9 +13,7 @@
     }
   }, 
   "name": "Cohort Brochure", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.acgov.org", 
-  "tableName": "cohort_brochure"
+  "schema": "socrata/data.acgov.org", 
+  "status": "needs review", 
+  "table": "cohort_brochure"
 }

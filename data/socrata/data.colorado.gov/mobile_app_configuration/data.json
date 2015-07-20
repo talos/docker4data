@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_mobile_app_configuration/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/273u-phzh/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/api/views/273u-phzh/rows.csv", 
   "description": "Configuration file for the demonstration mobile app.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,38 +12,7 @@
     }
   }, 
   "name": "Mobile App Configuration", 
-  "schema": {
-    "columns": [
-      {
-        "name": "dataset_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "dataset_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "sequence", 
-        "type": "real"
-      }, 
-      {
-        "name": "effective_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "expiration_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "development_flag", 
-        "type": "text"
-      }, 
-      {
-        "name": "properties", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "mobile_app_configuration"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "mobile_app_configuration"
 }

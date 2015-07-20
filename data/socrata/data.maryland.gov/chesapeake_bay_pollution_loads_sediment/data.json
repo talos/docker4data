@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_chesapeake_bay_pollution_loads_sediment/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/x5pe-335m/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/x5pe-335m/rows.csv", 
   "description": "Sediment pollution from contributing sources in Bay watershed, tons per year. 1985, 2007, and 2009 - 2012 progress; 2017 and 2025 target loads. Target loads for sediment were not broken out to a scale finer than major basin.  Data source: EPA Phase 5.3.2 Watershed Model.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,70 +13,7 @@
     }
   }, 
   "name": "Chesapeake Bay Pollution Loads - Sediment", 
-  "schema": {
-    "columns": [
-      {
-        "name": "land_river_segment", 
-        "type": "text"
-      }, 
-      {
-        "name": "fips", 
-        "type": "text"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "trib_basin", 
-        "type": "text"
-      }, 
-      {
-        "name": "major_basin", 
-        "type": "text"
-      }, 
-      {
-        "name": "source_sector", 
-        "type": "text"
-      }, 
-      {
-        "name": "_1985", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2007", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2009", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2010", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2011", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2012", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2013", 
-        "type": "real"
-      }, 
-      {
-        "name": "ts_target_2017", 
-        "type": "real"
-      }, 
-      {
-        "name": "ts_target_2025", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "chesapeake_bay_pollution_loads_sediment"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "chesapeake_bay_pollution_loads_sediment"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_public_charging_stations_in_hawaii/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/95x5-qrxh/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/95x5-qrxh/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -15,62 +11,7 @@
     }
   }, 
   "name": "Public Charging Stations in Hawaii", 
-  "schema": {
-    "columns": [
-      {
-        "name": "island", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "facility", 
-        "type": "text"
-      }, 
-      {
-        "name": "parking_lot", 
-        "type": "text"
-      }, 
-      {
-        "name": "charger_location", 
-        "type": "text"
-      }, 
-      {
-        "name": "station_availability_hours", 
-        "type": "text"
-      }, 
-      {
-        "name": "number_of_chargers", 
-        "type": "real"
-      }, 
-      {
-        "name": "number_of_ports", 
-        "type": "real"
-      }, 
-      {
-        "name": "charger_level", 
-        "type": "real"
-      }, 
-      {
-        "name": "charge_fee", 
-        "type": "text"
-      }, 
-      {
-        "name": "manufacturer", 
-        "type": "text"
-      }, 
-      {
-        "name": "notes", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "public_charging_stations_in_hawaii"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "public_charging_stations_in_hawaii"
 }

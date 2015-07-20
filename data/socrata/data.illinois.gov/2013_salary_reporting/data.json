@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_2013_salary_reporting/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/kfq4-b2hu/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/kfq4-b2hu/rows.csv", 
   "description": "2013 employee total compensation", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,82 +12,7 @@
     }
   }, 
   "name": "2013 Salary Reporting", 
-  "schema": {
-    "columns": [
-      {
-        "name": "last_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "first_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "current_job_title", 
-        "type": "text"
-      }, 
-      {
-        "name": "department_location", 
-        "type": "text"
-      }, 
-      {
-        "name": "_2012_pay", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2012_overtime_pay", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2012_total_pay", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2013_budgeted_salary", 
-        "type": "real"
-      }, 
-      {
-        "name": "health_ins", 
-        "type": "real"
-      }, 
-      {
-        "name": "imrf", 
-        "type": "real"
-      }, 
-      {
-        "name": "fica_med", 
-        "type": "real"
-      }, 
-      {
-        "name": "police_pension", 
-        "type": "real"
-      }, 
-      {
-        "name": "fire_pension", 
-        "type": "real"
-      }, 
-      {
-        "name": "workers_comp", 
-        "type": "real"
-      }, 
-      {
-        "name": "unemp", 
-        "type": "real"
-      }, 
-      {
-        "name": "life_ins", 
-        "type": "real"
-      }, 
-      {
-        "name": "parking", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2013_grand_total_salaries_and_benefits", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "2013_salary_reporting"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "2013_salary_reporting"
 }

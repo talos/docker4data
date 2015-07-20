@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_vehicle_snowmobile_and_boat_registrations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/w4pv-hbkt/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/w4pv-hbkt/rows.csv", 
   "description": "This dataset contains the file of vehicle, snowmobile and boat registrations in NYS. Expired registrations are excluded. Records that have a scofflaw, revocation and/or suspension are included with indicators specifying this.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,90 +13,7 @@
     }
   }, 
   "name": "Vehicle, Snowmobile, and Boat Registrations", 
-  "schema": {
-    "columns": [
-      {
-        "name": "record_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "vin", 
-        "type": "text"
-      }, 
-      {
-        "name": "registration_class", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip", 
-        "type": "text"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "model_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "make", 
-        "type": "text"
-      }, 
-      {
-        "name": "body_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "fuel_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "unladen_weight", 
-        "type": "real"
-      }, 
-      {
-        "name": "maximum_gross_weight", 
-        "type": "real"
-      }, 
-      {
-        "name": "passengers", 
-        "type": "real"
-      }, 
-      {
-        "name": "reg_valid_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "reg_expiration_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "color", 
-        "type": "text"
-      }, 
-      {
-        "name": "scofflaw_indicator", 
-        "type": "text"
-      }, 
-      {
-        "name": "suspension_indicator", 
-        "type": "text"
-      }, 
-      {
-        "name": "revocation_indicator", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "vehicle_snowmobile_and_boat_registrations"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "vehicle_snowmobile_and_boat_registrations"
 }

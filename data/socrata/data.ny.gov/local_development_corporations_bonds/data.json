@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_local_development_corporations_bonds/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/9kfh-uzu3/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/9kfh-uzu3/rows.csv", 
   "description": "The dataset consists of 3 years of bonds data reported by Local Development Corporations, including the recipient information, amounts and other data related to the bonds.  Public authorities are required by Section 2800 of Public Authorities Law to submit annual reports to the Authorities Budget Office that include bonds data. Local development corporations are required to report information on the projects they support and how those approved projects are financed (either through grants, loans, or bonds).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,86 +13,7 @@
     }
   }, 
   "name": "Local Development Corporations Bonds", 
-  "schema": {
-    "columns": [
-      {
-        "name": "authority_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "fiscal_year_end_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "bonds", 
-        "type": "text"
-      }, 
-      {
-        "name": "recipient_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "recipient_city", 
-        "type": "text"
-      }, 
-      {
-        "name": "recipient_state", 
-        "type": "text"
-      }, 
-      {
-        "name": "recipient_postal_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "amount_issued", 
-        "type": "real"
-      }, 
-      {
-        "name": "date_issued", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "interest_rate", 
-        "type": "real"
-      }, 
-      {
-        "name": "expected_year_retired", 
-        "type": "real"
-      }, 
-      {
-        "name": "principal_retired_during_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "principal_retired_at_start_of_fiscal_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "amount_outstanding", 
-        "type": "real"
-      }, 
-      {
-        "name": "bond_purpose", 
-        "type": "text"
-      }, 
-      {
-        "name": "new_jobs", 
-        "type": "text"
-      }, 
-      {
-        "name": "jobs_planned", 
-        "type": "real"
-      }, 
-      {
-        "name": "jobs_created", 
-        "type": "real"
-      }, 
-      {
-        "name": "fully_retired", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "local_development_corporations_bonds"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "local_development_corporations_bonds"
 }

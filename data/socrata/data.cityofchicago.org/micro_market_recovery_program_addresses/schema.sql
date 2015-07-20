@@ -1,0 +1,23 @@
+CREATE TABLE "micro_market_recovery_program_addresses" (
+	"mmrp_zone"	text,
+	"street_number"	real,
+	"pre_direction"	text,
+	"street_name"	text,
+	"suffix"	text,
+	"post_direction"	text,
+	"zip_code"	real,
+	"community_area"	real,
+	"ward"	real,
+	"fire_district"	text,
+	"police_district"	real,
+	"census_tract"	real,
+	"tif_zone"	text,
+	"x_coord"	real,
+	"y_coord"	real,
+	"latitude"	real,
+	"longitude"	real,
+	"central_business_district"	text,
+	"address_key"	real,
+	"address_grouping_key"	real,
+	"location"	text
+);

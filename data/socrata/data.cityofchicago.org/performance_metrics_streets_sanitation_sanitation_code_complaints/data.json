@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/performance_metrics_streets_sanitation_sanitation_code_complaints/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/64yp-nqnb/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/64yp-nqnb/rows.csv", 
   "description": "The Department of Streets and Sanitation (DSS) investigates and remedies reported violations of Chicago\u2019s sanitation code. Residents may request service for violations such as overflowing dumpsters and garbage in the alley. This metric tracks the average number of days the DSS takes to complete sanitation code violation requests per week. Median days to complete requests as well as total number of requests fulfilled per week are available by mousing over columns. Currently the performance target for completing sanitation code violation requests is 3 days. For more information on sanitation code complaints, see https://data.cityofchicago.org/d/me59-5fac", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Performance Metrics - Streets & Sanitation - Sanitation Code Complaints", 
-  "schema": {
-    "columns": [
-      {
-        "name": "week", 
-        "type": "text"
-      }, 
-      {
-        "name": "average_days_to_complete_sanitation_code_requests", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_completed_requests", 
-        "type": "real"
-      }, 
-      {
-        "name": "median_days_to_repond_to_sanitation_code_complaint_request", 
-        "type": "real"
-      }, 
-      {
-        "name": "target_response_time_days_", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "performance_metrics_streets_sanitation_sanitation_code_complaints"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "performance_metrics_streets_sanitation_sanitation_code_complaints"
 }

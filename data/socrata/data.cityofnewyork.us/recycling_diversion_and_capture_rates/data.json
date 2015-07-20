@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_recycling_diversion_and_capture_rates/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/gaq9-z3hz/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/gaq9-z3hz/rows.csv", 
   "description": "For each Community District, its Recycling Diversion rate (percentage of total municipal solid waste collected by the Department of Sanitation (DSNY that is disposed of by recycling) and Capture Rate (% of total Paper or Metal/Glass/Plastic in the waste stream that is disposed of by recycling).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "Recycling Diversion and Capture Rates", 
-  "schema": {
-    "columns": [
-      {
-        "name": "_zone", 
-        "type": "text"
-      }, 
-      {
-        "name": "district", 
-        "type": "text"
-      }, 
-      {
-        "name": "fiscal_month_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "fiscal_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "month_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "diversion_rate_total_total_recycling_total_waste_", 
-        "type": "real"
-      }, 
-      {
-        "name": "capture_rate_paper_total_paper_max_paper_", 
-        "type": "real"
-      }, 
-      {
-        "name": "capture_rate_mgp_total_mgp_max_mgp_", 
-        "type": "real"
-      }, 
-      {
-        "name": "capture_rate_total_total_recycling_leaves_recycling_max_paper_max_mgp_x100", 
-        "type": "real"
-      }, 
-      {
-        "name": "report_version", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "recycling_diversion_and_capture_rates"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "recycling_diversion_and_capture_rates"
 }

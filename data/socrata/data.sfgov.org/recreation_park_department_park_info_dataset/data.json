@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_recreation_park_department_park_info_dataset/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/z76i-7s65/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sfgov.org/api/views/z76i-7s65/rows.csv", 
   "description": "The following data-set is from the Recreation and Park Departments Master Property database. It list all Parks, Playgrounds, and Stadiums. This master list also contains the Park Service Area Manager along with their individual contact information.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,58 +13,7 @@
     }
   }, 
   "name": "Recreation & Park Department Park Info Dataset", 
-  "schema": {
-    "columns": [
-      {
-        "name": "parkname", 
-        "type": "text"
-      }, 
-      {
-        "name": "parktype", 
-        "type": "text"
-      }, 
-      {
-        "name": "parkservicearea", 
-        "type": "text"
-      }, 
-      {
-        "name": "psamanager", 
-        "type": "text"
-      }, 
-      {
-        "name": "email", 
-        "type": "text"
-      }, 
-      {
-        "name": "number", 
-        "type": "text"
-      }, 
-      {
-        "name": "zipcode", 
-        "type": "real"
-      }, 
-      {
-        "name": "acreage", 
-        "type": "real"
-      }, 
-      {
-        "name": "supdist", 
-        "type": "real"
-      }, 
-      {
-        "name": "parkid", 
-        "type": "real"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "lat", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sfgov.org", 
-  "tableName": "recreation_park_department_park_info_dataset"
+  "schema": "socrata/data.sfgov.org", 
+  "status": "needs review", 
+  "table": "recreation_park_department_park_info_dataset"
 }

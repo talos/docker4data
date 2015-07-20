@@ -1,0 +1,21 @@
+CREATE TABLE "parking_tickets" (
+	"ticket_loc"	text,
+	"issue_date"	timestamp,
+	"issue_time"	text,
+	"route"	text,
+	"badge_numb"	text,
+	"issue_agen"	text,
+	"violation_"	real,
+	"violation1"	text,
+	"fine_amt"	real,
+	"plate_type"	text,
+	"license_st"	text,
+	"vehicle_ma"	text,
+	"vehicle_co"	real,
+	"vehicle_st"	text,
+	"comment"	text,
+	"street_num"	real,
+	"street_nam"	text,
+	"lat"	real,
+	"long"	real
+);

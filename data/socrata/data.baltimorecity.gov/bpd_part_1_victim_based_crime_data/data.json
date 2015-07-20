@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_baltimorecity_bpd_part_1_victim_based_crime_data/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/wsfq-mvij/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/wsfq-mvij/rows.csv", 
   "description": "THE INTERFACE BETWEEN THE BALTIMORE POLICE DEPARTMENT AND OPEN BALTIMORE IS BEING UPGRADED.  DURING THIS PROCESS UPDATED INFORMATION WILL BE UNAVAILABLE.  INFORMATION WILL BE AVAILABLE ONCE THE UPGRADE IS COMPLETE, INCLUDING INFORMATION NOT POSTED DURING THE UPGRADE PROCESS.  WE APOLOGIZE FOR ANY INCONVENIENCE AND THANK YOU IN ADVANCE FOR YOUR PATIENCE. All BPD data on Open Baltimore is preliminary data and subject to change.  The information presented through Open Baltimore represents Part I victim based crime data. The data do not represent statistics submitted to the FBI's Uniform Crime Report (UCR); therefore any comparisons are strictly prohibited. For further clarification of UCR data, please visit http://www.fbi.gov/about-us/cjis/ucr/ucr. Please note that this data is preliminary and subject to change. Prior month data is likely to show changes when it is refreshed on a monthly basis.  All data is geocoded to the approximate latitude/longitude location of the incident and excludes those records for which an address could not be geocoded. Any attempt to match the approximate location of the incident to an exact address is strictly prohibited.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,54 +13,7 @@
     }
   }, 
   "name": "BPD Part 1 Victim Based Crime Data", 
-  "schema": {
-    "columns": [
-      {
-        "name": "crimedate", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "crimetime", 
-        "type": "text"
-      }, 
-      {
-        "name": "crimecode", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "weapon", 
-        "type": "text"
-      }, 
-      {
-        "name": "post", 
-        "type": "real"
-      }, 
-      {
-        "name": "district", 
-        "type": "text"
-      }, 
-      {
-        "name": "neighborhood", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "total_incidents", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.baltimorecity.gov", 
-  "tableName": "bpd_part_1_victim_based_crime_data"
+  "schema": "socrata/data.baltimorecity.gov", 
+  "status": "needs review", 
+  "table": "bpd_part_1_victim_based_crime_data"
 }

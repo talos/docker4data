@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/syringe_bins/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/geospatial/96gt-j9ix", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/geospatial/96gt-j9ix", 
   "description": "The City of Melbourne maintains a register of all syringe disposal bins located with the City. This register contains descriptions of each of the disposal bins and their geographical location.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,18 +14,7 @@
     }
   }, 
   "name": "Syringe Bins", 
-  "schema": {
-    "columns": [
-      {
-        "name": "descriptio", 
-        "type": "text"
-      }, 
-      {
-        "name": "geom", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.melbourne.vic.gov.au", 
-  "tableName": "syringe_bins"
+  "schema": "socrata/data.melbourne.vic.gov.au", 
+  "status": "needs review", 
+  "table": "syringe_bins"
 }

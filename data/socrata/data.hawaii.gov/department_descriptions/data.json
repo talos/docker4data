@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_department_descriptions/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/xa5e-sf37/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/xa5e-sf37/rows.csv", 
   "description": "to be used with Expenditure data", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,18 +11,7 @@
     }
   }, 
   "name": "Department Descriptions", 
-  "schema": {
-    "columns": [
-      {
-        "name": "department_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "department_name", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "department_descriptions"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "department_descriptions"
 }

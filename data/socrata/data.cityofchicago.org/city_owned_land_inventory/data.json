@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_city_owned_land_inventory/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/aksk-kvfp/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/aksk-kvfp/rows.csv", 
   "description": "Vacant property owned and managed by the City of Chicago Department of Planning and Development. Information provided in the database, or on the City\u2019s website generally, should not be used as a substitute for title research, title evidence, title insurance, real estate tax exemption or payment status, environmental or geotechnical due diligence, or as a substitute for legal, accounting, real estate, business, tax or other professional advice. The City assumes no liability for any damages or loss of any kind that might arise from the reliance upon, use of, misuse of, or the inability to use the LIS database or the City\u2019s web site and the materials contained on the website. The City also assumes no liability for improper or incorrect use of materials or information contained on its website. All materials that appear in the LIS database or on the City\u2019s web site are distributed and transmitted \"as is,\" without warranties of any kind, either express or implied as to the accuracy, reliability or completeness of any information, and subject to the terms and conditions stated in this disclaimer.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,54 +13,7 @@
     }
   }, 
   "name": "City-Owned Land Inventory", 
-  "schema": {
-    "columns": [
-      {
-        "name": "digit_pin", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "d", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "type", 
-        "type": "text"
-      }, 
-      {
-        "name": "sq_ft", 
-        "type": "real"
-      }, 
-      {
-        "name": "ward", 
-        "type": "real"
-      }, 
-      {
-        "name": "community_area", 
-        "type": "text"
-      }, 
-      {
-        "name": "zoning_classification", 
-        "type": "text"
-      }, 
-      {
-        "name": "tif_name_area", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "city_owned_land_inventory"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "city_owned_land_inventory"
 }

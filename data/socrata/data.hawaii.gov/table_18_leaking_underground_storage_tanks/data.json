@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_table_18_leaking_underground_storage_tanks/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/5xci-hiqu/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/5xci-hiqu/rows.csv", 
   "description": "DOH Environmental Indicators", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "Table 18: Leaking Underground Storage Tanks", 
-  "schema": {
-    "columns": [
-      {
-        "name": "_", 
-        "type": "real"
-      }, 
-      {
-        "name": "calendar_year", 
-        "type": "text"
-      }, 
-      {
-        "name": "total_tanks", 
-        "type": "real"
-      }, 
-      {
-        "name": "active_tanks", 
-        "type": "real"
-      }, 
-      {
-        "name": "closed_tanks", 
-        "type": "real"
-      }, 
-      {
-        "name": "confirmed_releases", 
-        "type": "real"
-      }, 
-      {
-        "name": "clean_ups_partially_addressed", 
-        "type": "real"
-      }, 
-      {
-        "name": "clean_ups_not_initiated", 
-        "type": "real"
-      }, 
-      {
-        "name": "cumulative_completed_clean_ups", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "table_18_leaking_underground_storage_tanks"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "table_18_leaking_underground_storage_tanks"
 }

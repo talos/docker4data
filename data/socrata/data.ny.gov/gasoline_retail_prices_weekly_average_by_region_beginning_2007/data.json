@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/gasoline_retail_prices_weekly_average_by_region_beginning_2007/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/nqur-w4p7/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/nqur-w4p7/rows.csv", 
   "description": "Gasoline retail prices weekly average by region dataset provides the weekly average retail gasoline prices for New York State and eight New York metropolitan regions in U.S. dollars per gallon.  Data is a weekly average from October 2007 through current. \r\n\r\nAverage daily retail gasoline prices are collected from the American Automobile Association (AAA) Daily Fuel Gauge Report.  The AAA Daily Fuel Gauge Report prices are averaged to produce a weekly average retail price for New York State and each metropolitan region.\r\n\r\nThe New York State metropolitan regions in the dataset are Albany (Albany-Schenectady-Troy), Binghamton, Buffalo (Buffalo-Niagara Falls), Nassau (Nassau-Suffolk), New York City, Rochester, Syracuse, and Utica (Utica-Rome).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "Gasoline Retail Prices Weekly Average by Region: Beginning 2007", 
-  "schema": {
-    "columns": [
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "new_york_state_average_gal", 
-        "type": "real"
-      }, 
-      {
-        "name": "albany_average_gal", 
-        "type": "real"
-      }, 
-      {
-        "name": "binghamton_average_gal", 
-        "type": "real"
-      }, 
-      {
-        "name": "buffalo_average_gal", 
-        "type": "real"
-      }, 
-      {
-        "name": "nassau_average_gal", 
-        "type": "real"
-      }, 
-      {
-        "name": "new_york_city_average_gal", 
-        "type": "real"
-      }, 
-      {
-        "name": "rochester_average_gal", 
-        "type": "real"
-      }, 
-      {
-        "name": "syracuse_average_gal", 
-        "type": "real"
-      }, 
-      {
-        "name": "utica_average_gal", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "gasoline_retail_prices_weekly_average_by_region_beginning_2007"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "gasoline_retail_prices_weekly_average_by_region_beginning_2007"
 }

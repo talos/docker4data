@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_watershed_statistics/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/z4kf-gt4n/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/z4kf-gt4n/rows.csv", 
   "description": "NYC West-of-Hudson Watershed Impervious Surface Percentages by Basin", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,90 +13,7 @@
     }
   }, 
   "name": "Watershed statistics", 
-  "schema": {
-    "columns": [
-      {
-        "name": "town", 
-        "type": "text"
-      }, 
-      {
-        "name": "amawalk", 
-        "type": "real"
-      }, 
-      {
-        "name": "bog_brook", 
-        "type": "real"
-      }, 
-      {
-        "name": "boyds_corner", 
-        "type": "real"
-      }, 
-      {
-        "name": "cross_river", 
-        "type": "real"
-      }, 
-      {
-        "name": "croton_falls", 
-        "type": "real"
-      }, 
-      {
-        "name": "diverting", 
-        "type": "real"
-      }, 
-      {
-        "name": "east_branch", 
-        "type": "real"
-      }, 
-      {
-        "name": "kensico", 
-        "type": "real"
-      }, 
-      {
-        "name": "lake_gilead", 
-        "type": "real"
-      }, 
-      {
-        "name": "lake_gleneida", 
-        "type": "text"
-      }, 
-      {
-        "name": "middle_branch", 
-        "type": "real"
-      }, 
-      {
-        "name": "muscoot", 
-        "type": "real"
-      }, 
-      {
-        "name": "new_croton", 
-        "type": "real"
-      }, 
-      {
-        "name": "titicus", 
-        "type": "real"
-      }, 
-      {
-        "name": "west_branch", 
-        "type": "real"
-      }, 
-      {
-        "name": "sub_total_town_acres_inside_nyc_watershed", 
-        "type": "real"
-      }, 
-      {
-        "name": "town_acres_outside_nyc_watershed", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_town_acreage", 
-        "type": "real"
-      }, 
-      {
-        "name": "of_each_town_in_nyc_watershed", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "watershed_statistics"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "watershed_statistics"
 }

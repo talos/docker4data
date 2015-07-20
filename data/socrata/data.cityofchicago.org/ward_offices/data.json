@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ward_offices/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/htai-wnw4/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/htai-wnw4/rows.csv", 
   "description": "List of alderman, office address, phone number, and website for all 50 Chicago wards.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,70 +13,7 @@
     }
   }, 
   "name": "Ward Offices", 
-  "schema": {
-    "columns": [
-      {
-        "name": "ward", 
-        "type": "text"
-      }, 
-      {
-        "name": "alderman", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zipcode", 
-        "type": "text"
-      }, 
-      {
-        "name": "ward_phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "website", 
-        "type": "text"
-      }, 
-      {
-        "name": "email", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "city_hall_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "city_hall_city", 
-        "type": "text"
-      }, 
-      {
-        "name": "city_hall_state", 
-        "type": "text"
-      }, 
-      {
-        "name": "city_hall_zipcode", 
-        "type": "real"
-      }, 
-      {
-        "name": "city_hall_phone", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "ward_offices"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "ward_offices"
 }

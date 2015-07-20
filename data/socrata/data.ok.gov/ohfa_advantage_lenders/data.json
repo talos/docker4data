@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_ohfa_advantage_lenders/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/2gkt-3efr/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/2gkt-3efr/rows.csv", 
   "description": "Listing of companies that offer loans through the OHFA Advantage program.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "OHFA Advantage Lenders", 
-  "schema": {
-    "columns": [
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "lender_name_and_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "fax", 
-        "type": "text"
-      }, 
-      {
-        "name": "entity_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "diamond_award_winner", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "ohfa_advantage_lenders"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "ohfa_advantage_lenders"
 }

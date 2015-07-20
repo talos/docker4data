@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/medical_examiner_2009_decedents_by_race/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/nnih-e5uj/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/datacatalog.cookcountyil.gov/api/views/nnih-e5uj/rows.csv", 
   "description": "Updated 10/24/2011.  From the 2009 Medical Examiner's Annual Report.  Race of autopsied people.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "Medical Examiner--2009 Decedents, by Race", 
-  "schema": {
-    "columns": [
-      {
-        "name": "race_", 
-        "type": "text"
-      }, 
-      {
-        "name": "count_", 
-        "type": "real"
-      }, 
-      {
-        "name": "percent_", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/datacatalog.cookcountyil.gov", 
-  "tableName": "medical_examiner_2009_decedents_by_race"
+  "schema": "socrata/datacatalog.cookcountyil.gov", 
+  "status": "needs review", 
+  "table": "medical_examiner_2009_decedents_by_race"
 }

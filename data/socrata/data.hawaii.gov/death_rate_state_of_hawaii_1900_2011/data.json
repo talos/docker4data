@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_death_rate_state_of_hawaii_1900_2011/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/xa5e-sayp/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/xa5e-sayp/rows.csv", 
   "description": "Statistics from the Department of Health", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,18 +13,7 @@
     }
   }, 
   "name": "Death Rate, State Of Hawaii 1900 - 2011", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "rate_per_1000_resident_population", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "death_rate_state_of_hawaii_1900_2011"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "death_rate_state_of_hawaii_1900_2011"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/mva_vehicle_sales_counts_by_month_for_2002_through_2014/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/a4uh-tqp8/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/a4uh-tqp8/rows.csv", 
   "description": "The number of new and used vehicles and the sales dollars respectively sold by month.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "MVA Vehicle Sales Counts by Month for 2002 through 2014", 
-  "schema": {
-    "columns": [
-      {
-        "name": "month", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "new", 
-        "type": "real"
-      }, 
-      {
-        "name": "used", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_sales_new", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_sales_used", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "mva_vehicle_sales_counts_by_month_for_2002_through_2014"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "mva_vehicle_sales_counts_by_month_for_2002_through_2014"
 }

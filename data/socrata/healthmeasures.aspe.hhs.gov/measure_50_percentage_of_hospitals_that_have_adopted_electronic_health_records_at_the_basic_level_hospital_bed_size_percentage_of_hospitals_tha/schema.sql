@@ -1,0 +1,5 @@
+CREATE TABLE "measure_50_percentage_of_hospitals_that_have_adopted_electronic_health_records_at_the_basic_level_hospital_bed_size_percentage_of_hospitals_that_have_adopted_electronic_health_records_at_the_basic_level_by_hospital_bed_size" (
+	"measure_value"	text,
+	"year"	real,
+	"hospital_bed_size"	text
+);

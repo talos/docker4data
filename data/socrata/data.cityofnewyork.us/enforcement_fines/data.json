@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_enforcement_fines/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/p39r-nm7f/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/p39r-nm7f/rows.csv", 
   "description": "This list contains information on the fines collected by the Enforcement Unit.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,62 +13,7 @@
     }
   }, 
   "name": "Enforcement Fines", 
-  "schema": {
-    "columns": [
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "case_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "case_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "_3_way_settlement", 
-        "type": "text"
-      }, 
-      {
-        "name": "amount_paid_to_coib", 
-        "type": "real"
-      }, 
-      {
-        "name": "breakdown_of_amount_paid_to_coib", 
-        "type": "text"
-      }, 
-      {
-        "name": "amount_paid_to_agency", 
-        "type": "real"
-      }, 
-      {
-        "name": "breakdown_of_amount_paid_to_agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "other_penalty", 
-        "type": "real"
-      }, 
-      {
-        "name": "breakdown_of_other_penalty", 
-        "type": "text"
-      }, 
-      {
-        "name": "suspension_of_days", 
-        "type": "real"
-      }, 
-      {
-        "name": "pay_fine_value", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "enforcement_fines"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "enforcement_fines"
 }

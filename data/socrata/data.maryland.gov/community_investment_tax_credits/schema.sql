@@ -1,0 +1,20 @@
+CREATE TABLE "community_investment_tax_credits" (
+	"projid"	text,
+	"projnum"	text,
+	"fy"	real,
+	"awardee"	text,
+	"projname"	text,
+	"county"	text,
+	"region"	text,
+	"applicanttype"	text,
+	"projtype"	text,
+	"projectdesc"	text,
+	"awardamount"	real,
+	"taxcredited"	real,
+	"taxcredbal"	real,
+	"donationlink"	text,
+	"website"	text,
+	"x_coord"	real,
+	"y_coord"	real,
+	"location"	text
+);

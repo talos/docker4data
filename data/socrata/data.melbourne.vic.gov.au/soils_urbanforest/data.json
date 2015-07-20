@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/soils_urbanforest/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/geospatial/t3zn-qgfx", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/geospatial/t3zn-qgfx", 
   "description": "These polygons represent approximate native soil sub-bases and derived textures based on digitized maps from the Geological Survey of Victoria (c. 1956). Soils are expected to be extensively modified from these types throughout Melbourne due to extensive disturbance, and cut and fill associated with the city's development.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Soils - #Urbanforest", 
-  "schema": {}, 
-  "schemaName": "socrata/data.melbourne.vic.gov.au", 
-  "tableName": "soils_urbanforest"
+  "schema": "socrata/data.melbourne.vic.gov.au", 
+  "status": "needs review", 
+  "table": "soils_urbanforest"
 }

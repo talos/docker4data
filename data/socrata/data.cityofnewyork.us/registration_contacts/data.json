@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_registration_contacts/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/feu5-w2e2/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/feu5-w2e2/rows.csv", 
   "description": "Contains information about organizations or individuals listed on a Multiple Dwelling Registration form.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,70 +13,7 @@
     }
   }, 
   "name": "Registration Contacts", 
-  "schema": {
-    "columns": [
-      {
-        "name": "registrationcontactid", 
-        "type": "real"
-      }, 
-      {
-        "name": "registrationid", 
-        "type": "real"
-      }, 
-      {
-        "name": "type", 
-        "type": "text"
-      }, 
-      {
-        "name": "contactdescription", 
-        "type": "text"
-      }, 
-      {
-        "name": "corporationname", 
-        "type": "text"
-      }, 
-      {
-        "name": "title", 
-        "type": "text"
-      }, 
-      {
-        "name": "firstname", 
-        "type": "text"
-      }, 
-      {
-        "name": "middleinitial", 
-        "type": "text"
-      }, 
-      {
-        "name": "lastname", 
-        "type": "text"
-      }, 
-      {
-        "name": "businesshousenumber", 
-        "type": "text"
-      }, 
-      {
-        "name": "businessstreetname", 
-        "type": "text"
-      }, 
-      {
-        "name": "businessapartment", 
-        "type": "text"
-      }, 
-      {
-        "name": "businesscity", 
-        "type": "text"
-      }, 
-      {
-        "name": "businessstate", 
-        "type": "text"
-      }, 
-      {
-        "name": "businesszip", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "registration_contacts"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "registration_contacts"
 }

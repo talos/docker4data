@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_state_managed_buildings_energy_savings_impact/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/2ffz-i3xx/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/2ffz-i3xx/rows.csv", 
   "description": "Data reflecting the total energy saved in all state-managed buildings.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,18 +13,7 @@
     }
   }, 
   "name": "State-Managed Buildings Energy Savings Impact", 
-  "schema": {
-    "columns": [
-      {
-        "name": "type", 
-        "type": "text"
-      }, 
-      {
-        "name": "amount", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "state_managed_buildings_energy_savings_impact"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "state_managed_buildings_energy_savings_impact"
 }

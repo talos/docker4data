@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_cellular_performance_tests_in_colorado/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/6ad7-gqy3/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/api/views/6ad7-gqy3/rows.csv", 
   "description": "This data is from mobile devices performing tests of cellular networks in Colorado. The results show latency and signal strength in all tests by carrier and some tests include download and upload performance tests.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,78 +13,7 @@
     }
   }, 
   "name": "Cellular Performance Tests in Colorado", 
-  "schema": {
-    "columns": [
-      {
-        "name": "devicenettype", 
-        "type": "text"
-      }, 
-      {
-        "name": "devicenetworktype", 
-        "type": "text"
-      }, 
-      {
-        "name": "deviceroaming", 
-        "type": "text"
-      }, 
-      {
-        "name": "devicesignalstrength", 
-        "type": "real"
-      }, 
-      {
-        "name": "latencyaverage", 
-        "type": "real"
-      }, 
-      {
-        "name": "latencystatus", 
-        "type": "text"
-      }, 
-      {
-        "name": "downloadspeed", 
-        "type": "real"
-      }, 
-      {
-        "name": "downloadstatus", 
-        "type": "text"
-      }, 
-      {
-        "name": "islatency", 
-        "type": "text"
-      }, 
-      {
-        "name": "uploadspeed", 
-        "type": "real"
-      }, 
-      {
-        "name": "uploadstatus", 
-        "type": "text"
-      }, 
-      {
-        "name": "devicenetop", 
-        "type": "text"
-      }, 
-      {
-        "name": "devicesimop", 
-        "type": "text"
-      }, 
-      {
-        "name": "addresszip", 
-        "type": "real"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "cellular_performance_tests_in_colorado"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "cellular_performance_tests_in_colorado"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/parcel_counts_by_type_by_municipality_beginning_roll_year_2000/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/tnwc-mx3q/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/tnwc-mx3q/rows.csv", 
   "description": "The Department of Taxation and Finance annually produces a report pertaining to the distribution of parcels by property class.  The data analysis involves a breakdown of property classes to nine segments of broad use, namely Agricultural, Residential, Vacant Land/Farm, Commercial, Recreation, Community Service, Industrial, Public Service, and Forest/Conservation. For more information please go to:  http://www.tax.ny.gov/research/property/default.htm", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,66 +13,7 @@
     }
   }, 
   "name": "Parcel Counts By Type By Municipality: Beginning Roll Year 2000", 
-  "schema": {
-    "columns": [
-      {
-        "name": "roll_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "swis_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "municipality_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "county_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "broad_use_100_agricultural_property_count", 
-        "type": "real"
-      }, 
-      {
-        "name": "broad_use_200_residential_property_count", 
-        "type": "real"
-      }, 
-      {
-        "name": "broad_use_300_vacant_land_property_count", 
-        "type": "real"
-      }, 
-      {
-        "name": "broad_use_400_commercial_property_count", 
-        "type": "real"
-      }, 
-      {
-        "name": "broad_use_500_recreation_property_count", 
-        "type": "real"
-      }, 
-      {
-        "name": "broad_use_600_community_service_property_count", 
-        "type": "real"
-      }, 
-      {
-        "name": "broad_use_700_industrial_property_count", 
-        "type": "real"
-      }, 
-      {
-        "name": "broad_use_800_public_service_property_count", 
-        "type": "real"
-      }, 
-      {
-        "name": "broad_use_900_forest_and_conservation_property_count", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_parcel_count", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "parcel_counts_by_type_by_municipality_beginning_roll_year_2000"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "parcel_counts_by_type_by_municipality_beginning_roll_year_2000"
 }

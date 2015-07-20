@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_golf_courses/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/cgck-srxx/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/cgck-srxx/rows.csv", 
   "description": "The New York State Office of Parks, Recreation and Historic Preservation (OPRHP) oversees more than 214 state parks and historic sites, encompassing nearly 335,000 acres, that are visited by 60 million people annually. These facilities contribute to the economic vitality and quality of life of local communities and directly support New York\u2019s tourism industry. Parks also provide a place for families and children to be active and exercise, promoting healthy lifestyles. The agency is responsible for the operation and stewardship of the state park system as well as advancing a statewide parks, historic preservation, and open space mission.\r\nFrom the famed Bethpage Black, to the rolling terrain of the Robert Trent Jones' designed 18-hole course at Green Lakes State Park, New York's state park golf courses rank among the best public courses in the world. For more information, visit http://nysparks.com/golf-courses/", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "Golf Courses", 
-  "schema": {
-    "columns": [
-      {
-        "name": "state_park", 
-        "type": "text"
-      }, 
-      {
-        "name": "course_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "region", 
-        "type": "real"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "facility_url", 
-        "type": "text"
-      }, 
-      {
-        "name": "golf_url", 
-        "type": "text"
-      }, 
-      {
-        "name": "x", 
-        "type": "real"
-      }, 
-      {
-        "name": "y", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "golf_courses"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "golf_courses"
 }

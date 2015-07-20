@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_hpd_lihtc_element/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/ujzq-562i/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/ujzq-562i/rows.csv", 
   "description": "Information on Low Income Housing Tax Credit (LIHTC) allocation amounts and type for those LIHTC allocations that meet the definition of City Financial Assistance for each project.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "HPD LIHTC Element", 
-  "schema": {
-    "columns": [
-      {
-        "name": "lihtc_dw_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "project_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "type", 
-        "type": "text"
-      }, 
-      {
-        "name": "annual_allocation_amount", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "hpd_lihtc_element"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "hpd_lihtc_element"
 }

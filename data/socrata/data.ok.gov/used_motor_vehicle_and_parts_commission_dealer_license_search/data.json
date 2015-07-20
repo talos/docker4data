@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/used_motor_vehicle_and_parts_commission_dealer_license_search/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/qeit-nv33/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/qeit-nv33/rows.csv", 
   "description": "This Database contains a list of licensed Used Motor Vehicle Dealers (UD), Wholesale Dealers (WD), Automotive Dismantler (AD), Manufactured Home Dealers (MH), Manufactured Home Installers (I) and Manufactured Home Park Dealers (MHP). This list is updated weekly. For bond or insurance information please contact the Commission at 405-521-3600.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,46 +12,7 @@
     }
   }, 
   "name": "USED MOTOR VEHICLE AND PARTS COMMISSION DEALER LICENSE SEARCH", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "type", 
-        "type": "text"
-      }, 
-      {
-        "name": "lic_no", 
-        "type": "text"
-      }, 
-      {
-        "name": "business_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "ownership", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "street", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "used_motor_vehicle_and_parts_commission_dealer_license_search"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "used_motor_vehicle_and_parts_commission_dealer_license_search"
 }

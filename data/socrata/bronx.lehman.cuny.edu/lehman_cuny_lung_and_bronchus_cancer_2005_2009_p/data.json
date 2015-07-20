@@ -1,8 +1,6 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_bronx_lehman_cuny_lung_and_bronchus_cancer_2005_2009_p/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/wdha-h2u7/rows.csv"
-  }, 
+  "data": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/wdha-h2u7/rows.csv", 
   "description": "The ZIP Code lists show the number of people who developed the specific type of cancer while living in the ZIP Code area between 2005 and 2009. The lists also show the number of people who might have been expected to get cancer in that time period, based on the size of the population of the ZIP Code.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,41 +14,5 @@
     }
   }, 
   "name": "Lung and Bronchus Cancer 2005-2009 per Zip Code", 
-  "schema": {
-    "columns": [
-      {
-        "name": "zip_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "males_observed_number_of_cases", 
-        "type": "real"
-      }, 
-      {
-        "name": "males_expected_number_of_cases", 
-        "type": "real"
-      }, 
-      {
-        "name": "male_percent_difference_from_expected", 
-        "type": "text"
-      }, 
-      {
-        "name": "females_observed_number_of_cases", 
-        "type": "real"
-      }, 
-      {
-        "name": "females_expected_number_of_cases", 
-        "type": "real"
-      }, 
-      {
-        "name": "females_percent_difference_from_expected", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "tableName": "socrata_bronx_lehman_cuny_lung_and_bronchus_cancer_2005_2009_p"
+  "table": "socrata_bronx_lehman_cuny_lung_and_bronchus_cancer_2005_2009_p"
 }

@@ -1,0 +1,22 @@
+CREATE TABLE "commercial_permits" (
+	"permitno"	text,
+	"status"	text,
+	"stno"	text,
+	"predir"	text,
+	"stname"	text,
+	"suffix"	text,
+	"postdir"	text,
+	"city"	text,
+	"state"	text,
+	"zip"	real,
+	"addeddate"	timestamp,
+	"issueddate"	timestamp,
+	"finaleddate"	timestamp,
+	"buildingarea"	real,
+	"declaredvaluation"	text,
+	"description"	text,
+	"applicationtype"	text,
+	"worktype"	text,
+	"usecode"	text,
+	"location"	text
+);

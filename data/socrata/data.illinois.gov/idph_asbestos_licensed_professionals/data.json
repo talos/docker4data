@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_idph_asbestos_licensed_professionals/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/2gzr-9awy/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/2gzr-9awy/rows.csv", 
   "description": "Last Update:  December 2014\r\nAsbestos Licensed Professionals fall into six major categories. \r\no\tSupervisors are the Contractor's designees on asbestos abatement projects and are responsible for ensuring that work is conducted in accordance with state and federal regulations. \r\no\tProject Managers are the building owner's or school district's representative on school projects and are responsible for ensuring that the workers and supervisors are complying with the contract specification and state and federal regulations. Projects Managers are not required to oversee asbestos abatement projects in commercial and public buildings, but if a building owner chooses to have an individual oversee the project, then the Department requires that the person be licensed. \r\no\tAir Sampling Professionals are responsible for taking air samples to determine the airborne concentration of asbestos inside and outside the work area. The Air Sampling Professional conducts aggressive clearance air monitoring at the end of asbestos abatement projects to ensure that the concentration of asbestos in the air is acceptable for reoccupation of the area. \r\no\tProject Designers are required to develop project designs for school buildings. The project designers are required to draw up specifications and contracts that contractors must follow to complete an asbestos abatement project that meets state and federal regulations. If a project design is developed for asbestos abatement in commercial and public buildings, then it must be completed by a licensed Project Designer.\r\no\tInspectors are required to identify asbestos-containing materials by sampling suspected asbestos-containing materials discovered during an inspection. \r\no\tManagement Planners are required to develop management plans based upon information from an Inspector. Each school in Illinois must develop and maintain an asbestos management plan describing the management of the school's asbestos-containing building materials. Commercial and public buildings in Illinois are not required to develop management plans.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,90 +12,7 @@
     }
   }, 
   "name": "IDPH ASBESTOS LICENSED PROFESSIONALS", 
-  "schema": {
-    "columns": [
-      {
-        "name": "last_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "first_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone", 
-        "type": "real"
-      }, 
-      {
-        "name": "company_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "company_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "company_city", 
-        "type": "text"
-      }, 
-      {
-        "name": "company_state", 
-        "type": "text"
-      }, 
-      {
-        "name": "company_zip_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "company_phone", 
-        "type": "real"
-      }, 
-      {
-        "name": "company_county", 
-        "type": "text"
-      }, 
-      {
-        "name": "supervisor_professional_license", 
-        "type": "text"
-      }, 
-      {
-        "name": "inspector_professional_license", 
-        "type": "text"
-      }, 
-      {
-        "name": "management_planner_professional_license", 
-        "type": "text"
-      }, 
-      {
-        "name": "project_designer_professional_license", 
-        "type": "text"
-      }, 
-      {
-        "name": "project_manager_professional_license", 
-        "type": "text"
-      }, 
-      {
-        "name": "air_sampling_professional_license", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "idph_asbestos_licensed_professionals"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "idph_asbestos_licensed_professionals"
 }

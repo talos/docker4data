@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/performance_metrics_procurement_services_city_auctions/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/s9wg-6is6/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/s9wg-6is6/rows.csv", 
   "description": "The City of Chicago auctions surplus equipment, vehicles, furniture, office equipment, and other goods and materials online in order to raise funds. The below graph provides weekly updates on progress toward the fundraising target of $4.6 million.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Performance Metrics - Procurement Services - City Auctions", 
-  "schema": {
-    "columns": [
-      {
-        "name": "week", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "text"
-      }, 
-      {
-        "name": "revenue_from_city_auctions_year_to_date_", 
-        "type": "real"
-      }, 
-      {
-        "name": "percent_toward_yearly_goal_2_2_million_", 
-        "type": "text"
-      }, 
-      {
-        "name": "yearly_goal_", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "performance_metrics_procurement_services_city_auctions"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "performance_metrics_procurement_services_city_auctions"
 }

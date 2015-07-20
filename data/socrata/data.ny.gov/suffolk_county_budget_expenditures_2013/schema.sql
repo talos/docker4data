@@ -1,0 +1,22 @@
+CREATE TABLE "suffolk_county_budget_expenditures_2013" (
+	"bfy"	real,
+	"grant"	text,
+	"fund_cd"	text,
+	"dept_cd"	text,
+	"dept_nm"	text,
+	"unit_cd"	text,
+	"unit_nm"	text,
+	"obj_cd"	real,
+	"obj_nm"	text,
+	"actv_cd"	text,
+	"actv_nm"	text,
+	"appr_cd"	text,
+	"_2010_actuals"	text,
+	"_2011_actuals"	text,
+	"_2012_modified"	text,
+	"_2012_adopted"	text,
+	"_2012_estimated"	text,
+	"_2013_requested"	text,
+	"_2013_recommended"	text,
+	"_2013_adopted"	text
+);

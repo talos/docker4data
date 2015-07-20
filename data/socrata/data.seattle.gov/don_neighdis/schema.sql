@@ -1,0 +1,21 @@
+CREATE TABLE "don_neighdis" (
+	"objectid"	real,
+	"shape"	text,
+	"area"	real,
+	"perimeter"	real,
+	"neighdis_"	real,
+	"neighdis_i"	real,
+	"poly_"	real,
+	"subclass"	text,
+	"subclass_"	real,
+	"rings_ok"	real,
+	"rings_nok"	real,
+	"offcl_name"	text,
+	"symbol"	real,
+	"nbhood"	text,
+	"name"	text,
+	"area_1"	real,
+	"len"	real,
+	"shape_length"	real,
+	"shape_area"	real
+);

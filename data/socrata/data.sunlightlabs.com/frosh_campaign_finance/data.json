@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sunlightlabs_frosh_campaign_finance/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sunlightlabs.com/api/views/5qa8-vubc/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sunlightlabs.com/api/views/5qa8-vubc/rows.csv", 
   "description": "Campaign contributions to freshmen from businesses that lobby and leadership PACs", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,38 +12,7 @@
     }
   }, 
   "name": "Frosh-campaign Finance", 
-  "schema": {
-    "columns": [
-      {
-        "name": "name_of_freshman", 
-        "type": "text"
-      }, 
-      {
-        "name": "party", 
-        "type": "text"
-      }, 
-      {
-        "name": "cycle", 
-        "type": "text"
-      }, 
-      {
-        "name": "total_campaign_contributions", 
-        "type": "real"
-      }, 
-      {
-        "name": "money_from_businesses_that_lobby", 
-        "type": "real"
-      }, 
-      {
-        "name": "money_from_leadership_pacs", 
-        "type": "real"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sunlightlabs.com", 
-  "tableName": "frosh_campaign_finance"
+  "schema": "socrata/data.sunlightlabs.com", 
+  "status": "needs review", 
+  "table": "frosh_campaign_finance"
 }

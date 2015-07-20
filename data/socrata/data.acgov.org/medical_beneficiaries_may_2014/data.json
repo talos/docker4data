@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_acgov_medical_beneficiaries_may_2014/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.acgov.org/api/views/nv5d-gdfn/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.acgov.org/api/views/nv5d-gdfn/rows.csv", 
   "description": "The dataset contains Alameda County Medi-Cal Beneficiaries. See the supporting document AidCodeMasterChart_4_10_14.pdf for explanation of AidCode column.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,38 +12,7 @@
     }
   }, 
   "name": "Medical Beneficiaries May 2014", 
-  "schema": {
-    "columns": [
-      {
-        "name": "casenumber", 
-        "type": "real"
-      }, 
-      {
-        "name": "ethnicity", 
-        "type": "text"
-      }, 
-      {
-        "name": "language", 
-        "type": "text"
-      }, 
-      {
-        "name": "sex", 
-        "type": "text"
-      }, 
-      {
-        "name": "age", 
-        "type": "real"
-      }, 
-      {
-        "name": "aidcode", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.acgov.org", 
-  "tableName": "medical_beneficiaries_may_2014"
+  "schema": "socrata/data.acgov.org", 
+  "status": "needs review", 
+  "table": "medical_beneficiaries_may_2014"
 }

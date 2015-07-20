@@ -1,9 +1,6 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_medicare_medicare_volume_national/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/kwd6-ji9j/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.medicare.gov/api/views/kwd6-ji9j/rows.csv", 
   "description": "The number of Medicare patients treated for each medical condition or surgical procedure - nationally.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,30 +13,7 @@
     }
   }, 
   "name": "Medicare Volume - National", 
-  "schema": {
-    "columns": [
-      {
-        "name": "diagnosis_related_group", 
-        "type": "text"
-      }, 
-      {
-        "name": "denominator", 
-        "type": "real"
-      }, 
-      {
-        "name": "footnote", 
-        "type": "text"
-      }, 
-      {
-        "name": "measure_start_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "measure_end_date", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.medicare.gov", 
-  "tableName": "medicare_volume_national"
+  "schema": "socrata/data.medicare.gov", 
+  "status": "needs review", 
+  "table": "medicare_volume_national"
 }

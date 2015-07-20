@@ -1,0 +1,20 @@
+CREATE TABLE "nys_thruway_origin_and_destination_points_for_all_vehicles_beginning_2008" (
+	"year"	real,
+	"ent"	text,
+	"exit"	text,
+	"permit"	real,
+	"class_2l"	real,
+	"class_3l"	real,
+	"class_4l"	real,
+	"class_2h"	real,
+	"class_3h"	real,
+	"class_4h"	real,
+	"class_5h"	real,
+	"class_5s"	real,
+	"class_6h"	real,
+	"class_6s"	real,
+	"class_7h"	real,
+	"class_7s"	real,
+	"non_revenue"	real,
+	"total"	real
+);

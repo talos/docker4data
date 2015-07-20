@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_idph_std_illinois_by_race_ethnicity/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/4639-tztg/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/4639-tztg/rows.csv", 
   "description": "Illinois 2000-2013 STD counts and rates (per 100,000 population) by race/ethnicity. See attachment for metadata and censoring details under the \"About\" link.  Null values in dataset reflect censored data.  {AIAN: American Indian, Alaskan Native, non-Hispanic; Asian: Asian, non-Hispanic; Black: Black or African American, non-Hispanic; Hisp: Hispanc (of any race); MultiRace: more than one race was reported, non-Hispanic (Chlamydia and gonorrhea use multiple races in reporting, syphilis cases use single race reporting (i.e., MultiRace values may be zero for syphilis cases)); NHPI: Native Hawaiian or Other Pacific Islander (Chlamydia and gonorrhea cases reports distinguishes NHPI from Asians, whereas syphilis cases group Asians, native Hawaiians and other Pacific Islanders as \u201cAsian\u201d (i.e., NHPI cases in syphilis case reports may display zero cases; these cases would have been reported under Asian)); White: White or Caucasian, non-Hispanic; Other: Other race, non-Hispanic; Unk: Unknown race, ethnicity.}  Data Source: Illinois Department of Public Health STD Program.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "IDPH STD Illinois By Race Ethnicity", 
-  "schema": {
-    "columns": [
-      {
-        "name": "sort", 
-        "type": "real"
-      }, 
-      {
-        "name": "year", 
-        "type": "text"
-      }, 
-      {
-        "name": "race_ethnicity", 
-        "type": "text"
-      }, 
-      {
-        "name": "chlamydia_count", 
-        "type": "real"
-      }, 
-      {
-        "name": "chlamydia_rate", 
-        "type": "real"
-      }, 
-      {
-        "name": "gonorrhea_count", 
-        "type": "real"
-      }, 
-      {
-        "name": "gonorrhea_rate", 
-        "type": "real"
-      }, 
-      {
-        "name": "early_syphilis_count", 
-        "type": "real"
-      }, 
-      {
-        "name": "early_syphilis_rate", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "idph_std_illinois_by_race_ethnicity"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "idph_std_illinois_by_race_ethnicity"
 }

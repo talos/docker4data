@@ -1,0 +1,20 @@
+CREATE TABLE "vol_ii_table_14_population_by_main_type_of_disability_2009" (
+	"district"	text,
+	"of_people_with_a_visual_disability"	text,
+	"of_people_with_hearing_disability"	text,
+	"of_people_with_a_speech_disability"	text,
+	"physical_self_care"	text,
+	"of_people_with_mental_disability"	text,
+	"with_other_disability"	text,
+	"with_no_disability"	text,
+	"no_of_people_in_district"	real,
+	"no_of_people_with_a_visual_disability"	real,
+	"no_of_people_with_hearing_disability"	real,
+	"no_of_people_with_a_speech_disability"	real,
+	"no_of_people_with_physical_self_care_disability"	real,
+	"no_of_people_with_mental_disability"	real,
+	"no_of_people_with_other_disablity"	real,
+	"none"	real,
+	"county"	text,
+	"location_1"	text
+);

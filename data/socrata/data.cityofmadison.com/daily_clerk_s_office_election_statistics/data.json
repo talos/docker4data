@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofmadison_daily_clerk_s_office_election_statistics/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofmadison.com/api/views/mser-b9tq/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofmadison.com/api/views/mser-b9tq/rows.csv", 
   "description": "Statistics compiled only as time permits.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,62 +13,7 @@
     }
   }, 
   "name": "Daily Clerk's Office Election Statistics", 
-  "schema": {
-    "columns": [
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "registration_forms", 
-        "type": "real"
-      }, 
-      {
-        "name": "registration_forms_processed_today", 
-        "type": "real"
-      }, 
-      {
-        "name": "absentees_issued", 
-        "type": "real"
-      }, 
-      {
-        "name": "absentees_issued_today", 
-        "type": "real"
-      }, 
-      {
-        "name": "absentees_issued_at_counter", 
-        "type": "real"
-      }, 
-      {
-        "name": "absentees_issued_at_counter_today", 
-        "type": "real"
-      }, 
-      {
-        "name": "of_absentees_issued_at_counter", 
-        "type": "text"
-      }, 
-      {
-        "name": "absentees_returned_to_be_counted", 
-        "type": "real"
-      }, 
-      {
-        "name": "of_absentees_returned", 
-        "type": "text"
-      }, 
-      {
-        "name": "election_official_shifts_assigned", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_available_election_official_shifts", 
-        "type": "real"
-      }, 
-      {
-        "name": "of_election_official_shifts_filled", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofmadison.com", 
-  "tableName": "daily_clerk_s_office_election_statistics"
+  "schema": "socrata/data.cityofmadison.com", 
+  "status": "needs review", 
+  "table": "daily_clerk_s_office_election_statistics"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_recommended_fishing_lakes_and_ponds/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/mw8j-wduf/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/mw8j-wduf/rows.csv", 
   "description": "This data displays the locations of top lakes and ponds for fishing in New York State, as determined by fisheries biologists working for the New York State Department of Environmental Conservation. Although every effort has been made to ensure the accuracy of information, errors may be reflected in the data supplied. The user must be aware of data conditions and bear responsibility for the appropriate use of the information with respect to possible errors, original map scale, collection methodology, currency of data, and other conditions.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,74 +13,7 @@
     }
   }, 
   "name": "Recommended Fishing Lakes and Ponds", 
-  "schema": {
-    "columns": [
-      {
-        "name": "water", 
-        "type": "text"
-      }, 
-      {
-        "name": "acres_mile", 
-        "type": "real"
-      }, 
-      {
-        "name": "boat_launc", 
-        "type": "text"
-      }, 
-      {
-        "name": "owner", 
-        "type": "text"
-      }, 
-      {
-        "name": "ammenities", 
-        "type": "text"
-      }, 
-      {
-        "name": "fish_speci", 
-        "type": "text"
-      }, 
-      {
-        "name": "ice_fishin", 
-        "type": "text"
-      }, 
-      {
-        "name": "comments", 
-        "type": "text"
-      }, 
-      {
-        "name": "bl_weblink", 
-        "type": "text"
-      }, 
-      {
-        "name": "weblink", 
-        "type": "text"
-      }, 
-      {
-        "name": "contourmap", 
-        "type": "text"
-      }, 
-      {
-        "name": "spec_regs", 
-        "type": "text"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "point_x", 
-        "type": "real"
-      }, 
-      {
-        "name": "point_y", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "recommended_fishing_lakes_and_ponds"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "recommended_fishing_lakes_and_ponds"
 }

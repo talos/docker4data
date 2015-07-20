@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/catch_basin_inspection_and_cleaning_activity/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/ppzj-4i42/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/ppzj-4i42/rows.csv", 
   "description": "Data from tables and charts included in DEP's Combined Sewer Overflow Best Management Practices Annual Report", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Catch Basin Inspection and Cleaning Activity", 
-  "schema": {
-    "columns": [
-      {
-        "name": "borough", 
-        "type": "text"
-      }, 
-      {
-        "name": "total_cb_surveyed", 
-        "type": "real"
-      }, 
-      {
-        "name": "scheduled_cb_cleaned", 
-        "type": "real"
-      }, 
-      {
-        "name": "complaint_based_cb_cleaned", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_cb_cleaned", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "catch_basin_inspection_and_cleaning_activity"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "catch_basin_inspection_and_cleaning_activity"
 }

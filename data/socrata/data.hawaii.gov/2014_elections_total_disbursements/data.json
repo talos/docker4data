@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_2014_elections_total_disbursements/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/wwxb-ba4w/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/wwxb-ba4w/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -14,18 +10,7 @@
     }
   }, 
   "name": "2014 Elections - Total Disbursements", 
-  "schema": {
-    "columns": [
-      {
-        "name": "type_of_disbursement", 
-        "type": "text"
-      }, 
-      {
-        "name": "total_amount", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "2014_elections_total_disbursements"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "2014_elections_total_disbursements"
 }

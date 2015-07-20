@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_baltimorecity_pools/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/h77s-araf/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/h77s-araf/rows.csv", 
   "description": "This data set shows the location of Baltimore City's Public Aquatic \"Pools\" Facilities. It is the most recent update (2008), and is subjected to change. The purpose of this data set is to aid Baltimore City organizations to best identify public aquatic recreational facilities. The data is broken down into categories: Wading, Walk-to, and Park Pools. Please find the definitions below: Wading Pools: are aquatic facilites that are no more than 24 inches in dept. These facilities are not chlorinated and has a turn over rate of approximately two hours. Walk-to Pools: are Aquatic facilities that are located within a neighborhood and not in a public park. These facilities are approximately 5ft in dept. Park Pools: are aquatic facilities that are located within the City's public parks. These facilities are more than 5ft in dept. The data set was provided by Daryl Sutton, Director of Recreation and Parks Aquatic Department.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "Pools", 
-  "schema": {
-    "columns": [
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "type", 
-        "type": "text"
-      }, 
-      {
-        "name": "zipcode", 
-        "type": "text"
-      }, 
-      {
-        "name": "neighborhood", 
-        "type": "text"
-      }, 
-      {
-        "name": "councildistrict", 
-        "type": "real"
-      }, 
-      {
-        "name": "policedistrict", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.baltimorecity.gov", 
-  "tableName": "pools"
+  "schema": "socrata/data.baltimorecity.gov", 
+  "status": "needs review", 
+  "table": "pools"
 }

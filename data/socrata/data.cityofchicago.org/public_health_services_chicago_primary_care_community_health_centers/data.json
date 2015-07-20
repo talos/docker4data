@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/public_health_services_chicago_primary_care_community_health_centers/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/cjg8-dbka/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/cjg8-dbka/rows.csv", 
   "description": "Locations and contact information for Chicago primary care community health clinics (including all federally qualified health centers and similar community health centers that provide primary care and are open to the general community).  Additional information can be found at: http://j.mp/QfZ7SP\r\n\r\nCDPH anticipates that this list will be used in the following ways: 1) by residents who are in need of \r\nassistance in finding a primary care physician and clinic near their homes; 2) by social service and \r\npublic sector service providers that want to link their consumers to primary care near their homes; 3) \r\nby health system and public health researchers who are interested in Chicago\u2019s primary care and \r\nsafety net provider landscape. \r\n \r\nClinics were excluded from this list if a) it is not specifically in their mission to care for underserved \r\npopulations or b) if clinic services are only available to a narrowly defined population. \r\n \r\nDisclaimers: This list is intended to be a working document of primary care clinics for underserved \r\npopulations in Chicago. If you believe an entry on this list to be outdated, misrepresented, or \r\notherwise in error, please contact healthychicago@cityofchicago.org.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,30 +12,7 @@
     }
   }, 
   "name": "Public Health Services- Chicago Primary Care Community Health Centers", 
-  "schema": {
-    "columns": [
-      {
-        "name": "facility", 
-        "type": "text"
-      }, 
-      {
-        "name": "community_area", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "fqhc_look_alike_or_neither_special_notes", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "public_health_services_chicago_primary_care_community_health_centers"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "public_health_services_chicago_primary_care_community_health_centers"
 }

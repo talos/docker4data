@@ -1,0 +1,22 @@
+CREATE TABLE "ides_statewide_current_employment_statistics" (
+	"stfips"	text,
+	"areatype"	text,
+	"area"	text,
+	"periodyear"	text,
+	"periodtype"	text,
+	"period"	text,
+	"seriescode"	text,
+	"adjusted"	text,
+	"benchmark"	text,
+	"prelim"	text,
+	"empces"	real,
+	"empprodwrk"	text,
+	"empfemale"	text,
+	"hours"	text,
+	"earnings"	text,
+	"hoursearn"	text,
+	"supprecord"	text,
+	"supphe"	text,
+	"supppw"	text,
+	"suppfem"	text
+);

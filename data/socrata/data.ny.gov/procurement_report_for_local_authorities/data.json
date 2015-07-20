@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_procurement_report_for_local_authorities/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/8w5p-k45m/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/8w5p-k45m/rows.csv", 
   "description": "Public authorities are required by Section 2800 of Public Authorities Law to submit annual reports to the Authorities Budget Office that include procurement contracts data.  The dataset consists of 3 years of procurement contracts data reported by local authorities. Authorities are required to report procurement transactions that have an actual or estimated value of $5,000 or more.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,74 +13,7 @@
     }
   }, 
   "name": "Procurement Report for Local Authorities", 
-  "schema": {
-    "columns": [
-      {
-        "name": "authority_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "fiscal_year_end_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "procurements", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendor_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendor_city", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendor_state", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendor_postal_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendor_province_region", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendor_country", 
-        "type": "text"
-      }, 
-      {
-        "name": "procurement_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "type_of_procurement", 
-        "type": "text"
-      }, 
-      {
-        "name": "award_process", 
-        "type": "text"
-      }, 
-      {
-        "name": "award_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "end_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "contract_amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "amount_expended_for_fiscal_year", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "procurement_report_for_local_authorities"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "procurement_report_for_local_authorities"
 }

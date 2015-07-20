@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_kingcounty_law_enforcement_call_response_times/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/rr7t-2iaj/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.kingcounty.gov/api/views/rr7t-2iaj/rows.csv", 
   "description": "Priority X- critical dispatch: calls that pose an obvious threat to the safety of persons (such as shootings)\r\nPriority 1- immediate dispatch: calls that require immediate police action (such as injury traffic accidents)\r\nPriority 2- prompt dispatch: calls that could escalate to a more serious degree if not policed quickly (such as verbal disturbances)\r\nPriority 3- routine dispatch: calls where response time is not a critical factor (such as audible alarms)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "Law enforcement call response times", 
-  "schema": {
-    "columns": [
-      {
-        "name": "jurisdiction", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "call_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "number_of_calls", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.kingcounty.gov", 
-  "tableName": "law_enforcement_call_response_times"
+  "schema": "socrata/data.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "law_enforcement_call_response_times"
 }

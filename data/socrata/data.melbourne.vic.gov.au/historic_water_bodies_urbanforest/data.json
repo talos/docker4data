@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/historic_water_bodies_urbanforest/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/geospatial/n6sz-6nb6", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/geospatial/n6sz-6nb6", 
   "description": "This shapefile delineates historic water bodies including wetlands, the old Yarra River and Moonee Ponds Creek alignments and lakes (presumably seasonal and generally estuarine). The polygons are digitised from the 1855 map \"Melbourne and its Suburbs\" compiled by James Kearney, draughtsman ; engraved by David Tulloch and James D. Brown. http://handle.slv.vic.gov.au/10381/89107", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Historic water bodies - #Urbanforest", 
-  "schema": {}, 
-  "schemaName": "socrata/data.melbourne.vic.gov.au", 
-  "tableName": "historic_water_bodies_urbanforest"
+  "schema": "socrata/data.melbourne.vic.gov.au", 
+  "status": "needs review", 
+  "table": "historic_water_bodies_urbanforest"
 }

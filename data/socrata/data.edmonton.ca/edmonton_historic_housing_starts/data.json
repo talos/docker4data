@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/edmonton_historic_housing_starts/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/tnqb-twnn/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.edmonton.ca/api/views/tnqb-twnn/rows.csv", 
   "description": "New housing construction in the City of Edmonton and Edmonton Region. Data is adapted from the Canadian Mortgage and Housing Corporation.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "Edmonton - Historic  Housing Starts", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "edmonton_single", 
-        "type": "text"
-      }, 
-      {
-        "name": "edmonton_multiple", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.edmonton.ca", 
-  "tableName": "edmonton_historic_housing_starts"
+  "schema": "socrata/data.edmonton.ca", 
+  "status": "needs review", 
+  "table": "edmonton_historic_housing_starts"
 }

@@ -1,0 +1,21 @@
+CREATE TABLE "esrd_qip_vascular_access_payment_year_2015" (
+	"facility_name"	text,
+	"cms_certification_number_ccn"	text,
+	"alternate_ccn_1"	text,
+	"alternate_ccn_2"	text,
+	"alternate_ccn_3"	text,
+	"address_1"	text,
+	"address_2"	text,
+	"city"	text,
+	"state"	text,
+	"zip_code"	text,
+	"network"	text,
+	"fistula_performance_rate"	text,
+	"fistula_measure_score"	text,
+	"national_avg_fistula_measure_score"	text,
+	"catheter_performance_rate"	text,
+	"catheter_measure_score"	text,
+	"national_avg_catheter_measure_score"	text,
+	"vascular_access_combined_measure_score"	text,
+	"national_avg_vascular_access_combined_measure_score"	text
+);

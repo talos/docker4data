@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/substance_abuse/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.mo.gov/download/ic7m-74rpapplication/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.mo.gov/download/ic7m-74rp/application/pdf", 
   "description": "A collection of substance abuse resources for service members, Veterans and their families being offered outside of the Missouri Department of Mental Health.", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,7 +13,7 @@
     }
   }, 
   "name": "Substance Abuse", 
-  "schema": {}, 
-  "schemaName": "socrata/data.mo.gov", 
-  "tableName": "substance_abuse"
+  "schema": "socrata/data.mo.gov", 
+  "status": "needs review", 
+  "table": "substance_abuse"
 }

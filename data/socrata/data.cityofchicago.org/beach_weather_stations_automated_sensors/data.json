@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_beach_weather_stations_automated_sensors/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/k7hf-8y75/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/k7hf-8y75/rows.csv", 
   "description": "The Chicago Park District maintains weather sensors at beaches along Chicago's Lake Michigan lakefront. These sensors generally capture the indicated measurements hourly while the sensors are in operation during the summer.  During other seasons and at some other times, information from the sensors may not be available.  See https://data.cityofchicago.org/id/qmqz-2xku for a dataset with similar measurements on the lake water, itself.  The sensor locations are listed at https://data.cityofchicago.org/d/g3ip-u8rb.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,82 +13,7 @@
     }
   }, 
   "name": "Beach Weather Stations - Automated Sensors", 
-  "schema": {
-    "columns": [
-      {
-        "name": "station_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "measurement_timestamp", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "air_temperature", 
-        "type": "real"
-      }, 
-      {
-        "name": "wet_bulb_temperature", 
-        "type": "real"
-      }, 
-      {
-        "name": "humidity", 
-        "type": "real"
-      }, 
-      {
-        "name": "rain_intensity", 
-        "type": "real"
-      }, 
-      {
-        "name": "interval_rain", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_rain", 
-        "type": "real"
-      }, 
-      {
-        "name": "precipitation_type", 
-        "type": "real"
-      }, 
-      {
-        "name": "wind_direction", 
-        "type": "real"
-      }, 
-      {
-        "name": "wind_speed", 
-        "type": "real"
-      }, 
-      {
-        "name": "maximum_wind_speed", 
-        "type": "real"
-      }, 
-      {
-        "name": "barometric_pressure", 
-        "type": "real"
-      }, 
-      {
-        "name": "solar_radiation", 
-        "type": "real"
-      }, 
-      {
-        "name": "heading", 
-        "type": "real"
-      }, 
-      {
-        "name": "battery_life", 
-        "type": "real"
-      }, 
-      {
-        "name": "measurement_timestamp_label", 
-        "type": "text"
-      }, 
-      {
-        "name": "measurement_id", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "beach_weather_stations_automated_sensors"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "beach_weather_stations_automated_sensors"
 }

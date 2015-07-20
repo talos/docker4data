@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/property_boundaries/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/geospatial/e56b-j9mj", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/geospatial/e56b-j9mj", 
   "description": "This shapefile details the boundaries of all properties within the city of melbourne. A boundary is described as a division between adjacent political entities, tracts of private land, or geographic zones. Boundary lines may be imaginary lines, physical features that follow those lines, or the graphical representation of those lines on a map. Boundary lines between privately owned land parcels are usually called property lines.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Property Boundaries", 
-  "schema": {}, 
-  "schemaName": "socrata/data.melbourne.vic.gov.au", 
-  "tableName": "property_boundaries"
+  "schema": "socrata/data.melbourne.vic.gov.au", 
+  "status": "needs review", 
+  "table": "property_boundaries"
 }

@@ -1,8 +1,6 @@
 {
   "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_bronx_lehman_cuny_parks_in_the_bronx/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/wyrz-8fya/rows.csv"
-  }, 
+  "data": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/wyrz-8fya/rows.csv", 
   "description": "parks and greenspaces in the Bronx", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,33 +14,5 @@
     }
   }, 
   "name": "Parks In The Bronx", 
-  "schema": {
-    "columns": [
-      {
-        "name": "cd", 
-        "type": "text"
-      }, 
-      {
-        "name": "park_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "acreage", 
-        "type": "real"
-      }, 
-      {
-        "name": "xcoord", 
-        "type": "real"
-      }, 
-      {
-        "name": "ycoord", 
-        "type": "real"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "tableName": "socrata_bronx_lehman_cuny_parks_in_the_bronx"
+  "table": "socrata_bronx_lehman_cuny_parks_in_the_bronx"
 }

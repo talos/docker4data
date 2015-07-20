@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/choose_maryland_compare_counties_transportation/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/ief7-i74z/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/ief7-i74z/rows.csv", 
   "description": "Workforce travel habits - commute times and destinations.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "Choose Maryland:  Compare Counties - Transportation", 
-  "schema": {
-    "columns": [
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "distance_commercial_airport", 
-        "type": "real"
-      }, 
-      {
-        "name": "avg_work_commute", 
-        "type": "real"
-      }, 
-      {
-        "name": "workers_commuting_into_cnty", 
-        "type": "real"
-      }, 
-      {
-        "name": "workers_commuting_out_cnty", 
-        "type": "real"
-      }, 
-      {
-        "name": "workers_commuting_in_out_cnty", 
-        "type": "real"
-      }, 
-      {
-        "name": "residents_work_own_cnty", 
-        "type": "real"
-      }, 
-      {
-        "name": "perc_residents_employed_own_cnty", 
-        "type": "text"
-      }, 
-      {
-        "name": "perc_cnty_jobs_residents", 
-        "type": "text"
-      }, 
-      {
-        "name": "perc_cnty_jobs_non_residents", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "choose_maryland_compare_counties_transportation"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "choose_maryland_compare_counties_transportation"
 }

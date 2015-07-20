@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/colorado_information_marketplace/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/download/n2ry-cyd2application/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/download/n2ry-cyd2/application/pdf", 
   "description": "The Colorado Information Marketplaces addresses the need to shift focus from siloed data exchanges, which can be prone to misinterpretation, inaccuracy, and risk. Instead, the Colorado Information Marketplace relies on existing data standards, such as the National Information Exchange Model and a governance model to create a reusable source of information for both state, local, county, city, tribal and other external entities that qualify for access and use of the data. The CIM framework applies both consistency of data standards and governance for privacy and security, while improving data transparency and reuse. Mission critical information empowers people to make better decisions in a real time (or near real time) environment, rather than waiting months or, in some cases, years to get access to the right data. Information exchanges will benefit every agency with the State, which will in turn benefit every citizen.", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Colorado Information Marketplace", 
-  "schema": {}, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "colorado_information_marketplace"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "colorado_information_marketplace"
 }

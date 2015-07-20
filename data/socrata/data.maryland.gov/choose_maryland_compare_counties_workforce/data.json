@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_choose_maryland_compare_counties_workforce/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/q7q7-usgm/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/q7q7-usgm/rows.csv", 
   "description": "Workforce summary - employment, unemployment, and participation rates; employment and earnings by industry.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "Choose Maryland:  Compare Counties - Workforce", 
-  "schema": {
-    "columns": [
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "labor_force", 
-        "type": "real"
-      }, 
-      {
-        "name": "employment", 
-        "type": "real"
-      }, 
-      {
-        "name": "unemployment", 
-        "type": "real"
-      }, 
-      {
-        "name": "unemployment_rate", 
-        "type": "text"
-      }, 
-      {
-        "name": "labor_force_participation_rate_total", 
-        "type": "text"
-      }, 
-      {
-        "name": "average_annual_employment_total", 
-        "type": "real"
-      }, 
-      {
-        "name": "average_weekly_wage_total_dollars", 
-        "type": "real"
-      }, 
-      {
-        "name": "number_of_business_establishments", 
-        "type": "real"
-      }, 
-      {
-        "name": "number_of_business_establishments_with_100_or_more_workers", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "choose_maryland_compare_counties_workforce"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "choose_maryland_compare_counties_workforce"
 }

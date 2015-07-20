@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/world_bank_finances_data_dictionary/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/wc6g-9zmq/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/finances.worldbank.org/api/views/wc6g-9zmq/rows.csv", 
   "description": "Provides descriptions for the data elements of the World Bank Finances datasets.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "World Bank Finances Data Dictionary", 
-  "schema": {
-    "columns": [
-      {
-        "name": "dataset_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "data_element", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/finances.worldbank.org", 
-  "tableName": "world_bank_finances_data_dictionary"
+  "schema": "socrata/finances.worldbank.org", 
+  "status": "needs review", 
+  "table": "world_bank_finances_data_dictionary"
 }

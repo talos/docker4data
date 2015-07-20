@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/active_employees_by_union_and_department/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/download/ceq4-v4bgapplication/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.sfgov.org/download/ceq4-v4bg/application/pdf", 
   "description": "Employee Count by Department, broken out by Union \r\nFor Pay Period Ending 03/12/2015", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Active Employees By Union and Department", 
-  "schema": {}, 
-  "schemaName": "socrata/data.sfgov.org", 
-  "tableName": "active_employees_by_union_and_department"
+  "schema": "socrata/data.sfgov.org", 
+  "status": "needs review", 
+  "table": "active_employees_by_union_and_department"
 }

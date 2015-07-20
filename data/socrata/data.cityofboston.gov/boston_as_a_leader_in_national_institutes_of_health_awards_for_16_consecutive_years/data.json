@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/boston_as_a_leader_in_national_institutes_of_health_awards_for_16_consecutive_years/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/download/iz77-eevvapplication/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/download/iz77-eevv/application/pdf", 
   "description": "Boston leads the nation once again in NIH funding for 16 years in a row, having received a total of $21.5 billion. Details about funding sources and distributions are found in this report by the BRA's LifeTech initiative and Research Division.", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,7 +13,7 @@
     }
   }, 
   "name": "Boston as a Leader in National Institutes of Health Awards for 16 Consecutive Years", 
-  "schema": {}, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "boston_as_a_leader_in_national_institutes_of_health_awards_for_16_consecutive_years"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "boston_as_a_leader_in_national_institutes_of_health_awards_for_16_consecutive_years"
 }

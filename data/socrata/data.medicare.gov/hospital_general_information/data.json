@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_medicare_hospital_general_information/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/xubh-q36u/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.medicare.gov/api/views/xubh-q36u/rows.csv", 
   "description": "A list of all Hospitals that have been registered with Medicare. The list includes addresses, phone numbers, and hospital type.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,58 +12,7 @@
     }
   }, 
   "name": "Hospital General Information", 
-  "schema": {
-    "columns": [
-      {
-        "name": "provider_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "hospital_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "county_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "hospital_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "hospital_ownership", 
-        "type": "text"
-      }, 
-      {
-        "name": "emergency_services", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.medicare.gov", 
-  "tableName": "hospital_general_information"
+  "schema": "socrata/data.medicare.gov", 
+  "status": "needs review", 
+  "table": "hospital_general_information"
 }

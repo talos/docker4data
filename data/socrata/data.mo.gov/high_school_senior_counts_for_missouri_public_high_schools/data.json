@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/high_school_senior_counts_for_missouri_public_high_schools/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.mo.gov/api/views/8yaf-xv66/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.mo.gov/api/views/8yaf-xv66/rows.csv", 
   "description": "This data is used to determine the success rate of FAFSA filing for High School Seniors.\r\nThis data is updated periodically as new data becomes available.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "High School Senior Counts for Missouri Public High Schools", 
-  "schema": {
-    "columns": [
-      {
-        "name": "ncessch", 
-        "type": "text"
-      }, 
-      {
-        "name": "school_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "district", 
-        "type": "text"
-      }, 
-      {
-        "name": "school_year", 
-        "type": "text"
-      }, 
-      {
-        "name": "number_of_seniors", 
-        "type": "text"
-      }, 
-      {
-        "name": "lastupdated", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "recordid", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.mo.gov", 
-  "tableName": "high_school_senior_counts_for_missouri_public_high_schools"
+  "schema": "socrata/data.mo.gov", 
+  "status": "needs review", 
+  "table": "high_school_senior_counts_for_missouri_public_high_schools"
 }

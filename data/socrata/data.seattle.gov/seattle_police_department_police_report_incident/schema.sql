@@ -1,0 +1,21 @@
+CREATE TABLE "seattle_police_department_police_report_incident" (
+	"rms_cdw_id"	text,
+	"general_offense_number"	text,
+	"offense_code"	text,
+	"offense_code_extension"	text,
+	"offense_type"	text,
+	"summary_offense_code"	text,
+	"summarized_offense_description"	text,
+	"date_reported"	timestamp,
+	"occurred_date_or_date_range_start"	timestamp,
+	"occurred_date_range_end"	timestamp,
+	"hundred_block_location"	text,
+	"district_sector"	text,
+	"zone_beat"	text,
+	"census_tract_2000"	text,
+	"longitude"	real,
+	"latitude"	real,
+	"location"	text,
+	"month"	real,
+	"year"	real
+);

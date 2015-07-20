@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/obpac_newsflash/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/download/8vm6-v49wapplication/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/download/8vm6-v49w/application/pdf", 
   "description": "Clarification on Public Comments at the March 10, 2014 OBPAC meeting in Corvallis, OR", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "OBPAC Newsflash", 
-  "schema": {}, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "obpac_newsflash"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "obpac_newsflash"
 }

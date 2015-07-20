@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/city_of_seattle_wages_comparison_by_gender_discretionary_pay_titles/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/tptv-57gf/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/tptv-57gf/rows.csv", 
   "description": "Average hourly wages for women and men in the Discretionary Pay Program by job classification", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,62 +11,7 @@
     }
   }, 
   "name": "City of Seattle Wages:  Comparison by Gender - Discretionary Pay Titles", 
-  "schema": {
-    "columns": [
-      {
-        "name": "job_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "average_of_female_hourly_rate", 
-        "type": "real"
-      }, 
-      {
-        "name": "count_of_women_in_job_type", 
-        "type": "real"
-      }, 
-      {
-        "name": "average_of_female_longevity_by_months", 
-        "type": "real"
-      }, 
-      {
-        "name": "average_of_male_hourly_rate", 
-        "type": "real"
-      }, 
-      {
-        "name": "count_of_men_in_job_type", 
-        "type": "real"
-      }, 
-      {
-        "name": "average_of_male_longevity_by_months", 
-        "type": "real"
-      }, 
-      {
-        "name": "average_of_hourly_rate", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_count_of_women_in_job_type", 
-        "type": "real"
-      }, 
-      {
-        "name": "average_of_longevity_by_months", 
-        "type": "real"
-      }, 
-      {
-        "name": "womens_hourly_rate_compared_to_men_s_pay_rate_in_the_same_title", 
-        "type": "text"
-      }, 
-      {
-        "name": "womens_longevity_compared_to_men_s_pay_rate_in_the_same_title", 
-        "type": "text"
-      }, 
-      {
-        "name": "notes", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "city_of_seattle_wages_comparison_by_gender_discretionary_pay_titles"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "city_of_seattle_wages_comparison_by_gender_discretionary_pay_titles"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_belleville_crime_blotter_updated_03_13_2013_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/xmn2-7i5y/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/xmn2-7i5y/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -15,46 +11,7 @@
     }
   }, 
   "name": "Belleville Crime Blotter (updated 03.13.2013)", 
-  "schema": {
-    "columns": [
-      {
-        "name": "district", 
-        "type": "text"
-      }, 
-      {
-        "name": "report", 
-        "type": "text"
-      }, 
-      {
-        "name": "time", 
-        "type": "text"
-      }, 
-      {
-        "name": "crime", 
-        "type": "text"
-      }, 
-      {
-        "name": "narrative", 
-        "type": "text"
-      }, 
-      {
-        "name": "blotter", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "shift", 
-        "type": "text"
-      }, 
-      {
-        "name": "address_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "belleville_crime_blotter_updated_03_13_2013_"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "belleville_crime_blotter_updated_03_13_2013_"
 }

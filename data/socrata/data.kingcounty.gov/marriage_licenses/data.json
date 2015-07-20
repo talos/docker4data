@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/marriage_licenses/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/vknv-i7jv/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.kingcounty.gov/api/views/vknv-i7jv/rows.csv", 
   "description": "Number of marriage licenses processed by King County for Marriage Equality Day", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,22 +12,7 @@
     }
   }, 
   "name": "Marriage Licenses", 
-  "schema": {
-    "columns": [
-      {
-        "name": "time", 
-        "type": "text"
-      }, 
-      {
-        "name": "hour", 
-        "type": "text"
-      }, 
-      {
-        "name": "total_licenses", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.kingcounty.gov", 
-  "tableName": "marriage_licenses"
+  "schema": "socrata/data.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "marriage_licenses"
 }

@@ -1,0 +1,20 @@
+CREATE TABLE "complaint_problems" (
+	"problemid"	real,
+	"complaintid"	real,
+	"unittypeid"	real,
+	"unittype"	text,
+	"spacetypeid_2"	real,
+	"spacetype"	text,
+	"typeid"	real,
+	"type"	text,
+	"majorcategoryid"	real,
+	"majorcategory"	text,
+	"minorcategoryid"	real,
+	"minorcategory"	text,
+	"codeid"	real,
+	"code"	text,
+	"statusid"	real,
+	"status"	text,
+	"statusdate"	timestamp,
+	"statusdescription"	text
+);

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_kingcounty_compensation_contacts_v2/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/vt9h-n2kr/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.kingcounty.gov/api/views/vt9h-n2kr/rows.csv", 
   "description": "Contact information for King County Compensation/Classification Services staff members", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "Compensation-contacts-v2", 
-  "schema": {
-    "columns": [
-      {
-        "name": "department_office", 
-        "type": "text"
-      }, 
-      {
-        "name": "sr_compensation_analyst", 
-        "type": "text"
-      }, 
-      {
-        "name": "sr_compensation_analyst_email", 
-        "type": "text"
-      }, 
-      {
-        "name": "sr_compensation_analyst_phone", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.kingcounty.gov", 
-  "tableName": "compensation_contacts_v2"
+  "schema": "socrata/data.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "compensation_contacts_v2"
 }

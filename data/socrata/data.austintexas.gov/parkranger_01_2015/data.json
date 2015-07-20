@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_parkranger_01_2015/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/37ft-tmhr/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/views/37ft-tmhr/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -14,30 +10,7 @@
     }
   }, 
   "name": "Parkranger 01 2015", 
-  "schema": {
-    "columns": [
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "event_or_activity", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "time_of_event", 
-        "type": "text"
-      }, 
-      {
-        "name": "additional_information", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "parkranger_01_2015"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "parkranger_01_2015"
 }

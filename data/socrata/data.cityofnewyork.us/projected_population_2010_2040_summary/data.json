@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_projected_population_2010_2040_summary/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/ph5g-sr3v/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/ph5g-sr3v/rows.csv", 
   "description": "Projected New York City population numbers and percentage changes from 2010 through 2040 by Borough, including school-age, 65 and Over, and total population.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,82 +13,7 @@
     }
   }, 
   "name": "Projected Population 2010-2040 - Summary", 
-  "schema": {
-    "columns": [
-      {
-        "name": "age_group", 
-        "type": "text"
-      }, 
-      {
-        "name": "borough", 
-        "type": "text"
-      }, 
-      {
-        "name": "_1", 
-        "type": "real"
-      }, 
-      {
-        "name": "_of_total_borough_population_2000", 
-        "type": "text"
-      }, 
-      {
-        "name": "_2", 
-        "type": "real"
-      }, 
-      {
-        "name": "_of_total_borough_population_2010", 
-        "type": "text"
-      }, 
-      {
-        "name": "_3", 
-        "type": "real"
-      }, 
-      {
-        "name": "_of_total_borough_population_2020", 
-        "type": "text"
-      }, 
-      {
-        "name": "_4", 
-        "type": "real"
-      }, 
-      {
-        "name": "_of_total_borough_population_2030", 
-        "type": "text"
-      }, 
-      {
-        "name": "change_in_number_2000_2010", 
-        "type": "real"
-      }, 
-      {
-        "name": "change_in_percent_2000_2010", 
-        "type": "text"
-      }, 
-      {
-        "name": "change_in_number_2010_2020_", 
-        "type": "real"
-      }, 
-      {
-        "name": "change_in_percent_2010_2020", 
-        "type": "text"
-      }, 
-      {
-        "name": "change_in_number_2020_2030_", 
-        "type": "real"
-      }, 
-      {
-        "name": "change_in_percent_2020_2030", 
-        "type": "text"
-      }, 
-      {
-        "name": "change_in_number_2000_2030_", 
-        "type": "real"
-      }, 
-      {
-        "name": "change_in_percent_2000_2030", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "projected_population_2010_2040_summary"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "projected_population_2010_2040_summary"
 }

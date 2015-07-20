@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_underlying_credit_ratings_for_dbf/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/vtr3-vfpe/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/vtr3-vfpe/rows.csv", 
   "description": "Underlying Credit Ratings for State of Hawaii, Department of Budget and Finance", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "Underlying Credit Ratings for DBF", 
-  "schema": {
-    "columns": [
-      {
-        "name": "type_of_debt", 
-        "type": "text"
-      }, 
-      {
-        "name": "fitch", 
-        "type": "text"
-      }, 
-      {
-        "name": "moody_s", 
-        "type": "text"
-      }, 
-      {
-        "name": "s_p", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "underlying_credit_ratings_for_dbf"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "underlying_credit_ratings_for_dbf"
 }

@@ -1,9 +1,6 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/warning_sirens/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.honolulu.gov/api/geospatial/jtmr-aw46", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.honolulu.gov/api/geospatial/jtmr-aw46", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -14,7 +11,7 @@
     }
   }, 
   "name": "Warning Sirens", 
-  "schema": {}, 
-  "schemaName": "socrata/data.honolulu.gov", 
-  "tableName": "warning_sirens"
+  "schema": "socrata/data.honolulu.gov", 
+  "status": "needs review", 
+  "table": "warning_sirens"
 }

@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/jurisdiction_history/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/geospatial/amuv-wxzr", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/geospatial/amuv-wxzr", 
   "description": "History of annexation actions taken by the City of Austin including annexations, disannexations, releases of territorial jurisdiction and conversions.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,9 +14,7 @@
     }
   }, 
   "name": "Jurisdiction History", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "jurisdiction_history"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "jurisdiction_history"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/meals_served_by_the_office_for_the_aging_beginning_1974/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/uhw9-gyvi/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/uhw9-gyvi/rows.csv", 
   "description": "This dataset is a listing of congregate and home delivered meals served 1974 to the present by the network of Area Agencies on Aging (AAAs).  AAAs - local offices for the Aging - provide services at senior center locations either directly or through subcontracts. Services may include but are not limited to congregate meals, health promotion, educational programs, recreation, etc.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Meals Served by the Office for the Aging:  Beginning 1974", 
-  "schema": {
-    "columns": [
-      {
-        "name": "nysofa_county_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "county_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "meal_units_served", 
-        "type": "real"
-      }, 
-      {
-        "name": "meal_type", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "meals_served_by_the_office_for_the_aging_beginning_1974"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "meals_served_by_the_office_for_the_aging_beginning_1974"
 }

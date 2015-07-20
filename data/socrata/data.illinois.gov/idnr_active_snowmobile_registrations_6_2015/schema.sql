@@ -1,0 +1,21 @@
+CREATE TABLE "idnr_active_snowmobile_registrations_6_2015" (
+	"transaction_type"	text,
+	"date_keyed"	timestamp,
+	"registration_number"	text,
+	"purchase_date"	timestamp,
+	"expiration_year"	real,
+	"manufacturer"	text,
+	"model"	text,
+	"model_year"	real,
+	"color1"	text,
+	"color2"	text,
+	"horsepower"	real,
+	"body_serial_number"	text,
+	"motor_serial_number"	text,
+	"use"	text,
+	"city"	text,
+	"state"	text,
+	"zip_code"	real,
+	"county"	text,
+	"transaction_code"	real
+);

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_unrestrained_occupant_fatalities/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/8n7d-fesf/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/8n7d-fesf/rows.csv", 
   "description": "Decrease the number of automobile fatalities in which victims are not wearing seat belts from 282 in 2012 to 260 by 2017.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "Unrestrained Occupant Fatalities", 
-  "schema": {
-    "columns": [
-      {
-        "name": "years", 
-        "type": "text"
-      }, 
-      {
-        "name": "historical_data", 
-        "type": "real"
-      }, 
-      {
-        "name": "target", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "unrestrained_occupant_fatalities"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "unrestrained_occupant_fatalities"
 }

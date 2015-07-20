@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_2013_nbpd_bike_counts/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/ewwk-ty4e/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/ewwk-ty4e/rows.csv", 
   "description": "Detailed Bike quarterly count on the fifty National Bike and Pedestrian Count locations in Seattle. This data set does not show pedestrian counts.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "2013 NBPD Bike Counts", 
-  "schema": {
-    "columns": [
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "jan", 
-        "type": "real"
-      }, 
-      {
-        "name": "may", 
-        "type": "real"
-      }, 
-      {
-        "name": "july", 
-        "type": "real"
-      }, 
-      {
-        "name": "sept", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "2013_nbpd_bike_counts"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "2013_nbpd_bike_counts"
 }

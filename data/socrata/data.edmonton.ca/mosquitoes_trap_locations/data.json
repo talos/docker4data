@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/mosquitoes_trap_locations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/rh82-ntt9/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.edmonton.ca/api/views/rh82-ntt9/rows.csv", 
   "description": "Location of mosquito trap locations in Edmonton for 2011 and 2012 collection seasons. Note: Geographic coordinates are only an approximation. a map view can be found at: https://data.edmonton.ca/Environmental-Services/Mosquitoes-Trap-Locations-Map-View/g2ht-buzt", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "Mosquitoes Trap Locations", 
-  "schema": {
-    "columns": [
-      {
-        "name": "trap_location", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.edmonton.ca", 
-  "tableName": "mosquitoes_trap_locations"
+  "schema": "socrata/data.edmonton.ca", 
+  "status": "needs review", 
+  "table": "mosquitoes_trap_locations"
 }

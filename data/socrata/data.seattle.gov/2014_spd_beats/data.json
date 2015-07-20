@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/2014_spd_beats/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/geospatial/ai4c-zvdm", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/geospatial/ai4c-zvdm", 
   "description": "SPD Beat, Precincts, and population data from 2010 Census", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,7 +13,7 @@
     }
   }, 
   "name": "2014 Spd Beats", 
-  "schema": {}, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "2014_spd_beats"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "2014_spd_beats"
 }

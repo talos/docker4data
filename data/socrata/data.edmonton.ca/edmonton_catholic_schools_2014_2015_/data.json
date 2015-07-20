@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/edmonton_catholic_schools_2014_2015_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/f6w2-hzex/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.edmonton.ca/api/views/f6w2-hzex/rows.csv", 
   "description": "List of all Catholic schools in Edmonton for the 2014 - 2015 school year. Note - some schools may not be offering all necessary grade years.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,70 +13,7 @@
     }
   }, 
   "name": "Edmonton Catholic Schools (2014 - 2015)", 
-  "schema": {
-    "columns": [
-      {
-        "name": "ab_school_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "school_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "street", 
-        "type": "text"
-      }, 
-      {
-        "name": "postal_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "ward", 
-        "type": "real"
-      }, 
-      {
-        "name": "phone_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "fax_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "email", 
-        "type": "text"
-      }, 
-      {
-        "name": "website", 
-        "type": "text"
-      }, 
-      {
-        "name": "grade_level", 
-        "type": "text"
-      }, 
-      {
-        "name": "grades_offered", 
-        "type": "text"
-      }, 
-      {
-        "name": "programs", 
-        "type": "text"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.edmonton.ca", 
-  "tableName": "edmonton_catholic_schools_2014_2015_"
+  "schema": "socrata/data.edmonton.ca", 
+  "status": "needs review", 
+  "table": "edmonton_catholic_schools_2014_2015_"
 }

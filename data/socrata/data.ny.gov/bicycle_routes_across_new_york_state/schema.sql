@@ -1,0 +1,20 @@
+CREATE TABLE "bicycle_routes_across_new_york_state" (
+	"trail_name"	text,
+	"trail_description"	text,
+	"trail_length"	real,
+	"biking"	text,
+	"skiing"	text,
+	"horseriding"	text,
+	"skating"	text,
+	"walking"	text,
+	"atv"	text,
+	"snowmobile"	text,
+	"trail_use"	text,
+	"trail_highway"	text,
+	"paved"	text,
+	"gravel"	text,
+	"stone_dust"	text,
+	"dirt"	text,
+	"boardwalk"	text,
+	"surface_type"	text
+);

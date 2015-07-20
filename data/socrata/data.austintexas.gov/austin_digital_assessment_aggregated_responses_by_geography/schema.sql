@@ -1,0 +1,20 @@
+CREATE TABLE "austin_digital_assessment_aggregated_responses_by_geography" (
+	"zipcode_council_district"	text,
+	"internet_users"	text,
+	"internet_non_users"	text,
+	"home_internet_access"	text,
+	"smartphone_usage_rates"	text,
+	"pc_laptop_and_or_desktop_ownership"	text,
+	"non_users_reasons_for_not_using_the_internet_expense"	text,
+	"non_users_reasons_for_not_using_the_internet_privacy_concerns"	text,
+	"non_users_reasons_for_not_using_the_internet_not_interested"	text,
+	"non_users_reasons_for_not_using_the_internet_no_one_to_teach_me"	text,
+	"non_users_reasons_for_not_using_the_internet_not_enough_time"	text,
+	"non_users_reasons_for_not_using_the_internet_too_difficult"	text,
+	"non_users_reasons_for_not_using_the_internet_someone_uses_internet_for_me"	text,
+	"non_users_reasons_for_not_using_the_internet_do_not_speak_english_well_enough"	text,
+	"non_users_help_with_technology_i_know_enough_to_go_online_on_my_own"	text,
+	"non_users_help_with_technology_i_would_need_someone_to_help_me"	text,
+	"non_users_help_with_technology_i_would_not_want_to_start_using_the_internet"	text,
+	"non_users_interested_in_free_training_yes"	text
+);

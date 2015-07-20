@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wellingtonfl_active_contractor_registrations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wellingtonfl.gov/api/views/hcqt-5rjv/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.wellingtonfl.gov/api/views/hcqt-5rjv/rows.csv", 
   "description": "Listing of all active contractor registrations - meaning these contractors have registered to do business in Wellington.  NOTE: Wellington does not warrant or recommend any of these contractors.  This list simple shows those contractors that have completed the registration process", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,78 +13,7 @@
     }
   }, 
   "name": "Active Contractor Registrations", 
-  "schema": {
-    "columns": [
-      {
-        "name": "license_fiscal_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "license_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "business_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "pcn", 
-        "type": "real"
-      }, 
-      {
-        "name": "location_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "street_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "business_phone_number_calc", 
-        "type": "text"
-      }, 
-      {
-        "name": "contractor_flag_y", 
-        "type": "text"
-      }, 
-      {
-        "name": "classification_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "issue_date_mm_dd_yyyy", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "license_status", 
-        "type": "text"
-      }, 
-      {
-        "name": "license_expir_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "street_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "street", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_suffix", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "email", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.wellingtonfl.gov", 
-  "tableName": "active_contractor_registrations"
+  "schema": "socrata/data.wellingtonfl.gov", 
+  "status": "needs review", 
+  "table": "active_contractor_registrations"
 }

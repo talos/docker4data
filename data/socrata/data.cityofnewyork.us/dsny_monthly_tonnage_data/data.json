@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_dsny_monthly_tonnage_data/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/ebb7-mvp5/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/ebb7-mvp5/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -15,38 +11,7 @@
     }
   }, 
   "name": "DSNY Monthly Tonnage Data", 
-  "schema": {
-    "columns": [
-      {
-        "name": "month", 
-        "type": "text"
-      }, 
-      {
-        "name": "borough", 
-        "type": "text"
-      }, 
-      {
-        "name": "communitydistrict", 
-        "type": "text"
-      }, 
-      {
-        "name": "refusetonscollected", 
-        "type": "real"
-      }, 
-      {
-        "name": "papertonscollected", 
-        "type": "real"
-      }, 
-      {
-        "name": "mgptonscollected", 
-        "type": "real"
-      }, 
-      {
-        "name": "borough_id", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "dsny_monthly_tonnage_data"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "dsny_monthly_tonnage_data"
 }

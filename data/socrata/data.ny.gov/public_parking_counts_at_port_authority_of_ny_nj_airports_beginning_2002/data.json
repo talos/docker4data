@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/public_parking_counts_at_port_authority_of_ny_nj_airports_beginning_2002/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/h87k-kqb6/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/h87k-kqb6/rows.csv", 
   "description": "The Port Authority of New York and New Jersey quarterly produces a data file and provides information on count of the number of vehicles in the airport public parking lots. This dataset represents the number of cars parked in public parking lots at John F. Kennedy International Airport, LaGuardia Airport, Newark Liberty International Airport, and Stewart International Airport beginning in 2002.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "Public Parking Counts at Port Authority of NY NJ Airports: Beginning 2002", 
-  "schema": {
-    "columns": [
-      {
-        "name": "airport", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "month", 
-        "type": "real"
-      }, 
-      {
-        "name": "public_parking_counts_at_pa_airports", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "public_parking_counts_at_port_authority_of_ny_nj_airports_beginning_2002"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "public_parking_counts_at_port_authority_of_ny_nj_airports_beginning_2002"
 }

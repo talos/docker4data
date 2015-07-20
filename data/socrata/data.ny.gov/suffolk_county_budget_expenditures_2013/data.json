@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_suffolk_county_budget_expenditures_2013/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/62eq-hqts/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/62eq-hqts/rows.csv", 
   "description": "The Operating Budget details the expenditures for the County's day-today operation. The Operating Budget contains the perating expenses for all County departments and agencies for the fiscal year. These expenses include the costs for personnel, supplies, equipment, and maintenance and repair of equipment and buildings.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,90 +13,7 @@
     }
   }, 
   "name": "Suffolk County Budget Expenditures: 2013", 
-  "schema": {
-    "columns": [
-      {
-        "name": "bfy", 
-        "type": "real"
-      }, 
-      {
-        "name": "grant", 
-        "type": "text"
-      }, 
-      {
-        "name": "fund_cd", 
-        "type": "text"
-      }, 
-      {
-        "name": "dept_cd", 
-        "type": "text"
-      }, 
-      {
-        "name": "dept_nm", 
-        "type": "text"
-      }, 
-      {
-        "name": "unit_cd", 
-        "type": "text"
-      }, 
-      {
-        "name": "unit_nm", 
-        "type": "text"
-      }, 
-      {
-        "name": "obj_cd", 
-        "type": "real"
-      }, 
-      {
-        "name": "obj_nm", 
-        "type": "text"
-      }, 
-      {
-        "name": "actv_cd", 
-        "type": "text"
-      }, 
-      {
-        "name": "actv_nm", 
-        "type": "text"
-      }, 
-      {
-        "name": "appr_cd", 
-        "type": "text"
-      }, 
-      {
-        "name": "_2010_actuals", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2011_actuals", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2012_modified", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2012_adopted", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2012_estimated", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2013_requested", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2013_recommended", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2013_adopted", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "suffolk_county_budget_expenditures_2013"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "suffolk_county_budget_expenditures_2013"
 }

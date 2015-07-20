@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_kingcounty_total_budget_expenditures_2015_2016/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/dvxw-hmnt/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.kingcounty.gov/api/views/dvxw-hmnt/rows.csv", 
   "description": "King County biennial budget, by appropriations, 2015-2016", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,18 +13,7 @@
     }
   }, 
   "name": "Total budget expenditures 2015-2016", 
-  "schema": {
-    "columns": [
-      {
-        "name": "appropriation", 
-        "type": "text"
-      }, 
-      {
-        "name": "fy15_16_budget", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.kingcounty.gov", 
-  "tableName": "total_budget_expenditures_2015_2016"
+  "schema": "socrata/data.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "total_budget_expenditures_2015_2016"
 }

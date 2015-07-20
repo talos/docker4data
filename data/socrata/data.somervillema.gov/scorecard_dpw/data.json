@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_somervillema_scorecard_dpw/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.somervillema.gov/api/views/y3w2-tkb2/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.somervillema.gov/api/views/y3w2-tkb2/rows.csv", 
   "description": "Department of Public Works data in relation to Service Level Agreement per request type.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,42 +12,7 @@
     }
   }, 
   "name": "Scorecard DPW", 
-  "schema": {
-    "columns": [
-      {
-        "name": "dept", 
-        "type": "text"
-      }, 
-      {
-        "name": "work_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "of_requests", 
-        "type": "real"
-      }, 
-      {
-        "name": "on_time", 
-        "type": "real"
-      }, 
-      {
-        "name": "_24_hrs_late", 
-        "type": "real"
-      }, 
-      {
-        "name": "_48_hrs_late", 
-        "type": "real"
-      }, 
-      {
-        "name": "_72_hrs_late", 
-        "type": "real"
-      }, 
-      {
-        "name": "gt_72_hrs", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.somervillema.gov", 
-  "tableName": "scorecard_dpw"
+  "schema": "socrata/data.somervillema.gov", 
+  "status": "needs review", 
+  "table": "scorecard_dpw"
 }

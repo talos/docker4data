@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/measure_16_percentage_of_private_employers_offering_health_insurance_by_state_and_retirement_status/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/ibzv-fyjj/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/ibzv-fyjj/rows.csv", 
   "description": "Click on a state to see data from that state, a time trend graph for the selected state will appear below the map.\r\n<br/>\r\n<br>\r\nWhere Coverage Type is Private, White coloring indicates that no data are available for that state.\r\n<br/>\r\n<br>\r\nPrior to 2003, state-level estimates are not available for all States due to insufficient sample size.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,30 +11,7 @@
     }
   }, 
   "name": "Measure 16 : Percentage of Private Employers Offering Health Insurance by State and Retirement Status", 
-  "schema": {
-    "columns": [
-      {
-        "name": "measure_value", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "retirement_status", 
-        "type": "text"
-      }, 
-      {
-        "name": "national_data", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/healthmeasures.aspe.hhs.gov", 
-  "tableName": "measure_16_percentage_of_private_employers_offering_health_insurance_by_state_and_retirement_status"
+  "schema": "socrata/healthmeasures.aspe.hhs.gov", 
+  "status": "needs review", 
+  "table": "measure_16_percentage_of_private_employers_offering_health_insurance_by_state_and_retirement_status"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_post_tanf_employments/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/ey5k-g7tk/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/ey5k-g7tk/rows.csv", 
   "description": "Increase the percentage of families who, after reporting employment, remain off Temporary Assistance for Needy Families (TANF) benefits for 6 consecutive months from 84.1% in 2013 to 93% by 2018.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "Post-TANF Employments", 
-  "schema": {
-    "columns": [
-      {
-        "name": "years", 
-        "type": "text"
-      }, 
-      {
-        "name": "historical_data", 
-        "type": "text"
-      }, 
-      {
-        "name": "target", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "post_tanf_employments"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "post_tanf_employments"
 }

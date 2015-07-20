@@ -1,0 +1,20 @@
+CREATE TABLE "energy_star_certified_roof_products" (
+	"pd_id"	real,
+	"energy_star_partner"	text,
+	"brand_name"	text,
+	"model_name"	text,
+	"model_number"	text,
+	"additional_model_information"	text,
+	"product_type"	text,
+	"initial_solar_reflectance"	real,
+	"solar_reflectance_after_3_years"	real,
+	"initial_emissivity"	real,
+	"low_slope"	text,
+	"steep_slope"	text,
+	"roof_cleaned_prior_to_3rd_year_test"	text,
+	"warranty_period_years"	text,
+	"date_available_on_market"	timestamp,
+	"date_qualified"	timestamp,
+	"markets"	text,
+	"energy_star_model_identifier"	text
+);

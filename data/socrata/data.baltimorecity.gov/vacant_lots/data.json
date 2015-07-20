@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_baltimorecity_vacant_lots/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/gf6h-35ki/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/gf6h-35ki/rows.csv", 
   "description": "Vacant lots located throughout the City of Baltimore. To be updated twice a month.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "Vacant Lots", 
-  "schema": {
-    "columns": [
-      {
-        "name": "blocklot", 
-        "type": "text"
-      }, 
-      {
-        "name": "fulladdress", 
-        "type": "text"
-      }, 
-      {
-        "name": "neighborhood", 
-        "type": "text"
-      }, 
-      {
-        "name": "councildistrict", 
-        "type": "real"
-      }, 
-      {
-        "name": "policedistrict", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.baltimorecity.gov", 
-  "tableName": "vacant_lots"
+  "schema": "socrata/data.baltimorecity.gov", 
+  "status": "needs review", 
+  "table": "vacant_lots"
 }

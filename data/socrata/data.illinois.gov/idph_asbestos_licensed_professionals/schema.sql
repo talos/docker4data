@@ -1,0 +1,22 @@
+CREATE TABLE "idph_asbestos_licensed_professionals" (
+	"last_name"	text,
+	"first_name"	text,
+	"address"	text,
+	"city"	text,
+	"state"	text,
+	"zip_code"	text,
+	"phone"	real,
+	"company_name"	text,
+	"company_address"	text,
+	"company_city"	text,
+	"company_state"	text,
+	"company_zip_code"	text,
+	"company_phone"	real,
+	"company_county"	text,
+	"supervisor_professional_license"	text,
+	"inspector_professional_license"	text,
+	"management_planner_professional_license"	text,
+	"project_designer_professional_license"	text,
+	"project_manager_professional_license"	text,
+	"air_sampling_professional_license"	text
+);

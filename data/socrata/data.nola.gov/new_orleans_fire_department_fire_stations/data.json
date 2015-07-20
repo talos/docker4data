@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/new_orleans_fire_department_fire_stations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.nola.gov/api/geospatial/yi4n-yr7a", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.nola.gov/api/geospatial/yi4n-yr7a", 
   "description": "New Orleans Fire Department Fire Stations", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -15,7 +12,7 @@
     }
   }, 
   "name": "New Orleans Fire Department Fire Stations", 
-  "schema": {}, 
-  "schemaName": "socrata/data.nola.gov", 
-  "tableName": "new_orleans_fire_department_fire_stations"
+  "schema": "socrata/data.nola.gov", 
+  "status": "needs review", 
+  "table": "new_orleans_fire_department_fire_stations"
 }

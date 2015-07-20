@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/us_congressional_districts_within_alameda_county/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.acgov.org/api/geospatial/92qk-wh4s", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.acgov.org/api/geospatial/92qk-wh4s", 
   "description": "US Congressional Districts within Alameda County", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,9 +14,7 @@
     }
   }, 
   "name": "US Congressional Districts within Alameda County", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.acgov.org", 
-  "tableName": "us_congressional_districts_within_alameda_county"
+  "schema": "socrata/data.acgov.org", 
+  "status": "needs review", 
+  "table": "us_congressional_districts_within_alameda_county"
 }

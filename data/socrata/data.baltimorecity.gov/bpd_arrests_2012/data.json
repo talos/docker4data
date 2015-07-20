@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_baltimorecity_bpd_arrests_2012/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/srkw-68js/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/srkw-68js/rows.csv", 
   "description": "This data represents the top arrest charge of those processed at Baltimore's Central Booking & Intake Facility. This data does not contain those who have been processed through Juvenile Booking.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,70 +13,7 @@
     }
   }, 
   "name": "BPD Arrests 2012", 
-  "schema": {
-    "columns": [
-      {
-        "name": "arrest", 
-        "type": "real"
-      }, 
-      {
-        "name": "age", 
-        "type": "real"
-      }, 
-      {
-        "name": "sex", 
-        "type": "text"
-      }, 
-      {
-        "name": "race", 
-        "type": "text"
-      }, 
-      {
-        "name": "arrestdate", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "arresttime", 
-        "type": "text"
-      }, 
-      {
-        "name": "arrestlocation", 
-        "type": "text"
-      }, 
-      {
-        "name": "incidentoffense", 
-        "type": "text"
-      }, 
-      {
-        "name": "offenselocation", 
-        "type": "text"
-      }, 
-      {
-        "name": "charge", 
-        "type": "text"
-      }, 
-      {
-        "name": "chargedescription", 
-        "type": "text"
-      }, 
-      {
-        "name": "district", 
-        "type": "text"
-      }, 
-      {
-        "name": "post", 
-        "type": "real"
-      }, 
-      {
-        "name": "neighborhood", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.baltimorecity.gov", 
-  "tableName": "bpd_arrests_2012"
+  "schema": "socrata/data.baltimorecity.gov", 
+  "status": "needs review", 
+  "table": "bpd_arrests_2012"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_city_of_seattle_bicycle_racks/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/vncn-umqp/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/vncn-umqp/rows.csv", 
   "description": "Bicycle racks owned and maintained by SDOT. Location of bicycle racks owned and maintained by SDOT in the GIS for cartographic, analysis, and tracking purposes.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,110 +13,7 @@
     }
   }, 
   "name": "City of Seattle Bicycle Racks", 
-  "schema": {
-    "columns": [
-      {
-        "name": "objectid", 
-        "type": "real"
-      }, 
-      {
-        "name": "compkey", 
-        "type": "real"
-      }, 
-      {
-        "name": "comptype", 
-        "type": "real"
-      }, 
-      {
-        "name": "segkey", 
-        "type": "real"
-      }, 
-      {
-        "name": "distance", 
-        "type": "real"
-      }, 
-      {
-        "name": "width", 
-        "type": "real"
-      }, 
-      {
-        "name": "unitid", 
-        "type": "text"
-      }, 
-      {
-        "name": "unittype", 
-        "type": "text"
-      }, 
-      {
-        "name": "unitdesc", 
-        "type": "text"
-      }, 
-      {
-        "name": "bike_facil", 
-        "type": "text"
-      }, 
-      {
-        "name": "rack_capac", 
-        "type": "real"
-      }, 
-      {
-        "name": "delineator", 
-        "type": "text"
-      }, 
-      {
-        "name": "finish_typ", 
-        "type": "text"
-      }, 
-      {
-        "name": "surface_ty", 
-        "type": "text"
-      }, 
-      {
-        "name": "install_da", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "mount_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "color", 
-        "type": "text"
-      }, 
-      {
-        "name": "manufactur", 
-        "type": "text"
-      }, 
-      {
-        "name": "model_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "condition", 
-        "type": "text"
-      }, 
-      {
-        "name": "asset_cond", 
-        "type": "text"
-      }, 
-      {
-        "name": "condition_", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "rack_location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "city_of_seattle_bicycle_racks"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "city_of_seattle_bicycle_racks"
 }

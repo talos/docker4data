@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_top_six_service_requests/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/vqnu-tyk4/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/vqnu-tyk4/rows.csv", 
   "description": "This dataset includes what has consistently proven to be the top six Service Requests the City received during the last 12 months. Five are specific (non-General Inquiry) types of Service Requests (Abandoned Vehicle, Illegal Dumping Report, Pothole, Graffiti Report and Parking Enforcement) and the sixth, CSB-General Inquiry, represents requests for a variety of services received by the Customer Service Bureau, which are then assigned to departments accordingly.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,38 +12,7 @@
     }
   }, 
   "name": "Top Six Service Requests", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year_month", 
-        "type": "text"
-      }, 
-      {
-        "name": "abandoned_vehicle", 
-        "type": "real"
-      }, 
-      {
-        "name": "general_inquiry", 
-        "type": "real"
-      }, 
-      {
-        "name": "graffiti_report", 
-        "type": "real"
-      }, 
-      {
-        "name": "illegal_dumping_report", 
-        "type": "real"
-      }, 
-      {
-        "name": "parking_enforcement", 
-        "type": "real"
-      }, 
-      {
-        "name": "pothole", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "top_six_service_requests"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "top_six_service_requests"
 }

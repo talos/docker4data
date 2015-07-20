@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_kingcounty_2013_proposed_budget_general_fund_sources/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/rjqm-cvzd/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.kingcounty.gov/api/views/rjqm-cvzd/rows.csv", 
   "description": "King County budget proposed September 2012 by Executive for 2013, general fund, broken down by revenue source. See http://www.kingcounty.gov/budget for more.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "2013 Proposed Budget, General Fund Sources", 
-  "schema": {
-    "columns": [
-      {
-        "name": "general_fund", 
-        "type": "text"
-      }, 
-      {
-        "name": "source", 
-        "type": "text"
-      }, 
-      {
-        "name": "_", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.kingcounty.gov", 
-  "tableName": "2013_proposed_budget_general_fund_sources"
+  "schema": "socrata/data.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "2013_proposed_budget_general_fund_sources"
 }

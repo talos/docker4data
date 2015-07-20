@@ -1,0 +1,20 @@
+CREATE TABLE "2012_vehicle_collisions_investigated_by_state_police" (
+	"case_number"	text,
+	"barrack"	text,
+	"acc_date"	timestamp,
+	"acc_time"	text,
+	"acc_time_code"	real,
+	"day_of_week"	text,
+	"road"	text,
+	"intersect_road"	text,
+	"dist_from_intersect"	real,
+	"dist_direction"	text,
+	"city_name"	text,
+	"county_code"	real,
+	"county_name"	text,
+	"vehicle_count"	real,
+	"prop_dest"	text,
+	"injury"	text,
+	"collision_with_1"	text,
+	"collision_with_2"	text
+);

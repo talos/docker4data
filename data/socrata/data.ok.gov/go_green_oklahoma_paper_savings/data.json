@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_go_green_oklahoma_paper_savings/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/hsss-gdgd/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/hsss-gdgd/rows.csv", 
   "description": "Go Green Oklahoma is an OK.gov initiative showcasing how Oklahoma eGovernment is helping to reduce the carbon footprint by reducing paper consumption and citizen travel  to government facilities.\r\n\r\nCurrently, the 'Go Green Oklahoma' study provides data from online services provided by the state of Oklahoma. We invite state agencies to report their online services that reduce paper consumption and/or carbon emissions, to be included in our dataset.  The data consists of conservative estimates limited to the date ranges of January 2007\u2013December 2010. Learn more at http://gogreen.ok.gov", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Go Green Oklahoma: Paper Savings", 
-  "schema": {
-    "columns": [
-      {
-        "name": "agency_online_service", 
-        "type": "text"
-      }, 
-      {
-        "name": "online_service_launch_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "average_paper_envelopes_saved_per_transaction", 
-        "type": "real"
-      }, 
-      {
-        "name": "number_of_transactions", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_amount_of_paper_saved", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "go_green_oklahoma_paper_savings"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "go_green_oklahoma_paper_savings"
 }

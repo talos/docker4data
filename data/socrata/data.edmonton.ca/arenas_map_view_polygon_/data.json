@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/arenas_map_view_polygon_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/geospatial/t4a7-iyq7", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.edmonton.ca/api/geospatial/t4a7-iyq7", 
   "description": "Spatial view of ice arenas maintained by the City of Edmonton", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Arenas - Map View (Polygon)", 
-  "schema": {}, 
-  "schemaName": "socrata/data.edmonton.ca", 
-  "tableName": "arenas_map_view_polygon_"
+  "schema": "socrata/data.edmonton.ca", 
+  "status": "needs review", 
+  "table": "arenas_map_view_polygon_"
 }

@@ -1,113 +1,18 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_kingcounty_food_establishment_inspection_data/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/f29f-zza5/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.kingcounty.gov/api/views/f29f-zza5/rows.csv", 
   "description": "Health Department inspection results for food service establishments in King County,  2006 to the present. This data is organized by Business / Inspection Date / Violation. Each row in this dataset is an inspection, and if an inspection at a particular buiness results in multiple violations there will be multiple rows for that business with the same Inspection_Serial_Num. This dataset was last Updated on 03/30/2015 and is current from 1/1/2006 to 03/27/2015.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
   "metadata": {
     "attribution": "Additional information about restaurant inspections", 
-    "description": "Health Department inspection results for food service establishments in King County,  2006 to the present. This data is organized by Business / Inspection Date / Violation. Each row in this dataset is an inspection, and if an inspection at a particular buiness results in multiple violations there will be multiple rows for that business with the same Inspection_Serial_Num. This dataset was last Updated on 07/09/2015 and is current from 1/1/2006 to 07/06/2015.", 
+    "description": "Health Department inspection results for food service establishments in King County,  2006 to the present. This data is organized by Business / Inspection Date / Violation. Each row in this dataset is an inspection, and if an inspection at a particular buiness results in multiple violations there will be multiple rows for that business with the same Inspection_Serial_Num. This dataset was last Updated on 07/16/2015 and is current from 1/1/2006 to 07/13/2015.", 
     "socrata": {
       "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/f29f-zza5.json"
     }
   }, 
   "name": "Food Establishment Inspection Data", 
-  "schema": {
-    "columns": [
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "program_identifier", 
-        "type": "text"
-      }, 
-      {
-        "name": "inspection_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "inspection_business_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "inspection_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "inspection_score", 
-        "type": "real"
-      }, 
-      {
-        "name": "inspection_result", 
-        "type": "text"
-      }, 
-      {
-        "name": "inspection_closed_business", 
-        "type": "text"
-      }, 
-      {
-        "name": "violation_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "violation_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "violation_points", 
-        "type": "real"
-      }, 
-      {
-        "name": "business_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "inspection_serial_num", 
-        "type": "text"
-      }, 
-      {
-        "name": "violation_record_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.kingcounty.gov", 
-  "tableName": "food_establishment_inspection_data"
+  "schema": "socrata/data.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "food_establishment_inspection_data"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wellingtonfl_test_building_permits/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wellingtonfl.gov/api/views/yukt-pbhp/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.wellingtonfl.gov/api/views/yukt-pbhp/rows.csv", 
   "description": "Test dataset Building Permits by Mahesh", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,18 +13,7 @@
     }
   }, 
   "name": "Test_Building_Permits", 
-  "schema": {
-    "columns": [
-      {
-        "name": "building_permits_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "create_date", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.wellingtonfl.gov", 
-  "tableName": "test_building_permits"
+  "schema": "socrata/data.wellingtonfl.gov", 
+  "status": "needs review", 
+  "table": "test_building_permits"
 }

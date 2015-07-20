@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_housing_maintenance_code_complaints/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/uwyv-629c/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/uwyv-629c/rows.csv", 
   "description": "The Department of Housing Preservation and Development (HPD) records complaints that are made by the public through the 311 Citizen Services Center, Code Enforcement Borough Offices or the internet for conditions which violate the New York City Housing Maintenance Code (HMC) or the New York State Multiple Dwelling Law (MDL). Each complaint is associated with one or more problems reported by the complainant. Problems are closed if a tenant verifies by phone that the condition was corrected or an inspection result is entered by an HPD inspector. A complaint is closed when all associated problems are closed.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,70 +13,7 @@
     }
   }, 
   "name": "Housing Maintenance Code Complaints", 
-  "schema": {
-    "columns": [
-      {
-        "name": "complaintid", 
-        "type": "real"
-      }, 
-      {
-        "name": "buildingid", 
-        "type": "real"
-      }, 
-      {
-        "name": "boroughid", 
-        "type": "real"
-      }, 
-      {
-        "name": "borough", 
-        "type": "text"
-      }, 
-      {
-        "name": "housenumber", 
-        "type": "text"
-      }, 
-      {
-        "name": "streetname", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip", 
-        "type": "text"
-      }, 
-      {
-        "name": "block", 
-        "type": "real"
-      }, 
-      {
-        "name": "lot", 
-        "type": "real"
-      }, 
-      {
-        "name": "apartment", 
-        "type": "text"
-      }, 
-      {
-        "name": "communityboard", 
-        "type": "real"
-      }, 
-      {
-        "name": "receiveddate", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "statusid", 
-        "type": "real"
-      }, 
-      {
-        "name": "status", 
-        "type": "text"
-      }, 
-      {
-        "name": "statusdate", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "housing_maintenance_code_complaints"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "housing_maintenance_code_complaints"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/professional_medical_conduct_board_actions_beginning_1990/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/ebmi-8ctw/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/health.data.ny.gov/api/views/ebmi-8ctw/rows.csv", 
   "description": "The Professional Medical Conduct Board Actions data consist of all public actions taken against physicians, physician assistants, specialist assistants, and medical professional corporations pursuant to Section 230 of the New York State Public Health Law and Section 6530 of the New York State Education Law.\r\n\r\nFor more information, check out http://www.health.ny.gov/professionals/doctors/conduct/ , or go to the \"About\" tab.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "Professional Medical Conduct Board Actions: Beginning 1990", 
-  "schema": {
-    "columns": [
-      {
-        "name": "physicianname", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "licensenum", 
-        "type": "text"
-      }, 
-      {
-        "name": "licensetype", 
-        "type": "text"
-      }, 
-      {
-        "name": "yearofbirth", 
-        "type": "real"
-      }, 
-      {
-        "name": "effectivedate", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "webaction", 
-        "type": "text"
-      }, 
-      {
-        "name": "webnotes", 
-        "type": "text"
-      }, 
-      {
-        "name": "dateupdated", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/health.data.ny.gov", 
-  "tableName": "professional_medical_conduct_board_actions_beginning_1990"
+  "schema": "socrata/health.data.ny.gov", 
+  "status": "needs review", 
+  "table": "professional_medical_conduct_board_actions_beginning_1990"
 }

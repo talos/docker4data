@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_kingcounty_adr_calendar/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/u5eb-c9aj/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.kingcounty.gov/api/views/u5eb-c9aj/rows.csv", 
   "description": "Calendar of trainings and other events for the King County Alternative Dispute Resolution (ADR) program.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "ADR Calendar", 
-  "schema": {
-    "columns": [
-      {
-        "name": "startdate", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "enddate", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "title", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "cost", 
-        "type": "text"
-      }, 
-      {
-        "name": "details", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.kingcounty.gov", 
-  "tableName": "adr_calendar"
+  "schema": "socrata/data.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "adr_calendar"
 }

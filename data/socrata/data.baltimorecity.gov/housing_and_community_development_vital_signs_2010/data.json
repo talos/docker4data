@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/housing_and_community_development_vital_signs_2010/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/utne-q9c6/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/utne-q9c6/rows.csv", 
   "description": "BNIA-JFI uses Community Statistical Areas (CSAs) boundaries for tracking Vital Signs data so that progress can be measured over time. CSAs are based on Census tracts which remain consistent from year to year. BNIA-JFI relates CSAs to neighborhoods as defined by the Baltimore City Department of Planning.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "Housing and Community Development Vital Signs 2010", 
-  "schema": {
-    "columns": [
-      {
-        "name": "csa2010", 
-        "type": "text"
-      }, 
-      {
-        "name": "resrehab10", 
-        "type": "real"
-      }, 
-      {
-        "name": "vacant10", 
-        "type": "real"
-      }, 
-      {
-        "name": "vio10", 
-        "type": "real"
-      }, 
-      {
-        "name": "salepr10", 
-        "type": "real"
-      }, 
-      {
-        "name": "salesnum10", 
-        "type": "real"
-      }, 
-      {
-        "name": "salesdom10", 
-        "type": "real"
-      }, 
-      {
-        "name": "ownerocc10", 
-        "type": "real"
-      }, 
-      {
-        "name": "fore10", 
-        "type": "real"
-      }, 
-      {
-        "name": "totalres10", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.baltimorecity.gov", 
-  "tableName": "housing_and_community_development_vital_signs_2010"
+  "schema": "socrata/data.baltimorecity.gov", 
+  "status": "needs review", 
+  "table": "housing_and_community_development_vital_signs_2010"
 }

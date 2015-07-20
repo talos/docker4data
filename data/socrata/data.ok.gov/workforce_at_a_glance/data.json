@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_workforce_at_a_glance/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/8m2j-i48u/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/8m2j-i48u/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,42 +9,7 @@
     }
   }, 
   "name": "Workforce At A Glance", 
-  "schema": {
-    "columns": [
-      {
-        "name": "workforce_profile_analysis", 
-        "type": "text"
-      }, 
-      {
-        "name": "number_of_full_time_employees", 
-        "type": "real"
-      }, 
-      {
-        "name": "average_age", 
-        "type": "real"
-      }, 
-      {
-        "name": "percent_female", 
-        "type": "text"
-      }, 
-      {
-        "name": "percent_minority", 
-        "type": "text"
-      }, 
-      {
-        "name": "average_service_time", 
-        "type": "real"
-      }, 
-      {
-        "name": "average_salary", 
-        "type": "real"
-      }, 
-      {
-        "name": "turnover_rate", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "workforce_at_a_glance"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "workforce_at_a_glance"
 }

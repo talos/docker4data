@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/san_francisco_public_schools_points/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/geospatial/sert-rabb", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.sfgov.org/api/geospatial/sert-rabb", 
   "description": "Public Schools - under the jurisdiction of the San Francisco Unified School District, represented as points. As of 3/1/2013, per SFUSD.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "San Francisco Public Schools - Points", 
-  "schema": {}, 
-  "schemaName": "socrata/data.sfgov.org", 
-  "tableName": "san_francisco_public_schools_points"
+  "schema": "socrata/data.sfgov.org", 
+  "status": "needs review", 
+  "table": "san_francisco_public_schools_points"
 }

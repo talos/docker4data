@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_honolulu_road_paving_status/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.honolulu.gov/api/views/mp5x-wfar/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.honolulu.gov/api/views/mp5x-wfar/rows.csv", 
   "description": "As of 5-4-2015", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,26 +12,7 @@
     }
   }, 
   "name": "Road Paving Status", 
-  "schema": {
-    "columns": [
-      {
-        "name": "section", 
-        "type": "text"
-      }, 
-      {
-        "name": "start", 
-        "type": "text"
-      }, 
-      {
-        "name": "end", 
-        "type": "text"
-      }, 
-      {
-        "name": "status", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.honolulu.gov", 
-  "tableName": "road_paving_status"
+  "schema": "socrata/data.honolulu.gov", 
+  "status": "needs review", 
+  "table": "road_paving_status"
 }

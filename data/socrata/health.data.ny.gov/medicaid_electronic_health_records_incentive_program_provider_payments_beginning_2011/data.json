@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/medicaid_electronic_health_records_incentive_program_provider_payments_beginning_2011/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/6ky4-2v6j/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/health.data.ny.gov/api/views/6ky4-2v6j/rows.csv", 
   "description": "The dataset consists of details of the payments made by the NYS Medicaid Electronic Health Record (EHR) Incentive program to healthcare professionals and hospitals. Authorized by the American Recovery and Reinvestment Act (ARRA) of 2009, this program provides multi-year financial incentives to Eligible Professionals (EP) and Eligible Hospitals (EH) who adopt, implement, or upgrade, and subsequently demonstrate meaningful use, of certified Electronic Health Records (EHR) technology. For more information check out: https://www.emedny.org/meipass/ or go to the \"About\" tab.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,66 +13,7 @@
     }
   }, 
   "name": "Medicaid Electronic Health Records Incentive Program Provider Payments: Beginning 2011", 
-  "schema": {
-    "columns": [
-      {
-        "name": "prov_ty_tx", 
-        "type": "text"
-      }, 
-      {
-        "name": "enty_nam_tx", 
-        "type": "text"
-      }, 
-      {
-        "name": "fst_nam_tx", 
-        "type": "text"
-      }, 
-      {
-        "name": "last_nam_tx", 
-        "type": "text"
-      }, 
-      {
-        "name": "reg_npi_num", 
-        "type": "text"
-      }, 
-      {
-        "name": "payee_npi_num", 
-        "type": "text"
-      }, 
-      {
-        "name": "pmt_dt", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "pmt_disburs_amt", 
-        "type": "real"
-      }, 
-      {
-        "name": "pymt_fisc_yr", 
-        "type": "text"
-      }, 
-      {
-        "name": "pmt_yr_num", 
-        "type": "real"
-      }, 
-      {
-        "name": "adr_zip_cd", 
-        "type": "text"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "payee_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/health.data.ny.gov", 
-  "tableName": "medicaid_electronic_health_records_incentive_program_provider_payments_beginning_2011"
+  "schema": "socrata/health.data.ny.gov", 
+  "status": "needs review", 
+  "table": "medicaid_electronic_health_records_incentive_program_provider_payments_beginning_2011"
 }

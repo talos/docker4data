@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_austin_parks_and_recreation_golf_clinics/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/876d-75ye/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/views/876d-75ye/rows.csv", 
   "description": "Golf Clinics schedule from the Parks and Recreation Department", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,30 +12,7 @@
     }
   }, 
   "name": "Austin Parks and Recreation Golf Clinics", 
-  "schema": {
-    "columns": [
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "event_or_activity", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "more_information", 
-        "type": "text"
-      }, 
-      {
-        "name": "start_time", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "austin_parks_and_recreation_golf_clinics"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "austin_parks_and_recreation_golf_clinics"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_fire_department_directory_for_new_york_state/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/qfsu-zcpv/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/qfsu-zcpv/rows.csv", 
   "description": "This dataset lists the name, Division of Homeland Security and Emergency Services (DHSES) ID, location and phone number for all Fire Departments in New York State.  This data is collected and maintained by the Office of Fire Prevention & Control (OFPC) within DHSES and is updated annually.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,58 +13,7 @@
     }
   }, 
   "name": "Fire Department Directory for New York State", 
-  "schema": {
-    "columns": [
-      {
-        "name": "fire_department_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "fdid_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "st", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "county_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "countyname", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "lat", 
-        "type": "real"
-      }, 
-      {
-        "name": "long", 
-        "type": "real"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "fire_department_directory_for_new_york_state"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "fire_department_directory_for_new_york_state"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_fas_facilities/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/awiz-hn89/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/awiz-hn89/rows.csv", 
   "description": "FAS Facilities", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,86 +13,7 @@
     }
   }, 
   "name": "FAS Facilities", 
-  "schema": {
-    "columns": [
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "physical_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "description_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "pma_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "number", 
-        "type": "text"
-      }, 
-      {
-        "name": "primary_use_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "year_built", 
-        "type": "real"
-      }, 
-      {
-        "name": "gross_bldg_sq_ft", 
-        "type": "real"
-      }, 
-      {
-        "name": "emergency_preparadness_zone", 
-        "type": "text"
-      }, 
-      {
-        "name": "number_of_floors", 
-        "type": "real"
-      }, 
-      {
-        "name": "owner", 
-        "type": "text"
-      }, 
-      {
-        "name": "critical_facilities_index_cfi", 
-        "type": "real"
-      }, 
-      {
-        "name": "property_manager", 
-        "type": "text"
-      }, 
-      {
-        "name": "secondary_use_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "other_property_name_s", 
-        "type": "text"
-      }, 
-      {
-        "name": "pma_other_names", 
-        "type": "text"
-      }, 
-      {
-        "name": "temporary_facility", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "fas_facilities"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "fas_facilities"
 }

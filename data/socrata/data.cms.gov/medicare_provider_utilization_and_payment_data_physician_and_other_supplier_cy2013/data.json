@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/medicare_provider_utilization_and_payment_data_physician_and_other_supplier_cy2013/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cms.gov/api/views/din4-7td8/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cms.gov/api/views/din4-7td8/rows.csv", 
   "description": "CPT copyright 2012 American Medical Association.  All Rights Reserved. This dataset is subject to the AMA click-agreement. If you have reached this dataset without the click through agreement, please acknowledge your acceptance here: https://data.cms.gov/use-agreement/cpt-code/medicare-provider-data-2013 NOTE: This is a very large dataset so some views and actions will take some time to load, particularly in older browsers. As part of the Obama Administration\u2019s efforts to make our healthcare system more transparent, affordable, and accountable, the Centers for Medicare & Medicaid Services (CMS) has prepared a public data set, the Provider Utilization and Payment Data Physician and Other Supplier Public Use File (herein referred to as \u201cPhysician and Other Supplier PUF\u201d), with information on services and procedures provided to Medicare beneficiaries by physicians and other healthcare professionals. The Physician and Other Supplier PUF contains information on utilization, payment (allowed amount and Medicare payment), and submitted charges organized by National Provider Identifier (NPI), Healthcare Common Procedure Coding System (HCPCS) code, and place of service. This PUF is based on information from CMS\u2019s National Claims History (NCH) Standard Analytic Files (SAFs). The data in the Physician and Other Supplier PUF covers calendar year 2013 and contains 100% final-action (i.e., all claim adjustments have been resolved) physician/supplier Part B non-institutional line items (excluding durable medical equipment) for the Medicare fee-for-service (FFS) population.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,122 +13,7 @@
     }
   }, 
   "name": "Medicare Provider Utilization and Payment Data: Physician and Other Supplier CY2013", 
-  "schema": {
-    "columns": [
-      {
-        "name": "npi", 
-        "type": "text"
-      }, 
-      {
-        "name": "nppes_provider_last_org_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "nppes_provider_first_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "nppes_provider_mi", 
-        "type": "text"
-      }, 
-      {
-        "name": "nppes_credentials", 
-        "type": "text"
-      }, 
-      {
-        "name": "nppes_provider_gender", 
-        "type": "text"
-      }, 
-      {
-        "name": "nppes_entity_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "nppes_provider_street1", 
-        "type": "text"
-      }, 
-      {
-        "name": "nppes_provider_street2", 
-        "type": "text"
-      }, 
-      {
-        "name": "nppes_provider_city", 
-        "type": "text"
-      }, 
-      {
-        "name": "nppes_provider_zip", 
-        "type": "text"
-      }, 
-      {
-        "name": "nppes_provider_state", 
-        "type": "text"
-      }, 
-      {
-        "name": "nppes_provider_country", 
-        "type": "text"
-      }, 
-      {
-        "name": "provider_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "medicare_participation_indicator", 
-        "type": "text"
-      }, 
-      {
-        "name": "place_of_service", 
-        "type": "text"
-      }, 
-      {
-        "name": "hcpcs_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "hcpcs_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "hcpcs_drug_indicator", 
-        "type": "text"
-      }, 
-      {
-        "name": "line_srvc_cnt", 
-        "type": "real"
-      }, 
-      {
-        "name": "bene_unique_cnt", 
-        "type": "real"
-      }, 
-      {
-        "name": "bene_day_srvc_cnt", 
-        "type": "real"
-      }, 
-      {
-        "name": "average_medicare_allowed_amt", 
-        "type": "real"
-      }, 
-      {
-        "name": "stdev_medicare_allowed_amt", 
-        "type": "real"
-      }, 
-      {
-        "name": "average_submitted_chrg_amt", 
-        "type": "real"
-      }, 
-      {
-        "name": "stdev_submitted_chrg_amt", 
-        "type": "real"
-      }, 
-      {
-        "name": "average_medicare_payment_amt", 
-        "type": "real"
-      }, 
-      {
-        "name": "stdev_medicare_payment_amt", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cms.gov", 
-  "tableName": "medicare_provider_utilization_and_payment_data_physician_and_other_supplier_cy2013"
+  "schema": "socrata/data.cms.gov", 
+  "status": "needs review", 
+  "table": "medicare_provider_utilization_and_payment_data_physician_and_other_supplier_cy2013"
 }

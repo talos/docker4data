@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_chicago_street_names/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/i6bp-fvbx/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/i6bp-fvbx/rows.csv", 
   "description": "List of all Chicago streets with suffixes and minimum and maximum address numbers.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "Chicago Street Names", 
-  "schema": {
-    "columns": [
-      {
-        "name": "full_street_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "direction", 
-        "type": "text"
-      }, 
-      {
-        "name": "street", 
-        "type": "text"
-      }, 
-      {
-        "name": "suffix", 
-        "type": "text"
-      }, 
-      {
-        "name": "suffix_direction", 
-        "type": "text"
-      }, 
-      {
-        "name": "min_address", 
-        "type": "real"
-      }, 
-      {
-        "name": "max_address", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "chicago_street_names"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "chicago_street_names"
 }

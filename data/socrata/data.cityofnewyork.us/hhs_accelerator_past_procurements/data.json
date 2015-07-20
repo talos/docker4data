@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_hhs_accelerator_past_procurements/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/ws4c-4g69/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/ws4c-4g69/rows.csv", 
   "description": "Shows procurements released through HHS Accelerator for health and human services for which the proposal deadline has passed. For current and upcoming procurements, visit http://www.nyc.gov/html/hhsaccelerator/html/roadmap/roadmap.shtml. Proposals may be submitted only by prequalified organizations through the City's online system, HHS Accelerator.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "HHS Accelerator Past Procurements", 
-  "schema": {
-    "columns": [
-      {
-        "name": "agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "epin", 
-        "type": "text"
-      }, 
-      {
-        "name": "procurement_title", 
-        "type": "text"
-      }, 
-      {
-        "name": "procurement_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "service_name", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "hhs_accelerator_past_procurements"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "hhs_accelerator_past_procurements"
 }

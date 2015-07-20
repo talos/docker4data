@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_iepa_boa_minor_construction_permits/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/aw7g-a8b9/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/aw7g-a8b9/rows.csv", 
   "description": "Bureau of Air Permit Streamlining Project for Minor Construction Permits. This class of permit would be for a new or expanded air emission source that is not subject to nonattainment new source review (NSR) or federal Prevention of Significant Deterioration (PSD) regulations.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "IEPA - BOA - Minor Construction Permits", 
-  "schema": {
-    "columns": [
-      {
-        "name": "program", 
-        "type": "text"
-      }, 
-      {
-        "name": "boa_id_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "facility_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "permit_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "operation", 
-        "type": "text"
-      }, 
-      {
-        "name": "date_received", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "analyst", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "iepa_boa_minor_construction_permits"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "iepa_boa_minor_construction_permits"
 }

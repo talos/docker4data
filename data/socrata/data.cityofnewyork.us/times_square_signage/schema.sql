@@ -1,0 +1,20 @@
+CREATE TABLE "times_square_signage" (
+	"screen_name_led_vinyl_signs_"	text,
+	"building_address"	text,
+	"location_description"	text,
+	"location"	text,
+	"height"	text,
+	"type"	text,
+	"_1"	real,
+	"width"	real,
+	"_height_1"	real,
+	"sf"	real,
+	"note_photo"	text,
+	"_2"	real,
+	"_width"	real,
+	"_height_2"	real,
+	"_sf"	real,
+	"total"	real,
+	"total_sf"	real,
+	"total_by_type"	text
+);

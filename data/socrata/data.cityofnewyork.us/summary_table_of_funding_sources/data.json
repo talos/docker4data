@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_summary_table_of_funding_sources/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/i7jz-e2db/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/i7jz-e2db/rows.csv", 
   "description": "Details of Funding Sources for Housing Projects", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "Summary Table Of Funding Sources", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "text"
-      }, 
-      {
-        "name": "project_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "program_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "program_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "amount_city_expects_to_receive", 
-        "type": "real"
-      }, 
-      {
-        "name": "amount_city_expects_to_be_received_by_other_entities", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "summary_table_of_funding_sources"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "summary_table_of_funding_sources"
 }

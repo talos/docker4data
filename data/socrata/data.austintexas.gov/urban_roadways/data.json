@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/urban_roadways/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/geospatial/pdd5-ehn6", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/geospatial/pdd5-ehn6", 
   "description": "Urban Roadways identified in the May 12, 2005 City Council Approved Design Standards Policy Document, with recommended amendments made August 4, 2006. A copy of the ordinance can be found at http://www.ci.austin.tx.us/development/downloads/final.pdf.\nThis product is for informational purposes and may not have been prepared for or be suitable for legal, engineering, or surveying purposes. It does not represent an on-the-ground survey and represents only the approximate relative location of property boundaries. This product has been produced by the Planning and Development Review Department for the sole purpose of geographic reference. No warranty is made by the City of Austin regarding specific accuracy or completeness.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,9 +14,7 @@
     }
   }, 
   "name": "Urban Roadways", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "urban_roadways"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "urban_roadways"
 }

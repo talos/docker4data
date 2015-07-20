@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_govloop_govloop_tags_and_rss_feeds/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.govloop.com/api/views/ufg7-7dkv/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.govloop.com/api/views/ufg7-7dkv/rows.csv", 
   "description": "This dataset includes all tags used on GovLoop since its inception and the associated RSS feeds.  Our hope is that making it available to the community will (a) make it easier for members to find specific content, (b) enable interested parties to create more customized member experiences and (c) serve as an educational tool to highlight the importance of tagging and metadata in a growing online community.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "GovLoop Tags and RSS Feeds", 
-  "schema": {
-    "columns": [
-      {
-        "name": "tag", 
-        "type": "text"
-      }, 
-      {
-        "name": "links_to_all_blogs", 
-        "type": "text"
-      }, 
-      {
-        "name": "rss_feeds", 
-        "type": "text"
-      }, 
-      {
-        "name": "_of_uses", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.govloop.com", 
-  "tableName": "govloop_tags_and_rss_feeds"
+  "schema": "socrata/data.govloop.com", 
+  "status": "needs review", 
+  "table": "govloop_tags_and_rss_feeds"
 }

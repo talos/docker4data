@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/parcels/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wellingtonfl.gov/api/geospatial/yqre-p89d", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.wellingtonfl.gov/api/geospatial/yqre-p89d", 
   "description": "Wellington Parcels", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Parcels", 
-  "schema": {}, 
-  "schemaName": "socrata/data.wellingtonfl.gov", 
-  "tableName": "parcels"
+  "schema": "socrata/data.wellingtonfl.gov", 
+  "status": "needs review", 
+  "table": "parcels"
 }

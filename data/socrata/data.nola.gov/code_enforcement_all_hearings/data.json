@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_nola_code_enforcement_all_hearings/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.nola.gov/api/views/44ct-56tr/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.nola.gov/api/views/44ct-56tr/rows.csv", 
   "description": "Code Enforcement All Hearings", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,102 +12,7 @@
     }
   }, 
   "name": "Code Enforcement All Hearings", 
-  "schema": {
-    "columns": [
-      {
-        "name": "o_c", 
-        "type": "text"
-      }, 
-      {
-        "name": "casenumber", 
-        "type": "text"
-      }, 
-      {
-        "name": "propertyaddress", 
-        "type": "text"
-      }, 
-      {
-        "name": "casehistory", 
-        "type": "text"
-      }, 
-      {
-        "name": "hearingdate", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "hearingtime", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "judgment", 
-        "type": "text"
-      }, 
-      {
-        "name": "prevhearing", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "prevhearingstat", 
-        "type": "text"
-      }, 
-      {
-        "name": "caseestablished", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "inspected", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "inspectionresult", 
-        "type": "text"
-      }, 
-      {
-        "name": "councildistrict", 
-        "type": "text"
-      }, 
-      {
-        "name": "geoaddress", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip", 
-        "type": "text"
-      }, 
-      {
-        "name": "geopin", 
-        "type": "real"
-      }, 
-      {
-        "name": "xpos", 
-        "type": "real"
-      }, 
-      {
-        "name": "ypos", 
-        "type": "real"
-      }, 
-      {
-        "name": "caseid", 
-        "type": "real"
-      }, 
-      {
-        "name": "hashid", 
-        "type": "text"
-      }, 
-      {
-        "name": "lastupload", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.nola.gov", 
-  "tableName": "code_enforcement_all_hearings"
+  "schema": "socrata/data.nola.gov", 
+  "status": "needs review", 
+  "table": "code_enforcement_all_hearings"
 }

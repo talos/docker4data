@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_credit_access_businesses/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/92xm-uf99/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/views/92xm-uf99/rows.csv", 
   "description": "The data set may include active and inactive credit access businesses.  The most recent information update was provided June 8, 2012", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,58 +13,7 @@
     }
   }, 
   "name": "Credit Access Businesses", 
-  "schema": {
-    "columns": [
-      {
-        "name": "operating_status", 
-        "type": "text"
-      }, 
-      {
-        "name": "txt_licensenumber", 
-        "type": "real"
-      }, 
-      {
-        "name": "txt_master_file_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "licensee", 
-        "type": "text"
-      }, 
-      {
-        "name": "dba_operating_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_city", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_state", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_zip_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "location_county", 
-        "type": "text"
-      }, 
-      {
-        "name": "txt_licensedate", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "credit_access_businesses"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "credit_access_businesses"
 }

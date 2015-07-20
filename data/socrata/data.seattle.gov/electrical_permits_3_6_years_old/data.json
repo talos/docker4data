@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_electrical_permits_3_6_years_old/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/uvnd-ak3d/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/uvnd-ak3d/rows.csv", 
   "description": "Permits for electrical work that were issued between three and six years ago.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,86 +13,7 @@
     }
   }, 
   "name": "Electrical Permits: 3-6 years old", 
-  "schema": {
-    "columns": [
-      {
-        "name": "application_permit_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "permit_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "category", 
-        "type": "text"
-      }, 
-      {
-        "name": "action_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "work_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "value", 
-        "type": "real"
-      }, 
-      {
-        "name": "applicant_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "application_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "issue_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "final_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "expiration_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "status", 
-        "type": "text"
-      }, 
-      {
-        "name": "contractor", 
-        "type": "text"
-      }, 
-      {
-        "name": "permit_and_complaint_status_url", 
-        "type": "text"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "electrical_permits_3_6_years_old"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "electrical_permits_3_6_years_old"
 }

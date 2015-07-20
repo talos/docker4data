@@ -1,0 +1,22 @@
+CREATE TABLE "corporations_extract_sample" (
+	"ubi"	real,
+	"businessname"	text,
+	"category"	text,
+	"stateofincorporation"	text,
+	"dateofincorporation"	timestamp,
+	"expirationdate"	timestamp,
+	"duration"	text,
+	"dissolutiondate"	timestamp,
+	"recordstatus"	text,
+	"type"	text,
+	"registeredagentname"	text,
+	"registeredagentaddress"	text,
+	"registeredagentcity"	text,
+	"registeredagentstate"	text,
+	"registeredagentzip"	real,
+	"alternateaddress"	text,
+	"alternatecity"	text,
+	"alternatestate"	text,
+	"alternatezip"	real,
+	"agentlocation"	text
+);

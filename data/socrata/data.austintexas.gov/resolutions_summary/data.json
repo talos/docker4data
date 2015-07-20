@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_resolutions_summary/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/paa2-kvza/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/views/paa2-kvza/rows.csv", 
   "description": "A summary of Council Member Laura Morrison's resolutions.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,26 +11,7 @@
     }
   }, 
   "name": "Resolutions Summary", 
-  "schema": {
-    "columns": [
-      {
-        "name": "meeting_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "topic", 
-        "type": "text"
-      }, 
-      {
-        "name": "agenda_posting_language", 
-        "type": "text"
-      }, 
-      {
-        "name": "summary", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "resolutions_summary"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "resolutions_summary"
 }

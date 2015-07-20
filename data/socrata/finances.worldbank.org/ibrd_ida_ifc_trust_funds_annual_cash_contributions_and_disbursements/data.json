@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ibrd_ida_ifc_trust_funds_annual_cash_contributions_and_disbursements/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/iww5-3sst/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/finances.worldbank.org/api/views/iww5-3sst/rows.csv", 
   "description": "For IBRD/IDA and IFC Trust Funds, the World Bank Group is normally responsible for all financial and programmatic functions, including oversight of the operational use of the funding.  In fulfilling its responsibilities, the World Bank as Trustee complies with all sanctions applicable to World Bank transactions. The use of IBRD/IDA TFs is split between Bank-executed trust funds (BETFs), which are used in support of the Bank's work program, and Recipient-executed trust funds (RETFs), under which funds are provided to a third party, normally in the form of project financing, and supervised by the Bank. IFC manages the funds in support of IFC advisory services and donor-funded investments.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "IBRD/IDA/IFC Trust Funds - Annual Cash Contributions and Disbursements", 
-  "schema": {
-    "columns": [
-      {
-        "name": "fund_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "fiscal_year", 
-        "type": "text"
-      }, 
-      {
-        "name": "cash_contributions_us_billions_", 
-        "type": "real"
-      }, 
-      {
-        "name": "disbursements_us_billions_", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/finances.worldbank.org", 
-  "tableName": "ibrd_ida_ifc_trust_funds_annual_cash_contributions_and_disbursements"
+  "schema": "socrata/finances.worldbank.org", 
+  "status": "needs review", 
+  "table": "ibrd_ida_ifc_trust_funds_annual_cash_contributions_and_disbursements"
 }

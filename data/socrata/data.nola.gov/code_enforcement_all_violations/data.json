@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_nola_code_enforcement_all_violations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.nola.gov/api/views/3ehi-je3s/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.nola.gov/api/views/3ehi-je3s/rows.csv", 
   "description": "Code Enforcement All Violations", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,46 +12,7 @@
     }
   }, 
   "name": "Code Enforcement All Violations", 
-  "schema": {
-    "columns": [
-      {
-        "name": "caseid", 
-        "type": "real"
-      }, 
-      {
-        "name": "violationid", 
-        "type": "real"
-      }, 
-      {
-        "name": "caseno", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "violationdate", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "codesection", 
-        "type": "text"
-      }, 
-      {
-        "name": "violation", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "lastupload", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.nola.gov", 
-  "tableName": "code_enforcement_all_violations"
+  "schema": "socrata/data.nola.gov", 
+  "status": "needs review", 
+  "table": "code_enforcement_all_violations"
 }

@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nola_permits_accela_historic_data_3_2004_3_2012_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.nola.gov/download/rw6e-a9x3application/zip; charset=binary", 
-    "type": "application/zip; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.nola.gov/download/rw6e-a9x3/application/zip", 
   "description": "City of New Orleans Permits (March 2004 to March 2012).  ESRI shapefile format, GIS software required for viewing geometry (http://www.esri.com/software/arcgis/arcreader/).  Tabular data (DBF), included as part of the shapefile, are viewable in Excel.  Large dataset - 400,000+ records. Associated spreadsheet 'Permits_3PrimeDomain' lists domains for three of the primary permit fields. Scheduled update: Quarterly", 
+  "load": "TODO: zip", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "NOLA Permits - Accela (Historic Data: 3/2004 - 3/2012)", 
-  "schema": {}, 
-  "schemaName": "socrata/data.nola.gov", 
-  "tableName": "nola_permits_accela_historic_data_3_2004_3_2012_"
+  "schema": "socrata/data.nola.gov", 
+  "status": "needs review", 
+  "table": "nola_permits_accela_historic_data_3_2004_3_2012_"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_wastewater_treatment_plants/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/b79y-xcs9/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/b79y-xcs9/rows.csv", 
   "description": "Wastewater Treatment Plants\r\n\r\nVisit the below link for info on SPEDES permits. http://www.nyc.gov/html/dep/pdf/harbor/spdes_bmp_report_2012.pdf", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "Wastewater Treatment Plants", 
-  "schema": {
-    "columns": [
-      {
-        "name": "wastewater_treatment_plant_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "plant_in_operation", 
-        "type": "text"
-      }, 
-      {
-        "name": "design_capacity", 
-        "type": "text"
-      }, 
-      {
-        "name": "dewatering", 
-        "type": "text"
-      }, 
-      {
-        "name": "population_served", 
-        "type": "real"
-      }, 
-      {
-        "name": "receiving_waterbody", 
-        "type": "text"
-      }, 
-      {
-        "name": "drainage_area", 
-        "type": "text"
-      }, 
-      {
-        "name": "plant_staff", 
-        "type": "real"
-      }, 
-      {
-        "name": "note", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "wastewater_treatment_plants"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "wastewater_treatment_plants"
 }

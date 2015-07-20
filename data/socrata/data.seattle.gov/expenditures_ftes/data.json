@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_expenditures_ftes/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/nr4r-xu4y/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/nr4r-xu4y/rows.csv", 
   "description": "Expenditures - FTEs", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,34 +12,7 @@
     }
   }, 
   "name": "Expenditures- FTEs", 
-  "schema": {
-    "columns": [
-      {
-        "name": "deptcode", 
-        "type": "text"
-      }, 
-      {
-        "name": "bclname", 
-        "type": "text"
-      }, 
-      {
-        "name": "_2012_actual", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2013_adopted", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2014_endorsed", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2014_proposed", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "expenditures_ftes"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "expenditures_ftes"
 }

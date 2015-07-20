@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/city_of_austin_owned_parcels/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/geospatial/6x3h-j5dy", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/geospatial/6x3h-j5dy", 
   "description": "This feature class consists of locations of City of Austin owned parcels of land.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,9 +14,7 @@
     }
   }, 
   "name": "City Of Austin Owned Parcels", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "city_of_austin_owned_parcels"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "city_of_austin_owned_parcels"
 }

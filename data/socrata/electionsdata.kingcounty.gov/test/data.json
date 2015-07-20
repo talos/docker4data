@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/test/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/electionsdata.kingcounty.gov/api/views/9mq2-w8xg/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/electionsdata.kingcounty.gov/api/views/9mq2-w8xg/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,38 +9,7 @@
     }
   }, 
   "name": "TEST", 
-  "schema": {
-    "columns": [
-      {
-        "name": "contname", 
-        "type": "text"
-      }, 
-      {
-        "name": "registered", 
-        "type": "real"
-      }, 
-      {
-        "name": "cast", 
-        "type": "real"
-      }, 
-      {
-        "name": "nameonballot", 
-        "type": "text"
-      }, 
-      {
-        "name": "party", 
-        "type": "text"
-      }, 
-      {
-        "name": "votes", 
-        "type": "real"
-      }, 
-      {
-        "name": "percent", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/electionsdata.kingcounty.gov", 
-  "tableName": "test"
+  "schema": "socrata/electionsdata.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "test"
 }

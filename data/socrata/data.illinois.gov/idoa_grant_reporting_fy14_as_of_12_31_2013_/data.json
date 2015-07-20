@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_idoa_grant_reporting_fy14_as_of_12_31_2013_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/7xxp-besu/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/7xxp-besu/rows.csv", 
   "description": "This dataset contains grant award information for grant recipients paid through IDoA.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "IDoA Grant Reporting - FY14 (As of 12/31/2013)", 
-  "schema": {
-    "columns": [
-      {
-        "name": "agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "short_description_of_purpose_of_award", 
-        "type": "text"
-      }, 
-      {
-        "name": "fund", 
-        "type": "text"
-      }, 
-      {
-        "name": "grantee_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "zipcode", 
-        "type": "text"
-      }, 
-      {
-        "name": "amount_of_grant_award", 
-        "type": "real"
-      }, 
-      {
-        "name": "grant_award_begin_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "grant_award_end_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "grant_number", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "idoa_grant_reporting_fy14_as_of_12_31_2013_"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "idoa_grant_reporting_fy14_as_of_12_31_2013_"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_bills_passed_2012/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/86eu-zw2n/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/86eu-zw2n/rows.csv", 
   "description": "Bills Passed by 2012 Legislature", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "Bills Passed 2012", 
-  "schema": {
-    "columns": [
-      {
-        "name": "bill", 
-        "type": "text"
-      }, 
-      {
-        "name": "short_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "title", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "status", 
-        "type": "text"
-      }, 
-      {
-        "name": "introducer_s", 
-        "type": "text"
-      }, 
-      {
-        "name": "referral", 
-        "type": "text"
-      }, 
-      {
-        "name": "companion", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "bills_passed_2012"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "bills_passed_2012"
 }

@@ -1,0 +1,20 @@
+CREATE TABLE "socrata_bronx_lehman_cuny_street_tree_census_bronx" (
+	"objectid"	real,
+	"objectid_1"	real,
+	"treeid"	real,
+	"parity"	text,
+	"crossstree"	text,
+	"crossstr_1"	text,
+	"building_address"	text,
+	"treelocation"	real,
+	"site"	real,
+	"treepit"	real,
+	"treecondit"	real,
+	"diameter"	real,
+	"species"	text,
+	"borough"	text,
+	"zipcode"	real,
+	"fid_1"	real,
+	"commdist"	real,
+	"location_1"	text
+);

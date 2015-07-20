@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/drinking_fountains/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/views/h4ih-tzqs/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/views/h4ih-tzqs/rows.csv", 
   "description": "This dataset holds the description, type and geographical location of all drinking fountains in the City of Melbourne", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,18 +13,7 @@
     }
   }, 
   "name": "Drinking Fountains", 
-  "schema": {
-    "columns": [
-      {
-        "name": "descriptio", 
-        "type": "text"
-      }, 
-      {
-        "name": "geom", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.melbourne.vic.gov.au", 
-  "tableName": "drinking_fountains"
+  "schema": "socrata/data.melbourne.vic.gov.au", 
+  "status": "needs review", 
+  "table": "drinking_fountains"
 }

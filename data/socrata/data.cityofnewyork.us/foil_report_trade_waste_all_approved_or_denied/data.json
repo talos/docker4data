@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/foil_report_trade_waste_all_approved_or_denied/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/59t5-r7nb/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/59t5-r7nb/rows.csv", 
   "description": "Approved carting, Self-Haulers, Construction & Demolition companies names, addresses and contact number \r\nDenied carting companies names, addresses and contact number", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "FOIL Report - Trade Waste All Approved or Denied", 
-  "schema": {
-    "columns": [
-      {
-        "name": "type", 
-        "type": "text"
-      }, 
-      {
-        "name": "approval_status", 
-        "type": "text"
-      }, 
-      {
-        "name": "trade_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "bus_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "mailing_office", 
-        "type": "text"
-      }, 
-      {
-        "name": "mail_city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "foil_report_trade_waste_all_approved_or_denied"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "foil_report_trade_waste_all_approved_or_denied"
 }

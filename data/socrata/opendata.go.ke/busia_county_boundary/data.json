@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/busia_county_boundary/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/opendata.go.ke/api/geospatial/2zr2-z89z", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/opendata.go.ke/api/geospatial/2zr2-z89z", 
   "description": "Proposed Busia County Boundary", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Busia County Boundary", 
-  "schema": {}, 
-  "schemaName": "socrata/opendata.go.ke", 
-  "tableName": "busia_county_boundary"
+  "schema": "socrata/opendata.go.ke", 
+  "status": "needs review", 
+  "table": "busia_county_boundary"
 }

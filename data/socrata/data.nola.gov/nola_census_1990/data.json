@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nola_census_1990/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.nola.gov/download/c9gq-4kyrapplication/zip; charset=binary", 
-    "type": "application/zip; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.nola.gov/download/c9gq-4kyr/application/zip", 
   "description": "1990 City of New Orleans/Orleans Parish Census data.  ESRI shapefile format, GIS software required for viewing geometry (http://www.esri.com/software/arcgis/arcreader/).  Tabular data (DBF), included as part of the shapefile, are viewable in Excel.", 
+  "load": "TODO: zip", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "NOLA Census 1990", 
-  "schema": {}, 
-  "schemaName": "socrata/data.nola.gov", 
-  "tableName": "nola_census_1990"
+  "schema": "socrata/data.nola.gov", 
+  "status": "needs review", 
+  "table": "nola_census_1990"
 }

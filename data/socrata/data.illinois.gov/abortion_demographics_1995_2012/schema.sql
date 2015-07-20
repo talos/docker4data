@@ -1,0 +1,21 @@
+CREATE TABLE "abortion_demographics_1995_2012" (
+	"year"	text,
+	"_1995"	real,
+	"_1996"	real,
+	"_1997"	real,
+	"_1998"	real,
+	"_1999"	real,
+	"_2000"	real,
+	"_2001"	real,
+	"_2002"	real,
+	"_2003"	real,
+	"_2004"	real,
+	"_2005"	real,
+	"_2006"	real,
+	"_2007"	real,
+	"_2008"	real,
+	"_2009"	real,
+	"_2010"	real,
+	"_2011"	real,
+	"_2012"	real
+);

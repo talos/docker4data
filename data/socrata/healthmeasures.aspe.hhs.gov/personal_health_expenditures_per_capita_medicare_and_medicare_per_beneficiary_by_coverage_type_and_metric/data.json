@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/personal_health_expenditures_per_capita_medicare_and_medicare_per_beneficiary_by_coverage_type_and_metric/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/6y7e-bmnj/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/6y7e-bmnj/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,30 +9,7 @@
     }
   }, 
   "name": "Personal health expenditures per capita / Medicare and Medicare per beneficiary by Coverage Type and Metric", 
-  "schema": {
-    "columns": [
-      {
-        "name": "measure_value", 
-        "type": "real"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "coverage_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "metric", 
-        "type": "text"
-      }, 
-      {
-        "name": "dollars", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/healthmeasures.aspe.hhs.gov", 
-  "tableName": "personal_health_expenditures_per_capita_medicare_and_medicare_per_beneficiary_by_coverage_type_and_metric"
+  "schema": "socrata/healthmeasures.aspe.hhs.gov", 
+  "status": "needs review", 
+  "table": "personal_health_expenditures_per_capita_medicare_and_medicare_per_beneficiary_by_coverage_type_and_metric"
 }

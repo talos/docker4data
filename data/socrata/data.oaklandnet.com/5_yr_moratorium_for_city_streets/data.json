@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oaklandnet_5_yr_moratorium_for_city_streets/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oaklandnet.com/api/views/tt6i-5mkh/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.oaklandnet.com/api/views/tt6i-5mkh/rows.csv", 
   "description": "These streets have been resurfaced within the last five years. Cutting trenches in streets leads to early deterioration.  To help preserve newly resurfaced streets, Oakland requires any entity that cuts into streets that are on the Five-Year Moratorium to restore the streets per City standards and requirements.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,46 +12,7 @@
     }
   }, 
   "name": "5-Yr Moratorium for City Streets", 
-  "schema": {
-    "columns": [
-      {
-        "name": "district", 
-        "type": "real"
-      }, 
-      {
-        "name": "fc", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "from", 
-        "type": "text"
-      }, 
-      {
-        "name": "to", 
-        "type": "text"
-      }, 
-      {
-        "name": "treatment", 
-        "type": "text"
-      }, 
-      {
-        "name": "length_miles", 
-        "type": "real"
-      }, 
-      {
-        "name": "date_paved", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "moratorium", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.oaklandnet.com", 
-  "tableName": "5_yr_moratorium_for_city_streets"
+  "schema": "socrata/data.oaklandnet.com", 
+  "status": "needs review", 
+  "table": "5_yr_moratorium_for_city_streets"
 }

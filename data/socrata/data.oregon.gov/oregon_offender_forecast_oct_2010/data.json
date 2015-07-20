@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oregon_oregon_offender_forecast_oct_2010/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/cri9-bfdw/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/api/views/cri9-bfdw/rows.csv", 
   "description": "10 year Forecast for Oregon Offenders in Prison, Jail, Probation, and Post-Prison Supervision.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Oregon Offender Forecast Oct 2010", 
-  "schema": {
-    "columns": [
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "inmate", 
-        "type": "real"
-      }, 
-      {
-        "name": "probation", 
-        "type": "real"
-      }, 
-      {
-        "name": "local_control", 
-        "type": "real"
-      }, 
-      {
-        "name": "parole_pps", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "oregon_offender_forecast_oct_2010"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "oregon_offender_forecast_oct_2010"
 }

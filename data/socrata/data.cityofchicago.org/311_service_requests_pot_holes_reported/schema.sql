@@ -1,0 +1,21 @@
+CREATE TABLE "311_service_requests_pot_holes_reported" (
+	"creation_date"	timestamp,
+	"status"	text,
+	"completion_date"	timestamp,
+	"service_request_number"	text,
+	"type_of_service_request"	text,
+	"current_activity"	text,
+	"most_recent_action"	text,
+	"number_of_potholes_filled_on_block"	real,
+	"street_address"	text,
+	"zip"	real,
+	"x_coordinate"	real,
+	"y_coordinate"	real,
+	"ward"	real,
+	"police_district"	real,
+	"community_area"	real,
+	"ssa"	text,
+	"latitude"	real,
+	"longitude"	real,
+	"location"	text
+);

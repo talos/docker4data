@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/decks_2013/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/geospatial/hqtp-6b78", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/geospatial/hqtp-6b78", 
   "description": "Decks feature class is created to assist in City of Austin planning activities.\nDecks are created from heads up digitizing using 2012/2013 Orthoimagery and 2012 Lidar where Orthoimagery is not available.\nThis product is for informational purposes and may not have been prepared for or be suitable for legal, engineering, or surveying purposes. It does not represent an on-the-ground survey and represents only the approximate relative location of property boundaries. This product has been produced by the Communications and Technology Department for the sole purpose of geographic reference. No warranty is made by the City of Austin regarding specific accuracy or completeness.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,9 +14,7 @@
     }
   }, 
   "name": "Decks 2013", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "decks_2013"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "decks_2013"
 }

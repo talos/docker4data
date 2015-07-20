@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_sca_disqualified_firms/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/krwf-eng6/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/krwf-eng6/rows.csv", 
   "description": "List of firms that are disqualified to work for the SCA. The file includes the term of the firms' disqualification. If the 'disqualified to date' is empty, the firm is disqualified indefinitely.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "SCA Disqualified Firms", 
-  "schema": {
-    "columns": [
-      {
-        "name": "vendor_status", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendor_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "disqualified_from_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "disqualified_to_date", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "sca_disqualified_firms"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "sca_disqualified_firms"
 }

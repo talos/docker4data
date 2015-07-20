@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_current_fleet_surplus_auction_list/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/6gnm-7jex/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/6gnm-7jex/rows.csv", 
   "description": "Most recent list of fleet equipment sent to auction", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,42 +12,7 @@
     }
   }, 
   "name": "Current Fleet Surplus/Auction List", 
-  "schema": {
-    "columns": [
-      {
-        "name": "equip_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "text"
-      }, 
-      {
-        "name": "make", 
-        "type": "text"
-      }, 
-      {
-        "name": "model", 
-        "type": "text"
-      }, 
-      {
-        "name": "color", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "auction_house", 
-        "type": "text"
-      }, 
-      {
-        "name": "comments", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "current_fleet_surplus_auction_list"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "current_fleet_surplus_auction_list"
 }

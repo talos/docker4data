@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_street_hail_livery_permits/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/yhuu-4pt3/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/yhuu-4pt3/rows.csv", 
   "description": "This is a list of NYC TLC authorized Street Hail Livery Permits.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,90 +13,7 @@
     }
   }, 
   "name": "Street Hail Livery Permits", 
-  "schema": {
-    "columns": [
-      {
-        "name": "active", 
-        "type": "text"
-      }, 
-      {
-        "name": "license_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "license_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "license_status", 
-        "type": "text"
-      }, 
-      {
-        "name": "dmv_license_plate_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "vehicle_vin_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "vehicle_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "certification_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "hack_up_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "vehicle_year", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "base_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "base_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "base_telephone_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "base_website", 
-        "type": "text"
-      }, 
-      {
-        "name": "base_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "suspension_reason", 
-        "type": "text"
-      }, 
-      {
-        "name": "suspension_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "date_updated", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "time_updated", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "street_hail_livery_permits"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "street_hail_livery_permits"
 }

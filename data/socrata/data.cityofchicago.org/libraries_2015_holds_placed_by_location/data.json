@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_libraries_2015_holds_placed_by_location/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/avse-5iw4/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/avse-5iw4/rows.csv", 
   "description": "Patrons may place holds on desired materials either online or by contacting any CPL location. The Chicago Public Library consists of the Harold Washington Library Center, Sulzer and Woodson regional libraries and over 70 neighborhood branches.  Many locations experience sporadic emergency closures due to heating or air conditioning issues, or area power outages.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,66 +11,7 @@
     }
   }, 
   "name": "Libraries - 2015 Holds Placed by Location", 
-  "schema": {
-    "columns": [
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "january", 
-        "type": "real"
-      }, 
-      {
-        "name": "february", 
-        "type": "real"
-      }, 
-      {
-        "name": "march", 
-        "type": "real"
-      }, 
-      {
-        "name": "april", 
-        "type": "real"
-      }, 
-      {
-        "name": "may", 
-        "type": "real"
-      }, 
-      {
-        "name": "june", 
-        "type": "text"
-      }, 
-      {
-        "name": "july", 
-        "type": "text"
-      }, 
-      {
-        "name": "august", 
-        "type": "text"
-      }, 
-      {
-        "name": "september", 
-        "type": "text"
-      }, 
-      {
-        "name": "october", 
-        "type": "text"
-      }, 
-      {
-        "name": "november", 
-        "type": "text"
-      }, 
-      {
-        "name": "december", 
-        "type": "text"
-      }, 
-      {
-        "name": "ytd", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "libraries_2015_holds_placed_by_location"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "libraries_2015_holds_placed_by_location"
 }

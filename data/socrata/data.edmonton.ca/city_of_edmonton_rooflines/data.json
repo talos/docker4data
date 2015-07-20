@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/city_of_edmonton_rooflines/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/geospatial/bmwc-cvvx", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.edmonton.ca/api/geospatial/bmwc-cvvx", 
   "description": "Spatial data of all city of Edmonton building roof-lines as of May 2013", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "City of Edmonton - Rooflines", 
-  "schema": {}, 
-  "schemaName": "socrata/data.edmonton.ca", 
-  "tableName": "city_of_edmonton_rooflines"
+  "schema": "socrata/data.edmonton.ca", 
+  "status": "needs review", 
+  "table": "city_of_edmonton_rooflines"
 }

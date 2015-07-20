@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/raleigh_rental_registration_locations_2011/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.raleighnc.gov/api/views/vuek-pvdt/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.raleighnc.gov/api/views/vuek-pvdt/rows.csv", 
   "description": "This snapshot is from June 14, 2011 from the Rental Registration program required by City Ordinance of any property owners renting their properties. For more information on the ordinance, or to register your property, please go here: http://www.raleighnc.gov/business/content/HousingNeighborhoods/Articles/RentalRegistration.html", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,34 +12,7 @@
     }
   }, 
   "name": "Raleigh Rental Registration Locations 2011", 
-  "schema": {
-    "columns": [
-      {
-        "name": "form_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "billing_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "num_units", 
-        "type": "real"
-      }, 
-      {
-        "name": "dwelling_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "condo_complex_name", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.raleighnc.gov", 
-  "tableName": "raleigh_rental_registration_locations_2011"
+  "schema": "socrata/data.raleighnc.gov", 
+  "status": "needs review", 
+  "table": "raleigh_rental_registration_locations_2011"
 }

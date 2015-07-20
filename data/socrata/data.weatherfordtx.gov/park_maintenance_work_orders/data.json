@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_weatherfordtx_park_maintenance_work_orders/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/pi2r-w2wn/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/pi2r-w2wn/rows.csv", 
   "description": "Contains work order details for certain facilities, automatically published upon completion in the ParkMan application.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,54 +13,7 @@
     }
   }, 
   "name": "Park Maintenance Work Orders", 
-  "schema": {
-    "columns": [
-      {
-        "name": "action", 
-        "type": "text"
-      }, 
-      {
-        "name": "completed", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "due_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "category", 
-        "type": "text"
-      }, 
-      {
-        "name": "assigned_to", 
-        "type": "text"
-      }, 
-      {
-        "name": "facility", 
-        "type": "text"
-      }, 
-      {
-        "name": "created", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "id", 
-        "type": "text"
-      }, 
-      {
-        "name": "geo", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.weatherfordtx.gov", 
-  "tableName": "park_maintenance_work_orders"
+  "schema": "socrata/data.weatherfordtx.gov", 
+  "status": "needs review", 
+  "table": "park_maintenance_work_orders"
 }

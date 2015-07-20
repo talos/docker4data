@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_2014_expenditures_by_category/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/t9zi-wn4t/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/t9zi-wn4t/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -15,30 +11,7 @@
     }
   }, 
   "name": "2014 Expenditures by Category", 
-  "schema": {
-    "columns": [
-      {
-        "name": "expenditure_category", 
-        "type": "text"
-      }, 
-      {
-        "name": "count", 
-        "type": "real"
-      }, 
-      {
-        "name": "percentage_of_total_count", 
-        "type": "text"
-      }, 
-      {
-        "name": "total_amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "percentage_of_total", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "2014_expenditures_by_category"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "2014_expenditures_by_category"
 }

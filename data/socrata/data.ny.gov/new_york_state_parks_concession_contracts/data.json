@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_new_york_state_parks_concession_contracts/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/adec-zj7s/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/adec-zj7s/rows.csv", 
   "description": "This dataset includes the name, concesson type and term of concession contracts active in New York State Parks during the most recent calendar year.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "New York State Parks Concession Contracts", 
-  "schema": {
-    "columns": [
-      {
-        "name": "region", 
-        "type": "text"
-      }, 
-      {
-        "name": "facility", 
-        "type": "text"
-      }, 
-      {
-        "name": "contract", 
-        "type": "text"
-      }, 
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "type", 
-        "type": "text"
-      }, 
-      {
-        "name": "end_date", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "new_york_state_parks_concession_contracts"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "new_york_state_parks_concession_contracts"
 }

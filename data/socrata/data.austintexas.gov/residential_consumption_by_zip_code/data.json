@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_residential_consumption_by_zip_code/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/iuw2-kwij/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/views/iuw2-kwij/rows.csv", 
   "description": "Austin Water break down of residential consumption by zip code", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "Residential consumption by zip code", 
-  "schema": {
-    "columns": [
-      {
-        "name": "zipcode", 
-        "type": "real"
-      }, 
-      {
-        "name": "yearmonth", 
-        "type": "real"
-      }, 
-      {
-        "name": "totalwaterusage", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "residential_consumption_by_zip_code"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "residential_consumption_by_zip_code"
 }

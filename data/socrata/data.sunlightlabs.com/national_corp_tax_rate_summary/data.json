@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sunlightlabs_national_corp_tax_rate_summary/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sunlightlabs.com/api/views/vcp5-iifm/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sunlightlabs.com/api/views/vcp5-iifm/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -14,30 +10,7 @@
     }
   }, 
   "name": "National Corp Tax Rate Summary", 
-  "schema": {
-    "columns": [
-      {
-        "name": "iso_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "country", 
-        "type": "text"
-      }, 
-      {
-        "name": "date", 
-        "type": "real"
-      }, 
-      {
-        "name": "combined_corporate_tax_rate", 
-        "type": "real"
-      }, 
-      {
-        "name": "net_debt_of_gdp", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sunlightlabs.com", 
-  "tableName": "national_corp_tax_rate_summary"
+  "schema": "socrata/data.sunlightlabs.com", 
+  "status": "needs review", 
+  "table": "national_corp_tax_rate_summary"
 }

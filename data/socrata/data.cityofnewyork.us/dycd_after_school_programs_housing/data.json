@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_dycd_after_school_programs_housing/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/fqcv-e9sg/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/fqcv-e9sg/rows.csv", 
   "description": "Facilities in New York City, by agency and site, that offer Family Support after-school \u201cHousing Assistance and Advocacy Programs\u201d for adults and young adults ages 18 and up - Department of Youth and Community Development (DYCD).\r\nUpdate Frequency: Annually", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "DYCD after-school-programs: Housing", 
-  "schema": {
-    "columns": [
-      {
-        "name": "program_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "program", 
-        "type": "text"
-      }, 
-      {
-        "name": "site_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "borough_community", 
-        "type": "text"
-      }, 
-      {
-        "name": "agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "contact_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "grade_level_age_group", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "dycd_after_school_programs_housing"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "dycd_after_school_programs_housing"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/typical_utility_bill_information_electric_beginning_2011/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/87qg-62za/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/87qg-62za/rows.csv", 
   "description": "Typical average monthly electric bills for residential, commercial and industrial customers. \r\n-Residential customer bills are computed for usages of 0, 250, 500, 750, 3000, and 5000 KWH.  \r\n-Commercial customer bills are computed demands, load factors and usages of:\r\n\t- 10 KW, 20%, and 1440 KWH\r\n\t- 10 KW, 30%, and 2160 KWH \r\n\t- 50 KW, 25%, and 9000 KWH\r\n\t- 50 KW, 35%, and 12600 KWH\r\n\t- 250 KW, 30%, and 54000 KWH\r\n\t- 250 KW, 50%, and 9000 KWH\r\n- Industrial customer bills are computed demands, load factors and usages of:\r\n\t- 500 KW, 40%, and 144000 KWH\r\n\t- 2000 KW, 50%, and 720000 KWH \r\n\t- 10000 KW, 65%, and 4680000 KWH", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,54 +13,7 @@
     }
   }, 
   "name": "Typical Utility Bill Information Electric: Beginning 2011", 
-  "schema": {
-    "columns": [
-      {
-        "name": "effective_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "season", 
-        "type": "text"
-      }, 
-      {
-        "name": "service_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "company", 
-        "type": "text"
-      }, 
-      {
-        "name": "customer_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "customer_details", 
-        "type": "text"
-      }, 
-      {
-        "name": "demand", 
-        "type": "text"
-      }, 
-      {
-        "name": "load_factor", 
-        "type": "text"
-      }, 
-      {
-        "name": "usage", 
-        "type": "real"
-      }, 
-      {
-        "name": "units_of_usage", 
-        "type": "text"
-      }, 
-      {
-        "name": "total_bill", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "typical_utility_bill_information_electric_beginning_2011"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "typical_utility_bill_information_electric_beginning_2011"
 }

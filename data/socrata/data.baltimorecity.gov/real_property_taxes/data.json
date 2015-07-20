@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_baltimorecity_real_property_taxes/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/27w9-urtv/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/27w9-urtv/rows.csv", 
   "description": "Current Real Property Tax in Baltimore. For more detailed information, visit SDAT at http://sdat.resiusa.org/RealProperty/Pages/default.aspx", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,54 +13,7 @@
     }
   }, 
   "name": "Real Property Taxes", 
-  "schema": {
-    "columns": [
-      {
-        "name": "ward", 
-        "type": "text"
-      }, 
-      {
-        "name": "sect", 
-        "type": "text"
-      }, 
-      {
-        "name": "block", 
-        "type": "text"
-      }, 
-      {
-        "name": "lot", 
-        "type": "text"
-      }, 
-      {
-        "name": "propertyaddress", 
-        "type": "text"
-      }, 
-      {
-        "name": "lotsize", 
-        "type": "text"
-      }, 
-      {
-        "name": "citytax", 
-        "type": "real"
-      }, 
-      {
-        "name": "statetax", 
-        "type": "real"
-      }, 
-      {
-        "name": "rescode", 
-        "type": "text"
-      }, 
-      {
-        "name": "amountdue", 
-        "type": "real"
-      }, 
-      {
-        "name": "asofdate", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.baltimorecity.gov", 
-  "tableName": "real_property_taxes"
+  "schema": "socrata/data.baltimorecity.gov", 
+  "status": "needs review", 
+  "table": "real_property_taxes"
 }

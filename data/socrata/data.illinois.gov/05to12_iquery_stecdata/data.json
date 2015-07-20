@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_05to12_iquery_stecdata/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/f55m-q7ae/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/f55m-q7ae/rows.csv", 
   "description": "The reported number of illnesses caused by strains of the Escherichia coli bacteria that produce shiga toxin. Shiga toxin-producing E. coli (STEC) strains are a very small subset of the numerous Escherichia coli bacteria strains. These strains produce the powerful Shiga toxin as a byproduct of their infection. The most common strain that does this is E. coli O157:H7, but there are several other closely related strains that also produce Shiga toxin. The major symptom of illness is diarrhea, which may be bloody. Severe cases of STEC may result in hemolytic uremic syndrome (HUS) which, in turn, may lead to acute renal dysfunction necessitating the use of dialysis. While anyone may contract illness, children under age 5 and the elderly seem to be most prone to serious complications.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,54 +11,7 @@
     }
   }, 
   "name": "05to12 Iquery STECData", 
-  "schema": {
-    "columns": [
-      {
-        "name": "disease", 
-        "type": "text"
-      }, 
-      {
-        "name": "yeartext", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "stateorcounty", 
-        "type": "text"
-      }, 
-      {
-        "name": "il", 
-        "type": "text"
-      }, 
-      {
-        "name": "race", 
-        "type": "text"
-      }, 
-      {
-        "name": "ethnicity", 
-        "type": "text"
-      }, 
-      {
-        "name": "gender", 
-        "type": "text"
-      }, 
-      {
-        "name": "agegrouptext", 
-        "type": "text"
-      }, 
-      {
-        "name": "agegroup", 
-        "type": "text"
-      }, 
-      {
-        "name": "count", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "05to12_iquery_stecdata"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "05to12_iquery_stecdata"
 }

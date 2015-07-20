@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_electricity_prices_u_s_vs_hawaii_source_eia_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/ya75-e6j8/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/ya75-e6j8/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,22 +9,7 @@
     }
   }, 
   "name": "Electricity Prices: U.S. vs Hawaii  (Source: EIA)", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "text"
-      }, 
-      {
-        "name": "total_annual_electricity_consumption_gwhs", 
-        "type": "real"
-      }, 
-      {
-        "name": "population", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "electricity_prices_u_s_vs_hawaii_source_eia_"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "electricity_prices_u_s_vs_hawaii_source_eia_"
 }

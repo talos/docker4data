@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/2010_municipal_election_results/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/yznh-9n2u/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.edmonton.ca/api/views/yznh-9n2u/rows.csv", 
   "description": "Final 2010 election results for various municipal and school board positions", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,58 +13,7 @@
     }
   }, 
   "name": "2010 Municipal Election Results", 
-  "schema": {
-    "columns": [
-      {
-        "name": "racenumber", 
-        "type": "real"
-      }, 
-      {
-        "name": "raceorder", 
-        "type": "real"
-      }, 
-      {
-        "name": "racename", 
-        "type": "text"
-      }, 
-      {
-        "name": "wardorder", 
-        "type": "real"
-      }, 
-      {
-        "name": "wardname", 
-        "type": "text"
-      }, 
-      {
-        "name": "stationname", 
-        "type": "text"
-      }, 
-      {
-        "name": "stationtypesortorder", 
-        "type": "real"
-      }, 
-      {
-        "name": "eligiblevoters", 
-        "type": "real"
-      }, 
-      {
-        "name": "acclaimed", 
-        "type": "text"
-      }, 
-      {
-        "name": "ermcandidate", 
-        "type": "real"
-      }, 
-      {
-        "name": "candidatename", 
-        "type": "text"
-      }, 
-      {
-        "name": "votesreceived", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.edmonton.ca", 
-  "tableName": "2010_municipal_election_results"
+  "schema": "socrata/data.edmonton.ca", 
+  "status": "needs review", 
+  "table": "2010_municipal_election_results"
 }

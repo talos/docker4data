@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/outdoor_no_smoking_areas/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/geospatial/23k2-cnm2", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/geospatial/23k2-cnm2", 
   "description": "The City of Melbourne has designated outdoor no smoking areas which are above and beyond those areas designated in the tobacco act. This dataset displays the outdoor areas which the City of Melbourne has the authority to designate as no smoking areas", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Outdoor No Smoking Areas", 
-  "schema": {}, 
-  "schemaName": "socrata/data.melbourne.vic.gov.au", 
-  "tableName": "outdoor_no_smoking_areas"
+  "schema": "socrata/data.melbourne.vic.gov.au", 
+  "status": "needs review", 
+  "table": "outdoor_no_smoking_areas"
 }

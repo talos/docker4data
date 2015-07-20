@@ -1,0 +1,21 @@
+CREATE TABLE "cdhe_enrollment" (
+	"year"	real,
+	"institutionname"	text,
+	"institutionlevelid"	real,
+	"institutionlevel"	text,
+	"institutiontype"	text,
+	"taxtype"	text,
+	"division"	text,
+	"agedesc"	text,
+	"max"	real,
+	"min"	real,
+	"gender"	text,
+	"ethnicity"	text,
+	"studentlevel"	text,
+	"degreelevel"	text,
+	"residencyid"	real,
+	"residency"	text,
+	"registrationstatusid"	real,
+	"registrationstatus"	text,
+	"recordcount"	real
+);

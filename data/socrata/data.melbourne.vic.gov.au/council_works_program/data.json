@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/council_works_program/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/views/5kg2-fg9r/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/views/5kg2-fg9r/rows.csv", 
   "description": "This is the planned council works expenditure budget and the sources of funding for the budget. It should be noted that maintenance is included as part of the overall review of council works program but is funded out of the operating budget.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,66 +13,7 @@
     }
   }, 
   "name": "Council Works Program", 
-  "schema": {
-    "columns": [
-      {
-        "name": "financial_year", 
-        "type": "text"
-      }, 
-      {
-        "name": "program", 
-        "type": "text"
-      }, 
-      {
-        "name": "category", 
-        "type": "text"
-      }, 
-      {
-        "name": "sub_category", 
-        "type": "text"
-      }, 
-      {
-        "name": "expenditure_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "program_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "cash_000", 
-        "type": "real"
-      }, 
-      {
-        "name": "grants_000", 
-        "type": "real"
-      }, 
-      {
-        "name": "parking_levy_000", 
-        "type": "real"
-      }, 
-      {
-        "name": "external_000", 
-        "type": "real"
-      }, 
-      {
-        "name": "public_open_space_000", 
-        "type": "real"
-      }, 
-      {
-        "name": "proceeds_from_sale_of_assets_000", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_funding_000", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.melbourne.vic.gov.au", 
-  "tableName": "council_works_program"
+  "schema": "socrata/data.melbourne.vic.gov.au", 
+  "status": "needs review", 
+  "table": "council_works_program"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_income_by_type_of_income_and_agi_range/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/gffu-ps8j/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/gffu-ps8j/rows.csv", 
   "description": "Number of tax filers/payers and income from various types of income by income ranges", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "Income By Type Of Income And AGI Range", 
-  "schema": {
-    "columns": [
-      {
-        "name": "income_group", 
-        "type": "text"
-      }, 
-      {
-        "name": "wages_and_saleries_dollars_in_millions", 
-        "type": "real"
-      }, 
-      {
-        "name": "percentage", 
-        "type": "real"
-      }, 
-      {
-        "name": "dividends_and_interest_dollars_in_millions", 
-        "type": "real"
-      }, 
-      {
-        "name": "percent", 
-        "type": "real"
-      }, 
-      {
-        "name": "business_income", 
-        "type": "real"
-      }, 
-      {
-        "name": "_", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "income_by_type_of_income_and_agi_range"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "income_by_type_of_income_and_agi_range"
 }

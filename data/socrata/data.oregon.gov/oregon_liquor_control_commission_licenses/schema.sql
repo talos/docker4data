@@ -1,0 +1,21 @@
+CREATE TABLE "oregon_liquor_control_commission_licenses" (
+	"license_no"	real,
+	"premises_no"	text,
+	"effective_date"	timestamp,
+	"expiration"	timestamp,
+	"tradename"	text,
+	"licensee_name"	text,
+	"type"	text,
+	"license_action"	text,
+	"premises_street_address"	text,
+	"premises_city"	text,
+	"prem_county"	text,
+	"prem_state"	text,
+	"prem_zip"	text,
+	"prem_phone"	text,
+	"mailing_address"	text,
+	"mailing_city"	text,
+	"mail_state"	text,
+	"mail_zip"	real,
+	"second_location_to_license_no"	real
+);

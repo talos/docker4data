@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_cip_2011_2012/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/pmbr-njwn/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/pmbr-njwn/rows.csv", 
   "description": ". Capital Improvement Projects (CIP) are renovations, repairs, and major maintenance to existing facilities, landscape improvements, new construction, land acquisition, and utility modifications. These types of projects are accounted for in a capital improvement budget code of a department.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "CIP 2011-2012", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "text"
-      }, 
-      {
-        "name": "agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "expenditures", 
-        "type": "text"
-      }, 
-      {
-        "name": "encumbrances", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "cip_2011_2012"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "cip_2011_2012"
 }

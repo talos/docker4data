@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_violent_crime_statewide_totals_by_type/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/wkgc-hy7s/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/wkgc-hy7s/rows.csv", 
   "description": "The data are provided are the Maryland Statistical Analysis Center (MSAC), within the Governor's Office of Crime Control and Prevention (GOCCP). MSAC, in turn, receives these data from the FBI's annual Uniform Crime Reports.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,74 +13,7 @@
     }
   }, 
   "name": "Violent Crime Statewide Totals by Type", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "homicide", 
-        "type": "real"
-      }, 
-      {
-        "name": "rape", 
-        "type": "real"
-      }, 
-      {
-        "name": "robbery", 
-        "type": "real"
-      }, 
-      {
-        "name": "agg_assault", 
-        "type": "real"
-      }, 
-      {
-        "name": "b_e", 
-        "type": "real"
-      }, 
-      {
-        "name": "larceny_theft", 
-        "type": "real"
-      }, 
-      {
-        "name": "m_v_theft", 
-        "type": "real"
-      }, 
-      {
-        "name": "grand_total", 
-        "type": "real"
-      }, 
-      {
-        "name": "percent_change", 
-        "type": "text"
-      }, 
-      {
-        "name": "violent_crime_total", 
-        "type": "real"
-      }, 
-      {
-        "name": "violent_crime_percent", 
-        "type": "text"
-      }, 
-      {
-        "name": "violent_crime_percent_change", 
-        "type": "text"
-      }, 
-      {
-        "name": "property_crime_totals", 
-        "type": "real"
-      }, 
-      {
-        "name": "property_crime_percent", 
-        "type": "text"
-      }, 
-      {
-        "name": "property_crime_percent_change", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "violent_crime_statewide_totals_by_type"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "violent_crime_statewide_totals_by_type"
 }

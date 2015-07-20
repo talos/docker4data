@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_hsa_90_day_emergency_shelter_waitlist/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/w4sk-nq57/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sfgov.org/api/views/w4sk-nq57/rows.csv", 
   "description": "Provides the seniority list for entry into HSA 90 day emergency shelter waitlist. The list will be generated on 2/24/14 and updated twice daily.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,34 +12,7 @@
     }
   }, 
   "name": "HSA 90 day emergency shelter waitlist", 
-  "schema": {
-    "columns": [
-      {
-        "name": "position_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "reservation_seniority", 
-        "type": "real"
-      }, 
-      {
-        "name": "dob", 
-        "type": "text"
-      }, 
-      {
-        "name": "txtchangesid", 
-        "type": "real"
-      }, 
-      {
-        "name": "caseid", 
-        "type": "real"
-      }, 
-      {
-        "name": "message", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sfgov.org", 
-  "tableName": "hsa_90_day_emergency_shelter_waitlist"
+  "schema": "socrata/data.sfgov.org", 
+  "status": "needs review", 
+  "table": "hsa_90_day_emergency_shelter_waitlist"
 }

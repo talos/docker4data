@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/parking_events_2014/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/views/mq3i-cbxd/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/views/mq3i-cbxd/rows.csv", 
   "description": "The City of Melbourne has installed in-ground parking bay sensors in most CBD parking bays. These sensors record when a vehicle arrives and when it departs. Each record  also includes the parking restriction for the bay and whether the vehicle has overstayed that restriction. This is the data for the 2014 calendar year", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,94 +13,7 @@
     }
   }, 
   "name": "Parking Events 2014", 
-  "schema": {
-    "columns": [
-      {
-        "name": "eventid", 
-        "type": "real"
-      }, 
-      {
-        "name": "deviceid", 
-        "type": "real"
-      }, 
-      {
-        "name": "arrivaltime", 
-        "type": "text"
-      }, 
-      {
-        "name": "departuretime", 
-        "type": "text"
-      }, 
-      {
-        "name": "durationseconds", 
-        "type": "real"
-      }, 
-      {
-        "name": "streetmarker", 
-        "type": "text"
-      }, 
-      {
-        "name": "signplateid", 
-        "type": "real"
-      }, 
-      {
-        "name": "sign", 
-        "type": "text"
-      }, 
-      {
-        "name": "area", 
-        "type": "real"
-      }, 
-      {
-        "name": "areaname", 
-        "type": "text"
-      }, 
-      {
-        "name": "streetid", 
-        "type": "real"
-      }, 
-      {
-        "name": "streetname", 
-        "type": "text"
-      }, 
-      {
-        "name": "lkp_bay_location_betweenstreet1", 
-        "type": "real"
-      }, 
-      {
-        "name": "lkp_between_street_1_betweenstreet1", 
-        "type": "text"
-      }, 
-      {
-        "name": "lkp_bay_location_betweenstreet2", 
-        "type": "real"
-      }, 
-      {
-        "name": "lkp_between_street_2_betweenstreet2", 
-        "type": "text"
-      }, 
-      {
-        "name": "sideofstreet", 
-        "type": "real"
-      }, 
-      {
-        "name": "sidecode", 
-        "type": "text"
-      }, 
-      {
-        "name": "sidename", 
-        "type": "text"
-      }, 
-      {
-        "name": "bayid", 
-        "type": "real"
-      }, 
-      {
-        "name": "inviolation", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.melbourne.vic.gov.au", 
-  "tableName": "parking_events_2014"
+  "schema": "socrata/data.melbourne.vic.gov.au", 
+  "status": "needs review", 
+  "table": "parking_events_2014"
 }

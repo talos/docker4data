@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_off_street_parking_lots_and_parking_garages/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/uupn-yfaw/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sfgov.org/api/views/uupn-yfaw/rows.csv", 
   "description": "Publicly available off-street parking in San Francisco as of September 2011. Find attached a data dictionary, a version of the map as a PDF (symbolized to show garage type and capacity of garage), and a shapefile and CSV of the data. \r\n\r\nThis dataset includes location, capacities, and related details of public parking garages and lots; four parking categories: paid, publicly available (PPA): drive up and pay, typically by the hour or by the day; customer parking only (CPO): typically for businesses or religious institutions; permit holder only (PHO, CGO): i.e. employees only, students only, monthly only; free publicly available (FPA): free off-street parking. The data does not contain off-street residential parking spaces or other unmarked \u201cprivate\u201d parking.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "Off-Street parking lots and parking garages", 
-  "schema": {
-    "columns": [
-      {
-        "name": "owner", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "primetype", 
-        "type": "text"
-      }, 
-      {
-        "name": "secondtype", 
-        "type": "text"
-      }, 
-      {
-        "name": "garorlot", 
-        "type": "text"
-      }, 
-      {
-        "name": "regcap", 
-        "type": "real"
-      }, 
-      {
-        "name": "valetcap", 
-        "type": "real"
-      }, 
-      {
-        "name": "mccap", 
-        "type": "real"
-      }, 
-      {
-        "name": "landusetyp", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sfgov.org", 
-  "tableName": "off_street_parking_lots_and_parking_garages"
+  "schema": "socrata/data.sfgov.org", 
+  "status": "needs review", 
+  "table": "off_street_parking_lots_and_parking_garages"
 }

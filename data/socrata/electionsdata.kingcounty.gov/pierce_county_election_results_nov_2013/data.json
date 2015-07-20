@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/pierce_county_election_results_nov_2013/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/electionsdata.kingcounty.gov/api/views/rhmd-zq56/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/electionsdata.kingcounty.gov/api/views/rhmd-zq56/rows.csv", 
   "description": "11/15/2013 1:11 PM", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "Pierce County Election Results - Nov 2013", 
-  "schema": {
-    "columns": [
-      {
-        "name": "race", 
-        "type": "text"
-      }, 
-      {
-        "name": "candidate", 
-        "type": "text"
-      }, 
-      {
-        "name": "party", 
-        "type": "text"
-      }, 
-      {
-        "name": "votes", 
-        "type": "real"
-      }, 
-      {
-        "name": "percentageoftotalvotes", 
-        "type": "real"
-      }, 
-      {
-        "name": "jurisdictionname", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/electionsdata.kingcounty.gov", 
-  "tableName": "pierce_county_election_results_nov_2013"
+  "schema": "socrata/electionsdata.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "pierce_county_election_results_nov_2013"
 }

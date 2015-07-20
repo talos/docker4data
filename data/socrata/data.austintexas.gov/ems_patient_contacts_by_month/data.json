@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_ems_patient_contacts_by_month/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/cibe-gpzy/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/views/cibe-gpzy/rows.csv", 
   "description": "This table contains data that describes monthly patient contacts.  It includes all incidents with a response priority between 1 and 5, inclusive.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,82 +13,7 @@
     }
   }, 
   "name": "EMS - Patient Contacts by Month", 
-  "schema": {
-    "columns": [
-      {
-        "name": "month_key", 
-        "type": "real"
-      }, 
-      {
-        "name": "month_start_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "count_patient_contacts_all", 
-        "type": "real"
-      }, 
-      {
-        "name": "count_patient_contacts_coa", 
-        "type": "real"
-      }, 
-      {
-        "name": "count_patient_contacts_tc", 
-        "type": "real"
-      }, 
-      {
-        "name": "count_patient_contacts_other", 
-        "type": "real"
-      }, 
-      {
-        "name": "count_patient_contacts_coa_and_tc", 
-        "type": "real"
-      }, 
-      {
-        "name": "count_patient_transports_all", 
-        "type": "real"
-      }, 
-      {
-        "name": "count_patient_transports_coa", 
-        "type": "real"
-      }, 
-      {
-        "name": "count_patient_transports_tc", 
-        "type": "real"
-      }, 
-      {
-        "name": "count_patient_transports_other", 
-        "type": "real"
-      }, 
-      {
-        "name": "count_patient_transports_coa_and_tc", 
-        "type": "real"
-      }, 
-      {
-        "name": "percent_patient_transports_all", 
-        "type": "text"
-      }, 
-      {
-        "name": "percent_patient_transports_coa", 
-        "type": "text"
-      }, 
-      {
-        "name": "percent_patient_transports_tc", 
-        "type": "text"
-      }, 
-      {
-        "name": "percent_patient_transports_other", 
-        "type": "text"
-      }, 
-      {
-        "name": "percent_patient_transports_coa_and_tc", 
-        "type": "text"
-      }, 
-      {
-        "name": "percent_patient_transports_target", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "ems_patient_contacts_by_month"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "ems_patient_contacts_by_month"
 }

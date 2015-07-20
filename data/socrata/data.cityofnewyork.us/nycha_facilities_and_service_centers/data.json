@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_nycha_facilities_and_service_centers/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/d4iy-9uh7/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/d4iy-9uh7/rows.csv", 
   "description": "Contains all occupied and vacant facilities portfolio from Facility Planning (commercial spaces) and Community Operations (community centers, senior centers, day care centers, health centers, etc) It includes the 5 Community Operations borough offices.\u00a0 The source data is our latest Property Directory as December 2012.\u00a0 The field \u201cComments\u201d contains summary codes to distinguish the type of facility (BO \u2013 NYCHA Community Operations Borough Offices, CO \u2013 Community Operations, FP \u2013 Facility Planning).\u00a0 Please note that there are two commercial spaces (not coded under field \u201ccomments\u201d)recorded in our property directory which are not part of the portfolio for Facility Planning.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,58 +13,7 @@
     }
   }, 
   "name": "NYCHA Facilities and Service Centers", 
-  "schema": {
-    "columns": [
-      {
-        "name": "development", 
-        "type": "text"
-      }, 
-      {
-        "name": "bldg", 
-        "type": "real"
-      }, 
-      {
-        "name": "sh", 
-        "type": "real"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "borough_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "new_tds", 
-        "type": "real"
-      }, 
-      {
-        "name": "facility", 
-        "type": "text"
-      }, 
-      {
-        "name": "comments", 
-        "type": "text"
-      }, 
-      {
-        "name": "month", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "nycha_facilities_and_service_centers"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "nycha_facilities_and_service_centers"
 }

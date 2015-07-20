@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/act_wildlife_atlas_records/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/www.data.act.gov.au/api/views/e9ux-7djy/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/www.data.act.gov.au/api/views/e9ux-7djy/rows.csv", 
   "description": "This spatial dataset maps the location of wildlife records held within the ACT Wildlife Atlas up until December 2014. Records include mammals, fish, amphibians, invertebrates, reptiles and birds. Some sensitive records have been withheld.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,54 +13,7 @@
     }
   }, 
   "name": "ACT Wildlife Atlas Records", 
-  "schema": {
-    "columns": [
-      {
-        "name": "fid", 
-        "type": "real"
-      }, 
-      {
-        "name": "commonname", 
-        "type": "text"
-      }, 
-      {
-        "name": "scientificname", 
-        "type": "text"
-      }, 
-      {
-        "name": "recorddate", 
-        "type": "text"
-      }, 
-      {
-        "name": "easting_mga", 
-        "type": "real"
-      }, 
-      {
-        "name": "northing_mga", 
-        "type": "real"
-      }, 
-      {
-        "name": "individualcount", 
-        "type": "real"
-      }, 
-      {
-        "name": "coordinateuncertaintyinmeters", 
-        "type": "real"
-      }, 
-      {
-        "name": "geodeticdatum", 
-        "type": "text"
-      }, 
-      {
-        "name": "data_resource_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/www.data.act.gov.au", 
-  "tableName": "act_wildlife_atlas_records"
+  "schema": "socrata/www.data.act.gov.au", 
+  "status": "needs review", 
+  "table": "act_wildlife_atlas_records"
 }

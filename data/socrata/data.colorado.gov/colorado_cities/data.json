@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/colorado_cities/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/geospatial/7nuk-vzhq", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/api/geospatial/7nuk-vzhq", 
   "description": "Locations and areas of Colorado Cities and Towns. Provided by CDOT. Includes municipal perimeters and FIPS codes. Municipal Boundaries are also published by DOLA. Neither dataset is an authoritative or official source of information that would substitute for Survey Grade measurements of boundaries. Therefore use for analysis is intended with reservation, and the preferred use of this dataset is for cartographic purposes.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Colorado Cities", 
-  "schema": {}, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "colorado_cities"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "colorado_cities"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_kingcounty_king_county_social_media/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/rfcd-nnxe/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.kingcounty.gov/api/views/rfcd-nnxe/rows.csv", 
   "description": "List of social media presences maintained by King County agencies and officials", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "King County Social Media", 
-  "schema": {
-    "columns": [
-      {
-        "name": "king_county_agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "facebook", 
-        "type": "text"
-      }, 
-      {
-        "name": "twitter", 
-        "type": "text"
-      }, 
-      {
-        "name": "blog", 
-        "type": "text"
-      }, 
-      {
-        "name": "flickr", 
-        "type": "text"
-      }, 
-      {
-        "name": "pinterest", 
-        "type": "text"
-      }, 
-      {
-        "name": "youtube", 
-        "type": "text"
-      }, 
-      {
-        "name": "show_on_news_page", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.kingcounty.gov", 
-  "tableName": "king_county_social_media"
+  "schema": "socrata/data.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "king_county_social_media"
 }

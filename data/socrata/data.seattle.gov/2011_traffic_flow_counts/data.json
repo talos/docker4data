@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_2011_traffic_flow_counts/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/vx33-v49r/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/vx33-v49r/rows.csv", 
   "description": "Annualized Average Weekday Daily Traffic\r\nTo provide traffic count data that includes ADT(Average daily traffic- 7 day count, includes weekends.  This is an average number, derived from averaging daily traffic volumes for all seven days), AWDT (Average week-day traffic- 5 day count, does not include week-ends. Derived from averaging daily traffic volumes for Monday thru Friday), AM (AM Peak hour, the highest hour count volume in the AM, consisting of four consecutive 15 minute periods that fall between midnight and noon)and PM (PM Peak hour, the highest hour count volume in the PM, consisting of four consecutive 15 minute periods that fall between noon and midnight)peak hour volumes along with study dates.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,66 +13,7 @@
     }
   }, 
   "name": "2011 Traffic Flow Counts", 
-  "schema": {
-    "columns": [
-      {
-        "name": "objectid", 
-        "type": "real"
-      }, 
-      {
-        "name": "geobasid", 
-        "type": "real"
-      }, 
-      {
-        "name": "downtown", 
-        "type": "text"
-      }, 
-      {
-        "name": "compkey", 
-        "type": "real"
-      }, 
-      {
-        "name": "stname", 
-        "type": "text"
-      }, 
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "year_", 
-        "type": "real"
-      }, 
-      {
-        "name": "segkey", 
-        "type": "real"
-      }, 
-      {
-        "name": "aawdt", 
-        "type": "real"
-      }, 
-      {
-        "name": "input_study_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "hpms", 
-        "type": "text"
-      }, 
-      {
-        "name": "flow_count", 
-        "type": "text"
-      }, 
-      {
-        "name": "shape", 
-        "type": "text"
-      }, 
-      {
-        "name": "shape_len", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "2011_traffic_flow_counts"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "2011_traffic_flow_counts"
 }

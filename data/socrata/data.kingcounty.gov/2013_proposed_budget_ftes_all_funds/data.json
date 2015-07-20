@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/2013_proposed_budget_ftes_all_funds/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/gzy7-fnfv/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.kingcounty.gov/api/views/gzy7-fnfv/rows.csv", 
   "description": "King County budget proposed September 2012 by Executive for 2013, FTEs, all funds, broken down by strategic area and appropriation unit. See http://www.kingcounty.gov/budget for more.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,66 +13,7 @@
     }
   }, 
   "name": "2013 Proposed Budget, FTEs, All Funds", 
-  "schema": {
-    "columns": [
-      {
-        "name": "strategic_area", 
-        "type": "text"
-      }, 
-      {
-        "name": "appropriation_unit", 
-        "type": "text"
-      }, 
-      {
-        "name": "general_fund_adopted_1", 
-        "type": "real"
-      }, 
-      {
-        "name": "non_general_fund_adopted_1", 
-        "type": "real"
-      }, 
-      {
-        "name": "general_fund_adopted_2", 
-        "type": "real"
-      }, 
-      {
-        "name": "non_general_fund_adopted_2", 
-        "type": "real"
-      }, 
-      {
-        "name": "general_fund_proposed_1", 
-        "type": "real"
-      }, 
-      {
-        "name": "non_general_fund_proposed_1", 
-        "type": "real"
-      }, 
-      {
-        "name": "general_fund_proposed_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "non_general_fund_proposed_2", 
-        "type": "real"
-      }, 
-      {
-        "name": "general_fund_amount_of_change", 
-        "type": "real"
-      }, 
-      {
-        "name": "non_general_fund_amount_of_change", 
-        "type": "real"
-      }, 
-      {
-        "name": "general_fund_percent_of_change", 
-        "type": "text"
-      }, 
-      {
-        "name": "non_general_fund_percent_of_change", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.kingcounty.gov", 
-  "tableName": "2013_proposed_budget_ftes_all_funds"
+  "schema": "socrata/data.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "2013_proposed_budget_ftes_all_funds"
 }

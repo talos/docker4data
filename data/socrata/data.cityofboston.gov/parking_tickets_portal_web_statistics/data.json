@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofboston_parking_tickets_portal_web_statistics/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/8v6g-kcn8/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/api/views/8v6g-kcn8/rows.csv", 
   "description": "web statistics for http://www.cityofboston.gov/parking/payment.asp for 2014", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,18 +13,7 @@
     }
   }, 
   "name": "Parking Tickets Portal Web Statistics", 
-  "schema": {
-    "columns": [
-      {
-        "name": "day_index", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "pageviews", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "parking_tickets_portal_web_statistics"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "parking_tickets_portal_web_statistics"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/pet_licenses_by_neighbourhood/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/5squ-mg4w/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.edmonton.ca/api/views/5squ-mg4w/rows.csv", 
   "description": "Distribution of various licensed pets (cats, dogs, pigeons) by neighbourhood", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,66 +13,7 @@
     }
   }, 
   "name": "Pet  Licenses by Neighbourhood", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "month", 
-        "type": "text"
-      }, 
-      {
-        "name": "month_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "license_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "neighbourhood", 
-        "type": "text"
-      }, 
-      {
-        "name": "neighbourhood_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "pet_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "breed", 
-        "type": "text"
-      }, 
-      {
-        "name": "gender", 
-        "type": "text"
-      }, 
-      {
-        "name": "spayed_or_neutered", 
-        "type": "text"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "count", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.edmonton.ca", 
-  "tableName": "pet_licenses_by_neighbourhood"
+  "schema": "socrata/data.edmonton.ca", 
+  "status": "needs review", 
+  "table": "pet_licenses_by_neighbourhood"
 }

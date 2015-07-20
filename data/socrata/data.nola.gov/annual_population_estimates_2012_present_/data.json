@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/annual_population_estimates_2012_present_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.nola.gov/api/views/gstq-ak5n/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.nola.gov/api/views/gstq-ak5n/rows.csv", 
   "description": "This dataset includes population estimates from the U.S. Census Bureau which are published an annual basis. The data which is published in May represents the estimate for July of the previous year. While the Census publishes revised estimates for previous years each time a new estimate comes out, this data set only represents the unrevised estimate for each year. This data is used in ResultsNOLA to calculate population adjusted outcome and performance indicators.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "Annual Population Estimates (2012 - Present)", 
-  "schema": {
-    "columns": [
-      {
-        "name": "rowid", 
-        "type": "text"
-      }, 
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "month", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "releasedate", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "releasemonth", 
-        "type": "text"
-      }, 
-      {
-        "name": "releaseyear", 
-        "type": "real"
-      }, 
-      {
-        "name": "indicatorname", 
-        "type": "text"
-      }, 
-      {
-        "name": "indicatorvalue", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.nola.gov", 
-  "tableName": "annual_population_estimates_2012_present_"
+  "schema": "socrata/data.nola.gov", 
+  "status": "needs review", 
+  "table": "annual_population_estimates_2012_present_"
 }

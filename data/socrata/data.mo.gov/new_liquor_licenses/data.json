@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_mo_new_liquor_licenses/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.mo.gov/api/views/dymb-xy5c/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.mo.gov/api/views/dymb-xy5c/rows.csv", 
   "description": "Weekly listing of new Liquor Licenses for the past 3 weeks", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,74 +13,7 @@
     }
   }, 
   "name": "New Liquor Licenses", 
-  "schema": {
-    "columns": [
-      {
-        "name": "license_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "licensee", 
-        "type": "text"
-      }, 
-      {
-        "name": "dbaname", 
-        "type": "text"
-      }, 
-      {
-        "name": "businesstype", 
-        "type": "text"
-      }, 
-      {
-        "name": "license_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "current_status", 
-        "type": "text"
-      }, 
-      {
-        "name": "original_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "district", 
-        "type": "real"
-      }, 
-      {
-        "name": "subdistrict", 
-        "type": "real"
-      }, 
-      {
-        "name": "county", 
-        "type": "real"
-      }, 
-      {
-        "name": "street_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "street", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "latlng", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.mo.gov", 
-  "tableName": "new_liquor_licenses"
+  "schema": "socrata/data.mo.gov", 
+  "status": "needs review", 
+  "table": "new_liquor_licenses"
 }

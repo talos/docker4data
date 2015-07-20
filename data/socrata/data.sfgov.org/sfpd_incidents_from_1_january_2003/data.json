@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_sfpd_incidents_from_1_january_2003/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/tmnf-yvry/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sfgov.org/api/views/tmnf-yvry/rows.csv", 
   "description": "Incidents derived from SFPD Crime Incident Reporting system  Updated daily, showing data from 1/1/2003 up until two weeks ago from current date. Please note: San Francisco police have implemented a new system for tracking crime. The dataset included here is still coming from the old system, which is in the process of being retired (a multi-year process).  Data included here is no longer the official SFPD data. We will migrate to the new system for DataSF in the upcoming months.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,62 +13,7 @@
     }
   }, 
   "name": "SFPD Incidents - from 1 January 2003", 
-  "schema": {
-    "columns": [
-      {
-        "name": "incidntnum", 
-        "type": "text"
-      }, 
-      {
-        "name": "category", 
-        "type": "text"
-      }, 
-      {
-        "name": "descript", 
-        "type": "text"
-      }, 
-      {
-        "name": "dayofweek", 
-        "type": "text"
-      }, 
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "time", 
-        "type": "text"
-      }, 
-      {
-        "name": "pddistrict", 
-        "type": "text"
-      }, 
-      {
-        "name": "resolution", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "x", 
-        "type": "real"
-      }, 
-      {
-        "name": "y", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "pdid", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sfgov.org", 
-  "tableName": "sfpd_incidents_from_1_january_2003"
+  "schema": "socrata/data.sfgov.org", 
+  "status": "needs review", 
+  "table": "sfpd_incidents_from_1_january_2003"
 }

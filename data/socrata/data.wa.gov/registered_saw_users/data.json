@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wa_registered_saw_users/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/mce5-sutm/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.wa.gov/api/views/mce5-sutm/rows.csv", 
   "description": "Dept of Ecology Proof of Concept dataset for testing and filtering only.  It will not have public ramifications.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,18 +12,7 @@
     }
   }, 
   "name": "Registered Saw Users", 
-  "schema": {
-    "columns": [
-      {
-        "name": "quarter", 
-        "type": "text"
-      }, 
-      {
-        "name": "user_count", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.wa.gov", 
-  "tableName": "registered_saw_users"
+  "schema": "socrata/data.wa.gov", 
+  "status": "needs review", 
+  "table": "registered_saw_users"
 }

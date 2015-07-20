@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/botanical_priority_protection_areas/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oaklandnet.com/api/geospatial/435k-7d48", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.oaklandnet.com/api/geospatial/435k-7d48", 
   "description": "Borders of Botanical Priority Protection Areas from Calwater 2.2.1. Full metadata contained in shapefile.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Botanical Priority Protection Areas", 
-  "schema": {}, 
-  "schemaName": "socrata/data.oaklandnet.com", 
-  "tableName": "botanical_priority_protection_areas"
+  "schema": "socrata/data.oaklandnet.com", 
+  "status": "needs review", 
+  "table": "botanical_priority_protection_areas"
 }

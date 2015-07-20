@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_purchasing_card_expenditures/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/6ef7-e9au/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/6ef7-e9au/rows.csv", 
   "description": "uploaded 2013.01.23", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,54 +12,7 @@
     }
   }, 
   "name": "Purchasing Card Expenditures", 
-  "schema": {
-    "columns": [
-      {
-        "name": "transaction_no", 
-        "type": "text"
-      }, 
-      {
-        "name": "transaction_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "post_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "department", 
-        "type": "text"
-      }, 
-      {
-        "name": "amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "vendor_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "category", 
-        "type": "text"
-      }, 
-      {
-        "name": "fund", 
-        "type": "text"
-      }, 
-      {
-        "name": "fy", 
-        "type": "text"
-      }, 
-      {
-        "name": "appr", 
-        "type": "text"
-      }, 
-      {
-        "name": "cost_center", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "purchasing_card_expenditures"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "purchasing_card_expenditures"
 }

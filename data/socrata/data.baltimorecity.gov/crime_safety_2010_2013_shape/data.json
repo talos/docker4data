@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/crime_safety_2010_2013_shape/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/geospatial/y3aa-iwrk", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.baltimorecity.gov/api/geospatial/y3aa-iwrk", 
   "description": "All crime data for Vital Signs indicators are provided by the Baltimore City Police Department. BNIA-JFI normalizes this data by population to establish crime rates. Normalizing data allows for the rates to reflect the concentration of the crime relative to the population in the area and allows for comparison between areas of different populations.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,9 +14,7 @@
     }
   }, 
   "name": "Crime & Safety (2010-2013) - Shape", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.baltimorecity.gov", 
-  "tableName": "crime_safety_2010_2013_shape"
+  "schema": "socrata/data.baltimorecity.gov", 
+  "status": "needs review", 
+  "table": "crime_safety_2010_2013_shape"
 }

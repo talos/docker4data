@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/supervisorial_districts_as_of_april_2012/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/geospatial/xz9b-wyfc", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.sfgov.org/api/geospatial/xz9b-wyfc", 
   "description": "Supervisorial Districts, developed by Redistricting Task Force, submitted on 18 April 2012. Note: for mapping and analysis purposes, the non-land areas of the districts have been removed in this version. The original submitted dataset with ocean and bay included described here; http://www.sfgov2.org/index.aspx?page=3450.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Supervisorial Districts as of April 2012", 
-  "schema": {}, 
-  "schemaName": "socrata/data.sfgov.org", 
-  "tableName": "supervisorial_districts_as_of_april_2012"
+  "schema": "socrata/data.sfgov.org", 
+  "status": "needs review", 
+  "table": "supervisorial_districts_as_of_april_2012"
 }

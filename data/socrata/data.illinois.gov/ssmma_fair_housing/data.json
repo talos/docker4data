@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_ssmma_fair_housing/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/rcky-ja8i/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/rcky-ja8i/rows.csv", 
   "description": "This dataset details communities which have a Fair Housing Ordinance. This was put together by South Suburban Atlas staff.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,66 +13,7 @@
     }
   }, 
   "name": "SSMMA Fair Housing", 
-  "schema": {
-    "columns": [
-      {
-        "name": "objectid", 
-        "type": "real"
-      }, 
-      {
-        "name": "municipali", 
-        "type": "text"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "fho_enacte", 
-        "type": "text"
-      }, 
-      {
-        "name": "fho_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "fho_link", 
-        "type": "text"
-      }, 
-      {
-        "name": "fho_staff_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "fho_staff_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "fho_staff1", 
-        "type": "text"
-      }, 
-      {
-        "name": "editor", 
-        "type": "text"
-      }, 
-      {
-        "name": "propreitar", 
-        "type": "real"
-      }, 
-      {
-        "name": "universali", 
-        "type": "text"
-      }, 
-      {
-        "name": "shape_leng", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape_area", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "ssmma_fair_housing"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "ssmma_fair_housing"
 }

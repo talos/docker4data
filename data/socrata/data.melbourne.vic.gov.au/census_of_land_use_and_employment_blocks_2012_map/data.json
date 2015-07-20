@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/census_of_land_use_and_employment_blocks_2012_map/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/geospatial/aia8-ryiq", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/geospatial/aia8-ryiq", 
   "description": "Spatial layer showing location of Census of Land Use and Employment (CLUE) boundaries and the 2012 count of employment, establishments and floor space for each block.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Census of Land Use and Employment Blocks - 2012 - Map", 
-  "schema": {}, 
-  "schemaName": "socrata/data.melbourne.vic.gov.au", 
-  "tableName": "census_of_land_use_and_employment_blocks_2012_map"
+  "schema": "socrata/data.melbourne.vic.gov.au", 
+  "status": "needs review", 
+  "table": "census_of_land_use_and_employment_blocks_2012_map"
 }

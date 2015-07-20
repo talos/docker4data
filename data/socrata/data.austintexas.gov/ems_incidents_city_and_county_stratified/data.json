@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ems_incidents_city_and_county_stratified/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/wxwa-v96x/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/views/wxwa-v96x/rows.csv", 
   "description": "This is a count of each single unscheduled emergency event for which A/TCEMS assistance is requested. This definition excludes calls classified as non-emergency calls", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,22 +12,7 @@
     }
   }, 
   "name": "EMS Incidents City And County Stratified", 
-  "schema": {
-    "columns": [
-      {
-        "name": "month_year", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "austin_incidents", 
-        "type": "real"
-      }, 
-      {
-        "name": "travis_county_incidents", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "ems_incidents_city_and_county_stratified"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "ems_incidents_city_and_county_stratified"
 }

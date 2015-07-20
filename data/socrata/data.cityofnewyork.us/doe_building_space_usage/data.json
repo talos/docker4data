@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/doe_building_space_usage/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/wavz-fkw8/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/wavz-fkw8/rows.csv", 
   "description": "List of DOE buildings schools housed\r\nwithin the building and with listing of\r\nrooms by size, usage.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "DOE Building Space Usage", 
-  "schema": {
-    "columns": [
-      {
-        "name": "bldg_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "org_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "room_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "length", 
-        "type": "real"
-      }, 
-      {
-        "name": "width", 
-        "type": "real"
-      }, 
-      {
-        "name": "area", 
-        "type": "real"
-      }, 
-      {
-        "name": "room_function", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "doe_building_space_usage"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "doe_building_space_usage"
 }

@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/overland_flow_routes_urbanforest/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/geospatial/6yxs-smdz", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.melbourne.vic.gov.au/api/geospatial/6yxs-smdz", 
   "description": "These flow routes are derived from the 2008 DEM surface using ESRI Spatial Analyst stream order tool with STRAHLER ordering. The GRID_CODE field represents stream order. Lines with no tributaries are assigned an order of one and are referred to as first order. When two first-order links intersect, the downslope link is assigned an order of two. When two second-order links intersect, the downslope link is assigned an order of three and so on. This was undertaken as part of the urbanforest program, the shapefile excludes a portion of Kensington that became part of City of Melbourne after this data was processed.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Overland Flow Routes - #Urbanforest", 
-  "schema": {}, 
-  "schemaName": "socrata/data.melbourne.vic.gov.au", 
-  "tableName": "overland_flow_routes_urbanforest"
+  "schema": "socrata/data.melbourne.vic.gov.au", 
+  "status": "needs review", 
+  "table": "overland_flow_routes_urbanforest"
 }

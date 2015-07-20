@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_05to12_iquery_lyme_data/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/wcrd-n5pw/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/wcrd-n5pw/rows.csv", 
   "description": "Lyme disease is caused by the bacterium Borrelia burgdorferi and is transmitted to humans through the bite of infected blacklegged ticks. Typical symptoms include fever, headache, fatigue, and a characteristic skin rash called erythema migrans. If left untreated, infection can spread to joints, the heart, and the nervous system. Lyme disease is diagnosed based on symptoms, physical findings (e.g., rash), and the possibility of exposure to infected ticks; laboratory testing is helpful if used correctly and performed with validated methods. Most cases of Lyme disease can be treated successfully with a few weeks of antibiotics.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,54 +11,7 @@
     }
   }, 
   "name": "05to12 Iquery Lyme Data", 
-  "schema": {
-    "columns": [
-      {
-        "name": "disease", 
-        "type": "text"
-      }, 
-      {
-        "name": "yeartext", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "stateorcounty", 
-        "type": "text"
-      }, 
-      {
-        "name": "il", 
-        "type": "text"
-      }, 
-      {
-        "name": "race", 
-        "type": "text"
-      }, 
-      {
-        "name": "ethnicity", 
-        "type": "text"
-      }, 
-      {
-        "name": "gender", 
-        "type": "text"
-      }, 
-      {
-        "name": "agegrouptext", 
-        "type": "text"
-      }, 
-      {
-        "name": "agegroup", 
-        "type": "text"
-      }, 
-      {
-        "name": "count", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "05to12_iquery_lyme_data"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "05to12_iquery_lyme_data"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_honolulu_honolulu_311_reports/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.honolulu.gov/api/views/6hui-dvrh/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.honolulu.gov/api/views/6hui-dvrh/rows.csv", 
   "description": "Updated daily with reports from the past month.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,46 +11,7 @@
     }
   }, 
   "name": "Honolulu 311 Reports", 
-  "schema": {
-    "columns": [
-      {
-        "name": "id", 
-        "type": "real"
-      }, 
-      {
-        "name": "datecreated", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "dateupdated", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "requesttype", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "zipcode", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "statustype", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.honolulu.gov", 
-  "tableName": "honolulu_311_reports"
+  "schema": "socrata/data.honolulu.gov", 
+  "status": "needs review", 
+  "table": "honolulu_311_reports"
 }

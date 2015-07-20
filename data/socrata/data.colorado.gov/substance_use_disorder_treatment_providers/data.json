@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_substance_use_disorder_treatment_providers/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/pu6f-rdxf/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/api/views/pu6f-rdxf/rows.csv", 
   "description": "Substance Use Disorder Treatment Providers  locations including types of treatments provided.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,58 +12,7 @@
     }
   }, 
   "name": "Substance Use Disorder Treatment Providers", 
-  "schema": {
-    "columns": [
-      {
-        "name": "admissions", 
-        "type": "real"
-      }, 
-      {
-        "name": "modality_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "provider_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "provider_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "provider_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "provider_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "county_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "judicial_district", 
-        "type": "real"
-      }, 
-      {
-        "name": "license", 
-        "type": "text"
-      }, 
-      {
-        "name": "county_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "modality_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "substance_use_disorder_treatment_providers"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "substance_use_disorder_treatment_providers"
 }

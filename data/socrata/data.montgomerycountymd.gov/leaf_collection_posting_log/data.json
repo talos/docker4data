@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_montgomerycountymd_leaf_collection_posting_log/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/r53e-rcct/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/r53e-rcct/rows.csv", 
   "description": "This dataset contains leaf collection dates for area and subarea where leaf collection service is provided by Montgomery County Department of Transportation. Update Frequency - Daily (September through December).  Monthly update (January through August) on the first day of each month.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,54 +12,7 @@
     }
   }, 
   "name": "Leaf Collection Posting Log", 
-  "schema": {
-    "columns": [
-      {
-        "name": "area", 
-        "type": "real"
-      }, 
-      {
-        "name": "sub_area", 
-        "type": "text"
-      }, 
-      {
-        "name": "collection_sequence", 
-        "type": "real"
-      }, 
-      {
-        "name": "date_sign_posted_round_1", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "date_on_sign_round_1", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "date_area_started_round_1", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "date_area_ended_round_1", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "date_sign_posted_round_2", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "date_on_sign_round_2", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "date_area_started_round_2", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "date_area_ended_round_2", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.montgomerycountymd.gov", 
-  "tableName": "leaf_collection_posting_log"
+  "schema": "socrata/data.montgomerycountymd.gov", 
+  "status": "needs review", 
+  "table": "leaf_collection_posting_log"
 }

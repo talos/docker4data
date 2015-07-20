@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_nyc_zoning_tax_lot_database/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/fdkv-4t4z/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/fdkv-4t4z/rows.csv", 
   "description": "The Zoning Tax Lot Database is a comma\u2013separated values (CSV) file format that contains up-to-date zoning by parcel. The Database includes the zoning designations and zoning map associated with a specific tax block and lot. The Database is updated on a monthly basis to reflect rezoning and corrections to the file.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,66 +13,7 @@
     }
   }, 
   "name": "NYC Zoning Tax Lot Database", 
-  "schema": {
-    "columns": [
-      {
-        "name": "borough_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "tax_block", 
-        "type": "real"
-      }, 
-      {
-        "name": "tax_lot", 
-        "type": "real"
-      }, 
-      {
-        "name": "zoning_district_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "zoning_district_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "zoning_district_3", 
-        "type": "text"
-      }, 
-      {
-        "name": "zoning_district_4", 
-        "type": "text"
-      }, 
-      {
-        "name": "commercial_overlay_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "commercial_overlay_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "special_district_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "special_district_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "limited_height_district", 
-        "type": "text"
-      }, 
-      {
-        "name": "zoning_map_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "zoning_map_code", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "nyc_zoning_tax_lot_database"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "nyc_zoning_tax_lot_database"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/bronx_public_school_math_results_2006/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/2jyh-r7b3/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/2jyh-r7b3/rows.csv", 
   "description": "The 2013 grades 3-8 ELA and math proficiency percentages should not be compared directly with prior-year results. Unlike prior years, proficiency is now based on the Common Core \u2013 a more demanding set of knowledge and skills necessary for 21st century college and careers.\r\nIn order to comply with FERPA regulations on public reporting of education outcomes, rows with the number of students tested 5 or less are suppressed.\r\nEthnicities with very small counts (Native American, Pacific Islanders, Multi-Racial) are not shown in Ethnicity spreadsheet, but are included in the citywide totals.\r\nDue to missing information on a small group of students, demographic categories do not always add up to citwide totals.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,78 +13,6 @@
     }
   }, 
   "name": "Bronx Public School Math Results 2006", 
-  "schema": {
-    "columns": [
-      {
-        "name": "nyc_results_on_the_new_york_state_2006_math_test_grades_3_8", 
-        "type": "text"
-      }, 
-      {
-        "name": "dbn", 
-        "type": "text"
-      }, 
-      {
-        "name": "grade", 
-        "type": "text"
-      }, 
-      {
-        "name": "category", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "mean_scale_score", 
-        "type": "real"
-      }, 
-      {
-        "name": "students_tested", 
-        "type": "real"
-      }, 
-      {
-        "name": "level_1_1", 
-        "type": "real"
-      }, 
-      {
-        "name": "level_1_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "level_2_1", 
-        "type": "real"
-      }, 
-      {
-        "name": "level_2_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "level_3_1", 
-        "type": "real"
-      }, 
-      {
-        "name": "level_3_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "level_4_1", 
-        "type": "real"
-      }, 
-      {
-        "name": "level_4_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "level_3_and_4_1", 
-        "type": "real"
-      }, 
-      {
-        "name": "level_3_and_4_2", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/bronx.lehman.cuny.edu", 
-  "tableName": "bronx_public_school_math_results_2006"
+  "schema": "socrata/bronx.lehman.cuny.edu", 
+  "table": "bronx_public_school_math_results_2006"
 }

@@ -1,0 +1,22 @@
+CREATE TABLE "developmental_education_assessment_placement_and_completion_requirements" (
+	"policy_name"	text,
+	"regulatory_system_agency"	text,
+	"state"	text,
+	"policy_link"	text,
+	"year"	text,
+	"policy_type"	text,
+	"policy_level"	text,
+	"institution_type"	text,
+	"assessment_required"	text,
+	"assessment_narrative"	text,
+	"placement_required"	text,
+	"placement_narrative"	text,
+	"completion_required_for_college_enrollment"	text,
+	"completion_narrative"	text,
+	"completion_std_course_grade"	text,
+	"completion_std_exit_exam"	text,
+	"completion_std_none"	text,
+	"completion_std_pass_fail"	text,
+	"completion_std_placement_exam"	text,
+	"completion_standards_narrative"	text
+);

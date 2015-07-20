@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/performance_metrics_city_colleges_of_chicago_graduation_rates/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/vvxi-nsph/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/vvxi-nsph/rows.csv", 
   "description": "The U.S. Department of Education\u2019s graduation rate, which is reported through the Integrated Postsecondary Education Data System (IPEDS), is a nationally recognized and commonly used metric in higher education. Graduation rate is calculated as the percentage of first\u2010time, full\u2010time, degree/certificate seeking students that complete a CCC program within 150% of the estimated time it takes to complete the program.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "Performance Metrics - City Colleges of Chicago - Graduation Rates", 
-  "schema": {
-    "columns": [
-      {
-        "name": "cohort_year", 
-        "type": "text"
-      }, 
-      {
-        "name": "number_of_completers_within_150_normal_completion_time_numerator_", 
-        "type": "real"
-      }, 
-      {
-        "name": "cohort_size_denominator_", 
-        "type": "real"
-      }, 
-      {
-        "name": "graduation_rate_150_", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "performance_metrics_city_colleges_of_chicago_graduation_rates"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "performance_metrics_city_colleges_of_chicago_graduation_rates"
 }

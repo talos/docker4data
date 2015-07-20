@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nola_zip_code_tabulation_areas_2010/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.nola.gov/api/geospatial/rgeq-44vf", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.nola.gov/api/geospatial/rgeq-44vf", 
   "description": "IP Code Tabulation Areas (ZCTAs) are approximate area representations of U.S. Postal Service (USPS) ZIP Code service areas that the Census Bureau creates for tabulating summary statistics from census data. This entity was developed to overcome the difficulties in precisely defining the land area covered by each ZIP Code\u00ae.  Data users should not use ZCTAs to identify the official USPS ZIP Code for mail delivery.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "NOLA Zip Code Tabulation Areas - 2010", 
-  "schema": {}, 
-  "schemaName": "socrata/data.nola.gov", 
-  "tableName": "nola_zip_code_tabulation_areas_2010"
+  "schema": "socrata/data.nola.gov", 
+  "status": "needs review", 
+  "table": "nola_zip_code_tabulation_areas_2010"
 }

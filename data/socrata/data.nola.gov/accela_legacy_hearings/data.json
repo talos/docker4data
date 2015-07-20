@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_nola_accela_legacy_hearings/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.nola.gov/api/views/d2is-2r79/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.nola.gov/api/views/d2is-2r79/rows.csv", 
   "description": "A number of historical records did not successfully migrate during the City's transition to LAMA, a new data management system for land use regulation, in 2012. \r\nThis dataset gives information on hearings from cases held before that transition. This is not an exhaustive list of all cases, and it contains some records that did migrate successfully, causing duplicates between this dataset and the dataset \"CE All Hearings.\" That data can be found at: https://data.nola.gov/dataset/CE-All-Hearings/44ct-56tr.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,78 +13,7 @@
     }
   }, 
   "name": "Accela Legacy Hearings", 
-  "schema": {
-    "columns": [
-      {
-        "name": "objectid", 
-        "type": "real"
-      }, 
-      {
-        "name": "casenumber", 
-        "type": "text"
-      }, 
-      {
-        "name": "propertyaddress", 
-        "type": "text"
-      }, 
-      {
-        "name": "propertydetail", 
-        "type": "text"
-      }, 
-      {
-        "name": "councildistrict", 
-        "type": "text"
-      }, 
-      {
-        "name": "geopin", 
-        "type": "real"
-      }, 
-      {
-        "name": "inspectiondate", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "noticedate", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "postingstatusdate", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "prevhearingdate", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "prevhearingtime", 
-        "type": "text"
-      }, 
-      {
-        "name": "casehistory", 
-        "type": "text"
-      }, 
-      {
-        "name": "hearingdate", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "hearingtime", 
-        "type": "text"
-      }, 
-      {
-        "name": "judgment", 
-        "type": "text"
-      }, 
-      {
-        "name": "x", 
-        "type": "real"
-      }, 
-      {
-        "name": "y", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.nola.gov", 
-  "tableName": "accela_legacy_hearings"
+  "schema": "socrata/data.nola.gov", 
+  "status": "needs review", 
+  "table": "accela_legacy_hearings"
 }

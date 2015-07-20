@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/cardiac_surgery_and_percutaneous_coronary_interventions_by_hospital_beginning_2008/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/jtip-2ccj/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/health.data.ny.gov/api/views/jtip-2ccj/rows.csv", 
   "description": "This dataset contains the number of cases, number of in hospital/30 day deaths, observed, expected and risk- adjusted mortality rates for cardiac surgery and percutaneous coronary interventions (PCI) by hospital.  Regions represent where the hospitals are located.  The initial Health Data NY dataset  includes patients discharged between January 1, 2008, and December 31, 2010. Analyses of risk-adjusted mortality rates and associated risk factors are provided for 2010 and for the three-year period from 2008 through 2010.  For PCI, analyses of all cases, non-emergency cases (which represent the majority of procedures) and emergency cases are included.  Subsequent year reports data will be appended to this dataset.  For more information check out: http://www.health.ny.gov/health_care/consumer_information/cardiac_surgery/ or go to the \u201cAbout\u201d tab.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,66 +13,7 @@
     }
   }, 
   "name": "Cardiac Surgery and Percutaneous Coronary Interventions by Hospital:  Beginning 2008", 
-  "schema": {
-    "columns": [
-      {
-        "name": "facility_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "hospital_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "detailed_region", 
-        "type": "text"
-      }, 
-      {
-        "name": "region", 
-        "type": "text"
-      }, 
-      {
-        "name": "procedure", 
-        "type": "text"
-      }, 
-      {
-        "name": "year_of_hospital_discharge", 
-        "type": "text"
-      }, 
-      {
-        "name": "number_of_cases", 
-        "type": "real"
-      }, 
-      {
-        "name": "number_of_deaths", 
-        "type": "real"
-      }, 
-      {
-        "name": "observed_mortality_rate", 
-        "type": "real"
-      }, 
-      {
-        "name": "expected_mortality_rate", 
-        "type": "real"
-      }, 
-      {
-        "name": "risk_adjusted_mortality_rate", 
-        "type": "real"
-      }, 
-      {
-        "name": "lower_limit_of_confidence_interval", 
-        "type": "real"
-      }, 
-      {
-        "name": "upper_limit_of_confidence_interval", 
-        "type": "real"
-      }, 
-      {
-        "name": "comparison_results", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/health.data.ny.gov", 
-  "tableName": "cardiac_surgery_and_percutaneous_coronary_interventions_by_hospital_beginning_2008"
+  "schema": "socrata/health.data.ny.gov", 
+  "status": "needs review", 
+  "table": "cardiac_surgery_and_percutaneous_coronary_interventions_by_hospital_beginning_2008"
 }

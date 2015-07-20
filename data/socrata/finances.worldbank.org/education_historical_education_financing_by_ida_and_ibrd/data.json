@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/education_historical_education_financing_by_ida_and_ibrd/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/ngic-nfw9/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/finances.worldbank.org/api/views/ngic-nfw9/rows.csv", 
   "description": "Provides aggregated education commitments by IDA and IBRD from FY1963 going forward.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "Education - Historical Education Financing by IDA and IBRD", 
-  "schema": {
-    "columns": [
-      {
-        "name": "fiscal_year", 
-        "type": "text"
-      }, 
-      {
-        "name": "ida_education_commitments", 
-        "type": "real"
-      }, 
-      {
-        "name": "ibrd_education_commitments", 
-        "type": "real"
-      }, 
-      {
-        "name": "ida_ibrd_education_commitments", 
-        "type": "real"
-      }, 
-      {
-        "name": "world_bank_total_commitments", 
-        "type": "real"
-      }, 
-      {
-        "name": "education_as_of_world_bank_total", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/finances.worldbank.org", 
-  "tableName": "education_historical_education_financing_by_ida_and_ibrd"
+  "schema": "socrata/finances.worldbank.org", 
+  "status": "needs review", 
+  "table": "education_historical_education_financing_by_ida_and_ibrd"
 }

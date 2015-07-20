@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_govloop_govloop_groups_directory/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.govloop.com/api/views/748k-9ai4/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.govloop.com/api/views/748k-9ai4/rows.csv", 
   "description": "List of GovLoop Groups with URLs.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,26 +12,7 @@
     }
   }, 
   "name": "GovLoop Groups Directory", 
-  "schema": {
-    "columns": [
-      {
-        "name": "name_of_group", 
-        "type": "text"
-      }, 
-      {
-        "name": "type_of_group", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "link", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.govloop.com", 
-  "tableName": "govloop_groups_directory"
+  "schema": "socrata/data.govloop.com", 
+  "status": "needs review", 
+  "table": "govloop_groups_directory"
 }

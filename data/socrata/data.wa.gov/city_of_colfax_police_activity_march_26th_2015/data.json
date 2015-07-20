@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/city_of_colfax_police_activity_march_26th_2015/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/download/dyxr-tix9application/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.wa.gov/download/dyxr-tix9/application/pdf", 
   "description": "This dataset outlines police activity for the City of Colfax, Washington on March 26th, 2015", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "City of Colfax: Police Activity - March 26th, 2015", 
-  "schema": {}, 
-  "schemaName": "socrata/data.wa.gov", 
-  "tableName": "city_of_colfax_police_activity_march_26th_2015"
+  "schema": "socrata/data.wa.gov", 
+  "status": "needs review", 
+  "table": "city_of_colfax_police_activity_march_26th_2015"
 }

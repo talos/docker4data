@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_irs_tax_exempt_subsections/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/2z9k-uy4q/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/api/views/2z9k-uy4q/rows.csv", 
   "description": "IRS subsection under which charities are exempt.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "IRS Tax Exempt Subsections", 
-  "schema": {
-    "columns": [
-      {
-        "name": "taxexemptcode", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "returnstype", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "irs_tax_exempt_subsections"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "irs_tax_exempt_subsections"
 }

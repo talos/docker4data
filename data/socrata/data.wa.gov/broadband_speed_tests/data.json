@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/broadband_speed_tests/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/geospatial/rsqh-kx83", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.wa.gov/api/geospatial/rsqh-kx83", 
   "description": "Speed tests submitted to the Washington State Broadband Office through fall 2014.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Broadband Speed Tests", 
-  "schema": {}, 
-  "schemaName": "socrata/data.wa.gov", 
-  "tableName": "broadband_speed_tests"
+  "schema": "socrata/data.wa.gov", 
+  "status": "needs review", 
+  "table": "broadband_speed_tests"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ibrd_and_ida_commitments_and_disbursements_country_summary/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/k6tm-smim/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/finances.worldbank.org/api/views/k6tm-smim/rows.csv", 
   "description": "Provides quarterly summaries for IBRD and IDA commitments and disbursements to all borrowers (USD Millions). Includes all credits except HIPC.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,46 +11,7 @@
     }
   }, 
   "name": "IBRD and IDA Commitments and Disbursements - Country Summary", 
-  "schema": {
-    "columns": [
-      {
-        "name": "organization", 
-        "type": "text"
-      }, 
-      {
-        "name": "time_period", 
-        "type": "text"
-      }, 
-      {
-        "name": "region", 
-        "type": "text"
-      }, 
-      {
-        "name": "country", 
-        "type": "text"
-      }, 
-      {
-        "name": "category", 
-        "type": "text"
-      }, 
-      {
-        "name": "total", 
-        "type": "real"
-      }, 
-      {
-        "name": "investment_lending", 
-        "type": "real"
-      }, 
-      {
-        "name": "development_policy", 
-        "type": "real"
-      }, 
-      {
-        "name": "program_for_results", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/finances.worldbank.org", 
-  "tableName": "ibrd_and_ida_commitments_and_disbursements_country_summary"
+  "schema": "socrata/finances.worldbank.org", 
+  "status": "needs review", 
+  "table": "ibrd_and_ida_commitments_and_disbursements_country_summary"
 }

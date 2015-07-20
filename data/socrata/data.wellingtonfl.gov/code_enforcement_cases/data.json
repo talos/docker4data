@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wellingtonfl_code_enforcement_cases/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wellingtonfl.gov/api/views/6aei-bxzm/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.wellingtonfl.gov/api/views/6aei-bxzm/rows.csv", 
   "description": "This dataset list all of the Code Enforcement Cases in Wellington since 2000.  This list only includes publically available cases.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,58 +13,7 @@
     }
   }, 
   "name": "Code Enforcement Cases", 
-  "schema": {
-    "columns": [
-      {
-        "name": "street_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "case_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "case_type_code_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "date_case_reported", 
-        "type": "text"
-      }, 
-      {
-        "name": "case_status", 
-        "type": "text"
-      }, 
-      {
-        "name": "inspector", 
-        "type": "text"
-      }, 
-      {
-        "name": "case_origination", 
-        "type": "text"
-      }, 
-      {
-        "name": "violation_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "violation_status", 
-        "type": "text"
-      }, 
-      {
-        "name": "violation_quantity", 
-        "type": "text"
-      }, 
-      {
-        "name": "violation_resolution_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.wellingtonfl.gov", 
-  "tableName": "code_enforcement_cases"
+  "schema": "socrata/data.wellingtonfl.gov", 
+  "status": "needs review", 
+  "table": "code_enforcement_cases"
 }

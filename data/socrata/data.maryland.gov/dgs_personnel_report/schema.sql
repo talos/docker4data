@@ -1,0 +1,23 @@
+CREATE TABLE "dgs_personnel_report" (
+	"pay_period_ending_date"	timestamp,
+	"overtime_total_hours"	real,
+	"overtime_hours_administration"	real,
+	"overtime_hours_facilities_operation_and_maintenance"	real,
+	"overtime_hours_facilities_design_planning"	real,
+	"overtime_hours_real_estate"	real,
+	"overtime_hours_procurement_logistics"	real,
+	"overtime_hours_security"	real,
+	"sick_leave_total_days"	real,
+	"sick_leave_days_administration"	real,
+	"sick_leave_days_facilities_operation_and_maintenance"	real,
+	"sick_leave_days_facilities_design_planning"	real,
+	"sick_leave_days_real_estate"	real,
+	"sick_leave_days_procurement_logistics"	real,
+	"sick_leave_days_security"	real,
+	"accident_leave_hours_administration"	real,
+	"accident_leave_hours_facilities_operation_and_maintenance"	real,
+	"accident_leave_hours_facilities_design_planning"	real,
+	"accident_leave_hours_real_estate"	real,
+	"accident_leave_hours_procurement_logistics"	real,
+	"accident_leave_hours_security"	real
+);

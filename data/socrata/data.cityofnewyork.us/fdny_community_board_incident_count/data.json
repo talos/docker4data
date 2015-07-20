@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_fdny_community_board_incident_count/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/rtc6-e7ff/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/rtc6-e7ff/rows.csv", 
   "description": "Provides incident counts by Year, Month, Incident classification, borough and community board.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "FDNY Community Board Incident Count", 
-  "schema": {
-    "columns": [
-      {
-        "name": "yearmonth", 
-        "type": "real"
-      }, 
-      {
-        "name": "incidentclassification", 
-        "type": "text"
-      }, 
-      {
-        "name": "incidentborough", 
-        "type": "text"
-      }, 
-      {
-        "name": "communityboardcode", 
-        "type": "real"
-      }, 
-      {
-        "name": "incidentcount", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "fdny_community_board_incident_count"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "fdny_community_board_incident_count"
 }

@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/colorado_highway_mileposts_gps/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/geospatial/trm9-dm4m", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/api/geospatial/trm9-dm4m", 
   "description": "Colorado Highway and Frontage road milepost locations. Mileposts are locations of milepost (mile marker) locations alongside CDOT highways, collected during GPS mapping efforts in the early 2000s. MIleposts differ from milepoints in that milepoints represent the location along CDOT highways where that highway's linear reference system indicates a whole number reference point (such as 57.000). Therefore, mileposts are not necessarily found at exactly at milepoints. Also includes collection date of point, route ID and some GPS locations.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Colorado Highway Mileposts GPS", 
-  "schema": {}, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "colorado_highway_mileposts_gps"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "colorado_highway_mileposts_gps"
 }

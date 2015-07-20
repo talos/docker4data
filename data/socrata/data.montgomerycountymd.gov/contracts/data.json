@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_montgomerycountymd_contracts/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/vmu2-pnrc/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/vmu2-pnrc/rows.csv", 
   "description": "The following dataset is a listing of all active County contracts.  This list is updated daily.  Contract spending information can be found at:  https://data.montgomerycountymd.gov/Finance-Tax-Property/Contract-Spending/wv2m-su7v\r\n\r\nUpdate Frequency:  Daily", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,118 +12,7 @@
     }
   }, 
   "name": "Contracts", 
-  "schema": {
-    "columns": [
-      {
-        "name": "contractno", 
-        "type": "text"
-      }, 
-      {
-        "name": "solicitationnumber", 
-        "type": "text"
-      }, 
-      {
-        "name": "buyerfirst", 
-        "type": "text"
-      }, 
-      {
-        "name": "buyerlast", 
-        "type": "text"
-      }, 
-      {
-        "name": "buyerphone", 
-        "type": "text"
-      }, 
-      {
-        "name": "buyeremail", 
-        "type": "text"
-      }, 
-      {
-        "name": "buyertitle", 
-        "type": "text"
-      }, 
-      {
-        "name": "contracttype", 
-        "type": "text"
-      }, 
-      {
-        "name": "contractdesc", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendor", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendoraddress", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendoraddress2", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendorcity", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendorst", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendorzip", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendorcontact", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendoremail", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendorphone", 
-        "type": "text"
-      }, 
-      {
-        "name": "nonprofit", 
-        "type": "text"
-      }, 
-      {
-        "name": "deptname", 
-        "type": "text"
-      }, 
-      {
-        "name": "division", 
-        "type": "text"
-      }, 
-      {
-        "name": "cadmin", 
-        "type": "text"
-      }, 
-      {
-        "name": "cadminphone", 
-        "type": "text"
-      }, 
-      {
-        "name": "cadminemail", 
-        "type": "text"
-      }, 
-      {
-        "name": "execution", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "expiration", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "extend", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.montgomerycountymd.gov", 
-  "tableName": "contracts"
+  "schema": "socrata/data.montgomerycountymd.gov", 
+  "status": "needs review", 
+  "table": "contracts"
 }

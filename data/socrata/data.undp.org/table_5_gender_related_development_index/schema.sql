@@ -1,0 +1,22 @@
+CREATE TABLE "table_5_gender_related_development_index" (
+	"hdi_ranks"	real,
+	"country"	text,
+	"gender_related_development_index_female_to_male_ratio_of_hdi_2013"	text,
+	"gender_related_development_index_gdi_rank_2013"	text,
+	"human_development_index_value_female_2013"	text,
+	"human_development_index_value_male_2013"	text,
+	"life_expectancy_at_birth_female_2013"	real,
+	"life_expectancy_at_birth_male_2013"	real,
+	"mean_years_of_schooling_female_2002_2012"	real,
+	"note_1"	text,
+	"mean_years_of_schooling_male_2000_2012"	real,
+	"note_2"	text,
+	"expected_years_of_schooling_female_2000_2012"	real,
+	"note_3"	text,
+	"expected_years_of_schooling_male_2000_2012"	real,
+	"note_4"	text,
+	"estimated_gni_per_capita_2011_ppp_female_2013"	real,
+	"note_5"	text,
+	"estimated_gni_per_capita_2011_ppp_male_2013"	real,
+	"note_6"	text
+);

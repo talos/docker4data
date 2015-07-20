@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_tax_expenditure_report_links/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/jiji-yhbv/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/jiji-yhbv/rows.csv", 
   "description": "This data set contains links to the Oklahoma Tax Expenditure Reports.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,18 +13,7 @@
     }
   }, 
   "name": "Tax Expenditure Report Links", 
-  "schema": {
-    "columns": [
-      {
-        "name": "report_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "report_link", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "tax_expenditure_report_links"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "tax_expenditure_report_links"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_dsg_public_datasets/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/mp57-qvt8/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/mp57-qvt8/rows.csv", 
   "description": "All public datasets for data.seattle.gov", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,46 +11,7 @@
     }
   }, 
   "name": "Dsg Public Datasets", 
-  "schema": {
-    "columns": [
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "owner", 
-        "type": "text"
-      }, 
-      {
-        "name": "pub_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "rev_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "rev_freq", 
-        "type": "text"
-      }, 
-      {
-        "name": "category", 
-        "type": "text"
-      }, 
-      {
-        "name": "keywords", 
-        "type": "text"
-      }, 
-      {
-        "name": "link", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "dsg_public_datasets"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "dsg_public_datasets"
 }

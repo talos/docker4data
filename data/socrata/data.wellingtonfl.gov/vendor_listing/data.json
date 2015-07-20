@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wellingtonfl_vendor_listing/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wellingtonfl.gov/api/views/9yb5-p9fa/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.wellingtonfl.gov/api/views/9yb5-p9fa/rows.csv", 
   "description": "Listing of rgistered vendors with Wellington through July 31, 2012", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,58 +13,7 @@
     }
   }, 
   "name": "Vendor Listing", 
-  "schema": {
-    "columns": [
-      {
-        "name": "vendor_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "vendor_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendor_address_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendor_address_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendor_address_3", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendor_city", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendor_state", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendor_zip", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendor_phone_number_calc", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendor_contact_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "last_action_date_calc", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "minority_status_code", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.wellingtonfl.gov", 
-  "tableName": "vendor_listing"
+  "schema": "socrata/data.wellingtonfl.gov", 
+  "status": "needs review", 
+  "table": "vendor_listing"
 }

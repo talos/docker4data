@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/hospitals_chicago/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/download/ucpz-2r55application/zip; charset=binary", 
-    "type": "application/zip; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/download/ucpz-2r55/application/zip", 
   "description": "Hospitals in Chicago. To view or use these files, compression software, like WinZip, and special GIS software, such as ESRI ArcGIS, is required. The .dbf file may also be opened in Excel, Access or other database programs.", 
+  "load": "TODO: zip", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,9 +14,7 @@
     }
   }, 
   "name": "Hospitals - Chicago", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "hospitals_chicago"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "hospitals_chicago"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wa_ocio_it_project_oversight_documents/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/s29e-i2mw/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.wa.gov/api/views/s29e-i2mw/rows.csv", 
   "description": "Project oversight documents. See OCIO IT Project Oversight Summary (https://data.wa.gov/resource/k495-fmg2) for main project information.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "OCIO IT Project Oversight Documents", 
-  "schema": {
-    "columns": [
-      {
-        "name": "project", 
-        "type": "text"
-      }, 
-      {
-        "name": "document", 
-        "type": "text"
-      }, 
-      {
-        "name": "type", 
-        "type": "text"
-      }, 
-      {
-        "name": "decision_document", 
-        "type": "text"
-      }, 
-      {
-        "name": "risk_security_level", 
-        "type": "real"
-      }, 
-      {
-        "name": "budget", 
-        "type": "real"
-      }, 
-      {
-        "name": "project_start", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "project_end", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "date_received", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.wa.gov", 
-  "tableName": "ocio_it_project_oversight_documents"
+  "schema": "socrata/data.wa.gov", 
+  "status": "needs review", 
+  "table": "ocio_it_project_oversight_documents"
 }

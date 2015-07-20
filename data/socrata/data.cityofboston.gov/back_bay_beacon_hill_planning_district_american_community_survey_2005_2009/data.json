@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/back_bay_beacon_hill_planning_district_american_community_survey_2005_2009/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/download/ydgk-bhvsapplication/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/download/ydgk-bhvs/application/pdf", 
   "description": "A detailed look into the demographic, economic and housing characteristics of Back Bay-Beacon Hill using data gathered from the American Community Survey 2005-2009.", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,7 +13,7 @@
     }
   }, 
   "name": "Back Bay-Beacon Hill planning district: American Community Survey, 2005-2009", 
-  "schema": {}, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "back_bay_beacon_hill_planning_district_american_community_survey_2005_2009"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "back_bay_beacon_hill_planning_district_american_community_survey_2005_2009"
 }

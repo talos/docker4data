@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_metered_motorcycle_spaces/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/uf55-k7py/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sfgov.org/api/views/uf55-k7py/rows.csv", 
   "description": "This dataset includes metered motorcycle parking spaces in San Francisco as of April 2013. Find attached a data dictionary, a version of the map as a PDF, and a shapefile of the data. This data provides locations of motorcycle meters; meter characteristics, such as single-space or multi-space meter, smart meter status, sensor status, owner, on- or off-street location; rate area.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,78 +13,7 @@
     }
   }, 
   "name": "Metered motorcycle spaces", 
-  "schema": {
-    "columns": [
-      {
-        "name": "id", 
-        "type": "real"
-      }, 
-      {
-        "name": "post_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "ms_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "ms_spaceid", 
-        "type": "real"
-      }, 
-      {
-        "name": "cap_color", 
-        "type": "text"
-      }, 
-      {
-        "name": "meter_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "smart_mete", 
-        "type": "text"
-      }, 
-      {
-        "name": "activesens", 
-        "type": "text"
-      }, 
-      {
-        "name": "jurisdicti", 
-        "type": "text"
-      }, 
-      {
-        "name": "on_off_str", 
-        "type": "text"
-      }, 
-      {
-        "name": "osp_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "ratearea", 
-        "type": "text"
-      }, 
-      {
-        "name": "sfparkarea", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_num", 
-        "type": "real"
-      }, 
-      {
-        "name": "streetname", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_seg", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sfgov.org", 
-  "tableName": "metered_motorcycle_spaces"
+  "schema": "socrata/data.sfgov.org", 
+  "status": "needs review", 
+  "table": "metered_motorcycle_spaces"
 }

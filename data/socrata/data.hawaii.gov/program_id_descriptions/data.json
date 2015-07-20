@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_program_id_descriptions/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/kkjx-hyb4/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/kkjx-hyb4/rows.csv", 
   "description": "for use with Expenditure data", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,18 +11,7 @@
     }
   }, 
   "name": "Program ID Descriptions", 
-  "schema": {
-    "columns": [
-      {
-        "name": "pgm_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "program_id_descriptions"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "program_id_descriptions"
 }

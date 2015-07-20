@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/race_distribution_by_city_council_districts/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/download/s4m8-8zbiapplication/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/download/s4m8-8zbi/application/pdf", 
   "description": "Race Distribution by City Council Districts Population Census 2010", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,9 +13,7 @@
     }
   }, 
   "name": "Race Distribution By City Council Districts", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "race_distribution_by_city_council_districts"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "race_distribution_by_city_council_districts"
 }

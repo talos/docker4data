@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wa_wdfw_juvenile_trap_sites/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/42qd-frvg/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.wa.gov/api/views/42qd-frvg/rows.csv", 
   "description": "WDFW Juvenile salmonid trap locations active and inactive", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,54 +13,7 @@
     }
   }, 
   "name": "WDFW Juvenile Trap Sites", 
-  "schema": {
-    "columns": [
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "geometryid", 
-        "type": "text"
-      }, 
-      {
-        "name": "wdfw", 
-        "type": "text"
-      }, 
-      {
-        "name": "featurestatus", 
-        "type": "text"
-      }, 
-      {
-        "name": "wria_nr", 
-        "type": "real"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "le_region", 
-        "type": "text"
-      }, 
-      {
-        "name": "watershed_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "sr_region", 
-        "type": "text"
-      }, 
-      {
-        "name": "score1_yn", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.wa.gov", 
-  "tableName": "wdfw_juvenile_trap_sites"
+  "schema": "socrata/data.wa.gov", 
+  "status": "needs review", 
+  "table": "wdfw_juvenile_trap_sites"
 }

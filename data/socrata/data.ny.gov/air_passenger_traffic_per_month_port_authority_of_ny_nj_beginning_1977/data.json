@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/air_passenger_traffic_per_month_port_authority_of_ny_nj_beginning_1977/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/8pkr-4b7t/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/8pkr-4b7t/rows.csv", 
   "description": "The dataset presented in this forum is monthly data. The Port Authority  collects monthly data for domestic and international, cargo, flights, passengers and aircraft equipment type from each carrier at JFK, EWR, LGA and SWF. The data is aggregated into quarterly and annual in an Oracle database and it forms the basis for estimating flight fees, parking, concession and PFC revenues at the Port Authority Airports", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "Air Passenger Traffic per Month, Port Authority of NY NJ: Beginning 1977", 
-  "schema": {
-    "columns": [
-      {
-        "name": "airport_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "month", 
-        "type": "text"
-      }, 
-      {
-        "name": "domestic", 
-        "type": "real"
-      }, 
-      {
-        "name": "international", 
-        "type": "real"
-      }, 
-      {
-        "name": "total", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "air_passenger_traffic_per_month_port_authority_of_ny_nj_beginning_1977"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "air_passenger_traffic_per_month_port_authority_of_ny_nj_beginning_1977"
 }

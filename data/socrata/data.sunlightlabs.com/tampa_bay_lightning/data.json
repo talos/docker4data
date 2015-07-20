@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sunlightlabs_tampa_bay_lightning/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sunlightlabs.com/api/views/4bba-kdrc/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sunlightlabs.com/api/views/4bba-kdrc/rows.csv", 
   "description": "Campaign contributions by employees and owners of the Tampa Bay Lightning hockey team", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,78 +13,7 @@
     }
   }, 
   "name": "Tampa Bay Lightning", 
-  "schema": {
-    "columns": [
-      {
-        "name": "cycle", 
-        "type": "real"
-      }, 
-      {
-        "name": "amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "contributor_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "contributor_occupation", 
-        "type": "text"
-      }, 
-      {
-        "name": "contributor_employer", 
-        "type": "text"
-      }, 
-      {
-        "name": "contributor_city", 
-        "type": "text"
-      }, 
-      {
-        "name": "contributor_state", 
-        "type": "text"
-      }, 
-      {
-        "name": "organization_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "recipient_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "recipient_party", 
-        "type": "text"
-      }, 
-      {
-        "name": "recipient_state", 
-        "type": "text"
-      }, 
-      {
-        "name": "committee_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "committee_party", 
-        "type": "text"
-      }, 
-      {
-        "name": "district", 
-        "type": "text"
-      }, 
-      {
-        "name": "seat", 
-        "type": "text"
-      }, 
-      {
-        "name": "seat_result", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sunlightlabs.com", 
-  "tableName": "tampa_bay_lightning"
+  "schema": "socrata/data.sunlightlabs.com", 
+  "status": "needs review", 
+  "table": "tampa_bay_lightning"
 }

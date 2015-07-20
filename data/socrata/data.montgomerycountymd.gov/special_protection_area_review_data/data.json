@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_montgomerycountymd_special_protection_area_review_data/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/p4x2-jhaf/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/p4x2-jhaf/rows.csv", 
   "description": "A Special Protection Area (SPA) is a geographic area designated by the County Council which has high quality or unusually sensitive water resources and environmental features that would be threatened by proposed land development if special water quality protection measures were not applied.  This dataset tracks reviews for development in all SPAs. Update Frequency : Daily.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,118 +12,7 @@
     }
   }, 
   "name": "Special Protection Area Review Data", 
-  "schema": {
-    "columns": [
-      {
-        "name": "applicationtype", 
-        "type": "text"
-      }, 
-      {
-        "name": "application_no", 
-        "type": "text"
-      }, 
-      {
-        "name": "process_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "approveddate", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "projname", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "stno", 
-        "type": "text"
-      }, 
-      {
-        "name": "predir", 
-        "type": "text"
-      }, 
-      {
-        "name": "stname", 
-        "type": "text"
-      }, 
-      {
-        "name": "suffix", 
-        "type": "text"
-      }, 
-      {
-        "name": "postdir", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "wssc_grid", 
-        "type": "text"
-      }, 
-      {
-        "name": "tax_map", 
-        "type": "text"
-      }, 
-      {
-        "name": "site_area", 
-        "type": "real"
-      }, 
-      {
-        "name": "proposed_disturbed_area", 
-        "type": "real"
-      }, 
-      {
-        "name": "current_zoning", 
-        "type": "text"
-      }, 
-      {
-        "name": "proposed_zoing", 
-        "type": "text"
-      }, 
-      {
-        "name": "current_land_use", 
-        "type": "text"
-      }, 
-      {
-        "name": "proposed_land_use", 
-        "type": "text"
-      }, 
-      {
-        "name": "watershed", 
-        "type": "text"
-      }, 
-      {
-        "name": "tributary", 
-        "type": "text"
-      }, 
-      {
-        "name": "protection_area", 
-        "type": "text"
-      }, 
-      {
-        "name": "state_water_use", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.montgomerycountymd.gov", 
-  "tableName": "special_protection_area_review_data"
+  "schema": "socrata/data.montgomerycountymd.gov", 
+  "status": "needs review", 
+  "table": "special_protection_area_review_data"
 }

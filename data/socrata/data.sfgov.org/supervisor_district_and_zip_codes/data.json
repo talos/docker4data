@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_supervisor_district_and_zip_codes/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/v22h-ujnv/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sfgov.org/api/views/v22h-ujnv/rows.csv", 
   "description": "Lists intersecting Supervisor Districts and ZIP Codes for City and County of San Francisco", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,18 +13,7 @@
     }
   }, 
   "name": "Supervisor District and ZIP Codes", 
-  "schema": {
-    "columns": [
-      {
-        "name": "supervisor_district", 
-        "type": "real"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sfgov.org", 
-  "tableName": "supervisor_district_and_zip_codes"
+  "schema": "socrata/data.sfgov.org", 
+  "status": "needs review", 
+  "table": "supervisor_district_and_zip_codes"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wa_test_charts/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/mhet-3a34/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.wa.gov/api/views/mhet-3a34/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,26 +9,7 @@
     }
   }, 
   "name": "Test Charts", 
-  "schema": {
-    "columns": [
-      {
-        "name": "region", 
-        "type": "text"
-      }, 
-      {
-        "name": "category", 
-        "type": "text"
-      }, 
-      {
-        "name": "dollar_amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "none", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.wa.gov", 
-  "tableName": "test_charts"
+  "schema": "socrata/data.wa.gov", 
+  "status": "needs review", 
+  "table": "test_charts"
 }

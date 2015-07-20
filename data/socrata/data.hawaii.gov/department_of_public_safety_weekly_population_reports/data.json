@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/department_of_public_safety_weekly_population_reports/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/q8ke-n6gw/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/q8ke-n6gw/rows.csv", 
   "description": "Updated for August 2013 data.  \r\n\r\nBed Capacity Dataset: https://data.hawaii.gov/Public-Safety/Department-of-Public-Safety-Bed-Capacity-2013/qv4n-m8rb", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "Department of  Public Safety Weekly Population Reports", 
-  "schema": {
-    "columns": [
-      {
-        "name": "date", 
-        "type": "text"
-      }, 
-      {
-        "name": "facility", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "male", 
-        "type": "real"
-      }, 
-      {
-        "name": "female", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "department_of_public_safety_weekly_population_reports"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "department_of_public_safety_weekly_population_reports"
 }

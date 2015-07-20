@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_05to12_iquery_list_data/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/udvf-7ip4/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/udvf-7ip4/rows.csv", 
   "description": "Listeriosis is a bacterial infection caused by the Listeria monocytogenes bacterium with the most common symptoms being fever, muscle aches, and vomiting. However, in more severe cases, the bacteria may cause meningitis. In pregnant women, Listeriosis may lead to complications with the fetus. Those most at risk of infection are newborn infants, elderly patients, and patients who are immunocompromised. The Listeria monocytogenes bacterium can tolerate a wide range of temperatures, which necessitates extra care in food processing and storage. Meat and dairy products must be handled carefully to prevent contamination, while vegetables and fruits that have been in contact with soil must be carefully washed before refrigeration.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,54 +11,7 @@
     }
   }, 
   "name": "05to12 Iquery List Data", 
-  "schema": {
-    "columns": [
-      {
-        "name": "disease", 
-        "type": "text"
-      }, 
-      {
-        "name": "yeartext", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "stateorcounty", 
-        "type": "text"
-      }, 
-      {
-        "name": "il", 
-        "type": "text"
-      }, 
-      {
-        "name": "race", 
-        "type": "text"
-      }, 
-      {
-        "name": "ethnicity", 
-        "type": "text"
-      }, 
-      {
-        "name": "gender", 
-        "type": "text"
-      }, 
-      {
-        "name": "agegrouptext", 
-        "type": "text"
-      }, 
-      {
-        "name": "agegroup", 
-        "type": "text"
-      }, 
-      {
-        "name": "count", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "05to12_iquery_list_data"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "05to12_iquery_list_data"
 }

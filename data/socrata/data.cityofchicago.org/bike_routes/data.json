@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/bike_routes/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/geospatial/3w5d-sru8", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/geospatial/3w5d-sru8", 
   "description": "Bike routes in Chicago. To view or use these files outside of a web brower, compression software and special GIS software, such as ESRI ArcGIS, is required.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Bike Routes", 
-  "schema": {}, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "bike_routes"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "bike_routes"
 }

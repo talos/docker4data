@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/greenhouse_gas_emissions_from_fuel_combustion_by_fuel_type_million_metric_tons/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/skw8-wkzf/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/skw8-wkzf/rows.csv", 
   "description": "The Greenhouse Gas Emissions Inventory details the estimated New York State emissions releases from fuel combustion.  The dataset includes a fuel type breakdown, by sector, for the current year.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "Greenhouse Gas Emissions From Fuel Combustion, By Fuel Type, Million Metric Tons", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "fuel_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "transportation", 
-        "type": "text"
-      }, 
-      {
-        "name": "electricity_generation", 
-        "type": "text"
-      }, 
-      {
-        "name": "residential", 
-        "type": "text"
-      }, 
-      {
-        "name": "commercial", 
-        "type": "text"
-      }, 
-      {
-        "name": "industrial", 
-        "type": "text"
-      }, 
-      {
-        "name": "total_co2_emissions", 
-        "type": "real"
-      }, 
-      {
-        "name": "percent_of_total_co2_emissions", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "greenhouse_gas_emissions_from_fuel_combustion_by_fuel_type_million_metric_tons"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "greenhouse_gas_emissions_from_fuel_combustion_by_fuel_type_million_metric_tons"
 }

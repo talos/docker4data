@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_public_passenger_vehicle_licenses/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/tfm3-3j95/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/tfm3-3j95/rows.csv", 
   "description": "A public passenger vehicle is a vehicle used for the transportation of passengers for hire by a public chauffeur. The list of public passenger vehicles includes licensed taxicabs (medallions), liveries, ambulances, medicars, charter-sightseeing buses, horse-drawn carriages, and pedicabs. For more information, please see http://www.cityofchicago.org/city/en/depts/bacp/supp_info/bacppublicvehicles.html.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,78 +13,7 @@
     }
   }, 
   "name": "Public Passenger Vehicle Licenses", 
-  "schema": {
-    "columns": [
-      {
-        "name": "vehicle_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "public_vehicle_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "status", 
-        "type": "text"
-      }, 
-      {
-        "name": "vehicle_make", 
-        "type": "text"
-      }, 
-      {
-        "name": "vehicle_model", 
-        "type": "text"
-      }, 
-      {
-        "name": "vehicle_model_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "vehicle_color", 
-        "type": "text"
-      }, 
-      {
-        "name": "vehicle_fuel_source", 
-        "type": "text"
-      }, 
-      {
-        "name": "wheelchair_accessible", 
-        "type": "text"
-      }, 
-      {
-        "name": "company_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "taxi_affiliation", 
-        "type": "text"
-      }, 
-      {
-        "name": "taxi_medallion_license_management", 
-        "type": "text"
-      }, 
-      {
-        "name": "record_id", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "public_passenger_vehicle_licenses"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "public_passenger_vehicle_licenses"
 }

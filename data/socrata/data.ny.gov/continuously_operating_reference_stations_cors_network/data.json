@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/continuously_operating_reference_stations_cors_network/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/j7t6-d8a8/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/j7t6-d8a8/rows.csv", 
   "description": "NYSNet is a spatial reference network of continuously operating Global Positioning System (GPS) reference stations (CORS) throughout New York State that can be used for differential GPS applications. Depending on equipment and procedures, this network can provide users the ability to achieve centimeter positioning for surveying applications or sub-meter positioning for GIS mapping applications. Position information from this reference network can be utilized by using static data in post processing or by using the real time network (RTN).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "Continuously Operating Reference Stations (CORS) Network", 
-  "schema": {
-    "columns": [
-      {
-        "name": "designation", 
-        "type": "text"
-      }, 
-      {
-        "name": "ngs_site_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "site_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "ellipsoid_height", 
-        "type": "real"
-      }, 
-      {
-        "name": "antenna_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "position_source", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "continuously_operating_reference_stations_cors_network"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "continuously_operating_reference_stations_cors_network"
 }

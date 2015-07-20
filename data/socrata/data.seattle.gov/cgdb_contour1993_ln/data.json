@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_cgdb_contour1993_ln/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/vsbp-6kht/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/vsbp-6kht/rows.csv", 
   "description": "2 foot contour lines", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "CGDB.CONTOUR1993_LN", 
-  "schema": {
-    "columns": [
-      {
-        "name": "objectid", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape", 
-        "type": "text"
-      }, 
-      {
-        "name": "cl93_lngth", 
-        "type": "real"
-      }, 
-      {
-        "name": "cl93_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "cl93_src", 
-        "type": "real"
-      }, 
-      {
-        "name": "cl93_elev", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape_length", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "cgdb_contour1993_ln"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "cgdb_contour1993_ln"
 }

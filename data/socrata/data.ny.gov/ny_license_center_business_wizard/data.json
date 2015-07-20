@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_ny_license_center_business_wizard/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/x8bw-q2g6/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/x8bw-q2g6/rows.csv", 
   "description": "This dataset contains a list of the URLs (web addresses), which host information about the business-related licenses and permits identified in the NY Licensing Center\u2019s Business Wizard.  The NY Licensing Center\u2019s Business Wizard helps users to learn about certain licenses or permits a business may need to get up and running in New York State.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,30 +12,7 @@
     }
   }, 
   "name": "NY License Center Business Wizard", 
-  "schema": {
-    "columns": [
-      {
-        "name": "permit_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "permit_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "permit_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "permit_url", 
-        "type": "text"
-      }, 
-      {
-        "name": "permit_category", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "ny_license_center_business_wizard"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "ny_license_center_business_wizard"
 }

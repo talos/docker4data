@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_meter_rate_schedules/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/fwjv-32uk/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sfgov.org/api/views/fwjv-32uk/rows.csv", 
   "description": "Meter rate schedules for all meters owned by SFMTA and the Port of SF as of March 7, 2014. Base rates describe the standard rate for parking at the meter. Overrides to the Base Rate apply on the given days at the given times. Rates are subject to operating schedules, available here: https://data.sfgov.org/Transportation/Meter-Operating-Schedules/6cqg-dxku. When the time limit of a meter is 0 minutes, such as during Tow or Alternate Schedule - Passenger Loading, parking is not available and therefore meter rates do not apply. Please direct any data inquiries to info@sfpark.org", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "Meter Rate Schedules", 
-  "schema": {
-    "columns": [
-      {
-        "name": "post_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "schedule_priority", 
-        "type": "real"
-      }, 
-      {
-        "name": "days_applied", 
-        "type": "text"
-      }, 
-      {
-        "name": "from_time", 
-        "type": "text"
-      }, 
-      {
-        "name": "to_time", 
-        "type": "text"
-      }, 
-      {
-        "name": "rate_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "rate", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sfgov.org", 
-  "tableName": "meter_rate_schedules"
+  "schema": "socrata/data.sfgov.org", 
+  "status": "needs review", 
+  "table": "meter_rate_schedules"
 }

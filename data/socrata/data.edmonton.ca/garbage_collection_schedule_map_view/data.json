@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/garbage_collection_schedule_map_view/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/geospatial/edex-dz5d", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.edmonton.ca/api/geospatial/edex-dz5d", 
   "description": "To provide the day of the week when garbage collection will happen for a particular area. Weekly waste collection started February 5, 2013. Your collection day will remain the same year-round. Effective June 22, 2015; some changes to the schedule come into effect.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Garbage Collection Schedule - Map View", 
-  "schema": {}, 
-  "schemaName": "socrata/data.edmonton.ca", 
-  "tableName": "garbage_collection_schedule_map_view"
+  "schema": "socrata/data.edmonton.ca", 
+  "status": "needs review", 
+  "table": "garbage_collection_schedule_map_view"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/public_health_statistics_infant_mortality_in_chicago_2005_2009/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/bfhr-4ckq/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/bfhr-4ckq/rows.csv", 
   "description": "This dataset contains the annual number of infant deaths annually, cumulative number of infant deaths, and average annual infant mortality rate with corresponding 95% confidence intervals, by Chicago community area, for the years 2005 \u2013 2009.  See full description at https://data.cityofchicago.org/api/assets/0C5D19A1-F520-4E48-A9AD-F51EFD8EF347.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,62 +13,7 @@
     }
   }, 
   "name": "Public Health Statistics- Infant mortality in Chicago, 2005\u2013 2009", 
-  "schema": {
-    "columns": [
-      {
-        "name": "community_area", 
-        "type": "real"
-      }, 
-      {
-        "name": "community_area_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "deaths_2004", 
-        "type": "real"
-      }, 
-      {
-        "name": "deaths_2005", 
-        "type": "real"
-      }, 
-      {
-        "name": "deaths_2006", 
-        "type": "real"
-      }, 
-      {
-        "name": "deaths_2007", 
-        "type": "real"
-      }, 
-      {
-        "name": "deaths_2008", 
-        "type": "real"
-      }, 
-      {
-        "name": "cumulative_deaths_2004_2008", 
-        "type": "real"
-      }, 
-      {
-        "name": "average_annual_deaths_2004_2008", 
-        "type": "real"
-      }, 
-      {
-        "name": "average_infant_mortality_rate_2004_2008", 
-        "type": "real"
-      }, 
-      {
-        "name": "rate_lower_ci_2004_2008", 
-        "type": "real"
-      }, 
-      {
-        "name": "rate_upper_ci_2004_2008", 
-        "type": "real"
-      }, 
-      {
-        "name": "warning", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "public_health_statistics_infant_mortality_in_chicago_2005_2009"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "public_health_statistics_infant_mortality_in_chicago_2005_2009"
 }

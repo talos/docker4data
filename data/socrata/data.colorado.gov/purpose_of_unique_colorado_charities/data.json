@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_purpose_of_unique_colorado_charities/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/7jm9-f28m/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/api/views/7jm9-f28m/rows.csv", 
   "description": "Charitable purpose of the charity. The Colorado office of the Secretary of State Division of Charity registers charitable organizations that solicit contributions in Colorado and their professional fundraisers. A charitable organization is a type of non-profit organization (NPO) that centers on philanthropic goals as well as social well-being (educational, religious, other activities serving the public interest or common good). Search for \u201csos-csi\u201d for all other charities related datasets.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "Purpose of Unique Colorado Charities", 
-  "schema": {
-    "columns": [
-      {
-        "name": "entityid", 
-        "type": "real"
-      }, 
-      {
-        "name": "fein", 
-        "type": "real"
-      }, 
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "statementofpurpose", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "purpose_of_unique_colorado_charities"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "purpose_of_unique_colorado_charities"
 }

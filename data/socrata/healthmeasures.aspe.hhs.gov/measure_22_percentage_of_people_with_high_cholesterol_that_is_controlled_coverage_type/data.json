@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/measure_22_percentage_of_people_with_high_cholesterol_that_is_controlled_coverage_type/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/gi5j-vrra/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/gi5j-vrra/rows.csv", 
   "description": "For insurance estimates, the following definitions are used: Private insurance excludes plans that pay for only one type of service, such as dental or vision care. Persons covered by both Medicare and Medigap plans are classified as having public coverage. Public coverage includes Medicaid, Children' Health Insurance Program (CHIP), state-sponsored or other government-sponsored health plan, Medicare (disability), Indian Health Service or military health care (TRICARE, VA, or CHAMP-VA).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,30 +11,7 @@
     }
   }, 
   "name": "Measure 22 : Percentage of People with High Cholesterol that is Controlled | Coverage Type", 
-  "schema": {
-    "columns": [
-      {
-        "name": "measure_value", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "text"
-      }, 
-      {
-        "name": "coverage_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "lower_ci", 
-        "type": "real"
-      }, 
-      {
-        "name": "upper_ci", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/healthmeasures.aspe.hhs.gov", 
-  "tableName": "measure_22_percentage_of_people_with_high_cholesterol_that_is_controlled_coverage_type"
+  "schema": "socrata/healthmeasures.aspe.hhs.gov", 
+  "status": "needs review", 
+  "table": "measure_22_percentage_of_people_with_high_cholesterol_that_is_controlled_coverage_type"
 }

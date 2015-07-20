@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_issued_state_facility_air_permits/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/2wgt-bc53/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/2wgt-bc53/rows.csv", 
   "description": "Owners or operators of emission sources that are subject to 6 NYCRR Subpart 201-5 must obtain a State facility permit.  \r\n\r\nDraft permits are official versions of permits whose initial development is complete, public notice given, and made available for public review and comment.\r\n  \r\nThese permits are prepared by the Division of Air Resources regional staff.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "Issued State Facility Air Permits", 
-  "schema": {
-    "columns": [
-      {
-        "name": "facility_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "permit_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "url_to_permit_text", 
-        "type": "text"
-      }, 
-      {
-        "name": "facility_location", 
-        "type": "text"
-      }, 
-      {
-        "name": "facility_city", 
-        "type": "text"
-      }, 
-      {
-        "name": "facility_state", 
-        "type": "text"
-      }, 
-      {
-        "name": "facility_zip", 
-        "type": "real"
-      }, 
-      {
-        "name": "issue_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "expire_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "issued_state_facility_air_permits"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "issued_state_facility_air_permits"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_weatherfordtx_utility_consumption/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/kwwr-agj9/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/kwwr-agj9/rows.csv", 
   "description": "Sum total consumption by month and utility, ranging back through FY2008.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,30 +11,7 @@
     }
   }, 
   "name": "Utility Consumption", 
-  "schema": {
-    "columns": [
-      {
-        "name": "fiscal_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "period", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "utility", 
-        "type": "text"
-      }, 
-      {
-        "name": "unit_of_measurement", 
-        "type": "text"
-      }, 
-      {
-        "name": "billed_consumption", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.weatherfordtx.gov", 
-  "tableName": "utility_consumption"
+  "schema": "socrata/data.weatherfordtx.gov", 
+  "status": "needs review", 
+  "table": "utility_consumption"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_consumerfinance_credit_card_complaints/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.consumerfinance.gov/api/views/25ei-6bcr/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.consumerfinance.gov/api/views/25ei-6bcr/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,54 +9,7 @@
     }
   }, 
   "name": "Credit Card Complaints", 
-  "schema": {
-    "columns": [
-      {
-        "name": "complaint_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "product", 
-        "type": "text"
-      }, 
-      {
-        "name": "submitted_via", 
-        "type": "text"
-      }, 
-      {
-        "name": "date_recieved", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "issue", 
-        "type": "text"
-      }, 
-      {
-        "name": "date_sent_to_company", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "company", 
-        "type": "text"
-      }, 
-      {
-        "name": "company_response", 
-        "type": "text"
-      }, 
-      {
-        "name": "timely_response", 
-        "type": "text"
-      }, 
-      {
-        "name": "consumer_disputed", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.consumerfinance.gov", 
-  "tableName": "credit_card_complaints"
+  "schema": "socrata/data.consumerfinance.gov", 
+  "status": "needs review", 
+  "table": "credit_card_complaints"
 }

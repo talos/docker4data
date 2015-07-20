@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wa_combined_fund_drive_donations_2014/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/m5pi-uads/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.wa.gov/api/views/m5pi-uads/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -14,34 +10,7 @@
     }
   }, 
   "name": "Combined Fund Drive Donations 2014", 
-  "schema": {
-    "columns": [
-      {
-        "name": "charity_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "charity_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "donations_total", 
-        "type": "real"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "contact_email", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.wa.gov", 
-  "tableName": "combined_fund_drive_donations_2014"
+  "schema": "socrata/data.wa.gov", 
+  "status": "needs review", 
+  "table": "combined_fund_drive_donations_2014"
 }

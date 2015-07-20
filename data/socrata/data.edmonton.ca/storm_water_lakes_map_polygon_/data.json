@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/storm_water_lakes_map_polygon_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/geospatial/jv7v-x8hi", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.edmonton.ca/api/geospatial/jv7v-x8hi", 
   "description": "The location and boundaries of Stormwater Lakes in the City of Edmonton.\r\n\r\nThe City of Edmonton provides this information based on the records retained by the City of Edmonton with respect to the matters.  The City of Edmonton provides no warranty or representation as to whether the information is correct, accurate or free from error and whether it is otherwise suitable for your use or purpose.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Storm Water Lakes - Map (Polygon)", 
-  "schema": {}, 
-  "schemaName": "socrata/data.edmonton.ca", 
-  "tableName": "storm_water_lakes_map_polygon_"
+  "schema": "socrata/data.edmonton.ca", 
+  "status": "needs review", 
+  "table": "storm_water_lakes_map_polygon_"
 }

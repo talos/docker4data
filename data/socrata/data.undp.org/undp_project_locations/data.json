@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_undp_undp_project_locations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.undp.org/api/views/cdi9-cb98/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.undp.org/api/views/cdi9-cb98/rows.csv", 
   "description": "As of October 2013", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,26 +11,7 @@
     }
   }, 
   "name": "UNDP Project Locations", 
-  "schema": {
-    "columns": [
-      {
-        "name": "ou", 
-        "type": "text"
-      }, 
-      {
-        "name": "awardid", 
-        "type": "real"
-      }, 
-      {
-        "name": "projectid", 
-        "type": "real"
-      }, 
-      {
-        "name": "location_name", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.undp.org", 
-  "tableName": "undp_project_locations"
+  "schema": "socrata/data.undp.org", 
+  "status": "needs review", 
+  "table": "undp_project_locations"
 }

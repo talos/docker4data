@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofboston_active_food_establishment_licenses/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/gb6y-34cq/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/api/views/gb6y-34cq/rows.csv", 
   "description": "Listing of food establishments with active licenses", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,62 +13,7 @@
     }
   }, 
   "name": "Active Food Establishment Licenses", 
-  "schema": {
-    "columns": [
-      {
-        "name": "businessname", 
-        "type": "text"
-      }, 
-      {
-        "name": "dbaname", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip", 
-        "type": "text"
-      }, 
-      {
-        "name": "licstatus", 
-        "type": "text"
-      }, 
-      {
-        "name": "licensecat", 
-        "type": "text"
-      }, 
-      {
-        "name": "descript", 
-        "type": "text"
-      }, 
-      {
-        "name": "licenseadddttm", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "dayphn", 
-        "type": "text"
-      }, 
-      {
-        "name": "property_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "active_food_establishment_licenses"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "active_food_establishment_licenses"
 }

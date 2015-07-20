@@ -1,9 +1,6 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/wildfire_prevention_assessment_district_boundries/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oaklandnet.com/api/geospatial/yacb-iw3m", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.oaklandnet.com/api/geospatial/yacb-iw3m", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -14,7 +11,7 @@
     }
   }, 
   "name": "Wildfire Prevention Assessment District Boundries", 
-  "schema": {}, 
-  "schemaName": "socrata/data.oaklandnet.com", 
-  "tableName": "wildfire_prevention_assessment_district_boundries"
+  "schema": "socrata/data.oaklandnet.com", 
+  "status": "needs review", 
+  "table": "wildfire_prevention_assessment_district_boundries"
 }

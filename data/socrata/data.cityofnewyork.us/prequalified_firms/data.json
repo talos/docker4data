@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_prequalified_firms/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/szkz-syh6/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/szkz-syh6/rows.csv", 
   "description": "List of firms qualified to perform work for the School Construction Authority, their trades, and the end date of their qualification.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,70 +13,7 @@
     }
   }, 
   "name": "Prequalified Firms", 
-  "schema": {
-    "columns": [
-      {
-        "name": "prequalified_vendor_master_trade_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "prequalified_vendor_trade_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "prequalified_vendor_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "prequalified_vendor_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "prequalified_vendor_city_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "prequalified_vendor_state_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "prequalified_vendor_zip_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "prequalified_vendor_phone_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "prequalified_vendor_fax_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "prequalified_vendor_contact_person", 
-        "type": "text"
-      }, 
-      {
-        "name": "prequalified_vendor_minority_business_indicator", 
-        "type": "text"
-      }, 
-      {
-        "name": "prequalified_vendor_women_business_indicator", 
-        "type": "text"
-      }, 
-      {
-        "name": "prequalified_vendor_local_business_indicator", 
-        "type": "text"
-      }, 
-      {
-        "name": "prequalified_vendor_over_million_dollar_revenue_indicator", 
-        "type": "text"
-      }, 
-      {
-        "name": "prequalified_vendor_date", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "prequalified_firms"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "prequalified_firms"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_bid_data_on_projects_for_the_past_10_years/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/u8e9-ci8g/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/u8e9-ci8g/rows.csv", 
   "description": "Lists all the firms that bid on projects from 2004 to present", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,62 +13,7 @@
     }
   }, 
   "name": "Bid data on projects for the past 10 years", 
-  "schema": {
-    "columns": [
-      {
-        "name": "project_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "project_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "phase", 
-        "type": "text"
-      }, 
-      {
-        "name": "bid_amt", 
-        "type": "real"
-      }, 
-      {
-        "name": "awarded", 
-        "type": "text"
-      }, 
-      {
-        "name": "bid_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "contr_firm_legal_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "contr_firm_street_address_line_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "city_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "contr_firm_street_state_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "contr_firm_street_zip_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "county_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "contr_firm_minority_code_description", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "bid_data_on_projects_for_the_past_10_years"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "bid_data_on_projects_for_the_past_10_years"
 }

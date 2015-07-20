@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/new_york_power_authority_nypa_electric_supply_rates_business_customers_beginning_2012/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/2x8p-pewm/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/2x8p-pewm/rows.csv", 
   "description": "The New York Power Authority provides low-cost power to help support jobs statewide while reducing public-sector costs. The Authority\u2019s customer base includes large and small businesses, not-for-profit organizations, community-owned electric systems and rural electric cooperatives and government entities. This data includes the electric supply rates that the Authority offers to its Business Customers under different power programs.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "New York Power Authority (NYPA) Electric Supply Rates \u2013 Business Customers: Beginning 2012", 
-  "schema": {
-    "columns": [
-      {
-        "name": "customer_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "nyiso_zone", 
-        "type": "text"
-      }, 
-      {
-        "name": "demand_price_kw", 
-        "type": "real"
-      }, 
-      {
-        "name": "energy_price_mills_kwh", 
-        "type": "real"
-      }, 
-      {
-        "name": "composite_price_load_factor_", 
-        "type": "text"
-      }, 
-      {
-        "name": "composite_price_mills_kwh", 
-        "type": "real"
-      }, 
-      {
-        "name": "data_as_of", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "new_york_power_authority_nypa_electric_supply_rates_business_customers_beginning_2012"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "new_york_power_authority_nypa_electric_supply_rates_business_customers_beginning_2012"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/daily_traffic_on_metropolitan_transportation_authority_mta_bridges_and_tunnels_beginning_2010/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/9fnj-sukk/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/9fnj-sukk/rows.csv", 
   "description": "This data file provides data showing the number of vehicles (including cars, buses, trucks and motorcycles) that pass through each of the nine bridges and tunnels operated by the MTA each day.  The data is updated weekly.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "Daily Traffic on Metropolitan Transportation Authority (MTA) Bridges and Tunnels: Beginning 2010", 
-  "schema": {
-    "columns": [
-      {
-        "name": "transit_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "bridge_or_tunnel_code_plaza_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_cash_payment_counts", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_e_zpass_counts", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "daily_traffic_on_metropolitan_transportation_authority_mta_bridges_and_tunnels_beginning_2010"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "daily_traffic_on_metropolitan_transportation_authority_mta_bridges_and_tunnels_beginning_2010"
 }

@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/borough_boundaries/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/geospatial/tqmj-j8zm", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/geospatial/tqmj-j8zm", 
   "description": "GIS data: Boundaries of Boroughs (water areas excluded)", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Borough Boundaries", 
-  "schema": {}, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "borough_boundaries"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "borough_boundaries"
 }

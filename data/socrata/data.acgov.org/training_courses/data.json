@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_acgov_training_courses/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.acgov.org/api/views/vd75-up96/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.acgov.org/api/views/vd75-up96/rows.csv", 
   "description": "Training classes offered by Alameda County for Jan \u2013 Mar 2015 period.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,42 +12,7 @@
     }
   }, 
   "name": "Training Courses", 
-  "schema": {
-    "columns": [
-      {
-        "name": "course_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "course_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "course_detail", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "date_s", 
-        "type": "text"
-      }, 
-      {
-        "name": "time", 
-        "type": "text"
-      }, 
-      {
-        "name": "cost_public_non_profit", 
-        "type": "real"
-      }, 
-      {
-        "name": "cost_private", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.acgov.org", 
-  "tableName": "training_courses"
+  "schema": "socrata/data.acgov.org", 
+  "status": "needs review", 
+  "table": "training_courses"
 }

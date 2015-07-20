@@ -1,0 +1,6 @@
+CREATE TABLE "dpscs_releasees_returned_to_corrections_within_one_two_and_three_years_of_release" (
+	"fiscal_year_of_release"	text,
+	"cumulative_percenage_of_corrections_releasees_returned_by_end_of_third_year"	text,
+	"cumulative_percenage_of_corrections_releasees_returned_by_end_of_first_year"	text,
+	"cumulative_percenage_of_corrections_releasees_returned_by_end_of_second_year"	text
+);

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/2015_state_expenditures_as_of_cob_june_30_2015/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.mo.gov/api/views/9kfi-jsmi/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.mo.gov/api/views/9kfi-jsmi/rows.csv", 
   "description": "Financial data relating to the purchases of goods and services by the state as well as financial disbursements through various state programs. Current as of the close of business June 30, 2015", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,34 +12,7 @@
     }
   }, 
   "name": "2015 State Expenditures As Of COB June 30, 2015", 
-  "schema": {
-    "columns": [
-      {
-        "name": "fiscal_year", 
-        "type": "text"
-      }, 
-      {
-        "name": "agency_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "category_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "detail_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "vendor_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "payments_total", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.mo.gov", 
-  "tableName": "2015_state_expenditures_as_of_cob_june_30_2015"
+  "schema": "socrata/data.mo.gov", 
+  "status": "needs review", 
+  "table": "2015_state_expenditures_as_of_cob_june_30_2015"
 }

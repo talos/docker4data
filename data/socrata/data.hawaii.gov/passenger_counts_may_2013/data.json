@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_passenger_counts_may_2013/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/k5s6-yfqg/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/k5s6-yfqg/rows.csv", 
   "description": "Updated daily, Monday through Friday.  International Passenger Count excluding flights from Canada.  May 2012 counts included for comparison.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,70 +13,7 @@
     }
   }, 
   "name": "Passenger Counts May 2013", 
-  "schema": {
-    "columns": [
-      {
-        "name": "_2013", 
-        "type": "text"
-      }, 
-      {
-        "name": "_2012", 
-        "type": "text"
-      }, 
-      {
-        "name": "day", 
-        "type": "text"
-      }, 
-      {
-        "name": "may_2013_international_japan", 
-        "type": "real"
-      }, 
-      {
-        "name": "may_2013_international_other", 
-        "type": "real"
-      }, 
-      {
-        "name": "may_2013_domestic_honolulu", 
-        "type": "real"
-      }, 
-      {
-        "name": "may_2013_domestic_maui", 
-        "type": "real"
-      }, 
-      {
-        "name": "may_2013_domestic_big_island", 
-        "type": "real"
-      }, 
-      {
-        "name": "may_2013_domestic_kauai", 
-        "type": "real"
-      }, 
-      {
-        "name": "may_2012_international_japan", 
-        "type": "real"
-      }, 
-      {
-        "name": "may_2012_international_other", 
-        "type": "real"
-      }, 
-      {
-        "name": "may_2012_domestic_honolulu", 
-        "type": "real"
-      }, 
-      {
-        "name": "may_2012_domestic_maui", 
-        "type": "real"
-      }, 
-      {
-        "name": "may_2012_domestic_big_island", 
-        "type": "real"
-      }, 
-      {
-        "name": "may_2012_domestic_kauai", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "passenger_counts_may_2013"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "passenger_counts_may_2013"
 }

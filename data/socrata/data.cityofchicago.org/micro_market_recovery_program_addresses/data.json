@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_micro_market_recovery_program_addresses/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/cf2f-mmzv/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/cf2f-mmzv/rows.csv", 
   "description": "The City of Chicago launched the Micro-Market Recovery Program (MMRP), a coordinated effort among the City, not-for-profit intermediaries, and non-profit and for-profit capital sources to improve conditions, strengthen property values, and create environments supportive of private investment in targeted markets throughout the city. The goal of MMRP is to improve conditions, strengthen property values, and create environments supportive of private investment in targeted areas by strategically deploying public and private capital and other tools and resources in well-defined micro-markets. This address dataset contains additional geographies, such as Fire and Police Districts, Census Tract and TIF Zones, that can be linked to MMRP Permit, Case and Violation data using the ADDRKEY or ADDRGRPKEY.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,94 +13,7 @@
     }
   }, 
   "name": "Micro-Market Recovery Program - Addresses", 
-  "schema": {
-    "columns": [
-      {
-        "name": "mmrp_zone", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "pre_direction", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "suffix", 
-        "type": "text"
-      }, 
-      {
-        "name": "post_direction", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "community_area", 
-        "type": "real"
-      }, 
-      {
-        "name": "ward", 
-        "type": "real"
-      }, 
-      {
-        "name": "fire_district", 
-        "type": "text"
-      }, 
-      {
-        "name": "police_district", 
-        "type": "real"
-      }, 
-      {
-        "name": "census_tract", 
-        "type": "real"
-      }, 
-      {
-        "name": "tif_zone", 
-        "type": "text"
-      }, 
-      {
-        "name": "x_coord", 
-        "type": "real"
-      }, 
-      {
-        "name": "y_coord", 
-        "type": "real"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "central_business_district", 
-        "type": "text"
-      }, 
-      {
-        "name": "address_key", 
-        "type": "real"
-      }, 
-      {
-        "name": "address_grouping_key", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "micro_market_recovery_program_addresses"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "micro_market_recovery_program_addresses"
 }

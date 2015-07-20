@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/home_care_registry_summary_of_training_certificates_issued_beginning_2009/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/h66m-8dn6/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/health.data.ny.gov/api/views/h66m-8dn6/rows.csv", 
   "description": "The dataset contains information extracted from Home Care Registry (HCR) application. HCR is a web-based registry of all personal care aides and home health aides who have successfully completed a personal care aide or home health aide training program approved by either the New York State Department of Health (NYSDOH) or the New York State Education Department (NYSED). The dataset provides information about the training certificates issued in a specific region within the State of New York based on Certificate Type, Methodology, Language and the State Agency that approved the Training program that issued the Certificate. This dataset is refreshed on monthly basis. For more information, visit https://apps.health.ny.gov/professionals/home_care/registry/home.action, or go to the \"About\" tab.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "Home Care Registry Summary Of Training Certificates Issued: Beginning 2009", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "approving_state_agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "certificate_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "methodology", 
-        "type": "text"
-      }, 
-      {
-        "name": "language", 
-        "type": "text"
-      }, 
-      {
-        "name": "region", 
-        "type": "text"
-      }, 
-      {
-        "name": "certificates_count", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/health.data.ny.gov", 
-  "tableName": "home_care_registry_summary_of_training_certificates_issued_beginning_2009"
+  "schema": "socrata/health.data.ny.gov", 
+  "status": "needs review", 
+  "table": "home_care_registry_summary_of_training_certificates_issued_beginning_2009"
 }

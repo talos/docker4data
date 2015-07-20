@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_weatherfordtx_animal_shelter_all_animal_cases/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/2ek5-qq7s/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.weatherfordtx.gov/api/views/2ek5-qq7s/rows.csv", 
   "description": "All animal cases since April 2007, including arrival and disposition date, status, type, breed, and other information.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,102 +13,7 @@
     }
   }, 
   "name": "Animal Shelter - All Animal Cases", 
-  "schema": {
-    "columns": [
-      {
-        "name": "animal_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "arrival_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "breed", 
-        "type": "text"
-      }, 
-      {
-        "name": "gender", 
-        "type": "text"
-      }, 
-      {
-        "name": "pet_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "status", 
-        "type": "text"
-      }, 
-      {
-        "name": "kennel", 
-        "type": "text"
-      }, 
-      {
-        "name": "arrived_as", 
-        "type": "text"
-      }, 
-      {
-        "name": "arrival_method", 
-        "type": "text"
-      }, 
-      {
-        "name": "arrival_precinct", 
-        "type": "text"
-      }, 
-      {
-        "name": "condition", 
-        "type": "text"
-      }, 
-      {
-        "name": "evaluation_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "disposition", 
-        "type": "text"
-      }, 
-      {
-        "name": "disposition_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "length_of_stay", 
-        "type": "real"
-      }, 
-      {
-        "name": "fixed", 
-        "type": "text"
-      }, 
-      {
-        "name": "age", 
-        "type": "text"
-      }, 
-      {
-        "name": "size", 
-        "type": "text"
-      }, 
-      {
-        "name": "primary_color", 
-        "type": "text"
-      }, 
-      {
-        "name": "secondary_color", 
-        "type": "text"
-      }, 
-      {
-        "name": "lrr_status", 
-        "type": "text"
-      }, 
-      {
-        "name": "unique_key", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.weatherfordtx.gov", 
-  "tableName": "animal_shelter_all_animal_cases"
+  "schema": "socrata/data.weatherfordtx.gov", 
+  "status": "needs review", 
+  "table": "animal_shelter_all_animal_cases"
 }

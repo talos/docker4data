@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_montgomerycountymd_cable_inspections/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/tzyi-s757/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/tzyi-s757/rows.csv", 
   "description": "Information on Cable Inspections performed by the Montgomery County Cable Office since September 1, 2010.  This dataset will be updated on a quarterly basis.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,74 +13,7 @@
     }
   }, 
   "name": "Cable Inspections", 
-  "schema": {
-    "columns": [
-      {
-        "name": "date_inspected", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "date_completed", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "cable_company", 
-        "type": "text"
-      }, 
-      {
-        "name": "type_area_inspected", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "intersection", 
-        "type": "text"
-      }, 
-      {
-        "name": "violation", 
-        "type": "real"
-      }, 
-      {
-        "name": "alert", 
-        "type": "real"
-      }, 
-      {
-        "name": "resident_generated", 
-        "type": "real"
-      }, 
-      {
-        "name": "in_field_violations", 
-        "type": "real"
-      }, 
-      {
-        "name": "site_survey", 
-        "type": "real"
-      }, 
-      {
-        "name": "re_inspection", 
-        "type": "real"
-      }, 
-      {
-        "name": "re_inspection_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "violation_type", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.montgomerycountymd.gov", 
-  "tableName": "cable_inspections"
+  "schema": "socrata/data.montgomerycountymd.gov", 
+  "status": "needs review", 
+  "table": "cable_inspections"
 }

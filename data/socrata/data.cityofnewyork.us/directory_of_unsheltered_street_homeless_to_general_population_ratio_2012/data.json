@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/directory_of_unsheltered_street_homeless_to_general_population_ratio_2012/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/483x-fy9e/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/483x-fy9e/rows.csv", 
   "description": "\"Ratio of Homeless Population to General Population in major US Cities in 2012. \n*This represents a list of large U.S. cities for which DHS was able to confirm a recent estimate of the unsheltered population.   Unsheltered estimates are from 2011 except for Seattle  and New York City (2012) and Chicago (2009).  All General Population figures are from the 2010 U.S. Census enumeration.\"", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "Directory Of Unsheltered Street Homeless To General Population Ratio 2012", 
-  "schema": {
-    "columns": [
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_homeless_estimate", 
-        "type": "real"
-      }, 
-      {
-        "name": "general_population", 
-        "type": "real"
-      }, 
-      {
-        "name": "ratio", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "directory_of_unsheltered_street_homeless_to_general_population_ratio_2012"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "directory_of_unsheltered_street_homeless_to_general_population_ratio_2012"
 }

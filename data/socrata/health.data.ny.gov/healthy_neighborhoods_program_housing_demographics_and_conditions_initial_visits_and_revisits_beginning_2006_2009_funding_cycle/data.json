@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/healthy_neighborhoods_program_housing_demographics_and_conditions_initial_visits_and_revisits_beginning_2006_2009_funding_cycle/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/jbwf-vnai/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/health.data.ny.gov/api/views/jbwf-vnai/rows.csv", 
   "description": "The NYS Healthy Neighborhoods Program (HNP) is a healthy homes program that seeks to reduce the burden of housing-related illness and injury. County health departments are funded to implement the program in selected high-risk target areas. A surveyor assesses conditions in each home and provides interventions and guidance to address identified hazards. A quarter of homes receive an follow-up visit (revisit). The dataset includes information about building characteristics, primary respondent demographics and the presence/absence of 34 specific housing conditions for dwellings visited by each county program. For more information, check out: http://www.health.ny.gov/environmental/indoors/healthy_neighborhoods/, or go to the \"About\" tab.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "Healthy Neighborhoods Program, Housing Demographics and Conditions, Initial Visits and Revisits: Beginning 2006 - 2009 Funding Cycle", 
-  "schema": {
-    "columns": [
-      {
-        "name": "funding_cycle", 
-        "type": "text"
-      }, 
-      {
-        "name": "county_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "visit_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "item", 
-        "type": "text"
-      }, 
-      {
-        "name": "variable", 
-        "type": "text"
-      }, 
-      {
-        "name": "variable_detail", 
-        "type": "text"
-      }, 
-      {
-        "name": "frequency_count", 
-        "type": "real"
-      }, 
-      {
-        "name": "percent", 
-        "type": "text"
-      }, 
-      {
-        "name": "date_closed", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/health.data.ny.gov", 
-  "tableName": "healthy_neighborhoods_program_housing_demographics_and_conditions_initial_visits_and_revisits_beginning_2006_2009_funding_cycle"
+  "schema": "socrata/health.data.ny.gov", 
+  "status": "needs review", 
+  "table": "healthy_neighborhoods_program_housing_demographics_and_conditions_initial_visits_and_revisits_beginning_2006_2009_funding_cycle"
 }

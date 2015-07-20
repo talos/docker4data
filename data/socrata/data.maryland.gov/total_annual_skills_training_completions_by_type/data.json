@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/total_annual_skills_training_completions_by_type/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/mks5-i3nm/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/mks5-i3nm/rows.csv", 
   "description": "DLLR tracks these key metrics of completion of skills training programs and reports them to the Governor's Office.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "Total Annual Skills Training Completions by Type", 
-  "schema": {
-    "columns": [
-      {
-        "name": "type", 
-        "type": "text"
-      }, 
-      {
-        "name": "skills_training_annual_completions_fy2011", 
-        "type": "real"
-      }, 
-      {
-        "name": "skills_training_annual_completions_fy2012", 
-        "type": "real"
-      }, 
-      {
-        "name": "skills_training_annual_completions_fy2013", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "total_annual_skills_training_completions_by_type"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "total_annual_skills_training_completions_by_type"
 }

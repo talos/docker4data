@@ -1,0 +1,23 @@
+CREATE TABLE "vol_ii_jedwali_8_kaya_kulingana_na_chanzo_kuu_cha_maji_na_kaunti_2009" (
+	"kaunti"	text,
+	"asilimia_ya_kaya_zenye_bwawa"	text,
+	"asilimia_ya_kaya_zenye_mito"	text,
+	"asilimia_ya_kaya_zenye_mikondo_ya_maji"	text,
+	"asilimia_ya_kaya_zenye_visima"	text,
+	"asilimia_ya_kaya_zenye_bomba_katika_nyumba"	text,
+	"asilimia_ya_kaya_zenye_bomba_za_maji"	text,
+	"asilimia_ya_kaya_zenye_jabia_maji_ya_mvua"	text,
+	"asilimia_ya_kaya_zilizo_na_muuzaji_wa_maji"	text,
+	"asilimia_ya_kaya_zilizo_na_aina_nyingine"	text,
+	"jumla_ya_kaya"	real,
+	"idadi_ya_kaya_zenye_bwawa"	real,
+	"idadi_ya_kaya_zenye_mito"	real,
+	"idadi_ya_kaya_zenye_mikondo_ya_maji"	real,
+	"idadi_ya_kaya_zenye_visima"	real,
+	"idadi_ya_kaya_zenye_bomba_katika_nyumba"	real,
+	"idadi_ya_kaya_zenye_bomba_za_maji"	real,
+	"idadi_ya_kaya_zenye_jabia_maji_ya_mvua"	real,
+	"idadi_ya_kaya_zilizo_na_muuzaji_wa_maji"	real,
+	"idadi_ya_kaya_zilizo_na_aina_nyingine"	real,
+	"location_1"	text
+);

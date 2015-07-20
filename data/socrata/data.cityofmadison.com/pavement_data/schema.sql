@@ -1,0 +1,21 @@
+CREATE TABLE "pavement_data" (
+	"segment_name"	text,
+	"from_segment"	text,
+	"to_segment"	text,
+	"rating_year"	text,
+	"pvmt_rating"	real,
+	"curb_rating"	real,
+	"speed_limit"	real,
+	"funct_class"	text,
+	"surface_type"	text,
+	"surface_year"	text,
+	"surface_width"	real,
+	"project_no"	text,
+	"lanes"	real,
+	"curb_gutter"	text,
+	"truck_route"	text,
+	"oneway"	text,
+	"rw_width"	real,
+	"maintained_by"	text,
+	"segment_length"	real
+);

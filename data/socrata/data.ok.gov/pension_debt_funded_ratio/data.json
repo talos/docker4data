@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_pension_debt_funded_ratio/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/fu69-yjtn/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/fu69-yjtn/rows.csv", 
   "description": "Increase the State of Oklahoma\u2019s pension debt funded ratio from 72.5% funded in 2014 to NA% funded by 2018 (Target not yet established).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "Pension Debt Funded Ratio", 
-  "schema": {
-    "columns": [
-      {
-        "name": "years", 
-        "type": "text"
-      }, 
-      {
-        "name": "historical_data", 
-        "type": "text"
-      }, 
-      {
-        "name": "target", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "pension_debt_funded_ratio"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "pension_debt_funded_ratio"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_govloop_number_of_federal_jobs_by_state/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.govloop.com/api/views/cufv-bice/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.govloop.com/api/views/cufv-bice/rows.csv", 
   "description": "The number and percentage of federal jobs by state", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,38 +12,7 @@
     }
   }, 
   "name": "Number of Federal Jobs by State", 
-  "schema": {
-    "columns": [
-      {
-        "name": "geographic_area", 
-        "type": "text"
-      }, 
-      {
-        "name": "all_agencies", 
-        "type": "real"
-      }, 
-      {
-        "name": "of_job_total", 
-        "type": "real"
-      }, 
-      {
-        "name": "defense_job", 
-        "type": "real"
-      }, 
-      {
-        "name": "annuitants", 
-        "type": "real"
-      }, 
-      {
-        "name": "annuitants_employees", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.govloop.com", 
-  "tableName": "number_of_federal_jobs_by_state"
+  "schema": "socrata/data.govloop.com", 
+  "status": "needs review", 
+  "table": "number_of_federal_jobs_by_state"
 }

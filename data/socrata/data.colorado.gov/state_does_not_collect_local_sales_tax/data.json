@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_state_does_not_collect_local_sales_tax/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/nd6a-59yu/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/api/views/nd6a-59yu/rows.csv", 
   "description": "Information was extracted from the dr1002.pdf document and presented in a tabular format.  Please refer to the PDF for details on footnotes and additional information.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,66 +13,7 @@
     }
   }, 
   "name": "State Does Not Collect Local Sales Tax", 
-  "schema": {
-    "columns": [
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "cityfootnote", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "addresscity", 
-        "type": "text"
-      }, 
-      {
-        "name": "addresszipcode", 
-        "type": "real"
-      }, 
-      {
-        "name": "phonenumber", 
-        "type": "real"
-      }, 
-      {
-        "name": "countycityislocated", 
-        "type": "text"
-      }, 
-      {
-        "name": "citysalestaxrate", 
-        "type": "text"
-      }, 
-      {
-        "name": "citysalestaxrateverbatim", 
-        "type": "text"
-      }, 
-      {
-        "name": "citysalestaxratefootnote", 
-        "type": "text"
-      }, 
-      {
-        "name": "servicefeeallowed", 
-        "type": "text"
-      }, 
-      {
-        "name": "servicefeeallowedverbatim", 
-        "type": "text"
-      }, 
-      {
-        "name": "servicefeeallowedfootnote", 
-        "type": "text"
-      }, 
-      {
-        "name": "licensefee", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "state_does_not_collect_local_sales_tax"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "state_does_not_collect_local_sales_tax"
 }

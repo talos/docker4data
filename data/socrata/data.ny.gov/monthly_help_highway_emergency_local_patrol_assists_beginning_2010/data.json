@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/monthly_help_highway_emergency_local_patrol_assists_beginning_2010/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/f923-iscf/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/f923-iscf/rows.csv", 
   "description": "The HELP (Highway Emergency Local Patrol) file provides the number of motorists assisted by month, by region, in vehicles traveling on over 1,450 miles of limited access interstate roadways, parkways, and expressways on Long Island, in New York City, the Lower Hudson Valley, Buffalo, Rochester, and the Albany Capital District.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "Monthly HELP (Highway Emergency Local Patrol) Assists: Beginning 2010", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "month", 
-        "type": "text"
-      }, 
-      {
-        "name": "albany_capital_district", 
-        "type": "real"
-      }, 
-      {
-        "name": "rochester", 
-        "type": "real"
-      }, 
-      {
-        "name": "buffalo", 
-        "type": "real"
-      }, 
-      {
-        "name": "lower_hudson_valley", 
-        "type": "real"
-      }, 
-      {
-        "name": "long_island", 
-        "type": "real"
-      }, 
-      {
-        "name": "new_york_city", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_assists", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "monthly_help_highway_emergency_local_patrol_assists_beginning_2010"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "monthly_help_highway_emergency_local_patrol_assists_beginning_2010"
 }

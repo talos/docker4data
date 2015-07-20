@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oregon_salaries_esd_high_desert_fiscal_year_2013/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/tacf-dqwb/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/api/views/tacf-dqwb/rows.csv", 
   "description": "Salaries for High Desert ESD for Fiscal Year 2013", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,30 +12,7 @@
     }
   }, 
   "name": "Salaries: ESD: High Desert: Fiscal Year 2013", 
-  "schema": {
-    "columns": [
-      {
-        "name": "state_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "state_code_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "countofname", 
-        "type": "text"
-      }, 
-      {
-        "name": "sumoffte", 
-        "type": "real"
-      }, 
-      {
-        "name": "sumofamount", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "salaries_esd_high_desert_fiscal_year_2013"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "salaries_esd_high_desert_fiscal_year_2013"
 }

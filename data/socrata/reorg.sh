@@ -3,21 +3,26 @@
 
 for portal in $( ls -d * ); do
 for fullpath in $( ls -d $portal/* ); do
-  # EcryptFS compatibility
-  dirname=$(dirname $fullpath)
-  filename=$(basename $fullpath)
-  filename_length=$(echo $filename | wc -c)
-  if [ $filename_length -eq 63 ]; then
-    #truncated_filename=$(echo $filename | head -c 143)
-    #git mv $fullpath $dirname/$truncated_filename
-    dupcount=$(ls -d ${fullpath}* | wc -l)
-    if [ $dupcount -gt 1 ]; then
-       #echo ========= $dupcount $fullpath ========
-       #echo ========
-       #echo $fullpath $dupcount
-       git rm -r $fullpath
-    fi
-  fi
+  python update.py $fullpath
+  # # EncryptFS compatibility
+  # dirname=$(dirname $fullpath)
+  # filename=$(basename $fullpath)
+  # if [ -n "$(head $fullpath/data.json | head -n 2 | grep '@id')" ]; then
+  #   echo $fullpath
+  # fi
+
+  #filename_length=$(echo $filename | wc -c)
+  #if [ $filename_length -eq 63 ]; then
+  #  #truncated_filename=$(echo $filename | head -c 143)
+  #  #git mv $fullpath $dirname/$truncated_filename
+  #  dupcount=$(ls -d ${fullpath}* | wc -l)
+  #  if [ $dupcount -gt 1 ]; then
+  #     #echo ========= $dupcount $fullpath ========
+  #     #echo ========
+  #     #echo $fullpath $dupcount
+  #     git rm -r $fullpath
+  #  fi
+  #fi
   #dupcount=$(ls -d ${fullpath}* | wc -l)
   #if [ $dupcount -gt 1 ]; then
   #   #echo ========= $dupcount $fullpath ========

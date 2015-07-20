@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofboston_waze_alert_data/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/h8aq-6mw7/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/api/views/h8aq-6mw7/rows.csv", 
   "description": "Waze Alerts 2/23/2015 - 3/1/2015. Join with Jam Data and Point data by UUID.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,82 +13,7 @@
     }
   }, 
   "name": "Waze Alert Data", 
-  "schema": {
-    "columns": [
-      {
-        "name": "inject_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "street", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "roadtype", 
-        "type": "real"
-      }, 
-      {
-        "name": "pubmillis", 
-        "type": "real"
-      }, 
-      {
-        "name": "locy", 
-        "type": "real"
-      }, 
-      {
-        "name": "locx", 
-        "type": "real"
-      }, 
-      {
-        "name": "subtype", 
-        "type": "text"
-      }, 
-      {
-        "name": "reliability", 
-        "type": "real"
-      }, 
-      {
-        "name": "uuid", 
-        "type": "text"
-      }, 
-      {
-        "name": "type", 
-        "type": "text"
-      }, 
-      {
-        "name": "reportrating", 
-        "type": "real"
-      }, 
-      {
-        "name": "magvar", 
-        "type": "real"
-      }, 
-      {
-        "name": "country", 
-        "type": "text"
-      }, 
-      {
-        "name": "starttime", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "starttimemillis", 
-        "type": "real"
-      }, 
-      {
-        "name": "endtime", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "endtimemillis", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "waze_alert_data"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "waze_alert_data"
 }

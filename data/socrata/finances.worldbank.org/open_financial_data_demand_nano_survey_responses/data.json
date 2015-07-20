@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/open_financial_data_demand_nano_survey_responses/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/g66a-y86t/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/finances.worldbank.org/api/views/g66a-y86t/rows.csv", 
   "description": "This dataset contains raw response data to a nano-survey that was conducted in Indonesia and Kenya on the demand for open financial data. You can read more about the project here: (http://bit.ly/OpenDemand). A nano-survey is an innovative technology that extends a brief survey to a random sampling of internet users. Note: \"NA\" indicates \"No Answer.\"", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,82 +12,7 @@
     }
   }, 
   "name": "Open Financial Data Demand Nano-Survey Responses", 
-  "schema": {
-    "columns": [
-      {
-        "name": "region", 
-        "type": "text"
-      }, 
-      {
-        "name": "country", 
-        "type": "text"
-      }, 
-      {
-        "name": "country_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "time_utc", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "time_pacific", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "age", 
-        "type": "text"
-      }, 
-      {
-        "name": "age_group", 
-        "type": "text"
-      }, 
-      {
-        "name": "gender", 
-        "type": "text"
-      }, 
-      {
-        "name": "want_info", 
-        "type": "text"
-      }, 
-      {
-        "name": "used_info", 
-        "type": "text"
-      }, 
-      {
-        "name": "source_info", 
-        "type": "text"
-      }, 
-      {
-        "name": "source_prefer", 
-        "type": "text"
-      }, 
-      {
-        "name": "know_how_to_get_info", 
-        "type": "text"
-      }, 
-      {
-        "name": "open_data", 
-        "type": "text"
-      }, 
-      {
-        "name": "chart_prefer", 
-        "type": "text"
-      }, 
-      {
-        "name": "answers", 
-        "type": "real"
-      }, 
-      {
-        "name": "count", 
-        "type": "real"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/finances.worldbank.org", 
-  "tableName": "open_financial_data_demand_nano_survey_responses"
+  "schema": "socrata/finances.worldbank.org", 
+  "status": "needs review", 
+  "table": "open_financial_data_demand_nano_survey_responses"
 }

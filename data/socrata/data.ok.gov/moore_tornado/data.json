@@ -1,9 +1,6 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/moore_tornado/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/geospatial/72qs-7yq4", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/geospatial/72qs-7yq4", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,7 +10,7 @@
     }
   }, 
   "name": "Moore Tornado", 
-  "schema": {}, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "moore_tornado"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "moore_tornado"
 }

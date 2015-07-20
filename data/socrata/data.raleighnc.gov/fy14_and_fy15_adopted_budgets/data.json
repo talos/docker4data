@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_raleighnc_fy14_and_fy15_adopted_budgets/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.raleighnc.gov/api/views/ix39-n4cr/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.raleighnc.gov/api/views/ix39-n4cr/rows.csv", 
   "description": "City of Raleigh FY14 and FY15 FINAL Adopted Budgets. Amounts have been rounded to nearest penny.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "FY14 And FY15 Adopted Budgets", 
-  "schema": {
-    "columns": [
-      {
-        "name": "account_level_6", 
-        "type": "text"
-      }, 
-      {
-        "name": "fund_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "deptid_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "account_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "budget_amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "budget_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "account_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "program", 
-        "type": "real"
-      }, 
-      {
-        "name": "program_description", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.raleighnc.gov", 
-  "tableName": "fy14_and_fy15_adopted_budgets"
+  "schema": "socrata/data.raleighnc.gov", 
+  "status": "needs review", 
+  "table": "fy14_and_fy15_adopted_budgets"
 }

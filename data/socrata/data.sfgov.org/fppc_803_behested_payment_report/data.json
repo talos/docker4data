@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_fppc_803_behested_payment_report/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/2nqb-h7k4/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sfgov.org/api/views/2nqb-h7k4/rows.csv", 
   "description": "In accordance with the California Government Code section 82015, payments made at the behest of elected officials are presumed not to be contributions if they meet the following guidelines:\r\n\r\n(a) the payments are made principally for legislative, governmental, or charitable purposes, and\r\n(b) the payments are made principally for purposes unrelated to the official's candidacy for elected office.\r\n\r\nAlthough such payments are not contributions, they MUST BE REPORTED on the Report of Payments Made at the Behest of an Elected Officer form to the elected officer's agency within 30 days after the total payments made by a single source equal to or exceed $5,000 in a calendar year. The agency must forward a copy of the report to the Ethics Commission within 30 days of its receipt.\r\n\r\nAfter the $5,000 threshold is met for a particular calendar year, all subsequent payments made by the same source during the calendar year must be reported by the elected officer within 30 days after the date the payment is made.\r\n\r\nThese reports are public records.  \r\n\r\nThe table includes all FPPC 803 forms filed with the Ethics Commission from April 20, 2015 to the present.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,62 +13,7 @@
     }
   }, 
   "name": "FPPC 803 - Behested Payment Report", 
-  "schema": {
-    "columns": [
-      {
-        "name": "elected_officer_last_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "elected_officer_first_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "agency_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "date_filed", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "period_start_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "period_end_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "payor_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "payee_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "purpose", 
-        "type": "text"
-      }, 
-      {
-        "name": "amendment", 
-        "type": "text"
-      }, 
-      {
-        "name": "date_of_original_filing", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "filing", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sfgov.org", 
-  "tableName": "fppc_803_behested_payment_report"
+  "schema": "socrata/data.sfgov.org", 
+  "status": "needs review", 
+  "table": "fppc_803_behested_payment_report"
 }

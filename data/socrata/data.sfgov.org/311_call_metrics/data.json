@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_311_call_metrics/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/mwjb-biik/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sfgov.org/api/views/mwjb-biik/rows.csv", 
   "description": "Monthly metrics from the SF311 Call Center including Calls Answered, Percentage of Calls Ansewered within 60 Seconds, Average Speed of Answer (seconds) and Transferred Calls Percentage.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,30 +12,7 @@
     }
   }, 
   "name": "311 Call Metrics", 
-  "schema": {
-    "columns": [
-      {
-        "name": "month", 
-        "type": "text"
-      }, 
-      {
-        "name": "calls_answered", 
-        "type": "real"
-      }, 
-      {
-        "name": "percentage_of_calls_answered_within_60_seconds_service_level", 
-        "type": "text"
-      }, 
-      {
-        "name": "average_speed_of_answer", 
-        "type": "real"
-      }, 
-      {
-        "name": "transferred_calls_percentage", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sfgov.org", 
-  "tableName": "311_call_metrics"
+  "schema": "socrata/data.sfgov.org", 
+  "status": "needs review", 
+  "table": "311_call_metrics"
 }

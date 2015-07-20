@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/medicare_hospital_spending_per_patient_hospital/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/rrqw-56er/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.medicare.gov/api/views/rrqw-56er/rows.csv", 
   "description": "The \"Medicare hospital spending per patient (Medicare Spending per Beneficiary)\" measure shows whether Medicare spends more, less or about the same per Medicare patient treated in a specific hospital, compared to how much Medicare spends per patient nationally. This measure includes any Medicare Part A and Part B payments made for services provided to a patient during the 3 days prior to the hospital stay, during the stay, and during the 30 days after discharge from the hospital.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,70 +12,7 @@
     }
   }, 
   "name": "Medicare Hospital Spending Per Patient - Hospital", 
-  "schema": {
-    "columns": [
-      {
-        "name": "provider_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "hospital_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "county_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "measure_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "measure_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "score", 
-        "type": "real"
-      }, 
-      {
-        "name": "footnote", 
-        "type": "text"
-      }, 
-      {
-        "name": "measure_start_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "measure_end_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.medicare.gov", 
-  "tableName": "medicare_hospital_spending_per_patient_hospital"
+  "schema": "socrata/data.medicare.gov", 
+  "status": "needs review", 
+  "table": "medicare_hospital_spending_per_patient_hospital"
 }

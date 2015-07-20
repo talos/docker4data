@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_non_appropriated_agencies/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/nxnf-828a/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/nxnf-828a/rows.csv", 
   "description": "List of non-appropriated State of Oklahoma agencies, their FY-2013 budget, and full-time equivalent (FTE) positions.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "Non-Appropriated Agencies", 
-  "schema": {
-    "columns": [
-      {
-        "name": "agency_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "agency_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "fy_2013_budget", 
-        "type": "real"
-      }, 
-      {
-        "name": "fy_2013_ytd_fte", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "non_appropriated_agencies"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "non_appropriated_agencies"
 }

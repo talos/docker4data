@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_undp_mptf_projects/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.undp.org/api/views/ympg-hbwc/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.undp.org/api/views/ympg-hbwc/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,34 +9,7 @@
     }
   }, 
   "name": "MPTF Projects", 
-  "schema": {
-    "columns": [
-      {
-        "name": "project_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "project_descr_", 
-        "type": "text"
-      }, 
-      {
-        "name": "fund", 
-        "type": "text"
-      }, 
-      {
-        "name": "_approved_budget_", 
-        "type": "real"
-      }, 
-      {
-        "name": "_transfers_", 
-        "type": "real"
-      }, 
-      {
-        "name": "_expenditure_", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.undp.org", 
-  "tableName": "mptf_projects"
+  "schema": "socrata/data.undp.org", 
+  "status": "needs review", 
+  "table": "mptf_projects"
 }

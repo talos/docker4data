@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/999_medicaid_coverage/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/rfvt-prz7/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/healthmeasures.aspe.hhs.gov/api/views/rfvt-prz7/rows.csv", 
   "description": "Assumptions were made that if Medicaid or Medicare were selected as an expected payment source then they would be the primary source of payment. If a visit had Medicaid or Medicare as payment type, then the individual's insurance was coded as either Medicaid or Medicare (even if other private insurance was listed). Only 4% of Medicaid recipients listed private insurance as another payment source; whereas approximately 45% of Medicare recipients listed private insurance as another payment source. \r\n\r\nIf both Medicare and Medicaid were listed as payment type, then the individual was coded as dual eligible.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,30 +11,7 @@
     }
   }, 
   "name": "999- Medicaid Coverage", 
-  "schema": {
-    "columns": [
-      {
-        "name": "measure_value", 
-        "type": "real"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "upper_ci", 
-        "type": "real"
-      }, 
-      {
-        "name": "lower_ci", 
-        "type": "real"
-      }, 
-      {
-        "name": "coverage_subtype", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/healthmeasures.aspe.hhs.gov", 
-  "tableName": "999_medicaid_coverage"
+  "schema": "socrata/healthmeasures.aspe.hhs.gov", 
+  "status": "needs review", 
+  "table": "999_medicaid_coverage"
 }

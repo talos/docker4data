@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofmadison_city_calendar_of_events/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofmadison.com/api/views/gxhk-44q9/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofmadison.com/api/views/gxhk-44q9/rows.csv", 
   "description": "Date, Location, Categories: City Event, Elections, Environment, Holiday, City Offices Closed, Informational Meetings, Listening Session, Neighborhood Event/Meeting, Parks Events, Public Hearing/Meeting, Safety & Wellness, Seniors, Task Force; Cost; Aldermanic District; Contacts; Description of Event", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,78 +13,7 @@
     }
   }, 
   "name": "City Calendar of Events", 
-  "schema": {
-    "columns": [
-      {
-        "name": "event_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "calendar", 
-        "type": "text"
-      }, 
-      {
-        "name": "title", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "start_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "end_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "event_time", 
-        "type": "text"
-      }, 
-      {
-        "name": "category", 
-        "type": "text"
-      }, 
-      {
-        "name": "handicap_accessible", 
-        "type": "text"
-      }, 
-      {
-        "name": "asl_provided", 
-        "type": "text"
-      }, 
-      {
-        "name": "district", 
-        "type": "text"
-      }, 
-      {
-        "name": "cost", 
-        "type": "text"
-      }, 
-      {
-        "name": "url", 
-        "type": "text"
-      }, 
-      {
-        "name": "contact", 
-        "type": "text"
-      }, 
-      {
-        "name": "additional_information", 
-        "type": "text"
-      }, 
-      {
-        "name": "city_sponsored", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofmadison.com", 
-  "tableName": "city_calendar_of_events"
+  "schema": "socrata/data.cityofmadison.com", 
+  "status": "needs review", 
+  "table": "city_calendar_of_events"
 }

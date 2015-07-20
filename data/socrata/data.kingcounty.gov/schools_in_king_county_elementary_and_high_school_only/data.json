@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/schools_in_king_county_elementary_and_high_school_only/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/ziw9-dzdq/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.kingcounty.gov/api/views/ziw9-dzdq/rows.csv", 
   "description": "King County School Sites and School Related Facilities. Parcel-based centroid for school facility. No footprint or infrastructure extent provided. Attributes assign parcel and street identifiers for location information. This is a subset selections - includes only Elementary Schools (660) and High Schools (662).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,74 +13,7 @@
     }
   }, 
   "name": "Schools in King County - Elementary and High School only", 
-  "schema": {
-    "columns": [
-      {
-        "name": "feature_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "esite", 
-        "type": "real"
-      }, 
-      {
-        "name": "code", 
-        "type": "real"
-      }, 
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "abb_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "zipcode", 
-        "type": "real"
-      }, 
-      {
-        "name": "long_cen", 
-        "type": "real"
-      }, 
-      {
-        "name": "lat_cen", 
-        "type": "real"
-      }, 
-      {
-        "name": "sch_class", 
-        "type": "real"
-      }, 
-      {
-        "name": "district", 
-        "type": "text"
-      }, 
-      {
-        "name": "website", 
-        "type": "text"
-      }, 
-      {
-        "name": "pin", 
-        "type": "text"
-      }, 
-      {
-        "name": "major", 
-        "type": "text"
-      }, 
-      {
-        "name": "minor", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_geo", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.kingcounty.gov", 
-  "tableName": "schools_in_king_county_elementary_and_high_school_only"
+  "schema": "socrata/data.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "schools_in_king_county_elementary_and_high_school_only"
 }

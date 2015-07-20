@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_ssma_employment_centers/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/xwzt-wcgs/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/xwzt-wcgs/rows.csv", 
   "description": "This dataset details key employment centers in the Chicago Southland communities.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,82 +13,7 @@
     }
   }, 
   "name": "SSMA Employment Centers", 
-  "schema": {
-    "columns": [
-      {
-        "name": "objectid", 
-        "type": "real"
-      }, 
-      {
-        "name": "districtna", 
-        "type": "text"
-      }, 
-      {
-        "name": "districtty", 
-        "type": "text"
-      }, 
-      {
-        "name": "jobs", 
-        "type": "text"
-      }, 
-      {
-        "name": "municipali", 
-        "type": "text"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "zipcode", 
-        "type": "text"
-      }, 
-      {
-        "name": "editor", 
-        "type": "text"
-      }, 
-      {
-        "name": "propreitar", 
-        "type": "real"
-      }, 
-      {
-        "name": "urnumber", 
-        "type": "text"
-      }, 
-      {
-        "name": "shape_leng", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape_area", 
-        "type": "real"
-      }, 
-      {
-        "name": "acres", 
-        "type": "text"
-      }, 
-      {
-        "name": "owner_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "owner_addr", 
-        "type": "text"
-      }, 
-      {
-        "name": "owner_phon", 
-        "type": "text"
-      }, 
-      {
-        "name": "owner_emai", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "ssma_employment_centers"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "ssma_employment_centers"
 }

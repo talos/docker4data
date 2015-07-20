@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_census_block10/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/wsns-bqj4/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/wsns-bqj4/rows.csv", 
   "description": "US Census Block for 2010 US Census", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,98 +13,7 @@
     }
   }, 
   "name": "CENSUS_BLOCK10", 
-  "schema": {
-    "columns": [
-      {
-        "name": "objectid", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape", 
-        "type": "text"
-      }, 
-      {
-        "name": "tractce10", 
-        "type": "text"
-      }, 
-      {
-        "name": "blockce10", 
-        "type": "text"
-      }, 
-      {
-        "name": "geoid10", 
-        "type": "text"
-      }, 
-      {
-        "name": "name10", 
-        "type": "text"
-      }, 
-      {
-        "name": "intptlat10", 
-        "type": "text"
-      }, 
-      {
-        "name": "intptlon10", 
-        "type": "text"
-      }, 
-      {
-        "name": "tract_10", 
-        "type": "real"
-      }, 
-      {
-        "name": "water", 
-        "type": "real"
-      }, 
-      {
-        "name": "tract_00", 
-        "type": "real"
-      }, 
-      {
-        "name": "trbl_10", 
-        "type": "real"
-      }, 
-      {
-        "name": "block_10", 
-        "type": "text"
-      }, 
-      {
-        "name": "acres_total", 
-        "type": "real"
-      }, 
-      {
-        "name": "acres_land", 
-        "type": "real"
-      }, 
-      {
-        "name": "acres_water", 
-        "type": "real"
-      }, 
-      {
-        "name": "trbl_str_10", 
-        "type": "text"
-      }, 
-      {
-        "name": "trbg_10", 
-        "type": "real"
-      }, 
-      {
-        "name": "area", 
-        "type": "real"
-      }, 
-      {
-        "name": "len", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape_length", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape_area", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "census_block10"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "census_block10"
 }

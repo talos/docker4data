@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_nyc_jobs/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/kpav-sd4t/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/kpav-sd4t/rows.csv", 
   "description": "This dataset contains current job postings available on the  City of New York\u2019s official jobs site (http://www.nyc.gov/html/careers/html/search/search.shtml).  Internal postings available to city employees and external postings available to the general public are included.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,114 +13,7 @@
     }
   }, 
   "name": "NYC Jobs", 
-  "schema": {
-    "columns": [
-      {
-        "name": "job_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "posting_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "__of_positions", 
-        "type": "text"
-      }, 
-      {
-        "name": "business_title", 
-        "type": "text"
-      }, 
-      {
-        "name": "civil_service_title", 
-        "type": "text"
-      }, 
-      {
-        "name": "title_code_no", 
-        "type": "text"
-      }, 
-      {
-        "name": "level", 
-        "type": "text"
-      }, 
-      {
-        "name": "salary_range_from", 
-        "type": "text"
-      }, 
-      {
-        "name": "salary_range_to", 
-        "type": "text"
-      }, 
-      {
-        "name": "salary_frequency", 
-        "type": "text"
-      }, 
-      {
-        "name": "work_location", 
-        "type": "text"
-      }, 
-      {
-        "name": "division_work_unit", 
-        "type": "text"
-      }, 
-      {
-        "name": "job_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "minimum_qual_requirements", 
-        "type": "text"
-      }, 
-      {
-        "name": "preferred_skills", 
-        "type": "text"
-      }, 
-      {
-        "name": "additional_information", 
-        "type": "text"
-      }, 
-      {
-        "name": "to_apply", 
-        "type": "text"
-      }, 
-      {
-        "name": "hours_shift", 
-        "type": "text"
-      }, 
-      {
-        "name": "work_location_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "recruitment_contact", 
-        "type": "text"
-      }, 
-      {
-        "name": "residency_requirement", 
-        "type": "text"
-      }, 
-      {
-        "name": "posting_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "post_until", 
-        "type": "text"
-      }, 
-      {
-        "name": "posting_updated", 
-        "type": "text"
-      }, 
-      {
-        "name": "process_date", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "nyc_jobs"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "nyc_jobs"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/facilities/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.mo.gov/api/views/m7dn-rv29/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.mo.gov/api/views/m7dn-rv29/rows.csv", 
   "description": "Hazardous Waste Treatment, Storage and Disposal Facilities in Missouri", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,86 +13,7 @@
     }
   }, 
   "name": "Facilities", 
-  "schema": {
-    "columns": [
-      {
-        "name": "facility_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "epa_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "tsduniverse", 
-        "type": "real"
-      }, 
-      {
-        "name": "rruniverse", 
-        "type": "real"
-      }, 
-      {
-        "name": "code_descq", 
-        "type": "text"
-      }, 
-      {
-        "name": "class", 
-        "type": "text"
-      }, 
-      {
-        "name": "class_short", 
-        "type": "text"
-      }, 
-      {
-        "name": "process", 
-        "type": "text"
-      }, 
-      {
-        "name": "facilitystatus", 
-        "type": "text"
-      }, 
-      {
-        "name": "morepdist1", 
-        "type": "real"
-      }, 
-      {
-        "name": "mosenatedist1", 
-        "type": "real"
-      }, 
-      {
-        "name": "usrep", 
-        "type": "real"
-      }, 
-      {
-        "name": "countyname", 
-        "type": "text"
-      }, 
-      {
-        "name": "facility_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "region", 
-        "type": "text"
-      }, 
-      {
-        "name": "facility_city", 
-        "type": "text"
-      }, 
-      {
-        "name": "facility_state", 
-        "type": "text"
-      }, 
-      {
-        "name": "facility_zipcode", 
-        "type": "real"
-      }, 
-      {
-        "name": "facility_phone", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.mo.gov", 
-  "tableName": "facilities"
+  "schema": "socrata/data.mo.gov", 
+  "status": "needs review", 
+  "table": "facilities"
 }

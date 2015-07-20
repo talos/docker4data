@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_montgomerycountymd_fy14_budget_internal_service_funds/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/5s38-iaa6/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/5s38-iaa6/rows.csv", 
   "description": "This dataset includes the Internal Service Fund data included in the annual operating budget. Internal Service Funds (ISF) are proprietary funds used to record activity (primarily goods and services) provided by one department to other departments of the County government on a cost-reimbursable basis. The County uses this type of fund to account for Motor Pool, Central Duplicating, Liability and Property Coverage Self-Insurance, and Employee Health Benefits Self-Insurance. Update Frequency: Annual", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,58 +12,7 @@
     }
   }, 
   "name": "FY14 Budget-Internal Service Funds", 
-  "schema": {
-    "columns": [
-      {
-        "name": "function", 
-        "type": "text"
-      }, 
-      {
-        "name": "department", 
-        "type": "text"
-      }, 
-      {
-        "name": "program_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "cost_center_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "fund_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "fund_subtype", 
-        "type": "text"
-      }, 
-      {
-        "name": "subfund_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "fund_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "personnel_costs_operating_expenses", 
-        "type": "text"
-      }, 
-      {
-        "name": "object_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "account_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "amount", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.montgomerycountymd.gov", 
-  "tableName": "fy14_budget_internal_service_funds"
+  "schema": "socrata/data.montgomerycountymd.gov", 
+  "status": "needs review", 
+  "table": "fy14_budget_internal_service_funds"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_analytics_austin_go_mobile_views/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/h4as-bnn4/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/views/h4as-bnn4/rows.csv", 
   "description": "Mobile Views of AustinGO Site", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,18 +12,7 @@
     }
   }, 
   "name": "Analytics Austin GO Mobile Views", 
-  "schema": {
-    "columns": [
-      {
-        "name": "mobile", 
-        "type": "text"
-      }, 
-      {
-        "name": "unique_pageviews", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "analytics_austin_go_mobile_views"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "analytics_austin_go_mobile_views"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_energystar_energy_star_certified_audio_video/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.energystar.gov/api/views/ewhi-bvce/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.energystar.gov/api/views/ewhi-bvce/rows.csv", 
   "description": "Certified models meet all ENERGY STAR requirements as listed in the Version 3.0 ENERGY STAR Program Requirements for Audio Video Equipment that are effective as of May 1, 2013. A detailed listing of key efficiency criteria are available at http://www.energystar.gov/index.cfm?c=audio_dvd.pr_crit_audio_dvd", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,110 +12,7 @@
     }
   }, 
   "name": "ENERGY STAR Certified Audio Video", 
-  "schema": {
-    "columns": [
-      {
-        "name": "pd_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "energy_star_partner", 
-        "type": "text"
-      }, 
-      {
-        "name": "brand_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "model_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "model_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "additional_model_information", 
-        "type": "text"
-      }, 
-      {
-        "name": "product_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "video_player_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "tuner_included", 
-        "type": "text"
-      }, 
-      {
-        "name": "amplifier_channels", 
-        "type": "text"
-      }, 
-      {
-        "name": "connected_technology", 
-        "type": "text"
-      }, 
-      {
-        "name": "default_auto_power_down_apd_timing_minutes", 
-        "type": "real"
-      }, 
-      {
-        "name": "average_power_consumption_2_minutes_before_apd_watts", 
-        "type": "real"
-      }, 
-      {
-        "name": "average_power_consumption_2_minutes_after_apd_watts", 
-        "type": "real"
-      }, 
-      {
-        "name": "idle_state_power_consumption_watts", 
-        "type": "real"
-      }, 
-      {
-        "name": "sleep_mode_power_consumption_watts", 
-        "type": "real"
-      }, 
-      {
-        "name": "video_playback_power_consumption_watts", 
-        "type": "real"
-      }, 
-      {
-        "name": "audio_playback_power_consumption_watts", 
-        "type": "real"
-      }, 
-      {
-        "name": "is_amplifier_consumer_or_commercial", 
-        "type": "text"
-      }, 
-      {
-        "name": "amplifier_input_power_at_1_8_maximum_undistorted_power_watts", 
-        "type": "real"
-      }, 
-      {
-        "name": "on_mode_amplifier_efficiency", 
-        "type": "text"
-      }, 
-      {
-        "name": "date_available_on_market", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "date_qualified", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "markets", 
-        "type": "text"
-      }, 
-      {
-        "name": "energy_star_model_identifier", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.energystar.gov", 
-  "tableName": "energy_star_certified_audio_video"
+  "schema": "socrata/data.energystar.gov", 
+  "status": "needs review", 
+  "table": "energy_star_certified_audio_video"
 }

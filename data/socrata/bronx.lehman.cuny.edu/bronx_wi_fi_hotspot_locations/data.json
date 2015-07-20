@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/bronx_wi_fi_hotspot_locations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/m2pz-m9hq/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/m2pz-m9hq/rows.csv", 
   "description": "locations of wireless internet connectivity in the Bronx", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,6 @@
     }
   }, 
   "name": "Bronx Wi Fi Hotspot Locations", 
-  "schema": {
-    "columns": [
-      {
-        "name": "id", 
-        "type": "real"
-      }, 
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "type", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "url", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/bronx.lehman.cuny.edu", 
-  "tableName": "bronx_wi_fi_hotspot_locations"
+  "schema": "socrata/bronx.lehman.cuny.edu", 
+  "table": "bronx_wi_fi_hotspot_locations"
 }

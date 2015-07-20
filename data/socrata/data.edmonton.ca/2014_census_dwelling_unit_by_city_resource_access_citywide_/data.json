@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/2014_census_dwelling_unit_by_city_resource_access_citywide_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/vn9b-x49i/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.edmonton.ca/api/views/vn9b-x49i/rows.csv", 
   "description": "All Census information is as of April 1, 2014.  Ages of residents are effective April 1, 2014.  No data on any individual residence will be released.  To protect the privacy of individuals, data is compiled and presented at the city, ward and neighbourhood level only.  Neighbourhood results with a population under 49 are not posted to protect the information collected.  The designation of \u201cNo Response\u201d includes households from which no census data could be collected or only partial data was available.  Bulk-count data from multiple-resident facilities (such as group homes, transient drop-in centres, residential hotels or criminal detention centres) may be limited when personal information cannot be obtained (i.e. information is not available or cannot be released by the facility administration).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,18 +13,7 @@
     }
   }, 
   "name": "2014 Census - Dwelling Unit By City Resource Access (Citywide)", 
-  "schema": {
-    "columns": [
-      {
-        "name": "city_resource_access", 
-        "type": "text"
-      }, 
-      {
-        "name": "dwellings", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.edmonton.ca", 
-  "tableName": "2014_census_dwelling_unit_by_city_resource_access_citywide_"
+  "schema": "socrata/data.edmonton.ca", 
+  "status": "needs review", 
+  "table": "2014_census_dwelling_unit_by_city_resource_access_citywide_"
 }

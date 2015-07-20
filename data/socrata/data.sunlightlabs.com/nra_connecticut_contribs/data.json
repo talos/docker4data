@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sunlightlabs_nra_connecticut_contribs/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sunlightlabs.com/api/views/cmet-5hjr/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sunlightlabs.com/api/views/cmet-5hjr/rows.csv", 
   "description": "National Rifle Association campaign contributions to Connecticut politicians", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,54 +13,7 @@
     }
   }, 
   "name": "NRA Connecticut Contribs", 
-  "schema": {
-    "columns": [
-      {
-        "name": "cycle", 
-        "type": "real"
-      }, 
-      {
-        "name": "transaction_type_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "contributor_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "recipient_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "recipient_party", 
-        "type": "text"
-      }, 
-      {
-        "name": "candidacy_status", 
-        "type": "text"
-      }, 
-      {
-        "name": "district", 
-        "type": "text"
-      }, 
-      {
-        "name": "seat", 
-        "type": "text"
-      }, 
-      {
-        "name": "seat_result", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sunlightlabs.com", 
-  "tableName": "nra_connecticut_contribs"
+  "schema": "socrata/data.sunlightlabs.com", 
+  "status": "needs review", 
+  "table": "nra_connecticut_contribs"
 }

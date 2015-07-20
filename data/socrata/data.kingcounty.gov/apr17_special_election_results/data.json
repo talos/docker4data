@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_kingcounty_apr17_special_election_results/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/vek2-ctw9/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.kingcounty.gov/api/views/vek2-ctw9/rows.csv", 
   "description": "Election results; data are from April 19, 2012.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Apr17 Special election - results", 
-  "schema": {
-    "columns": [
-      {
-        "name": "jurisdiction", 
-        "type": "text"
-      }, 
-      {
-        "name": "measure", 
-        "type": "text"
-      }, 
-      {
-        "name": "option", 
-        "type": "text"
-      }, 
-      {
-        "name": "ballots", 
-        "type": "real"
-      }, 
-      {
-        "name": "percent", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.kingcounty.gov", 
-  "tableName": "apr17_special_election_results"
+  "schema": "socrata/data.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "apr17_special_election_results"
 }

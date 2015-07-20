@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_non_resident_marriages_2012/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/nu5e-s79u/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/nu5e-s79u/rows.csv", 
   "description": "Marriages Where Both Bride and Groom Are Non-Residents", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "Non-resident Marriages 2012", 
-  "schema": {
-    "columns": [
-      {
-        "name": "month_of_occurrence", 
-        "type": "text"
-      }, 
-      {
-        "name": "hawaii", 
-        "type": "real"
-      }, 
-      {
-        "name": "honolulu", 
-        "type": "real"
-      }, 
-      {
-        "name": "kauai", 
-        "type": "real"
-      }, 
-      {
-        "name": "maui", 
-        "type": "real"
-      }, 
-      {
-        "name": "state", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "non_resident_marriages_2012"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "non_resident_marriages_2012"
 }

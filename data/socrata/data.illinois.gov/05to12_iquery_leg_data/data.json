@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_05to12_iquery_leg_data/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/iyx8-kpar/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/iyx8-kpar/rows.csv", 
   "description": "Legionellosis is a respiratory disease caused by the Legionella pneumophilia bacteria, and may manifest itself in two different ways. Pontiac fever, the milder condition, is a self-limited febrile illness that may be accompanied by anorexia, malaise, myalgia, and headache. In addition to these symptoms, Legionnaires\u2019 disease, the more serious condition, is a common cause of pneumonia which may be severe and lead to respiratory failure and death. Pontiac fever and Legionnaires\u2019 disease cases are counted together in this file.  Legionella pneumophilia bacteria are widely distributed in our environment. They have been found in natural bodies of water, but also in plumbing systems such as hot water tanks, water in cooling towers, fountains, and whirlpool spas. Most people contract the disease by inhaling mist from a water source contaminated with the bacteria.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,54 +11,7 @@
     }
   }, 
   "name": "05to12 Iquery Leg Data", 
-  "schema": {
-    "columns": [
-      {
-        "name": "disease", 
-        "type": "text"
-      }, 
-      {
-        "name": "yeartext", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "stateorcounty", 
-        "type": "text"
-      }, 
-      {
-        "name": "il", 
-        "type": "text"
-      }, 
-      {
-        "name": "race", 
-        "type": "text"
-      }, 
-      {
-        "name": "ethnicity", 
-        "type": "text"
-      }, 
-      {
-        "name": "gender", 
-        "type": "text"
-      }, 
-      {
-        "name": "agegrouptext", 
-        "type": "text"
-      }, 
-      {
-        "name": "agegroup", 
-        "type": "text"
-      }, 
-      {
-        "name": "count", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "05to12_iquery_leg_data"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "05to12_iquery_leg_data"
 }

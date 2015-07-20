@@ -1,0 +1,20 @@
+CREATE TABLE "water_point_source_sample_results" (
+	"org_name"	text,
+	"station_id"	text,
+	"county"	text,
+	"huc"	real,
+	"station_horizontal_datum"	text,
+	"activity_id"	text,
+	"activity_start"	timestamp,
+	"activity_medium"	text,
+	"activity_type"	text,
+	"activity_category_rep_num"	text,
+	"characteristic_name"	text,
+	"sample_fraction"	text,
+	"value_type"	text,
+	"result_value_status"	text,
+	"result_value"	real,
+	"units"	text,
+	"analytical_proc_id"	text,
+	"location_1"	text
+);

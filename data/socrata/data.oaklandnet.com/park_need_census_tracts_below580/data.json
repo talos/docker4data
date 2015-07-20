@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/park_need_census_tracts_below580/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oaklandnet.com/api/geospatial/ubpb-xjze", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.oaklandnet.com/api/geospatial/ubpb-xjze", 
   "description": "Census tracts below 580 that do not have enough public green space", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,7 +13,7 @@
     }
   }, 
   "name": "Park Need Census Tracts Below580", 
-  "schema": {}, 
-  "schemaName": "socrata/data.oaklandnet.com", 
-  "tableName": "park_need_census_tracts_below580"
+  "schema": "socrata/data.oaklandnet.com", 
+  "status": "needs review", 
+  "table": "park_need_census_tracts_below580"
 }

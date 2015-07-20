@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/idph_stds_nationally_ranked_by_county_p_ssyp_2000_2013/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/i8hz-ffis/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/i8hz-ffis/rows.csv", 
   "description": "U.S. counties ranked nationally by cases of primary and secondary syphilis reported.  Data Source: Centers for Disease Control and Prevention 2000-2013 Surveillance Report (http://www.cdc.gov/STD/publications/default.htm)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "IDPH: STDs Nationally Ranked By County P&SSyp 2000-2013", 
-  "schema": {
-    "columns": [
-      {
-        "name": "rankbycount", 
-        "type": "real"
-      }, 
-      {
-        "name": "year", 
-        "type": "text"
-      }, 
-      {
-        "name": "county_independent_city", 
-        "type": "text"
-      }, 
-      {
-        "name": "count", 
-        "type": "real"
-      }, 
-      {
-        "name": "rate", 
-        "type": "real"
-      }, 
-      {
-        "name": "cumulative_percent", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "idph_stds_nationally_ranked_by_county_p_ssyp_2000_2013"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "idph_stds_nationally_ranked_by_county_p_ssyp_2000_2013"
 }

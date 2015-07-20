@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/creek_buffers/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/geospatial/upp2-fp85", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/geospatial/upp2-fp85", 
   "description": "This layer depcits the buffered creek centerlines for the purpose of development planning within the City of Austin jurisdiction\nThis product is for informational purposes and may not have been prepared for or be suitable for legal, engineering, or surveying purposes. It does not represent an on-the-ground survey and represents only the approximate relative location of property boundaries. This product has been produced by the Watershed Protection  Department for the sole purpose of geographic reference. No warranty is made by the City of Austin regarding specific accuracy or completeness", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,9 +14,7 @@
     }
   }, 
   "name": "Creek Buffers", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "creek_buffers"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "creek_buffers"
 }

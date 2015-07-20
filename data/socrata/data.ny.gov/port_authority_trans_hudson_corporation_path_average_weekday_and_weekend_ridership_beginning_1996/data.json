@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/port_authority_trans_hudson_corporation_path_average_weekday_and_weekend_ridership_beginning_1996/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/p7e4-ipty/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/p7e4-ipty/rows.csv", 
   "description": "PATH System average weekday and weekend linked passenger trips, by month beginning 1996 through current year period.  Trips are based on station turnstile entry counts for weekdays and weekends operating under normal weekday schedule (excludes holidays).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Port Authority Trans-Hudson Corporation (PATH) Average Weekday and Weekend Ridership: Beginning 1996", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "month", 
-        "type": "text"
-      }, 
-      {
-        "name": "average_weekday_trips", 
-        "type": "real"
-      }, 
-      {
-        "name": "average_saturday_trips", 
-        "type": "real"
-      }, 
-      {
-        "name": "average_sunday_trips", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "port_authority_trans_hudson_corporation_path_average_weekday_and_weekend_ridership_beginning_1996"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "port_authority_trans_hudson_corporation_path_average_weekday_and_weekend_ridership_beginning_1996"
 }

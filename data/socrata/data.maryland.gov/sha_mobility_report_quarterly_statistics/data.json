@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_sha_mobility_report_quarterly_statistics/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/c5hy-nv8z/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/c5hy-nv8z/rows.csv", 
   "description": "Data on compliance with the Americans with Disabilities Act (ADA) and bicycle access. An asterisk (*) indicates data were not tracked. All data are provided by the Maryland State Highway Administration (SHA) each month to StateStat.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "SHA Mobility Report: Quarterly Statistics", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "text"
-      }, 
-      {
-        "name": "percentage_of_sidewalks_that_meet_ada_compliance", 
-        "type": "text"
-      }, 
-      {
-        "name": "percentage_of_pedestrian_signals_that_are_aps_equipped_cy", 
-        "type": "text"
-      }, 
-      {
-        "name": "number_of_directional_miles_improved_for_bicycle_access_based_on_fy_2011_data", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "sha_mobility_report_quarterly_statistics"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "sha_mobility_report_quarterly_statistics"
 }

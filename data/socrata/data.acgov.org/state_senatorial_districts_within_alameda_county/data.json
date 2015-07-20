@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/state_senatorial_districts_within_alameda_county/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.acgov.org/api/geospatial/v8wc-pb4q", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.acgov.org/api/geospatial/v8wc-pb4q", 
   "description": "State Senatorial Districts within Alameda County", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,9 +14,7 @@
     }
   }, 
   "name": "State Senatorial Districts within Alameda County", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.acgov.org", 
-  "tableName": "state_senatorial_districts_within_alameda_county"
+  "schema": "socrata/data.acgov.org", 
+  "status": "needs review", 
+  "table": "state_senatorial_districts_within_alameda_county"
 }

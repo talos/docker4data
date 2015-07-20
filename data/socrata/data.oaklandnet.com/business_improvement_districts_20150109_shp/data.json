@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/business_improvement_districts_20150109_shp/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oaklandnet.com/api/geospatial/hk5r-sr2n", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.oaklandnet.com/api/geospatial/hk5r-sr2n", 
   "description": "All Business Improvement Districts in the City of Oakland as of Jan 2015", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -15,7 +12,7 @@
     }
   }, 
   "name": "Business Improvement Districts 20150109.shp", 
-  "schema": {}, 
-  "schemaName": "socrata/data.oaklandnet.com", 
-  "tableName": "business_improvement_districts_20150109_shp"
+  "schema": "socrata/data.oaklandnet.com", 
+  "status": "needs review", 
+  "table": "business_improvement_districts_20150109_shp"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_medicare_readmissions_complications_and_deaths_state/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/r9qh-58xk/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.medicare.gov/api/views/r9qh-58xk/rows.csv", 
   "description": "The Readmissions Complications and Deaths measures - state data. This data set includes state-level data for 30-day death and readmission measures, the hip/knee complication measure, and the Agency for Healthcare Research and Quality (AHRQ) measures of serious complications.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,50 +12,7 @@
     }
   }, 
   "name": "Readmissions Complications and Deaths - State", 
-  "schema": {
-    "columns": [
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "measure_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "measure_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "number_of_hospitals_worse", 
-        "type": "real"
-      }, 
-      {
-        "name": "number_of_hospitals_same", 
-        "type": "real"
-      }, 
-      {
-        "name": "number_of_hospitals_better", 
-        "type": "real"
-      }, 
-      {
-        "name": "number_of_hospitals_too_few", 
-        "type": "real"
-      }, 
-      {
-        "name": "footnote", 
-        "type": "text"
-      }, 
-      {
-        "name": "measure_start_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "measure_end_date", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.medicare.gov", 
-  "tableName": "readmissions_complications_and_deaths_state"
+  "schema": "socrata/data.medicare.gov", 
+  "status": "needs review", 
+  "table": "readmissions_complications_and_deaths_state"
 }

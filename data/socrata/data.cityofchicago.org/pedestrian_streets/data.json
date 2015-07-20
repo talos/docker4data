@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/pedestrian_streets/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/geospatial/w3m8-5y6d", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/geospatial/w3m8-5y6d", 
   "description": "Pedestrian Streets (P-Streets) are segments of street created in Chicago intended to preserve and enhance the character of streets and intersections that are widely recognized as Chicago's best examples of pedestrian-oriented shopping districts.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Pedestrian Streets", 
-  "schema": {}, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "pedestrian_streets"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "pedestrian_streets"
 }

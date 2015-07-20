@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/embu_county_boundary/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/opendata.go.ke/api/geospatial/grur-ntv7", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/opendata.go.ke/api/geospatial/grur-ntv7", 
   "description": "Proposed Embu County Boundary 2010", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Embu County Boundary", 
-  "schema": {}, 
-  "schemaName": "socrata/opendata.go.ke", 
-  "tableName": "embu_county_boundary"
+  "schema": "socrata/opendata.go.ke", 
+  "status": "needs review", 
+  "table": "embu_county_boundary"
 }

@@ -1,0 +1,20 @@
+CREATE TABLE "socrata_bronx_lehman_cuny_toxic_release_inventory_2011_bronx_a" (
+	"tri_facility_id"	text,
+	"facility_name"	text,
+	"doc_ctrl_num"	real,
+	"reporting_year"	real,
+	"chem_name"	text,
+	"cas_num"	text,
+	"estimated_release_amount_lbs"	real,
+	"carcinogen"	text,
+	"clean_air"	text,
+	"zip_code"	real,
+	"asgn_federal_ind"	text,
+	"parent_co_db_num"	text,
+	"parent_co_name"	text,
+	"trade_secret_ind"	real,
+	"enironmental_medium"	text,
+	"release_range_code"	text,
+	"total_release"	real,
+	"location_1"	text
+);

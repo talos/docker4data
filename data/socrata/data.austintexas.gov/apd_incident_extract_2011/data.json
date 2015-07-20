@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_apd_incident_extract_2011/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/gr59-ids7/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/views/gr59-ids7/rows.csv", 
   "description": "Please read and understand the following information. \r\n \r\nUnderstanding the following conditions will allow you to get the most out of the data provided.\r\n???\tDue to the methodological differences in data collection, different data sources may produce different results. \r\n???\tOur on-line database is continuously being updated. The data provided here represents a particular point in time. \r\nSearches may be accomplished using several geographic boundaries: Police area commands or districts, zip codes and census tracts. Additionally, a known case number may be entered. Updates to the police report database occur daily. Information is available from today???s date back 18 months. \r\nDue to several factors (once-a-day updates, offense reclassification, reported versus occurred dates, etc.) comparisons should not be made between numbers generated with this database to any other official police reports. Data provided represents only calls for police service where a report was written.\r\nTotals in the database may vary considerably from official totals following investigation and final categorization. Therefore, the data should not be used for comparisons with Uniform Crime Report statistics.\r\nThe Austin Police Department does not assume any liability for any decision made or action taken or not taken by the recipient in reliance upon any information or data provided.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "APD Incident Extract 2011", 
-  "schema": {
-    "columns": [
-      {
-        "name": "incident_report_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "crime_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "time", 
-        "type": "real"
-      }, 
-      {
-        "name": "location_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "apd_incident_extract_2011"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "apd_incident_extract_2011"
 }

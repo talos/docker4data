@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/transportation_fuels_production_and_demand_beginning_1993/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/atwy-2trf/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/atwy-2trf/rows.csv", 
   "description": "Transportation Fuels Production and Demand dataset provides the weekly volumes of gasoline demand for the U.S. and production of finished gasoline for both the East Coast and the U.S. in terms of thousand barrels per day. Data is reported weekly starting in July 1993 through current.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "Transportation Fuels Production and Demand: Beginning 1993", 
-  "schema": {
-    "columns": [
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "east_coast_production_of_gasoline_thousand_barrels_per_day", 
-        "type": "real"
-      }, 
-      {
-        "name": "u_s_production_of_gasoline_thousand_barrels_per_day", 
-        "type": "real"
-      }, 
-      {
-        "name": "u_s_gasoline_demand_thousand_barrels_per_day", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "transportation_fuels_production_and_demand_beginning_1993"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "transportation_fuels_production_and_demand_beginning_1993"
 }

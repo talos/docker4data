@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_dwr_surface_water_stations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/ceb5-u3hr/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/api/views/ceb5-u3hr/rows.csv", 
   "description": "Division of Water Resources (DWR) Surface Water Stations. This is a list of all stream, diversion, and reservoir gages within the state of Colorado along with their period of record.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,74 +13,7 @@
     }
   }, 
   "name": "DWR Surface Water Stations", 
-  "schema": {
-    "columns": [
-      {
-        "name": "div", 
-        "type": "real"
-      }, 
-      {
-        "name": "wd", 
-        "type": "real"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "station_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "dwr_abbrev", 
-        "type": "text"
-      }, 
-      {
-        "name": "usgs_station_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "data_source", 
-        "type": "text"
-      }, 
-      {
-        "name": "status", 
-        "type": "text"
-      }, 
-      {
-        "name": "por_start", 
-        "type": "real"
-      }, 
-      {
-        "name": "por_end", 
-        "type": "real"
-      }, 
-      {
-        "name": "utm_x", 
-        "type": "real"
-      }, 
-      {
-        "name": "utm_y", 
-        "type": "real"
-      }, 
-      {
-        "name": "location_accuracy", 
-        "type": "text"
-      }, 
-      {
-        "name": "more_information", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "dwr_surface_water_stations"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "dwr_surface_water_stations"
 }

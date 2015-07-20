@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_adult_medicaid_income_levels/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/r69u-62nw/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/r69u-62nw/rows.csv", 
   "description": "This table represents details of Medicaid (coverage for Adults). Medicaid provides free health insurance for low-income adults. Eligible adults receive their medical care through a managed care plan or fee-for-service. While your application is being processed, Medicaid may provide up to 90 days of retroactive coverage for unpaid medical bills, if you are eligible during those 90 days.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Adult Medicaid income levels", 
-  "schema": {
-    "columns": [
-      {
-        "name": "family_size", 
-        "type": "text"
-      }, 
-      {
-        "name": "yearly_income", 
-        "type": "text"
-      }, 
-      {
-        "name": "monthly_income", 
-        "type": "text"
-      }, 
-      {
-        "name": "weekly_income", 
-        "type": "text"
-      }, 
-      {
-        "name": "resource_level", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "adult_medicaid_income_levels"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "adult_medicaid_income_levels"
 }

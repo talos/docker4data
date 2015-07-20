@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_idoa_illinois_regional_transit_authorities/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/awaf-eqav/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/awaf-eqav/rows.csv", 
   "description": "Listing of Illinois Regional Mass Transit Authorities", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,34 +12,7 @@
     }
   }, 
   "name": "IDoA Illinois Regional Transit Authorities", 
-  "schema": {
-    "columns": [
-      {
-        "name": "transit_system", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "website", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "idoa_illinois_regional_transit_authorities"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "idoa_illinois_regional_transit_authorities"
 }

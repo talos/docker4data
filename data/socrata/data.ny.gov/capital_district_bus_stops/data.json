@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_capital_district_bus_stops/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/wgnh-hpq9/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/wgnh-hpq9/rows.csv", 
   "description": "Bus stops from the Capital District Transportation Authority", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,66 +13,7 @@
     }
   }, 
   "name": "Capital District Bus Stops", 
-  "schema": {
-    "columns": [
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "stop_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "routes", 
-        "type": "text"
-      }, 
-      {
-        "name": "municipality", 
-        "type": "text"
-      }, 
-      {
-        "name": "nearest_intersection", 
-        "type": "text"
-      }, 
-      {
-        "name": "bikerack", 
-        "type": "text"
-      }, 
-      {
-        "name": "bench", 
-        "type": "text"
-      }, 
-      {
-        "name": "shelter", 
-        "type": "text"
-      }, 
-      {
-        "name": "info_booth", 
-        "type": "text"
-      }, 
-      {
-        "name": "signpost", 
-        "type": "text"
-      }, 
-      {
-        "name": "discontinued", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "capital_district_bus_stops"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "capital_district_bus_stops"
 }

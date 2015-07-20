@@ -1,9 +1,6 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/moore_2013_curfew_area/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/geospatial/xztj-yud4", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/geospatial/xztj-yud4", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,7 +10,7 @@
     }
   }, 
   "name": "Moore 2013 Curfew Area", 
-  "schema": {}, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "moore_2013_curfew_area"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "moore_2013_curfew_area"
 }

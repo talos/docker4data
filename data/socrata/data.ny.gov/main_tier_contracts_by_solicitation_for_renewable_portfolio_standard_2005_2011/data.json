@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/main_tier_contracts_by_solicitation_for_renewable_portfolio_standard_2005_2011/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/r6mb-2s2x/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/r6mb-2s2x/rows.csv", 
   "description": "The goal of the Renewable Portfolio Standard (RPS) is to increase the proportion of renewable energy used by New York Consumers from the 2003 19.3% (baseline resources) to at least 30% by the end of 2015. \r\nThe Main Tier Contracts by Solicitation for Renewable Portfolio Standard data set contains the solicitation round (1-7), facility name, resource type, location, county, MW capacity, MW bid capacity, contract annual maximum MWh quantity, duration of contract and project status, as required by the New York State Public Service Commission and reported in the annual New York State Renewable Portfolio Standard Performance Reports 2005 to 2011.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,54 +13,7 @@
     }
   }, 
   "name": "Main Tier Contracts by Solicitation for Renewable Portfolio Standard: 2005-2011", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year_reported", 
-        "type": "real"
-      }, 
-      {
-        "name": "solicitation", 
-        "type": "text"
-      }, 
-      {
-        "name": "facility", 
-        "type": "text"
-      }, 
-      {
-        "name": "resource_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "new_renewable_capacity_mw", 
-        "type": "text"
-      }, 
-      {
-        "name": "bid_capacity_mw", 
-        "type": "text"
-      }, 
-      {
-        "name": "annual_contract_quantity_mwh", 
-        "type": "text"
-      }, 
-      {
-        "name": "contract_duration_years", 
-        "type": "real"
-      }, 
-      {
-        "name": "project_status", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "main_tier_contracts_by_solicitation_for_renewable_portfolio_standard_2005_2011"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "main_tier_contracts_by_solicitation_for_renewable_portfolio_standard_2005_2011"
 }

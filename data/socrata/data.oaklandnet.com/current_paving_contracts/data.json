@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oaklandnet_current_paving_contracts/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oaklandnet.com/api/views/vrkv-jmjc/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.oaklandnet.com/api/views/vrkv-jmjc/rows.csv", 
   "description": "These are the streets on the current paving contracts.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,58 +12,7 @@
     }
   }, 
   "name": "Current Paving Contracts", 
-  "schema": {
-    "columns": [
-      {
-        "name": "dist", 
-        "type": "real"
-      }, 
-      {
-        "name": "fc", 
-        "type": "text"
-      }, 
-      {
-        "name": "street", 
-        "type": "text"
-      }, 
-      {
-        "name": "from", 
-        "type": "text"
-      }, 
-      {
-        "name": "to", 
-        "type": "text"
-      }, 
-      {
-        "name": "length_ft", 
-        "type": "real"
-      }, 
-      {
-        "name": "width_ft", 
-        "type": "real"
-      }, 
-      {
-        "name": "area_sy", 
-        "type": "real"
-      }, 
-      {
-        "name": "lane_miles", 
-        "type": "real"
-      }, 
-      {
-        "name": "treatment", 
-        "type": "text"
-      }, 
-      {
-        "name": "date_paved_or_projected", 
-        "type": "text"
-      }, 
-      {
-        "name": "project", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.oaklandnet.com", 
-  "tableName": "current_paving_contracts"
+  "schema": "socrata/data.oaklandnet.com", 
+  "status": "needs review", 
+  "table": "current_paving_contracts"
 }

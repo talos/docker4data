@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_nyc_reach_members/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/7btz-mnc8/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/7btz-mnc8/rows.csv", 
   "description": "The location and facility information for doctors who participate in NYC Regional Electronic Adoption Center for Health (REACH), which assists providers in adopting technology and methods for electronic health records.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "NYC REACH Members", 
-  "schema": {
-    "columns": [
-      {
-        "name": "provider_first_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "provider_last_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "practice_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "primary_speciality", 
-        "type": "text"
-      }, 
-      {
-        "name": "site_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "practice_borough", 
-        "type": "text"
-      }, 
-      {
-        "name": "practice_mailing_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "practice_phone_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "organization_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "practice_zip_code", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "nyc_reach_members"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "nyc_reach_members"
 }

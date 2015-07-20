@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_mo_state_virtual_server_growth/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.mo.gov/api/views/29pn-g2ef/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.mo.gov/api/views/29pn-g2ef/rows.csv", 
   "description": "In effort to increase efficiencies and reduce hardware costs, the State of Missouri has adopted virtualized servers to service agency IT infrastructure and computing needs.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,18 +13,7 @@
     }
   }, 
   "name": "State Virtual Server Growth", 
-  "schema": {
-    "columns": [
-      {
-        "name": "month_year", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "of_virtual_servers", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.mo.gov", 
-  "tableName": "state_virtual_server_growth"
+  "schema": "socrata/data.mo.gov", 
+  "status": "needs review", 
+  "table": "state_virtual_server_growth"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_current_ohfa_advantage_lenders/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/p5td-bezz/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/p5td-bezz/rows.csv", 
   "description": "Current OHFA Advantage Lenders\nDiamond Award Winners (Top 10 producers) are indicated with an asterisk (*)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "Current OHFA Advantage Lenders", 
-  "schema": {
-    "columns": [
-      {
-        "name": "top_10_lender", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "lender_name_and_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "fax", 
-        "type": "text"
-      }, 
-      {
-        "name": "entity_type", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "current_ohfa_advantage_lenders"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "current_ohfa_advantage_lenders"
 }

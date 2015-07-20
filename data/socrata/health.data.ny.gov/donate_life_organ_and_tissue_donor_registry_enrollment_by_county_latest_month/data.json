@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/donate_life_organ_and_tissue_donor_registry_enrollment_by_county_latest_month/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/e4fz-kg9u/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/health.data.ny.gov/api/views/e4fz-kg9u/rows.csv", 
   "description": "This dataset contains information regarding the number of enrollments by population in the New York State Donate Life Registry for the latest month. The registry is a confidential database that records a person\u2019s consent to organ/tissue donation upon death. The database is used by donation professionals to determine a person donation status at the time of their death.  For more information, check out: www.health.ny.gov/donatelife or go to the \u201cAbout\u201d tab.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "Donate Life Organ and Tissue Donor Registry Enrollment by County: Latest Month", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "text"
-      }, 
-      {
-        "name": "month", 
-        "type": "text"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "_2010_census_population", 
-        "type": "real"
-      }, 
-      {
-        "name": "population_18_estimate", 
-        "type": "real"
-      }, 
-      {
-        "name": "actionable_donor_designations_6_1_13", 
-        "type": "real"
-      }, 
-      {
-        "name": "add", 
-        "type": "text"
-      }, 
-      {
-        "name": "opo", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/health.data.ny.gov", 
-  "tableName": "donate_life_organ_and_tissue_donor_registry_enrollment_by_county_latest_month"
+  "schema": "socrata/health.data.ny.gov", 
+  "status": "needs review", 
+  "table": "donate_life_organ_and_tissue_donor_registry_enrollment_by_county_latest_month"
 }

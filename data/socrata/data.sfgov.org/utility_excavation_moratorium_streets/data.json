@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sfgov_utility_excavation_moratorium_streets/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/5wbp-dwzt/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sfgov.org/api/views/5wbp-dwzt/rows.csv", 
   "description": "Street segments and intersections that have been paved within the last 5 years", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,62 +13,7 @@
     }
   }, 
   "name": "Utility Excavation Moratorium Streets", 
-  "schema": {
-    "columns": [
-      {
-        "name": "cnn", 
-        "type": "real"
-      }, 
-      {
-        "name": "streetname", 
-        "type": "text"
-      }, 
-      {
-        "name": "limits", 
-        "type": "text"
-      }, 
-      {
-        "name": "jobordernum", 
-        "type": "text"
-      }, 
-      {
-        "name": "effectivedate", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "expirationdate", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "modifieddate", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "id", 
-        "type": "real"
-      }, 
-      {
-        "name": "x", 
-        "type": "real"
-      }, 
-      {
-        "name": "y", 
-        "type": "real"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sfgov.org", 
-  "tableName": "utility_excavation_moratorium_streets"
+  "schema": "socrata/data.sfgov.org", 
+  "status": "needs review", 
+  "table": "utility_excavation_moratorium_streets"
 }

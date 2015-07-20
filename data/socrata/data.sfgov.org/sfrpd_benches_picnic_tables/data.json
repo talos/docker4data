@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/sfrpd_benches_picnic_tables/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/geospatial/i977-4y5t", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.sfgov.org/api/geospatial/i977-4y5t", 
   "description": "Geographic locations (lat/long) of the San Francisco Recreation and Park Department's picnic tables and benches. This dataset is not comprehensive.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "SFRPD Benches & Picnic Tables", 
-  "schema": {}, 
-  "schemaName": "socrata/data.sfgov.org", 
-  "tableName": "sfrpd_benches_picnic_tables"
+  "schema": "socrata/data.sfgov.org", 
+  "status": "needs review", 
+  "table": "sfrpd_benches_picnic_tables"
 }

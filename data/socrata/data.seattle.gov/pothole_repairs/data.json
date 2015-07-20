@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_pothole_repairs/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/w3qe-e2jj/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/w3qe-e2jj/rows.csv", 
   "description": "Displays the pothole repair work orders that are currently being evaluated and repaired by SDOT\u2019s Street Maintenance crews along with those that have been repaired over the previous year.  The previous year is based on a rolling calendar.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,70 +12,7 @@
     }
   }, 
   "name": "Pothole Repairs", 
-  "schema": {
-    "columns": [
-      {
-        "name": "objectid", 
-        "type": "real"
-      }, 
-      {
-        "name": "wokey", 
-        "type": "real"
-      }, 
-      {
-        "name": "wo_status", 
-        "type": "text"
-      }, 
-      {
-        "name": "last90dayrprd", 
-        "type": "real"
-      }, 
-      {
-        "name": "current_qtr", 
-        "type": "real"
-      }, 
-      {
-        "name": "previous_1qtr", 
-        "type": "real"
-      }, 
-      {
-        "name": "previous_2qtr", 
-        "type": "real"
-      }, 
-      {
-        "name": "previous_3qtr", 
-        "type": "real"
-      }, 
-      {
-        "name": "previous_4qtr", 
-        "type": "real"
-      }, 
-      {
-        "name": "initdt", 
-        "type": "text"
-      }, 
-      {
-        "name": "fldstartdt", 
-        "type": "text"
-      }, 
-      {
-        "name": "fldenddt", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "addrdesc", 
-        "type": "text"
-      }, 
-      {
-        "name": "shape", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "pothole_repairs"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "pothole_repairs"
 }

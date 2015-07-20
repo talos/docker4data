@@ -1,0 +1,21 @@
+CREATE TABLE "existing_bike_facilities" (
+	"objectid_1"	real,
+	"facility_n"	text,
+	"facility_d"	text,
+	"facility_t"	text,
+	"jurisdicti"	text,
+	"corridor_t"	text,
+	"source"	text,
+	"townl"	text,
+	"neighborl"	text,
+	"length_mi"	real,
+	"dp_area"	text,
+	"fac_con"	text,
+	"fac_con_date"	text,
+	"fac_con_inspec"	text,
+	"fac_note"	text,
+	"creationdate"	timestamp,
+	"creator"	text,
+	"editdate"	timestamp,
+	"editor"	text
+);

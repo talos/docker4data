@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_kwh_per_million_gallons_water_treated/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/k8rc-mjrt/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/views/k8rc-mjrt/rows.csv", 
   "description": "The amount of electricity used, in kWh, to the amount of water and wastewater treated, in millions of gallons (MG). This does no include package plant wastewater flows, and it also does not include non-AE electricity", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,26 +12,7 @@
     }
   }, 
   "name": "kWh per million gallons water treated", 
-  "schema": {
-    "columns": [
-      {
-        "name": "fiscalyear", 
-        "type": "real"
-      }, 
-      {
-        "name": "monthname", 
-        "type": "text"
-      }, 
-      {
-        "name": "plantcode", 
-        "type": "text"
-      }, 
-      {
-        "name": "kwh_per_mg_w_treated", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "kwh_per_million_gallons_water_treated"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "kwh_per_million_gallons_water_treated"
 }

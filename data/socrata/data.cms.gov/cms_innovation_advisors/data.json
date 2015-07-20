@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cms_cms_innovation_advisors/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cms.gov/api/views/2d4k-5n3h/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cms.gov/api/views/2d4k-5n3h/rows.csv", 
   "description": "Individuals chosen by the Centers for Medicare and Medicaid Services as participants in the Innovation Advisors Program. More info at http://innovation.cms.gov/initiatives/Innovation-Advisors-Program/.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,38 +12,7 @@
     }
   }, 
   "name": "CMS Innovation Advisors", 
-  "schema": {
-    "columns": [
-      {
-        "name": "name_of_initiative", 
-        "type": "text"
-      }, 
-      {
-        "name": "organization_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "geographic_reach", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "organization", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cms.gov", 
-  "tableName": "cms_innovation_advisors"
+  "schema": "socrata/data.cms.gov", 
+  "status": "needs review", 
+  "table": "cms_innovation_advisors"
 }

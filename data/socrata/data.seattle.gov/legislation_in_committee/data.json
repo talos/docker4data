@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_legislation_in_committee/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/pbfu-t32n/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/pbfu-t32n/rows.csv", 
   "description": "City of Seattle Legislation in Committee", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,50 +12,7 @@
     }
   }, 
   "name": "Legislation in Committee", 
-  "schema": {
-    "columns": [
-      {
-        "name": "date_data_retrieved", 
-        "type": "text"
-      }, 
-      {
-        "name": "record_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "cf_ord_res_no_", 
-        "type": "text"
-      }, 
-      {
-        "name": "url", 
-        "type": "text"
-      }, 
-      {
-        "name": "date_introduced_referred_to_committee", 
-        "type": "text"
-      }, 
-      {
-        "name": "title", 
-        "type": "text"
-      }, 
-      {
-        "name": "sponsor", 
-        "type": "text"
-      }, 
-      {
-        "name": "committee", 
-        "type": "text"
-      }, 
-      {
-        "name": "indexing_terms", 
-        "type": "text"
-      }, 
-      {
-        "name": "misc_notes", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "legislation_in_committee"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "legislation_in_committee"
 }

@@ -1,0 +1,20 @@
+CREATE TABLE "directory_of_business_improvement_districts" (
+	"org_id"	real,
+	"org_name"	text,
+	"org_address"	text,
+	"org_address2"	text,
+	"org_city"	text,
+	"org_state"	text,
+	"org_zip"	real,
+	"boro_id"	text,
+	"org_phone"	real,
+	"org_fax"	real,
+	"org_website"	text,
+	"org_email"	text,
+	"org_boundary"	text,
+	"org_neighborhood"	text,
+	"org_year"	timestamp,
+	"org_realestate"	text,
+	"org_blocks"	real,
+	"org_businesses"	real
+);

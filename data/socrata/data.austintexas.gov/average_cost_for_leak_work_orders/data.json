@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_average_cost_for_leak_work_orders/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/fksj-fw68/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/views/fksj-fw68/rows.csv", 
   "description": "Average cost to repair leaks in the Utility's distribution system", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "Average cost for Leak work orders", 
-  "schema": {
-    "columns": [
-      {
-        "name": "average_cost", 
-        "type": "real"
-      }, 
-      {
-        "name": "month_year", 
-        "type": "text"
-      }, 
-      {
-        "name": "problem", 
-        "type": "text"
-      }, 
-      {
-        "name": "fiscal_year", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "average_cost_for_leak_work_orders"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "average_cost_for_leak_work_orders"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_nola_high_school_graduation_rates_2008_present_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.nola.gov/api/views/rut5-g5bw/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.nola.gov/api/views/rut5-g5bw/rows.csv", 
   "description": "This data set includes the percentage of students graduating from high school in four years in New Orleans and other benchmark cities including: Atlanta (GA), Miami (FL), Tampa (FL), Nashville (TN), Memphis (TN), Raleigh (NC). Baton Rouge (LA), Oklahoma City (OK), and Louisville (KY). Data is provided annually beginning in 2008.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "High School Graduation Rates (2008 - Present)", 
-  "schema": {
-    "columns": [
-      {
-        "name": "rowid", 
-        "type": "real"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "indicator", 
-        "type": "text"
-      }, 
-      {
-        "name": "indicatorvalue", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.nola.gov", 
-  "tableName": "high_school_graduation_rates_2008_present_"
+  "schema": "socrata/data.nola.gov", 
+  "status": "needs review", 
+  "table": "high_school_graduation_rates_2008_present_"
 }

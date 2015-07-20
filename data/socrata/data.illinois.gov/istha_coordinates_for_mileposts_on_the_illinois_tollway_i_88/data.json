@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/istha_coordinates_for_mileposts_on_the_illinois_tollway_i_88/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/dzcq-kdyb/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/dzcq-kdyb/rows.csv", 
   "description": "This dataset has a record for every milepost on I-88 of the Illinois Tollway that includes the route number, the milepost and the latitude and longitude. It lists a milepost every tenth of mile, and every quarter of a mile, but there is actually only a physical milepost every quarter of a mile.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,22 +12,7 @@
     }
   }, 
   "name": "ISTHA - Coordinates for Mileposts on the Illinois Tollway, I-88", 
-  "schema": {
-    "columns": [
-      {
-        "name": "route", 
-        "type": "real"
-      }, 
-      {
-        "name": "milepost", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "istha_coordinates_for_mileposts_on_the_illinois_tollway_i_88"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "istha_coordinates_for_mileposts_on_the_illinois_tollway_i_88"
 }

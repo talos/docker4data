@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_traffic_detectors/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/ewyx-t6wy/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/ewyx-t6wy/rows.csv", 
   "description": "Traffic Detector Locations", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "Traffic Detectors", 
-  "schema": {
-    "columns": [
-      {
-        "name": "objectid", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape", 
-        "type": "text"
-      }, 
-      {
-        "name": "stationid", 
-        "type": "real"
-      }, 
-      {
-        "name": "segkey", 
-        "type": "real"
-      }, 
-      {
-        "name": "seg_unitdesc", 
-        "type": "text"
-      }, 
-      {
-        "name": "detectorname", 
-        "type": "text"
-      }, 
-      {
-        "name": "roadway", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "traffic_detectors"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "traffic_detectors"
 }

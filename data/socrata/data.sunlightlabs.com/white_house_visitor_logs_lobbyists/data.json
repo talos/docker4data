@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_sunlightlabs_white_house_visitor_logs_lobbyists/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sunlightlabs.com/api/views/6brm-4efm/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sunlightlabs.com/api/views/6brm-4efm/rows.csv", 
   "description": "This is a mashup of what's in the White House Visitor Logs and the Ceneter for Responsive Politics Lobbyist data. This is a list of the overlapping names and relevant White House Visitor Log and Lobbyist information. It should be noted that this is only a tentative list. Because the White House only releases names and no other personally identifiable information, people with common (or sometimes uncommon) names from one dataset may not match what's in another dataset. James Adams, registered lobbyist may be a different James Adams that visited the White House. It isn't an indication that a particular person has been to the White House, but rather, should serve as a starting point for journalists and citizen investigators to see if there is a link.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,82 +12,7 @@
     }
   }, 
   "name": "White House Visitor Logs & Lobbyists", 
-  "schema": {
-    "columns": [
-      {
-        "name": "visitor", 
-        "type": "text"
-      }, 
-      {
-        "name": "toa", 
-        "type": "text"
-      }, 
-      {
-        "name": "tod", 
-        "type": "text"
-      }, 
-      {
-        "name": "appt_made_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "appt_start_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "appt_end_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "appt_cancel_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "visited", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "release_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "firms", 
-        "type": "text"
-      }, 
-      {
-        "name": "clients", 
-        "type": "text"
-      }, 
-      {
-        "name": "crp", 
-        "type": "text"
-      }, 
-      {
-        "name": "google", 
-        "type": "text"
-      }, 
-      {
-        "name": "linkedin", 
-        "type": "text"
-      }, 
-      {
-        "name": "littlesis", 
-        "type": "text"
-      }, 
-      {
-        "name": "nimsp", 
-        "type": "text"
-      }, 
-      {
-        "name": "wikipedia", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sunlightlabs.com", 
-  "tableName": "white_house_visitor_logs_lobbyists"
+  "schema": "socrata/data.sunlightlabs.com", 
+  "status": "needs review", 
+  "table": "white_house_visitor_logs_lobbyists"
 }

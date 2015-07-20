@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_primary_election_summary_results_2012/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/gaj3-6934/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/gaj3-6934/rows.csv", 
   "description": "Summary results of the 2012 Primary Election", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,98 +13,7 @@
     }
   }, 
   "name": "Primary Election Summary Results 2012", 
-  "schema": {
-    "columns": [
-      {
-        "name": "contest_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "contest_title", 
-        "type": "text"
-      }, 
-      {
-        "name": "contest_seq_nbr", 
-        "type": "real"
-      }, 
-      {
-        "name": "contest_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "contest_party", 
-        "type": "text"
-      }, 
-      {
-        "name": "absentee_mail_blank_votes", 
-        "type": "real"
-      }, 
-      {
-        "name": "absentee_walk_in_blank_votes", 
-        "type": "real"
-      }, 
-      {
-        "name": "election_blank_votes", 
-        "type": "real"
-      }, 
-      {
-        "name": "absentee_mail_over_votes", 
-        "type": "real"
-      }, 
-      {
-        "name": "absentee_walk_in_over_votes", 
-        "type": "real"
-      }, 
-      {
-        "name": "election_over_votes", 
-        "type": "real"
-      }, 
-      {
-        "name": "registered_voters", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_precincts", 
-        "type": "real"
-      }, 
-      {
-        "name": "counted_precincts", 
-        "type": "real"
-      }, 
-      {
-        "name": "candidate_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "candidate_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "candidate_seq_nbr", 
-        "type": "real"
-      }, 
-      {
-        "name": "candidate_party", 
-        "type": "text"
-      }, 
-      {
-        "name": "absentee_mail_votes", 
-        "type": "real"
-      }, 
-      {
-        "name": "absentee_walk_in_votes", 
-        "type": "real"
-      }, 
-      {
-        "name": "election_votes", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_votes", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "primary_election_summary_results_2012"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "primary_election_summary_results_2012"
 }

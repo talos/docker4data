@@ -1,0 +1,21 @@
+CREATE TABLE "census_block00" (
+	"objectid"	real,
+	"shape"	text,
+	"trbl00"	real,
+	"tract00"	real,
+	"block00"	real,
+	"water"	real,
+	"bg00"	real,
+	"trbl00_str"	text,
+	"land_acres"	real,
+	"water_acres"	real,
+	"logrecno"	real,
+	"tractlab"	real,
+	"trbg00"	real,
+	"area_sqft"	real,
+	"perimeter_ft"	real,
+	"area"	real,
+	"len"	real,
+	"shape_length"	real,
+	"shape_area"	real
+);

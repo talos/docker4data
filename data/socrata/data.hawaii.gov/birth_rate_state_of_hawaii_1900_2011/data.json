@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_birth_rate_state_of_hawaii_1900_2011/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/padw-q7ep/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/padw-q7ep/rows.csv", 
   "description": "Birth rates over time", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,18 +13,7 @@
     }
   }, 
   "name": "Birth Rate, State of Hawaii 1900 - 2011", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "rate_per_1000_resident_population", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "birth_rate_state_of_hawaii_1900_2011"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "birth_rate_state_of_hawaii_1900_2011"
 }

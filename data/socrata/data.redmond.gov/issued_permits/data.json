@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_redmond_issued_permits/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.redmond.gov/api/views/wzgk-dadm/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.redmond.gov/api/views/wzgk-dadm/rows.csv", 
   "description": "Contains a snapshot of issued permit data, updated monthly.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,102 +11,7 @@
     }
   }, 
   "name": "Issued Permits", 
-  "schema": {
-    "columns": [
-      {
-        "name": "permit_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "additional_reference", 
-        "type": "text"
-      }, 
-      {
-        "name": "parcel_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "permit_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "work_class", 
-        "type": "text"
-      }, 
-      {
-        "name": "apply_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "issue_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "project_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "permit_details", 
-        "type": "text"
-      }, 
-      {
-        "name": "work_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "valuation", 
-        "type": "real"
-      }, 
-      {
-        "name": "sq_ft", 
-        "type": "real"
-      }, 
-      {
-        "name": "number_of_units", 
-        "type": "real"
-      }, 
-      {
-        "name": "owner", 
-        "type": "text"
-      }, 
-      {
-        "name": "applicant", 
-        "type": "text"
-      }, 
-      {
-        "name": "contractor", 
-        "type": "text"
-      }, 
-      {
-        "name": "contractor_phone", 
-        "type": "real"
-      }, 
-      {
-        "name": "company", 
-        "type": "text"
-      }, 
-      {
-        "name": "tenant", 
-        "type": "text"
-      }, 
-      {
-        "name": "lender", 
-        "type": "text"
-      }, 
-      {
-        "name": "designer_of_record", 
-        "type": "text"
-      }, 
-      {
-        "name": "total_fees", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.redmond.gov", 
-  "tableName": "issued_permits"
+  "schema": "socrata/data.redmond.gov", 
+  "status": "needs review", 
+  "table": "issued_permits"
 }

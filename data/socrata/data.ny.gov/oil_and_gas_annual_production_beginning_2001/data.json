@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_oil_and_gas_annual_production_beginning_2001/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/mxea-iw3u/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/mxea-iw3u/rows.csv", 
   "description": "This dataset contains annual production information of oil and gas wells in New York State from 2001 to present.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,82 +13,7 @@
     }
   }, 
   "name": "Oil and Gas Annual Production: Beginning 2001", 
-  "schema": {
-    "columns": [
-      {
-        "name": "api_wellno", 
-        "type": "real"
-      }, 
-      {
-        "name": "cnty", 
-        "type": "text"
-      }, 
-      {
-        "name": "coname", 
-        "type": "text"
-      }, 
-      {
-        "name": "hole", 
-        "type": "text"
-      }, 
-      {
-        "name": "sidetrck", 
-        "type": "text"
-      }, 
-      {
-        "name": "completion", 
-        "type": "text"
-      }, 
-      {
-        "name": "well_typ", 
-        "type": "text"
-      }, 
-      {
-        "name": "field", 
-        "type": "text"
-      }, 
-      {
-        "name": "wl_status", 
-        "type": "text"
-      }, 
-      {
-        "name": "well_nm", 
-        "type": "text"
-      }, 
-      {
-        "name": "town", 
-        "type": "text"
-      }, 
-      {
-        "name": "prod_form", 
-        "type": "text"
-      }, 
-      {
-        "name": "production", 
-        "type": "real"
-      }, 
-      {
-        "name": "gas", 
-        "type": "real"
-      }, 
-      {
-        "name": "water", 
-        "type": "real"
-      }, 
-      {
-        "name": "oilprod", 
-        "type": "real"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "oil_and_gas_annual_production_beginning_2001"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "oil_and_gas_annual_production_beginning_2001"
 }

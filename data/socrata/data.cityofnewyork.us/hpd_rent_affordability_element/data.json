@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_hpd_rent_affordability_element/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/azxq-2skx/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/azxq-2skx/rows.csv", 
   "description": "Information on units disaggregated by rent affordability for each building in a project.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "HPD Rent Affordability Element", 
-  "schema": {
-    "columns": [
-      {
-        "name": "project_dwid_2", 
-        "type": "real"
-      }, 
-      {
-        "name": "project_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "building_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "affordability_band", 
-        "type": "text"
-      }, 
-      {
-        "name": "total_units", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "hpd_rent_affordability_element"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "hpd_rent_affordability_element"
 }

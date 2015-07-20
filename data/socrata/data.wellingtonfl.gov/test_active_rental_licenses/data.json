@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wellingtonfl_test_active_rental_licenses/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wellingtonfl.gov/api/views/njsp-pbsx/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.wellingtonfl.gov/api/views/njsp-pbsx/rows.csv", 
   "description": "Test dataset for Active Rental Licenses by Mahesh", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,18 +13,7 @@
     }
   }, 
   "name": "Test_Active_Rental_Licenses", 
-  "schema": {
-    "columns": [
-      {
-        "name": "active_rental_licenses_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "create_date", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.wellingtonfl.gov", 
-  "tableName": "test_active_rental_licenses"
+  "schema": "socrata/data.wellingtonfl.gov", 
+  "status": "needs review", 
+  "table": "test_active_rental_licenses"
 }

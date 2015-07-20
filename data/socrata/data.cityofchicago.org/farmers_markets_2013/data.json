@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_farmers_markets_2013/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/i8y3-ytj4/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/i8y3-ytj4/rows.csv", 
   "description": "Chicago's Farmers Markets bring more than 70 vendors selling fresh fruits, vegetables, plants and flowers to neighborhoods throughout the City of Chicago. Markets are held Tuesday, Wednesday, Thursday, Saturday and Sunday around the city.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,62 +13,7 @@
     }
   }, 
   "name": "Farmers Markets - 2013", 
-  "schema": {
-    "columns": [
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "intersection", 
-        "type": "text"
-      }, 
-      {
-        "name": "day", 
-        "type": "text"
-      }, 
-      {
-        "name": "start_time", 
-        "type": "text"
-      }, 
-      {
-        "name": "end_time", 
-        "type": "text"
-      }, 
-      {
-        "name": "start_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "end_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "website", 
-        "type": "text"
-      }, 
-      {
-        "name": "type", 
-        "type": "text"
-      }, 
-      {
-        "name": "link_accepted", 
-        "type": "text"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "map", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "farmers_markets_2013"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "farmers_markets_2013"
 }

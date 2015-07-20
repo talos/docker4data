@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_openny_reports/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/jabi-xxkk/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/jabi-xxkk/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,26 +9,7 @@
     }
   }, 
   "name": "OpenNY Reports", 
-  "schema": {
-    "columns": [
-      {
-        "name": "report_year", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "report_title", 
-        "type": "text"
-      }, 
-      {
-        "name": "report_link", 
-        "type": "text"
-      }, 
-      {
-        "name": "report_type", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "openny_reports"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "openny_reports"
 }

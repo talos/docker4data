@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wa_washington_anadromous_fish_harvest_data_1974_2012/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/9mju-mxty/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.wa.gov/api/views/9mju-mxty/rows.csv", 
   "description": "WDFW combined Sport/ Commercial/ Treaty salmon harvest data.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,58 +13,7 @@
     }
   }, 
   "name": "Washington Anadromous Fish Harvest Data 1974 - 2012", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "fisher_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "chinook", 
-        "type": "real"
-      }, 
-      {
-        "name": "coho", 
-        "type": "real"
-      }, 
-      {
-        "name": "chum", 
-        "type": "real"
-      }, 
-      {
-        "name": "pink", 
-        "type": "real"
-      }, 
-      {
-        "name": "sockeye", 
-        "type": "real"
-      }, 
-      {
-        "name": "steelhead", 
-        "type": "real"
-      }, 
-      {
-        "name": "jacks", 
-        "type": "real"
-      }, 
-      {
-        "name": "unknown", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_by_fisher_type", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_by_year", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.wa.gov", 
-  "tableName": "washington_anadromous_fish_harvest_data_1974_2012"
+  "schema": "socrata/data.wa.gov", 
+  "status": "needs review", 
+  "table": "washington_anadromous_fish_harvest_data_1974_2012"
 }

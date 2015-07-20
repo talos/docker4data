@@ -1,0 +1,23 @@
+CREATE TABLE "unemployment_insurance_data" (
+	"month"	text,
+	"new_claims_filed_total"	real,
+	"new_claims_filed_ui"	real,
+	"new_claims_filed_ucfe"	real,
+	"new_claims_filed_ucx"	real,
+	"euc_claims_filed_total"	real,
+	"euc_dollars_paid_in_benefits_in_millions"	real,
+	"persons_currently_drawing_ui_benefits"	real,
+	"dollars_paid_in_benefits_in_millions"	real,
+	"trust_fund_balance_in_millions"	real,
+	"of_first_ui_checks_issued_regular_ui"	real,
+	"of_first_ui_checks_issued_ex_fed_employees"	real,
+	"of_first_ui_checks_issued_ex_military"	real,
+	"of_claims_filed_via_the_internet"	text,
+	"final_payments"	real,
+	"of_first_ui_checks_issued_21_days_regular_ui_dla_87"	text,
+	"of_first_ui_checks_issued_21_days_ex_fed_emp_dla_70"	text,
+	"of_first_ui_checks_issued_21_days_ex_military_dla_87"	text,
+	"determinations_nonmontetary_e_g_quit_fired"	real,
+	"of_determinations_issued_in_21_days_of_issue_detection_dla_80"	text,
+	"open_employer_accounts"	real
+);

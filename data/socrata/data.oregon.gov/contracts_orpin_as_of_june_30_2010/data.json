@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oregon_contracts_orpin_as_of_june_30_2010/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/br2t-dc7x/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/api/views/br2t-dc7x/rows.csv", 
   "description": "This report provides information on contracts and amendments to contracts issued from July 1, 2009 - June 30, 2010, for state agencies who are subject to DAS contracting authority. These agencies must report their contracting activity through the Oregon Procurement Information Network (ORPIN) system. The contract values reflected in this report are estimates. \r\nFor more detail on this and other state of Oregon Contracts files, visit the Oregon Transparency Website Contracts/Procurements page:\r\n\r\nNote: The ORPIN Contracts Report is for period ending June 30, 2010. However, the file was updated on July 26, 2011 to reflect a modification to Price Agreement #8605.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "Contracts: ORPIN: As of June 30, 2010", 
-  "schema": {
-    "columns": [
-      {
-        "name": "agency_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "agency_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "award_number_w_amendments", 
-        "type": "text"
-      }, 
-      {
-        "name": "award_title", 
-        "type": "text"
-      }, 
-      {
-        "name": "award_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "contractor_information", 
-        "type": "text"
-      }, 
-      {
-        "name": "original_start_date_amendment_date_expiration_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "original_award_value", 
-        "type": "real"
-      }, 
-      {
-        "name": "amendment_value", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_award_value_w_amendments", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "contracts_orpin_as_of_june_30_2010"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "contracts_orpin_as_of_june_30_2010"
 }

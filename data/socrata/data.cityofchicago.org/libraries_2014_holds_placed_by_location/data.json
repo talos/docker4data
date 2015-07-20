@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_libraries_2014_holds_placed_by_location/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/qpc9-9gqe/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/qpc9-9gqe/rows.csv", 
   "description": "Patrons may place holds on desired materials either online or by contacting any CPL location. The Chicago Public Library consists of the Harold Washington Library Center, Sulzer and Woodson regional libraries and over 75 neighborhood branches. Albany Park Branch closed 9/22/2012 for construction of a new branch expected to open in Fall 2014. Interim services had been provided in the Albany Park community. Many locations experience sporadic emergency closures due to heating or air conditioning issues, or area power outages.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,78 +13,7 @@
     }
   }, 
   "name": "Libraries - 2014 Holds Placed by Location", 
-  "schema": {
-    "columns": [
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "january", 
-        "type": "real"
-      }, 
-      {
-        "name": "february", 
-        "type": "real"
-      }, 
-      {
-        "name": "march", 
-        "type": "real"
-      }, 
-      {
-        "name": "april", 
-        "type": "real"
-      }, 
-      {
-        "name": "may", 
-        "type": "real"
-      }, 
-      {
-        "name": "june", 
-        "type": "real"
-      }, 
-      {
-        "name": "july", 
-        "type": "real"
-      }, 
-      {
-        "name": "august", 
-        "type": "real"
-      }, 
-      {
-        "name": "september", 
-        "type": "real"
-      }, 
-      {
-        "name": "october", 
-        "type": "real"
-      }, 
-      {
-        "name": "november", 
-        "type": "real"
-      }, 
-      {
-        "name": "december", 
-        "type": "real"
-      }, 
-      {
-        "name": "ytd", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "libraries_2014_holds_placed_by_location"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "libraries_2014_holds_placed_by_location"
 }

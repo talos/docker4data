@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/datamontgomery_dataset_publishing_plan/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/c3dr-fnib/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.montgomerycountymd.gov/api/views/c3dr-fnib/rows.csv", 
   "description": "This dataset includes an inventory of Montgomery County datasets and the current schedule for when each dataset is scheduled to be reviewed and published.  This information is a section in the Open Data Implementation Plan, which can be found in its entirety at:  http://montgomerycountymd.gov/open/.\r\n\r\nUpdate frequency:  Annual (with updates to dataset status when published)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,34 +12,7 @@
     }
   }, 
   "name": "dataMontgomery Dataset Publishing Plan", 
-  "schema": {
-    "columns": [
-      {
-        "name": "publication_year", 
-        "type": "text"
-      }, 
-      {
-        "name": "department", 
-        "type": "text"
-      }, 
-      {
-        "name": "dataset_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "status", 
-        "type": "text"
-      }, 
-      {
-        "name": "priority_grouping", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.montgomerycountymd.gov", 
-  "tableName": "datamontgomery_dataset_publishing_plan"
+  "schema": "socrata/data.montgomerycountymd.gov", 
+  "status": "needs review", 
+  "table": "datamontgomery_dataset_publishing_plan"
 }

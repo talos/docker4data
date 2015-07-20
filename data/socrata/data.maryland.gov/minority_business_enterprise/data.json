@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_minority_business_enterprise/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/viap-eh6m/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/viap-eh6m/rows.csv", 
   "description": "This dataset contains a list of the certified Minority Business Enterprises (MBE) within the state of Maryland as well as the industry each MBE is affiliated with. This program is affiliated with the Maryland Department of Transportation.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,42 +12,7 @@
     }
   }, 
   "name": "Minority Business Enterprise", 
-  "schema": {
-    "columns": [
-      {
-        "name": "short_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "short_desc", 
-        "type": "text"
-      }, 
-      {
-        "name": "naics_desc", 
-        "type": "text"
-      }, 
-      {
-        "name": "naics_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "details", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_address", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "minority_business_enterprise"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "minority_business_enterprise"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/new_york_state_government_building_energy_use_intensity_data_beginning_state_fiscal_year_2010/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/nfvi-5nt4/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/nfvi-5nt4/rows.csv", 
   "description": "The Build Smart NY Program aims to increase energy efficiency of New York State government buildings. Build Smart NY was established by Executive Order 88 and mandates a reduction in energy consumption by 20% in government owned and operated buildings by 2020. Site utility data has been collected for all government buildings larger than 20,000 square feet and this has been converted to Source Energy Use Intensity (EUI) which is a ratio of Source Energy Use to gross square footage.  \r\nThe Source EUI will be used as a performance metric to achieve the 20% reduction targets. The dataset represents a baseline of Source EUI for New York State government buildings at the baseline year of SFI 2010/2011; subsequent reports will demonstrate a progression to achieving a 20% energy reduction target.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "New York State Government Building Energy Use Intensity Data: Beginning State Fiscal Year 2010", 
-  "schema": {
-    "columns": [
-      {
-        "name": "agency_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "building_facility_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "property_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "text"
-      }, 
-      {
-        "name": "gross_floor_area", 
-        "type": "real"
-      }, 
-      {
-        "name": "adjusted_source_kbtu", 
-        "type": "real"
-      }, 
-      {
-        "name": "adjusted_source_eui", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "new_york_state_government_building_energy_use_intensity_data_beginning_state_fiscal_year_2010"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "new_york_state_government_building_energy_use_intensity_data_beginning_state_fiscal_year_2010"
 }

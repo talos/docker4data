@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_2010_census_tracts/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/2day-rhn5/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/2day-rhn5/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,86 +9,7 @@
     }
   }, 
   "name": "2010 Census Tracts", 
-  "schema": {
-    "columns": [
-      {
-        "name": "_feature_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "_feature_id_string", 
-        "type": "text"
-      }, 
-      {
-        "name": "the_geom", 
-        "type": "text"
-      }, 
-      {
-        "name": "objectid", 
-        "type": "real"
-      }, 
-      {
-        "name": "tract", 
-        "type": "real"
-      }, 
-      {
-        "name": "tractce10", 
-        "type": "text"
-      }, 
-      {
-        "name": "geoid10", 
-        "type": "text"
-      }, 
-      {
-        "name": "name10", 
-        "type": "text"
-      }, 
-      {
-        "name": "namelsad10", 
-        "type": "text"
-      }, 
-      {
-        "name": "intptlat10", 
-        "type": "text"
-      }, 
-      {
-        "name": "intptlon10", 
-        "type": "text"
-      }, 
-      {
-        "name": "acres_tota", 
-        "type": "real"
-      }, 
-      {
-        "name": "acres_land", 
-        "type": "real"
-      }, 
-      {
-        "name": "acres_wate", 
-        "type": "real"
-      }, 
-      {
-        "name": "water", 
-        "type": "text"
-      }, 
-      {
-        "name": "area", 
-        "type": "real"
-      }, 
-      {
-        "name": "len", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape_leng", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape_area", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "2010_census_tracts"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "2010_census_tracts"
 }

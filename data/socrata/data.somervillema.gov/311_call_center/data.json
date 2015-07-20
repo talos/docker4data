@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/311_call_center/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.somervillema.gov/api/views/kja3-3jiv/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.somervillema.gov/api/views/kja3-3jiv/rows.csv", 
   "description": "This dataset represents 311 call center requests and powers the 311 data explorer.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,58 +12,7 @@
     }
   }, 
   "name": "311 Call Center", 
-  "schema": {
-    "columns": [
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "agency_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "type", 
-        "type": "text"
-      }, 
-      {
-        "name": "ticket", 
-        "type": "real"
-      }, 
-      {
-        "name": "priority", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "call_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "status", 
-        "type": "text"
-      }, 
-      {
-        "name": "view_details", 
-        "type": "text"
-      }, 
-      {
-        "name": "completed_image", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "view_ticket", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.somervillema.gov", 
-  "tableName": "311_call_center"
+  "schema": "socrata/data.somervillema.gov", 
+  "status": "needs review", 
+  "table": "311_call_center"
 }

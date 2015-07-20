@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oregon_green_light_program_fiscal_year_2013/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/9u9i-edne/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/api/views/9u9i-edne/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -14,30 +10,7 @@
     }
   }, 
   "name": "Green Light Program - Fiscal Year 2013", 
-  "schema": {
-    "columns": [
-      {
-        "name": "effective_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "vendor_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "outcomes", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "amount_of_rebate", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "green_light_program_fiscal_year_2013"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "green_light_program_fiscal_year_2013"
 }

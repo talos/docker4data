@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/terrestrial_broadband_speed_test_comparision_map_oct_2013_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/download/tkj7-tef8application/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/download/tkj7-tef8/application/pdf", 
   "description": "PDF map of comparison of speed tests from OIT's broadband speed test application to speeds reported by broadband providers through the Colorado Broadband Data and Development Program. Provider reported broadband service is based on the October 2013 submission of broadband data to the National Telecommunications and Information Administration.", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Terrestrial Broadband Speed Test Comparision Map (Oct 2013)", 
-  "schema": {}, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "terrestrial_broadband_speed_test_comparision_map_oct_2013_"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "terrestrial_broadband_speed_test_comparision_map_oct_2013_"
 }

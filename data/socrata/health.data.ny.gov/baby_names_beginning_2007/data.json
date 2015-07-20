@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_healthny_baby_names_beginning_2007/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/jxy9-yhdk/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/health.data.ny.gov/api/views/jxy9-yhdk/rows.csv", 
   "description": "New York State Baby names are aggregated and displayed by the year, county or borough where the mother resided as stated on a New York State or New York City (NYC) birth certificate.\r\n\r\nThe frequency of the Baby Name is listed, if there are: 5 or more of the same baby name in a county outside of  NYC; or 10 or more of the same baby name in a NYC borough.\r\n\r\nFor more information, check out http://www.health.ny.gov/statistics/vital_statistics/, or go to the \"About\" tab.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Baby Names: Beginning 2007", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "first_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "sex", 
-        "type": "text"
-      }, 
-      {
-        "name": "count", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/health.data.ny.gov", 
-  "tableName": "baby_names_beginning_2007"
+  "schema": "socrata/health.data.ny.gov", 
+  "status": "needs review", 
+  "table": "baby_names_beginning_2007"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_colorado_s_tunnels_maintenance_rate/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/i2eb-gjgu/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/api/views/i2eb-gjgu/rows.csv", 
   "description": "The tunnel maintenance program tracks CDOT progress in maintaining tunnels on the State Highway System. A letter grade is given every year on maintenance activities at the Eisenhower-Johnson and Hanging Lake tunnels on I-70. Maintenance on these aging tunnels includes tunnel washing and sweeping, ventilation maintenance, snow removal, emergency response and round-the-clock television surveillance.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "Colorado's Tunnels Maintenance Rate", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "long_range_goal", 
-        "type": "text"
-      }, 
-      {
-        "name": "actual", 
-        "type": "text"
-      }, 
-      {
-        "name": "budget_in_millions", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "colorado_s_tunnels_maintenance_rate"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "colorado_s_tunnels_maintenance_rate"
 }

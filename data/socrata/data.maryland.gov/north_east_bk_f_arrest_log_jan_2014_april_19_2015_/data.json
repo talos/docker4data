@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/north_east_bk_f_arrest_log_jan_2014_april_19_2015_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/x3n6-c9ys/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/x3n6-c9ys/rows.csv", 
   "description": "Maryland State Police North East Barrack \"F\" arrest log. Displayed are individuals who have been arrested and charged with a criminal violation of Maryland Statute. Names may multiple times for a single date because of multiple charges associated with an incident.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "North East BK\"F\" Arrest Log (Jan 2014 - April 19, 2015)", 
-  "schema": {
-    "columns": [
-      {
-        "name": "arrest_date_time", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "lname", 
-        "type": "text"
-      }, 
-      {
-        "name": "fname", 
-        "type": "text"
-      }, 
-      {
-        "name": "age", 
-        "type": "real"
-      }, 
-      {
-        "name": "race", 
-        "type": "text"
-      }, 
-      {
-        "name": "sex", 
-        "type": "text"
-      }, 
-      {
-        "name": "charge_desc", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "north_east_bk_f_arrest_log_jan_2014_april_19_2015_"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "north_east_bk_f_arrest_log_jan_2014_april_19_2015_"
 }

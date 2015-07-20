@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_housing_litigations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/59kj-x8nc/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/59kj-x8nc/rows.csv", 
   "description": "The Department of Housing Preservation and Development (HPD) Housing Litigation Division (HLD) initiates' actions in the Housing Court against owners of privately-owned buildings to enforce compliance with the housing quality standards contained in the New York State Multiple Dwelling Law and the New York City Housing Maintenance Code.  HLD attorneys also represent HPD when tenants initiate actions against private owners.  HPD is automatically named as party to such actions.  The goal of these court proceedings is to obtain enforceable Orders to Correct, Civil Penalties (fines) and Contempt Sanctions, compelling owners to comply with the Housing Code.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,62 +13,7 @@
     }
   }, 
   "name": "Housing Litigations", 
-  "schema": {
-    "columns": [
-      {
-        "name": "litigationid", 
-        "type": "real"
-      }, 
-      {
-        "name": "buildingid", 
-        "type": "real"
-      }, 
-      {
-        "name": "boroid", 
-        "type": "real"
-      }, 
-      {
-        "name": "boro", 
-        "type": "text"
-      }, 
-      {
-        "name": "housenumber", 
-        "type": "text"
-      }, 
-      {
-        "name": "streetname", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip", 
-        "type": "text"
-      }, 
-      {
-        "name": "block", 
-        "type": "real"
-      }, 
-      {
-        "name": "lot", 
-        "type": "real"
-      }, 
-      {
-        "name": "casetype", 
-        "type": "text"
-      }, 
-      {
-        "name": "caseopendate", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "casestatus", 
-        "type": "text"
-      }, 
-      {
-        "name": "casejudgement", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "housing_litigations"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "housing_litigations"
 }

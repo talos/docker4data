@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ok_fy2014_retirement_eligibility_by_agency/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ok.gov/api/views/j8bx-xbq5/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ok.gov/api/views/j8bx-xbq5/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,46 +9,7 @@
     }
   }, 
   "name": "FY2014 Retirement Eligibility by Agency", 
-  "schema": {
-    "columns": [
-      {
-        "name": "co", 
-        "type": "real"
-      }, 
-      {
-        "name": "agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "total_fte", 
-        "type": "real"
-      }, 
-      {
-        "name": "avg_years_of_service", 
-        "type": "real"
-      }, 
-      {
-        "name": "avg_age", 
-        "type": "real"
-      }, 
-      {
-        "name": "number_eligible_to_retire", 
-        "type": "real"
-      }, 
-      {
-        "name": "percent_eligible_to_retire", 
-        "type": "text"
-      }, 
-      {
-        "name": "number_eligible_to_retire_in_5_years", 
-        "type": "real"
-      }, 
-      {
-        "name": "percent_eligible_to_retire_in_5_years", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ok.gov", 
-  "tableName": "fy2014_retirement_eligibility_by_agency"
+  "schema": "socrata/data.ok.gov", 
+  "status": "needs review", 
+  "table": "fy2014_retirement_eligibility_by_agency"
 }

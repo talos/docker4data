@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/election_website_text/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/electionsdata.kingcounty.gov/api/views/83t2-qwek/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/electionsdata.kingcounty.gov/api/views/83t2-qwek/rows.csv", 
   "description": "This dataset contains the fields that you will need to include to edit for a new election. These values appear throughout the site on different pages. See the description column for the page the text appears.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,34 +12,7 @@
     }
   }, 
   "name": "Election Website Text", 
-  "schema": {
-    "columns": [
-      {
-        "name": "election_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "election_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "time_results_published", 
-        "type": "text"
-      }, 
-      {
-        "name": "certification_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "link_to_elections_site", 
-        "type": "text"
-      }, 
-      {
-        "name": "ballot_dropboxes_open_date", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/electionsdata.kingcounty.gov", 
-  "tableName": "election_website_text"
+  "schema": "socrata/electionsdata.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "election_website_text"
 }

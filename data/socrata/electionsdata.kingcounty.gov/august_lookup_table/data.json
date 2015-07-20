@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/august_lookup_table/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/electionsdata.kingcounty.gov/api/views/tpwv-jjdb/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/electionsdata.kingcounty.gov/api/views/tpwv-jjdb/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,26 +9,7 @@
     }
   }, 
   "name": "August lookup table", 
-  "schema": {
-    "columns": [
-      {
-        "name": "contname", 
-        "type": "text"
-      }, 
-      {
-        "name": "revised_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "filter1", 
-        "type": "text"
-      }, 
-      {
-        "name": "filter2", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/electionsdata.kingcounty.gov", 
-  "tableName": "august_lookup_table"
+  "schema": "socrata/electionsdata.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "august_lookup_table"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_brownfield_redevelopment_credit_beginning_2008/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/vud8-75x8/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/vud8-75x8/rows.csv", 
   "description": "The Department of Taxation and Finance annually produces a mandated report of taxpayers claiming Brownfield Credits to help analyze the effects of the program.  Chapter 390 of the Laws of 2008 created Section 171-r of the Tax Law that requires the Tax Department to produce a Brownfield Credit Report by January 31st of each year. The mandate requires the Department to include the name of each taxpayer claiming the brownfield redevelopment tax credit, the remediated brownfield credit for real property taxes, or the environmental remediation credit, the amount of credit earned, and information identifying the brownfield project generating the credit. The Tax Department is also authorized to include any other information that it deems useful in analyzing the effects of the program.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,82 +13,7 @@
     }
   }, 
   "name": "Brownfield Redevelopment Credit: Beginning 2008", 
-  "schema": {
-    "columns": [
-      {
-        "name": "calendar_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "tax_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "taxpayer_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "project_site_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "notes", 
-        "type": "text"
-      }, 
-      {
-        "name": "dec_region", 
-        "type": "real"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "municipality", 
-        "type": "text"
-      }, 
-      {
-        "name": "en_zone", 
-        "type": "text"
-      }, 
-      {
-        "name": "site_preparation_component_costs", 
-        "type": "real"
-      }, 
-      {
-        "name": "site_preparation_component_credit", 
-        "type": "real"
-      }, 
-      {
-        "name": "tangible_property_component_costs", 
-        "type": "real"
-      }, 
-      {
-        "name": "tangible_property_component_credit", 
-        "type": "real"
-      }, 
-      {
-        "name": "onsite_groundwater_remediation_costs", 
-        "type": "real"
-      }, 
-      {
-        "name": "onsite_groundwater_remediation_component_credit", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_costs", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_credit", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "brownfield_redevelopment_credit_beginning_2008"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "brownfield_redevelopment_credit_beginning_2008"
 }

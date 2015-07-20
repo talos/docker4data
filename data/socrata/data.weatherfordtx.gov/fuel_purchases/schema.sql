@@ -1,0 +1,23 @@
+CREATE TABLE "fuel_purchases" (
+	"fund"	text,
+	"department"	text,
+	"cost_center"	real,
+	"date"	timestamp,
+	"card"	text,
+	"vehicle_id"	text,
+	"vehicle_description"	text,
+	"location"	text,
+	"vendor"	text,
+	"odometer"	real,
+	"product"	text,
+	"quantity"	real,
+	"cost"	text,
+	"price_per_gallon"	text,
+	"federal_taxes_subtracted"	text,
+	"tag"	text,
+	"fiscal_year"	real,
+	"fiscal_month"	real,
+	"calendar_year"	real,
+	"calendar_month"	real,
+	"location_1"	text
+);

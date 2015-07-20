@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/public_events_at_the_empire_state_plaza_beginning_1999/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/w7m2-v3g2/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/w7m2-v3g2/rows.csv", 
   "description": "This dataset contains a listing of public events held at the Empire State Plaza with information about the events such as date and time, including many upcoming events.  These events are scheduled and coordinated by New York State Office of General Services (OGS), Convention and Cultural Events Office.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "Public Events at the Empire State Plaza:  Beginning 1999", 
-  "schema": {
-    "columns": [
-      {
-        "name": "eventid", 
-        "type": "real"
-      }, 
-      {
-        "name": "eventdate", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "starttime", 
-        "type": "text"
-      }, 
-      {
-        "name": "endtime", 
-        "type": "text"
-      }, 
-      {
-        "name": "eventname", 
-        "type": "text"
-      }, 
-      {
-        "name": "eventshortname", 
-        "type": "text"
-      }, 
-      {
-        "name": "eventdescription", 
-        "type": "text"
-      }, 
-      {
-        "name": "eventlocation", 
-        "type": "text"
-      }, 
-      {
-        "name": "admission", 
-        "type": "text"
-      }, 
-      {
-        "name": "alternateeventlocation", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "public_events_at_the_empire_state_plaza_beginning_1999"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "public_events_at_the_empire_state_plaza_beginning_1999"
 }

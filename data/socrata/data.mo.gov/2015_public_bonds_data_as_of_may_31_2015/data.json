@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_mo_2015_public_bonds_data_as_of_may_31_2015/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.mo.gov/api/views/n7wj-9v5b/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.mo.gov/api/views/n7wj-9v5b/rows.csv", 
   "description": "The data provided here details the State of Missouri's Public Bonds Data as of May 31, 2015.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,42 +12,7 @@
     }
   }, 
   "name": "2015 Public Bonds Data As of May 31, 2015", 
-  "schema": {
-    "columns": [
-      {
-        "name": "political_subdivision_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "date_of_issuance", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "bond_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "description_of_revenue_stream", 
-        "type": "text"
-      }, 
-      {
-        "name": "face_amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "outstanding_balance", 
-        "type": "text"
-      }, 
-      {
-        "name": "description_of_project", 
-        "type": "text"
-      }, 
-      {
-        "name": "interest_rate", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.mo.gov", 
-  "tableName": "2015_public_bonds_data_as_of_may_31_2015"
+  "schema": "socrata/data.mo.gov", 
+  "status": "needs review", 
+  "table": "2015_public_bonds_data_as_of_may_31_2015"
 }

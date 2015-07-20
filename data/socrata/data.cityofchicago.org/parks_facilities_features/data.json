@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/parks_facilities_features/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/y7qa-tvqx/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/y7qa-tvqx/rows.csv", 
   "description": "Facilities located in Chicago Park District parks", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "Parks - Facilities & Features", 
-  "schema": {
-    "columns": [
-      {
-        "name": "park", 
-        "type": "text"
-      }, 
-      {
-        "name": "park_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "facility_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "facility_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "x_coordinate", 
-        "type": "real"
-      }, 
-      {
-        "name": "y_coordinate", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "parks_facilities_features"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "parks_facilities_features"
 }

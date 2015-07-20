@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_hpd_developer_selection_element/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/fged-sxa8/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/fged-sxa8/rows.csv", 
   "description": "Information on how the developer was selected for each project.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "HPD Developer Selection Element", 
-  "schema": {
-    "columns": [
-      {
-        "name": "developer_selection_dw_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "project_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "method", 
-        "type": "text"
-      }, 
-      {
-        "name": "rfp_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "rfq_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "is_developer_prequalified_", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "hpd_developer_selection_element"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "hpd_developer_selection_element"
 }

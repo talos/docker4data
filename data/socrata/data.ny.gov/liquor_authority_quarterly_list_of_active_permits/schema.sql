@@ -1,0 +1,21 @@
+CREATE TABLE "liquor_authority_quarterly_list_of_active_permits" (
+	"serial_number"	real,
+	"agency_zone_office_name"	text,
+	"agency_zone_office_number"	real,
+	"county_name"	text,
+	"type_code"	text,
+	"class_code"	real,
+	"permit_class_description"	text,
+	"premises_name"	text,
+	"doing_business_as_dba"	text,
+	"actual_address_of_premises_address1"	text,
+	"additional_address_information_address2"	text,
+	"city"	text,
+	"state"	text,
+	"zip_code"	text,
+	"certificate_number"	real,
+	"original_issue_date"	timestamp,
+	"effective_date"	timestamp,
+	"expiration_date"	timestamp,
+	"location"	text
+);

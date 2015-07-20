@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/priority_for_acquisition_creek_parcels/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oaklandnet.com/api/geospatial/csz2-vi2u", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.oaklandnet.com/api/geospatial/csz2-vi2u", 
   "description": "Underdeveloped parcels adjacent to creeks.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,7 +13,7 @@
     }
   }, 
   "name": "Priority for Acquisition Creek Parcels", 
-  "schema": {}, 
-  "schemaName": "socrata/data.oaklandnet.com", 
-  "tableName": "priority_for_acquisition_creek_parcels"
+  "schema": "socrata/data.oaklandnet.com", 
+  "status": "needs review", 
+  "table": "priority_for_acquisition_creek_parcels"
 }

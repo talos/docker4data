@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/fdny_repealed_rules_and_corresponding_new_fire_code_and_rules/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/isrj-349k/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/isrj-349k/rows.csv", 
   "description": "Repealed Rules and the replacement new codes and rules", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "FDNY Repealed  Rules And Corresponding New Fire Code And Rules", 
-  "schema": {
-    "columns": [
-      {
-        "name": "repealed_rule_rcny_section", 
-        "type": "text"
-      }, 
-      {
-        "name": "repealed_section_title", 
-        "type": "text"
-      }, 
-      {
-        "name": "new_code_fc_rule_r_section", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "fdny_repealed_rules_and_corresponding_new_fire_code_and_rules"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "fdny_repealed_rules_and_corresponding_new_fire_code_and_rules"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_nrel_south_park_weather/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/yree-6k9x/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/api/views/yree-6k9x/rows.csv", 
   "description": "Weather data for the South Park station, from March 28, 1997 to yesterday. Contains data on temperature, humidity, wind, and irradiance.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "NREL South Park Weather", 
-  "schema": {
-    "columns": [
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "globalhorizontal", 
-        "type": "real"
-      }, 
-      {
-        "name": "airtemperature", 
-        "type": "real"
-      }, 
-      {
-        "name": "windspeed", 
-        "type": "real"
-      }, 
-      {
-        "name": "relhumidity", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "nrel_south_park_weather"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "nrel_south_park_weather"
 }

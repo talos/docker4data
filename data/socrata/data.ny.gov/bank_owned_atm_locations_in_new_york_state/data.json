@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_bank_owned_atm_locations_in_new_york_state/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/ndex-ad5r/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/ndex-ad5r/rows.csv", 
   "description": "A list of all bank owned or in-bank ATMs located in New York State.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "Bank-Owned ATM Locations in New York State", 
-  "schema": {
-    "columns": [
-      {
-        "name": "name_of_institution", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "bank_owned_atm_locations_in_new_york_state"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "bank_owned_atm_locations_in_new_york_state"
 }

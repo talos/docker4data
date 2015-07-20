@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/2010_2011_class_size_citywide_distribution/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/4s7y-vm5x/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/4s7y-vm5x/rows.csv", 
   "description": "This file shows the range and distribution of class sizes within a particular grade and program type. For grades 5-9 (where available) and 9-12, the data are shown by program type and core subject.\r\nBased on January 28, 2011 data.\r\n* Grade 9 Official Class data is included for 0K-09 schools. Core Course information for these sections is not reported.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "2010-2011 Class Size - Citywide Distribution", 
-  "schema": {
-    "columns": [
-      {
-        "name": "grade_level", 
-        "type": "text"
-      }, 
-      {
-        "name": "program_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "core_subject", 
-        "type": "text"
-      }, 
-      {
-        "name": "service_category", 
-        "type": "text"
-      }, 
-      {
-        "name": "class_size", 
-        "type": "real"
-      }, 
-      {
-        "name": "number_of_classes", 
-        "type": "real"
-      }, 
-      {
-        "name": "number_of_students", 
-        "type": "real"
-      }, 
-      {
-        "name": "percent_of_students_in_program_grade_subject", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "2010_2011_class_size_citywide_distribution"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "2010_2011_class_size_citywide_distribution"
 }

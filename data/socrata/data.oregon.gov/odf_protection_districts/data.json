@@ -1,9 +1,6 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/odf_protection_districts/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/geospatial/s2dy-rqii", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/api/geospatial/s2dy-rqii", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -15,7 +12,7 @@
     }
   }, 
   "name": "ODF Protection Districts", 
-  "schema": {}, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "odf_protection_districts"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "odf_protection_districts"
 }

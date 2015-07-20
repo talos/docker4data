@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_baltimorecity_vacants_to_value_distressed_market/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/f8a8-4x84/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/f8a8-4x84/rows.csv", 
   "description": "These areas are characterized by high concentrations of abandoned properties, many of which are owned by the City or are in tax arrears. http://www.baltimorehousing.org/vacants_to_value.aspx", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "Vacants to Value -  Distressed Market", 
-  "schema": {
-    "columns": [
-      {
-        "name": "block", 
-        "type": "text"
-      }, 
-      {
-        "name": "lot", 
-        "type": "text"
-      }, 
-      {
-        "name": "phase", 
-        "type": "text"
-      }, 
-      {
-        "name": "projectname", 
-        "type": "text"
-      }, 
-      {
-        "name": "datestart", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.baltimorecity.gov", 
-  "tableName": "vacants_to_value_distressed_market"
+  "schema": "socrata/data.baltimorecity.gov", 
+  "status": "needs review", 
+  "table": "vacants_to_value_distressed_market"
 }

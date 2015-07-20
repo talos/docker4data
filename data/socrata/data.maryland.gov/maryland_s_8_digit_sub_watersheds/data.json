@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/maryland_s_8_digit_sub_watersheds/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/geospatial/e9j9-vuxg", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/geospatial/e9j9-vuxg", 
   "description": "This is statewide digital watershed data. This file depicts the State with 138 separate watersheds each with an 8-digit numeric code. This file was created primarily for State and Federal agency use.  The creation of this file goes back many years and involved several State and Federal agencies. This file was derived from a more detailed watershed file (Maryland's Third-Order Watershed).  The U.S. Natural Resources Conservation Service (NRCS) redefined the third order watersheds creating the HUA14 file. The process used to create this file is consistent with the elevation contour information found on the US Geological Survey's 7.5 minute topographic quadrangle maps and the Maryland Department of the Environment's watershed location and naming conventions.  This file is similar, but not identical, to the US Natural Resources Conservation Service's (NRCS) Hydrologic Unit Code (HUC11) watershed file. The watersheds define Strahler (Strahler 1952 p.1120) third order stream drainage by contours on U.S. Geological Survey (USGS) 7.5 minute quadrangle map sheets.  Some watershed drainage areas were defined for streams less than third order and some large area Watersheds were split to maintain a maximum size of 15,000 acres. This watershed data is used by many state and local government agencies to accurately locate and report many landscape activities by watershed in Maryland.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Maryland's 8 Digit Sub-Watersheds", 
-  "schema": {}, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "maryland_s_8_digit_sub_watersheds"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "maryland_s_8_digit_sub_watersheds"
 }

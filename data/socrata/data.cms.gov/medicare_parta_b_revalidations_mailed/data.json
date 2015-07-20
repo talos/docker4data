@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cms_medicare_parta_b_revalidations_mailed/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cms.gov/api/views/jegg-kir8/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cms.gov/api/views/jegg-kir8/rows.csv", 
   "description": "Section 6401 (a) of the Affordable Care Act established a requirement for all enrolled providers and suppliers to revalidate their enrollment information under new enrollment screening criteria. This revalidation effort applies to those providers and suppliers that were enrolled prior to March 25, 2011. Newly enrolled providers and suppliers that submitted their enrollment applications to CMS on or after March 25, 2011, are not impacted. Between now and March 23, 2015, MACs will send out notices on a regular basis to begin the revalidation process for each provider and supplier. Providers and suppliers must wait to submit the revalidation only after being asked by their MAC to do so. Please note that 42 CFR 424.515(d) provides CMS the authority to conduct these off-cycle revalidations.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Medicare PartA/B Revalidations Mailed", 
-  "schema": {
-    "columns": [
-      {
-        "name": "npi", 
-        "type": "text"
-      }, 
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "revalidation_notice_sent", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "enrollment_state", 
-        "type": "text"
-      }, 
-      {
-        "name": "month_year", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cms.gov", 
-  "tableName": "medicare_parta_b_revalidations_mailed"
+  "schema": "socrata/data.cms.gov", 
+  "status": "needs review", 
+  "table": "medicare_parta_b_revalidations_mailed"
 }

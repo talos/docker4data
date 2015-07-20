@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_kingcounty_how_do_i_typeahead_data/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/fyug-m7sc/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.kingcounty.gov/api/views/fyug-m7sc/rows.csv", 
   "description": "Data to populate how do i type ahead data", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "how do i typeahead data", 
-  "schema": {
-    "columns": [
-      {
-        "name": "task", 
-        "type": "text"
-      }, 
-      {
-        "name": "link", 
-        "type": "text"
-      }, 
-      {
-        "name": "category2", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.kingcounty.gov", 
-  "tableName": "how_do_i_typeahead_data"
+  "schema": "socrata/data.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "how_do_i_typeahead_data"
 }

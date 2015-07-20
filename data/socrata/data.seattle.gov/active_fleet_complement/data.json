@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_active_fleet_complement/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/enxu-fgzb/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/enxu-fgzb/rows.csv", 
   "description": "The City of Seattle's active fleet equipment complement is dynamic. This list is updated on a monthly basis.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "Active Fleet Complement", 
-  "schema": {
-    "columns": [
-      {
-        "name": "equipid", 
-        "type": "text"
-      }, 
-      {
-        "name": "license", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "make", 
-        "type": "text"
-      }, 
-      {
-        "name": "model", 
-        "type": "text"
-      }, 
-      {
-        "name": "descrip", 
-        "type": "text"
-      }, 
-      {
-        "name": "dept", 
-        "type": "text"
-      }, 
-      {
-        "name": "inservicedate", 
-        "type": "text"
-      }, 
-      {
-        "name": "inservicecost", 
-        "type": "real"
-      }, 
-      {
-        "name": "estimated_replacement_year", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "active_fleet_complement"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "active_fleet_complement"
 }

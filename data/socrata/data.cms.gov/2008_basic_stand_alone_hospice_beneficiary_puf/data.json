@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cms_2008_basic_stand_alone_hospice_beneficiary_puf/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cms.gov/api/views/j9p6-bpgf/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cms.gov/api/views/j9p6-bpgf/rows.csv", 
   "description": "This is a Public Use File from Hospice claims drawn from the 2008 Beneficiary Summary File of Medicare beneficiaries enrolled during the calendar year 2008, and their associated Medicare claims. The most important aspects of this file are as follow: 1. 5% simple random sample drawn without replacement from 100% 2008 Beneficiary Summary File. 2. This sample is disjoint from the existing 5% CMS Research Sample and the other 2008 PUFs. 3. Sample contained 2,392,893 unique beneficiaries of which 53,071 had at least one hospice claim.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "2008 Basic Stand Alone Hospice Beneficiary PUF", 
-  "schema": {
-    "columns": [
-      {
-        "name": "hospc_bene_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "bene_sex_ident_cd", 
-        "type": "real"
-      }, 
-      {
-        "name": "bene_age_cat_cd", 
-        "type": "real"
-      }, 
-      {
-        "name": "hospc_deceased_cd", 
-        "type": "real"
-      }, 
-      {
-        "name": "hospc_dx_cd", 
-        "type": "real"
-      }, 
-      {
-        "name": "hospc_cancer_cd", 
-        "type": "real"
-      }, 
-      {
-        "name": "hospc_days_cd", 
-        "type": "real"
-      }, 
-      {
-        "name": "hospc_pmt_amt", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cms.gov", 
-  "tableName": "2008_basic_stand_alone_hospice_beneficiary_puf"
+  "schema": "socrata/data.cms.gov", 
+  "status": "needs review", 
+  "table": "2008_basic_stand_alone_hospice_beneficiary_puf"
 }

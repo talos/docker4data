@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_traffic_serious_injuries_report/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/evhh-29di/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/api/views/evhh-29di/rows.csv", 
   "description": "Number of people involved in traffic incidents on Colorado roads that resulted in evident injuries, whether incapacitating or not.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "Traffic Serious Injuries Report", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "actual_serious_injuris", 
-        "type": "real"
-      }, 
-      {
-        "name": "serious_injuries_per_100_million_vehicle_miles_traveled", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "traffic_serious_injuries_report"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "traffic_serious_injuries_report"
 }

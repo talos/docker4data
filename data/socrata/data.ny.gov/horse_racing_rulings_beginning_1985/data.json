@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_horse_racing_rulings_beginning_1985/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/igam-2tkj/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/igam-2tkj/rows.csv", 
   "description": "The Horse Racing Rulings report lists any fines and suspensions issued by the New York State Gaming Commission\u2019s Division of Horse Racing and Pari-Mutuel Wagering.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,66 +13,7 @@
     }
   }, 
   "name": "Horse Racing Rulings: Beginning 1985", 
-  "schema": {
-    "columns": [
-      {
-        "name": "fine_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "notice", 
-        "type": "text"
-      }, 
-      {
-        "name": "full_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "race_track", 
-        "type": "text"
-      }, 
-      {
-        "name": "race_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "type", 
-        "type": "text"
-      }, 
-      {
-        "name": "notice_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "rules", 
-        "type": "text"
-      }, 
-      {
-        "name": "ruling_text", 
-        "type": "text"
-      }, 
-      {
-        "name": "occ", 
-        "type": "text"
-      }, 
-      {
-        "name": "fine_amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "suspension_start", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "suspension_end", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "days_suspended", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "horse_racing_rulings_beginning_1985"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "horse_racing_rulings_beginning_1985"
 }

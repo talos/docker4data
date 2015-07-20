@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/influenza_vaccination_rates_for_health_care_personnel_beginning_2012_13/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/jpkp-z76p/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/health.data.ny.gov/api/views/jpkp-z76p/rows.csv", 
   "description": "This dataset contains the results of the annual report of influenza vaccination rates among healthcare personnel (HCP) with patient contact at healthcare facilities and agencies in New York State.   New York Codes, Rules and Regulations, Title 10, Section 2.59 (10 NYCRR Section 2.59). 10 NYCRR Section 2.59 requires any Article 28, 36, or 40 healthcare facility or agency to document the number and percentage of personnel vaccinated against influenza for the current season and report these data to the New York State Department of Health (the Department).  For more information check out: http://www.health.ny.gov/prevention/immunization/, or go to the \u201cAbout\u201d tab.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,66 +13,7 @@
     }
   }, 
   "name": "Influenza Vaccination Rates for Health Care Personnel: Beginning 2012-13", 
-  "schema": {
-    "columns": [
-      {
-        "name": "facility_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "facility_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "facility_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "text"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "healthcare_personnel_hcp_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "total", 
-        "type": "real"
-      }, 
-      {
-        "name": "vaccinated", 
-        "type": "real"
-      }, 
-      {
-        "name": "percent_vaccinated", 
-        "type": "text"
-      }, 
-      {
-        "name": "unvaccinated", 
-        "type": "real"
-      }, 
-      {
-        "name": "percent_unvaccinated", 
-        "type": "text"
-      }, 
-      {
-        "name": "hcp_unknown", 
-        "type": "real"
-      }, 
-      {
-        "name": "unknown", 
-        "type": "text"
-      }, 
-      {
-        "name": "comment", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/health.data.ny.gov", 
-  "tableName": "influenza_vaccination_rates_for_health_care_personnel_beginning_2012_13"
+  "schema": "socrata/health.data.ny.gov", 
+  "status": "needs review", 
+  "table": "influenza_vaccination_rates_for_health_care_personnel_beginning_2012_13"
 }

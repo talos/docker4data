@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/nyc_bers_pension_fund_october_2013_cancelled_mtg/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/www.opendatanyc.com/download/r4w6-hrksapplication/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/www.opendatanyc.com/download/r4w6-hrks/application/pdf", 
   "description": "BERS monthly performance overview was cancelled for 10/18/13", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,7 +13,7 @@
     }
   }, 
   "name": "NYC BERS Pension Fund  October, 2013- Cancelled Mtg", 
-  "schema": {}, 
-  "schemaName": "socrata/www.opendatanyc.com", 
-  "tableName": "nyc_bers_pension_fund_october_2013_cancelled_mtg"
+  "schema": "socrata/www.opendatanyc.com", 
+  "status": "needs review", 
+  "table": "nyc_bers_pension_fund_october_2013_cancelled_mtg"
 }

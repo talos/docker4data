@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_iquery_measles_data/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/7uug-vqj4/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/7uug-vqj4/rows.csv", 
   "description": "Measles is a highly contagious viral infection that is spread by the dissemination of the Measles virus in respiratory droplets by infected individuals. The most notable symptom is a red blotchy rash, but this is usually preceded by fever, runny nose, or cough. Quite common before immunization began, measles is typically not a severe disease, but grave illness and even death may occur. Those most susceptible to contracting measles are infants too young to be vaccinated, other unvaccinated adults and children, and immunocompromised individuals. Measles can be readily spread in enclosed recirculating air environments such as airplanes or classrooms, but any close contact with an infected case may lead to infection.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,54 +11,7 @@
     }
   }, 
   "name": "Iquery Measles Data", 
-  "schema": {
-    "columns": [
-      {
-        "name": "disease", 
-        "type": "text"
-      }, 
-      {
-        "name": "yeartext", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "stateorcounty", 
-        "type": "text"
-      }, 
-      {
-        "name": "il", 
-        "type": "text"
-      }, 
-      {
-        "name": "race", 
-        "type": "text"
-      }, 
-      {
-        "name": "ethnicity", 
-        "type": "text"
-      }, 
-      {
-        "name": "gender", 
-        "type": "text"
-      }, 
-      {
-        "name": "agegrouptext", 
-        "type": "text"
-      }, 
-      {
-        "name": "agegroup", 
-        "type": "text"
-      }, 
-      {
-        "name": "count", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "iquery_measles_data"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "iquery_measles_data"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_iquery_typh_fever_data/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/mz7h-7mrm/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/mz7h-7mrm/rows.csv", 
   "description": "Typhoid fever is an enteric fever caused by the bacteria Salmonella enterica serotype Typhi (S. Typhi). While this bacterium is a member of the Salmonella species, this serotype produces an illness that is more severe than the gastrointestinal symptoms caused by the other serotypes of Salmonella. Illnesses caused by these other serotypes, known collectively as non-typhoidal Salmonella, are reported as Salmonellosis. In severe cases of Typhoid fever, delirium may occur during the course of disease. In fact, the term typhoid is derived from the Greek word for hazy, which described the mental state of cases during this phase. Other common symptoms of typhoid fever may include one or more of weakness, stomach aches, head-ache and loss of appetite. When not treated properly, typhoid fever can cause severe illness and even death.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,54 +11,7 @@
     }
   }, 
   "name": "Iquery Typh Fever Data", 
-  "schema": {
-    "columns": [
-      {
-        "name": "disease", 
-        "type": "text"
-      }, 
-      {
-        "name": "yeartext", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "stateorcounty", 
-        "type": "text"
-      }, 
-      {
-        "name": "il", 
-        "type": "text"
-      }, 
-      {
-        "name": "race", 
-        "type": "text"
-      }, 
-      {
-        "name": "ethnicity", 
-        "type": "text"
-      }, 
-      {
-        "name": "gender", 
-        "type": "text"
-      }, 
-      {
-        "name": "agegrouptext", 
-        "type": "text"
-      }, 
-      {
-        "name": "agegroup", 
-        "type": "text"
-      }, 
-      {
-        "name": "count", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "iquery_typh_fever_data"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "iquery_typh_fever_data"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cookcountycom_cook_county_clerk_tax_agency_rates/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/cookcounty.socrata.com/api/views/9sgn-ibhu/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/cookcounty.socrata.com/api/views/9sgn-ibhu/rows.csv", 
   "description": "Tax Agency rates for Tax Years 2006 through 2013. Data is updated yearly. For more information on Tax agencies visit the Cook County Clerk's website at: http://www.cookcountyclerk.com/tsd/Pages/default.aspx", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,6 @@
     }
   }, 
   "name": "Cook County Clerk - Tax Agency Rates", 
-  "schema": {
-    "columns": [
-      {
-        "name": "agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "agency_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "agency_rate_2006", 
-        "type": "real"
-      }, 
-      {
-        "name": "agency_rate_2007", 
-        "type": "real"
-      }, 
-      {
-        "name": "agency_rate_2008", 
-        "type": "real"
-      }, 
-      {
-        "name": "agency_rate_2009", 
-        "type": "real"
-      }, 
-      {
-        "name": "agency_rate_2010", 
-        "type": "real"
-      }, 
-      {
-        "name": "agency_rate_2011", 
-        "type": "real"
-      }, 
-      {
-        "name": "agency_rate_2012", 
-        "type": "real"
-      }, 
-      {
-        "name": "agency_rate_2013", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/cookcounty.socrata.com", 
-  "tableName": "cook_county_clerk_tax_agency_rates"
+  "schema": "socrata/cookcounty.socrata.com", 
+  "table": "cook_county_clerk_tax_agency_rates"
 }

@@ -1,0 +1,20 @@
+CREATE TABLE "idph_population_projections_2014_edition" (
+	"fips"	real,
+	"county"	text,
+	"age_group"	text,
+	"male_2010_april"	real,
+	"female_2010_april"	real,
+	"total_2010_april"	real,
+	"males_2010_july"	real,
+	"females_2010_july"	real,
+	"total_2010_july"	real,
+	"males_2015"	real,
+	"females_2015"	real,
+	"total_2015"	real,
+	"males_2020"	real,
+	"females_2020"	real,
+	"total_2020"	real,
+	"males_2025"	real,
+	"females_2025"	real,
+	"total_2025"	real
+);

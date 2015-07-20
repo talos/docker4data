@@ -1,0 +1,23 @@
+CREATE TABLE "mc311_service_requests" (
+	"sr_num"	text,
+	"created"	timestamp,
+	"closed"	timestamp,
+	"sr_stat_id"	text,
+	"department"	text,
+	"department_full_name"	text,
+	"sr_area"	text,
+	"sr_sub_area"	text,
+	"faq_ques_text"	text,
+	"x_sla"	real,
+	"x_city"	text,
+	"x_state"	text,
+	"x_zipcode"	text,
+	"sr_subtype_cd"	text,
+	"x_electiondist"	text,
+	"x_mdstatedist"	text,
+	"x_congdist"	text,
+	"x_cong_memb"	text,
+	"x_councildist"	text,
+	"x_councilmbr"	text,
+	"last_upd"	timestamp
+);

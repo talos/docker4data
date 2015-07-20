@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_choose_maryland_compare_states_technology/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/enjg-rjqz/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/enjg-rjqz/rows.csv", 
   "description": "Innovation - R&D funding, research awards, and patents.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Choose Maryland:  Compare States - Technology", 
-  "schema": {
-    "columns": [
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "federal_rd_spending_obligations", 
-        "type": "real"
-      }, 
-      {
-        "name": "nih_rd_awards", 
-        "type": "real"
-      }, 
-      {
-        "name": "sbir_awards_per_capita", 
-        "type": "real"
-      }, 
-      {
-        "name": "patents_per_100k", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "choose_maryland_compare_states_technology"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "choose_maryland_compare_states_technology"
 }

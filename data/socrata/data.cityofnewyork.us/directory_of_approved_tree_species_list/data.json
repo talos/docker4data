@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_directory_of_approved_tree_species_list/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/99wq-x9cr/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/99wq-x9cr/rows.csv", 
   "description": "Tree species  that are approved to be planted in NY City", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "Directory Of Approved Tree Species List", 
-  "schema": {
-    "columns": [
-      {
-        "name": "species_scientific_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "species_common_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "form", 
-        "type": "text"
-      }, 
-      {
-        "name": "growth_rate", 
-        "type": "text"
-      }, 
-      {
-        "name": "fall_color", 
-        "type": "text"
-      }, 
-      {
-        "name": "environmental_tolerances", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_tolerances", 
-        "type": "text"
-      }, 
-      {
-        "name": "notes_suggested_cultivars", 
-        "type": "text"
-      }, 
-      {
-        "name": "tree_size", 
-        "type": "text"
-      }, 
-      {
-        "name": "comments", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "directory_of_approved_tree_species_list"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "directory_of_approved_tree_species_list"
 }

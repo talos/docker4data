@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/performance_metrics_innovation_technology_site_availability/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/zfg3-p7xv/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/zfg3-p7xv/rows.csv", 
   "description": "The website availability metrics below are derived from an automated monitor that sends a request every two minutes to each website. The website is considered unavailable if the response to any request takes longer than a pre-defined wait time. The monitors run continuously and are not normally disabled during scheduled maintenance or downtime, so the reported metrics incorporate both planned and unplanned downtime.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "Performance Metrics - Innovation & Technology - Site Availability", 
-  "schema": {
-    "columns": [
-      {
-        "name": "week", 
-        "type": "text"
-      }, 
-      {
-        "name": "site_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "total_downtime_minutes_", 
-        "type": "real"
-      }, 
-      {
-        "name": "site_uptime_", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "performance_metrics_innovation_technology_site_availability"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "performance_metrics_innovation_technology_site_availability"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_water_quality_sampling_data/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/5tye-7ray/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/views/5tye-7ray/rows.csv", 
   "description": "Data collected to assess water quality conditions in the natural creeks, aquifers and lakes in the Austin area. This is raw data, provided directly from our Field Sample database (FSDB) and should be considered provisional. Data may or may not have been reviewed by project staff. Data quality (QC) flags have been provided to aid in the assessment of the data; R-flagged data should be considered suspect, but is provided as it represents taxpayer expenditure and the efforts undertaken to characterize the status of our environment. Note that some data over time will be improved and edited for accuracy and that QC flags can change based upon changes in project criteria.  Additional data may be availabe from other agencies (USGS, TCEQ, LCRA) and should be requested from them directly; some of this data may appear in those datasets.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,106 +13,7 @@
     }
   }, 
   "name": "Water Quality Sampling Data", 
-  "schema": {
-    "columns": [
-      {
-        "name": "watershed", 
-        "type": "text"
-      }, 
-      {
-        "name": "sample_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "site_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "site_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "medium", 
-        "type": "text"
-      }, 
-      {
-        "name": "param_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "parameter", 
-        "type": "text"
-      }, 
-      {
-        "name": "qualifier", 
-        "type": "text"
-      }, 
-      {
-        "name": "result", 
-        "type": "real"
-      }, 
-      {
-        "name": "unit", 
-        "type": "text"
-      }, 
-      {
-        "name": "filter", 
-        "type": "text"
-      }, 
-      {
-        "name": "sample_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "sample_site_no", 
-        "type": "real"
-      }, 
-      {
-        "name": "depth_in_meters", 
-        "type": "real"
-      }, 
-      {
-        "name": "method", 
-        "type": "text"
-      }, 
-      {
-        "name": "qc_flag", 
-        "type": "text"
-      }, 
-      {
-        "name": "project", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "ref_no", 
-        "type": "real"
-      }, 
-      {
-        "name": "lat_dd_wgs84", 
-        "type": "real"
-      }, 
-      {
-        "name": "lon_dd_wgs84", 
-        "type": "real"
-      }, 
-      {
-        "name": "sample_ref_no", 
-        "type": "real"
-      }, 
-      {
-        "name": "time_null", 
-        "type": "text"
-      }, 
-      {
-        "name": "qc_type", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "water_quality_sampling_data"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "water_quality_sampling_data"
 }

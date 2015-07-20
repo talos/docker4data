@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/substance_abuse_for_providers/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.mo.gov/download/c8mh-hzwdapplication/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.mo.gov/download/c8mh-hzwd/application/pdf", 
   "description": "A collection of national resources for clinicians working with military clients living with substance abuse.", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,7 +13,7 @@
     }
   }, 
   "name": "Substance Abuse for Providers", 
-  "schema": {}, 
-  "schemaName": "socrata/data.mo.gov", 
-  "tableName": "substance_abuse_for_providers"
+  "schema": "socrata/data.mo.gov", 
+  "status": "needs review", 
+  "table": "substance_abuse_for_providers"
 }

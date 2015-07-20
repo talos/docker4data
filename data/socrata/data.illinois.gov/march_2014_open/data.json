@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_march_2014_open/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/8vxd-vi2h/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/8vxd-vi2h/rows.csv", 
   "description": "This is a listing of all grants administered by the ICJIA that were open on March 19, 2014.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "March 2014 Open", 
-  "schema": {
-    "columns": [
-      {
-        "name": "program_agency_fund_recipient", 
-        "type": "text"
-      }, 
-      {
-        "name": "program_title_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "county_location_of_recipient", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "federal_program_or_state_fund_source_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "grant_start", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "grant_end", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "total_amount_of_program_funds", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "march_2014_open"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "march_2014_open"
 }

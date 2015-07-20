@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/oneida_county_2013_adopted_budget/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/download/wc3s-ji7rapplication/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/download/wc3s-ji7r/application/pdf", 
   "description": "Oneida County 2013 Adopted Budget", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Oneida County 2013 Adopted Budget", 
-  "schema": {}, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "oneida_county_2013_adopted_budget"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "oneida_county_2013_adopted_budget"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_colorado_s_bridge_deck_condition_rate/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/7am5-s63e/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/api/views/7am5-s63e/rows.csv", 
   "description": "Bridges in good condition typically have a rating from 80 to 100 and generally meet all safety and geometry standards. Good structures typically only require preservation-focused maintenance. Bridges in fair condition have a sufficiency rating from 50 to 80 and are qualified as structurally deficient or functionally obsolete. They marginally satisfy safety and geometry standards and require preservation-focused maintenance or occasional corrective rehabilitation work. Any bridge with a sufficiency rating of less than 50 and a status of structurally deficient or functionally obsolete is considered to be in poor condition. Bridges rated poor have exceeded their viable service life and require replacement or major rehabilitation.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Colorado's Bridge Deck Condition Rate", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "long_range_goal", 
-        "type": "text"
-      }, 
-      {
-        "name": "actual", 
-        "type": "text"
-      }, 
-      {
-        "name": "annual_target", 
-        "type": "text"
-      }, 
-      {
-        "name": "budget_in_millions", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "colorado_s_bridge_deck_condition_rate"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "colorado_s_bridge_deck_condition_rate"
 }

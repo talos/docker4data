@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_maryland_ozone_exceedance_days_in_2009/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/vbtk-pt3t/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/vbtk-pt3t/rows.csv", 
   "description": "Maryland 8-Hour Ozone Concentrations Exceeding 2008 Health-Based Standard in ppb, Finalized Data.  In 2008 EPA set the ozone standard to 75 ppb.  High levels of ozone can cause health effects including increased asthma attacks and other respiratory effects.  You can get more information about the health effects at http://www.epa.gov/air/ozonepollution/.  This data set details which monitoring locations in Maryland exceeded the standard during the year and the maximum concentrations on the dates the standard was exceeded.  More information on Maryland's air quality monitoring is available at http://www.mde.state.md.us/programs/Air/AirQualityMonitoring/Pages/index.aspx.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,46 +12,7 @@
     }
   }, 
   "name": "Maryland Ozone Exceedance Days in 2009", 
-  "schema": {
-    "columns": [
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "aldino", 
-        "type": "text"
-      }, 
-      {
-        "name": "calvert_co_barstow", 
-        "type": "text"
-      }, 
-      {
-        "name": "edgewood", 
-        "type": "real"
-      }, 
-      {
-        "name": "essex", 
-        "type": "text"
-      }, 
-      {
-        "name": "fairhill", 
-        "type": "text"
-      }, 
-      {
-        "name": "hu_beltsville", 
-        "type": "text"
-      }, 
-      {
-        "name": "padonia", 
-        "type": "text"
-      }, 
-      {
-        "name": "state_wide_max", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "maryland_ozone_exceedance_days_in_2009"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "maryland_ozone_exceedance_days_in_2009"
 }

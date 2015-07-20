@@ -1,0 +1,22 @@
+CREATE TABLE "street_hail_livery_permits" (
+	"active"	text,
+	"license_number"	text,
+	"name"	text,
+	"license_type"	text,
+	"license_status"	text,
+	"dmv_license_plate_number"	text,
+	"vehicle_vin_number"	text,
+	"vehicle_type"	text,
+	"certification_date"	timestamp,
+	"hack_up_date"	timestamp,
+	"vehicle_year"	timestamp,
+	"base_number"	text,
+	"base_name"	text,
+	"base_telephone_number"	text,
+	"base_website"	text,
+	"base_address"	text,
+	"suspension_reason"	text,
+	"suspension_date"	timestamp,
+	"date_updated"	timestamp,
+	"time_updated"	text
+);

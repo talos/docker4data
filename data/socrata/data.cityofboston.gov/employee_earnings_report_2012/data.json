@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofboston_employee_earnings_report_2012/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/views/effb-uspk/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/api/views/effb-uspk/rows.csv", 
   "description": "All City of Boston employees earnings, calendar year 2012", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,58 +13,7 @@
     }
   }, 
   "name": "Employee Earnings Report 2012", 
-  "schema": {
-    "columns": [
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "department", 
-        "type": "text"
-      }, 
-      {
-        "name": "title", 
-        "type": "text"
-      }, 
-      {
-        "name": "regular", 
-        "type": "real"
-      }, 
-      {
-        "name": "retro", 
-        "type": "real"
-      }, 
-      {
-        "name": "other", 
-        "type": "real"
-      }, 
-      {
-        "name": "overtime", 
-        "type": "real"
-      }, 
-      {
-        "name": "injured", 
-        "type": "real"
-      }, 
-      {
-        "name": "detail", 
-        "type": "real"
-      }, 
-      {
-        "name": "quinn", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_earnings", 
-        "type": "real"
-      }, 
-      {
-        "name": "zip", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "employee_earnings_report_2012"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "employee_earnings_report_2012"
 }

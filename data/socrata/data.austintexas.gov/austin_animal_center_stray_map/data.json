@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_austintexas_austin_animal_center_stray_map/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/kz4x-q9k5/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/views/kz4x-q9k5/rows.csv", 
   "description": "This map shows all stray cats and dogs that are currently listed in AAC's database for no longer than a week. Most will be located at AAC, but some will be held by citizens, which will be indicated on the \"At AAC\" column. AAC will post an image as soon as possible, which can be accessed by clicking the link in the \"Image Link\" column. Please also check http://www.austintexas.gov/department/lost-found-pet for more information.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "Austin Animal Center Stray Map", 
-  "schema": {
-    "columns": [
-      {
-        "name": "animal_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "at_aac", 
-        "type": "text"
-      }, 
-      {
-        "name": "intake_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "type", 
-        "type": "text"
-      }, 
-      {
-        "name": "looks_like", 
-        "type": "text"
-      }, 
-      {
-        "name": "color", 
-        "type": "text"
-      }, 
-      {
-        "name": "sex", 
-        "type": "text"
-      }, 
-      {
-        "name": "age", 
-        "type": "text"
-      }, 
-      {
-        "name": "image", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "austin_animal_center_stray_map"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "austin_animal_center_stray_map"
 }

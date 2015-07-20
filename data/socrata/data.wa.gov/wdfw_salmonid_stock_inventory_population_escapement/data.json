@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wa_wdfw_salmonid_stock_inventory_population_escapement/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/fgyz-n3uk/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.wa.gov/api/views/fgyz-n3uk/rows.csv", 
   "description": "WDFW SaSI wild samonid abundance", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,70 +13,7 @@
     }
   }, 
   "name": "WDFW-Salmonid Stock Inventory Population Escapement", 
-  "schema": {
-    "columns": [
-      {
-        "name": "stock_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "population_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "sub_population_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "data_series_num", 
-        "type": "real"
-      }, 
-      {
-        "name": "species", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "abundance_qty", 
-        "type": "real"
-      }, 
-      {
-        "name": "data_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "production_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "calculation_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "escapement_methodology", 
-        "type": "text"
-      }, 
-      {
-        "name": "escapement_methodology_desc", 
-        "type": "text"
-      }, 
-      {
-        "name": "biologist_methodology_desc", 
-        "type": "text"
-      }, 
-      {
-        "name": "comments", 
-        "type": "text"
-      }, 
-      {
-        "name": "last_update", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.wa.gov", 
-  "tableName": "wdfw_salmonid_stock_inventory_population_escapement"
+  "schema": "socrata/data.wa.gov", 
+  "status": "needs review", 
+  "table": "wdfw_salmonid_stock_inventory_population_escapement"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/bronx_accidents_december_2013/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/j8mk-f7pb/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/j8mk-f7pb/rows.csv", 
   "description": "bronx accidents at intersections as reported by the NYPD. Vehicle type involvement data has been parsed for visualization use", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,110 +13,6 @@
     }
   }, 
   "name": "Bronx Accidents December 2013", 
-  "schema": {
-    "columns": [
-      {
-        "name": "intersection_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "number_of_collisions", 
-        "type": "real"
-      }, 
-      {
-        "name": "personsinvolved", 
-        "type": "real"
-      }, 
-      {
-        "name": "collisions_with_injuries", 
-        "type": "real"
-      }, 
-      {
-        "name": "category", 
-        "type": "text"
-      }, 
-      {
-        "name": "injured_motorist", 
-        "type": "real"
-      }, 
-      {
-        "name": "injured_passengers", 
-        "type": "real"
-      }, 
-      {
-        "name": "injured_cyclists", 
-        "type": "real"
-      }, 
-      {
-        "name": "injured_pedestrians", 
-        "type": "real"
-      }, 
-      {
-        "name": "injured_totals", 
-        "type": "real"
-      }, 
-      {
-        "name": "killed_motorist", 
-        "type": "real"
-      }, 
-      {
-        "name": "killed_passengers", 
-        "type": "real"
-      }, 
-      {
-        "name": "killed_cyclists", 
-        "type": "real"
-      }, 
-      {
-        "name": "killed_pedestrians", 
-        "type": "real"
-      }, 
-      {
-        "name": "killed_totals", 
-        "type": "real"
-      }, 
-      {
-        "name": "vehicle_types", 
-        "type": "text"
-      }, 
-      {
-        "name": "number", 
-        "type": "real"
-      }, 
-      {
-        "name": "vehicle_types_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "number_2", 
-        "type": "real"
-      }, 
-      {
-        "name": "vehicle_types_3", 
-        "type": "text"
-      }, 
-      {
-        "name": "number_3", 
-        "type": "real"
-      }, 
-      {
-        "name": "vehicle_types_4", 
-        "type": "text"
-      }, 
-      {
-        "name": "number_4", 
-        "type": "real"
-      }, 
-      {
-        "name": "contributing_factors", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/bronx.lehman.cuny.edu", 
-  "tableName": "bronx_accidents_december_2013"
+  "schema": "socrata/bronx.lehman.cuny.edu", 
+  "table": "bronx_accidents_december_2013"
 }

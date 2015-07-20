@@ -1,0 +1,20 @@
+CREATE TABLE "table_8_adult_health_and_health_expenditure" (
+	"hdi_rank"	real,
+	"country"	text,
+	"country_code"	text,
+	"adult_mortality_per_1_000_people_female_2011"	real,
+	"adult_mortality_per_1_000_people_male_2011"	real,
+	"age_standardized_death_from_alcohol_use_per_100_000_people_2008"	real,
+	"age_standardized_death_from_drug_use_per_100_000_people_2008"	real,
+	"age_standardised_obesity_among_of_population_aged_20_years_and_older_2008"	real,
+	"hiv_prevalence_rate_adults_aged_15_49_2012"	text,
+	"note"	text,
+	"life_expactancy_at_age_60_years_2010_2015"	real,
+	"note_a"	text,
+	"life_expectancy_health_adjusted_years_female_2010"	real,
+	"life_expectancy_health_adjusted_years_male_2010"	real,
+	"physicians_per_10_000_people_2003_2012"	real,
+	"note_b"	text,
+	"health_expenditure_total_as_of_gdp_2011"	real,
+	"health_expenditure_out_of_pocket_of_total_expenditure_2011"	real
+);

@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/all_dnd_managed_city_property_inventory/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/api/geospatial/6br5-mv9w", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/api/geospatial/6br5-mv9w", 
   "description": "Department of Neighborhood Development managed city owned property. Spatial projection WGS 84 long lat (EPSG:4326)", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,9 +14,7 @@
     }
   }, 
   "name": "All DND Managed City Property Inventory", 
-  "schema": {
-    "columns": []
-  }, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "all_dnd_managed_city_property_inventory"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "all_dnd_managed_city_property_inventory"
 }

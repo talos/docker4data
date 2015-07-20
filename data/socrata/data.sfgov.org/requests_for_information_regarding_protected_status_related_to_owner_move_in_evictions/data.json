@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/requests_for_information_regarding_protected_status_related_to_owner_move_in_evictions/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.sfgov.org/api/views/ugv9-ywu3/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.sfgov.org/api/views/ugv9-ywu3/rows.csv", 
   "description": "This dataset includes requests for information filed with the San Francisco Rent Board under SF Admin. Code \u00a737.9(i) or (j). Under the Code, residents receiving an eviction notice may claim protected status either due to age and/or disability and length of tenancy or based on length of tenancy and occupancy of a child under the age of 18 during the school year. They need not be filed as estoppels. However, it has become common practice to add the request pursuant to (I) or (j) to estoppels, which is a legal term for limiting a legal action that could normally be taken, e.g. evicting. Data are available starting in January 1999.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,46 +12,7 @@
     }
   }, 
   "name": "Requests for Information Regarding Protected Status Related to Owner Move-In Evictions", 
-  "schema": {
-    "columns": [
-      {
-        "name": "estoppel_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip", 
-        "type": "text"
-      }, 
-      {
-        "name": "file_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "supervisor_district", 
-        "type": "real"
-      }, 
-      {
-        "name": "neighborhood", 
-        "type": "text"
-      }, 
-      {
-        "name": "client_location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.sfgov.org", 
-  "tableName": "requests_for_information_regarding_protected_status_related_to_owner_move_in_evictions"
+  "schema": "socrata/data.sfgov.org", 
+  "status": "needs review", 
+  "table": "requests_for_information_regarding_protected_status_related_to_owner_move_in_evictions"
 }

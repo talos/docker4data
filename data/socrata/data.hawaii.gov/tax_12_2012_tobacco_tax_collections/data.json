@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_tax_12_2012_tobacco_tax_collections/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/42id-b4fw/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/42id-b4fw/rows.csv", 
   "description": "Tobacco Tax Collections", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,46 +13,7 @@
     }
   }, 
   "name": "TAX 12-2012 Tobacco Tax Collections", 
-  "schema": {
-    "columns": [
-      {
-        "name": "amount_of_tax", 
-        "type": "text"
-      }, 
-      {
-        "name": "first_district", 
-        "type": "real"
-      }, 
-      {
-        "name": "second_district", 
-        "type": "real"
-      }, 
-      {
-        "name": "third_district", 
-        "type": "real"
-      }, 
-      {
-        "name": "fourth_district", 
-        "type": "real"
-      }, 
-      {
-        "name": "dec_2012", 
-        "type": "real"
-      }, 
-      {
-        "name": "dec_2011", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2012_2013", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2011_2012", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "tax_12_2012_tobacco_tax_collections"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "tax_12_2012_tobacco_tax_collections"
 }

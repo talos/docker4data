@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_racvb_2013_events_calendar/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/pf4f-prxr/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/pf4f-prxr/rows.csv", 
   "description": "RACVB 2013 Events Calendar", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "RACVB 2013 Events Calendar", 
-  "schema": {
-    "columns": [
-      {
-        "name": "sponser", 
-        "type": "text"
-      }, 
-      {
-        "name": "name_of_event", 
-        "type": "text"
-      }, 
-      {
-        "name": "start_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "end_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "event_site", 
-        "type": "text"
-      }, 
-      {
-        "name": "event_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "room_nights", 
-        "type": "real"
-      }, 
-      {
-        "name": "attendance", 
-        "type": "real"
-      }, 
-      {
-        "name": "hq_hotel", 
-        "type": "text"
-      }, 
-      {
-        "name": "hotel_address", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "racvb_2013_events_calendar"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "racvb_2013_events_calendar"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_banking_institution_history_beginning_1784/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/mbsk-bxfq/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/mbsk-bxfq/rows.csv", 
   "description": "This file contains a history of banking institutions that are, or were, state chartered, as well as most federally chartered institutions that have operated in the state of New York.  Events in the life cycle of institutions are listed by date.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "Banking Institution History: Beginning 1784", 
-  "schema": {
-    "columns": [
-      {
-        "name": "institution_name_primary", 
-        "type": "text"
-      }, 
-      {
-        "name": "identification_number_primary", 
-        "type": "text"
-      }, 
-      {
-        "name": "type", 
-        "type": "text"
-      }, 
-      {
-        "name": "event_date", 
-        "type": "text"
-      }, 
-      {
-        "name": "event_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "institution_name_secondary", 
-        "type": "text"
-      }, 
-      {
-        "name": "identification_number_secondary", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "banking_institution_history_beginning_1784"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "banking_institution_history_beginning_1784"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_marketing_fy13/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/7fnj-w8cj/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/7fnj-w8cj/rows.csv", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -13,42 +9,7 @@
     }
   }, 
   "name": "Marketing FY13", 
-  "schema": {
-    "columns": [
-      {
-        "name": "grantor_agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "grantee", 
-        "type": "text"
-      }, 
-      {
-        "name": "description_of_purpose_of_award", 
-        "type": "text"
-      }, 
-      {
-        "name": "grant_amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "start_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "completion_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "duration_in_days", 
-        "type": "real"
-      }, 
-      {
-        "name": "grantee_zip_code", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "marketing_fy13"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "marketing_fy13"
 }

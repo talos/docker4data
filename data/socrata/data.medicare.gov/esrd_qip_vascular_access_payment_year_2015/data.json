@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_medicare_esrd_qip_vascular_access_payment_year_2015/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/9vdt-zpmw/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.medicare.gov/api/views/9vdt-zpmw/rows.csv", 
   "description": "Payment Year 2015 ESRD QIP data by facility: % hemodialysis patients using an arteriovenous fistula, % hemodialysis patients using an intravenous catheter", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,86 +12,7 @@
     }
   }, 
   "name": "ESRD QIP - Vascular Access - Payment Year 2015", 
-  "schema": {
-    "columns": [
-      {
-        "name": "facility_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "cms_certification_number_ccn", 
-        "type": "text"
-      }, 
-      {
-        "name": "alternate_ccn_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "alternate_ccn_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "alternate_ccn_3", 
-        "type": "text"
-      }, 
-      {
-        "name": "address_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "address_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "network", 
-        "type": "text"
-      }, 
-      {
-        "name": "fistula_performance_rate", 
-        "type": "text"
-      }, 
-      {
-        "name": "fistula_measure_score", 
-        "type": "text"
-      }, 
-      {
-        "name": "national_avg_fistula_measure_score", 
-        "type": "text"
-      }, 
-      {
-        "name": "catheter_performance_rate", 
-        "type": "text"
-      }, 
-      {
-        "name": "catheter_measure_score", 
-        "type": "text"
-      }, 
-      {
-        "name": "national_avg_catheter_measure_score", 
-        "type": "text"
-      }, 
-      {
-        "name": "vascular_access_combined_measure_score", 
-        "type": "text"
-      }, 
-      {
-        "name": "national_avg_vascular_access_combined_measure_score", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.medicare.gov", 
-  "tableName": "esrd_qip_vascular_access_payment_year_2015"
+  "schema": "socrata/data.medicare.gov", 
+  "status": "needs review", 
+  "table": "esrd_qip_vascular_access_payment_year_2015"
 }

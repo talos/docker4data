@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_canal_system_guard_gates/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/daiv-97a8/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/daiv-97a8/rows.csv", 
   "description": "The New York State Canal System is a 524 mile inland waterway that includes 20 guard gates, which are used to close off a section of canal seasonally or in rare instances in an emergency so that a section can be dewatered. Information provided in this data set includes the name of each guard gate, its phone number (where applicable), and specific location by mileage along the canal and geographic coordinates.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "Canal System Guard Gates", 
-  "schema": {
-    "columns": [
-      {
-        "name": "canal_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "mile", 
-        "type": "real"
-      }, 
-      {
-        "name": "name_location", 
-        "type": "text"
-      }, 
-      {
-        "name": "phone", 
-        "type": "text"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "canal_system_guard_gates"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "canal_system_guard_gates"
 }

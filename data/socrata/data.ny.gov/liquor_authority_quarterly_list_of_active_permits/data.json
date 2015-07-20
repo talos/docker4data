@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_liquor_authority_quarterly_list_of_active_permits/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/mmmf-xgpx/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/mmmf-xgpx/rows.csv", 
   "description": "This dataset contains a list of all active permits issued by the State Liquor Authority.  Permits in this dataset are issued for 1-3 year terms.  This dataset does not include temporary or single event.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,86 +13,7 @@
     }
   }, 
   "name": "Liquor Authority Quarterly List of Active Permits", 
-  "schema": {
-    "columns": [
-      {
-        "name": "serial_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "agency_zone_office_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "agency_zone_office_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "county_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "type_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "class_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "permit_class_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "premises_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "doing_business_as_dba", 
-        "type": "text"
-      }, 
-      {
-        "name": "actual_address_of_premises_address1", 
-        "type": "text"
-      }, 
-      {
-        "name": "additional_address_information_address2", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "certificate_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "original_issue_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "effective_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "expiration_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "liquor_authority_quarterly_list_of_active_permits"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "liquor_authority_quarterly_list_of_active_permits"
 }

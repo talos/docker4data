@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_org_codes/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/f992-f2zj/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/f992-f2zj/rows.csv", 
   "description": "City of Rockford Finance Org Codes", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,42 +12,7 @@
     }
   }, 
   "name": "Org Codes", 
-  "schema": {
-    "columns": [
-      {
-        "name": "org_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "fund", 
-        "type": "real"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "function", 
-        "type": "real"
-      }, 
-      {
-        "name": "department", 
-        "type": "real"
-      }, 
-      {
-        "name": "division", 
-        "type": "real"
-      }, 
-      {
-        "name": "section", 
-        "type": "real"
-      }, 
-      {
-        "name": "cost_center", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "org_codes"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "org_codes"
 }

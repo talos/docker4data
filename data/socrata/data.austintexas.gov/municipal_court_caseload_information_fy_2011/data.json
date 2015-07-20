@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/municipal_court_caseload_information_fy_2011/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.austintexas.gov/api/views/u8uw-t2sm/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.austintexas.gov/api/views/u8uw-t2sm/rows.csv", 
   "description": "This data is provided to help with analysis of various violations charged throughout the City of Austin", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,54 +13,7 @@
     }
   }, 
   "name": "Municipal Court Caseload Information FY 2011", 
-  "schema": {
-    "columns": [
-      {
-        "name": "offense_case_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "offense_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "offense_time", 
-        "type": "text"
-      }, 
-      {
-        "name": "offense_charge_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "offense_street_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "offense_cross_street_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "school_zone", 
-        "type": "text"
-      }, 
-      {
-        "name": "construction_zone", 
-        "type": "text"
-      }, 
-      {
-        "name": "case_closed", 
-        "type": "text"
-      }, 
-      {
-        "name": "agency_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "officer_code", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.austintexas.gov", 
-  "tableName": "municipal_court_caseload_information_fy_2011"
+  "schema": "socrata/data.austintexas.gov", 
+  "status": "needs review", 
+  "table": "municipal_court_caseload_information_fy_2011"
 }

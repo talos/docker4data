@@ -1,0 +1,22 @@
+CREATE TABLE "trial_environmental_sensor_readings" (
+	"timestamp"	timestamp,
+	"mac"	text,
+	"boardtype"	text,
+	"boardid"	text,
+	"temp_max"	real,
+	"temp_min"	real,
+	"temp_avg"	real,
+	"light_max"	real,
+	"light_min"	real,
+	"light_avg"	real,
+	"humidity_min"	real,
+	"humidity_max"	real,
+	"humidity_avg"	real,
+	"model"	text,
+	"latitude"	real,
+	"longitude"	real,
+	"elevation"	real,
+	"location"	text,
+	"rowid"	text,
+	"position"	text
+);

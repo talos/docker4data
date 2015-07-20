@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_kingcounty_election_results_august_2011_primary/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/3twh-5u42/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.kingcounty.gov/api/views/3twh-5u42/rows.csv", 
   "description": "Final Election results, August 2011 primary. To see when this was updated, click \"About\" on the far right of this page. (https://datakc.org/d/3twh-5u42)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "Election results, August 2011 primary", 
-  "schema": {
-    "columns": [
-      {
-        "name": "race", 
-        "type": "text"
-      }, 
-      {
-        "name": "registered_voters", 
-        "type": "real"
-      }, 
-      {
-        "name": "votes_cast_in_this_race", 
-        "type": "real"
-      }, 
-      {
-        "name": "choice", 
-        "type": "text"
-      }, 
-      {
-        "name": "votes", 
-        "type": "real"
-      }, 
-      {
-        "name": "percent", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.kingcounty.gov", 
-  "tableName": "election_results_august_2011_primary"
+  "schema": "socrata/data.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "election_results_august_2011_primary"
 }

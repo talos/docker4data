@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/sanitation_type_by_county/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/opendata.go.ke/api/views/bdst-na8p/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/opendata.go.ke/api/views/bdst-na8p/rows.csv", 
   "description": "coverage data for sanitation by county", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "Sanitation type by County", 
-  "schema": {
-    "columns": [
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "coverage_open_defecation", 
-        "type": "text"
-      }, 
-      {
-        "name": "coverage_improved", 
-        "type": "text"
-      }, 
-      {
-        "name": "coverage_unimproved", 
-        "type": "text"
-      }, 
-      {
-        "name": "number_of_poor_people_in_2005_06", 
-        "type": "real"
-      }, 
-      {
-        "name": "poverty_gap_2005_2006_based_on_kihbs", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/opendata.go.ke", 
-  "tableName": "sanitation_type_by_county"
+  "schema": "socrata/opendata.go.ke", 
+  "status": "needs review", 
+  "table": "sanitation_type_by_county"
 }

@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/colorado_municipal_boundaries_annexations/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/geospatial/5qqr-23dz", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/api/geospatial/5qqr-23dz", 
   "description": "The State Demography Office has produced a boundaries file for Colorado Municipalities, and this file provides annexation data that can be combined with the Municipal Boundaries dataset. The data includes digitized its annexation records from 2010 to present.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Colorado Municipal Boundaries Annexations", 
-  "schema": {}, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "colorado_municipal_boundaries_annexations"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "colorado_municipal_boundaries_annexations"
 }

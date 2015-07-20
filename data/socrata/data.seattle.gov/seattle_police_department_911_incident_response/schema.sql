@@ -1,0 +1,21 @@
+CREATE TABLE "seattle_police_department_911_incident_response" (
+	"cad_cdw_id"	text,
+	"cad_event_number"	text,
+	"general_offense_number"	text,
+	"event_clearance_code"	text,
+	"event_clearance_description"	text,
+	"event_clearance_subgroup"	text,
+	"event_clearance_group"	text,
+	"event_clearance_date"	timestamp,
+	"hundred_block_location"	text,
+	"district_sector"	text,
+	"zone_beat"	text,
+	"census_tract"	text,
+	"longitude"	real,
+	"latitude"	real,
+	"incident_location"	text,
+	"initial_type_description"	text,
+	"initial_type_subgroup"	text,
+	"initial_type_group"	text,
+	"at_scene_time"	timestamp
+);

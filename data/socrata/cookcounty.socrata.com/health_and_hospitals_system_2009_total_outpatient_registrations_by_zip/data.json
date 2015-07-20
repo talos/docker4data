@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/health_and_hospitals_system_2009_total_outpatient_registrations_by_zip/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/cookcounty.socrata.com/api/views/c62y-v8ri/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/cookcounty.socrata.com/api/views/c62y-v8ri/rows.csv", 
   "description": "Enclosed data represents outpatient registrations including hospital ancillary services (e.g. laboratory, radiology, physical therapy, dialysis), primary and speciality care clinics (Fantus, Stroger Speciality Clinic, Ambulatory Screening Center, Prieto, Austin, Logan Square, Cicero, Vista, Child Advocacy Center, Woodlawn Adult Clinic, Englewood, Morton East, Near South, Sengstacke, Southside Pediatrics, Southside OB, Cottage Grove, Lincoln Robbins, Woody Winston, and OFH Speciality Clinic) same day surgery, CORE center and emergency department registrations.\r\n\r\n2,330 of 2009 and 3,093 of 2008 zip code registrations are not included in this data file due to privacy concerns when 10 registrations or less occurred per zip code", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,6 @@
     }
   }, 
   "name": "Health and Hospitals System-2009 Total Outpatient Registrations By ZIP", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "total", 
-        "type": "real"
-      }, 
-      {
-        "name": "locator", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/cookcounty.socrata.com", 
-  "tableName": "health_and_hospitals_system_2009_total_outpatient_registrations_by_zip"
+  "schema": "socrata/cookcounty.socrata.com", 
+  "table": "health_and_hospitals_system_2009_total_outpatient_registrations_by_zip"
 }

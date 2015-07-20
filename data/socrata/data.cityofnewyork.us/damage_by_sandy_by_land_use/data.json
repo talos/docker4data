@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_damage_by_sandy_by_land_use/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/tgvi-w9ww/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/tgvi-w9ww/rows.csv", 
   "description": "Details about damage by Storm Sandy to various types of buildings", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "Damage By Sandy By Land Use", 
-  "schema": {
-    "columns": [
-      {
-        "name": "land_use", 
-        "type": "text"
-      }, 
-      {
-        "name": "of_total_destroyed_by_storm", 
-        "type": "text"
-      }, 
-      {
-        "name": "of_total_red_tags", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "damage_by_sandy_by_land_use"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "damage_by_sandy_by_land_use"
 }

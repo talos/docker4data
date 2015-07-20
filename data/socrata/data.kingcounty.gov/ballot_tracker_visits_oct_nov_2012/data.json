@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_kingcounty_ballot_tracker_visits_oct_nov_2012/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/q7kn-qdh7/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.kingcounty.gov/api/views/q7kn-qdh7/rows.csv", 
   "description": "Ballot tracker page visits for the November 2012 general election", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,18 +13,7 @@
     }
   }, 
   "name": "Ballot Tracker visits Oct-Nov 2012", 
-  "schema": {
-    "columns": [
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "page_visits", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.kingcounty.gov", 
-  "tableName": "ballot_tracker_visits_oct_nov_2012"
+  "schema": "socrata/data.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "ballot_tracker_visits_oct_nov_2012"
 }

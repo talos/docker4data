@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_raleighnc_raleigh_quickfacts/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.raleighnc.gov/api/views/fuys-kh3c/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.raleighnc.gov/api/views/fuys-kh3c/rows.csv", 
   "description": "Summary profile of Raleigh, NC.  QuickFacts provides easy access to facts about the people, business, and geography of the United States. (Accessed 2013.  Check Census website for most current statistics.)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,18 +13,7 @@
     }
   }, 
   "name": "Raleigh QuickFacts", 
-  "schema": {
-    "columns": [
-      {
-        "name": "people_quickfacts", 
-        "type": "text"
-      }, 
-      {
-        "name": "raleigh", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.raleighnc.gov", 
-  "tableName": "raleigh_quickfacts"
+  "schema": "socrata/data.raleighnc.gov", 
+  "status": "needs review", 
+  "table": "raleigh_quickfacts"
 }

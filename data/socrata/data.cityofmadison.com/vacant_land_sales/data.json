@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofmadison_vacant_land_sales/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofmadison.com/api/views/iig4-49xp/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofmadison.com/api/views/iig4-49xp/rows.csv", 
   "description": "Vacant Commercial Sales Determined to be Arms-Length and Verified by Assessor's Office Staff.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,74 +13,7 @@
     }
   }, 
   "name": "Vacant Land Sales", 
-  "schema": {
-    "columns": [
-      {
-        "name": "sale", 
-        "type": "text"
-      }, 
-      {
-        "name": "assessment_area", 
-        "type": "text"
-      }, 
-      {
-        "name": "parcel_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "situs", 
-        "type": "text"
-      }, 
-      {
-        "name": "grantor", 
-        "type": "text"
-      }, 
-      {
-        "name": "grantee", 
-        "type": "text"
-      }, 
-      {
-        "name": "document", 
-        "type": "text"
-      }, 
-      {
-        "name": "conv", 
-        "type": "text"
-      }, 
-      {
-        "name": "sale_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "sale_price", 
-        "type": "real"
-      }, 
-      {
-        "name": "land_area", 
-        "type": "text"
-      }, 
-      {
-        "name": "sale_price_per_square_foot", 
-        "type": "real"
-      }, 
-      {
-        "name": "dwelling_units", 
-        "type": "text"
-      }, 
-      {
-        "name": "sale_price_dwelling_units", 
-        "type": "real"
-      }, 
-      {
-        "name": "zoning", 
-        "type": "text"
-      }, 
-      {
-        "name": "comments", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofmadison.com", 
-  "tableName": "vacant_land_sales"
+  "schema": "socrata/data.cityofmadison.com", 
+  "status": "needs review", 
+  "table": "vacant_land_sales"
 }

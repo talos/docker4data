@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_target_community_district/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/tngj-drbu/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/tngj-drbu/rows.csv", 
   "description": "The Table representing \"Target Community District Probation Demographic Data\" as of 08/05/2011", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Target Community District", 
-  "schema": {
-    "columns": [
-      {
-        "name": "borough_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "community_district", 
-        "type": "text"
-      }, 
-      {
-        "name": "total_probationers_ages_16_24", 
-        "type": "real"
-      }, 
-      {
-        "name": "male_probationers_ages_16_24", 
-        "type": "real"
-      }, 
-      {
-        "name": "female_probationers_ages_16_24", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "target_community_district"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "target_community_district"
 }

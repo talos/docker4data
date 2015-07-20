@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_wa_wdfw_references/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.wa.gov/api/views/shjt-iayp/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.wa.gov/api/views/shjt-iayp/rows.csv", 
   "description": "A list of references used in the Salmon Conservation Reporting Engine (SCoRE)", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "WDFW-References", 
-  "schema": {
-    "columns": [
-      {
-        "name": "reference_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "reference_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "reference_link", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.wa.gov", 
-  "tableName": "wdfw_references"
+  "schema": "socrata/data.wa.gov", 
+  "status": "needs review", 
+  "table": "wdfw_references"
 }

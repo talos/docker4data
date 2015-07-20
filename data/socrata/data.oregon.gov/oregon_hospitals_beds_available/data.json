@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_oregon_oregon_hospitals_beds_available/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oregon.gov/api/views/2ny9-zww6/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.oregon.gov/api/views/2ny9-zww6/rows.csv", 
   "description": "NOT ACTUAL DATA!! THIS DATASET WAS SET UP FOR A TEST FOR OPENGOVWEST, 2011", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -15,18 +11,7 @@
     }
   }, 
   "name": "Oregon Hospitals: Beds Available", 
-  "schema": {
-    "columns": [
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "numbeds", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.oregon.gov", 
-  "tableName": "oregon_hospitals_beds_available"
+  "schema": "socrata/data.oregon.gov", 
+  "status": "needs review", 
+  "table": "oregon_hospitals_beds_available"
 }

@@ -1,0 +1,22 @@
+CREATE TABLE "master_kc_ballot_drop_box_dataset" (
+	"ballot_drop_box"	text,
+	"in_use"	text,
+	"dates_open"	text,
+	"hours"	text,
+	"election_day_hours"	text,
+	"address"	text,
+	"box_city"	text,
+	"box_zip_code"	text,
+	"description"	text,
+	"pic"	text,
+	"chinese"	text,
+	"chinese_description"	text,
+	"vietnamese"	text,
+	"vietnamese_description"	text,
+	"location_2"	text,
+	"google_map_link"	text,
+	"map_icon"	text,
+	"latitude"	real,
+	"longitude"	real,
+	"location"	text
+);

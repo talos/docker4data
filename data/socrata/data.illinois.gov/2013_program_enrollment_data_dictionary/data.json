@@ -1,9 +1,6 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/2013_program_enrollment_data_dictionary/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/download/dbbx-3cz2application/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/download/dbbx-3cz2/application/pdf", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -14,7 +11,7 @@
     }
   }, 
   "name": "2013 Program Enrollment Data Dictionary", 
-  "schema": {}, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "2013_program_enrollment_data_dictionary"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "2013_program_enrollment_data_dictionary"
 }

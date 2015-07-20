@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_healthny_hospital_maternity_information_beginning_2008/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/net3-iygw/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/health.data.ny.gov/api/views/net3-iygw/rows.csv", 
   "description": "This dataset contains information reported by hospitals required to be compliant with New York State\u2019s Maternity Information Law.  This information can help you to better understand what to expect, to learn more about your childbirth choices, and to plan for your baby\u2019s birth. To view the maternity information law, visit: http://www.health.ny.gov/facilities/hospital/maternity/public_health_law_section_2803-j.htm. To view the Maternity Information Brochure, visit: http://www.health.ny.gov/publications/2935.pdf. In addition, these data are also displayed on the New York State Health Profiles website at http://profiles.health.ny.gov/hospital. Please see the \u201cAbout\u201d tab for more.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "Hospital Maternity Information: Beginning 2008", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "pfi", 
-        "type": "real"
-      }, 
-      {
-        "name": "hospname", 
-        "type": "text"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "measureid", 
-        "type": "real"
-      }, 
-      {
-        "name": "nice_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "category", 
-        "type": "text"
-      }, 
-      {
-        "name": "category_2", 
-        "type": "text"
-      }, 
-      {
-        "name": "count", 
-        "type": "real"
-      }, 
-      {
-        "name": "pct", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/health.data.ny.gov", 
-  "tableName": "hospital_maternity_information_beginning_2008"
+  "schema": "socrata/health.data.ny.gov", 
+  "status": "needs review", 
+  "table": "hospital_maternity_information_beginning_2008"
 }

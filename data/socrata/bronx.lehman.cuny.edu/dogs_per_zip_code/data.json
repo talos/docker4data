@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/dogs_per_zip_code/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/jvnw-g2wu/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/jvnw-g2wu/rows.csv", 
   "description": "Population data gathered from a WNYC table of the most popular dog names", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,6 @@
     }
   }, 
   "name": "Dogs Per Zip Code", 
-  "schema": {
-    "columns": [
-      {
-        "name": "zipcode", 
-        "type": "text"
-      }, 
-      {
-        "name": "point_x", 
-        "type": "text"
-      }, 
-      {
-        "name": "point_y", 
-        "type": "real"
-      }, 
-      {
-        "name": "number_of_dogs", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/bronx.lehman.cuny.edu", 
-  "tableName": "dogs_per_zip_code"
+  "schema": "socrata/bronx.lehman.cuny.edu", 
+  "table": "dogs_per_zip_code"
 }

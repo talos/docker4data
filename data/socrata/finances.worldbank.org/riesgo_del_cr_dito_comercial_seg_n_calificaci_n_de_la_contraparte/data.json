@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/riesgo_del_cr_dito_comercial_seg_n_calificaci_n_de_la_contraparte/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/finances.worldbank.org/api/views/4nus-96v3/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/finances.worldbank.org/api/views/4nus-96v3/rows.csv", 
   "description": "Entrega datos sobre riesgos de los cr\u00e9ditos comerciales para las inversiones del BIRF y la AIF. Se muestran los valores netos de la garant\u00eda recibida. En el caso del BIRF, la disminuci\u00f3n del riesgo de los cr\u00e9ditos en el ejercicio 2010 refleja una reducci\u00f3n en el tama\u00f1o del programa de inversiones del BIRF debido a un descenso en la liquidez y a una disminuci\u00f3n relativamente menor del riesgo neto de swap (permuta financiera) del BIRF.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Riesgo del cr\u00e9dito comercial seg\u00fan calificaci\u00f3n de la contraparte", 
-  "schema": {
-    "columns": [
-      {
-        "name": "organization", 
-        "type": "text"
-      }, 
-      {
-        "name": "period_end_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "category", 
-        "type": "text"
-      }, 
-      {
-        "name": "counterparty_rating", 
-        "type": "text"
-      }, 
-      {
-        "name": "amount_us_millions", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/finances.worldbank.org", 
-  "tableName": "riesgo_del_cr_dito_comercial_seg_n_calificaci_n_de_la_contraparte"
+  "schema": "socrata/finances.worldbank.org", 
+  "status": "needs review", 
+  "table": "riesgo_del_cr_dito_comercial_seg_n_calificaci_n_de_la_contraparte"
 }

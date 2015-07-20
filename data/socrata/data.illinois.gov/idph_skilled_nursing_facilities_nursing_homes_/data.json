@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/idph_skilled_nursing_facilities_nursing_homes_/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/jaeu-5c56/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/jaeu-5c56/rows.csv", 
   "description": "Nursing Facility Services are provided by Medicaid certified nursing homes, which primarily provide three types of services:\n\nSkilled nursing or medical care and related services;\nRehabilitation needed due to injury, disability, or illness;\nLong term care \u2014health-related care and services (above the level of room and board) not available in the community, needed regularly due to a mental or physical condition.\n\nFacilities have been designated as such in this list by presence of Skilled, Intermediate or Sheltered Beds.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,86 +13,7 @@
     }
   }, 
   "name": "IDPH - Skilled Nursing Facilities (Nursing Homes)", 
-  "schema": {
-    "columns": [
-      {
-        "name": "facility_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "licensee_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "facility_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "certification_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }, 
-      {
-        "name": "region", 
-        "type": "text"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "telephone", 
-        "type": "text"
-      }, 
-      {
-        "name": "fax", 
-        "type": "text"
-      }, 
-      {
-        "name": "ownership_desc", 
-        "type": "text"
-      }, 
-      {
-        "name": "facility_status", 
-        "type": "text"
-      }, 
-      {
-        "name": "license_status", 
-        "type": "text"
-      }, 
-      {
-        "name": "expiration_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "last_survey_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "skilled", 
-        "type": "text"
-      }, 
-      {
-        "name": "under_22_beds", 
-        "type": "text"
-      }, 
-      {
-        "name": "intermediate_beds", 
-        "type": "text"
-      }, 
-      {
-        "name": "sheltered_care_beds", 
-        "type": "text"
-      }, 
-      {
-        "name": "community_living_beds", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "idph_skilled_nursing_facilities_nursing_homes_"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "idph_skilled_nursing_facilities_nursing_homes_"
 }

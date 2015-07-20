@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/jamaica_plain_planning_district_american_community_survey_2007_2011/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofboston.gov/download/ituy-jfr3application/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofboston.gov/download/ituy-jfr3/application/pdf", 
   "description": "The American Community Survey (ACS) is an annual survey conducted by the US Census Bureau using a sample of the total population to create estimates. The Research Division created a series of profiles based on neighborhood and planning district boundaries. This profile contains demographic characteristics such as race and ethnicity, languages spoken at home, and educational attainment; economic characteristics such as occupation, per capital income, and poverty status; and housing characteristics such as occupancy status, gross rent, and housing tenure.", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,7 +13,7 @@
     }
   }, 
   "name": "Jamaica Plain, Planning District: American Community Survey 2007-2011", 
-  "schema": {}, 
-  "schemaName": "socrata/data.cityofboston.gov", 
-  "tableName": "jamaica_plain_planning_district_american_community_survey_2007_2011"
+  "schema": "socrata/data.cityofboston.gov", 
+  "status": "needs review", 
+  "table": "jamaica_plain_planning_district_american_community_survey_2007_2011"
 }

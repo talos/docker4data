@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_izone_pls_school_list/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/g993-cbry/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/g993-cbry/rows.csv", 
   "description": "The iZone is the NYC Department of Education's initiative to strategically develop and scale innovative 21st century school and classroom models that increase student achievement. The iZone consists of a dedicated community of schools that design and build the learning experience around the needs,  motivations and strengths of each student in order to prepare them for success in college and career.  PLS was a Personalized Learning Systems pilot undertaken in elementaryschools where schools had access to adaptive learning software such as Time to Know, CompassLearning Odyssey and Pearson SuccessMaker, web-based programs that assist teachers in managing and differentiating instruction in ELA and Math.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "iZone PLS School List", 
-  "schema": {
-    "columns": [
-      {
-        "name": "school_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "_12_13_initative", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_category_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "borough", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "izone_pls_school_list"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "izone_pls_school_list"
 }

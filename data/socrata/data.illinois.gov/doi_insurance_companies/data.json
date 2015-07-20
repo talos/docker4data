@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_doi_insurance_companies/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/bgce-v7f9/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/bgce-v7f9/rows.csv", 
   "description": "as of 3/1/2015", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,58 +12,7 @@
     }
   }, 
   "name": "DOI Insurance Companies", 
-  "schema": {
-    "columns": [
-      {
-        "name": "companyname", 
-        "type": "text"
-      }, 
-      {
-        "name": "address_line1", 
-        "type": "text"
-      }, 
-      {
-        "name": "address_line2", 
-        "type": "text"
-      }, 
-      {
-        "name": "city", 
-        "type": "text"
-      }, 
-      {
-        "name": "state", 
-        "type": "text"
-      }, 
-      {
-        "name": "zipcode", 
-        "type": "text"
-      }, 
-      {
-        "name": "country", 
-        "type": "text"
-      }, 
-      {
-        "name": "licensedate", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "type", 
-        "type": "real"
-      }, 
-      {
-        "name": "class1", 
-        "type": "text"
-      }, 
-      {
-        "name": "class2", 
-        "type": "text"
-      }, 
-      {
-        "name": "class3", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "doi_insurance_companies"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "doi_insurance_companies"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_maryland_choose_maryland_compare_counties_education/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/63pe-mygy/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/63pe-mygy/rows.csv", 
   "description": "K-12 and higher education - enrollment, graduates, expenditures, and earnings.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "Choose Maryland:  Compare Counties - Education", 
-  "schema": {
-    "columns": [
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "annual_number_of_public_high_school_graduates", 
-        "type": "real"
-      }, 
-      {
-        "name": "public_student_teacher_ratio", 
-        "type": "real"
-      }, 
-      {
-        "name": "public_school_expenditures_per_pupil", 
-        "type": "real"
-      }, 
-      {
-        "name": "bachelors_degree_attainment", 
-        "type": "text"
-      }, 
-      {
-        "name": "high_school_attainment", 
-        "type": "text"
-      }, 
-      {
-        "name": "number_2yr_colleges", 
-        "type": "real"
-      }, 
-      {
-        "name": "number_4yr_colleges_universities", 
-        "type": "real"
-      }, 
-      {
-        "name": "enrollment_2yr_college", 
-        "type": "real"
-      }, 
-      {
-        "name": "enrollment_4yr_college_university", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "choose_maryland_compare_counties_education"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "choose_maryland_compare_counties_education"
 }

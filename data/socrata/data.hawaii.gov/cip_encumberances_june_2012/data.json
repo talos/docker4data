@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_cip_encumberances_june_2012/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/aybr-r7va/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/aybr-r7va/rows.csv", 
   "description": "CIP Encumbrances. Created from a monthly extract of FAMIS - Financial Administration and Management System.  Additional analysis may need to be done to interpret fields", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,66 +13,7 @@
     }
   }, 
   "name": "CIP Encumberances June 2012", 
-  "schema": {
-    "columns": [
-      {
-        "name": "transaction_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "fund", 
-        "type": "text"
-      }, 
-      {
-        "name": "fiscal_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "account", 
-        "type": "text"
-      }, 
-      {
-        "name": "department", 
-        "type": "text"
-      }, 
-      {
-        "name": "division", 
-        "type": "text"
-      }, 
-      {
-        "name": "mode_of_funding", 
-        "type": "text"
-      }, 
-      {
-        "name": "current_document_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "reverse_indicator", 
-        "type": "text"
-      }, 
-      {
-        "name": "fiscal_month", 
-        "type": "text"
-      }, 
-      {
-        "name": "appropriation_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "batch_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "transaction_year", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "cip_encumberances_june_2012"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "cip_encumberances_june_2012"
 }

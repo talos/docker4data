@@ -1,0 +1,20 @@
+CREATE TABLE "socrata_bronx_lehman_cuny_broadband_by_census_blocks" (
+	"objectid"	text,
+	"provname"	text,
+	"dbaname"	text,
+	"provider_t"	text,
+	"frn"	text,
+	"countyfips"	text,
+	"tract"	text,
+	"blockid"	text,
+	"fullfipsid"	text,
+	"transtech"	text,
+	"maxaddown"	real,
+	"maxadup"	real,
+	"prov_code"	real,
+	"verificati"	real,
+	"cp"	real,
+	"point_x"	real,
+	"point_y"	real,
+	"location_1"	text
+);

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/illinois_population_changes_by_decade_1980_2010/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/qqa4-ini8/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/qqa4-ini8/rows.csv", 
   "description": "Data provided by the IL Center for Health Statistics", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "Illinois Population Changes By Decade, 1980-2010", 
-  "schema": {
-    "columns": [
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "_1980_census", 
-        "type": "real"
-      }, 
-      {
-        "name": "_1990_census", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2000_census", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2010_census", 
-        "type": "real"
-      }, 
-      {
-        "name": "percent_change_1980_to_1990", 
-        "type": "real"
-      }, 
-      {
-        "name": "percent_change_1990_to_2000", 
-        "type": "real"
-      }, 
-      {
-        "name": "percent_change_2000_to_2010", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "illinois_population_changes_by_decade_1980_2010"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "illinois_population_changes_by_decade_1980_2010"
 }

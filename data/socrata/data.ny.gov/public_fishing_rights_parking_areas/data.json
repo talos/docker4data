@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_public_fishing_rights_parking_areas/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/9vef-6whi/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/9vef-6whi/rows.csv", 
   "description": "The New York State Department of Environmental Conservation (DEC)  maintains a network of Public Fishing Right parking areas along trout streams in New York. This dataset represents the locations and information about those parking areas. Links to PDF maps of the actual Public Fishing Rights along the streams are available as part of the data set.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,62 +13,7 @@
     }
   }, 
   "name": "Public Fishing Rights Parking Areas", 
-  "schema": {
-    "columns": [
-      {
-        "name": "water", 
-        "type": "text"
-      }, 
-      {
-        "name": "town", 
-        "type": "text"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "dec_region", 
-        "type": "real"
-      }, 
-      {
-        "name": "special_regulations_link", 
-        "type": "text"
-      }, 
-      {
-        "name": "pdf_map_link", 
-        "type": "text"
-      }, 
-      {
-        "name": "road", 
-        "type": "text"
-      }, 
-      {
-        "name": "parking_area_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "stocked_trout", 
-        "type": "text"
-      }, 
-      {
-        "name": "trout_present", 
-        "type": "text"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "public_fishing_rights_parking_areas"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "public_fishing_rights_parking_areas"
 }

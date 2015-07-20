@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/osfm2011_annl_rpt/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/download/7iva-6xrvapplication/pdf; charset=binary", 
-    "type": "application/pdf; charset=binary"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/download/7iva-6xrv/application/pdf", 
   "description": "Illinois Office of the State Fire Marshal\n\nFor more information, please see our website at http://www.sfm.illinois.gov", 
+  "load": "pdftotext", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,7 +13,7 @@
     }
   }, 
   "name": "OSFM2011 Annl Rpt", 
-  "schema": {}, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "osfm2011_annl_rpt"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "osfm2011_annl_rpt"
 }

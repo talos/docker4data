@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_colorado_energy_profile/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/443p-eijy/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/api/views/443p-eijy/rows.csv", 
   "description": "The US Energy Information Administration provides independent statistics and analysis  collects, analyzes, and disseminates independent and impartial energy information to promote sound policy making, efficient markets, and public understanding of energy and its interaction with the economy and the environment. Includes energy prices by industry and use, reserves and supply, consumption and expenditures, distribution and marketing information, fueling stations, electricity generation, and other related information.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,42 +13,7 @@
     }
   }, 
   "name": "Colorado Energy Profile", 
-  "schema": {
-    "columns": [
-      {
-        "name": "category", 
-        "type": "text"
-      }, 
-      {
-        "name": "subcategory1", 
-        "type": "text"
-      }, 
-      {
-        "name": "subcategory2", 
-        "type": "text"
-      }, 
-      {
-        "name": "colorado", 
-        "type": "text"
-      }, 
-      {
-        "name": "share_of_u_s", 
-        "type": "text"
-      }, 
-      {
-        "name": "u_s_average", 
-        "type": "text"
-      }, 
-      {
-        "name": "period", 
-        "type": "text"
-      }, 
-      {
-        "name": "u_s_rank", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "colorado_energy_profile"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "colorado_energy_profile"
 }

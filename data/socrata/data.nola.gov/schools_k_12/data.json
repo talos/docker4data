@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/schools_k_12/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.nola.gov/api/geospatial/yanw-8k4k", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.nola.gov/api/geospatial/yanw-8k4k", 
   "description": "Private and public schools located within the City of New Orleans. This information is initially composed by the Louisiana Department of Education. Then this data is verified by the New Orleans Office of Homeland Security and Emergency Preparedness.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Schools K-12", 
-  "schema": {}, 
-  "schemaName": "socrata/data.nola.gov", 
-  "tableName": "schools_k_12"
+  "schema": "socrata/data.nola.gov", 
+  "status": "needs review", 
+  "table": "schools_k_12"
 }

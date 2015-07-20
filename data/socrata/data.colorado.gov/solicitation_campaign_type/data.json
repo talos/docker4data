@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_solicitation_campaign_type/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/w6kb-3vsj/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/api/views/w6kb-3vsj/rows.csv", 
   "description": "Means of communication used by a Paid Solicitor", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Solicitation Campaign Type", 
-  "schema": {
-    "columns": [
-      {
-        "name": "entityid", 
-        "type": "real"
-      }, 
-      {
-        "name": "fein", 
-        "type": "text"
-      }, 
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "communicationtype", 
-        "type": "text"
-      }, 
-      {
-        "name": "solicitationnotice", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "solicitation_campaign_type"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "solicitation_campaign_type"
 }

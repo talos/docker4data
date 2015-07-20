@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/ets_bus_schedule_gtfs_data_feed_transfers/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.edmonton.ca/api/views/hnhf-yaps/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.edmonton.ca/api/views/hnhf-yaps/rows.csv", 
   "description": "List of transfer points for various bus stops in Edmonton", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "ETS Bus Schedule GTFS Data Feed - Transfers", 
-  "schema": {
-    "columns": [
-      {
-        "name": "from_stop_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "to_stop_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "transfer_type", 
-        "type": "real"
-      }, 
-      {
-        "name": "min_transfer_time", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.edmonton.ca", 
-  "tableName": "ets_bus_schedule_gtfs_data_feed_transfers"
+  "schema": "socrata/data.edmonton.ca", 
+  "status": "needs review", 
+  "table": "ets_bus_schedule_gtfs_data_feed_transfers"
 }

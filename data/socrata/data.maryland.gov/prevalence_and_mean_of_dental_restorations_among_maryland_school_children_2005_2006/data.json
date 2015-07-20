@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/prevalence_and_mean_of_dental_restorations_among_maryland_school_children_2005_2006/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.maryland.gov/api/views/8pxd-4gb4/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.maryland.gov/api/views/8pxd-4gb4/rows.csv", 
   "description": "This is the weighted prevalence of 1,276 schoolchildren.  1,276 out of 1,280 cases examined had prevalence available.  One out of 1,276 cases had grade information missed, 564 were in Kindergarten and 711 in 3rd grade.  Prevalence is defined as occurrence of any restorations among all selected population.  Mean is the average number of teeth with restorations among students with restorations in selected population.  Region Identifiers and Constituent Counties: Western (Allegany, Frederick, Garrett, Washington); Central D.C. (Howard, Montgomery, Prince George\u2019s); Southern (Calvert, Charles, St. Mary\u2019s); Central Baltimore (Anne Arundel, Baltimore City, Baltimore County, Carroll, Harford); Eastern Shore (Caroline, Cecil, Dorchester, Kent, Queen Anne\u2019s, Somerset, Talbot, Wicomico, Worcester).", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,30 +13,7 @@
     }
   }, 
   "name": "Prevalence and Mean of Dental Restorations among Maryland School Children, 2005-2006", 
-  "schema": {
-    "columns": [
-      {
-        "name": "characteristic", 
-        "type": "text"
-      }, 
-      {
-        "name": "prevalence", 
-        "type": "real"
-      }, 
-      {
-        "name": "prevalence_standard_error_se", 
-        "type": "real"
-      }, 
-      {
-        "name": "mean", 
-        "type": "real"
-      }, 
-      {
-        "name": "mean_standard_error_se", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.maryland.gov", 
-  "tableName": "prevalence_and_mean_of_dental_restorations_among_maryland_school_children_2005_2006"
+  "schema": "socrata/data.maryland.gov", 
+  "status": "needs review", 
+  "table": "prevalence_and_mean_of_dental_restorations_among_maryland_school_children_2005_2006"
 }

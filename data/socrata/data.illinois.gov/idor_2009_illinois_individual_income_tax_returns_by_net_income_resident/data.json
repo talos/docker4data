@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/idor_2009_illinois_individual_income_tax_returns_by_net_income_resident/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/eg43-k3nr/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/eg43-k3nr/rows.csv", 
   "description": "This report is created twice a year, usually in January as a PRELIMINARY reporting and then in August for a FINAL reporting.\n\nILLINOIS DEPARTMENT OF REVENUE\nNET INCOME REPORT\nINDIVIDUAL INCOME TAX RETURNS FILED BY NET INCOME:  Resident\nANNUAL REPORT  -  TAX YEAR: 2009 \u2013 PRELIMINARY\n\"Source: Preliminary 1040 IIT Return File Dated Jan, 2011\n\nReport ID: TDWR-IITEOY-002B\nData Source: 2009\nReport Date: 05/27/2011 11:32:18 AM", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,58 +13,7 @@
     }
   }, 
   "name": "IDOR 2009 Illinois Individual Income Tax - Returns by Net Income, Resident", 
-  "schema": {
-    "columns": [
-      {
-        "name": "net_income_range", 
-        "type": "text"
-      }, 
-      {
-        "name": "returns", 
-        "type": "real"
-      }, 
-      {
-        "name": "agi", 
-        "type": "real"
-      }, 
-      {
-        "name": "net_income", 
-        "type": "real"
-      }, 
-      {
-        "name": "tax", 
-        "type": "real"
-      }, 
-      {
-        "name": "credits", 
-        "type": "real"
-      }, 
-      {
-        "name": "sch_cr", 
-        "type": "real"
-      }, 
-      {
-        "name": "ptc", 
-        "type": "real"
-      }, 
-      {
-        "name": "eec", 
-        "type": "real"
-      }, 
-      {
-        "name": "eic", 
-        "type": "real"
-      }, 
-      {
-        "name": "_1299_c", 
-        "type": "real"
-      }, 
-      {
-        "name": "net_tax", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "idor_2009_illinois_individual_income_tax_returns_by_net_income_resident"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "idor_2009_illinois_individual_income_tax_returns_by_net_income_resident"
 }

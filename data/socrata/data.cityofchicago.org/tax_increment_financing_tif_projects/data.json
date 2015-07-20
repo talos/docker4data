@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_tax_increment_financing_tif_projects/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/mex4-ppfc/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/mex4-ppfc/rows.csv", 
   "description": "The City of Chicago Tax Increment Financing (TIF) Portal provides Chicagoans with a map-based view of TIF districts and projects. Tan areas show TIF district boundaries. It details the funding approved amount at the project level and gives a depiction of developer scope information.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,70 +13,7 @@
     }
   }, 
   "name": "Tax Increment Financing (TIF) Projects", 
-  "schema": {
-    "columns": [
-      {
-        "name": "id", 
-        "type": "text"
-      }, 
-      {
-        "name": "tif_district", 
-        "type": "text"
-      }, 
-      {
-        "name": "project_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "developer", 
-        "type": "text"
-      }, 
-      {
-        "name": "project_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "project_description", 
-        "type": "text"
-      }, 
-      {
-        "name": "cdc_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "approved_amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_project_cost", 
-        "type": "real"
-      }, 
-      {
-        "name": "x_coordinate", 
-        "type": "real"
-      }, 
-      {
-        "name": "y_coordinate", 
-        "type": "real"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "tax_increment_financing_tif_projects"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "tax_increment_financing_tif_projects"
 }

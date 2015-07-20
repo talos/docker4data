@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_census_block90/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/f96w-338u/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/f96w-338u/rows.csv", 
   "description": "US Census Blocks for 1990 US Census", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,74 +13,7 @@
     }
   }, 
   "name": "CENSUS_BLOCK90", 
-  "schema": {
-    "columns": [
-      {
-        "name": "objectid", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape", 
-        "type": "text"
-      }, 
-      {
-        "name": "trbl", 
-        "type": "text"
-      }, 
-      {
-        "name": "tract", 
-        "type": "real"
-      }, 
-      {
-        "name": "blk", 
-        "type": "text"
-      }, 
-      {
-        "name": "bg", 
-        "type": "real"
-      }, 
-      {
-        "name": "acres", 
-        "type": "real"
-      }, 
-      {
-        "name": "tractlab", 
-        "type": "real"
-      }, 
-      {
-        "name": "logrecno", 
-        "type": "real"
-      }, 
-      {
-        "name": "trbg", 
-        "type": "real"
-      }, 
-      {
-        "name": "area_sqft", 
-        "type": "real"
-      }, 
-      {
-        "name": "perimeter_ft", 
-        "type": "real"
-      }, 
-      {
-        "name": "area", 
-        "type": "real"
-      }, 
-      {
-        "name": "len", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape_length", 
-        "type": "real"
-      }, 
-      {
-        "name": "shape_area", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "census_block90"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "census_block90"
 }

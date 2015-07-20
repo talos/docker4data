@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_wic_income_eligibility/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/366m-74zg/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/366m-74zg/rows.csv", 
   "description": "The Women, Infants and Children (WIC) Program is a special supplemental food program that provides nutritious foods, milk, juice, formula and other items to low income pregnant or breastfeeding women, infants and children up to age 5.This chart is only a guide. Individuals should see a WIC enrollment counselor for eligibility screening. Eligibility requirements include certain criteria and income levels as listed here. \n* Pregnant women count as two individuals.\nNOTE: Chart effective July 1, 2012 to June 30, 2013; subject to annual income updates.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "WIC Income eligibility", 
-  "schema": {
-    "columns": [
-      {
-        "name": "household_size_", 
-        "type": "text"
-      }, 
-      {
-        "name": "yearly_income", 
-        "type": "text"
-      }, 
-      {
-        "name": "monthly_income", 
-        "type": "text"
-      }, 
-      {
-        "name": "weekly_income", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "wic_income_eligibility"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "wic_income_eligibility"
 }

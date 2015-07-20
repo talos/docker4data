@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_business_license_data/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/xucu-3qae/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/xucu-3qae/rows.csv", 
   "description": "City of Rockford Business License Data", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,34 +12,7 @@
     }
   }, 
   "name": "Business License Data", 
-  "schema": {
-    "columns": [
-      {
-        "name": "cust_no", 
-        "type": "real"
-      }, 
-      {
-        "name": "name", 
-        "type": "text"
-      }, 
-      {
-        "name": "business_addr", 
-        "type": "text"
-      }, 
-      {
-        "name": "lic_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "lic_descr", 
-        "type": "text"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "business_license_data"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "business_license_data"
 }

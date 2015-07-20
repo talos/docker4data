@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_hawaii_general_election_results_2010/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.hawaii.gov/api/views/y7za-qz47/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.hawaii.gov/api/views/y7za-qz47/rows.csv", 
   "description": "2010 General Elections Results fom Office of Elections", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,74 +13,7 @@
     }
   }, 
   "name": "General Election Results 2010", 
-  "schema": {
-    "columns": [
-      {
-        "name": "precinct_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "split_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "precinct_splitid", 
-        "type": "real"
-      }, 
-      {
-        "name": "reg_voters", 
-        "type": "real"
-      }, 
-      {
-        "name": "ballots", 
-        "type": "real"
-      }, 
-      {
-        "name": "reporting", 
-        "type": "real"
-      }, 
-      {
-        "name": "contest_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "contest_title", 
-        "type": "text"
-      }, 
-      {
-        "name": "contest_party", 
-        "type": "text"
-      }, 
-      {
-        "name": "choice_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "candidate_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "choice_party", 
-        "type": "text"
-      }, 
-      {
-        "name": "candidate_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "absentee_votes", 
-        "type": "real"
-      }, 
-      {
-        "name": "early_votes", 
-        "type": "real"
-      }, 
-      {
-        "name": "election_votes", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.hawaii.gov", 
-  "tableName": "general_election_results_2010"
+  "schema": "socrata/data.hawaii.gov", 
+  "status": "needs review", 
+  "table": "general_election_results_2010"
 }

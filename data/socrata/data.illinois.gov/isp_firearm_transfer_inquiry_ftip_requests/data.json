@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_isp_firearm_transfer_inquiry_ftip_requests/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/5gzq-577f/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/5gzq-577f/rows.csv", 
   "description": "FTIP Inquiry Requests -- 10 Year History -- 2002 through 2011", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,18 +13,7 @@
     }
   }, 
   "name": "ISP - Firearm Transfer Inquiry (FTIP) Requests", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "text"
-      }, 
-      {
-        "name": "number_of_firearm_transfer_inquiry_requests", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "isp_firearm_transfer_inquiry_ftip_requests"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "isp_firearm_transfer_inquiry_ftip_requests"
 }

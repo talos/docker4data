@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_311_service_requests_abandoned_vehicles/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/3c9v-pnva/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/3c9v-pnva/rows.csv", 
   "description": "All open abandoned vehicle complaints made to 311 and all requests completed since January 1, 2011. A vehicle can be classified as abandoned if it meets one or more of the following criteria:All open abandoned vehicle complaints made to 311 and all requests completed since January 1, 2011.\r\n\r\nA vehicle can be classified as abandoned if it meets one or more of the following criteria: 1) On a public way in a state of disrepair as to be incapable of being driven in its present condition. 2) Has not been moved or used for more than seven consecutive days and is apparently deserted. 3) Has been left on the public way without state registration or a temporary state registration placard for two or more days. 4) Is a hazardous dilapidated vehicle left in full view of the general public, whether on public or private property.\r\n\r\nFor some Open service requests, the vehicle has been towed but further action is required before the request may be closed. 311 sometimes receives duplicate abandoned vehicle complaints. \r\n\r\nIf a vehicle is towed it remains as open, work in progress until it is redeemed, transferred or disposed of. The service request is not closed until there is a final disposition for the vehicle.\r\n\r\nRequests that have been labeled as Duplicates are in the same geographic area and have been entered into 311 Customer Service Requests (CSR) system at around the same time as a previous request. Duplicate reports/requests are labeled as such in the Status field, as either \"Open - Dup\" or \"Completed - Dup.\" Data is updated daily.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,98 +13,7 @@
     }
   }, 
   "name": "311 Service Requests - Abandoned Vehicles", 
-  "schema": {
-    "columns": [
-      {
-        "name": "creation_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "status", 
-        "type": "text"
-      }, 
-      {
-        "name": "completion_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "service_request_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "type_of_service_request", 
-        "type": "text"
-      }, 
-      {
-        "name": "license_plate", 
-        "type": "text"
-      }, 
-      {
-        "name": "vehicle_make_model", 
-        "type": "text"
-      }, 
-      {
-        "name": "vehicle_color", 
-        "type": "text"
-      }, 
-      {
-        "name": "current_activity", 
-        "type": "text"
-      }, 
-      {
-        "name": "most_recent_action", 
-        "type": "text"
-      }, 
-      {
-        "name": "how_many_days_has_the_vehicle_been_reported_as_parked_", 
-        "type": "real"
-      }, 
-      {
-        "name": "street_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "zip_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "x_coordinate", 
-        "type": "real"
-      }, 
-      {
-        "name": "y_coordinate", 
-        "type": "real"
-      }, 
-      {
-        "name": "ward", 
-        "type": "real"
-      }, 
-      {
-        "name": "police_district", 
-        "type": "real"
-      }, 
-      {
-        "name": "community_area", 
-        "type": "real"
-      }, 
-      {
-        "name": "ssa", 
-        "type": "text"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "311_service_requests_abandoned_vehicles"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "311_service_requests_abandoned_vehicles"
 }

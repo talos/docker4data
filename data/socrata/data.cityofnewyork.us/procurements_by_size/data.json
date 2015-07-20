@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_procurements_by_size/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/ewmy-2fww/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/ewmy-2fww/rows.csv", 
   "description": "Summary table of procurements in the fiscal year grouped by agency and size", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "Procurements by Size", 
-  "schema": {
-    "columns": [
-      {
-        "name": "agency", 
-        "type": "text"
-      }, 
-      {
-        "name": "budget_size", 
-        "type": "text"
-      }, 
-      {
-        "name": "_2014_fycount", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2014_fyvalue", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2013_fycount", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2013_fy_value", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2012_fycount", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2012_fy_value", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2011_fycount", 
-        "type": "real"
-      }, 
-      {
-        "name": "_2011_fy_value", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "procurements_by_size"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "procurements_by_size"
 }

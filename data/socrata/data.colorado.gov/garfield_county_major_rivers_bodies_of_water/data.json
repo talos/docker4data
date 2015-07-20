@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/garfield_county_major_rivers_bodies_of_water/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/geospatial/ai9y-w2g5", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/api/geospatial/ai9y-w2g5", 
   "description": "Major rivers, lakes, reservoirs, ponds, and other minor bodies of water within Garfield County, CO", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,7 +13,7 @@
     }
   }, 
   "name": "Garfield County Major Rivers & Bodies of Water", 
-  "schema": {}, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "garfield_county_major_rivers_bodies_of_water"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "garfield_county_major_rivers_bodies_of_water"
 }

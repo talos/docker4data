@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/complaint_log/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/ck4n-5h6x/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/ck4n-5h6x/rows.csv", 
   "description": "Contains information related to violation complaints received by LPC", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "Complaint Log", 
-  "schema": {
-    "columns": [
-      {
-        "name": "log", 
-        "type": "real"
-      }, 
-      {
-        "name": "complaint", 
-        "type": "text"
-      }, 
-      {
-        "name": "date", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "borough", 
-        "type": "text"
-      }, 
-      {
-        "name": "district", 
-        "type": "text"
-      }, 
-      {
-        "name": "work_reported", 
-        "type": "text"
-      }, 
-      {
-        "name": "closed", 
-        "type": "text"
-      }, 
-      {
-        "name": "issued_violation", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "complaint_log"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "complaint_log"
 }

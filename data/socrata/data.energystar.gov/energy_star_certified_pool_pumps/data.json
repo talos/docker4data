@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_energystar_energy_star_certified_pool_pumps/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.energystar.gov/api/views/2ppn-v3hp/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.energystar.gov/api/views/2ppn-v3hp/rows.csv", 
   "description": "Certified models meet all ENERGY STAR requirements as listed in the Version 1.0 ENERGY STAR Program Requirements for Pool Pumps that are effective as of February 15, 2013. A detailed listing of key efficiency criteria are available at http://www.energystar.gov/index.cfm?c=poolpumps.pr_crit_poolpumps", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,122 +12,7 @@
     }
   }, 
   "name": "ENERGY STAR Certified Pool Pumps", 
-  "schema": {
-    "columns": [
-      {
-        "name": "pd_id", 
-        "type": "real"
-      }, 
-      {
-        "name": "energy_star_partner", 
-        "type": "text"
-      }, 
-      {
-        "name": "brand_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "model_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "model_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "additional_model_information", 
-        "type": "text"
-      }, 
-      {
-        "name": "motor_design", 
-        "type": "text"
-      }, 
-      {
-        "name": "speed_setting", 
-        "type": "text"
-      }, 
-      {
-        "name": "speed_rpm", 
-        "type": "real"
-      }, 
-      {
-        "name": "curve_a_flow_gpm", 
-        "type": "real"
-      }, 
-      {
-        "name": "curve_a_power_w", 
-        "type": "real"
-      }, 
-      {
-        "name": "curve_a_energy_factor_gal_wh", 
-        "type": "real"
-      }, 
-      {
-        "name": "curve_c_flow_gpm", 
-        "type": "real"
-      }, 
-      {
-        "name": "curve_c_power_w", 
-        "type": "real"
-      }, 
-      {
-        "name": "curve_c_energy_factor_gal_wh", 
-        "type": "real"
-      }, 
-      {
-        "name": "curve_b_flow_gpm", 
-        "type": "real"
-      }, 
-      {
-        "name": "curve_b_power_w", 
-        "type": "real"
-      }, 
-      {
-        "name": "curve_b_energy_factor_gal_wh", 
-        "type": "real"
-      }, 
-      {
-        "name": "standby_average_power_w", 
-        "type": "real"
-      }, 
-      {
-        "name": "motor_construction", 
-        "type": "text"
-      }, 
-      {
-        "name": "frame", 
-        "type": "text"
-      }, 
-      {
-        "name": "rated_horsepower_hp", 
-        "type": "real"
-      }, 
-      {
-        "name": "service_factor", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_horse_power_hp", 
-        "type": "real"
-      }, 
-      {
-        "name": "date_available_on_market", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "date_qualified", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "markets", 
-        "type": "text"
-      }, 
-      {
-        "name": "energy_star_model_identifier", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.energystar.gov", 
-  "tableName": "energy_star_certified_pool_pumps"
+  "schema": "socrata/data.energystar.gov", 
+  "status": "needs review", 
+  "table": "energy_star_certified_pool_pumps"
 }

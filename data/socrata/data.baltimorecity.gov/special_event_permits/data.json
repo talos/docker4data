@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/special_event_permits/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/cdz5-3y2u/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.baltimorecity.gov/api/views/cdz5-3y2u/rows.csv", 
   "description": "Right-of-Way Services oversees the issuance and enforcement of Right-of-Way (ROW) permits. Call (410)396-4508 for information.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,38 +13,7 @@
     }
   }, 
   "name": "Special Event Permits", 
-  "schema": {
-    "columns": [
-      {
-        "name": "permit_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "permit_name_full", 
-        "type": "text"
-      }, 
-      {
-        "name": "intermediate_location_text", 
-        "type": "text"
-      }, 
-      {
-        "name": "start_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "duration", 
-        "type": "real"
-      }, 
-      {
-        "name": "end_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "facility_type", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.baltimorecity.gov", 
-  "tableName": "special_event_permits"
+  "schema": "socrata/data.baltimorecity.gov", 
+  "status": "needs review", 
+  "table": "special_event_permits"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_libraries_summer_reads_for_adults/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/8kfs-9r64/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/8kfs-9r64/rows.csv", 
   "description": "Summer Reads for Adults is offered in June and July. The program provides participants with the opportunity to explore a central theme through a wide variety of suggested readings and to participate in related and inventive programming such as lectures, discussions, tours and performances.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,7 @@
     }
   }, 
   "name": "Libraries - Summer Reads for Adults", 
-  "schema": {
-    "columns": [
-      {
-        "name": "year", 
-        "type": "real"
-      }, 
-      {
-        "name": "books_read", 
-        "type": "text"
-      }, 
-      {
-        "name": "programs_held", 
-        "type": "text"
-      }, 
-      {
-        "name": "program_attendees", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "libraries_summer_reads_for_adults"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "libraries_summer_reads_for_adults"
 }

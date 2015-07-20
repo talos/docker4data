@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_lottery_powerball_winning_numbers_beginning_2010/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/d6yy-54nr/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/d6yy-54nr/rows.csv", 
   "description": "Go to http://on.ny.gov/1GpWiHD on the New York Lottery website for past Powerball results and payouts.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,22 +13,7 @@
     }
   }, 
   "name": "Lottery Powerball Winning Numbers: Beginning 2010", 
-  "schema": {
-    "columns": [
-      {
-        "name": "draw_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "winning_numbers", 
-        "type": "text"
-      }, 
-      {
-        "name": "multiplier", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "lottery_powerball_winning_numbers_beginning_2010"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "lottery_powerball_winning_numbers_beginning_2010"
 }

@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_medicare_penalties/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.medicare.gov/api/views/g6vv-u9sr/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.medicare.gov/api/views/g6vv-u9sr/rows.csv", 
   "description": "A list of the fines and payment denials currently displayed on Nursing Home Compare.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,62 +12,7 @@
     }
   }, 
   "name": "Penalties", 
-  "schema": {
-    "columns": [
-      {
-        "name": "federal_provider_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "provider_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "provider_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "provider_city", 
-        "type": "text"
-      }, 
-      {
-        "name": "provider_state", 
-        "type": "text"
-      }, 
-      {
-        "name": "provider_zip_code", 
-        "type": "text"
-      }, 
-      {
-        "name": "penalty_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "penalty_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "fine_amount", 
-        "type": "real"
-      }, 
-      {
-        "name": "payment_denial_start_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "payment_denial_length_in_days", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }, 
-      {
-        "name": "processing_date", 
-        "type": "timestamp"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.medicare.gov", 
-  "tableName": "penalties"
+  "schema": "socrata/data.medicare.gov", 
+  "status": "needs review", 
+  "table": "penalties"
 }

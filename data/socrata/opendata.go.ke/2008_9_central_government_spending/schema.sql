@@ -1,0 +1,21 @@
+CREATE TABLE "2008_9_central_government_spending" (
+	"year"	text,
+	"admin1"	text,
+	"admin2"	text,
+	"admin3"	text,
+	"admin4"	text,
+	"admin5"	text,
+	"admin6"	text,
+	"county"	text,
+	"district"	text,
+	"mtef_sector"	text,
+	"sub_sector"	text,
+	"econ1"	text,
+	"econ2"	text,
+	"econ3"	text,
+	"estimates"	real,
+	"revised"	real,
+	"executed"	real,
+	"a_in_a"	text,
+	"budget_type"	text
+);

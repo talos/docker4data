@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_i_love_ny_places_to_stay/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/nvxm-nnvd/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/nvxm-nnvd/rows.csv", 
   "description": "This data set includes Places to Stay in New York State.  These places are currently part of the ILoveNY.com website.  Currently, they are grouped by region.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,58 +12,7 @@
     }
   }, 
   "name": "I Love NY \u2013 Places to Stay", 
-  "schema": {
-    "columns": [
-      {
-        "name": "regions", 
-        "type": "text"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "ip_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "website_url", 
-        "type": "text"
-      }, 
-      {
-        "name": "site_city", 
-        "type": "text"
-      }, 
-      {
-        "name": "description", 
-        "type": "text"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "subcategories", 
-        "type": "text"
-      }, 
-      {
-        "name": "minor_categories", 
-        "type": "text"
-      }, 
-      {
-        "name": "image_url", 
-        "type": "text"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "i_love_ny_places_to_stay"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "i_love_ny_places_to_stay"
 }

@@ -1,0 +1,8 @@
+CREATE TABLE "dhmh_report_20_tobacco_control_strategy_a_maryland_tobacco_quitline_" (
+	"month"	text,
+	"_1a_registered_callers_to_the_maryland_tobacco_quitline"	real,
+	"_1b_web_visitors_to_the_maryland_tobacco_quitline"	real,
+	"_1c_total_visitors_to_the_maryland_tobacco_quitline_callers_web"	real,
+	"_2_number_of_registered_pregnant_women_receiving_services_through_the_maryland_tobacco_quitline"	real,
+	"_3_number_of_nicotine_replacement_therapy_shipments_patch_and_gum_distributed_to_md_residents_through_the_maryland_tobacco_quitline"	real
+);

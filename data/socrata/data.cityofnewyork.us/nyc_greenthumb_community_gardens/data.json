@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofnewyork_nyc_greenthumb_community_gardens/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/ajxm-kzmj/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofnewyork.us/api/views/ajxm-kzmj/rows.csv", 
   "description": "Listing of NYC Greenthumb community gardens", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,7 @@
     }
   }, 
   "name": "NYC Greenthumb Community Gardens", 
-  "schema": {
-    "columns": [
-      {
-        "name": "propid", 
-        "type": "text"
-      }, 
-      {
-        "name": "boro", 
-        "type": "text"
-      }, 
-      {
-        "name": "community_board", 
-        "type": "text"
-      }, 
-      {
-        "name": "council_district", 
-        "type": "real"
-      }, 
-      {
-        "name": "garden_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "size", 
-        "type": "text"
-      }, 
-      {
-        "name": "jurisdiction", 
-        "type": "text"
-      }, 
-      {
-        "name": "neighborhoodname", 
-        "type": "text"
-      }, 
-      {
-        "name": "cross_streets", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofnewyork.us", 
-  "tableName": "nyc_greenthumb_community_gardens"
+  "schema": "socrata/data.cityofnewyork.us", 
+  "status": "needs review", 
+  "table": "nyc_greenthumb_community_gardens"
 }

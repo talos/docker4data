@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_ny_lottery_pick_10_winning_numbers_beginning_1987/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.ny.gov/api/views/bycu-cw7c/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.ny.gov/api/views/bycu-cw7c/rows.csv", 
   "description": "Go to http://on.ny.gov/1Cx6Zls on the New York Lottery website for past Pick 10 results and payouts.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,18 +13,7 @@
     }
   }, 
   "name": "Lottery Pick 10 Winning Numbers: Beginning 1987", 
-  "schema": {
-    "columns": [
-      {
-        "name": "draw_date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "winning_numbers", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.ny.gov", 
-  "tableName": "lottery_pick_10_winning_numbers_beginning_1987"
+  "schema": "socrata/data.ny.gov", 
+  "status": "needs review", 
+  "table": "lottery_pick_10_winning_numbers_beginning_1987"
 }

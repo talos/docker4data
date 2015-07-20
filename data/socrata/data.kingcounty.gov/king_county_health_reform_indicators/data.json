@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_kingcounty_king_county_health_reform_indicators/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.kingcounty.gov/api/views/ajpg-dges/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.kingcounty.gov/api/views/ajpg-dges/rows.csv", 
   "description": "Health reporting area (HRA) and zip code-level indicators for monitoring the impact of the Affordable Care Act in King County, WA. Topic areas range from access to care to population health. Imported to Socrata to allow data to be pulled as JSON from SODA to feed into Leaflet.js-based maps on an external site.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,74 +13,7 @@
     }
   }, 
   "name": "King County Health Reform Indicators", 
-  "schema": {
-    "columns": [
-      {
-        "name": "geo", 
-        "type": "text"
-      }, 
-      {
-        "name": "vid", 
-        "type": "real"
-      }, 
-      {
-        "name": "estimate", 
-        "type": "real"
-      }, 
-      {
-        "name": "estlb", 
-        "type": "real"
-      }, 
-      {
-        "name": "estub", 
-        "type": "real"
-      }, 
-      {
-        "name": "estse", 
-        "type": "real"
-      }, 
-      {
-        "name": "estrse", 
-        "type": "real"
-      }, 
-      {
-        "name": "pop", 
-        "type": "real"
-      }, 
-      {
-        "name": "number", 
-        "type": "real"
-      }, 
-      {
-        "name": "numlb", 
-        "type": "real"
-      }, 
-      {
-        "name": "numub", 
-        "type": "real"
-      }, 
-      {
-        "name": "numerator", 
-        "type": "real"
-      }, 
-      {
-        "name": "denominator", 
-        "type": "real"
-      }, 
-      {
-        "name": "indicator", 
-        "type": "text"
-      }, 
-      {
-        "name": "year", 
-        "type": "text"
-      }, 
-      {
-        "name": "datatype", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.kingcounty.gov", 
-  "tableName": "king_county_health_reform_indicators"
+  "schema": "socrata/data.kingcounty.gov", 
+  "status": "needs review", 
+  "table": "king_county_health_reform_indicators"
 }

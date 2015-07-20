@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_honolulu_city_spending/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.honolulu.gov/api/views/std8-yakc/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.honolulu.gov/api/views/std8-yakc/rows.csv", 
   "description": "Actual spending 2010&2011\r\nBudget 2012\r\nProposed Budget 2013", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,66 +12,7 @@
     }
   }, 
   "name": "City spending", 
-  "schema": {
-    "columns": [
-      {
-        "name": "department", 
-        "type": "text"
-      }, 
-      {
-        "name": "division", 
-        "type": "text"
-      }, 
-      {
-        "name": "fund", 
-        "type": "text"
-      }, 
-      {
-        "name": "object_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "fy_2010_actual", 
-        "type": "real"
-      }, 
-      {
-        "name": "fy_2011_actual", 
-        "type": "real"
-      }, 
-      {
-        "name": "fy_2012_budget", 
-        "type": "real"
-      }, 
-      {
-        "name": "fy_2013_current_services", 
-        "type": "real"
-      }, 
-      {
-        "name": "fy_2013_budget_issues", 
-        "type": "real"
-      }, 
-      {
-        "name": "fy_2013_proposed_budget", 
-        "type": "real"
-      }, 
-      {
-        "name": "department_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "division_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "fund_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "object_code_name", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.honolulu.gov", 
-  "tableName": "city_spending"
+  "schema": "socrata/data.honolulu.gov", 
+  "status": "needs review", 
+  "table": "city_spending"
 }

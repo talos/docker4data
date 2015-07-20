@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/medical_examiner_2009_deaths_by_gender_age_and_race/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/cookcounty.socrata.com/api/views/5px6-amgc/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/cookcounty.socrata.com/api/views/5px6-amgc/rows.csv", 
   "description": "Updated 10/24/2011.  From the Medical Examiner's 2009 Annual Report, deaths of autopsied people by gender, age range and race.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,26 +13,6 @@
     }
   }, 
   "name": "Medical Examiner--2009 Deaths, by Gender, Age, and Race", 
-  "schema": {
-    "columns": [
-      {
-        "name": "sex_", 
-        "type": "text"
-      }, 
-      {
-        "name": "age_", 
-        "type": "text"
-      }, 
-      {
-        "name": "race_", 
-        "type": "text"
-      }, 
-      {
-        "name": "count", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/cookcounty.socrata.com", 
-  "tableName": "medical_examiner_2009_deaths_by_gender_age_and_race"
+  "schema": "socrata/cookcounty.socrata.com", 
+  "table": "medical_examiner_2009_deaths_by_gender_age_and_race"
 }

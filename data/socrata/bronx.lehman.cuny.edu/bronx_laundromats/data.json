@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/bronx_laundromats/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/a8cq-n3hu/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/bronx.lehman.cuny.edu/api/views/a8cq-n3hu/rows.csv", 
   "description": "locations of laundromats in the Bronx", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,50 +13,6 @@
     }
   }, 
   "name": "Bronx Laundromats", 
-  "schema": {
-    "columns": [
-      {
-        "name": "entity_type", 
-        "type": "text"
-      }, 
-      {
-        "name": "license_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "entity_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "camis_trade_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "address_street_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "address_location", 
-        "type": "text"
-      }, 
-      {
-        "name": "address_zip_code", 
-        "type": "real"
-      }, 
-      {
-        "name": "telephone_number", 
-        "type": "real"
-      }, 
-      {
-        "name": "location_1", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/bronx.lehman.cuny.edu", 
-  "tableName": "bronx_laundromats"
+  "schema": "socrata/bronx.lehman.cuny.edu", 
+  "table": "bronx_laundromats"
 }

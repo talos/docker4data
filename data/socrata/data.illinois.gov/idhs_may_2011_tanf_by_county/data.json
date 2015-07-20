@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_illinois_idhs_may_2011_tanf_by_county/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.illinois.gov/api/views/x7xu-qyvz/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.illinois.gov/api/views/x7xu-qyvz/rows.csv", 
   "description": "MAY 2011 TANF BY COUNTY", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,26 +12,7 @@
     }
   }, 
   "name": "IDHS MAY 2011 TANF BY COUNTY", 
-  "schema": {
-    "columns": [
-      {
-        "name": "county_nr", 
-        "type": "real"
-      }, 
-      {
-        "name": "county_name", 
-        "type": "text"
-      }, 
-      {
-        "name": "cases", 
-        "type": "real"
-      }, 
-      {
-        "name": "persons", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.illinois.gov", 
-  "tableName": "idhs_may_2011_tanf_by_county"
+  "schema": "socrata/data.illinois.gov", 
+  "status": "needs review", 
+  "table": "idhs_may_2011_tanf_by_county"
 }

@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/sfei_modern_baylands/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.oaklandnet.com/api/geospatial/2g78-76f4", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.oaklandnet.com/api/geospatial/2g78-76f4", 
   "description": "Baylands designations by the San Francisco Estuary Institute", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,7 +13,7 @@
     }
   }, 
   "name": "SFEI Modern Baylands", 
-  "schema": {}, 
-  "schemaName": "socrata/data.oaklandnet.com", 
-  "tableName": "sfei_modern_baylands"
+  "schema": "socrata/data.oaklandnet.com", 
+  "status": "needs review", 
+  "table": "sfei_modern_baylands"
 }

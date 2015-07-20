@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/adult_care_facility_quarterly_statistical_information_report_2nd_qsir_2013_3rd_qsir_2014/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/health.data.ny.gov/api/views/h5s5-hcxg/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/health.data.ny.gov/api/views/h5s5-hcxg/rows.csv", 
   "description": "This quarterly report contains demographic and bed availability information reported by Adult Care Facilities (ACFs). The regulations governing the operation of Adult Care Facilities (ACFs) \u2013 Standards for Adult Homes 487.10(e)(2), Adult Care Facilities Standards for Enriched Housing Programs 488.10(e)(4), and Standards for Residences for Adults 490.10(e)(4) \u2013 require each operator to submit a quarterly statistical information report. Available bed and census information is self-reported and is not audited by the NYSDOH.\r\nThe ACF census database allows for; 1) Demographic information on Adult Care Facilities licensed in New York State; and 2) A mechanism to collect and report on the availability of certified adult care and assisted living facilities. For more information, check out: http://www.health.ny.gov/facilities/adult_care/, or go to the \"About\" tab.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,58 +13,7 @@
     }
   }, 
   "name": "Adult Care Facility Quarterly Statistical Information Report: 2nd QSIR 2013 - 3rd QSIR 2014", 
-  "schema": {
-    "columns": [
-      {
-        "name": "reporting_year", 
-        "type": "real"
-      }, 
-      {
-        "name": "reporting_quarter", 
-        "type": "real"
-      }, 
-      {
-        "name": "reporting_organization", 
-        "type": "text"
-      }, 
-      {
-        "name": "cert", 
-        "type": "text"
-      }, 
-      {
-        "name": "county", 
-        "type": "text"
-      }, 
-      {
-        "name": "total_capacity_certified", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_capacity_operational", 
-        "type": "real"
-      }, 
-      {
-        "name": "beginning_census", 
-        "type": "real"
-      }, 
-      {
-        "name": "end_census", 
-        "type": "real"
-      }, 
-      {
-        "name": "male_census", 
-        "type": "real"
-      }, 
-      {
-        "name": "female_census", 
-        "type": "real"
-      }, 
-      {
-        "name": "total_smi_1", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/health.data.ny.gov", 
-  "tableName": "adult_care_facility_quarterly_statistical_information_report_2nd_qsir_2013_3rd_qsir_2014"
+  "schema": "socrata/health.data.ny.gov", 
+  "status": "needs review", 
+  "table": "adult_care_facility_quarterly_statistical_information_report_2nd_qsir_2013_3rd_qsir_2014"
 }

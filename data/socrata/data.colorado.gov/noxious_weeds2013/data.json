@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/noxious_weeds2013/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/geospatial/sfvq-tb9q", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/api/geospatial/sfvq-tb9q", 
   "description": "The location, length, and type of noxious weeds in the state of Colorado.  Also contians the collector, when it was recorded, and various other features", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -17,7 +14,7 @@
     }
   }, 
   "name": "Noxious Weeds2013", 
-  "schema": {}, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "noxious_weeds2013"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "noxious_weeds2013"
 }

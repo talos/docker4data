@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_cityofchicago_problem_landlord_list/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.cityofchicago.org/api/views/n5zj-r44u/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.cityofchicago.org/api/views/n5zj-r44u/rows.csv", 
   "description": "This list describes landlords and property owners who are designated  \"problem landlords\". Landlords on this list have had two or more administrative hearing causes brought against them and were found liable or defaulted to one or more serious building violations.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,66 +13,7 @@
     }
   }, 
   "name": "Problem Landlord List", 
-  "schema": {
-    "columns": [
-      {
-        "name": "address", 
-        "type": "text"
-      }, 
-      {
-        "name": "secondary_address", 
-        "type": "text"
-      }, 
-      {
-        "name": "respondent", 
-        "type": "text"
-      }, 
-      {
-        "name": "community_area", 
-        "type": "text"
-      }, 
-      {
-        "name": "community_area_number", 
-        "type": "text"
-      }, 
-      {
-        "name": "ward", 
-        "type": "text"
-      }, 
-      {
-        "name": "census_tracts", 
-        "type": "text"
-      }, 
-      {
-        "name": "census_blocks", 
-        "type": "text"
-      }, 
-      {
-        "name": "street_block_id", 
-        "type": "text"
-      }, 
-      {
-        "name": "x_coordinate", 
-        "type": "real"
-      }, 
-      {
-        "name": "y_coordinate", 
-        "type": "real"
-      }, 
-      {
-        "name": "longitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "latitude", 
-        "type": "real"
-      }, 
-      {
-        "name": "location", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.cityofchicago.org", 
-  "tableName": "problem_landlord_list"
+  "schema": "socrata/data.cityofchicago.org", 
+  "status": "needs review", 
+  "table": "problem_landlord_list"
 }

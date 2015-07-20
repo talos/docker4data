@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_colorado_socrata_user_roles/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.colorado.gov/api/views/5v2t-hm4j/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.colorado.gov/api/views/5v2t-hm4j/rows.csv", 
   "description": "Informational dataset explaining Socrata's user roles and the actions that can be performed by users possessing those roles.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -16,34 +12,7 @@
     }
   }, 
   "name": "Socrata User Roles", 
-  "schema": {
-    "columns": [
-      {
-        "name": "action", 
-        "type": "text"
-      }, 
-      {
-        "name": "administrator", 
-        "type": "text"
-      }, 
-      {
-        "name": "publisher", 
-        "type": "text"
-      }, 
-      {
-        "name": "editor", 
-        "type": "text"
-      }, 
-      {
-        "name": "designer", 
-        "type": "text"
-      }, 
-      {
-        "name": "viewer", 
-        "type": "text"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.colorado.gov", 
-  "tableName": "socrata_user_roles"
+  "schema": "socrata/data.colorado.gov", 
+  "status": "needs review", 
+  "table": "socrata_user_roles"
 }

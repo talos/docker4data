@@ -1,9 +1,5 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/socrata_seattle_chief_sealth_trail_north_of_thistle/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.seattle.gov/api/views/uh8h-bme7/rows.csv", 
-    "type": "csv"
-  }, 
+  "data": "http://www.opendatacache.com/data.seattle.gov/api/views/uh8h-bme7/rows.csv", 
   "description": "These sensors counts both people riding bikes and pedestrians. Separate volumes are tallied for each travel mode. Wires in a diamond formation in the concrete detect bikes and an infrared sensor mounted on a wooden post detects pedestrians. The counters also capture the direction of travel for both bikes and pedestrians.", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
@@ -17,34 +13,7 @@
     }
   }, 
   "name": "Chief Sealth Trail North of Thistle", 
-  "schema": {
-    "columns": [
-      {
-        "name": "date", 
-        "type": "timestamp"
-      }, 
-      {
-        "name": "chief_sealth_trl_north_of_thistle_total", 
-        "type": "real"
-      }, 
-      {
-        "name": "ped_south", 
-        "type": "real"
-      }, 
-      {
-        "name": "ped_north", 
-        "type": "real"
-      }, 
-      {
-        "name": "bike_south", 
-        "type": "real"
-      }, 
-      {
-        "name": "bike_north", 
-        "type": "real"
-      }
-    ]
-  }, 
-  "schemaName": "socrata/data.seattle.gov", 
-  "tableName": "chief_sealth_trail_north_of_thistle"
+  "schema": "socrata/data.seattle.gov", 
+  "status": "needs review", 
+  "table": "chief_sealth_trail_north_of_thistle"
 }

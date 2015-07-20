@@ -1,10 +1,7 @@
 {
-  "@id": "https://raw.githubusercontent.com/talos/docker4data/master/data/superbowl_2013_road_closures/data.json", 
-  "data": {
-    "@id": "http://www.opendatacache.com/data.nola.gov/api/geospatial/9zys-nyu9", 
-    "type": "shapefile"
-  }, 
+  "data": "http://www.opendatacache.com/data.nola.gov/api/geospatial/9zys-nyu9", 
   "description": "Downtown road closures for days leading up to Superbowl 2013.", 
+  "load": "ogr2ogr", 
   "maintainer": {
     "@id": "https://github.com/talos/docker4data"
   }, 
@@ -16,7 +13,7 @@
     }
   }, 
   "name": "Superbowl 2013 Road Closures", 
-  "schema": {}, 
-  "schemaName": "socrata/data.nola.gov", 
-  "tableName": "superbowl_2013_road_closures"
+  "schema": "socrata/data.nola.gov", 
+  "status": "needs review", 
+  "table": "superbowl_2013_road_closures"
 }
