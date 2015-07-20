@@ -1,4 +1,4 @@
-CREATE TABLE "contrib"."us_ny_nyc_pluto" (
+CREATE TABLE "us_ny_nyc_pluto" (
   "boroughtext" text,
   "block" integer,
   "lot" integer,
@@ -82,4 +82,3 @@ CREATE TABLE "contrib"."us_ny_nyc_pluto" (
   "plutomapid" integer,
   "version" text
 );
-
