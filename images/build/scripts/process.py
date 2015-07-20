@@ -101,6 +101,10 @@ def get_old_digest(s3_bucket, name):
     if 'metadata_sha1_hexdigest' not in old_headers['Metadata']:
         return None
 
+    if old_headers["ContentLength"] == 0:
+        LOGGER.warn(u"Old ContentLength was 0, forcing re-look")
+        return None
+
     return old_headers['Metadata']['metadata_sha1_hexdigest']
 
 
@@ -136,7 +140,10 @@ LOAD CSV FROM stdin
     except subprocess.CalledProcessError:
         readfile = ''
 
-    shell(u'gosu postgres pv -f {data_path} 2>{pv_log} {readfile} | tail -n +2 | '
+    #sed -r 's/[\x01-\x1F]//g'
+    shell(u'gosu postgres pv -f {data_path} 2>{pv_log} {readfile} | '
+          u''
+          u'tail -n +2 | '
           u'pgloader {options} {pgload_path}'.format(
               pv_log=os.path.join(tmp_path, 'pv.log'),
               readfile=readfile, data_path=data_path, options=options,

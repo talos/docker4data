@@ -30,6 +30,11 @@ echo metadata digest: $METADATA_DIGEST
 DUMP=$TMPDIR/dump
 /scripts/dump.sh $FULLNAME $DUMP
 
+if [ ! -s $TMPDIR/data ]; then
+    echo "WARNING $TMDIR/data is of length 0, aborting"
+    exit 1
+fi
+
 # Calculate data digest from raw gzipped data, as SQL dumps change.
 DATA_DIGEST=$(sha1sum $TMPDIR/data | cut -f 1 -d ' ')
 echo data digest: $DATA_DIGEST
