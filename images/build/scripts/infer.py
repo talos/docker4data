@@ -38,7 +38,7 @@ def extract_namespace(metadata_url, is_proxy=True):
     return netloc
 
 
-def generate_schema(columns):
+def generate_schema(tablename, columns):
     """
     Convert Socrata column definitions to docker4data.
     """
@@ -57,7 +57,9 @@ def generate_schema(columns):
             "name": column[u'fieldName'].lower(),
             "type": _type
         })
-    return result
+    columns = [u'\t"{}"\t{}'.format(c['name'], c['type']) for c in result]
+    return u'CREATE TABLE "{tablename}" (\n{columns}\n);\n'.format(
+        tablename=tablename, columns=',\n'.join(columns))
 
 
 def infer(metadata_url, output_root_dir): #pylint: disable=too-many-branches,too-many-statements,too-many-locals
@@ -162,7 +164,7 @@ def infer(metadata_url, output_root_dir): #pylint: disable=too-many-branches,too
         d4d_metadata[u'description'] = socrata_metadata[u'description']
 
     if data_type == 'csv':
-        schema = generate_schema(socrata_metadata[u'columns'])
+        schema = generate_schema(tablename, socrata_metadata[u'columns'])
     else:
         schema = None
 
