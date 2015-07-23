@@ -13,6 +13,7 @@ Basic docker4data commands:
   d4d ls: List all available datasets
   d4d psql: Launch into postgres
   d4d shell: Drop into a bash prompt inside the container
+  d4d update: Update metadata from git
 
 [todo]
 

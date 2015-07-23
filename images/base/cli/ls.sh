@@ -1,3 +1,3 @@
 #!/bin/bash -e
 
-pushd /docker4data/data && ls -d */*/* && popd
+find /docker4data/data/ -iname data.json | head | sed s:/data.json::

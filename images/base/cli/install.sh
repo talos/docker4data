@@ -6,10 +6,6 @@ DUMPS=http://data.docker4data.com.s3-website-us-east-1.amazonaws.com/sqldump
 
 DATASETS=$@
 
-# Update our local metadata
-info "Updating metadata"
-cd /docker4data && git pull origin master >/dev/null 2>&1 && cd /
-
 # Make sure datasets actually exist
 for DATASET in ${DATASETS}; do
   if [ -e /docker4data/$DATASET ]; then
