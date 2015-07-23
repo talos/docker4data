@@ -32,13 +32,15 @@ def shell(cmd):
         raise
 
 
-def run_script(path, tmp_dir):
+def run_script(path, tmp_dir, schema=None):
     """
     Run some code and executes.  Supported are postgres and bash.
     """
     extension = path.split('.')[-1].lower()
     if extension == 'sql':
-        shell('cd {dirname} && cat {path} | gosu postgres psql'.format(dirname=tmp_dir,
+        shell('export PGOPTIONS="-c search_path=public,\"{schema}\"" && '
+              'cd {dirname} && cat {path} | gosu postgres psql'.format(schema=schema,
+                                                                       dirname=tmp_dir,
                                                                        path=path))
     elif extension == 'sh':
         shell('cd {dirname} && cat {path} | bash'.format(dirname=tmp_dir, path=path))
@@ -217,7 +219,7 @@ def build(metadata_path, s3_bucket, tmp_path):
         shell(u'unzip {} -d {}'.format(data_path, tmp_path))
         ogr2ogr_import(metadata, schema_name, tmp_path)
 
-    run_script(os.path.join(metadata_folder, 'after.sql'), tmp_path)
+    run_script(os.path.join(metadata_folder, 'after.sql'), tmp_path, schema=schema_name)
 
     sys.stdout.write(current_digest)
 

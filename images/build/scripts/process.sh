@@ -35,25 +35,31 @@ if [ ! -s $TMPDIR/data ]; then
     exit 1
 fi
 
-# Calculate data digest from raw gzipped data, as SQL dumps change.
-DATA_DIGEST=$(sha1sum $TMPDIR/data | cut -f 1 -d ' ')
-echo data digest: $DATA_DIGEST
-
 KEY=$SQLDUMP/$FULLNAME
-OLD_DATA_DIGEST=$(aws s3api head-object \
-                  --bucket $S3_BUCKET \
-                  --key $KEY \
-                  | grep \"data_sha1_hexdigest | cut -d '"' -f 4)
-echo old data digest: $OLD_DATA_DIGEST
 
-if [ "$OLD_DATA_DIGEST" == "$DATA_DIGEST" ]; then
-  echo 'updating metadata but not data, as it has not changed'
-  aws s3api put-object \
-    --acl public-read \
-    --bucket $S3_BUCKET \
-    --key $KEY \
-    --metadata "metadata_sha1_hexdigest=$METADATA_DIGEST,data_sha1_hexdigest=$DATA_DIGEST"
-else
+# TODO currently disabled the data digest check, as it's possible that a
+# meaningful change occurred in the dump (format shift, for example) without
+# a change in the underlying data.
+
+# # Calculate data digest from raw gzipped data, as SQL dumps change.
+# DATA_DIGEST=$(sha1sum $TMPDIR/data | cut -f 1 -d ' ')
+# echo data digest: $DATA_DIGEST
+# 
+# 
+# OLD_DATA_DIGEST=$(aws s3api head-object \
+#                   --bucket $S3_BUCKET \
+#                   --key $KEY \
+#                   | grep \"data_sha1_hexdigest | cut -d '"' -f 4)
+# echo old data digest: $OLD_DATA_DIGEST
+# 
+# if [ "$OLD_DATA_DIGEST" == "$DATA_DIGEST" ]; then
+#   echo 'updating metadata but not data, as it has not changed'
+#   aws s3api put-object \
+#     --acl public-read \
+#     --bucket $S3_BUCKET \
+#     --key $KEY \
+#     --metadata "metadata_sha1_hexdigest=$METADATA_DIGEST,data_sha1_hexdigest=$DATA_DIGEST"
+# else
   echo 'uploading new data'
   aws s3api put-object \
     --acl public-read \
@@ -61,7 +67,7 @@ else
     --key $KEY \
     --metadata "metadata_sha1_hexdigest=$METADATA_DIGEST,data_sha1_hexdigest=$DATA_DIGEST" \
     --body $DUMP
-fi
+# fi
 
 #echo removing data from $TMPDIR
 #rm -rf $TMPDIR
