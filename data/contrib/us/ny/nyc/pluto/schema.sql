@@ -1,4 +1,4 @@
-CREATE TABLE "us_ny_nyc_pluto" (
+CREATE TABLE "pluto" (
   "boroughtext" text,
   "block" integer,
   "lot" integer,
