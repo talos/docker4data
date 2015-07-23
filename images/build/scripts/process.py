@@ -150,20 +150,19 @@ LOAD CSV FROM stdin
               pgload_path=pgload_path))
 
 
-def ogr2ogr_import(schema, tmp_dir):
+def ogr2ogr_import(metadata, schema, tmp_dir):
     """
     Use ogr2ogr to load a shapefile into the database.
     """
     path = shell(u'ls {}/*/*.shp'.format(tmp_dir))
     name = u'.'.join(path.split(os.path.sep)[-1].split('.')[0:-1]).lower()
-    schema_name = schema.get('schema', 'contrib')
     shell(u'gosu postgres ogr2ogr -nlt GEOMETRY -t_srs EPSG:4326 -overwrite '
           u'-f "PostgreSQL" PG:dbname=postgres {path}'.format(path=path))
     shell(u"gosu postgres psql -c 'ALTER TABLE \"{name}\" SET SCHEMA \"{schema}\"'".format(
-        name=name, schema=schema_name))
+        name=name, schema=schema))
     shell(u"gosu postgres psql -c 'ALTER TABLE \"{schema}\".\"{name}\" "
           u"RENAME TO \"{dataset_name}\"'".format(
-              schema=schema_name, name=name, dataset_name=schema['table']))
+              schema=schema, name=name, dataset_name=metadata['table']))
 
 
 def build(metadata_path, s3_bucket, tmp_path):
@@ -180,7 +179,8 @@ def build(metadata_path, s3_bucket, tmp_path):
 
     metadata_folder = os.path.dirname(metadata_path)
     dataset_name = metadata[u'table']
-    schema_name = metadata.get(u'schema', u'contrib')
+    schema_name = '/'.join(metadata_path.split('/')[3:-2])
+
     current_digest = get_current_digest(metadata)
     old_digest = get_old_digest(s3_bucket, u'/'.join([schema_name, dataset_name]))
 
@@ -215,7 +215,7 @@ def build(metadata_path, s3_bucket, tmp_path):
 
     elif load_type == 'ogr2ogr':
         shell(u'unzip {} -d {}'.format(data_path, tmp_path))
-        ogr2ogr_import(metadata, tmp_path)
+        ogr2ogr_import(metadata, schema_name, tmp_path)
 
     run_script(os.path.join(metadata_folder, 'after.sql'), tmp_path)
 

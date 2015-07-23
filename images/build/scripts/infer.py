@@ -131,7 +131,8 @@ def infer(metadata_url, output_root_dir): #pylint: disable=too-many-branches,too
 
     d4d_metadata[u"name"] = socrata_metadata[u'name']
     d4d_metadata[u"table"] = tablename
-    d4d_metadata[u"schema"] = namespace
+    if u"schema" in d4d_metadata:
+        del d4d_metadata[u"schema"]
 
     if data_type == u"href":
         if data_url.endswith(".xml"):
