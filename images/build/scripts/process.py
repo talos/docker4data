@@ -203,21 +203,25 @@ def build(metadata_path, s3_bucket, tmp_path):
     shell("gosu postgres psql -c 'DROP TABLE IF EXISTS \"{}\".\"{}\"'".format(
         schema_name, dataset_name))
 
-    data_path = wget_download(metadata[u'data'], 'data', tmp_path)
+    if 'data' in metadata:
+        data_path = wget_download(metadata[u'data'], 'data', tmp_path)
+    else:
+        data_path = None
 
     run_script(os.path.join(metadata_folder, 'before.sh'), tmp_path)
     run_script(os.path.join(metadata_folder, 'schema.sql'), tmp_path)
 
     load_type = metadata.get('load', 'pgloader')
     LOGGER.warn(load_type)
-    if load_type == 'pgloader':
-        pgload_import(metadata, data_path, tmp_path)
-        shell(u"gosu postgres psql -c 'ALTER TABLE \"{table}\" SET SCHEMA \"{schema}\"'".format(
-            table=dataset_name, schema=schema_name))
+    if data_path:
+        if load_type == 'pgloader':
+            pgload_import(metadata, data_path, tmp_path)
+            shell(u"gosu postgres psql -c 'ALTER TABLE \"{table}\" SET SCHEMA \"{schema}\"'".format(
+                table=dataset_name, schema=schema_name))
 
-    elif load_type == 'ogr2ogr':
-        shell(u'unzip {} -d {}'.format(data_path, tmp_path))
-        ogr2ogr_import(metadata, schema_name, tmp_path)
+        elif load_type == 'ogr2ogr':
+            shell(u'unzip {} -d {}'.format(data_path, tmp_path))
+            ogr2ogr_import(metadata, schema_name, tmp_path)
 
     run_script(os.path.join(metadata_folder, 'after.sql'), tmp_path, schema=schema_name)
 

@@ -4,7 +4,7 @@
 # https://github.com/talos/docker4data
 #
 
-FROM thegovlab/docker4data
+FROM thegovlab/docker4data:latest
 MAINTAINER John Krauss <irving.krauss@gmail.com>
 
 ENV PATH /usr/lib/postgresql/9.4/bin:$PATH
