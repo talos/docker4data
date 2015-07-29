@@ -1,7 +1,3 @@
-CREATE INDEX master_idx ON "socrata/data.cityofnewyork.us".acris_real_property_master (document_id, good_through_date);
-CREATE INDEX legals_idx ON "socrata/data.cityofnewyork.us".acris_real_property_legals (document_id, good_through_date);
-CREATE INDEX parties_idx ON "socrata/data.cityofnewyork.us".acris_real_property_parties (document_id, good_through_date);
-
 CREATE TABLE deeds_master
 AS
 SELECT DISTINCT (
@@ -44,7 +40,6 @@ WHERE (CASE substr(p.document_id, 0, 3)
       m.good_through_date = p.good_through_date AND
       SUBSTR(p.document_id, 4) ~ '^[0-9]+$' AND
       dcc.doc__type = m.doc_type;
-
 CREATE INDEX deeds_parties_docid ON deeds_parties (document_id);
 
 CREATE TABLE deeds_legals
@@ -60,18 +55,13 @@ FROM "socrata/data.cityofnewyork.us".acris_real_property_legals l,
           WHEN 'BK' THEN '000' || substr(l.document_id, 4)
           ELSE l.document_id END)::BIGINT = m.document_id AND
       m.good_through_date = l.good_through_date;
-
 CREATE INDEX deeds_legals_docid ON deeds_legals (document_id);
 
 CREATE VIEW deeds AS
 SELECT m.*, l.easement, l.partial_lot, l.air_rights, l.subterranean_rights,
        l.property_type, l.addr_unit, party_type,
-      p.name, p.addr1, p.addr2, p.country, p.city, p.state, p.zip, pluto.*
-FROM deeds_legals l, deeds_master m, deeds_parties p, pluto
+      p.name, p.addr1, p.addr2, p.country, p.city, p.state, p.zip, pl.*
+FROM deeds_legals l, deeds_master m, deeds_parties p, "contrib/us/ny/nyc".pluto pl
 WHERE
 l.document_id = m.document_id AND m.document_id = p.document_id AND
-l.bbl = pluto.bbl;
-
-DROP TABLE "socrata/data.cityofnewyork.us".acris_real_property_master;
-DROP TABLE "socrata/data.cityofnewyork.us".acris_real_property_legals;
-DROP TABLE "socrata/data.cityofnewyork.us".acris_real_property_parties;
+l.bbl = pl.bbl;
