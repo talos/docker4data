@@ -13,6 +13,7 @@ import subprocess
 import hashlib
 import json
 import logging
+import re
 
 LOGGER = logging.getLogger(__name__)
 LOGGER.setLevel(logging.INFO)
@@ -156,10 +157,14 @@ def ogr2ogr_import(metadata, schema, tmp_dir):
     """
     Use ogr2ogr to load a shapefile into the database.
     """
-    path = shell(u'ls {}/*/*.shp'.format(tmp_dir))
-    name = u'.'.join(path.split(os.path.sep)[-1].split('.')[0:-1]).lower()
-    shell(u'gosu postgres ogr2ogr -nlt GEOMETRY -t_srs EPSG:4326 -overwrite '
-          u'-f "PostgreSQL" PG:dbname=postgres {path}'.format(path=path))
+    ogr_options = u' '.join(metadata.get('ogr2ogr', []))
+    options = metadata.get('options', {})
+    paths = shell(u'ls {}/*/{}'.format(tmp_dir, options.get('shapefile', '*.shp')))
+    for path in re.split(r'\s+', paths):
+        name = u'.'.join(path.split(os.path.sep)[-1].split('.')[0:-1]).lower()
+        shell(u'gosu postgres ogr2ogr -nlt GEOMETRY {options} -t_srs EPSG:4326 -append '
+              u'-f "PostgreSQL" PG:dbname=postgres {path}'.format(options=ogr_options,
+                                                                  path=path))
     shell(u"gosu postgres psql -c 'ALTER TABLE \"{name}\" SET SCHEMA \"{schema}\"'".format(
         name=name, schema=schema))
     shell(u"gosu postgres psql -c 'ALTER TABLE \"{schema}\".\"{name}\" "
@@ -167,7 +172,7 @@ def ogr2ogr_import(metadata, schema, tmp_dir):
               schema=schema, name=name, dataset_name=metadata['table']))
 
 
-def build(metadata_path, s3_bucket, tmp_path):
+def build(metadata_path, s3_bucket, tmp_path):  #pylint: disable=too-many-locals
     """
     Main function.  Takes the URL of the data.json spec.
 
@@ -203,17 +208,21 @@ def build(metadata_path, s3_bucket, tmp_path):
     shell("gosu postgres psql -c 'DROP TABLE IF EXISTS \"{}\".\"{}\"'".format(
         schema_name, dataset_name))
 
-    if 'data' in metadata:
-        data_path = wget_download(metadata[u'data'], 'data', tmp_path)
-    else:
-        data_path = None
+    if u'data' in metadata:
+        if isinstance(metadata[u'data'], list):
+            data_paths = []
+            for i, data_url in enumerate(metadata[u'data']):
+                data_paths.append(wget_download(data_url, 'data{}'.format(i), tmp_path))
+        else:
+            data_paths = [wget_download(metadata[u'data'], 'data', tmp_path)]
 
     run_script(os.path.join(metadata_folder, 'before.sh'), tmp_path)
     run_script(os.path.join(metadata_folder, 'schema.sql'), tmp_path)
 
     load_type = metadata.get('load', 'pgloader')
     LOGGER.warn(load_type)
-    if data_path:
+    LOGGER.warn(data_paths)
+    for data_path in data_paths:
         if load_type == 'pgloader':
             pgload_import(metadata, data_path, tmp_path)
             shell(u"gosu postgres psql -c 'ALTER TABLE \"{table}\" SET SCHEMA \"{schema}\"'".format(

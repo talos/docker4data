@@ -1,0 +1,18 @@
+{
+  "data": [
+    "http://www.nyc.gov/html/dcp/download/bytes/bk_mappluto_15v1.zip",
+    "http://www.nyc.gov/html/dcp/download/bytes/bx_mappluto_15v1.zip",
+    "http://www.nyc.gov/html/dcp/download/bytes/mn_mappluto_15v1.zip",
+    "http://www.nyc.gov/html/dcp/download/bytes/qn_mappluto_15v1.zip",
+    "http://www.nyc.gov/html/dcp/download/bytes/si_mappluto_15v1.zip"
+  ],
+  "table": "mappluto",
+  "load": "ogr2ogr",
+  "options": {
+    "shapefile": "*MapPLUTO.shp"
+  },
+  "ogr2ogr": [
+    "-s_srs EPSG:2263",
+    "-skipfailures"
+  ]
+}
