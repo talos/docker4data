@@ -208,6 +208,7 @@ def build(metadata_path, s3_bucket, tmp_path):  #pylint: disable=too-many-locals
     shell("gosu postgres psql -c 'DROP TABLE IF EXISTS \"{}\".\"{}\"'".format(
         schema_name, dataset_name))
 
+    data_paths = []
     if u'data' in metadata:
         if isinstance(metadata[u'data'], list):
             data_paths = []
@@ -220,8 +221,6 @@ def build(metadata_path, s3_bucket, tmp_path):  #pylint: disable=too-many-locals
     run_script(os.path.join(metadata_folder, 'schema.sql'), tmp_path)
 
     load_type = metadata.get('load', 'pgloader')
-    LOGGER.warn(load_type)
-    LOGGER.warn(data_paths)
     for data_path in data_paths:
         if load_type == 'pgloader':
             pgload_import(metadata, data_path, tmp_path)

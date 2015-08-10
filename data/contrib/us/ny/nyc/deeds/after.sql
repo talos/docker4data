@@ -57,10 +57,10 @@ FROM "socrata/data.cityofnewyork.us".acris_real_property_legals l,
       m.good_through_date = l.good_through_date;
 CREATE INDEX deeds_legals_docid ON deeds_legals (document_id);
 
-CREATE MATERIALIZED VIEW deeds AS
+CREATE TABLE deeds AS
 SELECT m.*, l.easement, l.partial_lot, l.air_rights, l.subterranean_rights,
        l.property_type, l.addr_unit, party_type,
-      p.name, p.addr1, p.addr2, p.country, p.city, p.state, p.zip, pl.cd,
+      p.name, p.addr1, p.addr2, p.country, p.city, p.state, p.zip, pl.bbl, pl.cd,
       pl.ct2010, pl.cb2010, pl.council, pl.zipcode, pl.address, pl.unitsres,
       pl.unitstotal, pl.yearbuilt, pl.condono, pl.geom
 FROM deeds_legals l, deeds_master m, deeds_parties p, "contrib/us/ny/nyc".pluto pl
