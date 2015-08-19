@@ -1,4 +1,4 @@
-CREATE TABLE nyc_stabilization_unit_counts (
+CREATE TABLE stabilization_unit_counts (
     borough text,
     ucbbl bigint,
     "2007uc" integer,
