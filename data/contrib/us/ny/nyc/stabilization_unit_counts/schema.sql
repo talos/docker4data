@@ -1,4 +1,4 @@
-CREATE UNLOGGED TABLE talos_nyc_stabilization_unit_counts (
+CREATE TABLE nyc_stabilization_unit_counts (
     borough text,
     ucbbl bigint,
     "2007uc" integer,
@@ -39,8 +39,6 @@ CREATE UNLOGGED TABLE talos_nyc_stabilization_unit_counts (
     yearbuilt integer,
     condono integer,
     xcoord integer,
-    ycoord integer
+    ycoord integer,
+    PRIMARY KEY (ucbbl)
 );
-
-ALTER TABLE ONLY joined
-    ADD CONSTRAINT joined_pkey PRIMARY KEY (ucbbl);
