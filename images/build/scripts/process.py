@@ -115,15 +115,22 @@ def pgload_import(metadata, data_path, tmp_path):
     """
     Import a dataset via pgload.
     """
-    options = u' '.join(
-        [u'--{} "{}"'.format(x.keys()[0], x.values()[0]) for x in metadata.get('options', [])]
-    )
+    #options = u' '.join(
+    #    [u'--{} "{}"'.format(x.keys()[0], x.values()[0]) for x in metadata.get('options', [])]
+    #)
 
-    #if u'--with "fields terminated by' not in options:
+    #if u'fields terminated by' not in options:
     #    options += u' --with "fields terminated by \',\'" '
 
     #if u'--with "skip header' not in options:
     #    options += u' --with "skip header = 2" '
+
+    options = metadata.get('options', [])
+    if options:
+        options = 'WITH {}'.format(',\n\t'.join(options))
+    else:
+        # TODO these should be additive
+        options = "WITH fields terminated by ',', skip header = 2"
 
     pgload_path = os.path.join(tmp_path, 'pgloader.load')
     tablename = metadata['table']
@@ -131,11 +138,10 @@ def pgload_import(metadata, data_path, tmp_path):
         pgload.write('''
 LOAD CSV FROM stdin
   INTO postgresql://postgres@localhost/postgres?tablename={table}
-  WITH fields terminated by ',',
-       skip header = 2
+  {options}
   SET work_mem to '64MB',
       maintenance_work_mem to '128MB';
-'''.format(table=tablename))
+'''.format(options=options, table=tablename))
 
     try:
         shell(u'gunzip -c --test {data_path}'.format(data_path=data_path))
@@ -147,9 +153,9 @@ LOAD CSV FROM stdin
     shell(u'gosu postgres pv -f {data_path} 2>{pv_log} {readfile} | '
           u''
           u'tail -n +2 | '
-          u'pgloader {options} {pgload_path}'.format(
+          u'pgloader {pgload_path}'.format(
               pv_log=os.path.join(tmp_path, 'pv.log'),
-              readfile=readfile, data_path=data_path, options=options,
+              readfile=readfile, data_path=data_path,
               pgload_path=pgload_path))
 
 
@@ -224,12 +230,13 @@ def build(metadata_path, s3_bucket, tmp_path):  #pylint: disable=too-many-locals
     for data_path in data_paths:
         if load_type == 'pgloader':
             pgload_import(metadata, data_path, tmp_path)
-            shell(u"gosu postgres psql -c 'ALTER TABLE \"{table}\" SET SCHEMA \"{schema}\"'".format(
-                table=dataset_name, schema=schema_name))
 
         elif load_type == 'ogr2ogr':
             shell(u'unzip {} -d {}'.format(data_path, tmp_path))
             ogr2ogr_import(metadata, schema_name, tmp_path)
+
+    shell(u"gosu postgres psql -c 'ALTER TABLE \"{table}\" SET SCHEMA \"{schema}\"'".format(
+        table=dataset_name, schema=schema_name))
 
     run_script(os.path.join(metadata_folder, 'after.sql'), tmp_path, schema=schema_name)
 

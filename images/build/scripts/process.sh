@@ -15,7 +15,6 @@ SQLDUMP=sqldump
 FULLNAME=$1
 
 PWD=$(pwd)
-#TMPDIR=$(mktemp -d /tmp/docker4data-build.XXXX)
 TMPDIR=/tmp/$FULLNAME
 rm -rf $TMPDIR
 mkdir -p $TMPDIR
@@ -30,8 +29,8 @@ echo metadata digest: $METADATA_DIGEST
 DUMP=$TMPDIR/dump
 /scripts/dump.sh $FULLNAME $DUMP
 
-if [ ! -s $TMPDIR/data ]; then
-    echo "WARNING $TMDIR/data is of length 0, aborting"
+if [ ! -s $DUMP ]; then
+    echo "WARNING $DUMP is of length 0, aborting"
     exit 1
 fi
 
