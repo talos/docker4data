@@ -46,7 +46,7 @@ for DATASET in ${DATASETS}; do
   gosu postgres psql -c "CREATE SCHEMA IF NOT EXISTS \"$SCHEMA\";" >/dev/null 2>&1
   gosu postgres psql -c "DROP TABLE IF EXISTS \"$SCHEMA\".\"$DATASET\";" >/dev/null 2>&1
   wget --progress=bar:force -O - $DUMPS/$DATASET 2>/$DATASET/wget.log | \
-    gosu postgres pg_restore -d postgres > /$DATASET/out.log 2>/$DATASET/err.log &
+    gosu postgres pg_restore --no-tablespaces -d postgres > /$DATASET/out.log 2>/$DATASET/err.log &
 done
 
 # Progress view

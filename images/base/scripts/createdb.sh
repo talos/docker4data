@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-export PGDATA=/data
+export PGDATA=/var/lib/postgresql/data
 export POSTGRES_USER=postgres
 
 mkdir "$PGDATA"

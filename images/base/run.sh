@@ -1,8 +1,9 @@
 #!/bin/bash -e
 
-docker rm -f docker4data
+docker rm -f docker4data || :
 docker run -p 54321:5432 -d \
-  -v $(pwd)/cli:/cli \
+  -v ${PWD}/cli:/cli \
+  -v ${HOME}/.d4d/data:/data/ \
   --name docker4data \
   -e TERM=$TERM \
   thegovlab/docker4data:latest \

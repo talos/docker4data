@@ -52,14 +52,15 @@ RUN echo "===> install postgres" && \
   rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 RUN mkdir -p /var/run/postgresql && chown -R postgres /var/run/postgresql
+RUN mkdir -p /data && chown -R postgres /data
 
 RUN /scripts/createdb.sh
 
 RUN echo "===> install postgis" && \
-    gosu postgres pg_ctl -D /data -w start && \
+    gosu postgres pg_ctl -D /var/lib/postgresql/data -w start && \
     gosu postgres psql < /usr/share/postgresql/9.4/contrib/postgis-2.1/postgis.sql && \
     gosu postgres psql < /usr/share/postgresql/9.4/contrib/postgis-2.1/spatial_ref_sys.sql && \
-    gosu postgres pg_ctl -D /data stop
+    gosu postgres pg_ctl -D /var/lib/postgresql/data stop
 
 #apt-get remove -y freetds-dev openssl ca-certificates \
 #  apt-transport-https
