@@ -8,7 +8,11 @@ else
   echo "Pulling image for $IMAGE"
   docker pull $IMAGE:latest
 fi
+
+mkdir -p ~/.d4d/data
+
 docker run -p 54321:5432 -e TERM=$TERM \
+  --volume ${HOME}/.d4d/data:/data \
   -d --name docker4data thegovlab/docker4data:latest \
   /bin/bash -c /scripts/docker-entrypoint.sh 2>/dev/null || :
 
